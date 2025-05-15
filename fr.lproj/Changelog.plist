@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>2.2.0</key>
+	<array>
+		<dict>
+			<key>Title</key>
+			<string>Ajustement du solde amélioré</string>
+			<key>Description</key>
+			<string>Lorsque tu modifies manuellement ton solde bancaire, une transaction est maintenant créée automatiquement – pour que ton historique reste précis et intact.</string>
+			<key>IconName</key>
+			<string>building.columns</string>
+			<key>IconColor</key>
+			<string>#00a38b</string>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>Personnalisation pour les Icônes</string>
+			<key>Description</key>
+			<string>Tu peux maintenant utiliser tes propres images comme icônes – que ce soit le logo de ta banque pour les comptes ou des photos personnelles pour les catégories.</string>
+			<key>IconName</key>
+			<string>photo.on.rectangle.angled</string>
+			<key>IconColor</key>
+			<string>#007aff</string>
+		</dict>
+	</array>
+</dict>
+</plist>

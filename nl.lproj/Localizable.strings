@@ -1,0 +1,2016 @@
+/*
+  Localizable.strings
+  BudgetFlow
+
+  Created by Fabian Hasse on 19.05.20.
+  Copyright © 2020 Fabian Hasse. All rights reserved.
+*/
+
+/* MARK: - General */
+"app_name" = "Budget Flow";
+
+"feedback_quick_action_title" = "Feedback";
+"feedback_quick_action_subtitle" = "Klik hier om feedback te geven over de app.";
+"income_quick_action_title" = "Nieuw inkomen";
+"expense_quick_action_title" = "Nieuwe uitgave";
+"transfer_quick_action_title" = "Nieuwe overdracht";
+"recurring_quick_action_title" = "Terugkerend";
+
+
+/* MARK: - Miscellaneous */
+"face_id" = "Face ID";
+"touch_id" = "Touch ID";
+"required" = "Vereist";
+"optional" = "Optioneel";
+"uncategorized" = "Niet gecategoriseerd";
+"before" = "voor";
+"account_reconcilation" = "Rekeningafstemming";
+
+
+/* MARK: - Enums */
+"account_type_cash" = "Contant geld";
+"account_type_payment" = "Betaalrekening";
+"account_type_savings" = "Spaarrekening";
+"account_type_credit_card" = "Creditcard";
+"account_type_investment" = "Investering";
+"account_type_precaution" = "Voorzorg";
+"account_type_liability" = "Verplichtingen";
+"account_type_business" = "Zakelijke rekening";
+
+"account_type_payment_plural" = "Betaalrekeningen";
+"account_type_savings_plural" = "Spaarrekeningen";
+"account_type_credit_card_plural" = "Creditcards";
+"account_type_investment_plural" = "Investeringen";
+"account_type_precaution_plural" = "Voorzorg";
+"account_type_liability_plural" = "Verplichtingen";
+"account_type_business_plural" = "Zakelijke accounts";
+
+"transaction_type_income" = "Inkomen";
+"transaction_type_expense" = "Uitgaven";
+"transaction_type_transfer" = "Overboeking";
+
+"transaction_type_income_plural" = "Inkomen";
+"transaction_type_expense_plural" = "Uitgaven";
+"transaction_type_transfer_plural" = "Overboekingen";
+
+"payment_status" = "Status";
+"payment_status_completed" = "Voltooid";
+"payment_status_pending" = "In behandeling";
+
+"attachment_type_image" = "Foto";
+"attachment_type_image_plural" = "Foto's";
+"attachment_type_document" = "Document";
+"attachment_type_document_plural" = "Documenten";
+
+"period_type_month" = "Maand";
+"period_type_year" = "Jaar";
+"period_type_custom" = "Datum";
+
+"sort_type_alphabetically" = "Alfabetisch";
+"sort_type_date" = "Datum";
+"sort_type_amount" = "Bedrag";
+"sort_type_type" = "Type";
+
+"sort_option_ascending" = "Oplopend";
+"sort_option_descending" = "Aflopend";
+
+"group_option_day" = "Dag";
+"group_option_month" = "Maand";
+"group_option_account" = "Account";
+"group_option_category" = "Categorie";
+"group_option_category_group" = "Map";
+"group_option_type" = "Type";
+"group_option_payee" = "Begunstigde";
+"group_option_repetition_frequency" = "Interval";
+
+"date_repetition_frequency_never" = "Nooit";
+"date_repetition_frequency_daily" = "Dagelijks";
+"date_repetition_frequency_weekly" = "Wekelijks";
+"date_repetition_frequency_everyTwoWeeks" = "Elke 2 weken";
+"date_repetition_frequency_everyThreeWeeks" = "Elke 3 weken";
+"date_repetition_frequency_everyFourWeeks" = "Elke 4 weken";
+"date_repetition_frequency_monthly" = "Maandelijks";
+"date_repetition_frequency_everyTwoMonths" = "Elke 2 maanden";
+"date_repetition_frequency_everyThreeMonths" = "Driemaandelijks";
+"date_repetition_frequency_everySixMonths" = "Halfjaarlijks";
+"date_repetition_frequency_yearly" = "Jaarlijks";
+"date_repetition_frequency_custom" = "Aangepast";
+
+"csv_transaction_type_automatic" = "Automatisch";
+"csv_transaction_type_income" = "Inkomen";
+"csv_transaction_type_expenses" = "Uitgaven";
+
+"passcode_type_four_digits" = "Viercijferige numerieke toegangscode";
+"passcode_type_six_digits" = "Zescijferige numerieke toegangscode";
+"passcode_type_custom_numeric" = "Aangepaste numerieke code";
+"passcode_type_custom_alphanumeric" = "Aangepaste alfanumerieke code";
+
+"auto_lock_time_type_immediately" = "Onmiddellijk";
+"auto_lock_time_type_after_one_minute" = "Na 1 minuut";
+"auto_lock_time_type_after_five_minutes" = "Na 5 minuten";
+"auto_lock_time_type_after_fifteen_minutes" = "Na 15 minuten";
+"auto_lock_time_type_after_one_hour" = "Na 1 uur";
+"auto_lock_time_type_after_four_hours" = "Na 4 uur";
+
+"widget_type_chart_stack" = "Grafieken";
+"widget_type_suggestions" = "Suggesties";
+"widget_type_distribution" = "Distributie";
+"widget_type_balance" = "Saldo";
+"widget_type_savings_rate" = "Opgeslagen";
+"widget_type_upcoming_transactions" = "Gepland";
+"widget_type_participants" = "Mensen";
+"widget_type_budget" = "Budget";
+"widget_type_pending_transactions" = "In behandeling";
+"widget_type_total_assets" = "Activiteiten";
+"widget_type_forecast" = "Voorspelling";
+
+"chart_type_bar" = "Staafdiagram";
+"chart_type_pie" = "Cirkeldiagram";
+
+"category_chart_data_type_category" = "Categorie";
+"category_chart_data_type_category_group" = "Map";
+
+"product_type_individual" = "Individueel";
+"product_type_family" = "Familie";
+
+"subscription_period_day" = "Dag";
+"subscription_period_days" = "dagen";
+"subscription_period_month" = "Maand";
+"subscription_period_months" = "Maanden";
+"subscription_period_year" = "jaar";
+"subscription_period_years" = "Jaren";
+
+"overview_period_type_current_week" = "Deze week";
+
+"quick_action_type_new_income" = "Nieuw inkomen";
+"quick_action_type_new_expense" = "Nieuwe uitgave";
+"quick_action_type_new_transfer" = "Nieuwe overdracht";
+"quick_action_type_new_recurring" = "Terugkerend";
+
+"suggestion_type_add_income_transaction" = "Nieuw inkomen";
+"suggestion_type_add_expense_transaction" = "Nieuwe uitgave";
+
+"user_interface_style_system" = "Systeem";
+"user_interface_style_light" = "Licht";
+"user_interface_style_dark" = "Donker";
+
+"transaction_title_type_category" = "Categorie";
+"transaction_title_type_payee" = "Begunstigde";
+"transaction_title_type_notes" = "Notities";
+
+"transaction_subtitle_type_none" = "Geen";
+"transaction_subtitle_type_category" = "Categorie";
+"transaction_subtitle_type_payee" = "Begunstigde";
+"transaction_subtitle_type_notes" = "Notities";
+
+
+/* MARK: - Custom Date Repetition */
+"frequency" = "Frequentie";
+
+"every" = "Elke";
+"every_day" = "Elke";
+"every_week" = "Elke";
+"every_month" = "Elke";
+"every_year" = "Elke";
+"every_day_plural" = "Elke";
+"every_week_plural" = "Elke";
+"every_month_plural" = "Elke";
+"every_year_plural" = "Elke";
+
+"each" = "Elke";
+"on_the" = "Op de...";
+"days_of_week" = "Dagen van de week";
+"last_day" = "Laatste dag";
+
+"daily" = "Dagelijks";
+"weekly" = "Wekelijks";
+"monthly" = "Maandelijks";
+"yearly" = "Jaarlijks";
+
+"first" = "1.";
+"second" = "2.";
+"third" = "3.";
+"fourth" = "4.";
+"fifth" = "5.";
+"last" = "laatste";
+
+
+/* MARK: - Menu Bar */
+"accounts_menu_title" = "Rekeningen";
+"show_accounts_menu_title" = "Toon alle accounts";
+"budgets_menu_title" = "Budgetten";
+"show_budgets_menu_title" = "Toon alle budgetten";
+"transactions_menu_title" = "Transacties";
+"show_all_transactions_menu_title" = "Toon alle transacties";
+"show_recurring_transactions_menu_title" = "Toon periodieke transacties";
+"show_upcoming_transactions_menu_title" = "Toon geplande transacties";
+
+
+/* MARK: - Sidebar Menu */
+"menu" = "Menu";
+"menu_accounts_section" = "Rekeningen";
+"menu_categories_section" = "Categorieën";
+"menu_selected_budget_book_title" = "Geselecteerd";
+
+
+/* MARK: - Tabs */
+"dashboard_tab" = "Overzicht";
+"transactions_tab" = "Transacties";
+"budgets_tab" = "Budgetten";
+"settings_tab" = "Instellingen";
+
+
+/* MARK: - Buttons */
+"add_button" = "Toevoegen";
+"edit_button" = "Bewerken";
+"copy_button" = "Kopiëren";
+"edit_account_button" = "Account bewerken";
+"edit_category_button" = "Categorie bewerken";
+"edit_payee_button" = "Begunstigde bewerken";
+"edit_tag_button" = "Tag bewerken";
+"edit_budget_button" = "Budget bewerken";
+"multi_selection_button" = "Meervoudige selectie";
+"back_button" = "Terug";
+"done_button" = "Klaar";
+"save_button" = "Opslaan";
+"import_button" = "Importeren";
+"unlock_button" = "Ontgrendelen";
+"cancel_button" = "Annuleren";
+"close_button" = "Sluiten";
+"delete_button" = "Verwijderen";
+"end_repetition_button" = "Herhaling beëindigen";
+"reset_button" = "Resetten";
+"apply_button" = "Toepassen";
+"yes_button" = "Ja";
+"no_button" = "Nee";
+"ok_button" = "OK";
+"faq_button" = "FAQ";
+"create_reminder_button" = "Maak herinnering";
+"remove_reminder_button" = "Herinnering verwijderen";
+"do_not_show_again_button" = "Niet meer tonen";
+"mark_as_paid_button" = "Betaling voltooid";
+"mark_as_pending_button" = "Betaling in behandeling";
+"show_contra_entry_button" = "Toon tellerinvoer";
+
+"save_changes_button" = "Wijzigingen opslaan";
+"discard_changes_button" = "Wijzigingen negeren";
+
+"show_help_center_button" = "Helpcentrum (🇬🇧)";
+"contact_developer_button" = "Contact opnemen met ontwikkelaar";
+
+"filter_button" = "Filteren";
+"sort_button" = "Sorteren";
+"sort_categories_button" = "Categorieën sorteren";
+"sort_category_groups_button" = "Mappen sorteren";
+"group_button" = "Groep";
+"configure_button" = "Configureren";
+
+"show_filter_button" = "Toon filter";
+
+"show_amount_values_button" = "Toon bedragen";
+"hide_amount_values_button" = "Bedragen verbergen";
+
+"take_photo_button" = "Foto maken";
+"add_photo_button" = "Selecteer foto's";
+"add_document_button" = "Selecteer documenten";
+"scan_receipt_button" = "Scanbon";
+
+"open_button" = "Openen";
+"open_folder_button" = "Openen map";
+"open_in_browser_button" = "Openen in browser";
+
+"show_more_button" = "Toon meer";
+"show_less_button" = "Minder weergeven";
+
+"add_category_button" = "Nieuwe categorie";
+"add_category_group_button" = "Nieuwe map";
+
+"add_income_transaction_button" = "Nieuw inkomen";
+"add_expense_transaction_button" = "Nieuwe uitgave";
+"add_transfer_transaction_button" = "Nieuwe overschrijving";
+
+"manage_budget_books_button" = "Beheer budgetboeken";
+"select_budget_book_button" = "Selecteer budgetboek";
+"edit_budget_book_button" = "Begrotingsboek bewerken";
+
+"continue_button" = "Doorgaan";
+"skip_button" = "Overslaan";
+"accept_button" = "Accepteren";
+"get_started_button" = "Aan de slag";
+
+"show_transactions_button" = "Toon transacties";
+"show_in_app_store_button" = "Weergeven in App Store";
+
+"learn_more" = "Meer informatie";
+
+
+/* MARK: - Share View */
+/* Titles */
+"share_title" = "Delen";
+
+/* Alert Views */
+"alert_sync_shares_in_progress_title" = "Synchroniseren...";
+"alert_sync_shares_in_progress_message" = "Uw budgetboeken worden gesynchroniseerd met iCloud, zodat u toegang krijgt tot de gedeelde inhoud. Even geduld...";
+"alert_cloud_share_quota_exceeded_error_message" = "Kan het delen niet voltooien omdat er niet genoeg ruimte is in uw iCloud. Maak wat ruimte vrij en probeer het opnieuw.";
+"alert_cloud_share_unknown_error_message" = "Kan het delen niet voltooien omdat er een fout is opgetreden. Er is waarschijnlijk niet genoeg ruimte beschikbaar in uw iCloud. Maak wat ruimte vrij en probeer het opnieuw.";
+
+
+/* MARK: - Search View */
+/* Titles */
+"search_title" = "Zoeken";
+"filter_title" = "Filteren";
+
+/* Sections */
+"search_text_section_title" = "Zoektekst";
+"search_suggestions_section_title" = "Suggesties";
+
+
+/* MARK: - Period Selection View */
+/* Titles */
+"period_selection_title" = "Periode";
+"period_selection_current_year_title" = "Huidig ​​jaar";
+"period_selection_current_month_title" = "Huidige maand";
+
+/* Items */
+"from_title" = "Van";
+"to_title" = "Tot";
+
+
+/* MARK: - Dashboard View */
+/* Titles */
+"configure_title" = "Configureren";
+"balance_widget_income_title" = "Inkomen";
+"balance_widget_expenses_title" = "Uitgaven";
+"savings_rate_widget_absolute_title" = "Absoluut";
+"savings_rate_widget_percentual_title" = "Percentage";
+"budget_widget_planned_title" = "Gepland";
+"budget_widget_remaining_title" = "Beschikbaar";
+"total_assets_widget_absolute_title" = "Absoluut";
+"total_assets_widget_trend_title" = "Trend";
+"forecast_widget_upcoming_title" = "Gepland";
+"forecast_widget_pending_title" = "In behandeling";
+"forecast_widget_final_balance_title" = "Eindsaldo";
+"pie_chart_widget_transactions_title" = "Transacties";
+"pie_chart_widget_categories_title" = "Categorieën";
+
+/* Sections */
+"inactive_widgets_section_title" = "Meer widgets";
+
+/* Footer */
+"participants_widget_footer_title" = "Opmerking: de widget \"mensen\" verschijnt alleen voor gedeelde budgetboeken.";
+
+/* Messages */
+"no_widgets_title" = "Geen widgets toegevoegd";
+"no_widgets_message" = "Klik op de knop \"pen\" om de weergave te configureren.";
+"no_suggestions_title" = "Geen suggesties";
+"not_shared_title" = "Budgetboek niet gedeeld";
+
+/* Widgets */
+"account_balances_widget_title" = "Rekeningsaldi";
+"balance_widget_title" = "Saldo";
+"total_income_widget_title" = "Totaal inkomen";
+"total_expenses_widget_title" = "Totale uitgaven";
+"fixed_expenses_widget_title" = "Vaste kosten";
+"variable_expenses_widget_title" = "Variabele uitgaven";
+
+"account_balances_distribution_widget_title" = "Rekeningsaldi";
+"balance_distribution_widget_title" = "Saldo";
+"total_income_distribution_widget_title" = "Totaal inkomen";
+"total_expenses_distribution_widget_title" = "Totale uitgaven";
+"fixed_expenses_distribution_widget_title" = "Vaste kosten";
+"variable_expenses_distribution_widget_title" = "Variabele uitgaven";
+
+
+/* MARK: - Transaction List View */
+/* Titles */
+"sum_title" = "Som";
+"total_sum_title" = "Totale som";
+"recurring_transactions_title" = "Terugkerend";
+"upcoming_transactions_title" = "Gepland";
+"reminded_transactions_title" = "Met herinnering";
+
+/* Info */
+"recurring_transactions_info_title" = "Beschrijving";
+"recurring_transactions_info_description" = "Maak terugkerende transacties zodat ze automatisch worden toegevoegd aan de app wanneer ze vervallen.";
+
+/* Sections */
+"account_filter_section_title" = "Account";
+"category_filter_section_title" = "Categorie";
+"payee_filter_section_title" = "Begunstigde";
+"tag_filter_section_title" = "Tag";
+"user_filter_section_title" = "Persoon";
+"payment_status_filter_section_title" = "Betaling";
+"transaction_type_filter_section_title" = "Type";
+"date_range_filter_section_title" = "Datum";
+"amount_range_filter_section_title" = "Bedrag";
+
+/* Messages */
+"no_transactions_title" = "Geen transacties";
+"no_transactions_title_short" = "Geen";
+"no_transactions_found_title" = "Geen transacties gevonden";
+"no_transactions_found_message" = "Klik op de knop \"+\" om een ​​nieuwe transactie toe te voegen.";
+"no_transactions_found_button_title" = "Nieuwe transactie";
+"no_recurring_transactions_found_message" = "Klik op de knop \"+\" om een ​​nieuwe terugkerende transactie toe te voegen.";
+"no_upcoming_transactions_found_message" = "Klik op de knop \"+\" om een ​​nieuwe geplande transactie toe te voegen.";
+"no_reminded_transactions_found_message" = "Klik op de knop \"+\" om een ​​nieuwe transactie met herinnering toe te voegen.";
+"transactions_search_placeholder_message" = "Zoeken op de naam van een categorie, begunstigde, tag of notities";
+
+/* Buttons */
+"show_analysis_button" = "Toon analyse";
+"show_analysis_button_short" = "Analyse";
+"show_forecast_button" = "Toon voorspelling";
+"show_forecast_button_short" = "Voorspelling";
+"show_upcoming_transactions_button" = "Gepland";
+
+/* Alert Views */
+"alert_confirm_add_next_upcoming_transaction_title" = "Transactie toevoegen";
+"alert_confirm_add_next_upcoming_transaction_message" = "Weet u zeker dat u deze geplande transactie nu wilt toevoegen?";
+
+/* Miscellaneous */
+"payed_by_and_modified_at" = "Betaald door %@\nLaatst gewijzigd op %@";
+"modified_at" = "Laatst gewijzigd op %@";
+"average_per_transaction" = "Ø per transactie";
+"average_per_day" = "Ø per dag";
+"average_per_month" = "Ø per maand";
+
+
+/* MARK: - Budget List View */
+/* Titles */
+"remaining_title" = "Beschikbaar";
+"balanced_title" = "Gebalanceerd";
+"exceeded_title" = "Overtroffen";
+"user_has_no_budgets_title" = "U heeft geen budgetten.";
+"user_is_within_budget_title" = "U zit binnen uw budget! 🎉";
+"user_was_within_budget_title" = "U zat binnen uw budget! 🎉";
+"user_is_not_within_budget_title" = "Je zit %d boven je budget 😢";
+"user_is_not_within_budgets_title" = "U heeft %d budgetten overschreden 😢";
+
+/* Messages */
+"no_budgets_title" = "Geen budgetten";
+"no_budgets_found_title" = "Geen budgetten gevonden";
+"no_budgets_found_message" = "Klik op de knop \"+\" om een ​​nieuw budget toe te voegen.";
+"budgets_search_placeholder_message" = "Zoeken op de naam van een budget";
+"no_budgets_found_button_title" = "Nieuw budget";
+
+
+/* MARK: - Analysis View */
+/* Titles */
+"analysis_title" = "Analyse";
+"trend_widget_average_title" = "Gemiddeld";
+"trend_widget_current_year_title" = "Dit jaar";
+"trend_widget_current_month_title" = "Deze maand";
+
+/* Messages */
+"trend_widget_received_more_message" = "Je verdient meer dan normaal.";
+"trend_widget_received_less_message" = "Je verdient minder dan normaal.";
+"trend_widget_received_same_message" = "Je verdient hetzelfde als normaal.";
+"trend_widget_has_received_more_message" = "Je hebt meer verdiend dan normaal.";
+"trend_widget_has_received_less_message" = "Je hebt minder verdiend dan normaal.";
+"trend_widget_has_received_same_message" = "Je hebt hetzelfde verdiend als normaal.";
+
+"trend_widget_spent_more_message" = "U geeft meer uit dan normaal.";
+"trend_widget_spent_less_message" = "U geeft minder uit dan normaal.";
+"trend_widget_spent_same_message" = "U geeft hetzelfde uit als gewoonlijk.";
+"trend_widget_has_spent_more_message" = "Je hebt meer uitgegeven dan normaal.";
+"trend_widget_has_spent_less_message" = "Je hebt minder uitgegeven dan normaal.";
+"trend_widget_has_spent_same_message" = "Je hebt hetzelfde uitgegeven als normaal.";
+
+"total_balance_widget_current_balance_message" = "Uw saldo is %@.";
+"total_balance_widget_previous_balance_message" = "Uw saldo was %@.";
+
+"savings_rate_widget_current_savings_rate_message" = "Uw spaarpercentage is %@ %%.";
+"savings_rate_widget_previous_savings_rate_message" = "Uw spaarpercentage was %@ %%.";
+
+/* Widgets */
+"trend_widget_title" = "Trend";
+"total_balance_widget_title" = "Saldo";
+"savings_rate_widget_title" = "Spaarpercentage";
+
+
+/* MARK: - Account Forecast View */
+/* Titles */
+"account_forecast_title" = "Voorspelling";
+"account_balance_title" = "Saldo";
+"not_enough_data_title" = "Niet genoeg gegevens";
+
+
+/* MARK: - Settings View */
+/* Titles */
+"no_budget_book_title" = "Geen budgetboek";
+
+/* Messages */
+"share_app_message" = "\"%@ - Expense Tracker\"\n\nNu gratis downloaden:";
+
+/* Sections */
+"general_setting_section_title" = "Algemeen";
+"upgrade_setting_section_title" = "Volledige versie";
+"support_setting_section_title" = "Ondersteuning";
+"legal_setting_section_title" = "Juridisch";
+"data_setting_section_title" = "Gegevens";
+"miscellaneous_setting_section_title" = "Diversen";
+
+/* Footer */
+"upgrade_setting_footer_title" = "Bedankt voor het gebruik van de volledige versie!";
+"support_setting_footer_title" = "Vragen of ideeën? Schrijf een bericht of een positieve recensie in de App Store! Uw feedback is erg motiverend en helpt om de app te verbeteren.";
+
+/* Buttons */
+"share_budgetbook_button" = "Deel budgetboek";
+"show_participants_button" = "Toon deelnemers";
+"cloud_not_available_button" = "iCloud niet beschikbaar";
+"upgrade_show_all_features_button" = "Toon alle functies";
+"reset_app_button" = "App resetten";
+
+/* General Settings */
+"accounts_setting_title" = "Beheer accounts";
+"categories_setting_title" = "Beheer categorieën";
+"payees_setting_title" = "Beheer begunstigden";
+"tags_setting_title" = "Beheer tags";
+"reminders_setting_title" = "Herinneringen";
+
+/* Upgrade Settings */
+"upgrade_setting_title" = "Volledige versie ontgrendelen 🚀";
+"upgrade_setting_description" = "Ontgrendel nu de volledige versie en profiteer van meer extra functies!";
+
+/* Support Settings */
+"share_app_setting_title" = "Vrienden informeren";
+"translate_app_setting_title" = "Hulp bij vertalen";
+"help_center_setting_title" = "Helpcentrum (🇬🇧)";
+"feature_roadmap_setting_title" = "Functie voorstellen";
+"rate_app_setting_title" = "Beoordeel app";
+
+/* Legal Settings */
+"imprint_setting" = "Afdruk";
+"privacy_setting" = "Privacybeleid";
+"terms_of_use_setting" = "Gebruiksvoorwaarden";
+"acknowledgements_setting" = "Erkenningen";
+"licenses_setting" = "Licenties";
+
+"acknowledgements_setting_info_title" = "Beschrijving";
+"acknowledgements_setting_info_description" = "Hieronder staat een lijst met mensen die op een of andere manier hebben geholpen met de app.";
+"translation_acknowledgement" = "Vertaling (%@)";
+"licenses_setting_info_title" = "Beschrijving";
+"licenses_setting_info_description" = "Hieronder vindt u een lijst met alle licenties van derden die door de app worden gebruikt.";
+
+/* Data Settings */
+"sync_and_data_setting" = "Synchronisatie & gegevens";
+"sync_and_data_setting_short" = "Sync & gegevens";
+"recurring_transactions_setting" = "Terugkerende transacties";
+
+/* Miscellaneous Settings */
+"new_features_setting" = "Nieuwe functies";
+"testflight_beta_setting" = "TestFlight beta";
+"apple_pay_setting" = " Pay integratie";
+"appearance_setting" = "Personalisatie";
+"advanced_setting" = "Geavanceerde instellingen";
+
+/* Contact Developer */
+"mail_subject_type_contact" = "Contact";
+"mail_subject_type_support" = "Support";
+"mail_subject_type_feedback" = "Feedback";
+"mail_subject_type_translate" = "Translate";
+"mail_subject_type_discount" = "Discount";
+
+"alert_contact_developer_title" = "Waar gaat uw verzoek over?";
+"alert_contact_developer_feature_request" = "💡 Functie voorstellen";
+"alert_contact_developer_bug_report" = "🐞 Bugrapport";
+"alert_contact_developer_other" = "📬 Anders (e-mail)";
+
+"contact_developer_mail_subject" = "%@: %@%@";
+"contact_developer_mail_subject_full_version" = " (full version)";
+"contact_developer_mail_message" = "
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+<b>Support Information:</b>
+</br>
+<u>General:</u></br>
+- Device: %@</br>
+- iOS version: %@</br>
+- Language: %@</br>
+- Currency: %@</br>
+- Time zone: %@</br>
+</br>
+<u>App Specific:</u></br>
+- App version: %@</br>
+- Build: %@</br>
+</br>
+<u>In-App Purchases:</u></br>
+- User ID: %@</br>
+- Active: %@</br>
+- Purchases: %@";
+"contact_developer_mail_no_purchases" = "None";
+
+/* Appearance Settings */
+"appearance_setting_info_title" = "Beschrijving";
+"appearance_setting_info_description" = "Personaliseer de app naar wens door het uiterlijk of de accentkleur van de app te wijzigen.";
+"appearance_ui_style_setting_section_title" = "Thema";
+"appearance_ui_style_setting_footer_title" = "Wijzigt het uiterlijk van de app.";
+"appearance_accent_color_setting_section_title" = "Accentkleur";
+"appearance_accent_color_setting_footer_title" = "Wijzigt de kleur van knoppen en andere bedieningselementen in de app.";
+"appearance_app_icon_setting_section_title" = "App-pictogram";
+
+/* Sync & Data Settings */
+"sync_and_data_setting_info_title" = "Beschrijving";
+"sync_and_data_setting_info_description" = "Krijg een overzicht van de huidige synchronisatiestatus en importeer of exporteer gegevens met behulp van een CSV-bestand.";
+
+"sync_and_data_cloud_setting_section_title" = "iCloud";
+"sync_and_data_cloud_setting_footer_title" = "Geeft aan of de synchronisatie met iCloud is gelukt of dat er een fout is opgetreden.";
+"sync_and_data_setting_cloud_sync_status_title" = "Synchronisatiestatus";
+"backup_setting_section_title" = "Back-ups";
+"backup_setting_footer_title" = "Beheer uw back-ups en back-up instellingen.";
+"backup_setting_manage_backups_title" = "Beheren";
+"sync_and_data_csv_setting_section_title" = "CSV-gegevens";
+"sync_and_data_csv_setting_footer_title" = "Importeer of exporteer uw transacties met behulp van een CSV-bestand.";
+"sync_and_data_setting_csv_import_title" = "Importeren";
+"sync_and_data_setting_csv_export_title" = "Exporteren";
+"sync_and_data_setting_get_csv_template_title" = "Sjabloon downloaden";
+
+"clear_cache_button" = "Cache wissen";
+"cache_setting_footer_title" = "Info: Als u de cache wist, worden alle bestanden in de documentmap van de app verwijderd (inclusief back-ups).";
+
+"alert_csv_import_successful_title" = "Import succesvol 🎉";
+"alert_csv_import_successful_message" = "In totaal zijn %d van %d transacties geïmporteerd.%@";
+"alert_csv_import_skipped_message" = " Daarbij zijn %d transacties overgeslagen.";
+"alert_csv_import_error_message" = "Het importeren van %d van %d transacties is mislukt.\n\n%@";
+"alert_csv_import_error_reason_field_message" = "Controleer de volgende velden in uw CSV-bestand: %@.";
+
+"alert_csv_export_successful_title" = "Export succesvol 🎉";
+"alert_csv_export_successful_message" = "Uw gegevens zijn succesvol geëxporteerd naar \"%@\".";
+
+/* Cloud Settings */
+"cloud_setting_info_title" = "Beschrijving";
+"cloud_setting_info_description" = "De volgende weergave biedt een gedetailleerder overzicht van de huidige iCloud-synchronisatiestatus en helpt bij het oplossen van problemen.";
+
+"cloud_setting_network_status_title" = "Netwerk";
+"cloud_setting_network_status_success_value" = "Internetverbinding beschikbaar";
+"cloud_setting_network_status_error_value" = "Geen internetverbinding";
+"cloud_setting_account_status_title" = "iCloud-account";
+"cloud_setting_account_status_success_value" = "Ingelogd op iCloud";
+"cloud_setting_account_status_error_value" = "Niet ingelogd op iCloud";
+"cloud_setting_upload_status_title" = "Laatst geüpload";
+"cloud_setting_download_status_title" = "Laatst gedownload";
+"cloud_setting_number_of_transactions_title" = "Transacties";
+"cloud_setting_number_of_transactions_value" = "Op apparaat: %d\nIn iCloud: %d";
+"cloud_setting_number_of_transactions_in_progress_title" = "Even geduld...";
+"cloud_setting_number_of_transactions_error_title" = "Fout";
+
+/* Backup Settings */
+"backup_setting_info_title" = "Beschrijving";
+"backup_setting_info_description" = "Indien ingeschakeld, maakt Budget Flow regelmatig een back-up van uw gegevens, zodat u de app op elk moment naar een eerdere staat kunt herstellen.";
+
+"backup_general_setting_section_title" = "Algemeen";
+"backup_recent_backups_setting_section_title" = "Recente back-ups";
+"backup_setting_use_automatic_backups_title" = "Automatische back-up";
+"backup_setting_create_backup_title" = "Back-up maken";
+
+"alert_restore_backup_title" = "Deze back-up herstellen?";
+"alert_restore_backup_message" = "Het herstellen van back-ups is momenteel een experimentele functie. Uw huidige gegevens worden verwijderd en overschreven met de geselecteerde back-up.\n\nDaarna wordt de app automatisch gesloten.\n\nWaarschuwing: Dit proces kan niet ongedaan worden gemaakt!";
+"alert_restore_backup_button" = "Back-up herstellen";
+
+/* Advanced Settings */
+"advanced_setting_info_title" = "Beschrijving";
+"advanced_setting_info_description" = "Geef meer instellingen om de app te configureren.";
+
+"advanced_security_setting_section_title" = "Beveiliging";
+"advanced_view_setting_section_title" = "Weergave";
+"advanced_sidebar_setting_section_title" = "Zijbalk";
+"advanced_transaction_setting_section_title" = "Transacties";
+"advanced_other_setting_section_title" = "Overige";
+
+"advanced_setting_use_passcode_title" = "Gebruik toegangscode";
+"advanced_setting_use_title" = "Gebruik %@";
+"advanced_setting_auto_lock_title" = "Code aanvragen";
+
+"advanced_setting_chart_type_title" = "Grafiektype";
+"advanced_setting_show_frequently_used_items_title" = "Toon frequente categorieën en tags";
+"advanced_setting_show_frequently_used_items_description" = "Toon veelgebruikte categorieën en tags in de selectielijst bij het maken en bewerken van transacties.";
+"advanced_setting_show_notes_in_title_title" = "Toon notities in plaats van categorie";
+"advanced_setting_show_notes_in_title_description" = "Toon de inhoud van de notities in plaats van de categorienaam voor transacties.";
+"advanced_setting_start_day_of_month_title" = "Begindag van de maand";
+"advanced_setting_start_day_of_month_description" = "Geef de startdag van elke maand op, zodat rapporten, transacties en budgetten op de juiste manier worden berekend.";
+"advanced_setting_configure_transaction_title_title" = "Transactietitel";
+"advanced_setting_configure_transaction_subtitle_title" = "Transactie-ondertitel";
+
+"advanced_setting_configure_transaction_title_info_title" = "Beschrijving";
+"advanced_setting_configure_transaction_title_info_description" = "Stel de volgorde in van de items die in de transactietitel moeten worden weergegeven. Als een item ontbreekt, wordt automatisch het volgende item in de volgorde gebruikt.";
+
+"advanced_setting_show_accounts_in_sidebar_title" = "Toon accounts in zijbalk";
+"advanced_setting_show_accounts_in_sidebar_description" = "Toon een lijst met uw accounts in de zijbalk.";
+"advanced_setting_group_accounts_in_sidebar_title" = "Groepeer accounts in zijbalk";
+"advanced_setting_group_accounts_in_sidebar_description" = "Groepeer uw accounts in de zijbalk op type.";
+"advanced_setting_show_categories_in_sidebar_title" = "Toon categorieën in zijbalk";
+"advanced_setting_show_categories_in_sidebar_description" = "Toon een lijst met uw categorieën in de zijbalk.";
+"advanced_setting_group_categories_in_sidebar_title" = "Groepeer categorieën in zijbalk";
+"advanced_setting_group_categories_in_sidebar_description" = "Groepeer uw categorieën in de zijbalk op map.";
+
+"advanced_setting_select_time_automatically_title" = "Automatische tijdselectie";
+"advanced_setting_select_time_automatically_description" = "Selecteer automatisch de huidige tijd voor nieuwe transacties.";
+"advanced_setting_select_location_automatically_title" = "Automatische locatieselectie";
+"advanced_setting_select_location_automatically_description" = "Selecteer automatisch de huidige locatie voor nieuwe transacties.";
+"advanced_setting_save_photos_in_library_title" = "Foto's opslaan in bibliotheek";
+"advanced_setting_save_photos_description" = "Sla vastgelegde foto's automatisch op in de fotobibliotheek.";
+"advanced_setting_consider_pending_items_title" = "Boek alle transacties";
+"advanced_setting_consider_pending_items_description" = "Neem openstaande transacties op bij het berekenen van rekeningsaldi, saldi, totalen, enz.";
+
+"advanced_setting_enable_exact_times_title" = "Voer exacte tijden in";
+"advanced_setting_enable_exact_times_description" = "Selecteer exacte tijden met behulp van de minutendraaier voor transacties (bijvoorbeeld 9:41 uur).";
+"advanced_setting_reverse_keyboard_title" = "Omgekeerd toetsenbord";
+"advanced_setting_reverse_keyboard_description" = "Draait de numerieke toetsenbordindeling verticaal om het te laten overeenkomen met de stijl van een traditionele rekenmachine.";
+"advanced_setting_enable_haptic_keyboard_title" = "Toetsenbordfeedback";
+"advanced_setting_enable_haptic_keyboard_description" = "Krijg haptische feedback wanneer u geldbedragen invoert via het toetsenbord.";
+"advanced_setting_enable_live_activities_title" = "Live-activiteiten";
+"advanced_setting_enable_live_activities_description" = "Bekijk uw huidige saldo en meer op het dynamische eiland en op het vergrendelscherm.";
+"advanced_setting_ask_for_feedback_title" = "Vraag om feedback";
+"advanced_setting_ask_for_feedback_description" = "Sta toe dat de app u af en toe om feedback vraagt.";
+
+/* Cloud Sync Status */
+"cloud_sync_status_not_logged_in" = "Niet aangemeld bij iCloud";
+"cloud_sync_status_not_started" = "Niet gesynchroniseerd";
+"cloud_sync_status_no_network" = "Geen internetverbinding";
+"cloud_sync_status_in_progress" = "Synchroniseren...";
+"cloud_sync_status_succeeded" = "Volledig gesynchroniseerd";
+"cloud_sync_status_quota_exceeded" = "iCloud-lagringen din er full. Frigjør plass og prøv igjen.";
+"cloud_sync_status_limit_exceeded" = "Du har nådd iClouds opplastings-/nedlastingsgrense. Vent et øyeblikk og prøv igjen senere.";
+"cloud_sync_status_network_failure" = "Det oppstod en nettverksfeil. Prøv igjen senere.";
+"cloud_sync_status_service_unavailable" = "iCloud er midlertidig utilgjengelig. Prøv igjen senere.";
+"cloud_sync_status_request_rate_limited" = "Du har sendt for mange forespørsler til iCloud på kort tid. Vent et øyeblikk og prøv igjen senere.";
+"cloud_sync_status_request_unknown_error" = "Det oppstod en ukjent feil. Prøv igjen senere.";
+
+/* Alert Views */
+"alert_share_app_type_selection_title" = "Wat wil je delen?";
+"alert_share_app_type_selection_link_button" = "Koppelen";
+"alert_share_app_type_selection_qrcode_button" = "QR-code";
+
+"alert_reset_app_title" = "App resetten";
+"alert_reset_app_message" = "Weet u zeker dat u de standaardinstellingen van de app wilt herstellen? Hierdoor worden al uw gegevens permanent gewist die op dit apparaat en in iCloud zijn opgeslagen.";
+
+"alert_error_title" = "Er is een fout opgetreden 😢";
+
+/* Social Media */
+"follow_on_social_media" = "Follow \"%@\" on Social Media";
+
+/* Copyright */
+"version" = "Versie";
+"developed_by" = "Ontwikkeld door %@ 👨🏻‍💻";
+
+
+/* MARK: - Passcode View */
+/* Titles */
+"passcode_view_enter_passcode_title" = "Voer toegangscode in";
+"passcode_view_create_passcode_title" = "Toegangscode aanmaken";
+"passcode_view_confirm_passcode_title" = "Bevestig toegangscode";
+"passcode_view_authenticate_reason" = "Gebruikersauthenticatie";
+
+/* Alert Views */
+"alert_set_passcode_type_title" = "Kies toegangscode-optie";
+
+
+/* MARK: - Welcome View */
+/* Titles */
+"welcome_view_title" = "Welkom bij";
+"privacy_policy_title" = "Privacybeleid";
+
+/* Sections */
+"welcome_view_overview_section_title" = "Samenvatting";
+"welcome_view_legal_documents_section_title" = "Meer informatie";
+
+/* Overview */
+"privacy_overview_datastorage_title" = "Beveiligde gegevensopslag";
+"privacy_overview_datastorage_description" = "Uw financiën zijn privé – en dat moeten ze ook blijven. Daarom worden uw gegevens uitsluitend op uw apparaat of (optioneel) in uw persoonlijke iCloud opgeslagen.";
+
+"privacy_overview_privacy_control_title" = "U heeft de controle";
+"privacy_overview_privacy_control_description" = "Of het nu gaat om uw opgeslagen gegevens, gebruik van uw locatie of toegang tot uw camera - u heeft altijd de controle. U kunt bijvoorbeeld eenvoudig uw gegevens verwijderen door de app opnieuw in te stellen en de toegangsrechten van de app aan te passen op elk moment.";
+
+/* Footer */
+"welcome_view_value_description" = "Beheer al uw financiën met gemak: Voer uw budget in, krijg inzichten en houd al uw inkomsten en uitgaven bij.";
+"welcome_view_agreement_description" = "Door op \"Accepteren\" te klikken, gaat u akkoord met de %@.";
+
+
+/* MARK: - New Features View */
+/* Titles */
+"new_features_view_title" = "New Features";
+
+/* Buttons */
+"new_features_view_rate_app_button" = "Rate App";
+"new_features_view_close_button" = "Maybe later";
+
+
+/* MARK: - Rate App View */
+/* Titles */
+"purchase_success_view_title" = "Bedankt!";
+
+/* Messages */
+"purchase_success_view_info_message" = "Als de app je bevalt, schrijf dan een positieve recensie in de App Store. Dat helpt enorm en motiveert om de app continu te verbeteren. 😊";
+"purchase_success_view_info_message_info" = "\n\nInfo: Wanneer je overstapt van een abonnement naar een levenslange aankoop, vergeet dan niet je bestaande abonnement daarna te annuleren.";
+
+/* Buttons */
+"purchase_success_view_rate_app_button" = "Beoordeel app";
+"purchase_success_view_close_button" = "Misschien later";
+
+
+/* MARK: - Upgrade View */
+/* Titles */
+"upgrade_view_title" = "Volledige versie";
+
+/* Info */
+"upgrade_info_description" = "Deze functie is alleen beschikbaar in de volledige versie:";
+"upgrade_sharing_info_description" = "Te gebruiken met maximaal vijf personen";
+
+/* Discount */
+"upgrade_discount_title" = "Speciale aanbieding 🌟";
+"upgrade_discount_multiple_title" = "Bespaar tot %d %%!";
+"upgrade_discount_montly_subscription_title" = "Bespaar %d %% op het maandabonnement!";
+"upgrade_discount_yearly_subscription_title" = "Bespaar %d %% op het jaarabonnement!";
+"upgrade_discount_lifetime_purchase_title" = "Bespaar %d %% op de eenmalige aankoop!";
+"upgrade_discount_ends_in" = "Eindigt over";
+
+/* Sections */
+"upgrade_info_section_title" = "Informatie";
+"upgrade_reviews_section_title" = "Reviews";
+
+/* Messages */
+"apply_for_discount_text" = "Ben je student of zit je in financiële nood?\nKlik hier om korting aan te vragen.";
+"apply_for_discount_highlighted_text" = "Klik hier om korting aan te vragen.";
+
+/* Features */
+"upgrade_features" = "Kenmerken";
+"upgrade_more_features" = "Meer functies";
+"upgrade_features_description" = "De volgende functies worden ontgrendeld bij aankoop van de volledige versie:";
+"upgrade_feature_unlimited_accounts_title" = "Extra accounts";
+"upgrade_feature_unlimited_accounts_description" = "Maak extra accounts aan en wijs er transacties aan toe voor een nog beter overzicht van uw inkomsten en uitgaven.";
+"upgrade_feature_unlimited_categories_and_tags_title" = "Onbeperkte categorieën en tags";
+"upgrade_feature_unlimited_categories_and_tags_description" = "Maak een onbeperkt aantal categorieën en tags die u aan transacties kunt toevoegen om ze beter te organiseren.";
+"upgrade_feature_extended_analyses_title" = "Uitgebreide analyses";
+"upgrade_feature_extended_analyses_description" = "Profiteer van aanvullende analyses en een uitgebreide prognose van uw toekomstige rekeningsaldi en transacties.";
+"upgrade_feature_unlimited_budgetbooks_title" = "Meerdere budgetboeken";
+"upgrade_feature_unlimited_budgetbooks_description" = "Maak meerdere budgetboeken aan zodat bijvoorbeeld meerdere mensen elk hun eigen op één apparaat kunnen gebruiken, of als u een apart budgetboek wilt delen (bijvoorbeeld voor een vakantie).";
+"upgrade_feature_security_title" = "Beveiligde gegevens";
+"upgrade_feature_security_description" = "Bescherm uw gegevens met %@.";
+"upgrade_feature_security_description_passcode" = "Bescherm uw gegevens door een code te maken";
+"upgrade_feature_security_description_biometric" = " of gebruik %@";
+"upgrade_feature_currency_converter_title" = "Valuta-omzetter";
+"upgrade_feature_currency_converter_description" = "Gebruik de ingebouwde valuta-omzetter om bedragen automatisch om te rekenen naar een van de meer dan 150 vreemde valuta's.";
+"upgrade_feature_customization" = "Personalisatie";
+"upgrade_feature_customization_description" = "Kies uit meerdere accentkleuren en pictogrammen om de app naar wens aan te passen.";
+"upgrade_feature_sharedbudget_books_title" = "Budgetboeken delen";
+"upgrade_feature_sharedbudget_books_description" = "Deel uw budgetboeken inclusief rekeningen, categorieën, transacties en budgetten om samen te werken met een of meer mensen.";
+"upgrade_feature_receipt_scanner_title" = "Bewijzen scannen";
+"upgrade_feature_receipt_scanner_description" = "Gebruik de ingebouwde scanner om bonnen te digitaliseren en automatisch het bedrag en de naam van de handelaar te herkennen.";
+"upgrade_feature_widgets_title" = "Widgets voor startscherm en vergrendelscherm";
+"upgrade_feature_widgets_description" = "Met behulp van de widgets kunt u uw huidige inkomsten en uitgaven, uw rekeningsaldi en nog veel meer in één oogopslag zien zonder dat u de app hoeft te openen. Als u een voorbeeld van de widgets wilt bekijken, uw startscherm of vergrendelscherm wilt bewerken, opent u de \"Widget toevoegen\" bekijken en selecteer deze app.";
+"upgrade_feature_reminders_title" = "Maak herinneringen aan";
+"upgrade_feature_reminders_description" = "Maak herinneringen aan voor uw geplande transacties om pushmeldingen te ontvangen (ook offline).";
+"upgrade_feature_csv_title" = "CSV importeren en exporteren";
+"upgrade_feature_csv_description" = "Importeer en exporteer uw transacties met behulp van een CSV-bestand om gegevens van uw bank of andere toepassingen over te dragen.";
+"upgrade_feature_remove_ads_title" = "Geen advertenties";
+"upgrade_feature_remove_ads_description" = "U zult geen advertenties meer zien voor de volledige versie in de app.";
+"upgrade_feature_support_title" = "Ontwikkeling ondersteunen";
+"upgrade_feature_support_description" = "U ondersteunt een jonge ontwikkelaar en daarmee de continue ontwikkeling van de app! 😊";
+
+/* Reviews */
+"user_review_title_de" = "Awesome app";
+"user_review_description_de" = "The app is very well designed and functional. It meets all my needs and the support is very fast and helpful. I can only recommend it.";
+"user_review_title_hr" = "Beautiful app";
+"user_review_description_hr" = "Feature rich app, with an easy to use user interface. Tried many alternatives on iOS, none of them met my needs the way this app does. Worth the money.";
+"user_review_title_bg" = "Outstanding support";
+"user_review_description_bg" = "Great app with an outstanding customer support. And it’s a very reasonable priced for the quality of the software.";
+"user_review_title_us" = "Great app so far";
+"user_review_description_us" = "Huge fan of this being an app available on iOS, iPad and macOS so that I can update it anywhere. It is also really nice to see that there is no account required or data collection which seems rare these days but important to me for finance applications.";
+"user_review_title_uk" = "This is the one!";
+"user_review_description_uk" = "I’ve been looking for this app for over two years. I wanted a phone based finance manager that was designed around a good looking overview screen, allowing easy entry of new data and the ability to drill down for more info when needed! Give it a go.";
+"user_review_title_es" = "Best budgeting app";
+"user_review_description_es" = "Simply the best I have tried. I think it is still a new app but defetinely you can see the potential it has.";
+"user_review_title_fr" = "Superb, feature-rich app";
+"user_review_description_fr" = "I've been using the app for a few months now and I really like it. Congratulations on your work and I can't wait to see what the app will look like in a few months :)";
+"user_review_title_it" = "Simply great";
+"user_review_description_it" = "Finally. I was lloking for such a solution for years now. Use it with transaction iOS shortcut trigger, love the design. And I like the pay once in a lifetime feature. Keep up the great work!";
+"user_review_title_ch" = "Great support";
+"user_review_description_ch" = "Great support - fast and uncomplicated problem solving. I feel taken seriously as a user.";
+"user_review_title_pl" = "Very pleasant to use";
+"user_review_description_pl" = "The app is an excellent budget tracker and planner that I use on a daily basis. In addition the developer is very attentive to their community, despite its small size.";
+
+/* Products */
+"monthly_subscription_title" = "1";
+"yearly_subscription_title" = "12";
+"lifetime_purchase_title" = "∞";
+
+"monthly_subscription_subtitle" = "Maand";
+"yearly_subscription_subtitle" = "Maanden";
+"lifetime_purchase_subtitle" = "Onbeperkt";
+
+"product_discount_header_title" = "- %d %%";
+
+/* Buttons */
+"upgrade_is_active_button" = "Actief";
+"upgrade_purchase_button" = "Kopen";
+"upgrade_subscribe_button" = "Abonneren";
+"upgrade_free_trial_button" = "Gratis proefversie";
+"upgrade_restore_button" = "Aankopen herstellen";
+"upgrade_restore_in_progress_button" = "Een ogenblik geduld...";
+
+"subscription_button_info_text" = "Te allen tijde opzegbaar.";
+"subscription_trial_button_info_text" = "%d %@ gratis proefperiode. Daarna %@ per %@.";
+"lifetime_purchase_button_info_text" = "Ontgrendelt de volledige versie eenmalig (zonder abonnement).";
+
+/* Alert Views */
+"alert_upgrade_view_purchase_success_title" = "Aankoop geslaagd 🎉";
+"alert_upgrade_view_purchase_success_message" = "Bedankt voor uw steun! 😊";
+"alert_upgrade_view_purchase_success_message_info" = "\n\nInfo: Als u overstapt van een abonnement naar een eenmalige aankoop, vergeet dan niet om uw vorige abonnement daarna op te zeggen.";
+"alert_upgrade_view_purchase_error_message" = "Uw aankoop kon niet succesvol worden afgerond.";
+"alert_upgrade_view_purchase_error_store_problem_message" = "Er is een probleem opgetreden met de App Store.\n\nInfo: Soms werkt de aankoop alleen als u bevestigt met uw wachtwoord in plaats van met Touch ID/Face ID.\n\nBijvoorbeeld, als je Face ID gebruikt, bedek dan gewoon de frontcamera en probeer het opnieuw om het wachtwoorddialoog te zien.";
+"alert_upgrade_view_purchase_error_not_allowed_message" = "Aankopen zijn niet toegestaan ​​op dit apparaat.";
+"alert_upgrade_view_purchase_error_invalid_message" = "Controleer uw betaalmethode en probeer het later opnieuw. Als de fout zich blijft voordoen, neem dan contact op met de ondersteuning.";
+"alert_upgrade_view_purchase_error_network_message" = "Controleer je internetverbinding en probeer het later opnieuw. Als de fout zich blijft voordoen, neem dan contact op met de ondersteuning.";
+
+"alert_upgrade_view_load_products_error_message" = "De producten konden niet worden geladen. Controleer uw internetverbinding en probeer het later opnieuw. Als de fout zich blijft voordoen, neem dan contact op met de ondersteuning.";
+
+"alert_upgrade_view_restore_success_title" = "Aankopen hersteld";
+"alert_upgrade_view_restore_success_message" = "Uw aankopen zijn hersteld! 😊";
+"alert_upgrade_view_restore_error_message" = "Uw aankopen konden niet worden hersteld. Probeer het later opnieuw.";
+"alert_upgrade_view_restore_nothing_to_do_title" = "Geen aankopen beschikbaar 😢";
+"alert_upgrade_view_restore_nothing_to_do_message" = "Kan geen aankopen vinden om te herstellen.";
+
+
+/* MARK: - Upgrade FAQ View */
+/* Titles */
+"upgrade_faq_view_title" = "Veelgestelde vragen";
+
+/* Sections */
+"upgrade_faq_general_section_title" = "Algemeen";
+"upgrade_faq_purchases_section_title" = "Aankopen en abonnementen";
+
+/* Items */
+"upgrade_faq_about_title" = "Wat is Budget Flow?";
+"upgrade_faq_about_value" = "Budget Flow is een moderne en gebruiksvriendelijke app voor het bijhouden van budgetten voor iedereen die zijn financiën wil bijhouden en zijn uitgaven effectief wil beheren.";
+"upgrade_faq_developer_title" = "Wie heeft de app ontwikkeld?";
+"upgrade_faq_developer_value" = "Budget Flow is begonnen als een zijproject en is sindsdien volledig ontworpen, ontwikkeld en onderhouden door mij, Fabian Hasse. Ik ben een enthousiaste softwareontwikkelaar met meer dan 10 jaar ervaring en ik werk met veel passie om de beste budgetterings- en kostenregistratie-app in de App Store te ontwikkelen.";
+"upgrade_faq_free_use_title" = "Kan de app ook gratis gebruikt worden?";
+"upgrade_faq_free_use_value" = "Ja, u kunt de basisfuncties van de app, zoals het aanmaken van transacties, volledig gratis gebruiken.\n\nDaarnaast biedt de app een proefperiode voor de volledige versie, zodat u deze van tevoren kunt uitproberen voordat u besluit de volledige versie te kopen of u erop te abonneren.";
+"upgrade_faq_security_title" = "Zijn mijn gegevens veilig?";
+"upgrade_faq_security_value" = "Uw financiën zijn privé – en dat moeten ze ook blijven. Daarom worden uw gegevens uitsluitend op uw apparaat of (optioneel) in uw persoonlijke iCloud opgeslagen.";
+"upgrade_faq_why_subscription_title" = "Waarom wordt de volledige versie als abonnement aangeboden?";
+"upgrade_faq_why_subscription_value" = "Ons doel is een app van hoge kwaliteit te ontwikkelen die u als gebruiker regelmatig nieuwe functies en verbeteringen biedt. Om dit doel te bereiken, heeft de app echter continue inkomsten nodig om zichzelf te financieren en economisch duurzaam zijn.\n\nWat velen niet weten Het ontwikkelen en onderhouden van een app kost veel tijd. In het geval van Budget Flow kostte het bijvoorbeeld bijna twee jaar en enkele duizenden uren werk van idee tot ontwikkeling en testen voordat de eerste versie naar de App Store kon worden vrijgegeven.\n\nAls klant profiteert u vooral van regelmatige updates en verbeteringen via het abonnementsmodel, evenals goede ondersteuning om ervoor te zorgen dat u tevreden blijft. hebben ook de mogelijkheid om de app van tevoren gratis uit te proberen om er zeker van te zijn dat deze aan uw behoeften voldoet. U kunt het abonnement op elk moment wijzigen of annuleren als u van gedachten verandert.\n\nAl met al biedt een abonnementsmodel u als gebruiker veel voordelen klant en een betere gebruikerservaring door continue updates en ondersteuning in vergelijking met een eenmalige aankoop. Op de lange termijn zou een eenmalige aankoop helaas niet duurzaam zijn, aangezien dit bedrijfsmodel vereist dat nieuwe gebruikers de app blijven kopen om de voortzetting van de ontwikkeling te garanderen.\n\nDus als je de app leuk vindt, zouden we erg blij zijn als je ons werk steunt, zodat we je in de toekomst nog meer geweldige functies kunnen blijven bieden!❤️";
+"upgrade_faq_multiple_devices_title" = "Kan ik de volledige versie op meerdere apparaten gebruiken?";
+"upgrade_faq_multiple_devices_value" = "Ja, je kunt de volledige versie van Budget Flow gebruiken op al je Apple-apparaten met dezelfde Apple ID. Omdat de app via iCloud wordt gesynchroniseerd, kun je naadloos schakelen tussen je apparaten en heb je altijd toegang tot je financiële gegevens en instellingen.";
+"upgrade_faq_multiple_people_title" = "Kan ik de volledige versie met meerdere mensen gebruiken?";
+"upgrade_faq_multiple_people_value" = "Ja, u kunt zowel de eenmalige aankoop als het abonnement op de volledige versie delen met maximaal vijf personen binnen een gezinsgroep. Het enige wat u hoeft te doen is delen met gezin inschakelen in de systeeminstellingen en toevoegen de andere mensen voor de groep uitnodigen.";
+"upgrade_faq_cancel_subscription_title" = "Hoe zeg ik mijn abonnement op?";
+"upgrade_faq_cancel_subscription_value" = "U kunt uw abonnement op elk moment opzeggen met uw Apple ID in Systeemvoorkeuren.";
+"upgrade_faq_subscription_data_loss_title" = "Gaan mijn gegevens verloren als ik mijn abonnement opzeg?";
+"upgrade_faq_subscription_data_loss_value" = "Nee. Alles wat u maakt terwijl u zich abonneert op de volledige versie, is nog steeds beschikbaar als u terugschakelt naar de gratis versie.";
+"upgrade_faq_refund_title" = "Hoe kan ik geld terugkrijgen?";
+"upgrade_faq_refund_value" = "Betalingen die via de App Store zijn gedaan, worden alleen door Apple terugbetaald. Om een ​​terugbetaling te ontvangen, moet u binnen 14 dagen na aankoop contact opnemen met Apple Support.";
+"upgrade_faq_switch_plan_title" = "Is het mogelijk om op een later tijdstip over te stappen van een abonnement naar een eenmalige aankoop?";
+"upgrade_faq_switch_plan_value" = "Ja, u kunt op elk moment overstappen van een actief abonnement naar een eenmalige aankoop door het bijbehorende product in de app te kopen. Vergeet echter niet uw vorige abonnement op te zeggen, zodat u niet meer betaalt dan eenmaal.";
+
+
+/* MARK: - User Feedback */
+"user_feedback" = "feedback";
+
+/* Buttons */
+"user_feedback_message_title" = "Hallo, dit is Fabian, de ontwikkelaar van Budget Flow. Heb je een moment om wat feedback te geven over de app? 😊";
+
+/* Alert Views */
+"alert_user_feedback_title" = "Vind je de app leuk?";
+
+"alert_user_feedback_like_title" = "Bedankt! 🎉";
+"alert_user_feedback_like_message" = "Als de app je bevalt, schrijf dan een positieve recensie in de App Store. Dat helpt enorm en motiveert om de app continu te verbeteren. 😊";
+"alert_user_feedback_rate_app_button" = "Beoordeel app";
+"alert_user_feedback_maybe_later_button" = "Misschien later";
+
+"alert_user_feedback_dislike_title" = "Suggesties? 🤔";
+"alert_user_feedback_dislike_message" = "Het spijt me te horen dat je de app nog niet leuk vindt. Als je dit wilt veranderen, vertel me dan je ideeën en suggesties voor verbetering. 😊";
+"alert_user_feedback_contact_developer_button" = "Neem contact op met ontwikkelaar";
+
+
+/* MARK: - Progress View */
+"progress_view_load_images_title" = "Foto's laden...";
+"progress_view_load_images_subtitle" = "Opmerking: als u iCloud-fotobibliotheek gebruikt, kan het even duren voordat uw foto's zijn gedownload.";
+"progress_view_load_documents_title" = "Documenten laden...";
+"progress_view_load_documents_subtitle" = "Info: als u iCloud Drive gebruikt, kan het downloaden van uw documenten enige tijd duren.";
+"progress_view_import_csv_title" = "Gegevens importeren...";
+"progress_view_import_csv_subtitle" = "Een ogenblik geduld...";
+
+
+/* MARK: - Widgets */
+"chart_widget_title" = "Grafiek";
+"chart_widget_description" = "Deze widget geeft een overzicht weer van uw rekeningsaldi, uw huidige saldo of een uitsplitsing van uw inkomsten en uitgaven voor de geselecteerde periode.";
+
+"overview_widget_title" = "Overzicht";
+"overview_widget_description" = "Deze widget toont een overzicht van uw rekeningsaldi, uw huidige saldo of een totaal van inkomsten en uitgaven voor de geselecteerde periode.";
+
+"upcoming_transactions_widget_title" = "Gepland";
+"upcoming_transactions_widget_description" = "Deze widget toont u uw volgende geplande transactie.";
+
+"budget_widget_title" = "Budget";
+"budget_widget_description" = "Deze widget toont u een specifiek budget voor de geselecteerde periode.";
+"budget_widget_no_budget_title" = "Geen budget geselecteerd";
+
+"suggestion_widget_title" = "Voorgesteld";
+"suggestion_widget_description" = "Deze widget toont u een voorgestelde categorie op basis van de huidige datum waarvoor u een nieuwe transactie kunt aanmaken.";
+
+"quick_actions_widget_title" = "Snelle invoer";
+"quick_actions_widget_description" = "Met deze widget kunt u snel nieuwe transacties toevoegen.";
+"quick_actions_widget_new_title" = "Nieuw";
+
+"widget_upgrade_locked_title" = "Vergrendeld";
+"widget_upgrade_necessary_title" = "Volledige versie";
+"widget_upgrade_necessary_title_long" = "Volledige versie vereist";
+"widget_upgrade_necessary_description" = "Een volledige versie upgrade is vereist om deze widget te gebruiken.";
+"widget_upgrade_necessary_highlighted_text" = "volledige versie";
+
+
+/* MARK: - Add Item Form View */
+/* Alert Views */
+/* Info */
+"alert_no_budget_book_selected_title" = "Geen budgetboek geselecteerd";
+"alert_upgrade_necessary_title" = "Volledige versie";
+"alert_upgrade_necessary_description" = "Om deze functie te gebruiken, moet u upgraden naar de volledige versie. Dit kan worden geactiveerd in de app.";
+
+/* Dismiss */
+"alert_confirm_dismiss_title" = "Weet u zeker dat u uw wijzigingen wilt annuleren?";
+
+/* Delete */
+"alert_confirm_delete_budgetbook_title" = "Weet u zeker dat u dit budgetboek wilt verwijderen? Alle gekoppelde accounts, categorieën, transacties en budgetten worden ook verwijderd.";
+"alert_confirm_delete_budgetbook_button" = "Budgetboek verwijderen";
+"alert_confirm_delete_budgetbook_multiple_title" = "Weet u zeker dat u alle geselecteerde budgetboeken wilt verwijderen? Alle gekoppelde rekeningen, categorieën, transacties en budgetten worden ook verwijderd.";
+"alert_confirm_delete_budgetbook_multiple_button" = "Budgetboeken verwijderen";
+
+"alert_confirm_delete_account_title" = "Weet u zeker dat u deze account wilt verwijderen? Alle gekoppelde transacties worden ook verwijderd.";
+"alert_confirm_delete_account_button" = "Account verwijderen";
+"alert_confirm_delete_account_multiple_title" = "Weet u zeker dat u alle geselecteerde accounts wilt verwijderen? Alle gekoppelde transacties worden ook verwijderd.";
+"alert_confirm_delete_account_multiple_button" = "Accounts verwijderen";
+
+"alert_confirm_delete_categorygroup_title" = "Weet u zeker dat u deze map wilt verwijderen? Alle bijbehorende categorieën, transacties en budgetten worden ook verwijderd (indien nodig).";
+"alert_confirm_delete_categorygroup_button" = "Map verwijderen";
+"alert_confirm_delete_categorygroup_multiple_title" = "Weet u zeker dat u alle geselecteerde mappen wilt verwijderen? Alle bijbehorende categorieën, transacties en budgetten worden ook verwijderd (indien nodig).";
+"alert_confirm_delete_categorygroup_multiple_button" = "Map verwijderen";
+
+"alert_confirm_delete_category_title" = "Weet u zeker dat u deze categorie wilt verwijderen? Alle bijbehorende budgetten worden ook verwijderd (indien nodig).";
+"alert_confirm_delete_category_button" = "Categorie verwijderen";
+"alert_confirm_delete_category_multiple_title" = "Weet u zeker dat u alle geselecteerde categorieën wilt verwijderen? Alle gekoppelde transacties en budgetten worden ook verwijderd.";
+"alert_confirm_delete_category_multiple_button" = "Categorieën verwijderen";
+
+"alert_confirm_delete_payee_title" = "Weet u zeker dat u deze begunstigde wilt verwijderen?";
+"alert_confirm_delete_payee_button" = "Begunstigde verwijderen";
+"alert_confirm_delete_payee_multiple_title" = "Weet u zeker dat u alle geselecteerde begunstigden wilt verwijderen?";
+"alert_confirm_delete_payee_multiple_button" = "Verwijder begunstigden";
+
+"alert_confirm_delete_tag_title" = "Weet u zeker dat u deze tag wilt verwijderen?";
+"alert_confirm_delete_tag_button" = "Tag verwijderen";
+"alert_confirm_delete_tag_multiple_title" = "Weet u zeker dat u alle geselecteerde tags wilt verwijderen?";
+"alert_confirm_delete_tag_multiple_button" = "Verwijder tags";
+
+"alert_confirm_delete_reminder_title" = "Weet u zeker dat u deze herinnering wilt verwijderen?";
+"alert_confirm_delete_reminder_button" = "Herinnering verwijderen";
+"alert_confirm_delete_reminder_multiple_title" = "Weet u zeker dat u alle geselecteerde herinneringen wilt verwijderen?";
+"alert_confirm_delete_reminder_multiple_button" = "Verwijder herinneringen";
+
+"alert_confirm_delete_transaction_title" = "Weet u zeker dat u deze transactie wilt verwijderen?";
+"alert_confirm_delete_assigned_transaction_title" = "Wilt u ook alle toegewezen transacties verwijderen?";
+"alert_confirm_delete_transaction_button" = "Transactie verwijderen";
+"alert_confirm_delete_transaction_multiple_title" = "Weet u zeker dat u alle geselecteerde transacties wilt verwijderen?";
+"alert_confirm_delete_transaction_multiple_button" = "Transacties verwijderen";
+
+"alert_confirm_delete_imageitem_title" = "Weet u zeker dat u deze foto wilt verwijderen?";
+"alert_confirm_delete_imageitem_button" = "Foto verwijderen";
+"alert_confirm_delete_imageitem_multiple_title" = "Weet u zeker dat u alle geselecteerde foto's wilt verwijderen?";
+"alert_confirm_delete_imageitem_multiple_button" = "Foto's verwijderen";
+
+"alert_confirm_delete_documentitem_title" = "Weet u zeker dat u dit document wilt verwijderen?";
+"alert_confirm_delete_documentitem_button" = "Document verwijderen";
+"alert_confirm_delete_documentitem_multiple_title" = "Weet u zeker dat u alle geselecteerde documenten wilt verwijderen?";
+"alert_confirm_delete_documentitem_multiple_button" = "Documenten verwijderen";
+
+"alert_confirm_delete_budget_title" = "Weet u zeker dat u dit budget wilt verwijderen?";
+"alert_confirm_delete_budget_button" = "Budget verwijderen";
+"alert_confirm_delete_budget_multiple_title" = "Weet u zeker dat u alle geselecteerde budgetten wilt verwijderen?";
+"alert_confirm_delete_budget_multiple_button" = "Budgetten verwijderen";
+
+"alert_confirm_delete_backupitem_title" = "Weet u zeker dat u deze back-up wilt verwijderen?";
+"alert_confirm_delete_backupitem_button" = "Back-up verwijderen";
+
+"alert_confirm_delete_contra_entry_title" = "Deze transactie is een overboeking. Wilt u de tegenboeking ook verwijderen?";
+
+/* Updates */
+"alert_confirm_update_contra_entry_title" = "Deze transactie is een overboeking. Wilt u ook de tegenboeking bijwerken?";
+"alert_confirm_update_transaction_multiple_title" = "Deze transactie behoort tot een groep. Wat wilt u precies opslaan?";
+"alert_confirm_update_transaction_single_button" = "Alleen deze opslaan";
+"alert_confirm_update_transaction_all_button" = "Bewaar deze en toekomstige";
+
+/* End Repetition */
+"alert_confirm_end_repetition_for_transaction_title" = "Weet u zeker dat u wilt stoppen met het herhalen van deze transactie?";
+"alert_confirm_end_repetition_for_transaction_button" = "Herhaling beëindigen";
+"alert_confirm_end_repetition_for_transaction_multiple_title" = "Weet u zeker dat u alle geselecteerde transacties niet meer wilt herhalen?";
+"alert_confirm_end_repetition_for_transaction_multiple_button" = "Herhaling beëindigen";
+
+/* Currency Selection */
+"alert_change_currency_or_exchange_rate_title" = "Wat wilt u precies wijzigen?";
+"alert_change_currency_button" = "Valuta";
+"alert_change_exchange_rate_button" = "Wisselkoers";
+
+
+/* MARK: - Currency Selection View */
+/* Titles */
+"currency_selection_title" = "Valuta's";
+
+/* Info */
+"currency_selection_info_title" = "Beschrijving";
+"currency_selection_info_description" = "Kies de standaardvaluta voor bestaande en toekomstige transacties.";
+
+/* Sections */
+"default_currency_section_title" = "Standaardvaluta";
+"suggested_currencies_section_title" = "Suggesties";
+
+/* Messages */
+"no_currencies_found_title" = "Geen valuta gevonden";
+"currency_selection_search_placeholder_message" = "Zoek naar een valutanaam of de afkorting ervan";
+
+/* Buttons */
+"change_default_currency_button" = "Standaardvaluta wijzigen";
+
+/* Alert Views */
+"alert_confirm_change_default_currency_title" = "Weet u zeker dat u uw standaardvaluta wilt wijzigen? Hierdoor worden alle bestaande transacties geconverteerd naar de nieuwe valuta (%@).";
+"alert_confirm_change_default_account_currency_title" = "Weet u zeker dat u de valuta wilt wijzigen? Hierdoor worden alle bestaande transacties van deze rekening geconverteerd naar de nieuwe valuta (%@).";
+
+
+/* MARK: - Currency Conversion View */
+/* Titles */
+"currency_conversion_title" = "Wisselkoers";
+"currency_conversion_last_synchronization_title" = "Bijgewerkt: %@";
+"currency_conversion_synchronization_failed_title" = "Synchronisatie mislukt";
+"currency_conversion_synchronization_failed_no_internet_title" = "Geen internetverbinding";
+
+/* Sections */
+"source_currency_section_title" = "Van";
+"target_currency_section_title" = "Aan";
+
+
+/* MARK: - Manage Item View */
+/* Titles */
+"manage_budgetbooks_title" = "Budgetboeken";
+"manage_accounts_title" = "Accounts";
+"manage_categories_title" = "Categorieën";
+"manage_category_groups_title" = "Mappen";
+"manage_payees_title" = "Begunstigde";
+"manage_tags_title" = "Tags";
+"manage_reminders_title" = "Herinneringen";
+
+/* Info */
+"manage_reminders_info_title" = "Beschrijving";
+"manage_reminders_info_description" = "Maak aangepaste herinneringen aan of voeg ze toe aan toekomstige transacties zodat de app u hiervan op de hoogte stelt.";
+
+/* Sections */
+"shared_by_you_budgetbooks_section_title" = "Door jou gedeeld";
+"shared_with_you_budgetbooks_section_title" = "Gedeeld met jou";
+"not_shared_budgetbooks_section_title" = "Niet gedeeld";
+"most_used_items_section_title" = "Meest gebruikt";
+"archived_items_section_title" = "Gearchiveerd";
+"own_reminders_section_title" = "Eigen herinneringen";
+
+/* Messages */
+"no_budget_books_found_title" = "Geen budgetboeken gevonden";
+"no_budget_books_found_message" = "Klik op de knop \"+\" om een ​​nieuw budgetboek toe te voegen.";
+"no_budget_books_found_button_title" = "Nieuw budgetboek";
+"no_budget_books_found_cloud_sync_message" = "Bestaande gegevens worden geladen vanuit iCloud. Een ogenblik geduld...\n\nU kunt ook op de knop \"+\" klikken om een ​​nieuw budgetboek toe te voegen.";
+"no_budget_books_found_cloud_sync_message_short" = "Bestaande gegevens worden geladen vanuit iCloud. Een ogenblik geduld alstublieft...";
+"budget_books_search_placeholder_message" = "Zoek naar de naam van een budgetboeker";
+
+"no_accounts_title" = "Geen accounts";
+"no_accounts_found_title" = "Geen accounts gevonden";
+"no_accounts_found_message" = "Klik op de knop \"+\" om een ​​nieuwe account toe te voegen.";
+"no_accounts_found_button_title" = "Nieuw account";
+"accounts_search_placeholder_message" = "Zoeken op accountnaam of accounttype";
+
+"no_categories_found_title" = "Geen categorieën gevonden";
+"no_categories_found_message" = "Klik op de knop \"+\" om een ​​nieuwe categorie toe te voegen.";
+"no_categories_found_button_title" = "Nieuwe categorie";
+"categories_search_placeholder_message" = "Zoeken op categorie- of mapnaam";
+
+"no_category_groups_found_title" = "Geen mappen gevonden";
+"no_category_groups_found_message" = "Klik op de knop \"+\" om een ​​nieuwe map toe te voegen.";
+"no_category_groups_found_button_title" = "Nieuwe map";
+"category_groups_search_placeholder_message" = "Zoeken op naam van een map";
+
+"no_payees_found_title" = "Geen begunstigden gevonden";
+"no_payees_found_message" = "Klik op de knop \"+\" om een nieuwe begunstigde toe te voegen.";
+"no_payees_found_button_title" = "Nieuwe begunstigde";
+"payees_search_placeholder_message" = "Zoek op de naam van een begunstigde";
+
+"no_tags_found_title" = "Geen tags gevonden";
+"no_tags_found_message" = "Klik op de knop \"+\" om een nieuwe tag toe te voegen.";
+"no_tags_found_button_title" = "Nieuwe tag";
+"tags_search_placeholder_message" = "Zoek op de naam van een tag";
+
+"no_reminders_found_title" = "Geen herinneringen gevonden";
+"no_reminders_found_message" = "Klik op de knop \"+\" om een ​​nieuwe herinnering toe te voegen.";
+"no_reminders_found_button_title" = "Nieuwe herinnering";
+"reminders_search_placeholder_message" = "Zoeken op de titel van een herinnering";
+
+/* Value */
+"balance" = "Saldo";
+
+
+/* MARK: - Add Item Form View */
+/* Titles */
+"form_title_edit" = "Bewerken";
+
+/* Sections */
+"form_name_section_title" = "Naam";
+"form_title_section_title" = "Titel";
+"form_color_section_title" = "Kleur";
+"form_icon_section_title" = "Pictogram";
+"form_assignment_section_title" = "Opdracht";
+"form_miscellaneous_section_title" = "Diversen";
+
+/* Miscellaneous */
+"number_of_selected_items" = "%d geselecteerd";
+
+
+/* MARK: - Add Budget Book Form View */
+/* Titles */
+"form_title_new_budgetbook" = "Nieuw budgetboek";
+
+/* Items */
+"form_budgetbook_currency_title" = "Valuta";
+
+/* Buttons */
+"form_button_delete_budgetbook" = "Budgetboek verwijderen";
+
+
+/* MARK: - Add Account Form View */
+/* Titles */
+"form_title_new_account" = "Nieuw account";
+
+/* Sections */
+"form_billing_section_title" = "Automatische facturering";
+"form_transactions_section_title" = "Transacties";
+"form_account_balance_section_title" = "Accountsaldo";
+
+/* Footer */
+"form_billing_footer_title" = "Schakel deze functie in om het saldo van deze creditcard automatisch op een specifieke dag van de maand in rekening te brengen (indien nodig).";
+"form_transactions_footer_title" = "Schakel deze functie in om nieuwe transacties voor deze rekening automatisch te markeren als \"in behandeling\".";
+"form_account_balance_footer_title" = "Wijzig het begin-/totaalsaldo om uw accountsaldo handmatig te verzoenen.";
+
+/* Items */
+"form_enable_automatic_billing_title" = "Ingeschakeld";
+"form_billing_day_title" = "Factuurdag";
+"form_mark_transactions_as_pending_title" = "Markeren als in behandeling";
+"form_account_type_title" = "Accounttype";
+"form_initial_balance_title" = "Beginsaldo";
+"form_total_balance_title" = "Totaal saldo";
+"form_use_as_default_account_title" = "Standaardaccount";
+"form_account_currency_title" = "Valuta";
+
+/* Buttons */
+"form_button_archive_account" = "Account archiveren";
+"form_button_unarchive_account" = "Account uit het archief halen";
+"form_button_delete_account" = "Account verwijderen";
+
+
+/* MARK: - Add Category Group Form View */
+/* Titles */
+"form_title_new_categorygroup" = "Nieuwe map";
+
+/* Buttons */
+"form_button_delete_categorygroup" = "Map verwijderen";
+
+
+/* MARK: - Add Category Form View */
+/* Titles */
+"form_title_new_category" = "Nieuwe categorie";
+
+/* Items */
+"form_category_group_title" = "Map";
+"form_category_group_none_type_value" = "Geen";
+
+/* Buttons */
+"form_button_delete_category" = "Categorie verwijderen";
+
+
+/* MARK: - Add Payee Form View */
+/* Titles */
+"form_title_new_payee" = "Nieuwe begunstigde";
+
+/* Footer */
+"form_assignment_default_entries_footer_title" = "Wijs aan deze begunstigde een rekening, categorie of locatie toe die standaard voor transacties moet worden gebruikt.";
+
+/* Items */
+"form_location_title" = "Locatie";
+"form_location_none_type_value" = "Geen";
+
+/* Buttons */
+"form_button_delete_payee" = "Verwijder begunstigde";
+
+
+/* MARK: - Add Tag Form View */
+/* Titles */
+"form_title_new_tag" = "Nieuwe tag";
+
+/* Buttons */
+"form_button_delete_tag" = "Tag verwijderen";
+
+
+/* MARK: - Add Reminder Form View */
+/* Titles */
+"form_title_new_reminder" = "Nieuwe herinnering";
+
+/* Items */
+"form_is_enabled_title" = "Ingeschakeld";
+
+/* Buttons */
+"form_button_preview_reminder" = "Toon voorbeeld";
+"form_button_delete_reminder" = "Verwijder herinnering";
+
+/* Notifications */
+"reminder_notification_title" = "Herinnering";
+
+
+/* MARK: - Add Transaction Form View */
+/* Titles */
+"form_title_new_income" = "Nieuw inkomen";
+"form_title_new_expense" = "Nieuwe uitgave";
+"form_title_new_transfer" = "Nieuwe overdracht";
+
+/* Sections */
+"form_date_section_title" = "Vervallen";
+"form_reminder_section_title" = "Herinnering";
+"form_location_section_title" = "Locatie";
+"form_notes_section_title" = "Notities";
+"form_currency_section_title" = "Valuta";
+"form_payment_status_section_title" = "Betaling";
+"form_evaluation_section_title" = "Beoordeeld";
+"form_attachments_section_title" = "Bijlagen";
+"form_tags_section_title" = "Tags";
+
+/* Items */
+"form_account_title" = "Account";
+"form_from_account_title" = "Van";
+"form_to_account_title" = "Aan";
+"form_account_none_type_value" = "Geen";
+"form_category_title" = "Categorie";
+"form_categories_title" = "Categorieën";
+"form_category_none_type_value" = "Geen";
+"form_payee_title" = "Begunstigde";
+"form_payee_none_type_value" = "Geen";
+"form_tags_title" = "Tags";
+"form_tag_none_type_value" = "Geen";
+"form_date_title" = "Datum";
+"form_date_format_title" = "Datumnotatie";
+"form_time_title" = "Tijd";
+"form_repetition_frequency_title" = "Herhalen";
+"form_date_repetition_has_end_date_title" = "Einde";
+"form_date_repetition_end_date_title" = "Einddatum";
+"form_reminder_title" = "Actief";
+"form_reminder_none_type_value" = "Geen";
+"form_reminder_none_type_value_long" = "Geen herinnering";
+"form_reminder_on_due_value" = "Op tijd";
+"form_location_none_type_value_long" = "Geen locatie";
+"form_original_amount_title" = "Oorspronkelijk bedrag";
+"form_exchange_rate_title" = "Wisselkoers";
+"form_is_selected_title" = "Geselecteerd";
+"form_is_pending_title" = "In behandeling";
+"form_payed_by_title" = "Toegewezen";
+"form_payed_by_none_type_value" = "Niemand";
+"form_include_in_statistics_title" = "Statistieken";
+"form_include_in_budgets_title" = "Budgetten";
+
+/* Footer */
+"form_payment_status_footer_title" = "Markeer de betaling als \"in behandeling\" zodat het bedrag niet wordt meegenomen in de berekeningen.";
+"form_evaluation_footer_title" = "Sluit deze transactie uit van statistieken en/of budgetten, zodat deze alleen in het saldo van de rekening wordt meegenomen.";
+"form_reminded_transactions_is_invalid_footer_title" = "Opmerking: om een ​​herinnering aan deze transactie toe te voegen, moet een toekomstige datum of een herhalingsinterval worden geselecteerd.";
+
+/* Buttons */
+"form_button_delete_transaction" = "Transactie verwijderen";
+"form_button_end_repetition_for_transaction" = "Herhaling beëindigen";
+"form_button_clear_title" = "Verwijderen";
+"form_button_today_title" = "Vandaag";
+
+/* Miscellaneous */
+"receipt_total" = "Totaal";
+"receipt_amount" = "Bedrag";
+"receipt_to_pay" = "Om te betalen";
+
+/* Notifications */
+"transaction_notification_body" = "Bedrag: %@\nDatum: %@";
+"transaction_notification_body_notes" = "Notities: %@";
+
+
+/* MARK: - Add Budget Form View */
+/* Titles */
+"form_title_new_budget" = "Nieuw budget";
+
+/* Sections */
+"form_interval_section_title" = "Interval";
+
+/* Footer */
+"form_budget_amount_calculation_footer_title" = "Het interval bepaalt hoe vaak het budget wordt herhaald, waarbij het weergegeven beschikbare bedrag automatisch wordt aangepast aan de geselecteerde tijdsperiode.";
+
+/* Items */
+"form_is_cumulative_title" = "Cumulatief";
+
+/* Buttons */
+"form_button_delete_budget" = "Budget verwijderen";
+
+
+/* MARK: - Assign CSV Fields Form View */
+/* Titles */
+"form_title_csv_assign_fields" = "Velden toewijzen";
+
+/* Info */
+"csv_assign_fields_info_title" = "Beschrijving";
+"csv_assign_fields_info_description" = "Wijs de kolommen van het te importeren CSV-bestand toe aan de overeenkomstige velden.";
+
+/* Sections */
+"form_general_section_title" = "Algemeen";
+
+/* Footer */
+"form_invalid_footer_title" = "Fout:";
+"form_invalid_amount_footer_title" = "De waarden voor \"%@\" zijn geen geldige geldbedragen.";
+"form_invalid_currency_footer_title" = "De waarden voor \"%@\" zijn geen geldige valuta.";
+"form_invalid_exchange_rate_footer_title" = "De waarden voor \"%@\" zijn geen geldige numerieke waarden.";
+"form_invalid_date_format_footer_title" = "De geselecteerde datum en/of formaat is ongeldig.";
+"form_type_footer_title" = "Info: Selecteer \"%@\" om het transactietype te berekenen op basis van het teken van de bedragwaarde.";
+"form_date_format_footer_title" = "Voorbeeld: %@";
+
+/* Items */
+"form_type_title" = "Type";
+"form_amount_title" = "Bedrag";
+"form_source_currency_title" = "Bronvaluta";
+"form_target_currency_title" = "Doelvaluta";
+"form_budget_book_title" = "Budgetboek";
+"form_notes_title" = "Notities";
+"form_skip_zero_amounts_title" = "Sla \"0\"-bedragen over";
+"form_skip_duplicates_title" = "Sla duplicaten over";
+"form_csv_assign_field_none_type_value" = "Niet toegewezen";
+
+
+/* MARK: - Color Selection View */
+/* Titles */
+"color_selection_title" = "Kleuren";
+
+/* Messages */
+"no_colors_found_title" = "Geen kleuren gevonden";
+"color_selection_search_placeholder_message" = "Zoek naar een kleur of een groepsnaam";
+
+
+/* MARK: - Icon Selection View */
+/* Titles */
+"icon_selection_title" = "Pictogrammen";
+
+/* Messages */
+"no_icons_found_title" = "Geen pictogrammen gevonden";
+"icon_selection_search_placeholder_message" = "Zoek naar een pictogramlabel of een groepsnaam";
+
+
+/* MARK: - Location Selection View */
+/* Titles */
+"location_selection_title" = "Locatie";
+"location_selection_searchbar_placeholder" = "Zoeken";
+"location_selection_search_history_title" = "Recent";
+
+/* Buttons */
+"location_selection_select_button_title" = "Selecteer";
+
+/* Alert Views */
+"location_selection_no_internet_error_title" = "Fout";
+"location_selection_no_internet_error_message" = "Er lijkt geen internetverbinding te zijn";
+
+
+/* MARK: - Other Alert Views */
+"alert_selected_period_changed_title" = "%@ geselecteerd";
+"alert_selected_period_changed_message" = "Sinds een %@ is gestart, is de huidige periode automatisch aangepast.\n\nOm tussen periodes te schakelen en eerdere transacties te bekijken, klikt u op de knop \"%@\" in de linkerbovenhoek van het scherm , selecteer vervolgens de gewenste tijdsperiode.";
+"alert_selected_period_changed_new_month" = "nieuwe maand";
+"alert_selected_period_changed_new_year" = "nieuw jaar";
+
+"alert_no_mail_initialized_title" = "Geen e-mailaccount";
+"alert_no_mail_initialized_message" = "Het lijkt erop dat u geen e-mailaccount heeft ingesteld op uw apparaat. Dit is echter verplicht om deze functie te gebruiken.";
+
+"alert_no_camera_title" = "Geen camera beschikbaar";
+"alert_no_camera_message" = "Het lijkt erop dat u geen camera heeft. Het gebruik van deze functie is echter verplicht.";
+
+"alert_permissions_title" = "Bijna daar!";
+"alert_permissions_activate_button" = "Nu activeren";
+"alert_permissions_cancel_button" = "Misschien later";
+
+"alert_camera_permissions_message" = "Als u foto's wilt maken, hoeft u alleen \"camera\"-toegang in de instellingen in te schakelen.";
+"alert_photolibrary_permissions_message" = "Om foto's toe te voegen, hoeft u alleen de toegang tot \"foto's\" in de instellingen in te schakelen.";
+"alert_notifications_permissions_message" = "Om pushmeldingen te ontvangen, hoeft u alleen \"meldingen\" in de instellingen in te schakelen.";
+
+
+/* MARK: - Tips */
+"period_selection_tip_title" = "Wijzig periode";
+"period_selection_tip_message" = "Klik hier om de weergegeven periode te wijzigen. Dit heeft invloed op alle weergaven (overzicht, transacties en budgetten).";
+"interactive_charts_tip_title" = "Interactieve grafieken";
+"interactive_charts_tip_message" = "Veeg naar links of rechts om de actieve grafiek te wijzigen, of druk lang op een grafiek om de waarden voor een specifieke datum te bekijken.";
+"switch_budget_books_tip_title" = "Wissel budgetboeken";
+"switch_budget_books_tip_message" = "Druk lang op het tabblad Overzicht om snel tussen uw budgetboeken te schakelen.";
+
+
+/* MARK: - Watch App */
+/* Titles */
+"cloud_sync_status_section_title" = "iCloud-synchronisatiestatus";
+"cloud_sync_status_footer_title" = "Info: u moet bij iCloud zijn aangemeld om gegevens van uw iPhone te synchroniseren.";
+
+
+/* MARK: - Localized URLs */
+"imprintUrl" = "https://budget-flow.app/json/en/imprint.json";
+"termsOfUseUrl" = "https://www.apple.com/legal/internet-services/itunes/dev/stdeula";
+"privacyUrl" = "https://www.iubenda.com/api/privacy-policy/17322265/no-markup";
+"privacyUrlWeb" = "https://budget-flow.app/privacy-policy";
+"imprintUrlWeb" = "https://budget-flow.app/imprint";
+"familySharingUrl" = "https://www.apple.com/family-sharing";
+
+
+/* MARK: - Default Data */
+"default_account_name" = "Standaardaccount";
+
+"default_category_group_name_income" = "Inkomen";
+"default_category_name_salary" = "Salaris";
+
+"default_category_group_name_free_time" = "Vrije tijd";
+"default_category_name_shopping" = "Winkelen";
+"default_category_name_vacation" = "Vakantie";
+
+"default_category_group_name_mobility" = "Mobiliteit";
+"default_category_name_car" = "Auto";
+
+"default_category_group_name_groceries" = "Boodschappen";
+"default_category_name_supermarket" = "Supermarkt";
+"default_category_name_restaurant" = "Restaurant";
+"default_category_name_fast_food" = "Fast Food";
+
+"default_category_group_name_living" = "Wonen";
+"default_category_name_rent" = "Huren";
+
+"default_category_group_name_miscellaneous" = "Diversen";
+
+"default_reminder_title" = "Uitgaven registreren";
+
+
+/* MARK: - Color Sections */
+"color_section_classic_title" = "Klassiek";
+"color_section_sunset_title" = "Zonsondergang";
+"color_section_afterglow_title" = "Nagloeien";
+"color_section_ocean_title" = "Oceaan";
+"color_section_nightsky_title" = "Nachthemel";
+"color_section_apple_title" = "Apple Inc.";
+"color_section_pastel_title" = "Pastelkleur";
+
+
+/* MARK: - Color Keywords */
+"color_keyword_custom" = "Aangepast";
+"color_keyword_red" = "Rood";
+"color_keyword_green" = "Groen";
+"color_keyword_blue" = "Blauw";
+"color_keyword_yellow" = "Geel";
+"color_keyword_orange" = "Oranje";
+"color_keyword_purple" = "Paars";
+"color_keyword_pink" = "Roze";
+"color_keyword_brown" = "Bruin";
+"color_keyword_mint" = "Mint";
+"color_keyword_cyan" = "Cyaan";
+"color_keyword_violet" = "Violet";
+"color_keyword_gray" = "Grijs";
+
+
+/* MARK: - Icon Sections */
+"icon_section_suggestions_title" = "Suggesties";
+"icon_section_general_title" = "Algemeen";
+"icon_section_mobility_title" = "Mobiliteit";
+"icon_section_household_title" = "Huishouden";
+"icon_section_freetime_title" = "Vrije tijd";
+"icon_section_nature_title" = "Natuur";
+"icon_section_food_and_drinks_title" = "Eten en drinken";
+"icon_section_shopping_title" = "Winkelen";
+"icon_section_health_title" = "Gezondheid";
+"icon_section_office_title" = "Kantoor";
+"icon_section_arrows_title" = "Pijlen";
+"icon_section_objects_title" = "Objecten";
+"icon_section_people_title" = "Mensen";
+"icon_section_buildings_title" = "Gebouwen";
+"icon_section_payment_methods_title" = "Betaalmethoden";
+
+
+/* MARK: - Icon Keywords */
+"icon_keyword_emoji" = "Emoji";
+"icon_keyword_tag" = "Tag";
+"icon_keyword_heart" = "Hart";
+"icon_keyword_star" = "Ster";
+"icon_keyword_folder" = "Map";
+"icon_keyword_bookmark" = "Bladwijzer";
+"icon_keyword_building" = "Gebouw";
+"icon_keyword_house" = "Huis";
+"icon_keyword_lightbulb" = "Gloeilamp";
+"icon_keyword_fan" = "Ventilator";
+"icon_keyword_lamp" = "Lamp";
+"icon_keyword_alarm_system" = "Alarmsysteem";
+"icon_keyword_webcam" = "Webcam";
+"icon_keyword_camera" = "Camera";
+"icon_keyword_door" = "Deur";
+"icon_keyword_garage" = "Garage";
+"icon_keyword_window" = "Venster";
+"icon_keyword_blinds" = "Rolgordijnen";
+"icon_keyword_roller" = "Roller";
+"icon_keyword_curtains" = "Gordijnen";
+"icon_keyword_air_purifier" = "Luchtreiniger";
+"icon_keyword_dehumidifier" = "Ontvochtiger";
+"icon_keyword_humidifier" = "Luchtbevochtiger";
+"icon_keyword_heater" = "Verwarmer";
+"icon_keyword_air_conditioner" = "Airconditioner";
+"icon_keyword_sprinkler" = "Sprinkler";
+"icon_keyword_trash" = "Prullenbak";
+"icon_keyword_spigot" = "Kraan";
+"icon_keyword_shower" = "Douche";
+"icon_keyword_bathtub" = "Badkuip";
+"icon_keyword_pipe" = "Waterleiding";
+"icon_keyword_hifi_reveiver" = "Hifi-systeem";
+"icon_keyword_video_projector" = "Videoprojector";
+"icon_keyword_beamer" = "Beamer";
+"icon_keyword_wifi_router" = "Wifi-router";
+"icon_keyword_internet" = "Internet";
+"icon_keyword_party" = "Feest";
+"icon_keyword_balloon" = "Ballon";
+"icon_keyword_pan" = "Kokenpan";
+"icon_keyword_cooking" = "Koken";
+"icon_keyword_kitchen" = "Keuken";
+"icon_keyword_popcorn" = "Popcorn";
+"icon_keyword_cinema" = "Bioscoop";
+"icon_keyword_movie" = "Film";
+"icon_keyword_food" = "Eten";
+"icon_keyword_bed" = "Bed";
+"icon_keyword_bedroom" = "Slaapkamer";
+"icon_keyword_hotel" = "Hotel";
+"icon_keyword_sofa" = "Bank";
+"icon_keyword_couch" = "Bank";
+"icon_keyword_livingroom" = "Woonkamer";
+"icon_keyword_chair" = "Stoel";
+"icon_keyword_armchair" = "Fauteuil";
+"icon_keyword_cabinet" = "Kast";
+"icon_keyword_fireplace" = "Open haard";
+"icon_keyword_washer" = "Wasmachine";
+"icon_keyword_dryer" = "Trommeldroger";
+"icon_keyword_dishwasher" = "Vaatwasser";
+"icon_keyword_oven" = "Oven";
+"icon_keyword_stove" = "Kachel";
+"icon_keyword_microwave" = "Microgolf";
+"icon_keyword_refrigerator" = "koelkast";
+"icon_keyword_sink" = "Zinken";
+"icon_keyword_toilet" = "Toilet";
+"icon_keyword_bathroom" = "Badkamer";
+"icon_keyword_tv_remote" = "Afstandsbediening";
+"icon_keyword_tv" = "TV";
+"icon_keyword_person" = "Persoon";
+"icon_keyword_human" = "Mens";
+"icon_keyword_airplane" = "Vliegtuig";
+"icon_keyword_vacation" = "Vakantie";
+"icon_keyword_car" = "Auto";
+"icon_keyword_electric_car" = "Elektrische auto";
+"icon_keyword_charging_station" = "Laadstation";
+"icon_keyword_car_pool" = "Carpoolen";
+"icon_keyword_bus" = "Bus";
+"icon_keyword_tram" = "Trein";
+"icon_keyword_railroad" = "Spoorweg";
+"icon_keyword_cablecar" = "Tram";
+"icon_keyword_ferry" = "Veerboot";
+"icon_keyword_ship" = "Schip";
+"icon_keyword_truck" = "Vrachtwagen";
+"icon_keyword_relocation" = "Verhuizing";
+"icon_keyword_bicycle" = "Fiets";
+"icon_keyword_sport" = "Sport";
+"icon_keyword_scooter" = "Scooter";
+"icon_keyword_sailboat" = "Zeilboot";
+"icon_keyword_fuel" = "Brandstof";
+"icon_keyword_refuel" = "Bijtanken";
+"icon_keyword_gas_station" = "Tankstation";
+"icon_keyword_walking" = "Wandelen";
+"icon_keyword_running" = "Lopen";
+"icon_keyword_rugby" = "Rugby";
+"icon_keyword_badminton" = "Badminton";
+"icon_keyword_tennis" = "Tennis";
+"icon_keyword_dancing" = "Dansen";
+"icon_keyword_skiing" = "Skiën";
+"icon_keyword_swimming" = "Zwemmen";
+"icon_keyword_skating" = "Schaatsen";
+"icon_keyword_strengthtraining" = "Krachttraining";
+"icon_keyword_gym" = "Sportschool";
+"icon_keyword_yoga" = "Yoga";
+"icon_keyword_bowling" = "Bowlen";
+"icon_keyword_sportscourt" = "Sportveld";
+"icon_keyword_stadium" = "Stadion";
+"icon_keyword_soccer" = "Voetbal";
+"icon_keyword_golf" = "Golf";
+"icon_keyword_baseball" = "Honkbal";
+"icon_keyword_basketball" = "Basketbal";
+"icon_keyword_volleyball" = "Volleybal";
+"icon_keyword_trophy" = "Trofee";
+"icon_keyword_medal" = "Medaille";
+"icon_keyword_flag" = "Vlag";
+"icon_keyword_race" = "Autorace";
+"icon_keyword_gamecontroller" = "Spelbesturing";
+"icon_keyword_videogames" = "Videospellen";
+"icon_keyword_gaming" = "Gamen";
+"icon_keyword_playstation" = "PlayStation";
+"icon_keyword_xbox" = "Xbox";
+"icon_keyword_nintento_switch" = "Nintendo-schakelaar";
+"icon_keyword_book" = "Boek";
+"icon_keyword_books" = "Boeken";
+"icon_keyword_magazine" = "Tijdschrift";
+"icon_keyword_reading" = "Lezen";
+"icon_keyword_painting" = "Schilderen";
+"icon_keyword_drawing" = "Tekening";
+"icon_keyword_theater" = "Theater";
+"icon_keyword_singing" = "Zingen";
+"icon_keyword_karaoke" = "Karaoke";
+"icon_keyword_music" = "Muziek";
+"icon_keyword_spotify" = "Spotify";
+"icon_keyword_apple_music" = "Apple Muziek";
+"icon_keyword_piano" = "Piano";
+"icon_keyword_guitar" = "Gitaar";
+"icon_keyword_rockband" = "Rockband";
+"icon_keyword_festival" = "Festival";
+"icon_keyword_tent" = "Tent";
+"icon_keyword_dice" = "Dobbelsteen";
+"icon_keyword_boardgames" = "Bordspellen";
+"icon_keyword_gambling" = "Gokken";
+"icon_keyword_camera" = "Camera";
+"icon_keyword_photography" = "Fotografie";
+"icon_keyword_photo" = "Foto";
+"icon_keyword_world" = "Wereld";
+"icon_keyword_globe" = "Globe";
+"icon_keyword_sun" = "Zon";
+"icon_keyword_summer" = "Zomer";
+"icon_keyword_moon" = "Maan";
+"icon_keyword_stars" = "Sterren";
+"icon_keyword_cloud" = "Wolken";
+"icon_keyword_icloud" = "iCloud";
+"icon_keyword_rain" = "Regen";
+"icon_keyword_flame" = "Vlam";
+"icon_keyword_fire" = "Brand";
+"icon_keyword_snow" = "Sneeuw";
+"icon_keyword_winter" = "Winter";
+"icon_keyword_bolt" = "Bliksem";
+"icon_keyword_plug" = "Stekker";
+"icon_keyword_electric" = "Elektrisch";
+"icon_keyword_electrics" = "Elektra";
+"icon_keyword_electricity" = "Elektriciteit";
+"icon_keyword_tornado" = "Tornado";
+"icon_keyword_sea" = "Zee";
+"icon_keyword_hare" = "Konijn";
+"icon_keyword_rabbit" = "Konijn";
+"icon_keyword_animal" = "Dier";
+"icon_keyword_tortoise" = "Schildpad";
+"icon_keyword_lizard" = "Hagedis";
+"icon_keyword_bird" = "Vogel";
+"icon_keyword_ant" = "Ant";
+"icon_keyword_ladybug" = "Bug";
+"icon_keyword_fish" = "Vis";
+"icon_keyword_pet" = "Huisdier";
+"icon_keyword_cat" = "Kat";
+"icon_keyword_dog" = "Hond";
+"icon_keyword_leaf" = "Blad";
+"icon_keyword_plant" = "Plant";
+"icon_keyword_flower" = "Bloem";
+"icon_keyword_eating" = "Eten";
+"icon_keyword_restaurant" = "Restaurant";
+"icon_keyword_drinking" = "Drinken";
+"icon_keyword_cafe" = "Café";
+"icon_keyword_coffee" = "Koffie";
+"icon_keyword_fastfood" = "Fastfood";
+"icon_keyword_picnic" = "Picknick";
+"icon_keyword_wine" = "Wijn";
+"icon_keyword_birthday" = "Verjaardag";
+"icon_keyword_cake" = "Taart";
+"icon_keyword_carrot" = "Wortel";
+"icon_keyword_vegetables" = "Groenten";
+"icon_keyword_bag" = "Tas";
+"icon_keyword_cone" = "Tas";
+"icon_keyword_shopping" = "Winkelen";
+"icon_keyword_supermarket" = "Supermarkt";
+"icon_keyword_groceries" = "Boodschappen";
+"icon_keyword_creditcard" = "Creditcard";
+"icon_keyword_giftcard" = "Cadeaukaart";
+"icon_keyword_gift" = "Cadeau";
+"icon_keyword_clothes" = "Kleding";
+"icon_keyword_clothing" = "Kleding";
+"icon_keyword_globe" = "Globe";
+"icon_keyword_online" = "Online";
+"icon_keyword_internet" = "Internet";
+"icon_keyword_amazon" = "Amazone";
+"icon_keyword_package" = "Pakket";
+"icon_keyword_apple" = "Appel";
+"icon_keyword_banknote" = "Bankbiljet";
+"icon_keyword_refund" = "Terugbetaling";
+"icon_keyword_dollar" = "Dollar";
+"icon_keyword_cents" = "Cent";
+"icon_keyword_yen" = "Jen";
+"icon_keyword_pound" = "Pond";
+"icon_keyword_franc" = "Franken";
+"icon_keyword_lira" = "Lira";
+"icon_keyword_ruble" = "Roebel";
+"icon_keyword_euro" = "Euro";
+"icon_keyword_rupee" = "Rupee";
+"icon_keyword_peso" = "Peso";
+"icon_keyword_bitcoin" = "Bitcoin";
+"icon_keyword_real" = "Braziliaanse Real";
+"icon_keyword_case" = "Koffer";
+"icon_keyword_lungs" = "Longen";
+"icon_keyword_allergens" = "Allergieën";
+"icon_keyword_thermometer" = "Thermometer";
+"icon_keyword_bandage" = "pleisters";
+"icon_keyword_syringe" = "Spuit";
+"icon_keyword_medicine" = "Geneeskunde";
+"icon_keyword_drug" = "Drug";
+"icon_keyword_facemask" = "Gezichtsmasker";
+"icon_keyword_pills" = "Pillen";
+"icon_keyword_cross" = "Kruis";
+"icon_keyword_hospital" = "Ziekenhuis";
+"icon_keyword_ivfluid" = "Infusie";
+"icon_keyword_eye" = "Oog";
+"icon_keyword_brain" = "Hersenen";
+"icon_keyword_ear" = "Oor";
+"icon_keyword_mouth" = "Mond";
+"icon_keyword_ecg" = "ECG";
+"icon_keyword_shield" = "Schild";
+"icon_keyword_insurance" = "Verzekering";
+"icon_keyword_video_conference" = "Videoconferentie";
+"icon_keyword_facetime" = "Facetime";
+"icon_keyword_phone" = "Telefoon";
+"icon_keyword_mobilephone" = "Mobiel";
+"icon_keyword_iphone" = "iPhone";
+"icon_keyword_tablet" = "Tablet";
+"icon_keyword_ipad" = "iPad";
+"icon_keyword_macintosh" = "Macintosh";
+"icon_keyword_macbook" = "Macbook";
+"icon_keyword_imac" = "iMac";
+"icon_keyword_smartphone" = "Smartphone";
+"icon_keyword_calling" = "Bellen";
+"icon_keyword_message" = "Bericht";
+"icon_keyword_envelope" = "Envelop";
+"icon_keyword_mail" = "E-mail";
+"icon_keyword_email" = "E-mail";
+"icon_keyword_chart" = "Grafiek";
+"icon_keyword_stocks" = "Aandelen";
+"icon_keyword_investment" = "Investering";
+"icon_keyword_signature" = "Handtekening";
+"icon_keyword_contract" = "Contract";
+"icon_keyword_computer" = "Computer";
+"icon_keyword_pc" = "PC";
+"icon_keyword_display" = "Monitor";
+"icon_keyword_mouse" = "Muis";
+"icon_keyword_keyboard" = "Toetsenbord";
+"icon_keyword_printer" = "Printer";
+"icon_keyword_scanner" = "Scanner";
+"icon_keyword_pin" = "Pinnen";
+"icon_keyword_paperclip" = "Paperclip";
+"icon_keyword_clipboard" = "Klembord";
+"icon_keyword_list" = "Lijst";
+"icon_keyword_server" = "Server";
+"icon_keyword_simcard" = "Simkaart";
+"icon_keyword_bank" = "Bank";
+"icon_keyword_apple_watch" = "Apple Watch";
+"icon_keyword_clock" = "Klok";
+"icon_keyword_alarm" = "Alarm";
+"icon_keyword_box" = "Vak";
+"icon_keyword_wand" = "Toverstaf";
+"icon_keyword_hourglass" = "Zandloper";
+"icon_keyword_newspaper" = "Krant";
+"icon_keyword_wrench" = "Tang";
+"icon_keyword_screwdriver" = "Schroevendraaier";
+"icon_keyword_hammer" = "Hamer";
+"icon_keyword_craftsman" = "Vakman";
+"icon_keyword_tools" = "Gereedschap";
+"icon_keyword_plumber" = "Loodgieter";
+"icon_keyword_construction_market" = "Bouwmarkt";
+"icon_keyword_scissors" = "Schaar";
+"icon_keyword_hairdresser" = "Kapper";
+"icon_keyword_key" = "Sleutel";
+"icon_keyword_school" = "School";
+"icon_keyword_university" = "Universiteit";
+"icon_keyword_study" = "Studie";
+"icon_keyword_tuition_fees" = "Collegegeld";
+"icon_keyword_flashlight" = "Zaklamp";
+"icon_keyword_bell" = "Bel";
+"icon_keyword_subscription" = "Abonnement";
+"icon_keyword_loupe" = "Vergrootglas";
+"icon_keyword_binoculars" = "Verrekijker";
+"icon_keyword_rosette" = "Rozet";
+"icon_keyword_crown" = "Kroon";
+"icon_keyword_umbrella" = "Paraplu";
+"icon_keyword_beach" = "Strand";
+"icon_keyword_megaphone" = "Megafoon";
+"icon_keyword_advertisement" = "Advertentie";
+"icon_keyword_puzzle" = "Puzzel";
+"icon_keyword_lab" = "Laboratorium";
+"icon_keyword_calendar" = "Kalender";
+"icon_keyword_rent" = "Huren";
+"icon_keyword_flat" = "Plat";
+"icon_keyword_work" = "Werk";
+"icon_keyword_salary" = "Salaris";
+"icon_keyword_corona" = "Corona";
+"icon_keyword_rainbow" = "Regenboog";
+"icon_keyword_glasses" = "Bril";
+"icon_keyword_sunglasses" = "Zonnebril";
+"icon_keyword_discount" = "Korting";
+"icon_keyword_percent" = "Procent";
+"icon_keyword_wallet" = "Portefeuille";
+"icon_keyword_convertible" = "Converteerbaar";
+"icon_keyword_drone" = "Drone";
+"icon_keyword_motorcycle" = "Motorfiets";
+"icon_keyword_tire" = "Band";
+"icon_keyword_oilcan" = "Oliekan";
+"icon_keyword_keys" = "Sleutels";
+"icon_keyword_fire_extinguisher" = "Brandblusser";
+"icon_keyword_hockey" = "Hockey";
+"icon_keyword_ice_hockey" = "IJshockey";
+"icon_keyword_ice_skating" = "Schaatsen";
+"icon_keyword_rowing" = "Roeien";
+"icon_keyword_inhaler" = "Inhalator";
+"icon_keyword_wheelchair" = "Rolstoel";
+"icon_keyword_vacuum" = "Stofzuiger";
+"icon_keyword_doctor" = "Dokter";
+"icon_keyword_dentist" = "Tandarts";
+"icon_keyword_parking" = "Parkeren";
+
+
+/* MARK: - App Intents */
+/* Entities */
+"budget_book_entity_name" = "Budgetboek";
+"account_entity_name" = "Account";
+"category_group_entity_name" = "Map";
+"category_entity_name" = "Categorie";
+"payee_entity_name" = "Begunstigde";
+
+/* Categories */
+"add_category_name" = "Toevoegen";
+"open_category_name" = "Openen";
+"show_category_name" = "Toon";
+"search_category_name" = "Zoeken";
+
+/* Search */
+"search_budget_book_title" = "Zoek budgetboek";
+"search_budget_book_description" = "Zoek naar een specifiek budgetboek op naam.";
+"search_budget_book_parameter_summary" = "Zoek budgetboek met ${name}";
+"search_account_title" = "Zoek account";
+"search_account_description" = "Zoek een specifiek account op naam.";
+"search_account_parameter_summary" = "Zoek account met ${name} in ${budgetBook}";
+"search_category_group_title" = "Zoek map";
+"search_category_group_description" = "Zoek een specifieke map op naam.";
+"search_category_group_parameter_summary" = "Zoek map met ${name} in ${budgetBook}";
+"search_category_title" = "Zoekcategorie";
+"search_category_description" = "Zoek naar een specifieke categorie op naam.";
+"search_category_parameter_summary" = "Zoek categorie met ${name} in ${categoryGroup} van ${budgetBook}";
+"search_payee_title" = "Zoek begunstigde";
+"search_payee_description" = "Zoek naar een specifieke begunstigde op naam.";
+"search_payee_parameter_summary" = "Zoek begunstigde met ${name} in ${budgetBook}";
+
+"name_parameter_title" = "Naam";
+"name_parameter_dialog" = "Wat is de naam?";
+
+"budget_book_parameter_title" = "Budgetboek";
+"budget_book_parameter_description" = "Het bijbehorende budgetboek.";
+"budget_book_parameter_dialog" = "Wat is het bijbehorende budgetboek?";
+"category_group_parameter_title" = "Map";
+"category_group_parameter_description" = "De bijbehorende map.";
+"category_group_parameter_dialog" = "Wat is de bijbehorende map?";
+
+/* Open */
+"open_add_new_income_view_title" = "Nieuw inkomen toevoegen";
+"open_add_new_income_view_description" = "Opent de weergave voor het toevoegen van nieuwe inkomsten in de app.";
+"open_add_new_expense_view_title" = "Nieuwe uitgave toevoegen";
+"open_add_new_expense_view_description" = "Opent de weergave voor het toevoegen van nieuwe uitgaven in de app.";
+"open_add_new_transfer_view_title" = "Nieuwe overdracht toevoegen";
+"open_add_new_transfer_view_description" = "Opent de weergave voor het toevoegen van een nieuwe transfer in de app.";
+"open_add_new_recurring_view_title" = "Nieuwe terugkerende transactie toevoegen";
+"open_add_new_recurring_view_description" = "Opent de weergave voor het toevoegen van nieuwe terugkerende transacties in de app.";
+"open_upcoming_transactions_view_title" = "Geplande transacties";
+"open_upcoming_transactions_view_description" = "Opent de weergave van geplande transacties binnen de app.";
+
+/* Show */
+"show_chart_title" = "Toon diagram";
+"show_chart_description" = "Toont een diagram van uw rekeningsaldi, inkomsten of uitgaven voor de opgegeven periode.";
+"show_chart_parameter_summary" = "Toon ${type} diagram voor ${periodType}";
+
+"chart_type_parameter_title" = "Type";
+"chart_type_dialog" = "Welk type diagram wilt u?";
+"chart_type_account_balances_title" = "Rekeningsaldi";
+"chart_type_balance_title" = "Saldo";
+"chart_type_total_income_title" = "Totaal inkomen";
+"chart_type_total_expenses_title" = "Totale uitgaven";
+"chart_type_fixed_expenses_title" = "Vaste uitgaven";
+"chart_type_variable_expenses_title" = "Variabele uitgaven";
+
+"chart_period_type_parameter_title" = "Periode";
+"chart_period_type_dialog" = "Welke periode wilt u bekijken?";
+"chart_type_current_month_title" = "Huidige maand";
+"chart_type_current_year_title" = "Huidig jaar";
+
+
+/* MARK: - Dummy Data */
+"default_budget_book_name" = "Mijn budgetboek";
+"default_credit_card_name" = "Creditcard";
+"default_location_address" = "Fürstenberg";

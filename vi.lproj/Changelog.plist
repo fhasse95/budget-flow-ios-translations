@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>2.2.0</key>
+	<array>
+		<dict>
+			<key>Title</key>
+			<string>Cải thiện điều chỉnh số dư</string>
+			<key>Description</key>
+			<string>Khi bạn thay đổi số dư tài khoản của mình theo cách thủ công, một giao dịch sẽ tự động được tạo – giúp lịch sử của bạn luôn chính xác và không bị thay đổi.</string>
+			<key>IconName</key>
+			<string>building.columns</string>
+			<key>IconColor</key>
+			<string>#00a38b</string>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>Hỗ trợ tùy chỉnh biểu tượng</string>
+			<key>Description</key>
+			<string>Bây giờ bạn có thể sử dụng hình ảnh của riêng mình làm biểu tượng – cho dù đó là logo ngân hàng của bạn cho tài khoản hay ảnh cá nhân cho danh mục.</string>
+			<key>IconName</key>
+			<string>photo.on.rectangle.angled</string>
+			<key>IconColor</key>
+			<string>#007aff</string>
+		</dict>
+	</array>
+</dict>
+</plist>

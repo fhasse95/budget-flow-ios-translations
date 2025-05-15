@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>2.2.0</key>
+	<array>
+		<dict>
+			<key>Title</key>
+			<string>Regolazione saldo migliorata</string>
+			<key>Description</key>
+			<string>Quando modifichi manualmente il saldo del tuo conto, ora viene creata automaticamente una transazione, mantenendo la tua cronologia accurata e intatta.</string>
+			<key>IconName</key>
+			<string>building.columns</string>
+			<key>IconColor</key>
+			<string>#00a38b</string>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>Personalizzazione delle icone</string>
+			<key>Description</key>
+			<string>Ora puoi usare le tue immagini come icone, che si tratti del logo della tua banca per i conti o di foto personali per le categorie.</string>
+			<key>IconName</key>
+			<string>photo.on.rectangle.angled</string>
+			<key>IconColor</key>
+			<string>#007aff</string>
+		</dict>
+	</array>
+</dict>
+</plist>

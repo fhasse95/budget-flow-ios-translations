@@ -1,0 +1,20 @@
+/*
+  InfoPlist.strings
+  BudgetFlow
+
+  Created by Fabian Hasse on 23.07.20.
+  Copyright © 2020 Fabian Hasse. All rights reserved.
+*/
+
+"CFBundleName" = "Budget Flow";
+"CFBundleDisplayName" = "Budget Flow";
+
+"NSLocationAlwaysAndWhenInUseUsageDescription" = "允許存取您的位置信息，以自動將位置新增至交易";
+"NSLocationUsageDescription" = "允許存取您的位置訊息，以自動將目前位置新增至交易";
+"NSLocationWhenInUseUsageDescription" = "使用時允許存取您的位置信息，以自動將當前位置添加到交易中";
+"NSCameraUsageDescription" = "允許存取您的相機，用於在交易中新增照片";
+"NSPhotoLibraryUsageDescription" = "允許存取您的照片庫，用於自動儲存拍攝的照片";
+"NSPhotoLibraryAddUsageDescription" = "允許存取您的照片庫，用於自動儲存拍攝的照片";
+"NSFaceIDUsageDescription" = "需要 Face ID 權限，以便您無需輸入密碼即可解鎖應用程式";
+"NSTouchIDUsageDescription" = "需要 Touch ID 權限，以便您無需輸入密碼即可解鎖應用程式";
+"NSContactsUsageDescription" = "允許存取您的聯絡人，用於顯示您與之共享預算簿的人的姓名和照片";

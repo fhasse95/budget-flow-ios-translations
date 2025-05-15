@@ -1,0 +1,2016 @@
+/*
+  Localizable.strings
+  BudgetFlow
+
+  Created by Fabian Hasse on 19.05.20.
+  Copyright © 2020 Fabian Hasse. All rights reserved.
+*/
+
+/* MARK: - General */
+"app_name" = "Budget Flow";
+
+"feedback_quick_action_title" = "Umpan Balik";
+"feedback_quick_action_subtitle" = "Klik di sini untuk memberikan masukan mengenai aplikasi.";
+"income_quick_action_title" = "Penghasilan Baru";
+"expense_quick_action_title" = "Beban Baru";
+"transfer_quick_action_title" = "Transfer Baru";
+"recurring_quick_action_title" = "Berulang";
+
+
+/* MARK: - Miscellaneous */
+"face_id" = "Face ID";
+"touch_id" = "Touch ID";
+"required" = "Wajib";
+"optional" = "Opsional";
+"uncategorized" = "Tidak dikategorikan";
+"before" = "sebelum";
+"account_reconcilation" = "Rekonsiliasi akun";
+
+
+/* MARK: - Enum */
+"account_type_cash" = "Uang tunai";
+"account_type_payment" = "Akun Pembayaran";
+"account_type_savings" = "Rekening Tabungan";
+"account_type_credit_card" = "Kartu Kredit";
+"account_type_investment" = "Investasi";
+"account_type_precaution" = "Pencegahan";
+"account_type_liability" = "Kewajiban";
+"account_type_business" = "Akun Bisnis";
+
+"account_type_payment_plural" = "Akun Pembayaran";
+"account_type_savings_plural" = "Rekening Tabungan";
+"account_type_credit_card_plural" = "Kartu Kredit";
+"account_type_investment_plural" = "Investasi";
+"account_type_precaution_plural" = "Pencegahan";
+"account_type_liability_plural" = "Kewajiban";
+"account_type_business_plural" = "Akun Bisnis";
+
+"transaction_type_income" = "Penghasilan";
+"transaction_type_expense" = "Biaya";
+"transaction_type_transfer" = "Transfer";
+
+"transaction_type_income_plural" = "Penghasilan";
+"transaction_type_expense_plural" = "Biaya";
+"transaction_type_transfer_plural" = "Transfer";
+
+"payment_status" = "Status";
+"payment_status_completed" = "Selesai";
+"payment_status_pending" = "Tertunda";
+
+"attachment_type_image" = "Foto";
+"attachment_type_image_plural" = "Foto";
+"attachment_type_document" = "Dokumen";
+"attachment_type_document_plural" = "Dokumen";
+
+"period_type_month" = "Bulan";
+"period_type_year" = "Tahun";
+"period_type_custom" = "Tanggal";
+
+"sort_type_alphabetically" = "Sesuai abjad";
+"sort_type_date" = "Tanggal";
+"sort_type_amount" = "Jumlah";
+"sort_type_type" = "Jenis";
+
+"sort_option_ascending" = "Menaik";
+"sort_option_descending" = "Menurun";
+
+"group_option_day" = "Hari";
+"group_option_month" = "Bulan";
+"group_option_account" = "Akun";
+"group_option_category" = "Kategori";
+"group_option_category_group" = "Map";
+"group_option_type" = "Tipe";
+"group_option_payee" = "Penerima pembayaran";
+"group_option_repetition_frequency" = "Selang";
+
+"date_repetition_frequency_never" = "Tidak pernah";
+"date_repetition_frequency_daily" = "Setiap hari";
+"date_repetition_frequency_weekly" = "Mingguan";
+"date_repetition_frequency_everyTwoWeeks" = "Setiap 2 minggu";
+"date_repetition_frequency_everyThreeWeeks" = "Setiap 3 minggu";
+"date_repetition_frequency_everyFourWeeks" = "Setiap 4 minggu";
+"date_repetition_frequency_monthly" = "Bulanan";
+"date_repetition_frequency_everyTwoMonths" = "Setiap 2 bulan";
+"date_repetition_frequency_everyThreeMonths" = "Kuartalan";
+"date_repetition_frequency_everySixMonths" = "Semi-tahunan";
+"date_repetition_frequency_yearly" = "Tahunan";
+"date_repetition_frequency_custom" = "Kustom";
+
+"csv_transaction_type_automatic" = "Otomatis";
+"csv_transaction_type_income" = "Pendapatan";
+"csv_transaction_type_expenses" = "Beban";
+
+"passcode_type_four_digits" = "Kode sandi numerik empat digit";
+"passcode_type_six_digits" = "Kode sandi numerik enam digit";
+"passcode_type_custom_numeric" = "Kode Numerik Khusus";
+"passcode_type_custom_alphanumeric" = "Kode alfanumerik khusus";
+
+"auto_lock_time_type_immediately" = "Segera";
+"auto_lock_time_type_after_one_minute" = "Setelah 1 menit";
+"auto_lock_time_type_after_five_minutes" = "Setelah 5 menit";
+"auto_lock_time_type_after_fifteen_minutes" = "Setelah 15 menit";
+"auto_lock_time_type_after_one_hour" = "Setelah 1 jam";
+"auto_lock_time_type_after_four_hours" = "Setelah 4 jam";
+
+"widget_type_chart_stack" = "Bagan";
+"widget_type_suggestions" = "Saran";
+"widget_type_distribution" = "Distribusi";
+"widget_type_balance" = "Saldo";
+"widget_type_savings_rate" = "Disimpan";
+"widget_type_upcoming_transactions" = "Direncanakan";
+"widget_type_participants" = "Orang";
+"widget_type_budget" = "Anggaran";
+"widget_type_pending_transactions" = "Tertunda";
+"widget_type_total_assets" = "Aset";
+"widget_type_forecast" = "Prakiraan";
+
+"chart_type_bar" = "Bagan Batang";
+"chart_type_pie" = "Bagan Lingkaran";
+
+"category_chart_data_type_category" = "Kategori";
+"category_chart_data_type_category_group" = "Folder";
+
+"product_type_individual" = "Individu";
+"product_type_family" = "Keluarga";
+
+"subscription_period_day" = "Hari";
+"subscription_period_days" = "hari";
+"subscription_period_month" = "Bulan";
+"subscription_period_months" = "Bulan";
+"subscription_period_year" = "tahun";
+"subscription_period_years" = "Tahun";
+
+"overview_period_type_current_week" = "Minggu ini";
+
+"quick_action_type_new_income" = "Penghasilan Baru";
+"quick_action_type_new_expense" = "Biaya Baru";
+"quick_action_type_new_transfer" = "Transfer Baru";
+"quick_action_type_new_recurring" = "Berulang";
+
+"suggestion_type_add_income_transaction" = "Penghasilan Baru";
+"suggestion_type_add_expense_transaction" = "Biaya Baru";
+
+"user_interface_style_system" = "Sistem";
+"user_interface_style_light" = "Cahaya";
+"user_interface_style_dark" = "Gelap";
+
+"transaction_title_type_category" = "Kategori";
+"transaction_title_type_payee" = "Penerima pembayaran";
+"transaction_title_type_notes" = "Catatan";
+
+"transaction_subtitle_type_none" = "Tidak ada";
+"transaction_subtitle_type_category" = "Kategori";
+"transaction_subtitle_type_payee" = "Penerima pembayaran";
+"transaction_subtitle_type_notes" = "Catatan";
+
+
+/* MARK: - Custom Date Repetition */
+"frequency" = "Frekuensi";
+
+"every" = "Setiap";
+"every_day" = "Setiap";
+"every_week" = "Setiap";
+"every_month" = "Setiap";
+"every_year" = "Setiap";
+"every_day_plural" = "Setiap";
+"every_week_plural" = "Setiap";
+"every_month_plural" = "Setiap";
+"every_year_plural" = "Setiap";
+
+"each" = "Setiap";
+"on_the" = "Pada...";
+"days_of_week" = "Hari-hari dalam Seminggu";
+"last_day" = "Hari Terakhir";
+
+"daily" = "Harian";
+"weekly" = "Mingguan";
+"monthly" = "Bulanan";
+"yearly" = "Tahunan";
+
+"first" = "1.";
+"second" = "2.";
+"third" = "3.";
+"fourth" = "4.";
+"fifth" = "5.";
+"last" = "terakhir";
+
+
+/* MARK: - Menu Bar */
+"accounts_menu_title" = "Akun";
+"show_accounts_menu_title" = "Tampilkan Semua Akun";
+"budgets_menu_title" = "Anggaran";
+"show_budgets_menu_title" = "Tampilkan Semua Anggaran";
+"transactions_menu_title" = "Transaksi";
+"show_all_transactions_menu_title" = "Tampilkan Semua Transaksi";
+"show_recurring_transactions_menu_title" = "Tampilkan Transaksi Berulang";
+"show_upcoming_transactions_menu_title" = "Tampilkan Transaksi yang Direncanakan";
+
+
+/* MARK: - Sidebar Menu */
+"menu" = "Menu";
+"menu_accounts_section" = "Akun";
+"menu_categories_section" = "Kategori";
+"menu_selected_budget_book_title" = "Dipilih";
+
+
+/* MARK: - Tab */
+"dashboard_tab" = "Ikhtisar";
+"transactions_tab" = "Transaksi";
+"budgets_tab" = "Anggaran";
+"settings_tab" = "Pengaturan";
+
+
+/* MARK: - Buttons */
+"add_button" = "Tambah";
+"edit_button" = "Ubah";
+"copy_button" = "Salin";
+"edit_account_button" = "Ubah akun";
+"edit_category_button" = "Ubah kategori";
+"edit_payee_button" = "Edit penerima pembayaran";
+"edit_tag_button" = "Edit tanda";
+"edit_budget_button" = "Edit anggaran";
+"multi_selection_button" = "Pilihan ganda";
+"back_button" = "Kembali";
+"selesai_button" = "Selesai";
+"save_button" = "Simpan";
+"import_button" = "Impor";
+"unlock_button" = "Buka kunci";
+"cancel_button" = "Batalkan";
+"close_button" = "Tutup";
+"delete_button" = "Hapus";
+"end_repetition_button" = "Akhiri Pengulangan";
+"reset_button" = "Atur Ulang";
+"apply_button" = "Terapkan";
+"yes_button" = "Ya";
+"no_button" = "Tidak";
+"ok_button" = "OK";
+"faq_button" = "FAQ";
+"create_reminder_button" = "Buat Pengingat";
+"remove_reminder_button" = "Hapus Pengingat";
+"do_not_show_again_button" = "Jangan tampilkan lagi";
+"mark_as_paid_button" = "Pembayaran Selesai";
+"mark_as_pending_button" = "Pembayaran Tertunda";
+"show_contra_entry_button" = "Entri penghitung";
+
+"save_changes_button" = "Simpan Perubahan";
+"discard_changes_button" = "Buang Perubahan";
+
+"show_help_center_button" = "Pusat Bantuan (🇬🇧)";
+"contact_developer_button" = "Hubungi Pengembang";
+
+"filter_button" = "Filter";
+"sort_button" = "Urutkan";
+"sort_categories_button" = "Urutkan Kategori";
+"sort_category_groups_button" = "Urutkan Folder";
+"group_button" = "Grup";
+"configure_button" = "Konfigurasi";
+
+"show_filter_button" = "Tampilkan Filter";
+
+"show_amount_values_button" = "Tampilkan Jumlah";
+"hide_amount_values_button" = "Sembunyikan Jumlah";
+
+"take_photo_button" = "Ambil Foto";
+"add_photo_button" = "Pilih Foto";
+"add_document_button" = "Pilih dokumen";
+"scan_receipt_button" = "Pindai Tanda Terima";
+
+"open_button" = "Buka";
+"open_folder_button" = "Buka folder";
+"open_in_browser_button" = "Buka di browser";
+
+"show_more_button" = "Tampilkan lebih banyak";
+"show_less_button" = "Tampilkan lebih sedikit";
+
+"add_category_button" = "Kategori Baru";
+"add_category_group_button" = "Map Baru";
+
+"add_income_transaction_button" = "Penghasilan Baru";
+"add_expense_transaction_button" = "Beban Baru";
+"add_transfer_transaction_button" = "Transfer Baru";
+
+"manage_budget_books_button" = "Kelola Buku Anggaran";
+"select_budget_book_button" = "Pilih Buku Anggaran";
+"edit_budget_book_button" = "Edit Buku Anggaran";
+
+"continue_button" = "Lanjutkan";
+"skip_button" = "Lewati";
+"accept_button" = "Terima";
+"get_started_button" = "Mulai";
+
+"show_transactions_button" = "Tampilkan Transaksi";
+"show_in_app_store_button" = "Tampilkan di App Store";
+
+"learn_more" = "Pelajari lebih lanjut";
+
+
+/* MARK: - Share View */
+/* Titles */
+"share_title" = "Bagikan";
+
+/* Alert Views */
+"alert_sync_shares_in_progress_title" = "Menyelaraskan...";
+"alert_sync_shares_in_progress_message" = "Buku anggaran Anda disinkronkan dengan iCloud sehingga Anda dapat mengakses konten yang dibagikan. Mohon bersabar...";
+"alert_cloud_share_quota_exceeded_error_message" = "Tidak dapat menyelesaikan berbagi karena tidak tersedia cukup ruang di iCloud Anda. Harap kosongkan sebagian ruang dan coba lagi.";
+"alert_cloud_share_unknown_error_message" = "Tidak dapat menyelesaikan berbagi karena terjadi kesalahan. Mungkin tidak tersedia cukup ruang di iCloud Anda. Harap kosongkan sebagian ruang dan coba lagi.";
+
+
+/* MARK: - Search View */
+/* Titles */
+"search_title" = "Pencarian";
+"filter_title" = "Filter";
+
+/* Sections */
+"search_text_section_title" = "Teks Pencarian";
+"search_suggestions_section_title" = "Saran";
+
+
+/* MARK: - Period Selection View */
+/* Titles */
+"period_selection_title" = "Periode";
+"period_selection_current_year_title" = "Tahun Berjalan";
+"period_selection_current_month_title" = "Bulan Berjalan";
+
+/* Items */
+"from_title" = "Dari";
+"to_title" = "Kepada";
+
+
+/* MARK: - Dashboard View */
+/* Titles */
+"configure_title" = "Konfigurasi";
+"balance_widget_income_title" = "Penghasilan";
+"balance_widget_expenses_title" = "Beban";
+"savings_rate_widget_absolute_title" = "Mutlak";
+"savings_rate_widget_percentual_title" = "Persentase";
+"budget_widget_planned_title" = "Direncanakan";
+"budget_widget_remaining_title" = "Tersedia";
+"total_assets_widget_absolute_title" = "Mutlak";
+"total_assets_widget_trend_title" = "Tren";
+"forecast_widget_upcoming_title" = "Direncanakan";
+"forecast_widget_pending_title" = "Tertunda";
+"forecast_widget_final_balance_title" = "Saldo akhir";
+"pie_chart_widget_transactions_title" = "Transaksi";
+"pie_chart_widget_categories_title" = "Kategori";
+
+/* Sections */
+"inactive_widgets_section_title" = "Widget Lainnya";
+
+/* Footer */
+"participants_widget_footer_title" = "Catatan: Widget \"orang\" hanya muncul untuk buku anggaran bersama.";
+
+/* Messages */
+"no_widgets_title" = "Tidak ada widget yang ditambahkan";
+"no_widgets_message" = "Klik tombol \"pena\" untuk mengonfigurasi tampilan.";
+"no_suggestions_title" = "Tidak Ada Saran";
+"not_shared_title" = "Buku anggaran tidak dibagikan";
+
+/* Widget */
+"account_balances_widget_title" = "Saldo Akun";
+"balance_widget_title" = "Saldo";
+"total_income_widget_title" = "Total Pendapatan";
+"total_expenses_widget_title" = "Total Pengeluaran";
+"fixed_expenses_widget_title" = "Beban Tetap";
+"variable_expenses_widget_title" = "Beban Variabel";
+
+"account_balances_distribution_widget_title" = "Saldo Akun";
+"balance_distribution_widget_title" = "Saldo";
+"total_income_distribution_widget_title" = "Total Pendapatan";
+"total_expenses_distribution_widget_title" = "Total Pengeluaran";
+"fixed_expenses_distribution_widget_title" = "Beban Tetap";
+"variable_expenses_distribution_widget_title" = "Beban Variabel";
+
+
+/* MARK: - Transaction List View */
+/* Titles */
+"sum_title" = "Jumlah";
+"total_sum_title" = "Jumlah Total";
+"recurring_transactions_title" = "Berulang";
+"upcoming_transactions_title" = "Direncanakan";
+"reminded_transactions_title" = "Dengan Pengingat";
+
+/* Info */
+"recurring_transactions_info_title" = "Deskripsi";
+"recurring_transactions_info_description" = "Buat transaksi berulang agar ditambahkan secara otomatis ke aplikasi saat jatuh tempo.";
+
+/* Sections */
+"account_filter_section_title" = "Akun";
+"category_filter_section_title" = "Kategori";
+"payee_filter_section_title" = "Penerima bayaran";
+"tag_filter_section_title" = "Tag";
+"user_filter_section_title" = "Orang";
+"payment_status_filter_section_title" = "Pembayaran";
+"transaction_type_filter_section_title" = "Jenis";
+"date_range_filter_section_title" = "Tanggal";
+"amount_range_filter_section_title" = "Jumlah";
+
+/* Messages */
+"no_transactions_title" = "Tidak Ada Transaksi";
+"no_transactions_title_short" = "Tidak ada";
+"no_transactions_found_title" = "Tidak ada transaksi yang ditemukan";
+"no_transactions_found_message" = "Klik tombol \"+\" untuk menambahkan transaksi baru.";
+"no_transactions_found_button_title" = "Transaksi Baru";
+"no_recurring_transactions_found_message" = "Klik tombol \"+\" untuk menambahkan transaksi berulang yang baru.";
+"no_upcoming_transactions_found_message" = "Klik tombol \"+\" untuk menambahkan transaksi baru yang direncanakan.";
+"no_reminded_transactions_found_message" = "Klik tombol \"+\" untuk menambahkan transaksi baru dengan pengingat.";
+"transactions_search_placeholder_message" = "Cari berdasarkan nama kategori, penerima pembayaran, tag atau catatan";
+
+/* Buttons */
+"show_analysis_button" = "Tampilkan analisis";
+"show_analysis_button_short" = "Analisis";
+"show_forecast_button" = "Tampilkan perkiraan";
+"show_forecast_button_short" = "Prakiraan";
+"show_upcoming_transactions_button" = "Direncanakan";
+
+/* Alert Views */
+"alert_confirm_add_next_upcoming_transaction_title" = "Tambah Transaksi";
+"alert_confirm_add_next_upcoming_transaction_message" = "Apakah Anda yakin ingin menambahkan transaksi yang direncanakan ini sekarang?";
+
+/* Miscellaneous */
+"payed_by_and_modified_at" = "Dibayar oleh %@\nTerakhir diubah pada %@";
+"modified_at" = "Terakhir diubah pada %@";
+"average_per_transaction" = "Ø per transaksi";
+"average_per_day" = "Ø per hari";
+"average_per_month" = "Ø setiap bulan";
+
+
+/* MARK: - Budget List View */
+/* Titles */
+"remaining_title" = "Tersedia";
+"balanced_title" = "Seimbang";
+"exceeded_title" = "Melampaui";
+"user_has_no_budgets_title" = "Anda tidak memiliki anggaran.";
+"user_is_within_budget_title" = "Anda sesuai dengan anggaran Anda! 🎉";
+"user_was_within_budget_title" = "Anda sesuai dengan anggaran Anda! 🎉";
+"user_is_not_within_budget_title" = "Anda melebihi anggaran %d 😢";
+"user_is_not_within_budgets_title" = "Anda telah melampaui %d anggaran 😢";
+
+/* Messages */
+"no_budgets_title" = "Tidak Ada Anggaran";
+"no_budgets_found_title" = "Tidak ada anggaran yang ditemukan";
+"no_budgets_found_message" = "Klik tombol \"+\" untuk menambahkan anggaran baru.";
+"budgets_search_placeholder_message" = "Cari berdasarkan nama anggaran";
+"no_budgets_found_button_title" = "Anggaran Baru";
+
+
+/* MARK: - Analysis View */
+/* Titles */
+"analysis_title" = "Analisis";
+"trend_widget_average_title" = "Rata-rata";
+"trend_widget_current_year_title" = "Tahun Ini";
+"trend_widget_current_month_title" = "Bulan Ini";
+
+/* Messages */
+"trend_widget_received_more_message" = "Anda memperoleh penghasilan lebih banyak dari biasanya.";
+"trend_widget_received_less_message" = "Penghasilan Anda lebih sedikit dari biasanya.";
+"trend_widget_received_same_message" = "Penghasilan Anda sama seperti biasanya.";
+"trend_widget_has_received_more_message" = "Anda memperoleh penghasilan lebih banyak dari biasanya.";
+"trend_widget_has_received_less_message" = "Penghasilan Anda lebih sedikit dari biasanya.";
+"trend_widget_has_received_same_message" = "Anda memperoleh penghasilan yang sama seperti biasanya.";
+
+"trend_widget_spent_more_message" = "Anda membelanjakan lebih banyak dari biasanya.";
+"trend_widget_spent_less_message" = "Anda membelanjakan lebih sedikit dari biasanya.";
+"trend_widget_spent_same_message" = "Anda membelanjakan uang sama seperti biasanya.";
+"trend_widget_has_spent_more_message" = "Anda telah membelanjakan lebih banyak dari biasanya.";
+"trend_widget_has_spent_less_message" = "Anda membelanjakan lebih sedikit dari biasanya.";
+"trend_widget_has_spent_same_message" = "Anda membelanjakan jumlah yang sama seperti biasanya.";
+
+"total_balance_widget_current_balance_message" = "Saldo Anda sebesar %@.";
+"total_balance_widget_previous_balance_message" = "Saldo Anda adalah %@.";
+
+"savings_rate_widget_current_savings_rate_message" = "Tingkat tabungan Anda adalah %@ %%";
+"savings_rate_widget_previous_savings_rate_message" = "Tingkat tabungan Anda adalah %@ %%";
+
+/* Widgets */
+"trend_widget_title" = "Tren";
+"total_balance_widget_title" = "Saldo";
+"savings_rate_widget_title" = "Tingkat Tabungan";
+
+
+/* MARK: - Account Forecast View */
+/* Titles */
+"account_forecast_title" = "Prakiraan";
+"account_balance_title" = "Saldo";
+"not_enough_data_title" = "Data tidak cukup";
+
+
+/* MARK: - Settings View */
+/* Titles */
+"no_budget_book_title" = "Tidak ada buku anggaran";
+
+/* Messages */
+"share_app_message" = "\"%@ - Pelacak Pengeluaran\"\n\nUnduh sekarang secara gratis:";
+
+/* Sections */
+"general_setting_section_title" = "Umum";
+"upgrade_setting_section_title" = "Versi Lengkap";
+"support_setting_section_title" = "Dukungan";
+"legal_setting_section_title" = "Hukum";
+"data_setting_section_title" = "Data";
+"miscellaneous_setting_section_title" = "Lain-lain";
+
+/* Footer */
+"upgrade_setting_footer_title" = "Terima kasih telah menggunakan versi lengkap!";
+"support_setting_footer_title" = "Ada pertanyaan atau ide? Tulis pesan atau ulasan positif di App Store! Umpan balik Anda sangat memotivasi dan membantu meningkatkan aplikasi.";
+
+/* Buttons */
+"share_budgetbook_button" = "Bagikan Buku Anggaran";
+"show_participants_button" = "Tampilkan Peserta";
+"cloud_not_available_button" = "iCloud tidak tersedia";
+"upgrade_show_all_features_button" = "Tampilkan Semua Fitur";
+"reset_app_button" = "Atur Ulang Aplikasi";
+
+/* General Settings */
+"accounts_setting_title" = "Kelola Akun";
+"categories_setting_title" = "Kelola Kategori";
+"payees_setting_title" = "Kelola Penerima Pembayaran";
+"tags_setting_title" = "Kelola Tag";
+"reminders_setting_title" = "Pengingat";
+
+/* Upgrade Settings */
+"upgrade_setting_title" = "Buka versi lengkap 🚀";
+"upgrade_setting_description" = "Buka versi lengkap sekarang dan manfaatkan lebih banyak fitur tambahan!";
+
+/* Support Settings */
+"share_app_setting_title" = "Beri tahu Teman";
+"translate_app_setting_title" = "Bantu Menerjemahkan";
+"help_center_setting_title" = "Pusat Bantuan (🇬🇧)";
+"feature_roadmap_setting_title" = "Sarankan Fitur";
+"rate_app_setting_title" = "Nilai Aplikasi";
+
+/* Legal Settings */
+"imprint_setting" = "Imprint";
+"privacy_setting" = "Kebijakan Privasi";
+"terms_of_use_setting" = "Syarat Penggunaan";
+"acknowledgements_setting" = "Terima Kasih";
+"licenses_setting" = "Lisensi";
+
+"acknowledgements_setting_info_title" = "Deskripsi";
+"acknowledgements_setting_info_description" = "Di bawah ini adalah daftar orang-orang yang telah membantu aplikasi ini.";
+"translation_acknowledgement" = "Terjemahan (%@)";
+"licenses_setting_info_title" = "Deskripsi";
+"licenses_setting_info_description" = "Di bawah ini adalah daftar semua lisensi pihak ketiga yang digunakan oleh app.";
+
+/* Data Settings */
+"sync_and_data_setting" = "Sinkronisasi & Data";
+"sync_and_data_setting_short" = "Sinkronisasi & Data";
+"recurring_transactions_setting" = "Transaksi Berulang";
+
+/* Miscellaneous Settings */
+"new_features_setting" = "Fitur Baru";
+"testflight_beta_setting" = "TestFlight Beta";
+"apple_pay_setting" = " Pay Integrasi";
+"appearance_setting" = "Personalisasi";
+"advanced_setting" = "Pengaturan Lanjutan";
+
+/* Contact Developer */
+"mail_subject_type_contact" = "Contact";
+"mail_subject_type_support" = "Support";
+"mail_subject_type_feedback" = "Feedback";
+"mail_subject_type_translate" = "Translate";
+"mail_subject_type_discount" = "Discount";
+
+"alert_contact_developer_title" = "Apa permintaan anda?";
+"alert_contact_developer_feature_request" = "💡 Sarankan fitur";
+"alert_contact_developer_bug_report" = "🐞 Laporan bug";
+"alert_contact_developer_other" = "📬 Lainnya (e-mail)";
+
+"contact_developer_mail_subject" = "%@: %@%@";
+"contact_developer_mail_subject_full_version" = " (full version)";
+"contact_developer_mail_message" = "
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+<b>Support Information:</b>
+</br>
+<u>General:</u></br>
+- Device: %@</br>
+- iOS version: %@</br>
+- Language: %@</br>
+- Currency: %@</br>
+- Time zone: %@</br>
+</br>
+<u>App Specific:</u></br>
+- App version: %@</br>
+- Build: %@</br>
+</br>
+<u>In-App Purchases:</u></br>
+- User ID: %@</br>
+- Active: %@</br>
+- Purchases: %@";
+"contact_developer_mail_no_purchases" = "None";
+
+/* Appearance Settings */
+"appearance_setting_info_title" = "Deskripsi";
+"appearance_setting_info_description" = "Personalisasikan aplikasi sesuai keinginan Anda dengan mengubah tampilan atau warna aksen aplikasi.";
+"appearance_ui_style_setting_section_title" = "Tema";
+"appearance_ui_style_setting_footer_title" = "Mengubah tampilan app.";
+"appearance_accent_color_setting_section_title" = "Warna Aksen";
+"appearance_accent_color_setting_footer_title" = "Mengubah warna tombol dan kontrol lain di dalam aplikasi.";
+"appearance_app_icon_setting_section_title" = "Ikon Aplikasi";
+
+/* Sync & Data Settings */
+"sync_and_data_setting_info_title" = "Deskripsi";
+"sync_and_data_setting_info_description" = "Dapatkan ikhtisar status sinkronisasi saat ini dan impor atau ekspor data menggunakan file CSV.";
+
+"sync_and_data_cloud_setting_section_title" = "iCloud";
+"sync_and_data_cloud_setting_footer_title" = "Menunjukkan apakah sinkronisasi dengan iCloud berhasil atau terjadi kesalahan.";
+"sync_and_data_setting_cloud_sync_status_title" = "Status Sinkronisasi";
+"backup_setting_section_title" = "Cadangan";
+"backup_setting_footer_title" = "Kelola cadangan dan pengaturan cadangan Anda.";
+"backup_setting_manage_backups_title" = "Kelola";
+"sync_and_data_csv_setting_section_title" = "CSV-Data";
+"sync_and_data_csv_setting_footer_title" = "Impor atau ekspor transaksi Anda menggunakan file CSV.";
+"sync_and_data_setting_csv_import_title" = "Impor";
+"sync_and_data_setting_csv_export_title" = "Ekspor";
+"sync_and_data_setting_get_csv_template_title" = "Unduh templat";
+
+"clear_cache_button" = "Hapus cache";
+"cache_setting_footer_title" = "Info: Menghapus cache akan menghapus semua file di direktori dokumen aplikasi (termasuk cadangan).";
+
+"alert_csv_import_successful_title" = "Impor berhasil 🎉";
+"alert_csv_import_successful_message" = "Secara total, %d dari %d transaksi telah diimpor.%@";
+"alert_csv_import_skipped_message" = " Dengan demikian, %d transaksi yang sudah ada / duplikat telah dilewati.";
+"alert_csv_import_error_message" = "Gagal mengimpor %d dari %d transaksi dengan sukses.\n\n%@";
+"alert_csv_import_error_reason_field_message" = "Harap periksa bidang berikut di file CSV Anda: %@.";
+
+"alert_csv_export_successful_title" = "Ekspor berhasil 🎉";
+"alert_csv_export_successful_message" = "Data Anda berhasil diekspor ke \"%@\".";
+
+/* Cloud Settings */
+"cloud_setting_info_title" = "Deskripsi";
+"cloud_setting_info_description" = "Tampilan berikut memberikan gambaran umum lebih rinci tentang status sinkronisasi iCloud saat ini dan membantu pemecahan masalah.";
+
+"cloud_setting_network_status_title" = "Jaringan";
+"cloud_setting_network_status_success_value" = "Koneksi internet tersedia";
+"cloud_setting_network_status_error_value" = "Tidak ada koneksi internet";
+"cloud_setting_account_status_title" = "Akun iCloud";
+"cloud_setting_account_status_success_value" = "Masuk ke iCloud";
+"cloud_setting_account_status_error_value" = "Belum masuk ke iCloud";
+"cloud_setting_upload_status_title" = "Terakhir diunggah";
+"cloud_setting_download_status_title" = "Terakhir diunduh";
+"cloud_setting_number_of_transactions_title" = "Transaksi";
+"cloud_setting_number_of_transactions_value" = "Di perangkat: %d\nDi iCloud: %d";
+"cloud_setting_number_of_transactions_in_progress_title" = "Tolong tunggu...";
+"cloud_setting_number_of_transactions_error_title" = "Kesalahan";
+
+/* Backup Settings */
+"backup_setting_info_title" = "Deskripsi";
+"backup_setting_info_description" = "Jika diaktifkan, Aliran Anggaran mencadangkan data Anda secara rutin sehingga Anda dapat memulihkan aplikasi ke keadaan sebelumnya kapan saja.";
+
+"backup_general_setting_section_title" = "Umum";
+"backup_recent_backups_setting_section_title" = "Cadangan Terbaru";
+"backup_setting_use_automatic_backups_title" = "Pencadangan Otomatis";
+"backup_setting_create_backup_title" = "Buat cadangan";
+
+"alert_restore_backup_title" = "Pulihkan cadangan ini?";
+"alert_restore_backup_message" = "Memulihkan cadangan saat ini merupakan fitur eksperimental. Ini akan menghapus data Anda saat ini dan menimpanya dengan cadangan yang dipilih.\n\nSetelah itu, aplikasi akan ditutup secara otomatis.\n\nPeringatan: Proses ini tidak dapat dibatalkan!";
+"alert_restore_backup_button" = "Pulihkan cadangan";
+
+/* Advanced Settings */
+"advanced_setting_info_title" = "Deskripsi";
+"advanced_setting_info_description" = "Lakukan pengaturan lebih lanjut untuk mengonfigurasi aplikasi.";
+
+"advanced_security_setting_section_title" = "Keamanan";
+"advanced_view_setting_section_title" = "Tampilan";
+"advanced_sidebar_setting_section_title" = "Bilah Sisi";
+"advanced_transaction_setting_section_title" = "Transaksi";
+"advanced_other_setting_section_title" = "Lainnya";
+
+"advanced_setting_use_passcode_title" = "Gunakan Kode Sandi";
+"advanced_setting_use_title" = "Gunakan %@";
+"advanced_setting_auto_lock_title" = "Minta Kode";
+
+"advanced_setting_chart_type_title" = "Jenis bagan";
+"advanced_setting_show_frequently_used_items_title" = "Tampilkan kategori yang sering digunakan";
+"advanced_setting_show_frequently_used_items_description" = "Tampilkan kategori & tag yang sering digunakan dalam daftar pilihan saat membuat dan mengedit transaksi.";
+"advanced_setting_show_notes_in_title_title" = "Tampilkan catatan, bukan kategori";
+"advanced_setting_show_notes_in_title_description" = "Tampilkan isi catatan dan bukan nama kategori untuk transaksi.";
+"advanced_setting_start_day_of_month_title" = "Hari awal bulan";
+"advanced_setting_start_day_of_month_description" = "Tentukan hari awal setiap bulan agar laporan, transaksi, dan anggaran dihitung dengan tepat.";
+"advanced_setting_configure_transaction_title_title" = "Judul transaksi";
+"advanced_setting_configure_transaction_subtitle_title" = "Subjudul transaksi";
+
+"advanced_setting_configure_transaction_title_info_title" = "Deskripsi";
+"advanced_setting_configure_transaction_title_info_description" = "Tetapkan urutan item yang akan ditampilkan dalam judul transaksi. Jika ada item yang hilang, item berikutnya dalam urutan tersebut akan digunakan secara otomatis.";
+
+"advanced_setting_show_accounts_in_sidebar_title" = "Tampilkan akun di sidebar";
+"advanced_setting_show_accounts_in_sidebar_description" = "Tampilkan daftar akun Anda di bar samping.";
+"advanced_setting_group_accounts_in_sidebar_title" = "Kelompokkan akun di sidebar";
+"advanced_setting_group_accounts_in_sidebar_description" = "Kelompokkan akun Anda di sidebar menurut jenis.";
+"advanced_setting_show_categories_in_sidebar_title" = "Tampilkan kategori di sidebar";
+"advanced_setting_show_categories_in_sidebar_description" = "Tampilkan daftar kategori Anda di sidebar.";
+"advanced_setting_group_categories_in_sidebar_title" = "Kelompokkan kategori di sidebar";
+"advanced_setting_group_categories_in_sidebar_description" = "Kelompokkan kategori Anda di sidebar menurut folder.";
+
+"advanced_setting_select_time_automatically_title" = "Pemilihan waktu otomatis";
+"advanced_setting_select_time_automatically_description" = "Secara otomatis memilih waktu saat ini untuk transaksi baru.";
+"advanced_setting_select_location_automatically_title" = "Pemilihan lokasi otomatis";
+"advanced_setting_select_location_automatically_description" = "Secara otomatis memilih lokasi saat ini untuk transaksi baru.";
+"advanced_setting_save_photos_in_library_title" = "Simpan foto di perpustakaan";
+"advanced_setting_save_photos_description" = "Simpan foto yang diambil secara otomatis ke perpustakaan foto.";
+"advanced_setting_consider_pending_items_title" = "Pesan semua transaksi";
+"advanced_setting_consider_pending_items_description" = "Sertakan transaksi yang tertunda saat menghitung saldo akun, saldo, total, dll.";
+
+"advanced_setting_enable_exact_times_title" = "Masukkan waktu yang tepat";
+"advanced_setting_enable_exact_times_description" = "Pilih waktu yang tepat menggunakan pemutar menit untuk transaksi (misalnya 09:41).";
+"advanced_setting_reverse_keyboard_title" = "Papan Ketik Terbalik";
+"advanced_setting_reverse_keyboard_description" = "Membalikkan tata letak papan ketik numerik secara vertikal untuk menyesuaikan dengan gaya kalkulator tradisional.";
+"advanced_setting_enable_haptic_keyboard_title" = "Umpan Balik Keyboard";
+"advanced_setting_enable_haptic_keyboard_description" = "Dapatkan masukan haptik saat memasukkan jumlah uang menggunakan keyboard.";
+"advanced_setting_enable_live_activities_title" = "Aktivitas Langsung";
+"advanced_setting_enable_live_activities_description" = "Lihat saldo Anda saat ini dan lebih banyak lagi di pulau dinamis serta layar kunci.";
+"advanced_setting_ask_for_feedback_title" = "Minta Masukan";
+"advanced_setting_ask_for_feedback_description" = "Izinkan aplikasi sesekali meminta masukan dari Anda.";
+
+/* Cloud Sync Status */
+"cloud_sync_status_not_logged_in" = "Tidak masuk ke iCloud";
+"cloud_sync_status_not_started" = "Tidak disinkronkan";
+"cloud_sync_status_no_network" = "Tidak ada koneksi internet";
+"cloud_sync_status_in_progress" = "Menyelaraskan...";
+"cloud_sync_status_succeeded" = "Sepenuhnya disinkronkan";
+"cloud_sync_status_quota_exceeded" = "Penyimpanan iCloud Anda penuh. Harap kosongkan beberapa ruang dan coba lagi.";
+"cloud_sync_status_limit_exceeded" = "Anda telah mencapai batas unggah/unduh iCloud. Harap tunggu sebentar dan coba lagi nanti.";
+"cloud_sync_status_network_failure" = "Terjadi kesalahan jaringan. Harap coba lagi nanti.";
+"cloud_sync_status_service_unavailable" = "iCloud sementara tidak tersedia. Harap coba lagi nanti.";
+"cloud_sync_status_request_rate_limited" = "Anda telah mengirim terlalu banyak permintaan ke iCloud dalam waktu singkat. Harap tunggu sebentar dan coba lagi nanti.";
+"cloud_sync_status_request_unknown_error" = "Terjadi kesalahan yang tidak diketahui. Harap coba lagi nanti.";
+
+/* Alert Views */
+"alert_share_app_type_selection_title" = "Apa yang ingin Anda bagikan?";
+"alert_share_app_type_selection_link_button" = "Tautan";
+"alert_share_app_type_selection_qrcode_button" = "Kode QR";
+
+"alert_reset_app_title" = "Atur Ulang Aplikasi";
+"alert_reset_app_message" = "Apakah Anda yakin ingin mengatur ulang app ke pengaturan default? Ini akan menghapus secara permanen semua data Anda yang tersimpan di perangkat ini dan iCloud.";
+
+"alert_error_title" = "Terjadi kesalahan 😢";
+
+/* Social Media */
+"follow_on_social_media" = "Follow \"%@\" on Social Media";
+
+/* Copyright */
+"version" = "Versi";
+"developed_by" = "Dikembangkan oleh %@ 👨🏻‍💻";
+
+
+/* MARK: - Passcode View */
+/* Titles */
+"passcode_view_enter_passcode_title" = "Masukkan Kode Sandi";
+"passcode_view_create_passcode_title" = "Buat Kode Sandi";
+"passcode_view_confirm_passcode_title" = "Konfirmasi Kode Sandi";
+"passcode_view_authenticate_reason" = "Otentikasi Pengguna";
+
+/* Alert Views */
+"alert_set_passcode_type_title" = "Pilih opsi kode sandi";
+
+
+/* MARK: - Welcome View */
+/* Titles */
+"welcome_view_title" = "Selamat datang di";
+"privacy_policy_title" = "Kebijakan Privasi";
+
+/* Sections */
+"welcome_view_overview_section_title" = "Ringkasan";
+"welcome_view_legal_documents_section_title" = "Informasi Lebih Lanjut";
+
+/* Overview */
+"privacy_overview_datastorage_title" = "Amankan penyimpanan data";
+"privacy_overview_datastorage_description" = "Keuangan Anda bersifat pribadi – dan harus tetap seperti itu. Itulah sebabnya data Anda disimpan secara eksklusif di perangkat Anda atau (opsional) di iCloud pribadi Anda.";
+
+"privacy_overview_privacy_control_title" = "Anda memegang kendali";
+"privacy_overview_privacy_control_description" = "Baik data yang disimpan, penggunaan lokasi, atau akses ke kamera - Anda selalu memegang kendali. Misalnya, Anda dapat dengan mudah menghapus data dengan mengatur ulang aplikasi dan menyesuaikan izin akses aplikasi di kapan pun.";
+
+/* Footer */
+"welcome_view_value_description" = "Kendalikan semua keuangan Anda dengan mudah: Masukkan anggaran Anda, dapatkan wawasan, dan lacak semua pendapatan dan pengeluaran Anda.";
+"welcome_view_agreement_description" = "Dengan mengeklik \"Terima\" Anda menyetujui %@.";
+
+
+/* MARK: - New Features View */
+/* Titles */
+"new_features_view_title" = "New Features";
+
+/* Buttons */
+"new_features_view_rate_app_button" = "Rate App";
+"new_features_view_close_button" = "Maybe later";
+
+
+/* MARK: - Rate App View */
+/* Titles */
+"purchase_success_view_title" = "Terima kasih!";
+
+/* Messages */
+"purchase_success_view_info_message" = "Jika Anda menyukai aplikasi ini, silakan tulis ulasan positif di App Store. Ini sangat membantu dan memotivasi untuk terus meningkatkan aplikasi. 😊";
+"purchase_success_view_info_message_info" = "\n\nInfo: Ketika Anda beralih dari langganan ke pembelian seumur hidup, ingat untuk membatalkan langganan yang ada setelahnya.";
+
+/* Buttons */
+"purchase_success_view_rate_app_button" = "Nilai Aplikasi";
+"purchase_success_view_close_button" = "Mungkin nanti";
+
+
+/* MARK: - Upgrade View */
+/* Titles */
+"upgrade_view_title" = "Versi Lengkap";
+
+/* Info */
+"upgrade_info_description" = "Fitur ini hanya tersedia dalam versi lengkap:";
+"upgrade_sharing_info_description" = "Dapat digunakan hingga lima orang";
+
+/* Discount */
+"upgrade_discount_title" = "Penawaran Spesial 🌟";
+"upgrade_discount_multiple_title" = "Hemat hingga %d %%!";
+"upgrade_discount_montly_subscription_title" = "Hemat %d %% untuk langganan bulanan!";
+"upgrade_discount_yearly_subscription_title" = "Hemat %d %% untuk langganan tahunan!";
+"upgrade_discount_lifetime_purchase_title" = "Hemat %d %% untuk pembelian satu kali!";
+"upgrade_discount_ends_in" = "Berakhir pada";
+
+/* Sections */
+"upgrade_info_section_title" = "Info";
+"upgrade_reviews_section_title" = "Ulasan";
+
+/* Messages */
+"apply_for_discount_text" = "Apakah Anda pelajar atau membutuhkan keuangan?\nKlik di sini untuk mengajukan diskon.";
+"apply_for_discount_highlighted_text" = "Klik di sini untuk mengajukan diskon.";
+
+/* Features */
+"upgrade_features" = "Fitur";
+"upgrade_more_features" = "Fitur Lainnya";
+"upgrade_features_description" = "Berikut adalah semua fitur yang akan dibuka kuncinya dengan pembelian versi lengkap:";
+"upgrade_feature_unlimited_accounts_title" = "Akun Tambahan";
+"upgrade_feature_unlimited_accounts_description" = "Buat akun tambahan dan tetapkan transaksi ke akun tersebut untuk ikhtisar pendapatan dan pengeluaran Anda yang lebih baik.";
+"upgrade_feature_unlimited_categories_and_tags_title" = "Kategori Tak Terbatas";
+"upgrade_feature_unlimited_categories_and_tags_description" = "Buat kategori tak terbatas yang dapat Anda personalisasikan dengan warna, ikon, dan emoji.";
+"upgrade_feature_extended_analyses_title" = "Analisis yang Diperluas";
+"upgrade_feature_extended_analyses_description" = "Manfaat dari analisis tambahan dan perkiraan tambahan saldo akun dan transaksi Anda di masa mendatang.";
+"upgrade_feature_unlimited_budgetbooks_title" = "Beberapa Buku Anggaran";
+"upgrade_feature_unlimited_budgetbooks_description" = "Buat beberapa buku anggaran sehingga, misalnya, beberapa orang masing-masing dapat menggunakannya di satu perangkat, atau jika Anda ingin berbagi buku anggaran terpisah (misalnya untuk liburan).";
+"upgrade_feature_security_title" = "Data Aman";
+"upgrade_feature_security_description" = "Lindungi data Anda dengan %@.";
+"upgrade_feature_security_description_passcode" = "Lindungi data Anda dengan membuat kode";
+"upgrade_feature_security_description_biometrik" = " atau gunakan %@";
+"upgrade_feature_currency_converter_title" = "Konverter Mata Uang";
+"upgrade_feature_currency_converter_description" = "Gunakan pengonversi mata uang bawaan untuk mengonversi jumlah secara otomatis menjadi salah satu dari lebih dari 150 mata uang asing.";
+"upgrade_feature_customization" = "Personalisasi";
+"upgrade_feature_customization_description" = "Pilih dari beberapa warna aksen dan ikon untuk mempersonalisasi aplikasi sesuai keinginan Anda.";
+"upgrade_feature_sharedbudget_books_title" = "Bagikan Buku Anggaran";
+"upgrade_feature_sharedbudget_books_description" = "Bagikan buku anggaran Anda termasuk akun, kategori, transaksi, dan anggaran untuk berkolaborasi dengan satu orang atau lebih.";
+"upgrade_feature_receipt_scanner_title" = "Pindai Tanda Terima";
+"upgrade_feature_receipt_scanner_description" = "Gunakan pemindai bawaan untuk mendigitalkan tanda terima dan mengenali jumlah dan nama pedagang secara otomatis.";
+"upgrade_feature_widgets_title" = "Widget Beranda & Layar Kunci";
+"upgrade_feature_widgets_description" = "Dengan bantuan widget, Anda dapat melihat pendapatan dan pengeluaran Anda saat ini, saldo akun Anda, dan banyak lagi secara sekilas tanpa harus membuka aplikasi. Untuk mempratinjau widget, edit layar utama atau kunci Anda, buka \"Tambahkan Widget\" lalu pilih aplikasi ini.";
+"upgrade_feature_reminders_title" = "Buat Pengingat";
+"upgrade_feature_reminders_description" = "Buat pengingat untuk transaksi yang Anda rencanakan untuk menerima pemberitahuan push (juga offline).";
+"upgrade_feature_csv_title" = "Impor dan Ekspor CSV";
+"upgrade_feature_csv_description" = "Impor dan ekspor transaksi Anda menggunakan file CSV untuk mentransfer data dari bank Anda atau aplikasi lain.";
+"upgrade_feature_remove_ads_title" = "Tanpa Iklan";
+"upgrade_feature_remove_ads_description" = "Anda tidak akan lagi melihat iklan untuk versi lengkap dalam aplikasi.";
+"upgrade_feature_support_title" = "Dukungan Pengembangan";
+"upgrade_feature_support_description" = "Anda mendukung pengembang muda dan dengan demikian terus mengembangkan aplikasi! 😊";
+
+/* Reviews */
+"user_review_title_de" = "Awesome app";
+"user_review_description_de" = "The app is very well designed and functional. It meets all my needs and the support is very fast and helpful. I can only recommend it.";
+"user_review_title_hr" = "Beautiful app";
+"user_review_description_hr" = "Feature rich app, with an easy to use user interface. Tried many alternatives on iOS, none of them met my needs the way this app does. Worth the money.";
+"user_review_title_bg" = "Outstanding support";
+"user_review_description_bg" = "Great app with an outstanding customer support. And it’s a very reasonable priced for the quality of the software.";
+"user_review_title_us" = "Great app so far";
+"user_review_description_us" = "Huge fan of this being an app available on iOS, iPad and macOS so that I can update it anywhere. It is also really nice to see that there is no account required or data collection which seems rare these days but important to me for finance applications.";
+"user_review_title_uk" = "This is the one!";
+"user_review_description_uk" = "I’ve been looking for this app for over two years. I wanted a phone based finance manager that was designed around a good looking overview screen, allowing easy entry of new data and the ability to drill down for more info when needed! Give it a go.";
+"user_review_title_es" = "Best budgeting app";
+"user_review_description_es" = "Simply the best I have tried. I think it is still a new app but defetinely you can see the potential it has.";
+"user_review_title_fr" = "Superb, feature-rich app";
+"user_review_description_fr" = "I've been using the app for a few months now and I really like it. Congratulations on your work and I can't wait to see what the app will look like in a few months :)";
+"user_review_title_it" = "Simply great";
+"user_review_description_it" = "Finally. I was lloking for such a solution for years now. Use it with transaction iOS shortcut trigger, love the design. And I like the pay once in a lifetime feature. Keep up the great work!";
+"user_review_title_ch" = "Great support";
+"user_review_description_ch" = "Great support - fast and uncomplicated problem solving. I feel taken seriously as a user.";
+"user_review_title_pl" = "Very pleasant to use";
+"user_review_description_pl" = "The app is an excellent budget tracker and planner that I use on a daily basis. In addition the developer is very attentive to their community, despite its small size.";
+
+/* Products */
+"monthly_subscription_title" = "1";
+"yearly_subscription_title" = "12";
+"lifetime_purchase_title" = "∞";
+
+"monthly_subscription_subtitle" = "Bulan";
+"yearly_subscription_subtitle" = "Bulan";
+"lifetime_purchase_subtitle" = "Tidak terbatas";
+
+"product_discount_header_title" = "- %d %%";
+
+/* Buttons */
+"upgrade_is_active_button" = "Aktif";
+"upgrade_purchase_button" = "Beli";
+"upgrade_subscribe_button" = "Berlangganan";
+"upgrade_free_trial_button" = "Uji Coba Gratis";
+"upgrade_restore_button" = "Pulihkan pembelian";
+"upgrade_restore_in_progress_button" = "Harap tunggu...";
+
+"subscription_button_info_text" = "Dapat dibatalkan kapan saja.";
+"subscription_trial_button_info_text" = "%d %@ uji coba gratis. Lalu %@ per %@";
+"lifetime_purchase_button_info_text" = "Buka versi lengkap satu kali (tanpa berlangganan).";
+
+/* Alert Views */
+"alert_upgrade_view_purchase_success_title" = "Pembelian Berhasil 🎉";
+"alert_upgrade_view_purchase_success_message" = "Terima kasih atas dukungan Anda! 😊";
+"alert_upgrade_view_purchase_success_message_info" = "\n\nInfo: Jika Anda beralih dari langganan ke pembelian satu kali, ingatlah untuk membatalkan langganan Anda sebelumnya setelahnya.";
+"alert_upgrade_view_purchase_error_message" = "Pembelian Anda tidak berhasil diselesaikan.";
+"alert_upgrade_view_purchase_error_store_problem_message" = "Ada masalah dengan App Store.\n\nInfo: Terkadang pembelian hanya dapat berfungsi jika Anda mengonfirmasi dengan kata sandi Anda, bukan Touch ID / Face ID.\n\nMisalnya, jika Anda menggunakan Face ID, cukup tutupi kamera depan dan coba lagi untuk melihat dialog kata sandi.";
+"alert_upgrade_view_purchase_error_not_allowed_message" = "Pembelian tidak diizinkan di perangkat ini.";
+"alert_upgrade_view_purchase_error_invalid_message" = "Periksa metode pembayaran Anda dan coba lagi nanti. Jika kesalahan terus berlanjut, hubungi dukungan.";
+"alert_upgrade_view_purchase_error_network_message" = "Periksa koneksi internet Anda dan coba lagi nanti. Jika kesalahan berlanjut, hubungi dukungan.";
+
+"alert_upgrade_view_load_products_error_message" = "Produk tidak dapat dimuat. Periksa koneksi internet Anda dan coba lagi nanti. Jika kesalahan berlanjut, hubungi dukungan.";
+
+"alert_upgrade_view_restore_success_title" = "Pembelian Dipulihkan";
+"alert_upgrade_view_restore_success_message" = "Pembelian Anda berhasil dipulihkan! 😊";
+"alert_upgrade_view_restore_error_message" = "Pembelian Anda tidak dapat dipulihkan. Coba lagi nanti.";
+"alert_upgrade_view_restore_nothing_to_do_title" = "Tidak ada pembelian yang tersedia 😢";
+"alert_upgrade_view_restore_nothing_to_do_message" = "Tidak dapat menemukan pembelian apa pun untuk dipulihkan.";
+
+
+/* MARK: - Upgrade FAQ View */
+/* Titles */
+"upgrade_faq_view_title" = "FAQ";
+
+/* Sections */
+"upgrade_faq_general_section_title" = "Umum";
+"upgrade_faq_purchases_section_title" = "Pembelian & Langganan";
+
+/* Items */
+"upgrade_faq_about_title" = "Apa itu Budget Flow?";
+"upgrade_faq_about_value" = "Budget Flow adalah aplikasi pelacakan anggaran yang modern dan mudah digunakan untuk semua orang yang ingin melacak keuangan mereka dan mengelola pengeluaran mereka secara efektif.";
+"upgrade_faq_developer_title" = "Siapa yang mengembangkan aplikasi ini?";
+"upgrade_faq_developer_value" = "Budget Flow dimulai sebagai proyek sampingan dan sejak itu sepenuhnya dirancang, dikembangkan, dan dikelola oleh saya, Fabian Hasse. Saya adalah pengembang perangkat lunak yang antusias dengan pengalaman lebih dari 10 tahun dan saya bekerja dengan penuh semangat untuk mengembangkan aplikasi penganggaran dan pelacakan pengeluaran terbaik di App Store.";
+"upgrade_faq_free_use_title" = "Bisakah aplikasi juga digunakan secara gratis?";
+"upgrade_faq_free_use_value" = "Ya, Anda dapat menggunakan fungsi dasar aplikasi, seperti membuat transaksi, sepenuhnya gratis.\n\nSelain itu, aplikasi menawarkan masa uji coba untuk versi lengkap sehingga Anda dapat mencobanya terlebih dahulu sebelum Anda memutuskan untuk membeli atau berlangganan versi lengkap.";
+"upgrade_faq_security_title" = "Apakah data saya aman?";
+"upgrade_faq_security_value" = "Keuangan Anda bersifat pribadi – dan harus tetap seperti itu. Itulah sebabnya data Anda disimpan secara eksklusif di perangkat Anda atau (opsional) di iCloud pribadi Anda.";
+"upgrade_faq_why_subscription_title" = "Mengapa versi lengkap ditawarkan sebagai langganan?";
+"upgrade_faq_why_subscription_value" = "Tujuan kami adalah mengembangkan aplikasi berkualitas tinggi yang menawarkan kepada Anda sebagai pengguna fitur dan peningkatan baru secara rutin. Namun, untuk mencapai tujuan ini, aplikasi memerlukan pendapatan berkelanjutan untuk membiayai dirinya sendiri dan berkelanjutan secara ekonomi.\n\nApa yang tidak diketahui banyak orang Mengembangkan dan memelihara aplikasi membutuhkan banyak waktu. Dalam kasus Budget Flow, misalnya, dibutuhkan waktu hampir dua tahun dan beberapa ribu jam kerja dari ide hingga pengembangan dan pengujian sebelum versi pertama dapat dirilis ke App Store.\n\nSebagai pelanggan, Anda mendapatkan manfaat khususnya dari pembaruan dan peningkatan rutin melalui model langganan, serta dukungan yang baik untuk memastikan bahwa Anda terus merasa puas. Anda juga memiliki kesempatan untuk mencoba aplikasi secara gratis terlebih dahulu untuk memastikan bahwa itu sesuai dengan kebutuhan Anda, Anda dapat mengubah atau membatalkan langganan kapan saja jika Anda berubah pikiran.\n\nSecara keseluruhan, model langganan menawarkan banyak manfaat bagi Anda sebagai pelanggan dan pengalaman pengguna yang lebih baik melalui pembaruan dan dukungan berkelanjutan dibandingkan dengan pembelian satu kali. Dalam jangka panjang, pembelian satu kali sayangnya tidak akan berkelanjutan, karena model bisnis ini mengharuskan pengguna baru untuk terus membeli aplikasi guna memastikan kelanjutan pengembangan.\n\nJadi, jika Anda menyukai aplikasinya, kami akan sangat senang jika Anda mendukung pekerjaan kami sehingga kami dapat terus menawarkan lebih banyak fitur hebat kepada Anda di masa mendatang!❤️";
+"upgrade_faq_multiple_devices_title" = "Bisakah saya menggunakan versi lengkap di beberapa perangkat?";
+"upgrade_faq_multiple_devices_value" = "Ya, Anda dapat menggunakan versi lengkap Budget Flow di semua perangkat Apple Anda dengan ID Apple yang sama. Karena app diselaraskan melalui iCloud, Anda dapat beralih antar perangkat dengan lancar dan selalu dapat mengakses data keuangan Anda dan pengaturan.";
+"upgrade_faq_multiple_people_title" = "Bisakah saya menggunakan versi lengkap dengan banyak orang?";
+"upgrade_faq_multiple_people_value" = "Ya, Anda dapat berbagi pembelian satu kali serta langganan versi lengkap dengan maksimal lima orang dalam satu grup keluarga. Yang harus Anda lakukan hanyalah mengaktifkan berbagi keluarga di pengaturan sistem dan menambahkan orang lain ke grup yang diundang.";
+"upgrade_faq_cancel_subscription_title" = "Bagaimana cara membatalkan langganan saya?";
+"upgrade_faq_cancel_subscription_value" = "Anda dapat membatalkan langganan kapan saja menggunakan ID Apple Anda di Preferensi Sistem.\n\nJika Anda ingin membatalkan langganan karena menemukan bug di app, hubungi kami melalui email di dalam app . Dalam kebanyakan kasus, masalah yang ditemukan dapat diperbaiki dengan cepat sehingga Anda dapat terus puas dengan Budget Flow.";
+"upgrade_faq_subscription_data_loss_title" = "Apakah data saya akan hilang jika saya membatalkan langganan?";
+"upgrade_faq_subscription_data_loss_value" = "Tidak. Apa pun yang Anda buat saat berlangganan versi lengkap akan tetap tersedia jika Anda beralih kembali ke versi gratis.";
+"upgrade_faq_refund_title" = "Bagaimana cara mendapatkan pengembalian dana?";
+"upgrade_faq_refund_value" = "Pembayaran yang dilakukan melalui App Store hanya dapat dikembalikan oleh Apple. Untuk menerima pengembalian dana, Anda harus menghubungi Dukungan Apple dalam waktu 14 hari setelah pembelian.";
+"upgrade_faq_switch_plan_title" = "Apakah mungkin untuk beralih dari langganan ke pembelian satu kali di kemudian hari?";
+"upgrade_faq_switch_plan_value" = "Ya, Anda dapat beralih dari langganan aktif ke pembelian satu kali kapan saja dengan membeli produk yang sesuai di aplikasi. Namun, harap ingat untuk membatalkan langganan Anda sebelumnya agar Anda tidak membayar lebih dari sekali.";
+
+
+/* MARK: - User Feedback */
+"user_feedback" = "umpan balik";
+
+/* Buttons */
+"user_feedback_message_title" = "Hai, ini Fabian, pengembang Budget Flow. Apakah Anda punya waktu untuk memberikan umpan balik tentang aplikasi? 😊";
+
+/* Alert Views */
+"alert_user_feedback_title" = "Apakah Anda menyukai aplikasi ini?";
+
+"alert_user_feedback_like_title" = "Terima kasih! 🎉";
+"alert_user_feedback_like_message" = "Jika Anda menyukai aplikasi ini, silakan tulis ulasan positif di App Store. Ini sangat membantu dan memotivasi untuk terus meningkatkan aplikasi. 😊";
+"alert_user_feedback_rate_app_button" = "Nilai Aplikasi";
+"alert_user_feedback_maybe_later_button" = "Mungkin nanti";
+
+"alert_user_feedback_dislike_title" = "Saran? 🤔";
+"alert_user_feedback_dislike_message" = "Saya menyesal mendengar Anda belum menyukai aplikasi ini. Untuk mengubahnya, beri tahu saya ide dan saran Anda untuk perbaikan. 😊";
+"alert_user_feedback_contact_developer_button" = "Hubungi pengembang";
+
+
+/* MARK: - Progress View */
+"progress_view_load_images_title" = "Memuat Foto...";
+"progress_view_load_images_subtitle" = "Catatan: Jika Anda menggunakan Perpustakaan Foto iCloud, foto Anda mungkin perlu beberapa saat untuk diunduh.";
+"progress_view_load_documents_title" = "Memuat Dokumen...";
+"progress_view_load_documents_subtitle" = "Info: Jika Anda menggunakan iCloud Drive, dokumen Anda mungkin memerlukan waktu beberapa saat untuk diunduh.";
+"progress_view_import_csv_title" = "Mengimpor Data...";
+"progress_view_import_csv_subtitle" = "Harap tunggu...";
+
+
+/* MARK: - Widgets */
+"chart_widget_title" = "Bagan";
+"chart_widget_description" = "Widget ini menampilkan bagan saldo akun Anda, saldo Anda saat ini, atau perincian pendapatan dan pengeluaran Anda untuk periode waktu yang dipilih.";
+
+"overview_widget_title" = "Ikhtisar";
+"overview_widget_description" = "Widget ini menampilkan ikhtisar saldo akun Anda, saldo Anda saat ini, atau total pendapatan dan pengeluaran untuk periode yang dipilih.";
+
+"upcoming_transactions_widget_title" = "Direncanakan";
+"upcoming_transactions_widget_description" = "Widget ini menampilkan rencana transaksi Anda berikutnya.";
+
+"budget_widget_title" = "Anggaran";
+"budget_widget_description" = "Widget ini menampilkan anggaran khusus untuk periode yang dipilih.";
+"budget_widget_no_budget_title" = "Tidak ada anggaran yang dipilih";
+
+"suggestion_widget_title" = "Disarankan";
+"suggestion_widget_description" = "Widget ini menampilkan kategori yang disarankan berdasarkan tanggal saat ini di mana Anda dapat membuat transaksi baru.";
+
+"quick_actions_widget_title" = "Entri Cepat";
+"quick_actions_widget_description" = "Widget ini memungkinkan Anda menambahkan transaksi baru dengan cepat.";
+"quick_actions_widget_new_title" = "Baru";
+
+"widget_upgrade_locked_title" = "Terkunci";
+"widget_upgrade_necessary_title" = "Versi Lengkap";
+"widget_upgrade_necessary_title_long" = "Diperlukan Versi Lengkap";
+"widget_upgrade_necessary_description" = "Diperlukan peningkatan versi lengkap untuk menggunakan widget ini.";
+"widget_upgrade_necessary_highlighted_text" = "versi lengkap";
+
+
+/* MARK: - Add Item Form View */
+/* Alert Views */
+/* Info */
+"alert_no_budget_book_selected_title" = "Tidak ada buku anggaran yang dipilih";
+"alert_upgrade_necessary_title" = "Versi lengkap";
+"alert_upgrade_necessary_description" = "Untuk menggunakan fitur ini, Anda perlu meningkatkan ke versi lengkap. Ini dapat diaktifkan dalam aplikasi.";
+
+/* Dismiss */
+"alert_confirm_dismiss_title" = "Apakah Anda yakin ingin membuang perubahan Anda?";
+
+/* Delete */
+"alert_confirm_delete_budgetbook_title" = "Apakah Anda yakin ingin menghapus buku anggaran ini? Semua akun, kategori, transaksi, dan anggaran terkait juga akan dihapus.";
+"alert_confirm_delete_budgetbook_button" = "Hapus Buku Anggaran";
+"alert_confirm_delete_budgetbook_multiple_title" = "Apakah Anda yakin ingin menghapus semua buku anggaran yang dipilih? Semua akun, kategori, transaksi, dan anggaran terkait juga akan dihapus.";
+"alert_confirm_delete_budgetbook_multiple_button" = "Hapus buku anggaran";
+
+"alert_confirm_delete_account_title" = "Apakah Anda yakin ingin menghapus akun ini? Semua transaksi terkait juga akan dihapus.";
+"alert_confirm_delete_account_button" = "Hapus Akun";
+"alert_confirm_delete_account_multiple_title" = "Apakah Anda yakin ingin menghapus semua akun yang dipilih? Semua transaksi terkait juga akan dihapus.";
+"alert_confirm_delete_account_multiple_button" = "Hapus Akun";
+
+"alert_confirm_delete_categorygroup_title" = "Apakah Anda yakin ingin menghapus folder ini? Semua kategori, transaksi, dan anggaran terkait juga akan dihapus (jika perlu).";
+"alert_confirm_delete_categorygroup_button" = "Hapus Folder";
+"alert_confirm_delete_categorygroup_multiple_title" = "Apakah Anda yakin ingin menghapus semua folder yang dipilih? Semua kategori, transaksi, dan anggaran terkait juga akan dihapus (jika perlu).";
+"alert_confirm_delete_categorygroup_multiple_button" = "Hapus Folder";
+
+"alert_confirm_delete_category_title" = "Apakah Anda yakin ingin menghapus kategori ini? Semua anggaran terkait juga akan dihapus (jika perlu).";
+"alert_confirm_delete_category_button" = "Hapus kategori";
+"alert_confirm_delete_category_multiple_title" = "Apakah Anda yakin ingin menghapus semua kategori yang dipilih? Semua transaksi dan anggaran terkait juga akan dihapus.";
+"alert_confirm_delete_category_multiple_button" = "Hapus Kategori";
+
+"alert_confirm_delete_payee_title" = "Apakah Anda yakin ingin menghapus penerima pembayaran ini?";
+"alert_confirm_delete_payee_button" = "Hapus Penerima Pembayaran";
+"alert_confirm_delete_payee_multiple_title" = "Apakah Anda yakin ingin menghapus semua penerima pembayaran yang dipilih?";
+"alert_confirm_delete_payee_multiple_button" = "Hapus Penerima Pembayaran";
+
+"alert_confirm_delete_tag_title" = "Apakah Anda yakin ingin menghapus tag ini?";
+"alert_confirm_delete_tag_button" = "Hapus Tanda";
+"alert_confirm_delete_tag_multiple_title" = "Apakah Anda yakin ingin menghapus semua tag yang dipilih?";
+"alert_confirm_delete_tag_multiple_button" = "Hapus Tag";
+
+"alert_confirm_delete_reminder_title" = "Apakah Anda yakin ingin menghapus pengingat ini?";
+"alert_confirm_delete_reminder_button" = "Hapus Pengingat";
+"alert_confirm_delete_reminder_multiple_title" = "Apakah Anda yakin ingin menghapus semua pengingat yang dipilih?";
+"alert_confirm_delete_reminder_multiple_button" = "Hapus Pengingat";
+
+"alert_confirm_delete_transaction_title" = "Apakah Anda yakin ingin menghapus transaksi ini?";
+"alert_confirm_delete_assigned_transaction_title" = "Apakah Anda juga ingin menghapus semua transaksi yang ditetapkan?";
+"alert_confirm_delete_transaction_button" = "Hapus Transaksi";
+"alert_confirm_delete_transaction_multiple_title" = "Apakah Anda yakin ingin menghapus semua transaksi yang dipilih?";
+"alert_confirm_delete_transaction_multiple_button" = "Hapus Transaksi";
+
+"alert_confirm_delete_imageitem_title" = "Apakah Anda yakin ingin menghapus foto ini?";
+"alert_confirm_delete_imageitem_button" = "Hapus Foto";
+"alert_confirm_delete_imageitem_multiple_title" = "Apakah Anda yakin ingin menghapus semua foto yang dipilih?";
+"alert_confirm_delete_imageitem_multiple_button" = "Hapus Foto";
+
+"alert_confirm_delete_documentitem_title" = "Apakah Anda yakin ingin menghapus dokumen ini?";
+"alert_confirm_delete_documentitem_button" = "Hapus Dokumen";
+"alert_confirm_delete_documentitem_multiple_title" = "Apakah Anda yakin ingin menghapus semua dokumen yang dipilih?";
+"alert_confirm_delete_documentitem_multiple_button" = "Hapus Dokumen";
+
+"alert_confirm_delete_budget_title" = "Apakah Anda yakin ingin menghapus anggaran ini?";
+"alert_confirm_delete_budget_button" = "Hapus Anggaran";
+"alert_confirm_delete_budget_multiple_title" = "Apakah Anda yakin ingin menghapus semua anggaran yang dipilih?";
+"alert_confirm_delete_budget_multiple_button" = "Hapus Anggaran";
+
+"alert_confirm_delete_backupitem_title" = "Apakah Anda yakin ingin menghapus cadangan ini?";
+"alert_confirm_delete_backupitem_button" = "Hapus Cadangan";
+
+"alert_confirm_delete_contra_entry_title" = "Transaksi ini adalah transfer. Apakah Anda juga ingin menghapus entri kontra?";
+
+/* Updates */
+"alert_confirm_update_contra_entry_title" = "Transaksi ini adalah transfer. Apakah Anda juga ingin memperbarui entri kontra?";
+"alert_confirm_update_transaction_multiple_title" = "Transaksi ini milik sebuah grup. Apa sebenarnya yang ingin Anda simpan?";
+"alert_confirm_update_transaction_single_button" = "Simpan yang ini saja";
+"alert_confirm_update_transaction_all_button" = "Simpan ini dan yang akan datang";
+
+/* End Repetition */
+"alert_confirm_end_repetition_for_transaction_title" = "Apakah Anda yakin ingin berhenti mengulangi transaksi ini?";
+"alert_confirm_end_repetition_for_transaction_button" = "Akhiri pengulangan";
+"alert_confirm_end_repetition_for_transaction_multiple_title" = "Apakah Anda yakin ingin semua transaksi yang dipilih berhenti berulang?";
+"alert_confirm_end_repetition_for_transaction_multiple_button" = "Akhiri pengulangan";
+
+/* Currency Selection */
+"alert_change_currency_or_exchange_rate_title" = "Apa sebenarnya yang ingin Anda ubah?";
+"alert_change_currency_button" = "Mata uang";
+"alert_change_exchange_rate_button" = "Nilai Tukar";
+
+
+/* MARK: - Currency Selection View */
+/* Titles */
+"currency_selection_title" = "Mata uang";
+
+/* Info */
+"currency_selection_info_title" = "Deskripsi";
+"currency_selection_info_description" = "Pilih mata uang default untuk transaksi yang ada dan yang akan datang.";
+
+/* Sections */
+"default_currency_section_title" = "Mata Uang Default";
+"suggested_currencies_section_title" = "Saran";
+
+/* Messages */
+"no_currencies_found_title" = "Mata uang tidak ditemukan";
+"currency_selection_search_placeholder_message" = "Cari nama mata uang atau singkatannya";
+
+/* Buttons */
+"change_default_currency_button" = "Ubah mata uang default";
+
+/* Alert Views */
+"alert_confirm_change_default_currency_title" = "Apakah Anda yakin ingin mengubah mata uang default Anda? Ini akan mengonversi semua transaksi yang ada ke mata uang baru (%@).";
+"alert_confirm_change_default_account_currency_title" = "Apakah Anda yakin ingin mengubah mata uang? Ini akan mengubah semua transaksi yang ada di akun ini ke mata uang baru (%@).";
+
+
+/* MARK: - Currency Conversion View */
+/* Titles */
+"currency_conversion_title" = "Nilai Tukar";
+"currency_conversion_last_synchronization_title" = "Diperbarui: %@";
+"currency_conversion_synchronization_failed_title" = "Sinkronisasi Gagal";
+"currency_conversion_synchronization_failed_no_internet_title" = "Tidak ada koneksi internet";
+
+/* Sections */
+"source_currency_section_title" = "Dari";
+"target_currency_section_title" = "Kepada";
+
+
+/* MARK: - Manage Item View */
+/* Titles */
+"manage_budgetbooks_title" = "Buku Anggaran";
+"manage_accounts_title" = "Akun";
+"manage_categories_title" = "Kategori";
+"manage_category_groups_title" = "Map";
+"manage_payees_title" = "Penerima pembayaran";
+"manage_tags_title" = "Tags";
+"manage_reminders_title" = "Pengingat";
+
+/* Info */
+"manage_reminders_info_title" = "Deskripsi";
+"manage_reminders_info_description" = "Buat pengingat khusus atau tambahkan ke transaksi mendatang agar aplikasi memberi tahu Anda.";
+
+/* Sections */
+"shared_by_you_budgetbooks_section_title" = "Dibagikan oleh Anda";
+"shared_with_you_budgetbooks_section_title" = "Dibagikan dengan Anda";
+"not_shared_budgetbooks_section_title" = "Tidak dibagikan";
+"most_used_items_section_title" = "Paling Banyak Digunakan";
+"archived_items_section_title" = "Diarsipkan";
+"own_reminders_section_title" = "Pengingat Sendiri";
+
+/* Messages */
+"no_budget_books_found_title" = "Tidak ada buku anggaran yang ditemukan";
+"no_budget_books_found_message" = "Klik tombol \"+\" untuk menambahkan buku anggaran baru.";
+"no_budget_books_found_button_title" = "Buku Anggaran Baru";
+"no_budget_books_found_cloud_sync_message" = "Data yang ada sedang dimuat dari iCloud. Harap tunggu sebentar...\n\nAtau, klik tombol \"+\" untuk menambahkan buku anggaran baru.";
+"no_budget_books_found_cloud_sync_message_short" = "Data yang ada sedang dimuat dari iCloud. Harap tunggu sebentar...";
+"budget_books_search_placeholder_message" = "Cari nama pemesan anggaran";
+
+"no_accounts_title" = "Tidak ada akun";
+"no_accounts_found_title" = "Tidak ada akun yang ditemukan";
+"no_accounts_found_message" = "Klik tombol \"+\" untuk menambahkan akun baru.";
+"no_accounts_found_button_title" = "Akun Baru";
+"accounts_search_placeholder_message" = "Cari berdasarkan nama akun atau jenis akun";
+
+"no_categories_found_title" = "Tidak ada kategori yang ditemukan";
+"no_categories_found_message" = "Klik tombol \"+\" untuk menambahkan kategori baru.";
+"no_categories_found_button_title" = "Kategori Baru";
+"categories_search_placeholder_message" = "Cari berdasarkan kategori atau nama folder";
+
+"no_category_groups_found_title" = "Tidak ada folder yang ditemukan";
+"no_category_groups_found_message" = "Klik tombol \"+\" untuk menambahkan folder baru.";
+"no_category_groups_found_button_title" = "Map Baru";
+"category_groups_search_placeholder_message" = "Cari berdasarkan nama folder";
+
+"no_payees_found_title" = "Tidak ada penerima pembayaran yang ditemukan";
+"no_payees_found_message" = "Klik tombol \"+\" untuk menambahkan penerima pembayaran baru.";
+"no_payees_found_button_title" = "Penerima Pembayaran Baru";
+"payees_search_placeholder_message" = "Cari berdasarkan nama penerima pembayaran";
+
+"no_tags_found_title" = "Tidak ditemukan tag";
+"no_tags_found_message" = "Klik tombol \"+\" untuk menambahkan tag baru.";
+"no_tags_found_button_title" = "Tag Baru";
+"tags_search_placeholder_message" = "Cari berdasarkan nama tag";
+
+"no_reminders_found_title" = "Tidak ada pengingat yang ditemukan";
+"no_reminders_found_message" = "Klik tombol \"+\" untuk menambahkan pengingat baru.";
+"no_reminders_found_button_title" = "Pengingat Baru";
+"reminders_search_placeholder_message" = "Cari menurut judul pengingat";
+
+/* Value */
+"balance" = "Keseimbangan";
+
+
+/* MARK: - Add Item Form View */
+/* Titles */
+"form_title_edit" = "Ubah";
+
+/* Sections */
+"form_name_section_title" = "Nama";
+"form_title_section_title" = "Judul";
+"form_color_section_title" = "Warna";
+"form_icon_section_title" = "Ikon";
+"form_assignment_section_title" = "Tugas";
+"form_miscellaneous_section_title" = "Lain-lain";
+
+/* Miscellaneous */
+"number_of_selected_items" = "%d dipilih";
+
+
+/* MARK: - Add Budget Book Form View */
+/* Titles */
+"form_title_new_budgetbook" = "Buku Anggaran Baru";
+
+/* Items */
+"form_budgetbook_currency_title" = "Mata Uang";
+
+/* Buttons */
+"form_button_delete_budgetbook" = "Hapus buku anggaran";
+
+
+/* MARK: - Add Account Form View */
+/* Titles */
+"form_title_new_account" = "Akun Baru";
+
+/* Sections */
+"form_billing_section_title" = "Penagihan Otomatis";
+"form_transactions_section_title" = "Transaksi";
+"form_account_balance_section_title" = "Saldo Akun";
+
+/* Footer */
+"form_billing_footer_title" = "Aktifkan fitur ini untuk menyeimbangkan kartu kredit ini secara otomatis pada hari tertentu dalam sebulan (jika perlu).";
+"form_transactions_footer_title" = "Aktifkan fitur ini untuk secara otomatis menandai transaksi baru untuk akun ini sebagai \"tertunda\".";
+"form_account_balance_footer_title" = "Ubah saldo awal/total untuk merekonsiliasi saldo akun Anda secara manual.";
+
+/* Items */
+"form_enable_automatic_billing_title" = "Diaktifkan";
+"form_billing_day_title" = "Hari Penagihan";
+"form_mark_transactions_as_pending_title" = "Tandai sebagai tertunda";
+"form_account_type_title" = "Jenis Akun";
+"form_initial_balance_title" = "Saldo Awal";
+"form_total_balance_title" = "Total Saldo";
+"form_use_as_default_account_title" = "Akun Bawaan";
+"form_account_currency_title" = "Mata uang";
+
+/* Buttons */
+"form_button_archive_account" = "Akun Arsip";
+"form_button_unarchive_account" = "Batalkan pengarsipan akun";
+"form_button_delete_account" = "Hapus Akun";
+
+
+/* MARK: - Add Category Group Form View */
+/* Titles */
+"form_title_new_categorygroup" = "Folder Baru";
+
+/* Buttons */
+"form_button_delete_categorygroup" = "Hapus Map";
+
+
+/* MARK: - Add Category Form View */
+/* Titles */
+"form_title_new_category" = "Kategori Baru";
+
+/* Items */
+"form_category_group_title" = "Map";
+"form_category_group_none_type_value" = "Tidak ada";
+
+/* Buttons */
+"form_button_delete_category" = "Hapus Kategori";
+
+
+/* MARK: - Add Payee Form View */
+/* Titles */
+"form_title_new_payee" = "Penerima Pembayaran Baru";
+
+/* Footer */
+"form_assignment_default_entries_footer_title" = "Tetapkan akun, kategori, atau lokasi kepada penerima pembayaran ini untuk digunakan secara default dalam transaksi.";
+
+/* Items */
+"form_location_title" = "Lokasi";
+"form_location_none_type_value" = "Tidak ada";
+
+/* Buttons */
+"form_button_delete_payee" = "Hapus Penerima Pembayaran";
+
+
+/* MARK: - Add Tag Form View */
+/* Titles */
+"form_title_new_tag" = "Tag Baru";
+
+/* Buttons */
+"form_button_delete_tag" = "Hapus Tanda";
+
+
+/* MARK: - Add Reminder Form View */
+/* Titles */
+"form_title_new_reminder" = "Pengingat Baru";
+
+/* Items */
+"form_is_enabled_title" = "Diaktifkan";
+
+/* Buttons */
+"form_button_preview_reminder" = "Tampilkan pratinjau";
+"form_button_delete_reminder" = "Hapus pengingat";
+
+/* Notifications */
+"reminder_notification_title" = "Pengingat";
+
+
+/* MARK: - Add Transaction Form View */
+/* Titles */
+"form_title_new_income" = "Penghasilan Baru";
+"form_title_new_expense" = "Beban Baru";
+"form_title_new_transfer" = "Transfer Baru";
+
+/* Sections */
+"form_date_section_title" = "Batas waktu";
+"form_reminder_section_title" = "Pengingat";
+"form_location_section_title" = "Lokasi";
+"form_notes_section_title" = "Catatan";
+"form_currency_section_title" = "Mata uang";
+"form_payment_status_section_title" = "Pembayaran";
+"form_evaluation_section_title" = "Dievaluasi";
+"form_attachments_section_title" = "Lampiran";
+"form_tags_section_title" = "Tag";
+
+/* Items */
+"form_account_title" = "Akun";
+"form_from_account_title" = "Dari";
+"form_to_account_title" = "Kepada";
+"form_account_none_type_value" = "Tidak ada";
+"form_category_title" = "Kategori";
+"form_categories_title" = "Kategori";
+"form_category_none_type_value" = "Tidak ada";
+"form_payee_title" = "Penerima pembayaran";
+"form_payee_none_type_value" = "Tidak ada";
+"form_tags_title" = "Tag";
+"form_tag_none_type_value" = "Tidak ada";
+"form_date_title" = "Tanggal";
+"form_date_format_title" = "Format Tanggal";
+"form_time_title" = "Waktu";
+"form_repetition_frequency_title" = "Ulangi";
+"form_date_repetition_has_end_date_title" = "Akhir";
+"form_date_repetition_end_date_title" = "Tanggal Berakhir";
+"form_reminder_title" = "Aktif";
+"form_reminder_none_type_value" = "Tidak ada";
+"form_reminder_none_type_value_long" = "Tidak ada pengingat";
+"form_reminder_on_due_value" = "Sedang Jatuh Tempo";
+"form_location_none_type_value_long" = "Tidak ada lokasi";
+"form_original_amount_title" = "Jumlah Asli";
+"form_exchange_rate_title" = "Nilai Tukar";
+"form_is_selected_title" = "Dipilih";
+"form_is_pending_title" = "Tertunda";
+"form_payed_by_title" = "Ditugaskan";
+"form_payed_by_none_type_value" = "Tidak seorang pun";
+"form_include_in_statistics_title" = "Statistik";
+"form_include_in_budgets_title" = "Anggaran";
+
+/* Footer */
+"form_payment_status_footer_title" = "Tandai pembayaran sebagai \"tertunda\" sehingga jumlahnya tidak termasuk dalam perhitungan.";
+"form_evaluation_footer_title" = "Kecualikan transaksi ini dari statistik dan/atau anggaran agar hanya dihitung dalam saldo akun.";
+"form_reminded_transactions_is_invalid_footer_title" = "Catatan: Untuk menambahkan pengingat ke transaksi ini, tanggal yang akan datang atau interval pengulangan harus dipilih.";
+
+/* Buttons */
+"form_button_delete_transaction" = "Hapus Transaksi";
+"form_button_end_repetition_for_transaction" = "Akhiri pengulangan";
+"form_button_clear_title" = "Hapus";
+"form_button_today_title" = "Hari ini";
+
+/* Miscellaneous */
+"receipt_total" = "Total";
+"receipt_amount" = "Jumlah";
+"receipt_to_pay" = "Untuk Membayar";
+
+/* Notifications */
+"transaction_notification_body" = "Jumlah: %@\nTanggal: %@";
+"transaction_notification_body_notes" = "Catatan: %@";
+
+
+/* MARK: - Add Budget Form View */
+/* Titles */
+"form_title_new_budget" = "Anggaran Baru";
+
+/* Sections */
+"form_interval_section_title" = "Interval";
+
+/* Footer */
+"form_budget_amount_calculation_footer_title" = "Interval menentukan seberapa sering anggaran diulang, dimana jumlah yang tersedia yang ditampilkan secara otomatis disesuaikan dengan periode waktu yang dipilih.";
+
+/* Items */
+"form_is_cumulative_title" = "Kumulatif";
+
+/* Buttons */
+"form_button_delete_budget" = "Hapus Anggaran";
+
+
+/* MARK: - Assign CSV Fields Form View */
+/* Titles */
+"form_title_csv_assign_fields" = "Tugaskan Bidang";
+
+/* Info */
+"csv_assign_fields_info_title" = "Deskripsi";
+"csv_assign_fields_info_description" = "Harap tetapkan kolom file CSV yang akan diimpor ke kolom terkait.";
+
+/* Sections */
+"form_general_section_title" = "Umum";
+
+/* Footer */
+"form_invalid_footer_title" = "Kesalahan:";
+"form_invalid_amount_footer_title" = "Nilai untuk \"%@\" bukan jumlah uang yang valid.";
+"form_invalid_currency_footer_title" = "Nilai untuk \"%@\" bukan mata uang yang sah.";
+"form_invalid_exchange_rate_footer_title" = "Nilai untuk \"%@\" bukan nilai numerik yang valid.";
+"form_invalid_date_format_footer_title" = "Tanggal dan/atau format yang dipilih tidak sah.";
+"form_type_footer_title" = "Info: Pilih \"%@\" untuk menghitung jenis transaksi berdasarkan tanda nilai jumlah.";
+"form_date_format_footer_title" = "Contoh: %@";
+
+/* Items */
+"form_type_title" = "Jenis";
+"form_amount_title" = "Jumlah";
+"form_source_currency_title" = "Mata Uang Sumber";
+"form_target_currency_title" = "Mata Uang Target";
+"form_budget_book_title" = "Buku Anggaran";
+"form_notes_title" = "Catatan";
+"form_skip_zero_amounts_title" = "Lewati jumlah \"0\"";
+"form_skip_duplicates_title" = "Lewati duplikat";
+"form_csv_assign_field_none_type_value" = "Belum ditetapkan";
+
+
+/* MARK: - Color Selection View */
+/* Titles */
+"color_selection_title" = "Warna";
+
+/* Messages */
+"no_colors_found_title" = "Tidak Ada Warna Ditemukan";
+"color_selection_search_placeholder_message" = "Cari warna atau nama grup";
+
+
+/* MARK: - Icon Selection View */
+/* Titles */
+"icon_selection_title" = "Ikon";
+
+/* Messages */
+"no_icons_found_title" = "Tidak ditemukan ikon";
+"icon_selection_search_placeholder_message" = "Cari label ikon atau nama grup";
+
+
+/* MARK: - Location Selection View */
+/* Titles */
+"location_selection_title" = "Lokasi";
+"location_selection_searchbar_placeholder" = "Cari";
+"location_selection_search_history_title" = "Terbaru";
+
+/* Buttons */
+"location_selection_select_button_title" = "Pilih";
+
+/* Alert Views */
+"location_selection_no_internet_error_title" = "Kesalahan";
+"location_selection_no_internet_error_message" = "Sepertinya tidak ada koneksi internet";
+
+
+/* MARK: - Other Alert Views */
+"alert_selected_period_changed_title" = "%@ dipilih";
+"alert_selected_period_changed_message" = "Sejak %@ telah dimulai, periode saat ini telah disesuaikan secara otomatis.\n\nUntuk beralih antar periode dan melihat transaksi sebelumnya, cukup klik tombol \"%@\" di pojok kiri atas layar , lalu pilih periode waktu yang diinginkan.";
+"alert_selected_period_changed_new_month" = "bulan baru";
+"alert_selected_period_changed_new_year" = "tahun baru";
+
+"alert_no_mail_initialized_title" = "Tidak ada akun email";
+"alert_no_mail_initialized_message" = "Tampaknya Anda belum menyiapkan akun email di perangkat Anda. Namun, fitur ini wajib digunakan.";
+
+"alert_no_camera_title" = "Kamera tidak tersedia";
+"alert_no_camera_message" = "Sepertinya Anda tidak memiliki kamera. Namun, Anda wajib menggunakan fitur ini.";
+
+"alert_permissions_title" = "Hampir sampai!";
+"alert_permissions_activate_button" = "Aktifkan sekarang";
+"alert_permissions_cancel_button" = "Mungkin nanti";
+
+"alert_camera_permissions_message" = "Untuk mengambil foto, yang harus Anda lakukan hanyalah mengaktifkan akses \"kamera\" di pengaturan.";
+"alert_photolibrary_permissions_message" = "Untuk menambahkan foto, yang harus Anda lakukan hanyalah mengaktifkan akses ke \"foto\" di pengaturan.";
+"alert_notifications_permissions_message" = "Untuk mendapatkan pemberitahuan push, yang harus Anda lakukan hanyalah mengaktifkan \"pemberitahuan\" di pengaturan.";
+
+
+/* MARK: - Tips */
+"period_selection_tip_title" = "Ganti periode";
+"period_selection_tip_message" = "Klik di sini untuk mengubah periode yang ditampilkan. Ini mempengaruhi semua tampilan (ikhtisar, transaksi, dan anggaran).";
+"interactive_charts_tip_title" = "Grafik Interaktif";
+"interactive_charts_tip_message" = "Geser ke kiri atau kanan untuk mengubah bagan aktif, atau tekan lama pada bagan untuk melihat nilai pada tanggal tertentu.";
+"switch_budget_books_tip_title" = "Ganti buku anggaran";
+"switch_budget_books_tip_message" = "Tekan lama tab ikhtisar untuk beralih dengan cepat di antara buku anggaran Anda.";
+
+
+/* MARK: - Watch App */
+/* Titles */
+"cloud_sync_status_section_title" = "Status Sinkronisasi iCloud";
+"cloud_sync_status_footer_title" = "Info: Anda harus masuk ke iCloud untuk menyelaraskan data dari iPhone Anda.";
+
+
+/* MARK: - Localized URLs */
+"imprintUrl" = "https://budget-flow.app/json/en/imprint.json";
+"termsOfUseUrl" = "https://www.apple.com/legal/internet-services/itunes/dev/stdeula";
+"privacyUrl" = "https://www.iubenda.com/api/privacy-policy/17322265/no-markup";
+"privacyUrlWeb" = "https://budget-flow.app/privacy-policy";
+"imprintUrlWeb" = "https://budget-flow.app/imprint";
+"familySharingUrl" = "https://www.apple.com/family-sharing";
+
+
+/* MARK: - Default Data */
+"default_account_name" = "Akun Default";
+
+"default_category_group_name_income" = "Penghasilan";
+"default_category_name_salary" = "Gaji";
+
+"default_category_group_name_free_time" = "Waktu luang";
+"default_category_name_shopping" = "Belanja";
+"default_category_name_vacation" = "Liburan";
+
+"default_category_group_name_mobility" = "Mobilitas";
+"default_category_name_car" = "Mobil";
+
+"default_category_group_name_groceries" = "Belanjaan";
+"default_category_name_supermarket" = "Supermarket";
+"default_category_name_restaurant" = "Restoran";
+"default_category_name_fast_food" = "Makanan Cepat Saji";
+
+"default_category_group_name_living" = "Hidup";
+"default_category_name_rent" = "Sewa";
+
+"default_category_group_name_miscellaneous" = "Lain-lain";
+
+"default_reminder_title" = "Catat pengeluaran";
+
+
+/* MARK: - Color Sections */
+"color_section_classic_title" = "Klasik";
+"color_section_sunset_title" = "Matahari terbenam";
+"color_section_afterglow_title" = "Kilau setelah";
+"color_section_ocean_title" = "Lautan";
+"color_section_nightsky_title" = "Langit Malam";
+"color_section_apple_title" = "Apple Inc.";
+"color_section_pastel_title" = "Pastel";
+
+
+/* MARK: - Color Keywords */
+"color_keyword_custom" = "Khusus";
+"color_keyword_red" = "Merah";
+"color_keyword_green" = "Hijau";
+"color_keyword_blue" = "Biru";
+"color_keyword_yellow" = "Kuning";
+"color_keyword_orange" = "Oranye";
+"color_keyword_purple" = "Ungu";
+"color_keyword_pink" = "Merah Muda";
+"color_keyword_brown" = "Cokelat";
+"color_keyword_mint" = "Mint";
+"color_keyword_cyan" = "Sian";
+"color_keyword_violet" = "Violet";
+"color_keyword_gray" = "Abu-abu";
+
+
+/* MARK: - Icon Sections */
+"icon_section_suggestions_title" = "Saran";
+"icon_section_general_title" = "Umum";
+"icon_section_mobility_title" = "Mobilitas";
+"icon_section_household_title" = "Rumah Tangga";
+"icon_section_freetime_title" = "Waktu luang";
+"icon_section_nature_title" = "Alam";
+"icon_section_food_and_drinks_title" = "Makanan & Minuman";
+"icon_section_shopping_title" = "Belanja";
+"icon_section_health_title" = "Kesehatan";
+"icon_section_office_title" = "Kantor";
+"icon_section_arrows_title" = "Panah";
+"icon_section_objects_title" = "Objek";
+"icon_section_people_title" = "Orang";
+"icon_section_buildings_title" = "Bangunan";
+"icon_section_payment_methods_title" = "Metode Pembayaran";
+
+
+/* MARK: - Icon Keywords */
+"icon_keyword_emoji" = "Emoji";
+"icon_keyword_tag" = "Tag";
+"icon_keyword_heart" = "Hati";
+"icon_keyword_star" = "Bintang";
+"icon_keyword_folder" = "Map";
+"icon_keyword_bookmark" = "Bookmark";
+"icon_keyword_building" = "Bangunan";
+"icon_keyword_house" = "Rumah";
+"icon_keyword_lightbulb" = "Bola lampu";
+"icon_keyword_fan" = "Kipas";
+"icon_keyword_lamp" = "Lampu";
+"icon_keyword_alarm_system" = "Sistem Alarm";
+"icon_keyword_webcam" = "Kamera web";
+"icon_keyword_camera" = "Kamera";
+"icon_keyword_door" = "Pintu";
+"icon_keyword_garage" = "Garasi";
+"icon_keyword_window" = "Jendela";
+"icon_keyword_blinds" = "Tirai";
+"icon_keyword_roller" = "Roller";
+"icon_keyword_curtains" = "Tirai";
+"icon_keyword_air_purifier" = "Pembersih Udara";
+"icon_keyword_dehumidifier" = "Penghilang kelembapan";
+"icon_keyword_humidifier" = "Pelembab";
+"icon_keyword_heater" = "Pemanas";
+"icon_keyword_air_conditioner" = "Penyejuk Udara";
+"icon_keyword_sprinkler" = "Penyiram";
+"icon_keyword_trash" = "Tempat Sampah";
+"icon_keyword_spigot" = "Keran";
+"icon_keyword_shower" = "Shower";
+"icon_keyword_bathtub" = "Bathtub";
+"icon_keyword_pipe" = "Pipa Air";
+"icon_keyword_hifi_reveiver" = "Sistem HIFI";
+"icon_keyword_video_projector" = "Proyektor Video";
+"icon_keyword_beamer" = "Beamer";
+"icon_keyword_wifi_router" = "Router Wifi";
+"icon_keyword_internet" = "Internet";
+"icon_keyword_party" = "Pesta";
+"icon_keyword_balloon" = "Balon";
+"icon_keyword_pan" = "Penggorengan";
+"icon_keyword_cooking" = "Memasak";
+"icon_keyword_kitchen" = "Dapur";
+"icon_keyword_popcorn" = "Popcorn";
+"icon_keyword_cinema" = "Bioskop";
+"icon_keyword_movie" = "Film";
+"icon_keyword_food" = "Makanan";
+"icon_keyword_bed" = "Tempat tidur";
+"icon_keyword_bedroom" = "Kamar Tidur";
+"icon_keyword_hotel" = "Hotel";
+"icon_keyword_sofa" = "Sofa";
+"icon_keyword_couch" = "Sofa";
+"icon_keyword_livingroom" = "Ruang Keluarga";
+"icon_keyword_chair" = "Kursi";
+"icon_keyword_armchair" = "Kursi berlengan";
+"icon_keyword_cabinet" = "Lemari";
+"icon_keyword_fireplace" = "Perapian";
+"icon_keyword_washer" = "Washer";
+"icon_keyword_dryer" = "Pengering Tumble";
+"icon_keyword_dishwasher" = "Pencuci Piring";
+"icon_keyword_oven" = "Oven";
+"icon_keyword_stove" = "Kompor";
+"icon_keyword_microwave" = "Microwave";
+"icon_keyword_refrigerator" = "kulkas";
+"icon_keyword_sink" = "Wastafel";
+"icon_keyword_toilet" = "Toilet";
+"icon_keyword_bathroom" = "Kamar mandi";
+"icon_keyword_tv_remote" = "Kontrol Jarak Jauh";
+"icon_keyword_tv" = "TV";
+"icon_keyword_person" = "Orang";
+"icon_keyword_human" = "Manusia";
+"icon_keyword_airplane" = "Pesawat";
+"icon_keyword_vacation" = "Liburan";
+"icon_keyword_car" = "Mobil";
+"icon_keyword_electric_car" = "Mobil Listrik";
+"icon_keyword_charging_station" = "Stasiun Pengisian Daya";
+"icon_keyword_car_pool" = "Carpool";
+"icon_keyword_bus" = "Bus";
+"icon_keyword_tram" = "Kereta api";
+"icon_keyword_railroad" = "Kereta api";
+"icon_keyword_cablecar" = "Trem";
+"icon_keyword_ferry" = "Feri";
+"icon_keyword_ship" = "Pengiriman";
+"icon_keyword_truck" = "Truk";
+"icon_keyword_relocation" = "Relokasi";
+"icon_keyword_bicycle" = "Sepeda";
+"icon_keyword_sport" = "Olahraga";
+"icon_keyword_scooter" = "Skuter";
+"icon_keyword_sailboat" = "Perahu layar";
+"icon_keyword_fuel" = "Bahan bakar";
+"icon_keyword_refuel" = "Isi bahan bakar";
+"icon_keyword_gas_station" = "SPBU";
+"icon_keyword_walking" = "Berjalan";
+"icon_keyword_running" = "Berjalan";
+"icon_keyword_rugby" = "Rugby";
+"icon_keyword_badminton" = "Badminton";
+"icon_keyword_tennis" = "Tenis";
+"icon_keyword_dancing" = "Menari";
+"icon_keyword_skiing" = "Ski";
+"icon_keyword_swimming" = "Berenang";
+"icon_keyword_skating" = "Seluncur";
+"icon_keyword_strengthtraining" = "Latihan Kekuatan";
+"icon_keyword_gym" = "Gym";
+"icon_keyword_yoga" = "Yoga";
+"icon_keyword_bowling" = "Bowling";
+"icon_keyword_sportscourt" = "Lapangan Olahraga";
+"icon_keyword_stadium" = "Stadion";
+"icon_keyword_soccer" = "Sepak Bola";
+"icon_keyword_golf" = "Golf";
+"icon_keyword_baseball" = "Baseball";
+"icon_keyword_basketball" = "Bola Basket";
+"icon_keyword_voli" = "Bola Voli";
+"icon_keyword_trophy" = "Piala";
+"icon_keyword_medal" = "Medali";
+"icon_keyword_flag" = "Tandai";
+"icon_keyword_race" = "Balapan Mobil";
+"icon_keyword_gamecontroller" = "Pengontrol Game";
+"icon_keyword_videogames" = "Game Video";
+"icon_keyword_gaming" = "Permainan";
+"icon_keyword_playstation" = "PlayStation";
+"icon_keyword_xbox" = "Xbox";
+"icon_keyword_nintento_switch" = "Nintendo Beralih";
+"icon_keyword_book" = "Buku";
+"icon_keyword_books" = "Buku";
+"icon_keyword_magazine" = "Majalah";
+"icon_keyword_reading" = "Membaca";
+"icon_keyword_painting" = "Lukisan";
+"icon_keyword_drawing" = "Menggambar";
+"icon_keyword_theater" = "Teater";
+"icon_keyword_singing" = "Menyanyi";
+"icon_keyword_karaoke" = "Karaoke";
+"icon_keyword_music" = "Musik";
+"icon_keyword_spotify" = "Spotify";
+"icon_keyword_apple_music" = "Apple Musik";
+"icon_keyword_piano" = "Piano";
+"icon_keyword_guitar" = "Gitar";
+"icon_keyword_rockband" = "Rockband";
+"icon_keyword_festival" = "Festival";
+"icon_keyword_tent" = "Tenda";
+"icon_keyword_dice" = "Dadu";
+"icon_keyword_boardgames" = "Permainan Papan";
+"icon_keyword_gambling" = "Perjudian";
+"icon_keyword_camera" = "Kamera";
+"icon_keyword_photography" = "Fotografi";
+"icon_keyword_photo" = "Foto";
+"icon_keyword_world" = "Dunia";
+"icon_keyword_globe" = "Globe";
+"icon_keyword_sun" = "Matahari";
+"icon_keyword_summer" = "Musim panas";
+"icon_keyword_moon" = "Bulan";
+"icon_keyword_stars" = "Bintang";
+"icon_keyword_cloud" = "Awan";
+"icon_keyword_icloud" = "iCloud";
+"icon_keyword_rain" = "Hujan";
+"icon_keyword_flame" = "Api";
+"icon_keyword_fire" = "Api";
+"icon_keyword_snow" = "Salju";
+"icon_keyword_winter" = "Musim Dingin";
+"icon_keyword_bolt" = "Petir";
+"icon_keyword_plug" = "Pasang";
+"icon_keyword_electric" = "Listrik";
+"icon_keyword_electrics" = "Listrik";
+"icon_keyword_electricity" = "Listrik";
+"icon_keyword_tornado" = "Tornado";
+"icon_keyword_sea" = "Laut";
+"icon_keyword_hare" = "Kelinci";
+"icon_keyword_rabbit" = "Kelinci";
+"icon_keyword_animal" = "Hewan";
+"icon_keyword_tortoise" = "Kura-kura";
+"icon_keyword_lizard" = "Kadal";
+"icon_keyword_bird" = "Burung";
+"icon_keyword_ant" = "Semut";
+"icon_keyword_ladybug" = "Bug";
+"icon_keyword_fish" = "Ikan";
+"icon_keyword_pet" = "Peliharaan";
+"icon_keyword_cat" = "Kucing";
+"icon_keyword_dog" = "Anjing";
+"icon_keyword_leaf" = "Daun";
+"icon_keyword_plant" = "Tanaman";
+"icon_keyword_flower" = "Bunga";
+"icon_keyword_eating" = "Makan";
+"icon_keyword_restaurant" = "Restoran";
+"icon_keyword_drinking" = "Minum";
+"icon_keyword_cafe" = "Kafe";
+"icon_keyword_coffee" = "Kopi";
+"icon_keyword_fastfood" = "Makanan Cepat Saji";
+"icon_keyword_picnic" = "Piknik";
+"icon_keyword_wine" = "Anggur";
+"icon_keyword_birthday" = "Ulang tahun";
+"icon_keyword_cake" = "Kue";
+"icon_keyword_carrot" = "Wortel";
+"icon_keyword_vegetables" = "Sayuran";
+"icon_keyword_bag" = "Tas";
+"icon_keyword_cone" = "Tas";
+"icon_keyword_shopping" = "Belanja";
+"icon_keyword_supermarket" = "Supermarket";
+"icon_keyword_groceries" = "Bahan makanan";
+"icon_keyword_creditcard" = "Kartu Kredit";
+"icon_keyword_giftcard" = "Kartu Hadiah";
+"icon_keyword_gift" = "Hadiah";
+"icon_keyword_clothes" = "Baju";
+"icon_keyword_clothing" = "Pakaian";
+"icon_keyword_globe" = "Globe";
+"icon_keyword_online" = "Online";
+"icon_keyword_internet" = "Internet";
+"icon_keyword_amazon" = "Amazon";
+"icon_keyword_package" = "Paket";
+"icon_keyword_apple" = "Apel";
+"icon_keyword_banknote" = "Uang Kertas";
+"icon_keyword_refund" = "Pengembalian dana";
+"icon_keyword_dollar" = "Dolar";
+"icon_keyword_cents" = "Sen";
+"icon_keyword_yen" = "Yen";
+"icon_keyword_pound" = "Pound";
+"icon_keyword_franc" = "Franconia";
+"icon_keyword_lira" = "Lira";
+"icon_keyword_ruble" = "Rubel";
+"icon_keyword_euro" = "Euro";
+"icon_keyword_rupee" = "Rupee";
+"icon_keyword_peso" = "Peso";
+"icon_keyword_bitcoin" = "Bitcoin";
+"icon_keyword_real" = "Real Brasil";
+"icon_keyword_case" = "Koper";
+"icon_keyword_lungs" = "Paru";
+"icon_keyword_allergens" = "Alergi";
+"icon_keyword_thermometer" = "Termometer";
+"icon_keyword_bandage" = "Band-Aids";
+"icon_keyword_syringe" = "Jarum suntik";
+"icon_keyword_medicine" = "Obat";
+"icon_keyword_drug" = "Obat";
+"icon_keyword_facemask" = "Facemask";
+"icon_keyword_pills" = "Pil";
+"icon_keyword_cross" = "Salib";
+"icon_keyword_hospital" = "Rumah Sakit";
+"icon_keyword_ivfluid" = "Infus";
+"icon_keyword_eye" = "Mata";
+"icon_keyword_brain" = "Otak";
+"icon_keyword_ear" = "Telinga";
+"icon_keyword_mouth" = "Mulut";
+"icon_keyword_ecg" = "ECG";
+"icon_keyword_shield" = "Perisai";
+"icon_keyword_insurance" = "Asuransi";
+"icon_keyword_video_conference" = "Konferensi Video";
+"icon_keyword_facetime" = "Facetime";
+"icon_keyword_phone" = "Telepon";
+"icon_keyword_mobilephone" = "Seluler";
+"icon_keyword_iphone" = "iPhone";
+"icon_keyword_tablet" = "Tablet";
+"icon_keyword_ipad" = "iPad";
+"icon_keyword_macintosh" = "Macintosh";
+"icon_keyword_macbook" = "Macbook";
+"icon_keyword_imac" = "iMac";
+"icon_keyword_smartphone" = "Smartphone";
+"icon_keyword_calling" = "Menelepon";
+"icon_keyword_message" = "Pesan";
+"icon_keyword_envelope" = "Amplop";
+"icon_keyword_mail" = "Surat";
+"icon_keyword_email" = "Email";
+"icon_keyword_chart" = "Bagan";
+"icon_keyword_stocks" = "Saham";
+"icon_keyword_investment" = "Investasi";
+"icon_keyword_signature" = "Tanda Tangan";
+"icon_keyword_contract" = "Kontrak";
+"icon_keyword_computer" = "Komputer";
+"icon_keyword_pc" = "PC";
+"icon_keyword_display" = "Monitor";
+"icon_keyword_mouse" = "Mouse";
+"icon_keyword_keyboard" = "Keyboard";
+"icon_keyword_printer" = "Pencetak";
+"icon_keyword_scanner" = "Pemindai";
+"icon_keyword_pin" = "Pin";
+"icon_keyword_paperclip" = "Penjepit Kertas";
+"icon_keyword_clipboard" = "Papan klip";
+"icon_keyword_list" = "Daftar";
+"icon_keyword_server" = "Server";
+"icon_keyword_simcard" = "Kartu sim";
+"icon_keyword_bank" = "Bank";
+"icon_keyword_apple_watch" = "Apple Watch";
+"icon_keyword_clock" = "Jam";
+"icon_keyword_alarm" = "Alarm";
+"icon_keyword_box" = "Kotak";
+"icon_keyword_wand" = "Tongkat Ajaib";
+"icon_keyword_hourglass" = "Jam pasir";
+"icon_keyword_newspaper" = "Koran";
+"icon_keyword_wrench" = "Tang";
+"icon_keyword_screwdriver" = "Obeng";
+"icon_keyword_hammer" = "Palu";
+"icon_keyword_craftsman" = "Pengrajin";
+"icon_keyword_tools" = "Alat";
+"icon_keyword_plumber" = "Tukang ledeng";
+"icon_keyword_construction_market" = "Pasar Konstruksi";
+"icon_keyword_scissors" = "Gunting";
+"icon_keyword_hairdresser" = "Penata rambut";
+"icon_keyword_key" = "Kunci";
+"icon_keyword_school" = "Sekolah";
+"icon_keyword_university" = "Universitas";
+"icon_keyword_study" = "Studi";
+"icon_keyword_tuition_fees" = "Biaya Kuliah";
+"icon_keyword_flashlight" = "Senter";
+"icon_keyword_bell" = "Bel";
+"icon_keyword_subscription" = "Langganan";
+"icon_keyword_loupe" = "Kaca Pembesar";
+"icon_keyword_binoculars" = "Teropong";
+"icon_keyword_roset" = "Roset";
+"icon_keyword_crown" = "Mahkota";
+"icon_keyword_umbrella" = "Payung";
+"icon_keyword_beach" = "Pantai";
+"icon_keyword_megaphone" = "Megafon";
+"icon_keyword_advertisement" = "Iklan";
+"icon_keyword_puzzle" = "Teka-teki";
+"icon_keyword_lab" = "Lab";
+"icon_keyword_calendar" = "Kalender";
+"icon_keyword_rent" = "Sewa";
+"icon_keyword_flat" = "Datar";
+"icon_keyword_work" = "Bekerja";
+"icon_keyword_salary" = "Gaji";
+"icon_keyword_corona" = "Korona";
+"icon_keyword_rainbow" = "Pelangi";
+"icon_keyword_glasses" = "Kacamata";
+"icon_keyword_sunglasses" = "Kacamata";
+"icon_keyword_discount" = "Diskon";
+"icon_keyword_percent" = "Persen";
+"icon_keyword_wallet" = "Dompet";
+"icon_keyword_convertible" = "Dapat Dikonversi";
+"icon_keyword_drone" = "Drone";
+"icon_keyword_motorcycle" = "Sepeda Motor";
+"icon_keyword_tire" = "Ban";
+"icon_keyword_oilcan" = "Minyak";
+"icon_keyword_keys" = "Kunci";
+"icon_keyword_fire_ Dampinger" = "Alat Pemadam Kebakaran";
+"icon_keyword_hockey" = "Hoki";
+"icon_keyword_ice_hockey" = "Hoki Es";
+"icon_keyword_ice_skating" = "Seluncur Es";
+"icon_keyword_rowing" = "Mendayung";
+"icon_keyword_inhaler" = "Penghirup";
+"icon_keyword_wheelchair" = "Kursi Roda";
+"icon_keyword_vacuum" = "Penyedot debu";
+"icon_keyword_doctor" = "Dokter";
+"icon_keyword_dentist" = "Dokter Gigi";
+"icon_keyword_parking" = "Parkir";
+
+
+/* MARK: - App Intents */
+/* Entities */
+"budget_book_entity_name" = "Buku Anggaran";
+"account_entity_name" = "Akun";
+"category_group_entity_name" = "Folder";
+"category_entity_name" = "Kategori";
+"payee_entity_name" = "Penerima pembayaran";
+
+/* Categories */
+"add_category_name" = "Tambahkan";
+"open_category_name" = "Buka";
+"show_category_name" = "Tampilkan";
+"search_category_name" = "Pencarian";
+
+/* Search */
+"search_budget_book_title" = "Cari buku anggaran";
+"search_budget_book_description" = "Cari buku anggaran tertentu berdasarkan nama.";
+"search_budget_book_parameter_summary" = "Cari buku anggaran dengan ${name}";
+"search_account_title" = "Cari akun";
+"search_account_description" = "Cari akun tertentu berdasarkan nama.";
+"search_account_parameter_summary" = "Cari akun dengan ${name} di ${budgetBook}";
+"search_category_group_title" = "Cari folder";
+"search_category_group_description" = "Cari folder tertentu berdasarkan nama.";
+"search_category_group_parameter_summary" = "Cari folder dengan ${name} di ${budgetBook}";
+"search_category_title" = "Kategori pencarian";
+"search_category_description" = "Cari kategori tertentu berdasarkan nama.";
+"search_category_parameter_summary" = "Cari kategori dengan ${name} di ${categoryGroup} dari ${budgetBook}";
+"search_payee_title" = "Cari penerima pembayaran";
+"search_payee_description" = "Cari penerima pembayaran tertentu berdasarkan nama.";
+"search_payee_parameter_summary" = "Cari penerima pembayaran dengan ${name} di ${budgetBook}";
+
+"name_parameter_title" = "Nama";
+"name_parameter_dialog" = "Siapa namanya?";
+
+"budget_book_parameter_title" = "Buku Anggaran";
+"budget_book_parameter_description" = "Buku anggaran terkait.";
+"budget_book_parameter_dialog" = "Apa buku anggaran terkait?";
+"category_group_parameter_title" = "Folder";
+"category_group_parameter_description" = "Folder terkait.";
+"category_group_parameter_dialog" = "Folder apa yang terkait?";
+
+/* Open */
+"open_add_new_income_view_title" = "Tambahkan penghasilan baru";
+"open_add_new_income_view_description" = "Membuka tampilan tambah pendapatan baru dalam aplikasi.";
+"open_add_new_expense_view_title" = "Tambahkan pengeluaran baru";
+"open_add_new_expense_view_description" = "Membuka tampilan penambahan pengeluaran baru dalam aplikasi.";
+"open_add_new_transfer_view_title" = "Tambahkan transfer baru";
+"open_add_new_transfer_view_description" = "Membuka tampilan tambahkan transfer baru dalam aplikasi.";
+"open_add_new_recurring_view_title" = "Tambahkan transaksi berulang baru";
+"open_add_new_recurring_view_description" = "Membuka tampilan penambahan transaksi berulang baru dalam aplikasi.";
+"open_upcoming_transactions_view_title" = "Rencana transaksi";
+"open_upcoming_transactions_view_description" = "Membuka tampilan transaksi terencana dalam aplikasi.";
+
+/* Show */
+"show_chart_title" = "Tampilkan bagan";
+"show_chart_description" = "Menampilkan bagan saldo akun, pendapatan, atau pengeluaran Anda untuk periode yang ditentukan.";
+"show_chart_parameter_summary" = "Tampilkan bagan ${type} untuk ${periodType}";
+
+"chart_type_parameter_title" = "Jenis";
+"chart_type_dialog" = "Jenis bagan apa yang Anda inginkan?";
+"chart_type_account_balances_title" = "Saldo Akun";
+"chart_type_balance_title" = "Saldo";
+"chart_type_total_income_title" = "Total Pendapatan";
+"chart_type_total_expenses_title" = "Total Pengeluaran";
+"chart_type_fixed_expenses_title" = "Beban Tetap";
+"chart_type_variable_expenses_title" = "Beban Variabel";
+
+"chart_period_type_parameter_title" = "Periode";
+"chart_period_type_dialog" = "Periode manakah yang ingin Anda lihat?";
+"chart_type_current_month_title" = "Bulan Saat Ini";
+"chart_type_current_year_title" = "Tahun Berjalan";
+
+
+/* MARK: - Dummy Data */
+"default_budget_book_name" = "Buku Anggaran Saya";
+"default_credit_card_name" = "Kartu Kredit";
+"default_location_address" = "Fürstenberg";

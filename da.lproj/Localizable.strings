@@ -1,0 +1,2016 @@
+/*
+  Localizable.strings
+  BudgetFlow
+
+  Created by Fabian Hasse on 19.05.20.
+  Copyright © 2020 Fabian Hasse. All rights reserved.
+*/
+
+/* MARK: - General */
+"app_name" = "Budget Flow";
+
+"feedback_quick_action_title" = "Feedback";
+"feedback_quick_action_subtitle" = "Klik her for at give feedback om appen.";
+"income_quick_action_title" = "Ny indkomst";
+"expense_quick_action_title" = "Ny udgift";
+"transfer_quick_action_title" = "Ny overførsel";
+"recurring_quick_action_title" = "Tilbagevendende";
+
+
+/* MARK: - Miscellaneous */
+"face_id" = "Face ID";
+"touch_id" = "Touch ID";
+"required" = "Påkrævet";
+"optional" = "Valgfrit";
+"uncategorized" = "Ikke kategoriseret";
+"before" = "før";
+"account_reconcilation" = "Kontoafstemning";
+
+
+/* MARK: - Enums */
+"account_type_cash" = "Kontanter";
+"account_type_payment" = "Betalingskonto";
+"account_type_savings" = "Opsparingskonto";
+"account_type_credit_card" = "Kreditkort";
+"account_type_investment" = "Investering";
+"account_type_precaution" = "Sikkerhedsforanstaltning";
+"account_type_liability" = "Ansvar";
+"account_type_business" = "Virksomhedskonto";
+
+"account_type_payment_plural" = "Betalingskonti";
+"account_type_savings_plural" = "Opsparingskonti";
+"account_type_credit_card_plural" = "Kreditkort";
+"account_type_investment_plural" = "Investeringer";
+"account_type_precaution_plural" = "Sikkerhedsforanstaltning";
+"account_type_liability_plural" = "Forpligtelser";
+"account_type_business_plural" = "Virksomhedskonti";
+
+"transaction_type_income" = "Indkomst";
+"transaction_type_expense" = "Udgift";
+"transaction_type_transfer" = "Overførsel";
+
+"transaction_type_income_plural" = "Indkomst";
+"transaction_type_expense_plural" = "Udgifter";
+"transaction_type_transfer_plural" = "Overførsler";
+
+"payment_status" = "Status";
+"payment_status_completed" = "Afsluttet";
+"payment_status_pending" = "Afventer";
+
+"attachment_type_image" = "Foto";
+"attachment_type_image_plural" = "Billeder";
+"attachment_type_document" = "Dokument";
+"attachment_type_document_plural" = "Dokumenter";
+
+"period_type_month" = "Måned";
+"period_type_year" = "År";
+"period_type_custom" = "Dato";
+
+"sort_type_alphabetically" = "Alfabetisk";
+"sort_type_date" = "Dato";
+"sort_type_amount" = "Beløb";
+"sort_type_type" = "Type";
+
+"sort_option_ascending" = "Stigende";
+"sort_option_descending" = "Faldende";
+
+"group_option_day" = "Dag";
+"group_option_month" = "Måned";
+"group_option_account" = "Konto";
+"group_option_category" = "Kategori";
+"group_option_category_group" = "Mappe";
+"group_option_type" = "Type";
+"group_option_payee" = "Betalingsmodtager";
+"group_option_repetition_frequency" = "Interval";
+
+"date_repetition_frequency_never" = "Aldrig";
+"date_repetition_frequency_daily" = "Dagligt";
+"date_repetition_frequency_weekly" = "Ugentligt";
+"date_repetition_frequency_everyTwoWeeks" = "Hver anden uge";
+"date_repetition_frequency_everyThreeWeeks" = "Hver 3. uge";
+"date_repetition_frequency_everyFourWeeks" = "Hver 4. uge";
+"date_repetition_frequency_monthly" = "Månedligt";
+"date_repetition_frequency_everyTwoMonths" = "Hver 2. måned";
+"date_repetition_frequency_everyThreeMonths" = "Kvartalsvis";
+"date_repetition_frequency_everySixMonths" = "Halvårligt";
+"date_repetition_frequency_yearly" = "Årlig";
+"date_repetition_frequency_custom" = "Brugerdefineret";
+
+"csv_transaction_type_automatic" = "Automatisk";
+"csv_transaction_type_income" = "Indkomst";
+"csv_transaction_type_expenses" = "Udgifter";
+
+"passcode_type_four_digits" = "Firecifret numerisk adgangskode";
+"passcode_type_six_digits" = "Sekscifret numerisk adgangskode";
+"passcode_type_custom_numeric" = "Brugerdefineret numerisk kode";
+"passcode_type_custom_alphanumeric" = "Brugerdefineret alfanumerisk kode";
+
+"auto_lock_time_type_immediately" = "Straks";
+"auto_lock_time_type_after_one_minute" = "Efter 1 minut";
+"auto_lock_time_type_after_five_minutes" = "Efter 5 minutter";
+"auto_lock_time_type_after_fifteen_minutes" = "Efter 15 minutter";
+"auto_lock_time_type_after_one_hour" = "Efter 1 time";
+"auto_lock_time_type_after_four_hours" = "Efter 4 timer";
+
+"widget_type_chart_stack" = "Diagram";
+"widget_type_suggestions" = "Forslag";
+"widget_type_distribution" = "Distribution";
+"widget_type_balance" = "Saldo";
+"widget_type_savings_rate" = "Gemt";
+"widget_type_upcoming_transactions" = "Planlagt";
+"widget_type_participants" = "Personer";
+"widget_type_budget" = "Budget";
+"widget_type_pending_transactions" = "Afventer";
+"widget_type_total_assets" = "Aktiver";
+"widget_type_forecast" = "Prognose";
+
+"chart_type_bar" = "Søjlediagram";
+"chart_type_pie" = "Kirkeldiagram";
+
+"category_chart_data_type_category" = "Kategori";
+"category_chart_data_type_category_group" = "Mappe";
+
+"product_type_individual" = "Individuel";
+"product_type_family" = "Familie";
+
+"subscription_period_day" = "Dag";
+"subscription_period_days" = "dage";
+"subscription_period_month" = "Måned";
+"subscription_period_months" = "Måneder";
+"subscription_period_year" = "ar";
+"subscription_period_years" = "År";
+
+"overview_period_type_current_week" = "Denne uge";
+
+"quick_action_type_new_income" = "Ny indkomst";
+"quick_action_type_new_expense" = "Ny udgift";
+"quick_action_type_new_transfer" = "Ny overførsel";
+"quick_action_type_new_recurring" = "Tilbagevendende";
+
+"suggestion_type_add_income_transaction" = "Ny indkomst";
+"suggestion_type_add_expense_transaction" = "Ny udgift";
+
+"user_interface_style_system" = "System";
+"user_interface_style_light" = "Lys";
+"user_interface_style_dark" = "Mørk";
+
+"transaction_title_type_category" = "Kategori";
+"transaction_title_type_payee" = "Betalingsmodtager";
+"transaction_title_type_notes" = "Noter";
+
+"transaction_subtitle_type_none" = "Ingen";
+"transaction_subtitle_type_category" = "Kategori";
+"transaction_subtitle_type_payee" = "Betalingsmodtager";
+"transaction_subtitle_type_notes" = "Noter";
+
+
+/* MARK: - Custom Date Repetition */
+"frequency" = "Frekvens";
+
+"every" = "Hver";
+"every_day" = "Hver";
+"every_week" = "Hver";
+"every_month" = "Hver";
+"every_year" = "Hver";
+"every_day_plural" = "Hver";
+"every_week_plural" = "Hver";
+"every_month_plural" = "Hver";
+"every_year_plural" = "Hver";
+
+"each" = "Hver";
+"on_the" = "På...";
+"days_of_week" = "Ugedage";
+"last_day" = "Sidste dag";
+
+"daily" = "Dagligt";
+"weekly" = "Ugentligt";
+"monthly" = "Månedligt";
+"yearly" = "Årligt";
+
+"first" = "1.";
+"second" = "2.";
+"third" = "3.";
+"fourth" = "4.";
+"fifth" = "5.";
+"last" = "sidste";
+
+
+/* MARK: - Menu Bar */
+"accounts_menu_title" = "Konti";
+"show_accounts_menu_title" = "Vis alle konti";
+"budgets_menu_title" = "Budgetter";
+"show_budgets_menu_title" = "Vis alle budgetter";
+"transactions_menu_title" = "Transaktioner";
+"show_all_transactions_menu_title" = "Vis alle transaktioner";
+"show_recurring_transactions_menu_title" = "Vis tilbagevendende transaktioner";
+"show_upcoming_transactions_menu_title" = "Vis planlagte transaktioner";
+
+
+/* MARK: - Sidebar Menu */
+"menu" = "Menu";
+"menu_accounts_section" = "Konti";
+"menu_categories_section" = "Kategorier";
+"menu_selected_budget_book_title" = "Valgt";
+
+
+/* MARK: - Tabs */
+"dashboard_tab" = "Oversigt";
+"transactions_tab" = "Transaktioner";
+"budgets_tab" = "Budgetter";
+"settings_tab" = "Indstillinger";
+
+
+/* MARK: - Buttons */
+"add_button" = "Tilføj";
+"edit_button" = "Rediger";
+"copy_button" = "Kopier";
+"edit_account_button" = "Rediger konto";
+"edit_category_button" = "Rediger kategori";
+"edit_payee_button" = "Rediger betalingsmodtager";
+"edit_tag_button" = "Rediger tag";
+"edit_budget_button" = "Rediger budget";
+"multi_selection_button" = "Multivalg";
+"back_button" = "Tilbage";
+"done_button" = "Udført";
+"save_button" = "Gem";
+"import_button" = "Importer";
+"unlock_button" = "Lås op";
+"cancel_button" = "Annuller";
+"close_button" = "Luk";
+"delete_button" = "Slet";
+"end_repetition_button" = "Afslut gentagelse";
+"reset_button" = "Nulstil";
+"apply_button" = "Anvend";
+"yes_button" = "Ja";
+"no_button" = "Nej";
+"ok_button" = "OK";
+"faq_button" = "FAQ";
+"create_reminder_button" = "Opret påmindelse";
+"remove_reminder_button" = "Fjern påmindelse";
+"do_not_show_again_button" = "Vis ikke igen";
+"mark_as_paid_button" = "Betaling gennemført";
+"mark_as_pending_button" = "Afventer betaling";
+"show_contra_entry_button" = "Vis modpost";
+
+"save_changes_button" = "Gem ændringer";
+"discard_changes_button" = "Kassér ændringer";
+
+"show_help_center_button" = "Hjælp (🇬🇧)";
+"contact_developer_button" = "Kontakt udvikler";
+
+"filter_button" = "Filter";
+"sort_button" = "Sorter";
+"sort_categories_button" = "Sortér kategorier";
+"sort_category_groups_button" = "Sorter mapper";
+"group_button" = "Gruppe";
+"configure_button" = "Konfigurer";
+
+"show_filter_button" = "Vis filter";
+
+"show_amount_values_button" = "Vis beløb";
+"hide_amount_values_button" = "Skjul beløb";
+
+"take_photo_button" = "Tag et billede";
+"add_photo_button" = "Vælg billeder";
+"add_document_button" = "Vælg dokumenter";
+"scan_receipt_button" = "Scan kvittering";
+
+"open_button" = "Åbn";
+"open_folder_button" = "Åbn mappe";
+"open_in_browser_button" = "Åbn i browser";
+
+"show_more_button" = "Vis mere";
+"show_less_button" = "Vis mindre";
+
+"add_category_button" = "Ny kategori";
+"add_category_group_button" = "Ny mappe";
+
+"add_income_transaction_button" = "Ny indkomst";
+"add_expense_transaction_button" = "Ny udgift";
+"add_transfer_transaction_button" = "Ny overførsel";
+
+"manage_budget_books_button" = "Administrer budgetbøger";
+"select_budget_book_button" = "Vælg budgetbog";
+"edit_budget_book_button" = "Rediger budgetbog";
+
+"continue_button" = "Fortsæt";
+"skip_button" = "Spring over";
+"accept_button" = "Accepter";
+"get_started_button" = "Kom godt i gang";
+
+"show_transactions_button" = "Vis transaktioner";
+"show_in_app_store_button" = "Vis i App Store";
+
+"learn_more" = "Lær mere";
+
+
+/* MARK: - Share View */
+/* Titles */
+"share_title" = "Del";
+
+/* Alert Views */
+"alert_sync_shares_in_progress_title" = "Synkroniserer...";
+"alert_sync_shares_in_progress_message" = "Dine budgetbøger synkroniseres med iCloud, så du kan få adgang til det delte indhold. Vær tålmodig...";
+"alert_cloud_share_quota_exceeded_error_message" = "Kunne ikke fuldføre deling, fordi der ikke er nok plads i din iCloud. Frigør venligst noget plads, og prøv igen.";
+"alert_cloud_share_unknown_error_message" = "Kunne ikke fuldføre deling, fordi der opstod en fejl. Der er sandsynligvis ikke plads nok i din iCloud. Frigør venligst noget plads, og prøv igen.";
+
+
+/* MARK: - Search View */
+/* Titles */
+"search_title" = "Søg";
+"filter_title" = "Filter";
+
+/* Sections */
+"search_text_section_title" = "Søg efter tekst";
+"search_suggestions_section_title" = "Forslag";
+
+
+/* MARK: - Period Selection View */
+/* Titles */
+"period_selection_title" = "Periode";
+"period_selection_current_year_title" = "Nuværende år";
+"period_selection_current_month_title" = "Nuværende måned";
+
+/* Items */
+"from_title" = "Fra";
+"to_title" = "Til";
+
+
+/* MARK: - Dashboard View */
+/* Titles */
+"configure_title" = "Konfigurer";
+"balance_widget_income_title" = "Indkomst";
+"balance_widget_expenses_title" = "Udgifter";
+"savings_rate_widget_absolute_title" = "Absolut";
+"savings_rate_widget_percentual_title" = "Procentdel";
+"budget_widget_planned_title" = "Planlagt";
+"budget_widget_remaining_title" = "Tilgængelig";
+"total_assets_widget_absolute_title" = "Absolut";
+"total_assets_widget_trend_title" = "Trend";
+"forecast_widget_upcoming_title" = "Planlagt";
+"forecast_widget_pending_title" = "Afventer";
+"forecast_widget_final_balance_title" = "Endelig saldo";
+"pie_chart_widget_transactions_title" = "Transaktioner";
+"pie_chart_widget_categories_title" = "Kategorier";
+
+/* Sections */
+"inactive_widgets_section_title" = "Flere widgets";
+
+/* Footer */
+"participants_widget_footer_title" = "Info: \"People\"-widgetten vises kun for delte budgetbøger.";
+
+/* Messages */
+"no_widgets_title" = "Ingen widgets tilføjet";
+"no_widgets_message" = "Klik på knappen \"pen\" for at konfigurere visningen.";
+"no_suggestions_title" = "Ingen forslag";
+"not_shared_title" = "Budgetbog ikke delt";
+
+/* Widgets */
+"account_balances_widget_title" = "Kontosaldi";
+"balance_widget_title" = "Saldo";
+"total_income_widget_title" = "Samlet indkomst";
+"total_expenses_widget_title" = "Samlede udgifter";
+"fixed_expenses_widget_title" = "Faste udgifter";
+"variable_expenses_widget_title" = "Variable udgifter";
+
+"account_balances_distribution_widget_title" = "Kontosaldi";
+"balance_distribution_widget_title" = "Saldo";
+"total_income_distribution_widget_title" = "Samlet indkomst";
+"total_expenses_distribution_widget_title" = "Samlede udgifter";
+"fixed_expenses_distribution_widget_title" = "Faste udgifter";
+"variable_expenses_distribution_widget_title" = "Variable udgifter";
+
+
+/* MARK: - Transaction List View */
+/* Titles */
+"sum_title" = "Sum";
+"total_sum_title" = "Samlet sum";
+"recurring_transactions_title" = "Tilbagevendende";
+"upcoming_transactions_title" = "Planlagt";
+"reminded_transactions_title" = "Med påmindelse";
+
+/* Info */
+"recurring_transactions_info_title" = "Beskrivelse";
+"recurring_transactions_info_description" = "Opret tilbagevendende transaktioner for at få dem automatisk tilføjet til appen, når de forfalder.";
+
+/* Sections */
+"account_filter_section_title" = "Konto";
+"category_filter_section_title" = "Kategori";
+"payee_filter_section_title" = "Modtager";
+"tag_filter_section_title" = "Tag";
+"user_filter_section_title" = "Person";
+"payment_status_filter_section_title" = "Betaling";
+"transaction_type_filter_section_title" = "Type";
+"date_range_filter_section_title" = "Dato";
+"amount_range_filter_section_title" = "Beløb";
+
+/* Messages */
+"no_transactions_title" = "Ingen transaktioner";
+"no_transactions_title_short" = "Ingen";
+"no_transactions_found_title" = "Ingen transaktioner fundet";
+"no_transactions_found_message" = "Klik på \"+\" knappen for at tilføje en ny transaktion.";
+"no_transactions_found_button_title" = "Ny transaktion";
+"no_recurring_transactions_found_message" = "Klik på knappen \"+\" for at tilføje en ny tilbagevendende transaktion.";
+"no_upcoming_transactions_found_message" = "Klik på \"+\" knappen for at tilføje en ny planlagt transaktion.";
+"no_reminded_transactions_found_message" = "Klik på \"+\" knappen for at tilføje en ny transaktion med en påmindelse.";
+"transactions_search_placeholder_message" = "Søg efter navnet på en kategori, betalingsmodtager, tag eller noter";
+
+/* Buttons */
+"show_analysis_button" = "Vis analyse";
+"show_analysis_button_short" = "Analyse";
+"show_forecast_button" = "Vis vejrudsigt";
+"show_forecast_button_short" = "Prognose";
+"show_upcoming_transactions_button" = "Planlagt";
+
+/* Alert Views */
+"alert_confirm_add_next_upcoming_transaction_title" = "Tilføj transaktion";
+"alert_confirm_add_next_upcoming_transaction_message" = "Er du sikker på, at du vil tilføje denne planlagte transaktion nu?";
+
+/* Miscellaneous */
+"payed_by_and_modified_at" = "Betalt af %@\nSidst ændret den %@";
+"modified_at" = "Sidst ændret den %@";
+"average_per_transaction" = "Ø pr. transaktion";
+"average_per_day" = "Ø pr. dag";
+"average_per_month" = "Ø pr. måned";
+
+
+/* MARK: - Budget List View */
+/* Titles */
+"remaining_title" = "Tilgængelig";
+"balanced_title" = "Balanceret";
+"exceeded_title" = "Overskredet";
+"user_has_no_budgets_title" = "Du har ingen budgetter.";
+"user_is_within_budget_title" = "Du er inden for dit budget! 🎉";
+"user_was_within_budget_title" = "Du var inden for dit budget! 🎉";
+"user_is_not_within_budget_title" = "Du er %d over budgettet 😢";
+"user_is_not_within_budgets_title" = "Du har overskredet %d budgetter 😢";
+
+/* Messages */
+"no_budgets_title" = "Ingen budgetter";
+"no_budgets_found_title" = "Ingen budgetter fundet";
+"no_budgets_found_message" = "Klik på \"+\" knappen for at tilføje et nyt budget.";
+"budgets_search_placeholder_message" = "Søg efter et budgets navn";
+"no_budgets_found_button_title" = "Nyt budget";
+
+
+/* MARK: - Analysis View */
+/* Titles */
+"analysis_title" = "Analyse";
+"trend_widget_average_title" = "Gennemsnit";
+"trend_widget_current_year_title" = "I år";
+"trend_widget_current_month_title" = "Denne måned";
+
+/* Messages */
+"trend_widget_received_more_message" = "Du tjener mere end normalt.";
+"trend_widget_received_less_message" = "Du tjener mindre end normalt.";
+"trend_widget_received_same_message" = "Du tjener det samme som normalt.";
+"trend_widget_has_received_more_message" = "Du har tjent mere end normalt.";
+"trend_widget_has_received_less_message" = "Du har tjent mindre end normalt.";
+"trend_widget_has_received_same_message" = "Du har tjent det samme som normalt.";
+
+"trend_widget_spent_more_message" = "Du bruger mere end normalt.";
+"trend_widget_spent_less_message" = "Du bruger mindre end normalt.";
+"trend_widget_spent_same_message" = "Du bruger det samme som normalt.";
+"trend_widget_has_spent_more_message" = "Du har brugt mere end normalt.";
+"trend_widget_has_spent_less_message" = "Du har brugt mindre end normalt.";
+"trend_widget_has_spent_same_message" = "Du har brugt det samme som normalt.";
+
+"total_balance_widget_current_balance_message" = "Din saldo er %@.";
+"total_balance_widget_previous_balance_message" = "Din saldo var %@.";
+
+"savings_rate_widget_current_savings_rate_message" = "Din opsparingsrate er %@ %%.";
+"savings_rate_widget_previous_savings_rate_message" = "Din opsparingsrate var %@ %%.";
+
+/* Widgets */
+"trend_widget_title" = "Trend";
+"total_balance_widget_title" = "Saldo";
+"savings_rate_widget_title" = "Besparelsesrate";
+
+
+/* MARK: - Account Forecast View */
+/* Titles */
+"account_forecast_title" = "Prognose";
+"account_balance_title" = "Saldo";
+"not_enough_data_title" = "Ikke nok data";
+
+
+/* MARK: - Settings View */
+/* Titles */
+"no_budget_book_title" = "Ingen budgetbog";
+
+/* Messages */
+"share_app_message" = "\"%@ - Udgiftssporing\"\n\nDownload nu gratis:";
+
+/* Sections */
+"general_setting_section_title" = "Generelt";
+"upgrade_setting_section_title" = "Fuld version";
+"support_setting_section_title" = "Support";
+"legal_setting_section_title" = "Lovligt";
+"data_setting_section_title" = "Data";
+"miscellaneous_setting_section_title" = "Diverse";
+
+/* Footer */
+"upgrade_setting_footer_title" = "Tak, fordi du bruger den fulde version!";
+"support_setting_footer_title" = "Enhver spørgsmål eller idé? Skriv en besked eller en positiv anmeldelse i App Store! Din feedback er meget motiverende og hjælper med at forbedre appen.";
+
+/* Buttons */
+"share_budgetbook_button" = "Del budgetbog";
+"show_participants_button" = "Vis deltagere";
+"cloud_not_available_button" = "iCloud ikke tilgængelig";
+"upgrade_show_all_features_button" = "Vis alle funktioner";
+"reset_app_button" = "Nulstil app";
+
+/* General Settings */
+"accounts_setting_title" = "Administrer konti";
+"categories_setting_title" = "Administrer kategorier";
+"payees_setting_title" = "Administrer modtagere";
+"tags_setting_title" = "Administrer tags";
+"reminders_setting_title" = "Påmindelser";
+
+/* Upgrade Settings */
+"upgrade_setting_title" = "Lås den fulde version op 🚀";
+"upgrade_setting_description" = "Lås op for den fulde version nu og drage fordel af flere ekstra funktioner!";
+
+/* Support Settings */
+"share_app_setting_title" = "Informer venner";
+"translate_app_setting_title" = "Hjælp til at oversætte";
+"help_center_setting_title" = "Hjælp (🇬🇧)";
+"feature_roadmap_setting_title" = "Foreslå funktion";
+"rate_app_setting_title" = "Vurder app";
+
+/* Legal Settings */
+"imprint_setting" = "Aftryk";
+"privacy_setting" = "Privatlivspolitik";
+"terms_of_use_setting" = "Brugervilkår";
+"acknowledgements_setting" = "Anerkendelser";
+"licenses_setting" = "Licenser";
+
+"acknowledgements_setting_info_title" = "Beskrivelse";
+"acknowledgements_setting_info_description" = "Nedenfor er en liste over personer, der har hjulpet med appen på en eller anden måde.";
+"translation_acknowledgement" = "Oversættelse (%@)";
+"licenses_setting_info_title" = "Beskrivelse";
+"licenses_setting_info_description" = "Nedenfor er en liste over alle tredjepartslicenser, der bruges af appen.";
+
+/* Data Settings */
+"sync_and_data_setting" = "Synkronisering & data";
+"sync_and_data_setting_short" = "Synkroniser & data";
+"recurring_transactions_setting" = "Gentagende transaktioner";
+
+/* Miscellaneous Settings */
+"new_features_setting" = "Nieuwe functies";
+"testflight_beta_setting" = "TestFlight beta";
+"apple_pay_setting" = " Pay integration";
+"appearance_setting" = "Tilpasning";
+"advanced_setting" = "Avancerede indstillinger";
+
+/* Contact Developer */
+"mail_subject_type_contact" = "Contact";
+"mail_subject_type_support" = "Support";
+"mail_subject_type_feedback" = "Feedback";
+"mail_subject_type_translate" = "Translate";
+"mail_subject_type_discount" = "Discount";
+
+"alert_contact_developer_title" = "Hvad handler din anmodning om?";
+"alert_contact_developer_feature_request" = "💡 Foreslå funktion";
+"alert_contact_developer_bug_report" = "🐞 Fejlrapport";
+"alert_contact_developer_other" = "📬 Andet (e-mail)";
+
+"contact_developer_mail_subject" = "%@: %@%@";
+"contact_developer_mail_subject_full_version" = " (full version)";
+"contact_developer_mail_message" = "
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+<b>Support Information:</b>
+</br>
+<u>General:</u></br>
+- Device: %@</br>
+- iOS version: %@</br>
+- Language: %@</br>
+- Currency: %@</br>
+- Time zone: %@</br>
+</br>
+<u>App Specific:</u></br>
+- App version: %@</br>
+- Build: %@</br>
+</br>
+<u>In-App Purchases:</u></br>
+- User ID: %@</br>
+- Active: %@</br>
+- Purchases: %@";
+"contact_developer_mail_no_purchases" = "None";
+
+/* Appearance Settings */
+"appearance_setting_info_title" = "Beskrivelse";
+"appearance_setting_info_description" = "Tilpas appen efter din smag ved at ændre appens udseende eller accentfarve.";
+"appearance_ui_style_setting_section_title" = "Tema";
+"appearance_ui_style_setting_footer_title" = "Ændrer appens udseende.";
+"appearance_accent_color_setting_section_title" = "Accentfarve";
+"appearance_accent_color_setting_footer_title" = "Ændrer farven på knapper og andre kontroller i appen.";
+"appearance_app_icon_setting_section_title" = "App-ikon";
+
+/* Sync & Data Settings */
+"sync_and_data_setting_info_title" = "Beskrivelse";
+"sync_and_data_setting_info_description" = "Få et overblik over den aktuelle synkroniseringsstatus og importer eller eksporter data ved hjælp af en CSV-fil.";
+
+"sync_and_data_cloud_setting_section_title" = "iCloud";
+"sync_and_data_cloud_setting_footer_title" = "Angiver, om synkroniseringen med iCloud lykkedes, eller om der opstod en fejl.";
+"sync_and_data_setting_cloud_sync_status_title" = "Synkroniseringsstatus";
+"backup_setting_section_title" = "Sikkerhedskopier";
+"backup_setting_footer_title" = "Administrer dine sikkerhedskopier og sikkerhedskopieringsindstillinger.";
+"backup_setting_manage_backups_title" = "Administrer";
+"sync_and_data_csv_setting_section_title" = "CSV-data";
+"sync_and_data_csv_setting_footer_title" = "Importer eller eksporter dine transaktioner ved hjælp af en CSV-fil.";
+"sync_and_data_setting_csv_import_title" = "Importer";
+"sync_and_data_setting_csv_export_title" = "Eksporter";
+"sync_and_data_setting_get_csv_template_title" = "Download skabelon";
+
+"clear_cache_button" = "Ryd cache";
+"cache_setting_footer_title" = "Info: Rydning af cachen sletter alle filer i appens dokumentmappe (inklusive sikkerhedskopier).";
+
+"alert_csv_import_successful_title" = "Importen lykkedes 🎉";
+"alert_csv_import_successful_message" = "I alt blev %d af %d transaktioner importeret.%@";
+"alert_csv_import_skipped_message" = " Derved er %d transaktioner blevet sprunget over.";
+"alert_csv_import_error_message" = "Det lykkedes ikke at importere %d af %d transaktioner.\n\n%@";
+"alert_csv_import_error_reason_field_message" = "Tjek venligst følgende felter i din CSV-fil: %@.";
+
+"alert_csv_export_successful_title" = "Eksporten lykkedes 🎉";
+"alert_csv_export_successful_message" = "Dine data blev eksporteret til \"%@\".";
+
+/* Cloud Settings */
+"cloud_setting_info_title" = "Beskrivelse";
+"cloud_setting_info_description" = "Følgende visning giver et mere detaljeret overblik over den aktuelle iCloud-synkroniseringsstatus og hjælper med fejlfinding.";
+
+"cloud_setting_network_status_title" = "Netværk";
+"cloud_setting_network_status_success_value" = "Internetforbindelse tilgængelig";
+"cloud_setting_network_status_error_value" = "Ingen internetforbindelse";
+"cloud_setting_account_status_title" = "iCloud-konto";
+"cloud_setting_account_status_success_value" = "Logget ind på iCloud";
+"cloud_setting_account_status_error_value" = "Ikke logget ind på iCloud";
+"cloud_setting_upload_status_title" = "Sidst uploadet";
+"cloud_setting_download_status_title" = "Sidst downloadet";
+"cloud_setting_number_of_transactions_title" = "Transaktioner";
+"cloud_setting_number_of_transactions_value" = "På enhed: %d\nI iCloud: %d";
+"cloud_setting_number_of_transactions_in_progress_title" = "Vent venligst...";
+"cloud_setting_number_of_transactions_error_title" = "Fejl";
+
+/* Backup Settings */
+"backup_setting_info_title" = "Beskrivelse";
+"backup_setting_info_description" = "Når det er aktiveret, sikkerhedskopierer Budget Flow regelmæssigt dine data, så du til enhver tid kan gendanne appen til en tidligere tilstand.";
+
+"backup_general_setting_section_title" = "Generelt";
+"backup_recent_backups_setting_section_title" = "Seneste sikkerhedskopier";
+"backup_setting_use_automatic_backups_title" = "Automatisk sikkerhedskopiering";
+"backup_setting_create_backup_title" = "Opret sikkerhedskopi";
+
+"alert_restore_backup_title" = "Gendan denne sikkerhedskopi?";
+"alert_restore_backup_message" = "Gendannelse af sikkerhedskopier er i øjeblikket en eksperimentel funktion. Det vil slette dine nuværende data og overskrive dem med den valgte sikkerhedskopi.\n\nHerefter lukkes appen automatisk.\n\nAdvarsel: Denne proces kan ikke fortrydes!";
+"alert_restore_backup_button" = "Gendan sikkerhedskopi";
+
+/* Advanced Settings */
+"advanced_setting_info_title" = "Beskrivelse";
+"advanced_setting_info_description" = "Foretag yderligere indstillinger for at konfigurere appen.";
+
+"advanced_security_setting_section_title" = "Sikkerhed";
+"advanced_view_setting_section_title" = "Skærm";
+"advanced_sidebar_setting_section_title" = "Sidebjælke";
+"advanced_transaction_setting_section_title" = "Transaktioner";
+"advanced_other_setting_section_title" = "Andet";
+
+"advanced_setting_use_passcode_title" = "Brug adgangskode";
+"advanced_setting_use_title" = "Brug %@";
+"advanced_setting_auto_lock_title" = "Anmod om kode";
+
+"advanced_setting_chart_type_title" = "Diagramtype";
+"advanced_setting_show_frequently_used_items_title" = "Vis hyppige kategorier og tags";
+"advanced_setting_show_frequently_used_items_description" = "Vis hyppigt brugte kategorier & tags på valglisten, når du opretter og redigerer transaktioner.";
+"advanced_setting_show_notes_in_title_title" = "Vis noter i stedet for kategori";
+"advanced_setting_show_notes_in_title_description" = "Vis indholdet af noterne i stedet for kategorinavnet for transaktioner.";
+"advanced_setting_start_day_of_month_title" = "Startdag i måneden";
+"advanced_setting_start_day_of_month_description" = "Angiv startdagen for hver måned, så rapporter, transaktioner og budgetter beregnes korrekt.";
+"advanced_setting_configure_transaction_title_title" = "Transaktionstitel";
+"advanced_setting_configure_transaction_subtitle_title" = "Transaktionsundertitel";
+
+"advanced_setting_configure_transaction_title_info_title" = "Beskrivelse";
+"advanced_setting_configure_transaction_title_info_description" = "Indstil rækkefølgen af ​​de elementer, der skal vises i transaktionstitlen. Hvis en vare mangler, bruges den næste i ordren automatisk.";
+
+"advanced_setting_show_accounts_in_sidebar_title" = "Vis konti i sidebjælken";
+"advanced_setting_show_accounts_in_sidebar_description" = "Vis en liste over dine konti i sidebjælken.";
+"advanced_setting_group_accounts_in_sidebar_title" = "Gruppekonti i sidebjælken";
+"advanced_setting_group_accounts_in_sidebar_description" = "Gruppér dine konti i sidebjælken efter type.";
+"advanced_setting_show_categories_in_sidebar_title" = "Vis kategorier i sidebjælken";
+"advanced_setting_show_categories_in_sidebar_description" = "Vis en liste over dine kategorier i sidebjælken.";
+"advanced_setting_group_categories_in_sidebar_title" = "Gruppekategorier i sidebjælken";
+"advanced_setting_group_categories_in_sidebar_description" = "Gruppér dine kategorier i sidebjælken efter mappe.";
+
+"advanced_setting_select_time_automatically_title" = "Automatisk tidsvalg";
+"advanced_setting_select_time_automatically_description" = "Vælg automatisk det aktuelle tidspunkt for nye transaktioner.";
+"advanced_setting_select_location_automatically_title" = "Automatisk placeringsvalg";
+"advanced_setting_select_location_automatically_description" = "Vælg automatisk den aktuelle placering for nye transaktioner.";
+"advanced_setting_save_photos_in_library_title" = "Gem billeder i biblioteket";
+"advanced_setting_save_photos_description" = "Gem automatisk optagne fotos i fotobiblioteket.";
+"advanced_setting_consider_pending_items_title" = "Bestil alle transaktioner";
+"advanced_setting_consider_pending_items_description" = "Inkluder afventende transaktioner ved beregning af kontosaldi, saldi, totaler osv.";
+
+"advanced_setting_enable_exact_times_title" = "Indtast nøjagtige tidspunkter";
+"advanced_setting_enable_exact_times_description" = "Vælg nøjagtige tidspunkter ved hjælp af minutskruen for transaktioner (f.eks. 9:41).";
+"advanced_setting_reverse_keyboard_title" = "Omvendt tastatur";
+"advanced_setting_reverse_keyboard_description" = "Vender det numeriske tastaturlayout vertikalt for at matche en traditionel lommeregnerstil.";
+"advanced_setting_enable_haptic_keyboard_title" = "Tastaturfeedback";
+"advanced_setting_enable_haptic_keyboard_description" = "Få haptisk feedback, når du indtaster pengebeløb ved hjælp af tastaturet.";
+"advanced_setting_enable_live_activities_title" = "Live-aktiviteter";
+"advanced_setting_enable_live_activities_description" = "Se din aktuelle saldo og mere på den dynamiske ø samt låseskærmen.";
+"advanced_setting_ask_for_feedback_title" = "Bed om feedback";
+"advanced_setting_ask_for_feedback_description" = "Tillad, at appen lejlighedsvis beder dig om feedback.";
+
+/* Cloud Sync Status */
+"cloud_sync_status_not_logged_in" = "Ikke logget på iCloud";
+"cloud_sync_status_not_started" = "Ikke synkroniseret";
+"cloud_sync_status_no_network" = "Ingen internetforbindelse";
+"cloud_sync_status_in_progress" = "Synkroniserer...";
+"cloud_sync_status_succeeded" = "Fuldt synkroniseret";
+"cloud_sync_status_quota_exceeded" = "Din iCloud-lagring er fuld. Frigør plads og prøv igen.";
+"cloud_sync_status_limit_exceeded" = "Du har nået iCloud's upload/download-grænse. Vent et øjeblik og prøv igen senere.";
+"cloud_sync_status_network_failure" = "Der opstod en netværksfejl. Prøv igen senere.";
+"cloud_sync_status_service_unavailable" = "iCloud er midlertidigt utilgængelig. Prøv igen senere.";
+"cloud_sync_status_request_rate_limited" = "Du har sendt for mange anmodninger til iCloud på kort tid. Vent et øjeblik og prøv igen senere.";
+"cloud_sync_status_request_unknown_error" = "Der opstod en ukendt fejl. Prøv igen senere.";
+
+/* Alert Views */
+"alert_share_app_type_selection_title" = "Hvad vil du gerne dele?";
+"alert_share_app_type_selection_link_button" = "Link";
+"alert_share_app_type_selection_qrcode_button" = "QR-kode";
+
+"alert_reset_app_title" = "Nulstil app";
+"alert_reset_app_message" = "Er du sikker på, at du vil nulstille appen til standardindstillingerne? Dette vil permanent slette alle dine data gemt på denne enhed og iCloud.";
+
+"alert_error_title" = "Der opstod en fejl 😢";
+
+/* Social Media */
+"follow_on_social_media" = "Follow \"%@\" on Social Media";
+
+/* Copyright */
+"version" = "Version";
+"developed_by" = "Udviklet af %@ 👨🏻‍💻";
+
+
+/* MARK: - Passcode View */
+/* Titles */
+"passcode_view_enter_passcode_title" = "Indtast adgangskode";
+"passcode_view_create_passcode_title" = "Opret adgangskode";
+"passcode_view_confirm_passcode_title" = "Bekræft adgangskode";
+"passcode_view_authenticate_reason" = "Brugergodkendelse";
+
+/* Alert Views */
+"alert_set_passcode_type_title" = "Vælg adgangskodeindstilling";
+
+
+/* MARK: - Welcome View */
+/* Titles */
+"welcome_view_title" = "Velkommen til";
+"privacy_policy_title" = "Privatlivspolitik";
+
+/* Sections */
+"welcome_view_overview_section_title" = "Oversigt";
+"welcome_view_legal_documents_section_title" = "Flere oplysninger";
+
+/* Overview */
+"privacy_overview_datastorage_title" = "Sikker datalagring";
+"privacy_overview_datastorage_description" = "Din økonomi er privat – og sådan burde de forblive. Det er derfor, dine data gemmes udelukkende på din enhed eller (valgfrit) i din personlige iCloud.";
+
+"privacy_overview_privacy_control_title" = "Du har kontrol";
+"privacy_overview_privacy_control_description" = "Uanset om det er dine gemte data, brug af din placering eller adgang til dit kamera - du har altid kontrollen. For eksempel kan du nemt slette dine data ved at nulstille appen og adgangstilladelserne til appen justeres kl. når som helst.";
+
+/* Footer */
+"welcome_view_value_description" = "Styr alle dine finanser med lethed: Indtast dit budget, få indsigt og hold styr på alle dine indtægter og udgifter.";
+"welcome_view_agreement_description" = "Ved at klikke på \"Acceptér\" giver du samtykke til %@.";
+
+
+/* MARK: - New Features View */
+/* Titles */
+"new_features_view_title" = "New Features";
+
+/* Buttons */
+"new_features_view_rate_app_button" = "Rate App";
+"new_features_view_close_button" = "Maybe later";
+
+
+/* MARK: - Rate App View */
+/* Titles */
+"purchase_success_view_title" = "Tak!";
+
+/* Messages */
+"purchase_success_view_info_message" = "Hvis du kan lide appen, så skriv en positiv anmeldelse i App Store. Det hjælper virkelig meget og motiverer til løbende at forbedre appen. 😊";
+"purchase_success_view_info_message_info" = "\n\nInfo: Når du skifter fra et abonnement til et livstidskøb, så husk at annullere dit eksisterende abonnement bagefter.";
+
+/* Buttons */
+"purchase_success_view_rate_app_button" = "Vurder app";
+"purchase_success_view_close_button" = "Måske senere";
+
+
+/* MARK: - Upgrade View */
+/* Titles */
+"upgrade_view_title" = "Fuld version";
+
+/* Info */
+"upgrade_info_description" = "Denne funktion er kun tilgængelig i den fulde version:";
+"upgrade_sharing_info_description" = "Anvendes med op til fem personer";
+
+/* Discount */
+"upgrade_discount_title" = "Særtilbud 🌟";
+"upgrade_discount_multiple_title" = "Gem op til %d %%!";
+"upgrade_discount_montly_subscription_title" = "Gem %d %% på det månedlige abonnement!";
+"upgrade_discount_yearly_subscription_title" = "Spar %d %% på det årlige abonnement!";
+"upgrade_discount_lifetime_purchase_title" = "Spar %d %% på engangskøbet!";
+"upgrade_discount_ends_in" = "Ender om";
+
+/* Sections */
+"upgrade_info_section_title" = "Info";
+"upgrade_reviews_section_title" = "Anmeldelser";
+
+/* Messages */
+"apply_for_discount_text" = "Er du studerende eller i økonomisk behov?\nKlik her for at ansøge om rabat.";
+"apply_for_discount_highlighted_text" = "Klik her for at ansøge om rabat.";
+
+/* Features */
+"upgrade_features" = "Funktioner";
+"upgrade_more_features" = "Flere funktioner";
+"upgrade_features_description" = "Følgende er alle funktioner, der låses op ved køb af den fulde version:";
+"upgrade_feature_unlimited_accounts_title" = "Yderligere konti";
+"upgrade_feature_unlimited_accounts_description" = "Opret yderligere konti og tildel transaktioner til dem for et endnu bedre overblik over dine indtægter og udgifter.";
+"upgrade_feature_unlimited_categories_and_tags_title" = "Ubegrænset kategorier og tags";
+"upgrade_feature_unlimited_categories_and_tags_description" = "Opret ubegrænsede kategorier og tags, som du kan tilføje til transaktioner for bedre at organisere dem.";
+"upgrade_feature_extended_analyses_title" = "Udvidet analyse";
+"upgrade_feature_extended_analyses_description" = "Bygge af yderligere analyser og en udvidet prognose for dine fremtidige kontosaldi og transaktioner.";
+"upgrade_feature_unlimited_budgetbooks_title" = "Flere budgetbøger";
+"upgrade_feature_unlimited_budgetbooks_description" = "Opret flere budgetbøger, så f.eks. flere personer kan bruge hver deres på én enhed, eller hvis du vil dele en separat budgetbog (f.eks. til en ferie).";
+"upgrade_feature_security_title" = "Sikker data";
+"upgrade_feature_security_description" = "Beskyt dine data med %@.";
+"upgrade_feature_security_description_passcode" = "Beskyt dine data ved at oprette en kode";
+"upgrade_feature_security_description_biometric" = " eller brug %@";
+"upgrade_feature_currency_converter_title" = "Valutaomregner";
+"upgrade_feature_currency_converter_description" = "Brug den indbyggede valutaomregner til automatisk at konvertere beløb til en af ​​over 150 udenlandske valutaer.";
+"upgrade_feature_customization" = "Tilpasning";
+"upgrade_feature_customization_description" = "Vælg mellem flere accentfarver og ikoner for at tilpasse appen efter din smag.";
+"upgrade_feature_sharedbudget_books_title" = "Del budgetbøger";
+"upgrade_feature_sharedbudget_books_description" = "Del dine budgetbøger inklusive konti, kategorier, transaktioner og budgetter for at samarbejde med en eller flere personer.";
+"upgrade_feature_receipt_scanner_title" = "Scan kvitteringer";
+"upgrade_feature_receipt_scanner_description" = "Brug den indbyggede scanner til at digitalisere kvitteringer og genkende automatisk beløbet og forhandlerens navn.";
+"upgrade_feature_widgets_title" = "Hjem- og låseskærm-widgets";
+"upgrade_feature_widgets_description" = "Ved hjælp af widgets kan du se dine nuværende indtægter og udgifter, dine kontosaldi og meget mere på et øjeblik uden at skulle åbne appen. For at se widgets, redigere din hjemme- eller låseskærm, åbne Visningen \"Tilføj widget\" og vælg derefter denne app.";
+"upgrade_feature_reminders_title" = "Opret påmindelser";
+"upgrade_feature_reminders_description" = "Opret påmindelser for dine planlagte transaktioner for at modtage push-beskeder (også offline).";
+"upgrade_feature_csv_title" = "CSV import og eksport";
+"upgrade_feature_csv_description" = "Importer og eksporter dine transaktioner ved hjælp af en CSV-fil til at overføre data fra din bank eller andre programmer.";
+"upgrade_feature_remove_ads_title" = "Ingen annoncer";
+"upgrade_feature_remove_ads_description" = "Du vil ikke længere se annoncer for den fulde version i appen.";
+"upgrade_feature_support_title" = "Supportudvikling";
+"upgrade_feature_support_description" = "Du støtter en ung udvikler og dermed den kontinuerlige udvikling af appen! 😊";
+
+/* Reviews */
+"user_review_title_de" = "Awesome app";
+"user_review_description_de" = "The app is very well designed and functional. It meets all my needs and the support is very fast and helpful. I can only recommend it.";
+"user_review_title_hr" = "Beautiful app";
+"user_review_description_hr" = "Feature rich app, with an easy to use user interface. Tried many alternatives on iOS, none of them met my needs the way this app does. Worth the money.";
+"user_review_title_bg" = "Outstanding support";
+"user_review_description_bg" = "Great app with an outstanding customer support. And it’s a very reasonable priced for the quality of the software.";
+"user_review_title_us" = "Great app so far";
+"user_review_description_us" = "Huge fan of this being an app available on iOS, iPad and macOS so that I can update it anywhere. It is also really nice to see that there is no account required or data collection which seems rare these days but important to me for finance applications.";
+"user_review_title_uk" = "This is the one!";
+"user_review_description_uk" = "I’ve been looking for this app for over two years. I wanted a phone based finance manager that was designed around a good looking overview screen, allowing easy entry of new data and the ability to drill down for more info when needed! Give it a go.";
+"user_review_title_es" = "Best budgeting app";
+"user_review_description_es" = "Simply the best I have tried. I think it is still a new app but defetinely you can see the potential it has.";
+"user_review_title_fr" = "Superb, feature-rich app";
+"user_review_description_fr" = "I've been using the app for a few months now and I really like it. Congratulations on your work and I can't wait to see what the app will look like in a few months :)";
+"user_review_title_it" = "Simply great";
+"user_review_description_it" = "Finally. I was lloking for such a solution for years now. Use it with transaction iOS shortcut trigger, love the design. And I like the pay once in a lifetime feature. Keep up the great work!";
+"user_review_title_ch" = "Great support";
+"user_review_description_ch" = "Great support - fast and uncomplicated problem solving. I feel taken seriously as a user.";
+"user_review_title_pl" = "Very pleasant to use";
+"user_review_description_pl" = "The app is an excellent budget tracker and planner that I use on a daily basis. In addition the developer is very attentive to their community, despite its small size.";
+
+/* Products */
+"monthly_subscription_title" = "1";
+"yearly_subscription_title" = "12";
+"lifetime_purchase_title" = "∞";
+
+"monthly_subscription_subtitle" = "Måned";
+"yearly_subscription_subtitle" = "Måneder";
+"lifetime_purchase_subtitle" = "Ubegrænset";
+
+"product_discount_header_title" = "- %d %%";
+
+/* Buttons */
+"upgrade_is_active_button" = "Aktiv";
+"upgrade_purchase_button" = "Køb";
+"upgrade_subscribe_button" = "Abonner";
+"upgrade_free_trial_button" = "Gratis prøveversion";
+"upgrade_restore_button" = "Gendan køb";
+"upgrade_restore_in_progress_button" = "Vent venligst...";
+
+"subscription_button_info_text" = "Kan annulleres til enhver tid.";
+"subscription_trial_button_info_text" = "%d %@ gratis prøveperiode. Derefter %@ per %@.";
+"lifetime_purchase_button_info_text" = "Låser den fulde version op én gang (uden abonnement).";
+
+/* Alert Views */
+"alert_upgrade_view_purchase_success_title" = "Købet lykkedes 🎉";
+"alert_upgrade_view_purchase_success_message" = "Tak for din støtte! 😊";
+"alert_upgrade_view_purchase_success_message_info" = "\n\nInfo: Hvis du skifter fra et abonnement til et engangskøb, så husk at opsige dit tidligere abonnement bagefter.";
+"alert_upgrade_view_purchase_error_message" = "Dit køb kunne ikke gennemføres.";
+"alert_upgrade_view_purchase_error_store_problem_message" = "Der var et problem med App Store.\n\nInfo: Nogle gange fungerer købet muligvis kun, hvis du bekræfter med din adgangskode i stedet for Touch ID / Face ID.\n\nFor eksempel, hvis du bruger Face ID, skal du blot dække frontkameraet og prøve igen for at se adgangskodedialogen.";
+"alert_upgrade_view_purchase_error_not_allowed_message" = "Køb er ikke tilladt på denne enhed.";
+"alert_upgrade_view_purchase_error_invalid_message" = "Tjek din betalingsmetode og prøv igen senere. Hvis fejlen fortsætter, kontakt venligst support.";
+"alert_upgrade_view_purchase_error_network_message" = "Tjek din internetforbindelse og prøv igen senere. Hvis fejlen fortsætter, kontakt venligst support.";
+
+"alert_upgrade_view_load_products_error_message" = "Produkterne kunne ikke indlæses. Tjek din internetforbindelse og prøv igen senere. Hvis fejlen fortsætter, kontakt venligst support.";
+
+"alert_upgrade_view_restore_success_title" = "Køb gendannet";
+"alert_upgrade_view_restore_success_message" = "Dine køb blev gendannet! 😊";
+"alert_upgrade_view_restore_error_message" = "Dine køb kunne ikke gendannes. Prøv venligst igen senere.";
+"alert_upgrade_view_restore_nothing_to_do_title" = "Ingen tilgængelige køb 😢";
+"alert_upgrade_view_restore_nothing_to_do_message" = "Kunne ikke finde nogen køb at gendanne.";
+
+
+/* MARK: - Upgrade FAQ View */
+/* Titles */
+"upgrade_faq_view_title" = "Ofte stillede spørgsmål";
+
+/* Sections */
+"upgrade_faq_general_section_title" = "Generelt";
+"upgrade_faq_purchases_section_title" = "Køb og abonnementer";
+
+/* Items */
+"upgrade_faq_about_title" = "Hvad er Budget Flow?";
+"upgrade_faq_about_value" = "Budget Flow er en moderne og brugervenlig budgetsporingsapp til alle, der ønsker at holde styr på deres økonomi og administrere deres udgifter effektivt.";
+"upgrade_faq_developer_title" = "Hvem har udviklet appen?";
+"upgrade_faq_developer_value" = "Budget Flow blev startet som et sideprojekt og er siden blevet fuldstændig designet, udviklet og vedligeholdt af mig, Fabian Hasse. Jeg er en entusiastisk softwareudvikler med over 10 års erfaring, og jeg arbejder med stor passion for at udvikle den bedste app til budgettering og udgiftssporing i App Store.";
+"upgrade_faq_free_use_title" = "Kan appen også bruges gratis?";
+"upgrade_faq_free_use_value" = "Ja, du kan bruge appens grundlæggende funktioner, såsom oprettelse af transaktioner, helt gratis.\n\nDerudover tilbyder appen en prøveperiode for den fulde version, så du kan prøve den af ​​på forhånd. før du beslutter dig for at købe eller abonnere på den fulde version.";
+"upgrade_faq_security_title" = "Er mine data sikre?";
+"upgrade_faq_security_value" = "Din økonomi er privat – og sådan burde de forblive. Det er derfor, dine data gemmes udelukkende på din enhed eller (valgfrit) i din personlige iCloud.";
+"upgrade_faq_why_subscription_title" = "Hvorfor tilbydes den fulde version som et abonnement?";
+"upgrade_faq_why_subscription_value" = "Vores mål er at udvikle en app af høj kvalitet, der tilbyder dig som bruger nye funktioner og forbedringer med jævne mellemrum. Men for at nå dette mål har appen brug for løbende indtægter for at kunne finansiere sig selv og være økonomisk bæredygtig.\n\nHvad mange ikke ved Det tager meget tid at udvikle og vedligeholde en app. I Budget Flows tilfælde tog det for eksempel næsten to år og flere tusinde timers arbejde fra idé til udvikling og test før den første version kunne frigives til App Store.\n\nSom kunde får du især glæde af regelmæssige opdateringer og forbedringer gennem abonnementsmodellen, samt god support til at sikre, at du fortsat er tilfreds. har også mulighed for at prøve appen gratis på forhånd for at sikre, at den passer til dine behov, du kan til enhver tid ændre eller opsige abonnementet, hvis du skifter mening.\n\nSamlet set giver en abonnementsmodel mange fordele for dig som en kunde og en bedre brugeroplevelse gennem løbende opdateringer og support sammenlignet med et engangskøb. I det lange løb vil et engangskøb desværre ikke være holdbart, da denne forretningsmodel kræver, at nye brugere bliver ved med at købe appen for at sikre fortsat udvikling.\n\nSå hvis du kan lide appen, vil vi blive meget glade hvis du støtter vores arbejde, så vi kan fortsætte med at tilbyde dig endnu flere fantastiske funktioner i fremtiden!❤️";
+"upgrade_faq_multiple_devices_title" = "Kan jeg bruge den fulde version på flere enheder?";
+"upgrade_faq_multiple_devices_value" = "Ja, du kan bruge den fulde version af Budget Flow på alle dine Apple-enheder med det samme Apple ID. Fordi appen er synkroniseret via iCloud, kan du problemfrit skifte mellem dine enheder og altid have adgang til dine økonomiske data og indstillinger.";
+"upgrade_faq_multiple_people_title" = "Kan jeg bruge den fulde version med flere personer?";
+"upgrade_faq_multiple_people_value" = "Ja, du kan dele engangskøbet samt abonnementet på den fulde version med op til fem personer inden for en familiegruppe. Alt du skal gøre er at slå familiedeling til i systemindstillingerne og tilføje de andre personer i gruppen inviterer.";
+"upgrade_faq_cancel_subscription_title" = "Hvordan opsiger jeg mit abonnement?";
+"upgrade_faq_cancel_subscription_value" = "Du kan til enhver tid annullere dit abonnement ved hjælp af dit Apple-id i Systemindstillinger.";
+"upgrade_faq_subscription_data_loss_title" = "Vil mine data gå tabt, hvis jeg opsiger mit abonnement?";
+"upgrade_faq_subscription_data_loss_value" = "Nej. Alt, hvad du opretter, mens du abonnerer på den fulde version, vil stadig være tilgængeligt, hvis du skifter tilbage til den gratis version.";
+"upgrade_faq_refund_title" = "Hvordan kan jeg få en refusion?";
+"upgrade_faq_refund_value" = "Betalinger foretaget via App Store kan kun refunderes af Apple. For at modtage en refusion skal du kontakte Apple Support inden for 14 dage efter købet.";
+"upgrade_faq_switch_plan_title" = "Er det muligt at skifte fra et abonnement til et engangskøb på et senere tidspunkt?";
+"upgrade_faq_switch_plan_value" = "Ja, du kan til enhver tid skifte fra et aktivt abonnement til engangskøbet ved at købe det tilsvarende produkt i appen. Husk dog at opsige dit tidligere abonnement, så du ikke betaler mere end enkelt gang.";
+
+
+/* MARK: - User Feedback */
+"user_feedback" = "feedback";
+
+/* Buttons */
+"user_feedback_message_title" = "Hej, det er Fabian, udvikleren af Budget Flow. Har du et øjeblik til at give feedback om appen? 😊";
+
+/* Alert Views */
+"alert_user_feedback_title" = "Kan du lide appen?";
+
+"alert_user_feedback_like_title" = "Tak! 🎉";
+"alert_user_feedback_like_message" = "Hvis du kan lide appen, så skriv en positiv anmeldelse i App Store. Det hjælper virkelig meget og motiverer til løbende at forbedre appen. 😊";
+"alert_user_feedback_rate_app_button" = "Vurder app";
+"alert_user_feedback_maybe_later_button" = "Måske senere";
+
+"alert_user_feedback_dislike_title" = "Forslag? 🤔";
+"alert_user_feedback_dislike_message" = "Jeg er ked af at høre, at du ikke kan lide appen endnu. For at ændre det, så fortæl mig dine ideer og forslag til forbedringer. 😊";
+"alert_user_feedback_contact_developer_button" = "Kontakt udvikler";
+
+
+/* MARK: - Progress View */
+"progress_view_load_images_title" = "Indlæser billeder...";
+"progress_view_load_images_subtitle" = "Info: Hvis du bruger iCloud Photo Library, kan det tage et stykke tid at downloade dine billeder.";
+"progress_view_load_documents_title" = "Indlæser dokumenter...";
+"progress_view_load_documents_subtitle" = "Info: Hvis du bruger iCloud Drive, kan dine dokumenter tage et stykke tid at downloade.";
+"progress_view_import_csv_title" = "Importerer data...";
+"progress_view_import_csv_subtitle" = "Vent venligst...";
+
+
+/* MARK: - Widgets */
+"chart_widget_title" = "Diagram";
+"chart_widget_description" = "Denne widget viser et diagram over dine kontosaldi, din aktuelle saldo eller en oversigt over dine indtægter og udgifter for den valgte tidsperiode.";
+
+"overview_widget_title" = "Oversigt";
+"overview_widget_description" = "Denne widget viser en oversigt over dine kontosaldi, din aktuelle saldo eller en total af indtægter og udgifter for den valgte periode.";
+
+"upcoming_transactions_widget_title" = "Planlagt";
+"upcoming_transactions_widget_description" = "Denne widget viser dig din næste planlagte transaktion.";
+
+"budget_widget_title" = "Budget";
+"budget_widget_description" = "Denne widget viser dig et specifikt budget for den valgte periode.";
+"budget_widget_no_budget_title" = "Intet budget valgt";
+
+"suggestion_widget_title" = "Foreslået";
+"suggestion_widget_description" = "Denne widget viser dig en foreslået kategori baseret på den aktuelle dato, for hvilken du kan oprette en ny transaktion.";
+
+"quick_actions_widget_title" = "Hurtig indtastning";
+"quick_actions_widget_description" = "Denne widget giver dig mulighed for hurtigt at tilføje nye transaktioner.";
+"quick_actions_widget_new_title" = "Ny";
+
+"widget_upgrade_locked_title" = "Låst";
+"widget_upgrade_necessary_title" = "Fuld version";
+"widget_upgrade_necessary_title_long" = "Fuld version påkrævet";
+"widget_upgrade_necessary_description" = "En fuld version opgradering er påkrævet for at bruge denne widget.";
+"widget_upgrade_necessary_highlighted_text" = "fuld version";
+
+
+/* MARK: - Add Item Form View */
+/* Alert Views */
+/* Info */
+"alert_no_budget_book_selected_title" = "Ingen budgetbog er valgt";
+"alert_upgrade_necessary_title" = "Fuld version";
+"alert_upgrade_necessary_description" = "For at bruge denne funktion skal du opgradere til den fulde version. Dette kan aktiveres i appen.";
+
+/* Dismiss */
+"alert_confirm_dismiss_title" = "Er du sikker på, at du vil kassere dine ændringer?";
+
+/* Delete */
+"alert_confirm_delete_budgetbook_title" = "Er du sikker på, at du vil slette denne budgetbog? Alle tilknyttede konti, kategorier, transaktioner og budgetter vil også blive slettet.";
+"alert_confirm_delete_budgetbook_button" = "Slet budgetbog";
+"alert_confirm_delete_budgetbook_multiple_title" = "Er du sikker på, at du vil slette alle valgte budgetbøger? Alle tilknyttede konti, kategorier, transaktioner og budgetter vil også blive slettet.";
+"alert_confirm_delete_budgetbook_multiple_button" = "Slet budgetbøger";
+
+"alert_confirm_delete_account_title" = "Er du sikker på, at du vil slette denne konto? Alle tilknyttede transaktioner vil også blive slettet.";
+"alert_confirm_delete_account_button" = "Slet konto";
+"alert_confirm_delete_account_multiple_title" = "Er du sikker på, at du vil slette alle valgte konti? Alle tilknyttede transaktioner vil også blive slettet.";
+"alert_confirm_delete_account_multiple_button" = "Slet konti";
+
+"alert_confirm_delete_categorygroup_title" = "Er du sikker på, at du vil slette denne mappe? Alle tilknyttede kategorier, transaktioner og budgetter vil også blive slettet (hvis nødvendigt).";
+"alert_confirm_delete_categorygroup_button" = "Slet mappe";
+"alert_confirm_delete_categorygroup_multiple_title" = "Er du sikker på, at du vil slette alle valgte mapper? Alle tilknyttede kategorier, transaktioner og budgetter vil også blive slettet (hvis nødvendigt).";
+"alert_confirm_delete_categorygroup_multiple_button" = "Slet mappe";
+
+"alert_confirm_delete_category_title" = "Er du sikker på, at du vil slette denne kategori? Alle tilknyttede budgetter vil også blive slettet (hvis nødvendigt).";
+"alert_confirm_delete_category_button" = "Slet kategori";
+"alert_confirm_delete_category_multiple_title" = "Er du sikker på, at du vil slette alle valgte kategorier? Alle tilknyttede transaktioner og budgetter vil også blive slettet.";
+"alert_confirm_delete_category_multiple_button" = "Slet kategorier";
+
+"alert_confirm_delete_payee_title" = "Er du sikker på, at du vil slette denne betalingsmodtager?";
+"alert_confirm_delete_payee_button" = "Slet betalingsmodtager";
+"alert_confirm_delete_payee_multiple_title" = "Er du sikker på, at du vil slette alle valgte betalingsmodtagere?";
+"alert_confirm_delete_payee_multiple_button" = "Slet betalingsmodtagere";
+
+"alert_confirm_delete_tag_title" = "Er du sikker på, at du vil slette dette mærke?";
+"alert_confirm_delete_tag_button" = "Slet tag";
+"alert_confirm_delete_tag_multiple_title" = "Er du sikker på, at du vil slette alle valgte tags?";
+"alert_confirm_delete_tag_multiple_button" = "Slet tags";
+
+"alert_confirm_delete_reminder_title" = "Er du sikker på, at du vil slette denne påmindelse?";
+"alert_confirm_delete_reminder_button" = "Slet påmindelse";
+"alert_confirm_delete_reminder_multiple_title" = "Er du sikker på, at du vil slette alle valgte påmindelser?";
+"alert_confirm_delete_reminder_multiple_button" = "Slet påmindelser";
+
+"alert_confirm_delete_transaction_title" = "Er du sikker på, at du vil slette denne transaktion?";
+"alert_confirm_delete_assigned_transaction_title" = "Vil du også slette alle tildelte transaktioner?";
+"alert_confirm_delete_transaction_button" = "Slet transaktion";
+"alert_confirm_delete_transaction_multiple_title" = "Er du sikker på, at du vil slette alle valgte transaktioner?";
+"alert_confirm_delete_transaction_multiple_button" = "Slet transaktioner";
+
+"alert_confirm_delete_imageitem_title" = "Er du sikker på, at du vil slette dette billede?";
+"alert_confirm_delete_imageitem_button" = "Slet billede";
+"alert_confirm_delete_imageitem_multiple_title" = "Er du sikker på, at du vil slette alle valgte billeder?";
+"alert_confirm_delete_imageitem_multiple_button" = "Slet billeder";
+
+"alert_confirm_delete_documentitem_title" = "Er du sikker på, at du vil slette dette dokument?";
+"alert_confirm_delete_documentitem_button" = "Slet dokument";
+"alert_confirm_delete_documentitem_multiple_title" = "Er du sikker på, at du vil slette alle valgte dokumenter?";
+"alert_confirm_delete_documentitem_multiple_button" = "Slet dokumenter";
+
+"alert_confirm_delete_budget_title" = "Er du sikker på, at du vil slette dette budget?";
+"alert_confirm_delete_budget_button" = "Slet budget";
+"alert_confirm_delete_budget_multiple_title" = "Er du sikker på, at du vil slette alle valgte budgetter?";
+"alert_confirm_delete_budget_multiple_button" = "Slet budgetter";
+
+"alert_confirm_delete_backupitem_title" = "Er du sikker på, at du vil slette denne sikkerhedskopi?";
+"alert_confirm_delete_backupitem_button" = "Slet sikkerhedskopi";
+
+"alert_confirm_delete_contra_entry_title" = "Denne transaktion er en overførsel. Vil du også slette modposten?";
+
+/* Updates */
+"alert_confirm_update_contra_entry_title" = "Denne transaktion er en overførsel. Vil du også opdatere modposten?";
+"alert_confirm_update_transaction_multiple_title" = "Denne transaktion tilhører en gruppe. Hvad præcis vil du gemme?";
+"alert_confirm_update_transaction_single_button" = "Gem kun denne ene";
+"alert_confirm_update_transaction_all_button" = "Gem denne og fremtidige";
+
+/* End Repetition */
+"alert_confirm_end_repetition_for_transaction_title" = "Er du sikker på, at du vil stoppe med at gentage denne transaktion?";
+"alert_confirm_end_repetition_for_transaction_button" = "Afslut gentagelse";
+"alert_confirm_end_repetition_for_transaction_multiple_title" = "Er du sikker på, at du ønsker, at alle valgte transaktioner skal stoppe med at gentages?";
+"alert_confirm_end_repetition_for_transaction_multiple_button" = "Afslut gentagelse";
+
+/* Currency Selection */
+"alert_change_currency_or_exchange_rate_title" = "Hvad præcist vil du ændre?";
+"alert_change_currency_button" = "Valuta";
+"alert_change_exchange_rate_button" = "Valutakurs";
+
+
+/* MARK: - Currency Selection View */
+/* Titles */
+"currency_selection_title" = "Valutaer";
+
+/* Info */
+"currency_selection_info_title" = "Beskrivelse";
+"currency_selection_info_description" = "Vælg standardvalutaen for eksisterende og fremtidige transaktioner.";
+
+/* Sections */
+"default_currency_section_title" = "Standardvaluta";
+"suggested_currencies_section_title" = "Forslag";
+
+/* Messages */
+"no_currencies_found_title" = "Der blev ikke fundet nogen valutaer";
+"currency_selection_search_placeholder_message" = "Søg efter et valutanavn eller dets forkortelse";
+
+/* Buttons */
+"change_default_currency_button" = "Skift standardvaluta";
+
+/* Alert Views */
+"alert_confirm_change_default_currency_title" = "Er du sikker på, at du vil ændre din standardvaluta? Dette vil konvertere alle eksisterende transaktioner til den nye valuta (%@).";
+"alert_confirm_change_default_account_currency_title" = "Er du sikker på, at du vil ændre valutaen? Dette vil konvertere alle eksisterende transaktioner på denne konto til den nye valuta (%@).";
+
+
+/* MARK: - Currency Conversion View */
+/* Titles */
+"currency_conversion_title" = "Valutakurs";
+"currency_conversion_last_synchronization_title" = "Opdateret: %@";
+"currency_conversion_synchronization_failed_title" = "Synkronisering mislykkedes";
+"currency_conversion_synchronization_failed_no_internet_title" = "Ingen internetforbindelse";
+
+/* Sections */
+"source_currency_section_title" = "Fra";
+"target_currency_section_title" = "Til";
+
+
+/* MARK: - Manage Item View */
+/* Titles */
+"manage_budgetbooks_title" = "Budgetbøger";
+"manage_accounts_title" = "Konti";
+"manage_categories_title" = "Kategorier";
+"manage_category_groups_title" = "Mapper";
+"manage_payees_title" = "Modtager";
+"manage_tags_title" = "Tags";
+"manage_reminders_title" = "Påmindelser";
+
+/* Info */
+"manage_reminders_info_title" = "Beskrivelse";
+"manage_reminders_info_description" = "Opret brugerdefinerede påmindelser eller føj dem til fremtidige transaktioner for at få appen til at underrette dig.";
+
+/* Sections */
+"shared_by_you_budgetbooks_section_title" = "Delt af dig";
+"shared_with_you_budgetbooks_section_title" = "Delt med dig";
+"not_shared_budgetbooks_section_title" = "Ikke delt";
+"most_used_items_section_title" = "Mest brugte";
+"archived_items_section_title" = "Arkiveret";
+"own_reminders_section_title" = "Egne påmindelser";
+
+/* Messages */
+"no_budget_books_found_title" = "Ingen budgetbøger fundet";
+"no_budget_books_found_message" = "Klik på \"+\" knappen for at tilføje en ny budgetbog.";
+"no_budget_books_found_button_title" = "Ny budgetbog";
+"no_budget_books_found_cloud_sync_message" = "Eksisterende data indlæses fra iCloud. Vent venligst et øjeblik...\n\nAlternativt kan du klikke på knappen \"+\" for at tilføje en ny budgetbog.";
+"no_budget_books_found_cloud_sync_message_short" = "Eksisterende data indlæses fra iCloud. Vent venligst et øjeblik...";
+"budget_books_search_placeholder_message" = "Søg efter et budgetbookernavn";
+
+"no_accounts_title" = "Ingen konti";
+"no_accounts_found_title" = "Ingen konti fundet";
+"no_accounts_found_message" = "Klik på \"+\" knappen for at tilføje en ny konto.";
+"no_accounts_found_button_title" = "Ny konto";
+"accounts_search_placeholder_message" = "Søg efter kontonavn eller kontotype";
+
+"no_categories_found_title" = "Ingen kategorier fundet";
+"no_categories_found_message" = "Klik på \"+\" knappen for at tilføje en ny kategori.";
+"no_categories_found_button_title" = "Ny kategori";
+"categories_search_placeholder_message" = "Søg efter et kategori- eller mappenavn";
+
+"no_category_groups_found_title" = "Ingen mapper fundet";
+"no_category_groups_found_message" = "Klik på \"+\" knappen for at tilføje en ny mappe.";
+"no_category_groups_found_button_title" = "Ny mappe";
+"category_groups_search_placeholder_message" = "Søg efter navnet på en mappe";
+
+"no_payees_found_title" = "Ingen betalingsmodtagere fundet";
+"no_payees_found_message" = "Klik på \"+\" knappen for at tilføje en ny betalingsmodtager.";
+"no_payees_found_button_title" = "Ny betalingsmodtager";
+"payees_search_placeholder_message" = "Søg efter navnet på en betalingsmodtager";
+
+"no_tags_found_title" = "Ingen tags fundet";
+"no_tags_found_message" = "Klik på \"+\" knappen for at tilføje et nyt mærke.";
+"no_tags_found_button_title" = "Nyt tag";
+"tags_search_placeholder_message" = "Søg efter navnet på et mærke";
+
+"no_reminders_found_title" = "Ingen påmindelser fundet";
+"no_reminders_found_message" = "Klik på \"+\" knappen for at tilføje en ny påmindelse.";
+"no_reminders_found_button_title" = "Ny påmindelse";
+"reminders_search_placeholder_message" = "Søg efter titlen på en påmindelse";
+
+/* Value */
+"balance" = "Saldo";
+
+
+/* MARK: - Add Item Form View */
+/* Titles */
+"form_title_edit" = "Rediger";
+
+/* Sections */
+"form_name_section_title" = "Navn";
+"form_title_section_title" = "Titel";
+"form_color_section_title" = "Farve";
+"form_icon_section_title" = "Ikon";
+"form_assignment_section_title" = "Opgave";
+"form_miscellaneous_section_title" = "Diverse";
+
+/* Miscellaneous */
+"number_of_selected_items" = "%d valgt";
+
+
+/* MARK: - Add Budget Book Form View */
+/* Titles */
+"form_title_new_budgetbook" = "Ny budgetbog";
+
+/* Items */
+"form_budgetbook_currency_title" = "Valuta";
+
+/* Buttons */
+"form_button_delete_budgetbook" = "Slet budgetbog";
+
+
+/* MARK: - Add Account Form View */
+/* Titles */
+"form_title_new_account" = "Ny konto";
+
+/* Sections */
+"form_billing_section_title" = "Automatisk fakturering";
+"form_transactions_section_title" = "Transaktioner";
+"form_account_balance_section_title" = "Kontosaldo";
+
+/* Footer */
+"form_billing_footer_title" = "Aktiver denne funktion for automatisk at balancere dette kreditkort på en bestemt dag i måneden (hvis nødvendigt).";
+"form_transactions_footer_title" = "Aktiver denne funktion for automatisk at markere nye transaktioner for denne konto som \"afventende\".";
+"form_account_balance_footer_title" = "Ændre den oprindelige/samlede saldo for manuelt at afstemme din kontosaldo.";
+
+/* Items */
+"form_enable_automatic_billing_title" = "Aktiveret";
+"form_billing_day_title" = "Faktureringsdag";
+"form_mark_transactions_as_pending_title" = "Markér som afventende";
+"form_account_type_title" = "Kontotype";
+"form_initial_balance_title" = "Startsaldo";
+"form_total_balance_title" = "Samlet saldo";
+"form_use_as_default_account_title" = "Standardkonto";
+"form_account_currency_title" = "Valuta";
+
+/* Buttons */
+"form_button_archive_account" = "Arkiv konto";
+"form_button_unarchive_account" = "Fjern arkivering af konto";
+"form_button_delete_account" = "Slet konto";
+
+
+/* MARK: - Add Category Group Form View */
+/* Titles */
+"form_title_new_categorygroup" = "Ny mappe";
+
+/* Buttons */
+"form_button_delete_categorygroup" = "Slet mappe";
+
+
+/* MARK: - Add Category Form View */
+/* Titles */
+"form_title_new_category" = "Ny kategori";
+
+/* Items */
+"form_category_group_title" = "Mappe";
+"form_category_group_none_type_value" = "Ingen";
+
+/* Buttons */
+"form_button_delete_category" = "Slet kategori";
+
+
+/* MARK: - Add Payee Form View */
+/* Titles */
+"form_title_new_payee" = "Ny betalingsmodtager";
+
+/* Footer */
+"form_assignment_default_entries_footer_title" = "Tildel denne betalingsmodtager en konto, kategori eller placering, der som standard skal bruges til transaktioner.";
+
+/* Items */
+"form_location_title" = "Placering";
+"form_location_none_type_value" = "Ingen";
+
+/* Buttons */
+"form_button_delete_payee" = "Slet betalingsmodtager";
+
+
+/* MARK: - Add Tag Form View */
+/* Titles */
+"form_title_new_tag" = "Nyt tag";
+
+/* Buttons */
+"form_button_delete_tag" = "Slet tag";
+
+
+/* MARK: - Add Reminder Form View */
+/* Titles */
+"form_title_new_reminder" = "Ny påmindelse";
+
+/* Items */
+"form_is_enabled_title" = "Aktiveret";
+
+/* Buttons */
+"form_button_preview_reminder" = "Vis forhåndsvisning";
+"form_button_delete_reminder" = "Slet påmindelse";
+
+/* Notifications */
+"reminder_notification_title" = "Påmindelse";
+
+
+/* MARK: - Add Transaction Form View */
+/* Titles */
+"form_title_new_income" = "Ny indkomst";
+"form_title_new_expense" = "Ny udgift";
+"form_title_new_transfer" = "Ny overførsel";
+
+/* Sections */
+"form_date_section_title" = "Forfalder";
+"form_reminder_section_title" = "Påmindelse";
+"form_location_section_title" = "Placering";
+"form_notes_section_title" = "Noter";
+"form_currency_section_title" = "Valuta";
+"form_payment_status_section_title" = "Betaling";
+"form_evaluation_section_title" = "Evalueret";
+"form_attachments_section_title" = "Vedhæftninger";
+"form_tags_section_title" = "Tags";
+
+/* Items */
+"form_account_title" = "Konto";
+"form_from_account_title" = "Fra";
+"form_to_account_title" = "Til";
+"form_account_none_type_value" = "Ingen";
+"form_category_title" = "Kategori";
+"form_categories_title" = "Kategorier";
+"form_category_none_type_value" = "Ingen";
+"form_payee_title" = "Betalingsmodtager";
+"form_payee_none_type_value" = "Ingen";
+"form_tags_title" = "Tags";
+"form_tag_none_type_value" = "Ingen";
+"form_date_title" = "Dato";
+"form_date_format_title" = "Datoformat";
+"form_time_title" = "Tid";
+"form_repetition_frequency_title" = "Gentag";
+"form_date_repetition_has_end_date_title" = "Slut";
+"form_date_repetition_end_date_title" = "Slutdato";
+"form_reminder_title" = "Aktiv";
+"form_reminder_none_type_value" = "Ingen";
+"form_reminder_none_type_value_long" = "Ingen påmindelse";
+"form_reminder_on_due_value" = "På termin";
+"form_location_none_type_value_long" = "Ingen placering";
+"form_original_amount_title" = "Oprindeligt beløb";
+"form_exchange_rate_title" = "Valutakurs";
+"form_is_selected_title" = "Valgt";
+"form_is_pending_title" = "Afventer";
+"form_payed_by_title" = "Tildelt";
+"form_payed_by_none_type_value" = "Ingen";
+"form_include_in_statistics_title" = "Statistik";
+"form_include_in_budgets_title" = "Budgetter";
+
+/* Footer */
+"form_payment_status_footer_title" = "Marker betalingen som \"afventer\", så beløbet ikke er inkluderet i beregningerne.";
+"form_evaluation_footer_title" = "Ekskluder denne transaktion fra statistik og/eller budgetter, så den kun medtages i kontosaldoen.";
+"form_reminded_transactions_is_invalid_footer_title" = "Info: For at tilføje en påmindelse til denne transaktion skal enten en fremtidig dato eller et gentagelsesinterval vælges.";
+
+/* Buttons */
+"form_button_delete_transaction" = "Slet transaktion";
+"form_button_end_repetition_for_transaction" = "Afslut gentagelse";
+"form_button_clear_title" = "Fjern";
+"form_button_today_title" = "I dag";
+
+/* Miscellaneous */
+"receipt_total" = "I alt";
+"receipt_amount" = "Beløb";
+"receipt_to_pay" = "At betale";
+
+/* Notifications */
+"transaction_notification_body" = "Beløb: %@\nDato: %@";
+"transaction_notification_body_notes" = "Noter: %@";
+
+
+/* MARK: - Add Budget Form View */
+/* Titles */
+"form_title_new_budget" = "Nyt budget";
+
+/* Sections */
+"form_interval_section_title" = "Interval";
+
+/* Footer */
+"form_budget_amount_calculation_footer_title" = "Intervallet bestemmer, hvor ofte budgettet gentages, hvorved det tilgængelige beløb, der vises, automatisk justeres til den valgte tidsperiode.";
+
+/* Items */
+"form_is_cumulative_title" = "Kumuleret";
+
+/* Buttons */
+"form_button_delete_budget" = "Slet budget";
+
+
+/* MARK: - Assign CSV Fields Form View */
+/* Titles */
+"form_title_csv_assign_fields" = "Tildel felter";
+
+/* Info */
+"csv_assign_fields_info_title" = "Beskrivelse";
+"csv_assign_fields_info_description" = "Tildel venligst kolonnerne i CSV-filen, der skal importeres, til de tilsvarende felter.";
+
+/* Sections */
+"form_general_section_title" = "Generelt";
+
+/* Footer */
+"form_invalid_footer_title" = "Fejl:";
+"form_invalid_amount_footer_title" = "Værdierne for \"%@\" er ikke gyldige pengebeløb.";
+"form_invalid_currency_footer_title" = "Værdierne for \"%@\" er ikke gyldige valutaer.";
+"form_invalid_exchange_rate_footer_title" = "Værdierne for \"%@\" er ikke gyldige numeriske værdier.";
+"form_invalid_date_format_footer_title" = "Den valgte dato og/eller formatet er ugyldigt.";
+"form_type_footer_title" = "Info: Vælg \"%@\" for at beregne transaktionstypen baseret på tegnet på beløbsværdien.";
+"form_date_format_footer_title" = "Eksempel: %@";
+
+/* Items */
+"form_type_title" = "Type";
+"form_amount_title" = "Beløb";
+"form_source_currency_title" = "Kildevaluta";
+"form_target_currency_title" = "Målvaluta";
+"form_budget_book_title" = "Budgetbog";
+"form_notes_title" = "Noter";
+"form_skip_zero_amounts_title" = "Spring \"0\"-beløb over";
+"form_skip_duplicates_title" = "Spring dubletter over";
+"form_csv_assign_field_none_type_value" = "Ikke tildelt";
+
+
+/* MARK: - Color Selection View */
+/* Titles */
+"color_selection_title" = "Farver";
+
+/* Messages */
+"no_colors_found_title" = "Ingen farver fundet";
+"color_selection_search_placeholder_message" = "Søg efter en farve eller et gruppenavn";
+
+
+/* MARK: - Icon Selection View */
+/* Titles */
+"icon_selection_title" = "Ikoner";
+
+/* Messages */
+"no_icons_found_title" = "Ingen ikoner fundet";
+"icon_selection_search_placeholder_message" = "Søg efter en ikonetiket eller et gruppenavn";
+
+
+/* MARK: - Location Selection View */
+/* Titles */
+"location_selection_title" = "Placering";
+"location_selection_searchbar_placeholder" = "Søg";
+"location_selection_search_history_title" = "Seneste";
+
+/* Buttons */
+"location_selection_select_button_title" = "Vælg";
+
+/* Alert Views */
+"location_selection_no_internet_error_title" = "Fejl";
+"location_selection_no_internet_error_message" = "Der ser ikke ud til at være nogen internetforbindelse";
+
+
+/* MARK: - Other Alert Views */
+"alert_selected_period_changed_title" = "%@ valgt";
+"alert_selected_period_changed_message" = "Siden en %@ er startet, er den aktuelle periode blevet justeret automatisk.\n\nFor at skifte mellem perioder og se tidligere transaktioner skal du blot klikke på knappen \"%@\" i øverste venstre hjørne af skærmen , vælg derefter den ønskede tidsperiode.";
+"alert_selected_period_changed_new_month" = "ny måned";
+"alert_selected_period_changed_new_year" = "nyt år";
+
+"alert_no_mail_initialized_title" = "Ingen e-mail-konto";
+"alert_no_mail_initialized_message" = "Det ser ud til, at du ikke har en e-mail-konto opsat på din enhed. Dette er dog obligatorisk for at bruge denne funktion.";
+
+"alert_no_camera_title" = "Intet kamera tilgængeligt";
+"alert_no_camera_message" = "Det ser ud til, at du ikke har et kamera. Det er dog obligatorisk at bruge denne funktion.";
+
+"alert_permissions_title" = "Der er næsten!";
+"alert_permissions_activate_button" = "Aktiver nu";
+"alert_permissions_cancel_button" = "Måske senere";
+
+"alert_camera_permissions_message" = "For at tage billeder, skal du blot aktivere \"kamera\" i indstillingerne.";
+"alert_photolibrary_permissions_message" = "For at tilføje fotos skal du blot aktivere adgang til \"fotos\" i indstillinger.";
+"alert_notifications_permissions_message" = "For at få push-beskeder skal du blot aktivere \"meddelelser\" i indstillinger.";
+
+
+/* MARK: - Tips */
+"period_selection_tip_title" = "Skift periode";
+"period_selection_tip_message" = "Klik her for at ændre den viste periode. Dette påvirker alle visninger (oversigt, transaktioner og budgetter).";
+"interactive_charts_tip_title" = "Interaktive diagrammer";
+"interactive_charts_tip_message" = "Stryg til venstre eller højre for at ændre det aktive diagram, eller tryk længe på et diagram for at se værdierne for en bestemt dato.";
+"switch_budget_books_tip_title" = "Skift budgetbøger";
+"switch_budget_books_tip_message" = "Tryk længe på oversigtsfanen for hurtigt at skifte mellem dine budgetbøger.";
+
+
+/* MARK: - Watch App */
+/* Titles */
+"cloud_sync_status_section_title" = "iCloud-synkroniseringsstatus";
+"cloud_sync_status_footer_title" = "Info: Du skal være logget på iCloud for at synkronisere data fra din iPhone.";
+
+
+/* MARK: - Localized URLs */
+"imprintUrl" = "https://budget-flow.app/json/da/imprint.json";
+"termsOfUseUrl" = "https://www.apple.com/legal/internet-services/itunes/dev/stdeula";
+"privacyUrl" = "https://www.iubenda.com/api/privacy-policy/17322265/no-markup";
+"privacyUrlWeb" = "https://budget-flow.app/privacy-policy";
+"imprintUrlWeb" = "https://budget-flow.app/imprint";
+"familySharingUrl" = "https://www.apple.com/family-sharing";
+
+
+/* MARK: - Default Data */
+"default_account_name" = "Standardkonto";
+
+"default_category_group_name_income" = "Indkomst";
+"default_category_name_salary" = "Løn";
+
+"default_category_group_name_free_time" = "Fri tid";
+"default_category_name_shopping" = "Shopping";
+"default_category_name_vacation" = "Ferie";
+
+"default_category_group_name_mobility" = "Mobilitet";
+"default_category_name_car" = "Bil";
+
+"default_category_group_name_groceries" = "Købvarer";
+"default_category_name_supermarket" = "Supermarked";
+"default_category_name_restaurant" = "Restaurant";
+"default_category_name_fast_food" = "Fast Food";
+
+"default_category_group_name_living" = "Lever";
+"default_category_name_rent" = "Leje";
+
+"default_category_group_name_miscellaneous" = "Diverse";
+
+"default_reminder_title" = "Registrer udgifter";
+
+
+/* MARK: - Color Sections */
+"color_section_classic_title" = "Klassisk";
+"color_section_sunset_title" = "Solnedgang";
+"color_section_afterglow_title" = "Efterglød";
+"color_section_ocean_title" = "Hav";
+"color_section_nightsky_title" = "Nattehimmel";
+"color_section_apple_title" = "Apple Inc.";
+"color_section_pastel_title" = "Pastel";
+
+
+/* MARK: - Color Keywords */
+"color_keyword_custom" = "Brugerdefineret";
+"color_keyword_red" = "Rød";
+"color_keyword_green" = "Grøn";
+"color_keyword_blue" = "Blå";
+"color_keyword_yellow" = "Gul";
+"color_keyword_orange" = "Orange";
+"color_keyword_purple" = "Lilla";
+"color_keyword_pink" = "Pink";
+"color_keyword_brown" = "Brun";
+"color_keyword_mint" = "Mynte";
+"color_keyword_cyan" = "Cyan";
+"color_keyword_violet" = "Violet";
+"color_keyword_gray" = "Grå";
+
+
+/* MARK: - Icon Sections */
+"icon_section_suggestions_title" = "Forslag";
+"icon_section_general_title" = "Generelt";
+"icon_section_mobility_title" = "Mobilitet";
+"icon_section_household_title" = "Husstand";
+"icon_section_freetime_title" = "Fritid";
+"icon_section_nature_title" = "Natur";
+"icon_section_food_and_drinks_title" = "Mad og drikkevarer";
+"icon_section_shopping_title" = "Shopping";
+"icon_section_health_title" = "Sundhed";
+"icon_section_office_title" = "Kontor";
+"icon_section_arrows_title" = "Pile";
+"icon_section_objects_title" = "Objekter";
+"icon_section_people_title" = "Folk";
+"icon_section_buildings_title" = "Bygninger";
+"icon_section_payment_methods_title" = "Betalingsmetoder";
+
+
+/* MARK: - Icon Keywords */
+"icon_keyword_emoji" = "Emoji";
+"icon_keyword_tag" = "Tag";
+"icon_keyword_heart" = "Hjerte";
+"icon_keyword_star" = "Stjerne";
+"icon_keyword_folder" = "Mappe";
+"icon_keyword_bookmark" = "Bogmærke";
+"icon_keyword_building" = "Bygning";
+"icon_keyword_house" = "Hus";
+"icon_keyword_lightbulb" = "Pære";
+"icon_keyword_fan" = "Fan";
+"icon_keyword_lamp" = "Lampe";
+"icon_keyword_alarm_system" = "Alarmsystem";
+"icon_keyword_webcam" = "Webcam";
+"icon_keyword_camera" = "Kamera";
+"icon_keyword_door" = "Dør";
+"icon_keyword_garage" = "Garage";
+"icon_keyword_window" = "Vindue";
+"icon_keyword_blinds" = "Blinds";
+"icon_keyword_roller" = "Rulle";
+"icon_keyword_curtains" = "Gardiner";
+"icon_keyword_air_purifier" = "Luftrenser";
+"icon_keyword_dehumidifier" = "Affugter";
+"icon_keyword_humidifier" = "Fugter";
+"icon_keyword_heater" = "Varmelegeme";
+"icon_keyword_air_conditioner" = "Airconditionanlæg";
+"icon_keyword_sprinkler" = "Sprinkler";
+"icon_keyword_trash" = "Papirkurv";
+"icon_keyword_spigot" = "Armatur";
+"icon_keyword_shower" = "Bruser";
+"icon_keyword_bathtub" = "Badekar";
+"icon_keyword_pipe" = "Vandrør";
+"icon_keyword_hifi_reveiver" = "Hifi-system";
+"icon_keyword_video_projector" = "Videoprojektor";
+"icon_keyword_beamer" = "Beamer";
+"icon_keyword_wifi_router" = "Wifi-router";
+"icon_keyword_internet" = "Internet";
+"icon_keyword_party" = "Fest";
+"icon_keyword_balloon" = "Ballon";
+"icon_keyword_pan" = "Stegere";
+"icon_keyword_cooking" = "Madlavning";
+"icon_keyword_kitchen" = "Køkken";
+"icon_keyword_popcorn" = "Popcorn";
+"icon_keyword_cinema" = "Biograf";
+"icon_keyword_movie" = "Film";
+"icon_keyword_food" = "Mad";
+"icon_keyword_bed" = "Senge";
+"icon_keyword_bedroom" = "Soveværelse";
+"icon_keyword_hotel" = "Hotel";
+"icon_keyword_sofa" = "Sofa";
+"icon_keyword_couch" = "Sofa";
+"icon_keyword_livingroom" = "Stue";
+"icon_keyword_chair" = "Stol";
+"icon_keyword_armchair" = "Lænestol";
+"icon_keyword_cabinet" = "Skabet";
+"icon_keyword_fireplace" = "Pejs";
+"icon_keyword_washer" = "Opvaskemaskine";
+"icon_keyword_dryer" = "Tørretumbler";
+"icon_keyword_dishwasher" = "Opvaskemaskine";
+"icon_keyword_oven" = "Ovn";
+"icon_keyword_stove" = "Komfur";
+"icon_keyword_microwave" = "Mikrobølgeovn";
+"icon_keyword_refrigerator" = "køleskab";
+"icon_keyword_sink" = "Sænk";
+"icon_keyword_toilet" = "Toilet";
+"icon_keyword_bathroom" = "Badeværelse";
+"icon_keyword_tv_remote" = "Fjernbetjening";
+"icon_keyword_tv" = "TV";
+"icon_keyword_person" = "Person";
+"icon_keyword_human" = "Menneske";
+"icon_keyword_airplane" = "Flyvemaskine";
+"icon_keyword_vacation" = "Ferie";
+"icon_keyword_car" = "Bil";
+"icon_keyword_electric_car" = "Elbil";
+"icon_keyword_charging_station" = "Ladestation";
+"icon_keyword_car_pool" = "Samkørsel";
+"icon_keyword_bus" = "Bus";
+"icon_keyword_tram" = "Træn";
+"icon_keyword_railroad" = "Jernbane";
+"icon_keyword_cablecar" = "Sporvogn";
+"icon_keyword_ferry" = "Færge";
+"icon_keyword_ship" = "Skib";
+"icon_keyword_truck" = "Lastbil";
+"icon_keyword_relocation" = "Flytning";
+"icon_keyword_bicycle" = "Cykel";
+"icon_keyword_sport" = "Sport";
+"icon_keyword_scooter" = "Scooter";
+"icon_keyword_sailboat" = "Sejlbåd";
+"icon_keyword_fuel" = "Brændstof";
+"icon_keyword_refuel" = "Brændstof";
+"icon_keyword_gas_station" = "Benzinstation";
+"icon_keyword_walking" = "Gå";
+"icon_keyword_running" = "Kører";
+"icon_keyword_rugby" = "Rugby";
+"icon_keyword_badminton" = "Badminton";
+"icon_keyword_tennis" = "Tennis";
+"icon_keyword_dancing" = "Dans";
+"icon_keyword_skiing" = "Skiløb";
+"icon_keyword_swimming" = "Svømning";
+"icon_keyword_skating" = "Skøjteløb";
+"icon_keyword_strengthtraining" = "Styrketræning";
+"icon_keyword_gym" = "Gym";
+"icon_keyword_yoga" = "Yoga";
+"icon_keyword_bowling" = "Bowling";
+"icon_keyword_sportscourt" = "Sportsdomstol";
+"icon_keyword_stadium" = "Stadion";
+"icon_keyword_soccer" = "Fodbold";
+"icon_keyword_golf" = "Golf";
+"icon_keyword_baseball" = "Baseball";
+"icon_keyword_basketball" = "Basketball";
+"icon_keyword_volleyball" = "Volleyball";
+"icon_keyword_trophy" = "Trofæ";
+"icon_keyword_medal" = "Medalje";
+"icon_keyword_flag" = "Flag";
+"icon_keyword_race" = "Billøb";
+"icon_keyword_gamecontroller" = "Spilcontroller";
+"icon_keyword_videogames" = "Videospil";
+"icon_keyword_gaming" = "Spil";
+"icon_keyword_playstation" = "PlayStation";
+"icon_keyword_xbox" = "Xbox";
+"icon_keyword_nintento_switch" = "Nintendo Switch";
+"icon_keyword_book" = "Bog";
+"icon_keyword_books" = "Bøger";
+"icon_keyword_magazine" = "Magasin";
+"icon_keyword_reading" = "Læser";
+"icon_keyword_painting" = "Maleri";
+"icon_keyword_drawing" = "Tegning";
+"icon_keyword_theater" = "Teater";
+"icon_keyword_singing" = "Synger";
+"icon_keyword_karaoke" = "Karaoke";
+"icon_keyword_music" = "Musik";
+"icon_keyword_spotify" = "Spotify";
+"icon_keyword_apple_music" = "Apple Music";
+"icon_keyword_piano" = "Klaver";
+"icon_keyword_guitar" = "Guitar";
+"icon_keyword_rockband" = "Rockband";
+"icon_keyword_festival" = "Festival";
+"icon_keyword_tent" = "Telt";
+"icon_keyword_dice" = "Terninger";
+"icon_keyword_boardgames" = "Brætspil";
+"icon_keyword_gambling" = "Hasardspil";
+"icon_keyword_camera" = "Kamera";
+"icon_keyword_photography" = "Fotografi";
+"icon_keyword_photo" = "Foto";
+"icon_keyword_world" = "Verden";
+"icon_keyword_globe" = "Globe";
+"icon_keyword_sun" = "Sol";
+"icon_keyword_summer" = "Sommer";
+"icon_keyword_moon" = "Måne";
+"icon_keyword_stars" = "Stjerner";
+"icon_keyword_cloud" = "Skyer";
+"icon_keyword_icloud" = "iCloud";
+"icon_keyword_rain" = "Regn";
+"icon_keyword_flame" = "Flame";
+"icon_keyword_fire" = "Brand";
+"icon_keyword_snow" = "Sne";
+"icon_keyword_winter" = "Vinter";
+"icon_keyword_bolt" = "Lyn";
+"icon_keyword_plug" = "Stik";
+"icon_keyword_electric" = "Elektrisk";
+"icon_keyword_electrics" = "Elektrik";
+"icon_keyword_electricity" = "Elektricitet";
+"icon_keyword_tornado" = "Tornado";
+"icon_keyword_sea" = "Hav";
+"icon_keyword_hare" = "Kanin";
+"icon_keyword_rabbit" = "Kanin";
+"icon_keyword_animal" = "Dyr";
+"icon_keyword_tortoise" = "Skildpadde";
+"icon_keyword_lizard" = "Øglen";
+"icon_keyword_bird" = "Fugl";
+"icon_keyword_ant" = "Myre";
+"icon_keyword_ladybug" = "Fejl";
+"icon_keyword_fish" = "Fisk";
+"icon_keyword_pet" = "Kæledyr";
+"icon_keyword_cat" = "Kat";
+"icon_keyword_dog" = "Hund";
+"icon_keyword_leaf" = "Blade";
+"icon_keyword_plant" = "Anlæg";
+"icon_keyword_flower" = "Blomst";
+"icon_keyword_eating" = "Spise";
+"icon_keyword_restaurant" = "Restaurant";
+"icon_keyword_drinking" = "Drikker";
+"icon_keyword_cafe" = "Cafe";
+"icon_keyword_coffee" = "Kaffe";
+"icon_keyword_fastfood" = "Fastfood";
+"icon_keyword_picnic" = "Picnic";
+"icon_keyword_wine" = "Vin";
+"icon_keyword_birthday" = "Fødselsdag";
+"icon_keyword_cake" = "Kage";
+"icon_keyword_carrot" = "Gulerod";
+"icon_keyword_vegetables" = "Grøntsager";
+"icon_keyword_bag" = "Taske";
+"icon_keyword_cone" = "Taske";
+"icon_keyword_shopping" = "Indkøb";
+"icon_keyword_supermarket" = "Supermarked";
+"icon_keyword_groceries" = "Købvarer";
+"icon_keyword_creditcard" = "Kreditkort";
+"icon_keyword_giftcard" = "Gavekort";
+"icon_keyword_gift" = "Gave";
+"icon_keyword_clothes" = "Tøj";
+"icon_keyword_clothing" = "Tøj";
+"icon_keyword_globe" = "Globe";
+"icon_keyword_online" = "Online";
+"icon_keyword_internet" = "Internet";
+"icon_keyword_amazon" = "Amazon";
+"icon_keyword_package" = "Pakke";
+"icon_keyword_apple" = "Æble";
+"icon_keyword_banknote" = "Seddel";
+"icon_keyword_refund" = "Refundering";
+"icon_keyword_dollar" = "Dollarer";
+"icon_keyword_cents" = "Center";
+"icon_keyword_yen" = "Yen";
+"icon_keyword_pound" = "Pund";
+"icon_keyword_franc" = "Franken";
+"icon_keyword_lira" = "Lire";
+"icon_keyword_ruble" = "Rubel";
+"icon_keyword_euro" = "Euro";
+"icon_keyword_rupee" = "Rupee";
+"icon_keyword_peso" = "Peso";
+"icon_keyword_bitcoin" = "Bitcoin";
+"icon_keyword_real" = "Brasiliansk Real";
+"icon_keyword_case" = "Kuffert";
+"icon_keyword_lungs" = "Lunger";
+"icon_keyword_allergens" = "Allergier";
+"icon_keyword_thermometer" = "Termometer";
+"icon_keyword_bandage" = "Plåster";
+"icon_keyword_syringe" = "Sprøjte";
+"icon_keyword_medicine" = "Medicin";
+"icon_keyword_drug" = "Drug";
+"icon_keyword_facemask" = "Ansigtsmaske";
+"icon_keyword_pills" = "Piller";
+"icon_keyword_cross" = "Kryds";
+"icon_keyword_hospital" = "Hospital";
+"icon_keyword_ivfluid" = "Infusion";
+"icon_keyword_eye" = "Øje";
+"icon_keyword_brain" = "Hjerne";
+"icon_keyword_ear" = "Øre";
+"icon_keyword_mouth" = "Mund";
+"icon_keyword_ecg" = "EKG";
+"icon_keyword_shield" = "Skjold";
+"icon_keyword_insurance" = "Forsikring";
+"icon_keyword_video_conference" = "Videokonference";
+"icon_keyword_facetime" = "Ansigtstid";
+"icon_keyword_phone" = "Telefon";
+"icon_keyword_mobilephone" = "Mobil";
+"icon_keyword_iphone" = "iPhone";
+"icon_keyword_tablet" = "Tablet";
+"icon_keyword_ipad" = "iPad";
+"icon_keyword_macintosh" = "Macintosh";
+"icon_keyword_macbook" = "Macbook";
+"icon_keyword_imac" = "iMac";
+"icon_keyword_smartphone" = "Smartphone";
+"icon_keyword_calling" = "Ringer";
+"icon_keyword_message" = "Besked";
+"icon_keyword_envelope" = "Konvolut";
+"icon_keyword_mail" = "Mail";
+"icon_keyword_email" = "E-mail";
+"icon_keyword_chart" = "Diagram";
+"icon_keyword_stocks" = "Aktier";
+"icon_keyword_investment" = "Investering";
+"icon_keyword_signature" = "Signatur";
+"icon_keyword_contract" = "Kontrakt";
+"icon_keyword_computer" = "Computer";
+"icon_keyword_pc" = "PC";
+"icon_keyword_display" = "Overvåg";
+"icon_keyword_mouse" = "Mus";
+"icon_keyword_keyboard" = "Tastatur";
+"icon_keyword_printer" = "Printer";
+"icon_keyword_scanner" = "Scanner";
+"icon_keyword_pin" = "Fastgør";
+"icon_keyword_paperclip" = "Papirklip";
+"icon_keyword_clipboard" = "Udklipsholder";
+"icon_keyword_list" = "Liste";
+"icon_keyword_server" = "Server";
+"icon_keyword_simcard" = "Sim-kort";
+"icon_keyword_bank" = "Bank";
+"icon_keyword_apple_watch" = "Apple Watch";
+"icon_keyword_clock" = "Ur";
+"icon_keyword_alarm" = "Alarm";
+"icon_keyword_box" = "Boks";
+"icon_keyword_wand" = "Tryllestav";
+"icon_keyword_hourglass" = "Timeglas";
+"icon_keyword_newspaper" = "Avis";
+"icon_keyword_wrench" = "Tænger";
+"icon_keyword_screwdriver" = "Skruetrækker";
+"icon_keyword_hammer" = "Hammer";
+"icon_keyword_craftsman" = "Håndværker";
+"icon_keyword_tools" = "Værktøj";
+"icon_keyword_plumber" = "VVS-installatør";
+"icon_keyword_construction_market" = "Byggemarked";
+"icon_keyword_scissors" = "Saks";
+"icon_keyword_hairdresser" = "Frisør";
+"icon_keyword_key" = "Nøgle";
+"icon_keyword_school" = "Skole";
+"icon_keyword_university" = "Universitet";
+"icon_keyword_study" = "Undersøgelse";
+"icon_keyword_tuition_fees" = "Undervisningsgebyrer";
+"icon_keyword_flashlight" = "Lommelygte";
+"icon_keyword_bell" = "Klokke";
+"icon_keyword_subscription" = "Abonnement";
+"icon_keyword_loupe" = "Forstørrelsesglas";
+"icon_keyword_binoculars" = "Kikkert";
+"icon_keyword_rosette" = "Rosette";
+"icon_keyword_crown" = "Krone";
+"icon_keyword_umbrella" = "Paraply";
+"icon_keyword_beach" = "Strand";
+"icon_keyword_megaphone" = "Megafon";
+"icon_keyword_advertisement" = "Annonce";
+"icon_keyword_puzzle" = "Puslespil";
+"icon_keyword_lab" = "Laboratorie";
+"icon_keyword_calendar" = "Kalender";
+"icon_keyword_rent" = "Leje";
+"icon_keyword_flat" = "Flad";
+"icon_keyword_work" = "Arbejde";
+"icon_keyword_salary" = "Løn";
+"icon_keyword_corona" = "Corona";
+"icon_keyword_rainbow" = "Regnbue";
+"icon_keyword_glasses" = "Briller";
+"icon_keyword_sunglasses" = "Solbriller";
+"icon_keyword_discount" = "Rabat";
+"icon_keyword_percent" = "Procent";
+"icon_keyword_wallet" = "Pungbog";
+"icon_keyword_convertible" = "Konvertibel";
+"icon_keyword_drone" = "Drone";
+"icon_keyword_motorcycle" = "Motorcykel";
+"icon_keyword_tire" = "Dæk";
+"icon_keyword_oilcan" = "Oliekande";
+"icon_keyword_keys" = "Nøgler";
+"icon_keyword_fire_extinguisher" = "Ildslukker";
+"icon_keyword_hockey" = "Hockey";
+"icon_keyword_ice_hockey" = "Ishockey";
+"icon_keyword_ice_skating" = "Skøjteløb";
+"icon_keyword_rowing" = "Roning";
+"icon_keyword_inhaler" = "Inhalator";
+"icon_keyword_wheelchair" = "Kørestol";
+"icon_keyword_vacuum" = "Støvsuger";
+"icon_keyword_doctor" = "Læge";
+"icon_keyword_dentist" = "Tandlæge";
+"icon_keyword_parking" = "Parkering";
+
+
+/* MARK: - App Intents */
+/* Entities */
+"budget_book_entity_name" = "Budgetbog";
+"account_entity_name" = "Konto";
+"category_group_entity_name" = "Mappe";
+"category_entity_name" = "Kategori";
+"payee_entity_name" = "Betalingsmodtager";
+
+/* Categories */
+"add_category_name" = "Tilføj";
+"open_category_name" = "Åben";
+"show_category_name" = "Vis";
+"search_category_name" = "Søg";
+
+/* Search */
+"search_budget_book_title" = "Søg i budgetbog";
+"search_budget_book_description" = "Søg efter en specifik budgetbog ved navn.";
+"search_budget_book_parameter_summary" = "Søg i budgetbog med ${name}";
+"search_account_title" = "Søg konto";
+"search_account_description" = "Søg efter en specifik konto ved navn.";
+"search_account_parameter_summary" = "Søg konto med ${name} i ${budgetBook}";
+"search_category_group_title" = "Søg i mappe";
+"search_category_group_description" = "Søg efter en bestemt mappe ved navn.";
+"search_category_group_parameter_summary" = "Søg i mappe med ${name} i ${budgetBook}";
+"search_category_title" = "Søgekategori";
+"search_category_description" = "Søg efter en bestemt kategori ved navn.";
+"search_category_parameter_summary" = "Søg kategori med ${name} i ${categoryGroup} af ${budgetBook}";
+"search_payee_title" = "Søg efter betalingsmodtager";
+"search_payee_description" = "Søg efter en bestemt betalingsmodtager ved navn.";
+"search_payee_parameter_summary" = "Søg efter betalingsmodtager med ${name} i ${budgetBook}";
+
+"name_parameter_title" = "Navn";
+"name_parameter_dialog" = "Hvad er navnet?";
+
+"budget_book_parameter_title" = "Budgetbog";
+"budget_book_parameter_description" = "Den tilknyttede budgetbog.";
+"budget_book_parameter_dialog" = "Hvad er den tilknyttede budgetbog?";
+"category_group_parameter_title" = "Mappe";
+"category_group_parameter_description" = "Den tilknyttede mappe.";
+"category_group_parameter_dialog" = "Hvad er den tilknyttede mappe?";
+
+/* Open */
+"open_add_new_income_view_title" = "Tilføj ny indkomst";
+"open_add_new_income_view_description" = "Åbner visningen Tilføj ny indkomst i appen.";
+"open_add_new_expense_view_title" = "Tilføj ny udgift";
+"open_add_new_expense_view_description" = "Åbner visningen Tilføj ny udgift i appen.";
+"open_add_new_transfer_view_title" = "Tilføj ny overførsel";
+"open_add_new_transfer_view_description" = "Åbner visningen Tilføj ny overførsel i appen.";
+"open_add_new_recurring_view_title" = "Tilføj ny tilbagevendende transaktion";
+"open_add_new_recurring_view_description" = "Åbner visningen Tilføj ny tilbagevendende transaktion i appen.";
+"open_upcoming_transactions_view_title" = "Planlagte transaktioner";
+"open_upcoming_transactions_view_description" = "Åbner visningen af planlagte transaktioner i appen.";
+
+/* Show */
+"show_chart_title" = "Vis diagram";
+"show_chart_description" = "Viser en oversigt over dine kontosaldi, indtægter eller udgifter for den angivne periode.";
+"show_chart_parameter_summary" = "Vis ${type} diagram for ${periodType}";
+
+"chart_type_parameter_title" = "Type";
+"chart_type_dialog" = "Hvilken type diagram vil du have?";
+"chart_type_account_balances_title" = "Kontosaldi";
+"chart_type_balance_title" = "Saldo";
+"chart_type_total_income_title" = "Samlet indkomst";
+"chart_type_total_expenses_title" = "Samlede udgifter";
+"chart_type_fixed_expenses_title" = "Faste udgifter";
+"chart_type_variable_expenses_title" = "Variable udgifter";
+
+"chart_period_type_parameter_title" = "Periode";
+"chart_period_type_dialog" = "Hvilken periode vil du se på?";
+"chart_type_current_month_title" = "Nuværende måned";
+"chart_type_current_year_title" = "Nuværende år";
+
+
+/* MARK: - Dummy Data */
+"default_budget_book_name" = "Min budgetbog";
+"default_credit_card_name" = "Kreditkort";
+"default_location_address" = "Fürstenberg";

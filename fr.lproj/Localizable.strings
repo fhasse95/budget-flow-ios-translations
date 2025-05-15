@@ -1,0 +1,2016 @@
+/*
+ Localizable.strings
+ BudgetFlow
+ 
+ Created by Fabian Hasse on 19.05.20.
+ Copyright © 2020 Fabian Hasse. All rights reserved.
+ */
+
+/* MARK: - General */
+"app_name" = "Budget Flow";
+
+"feedback_quick_action_title" = "Commentaires";
+"feedback_quick_action_subtitle" = "Cliquez ici pour donner votre avis sur l'app.";
+"income_quick_action_title" = "Nouveaux revenus";
+"expense_quick_action_title" = "Nouvelle dépense";
+"transfer_quick_action_title" = "Nouveau transfert";
+"recurring_quick_action_title" = "Récurrent";
+
+
+/* MARK: - Miscellaneous */
+"face_id" = "Face ID";
+"touch_id" = "Touch ID";
+"required" = "Requis";
+"optional" = "Facultatif";
+"uncategorized" = "Non catégorisé";
+"before" = "avant";
+"account_reconcilation" = "Rapprochement de compte";
+
+
+/* MARK: - Enums */
+"account_type_cash" = "Espèces";
+"account_type_payment" = "Compte de paiement";
+"account_type_savings" = "Compte d'épargne";
+"account_type_credit_card" = "Carte de crédit";
+"account_type_investment" = "Investissement";
+"account_type_precaution" = "Précaution";
+"account_type_liability" = "Responsabilité";
+"account_type_business" = "Compte professionnel";
+
+"account_type_payment_plural" = "Comptes de paiement";
+"account_type_savings_plural" = "Comptes d'épargne";
+"account_type_credit_card_plural" = "Cartes de crédit";
+"account_type_investment_plural" = "Investissements";
+"account_type_precaution_plural" = "Précautions";
+"account_type_liability_plural" = "Passifs";
+"account_type_business_plural" = "Comptes professionnels";
+
+"transaction_type_income" = "Revenu";
+"transaction_type_expense" = "Dépense";
+"transaction_type_transfer" = "Transfert";
+
+"transaction_type_income_plural" = "Revenus";
+"transaction_type_expense_plural" = "Dépenses";
+"transaction_type_transfer_plural" = "Transferts";
+
+"payment_status" = "Statut";
+"payment_status_completed" = "Terminé";
+"payment_status_pending" = "En attente";
+
+"attachment_type_image" = "Photo";
+"attachment_type_image_plural" = "Photos";
+"attachment_type_document" = "Document";
+"attachment_type_document_plural" = "Documents";
+
+"period_type_month" = "Mois";
+"period_type_year" = "Année";
+"period_type_custom" = "Date";
+
+"sort_type_alphabetically" = "Alphabétiquement";
+"sort_type_date" = "Date";
+"sort_type_amount" = "Montant";
+"sort_type_type" = "Type";
+
+"sort_option_ascending" = "Croissant";
+"sort_option_descending" = "Décroissant";
+
+"group_option_day" = "Jour";
+"group_option_month" = "Mois";
+"group_option_account" = "Compte";
+"group_option_category" = "Catégorie";
+"group_option_category_group" = "Dossier";
+"group_option_type" = "Type";
+"group_option_payee" = "Bénéficiaire";
+"group_option_repetition_frequency" = "Intervalle";
+
+"date_repetition_frequency_never" = "Jamais";
+"date_repetition_frequency_daily" = "Quotidien";
+"date_repetition_frequency_weekly" = "Hebdomadaire";
+"date_repetition_frequency_everyTwoWeeks" = "Toutes les 2 semaines";
+"date_repetition_frequency_everyThreeWeeks" = "Toutes les 3 semaines";
+"date_repetition_frequency_everyFourWeeks" = "Toutes les 4 semaines";
+"date_repetition_frequency_monthly" = "Mensuel";
+"date_repetition_frequency_everyTwoMonths" = "Tous les 2 mois";
+"date_repetition_frequency_everyThreeMonths" = "Trimestriel";
+"date_repetition_frequency_everySixMonths" = "Semestriel";
+"date_repetition_frequency_yearly" = "Annuel";
+"date_repetition_frequency_custom" = "Personnalisé";
+
+"csv_transaction_type_automatic" = "Automatique";
+"csv_transaction_type_income" = "Revenu";
+"csv_transaction_type_expenses" = "Dépenses";
+
+"passcode_type_four_digits" = "Code d'accès numérique à quatre chiffres";
+"passcode_type_six_digits" = "Code d'accès numérique à six chiffres";
+"passcode_type_custom_numeric" = "Code numérique personnalisé";
+"passcode_type_custom_alphanumeric" = "Code alphanumérique personnalisé";
+
+"auto_lock_time_type_immediately" = "Immédiatement";
+"auto_lock_time_type_after_one_minute" = "Après 1 minute";
+"auto_lock_time_type_after_five_minutes" = "Après 5 minutes";
+"auto_lock_time_type_after_fifteen_minutes" = "Après 15 minutes";
+"auto_lock_time_type_after_one_hour" = "Après 1 heure";
+"auto_lock_time_type_after_four_hours" = "Après 4 heures";
+
+"widget_type_chart_stack" = "Graphiques";
+"widget_type_suggestions" = "Suggestions";
+"widget_type_distribution" = "Diffusion";
+"widget_type_balance" = "Solde";
+"widget_type_savings_rate" = "Enregistré";
+"widget_type_upcoming_transactions" = "Planifié";
+"widget_type_participants" = "Personnes";
+"widget_type_budget" = "Budget";
+"widget_type_pending_transactions" = "En attente";
+"widget_type_total_assets" = "Actifs";
+"widget_type_forecast" = "Prévision";
+
+"chart_type_bar" = "Graphique à barres";
+"chart_type_pie" = "Graphique circulaire";
+
+"category_chart_data_type_category" = "Catégorie";
+"category_chart_data_type_category_group" = "Dossier";
+
+"product_type_individual" = "Individuel";
+"product_type_family" = "Famille";
+
+"subscription_period_day" = "Jour";
+"subscription_period_days" = "jours";
+"subscription_period_month" = "Mois";
+"subscription_period_months" = "Mois";
+"subscription_period_year" = "année";
+"subscription_period_years" = "Années";
+
+"overview_period_type_current_week" = "Cette semaine";
+
+"quick_action_type_new_income" = "Nouveau revenu";
+"quick_action_type_new_expense" = "Nouvelle dépense";
+"quick_action_type_new_transfer" = "Nouveau transfert";
+"quick_action_type_new_recurring" = "Récurrent";
+
+"suggestion_type_add_income_transaction" = "Nouveau revenu";
+"suggestion_type_add_expense_transaction" = "Nouvelle dépense";
+
+"user_interface_style_system" = "Système";
+"user_interface_style_light" = "Clair";
+"user_interface_style_dark" = "Sombre";
+
+"transaction_title_type_category" = "Catégorie";
+"transaction_title_type_payee" = "Bénéficiaire";
+"transaction_title_type_notes" = "Notes";
+
+"transaction_subtitle_type_none" = "Aucun";
+"transaction_subtitle_type_category" = "Catégorie";
+"transaction_subtitle_type_payee" = "Bénéficiaire";
+"transaction_subtitle_type_notes" = "Notes";
+
+
+/* MARK: - Custom Date Repetition */
+"frequency" = "Fréquence";
+
+"every" = "Chaque";
+"every_day" = "Chaque";
+"every_week" = "Chaque";
+"every_month" = "Chaque";
+"every_year" = "Chaque";
+"every_day_plural" = "Chaque";
+"every_week_plural" = "Chaque";
+"every_month_plural" = "Chaque";
+"every_year_plural" = "Chaque";
+
+"each" = "Chaque";
+"on_the" = "Le...";
+"days_of_week" = "Jours de la semaine";
+"last_day" = "Dernier jour";
+
+"daily" = "Quotidien";
+"weekly" = "Hebdomadaire";
+"monthly" = "Mensuel";
+"yearly" = "Annuel";
+
+"first" = "1er";
+"second" = "2e";
+"third" = "3e";
+"fourth" = "4e";
+"fifth" = "5e";
+"last" = "dernier";
+
+
+/* MARK: - Menu Bar */
+"accounts_menu_title" = "Comptes";
+"show_accounts_menu_title" = "Afficher tous les comptes";
+"budgets_menu_title" = "Budgets";
+"show_budgets_menu_title" = "Afficher tous les budgets";
+"transactions_menu_title" = "Transactions";
+"show_all_transactions_menu_title" = "Afficher toutes les transactions";
+"show_recurring_transactions_menu_title" = "Afficher les transactions récurrentes";
+"show_upcoming_transactions_menu_title" = "Afficher les transactions planifiées";
+
+
+/* MARK: - Sidebar Menu */
+"menu" = "Menu";
+"menu_accounts_section" = "Comptes";
+"menu_categories_section" = "Catégories";
+"menu_selected_budget_book_title" = "Sélectionné";
+
+
+/* MARK: - Tabs */
+"dashboard_tab" = "Aperçu";
+"transactions_tab" = "Transactions";
+"budgets_tab" = "Budgets";
+"settings_tab" = "Réglages";
+
+
+/* MARK: - Buttons */
+"add_button" = "Ajouter";
+"edit_button" = "Modifier";
+"copy_button" = "Copier";
+"edit_account_button" = "Modifier le compte";
+"edit_category_button" = "Modifier la catégorie";
+"edit_payee_button" = "Modifier le bénéficiaire";
+"edit_tag_button" = "Modifier la balise";
+"edit_budget_button" = "Modifier le budget";
+"multi_selection_button" = "Multi-sélection";
+"back_button" = "Retour";
+"done_button" = "Terminé";
+"save_button" = "Sauvegarder";
+"import_button" = "Importer";
+"unlock_button" = "Déverrouiller";
+"cancel_button" = "Annuler";
+"close_button" = "Fermer";
+"delete_button" = "Supprimer";
+"end_repetition_button" = "Fin de la répétition";
+"reset_button" = "Réinitialiser";
+"apply_button" = "Appliquer";
+"yes_button" = "Oui";
+"no_button" = "Non";
+"ok_button" = "OK";
+"faq_button" = "FAQ";
+"create_reminder_button" = "Créer un rappel";
+"remove_reminder_button" = "Supprimer le rappel";
+"do_not_show_again_button" = "Ne plus afficher";
+"mark_as_paid_button" = "Paiement terminé";
+"mark_as_pending_button" = "Paiement en attente";
+"show_contra_entry_button" = "L'entrée du compteur";
+
+"save_changes_button" = "Enregistrer les modifications";
+"discard_changes_button" = "Supprimer les modifications";
+
+"show_help_center_button" = "Centre d'aide (🇬🇧)";
+"contact_developer_button" = "Contacter le développeur";
+
+"filter_button" = "Filtrer";
+"sort_button" = "Trier";
+"sort_categories_button" = "Trier les catégories";
+"sort_category_groups_button" = "Trier les dossiers";
+"group_button" = "Grouper";
+"configure_button" = "Configurer";
+
+"show_filter_button" = "Afficher le filtre";
+
+"show_amount_values_button" = "Afficher les montants";
+"hide_amount_values_button" = "Masquer les montants";
+
+"take_photo_button" = "Prendre une photo";
+"add_photo_button" = "Sélectionner les photos";
+"add_document_button" = "Sélectionner les documents";
+"scan_receipt_button" = "Scanner le reçu";
+
+"open_button" = "Ouvrir";
+"open_folder_button" = "Ouvrir le dossier";
+"open_in_browser_button" = "Ouvrir dans le navigateur";
+
+"show_more_button" = "Afficher plus";
+"show_less_button" = "Afficher moins";
+
+"add_category_button" = "Nouvelle catégorie";
+"add_category_group_button" = "Nouveau dossier";
+
+"add_income_transaction_button" = "Nouveau revenu";
+"add_expense_transaction_button" = "Nouvelle dépense";
+"add_transfer_transaction_button" = "Nouveau transfert";
+
+"manage_budget_books_button" = "Gérer les livres budgétaires";
+"select_budget_book_button" = "Sélectionner un livre budgétaire";
+"edit_budget_book_button" = "Modifier le livre budgétaire";
+
+"continue_button" = "Continuer";
+"skip_button" = "Passer";
+"accept_button" = "Accepter";
+"get_started_button" = "Commencer";
+
+"show_transactions_button" = "Afficher les transactions";
+"show_in_app_store_button" = "Afficher dans l'App Store";
+
+"learn_more" = "En savoir plus";
+
+
+/* MARK: - Share View */
+/* Titles */
+"share_title" = "Partager";
+
+/* Alert Views */
+"alert_sync_shares_in_progress_title" = "Synchronisation...";
+"alert_sync_shares_in_progress_message" = "Vos livres de budget se synchronisent avec iCloud afin que vous puissiez accéder au contenu partagé. Veuillez être patient...";
+"alert_cloud_share_quota_exceeded_error_message" = "Impossible de terminer le partage car il n'y a pas assez d'espace sur votre iCloud. Veuillez libérer de l'espace et réessayer.";
+"alert_cloud_share_unknown_error_message" = "Impossible de terminer le partage car une erreur s'est produite. Il n'y a probablement pas assez d'espace disponible sur votre iCloud. Veuillez libérer de l'espace et réessayer.";
+
+
+/* MARK: - Search View */
+/* Titles */
+"search_title" = "Rechercher";
+"filter_title" = "Filtrer";
+
+/* Sections */
+"search_text_section_title" = "Search Text";
+"search_suggestions_section_title" = "Suggestions";
+
+
+/* MARK: - Period Selection View */
+/* Titles */
+"period_selection_title" = "Période";
+"period_selection_current_year_title" = "Année en cours";
+"period_selection_current_month_title" = "Mois en cours";
+
+/* Items */
+"from_title" = "De";
+"to_title" = "À";
+
+
+/* MARK: - Dashboard View */
+/* Titles */
+"configure_title" = "Configurer";
+"balance_widget_income_title" = "Revenu";
+"balance_widget_expenses_title" = "Dépenses";
+"savings_rate_widget_absolute_title" = "Absolu";
+"savings_rate_widget_percentual_title" = "Pourcentage";
+"budget_widget_planned_title" = "Prévu";
+"budget_widget_remaining_title" = "Disponible";
+"total_assets_widget_absolute_title" = "Absolu";
+"total_assets_widget_trend_title" = "Tendance";
+"forecast_widget_upcoming_title" = "Prévu";
+"forecast_widget_pending_title" = "En attente";
+"forecast_widget_final_balance_title" = "Solde final";
+"pie_chart_widget_transactions_title" = "Transactions";
+"pie_chart_widget_categories_title" = "Catégories";
+
+/* Sections */
+"inactive_widgets_section_title" = "Plus de widgets";
+
+/* Footer */
+"participants_widget_footer_title" = "Remarque : Le widget \"personnes\" n'apparaît que pour les livres de budget partagés.";
+
+/* Messages */
+"no_widgets_title" = "Aucun widget ajouté";
+"no_widgets_message" = "Cliquez sur le bouton \"stylo\" pour configurer la vue.";
+"no_suggestions_title" = "Aucune suggestion";
+"not_shared_title" = "Livre budgétaire non partagé";
+
+/* Widgets */
+"account_balances_widget_title" = "Soldes de compte";
+"balance_widget_title" = "Solde";
+"total_income_widget_title" = "Revenu total";
+"total_expenses_widget_title" = "Dépenses totales";
+"fixed_expenses_widget_title" = "Dépenses fixes";
+"variable_expenses_widget_title" = "Dépenses variables";
+
+"account_balances_distribution_widget_title" = "Soldes des comptes";
+"balance_distribution_widget_title" = "Solde";
+"total_income_distribution_widget_title" = "Revenu total";
+"total_expenses_distribution_widget_title" = "Dépenses totales";
+"fixed_expenses_distribution_widget_title" = "Dépenses fixes";
+"variable_expenses_distribution_widget_title" = "Dépenses variables";
+
+
+/* MARK: - Transaction List View */
+/* Titles */
+"sum_title" = "Somme";
+"total_sum_title" = "Somme totale";
+"recurring_transactions_title" = "Récurrent";
+"upcoming_transactions_title" = "Planifié";
+"reminded_transactions_title" = "Avec rappel";
+
+/* Info */
+"recurring_transactions_info_title" = "Description";
+"recurring_transactions_info_description" = "Créez des transactions récurrentes pour qu'elles soient automatiquement ajoutées à l'app à leur échéance.";
+
+/* Sections */
+"account_filter_section_title" = "Compte";
+"category_filter_section_title" = "Catégorie";
+"payee_filter_section_title" = "Bénéficiaire";
+"tag_filter_section_title" = "Tag";
+"user_filter_section_title" = "Personne";
+"payment_status_filter_section_title" = "Paiement";
+"transaction_type_filter_section_title" = "Type";
+"date_range_filter_section_title" = "Date";
+"amount_range_filter_section_title" = "Montant";
+
+/* Messages */
+"no_transactions_title" = "Aucune transaction";
+"no_transactions_title_short" = "Aucun";
+"no_transactions_found_title" = "Aucune transaction trouvée";
+"no_transactions_found_message" = "Cliquez sur le bouton \"+\" pour ajouter une nouvelle transaction.";
+"no_transactions_found_button_title" = "Nouvelle transaction";
+"no_recurring_transactions_found_message" = "Cliquez sur le bouton \"+\" pour ajouter une nouvelle transaction récurrente.";
+"no_upcoming_transactions_found_message" = "Cliquez sur le bouton \"+\" pour ajouter une nouvelle transaction planifiée.";
+"no_reminded_transactions_found_message" = "Cliquez sur le bouton \"+\" pour ajouter une nouvelle transaction avec un rappel.";
+"transactions_search_placeholder_message" = "Rechercher par nom de catégorie, de bénéficiaire, de balise ou de notes";
+
+/* Buttons */
+"show_analysis_button" = "Afficher l'analyse";
+"show_analysis_button_short" = "Analyse";
+"show_forecast_button" = "Afficher les prévisions";
+"show_forecast_button_short" = "Prévisions";
+"show_upcoming_transactions_button" = "Planifié";
+
+/* Alert Views */
+"alert_confirm_add_next_upcoming_transaction_title" = "Ajouter une transaction";
+"alert_confirm_add_next_upcoming_transaction_message" = "Êtes-vous sûr de vouloir ajouter cette transaction planifiée maintenant ?";
+
+/* Miscellaneous */
+"payed_by_and_modified_at" = "Payé par %@\nDernière modification le %@";
+"modified_at" = "Dernière modification le %@";
+"average_per_transaction" = "Ø par transaction";
+"average_per_day" = "Ø par jour";
+"average_per_month" = "Ø par mois";
+
+
+/* MARK: - Budget List View */
+/* Titles */
+"remaining_title" = "Disponible";
+"balanced_title" = "Équilibré";
+"exceeded_title" = "Dépassé";
+"user_has_no_budgets_title" = "Vous n'avez aucun budget.";
+"user_is_within_budget_title" = "Vous respectez votre budget ! 🎉";
+"user_was_within_budget_title" = "Vous respectiez votre budget ! 🎉";
+"user_is_not_within_budget_title" = "Vous avez %d dépassement de budget 😢";
+"user_is_not_within_budgets_title" = "Vous avez dépassé %d budgets 😢";
+
+/* Messages */
+"no_budgets_title" = "Aucun budget";
+"no_budgets_found_title" = "Aucun budget trouvé";
+"no_budgets_found_message" = "Cliquez sur le bouton \"+\" pour ajouter un nouveau budget.";
+"budgets_search_placeholder_message" = "Rechercher par nom de budget";
+"no_budgets_found_button_title" = "Nouveau budget";
+
+
+/* MARK: - Analysis View */
+/* Titles */
+"analysis_title" = "Analyse";
+"trend_widget_average_title" = "Moyenne";
+"trend_widget_current_year_title" = "Cette année";
+"trend_widget_current_month_title" = "Ce mois-ci";
+
+/* Messages */
+"trend_widget_received_more_message" = "Vous gagnez plus que d'habitude.";
+"trend_widget_received_less_message" = "Vous gagnez moins que d'habitude.";
+"trend_widget_received_same_message" = "Vous gagnez autant que d'habitude.";
+"trend_widget_has_received_more_message" = "Vous avez gagné plus que d'habitude.";
+"trend_widget_has_received_less_message" = "Vous avez gagné moins que d'habitude.";
+"trend_widget_has_received_same_message" = "Vous avez gagné autant que d'habitude.";
+
+"trend_widget_spent_more_message" = "Vous dépensez plus que d'habitude.";
+"trend_widget_spent_less_message" = "Vous dépensez moins que d'habitude.";
+"trend_widget_spent_same_message" = "Vous dépensez autant que d'habitude.";
+"trend_widget_has_spent_more_message" = "Vous avez dépensé plus que d'habitude.";
+"trend_widget_has_spent_less_message" = "Vous avez dépensé moins que d'habitude.";
+"trend_widget_has_spent_same_message" = "Vous avez dépensé autant que d'habitude.";
+
+"total_balance_widget_current_balance_message" = "Votre solde est %@.";
+"total_balance_widget_previous_balance_message" = "Votre solde était de %@.";
+
+"savings_rate_widget_current_savings_rate_message" = "Votre taux d'épargne est de %@ %%.";
+"savings_rate_widget_previous_savings_rate_message" = "Votre taux d'épargne était de %@ %%.";
+
+/* Widgets */
+"trend_widget_title" = "Tendance";
+"total_balance_widget_title" = "Solde";
+"savings_rate_widget_title" = "Taux d'épargne";
+
+
+/* MARK: - Account Forecast View */
+/* Titles */
+"account_forecast_title" = "Prévisions";
+"account_balance_title" = "Solde";
+"not_enough_data_title" = "Pas assez de données";
+
+
+/* MARK: - Settings View */
+/* Titles */
+"no_budget_book_title" = "Aucun livre budgétaire";
+
+/* Messages */
+"share_app_message" = "\"%@ - Suivi des dépenses\"\n\nTéléchargez maintenant gratuitement:";
+
+/* Sections */
+"general_setting_section_title" = "Général";
+"upgrade_setting_section_title" = "Version complète";
+"support_setting_section_title" = "Assistance";
+"legal_setting_section_title" = "Juridique";
+"data_setting_section_title" = "Données";
+"miscellaneous_setting_section_title" = "Divers";
+
+/* Footer */
+"upgrade_setting_footer_title" = "Merci d'utiliser la version complète !";
+"support_setting_footer_title" = "Des questions ou des idées ? Écrivez un message ou une critique positive dans l'App Store ! Vos commentaires sont très motivants et aident à améliorer l'app.";
+
+/* Buttons */
+"share_budgetbook_button" = "Partager le livre budgétaire";
+"show_participants_button" = "Afficher les participants";
+"cloud_not_available_button" = "iCloud non disponible";
+"upgrade_show_all_features_button" = "Toutes les fonctionnalités";
+"reset_app_button" = "Réinitialiser l'app";
+
+/* General Settings */
+"accounts_setting_title" = "Gérer les comptes";
+"categories_setting_title" = "Gérer les catégories";
+"payees_setting_title" = "Gérer les bénéficiaires";
+"tags_setting_title" = "Gérer les étiquettes";
+"reminders_setting_title" = "Rappels";
+
+/* Upgrade Settings */
+"upgrade_setting_title" = "Déverrouiller la version complète 🚀";
+"upgrade_setting_description" = "Déverrouillez la version complète maintenant et bénéficiez de fonctionnalités supplémentaires !";
+
+/* Support Settings */
+"share_app_setting_title" = "Informer les amis";
+"translate_app_setting_title" = "Aide à la traduction";
+"help_center_setting_title" = "Centre d'aide (🇬🇧)";
+"feature_roadmap_setting_title" = "Suggérer une fonctionnalité";
+"rate_app_setting_title" = "Évaluer l'app";
+
+/* Legal Settings */
+"imprint_setting" = "A propos";
+"privacy_setting" = "Politique de confidentialité";
+"terms_of_use_setting" = "Conditions d'utilisation";
+"acknowledgements_setting" = "Remerciements";
+"licenses_setting" = "Licences";
+
+"acknowledgements_setting_info_title" = "Description";
+"acknowledgements_setting_info_description" = "Vous trouverez ci-dessous une liste de personnes qui ont aidé l'app d'une manière ou d'une autre.";
+"translation_acknowledgement" = "Traduction (%@)";
+"licenses_setting_info_title" = "Description";
+"licenses_setting_info_description" = "Vous trouverez ci-dessous une liste de toutes les licences tierces utilisées par l'app.";
+
+/* Data Settings */
+"sync_and_data_setting" = "Synchronisation & données";
+"sync_and_data_setting_short" = "Synchro & données";
+"recurring_transactions_setting" = "Transactions récurrentes";
+
+/* Miscellaneous Settings */
+"new_features_setting" = "Nouvelles fonctionnalités";
+"testflight_beta_setting" = "TestFlight beta";
+"apple_pay_setting" = " Pay intégration";
+"appearance_setting" = "Personnalisation";
+"advanced_setting" = "Plus de réglages";
+
+/* Contact Developer */
+"mail_subject_type_contact" = "Contact";
+"mail_subject_type_support" = "Support";
+"mail_subject_type_feedback" = "Feedback";
+"mail_subject_type_translate" = "Translate";
+"mail_subject_type_discount" = "Discount";
+
+"alert_contact_developer_title" = "Sur quoi porte votre demande ?";
+"alert_contact_developer_feature_request" = "💡 Suggérer une fonctionnalité";
+"alert_contact_developer_bug_report" = "🐞 Rapport de bug";
+"alert_contact_developer_other" = "📬 Autre (e-mail)";
+
+"contact_developer_mail_subject" = "%@: %@%@";
+"contact_developer_mail_subject_full_version" = " (full version)";
+"contact_developer_mail_message" = "
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+<b>Support Information:</b>
+</br>
+<u>General:</u></br>
+- Device: %@</br>
+- iOS version: %@</br>
+- Language: %@</br>
+- Currency: %@</br>
+- Time zone: %@</br>
+</br>
+<u>App Specific:</u></br>
+- App version: %@</br>
+- Build: %@</br>
+</br>
+<u>In-App Purchases:</u></br>
+- User ID: %@</br>
+- Active: %@</br>
+- Purchases: %@";
+"contact_developer_mail_no_purchases" = "None";
+
+/* Appearance Settings */
+"appearance_setting_info_title" = "Description";
+"appearance_setting_info_description" = "Personnalisez l'app à votre guise en modifiant son apparence ou la couleur d'accentuation.";
+"appearance_ui_style_setting_section_title" = "Thème";
+"appearance_ui_style_setting_footer_title" = "Modifier l'apparence de l'app.";
+"appearance_accent_color_setting_section_title" = "Couleur d'accentuation";
+"appearance_accent_color_setting_footer_title" = "Modifie la couleur des boutons et autres commandes de l'app.";
+"appearance_app_icon_setting_section_title" = "Icône de l'app";
+
+/* Sync & Data Settings */
+"sync_and_data_setting_info_title" = "Description";
+"sync_and_data_setting_info_description" = "Obtenez un aperçu de l'état actuel de la synchronisation et importez ou exportez des données à l'aide d'un fichier CSV.";
+
+"sync_and_data_cloud_setting_section_title" = "iCloud";
+"sync_and_data_cloud_setting_footer_title" = "Indique si la synchronisation avec iCloud a réussi ou si une erreur s'est produite.";
+"sync_and_data_setting_cloud_sync_status_title" = "Statut de synchronisation";
+"backup_setting_section_title" = "Sauvegardes";
+"backup_setting_footer_title" = "Gérez vos sauvegardes et vos paramètres de sauvegarde.";
+"backup_setting_manage_backups_title" = "Gérer";
+"sync_and_data_csv_setting_section_title" = "Données CSV";
+"sync_and_data_csv_setting_footer_title" = "Importez ou exportez vos transactions à l'aide d'un fichier CSV.";
+"sync_and_data_setting_csv_import_title" = "Importer";
+"sync_and_data_setting_csv_export_title" = "Exporter";
+"sync_and_data_setting_get_csv_template_title" = "Télécharger le modèle";
+
+"clear_cache_button" = "Vider le cache";
+"cache_setting_footer_title" = "Remarque : Vider le cache supprime tous les fichiers du répertoire de documents de l'app (y compris les sauvegardes).";
+
+"alert_csv_import_successful_title" = "Importation réussie 🎉";
+"alert_csv_import_successful_message" = "Au total, %d transactions sur %d ont été importées.%@";
+"alert_csv_import_skipped_message" = " Ainsi, %d transactions ont été ignorées.";
+"alert_csv_import_error_message" = "Impossible d'importer %d transactions sur %d avec succès.\n\n%@";
+"alert_csv_import_error_reason_field_message" = "Veuillez vérifier les champs suivants dans votre fichier CSV: %@.";
+
+"alert_csv_export_successful_title" = "Exportation réussie 🎉";
+"alert_csv_export_successful_message" = "Vos données ont été exportées avec succès vers \"%@\".";
+
+/* Cloud Settings */
+"cloud_setting_info_title" = "Description";
+"cloud_setting_info_description" = "La vue suivante fournit un aperçu plus détaillé de l'état actuel de la synchronisation iCloud et aide au dépannage.";
+
+"cloud_setting_network_status_title" = "Réseau";
+"cloud_setting_network_status_success_value" = "Connexion Internet disponible";
+"cloud_setting_network_status_error_value" = "Pas de connexion Internet";
+"cloud_setting_account_status_title" = "Compte iCloud";
+"cloud_setting_account_status_success_value" = "Connecté à iCloud";
+"cloud_setting_account_status_error_value" = "Non connecté à iCloud";
+"cloud_setting_upload_status_title" = "Dernier téléchargement";
+"cloud_setting_download_status_title" = "Dernier téléchargement";
+"cloud_setting_number_of_transactions_title" = "Transactions";
+"cloud_setting_number_of_transactions_value" = "Sur l'appareil : %d\nDans iCloud : %d";
+"cloud_setting_number_of_transactions_in_progress_title" = "Veuillez patienter...";
+"cloud_setting_number_of_transactions_error_title" = "Erreur";
+
+/* Backup Settings */
+"backup_setting_info_title" = "Description";
+"backup_setting_info_description" = "Lorsque cette option est activée, Budget Flow sauvegarde régulièrement vos données afin que vous puissiez restaurer l'app à un état antérieur à tout moment.";
+
+"backup_general_setting_section_title" = "Général";
+"backup_recent_backups_setting_section_title" = "Sauvegardes récentes";
+"backup_setting_use_automatic_backups_title" = "Sauvegarde automatique";
+"backup_setting_create_backup_title" = "Créer une sauvegarde";
+
+"alert_restore_backup_title" = "Restaurer cette sauvegarde ?";
+"alert_restore_backup_message" = "La restauration des sauvegardes est actuellement une fonctionnalité expérimentale. Elle supprimera vos données actuelles et les écrasera avec la sauvegarde sélectionnée.\n\nAprès cela, l'app sera fermée automatiquement.\n\nAttention: Ce processus est irréversible !";
+"alert_restore_backup_button" = "Restaurer la sauvegarde";
+
+/* Advanced Settings */
+"advanced_setting_info_title" = "Description";
+"advanced_setting_info_description" = "Effectuez d'autres réglages pour configurer l'app.";
+
+"advanced_security_setting_section_title" = "Sécurité";
+"advanced_view_setting_section_title" = "Afficher";
+"advanced_sidebar_setting_section_title" = "Barre latérale";
+"advanced_transaction_setting_section_title" = "Transactions";
+"advanced_other_setting_section_title" = "Autre";
+
+"advanced_setting_use_passcode_title" = "Utiliser un code d'accès";
+"advanced_setting_use_title" = "Utiliser %@";
+"advanced_setting_auto_lock_title" = "Exiger le code";
+
+"advanced_setting_chart_type_title" = "Type de graphique";
+"advanced_setting_show_frequently_used_items_title" = "Afficher les catégories et tags fréquents";
+"advanced_setting_show_frequently_used_items_description" = "Afficher les catégories et balises fréquemment utilisées dans la liste de sélection lors de la création et de la modification de transactions.";
+"advanced_setting_show_notes_in_title_title" = "Afficher les notes au lieu de la catégorie";
+"advanced_setting_show_notes_in_title_description" = "Afficher le contenu des notes au lieu du nom de la catégorie pour les transactions.";
+"advanced_setting_start_day_of_month_title" = "Jour de début du mois";
+"advanced_setting_start_day_of_month_description" = "Spécifiez le jour de début de chaque mois afin que les rapports, les transactions et les budgets soient calculés de manière appropriée.";
+"advanced_setting_configure_transaction_title_title" = "Titre de la transaction";
+"advanced_setting_configure_transaction_subtitle_title" = "Sous-titre de la transaction";
+
+"advanced_setting_configure_transaction_title_info_title" = "Description";
+"advanced_setting_configure_transaction_title_info_description" = "Définissez l'ordre des éléments à afficher dans le titre de la transaction. Si un élément est manquant, le suivant dans l'ordre est automatiquement utilisé.";
+
+"advanced_setting_show_accounts_in_sidebar_title" = "Afficher les comptes dans la barre latérale";
+"advanced_setting_show_accounts_in_sidebar_description" = "Afficher une liste de vos comptes dans la barre latérale.";
+"advanced_setting_group_accounts_in_sidebar_title" = "Regrouper les comptes dans la barre latérale";
+"advanced_setting_group_accounts_in_sidebar_description" = "Regrouper vos comptes dans la barre latérale par type.";
+"advanced_setting_show_categories_in_sidebar_title" = "Afficher les catégories dans la barre latérale";
+"advanced_setting_show_categories_in_sidebar_description" = "Afficher une liste de vos catégories dans la barre latérale.";
+"advanced_setting_group_categories_in_sidebar_title" = "Regrouper les catégories dans la barre latérale";
+"advanced_setting_group_categories_in_sidebar_description" = "Regrouper vos catégories dans la barre latérale par dossier.";
+
+"advanced_setting_select_time_automatically_title" = "Sélection automatique de l'heure";
+"advanced_setting_select_time_automatically_description" = "Sélectionner automatiquement l'heure actuelle pour les nouvelles transactions.";
+"advanced_setting_select_location_automatically_title" = "Sélection automatique de l'emplacement";
+"advanced_setting_select_location_automatically_description" = "Sélectionner automatiquement l'emplacement actuel pour les nouvelles transactions.";
+"advanced_setting_save_photos_in_library_title" = "Enregistrer les photos dans la bibliothèque";
+"advanced_setting_save_photos_description" = "Enregistrer automatiquement les photos capturées dans la photothèque.";
+"advanced_setting_consider_pending_items_title" = "Réservez toutes les transactions";
+"advanced_setting_consider_pending_items_description" = "Inclure les transactions en attente lors du calcul des soldes des comptes, des soldes, des totaux, etc.";
+
+"advanced_setting_enable_exact_times_title" = "Entrez les heures exactes";
+"advanced_setting_enable_exact_times_description" = "Sélectionnez les heures exactes à l'aide du compteur de minutes pour les transactions (par exemple, 9h41).";
+"advanced_setting_reverse_keyboard_title" = "Clavier inversé";
+"advanced_setting_reverse_keyboard_description" = "Inverse la disposition du clavier numérique à la verticale pour correspondre à celle d'une calculatrice classique.";
+"advanced_setting_enable_haptic_keyboard_title" = "Commentaires sur le clavier";
+"advanced_setting_enable_haptic_keyboard_description" = "Obtenez un retour haptique lors de la saisie de montants monétaires à l'aide du clavier.";
+"advanced_setting_enable_live_activities_title" = "Activités en direct";
+"advanced_setting_enable_live_activities_description" = "Consultez votre solde actuel et bien plus encore sur l'île dynamique ainsi que sur l'écran de verrouillage.";
+"advanced_setting_ask_for_feedback_title" = "Demander des commentaires";
+"advanced_setting_ask_for_feedback_description" = "Autoriser l'app à vous demander occasionnellement des commentaires.";
+
+/* Cloud Sync Status */
+"cloud_sync_status_not_logged_in" = "Non connecté à iCloud";
+"cloud_sync_status_not_started" = "Non synchronisé";
+"cloud_sync_status_no_network" = "Pas de connexion Internet";
+"cloud_sync_status_in_progress" = "Synchronisation...";
+"cloud_sync_status_succeeded" = "Entièrement synchronisé";
+"cloud_sync_status_quota_exceeded" = "Votre stockage iCloud est plein. Veuillez libérer de l'espace et réessayer.";
+"cloud_sync_status_limit_exceeded" = "Vous avez atteint la limite de téléchargement/téléversement iCloud. Veuillez patienter un moment et réessayer plus tard.";
+"cloud_sync_status_network_failure" = "Une erreur réseau est survenue. Veuillez réessayer plus tard.";
+"cloud_sync_status_service_unavailable" = "iCloud est temporairement indisponible. Veuillez réessayer plus tard.";
+"cloud_sync_status_request_rate_limited" = "Vous avez effectué trop de demandes à iCloud en peu de temps. Veuillez patienter un moment et réessayer plus tard.";
+"cloud_sync_status_request_unknown_error" = "Une erreur inconnue est survenue. Veuillez réessayer plus tard.";
+
+/* Alert Views */
+"alert_share_app_type_selection_title" = "Que souhaitez-vous partager ?";
+"alert_share_app_type_selection_link_button" = "Lien";
+"alert_share_app_type_selection_qrcode_button" = "Code QR";
+
+"alert_reset_app_title" = "Réinitialiser l'app";
+"alert_reset_app_message" = "Voulez-vous vraiment réinitialiser l'app aux réglages par défaut ? Cela effacera définitivement toutes vos données stockées sur cet appareil et iCloud.";
+
+"alert_error_title" = "Une erreur s'est produite 😢";
+
+/* Social Media */
+"follow_on_social_media" = "Follow \"%@\" on Social Media";
+
+/* Copyright */
+"version" = "Version";
+"developed_by" = "Développé par %@ 👨🏻‍💻";
+
+
+/* MARK: - Passcode View */
+/* Titles */
+"passcode_view_enter_passcode_title" = "Entrez le code d'accès";
+"passcode_view_create_passcode_title" = "Créer un mot de passe";
+"passcode_view_confirm_passcode_title" = "Confirmer le code";
+"passcode_view_authenticate_reason" = "Authentification utilisateur";
+
+/* Alert Views */
+"alert_set_passcode_type_title" = "Choisir l'option de code d'accès";
+
+
+/* MARK: - Welcome View */
+/* Titles */
+"welcome_view_title" = "Bienvenue à";
+"privacy_policy_title" = "Politique de confidentialité";
+
+/* Sections */
+"welcome_view_overview_section_title" = "Résumé";
+"welcome_view_legal_documents_section_title" = "Plus d'informations";
+
+/* Overview */
+"privacy_overview_datastorage_title" = "Stockage sécurisé des données";
+"privacy_overview_datastorage_description" = "Vos finances sont privées – et elles doivent le rester. C'est pourquoi vos données sont stockées exclusivement sur votre appareil ou (en option) dans votre iCloud personnel.";
+
+"privacy_overview_privacy_control_title" = "Vous avez le contrôle";
+"privacy_overview_privacy_control_description" = "Qu'il s'agisse de vos données enregistrées, de l'utilisation de votre emplacement ou de l'accès à votre caméra, vous avez toujours le contrôle. Par exemple, vous pouvez facilement supprimer vos données en réinitialisant l'app et les autorisations d'accès de l'app s'ajustent à tout moment.";
+
+/* Footer */
+"welcome_view_value_description" = "Gérez facilement toutes vos finances: Entrez votre budget, obtenez des informations et suivez tous vos revenus et dépenses.";
+"welcome_view_agreement_description" = "En cliquant sur \"Accepter\", vous acceptez le %@.";
+
+
+/* MARK: - New Features View */
+/* Titles */
+"new_features_view_title" = "Nouvelles fonctionnalités";
+
+/* Buttons */
+"new_features_view_rate_app_button" = "Évaluer l'app";
+"new_features_view_close_button" = "Peut-être plus tard";
+
+
+/* MARK: - Rate App View */
+/* Titles */
+"purchase_success_view_title" = "Merci !";
+
+/* Messages */
+"purchase_success_view_info_message" = "Si vous aimez l'app, veuillez écrire une critique positive dans l'App Store. Cela aide vraiment beaucoup et nous motive à améliorer continuellement l'app. 😊";
+"purchase_success_view_info_message_info" = "\n\nInfo : Lorsque tu passes d'un abonnement à un achat à vie, n'oublie pas d'annuler ton abonnement existant par la suite.";
+
+/* Buttons */
+"purchase_success_view_rate_app_button" = "Évaluer l'app";
+"purchase_success_view_close_button" = "Peut-être plus tard";
+
+
+/* MARK: - Upgrade View */
+/* Titles */
+"upgrade_view_title" = "Version complète";
+
+/* Info */
+"upgrade_info_description" = "Cette fonctionnalité n'est disponible que dans la version complète:";
+"upgrade_sharing_info_description" = "Utilisable avec jusqu'à cinq personnes";
+
+/* Discount */
+"upgrade_discount_title" = "Offre spéciale 🌟";
+"upgrade_discount_multiple_title" = "Économisez jusqu'à %d %% !";
+"upgrade_discount_montly_subscription_title" = "Économisez %d %% sur l'abonnement mensuel !";
+"upgrade_discount_yearly_subscription_title" = "Économisez %d %% sur l'abonnement annuel !";
+"upgrade_discount_lifetime_purchase_title" = "Économisez %d %% sur un achat unique !";
+"upgrade_discount_ends_in" = "Fin de";
+
+/* Sections */
+"upgrade_info_section_title" = "Infos";
+"upgrade_reviews_section_title" = "Avis";
+
+/* Messages */
+"apply_for_discount_text" = "Êtes-vous étudiant ou avez-vous des besoins financiers ?\nCliquez ici pour demander une réduction.";
+"apply_for_discount_highlighted_text" = "Cliquez ici pour demander une réduction.";
+
+/* Features */
+"upgrade_features" = "Fonctionnalités";
+"upgrade_more_features" = "Plus de fonctionnalités";
+"upgrade_features_description" = "Voici toutes les fonctionnalités qui seront déverrouillées avec l'achat de la version complète:";
+"upgrade_feature_unlimited_accounts_title" = "Comptes supplémentaires";
+"upgrade_feature_unlimited_accounts_description" = "Créez des comptes supplémentaires et attribuez-leur des transactions pour un meilleur aperçu de vos revenus et dépenses.";
+"upgrade_feature_unlimited_categories_and_tags_title" = "Catégories et tags illimités";
+"upgrade_feature_unlimited_categories_and_tags_description" = "Créez un nombre illimité de catégories et de étiquettes que vous pouvez ajouter aux transactions pour mieux les organiser.";
+"upgrade_feature_extended_analyses_title" = "Analyses étendues";
+"upgrade_feature_extended_analyses_description" = "Bénéficiez d'analyses supplémentaires et d'une prévision étendue des futurs soldes et transactions de vos comptes.";
+"upgrade_feature_unlimited_budgetbooks_title" = "Plusieurs livres budgétaires";
+"upgrade_feature_unlimited_budgetbooks_description" = "Créez plusieurs livres de budget afin que, par exemple, plusieurs personnes puissent utiliser chacune le leur sur un appareil, ou si vous souhaitez partager un livre de budget séparé (par exemple pour des vacances).";
+"upgrade_feature_security_title" = "Données sécurisées";
+"upgrade_feature_security_description" = "Protégez vos données avec %@.";
+"upgrade_feature_security_description_passcode" = "Protégez vos données en créant un code d'accès";
+"upgrade_feature_security_description_biometric" = " ou utilisez %@";
+"upgrade_feature_currency_converter_title" = "Convertisseur de devises";
+"upgrade_feature_currency_converter_description" = "Utilisez le convertisseur de devises intégré pour convertir automatiquement les montants dans l'une des plus de 150 devises étrangères.";
+"upgrade_feature_customization" = "Personnalisation";
+"upgrade_feature_customization_description" = "Choisissez parmi plusieurs couleurs d'accentuation et icônes pour personnaliser l'app à votre guise.";
+"upgrade_feature_sharedbudget_books_title" = "Partager les livres budgétaires";
+"upgrade_feature_sharedbudget_books_description" = "Partagez vos livres budgétaires, y compris les comptes, les catégories, les transactions et les budgets pour collaborer avec une ou plusieurs personnes.";
+"upgrade_feature_receipt_scanner_title" = "Scanner les reçus";
+"upgrade_feature_receipt_scanner_description" = "Utilisez le scanner intégré pour numériser les reçus et reconnaître automatiquement le montant et le nom du marchand.";
+"upgrade_feature_widgets_title" = "Widgets d'accueil et d'écran de verrouillage";
+"upgrade_feature_widgets_description" = "Avec l'aide des widgets, vous pouvez voir vos revenus et dépenses actuels, les soldes de vos comptes et bien plus en un coup d'œil sans avoir à ouvrir l'app. Pour prévisualiser les widgets, modifier votre écran d'accueil ou de verrouillage, ouvrez le \"Ajouter un widget\", puis sélectionnez cette app.";
+"upgrade_feature_reminders_title" = "Créer des rappels";
+"upgrade_feature_reminders_description" = "Créez des rappels pour vos transactions planifiées afin de recevoir des notifications push (également hors ligne).";
+"upgrade_feature_csv_title" = "Importation et exportation CSV";
+"upgrade_feature_csv_description" = "Importez et exportez vos transactions à l'aide d'un fichier CSV pour transférer des données depuis votre banque ou d'autres apps.";
+"upgrade_feature_remove_ads_title" = "Pas de publicités";
+"upgrade_feature_remove_ads_description" = "Vous ne verrez plus de publicités pour la version complète dans l'app.";
+"upgrade_feature_support_title" = "Prendre en charge le développement";
+"upgrade_feature_support_description" = "Vous soutenez un jeune développeur et ainsi le développement continu de l'app ! 😊";
+
+/* Reviews */
+"user_review_title_de" = "Application géniale";
+"user_review_description_de" = "L'app est très bien conçue et fonctionnelle. Elle répond à tous mes besoins et le support est très rapide et utile. Je ne peux que la recommander.";
+"user_review_title_hr" = "Belle app";
+"user_review_description_hr" = "Application riche en fonctionnalités, avec une interface utilisateur facile à utiliser. J'ai essayé de nombreuses alternatives sur iOS, aucune d'elles ne répondait à mes besoins comme cette app. Ça vaut le coup.";
+"user_review_title_bg" = "Support exceptionnel";
+"user_review_description_bg" = "Excellente app avec un support client exceptionnel. Et son prix est très raisonnable pour la qualité du logiciel.";
+"user_review_title_us" = "Excellente app jusqu'à présent";
+"user_review_description_us" = "Grand fan du fait qu'il s'agit d'une app disponible sur iOS, iPad et macOS afin que je puisse la mettre à jour n'importe où. C'est également très agréable de voir qu'il n'y a pas de compte requis ni de collecte de données, ce qui semble rare de nos jours mais important à moi pour les demandes de financement.";
+"user_review_title_uk" = "C'est celui-là !";
+"user_review_description_uk" = "Je recherche cette app depuis plus de deux ans. Je voulais un gestionnaire financier par téléphone conçu autour d'un bel écran de présentation, permettant une saisie facile de nouvelles données et la possibilité d'accéder à plus d'informations. en cas de besoin  ! Essayez-le.";
+"user_review_title_es" = "Meilleure app de budgétisation";
+"user_review_description_es" = "Tout simplement la meilleure que j'ai essayée. Je pense que c'est encore une nouvelle app mais vous pouvez certainement voir son potentiel.";
+"user_review_title_fr" = "Superbe app très complète";
+"user_review_description_fr" = "Cela fait maintenant plusieurs mois que j’utilise l’app et je la trouve franchement hyper réussie. Bravo pour le travail et hâte de voir à quoi ressemblera l’app d’ici quelques mois :)";
+"user_review_title_it" = "Tout simplement génial";
+"user_review_description_it" = "Enfin. Je cherchais une telle solution depuis des années maintenant. Utilisez-la avec le déclencheur de raccourci de transaction iOS, j'adore le design. Et j'aime la fonctionnalité de paiement unique. Continuez votre excellent travail !";
+"user_review_title_ch" = "Excellent support";
+"user_review_description_ch" = "Excellent support - résolution de problèmes rapide et simple. Je me sens pris au sérieux en tant qu'utilisateur.";
+"user_review_title_pl" = "Très agréable à utiliser";
+"user_review_description_pl" = "L'app est un excellent outil de suivi et de planification budgétaire que j'utilise au quotidien. De plus, le développeur est très attentif à sa communauté, malgré sa petite taille.";
+
+/* Products */
+"monthly_subscription_title" = "1";
+"yearly_subscription_title" = "12";
+"lifetime_purchase_title" = "∞";
+
+"monthly_subscription_subtitle" = "Mois";
+"yearly_subscription_subtitle" = "Mois";
+"lifetime_purchase_subtitle" = "Illimité";
+
+"product_discount_header_title" = "Épargne %d %%";
+
+/* Buttons */
+"upgrade_is_active_button" = "Actif";
+"upgrade_purchase_button" = "Acheter";
+"upgrade_subscribe_button" = "S'abonner";
+"upgrade_free_trial_button" = "Essai gratuit";
+"upgrade_restore_button" = "Restaurer les achats";
+"upgrade_restore_in_progress_button" = "Veuillez patienter...";
+
+"subscription_button_info_text" = "Annulable à tout moment.";
+"subscription_trial_button_info_text" = "%d %@ d'essai gratuit. Puis %@ par %@.";
+"lifetime_purchase_button_info_text" = "Déverrouille la version complète une fois (sans abonnement).";
+
+/* Alert Views */
+"alert_upgrade_view_purchase_success_title" = "Achat réussi 🎉";
+"alert_upgrade_view_purchase_success_message" = "Merci pour votre soutien ! 😊";
+"alert_upgrade_view_purchase_success_message_info" = "\n\nRemarque : Si vous passez d'un abonnement à l'achat unique, n'oubliez pas d'annuler votre abonnement précédent par la suite.";
+"alert_upgrade_view_purchase_error_message" = "Votre achat n'a pas pu être finalisé avec succès.";
+"alert_upgrade_view_purchase_error_store_problem_message" = "Un problème est survenu avec l'App Store.\n\nRemarque : Parfois, l'achat ne peut fonctionner que si vous confirmez avec votre mot de passe au lieu de Touch ID / Face ID.\n\nPar exemple, si vous utilisez Face ID, il vous suffit de couvrir la caméra avant et de réessayer pour voir le dialogue de mot de passe.";
+"alert_upgrade_view_purchase_error_not_allowed_message" = "Les achats ne sont pas autorisés sur cet appareil.";
+"alert_upgrade_view_purchase_error_invalid_message" = "Vérifiez votre mode de paiement et réessayez plus tard. Si l'erreur persiste, veuillez contacter l'assistance.";
+"alert_upgrade_view_purchase_error_network_message" = "Vérifiez votre connexion Internet et réessayez plus tard. Si l'erreur persiste, veuillez contacter l'assistance.";
+
+"alert_upgrade_view_load_products_error_message" = "Les produits n'ont pas pu être chargés. Vérifiez votre connexion Internet et réessayez plus tard. Si l'erreur persiste, veuillez contacter l'assistance.";
+
+"alert_upgrade_view_restore_success_title" = "Achats restaurés";
+"alert_upgrade_view_restore_success_message" = "Vos achats ont été restaurés avec succès ! 😊";
+"alert_upgrade_view_restore_error_message" = "Vos achats n'ont pas pu être restaurés. Veuillez réessayer plus tard.";
+"alert_upgrade_view_restore_nothing_to_do_title" = "Aucun achat disponible 😢";
+"alert_upgrade_view_restore_nothing_to_do_message" = "Aucun achat à restaurer n'a été trouvé.";
+
+
+/* MARK: - Upgrade FAQ View */
+/* Titles */
+"upgrade_faq_view_title" = "FAQ";
+
+/* Sections */
+"upgrade_faq_general_section_title" = "Général";
+"upgrade_faq_purchases_section_title" = "Achats et abonnements";
+
+/* Items */
+"upgrade_faq_about_title" = "Qu'est-ce que le Budget Flow";
+"upgrade_faq_about_value" = "Budget Flow est une app de suivi budgétaire moderne et facile à utiliser pour tous ceux qui souhaitent suivre leurs finances et gérer efficacement leurs dépenses.";
+"upgrade_faq_developer_title" = "Qui a développé l'application ?";
+"upgrade_faq_developer_value" = "Budget Flow a été lancé en tant que projet parallèle et a depuis été entièrement conçu, développé et maintenu par moi, Fabian Hasse. Je suis un développeur de logiciels enthousiaste avec plus de 10 ans d'expérience et je travaille avec beaucoup de passion pour développer la meilleure application de budgétisation et de suivi des dépenses de l'App Store.";
+"upgrade_faq_free_use_title" = "L'app peut-elle également être utilisée gratuitement ?";
+"upgrade_faq_free_use_value" = "Oui, vous pouvez utiliser les fonctions de base de l'app, telle que la création de transactions, entièrement gratuitement.\n\nDe plus, l'app propose une période d'essai pour la version complète afin que vous puissiez l'essayer à l'avance avant de décider d'acheter ou de vous abonner à la version complète.";
+"upgrade_faq_security_title" = "Mes données sont-elles sécurisées ?";
+"upgrade_faq_security_value" = "Vos finances sont privées – et elles doivent le rester. C'est pourquoi vos données sont stockées exclusivement sur votre appareil ou (en option) dans votre iCloud personnel.";
+"upgrade_faq_why_subscription_title" = "Pourquoi la version complète est-elle proposée sous forme d'abonnement ?";
+"upgrade_faq_why_subscription_value" = "Notre objectif est de développer une app de haute qualité qui vous offre en tant qu'utilisateur de nouvelles fonctionnalités et améliorations sur une base régulière. Cependant, pour atteindre cet objectif, l'app a besoin de revenus continus pour se financer et être économiquement viable.\n\nCe que beaucoup ignorent: le développement et la maintenance d'une app prennent beaucoup de temps. Dans le cas de Budget Flow, par exemple, il a fallu près de deux ans et plusieurs milliers d'heures de travail, de l'idée au développement et aux tests, avant que la première version puisse être publiée sur l'App Store.\n\nEn tant que client, vous bénéficiez notamment des mises à jour et des améliorations régulières grâce au modèle d'abonnement, ainsi qu'un bon support pour continuellement vous satisfaire. Vous avez également la possibilité d'essayer l'app gratuitement à l'avance pour vous assurer qu'elle répond à vos besoins et modifier ou annuler l'abonnement à tout moment si vous changez d'avis.\n\nGlobalement, un modèle d'abonnement vous offre de nombreux avantages en tant que un client et une meilleure expérience utilisateur grâce à des mises à jour et un support continus par rapport à un achat unique. À long terme, un achat unique ne serait malheureusement pas viable, car ce modèle commercial oblige les nouveaux utilisateurs à continuer d'acheter l'app pour assurer la poursuite du développement.\n\nDonc, si vous aimez l'app, nous serions très heureux que vous souteniez notre travail afin que nous puissions continuer à vous offrir encore plus de fonctionnalités à l'avenir !❤️";
+"upgrade_faq_multiple_devices_title" = "Puis-je utiliser la version complète sur plusieurs appareils ?";
+"upgrade_faq_multiple_devices_value" = "Oui, vous pouvez utiliser la version complète de Budget Flow sur tous vos appareils Apple avec le même identifiant Apple. Étant donné que l'app est synchronisée via iCloud, vous pouvez facilement basculer entre vos appareils et avoir toujours accès à vos données financières et réglages.";
+"upgrade_faq_multiple_people_title" = "Puis-je utiliser la version complète avec plusieurs personnes ?";
+"upgrade_faq_multiple_people_value" = "Oui, vous pouvez partager l'achat unique ainsi que l'abonnement de la version complète avec jusqu'à cinq personnes au sein d'un groupe familial. Il vous suffit d'activer le partage familial dans les réglages système et d'ajouter les autres personnes du groupe à inviter.";
+"upgrade_faq_cancel_subscription_title" = "Comment puis-je annuler mon abonnement ?";
+"upgrade_faq_cancel_subscription_value" = "Vous pouvez annuler votre abonnement à tout moment en utilisant votre identifiant Apple dans les Préférences Système.";
+"upgrade_faq_subscription_data_loss_title" = "Mes données seront-elles perdues si j'annule mon abonnement ?";
+"upgrade_faq_subscription_data_loss_value" = "Non. Tout ce que vous créez en vous abonnant à la version complète sera toujours disponible si vous revenez à la version gratuite.";
+"upgrade_faq_refund_title" = "Comment puis-je obtenir un remboursement ?";
+"upgrade_faq_refund_value" = "Les paiements effectués via l'App Store ne sont remboursables que par Apple. Pour recevoir un remboursement, vous devez contacter l'assistance Apple dans les 14 jours suivant l'achat.";
+"upgrade_faq_switch_plan_title" = "Est-il possible de passer ultérieurement d'un abonnement à un achat unique ?";
+"upgrade_faq_switch_plan_value" = "Oui, vous pouvez passer d'un abonnement actif à un achat unique à tout moment en achetant le produit correspondant dans l'app. Cependant, n'oubliez pas d'annuler votre abonnement précédent afin de ne pas payer plus de une fois.";
+
+
+/* MARK: - User Feedback */
+"user_feedback" = "votre avis";
+
+/* Buttons */
+"user_feedback_message_title" = "Bonjour, voici Fabian, le développeur de Budget Flow. Avez-vous un moment pour donner votre avis sur l'app ? 😊";
+
+/* Alert Views */
+"alert_user_feedback_title" = "Aimez-vous l'app ?";
+
+"alert_user_feedback_like_title" = "Merci ! 🎉";
+"alert_user_feedback_like_message" = "Si vous aimez l'app, veuillez écrire une critique positive dans l'App Store. Cela aide vraiment beaucoup et nous motive à améliorer continuellement l'app. 😊";
+"alert_user_feedback_rate_app_button" = "Évaluer l'app";
+"alert_user_feedback_maybe_later_button" = "Peut-être plus tard";
+
+"alert_user_feedback_dislike_title" = "Des suggestions ? 🤔";
+"alert_user_feedback_dislike_message" = "Je suis désolé d'apprendre que vous n'aimez pas encore l'app. Pour changer cela, faites-moi part de vos idées et suggestions d'amélioration. 😊";
+"alert_user_feedback_contact_developer_button" = "Contacter le développeur";
+
+
+/* MARK: - Progress View */
+"progress_view_load_images_title" = "Chargement des photos...";
+"progress_view_load_images_subtitle" = "Remarque : Si vous utilisez la photothèque de photos iCloud, le téléchargement de vos photos peut prendre un certain temps.";
+"progress_view_load_documents_title" = "Chargement des documents...";
+"progress_view_load_documents_subtitle" = "Info : Si vous utilisez iCloud Drive, le téléchargement de vos documents peut prendre un certain temps.";
+"progress_view_import_csv_title" = "Importation de données...";
+"progress_view_import_csv_subtitle" = "Veuillez patienter...";
+
+
+/* MARK: - Widgets */
+"chart_widget_title" = "Graphique";
+"chart_widget_description" = "Ce widget affiche un graphique des soldes de vos comptes, votre solde actuel ou une ventilation de vos revenus et dépenses pour la période sélectionnée.";
+
+"overview_widget_title" = "Aperçu";
+"overview_widget_description" = "Ce widget affiche un aperçu des soldes de vos comptes, votre solde actuel ou un total des revenus et des dépenses pour la période sélectionnée.";
+
+"upcoming_transactions_widget_title" = "Planifié";
+"upcoming_transactions_widget_description" = "Ce widget vous montre votre prochaine transaction planifiée.";
+
+"budget_widget_title" = "Budget";
+"budget_widget_description" = "Ce widget vous montre un budget spécifique pour la période sélectionnée.";
+"budget_widget_no_budget_title" = "Aucun budget sélectionné";
+
+"suggestion_widget_title" = "Suggéré";
+"suggestion_widget_description" = "Ce widget vous montre une catégorie suggérée basée sur la date actuelle pour laquelle vous pouvez créer une nouvelle transaction.";
+
+"quick_actions_widget_title" = "Entrée rapide";
+"quick_actions_widget_description" = "Ce widget vous permet d'ajouter rapidement de nouvelles transactions.";
+"quick_actions_widget_new_title" = "Nouveau";
+
+"widget_upgrade_locked_title" = "Verrouillé";
+"widget_upgrade_necessary_title" = "Version complète";
+"widget_upgrade_necessary_title_long" = "Version complète requise";
+"widget_upgrade_necessary_description" = "Une mise à version complète est requise pour utiliser ce widget.";
+"widget_upgrade_necessary_highlighted_text" = "version complète";
+
+
+/* MARK: - Add Item Form View */
+/* Alert Views */
+/* Info */
+"alert_no_budget_book_selected_title" = "Aucun livre budgétaire sélectionné";
+"alert_upgrade_necessary_title" = "Version complète";
+"alert_upgrade_necessary_description" = "Pour utiliser cette fonctionnalité, vous devez mettre à niveau vers la version complète. Cela peut être activé dans l'app.";
+
+/* Dismiss */
+"alert_confirm_dismiss_title" = "Voulez-vous vraiment annuler vos modifications ?";
+
+/* Delete */
+"alert_confirm_delete_budgetbook_title" = "Voulez-vous vraiment supprimer ce livre budgétaire ? Tous les comptes, catégories, transactions et budgets associés seront également supprimés.";
+"alert_confirm_delete_budgetbook_button" = "Supprimer le livre budgétaire";
+"alert_confirm_delete_budgetbook_multiple_title" = "Voulez-vous vraiment supprimer tous les livres budgétaires sélectionnés ? Tous les comptes, catégories, transactions et budgets associés seront également supprimés.";
+"alert_confirm_delete_budgetbook_multiple_button" = "Supprimer les livres budgétaires";
+
+"alert_confirm_delete_account_title" = "Êtes-vous sûr de vouloir supprimer ce compte ? Toutes les transactions associées seront également supprimées.";
+"alert_confirm_delete_account_button" = "Supprimer le compte";
+"alert_confirm_delete_account_multiple_title" = "Êtes-vous sûr de vouloir supprimer tous les comptes sélectionnés ? Toutes les transactions associées seront également supprimées.";
+"alert_confirm_delete_account_multiple_button" = "Supprimer des comptes";
+
+"alert_confirm_delete_categorygroup_title" = "Voulez-vous vraiment supprimer ce dossier ? Toutes les catégories, transactions et budgets associés seront également supprimés (si nécessaire).";
+"alert_confirm_delete_categorygroup_button" = "Supprimer le dossier";
+"alert_confirm_delete_categorygroup_multiple_title" = "Voulez-vous vraiment supprimer tous les dossiers sélectionnés ? Toutes les catégories, transactions et budgets associés seront également supprimés (si nécessaire).";
+"alert_confirm_delete_categorygroup_multiple_button" = "Supprimer le dossier";
+
+"alert_confirm_delete_category_title" = "Voulez-vous vraiment supprimer cette catégorie ? Toutes les budgets associés seront également supprimés (si nécessaire).";
+"alert_confirm_delete_category_button" = "Supprimer la catégorie";
+"alert_confirm_delete_category_multiple_title" = "Voulez-vous vraiment supprimer toutes les catégories sélectionnées ? Toutes les transactions et tous les budgets associés seront également supprimés.";
+"alert_confirm_delete_category_multiple_button" = "Supprimer les catégories";
+
+"alert_confirm_delete_payee_title" = "Êtes-vous sûr de vouloir supprimer ce bénéficiaire ?";
+"alert_confirm_delete_payee_button" = "Supprimer le bénéficiaire";
+"alert_confirm_delete_payee_multiple_title" = "Voulez-vous vraiment supprimer tous les bénéficiaires sélectionnés ?";
+"alert_confirm_delete_payee_multiple_button" = "Supprimer les bénéficiaires";
+
+"alert_confirm_delete_tag_title" = "Êtes-vous sûr de vouloir supprimer cette balise ?";
+"alert_confirm_delete_tag_button" = "Supprimer la balise";
+"alert_confirm_delete_tag_multiple_title" = "Voulez-vous vraiment supprimer toutes les étiquettes sélectionnées ?";
+"alert_confirm_delete_tag_multiple_button" = "Supprimer les étiquettes";
+
+"alert_confirm_delete_reminder_title" = "Êtes-vous sûr de vouloir supprimer ce rappel ?";
+"alert_confirm_delete_reminder_button" = "Supprimer le rappel";
+"alert_confirm_delete_reminder_multiple_title" = "Êtes-vous sûr de vouloir supprimer tous les rappels sélectionnés ?";
+"alert_confirm_delete_reminder_multiple_button" = "Supprimer les rappels";
+
+"alert_confirm_delete_transaction_title" = "Êtes-vous sûr de vouloir supprimer cette transaction ?";
+"alert_confirm_delete_assigned_transaction_title" = "Voulez-vous également supprimer toutes les transactions attribuées ?";
+"alert_confirm_delete_transaction_button" = "Supprimer la transaction";
+"alert_confirm_delete_transaction_multiple_title" = "Êtes-vous sûr de vouloir supprimer toutes les transactions sélectionnées ?";
+"alert_confirm_delete_transaction_multiple_button" = "Supprimer les transactions";
+
+"alert_confirm_delete_imageitem_title" = "Êtes-vous sûr de vouloir supprimer cette photo ?";
+"alert_confirm_delete_imageitem_button" = "Supprimer la photo";
+"alert_confirm_delete_imageitem_multiple_title" = "Êtes-vous sûr de vouloir supprimer toutes les photos sélectionnées ?";
+"alert_confirm_delete_imageitem_multiple_button" = "Supprimer les photos";
+
+"alert_confirm_delete_documentitem_title" = "Êtes-vous sûr de vouloir supprimer ce document ?";
+"alert_confirm_delete_documentitem_button" = "Supprimer le document";
+"alert_confirm_delete_documentitem_multiple_title" = "Êtes-vous sûr de vouloir supprimer tous les documents sélectionnés ?";
+"alert_confirm_delete_documentitem_multiple_button" = "Supprimer des documents";
+
+"alert_confirm_delete_budget_title" = "Êtes-vous sûr de vouloir supprimer ce budget ?";
+"alert_confirm_delete_budget_button" = "Supprimer le budget";
+"alert_confirm_delete_budget_multiple_title" = "Êtes-vous sûr de vouloir supprimer tous les budgets sélectionnés ?";
+"alert_confirm_delete_budget_multiple_button" = "Supprimer les budgets";
+
+"alert_confirm_delete_backupitem_title" = "Êtes-vous sûr de vouloir supprimer sauvegarde ?";
+"alert_confirm_delete_backupitem_button" = "Supprimer la sauvegarde";
+
+"alert_confirm_delete_contra_entry_title" = "Cette transaction est un transfert. Souhaitez-vous également supprimer la contre-entrée ?";
+
+/* Updates */
+"alert_confirm_update_contra_entry_title" = "Cette transaction est un transfert. Souhaitez-vous également mettre à jour la contre-entrée ?";
+"alert_confirm_update_transaction_multiple_title" = "Cette transaction appartient à un groupe. Que voulez-vous exactement sauvegarder ?";
+"alert_confirm_update_transaction_single_button" = "Enregistrer uniquement celui-ci";
+"alert_confirm_update_transaction_all_button" = "Enregistrer celui-ci et les suivants";
+
+/* End Repetition */
+"alert_confirm_end_repetition_for_transaction_title" = "Êtes-vous sûr de vouloir arrêter de répéter cette transaction ?";
+"alert_confirm_end_repetition_for_transaction_button" = "Fin de la répétition";
+"alert_confirm_end_repetition_for_transaction_multiple_title" = "Êtes-vous sûr de vouloir que toutes les transactions sélectionnées cessent de se répéter ?";
+"alert_confirm_end_repetition_for_transaction_multiple_button" = "Fin de la répétition";
+
+/* Currency Selection */
+"alert_change_currency_or_exchange_rate_title" = "Que voulez-vous exactement changer ?";
+"alert_change_currency_button" = "Devise";
+"alert_change_exchange_rate_button" = "Taux de change";
+
+
+/* MARK: - Currency Selection View */
+/* Titles */
+"currency_selection_title" = "Devises";
+
+/* Info */
+"currency_selection_info_title" = "Description";
+"currency_selection_info_description" = "Choisissez la devise par défaut pour les transactions existantes et futures.";
+
+/* Sections */
+"default_currency_section_title" = "Devise par défaut";
+"suggested_currencies_section_title" = "Suggestions";
+
+/* Messages */
+"no_currencies_found_title" = "Aucune devise trouvée";
+"currency_selection_search_placeholder_message" = "Rechercher un nom de devise ou son abréviation";
+
+/* Buttons */
+"change_default_currency_button" = "Changer la devise par défaut";
+
+/* Alert Views */
+"alert_confirm_change_default_currency_title" = "Êtes-vous sûr de vouloir changer votre devise par défaut ? Cela convertira toutes les transactions existantes dans la nouvelle devise (%@).";
+"alert_confirm_change_default_account_currency_title" = "Êtes-vous sûr de vouloir changer la devise ? Cela convertira toutes les transactions existantes de ce compte dans la nouvelle devise (%@).";
+
+
+/* MARK: - Currency Conversion View */
+/* Titles */
+"currency_conversion_title" = "Taux de change";
+"currency_conversion_last_synchronization_title" = "Mise à jour: %@";
+"currency_conversion_synchronization_failed_title" = "Échec de la synchronisation";
+"currency_conversion_synchronization_failed_no_internet_title" = "Pas de connexion Internet";
+
+/* Sections */
+"source_currency_section_title" = "De";
+"target_currency_section_title" = "À";
+
+
+/* MARK: - Manage Item View */
+/* Titles */
+"manage_budgetbooks_title" = "Livres budgétaires";
+"manage_accounts_title" = "Comptes";
+"manage_categories_title" = "Catégories";
+"manage_category_groups_title" = "Dossiers";
+"manage_payees_title" = "Bénéficiaires";
+"manage_tags_title" = "Étiquettes";
+"manage_reminders_title" = "Rappels";
+
+/* Info */
+"manage_reminders_info_title" = "Description";
+"manage_reminders_info_description" = "Créez des rappels personnalisés ou ajoutez-les à de futures transactions pour que l'app vous avertisse.";
+
+/* Sections */
+"shared_by_you_budgetbooks_section_title" = "Partagé par vous";
+"shared_with_you_budgetbooks_section_title" = "Partagé avec vous";
+"not_shared_budgetbooks_section_title" = "Non partagé";
+"most_used_items_section_title" = "Les plus utilisés";
+"archived_items_section_title" = "Archivé";
+"own_reminders_section_title" = "Vos rappels";
+
+/* Messages */
+"no_budget_books_found_title" = "Aucun livre budgétaire trouvé";
+"no_budget_books_found_message" = "Cliquez sur le bouton \"+\" pour ajouter un nouveau livre budgétaire.";
+"no_budget_books_found_button_title" = "Nouveau livre budgétaire";
+"no_budget_books_found_cloud_sync_message" = "Les données existantes sont en cours de chargement depuis iCloud. Veuillez patienter un instant...\n\nVous pouvez également cliquer sur le bouton \"+\" pour ajouter un nouveau livre budgétaire.";
+"no_budget_books_found_cloud_sync_message_short" = "Les données existantes sont en cours de chargement depuis iCloud. Veuillez patienter un instant...";
+"budget_books_search_placeholder_message" = "Rechercher un nom de réservation budgétaire";
+
+"no_accounts_title" = "Aucun compte";
+"no_accounts_found_title" = "Aucun compte trouvé";
+"no_accounts_found_message" = "Cliquez sur le bouton \"+\" pour ajouter un nouveau compte.";
+"no_accounts_found_button_title" = "Nouveau compte";
+"accounts_search_placeholder_message" = "Rechercher par nom de compte ou type de compte";
+
+"no_categories_found_title" = "Aucune catégorie trouvée";
+"no_categories_found_message" = "Cliquez sur le bouton \"+\" pour ajouter une nouvelle catégorie.";
+"no_categories_found_button_title" = "Nouvelle catégorie";
+"categories_search_placeholder_message" = "Rechercher par catégorie ou nom de dossier";
+
+"no_category_groups_found_title" = "Aucun dossier trouvé";
+"no_category_groups_found_message" = "Cliquez sur le bouton \"+\" pour ajouter un nouveau dossier.";
+"no_category_groups_found_button_title" = "Nouveau dossier";
+"category_groups_search_placeholder_message" = "Rechercher par nom de dossier";
+
+"no_payees_found_title" = "Aucun bénéficiaire trouvé";
+"no_payees_found_message" = "Cliquez sur le bouton \"+\" pour ajouter un nouveau bénéficiaire.";
+"no_payees_found_button_title" = "Nouveau bénéficiaire";
+"payees_search_placeholder_message" = "Rechercher par nom de bénéficiaire";
+
+"no_tags_found_title" = "Aucune balise trouvée";
+"no_tags_found_message" = "Cliquez sur le bouton \"+\" pour ajouter une nouvelle balise.";
+"no_tags_found_button_title" = "Nouvelle balise";
+"tags_search_placeholder_message" = "Rechercher par le nom d'un tag";
+
+"no_reminders_found_title" = "Aucun rappel trouvé";
+"no_reminders_found_message" = "Cliquez sur le bouton \"+\" pour ajouter un nouveau rappel.";
+"no_reminders_found_button_title" = "Nouveau rappel";
+"reminders_search_placeholder_message" = "Rechercher par le titre d'un rappel";
+
+/* Value */
+"balance" = "Solde";
+
+
+/* MARK: - Add Item Form View */
+/* Titles */
+"form_title_edit" = "Modifier";
+
+/* Sections */
+"form_name_section_title" = "Nom";
+"form_title_section_title" = "Titre";
+"form_color_section_title" = "Couleur";
+"form_icon_section_title" = "Icône";
+"form_assignment_section_title" = "Attribution";
+"form_miscellaneous_section_title" = "Divers";
+
+/* Miscellaneous */
+"number_of_selected_items" = "%d sélectionné";
+
+
+/* MARK: - Add Budget Book Form View */
+/* Titles */
+"form_title_new_budgetbook" = "Nouveau livre budgétaire";
+
+/* Items */
+"form_budgetbook_currency_title" = "Devise";
+
+/* Buttons */
+"form_button_delete_budgetbook" = "Supprimer le livre budgétaire";
+
+
+/* MARK: - Add Account Form View */
+/* Titles */
+"form_title_new_account" = "Nouveau compte";
+
+/* Sections */
+"form_billing_section_title" = "Facturation automatique";
+"form_transactions_section_title" = "Transactions";
+"form_account_balance_section_title" = "Solde du compte";
+
+/* Footer */
+"form_billing_footer_title" = "Activez cette fonctionnalité afin de solder automatiquement cette carte de crédit un jour précis du mois (si nécessaire).";
+"form_transactions_footer_title" = "Activez cette fonctionnalité afin de marquer automatiquement les nouvelles transactions pour ce compte comme \"en attente\".";
+"form_account_balance_footer_title" = "Modifiez le solde initial/total pour rapprocher manuellement le solde de votre compte.";
+
+/* Items */
+"form_enable_automatic_billing_title" = "Activé";
+"form_billing_day_title" = "Jour de facturation";
+"form_mark_transactions_as_pending_title" = "Marquer en attente";
+"form_account_type_title" = "Type de compte";
+"form_initial_balance_title" = "Solde initial";
+"form_total_balance_title" = "Solde total";
+"form_use_as_default_account_title" = "Compte par défaut";
+"form_account_currency_title" = "Devise";
+
+/* Buttons */
+"form_button_archive_account" = "Archiver le compte";
+"form_button_unarchive_account" = "Désarchiver le compte";
+"form_button_delete_account" = "Supprimer le compte";
+
+
+/* MARK: - Add Category Group Form View */
+/* Titles */
+"form_title_new_categorygroup" = "Nouveau dossier";
+
+/* Buttons */
+"form_button_delete_categorygroup" = "Supprimer le dossier";
+
+
+/* MARK: - Add Category Form View */
+/* Titles */
+"form_title_new_category" = "Nouvelle catégorie";
+
+/* Items */
+"form_category_group_title" = "Dossier";
+"form_category_group_none_type_value" = "Aucun";
+
+/* Buttons */
+"form_button_delete_category" = "Supprimer la catégorie";
+
+
+/* MARK: - Add Category Form View */
+/* Titles */
+"form_title_new_payee" = "Nouveau bénéficiaire";
+
+/* Footer */
+"form_assignment_default_entries_footer_title" = "Attribuez à ce bénéficiaire un compte, une catégorie ou un emplacement à utiliser par défaut pour les transactions.";
+
+/* Items */
+"form_location_title" = "Emplacement";
+"form_location_none_type_value" = "Aucun";
+
+/* Buttons */
+"form_button_delete_payee" = "Supprimer le bénéficiaire";
+
+
+/* MARK: - Add Tag Form View */
+/* Titles */
+"form_title_new_tag" = "Nouvelle balise";
+
+/* Buttons */
+"form_button_delete_tag" = "Supprimer la balise";
+
+
+/* MARK: - Add Reminder Form View */
+/* Titles */
+"form_title_new_reminder" = "Nouveau rappel";
+
+/* Items */
+"form_is_enabled_title" = "Activé";
+
+/* Buttons */
+"form_button_preview_reminder" = "Afficher l'aperçu";
+"form_button_delete_reminder" = "Supprimer le rappel";
+
+/* Notifications */
+"reminder_notification_title" = "Rappel";
+
+
+/* MARK: - Add Transaction Form View */
+/* Titles */
+"form_title_new_income" = "Nouveaux revenus";
+"form_title_new_expense" = "Nouvelle dépense";
+"form_title_new_transfer" = "Nouveau transfert";
+
+/* Sections */
+"form_date_section_title" = "Dû";
+"form_reminder_section_title" = "Rappel";
+"form_location_section_title" = "Emplacement";
+"form_notes_section_title" = "Notes";
+"form_currency_section_title" = "Devise";
+"form_payment_status_section_title" = "Paiement";
+"form_evaluation_section_title" = "Évalué";
+"form_attachments_section_title" = "Pièces jointes";
+"form_tags_section_title" = "Étiquettes";
+
+/* Items */
+"form_account_title" = "Compte";
+"form_from_account_title" = "De";
+"form_to_account_title" = "À";
+"form_account_none_type_value" = "Aucun";
+"form_category_title" = "Catégorie";
+"form_categories_title" = "Catégories";
+"form_category_none_type_value" = "Aucun";
+"form_payee_title" = "Bénéficiaire";
+"form_payee_none_type_value" = "Aucun";
+"form_tags_title" = "Étiquettes";
+"form_tag_none_type_value" = "Aucun";
+"form_date_title" = "Date";
+"form_date_format_title" = "Format de date";
+"form_time_title" = "Heure";
+"form_repetition_frequency_title" = "Répéter";
+"form_date_repetition_has_end_date_title" = "Fin";
+"form_date_repetition_end_date_title" = "Date de fin";
+"form_reminder_title" = "Actif";
+"form_reminder_none_type_value" = "Aucun";
+"form_reminder_none_type_value_long" = "Aucun rappel";
+"form_reminder_on_due_value" = "A échéance";
+"form_location_none_type_value_long" = "Aucun emplacement";
+"form_original_amount_title" = "Montant d'origine";
+"form_exchange_rate_title" = "Taux de change";
+"form_is_selected_title" = "Sélectionné";
+"form_is_pending_title" = "En attente";
+"form_payed_by_title" = "Attribué";
+"form_payed_by_none_type_value" = "Personne";
+"form_include_in_statistics_title" = "Statistiques";
+"form_include_in_budgets_title" = "Budgets";
+
+/* Footer */
+"form_payment_status_footer_title" = "Marquez le paiement comme \"en attente\" afin que le montant ne soit pas inclus dans les calculs.";
+"form_evaluation_footer_title" = "Excluez cette transaction des statistiques et/ou des budgets afin qu’elle ne soit prise en compte que dans le solde du compte.";
+"form_reminded_transactions_is_invalid_footer_title" = "Remarque : Pour ajouter un rappel à cette transaction, vous devez sélectionner une date future ou un intervalle de répétition.";
+
+/* Buttons */
+"form_button_delete_transaction" = "Supprimer la transaction";
+"form_button_end_repetition_for_transaction" = "Fin de la répétition";
+"form_button_clear_title" = "Supprimer";
+"form_button_today_title" = "Aujourd'hui";
+
+/* Miscellaneous */
+"receipt_total" = "Total";
+"receipt_amount" = "Montant";
+"receipt_to_pay" = "Payer";
+
+/* Notifications */
+"transaction_notification_body" = "Montant: %@\nDate: %@";
+"transaction_notification_body_notes" = "Remarques: %@";
+
+
+/* MARK: - Add Budget Form View */
+/* Titles */
+"form_title_new_budget" = "Nouveau budget";
+
+/* Sections */
+"form_interval_section_title" = "Intervalle";
+
+/* Footer */
+"form_budget_amount_calculation_footer_title" = "L'intervalle détermine la fréquence à laquelle le budget est répété, le montant disponible affiché étant automatiquement ajusté à la période sélectionnée.";
+
+/* Items */
+"form_is_cumulative_title" = "Cumulatif";
+
+/* Buttons */
+"form_button_delete_budget" = "Supprimer le budget";
+
+
+/* MARK: - Assign CSV Fields Form View */
+/* Titles */
+"form_title_csv_assign_fields" = "Attribuer des champs";
+
+/* Info */
+"csv_assign_fields_info_title" = "Description";
+"csv_assign_fields_info_description" = "Veuillez affecter les colonnes du fichier CSV à importer aux champs correspondants.";
+
+/* Sections */
+"form_general_section_title" = "Général";
+
+/* Footer */
+"form_invalid_footer_title" = "Erreur:";
+"form_invalid_amount_footer_title" = "Les valeurs pour \"%@\" ne sont pas des montants monétaires valides.";
+"form_invalid_currency_footer_title" = "Les valeurs pour \"%@\" ne sont pas des devises valides.";
+"form_invalid_exchange_rate_footer_title" = "Les valeurs pour \"%@\" ne sont pas des valeurs numériques valides.";
+"form_invalid_date_format_footer_title" = "La date et/ou le format sélectionné est invalide.";
+"form_type_footer_title" = "Remarque : Sélectionnez \"%@\" pour calculer le type de transaction en fonction du signe de la valeur du montant.";
+"form_date_format_footer_title" = "Exemple: %@";
+
+/* Items */
+"form_type_title" = "Type";
+"form_amount_title" = "Montant";
+"form_source_currency_title" = "Devise source";
+"form_target_currency_title" = "Devise cible";
+"form_budget_book_title" = "Livre budgétaire";
+"form_notes_title" = "Notes";
+"form_skip_zero_amounts_title" = "Ignorer les montants \"0\"";
+"form_skip_duplicates_title" = "Ignorer les doublons";
+"form_csv_assign_field_none_type_value" = "Non attribué";
+
+
+/* MARK: - Color Selection View */
+/* Titles */
+"color_selection_title" = "Couleurs";
+
+/* Messages */
+"no_colors_found_title" = "Aucune couleur trouvée";
+"color_selection_search_placeholder_message" = "Rechercher une couleur ou un nom de groupe";
+
+
+/* MARK: - Icon Selection View */
+/* Titles */
+"icon_selection_title" = "Icônes";
+
+/* Messages */
+"no_icons_found_title" = "Aucune icône trouvée";
+"icon_selection_search_placeholder_message" = "Rechercher une étiquette d'icône ou un nom de groupe";
+
+
+/* MARK: - Location Selection View */
+/* Titles */
+"location_selection_title" = "Emplacement";
+"location_selection_searchbar_placeholder" = "Rechercher";
+"location_selection_search_history_title" = "Récent";
+
+/* Buttons */
+"location_selection_select_button_title" = "Sélectionner";
+
+/* Alert Views */
+"location_selection_no_internet_error_title" = "Erreur";
+"location_selection_no_internet_error_message" = "Il semble qu'il n'y ait pas de connexion Internet";
+
+
+/* MARK: - Other Alert Views */
+"alert_selected_period_changed_title" = "%@ sélectionné";
+"alert_selected_period_changed_message" = "Depuis qu'un %@ a commencé, la période actuelle a été automatiquement ajustée.\n\nPour basculer entre les périodes et afficher les transactions passées, cliquez simplement sur le bouton \"%@\" dans le coin supérieur gauche de l'écran, puis sélectionnez la période souhaitée.";
+"alert_selected_period_changed_new_month" = "nouveau mois";
+"alert_selected_period_changed_new_year" = "nouvelle année";
+
+"alert_no_mail_initialized_title" = "Aucun compte de messagerie";
+"alert_no_mail_initialized_message" = "Il semble que vous n'ayez pas de compte de messagerie configuré sur votre appareil. Cependant, cela est obligatoire pour utiliser cette fonctionnalité.";
+
+"alert_no_camera_title" = "Aucune caméra disponible";
+"alert_no_camera_message" = "Il semble que vous n'ayez pas de caméra. Cependant, il est obligatoire d'utiliser cette fonctionnalité.";
+
+"alert_permissions_title" = "On y est presque !";
+"alert_permissions_activate_button" = "Activer maintenant";
+"alert_permissions_cancel_button" = "Peut-être plus tard";
+
+"alert_camera_permissions_message" = "Pour prendre des photos, il vous suffit d'activer l'accès \"appareil photo\" dans les réglages.";
+"alert_photolibrary_permissions_message" = "Pour ajouter des photos, il vous suffit d'activer l'accès aux \"photos\" dans les réglages.";
+"alert_notifications_permissions_message" = "Pour recevoir des notifications push, il vous suffit d'activer les \"notifications\" dans les réglages.";
+
+
+/* MARK: - Tips */
+"period_selection_tip_title" = "Modifier la période";
+"period_selection_tip_message" = "Cliquez ici pour modifier la période affichée. Cela affecte toutes les vues (aperçu, transactions et budgets).";
+"interactive_charts_tip_title" = "Graphiques interactifs";
+"interactive_charts_tip_message" = "Faites glisser votre doigt vers la gauche ou la droite pour modifier le graphique actif, ou appuyez longuement sur un graphique pour afficher les valeurs d'une date spécifique.";
+"switch_budget_books_tip_title" = "Changer de livre budgétaire";
+"switch_budget_books_tip_message" = "Appuyez longuement sur l'onglet Aperçu pour basculer rapidement entre vos livres budgétaires.";
+
+
+/* MARK: - Watch App */
+/* Titles */
+"cloud_sync_status_section_title" = "État de synchronisation iCloud";
+"cloud_sync_status_footer_title" = "Remarque : Vous devez être connecté à iCloud pour synchroniser les données de votre iPhone.";
+
+
+/* MARK: - Localized URLs */
+"imprintUrl" = "https://budget-flow.app/json/en/imprint.json";
+"termsOfUseUrl" = "https://www.apple.com/legal/internet-services/itunes/dev/stdeula";
+"privacyUrl" = "https://www.iubenda.com/api/privacy-policy/17322265/no-markup";
+"privacyUrlWeb" = "https://budget-flow.app/privacy-policy";
+"imprintUrlWeb" = "https://budget-flow.app/imprint";
+"familySharingUrl" = "https://www.apple.com/family-sharing";
+
+
+/* MARK: - Default Data */
+"default_account_name" = "Compte par défaut";
+
+"default_category_group_name_income" = "Revenu";
+"default_category_name_salary" = "Salaire";
+
+"default_category_group_name_free_time" = "Temps libre";
+"default_category_name_shopping" = "Achats";
+"default_category_name_vacation" = "Vacances";
+
+"default_category_group_name_mobility" = "Mobilité";
+"default_category_name_car" = "Voiture";
+
+"default_category_group_name_groceries" = "Épicerie";
+"default_category_name_supermarket" = "Supermarché";
+"default_category_name_restaurant" = "Restaurant";
+"default_category_name_fast_food" = "Fast Food";
+
+"default_category_group_name_living" = "Vivre";
+"default_category_name_rent" = "Loyer";
+
+"default_category_group_name_miscellaneous" = "Divers";
+
+"default_reminder_title" = "Enregistrer les dépenses";
+
+
+/* MARK: - Color Sections */
+"color_section_classic_title" = "Classique";
+"color_section_sunset_title" = "Coucher de soleil";
+"color_section_afterglow_title" = "Rémanence";
+"color_section_ocean_title" = "Océan";
+"color_section_nightsky_title" = "Ciel nocturne";
+"color_section_apple_title" = "Apple Inc.";
+"color_section_pastel_title" = "Pastel";
+
+
+/* MARK: - Color Keywords */
+"color_keyword_custom" = "Personnalisé";
+"color_keyword_red" = "Rouge";
+"color_keyword_green" = "Vert";
+"color_keyword_blue" = "Bleu";
+"color_keyword_yellow" = "Jaune";
+"color_keyword_orange" = "Orange";
+"color_keyword_purple" = "Violet";
+"color_keyword_pink" = "Rose";
+"color_keyword_brown" = "Marron";
+"color_keyword_mint" = "Menthe";
+"color_keyword_cyan" = "Cyan";
+"color_keyword_violet" = "Violet";
+"color_keyword_gray" = "Gris";
+
+
+/* MARK: - Icon Sections */
+"icon_section_suggestions_title" = "Suggestions";
+"icon_section_general_title" = "Général";
+"icon_section_mobility_title" = "Mobilité";
+"icon_section_household_title" = "Ménage";
+"icon_section_freetime_title" = "Temps libre";
+"icon_section_nature_title" = "Nature";
+"icon_section_food_and_drinks_title" = "Nourriture et boissons";
+"icon_section_shopping_title" = "Achats";
+"icon_section_health_title" = "Santé";
+"icon_section_office_title" = "Bureau";
+"icon_section_arrows_title" = "Flèches";
+"icon_section_objects_title" = "Objets";
+"icon_section_people_title" = "Personnes";
+"icon_section_buildings_title" = "Bâtiments";
+"icon_section_payment_methods_title" = "Modes de paiement";
+
+
+/* MARK: - Icon Keywords */
+"icon_keyword_emoji" = "Emoji";
+"icon_keyword_tag" = "Tag";
+"icon_keyword_heart" = "Cœur";
+"icon_keyword_star" = "Étoile";
+"icon_keyword_folder" = "Dossier";
+"icon_keyword_bookmark" = "Signet";
+"icon_keyword_building" = "Bâtiment";
+"icon_keyword_house" = "Maison";
+"icon_keyword_lightbulb" = "Ampoule";
+"icon_keyword_fan" = "Fan";
+"icon_keyword_lamp" = "Lampe";
+"icon_keyword_alarm_system" = "Système d'alarme";
+"icon_keyword_webcam" = "Webcam";
+"icon_keyword_camera" = "Appareil photo";
+"icon_keyword_door" = "Porte";
+"icon_keyword_garage" = "Garage";
+"icon_keyword_window" = "Fenêtre";
+"icon_keyword_blinds" = "Stores";
+"icon_keyword_roller" = "Rouleau";
+"icon_keyword_curtains" = "Rideaux";
+"icon_keyword_air_purifier" = "Purificateur d'air";
+"icon_keyword_dehumidifier" = "Déshumidificateur";
+"icon_keyword_humidifier" = "Humidificateur";
+"icon_keyword_heater" = "Chauffage";
+"icon_keyword_air_conditioner" = "Climatiseur";
+"icon_keyword_sprinkler" = "Arroseur";
+"icon_keyword_trash" = "Corbeille";
+"icon_keyword_spigot" = "Robinet";
+"icon_keyword_shower" = "Douche";
+"icon_keyword_bathtub" = "Baignoire";
+"icon_keyword_pipe" = "Conduite d'eau";
+"icon_keyword_hifi_reveiver" = "Système Hifi";
+"icon_keyword_video_projector" = "Vidéoprojecteur";
+"icon_keyword_beamer" = "Beamer";
+"icon_keyword_wifi_router" = "Routeur Wi-Fi";
+"icon_keyword_internet" = "Internet";
+"icon_keyword_party" = "Fête";
+"icon_keyword_balloon" = "Ballon";
+"icon_keyword_pan" = "Poêle à frire";
+"icon_keyword_cooking" = "Cuisine";
+"icon_keyword_kitchen" = "Cuisine";
+"icon_keyword_popcorn" = "Maïs soufflé";
+"icon_keyword_cinema" = "Cinéma";
+"icon_keyword_movie" = "Film";
+"icon_keyword_food" = "Nourriture";
+"icon_keyword_bed" = "Lit";
+"icon_keyword_bedroom" = "Chambre";
+"icon_keyword_hotel" = "Hôtel";
+"icon_keyword_sofa" = "Canapé";
+"icon_keyword_couch" = "Canapé";
+"icon_keyword_livingroom" = "Salon";
+"icon_keyword_chair" = "Chaise";
+"icon_keyword_armchair" = "Fauteuil";
+"icon_keyword_cabinet" = "Placard";
+"icon_keyword_fireplace" = "Cheminée";
+"icon_keyword_washer" = "Laveuse";
+"icon_keyword_dryer" = "Sèche-linge";
+"icon_keyword_dishwasher" = "Lave-vaisselle";
+"icon_keyword_oven" = "Four";
+"icon_keyword_stove" = "Poêle";
+"icon_keyword_microwave" = "Micro-ondes";
+"icon_keyword_refrigerator" = "réfrigérateur";
+"icon_keyword_sink" = "Évier";
+"icon_keyword_toilet" = "Toilettes";
+"icon_keyword_bathroom" = "Salle de bain";
+"icon_keyword_tv_remote" = "Télécommande";
+"icon_keyword_tv" = "TV";
+"icon_keyword_person" = "Personne";
+"icon_keyword_human" = "Humain";
+"icon_keyword_airplane" = "Avion";
+"icon_keyword_vacation" = "Vacances";
+"icon_keyword_car" = "Voiture";
+"icon_keyword_electric_car" = "Voiture électrique";
+"icon_keyword_charging_station" = "Borne de recharge";
+"icon_keyword_car_pool" = "Covoiturage";
+"icon_keyword_bus" = "Bus";
+"icon_keyword_tram" = "Trainer";
+"icon_keyword_railroad" = "Chemin de fer";
+"icon_keyword_cablecar" = "Tram";
+"icon_keyword_ferry" = "Ferry";
+"icon_keyword_ship" = "Expédier";
+"icon_keyword_truck" = "Camion";
+"icon_keyword_relocation" = "Relocalisation";
+"icon_keyword_bicycle" = "Vélo";
+"icon_keyword_sport" = "Sport";
+"icon_keyword_scooter" = "Trottinette";
+"icon_keyword_sailboat" = "Voilier";
+"icon_keyword_fuel" = "Carburant";
+"icon_keyword_refuel" = "Faire le plein";
+"icon_keyword_gas_station" = "Station-service";
+"icon_keyword_walking" = "Marcher";
+"icon_keyword_running" = "En cours d'exécution";
+"icon_keyword_rugby" = "Rugby";
+"icon_keyword_badminton" = "Badminton";
+"icon_keyword_tennis" = "Tennis";
+"icon_keyword_dancing" = "Danse";
+"icon_keyword_skiing" = "Ski";
+"icon_keyword_swimming" = "Natation";
+"icon_keyword_skating" = "Patinage";
+"icon_keyword_strengthtraining" = "Entraînement musculaire";
+"icon_keyword_gym" = "Gym";
+"icon_keyword_yoga" = "Yoga";
+"icon_keyword_bowling" = "Bowling";
+"icon_keyword_sportscourt" = "Terrain de sport";
+"icon_keyword_stadium" = "Stade";
+"icon_keyword_soccer" = "Football";
+"icon_keyword_golf" = "Golf";
+"icon_keyword_baseball" = "Base-ball";
+"icon_keyword_basketball" = "Basket-ball";
+"icon_keyword_volleyball" = "Volley-ball";
+"icon_keyword_trophy" = "Trophée";
+"icon_keyword_medal" = "Médaille";
+"icon_keyword_flag" = "Drapeau";
+"icon_keyword_race" = "Course de voitures";
+"icon_keyword_gamecontroller" = "Contrôleur de jeu";
+"icon_keyword_videogames" = "Jeux vidéo";
+"icon_keyword_gaming" = "Jeux";
+"icon_keyword_playstation" = "PlayStation";
+"icon_keyword_xbox" = "Xbox";
+"icon_keyword_nintento_switch" = "Commutateur Nintendo";
+"icon_keyword_book" = "Livre";
+"icon_keyword_books" = "Livres";
+"icon_keyword_magazine" = "Magazine";
+"icon_keyword_reading" = "Lecture";
+"icon_keyword_painting" = "Peinture";
+"icon_keyword_drawing" = "Dessin";
+"icon_keyword_theater" = "Théâtre";
+"icon_keyword_singing" = "Chant";
+"icon_keyword_karaoké" = "Karaoké";
+"icon_keyword_music" = "Musique";
+"icon_keyword_spotify" = "Spotify";
+"icon_keyword_apple_music" = "Apple Musique";
+"icon_keyword_piano" = "Piano";
+"icon_keyword_guitar" = "Guitare";
+"icon_keyword_rockband" = "Groupe de rock";
+"icon_keyword_festival" = "Fêtes";
+"icon_keyword_tent" = "Tente";
+"icon_keyword_dice" = "Dés";
+"icon_keyword_boardgames" = "Jeux de société";
+"icon_keyword_gambling" = "Jeux d'argent";
+"icon_keyword_camera" = "Appareil photo";
+"icon_keyword_photography" = "Photographie";
+"icon_keyword_photo" = "Photo";
+"icon_keyword_world" = "Monde";
+"icon_keyword_globe" = "Globe";
+"icon_keyword_sun" = "Soleil";
+"icon_keyword_summer" = "Été";
+"icon_keyword_moon" = "Lune";
+"icon_keyword_stars" = "Étoiles";
+"icon_keyword_cloud" = "Nuages";
+"icon_keyword_icloud" = "iCloud";
+"icon_keyword_rain" = "Pluie";
+"icon_keyword_flame" = "Flamme";
+"icon_keyword_fire" = "Feu";
+"icon_keyword_snow" = "Neige";
+"icon_keyword_winter" = "Hiver";
+"icon_keyword_bolt" = "Éclair";
+"icon_keyword_plug" = "Connecter";
+"icon_keyword_electric" = "Électrique";
+"icon_keyword_electrics" = "Électricité";
+"icon_keyword_electricity" = "Électricité";
+"icon_keyword_tornado" = "Tornade";
+"icon_keyword_sea" = "Mer";
+"icon_keyword_hare" = "Lapin";
+"icon_keyword_rabbit" = "Lapin";
+"icon_keyword_animal" = "Animaux";
+"icon_keyword_tortoise" = "Tortue";
+"icon_keyword_lizard" = "Lézard";
+"icon_keyword_bird" = "Oiseau";
+"icon_keyword_ant" = "Fourmi";
+"icon_keyword_ladybug" = "Bug";
+"icon_keyword_fish" = "Poisson";
+"icon_keyword_pet" = "Animal";
+"icon_keyword_cat" = "Chat";
+"icon_keyword_dog" = "Chien";
+"icon_keyword_leaf" = "Feuille";
+"icon_keyword_plant" = "Planter";
+"icon_keyword_flower" = "Fleur";
+"icon_keyword_eating" = "Manger";
+"icon_keyword_restaurant" = "Restaurant";
+"icon_keyword_drinking" = "Boire";
+"icon_keyword_cafe" = "Café";
+"icon_keyword_coffee" = "Café";
+"icon_keyword_fastfood" = "Restauration rapide";
+"icon_keyword_picnic" = "Pique-nique";
+"icon_keyword_wine" = "Vin";
+"icon_keyword_birthday" = "Anniversaire";
+"icon_keyword_cake" = "Gâteau";
+"icon_keyword_carrot" = "Carotte";
+"icon_keyword_vegetables" = "Légumes";
+"icon_keyword_bag" = "Sac";
+"icon_keyword_cone" = "Sac";
+"icon_keyword_shopping" = "Achats";
+"icon_keyword_supermarket" = "Supermarché";
+"icon_keyword_groceries" = "Épicerie";
+"icon_keyword_creditcard" = "Carte de crédit";
+"icon_keyword_giftcard" = "Carte cadeau";
+"icon_keyword_gift" = "Cadeau";
+"icon_keyword_clothes" = "Vêtements";
+"icon_keyword_clothing" = "Vêtements";
+"icon_keyword_globe" = "Globe";
+"icon_keyword_online" = "En ligne";
+"icon_keyword_internet" = "Internet";
+"icon_keyword_amazon" = "Amazon";
+"icon_keyword_package" = "Package";
+"icon_keyword_apple" = "Pomme";
+"icon_keyword_banknote" = "Billet";
+"icon_keyword_refund" = "Remboursement";
+"icon_keyword_dollar" = "Dollars";
+"icon_keyword_cents" = "Cents";
+"icon_keyword_yen" = "Yen";
+"icon_keyword_pound" = "Livre";
+"icon_keyword_franc" = "Franconie";
+"icon_keyword_lira" = "Lire";
+"icon_keyword_ruble" = "Rouble";
+"icon_keyword_euro" = "Euro";
+"icon_keyword_rupee" = "Roupie";
+"icon_keyword_peso" = "Peso";
+"icon_keyword_bitcoin" = "Bitcoins";
+"icon_keyword_real" = "Réal brésilien";
+"icon_keyword_case" = "Valise";
+"icon_keyword_lungs" = "Poumons";
+"icon_keyword_allergens" = "Allergies";
+"icon_keyword_thermometer" = "Thermomètre";
+"icon_keyword_bandage" = "Pansements";
+"icon_keyword_syringe" = "Seringue";
+"icon_keyword_medicine" = "Médecine";
+"icon_keyword_drug" = "Drogue";
+"icon_keyword_facemask" = "Masque facial";
+"icon_keyword_pills" = "Pilules";
+"icon_keyword_cross" = "Croix";
+"icon_keyword_hospital" = "Hôpital";
+"icon_keyword_ivfluid" = "Perfusion";
+"icon_keyword_eye" = "Œil";
+"icon_keyword_brain" = "Cerveau";
+"icon_keyword_ear" = "Oreille";
+"icon_keyword_mouth" = "Bouche";
+"icon_keyword_ecg" = "ECG";
+"icon_keyword_shield" = "Bouclier";
+"icon_keyword_insurance" = "Assurance";
+"icon_keyword_video_conference" = "Vidéoconférence";
+"icon_keyword_facetime" = "Facetime";
+"icon_keyword_phone" = "Téléphone";
+"icon_keyword_mobilephone" = "Mobile";
+"icon_keyword_iphone" = "iPhone";
+"icon_keyword_tablet" = "Tablette";
+"icon_keyword_ipad" = "iPad";
+"icon_keyword_macintosh" = "Macintosh";
+"icon_keyword_macbook" = "Macbook";
+"icon_keyword_imac" = "iMac";
+"icon_keyword_smartphone" = "Smartphone";
+"icon_keyword_calling" = "Appel";
+"icon_keyword_message" = "Message";
+"icon_keyword_envelope" = "Enveloppe";
+"icon_keyword_mail" = "Courrier";
+"icon_keyword_email" = "E-mail";
+"icon_keyword_chart" = "Graphique";
+"icon_keyword_stocks" = "Actions";
+"icon_keyword_investment" = "Investissement";
+"icon_keyword_signature" = "Signature";
+"icon_keyword_contract" = "Contrat";
+"icon_keyword_computer" = "Ordinateur";
+"icon_keyword_pc" = "PC";
+"icon_keyword_display" = "Moniteur";
+"icon_keyword_mouse" = "Souris";
+"icon_keyword_keyboard" = "Clavier";
+"icon_keyword_printer" = "Imprimante";
+"icon_keyword_scanner" = "Scanner";
+"icon_keyword_pin" = "Épingler";
+"icon_keyword_paperclip" = "Trombone";
+"icon_keyword_clipboard" = "Presse-papiers";
+"icon_keyword_list" = "Liste";
+"icon_keyword_server" = "Serveur";
+"icon_keyword_simcard" = "Carte SIM";
+"icon_keyword_bank" = "Banque";
+"icon_keyword_apple_watch" = "Apple Watch";
+"icon_keyword_clock" = "Horloge";
+"icon_keyword_alarm" = "Alarme";
+"icon_keyword_box" = "Boîte";
+"icon_keyword_wand" = "Baguette magique";
+"icon_keyword_hourglass" = "Sablier";
+"icon_keyword_newspaper" = "Journal";
+"icon_keyword_wrench" = "Pinces";
+"icon_keyword_screwdriver" = "Tournevis";
+"icon_keyword_hammer" = "Marteau";
+"icon_keyword_craftsman" = "Artisan";
+"icon_keyword_tools" = "Outil";
+"icon_keyword_plumber" = "Plombier";
+"icon_keyword_construction_market" = "Marché de la construction";
+"icon_keyword_scissors" = "Ciseaux";
+"icon_keyword_hairdresser" = "Coiffeur";
+"icon_keyword_key" = "Clé";
+"icon_keyword_school" = "École";
+"icon_keyword_university" = "Université";
+"icon_keyword_study" = "Étude";
+"icon_keyword_tuition_fees" = "Frais de scolarité";
+"icon_keyword_flashlight" = "Lampe de poche";
+"icon_keyword_bell" = "Cloche";
+"icon_keyword_subscription" = "Abonnement";
+"icon_keyword_loupe" = "Loupe";
+"icon_keyword_binoculars" = "Jumelles";
+"icon_keyword_rosette" = "Rosette";
+"icon_keyword_crown" = "Couronne";
+"icon_keyword_umbrella" = "Parapluie";
+"icon_keyword_beach" = "Plage";
+"icon_keyword_megaphone" = "Mégaphone";
+"icon_keyword_advertisement" = "Publicité";
+"icon_keyword_puzzle" = "Puzzle";
+"icon_keyword_lab" = "Laboratoire";
+"icon_keyword_calendar" = "Calendrier";
+"icon_keyword_rent" = "Louer";
+"icon_keyword_flat" = "Plat";
+"icon_keyword_work" = "Travailler";
+"icon_keyword_salary" = "Salaire";
+"icon_keyword_corona" = "Couronne";
+"icon_keyword_rainbow" = "Arc-en-ciel";
+"icon_keyword_glasses" = "Lunettes";
+"icon_keyword_sunglasses" = "Lunettes de soleil";
+"icon_keyword_discount" = "Remise";
+"icon_keyword_percent" = "Pourcentage";
+"icon_keyword_wallet" = "Portefeuille";
+"icon_keyword_convertible" = "Convertible";
+"icon_keyword_drone" = "Drone";
+"icon_keyword_motorcycle" = "Moto";
+"icon_keyword_tire" = "Pneu";
+"icon_keyword_oilcan" = "Bidon";
+"icon_keyword_keys" = "Clés";
+"icon_keyword_fire_extinguisher" = "Extincteur";
+"icon_keyword_hockey" = "Hockey";
+"icon_keyword_ice_hockey" = "Hockey sur glace";
+"icon_keyword_ice_skating" = "Patinage sur glace";
+"icon_keyword_rowing" = "Aviron";
+"icon_keyword_inhaler" = "Inhalateur";
+"icon_keyword_wheelchair" = "Fauteuil roulant";
+"icon_keyword_vacuum" = "Aspirateur";
+"icon_keyword_doctor" = "Docteur";
+"icon_keyword_dentist" = "Dentiste";
+"icon_keyword_parking" = "Stationnement";
+
+
+/* MARK: - App Intents */
+/* Entities */
+"budget_book_entity_name" = "Livre budgétaire";
+"account_entity_name" = "Compte";
+"category_group_entity_name" = "Dossier";
+"category_entity_name" = "Catégorie";
+"payee_entity_name" = "Bénéficiaire";
+
+/* Categories */
+"add_category_name" = "Ajouter";
+"open_category_name" = "Ouvrir";
+"show_category_name" = "Afficher";
+"search_category_name" = "Rechercher";
+
+/* Search */
+"search_budget_book_title" = "Rechercher un livre budgétaire";
+"search_budget_book_description" = "Rechercher un livre budgétaire spécifique par son nom.";
+"search_budget_book_parameter_summary" = "Rechercher un livre budgétaire avec ${name}";
+"search_account_title" = "Rechercher un compte";
+"search_account_description" = "Rechercher un compte spécifique par son nom.";
+"search_account_parameter_summary" = "Rechercher le compte avec ${name} dans ${budgetBook}";
+"search_category_group_title" = "Dossier de recherche";
+"search_category_group_description" = "Rechercher un dossier spécifique par son nom.";
+"search_category_group_parameter_summary" = "Rechercher le dossier avec ${name} dans ${budgetBook}";
+"search_category_title" = "Catégorie de recherche";
+"search_category_description" = "Rechercher une catégorie spécifique par son nom.";
+"search_category_parameter_summary" = "Rechercher la catégorie avec ${name} dans ${categoryGroup} de ${budgetBook}";
+"search_payee_title" = "Rechercher le bénéficiaire";
+"search_payee_description" = "Rechercher un bénéficiaire spécifique par son nom.";
+"search_payee_parameter_summary" = "Rechercher le bénéficiaire avec ${name} dans ${budgetBook}";
+
+"name_parameter_title" = "Nom";
+"name_parameter_dialog" = "Quel est le nom ?";
+
+"budget_book_parameter_title" = "Livre budgétaire";
+"budget_book_parameter_description" = "Le livre budgétaire associé.";
+"budget_book_parameter_dialog" = "Quel est le livre budgétaire associé ?";
+"category_group_parameter_title" = "Dossier";
+"category_group_parameter_description" = "Le dossier associé.";
+"category_group_parameter_dialog" = "Quel est le dossier associé ?";
+
+/* Open */
+"open_add_new_income_view_title" = "Ajouter de nouveaux revenus";
+"open_add_new_income_view_description" = "Ouvre la vue d'ajout de nouveaux revenus dans l'app.";
+"open_add_new_expense_view_title" = "Ajouter une nouvelle dépense";
+"open_add_new_expense_view_description" = "Ouvre la vue d'ajout de nouvelles dépenses dans l'app.";
+"open_add_new_transfer_view_title" = "Ajouter un nouveau transfert";
+"open_add_new_transfer_view_description" = "Ouvre la vue d'ajout d'un nouveau transfert dans l'app.";
+"open_add_new_recurring_view_title" = "Ajouter une nouvelle transaction récurrente";
+"open_add_new_recurring_view_description" = "Ouvre la vue d'ajout de nouvelles transactions récurrentes dans l'app.";
+"open_upcoming_transactions_view_title" = "Transactions planifiées";
+"open_upcoming_transactions_view_description" = "Ouvre la vue des transactions planifiées dans l'app.";
+
+/* Show */
+"show_chart_title" = "Afficher le graphique";
+"show_chart_description" = "Affiche un graphique des soldes de vos comptes, de vos revenus ou de vos dépenses pour la période spécifiée.";
+"show_chart_parameter_summary" = "Afficher le graphique ${type} pour ${periodType}";
+
+"chart_type_parameter_title" = "Type";
+"chart_type_dialog" = "Quel type de graphique souhaitez-vous ?";
+"chart_type_account_balances_title" = "Soldes des comptes";
+"chart_type_balance_title" = "Solde";
+"chart_type_total_income_title" = "Revenu total";
+"chart_type_total_expenses_title" = "Dépenses totales";
+"chart_type_fixed_expenses_title" = "Dépenses fixes";
+"chart_type_variable_expenses_title" = "Dépenses variables";
+
+"chart_period_type_parameter_title" = "Période";
+"chart_period_type_dialog" = "Quelle période souhaitez-vous consulter ?";
+"chart_type_current_month_title" = "Mois en cours";
+"chart_type_current_year_title" = "Année en cours";
+
+
+/* MARK: - Dummy Data */
+"default_budget_book_name" = "Mon livre budgétaire";
+"default_credit_card_name" = "Carte de crédit";
+"default_location_address" = "Fürstenberg";

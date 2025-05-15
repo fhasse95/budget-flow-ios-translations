@@ -1,0 +1,20 @@
+/*
+  InfoPlist.strings
+  BudgetFlow
+
+  Created by Fabian Hasse on 23.07.20.
+  Copyright © 2020 Fabian Hasse. All rights reserved.
+*/
+
+"CFBundleName" = "Budget Flow";
+"CFBundleDisplayName" = "Budget Flow";
+
+"NSLocationAlwaysAndWhenInUseUsageDescription" = "A tartózkodási helyhez való hozzáférést arra használjuk, hogy az aktuális tartózkodási helyét automatikusan hozzáadják a tranzakciókhoz.";
+"NSLocationUsageDescription" = "A tartózkodási helyhez való hozzáférés a jelenlegi tartózkodási helyének automatikus hozzáadására szolgál a tranzakciókhoz.";
+"NSLocationWhenInUseUsageDescription" = "A tartózkodási helyhez való hozzáférés a jelenlegi tartózkodási helyének automatikus hozzáadására szolgál a tranzakciókhoz.";
+"NSCameraUsageDescription" = "A fényképezőgéphez való hozzáférés a fényképek tranzakciókhoz való hozzáadására szolgál.";
+"NSPhotoLibraryUsageDescription" = "A fotókönyvtárhoz való hozzáférés a készített fényképek automatikus mentésére szolgál.";
+"NSPhotoLibraryAddUsageDescription" = "A fotókönyvtárhoz való hozzáférés a készített fényképek automatikus mentésére szolgál.";
+"NSFaceIDUsageDescription" = "A Face ID-hez való hozzáférés szükséges ahhoz, hogy az alkalmazás zárolását jelszó megadása nélkül tudja feloldani.";
+"NSTouchIDUsageDescription" = "A Touch ID hozzáférése szükséges ahhoz, hogy az alkalmazás zárolását jelszó megadása nélkül tudja feloldani.";
+"NSContactsUsageDescription" = "A névjegyekhez való hozzáférést azon személyek nevének és fényképeinek megjelenítésére használják, akikkel megosztotta költségvetési könyvét.";

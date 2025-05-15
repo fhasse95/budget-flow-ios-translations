@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>minute</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>minúta</string>
+			<key>few</key>
+			<string>minúty</string>
+			<key>other</key>
+			<string>minút</string>
+		</dict>
+	</dict>
+	<key>hour</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>hodina</string>
+			<key>few</key>
+			<string>hodiny</string>
+			<key>other</key>
+			<string>hodín</string>
+		</dict>
+	</dict>
+	<key>day</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>deň</string>
+			<key>few</key>
+			<string>dni</string>
+			<key>other</key>
+			<string>dní</string>
+		</dict>
+	</dict>
+	<key>week</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>týždeň</string>
+			<key>few</key>
+			<string>týždne</string>
+			<key>other</key>
+			<string>týždňov</string>
+		</dict>
+	</dict>
+	<key>month</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>mesiac</string>
+			<key>few</key>
+			<string>mesiace</string>
+			<key>other</key>
+			<string>mesiacov</string>
+		</dict>
+	</dict>
+	<key>year</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>rok</string>
+			<key>few</key>
+			<string>roky</string>
+			<key>other</key>
+			<string>rokov</string>
+		</dict>
+	</dict>
+	<key>number_of_transactions</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%1$d transakcia</string>
+			<key>few</key>
+			<string>%1$d transakcie</string>
+			<key>other</key>
+			<string>%1$d transakcií</string>
+		</dict>
+	</dict>
+	<key>number_of_upcoming_transactions</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%1$d nadchádzajúca transakcia</string>
+			<key>few</key>
+			<string>%1$d nadchádzajúce transakcie</string>
+			<key>other</key>
+			<string>%1$d nadchádzajúcich transakcií</string>
+		</dict>
+	</dict>
+	<key>number_of_reminded_transactions</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%1$d transakcia s pripomienkou</string>
+			<key>few</key>
+			<string>%1$d transakcie s pripomienkou</string>
+			<key>other</key>
+			<string>%1$d transakcií s pripomienkou</string>
+		</dict>
+	</dict>
+	<key>number_of_budgets</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%1$d rozpočet</string>
+			<key>few</key>
+			<string>%1$d rozpočty</string>
+			<key>other</key>
+			<string>%1$d rozpočtov</string>
+		</dict>
+	</dict>
+	<key>number_of_categories</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%1$d kategória</string>
+			<key>few</key>
+			<string>%1$d kategórie</string>
+			<key>other</key>
+			<string>%1$d kategórií</string>
+		</dict>
+	</dict>
+	<key>number_of_attachments</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>%1$d príloha</string>
+			<key>few</key>
+			<string>%1$d prílohy</string>
+			<key>other</key>
+			<string>%1$d príloh</string>
+		</dict>
+	</dict>
+	<key>repeats_every_day</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>Opakuje sa každý deň.</string>
+			<key>few</key>
+			<string>Opakuje sa každé %1$d dni.</string>
+			<key>other</key>
+			<string>Opakuje sa každých %1$d dní.</string>
+		</dict>
+	</dict>
+	<key>repeats_every_week_on</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>Opakuje sa každý týždeň v %2$@.</string>
+			<key>few</key>
+			<string>Opakuje sa každé %1$d týždňov v %2$@.</string>
+			<key>other</key>
+			<string>Opakuje sa každé %1$d týždňov v %2$@.</string>
+		</dict>
+	</dict>
+	<key>repeats_every_month</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>Opakuje sa každý mesiac.</string>
+			<key>few</key>
+			<string>Opakuje sa každé %1$d mesiace.</string>
+			<key>other</key>
+			<string>Opakuje sa každé %1$d mesiacov.</string>
+		</dict>
+	</dict>
+	<key>repeats_every_month_on</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>Opakuje sa každý mesiac v %2$@.</string>
+			<key>few</key>
+			<string>Opakuje sa každé %1$d mesiace v %2$@.</string>
+			<key>other</key>
+			<string>Opakuje sa každé %1$d mesiacov v %2$@.</string>
+		</dict>
+	</dict>
+	<key>repeats_every_month_on_the</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>Opakuje sa každý mesiac v %2$@ %3$@.</string>
+			<key>few</key>
+			<string>Opakuje sa každé %1$d mesiace v %2$@ %3$@.</string>
+			<key>other</key>
+			<string>Opakuje sa každé %1$d mesiacov v %2$@ %3$@.</string>
+		</dict>
+	</dict>
+	<key>repeats_every_year_in</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>Opakuje sa každý rok v %2$@.</string>
+			<key>few</key>
+			<string>Opakuje sa každé %1$d roky v %2$@.</string>
+			<key>other</key>
+			<string>Opakuje sa každé %1$d rokov v %2$@.</string>
+		</dict>
+	</dict>
+	<key>repeats_every_year_on</key>
+	<dict>
+		<key>NSStringLocalizedFormatKey</key>
+		<string>%#@value@</string>
+		<key>value</key>
+		<dict>
+			<key>NSStringFormatSpecTypeKey</key>
+			<string>NSStringPluralRuleType</string>
+			<key>NSStringFormatValueTypeKey</key>
+			<string>d</string>
+			<key>one</key>
+			<string>Opakuje sa každý rok v %2$@ %3$@ %4$@.</string>
+			<key>few</key>
+			<string>Opakuje sa každé %1$d roky v %2$@ %3$@ %4$@.</string>
+			<key>other</key>
+			<string>Opakuje sa každé %1$d rokov v %2$@ %3$@ %4$@.</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

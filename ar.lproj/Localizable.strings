@@ -1,0 +1,2016 @@
+/*
+  Localizable.strings
+  BudgetFlow
+
+  Created by Fabian Hasse on 19.05.20.
+  Copyright © 2020 Fabian Hasse. All rights reserved.
+*/
+
+/* MARK: - General */
+"app_name" = "Budget Flow";
+
+"feedback_quick_action_title" = "الملاحظات";
+"feedback_quick_action_subtitle" = "انقر هنا لتقديم بعض الملاحظات حول التطبيق.";
+"income_quick_action_title" = "دخل جديد";
+"expense_quick_action_title" = "مصروف جديد";
+"transfer_quick_action_title" = "نقل جديد";
+"recurring_quick_action_title" = "متكرر";
+
+
+/* MARK: - Miscellaneous */
+"face_id" = "Face ID";
+"touch_id" = "Touch ID";
+"required" = "مطلوب";
+"optional" = "اختياري";
+"uncategorized" = "غير مصنف";
+"before" = "قبل";
+"account_reconcilation" = "تسوية الحساب";
+
+
+/* MARK: - Enums */
+"account_type_cash" = "نقدًا";
+"account_type_payment" = "الحساب الحالي";
+"account_type_savings" = "حساب التوفير";
+"account_type_credit_card" = "بطاقة الائتمان";
+"account_type_investment" = "حساب الاستثمار";
+"account_type_precaution" = "الاحتياط";
+"account_type_liability" = "حساب المسؤولية";
+"account_type_business" = "حساب الأعمال";
+
+"account_type_payment_plural" = "الحسابات الجارية";
+"account_type_savings_plural" = "حسابات التوفير";
+"account_type_credit_card_plural" = "بطاقات الائتمان";
+"account_type_investment_plural" = "حسابات الاستثمار";
+"account_type_precaution_plural" = "الحساب الاحتياطي";
+"account_type_liability_plural" = "حسابات المسؤولية";
+"account_type_business_plural" = "حسابات الأعمال";
+
+"transaction_type_income" = "الدخل";
+"transaction_type_expense" = "المصروفات";
+"transaction_type_transfer" = "نقل";
+
+"transaction_type_income_plural" = "الدخل";
+"transaction_type_expense_plural" = "النفقات";
+"transaction_type_transfer_plural" = "التحويلات";
+
+"payment_status" = "الحالة";
+"payment_status_completed" = "مكتمل";
+"payment_status_pending" = "معلق";
+
+"attachment_type_image" = "صورة";
+"attachment_type_image_plural" = "صورة";
+"attachment_type_document" = "المستند";
+"attachment_type_document_plural" = "المستندات";
+
+"period_type_month" = "الشهر";
+"period_type_year" = "السنة";
+"period_type_custom" = "التاريخ";
+
+"sort_type_alphabetically" = "أبجديًا";
+"sort_type_date" = "التاريخ";
+"sort_type_amount" = "المبلغ";
+"sort_type_type" = "النوع";
+
+"sort_option_ascending" = "تصاعدي";
+"sort_option_descending" = "تنازلي";
+
+"group_option_day" = "اليوم";
+"group_option_month" = "الشهر";
+"group_option_account" = "الحساب";
+"group_option_category" = "الفئة";
+"group_option_category_group" = "المجموعة";
+"group_option_type" = "النوع";
+"group_option_payee" = "المستفيد";
+"group_option_repetition_frequency" = "الفاصل الزمني";
+
+"date_repetition_frequency_never" = "أبدًا";
+"date_repetition_frequency_daily" = "يوميًا";
+"date_repetition_frequency_weekly" = "أسبوعيًا";
+"date_repetition_frequency_everyTwoWeeks" = "كل أسبوعين";
+"date_repetition_frequency_everyThreeWeeks" = "كل 3 أسابيع";
+"date_repetition_frequency_everyFourWeeks" = "كل 4 أسابيع";
+"date_repetition_frequency_monthly" = "شهريًا";
+"date_repetition_frequency_everyTwoMonths" = "كل شهرين";
+"date_repetition_frequency_everyThreeMonths" = "كل 3 أشهر";
+"date_repetition_frequency_everySixMonths" = "كل 6 أشهر";
+"date_repetition_frequency_yearly" = "سنويًا";
+"date_repetition_frequency_custom" = "مخصص";
+
+"csv_transaction_type_automatic" = "تلقائي";
+"csv_transaction_type_income" = "الدخل";
+"csv_transaction_type_expenses" = "النفقات";
+
+"passcode_type_four_digits" = "رمز مكون من 4 أرقام";
+"passcode_type_six_digits" = "رمز مكون من 6 أرقام";
+"passcode_type_custom_numeric" = "رمز مخصص";
+"passcode_type_custom_alphanumeric" = "كلمة المرور المخصصة";
+
+"auto_lock_time_type_immediately" = "فورًا";
+"auto_lock_time_type_after_one_minute" = "بعد دقيقة واحدة";
+"auto_lock_time_type_after_five_minutes" = "بعد 5 دقائق";
+"auto_lock_time_type_after_fifteen_minutes" = "بعد 15 دقيقة";
+"auto_lock_time_type_after_one_hour" = "بعد ساعة واحدة";
+"auto_lock_time_type_after_four_hours" = "بعد 4 ساعات";
+
+"widget_type_chart_stack" = "المخططات";
+"widget_type_suggestions" = "اقتراحات";
+"widget_type_distribution" = "التوزيع";
+"widget_type_balance" = "الرصيد";
+"widget_type_savings_rate" = "تم الحفظ";
+"widget_type_upcoming_transactions" = "مجدول";
+"widget_type_participants" = "المشاركين";
+"widget_type_budget" = "الميزانية";
+"widget_type_pending_transactions" = "معلق";
+"widget_type_total_assets" = "الأصول";
+"widget_type_forecast" = "التوقعات";
+
+"chart_type_bar" = "مخطط شريطي";
+"chart_type_pie" = "مخطط دائري";
+
+"category_chart_data_type_category" = "فئة";
+"category_chart_data_type_category_group" = "مجلد";
+
+"product_type_individual" = "فردي";
+"product_type_family" = "العائلة";
+
+"subscription_period_day" = "اليوم";
+"subscription_period_days" = "الأيام";
+"subscription_period_month" = "الشهر";
+"subscription_period_months" = "الأشهر";
+"subscription_period_year" = "السنة";
+"subscription_period_years" = "السنوات";
+
+"overview_period_type_current_week" = "هذا الأسبوع";
+
+"quick_action_type_new_income" = "دخل جديد";
+"quick_action_type_new_expense" = "مصروفات جديدة";
+"quick_action_type_new_transfer" = "نقل جديد";
+"quick_action_type_new_recurring" = "دفع تلقائي جديد";
+
+"suggestion_type_add_income_transaction" = "دخل جديد";
+"suggestion_type_add_expense_transaction" = "مصروفات جديدة";
+
+"user_interface_style_system" = "النظام";
+"user_interface_style_light" = "ساطع";
+"user_interface_style_dark" = "مظلم";
+
+"transaction_title_type_category" = "الفئة";
+"transaction_title_type_payee" = "المستفيد";
+"transaction_title_type_notes" = "ملاحظات";
+
+"transaction_subtitle_type_none" = "لا شيء";
+"transaction_subtitle_type_category" = "الفئة";
+"transaction_subtitle_type_payee" = "المستفيد";
+"transaction_subtitle_type_notes" = "ملاحظات";
+
+
+/* MARK: - Custom Date Repetition */
+"frequency" = "التكرار";
+
+"every" = "كل";
+"every_day" = "كل";
+"every_week" = "كل";
+"every_month" = "كل";
+"every_year" = "كل";
+"every_day_plural" = "كل";
+"every_week_plural" = "كل";
+"every_month_plural" = "كل";
+"every_year_plural" = "كل";
+
+"each" = "كل";
+"on_the" = "في...";
+"days_of_week" = "أيام الأسبوع";
+"last_day" = "اليوم الأخير";
+
+"daily" = "يومي";
+"weekly" = "أسبوعي";
+"monthly" = "شهري";
+"yearly" = "سنوي";
+
+"first" = "1";
+"second" = "2";
+"third" = "3";
+"fourth" = "4";
+"fifth" = "5";
+"last" = "أخير";
+
+
+/* MARK: - Menu Bar */
+"accounts_menu_title" = "الحسابات";
+"show_accounts_menu_title" = "إظهار كافة الحسابات";
+"budgets_menu_title" = "الميزانيات";
+"show_budgets_menu_title" = "عرض كافة الميزانيات";
+"transactions_menu_title" = "المعاملات";
+"show_all_transactions_menu_title" = "إظهار كافة المعاملات";
+"show_recurring_transactions_menu_title" = "إظهار المعاملات المتكررة";
+"show_upcoming_transactions_menu_title" = "إظهار المعاملات القادمة";
+
+
+/* MARK: - Sidebar Menu */
+"menu" = "القائمة";
+"menu_accounts_section" = "الحسابات";
+"menu_categories_section" = "الفئات";
+"menu_selected_budget_book_title" = "دفتر الميزانية";
+
+
+/* MARK: - Tabs */
+"dashboard_tab" = "نظرة عامة";
+"transactions_tab" = "المعاملات";
+"budgets_tab" = "الميزانيات";
+"settings_tab" = "الإعدادات";
+
+
+/* MARK: - Buttons */
+"add_button" = "إضافة";
+"edit_button" = "تحرير";
+"copy_button" = "نسخ";
+"edit_account_button" = "تحرير الحساب";
+"edit_category_button" = "تحرير الفئة";
+"edit_payee_button" = "تحرير المستفيد";
+"edit_tag_button" = "تحرير الوسم";
+"edit_budget_button" = "تحرير الميزانية";
+"multi_selection_button" = "تحديد متعدد";
+"back_button" = "رجوع";
+"done_button" = "تم";
+"save_button" = "حفظ";
+"import_button" = "استيراد";
+"unlock_button" = "Unlock";
+"cancel_button" = "إلغاء";
+"close_button" = "إغلاق";
+"delete_button" = "حذف";
+"end_repetition_button" = "إنهاء التكرار";
+"reset_button" = "إعادة الضبط";
+"apply_button" = "تطبيق";
+"yes_button" = "نعم";
+"no_button" = "لا";
+"ok_button" = "موافق";
+"faq_button" = "FAQ";
+"create_reminder_button" = "إنشاء تذكير";
+"remove_reminder_button" = "إزالة التذكير";
+"do_not_show_again_button" = "عدم العرض مرة أخرى";
+"mark_as_paid_button" = "اكتمل الدفع";
+"mark_as_pending_button" = "في انتظار الدفع";
+"show_contra_entry_button" = "الإدخال عن طريق العداد";
+
+"save_changes_button" = "حفظ التغييرات";
+"discard_changes_button" = "تجاهل التغييرات";
+
+"show_help_center_button" = "مركز المساعدة (🇬🇧)";
+"contact_developer_button" = "التواصل مع المطور";
+
+"filter_button" = "فلترة";
+"sort_button" = "فرز";
+"sort_categories_button" = "فرز الفئات";
+"sort_category_groups_button" = "فرز المجموعات";
+"group_button" = "المجموعة";
+"configure_button" = "ضبط";
+
+"show_filter_button" = "إظهار عامل التصفية";
+
+"show_amount_values_button" = "إظهار المبالغ";
+"hide_amount_values_button" = "إخفاء المبالغ";
+
+"take_photo_button" = "التقاط صورة";
+"add_photo_button" = "اختر صورة";
+"add_document_button" = "حدد المستندات";
+"scan_receipt_button" = "إيصال المسح الضوئي";
+
+"open_button" = "فتح";
+"open_folder_button" = "فتح المجلد";
+"open_in_browser_button" = "فتح في المتصفح";
+
+"show_more_button" = "إظهار الكل";
+"show_less_button" = "عرض اقل";
+
+"add_category_button" = "فئة جديدة";
+"add_category_group_button" = "مجموعة جديدة";
+
+"add_income_transaction_button" = "الدخل الجديد";
+"add_expense_transaction_button" = "مصروفات جديدة";
+"add_transfer_transaction_button" = "نقل جديد";
+
+"manage_budget_books_button" = "جميع كتب الميزانية";
+"select_budget_book_button" = "اختر دفتر الميزانية";
+"edit_budget_book_button" = "تحرير دفتر الميزانية";
+
+"continue_button" = "استمرار";
+"skip_button" = "تخطي";
+"accept_button" = "قبول";
+"get_started_button" = "البدء";
+
+"show_transactions_button" = "إظهار المعاملات";
+"show_in_app_store_button" = "عرض في App Store";
+
+"learn_more" = "تعرف على المزيد";
+
+
+/* MARK: - Share View */
+/* Titles */
+"share_title" = "مشاركة";
+
+/* Alert Views */
+"alert_sync_shares_in_progress_title" = "جارٍ المزامنة...";
+"alert_sync_shares_in_progress_message" = "تتم مزامنة دفاتر ميزانيتك مع iCloud حتى تتمكن من الوصول إلى المحتوى المشترك. الرجاء الانتظار...";
+"alert_cloud_share_quota_exceeded_error_message" = "تعذر إكمال المشاركة لعدم وجود مساحة كافية في iCloud الخاص بك. الرجاء تحرير بعض المساحة والمحاولة مرة أخرى.";
+"alert_cloud_share_unknown_error_message" = "غير قادر على إكمال المشاركة بسبب حدوث خطأ. ربما لا يحتوي iCloud الخاص بك على مساحة كافية. قم بتحرير بعض المساحة وحاول مرة أخرى.";
+
+
+/* MARK: - Search View */
+/* Titles */
+"search_title" = "بحث";
+"filter_title" = "تصفية";
+
+/* Sections */
+"search_text_section_title" = "نص البحث";
+"search_suggestions_section_title" = "اقتراحات";
+
+
+/* MARK: - Period Selection View */
+/* Titles */
+"period_selection_title" = "الفترة";
+"period_selection_current_year_title" = "السنة الحالية";
+"period_selection_current_month_title" = "الشهر الحالي";
+
+/* Items */
+"from_title" = "من";
+"to_title" = "قبل";
+
+
+/* MARK: - Dashboard View */
+/* Titles */
+"configure_title" = "ضبط";
+"balance_widget_income_title" = "الدخل";
+"balance_widget_expenses_title" = "النفقات";
+"savings_rate_widget_absolute_title" = "المبلغ";
+"savings_rate_widget_percentual_title" = "النسبة المئوية";
+"budget_widget_planned_title" = "مخطط";
+"budget_widget_remaining_title" = "متاح";
+"total_assets_widget_absolute_title" = "بالتأكيد";
+"total_assets_widget_trend_title" = "الاتجاه";
+"forecast_widget_upcoming_title" = "مجدول";
+"forecast_widget_pending_title" = "معلق";
+"forecast_widget_final_balance_title" = "الرصيد النهائي";
+"pie_chart_widget_transactions_title" = "المعاملات";
+"pie_chart_widget_categories_title" = "الفئات";
+
+/* Sections */
+"inactive_widgets_section_title" = "الأدوات المخفية";
+
+/* Footer */
+"participants_widget_footer_title" = "ملاحظة: يتم عرض عنصر واجهة المستخدم للأشخاص فقط لدفاتر الميزانية المشتركة.";
+
+/* Messages */
+"no_widgets_title" = "لم تتم إضافة عناصر واجهة المستخدم";
+"no_widgets_message" = "انقر فوق \"تخصيص\" لتخصيص العرض.";
+"no_suggestions_title" = "لا توجد اقتراحات";
+"not_shared_title" = "دفتر الميزانية غير متوفر";
+
+/* Widgets */
+"account_balances_widget_title" = "أرصدة الحساب";
+"balance_widget_title" = "الرصيد";
+"total_income_widget_title" = "إجمالي الدخل";
+"total_expenses_widget_title" = "إجمالي النفقات";
+"fixed_expenses_widget_title" = "النفقات الثابتة";
+"variable_expenses_widget_title" = "النفقات المتغيرة";
+
+"account_balances_distribution_widget_title" = "أرصدة الحساب";
+"balance_distribution_widget_title" = "الرصيد";
+"total_income_distribution_widget_title" = "إجمالي الدخل";
+"total_expenses_distribution_widget_title" = "إجمالي النفقات";
+"fixed_expenses_distribution_widget_title" = "النفقات الثابتة";
+"variable_expenses_distribution_widget_title" = "النفقات المتغيرة";
+
+
+/* MARK: - Transaction List View */
+/* Titles */
+"sum_title" = "المجموع";
+"total_sum_title" = "المجموع الإجمالي";
+"recurring_transactions_title" = "متكرر";
+"upcoming_transactions_title" = "مجدول";
+"reminded_transactions_title" = "تم التذكير";
+
+/* Info */
+"recurring_transactions_info_title" = "الوصف";
+"recurring_transactions_info_description" = "قم بإنشاء معاملات متكررة بحيث تتم إضافتها تلقائيًا إلى التطبيق عندما يحين موعد الدفع.";
+
+/* Sections */
+"account_filter_section_title" = "حساب";
+"category_filter_section_title" = "فئة";
+"payee_filter_section_title" = "مستفيد";
+"tag_filter_section_title" = "وسم";
+"user_filter_section_title" = "مستخدم";
+"payment_status_filter_section_title" = "حالة الدفع";
+"transaction_type_filter_section_title" = "نوع";
+"date_range_filter_section_title" = "تاريخ";
+"amount_range_filter_section_title" = "المبلغ";
+
+/* Messages */
+"no_transactions_title" = "لا توجد معاملات";
+"no_transactions_title_short" = "لا";
+"no_transactions_found_title" = "لم يتم العثور على معاملات";
+"no_transactions_found_message" = "انقر فوق الزر \"+\" لإضافة معاملة جديدة.";
+"no_transactions_found_button_title" = "معاملة جديدة";
+"no_recurring_transactions_found_message" = "انقر فوق الزر \"+\" لإضافة دفعة تلقائية جديدة.";
+"no_upcoming_transactions_found_message" = "انقر فوق الزر \"+\" لجدولة معاملة جديدة.";
+"no_rekind_transactions_found_message" = "اضغط على الزر \"+\" لتذكيرك بمعاملة جديدة.";
+"transactions_search_placeholder_message" = "ابحث حسب اسم الفئة أو المستفيد أو الوسم أو الملاحظات";
+
+/* Buttons */
+"show_analysis_button" = "إظهار التحليل";
+"show_analysis_button_short" = "تحليل";
+"show_forecast_button" = "عرض التوقعات";
+"show_forecast_button_short" = "التوقعات";
+"show_upcoming_transactions_button" = "مجدول";
+
+/* Alert Views */
+"alert_confirm_add_next_upcoming_transaction_title" = "إضافة معاملة";
+"alert_confirm_add_next_upcoming_transaction_message" = "هل أنت متأكد من رغبتك في إضافة هذه المعاملة المجدولة الآن؟";
+
+/* Miscellaneous */
+"payed_by_and_modified_at" = "تم الدفع بواسطة %@\nتم التعديل بواسطة %@";
+"modified_at" = "تم التعديل: %@";
+"average_per_transaction" = "Ø لكل معاملة";
+"average_per_day" = "Ø في اليوم";
+"average_per_month" = "Ø في الشهر";
+
+
+/* MARK: - Budget List View */
+/* Titles */
+"remaining_title" = "متاح";
+"balanced_title" = "الأمثل";
+"exceeded_title" = "تم التجاوز";
+"user_has_no_budgets_title" = "ليس لديك أي ميزانيات";
+"user_is_within_budget_title" = "أنت في حدود ميزانيتك! 🎉";
+"user_was_within_budget_title" = "أنت في حدود ميزانيتك! 🎉";
+"user_is_not_within_budget_title" = "تم تجاوز الميزانيات: %d 😢";
+"user_is_not_within_budgets_title" = "تم تجاوز الميزانيات: %d 😢";
+
+/* Messages */
+"no_budgets_title" = "لا توجد ميزانيات";
+"no_budgets_found_title" = "لم يتم العثور على ميزانيات";
+"no_budgets_found_message" = "انقر فوق الزر \"+\" لإضافة ميزانية جديدة.";
+"budgets_search_placeholder_message" = "البحث حسب اسم الميزانية";
+"no_budgets_found_button_title" = "الميزانية الجديدة";
+
+
+/* MARK: - Analysis View */
+/* Titles */
+"analysis_title" = "تحليل";
+"trend_widget_average_title" = "المتوسط";
+"trend_widget_current_year_title" = "هذا العام";
+"trend_widget_current_month_title" = "هذا الشهر";
+
+/* Messages */
+"trend_widget_received_more_message" = "أنت تكسب أكثر من المعتاد.";
+"trend_widget_received_less_message" = "أنت تكسب أقل من المعتاد.";
+"trend_widget_received_same_message" = "أنت تكسب كالمعتاد.";
+"trend_widget_has_received_more_message" = "لقد ربحت أكثر من المعتاد.";
+"trend_widget_has_received_less_message" = "لقد ربحت أقل من المعتاد.";
+"trend_widget_has_received_same_message" = "لقد ربحت نفس المبلغ كالمعتاد.";
+
+"trend_widget_spent_more_message" = "أنت تنفق أكثر من المعتاد.";
+"trend_widget_spent_less_message" = "أنت تنفق أقل من المعتاد.";
+"trend_widget_spent_same_message" = "أنت تنفق نفس المبلغ كالمعتاد.";
+"trend_widget_has_spent_more_message" = "لقد أنفقت أكثر من المعتاد.";
+"trend_widget_has_spent_less_message" = "لقد أنفقت أقل من المعتاد.";
+"trend_widget_has_spent_same_message" = "لقد أنفقت نفس المبلغ كالمعتاد.";
+
+"total_balance_widget_current_balance_message" = "رصيدك هو %@.";
+"total_balance_widget_previous_balance_message" = "رصيدك هو %@.";
+
+"savings_rate_widget_current_savings_rate_message" = "معدل التوفير الخاص بك هو %@ %%.";
+"savings_rate_widget_previous_savings_rate_message" = "معدل التوفير الخاص بك هو %@ %%.";
+
+/* Widgets */
+"trend_widget_title" = "الاتجاه";
+"total_balance_widget_title" = "الرصيد";
+"savings_rate_widget_title" = "مبلغ التوفير";
+
+
+/* MARK: - Account Forecast View */
+/* Titles */
+"account_forecast_title" = "التوقعات";
+"account_balance_title" = "الرصيد";
+"not_enough_data_title" = "لا توجد بيانات كافية";
+
+
+/* MARK: - Settings View */
+/* Titles */
+"no_budget_book_title" = "لا يوجد دفتر ميزانية";
+
+/* Messages */
+"share_app_message" = "\"%@ - متتبع النفقات\"\n\nالتنزيل الآن مجانًا:";
+
+/* Sections */
+"general_setting_section_title" = "عام";
+"upgrade_setting_section_title" = "النسخة الكاملة";
+"support_setting_section_title" = "الدعم";
+"legal_setting_section_title" = "معلومات";
+"data_setting_section_title" = "البيانات";
+"miscellaneous_setting_section_title" = "أخرى";
+
+/* Footer */
+"upgrade_setting_footer_title" = "شكرًا لك على استخدام الإصدار الكامل!";
+"support_setting_footer_title" = "هل لديك أسئلة أو أفكار؟ اكتب رسالة أو تعليقًا إيجابيًا في App Store! تعليقاتك محفزة للغاية وتساعد في تحسين التطبيق.";
+
+/* Buttons */
+"share_budgetbook_button" = "مشاركة دفتر الميزانية";
+"show_participants_button" = "إظهار المشاركين";
+"cloud_not_available_button" = "iCloud غير متاح";
+"upgrade_show_all_features_button" = "إظهار كافة الميزات";
+"reset_app_button" = "إعادة تعيين التطبيق";
+
+/* General Settings */
+"accounts_setting_title" = "الحسابات";
+"categories_setting_title" = "الفئات";
+"payees_setting_title" = "المستفيدين";
+"tags_setting_title" = "العلامات";
+"reminders_setting_title" = "تذكيرات";
+
+/* Upgrade Settings */
+"upgrade_setting_title" = "فتح الإصدار الكامل 🚀";
+"upgrade_setting_description" = "افتح الإصدار الكامل الآن واستمتع بميزات إضافية!";
+
+/* Support Settings */
+"share_app_setting_title" = "أخبر الأصدقاء";
+"translate_app_setting_title" = "مساعدة في الترجمة";
+"help_center_setting_title" = "مركز المساعدة (🇬🇧)";
+"feature_roadmap_setting_title" = "اقتراح ميزة";
+"rate_app_setting_title" = "تقييم التطبيق";
+
+/* Legal Settings */
+"imprint_setting" = "معلومات قانونية";
+"privacy_setting" = "سياسة الخصوصية";
+"terms_of_use_setting" = "شروط الاستخدام";
+"acknowledgements_setting" = "الشكر والتقدير";
+"licenses_setting" = "التراخيص";
+
+"acknowledgements_setting_info_title" = "الوصف";
+"acknowledgements_setting_info_description" = "فيما يلي قائمة بالأشخاص الذين ساعدوا في التطبيق بطريقة أو بأخرى.";
+"translation_acknowledgement" = "الترجمة (%@)";
+"licenses_setting_info_title" = "الوصف";
+"licenses_setting_info_description" = "في ما يلي قائمة بجميع تراخيص الجهات الخارجية التي يستخدمها التطبيق.";
+
+/* Data Settings */
+"sync_and_data_setting" = "المزامنة والبيانات";
+"sync_and_data_setting_short" = "المزامنة والبيانات";
+"recurring_transactions_setting" = "المعاملات المتكررة";
+
+/* Miscellaneous Settings */
+"new_features_setting" = "ميزات جديدة";
+"testflight_beta_setting" = "TestFlight Beta";
+"apple_pay_setting" = "تكامل  Pay";
+"appearance_setting" = "التخصيص";
+"advanced_setting" = "متقدم";
+
+/* Contact Developer */
+"mail_subject_type_contact" = "Contact";
+"mail_subject_type_support" = "Support";
+"mail_subject_type_feedback" = "Feedback";
+"mail_subject_type_translate" = "Translate";
+"mail_subject_type_discount" = "Discount";
+
+"alert_contact_developer_title" = "What is your request about?";
+"alert_contact_developer_feature_request" = "💡 Feature request";
+"alert_contact_developer_bug_report" = "🐞 Bug report";
+"alert_contact_developer_other" = "📬 Other (e-mail)";
+
+"contact_developer_mail_subject" = "%@: %@%@";
+"contact_developer_mail_subject_full_version" = " (full version)";
+"contact_developer_mail_message" = "
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+<b>Support Information:</b>
+</br>
+<u>General:</u></br>
+- Device: %@</br>
+- iOS version: %@</br>
+- Language: %@</br>
+- Currency: %@</br>
+- Time zone: %@</br>
+</br>
+<u>App Specific:</u></br>
+- App version: %@</br>
+- Build: %@</br>
+</br>
+<u>In-App Purchases:</u></br>
+- User ID: %@</br>
+- Active: %@</br>
+- Purchases: %@";
+"contact_developer_mail_no_purchases" = "None";
+
+/* Appearance Settings */
+"appearance_setting_info_title" = "الوصف";
+"appearance_setting_info_description" = "قم بتخصيص التطبيق حسب رغبتك عن طريق تغيير مظهره أو لون التمييز.";
+"appearance_ui_style_setting_section_title" = "السمة";
+"appearance_ui_style_setting_footer_title" = "يغير مظهر التطبيق.";
+"appearance_accent_color_setting_section_title" = "لون التمييز";
+"appearance_accent_color_setting_footer_title" = "تغيير لون الأزرار وعناصر التحكم الأخرى في التطبيق.";
+"appearance_app_icon_setting_section_title" = "رمز التطبيق";
+
+/* Sync & Data Settings */
+"sync_and_data_setting_info_title" = "الوصف";
+"sync_and_data_setting_info_description" = "احصل على نظرة عامة على حالة المزامنة الحالية وقم باستيراد أو تصدير البيانات باستخدام ملف CSV.";
+
+"sync_and_data_cloud_setting_section_title" = "iCloud";
+"sync_and_data_cloud_setting_footer_title" = "يشير إلى ما إذا كانت مزامنة iCloud ناجحة أو حدث خطأ.";
+"sync_and_data_setting_cloud_sync_status_title" = "حالة المزامنة";
+"backup_setting_section_title" = "النسخ الاحتياطية";
+"backup_setting_footer_title" = "إدارة النسخ الاحتياطية وإعدادات النسخ الاحتياطي.";
+"backup_setting_manage_backups_title" = "الإدارة";
+"sync_and_data_csv_setting_section_title" = "بيانات CSV";
+"sync_and_data_csv_setting_footer_title" = "عمليات الاستيراد أو التصدير باستخدام ملف CSV.";
+"sync_and_data_setting_csv_import_title" = "استيراد";
+"sync_and_data_setting_csv_export_title" = "تصدير";
+"sync_and_data_setting_get_csv_template_title" = "تحميل القالب";
+
+"clear_cache_button" = "مسح ذاكرة التخزين المؤقت";
+"cache_setting_footer_title" = "معلومات: يؤدي مسح ذاكرة التخزين المؤقت إلى حذف كافة الملفات الموجودة في دليل مستندات التطبيق (بما في ذلك النسخ الاحتياطية).";
+
+"alert_csv_import_successful_title" = "تم الاستيراد بنجاح 🎉";
+"alert_csv_import_successful_message" = "تم استيراد إجمالي %d من %d عملية.%@";
+"alert_csv_import_skipped_message" = "على هذا النحو، تم تخطي %d من المعاملات الحالية.";
+"alert_csv_import_error_message" = "تعذر استيراد %d من %d عمليات بنجاح\n\n%@";
+"alert_csv_import_error_reason_field_message" = "الرجاء التحقق من الحقول التالية في ملف CSV: %@.";
+
+"alert_csv_export_successful_title" = "تم التصدير بنجاح 🎉";
+"alert_csv_export_successful_message" = "تم تصدير بياناتك بنجاح إلى \"%@\".";
+
+/* Cloud Settings */
+"cloud_setting_info_title" = "الوصف";
+"cloud_setting_info_description" = "يوفر العرض التالي نظرة عامة أكثر تفصيلاً عن حالة مزامنة iCloud الحالية ويساعد في استكشاف الأخطاء وإصلاحها.";
+
+"cloud_setting_network_status_title" = "الشبكة";
+"cloud_setting_network_status_success_value" = "اتصال بالإنترنت متاح";
+"cloud_setting_network_status_error_value" = "لا يوجد اتصال بالإنترنت";
+"cloud_setting_account_status_title" = "حساب iCloud";
+"cloud_setting_account_status_success_value" = "تم تسجيل الدخول إلى iCloud";
+"cloud_setting_account_status_error_value" = "لم يتم تسجيل الدخول إلى iCloud";
+"cloud_setting_upload_status_title" = "آخر تحميل";
+"cloud_setting_download_status_title" = "آخر تنزيل";
+"cloud_setting_number_of_transactions_title" = "المعاملات";
+"cloud_setting_number_of_transactions_value" = "على الجهاز: %d\nفي iCloud: %d";
+"cloud_setting_number_of_transactions_in_progress_title" = "الرجاء الانتظار...";
+"cloud_setting_number_of_transactions_error_title" = "خطأ";
+
+/* Backup Settings */
+"backup_setting_info_title" = "الوصف";
+"backup_setting_info_description" = "ي حالة تمكينها، ستقوم Budget Flow بنسخ بياناتك احتياطيًا بانتظام حتى تتمكن من استعادة التطبيق إلى حالته السابقة في أي وقت.";
+
+"backup_general_setting_section_title" = "عام";
+"backup_recent_backups_setting_section_title" = "النسخ الاحتياطية الأخيرة";
+"backup_setting_use_automatic_backups_title" = "النسخ الاحتياطي التلقائي";
+"backup_setting_create_backup_title" = "إنشاء نسخة احتياطية";
+
+"alert_restore_backup_title" = "هل ترغب في استعادة هذه النسخة الاحتياطية؟";
+"alert_restore_backup_message" = "تعد استعادة النسخ الاحتياطية حاليًا ميزة تجريبية. ستحذف بياناتك الحالية وتستبدلها بالنسخة الاحتياطية المحددة.\n\nوسيغلق التطبيق تلقائيًا بعد ذلك.\n\nملاحظة: لا يمكن التراجع عن هذه العملية!";
+"alert_restore_backup_button" = "استعادة النسخة الاحتياطية";
+
+/* Advanced Settings */
+"advanced_setting_info_title" = "الوصف";
+"advanced_setting_info_description" = "الإعدادات المتقدمة لتخصيص التطبيق.";
+
+"advanced_security_setting_section_title" = "الأمان";
+"advanced_view_setting_section_title" = "الشاشة";
+"advanced_sidebar_setting_section_title" = "الشريط الجانبي";
+"advanced_transaction_setting_section_title" = "المعاملات";
+"advanced_other_setting_section_title" = "أخرى";
+
+"advanced_setting_use_passcode_title" = "استخدم رمز المرور";
+"advanced_setting_use_title" = "استخدم %@";
+"advanced_setting_auto_lock_title" = "اطلب كلمة المرور";
+
+"advanced_setting_chart_type_title" = "نوع المخطط";
+"advanced_setting_show_frequently_used_items_title" = "إظهار الفئات والعلامات المستخدمة بشكل متكرر";
+"advanced_setting_show_frequently_used_items_description" = "قم بتمكين هذه الميزة لعرض الفئات والعلامات المستخدمة بشكل متكرر في قائمة التحديد عند إنشاء المعاملات وتحريرها.";
+"advanced_setting_show_notes_in_title_title" = "إظهار الملاحظات بدلاً من الفئة";
+"advanced_setting_show_notes_in_title_description" = "أظهر ملاحظة بدلاً من اسم الفئة في قائمة الأنشطة.";
+"advanced_setting_start_day_of_month_title" = "يوم من الشهر";
+"advanced_setting_start_day_of_month_description" = "يؤثر على التقارير والعمليات والميزانيات.";
+"advanced_setting_configure_transaction_title_title" = "عنوان المعاملة";
+"advanced_setting_configure_transaction_subtitle_title" = "العنوان الفرعي للمعاملة";
+
+"advanced_setting_configure_transaction_title_info_title" = "الوصف";
+"advanced_setting_configure_transaction_title_info_description" = "تعيين ترتيب العناصر المراد عرضها في عنوان المعاملة. إذا كان أحد العناصر مفقودًا، فسيتم استخدام العنصر التالي في الترتيب تلقائيًا.";
+
+"advanced_setting_show_accounts_in_sidebar_title" = "إظهار الحسابات في الشريط الجانبي";
+"advanced_setting_show_accounts_in_sidebar_description" = "إظهار قائمة الحسابات في الشريط الجانبي.";
+"advanced_setting_group_accounts_in_sidebar_title" = "تجميع الحسابات في الشريط الجانبي";
+"advanced_setting_group_accounts_in_sidebar_description" = "تجميع حساباتك في الشريط الجانبي حسب النوع.";
+"advanced_setting_show_categories_in_sidebar_title" = "إظهار الفئات في الشريط الجانبي";
+"advanced_setting_show_categories_in_sidebar_description" = "إظهار قائمة بالفئات الخاصة بك في الشريط الجانبي.";
+"advanced_setting_group_categories_in_sidebar_title" = "تجميع الفئات في الشريط الجانبي";
+"advanced_setting_group_categories_in_sidebar_description" = "تجميع الفئات الخاصة بك في الشريط الجانبي حسب المجلد.";
+
+"advanced_setting_select_time_automatically_title" = "تحديد الوقت تلقائيًا";
+"advanced_setting_select_time_automatically_description" = "تحديد الوقت الحالي للعمليات الجديدة تلقائيًا.";
+"advanced_setting_select_location_automatically_title" = "تحديد الموقع تلقائيًا";
+"advanced_setting_select_location_automatically_description" = "تحديد الموقع الحالي تلقائيًا للعمليات الجديدة.";
+"advanced_setting_save_photos_in_library_title" = "حفظ الصور في المكتبة";
+"advanced_setting_save_photos_description" = "احفظ الصور الملتقطة في التطبيق في مكتبتك.";
+"advanced_setting_consider_pending_items_title" = "النظر في كافة المعاملات";
+"advanced_setting_consider_pending_items_description" = "تضمين المعاملات المعلقة عند حساب أرصدة الحسابات والأرصدة والإجماليات.";
+
+"advanced_setting_enable_exact_times_title" = "أدخل الوقت المحدد";
+"advanced_setting_enable_exact_times_description" = "المطالبة بتحديد وقت محدد للمعاملات الجديدة (على سبيل المثال 9:41)، بدلاً من التقريب بزيادات قدرها 5 دقائق.";
+"advanced_setting_reverse_keyboard_title" = "لوحة المفاتيح المعكوسة";
+"advanced_setting_reverse_keyboard_description" = "يتم عكس تخطيط لوحة المفاتيح الرقمية رأسياً ليتناسب مع نمط الآلة الحاسبة التقليدية.";
+"advanced_setting_enable_haptic_keyboard_title" = "استجابة لوحة المفاتيح";
+"advanced_setting_enable_haptic_keyboard_description" = "احصل على ردود فعل لمسية عند إدخال مبلغ باستخدام لوحة المفاتيح.";
+"advanced_setting_enable_live_activities_title" = "النشاط المباشر";
+"advanced_setting_enable_live_activities_description" = "إظهار الرصيد الحالي والمعلومات الأخرى في Dynamic Island وعلى شاشة القفل.";
+"advanced_setting_ask_for_feedback_title" = "اطلب تعليقات";
+"advanced_setting_ask_for_feedback_description" = "قم بتشغيل هذه الميزة للسماح للتطبيق بمطالبتك بالتعليقات من وقت لآخر.";
+
+/* Cloud Sync Status */
+"cloud_sync_status_not_logged_in" = "لم تقم بتسجيل الدخول إلى iCloud";
+"cloud_sync_status_not_started" = "غير متزامن";
+"cloud_sync_status_no_network" = "لا يوجد اتصال بالإنترنت";
+"cloud_sync_status_in_progress" = "جارٍ المزامنة...";
+"cloud_sync_status_succeeded" = "تمت المزامنة بالكامل";
+"cloud_sync_status_quota_exceeded" = "مساحة iCloud الخاصة بك ممتلئة. يرجى تحرير بعض المساحة ثم المحاولة مرة أخرى.";
+"cloud_sync_status_limit_exceeded" = "لقد وصلت إلى حد تحميل/تنزيل iCloud. يرجى الانتظار قليلاً والمحاولة مرة أخرى لاحقاً.";
+"cloud_sync_status_network_failure" = "حدث خطأ في الشبكة. يرجى المحاولة مرة أخرى لاحقاً.";
+"cloud_sync_status_service_unavailable" = "iCloud غير متاح مؤقتاً. يرجى المحاولة مرة أخرى لاحقاً.";
+"cloud_sync_status_request_rate_limited" = "لقد أرسلت العديد من الطلبات إلى iCloud في فترة زمنية قصيرة. يرجى الانتظار قليلاً والمحاولة مرة أخرى لاحقاً.";
+"cloud_sync_status_request_unknown_error" = "حدث خطأ غير معروف. يرجى المحاولة مرة أخرى لاحقاً.";
+
+/* Alert Views */
+"alert_share_app_type_selection_title" = "ما الذي ترغب في مشاركته؟";
+"alert_share_app_type_selection_link_button" = "رابط";
+"alert_share_app_type_selection_qrcode_button" = "رمز QR";
+
+"alert_reset_app_title" = "إعادة تعيين التطبيق";
+"alert_reset_app_message" = "هل أنت متأكد من رغبتك في إعادة تعيين إعدادات تطبيقك إلى الوضع الافتراضي؟ سيؤدي هذا إلى حذف كافة بياناتك المخزنة على هذا الجهاز وعلى iCloud بشكل دائم.";
+
+"alert_error_title" = "حدث خطأ 😢";
+
+/* Social Media */
+"follow_on_social_media" = "تابع \"%@\" على وسائل التواصل الاجتماعي";
+
+/* Copyright */
+"version" = "Version";
+"developed_by" = "تم التطوير بواسطة %@ 👨🏻‍💻";
+
+
+/* MARK: - Passcode View */
+/* Titles */
+"passcode_view_enter_passcode_title" = "أدخل كلمة المرور";
+"passcode_view_create_passcode_title" = "إنشاء كلمة مرور";
+"passcode_view_confirm_passcode_title" = "تأكيد كلمة المرور";
+"passcode_view_authenticate_reason" = "مصادقة المستخدم";
+
+/* Alert Views */
+"alert_set_passcode_type_title" = "اختر نوع كلمة المرور";
+
+
+/* MARK: - Welcome View */
+/* Titles */
+"welcome_view_title" = "مرحبًا";
+"privacy_policy_title" = "سياسة الخصوصية";
+
+/* Sections */
+"welcome_view_overview_section_title" = "الملخص";
+"welcome_view_legal_documents_section_title" = "معلومات قانونية";
+
+/* Overview */
+"privacy_overview_datastorage_title" = "تخزين آمن للبيانات";
+"privacy_overview_datastorage_description" = "أموالك خاصة – ويجب أن تظل كذلك. لهذا السبب، يتم تخزين بياناتك فقط على جهازك أو (اختياريًا) في iCloud الشخصي الخاص بك.";
+
+"privacy_overview_privacy_control_title" = "أنت المتحكم";
+"privacy_overview_privacy_control_description" = "سواء كان الأمر يتعلق ببياناتك المحفوظة، أو استخدام موقعك، أو الوصول إلى الكاميرا الخاصة بك، فأنت دائمًا المتحكم. على سبيل المثال، يمكنك بسهولة حذف بياناتك عن طريق إعادة تعيين التطبيق، ويمكن تعديل أذونات التطبيق على في أي وقت.";
+
+/* Footer */
+"welcome_view_value_description" = "قم بإدارة كافة أموالك بسهولة: أدخل ميزانيتك، واحصل على المعلومات، وتتبع كل دخلك ونفقاتك.";
+"welcome_view_agreement_description" = "بالنقر فوق \"قبول\"، فإنك توافق على %@.";
+
+
+/* MARK: - New Features View */
+/* Titles */
+"new_features_view_title" = "ميزات جديدة";
+
+/* Buttons */
+"new_features_view_rate_app_button" = "تقييم التطبيق";
+"new_features_view_close_button" = "ربما لاحقًا";
+
+
+/* MARK: - Rate App View */
+/* Titles */
+"purchase_success_view_title" = "شكرًا لك!";
+
+/* Messages */
+"purchase_success_view_info_message" = "إذا أعجبك التطبيق، فاكتب تقييمًا إيجابيًا في App Store. إنه يساعدنا كثيرًا حقًا ويحفزنا على تحسين التطبيق باستمرار. 😊";
+"purchase_success_view_info_message_info" = "\n\nمعلومة: عند الانتقال من الاشتراك إلى الشراء مدى الحياة، تذكر إلغاء اشتراكك الحالي بعد ذلك.";
+
+/* Buttons */
+"purchase_success_view_rate_app_button" = "تقييم التطبيق";
+"purchase_success_view_close_button" = "ربما لاحقًا";
+
+
+/* MARK: - Upgrade View */
+/* Titles */
+"upgrade_view_title" = "الإصدار الكامل";
+
+/* Info */
+"upgrade_info_description" = "هذه الميزة متاحة فقط في الإصدار الكامل:";
+"upgrade_sharing_info_description" = "يمكن استخدامه بواسطة ما يصل إلى خمسة أشخاص";
+
+/* Discount */
+"upgrade_discount_title" = "عرض خاص 🌟";
+"upgrade_discount_multiple_title" = "وفّر حتى %d %%!";
+"upgrade_discount_montly_subscription_title" = "وفّر %d %% على اشتراكك الشهري!";
+"upgrade_discount_yearly_subscription_title" = "وفّر %d %% على اشتراكك السنوي!";
+"upgrade_discount_lifetime_purchase_title" = "وفّر %d %% عند الشراء لمرة واحدة!";
+"upgrade_discount_ends_in" = "ينتهي";
+
+/* Sections */
+"upgrade_info_section_title" = "معلومات";
+"upgrade_reviews_section_title" = "المراجعات";
+
+/* Messages */
+"apply_for_discount_text" = "هل أنت طالب أو تواجه صعوبات مالية؟\nانقر هنا لتقديم طلب للحصول على خصم.";
+"apply_for_discount_highlighted_text" = "انقر هنا لتقديم طلب للحصول على خصم.";
+
+/* Features */
+"upgrade_features" = "الميزات";
+"upgrade_more_features" = "ميزات إضافية";
+"upgrade_features_description" = "في ما يلي كافة الميزات التي سيتم فتحها عند شراء الإصدار الكامل:";
+"upgrade_feature_unlimited_accounts_title" = "عدد غير محدود من الحسابات";
+"upgrade_feature_unlimited_accounts_description" = "قم بإنشاء عدد غير محدود من الحسابات وقم بتعيين المعاملات لها للحصول على نظرة عامة أفضل على دخلك ونفقاتك.";
+"upgrade_feature_unlimited_categories_and_tags_title" = "فئات وعلامات غير محدودة";
+"upgrade_feature_unlimited_categories_and_tags_description" = "قم بإنشاء عدد غير محدود من الفئات والعلامات التي يمكنك إضافتها إلى معاملاتك لتنظيمها بشكل أفضل.";
+"upgrade_feature_extended_analyses_title" = "التحليلات الموسعة";
+"upgrade_feature_extended_analyses_description" = "استفد من التحليلات الإضافية والتنبؤ المحسن لأرصدة الحسابات والمعاملات المستقبلية.";
+"upgrade_feature_unlimited_budgetbooks_title" = "كتب الميزانية غير المحدودة";
+"upgrade_feature_unlimited_budgetbooks_description" = "قم بإنشاء عدد غير محدود من كتب الميزانية، على سبيل المثال حتى يتمكن عدة أشخاص من وضع الميزانية على نفس الجهاز، أو إذا كنت تريد استخدام كتاب ميزانية منفصل (على سبيل المثال، لقضاء عطلة).";
+"upgrade_feature_security_title" = "البيانات الآمنة";
+"upgrade_feature_security_description" = "قم بتأمين بياناتك باستخدام %@.";
+"upgrade_feature_security_description_passcode" = "قم بتأمين بياناتك عن طريق إنشاء رمز مرور";
+"upgrade_feature_security_description_biometric" = "أو استخدم %@";
+"upgrade_feature_currency_converter_title" = "محول العملات";
+"upgrade_feature_currency_converter_description" = "استخدم محول العملات المدمج لتحويل المبالغ تلقائيًا إلى واحدة من أكثر من 150 عملة أجنبية.";
+"upgrade_feature_customization" = "التخصيص";
+"upgrade_feature_customization_description" = "اختر من بين العديد من الألوان والأيقونات المميزة لتخصيص التطبيق.";
+"upgrade_feature_sharedbudget_books_title" = "كتب الميزانية المشتركة";
+"upgrade_feature_sharedbudget_books_description" = "شارك دفاتر ميزانيتك، بما في ذلك الحسابات، والفئات، والمعاملات، والميزانيات، للتعاون مع عدة أشخاص.";
+"upgrade_feature_receipt_scanner_title" = "ماسح الإيصالات";
+"upgrade_feature_receipt_scanner_description" = "استخدم الماسح الضوئي لتحويل الإيصالات إلى صيغة رقمية والتعرف تلقائيًا على المبلغ واسم البائع.";
+"upgrade_feature_widgets_title" = "أدوات الشاشة الرئيسية وشاشة القفل";
+"upgrade_feature_widgets_description" = "باستخدام الأدوات، يمكنك رؤية دخلك ونفقاتك الحالية، ورصيد حسابك، والمزيد في لمحة سريعة دون فتح التطبيق. لمعاينة الأدوات، قم بتحرير شاشتك الرئيسية أو شاشة القفل، افتح \"إضافة أداة\" و ثم حدد هذا التطبيق.";
+"upgrade_feature_reminders_title" = "إنشاء تذكيرات";
+"upgrade_feature_reminders_description" = "قم بإنشاء تذكيرات للعمليات الجراحية المجدولة لتلقي الإشعارات (بما في ذلك دون الاتصال بالإنترنت).";
+"upgrade_feature_csv_title" = "استيراد وتصدير ملف CSV";
+"upgrade_feature_csv_description" = "قم باستيراد وتصدير معاملاتك باستخدام ملف CSV لنقل البيانات من البنك الذي تتعامل معه أو من التطبيقات الأخرى.";
+"upgrade_feature_remove_ads_title" = "لا توجد إعلانات";
+"upgrade_feature_remove_ads_description" = "لن ترى إعلانات للإصدار الكامل في التطبيق بعد الآن.";
+"upgrade_feature_support_title" = "دعم التطوير";
+"upgrade_feature_support_description" = "أنت تدعم مطورًا شابًا وبالتالي التطوير المستمر للتطبيق! 😊";
+
+/* Reviews */
+"user_review_title_de" = "تطبيق رائع";
+"user_review_description_de" = "التطبيق مصمم وعملي بشكل جيد للغاية. إنه يلبي جميع احتياجاتي والدعم سريع ومفيد للغاية. لا يمكنني إلا أن أوصي به.";
+"user_review_title_hr" = "تطبيق جميل";
+"user_review_description_hr" = "تطبيق غني بالميزات، مع واجهة مستخدم سهلة الاستخدام. قمت بتجربة العديد من البدائل على iOS، ولم يلبي أي منها احتياجاتي بالطريقة التي يلبي بها هذا التطبيق. يستحق المال.";
+"user_review_title_bg" = "الدعم المتميز";
+"user_review_description_bg" = "تطبيق رائع مع دعم عملاء متميز. وهو بسعر معقول جدًا بالنسبة لجودة البرنامج.";
+"user_review_title_us" = "تطبيق رائع حتى الآن";
+"user_review_description_us" = "معجب جدًا بكون هذا التطبيق متاحًا على iOS، وiPad، وmacOS حتى أتمكن من تحديثه في أي مكان. ومن الجميل أيضًا أن أرى أنه لا يوجد حساب مطلوب أو جمع بيانات وهو ما يبدو نادرًا هذه الأيام ولكنه مهم لي بخصوص طلبات التمويل.";
+"user_review_title_uk" = "هذا هو!";
+"user_review_description_uk" = "لقد كنت أبحث عن هذا التطبيق لأكثر من عامين. كنت أرغب في الحصول على مدير مالي قائم على الهاتف تم تصميمه حول شاشة نظرة عامة جيدة المظهر، مما يتيح سهولة إدخال البيانات الجديدة والقدرة على التعمق للحصول على مزيد من المعلومات عند الحاجة! جربها.";
+"user_review_title_es" = "أفضل تطبيق للميزانية";
+"user_review_description_es" = "ببساطة أفضل ما جربته. أعتقد أنه لا يزال تطبيقًا جديدًا ولكن بالتأكيد يمكنك رؤية الإمكانات التي يتمتع بها.";
+"user_review_title_fr" = "تطبيق رائع وغني بالميزات";
+"user_review_description_fr" = "أنا أستخدم التطبيق منذ بضعة أشهر ويعجبني حقًا. تهانينا على عملك ولا أستطيع الانتظار لأرى كيف سيبدو التطبيق خلال بضعة أشهر :)";
+"user_review_title_it" = "رائع بكل بساطة";
+"user_review_description_it" = "أخيرًا. كنت أبحث عن مثل هذا الحل لسنوات حتى الآن. استخدمه مع مشغل اختصار المعاملات iOS، أحب التصميم. وأنا أحب ميزة الدفع مرة واحدة مدى الحياة. استمر في العمل الرائع!";
+"user_review_title_ch" = "دعم رائع";
+"user_review_description_ch" = "دعم رائع - حل سريع وغير معقد للمشكلات. أشعر بأنني آخذ الأمر على محمل الجد كمستخدم.";
+"user_review_title_pl" = "ممتع جدًا للاستخدام";
+"user_review_description_pl" = "التطبيق عبارة عن مخطط ومتتبع ممتاز للميزانية أستخدمه يوميًا. بالإضافة إلى ذلك، يهتم المطور جدًا بمجتمعه، على الرغم من صغر حجمه.";
+
+/* Products */
+"monthly_subscription_title" = "1";
+"yearly_subscription_title" = "12";
+"lifetime_purchase_title" = "∞";
+
+"monthly_subscription_subtitle" = "الشهر";
+"yearly_subscription_subtitle" = "الأشهر";
+"lifetime_purchase_subtitle" = "للأبد";
+
+"product_discount_header_title" = "- %d %%";
+
+/* Buttons */
+"upgrade_is_active_button" = "نشط";
+"upgrade_purchase_button" = "شراء";
+"upgrade_subscribe_button" = "الاشتراك";
+"upgrade_free_trial_button" = "الفترة التجريبية";
+"upgrade_restore_button" = "استعادة المشتريات";
+"upgrade_restore_in_progress_button" = "الرجاء الانتظار...";
+
+"subscription_button_info_text" = "الإلغاء في أي وقت.";
+"subscription_trial_button_info_text" = "إصدار تجريبي مجاني %d %@. ثم %@ لـ %@.";
+"lifetime_purchase_button_info_text" = "فتح الإصدار الكامل مرة واحدة (بدون اشتراك).";
+
+/* Alert Views */
+"alert_upgrade_view_purchase_success_title" = "تمت عملية الشراء بنجاح 🎉";
+"alert_upgrade_view_purchase_success_message" = "شكرًا لك على دعمك! 😊";
+"alert_upgrade_view_purchase_success_message_info" = "\n\nمعلومات: إذا قمت بالترقية من اشتراك إلى شراء لمرة واحدة، فتأكد من إلغاء اشتراكك السابق لاحقًا.";
+"alert_upgrade_view_purchase_error_message" = "تعذر إكمال عملية الشراء بنجاح";
+"alert_upgrade_view_purchase_error_store_problem_message" = "توجد مشكلة في App Store.\n\nمعلومات: في بعض الأحيان قد تعمل عملية الشراء فقط إذا قمت بالتحقق من كلمة المرور الخاصة بك بدلاً من Touch ID/Face ID.\n\nعلى سبيل المثال، إذا كنت تستخدم Face ID، فقط غطِ الكاميرا الأمامية وحاول مرة أخرى لرؤية مربع الحوار الخاص بكلمة المرور.";
+"alert_upgrade_view_purchase_error_not_allowed_message" = "عمليات الشراء غير مسموح بها على هذا الجهاز.";
+"alert_upgrade_view_purchase_error_invalid_message" = "تحقق من طريقة الدفع الخاصة بك وحاول مرة أخرى لاحقًا. إذا استمر الخطأ، يرجى الاتصال بالدعم.";
+"alert_upgrade_view_purchase_error_network_message" = "تحقق من اتصالك بالإنترنت وحاول مرة أخرى لاحقًا. إذا استمر الخطأ، يرجى الاتصال بالدعم.";
+
+"alert_upgrade_view_load_products_error_message" = "تعذر تحميل المنتجات. الرجاء التحقق من اتصالك بالإنترنت والمحاولة مرة أخرى لاحقًا. إذا استمر الخطأ، يرجى الاتصال بالدعم";
+
+"alert_upgrade_view_restore_success_title" = "تمت استعادة عمليات الشراء";
+"alert_upgrade_view_restore_success_message" = "تمت استعادة مشترياتك بنجاح! 😊";
+"alert_upgrade_view_restore_error_message" = "تعذرت استعادة مشترياتك. يرجى المحاولة مرة أخرى لاحقًا";
+"alert_upgrade_view_restore_nothing_to_do_title" = "لا توجد عمليات شراء متاحة 😢";
+"alert_upgrade_view_restore_nothing_to_do_message" = "تعذر العثور على المشتريات لاستعادتها.";
+
+
+/* MARK: - Upgrade FAQ View */
+/* Titles */
+"upgrade_faq_view_title" = "الأسئلة المتداولة";
+
+/* Sections */
+"upgrade_faq_general_section_title" = "عام";
+"upgrade_faq_purchases_section_title" = "المشتريات والاشتراكات";
+
+/* Items */
+"upgrade_faq_about_title" = "ما هو Budget Flow؟";
+"upgrade_faq_about_value" = "يعد Budget Flow تطبيقًا حديثًا وسهل الاستخدام لتتبع الميزانية، وهو مناسب لجميع الذين يرغبون في متابعة أموالهم وإدارة نفقاتهم بفعالية.";
+"upgrade_faq_developer_title" = "من طور التطبيق؟";
+"upgrade_faq_developer_value" = "تم اطلق Budget Flow كمشروع جانبي ومن ثم تم تصميمه وتطويره وصيانته بالكامل من قبلي، فابيان هاسي. أنا مطور برمجيات متحمس ذو خبرة تزيد عن 10 سنوات وأعمل بشغف على تطوير أفضل تطبيق لإدارة الميزانية وتتبع النفقات في متجر التطبيقات.";
+"upgrade_faq_free_use_title" = "هل يمكنني استخدام التطبيق مجانًا؟";
+"upgrade_faq_free_use_value" = "نعم، يمكنك استخدام الميزات الأساسية للتطبيق، مثل إنشاء الأنشطة، مجانًا تمامًا.\n\nبالإضافة إلى ذلك، يقدم التطبيق فترة تجريبية للإصدار الكامل حتى تتمكن من تجربته قبل أن تقرر قم بشراء النسخة الكاملة أو الاشتراك فيها.";
+"upgrade_faq_security_title" = "هل بياناتي آمنة؟";
+"upgrade_faq_security_value" = "أموالك خاصة – ويجب أن تظل كذلك. لهذا السبب، يتم تخزين بياناتك فقط على جهازك أو (اختياريًا) في iCloud الشخصي الخاص بك.";
+"upgrade_faq_why_subscription_title" = "لماذا يتم تقديم الإصدار الكامل عن طريق الاشتراك؟";
+"upgrade_faq_why_subscription_value" = "هدفنا هو تطوير تطبيق عالي الجودة يقدم لك بانتظام كمستخدم ميزات وتحسينات جديدة. ومع ذلك، لتحقيق هذا الهدف، يتطلب التطبيق دخلًا منتظمًا لتمويل نفسه ويكون مستدامًا اقتصاديًا.\n\ ما لا يعرفه الكثير من الأشخاص يستغرق تطوير التطبيق وصيانته وقتًا طويلاً، على سبيل المثال، في حالة Budget Flow، استغرق الأمر عامين تقريبًا من الفكرة إلى التطوير وعدة آلاف من ساعات العمل والاختبار قبل إصدار الإصدار الأول في عام. App Store.\n\nباعتبارك عميلاً، فإنك تستفيد بشكل خاص من التحديثات والتحسينات المنتظمة لنموذج الاشتراك، بالإضافة إلى الدعم الجيد لضمان استمرار رضاك، كما تتاح لك الفرصة لتجربة التطبيق مجانًا. مقدمًا للتأكد من أنه يناسب احتياجاتك. يمكنك تغيير اشتراكك أو إلغاؤه في أي وقت إذا غيرت رأيك.\n\nبشكل عام، يمنحك نموذج الاشتراك العديد من المزايا كعميل وتجربة مستخدم أفضل مع التحديثات المستمرة. الدعم مقارنة بعملية شراء لمرة واحدة. على المدى الطويل، من المؤسف أن الشراء لمرة واحدة غير مستدام لأن نموذج الأعمال هذا يتطلب من المستخدمين الجدد مواصلة شراء التطبيق لضمان التطوير المستمر.\n\nلذلك، إذا أعجبك التطبيق، سنكون سعداء جدًا. إذا كنت ستدعم عملنا حتى نتمكن من الاستمرار في تقديم المزيد من الميزات الرائعة لك في المستقبل! ❤️";
+"upgrade_faq_multiple_devices_title" = "هل يمكنني استخدام الإصدار الكامل على أجهزة متعددة؟";
+"upgrade_faq_multiple_devices_value" = "نعم، يمكنك استخدام الإصدار الكامل من Budget Flow على جميع أجهزة Apple الخاصة بك باستخدام نفس Apple ID. ونظرًا لأن التطبيق تتم مزامنته عبر iCloud، يمكنك التبديل بسهولة بين أجهزتك وستتمكن دائمًا من الوصول إلى بياناتك المالية. والإعدادات.";
+"upgrade_faq_multiple_people_title" = "هل يمكنني استخدام الإصدار الكامل مع عدة أشخاص؟";
+"upgrade_faq_multiple_people_value" = "نعم، يمكنك مشاركة عملية شراء لمرة واحدة بالإضافة إلى اشتراك الإصدار الكامل مع ما يصل إلى خمسة أشخاص في مجموعة عائلية. كل ما عليك فعله هو تشغيل مشاركة العائلة في إعدادات النظام لديك وإضافة أشخاص آخرين إلى المجموعة دعوة.";
+"upgrade_faq_cancel_subscription_title" = "كيفية إلغاء الاشتراك؟";
+"upgrade_faq_cancel_subscription_value" = "يمكنك إلغاء اشتراكك في أي وقت باستخدام معرف Apple الخاص بك في تفضيلات النظام.";
+"upgrade_faq_subscription_data_loss_title" = "هل سيتم فقدان بياناتي إذا قمت بإلغاء اشتراكي؟";
+"upgrade_faq_subscription_data_loss_value" = "لا. أي شيء تقوم بإنشائه أثناء الاشتراك في الإصدار الكامل سيظل متاحًا إذا قمت بالتبديل مرة أخرى إلى الإصدار المجاني.";
+"upgrade_faq_refund_title" = "كيف يمكنني استرداد أموالي؟";
+"upgrade_faq_refund_value" = "المدفوعات التي تتم من خلال App Store قابلة للاسترداد إلى Apple فقط. لاسترداد المبلغ المدفوع، يجب عليك الاتصال بدعم Apple خلال 14 يومًا من تاريخ الشراء.";
+"upgrade_faq_switch_plan_title" = "هل يمكنني التبديل من الاشتراك إلى الشراء لمرة واحدة لاحقًا؟";
+"upgrade_faq_switch_plan_value" = "نعم، يمكنك التبديل من اشتراك نشط إلى شراء لمرة واحدة في أي وقت عن طريق شراء المنتج المقابل في التطبيق. ومع ذلك، تأكد من إلغاء اشتراكك السابق لتجنب الدفع أكثر من مرة.";
+
+
+/* MARK: - User Feedback */
+"user_feedback" = "التعليقات";
+
+/* Buttons */
+"user_feedback_message_title" = "مرحبًا، أنا فابيان، مطور Budget Flow. هل لديك دقيقة لترك تعليق حول التطبيق؟ 😊";
+
+/* Alert Views */
+"alert_user_feedback_title" = "هل أعجبك التطبيق؟";
+
+"alert_user_feedback_like_title" = "شكرًا لك! 🎉";
+"alert_user_feedback_like_message" = "إذا أعجبك التطبيق، فاكتب تقييمًا إيجابيًا في App Store. إنه يساعدنا كثيرًا حقًا ويحفزنا على تحسين التطبيق باستمرار. 😊";
+"alert_user_feedback_rate_app_button" = "تقييم التطبيق";
+"alert_user_feedback_maybe_later_button" = "ربما لاحقًا";
+
+"alert_user_feedback_dislike_title" = "اقتراحات؟ 🤔";
+"alert_user_feedback_dislike_message" = "يؤسفني سماع أنك لم تحب التطبيق بعد. لتغيير هذا، يرجى مشاركة أفكارك واقتراحاتك للتحسين. 😊";
+"alert_user_feedback_contact_developer_button" = "اتصل بالمطور";
+
+
+/* MARK: - Progress View */
+"progress_view_load_images_title" = "جارٍ تحميل الصور...";
+"progress_view_load_images_subtitle" = "ملاحظة: إذا كنت تستخدم مكتبة صور iCloud، فقد يستغرق تحميل الصور بعض الوقت.";
+"progress_view_load_documents_title" = "جارٍ تحميل المستندات...";
+"progress_view_load_documents_subtitle" = "معلومات: إذا كنت تستخدم iCloud Drive، فقد يستغرق تحميل مستنداتك بعض الوقت.";
+"progress_view_import_csv_title" = "جارٍ استيراد البيانات...";
+"progress_view_import_csv_subtitle" = "الرجاء الانتظار...";
+
+
+/* MARK: - Widgets */
+"chart_widget_title" = "مخطط";
+"chart_widget_description" = "تعرض هذه الأداة رسمًا بيانيًا لرصيد حسابك، أو رصيدك الحالي، أو تفاصيل دخلك ونفقاتك خلال الفترة الزمنية المحددة.";
+
+"overview_widget_title" = "نظرة عامة";
+"overview_widget_description" = "تعرض هذه الأداة نظرة عامة على رصيد حسابك، أو الرصيد الحالي، أو إجمالي الدخل والنفقات للفترة المحددة.";
+
+"upcoming_transactions_widget_title" = "مجدول";
+"upcoming_transactions_widget_description" = "تعرض هذه الأداة المعاملة المجدولة التالية.";
+
+"budget_widget_title" = "الميزانية";
+"budget_widget_description" = "تعرض هذه الأداة ميزانية محددة للفترة المحددة.";
+"budget_widget_no_budget_title" = "لم يتم تحديد ميزانية";
+
+"suggestion_widget_title" = "اقتراح";
+"suggestion_widget_description" = "تعرض هذه الأداة فئة مقترحة استنادًا إلى التاريخ الحالي الذي يمكنك إنشاء نشاط جديد له.";
+
+"quick_actions_widget_title" = "إدخال سريع";
+"quick_actions_widget_description" = "تسمح لك هذه الأداة بإضافة إجراءات جديدة بسرعة.";
+"quick_actions_widget_new_title" = "جديد";
+
+"widget_upgrade_locked_title" = "مقفل";
+"widget_upgrade_necessary_title" = "النسخة الكاملة";
+"widget_upgrade_necessary_title_long" = "النسخة الكاملة مطلوبة";
+"widget_upgrade_necessary_description" = "تتطلب هذه الأداة ترقية الإصدار الكامل لاستخدامها.";
+"widget_upgrade_necessary_highlighted_text" = "النسخة الكاملة";
+
+
+/* MARK: - Add Item Form View */
+/* Alert Views */
+/* Info */
+"alert_no_budget_book_selected_title" = "لم يتم تحديد دفتر الميزانية";
+"alert_upgrade_necessary_title" = "النسخة الكاملة";
+"alert_upgrade_necessary_description" = "لاستخدام هذه الميزة، يجب عليك الترقية إلى الإصدار الكامل. ويمكن تفعيلها في التطبيق.";
+
+/* Dismiss */
+"alert_confirm_dismiss_title" = "هل أنت متأكد من رغبتك في تجاهل تغييراتك؟";
+
+/* Delete */
+"alert_confirm_delete_budgetbook_title" = "هل أنت متأكد من رغبتك في حذف دفتر الميزانية هذا؟ سيتم أيضًا حذف جميع الحسابات والفئات والمعاملات والميزانيات المرتبطة.";
+"alert_confirm_delete_budgetbook_button" = "حذف دفتر الميزانية";
+"alert_confirm_delete_budgetbook_multiple_title" = "هل أنت متأكد من رغبتك في حذف كافة دفاتر الميزانية المحددة؟ سيتم أيضًا حذف جميع الحسابات والفئات والمعاملات والميزانيات المرتبطة.";
+"alert_confirm_delete_budgetbook_multiple_button" = "حذف كتب الميزانية";
+
+"alert_confirm_delete_account_title" = "هل أنت متأكد من رغبتك في حذف هذا الحساب؟ سيتم حذف كافة المعاملات المرتبطة به أيضًا.";
+"alert_confirm_delete_account_button" = "حذف الحساب";
+"alert_confirm_delete_account_multiple_title" = "هل أنت متأكد من رغبتك في حذف كافة الحسابات المحددة؟ سيتم حذف كافة المعاملات المرتبطة أيضًا.";
+"alert_confirm_delete_account_multiple_button" = "حذف الحسابات";
+
+"alert_confirm_delete_categorygroup_title" = "هل أنت متأكد من رغبتك في حذف هذا المجلد؟ سيتم أيضًا حذف جميع الفئات والمعاملات والميزانيات المرتبطة به (إذا لزم الأمر).";
+"alert_confirm_delete_categorygroup_button" = "حذف المجلد";
+"alert_confirm_delete_categorygroup_multiple_title" = "هل أنت متأكد من رغبتك في حذف كافة المجلدات المحددة؟ سيتم أيضًا حذف جميع الفئات والمعاملات والميزانيات المرتبطة (إذا لزم الأمر).";
+"alert_confirm_delete_categorygroup_multiple_button" = "حذف المجلد";
+
+"alert_confirm_delete_category_title" = "هل أنت متأكد من رغبتك في حذف هذه الفئة؟ سيتم حذف كافة الميزانيات المرتبطة بها أيضًا (إذا لزم الأمر).";
+"alert_confirm_delete_category_button" = "حذف الفئة";
+"alert_confirm_delete_category_multiple_title" = "هل أنت متأكد من رغبتك في حذف كافة الفئات المحددة؟ سيتم أيضًا حذف كافة الأنشطة والميزانيات المرتبطة.";
+"alert_confirm_delete_category_multiple_button" = "حذف الفئات";
+
+"alert_confirm_delete_payee_title" = "هل أنت متأكد من رغبتك في حذف هذا المدفوع لأمره؟";
+"alert_confirm_delete_payee_button" = "حذف المستفيد";
+"alert_confirm_delete_payee_multiple_title" = "هل أنت متأكد من رغبتك في حذف كافة المستفيدين المحددين؟";
+"alert_confirm_delete_payee_multiple_button" = "حذف المستفيدين";
+
+"alert_confirm_delete_tag_title" = "هل أنت متأكد من رغبتك في حذف هذا الوسم؟";
+"alert_confirm_delete_tag_button" = "حذف الوسم";
+"alert_confirm_delete_tag_multiple_title" = "هل أنت متأكد من رغبتك في حذف كافة العلامات المحددة؟";
+"alert_confirm_delete_tag_multiple_button" = "حذف العلامات";
+
+"alert_confirm_delete_reminder_title" = "هل أنت متأكد من رغبتك في حذف هذا التذكير؟";
+"alert_confirm_delete_reminder_button" = "حذف التذكير";
+"alert_confirm_delete_reminder_multiple_title" = "هل أنت متأكد من رغبتك في حذف كافة التذكيرات المحددة؟";
+"alert_confirm_delete_reminder_multiple_button" = "حذف التذكيرات";
+
+"alert_confirm_delete_transaction_title" = "هل أنت متأكد من رغبتك في حذف هذه المعاملة؟";
+"alert_confirm_delete_signed_transaction_title" = "هل ترغب في حذف كافة المعاملات المعينة أيضًا؟";
+"alert_confirm_delete_transaction_button" = "حذف المعاملة";
+"alert_confirm_delete_transaction_multiple_title" = "هل أنت متأكد من رغبتك في حذف كافة المعاملات المحددة؟";
+"alert_confirm_delete_transaction_multiple_button" = "حذف المعاملات";
+
+"alert_confirm_delete_imageitem_title" = "هل أنت متأكد من رغبتك في حذف هذه الصورة؟";
+"alert_confirm_delete_imageitem_button" = "حذف الصورة";
+"alert_confirm_delete_imageitem_multiple_title" = "هل أنت متأكد من رغبتك في حذف كافة الصور المحددة؟";
+"alert_confirm_delete_imageitem_multiple_button" = "حذف الصور";
+
+"alert_confirm_delete_documentitem_title" = "هل أنت متأكد من رغبتك في حذف هذا المستند؟";
+"alert_confirm_delete_documentitem_button" = "حذف المستند";
+"alert_confirm_delete_documentitem_multiple_title" = "هل أنت متأكد من رغبتك في حذف كافة المستندات المحددة؟";
+"alert_confirm_delete_documentitem_multiple_button" = "حذف المستندات";
+
+"alert_confirm_delete_budget_title" = "هل أنت متأكد من رغبتك في حذف هذه الميزانية؟";
+"alert_confirm_delete_budget_button" = "حذف الميزانية";
+"alert_confirm_delete_budget_multiple_title" = "هل أنت متأكد من رغبتك في حذف كافة الميزانيات المحددة؟";
+"alert_confirm_delete_budget_multiple_button" = "حذف الميزانيات";
+
+"alert_confirm_delete_backupitem_title" = "هل أنت متأكد من رغبتك في حذف هذه النسخة الاحتياطية؟";
+"alert_confirm_delete_backupitem_button" = "حذف النسخة الاحتياطية";
+
+"alert_confirm_delete_contra_entry_title" = "هذه المعاملة عبارة عن تحويل. هل ترغب في حذف إدخال الكونترا أيضًا؟";
+
+/* Updates */
+"alert_confirm_update_contra_entry_title" = "هذه المعاملة عبارة عن تحويل. هل ترغب أيضًا في تحديث إدخال الكونترا؟";
+"alert_confirm_update_transaction_multiple_title" = "هذه المعاملة تنتمي إلى مجموعة. ما الذي تريد حفظه بالضبط؟";
+"alert_confirm_update_transaction_single_button" = "احفظ هذا فقط";
+"alert_confirm_update_transaction_all_button" = "حفظ الكل";
+
+/* End Repetition */
+"alert_confirm_end_repetition_for_transaction_title" = "هل أنت متأكد من رغبتك في إيقاف تكرار هذه المعاملة؟";
+"alert_confirm_end_repetition_for_transaction_button" = "إنهاء التكرار";
+"alert_confirm_end_repetition_for_transaction_multiple_title" = "هل أنت متأكد من رغبتك في التوقف عن تكرار كافة المعاملات المحددة؟";
+"alert_confirm_end_repetition_for_transaction_multiple_button" = "إنهاء التكرار";
+
+/* Currency Selection */
+"alert_change_currency_or_exchange_rate_title" = "ما الذي تريد تغييره بالضبط؟";
+"alert_change_currency_button" = "العملة";
+"alert_change_exchange_rate_button" = "سعر الصرف";
+
+
+/* MARK: - Currency Selection View */
+/* Titles */
+"currency_selection_title" = "العملات";
+
+/* Info */
+"currency_selection_info_title" = "الوصف";
+"currency_selection_info_description" = "حدد العملة الافتراضية للمعاملات الحالية والمستقبلية.";
+
+/* Sections */
+"default_currency_section_title" = "العملة الافتراضية";
+"suggested_currencies_section_title" = "الاقتراحات";
+
+/* Messages */
+"no_currencies_found_title" = "لم يتم العثور على عملات";
+"currency_selection_search_placeholder_message" = "ابحث عن اسم العملة أو اختصارها";
+
+/* Buttons */
+"change_default_currency_button" = "تغيير العملة الافتراضية";
+
+/* Alert Views */
+"alert_confirm_change_default_currency_title" = "هل أنت متأكد من رغبتك في تغيير العملة الافتراضية؟ سيؤدي هذا إلى تحويل كافة المعاملات الحالية إلى العملة الجديدة (%@)";
+"alert_confirm_change_default_account_currency_title" = "هل أنت متأكد من رغبتك في تغيير العملة؟ سيؤدي هذا إلى تحويل كافة المعاملات الموجودة لهذا الحساب إلى العملة الجديدة (%@).";
+
+
+/* MARK: - Currency Conversion View */
+/* Titles */
+"currency_conversion_title" = "سعر الصرف";
+"currency_conversion_last_synchronization_title" = "تم التحديث: %@";
+"currency_conversion_synchronization_failed_title" = "فشلت المزامنة";
+"currency_conversion_synchronization_failed_no_internet_title" = "لا يوجد اتصال بالإنترنت";
+
+/* Sections */
+"source_currency_section_title" = "من";
+"target_currency_section_title" = "إلى";
+
+
+/* MARK: - Manage Item View */
+/* Titles */
+"manage_budgetbooks_title" = "كتب الميزانية";
+"manage_accounts_title" = "الحسابات";
+"manage_categories_title" = "الفئات";
+"manage_category_groups_title" = "المجموعات";
+"manage_payees_title" = "المستفيدين";
+"manage_tags_title" = "العلامات";
+"manage_reminders_title" = "التذكيرات";
+
+/* Info */
+"manage_reminders_info_title" = "الوصف";
+"manage_reminders_info_description" = "قم بإنشاء تذكيراتك الخاصة أو قم بإضافتها إلى الأنشطة المستقبلية ليقوم التطبيق بإعلامك.";
+
+/* Sections */
+"shared_by_you_budgetbooks_section_title" = "لقد قمت بالمشاركة";
+"shared_with_you_budgetbooks_section_title" = "تمت مشاركتها معك";
+"not_shared_budgetbooks_section_title" = "غير مشترك";
+"most_used_items_section_title" = "الأكثر استخدامًا";
+"archived_items_section_title" = "مؤرشف";
+"own_reminders_section_title" = "التذكيرات الخاصة";
+
+/* Messages */
+"no_budget_books_found_title" = "لم يتم العثور على كتب الميزانية";
+"no_budget_books_found_message" = "انقر فوق الزر \"+\" لإضافة كتاب ميزانية جديد.";
+"no_budget_books_found_button_title" = "دفتر الميزانية الجديد";
+"no_budget_books_found_cloud_sync_message" = "يتم الآن تنزيل البيانات الموجودة من iCloud. الرجاء الانتظار...\n\nيمكنك أيضًا النقر فوق الزر \"+\" لإضافة دفتر ميزانية جديد.";
+"no_budget_books_found_cloud_sync_message_short" = "يتم الآن تنزيل البيانات الموجودة من iCloud. الرجاء الانتظار...";
+"budget_books_search_placeholder_message" = "البحث حسب اسم كتاب الميزانية";
+
+"no_accounts_title" = "لا توجد حسابات";
+"no_accounts_found_title" = "لم يتم العثور على حسابات";
+"no_accounts_found_message" = "انقر فوق الزر \"+\" لإضافة حساب جديد.";
+"no_accounts_found_button_title" = "حساب جديد";
+"accounts_search_placeholder_message" = "البحث حسب اسم الحساب أو نوعه";
+
+"no_categories_found_title" = "لم يتم العثور على فئات";
+"no_categories_found_message" = "انقر فوق الزر \"+\" لإضافة فئة جديدة.";
+"no_categories_found_button_title" = "فئة جديدة";
+"categories_search_placeholder_message" = "البحث حسب الفئة أو اسم المجموعة";
+
+"no_category_groups_found_title" = "لم يتم العثور على مجموعات";
+"no_category_groups_found_message" = "انقر فوق الزر \"+\" لإضافة مجموعة جديدة.";
+"no_category_groups_found_button_title" = "مجموعة جديدة";
+"category_groups_search_placeholder_message" = "البحث حسب اسم المجموعة";
+
+"no_payees_found_title" = "لم يتم العثور على مدفوع لهم";
+"no_payees_found_message" = "انقر فوق الزر \"+\" لإضافة مستلم جديد.";
+"no_payees_found_button_title" = "المدفوع لأمره الجديد";
+"payees_search_placeholder_message" = "البحث حسب اسم المستفيد";
+
+"no_tags_found_title" = "لم يتم العثور على علامات";
+"no_tags_found_message" = "انقر فوق الزر \"+\" لإضافة علامة جديدة.";
+"no_tags_found_button_title" = "علامة جديدة";
+"tags_search_placeholder_message" = "البحث حسب اسم الوسم";
+
+"no_reminders_found_title" = "لم يتم العثور على تذكيرات";
+"no_reminders_found_message" = "انقر فوق الزر \"+\" لإضافة تذكير جديد.";
+"no_reminders_found_button_title" = "تذكير جديد";
+"reminders_search_placeholder_message" = "البحث حسب اسم التذكير";
+
+/* Value */
+"balance" = "الرصيد";
+
+
+/* MARK: - Add Item Form View */
+/* Titles */
+"form_title_edit" = "تحرير";
+
+/* Sections */
+"form_name_section_title" = "الاسم";
+"form_title_section_title" = "العنوان";
+"form_color_section_title" = "اللون";
+"form_icon_section_title" = "أيقونة";
+"form_assignment_section_title" = "مهمة";
+"form_miscellaneous_section_title" = "أخرى";
+
+/* Miscellaneous */
+"number_of_selected_items" = "تم التحديد: %d";
+
+
+/* MARK: - Add Budget Book Form View */
+/* Titles */
+"form_title_new_budgetbook" = "دفتر الميزانية الجديد";
+
+/* Items */
+"form_budgetbook_currency_title" = "العملة";
+
+/* Buttons */
+"form_button_delete_budgetbook" = "حذف دفتر الميزانية";
+
+
+/* MARK: - Add Account Form View */
+/* Titles */
+"form_title_new_account" = "حساب جديد";
+
+/* Sections */
+"form_billing_section_title" = "الخصم التلقائي";
+"form_transactions_section_title" = "المعاملات";
+"form_account_balance_section_title" = "رصيد الحساب";
+
+/* Footer */
+"form_billing_footer_title" = "قم بتمكين هذه الميزة لإنشاء تحصيل رسوم على بطاقة الائتمان هذه تلقائيًا في يوم محدد من الشهر (إذا لزم الأمر).";
+"form_transactions_footer_title" = "قم بتمكين هذه الميزة لوضع علامة تلقائيًا على المعاملات الجديدة لهذا الحساب على أنها \"معلقة\".";
+"form_account_balance_footer_title" = "قم بتغيير الرصيد المبدئي/النهائي لمراجعة رصيد حسابك يدويًا.";
+
+/* Items */
+"form_enable_automatic_billing_title" = "ممكّن";
+"form_billing_day_title" = "يوم الفوترة";
+"form_mark_transactions_as_pending_title" = "وضع علامة معلق";
+"form_account_type_title" = "نوع الحساب";
+"form_initial_balance_title" = "الرصيد الأولي";
+"form_total_balance_title" = "إجمالي الرصيد";
+"form_use_as_default_account_title" = "الحساب الافتراضي";
+"form_account_currency_title" = "العملة";
+
+/* Buttons */
+"form_button_archive_account" = "حساب الأرشيف";
+"form_button_unarchive_account" = "إلغاء أرشفة الحساب";
+"form_button_delete_account" = "حذف الحساب";
+
+
+/* MARK: - Add Category Group Form View */
+/* Titles */
+"form_title_new_categorygroup" = "مجموعة جديدة";
+
+/* Buttons */
+"form_button_delete_categorygroup" = "حذف المجموعة";
+
+
+/* MARK: - Add Category Form View */
+/* Titles */
+"form_title_new_category" = "فئة جديدة";
+
+/* Items */
+"form_category_group_title" = "المجموعة";
+"form_category_group_none_type_value" = "لا شيء";
+
+/* Buttons */
+"form_button_delete_category" = "حذف الفئة";
+
+
+/* MARK: - Add Payee Form View */
+/* Titles */
+"form_title_new_payee" = "مستلم جديد";
+
+/* Footer */
+"form_assignment_default_entries_footer_title" = "قم بتعيين الحساب الافتراضي لهذا المستلم، أو الفئة، أو الموقع للمعاملات.";
+
+/* Items */
+"form_location_title" = "الموقع";
+"form_location_none_type_value" = "لا شيء";
+
+/* Buttons */
+"form_button_delete_payee" = "حذف المستفيد";
+
+
+/* MARK: - Add Tag Form View */
+/* Titles */
+"form_title_new_tag" = "علامة جديدة";
+
+/* Buttons */
+"form_button_delete_tag" = "حذف الوسم";
+
+
+/* MARK: - Add Reminder Form View */
+/* Titles */
+"form_title_new_reminder" = "تذكير جديد";
+
+/* Items */
+"form_is_enabled_title" = "ممكّن";
+
+/* Buttons */
+"form_button_preview_reminder" = "إظهار المعاينة";
+"form_button_delete_reminder" = "حذف التذكير";
+
+/* Notifications */
+"reminder_notification_title" = "تذكير";
+
+
+/* MARK: - Add Transaction Form View */
+/* Titles */
+"form_title_new_income" = "الدخل الجديد";
+"form_title_new_expense" = "مصروفات جديدة";
+"form_title_new_transfer" = "ترجمة جديدة";
+
+/* Sections */
+"form_date_section_title" = "تاريخ الاستحقاق";
+"form_reminder_section_title" = "تذكير";
+"form_location_section_title" = "الموقع";
+"form_notes_section_title" = "ملاحظات";
+"form_currency_section_title" = "العملة";
+"form_payment_status_section_title" = "الدفع";
+"form_evaluation_section_title" = "تم التقييم";
+"form_attachments_section_title" = "المرفقات";
+"form_tags_section_title" = "العلامات";
+
+/* Items */
+"form_account_title" = "الحساب";
+"form_from_account_title" = "من";
+"form_to_account_title" = "إلى";
+"form_account_none_type_value" = "لا شيء";
+"form_category_title" = "الفئة";
+"form_categories_title" = "الفئات";
+"form_category_none_type_value" = "لا شيء";
+"form_payee_title" = "المستفيد";
+"form_payee_none_type_value" = "لا شيء";
+"form_tags_title" = "العلامات";
+"form_tag_none_type_value" = "لا شيء";
+"form_date_title" = "التاريخ";
+"form_date_format_title" = "تنسيق التاريخ";
+"form_time_title" = "الوقت";
+"form_repetition_frequency_title" = "التكرار";
+"form_date_repetition_has_end_date_title" = "نهاية التكرار";
+"form_date_repetition_end_date_title" = "تاريخ الانتهاء";
+"form_reminder_title" = "تذكير";
+"form_reminder_none_type_value" = "لا شيء";
+"form_reminder_none_type_value_long" = "لا توجد تذكيرات";
+"form_reminder_on_due_value" = "في تاريخ الاستحقاق";
+"form_location_none_type_value_long" = "لا يوجد موقع";
+"form_original_amount_title" = "المبلغ الأصلي";
+"form_exchange_rate_title" = "سعر الصرف";
+"form_is_selected_title" = "المكان";
+"form_is_pending_title" = "معلق";
+"form_payed_by_title" = "مدفوع";
+"form_payed_by_none_type_value" = "لا شيء";
+"form_include_in_statistics_title" = "الإحصائيات";
+"form_include_in_budgets_title" = "الميزانيات";
+
+/* Footer */
+"form_payment_status_footer_title" = "ضع علامة على الدفعة على أنها \"معلقة\" بحيث لا يتم أخذ المبلغ في الاعتبار في الحسابات.";
+"form_evaluation_footer_title" = "استبعد هذه المعاملة من الإحصائيات و/أو الميزانيات ليتم احتسابها فقط في رصيد الحساب.";
+"form_rekind_transactions_is_invalid_footer_title" = "لإضافة تذكير لهذه المعاملة، يجب عليك تحديد فاصل زمني للتكرار أو تعيين تاريخ في المستقبل.";
+
+/* Buttons */
+"form_button_delete_transaction" = "حذف المعاملة";
+"form_button_end_repetition_for_transaction" = "إنهاء التكرار";
+"form_button_clear_title" = "حذف";
+"form_button_today_title" = "اليوم";
+
+/* Miscellaneous */
+"receipt_total" = "الإجمالي";
+"receipt_amount" = "المبلغ";
+"receipt_to_pay" = "يستحق الدفع";
+
+/* Notifications */
+"transaction_notification_body" = "المبلغ: %@\nالتاريخ: %@";
+"transaction_notification_body_notes" = "ملاحظات: %@";
+
+
+/* MARK: - Add Budget Form View */
+/* Titles */
+"form_title_new_budget" = "الميزانية الجديدة";
+
+/* Sections */
+"form_interval_section_title" = "الفاصل الزمني";
+
+/* Footer */
+"form_budget_amount_calculation_footer_title" = "تحدد الفترة الزمنية عدد مرات تكرار الميزانية، حيث يتم تعديل المبلغ المتاح المعروض تلقائيًا إلى الفترة الزمنية المحددة.";
+
+/* Items */
+"form_is_cumulative_title" = "تراكمي";
+
+/* Buttons */
+"form_button_delete_budget" = "حذف الميزانية";
+
+
+/* MARK: - Assign CSV Fields Form View */
+/* Titles */
+"form_title_csv_sign_fields" = "تخصيص الحقول";
+
+/* Info */
+"csv_assign_fields_info_title" = "الوصف";
+"csv_assign_fields_info_description" = "قم بتعيين أعمدة ملف CSV للاستيراد إلى الحقول المناسبة.";
+
+/* Sections */
+"form_general_section_title" = "عام";
+
+/* Footer */
+"form_invalid_footer_title" = "خطأ:";
+"form_invalid_amount_footer_title" = "قيم \"%@\" ليست مبالغ نقدية صالحة.";
+"form_invalid_currency_footer_title" = "قيم \"%@\" ليست عملات صالحة.";
+"form_invalid_exchange_rate_footer_title" = "قيم \"%@\" ليست قيمًا رقمية صالحة";
+"form_invalid_date_format_footer_title" = "التاريخ و/أو التنسيق المحدد غير صالح.";
+"form_type_footer_title" = "معلومات: حدد \"%@\" لحساب نوع المعاملة بناءً على علامة قيمة المبلغ.";
+"form_date_format_footer_title" = "مثال: %@";
+
+/* Items */
+"form_type_title" = "النوع";
+"form_amount_title" = "المبلغ";
+"form_source_currency_title" = "عملة المصدر";
+"form_target_currency_title" = "العملة المستهدفة";
+"form_budget_book_title" = "دفتر الميزانية";
+"form_notes_title" = "ملاحظات";
+"form_skip_zero_amounts_title" = "تخطي المبالغ \"0\"";
+"form_skip_duplicates_title" = "تخطي التكرارات";
+"form_csv_assign_field_none_type_value" = "لم يتم تعيينه";
+
+
+/* MARK: - Color Selection View */
+/* Titles */
+"color_selection_title" = "الألوان";
+
+/* Messages */
+"no_colors_found_title" = "لم يتم العثور على ألوان";
+"color_selection_search_placeholder_message" = "البحث عن لون أو اسم مجموعة";
+
+
+/* MARK: - Icon Selection View */
+/* Titles */
+"icon_selection_title" = "الأيقونات";
+
+/* Messages */
+"no_icons_found_title" = "لم يتم العثور على أيقونات";
+"icon_selection_search_placeholder_message" = "البحث عن اختصار أيقونة أو اسم مجموعة";
+
+
+/* MARK: - Location Selection View */
+/* Titles */
+"location_selection_title" = "الموقع";
+"location_selection_searchbar_placeholder" = "بحث";
+"location_selection_search_history_title" = "الأحدث";
+
+/* Buttons */
+"location_selection_select_button_title" = "اختيار";
+
+/* Alert Views */
+"location_selection_no_internet_error_title" = "خطأ";
+"location_selection_no_internet_error_message" = "يبدو أنه لا يوجد اتصال بالإنترنت";
+
+
+/* MARK: - Other Alert Views */
+"alert_selected_period_changed_title" = "%@ محدد";
+"alert_selected_period_changed_message" = "منذ بدء %@، تم تعديل الفترة الحالية تلقائيًا.\n\nللتبديل بين الفترات وعرض المعاملات السابقة، ما عليك سوى النقر فوق الزر \"%@\" في الزاوية اليسرى العليا من الشاشة، ثم حدد الفترة الزمنية المطلوبة." ;
+"alert_selected_period_changed_new_month" = "شهر جديد";
+"alert_selected_period_changed_new_year" = "العام الجديد";
+
+"alert_no_mail_initialized_title" = "لا يوجد بريد إلكتروني";
+"alert_no_mail_initialized_message" = "يبدو أن جهازك لا يحتوي على بريد إلكتروني تم اعداده. ومع ذلك، يلزم استخدام هذه الميزة.";
+
+"alert_no_camera_title" = "الكاميرا غير متاحة";
+"alert_no_camera_message" = "يبدو أنه ليس لديك كاميرا. ومع ذلك، يلزم استخدام هذه الميزة.";
+
+"alert_permissions_title" = "جاهز تقريبًا!";
+"alert_permissions_activate_button" = "التنشيط الآن";
+"alert_permissions_cancel_button" = "ربما لاحقًا";
+
+"alert_camera_permissions_message" = "للتقاط صور، فقط قم بتشغيل الكاميرا في الإعدادات.";
+"alert_photolibrary_permissions_message" = "لإضافة صور، كل ما عليك فعله هو السماح بالوصول إلى \"الصور\" في الإعدادات.";
+"alert_notifications_permissions_message" = "لتلقي الإشعارات، كل ما عليك فعله هو تشغيل \"الإشعارات\" في إعداداتك.";
+
+
+/* MARK: - Tips */
+"period_selection_tip_title" = "تغيير الفترة";
+"period_selection_tip_message" = "انقر هنا لتغيير الفترة المعروضة. يؤثر هذا على كافة طرق العرض (نظرة عامة، والعمليات، والميزانيات).";
+"interactive_charts_tip_title" = "الرسوم البيانية التفاعلية";
+"interactive_charts_tip_message" = "قم بالتمرير إلى اليسار أو اليمين لتغيير المخطط النشط، أو المس مطولاً المخطط لعرض القيم لتاريخ محدد.";
+"switch_budget_books_tip_title" = "تبديل كتب الميزانية";
+"switch_budget_books_tip_message" = "اضغط مطولاً على علامة تبويب النظرة العامة للتبديل بسرعة بين دفاتر الميزانية.";
+
+
+/* MARK: - Watch App */
+/* Titles */
+"cloud_sync_status_section_title" = "حالة مزامنة iCloud";
+"cloud_sync_status_footer_title" = "معلومات: يجب عليك تسجيل الدخول إلى iCloud لمزامنة البيانات من الـ iPhone الخاص بك.";
+
+
+/* MARK: - Localized URLs */
+"imprintUrl" = "https://budget-flow.app/json/en/imprint.json";
+"termsOfUseUrl" = "https://www.apple.com/legal/internet-services/itunes/dev/stdeula";
+"privacyUrl" = "https://www.iubenda.com/api/privacy-policy/17322265/no-markup";
+"privacyUrlWeb" = "https://budget-flow.app/privacy-policy";
+"imprintUrlWeb" = "https://budget-flow.app/imprint";
+"familySharingUrl" = "https://www.apple.com/family-sharing";
+
+
+/* MARK: - Default Data */
+"default_account_name" = "الحساب";
+
+"default_category_group_name_income" = "الدخل";
+"default_category_name_salary" = "الراتب";
+
+"default_category_group_name_free_time" = "الفصول";
+"default_category_name_shopping" = "التسوق";
+"default_category_name_vacation" = "إجازة";
+
+"default_category_group_name_mobility" = "النقل";
+"default_category_name_car" = "سيارة";
+
+"default_category_group_name_groceries" = "المنتجات";
+"default_category_name_supermarket" = "سوبر ماركت";
+"default_category_name_restaurant" = "مطعم";
+"default_category_name_fast_food" = "الوجبات السريعة";
+
+"default_category_group_name_living" = "الإقامة";
+"default_category_name_rent" = "إيجار";
+
+"default_category_group_name_miscellaneous" = "أخرى";
+
+"default_reminder_title" = "محاسبة النفقات";
+
+
+/* MARK: - Color Sections */
+"color_section_classic_title" = "كلاسيكي";
+"color_section_sunset_title" = "غروب الشمس";
+"color_section_afterglow_title" = "الشفق";
+"color_section_ocean_title" = "المحيط";
+"color_section_nightsky_title" = "ليلة";
+"color_section_apple_title" = "Apple Inc.";
+"color_section_pastel_title" = "باستيل";
+
+
+/* MARK: - Color Keywords */
+"color_keyword_custom" = "مخصص";
+"color_keyword_red" = "أحمر";
+"color_keyword_green" = "أخضر";
+"color_keyword_blue" = "أزرق";
+"color_keyword_yellow" = "أصفر";
+"color_keyword_orange" = "برتقالي";
+"color_keyword_purple" = "بنفسجي";
+"color_keyword_pink" = "وردي";
+"color_keyword_brown" = "بني";
+"color_keyword_mint" = "نعناع";
+"color_keyword_cyan" = "سماوي";
+"color_keyword_violet" = "بنفسجي";
+"color_keyword_gray" = "رمادي";
+
+
+/* MARK: - Icon Sections */
+"icon_section_suggestions_title" = "الاقتراحات";
+"icon_section_general_title" = "عام";
+"icon_section_mobility_title" = "النقل";
+"icon_section_household_title" = "المنزل";
+"icon_section_freetime_title" = "الفصول الدراسية";
+"icon_section_nature_title" = "الطبيعة";
+"icon_section_food_and_drinks_title" = "الأطعمة والمشروبات";
+"icon_section_shopping_title" = "التسوق";
+"icon_section_health_title" = "الصحة";
+"icon_section_office_title" = "العمل";
+"icon_section_arrows_title" = "الأسهم";
+"icon_section_objects_title" = "الكائنات";
+"icon_section_people_title" = "أشخاص";
+"icon_section_buildings_title" = "المباني";
+"icon_section_payment_methods_title" = "المال";
+
+
+/* MARK: - Icon Keywords */
+"icon_keyword_emoji" = "Emoji";
+"icon_keyword_tag" = "علامة";
+"icon_keyword_heart" = "القلب";
+"icon_keyword_star" = "نجمة";
+"icon_keyword_folder" = "مجلد";
+"icon_keyword_bookmark" = "إشارة مرجعية";
+"icon_keyword_building" = "المبنى";
+"icon_keyword_house" = "المنزل";
+"icon_keyword_lightbulb" = "مصباح كهربائي";
+"icon_keyword_fan" = "مروحة";
+"icon_keyword_lamp" = "مصباح";
+"icon_keyword_alarm_system" = "إنذار";
+"icon_keyword_webcam" = "كاميرا ويب";
+"icon_keyword_camera" = "الكاميرا";
+"icon_keyword_door" = "الباب";
+"icon_keyword_garage" = "المرآب";
+"icon_keyword_window" = "نافذة";
+"icon_keyword_blinds" = "الستائر";
+"icon_keyword_roller" = "الستائر اللفافة";
+"icon_keyword_curtains" = "ستائر";
+"icon_keyword_air_purifier" = "منقي الهواء";
+"icon_keyword_dehumidifier" = "مزيل الرطوبة";
+"icon_keyword_humidifier" = "جهاز ترطيب الهواء";
+"icon_keyword_heater" = "السخان";
+"icon_keyword_air_conditioner" = "مكيف الهواء";
+"icon_keyword_sprinkler" = "المرش";
+"icon_keyword_trash" = "سلة المهملات";
+"icon_keyword_spigot" = "اضغط";
+"icon_keyword_shower" = "دش";
+"icon_keyword_bathtub" = "حوض الاستحمام";
+"icon_keyword_pipe" = "السباكة";
+"icon_keyword_hifi_reveiver" = "نظام الصوت";
+"icon_keyword_video_projector" = "جهاز العرض";
+"icon_keyword_beamer" = "المنور";
+"icon_keyword_wifi_router" = "جهاز توجيه Wi-Fi";
+"icon_keyword_internet" = "الإنترنت";
+"icon_keyword_party" = "حفلة";
+"icon_keyword_balloon" = "بالون";
+"icon_keyword_pan" = "مقلاة";
+"icon_keyword_cooking" = "الطبخ";
+"icon_keyword_kitchen" = "المطبخ";
+"icon_keyword_popcorn" = "الفشار";
+"icon_keyword_cinema" = "سينما";
+"icon_keyword_movie" = "فيلم";
+"icon_keyword_food" = "طعام";
+"icon_keyword_bed" = "سرير";
+"icon_keyword_bedroom" = "غرفة النوم";
+"icon_keyword_hotel" = "فندق";
+"icon_keyword_sofa" = "أريكة";
+"icon_keyword_couch" = "أريكة";
+"icon_keyword_livingroom" = "غرفة المعيشة";
+"icon_keyword_chair" = "الكرسي";
+"icon_keyword_armchair" = "الكرسي";
+"icon_keyword_cabinet" = "خزانة الملابس";
+"icon_keyword_fireplace" = "المدفأة";
+"icon_keyword_washer" = "الغسالة";
+"icon_keyword_dryer" = "المجفف";
+"icon_keyword_dishwasher" = "غسالة الأطباق";
+"icon_keyword_oven" = "الفرن";
+"icon_keyword_stove" = "موقد";
+"icon_keyword_microwave" = "ميكروويف";
+"icon_keyword_refrigerator" = "الثلاجة";
+"icon_keyword_sink" = "بالوعة";
+"icon_keyword_toilet" = "مرحاض";
+"icon_keyword_bathroom" = "الحمام";
+"icon_keyword_tv_remote" = "عن بعد";
+"icon_keyword_tv" = "تلفزيون";
+"icon_keyword_person" = "شخص";
+"icon_keyword_human" = "إنساني";
+"icon_keyword_airplane" = "طائرة";
+"icon_keyword_vacation" = "عطلة";
+"icon_keyword_car" = "سيارة";
+"icon_keyword_electric_car" = "سيارة كهربائية";
+"icon_keyword_charging_station" = "محطة الشحن";
+"icon_keyword_car_pool" = "تجمع السيارات";
+"icon_keyword_bus" = "الحافلة";
+"icon_keyword_tram" = "قطار";
+"icon_keyword_railroad" = "سكة حديدية";
+"icon_keyword_cablecar" = "ترام";
+"icon_keyword_ferry" = "العبّارة";
+"icon_keyword_ship" = "سفينة";
+"icon_keyword_truck" = "شاحنة";
+"icon_keyword_relocation" = "إعادة تحديد الموقع";
+"icon_keyword_bicycle" = "دراجة";
+"icon_keyword_sport" = "رياضة";
+"icon_keyword_scooter" = "سكوتر";
+"icon_keyword_sailboat" = "Sailboat";
+"icon_keyword_fuel" = "وقود";
+"icon_keyword_refuel" = "تزود بالوقود";
+"icon_keyword_gas_station" = "محطة بنزين";
+"icon_keyword_walking" = "المشي";
+"icon_keyword_running" = "قيد التشغيل";
+"icon_keyword_rugby" = "رياضة الركبي";
+"icon_keyword_badminton" = "كرة الريشة";
+"icon_keyword_tennis" = "تنس";
+"icon_keyword_dancing" = "الرقص";
+"icon_keyword_skiing" = "التزلج";
+"icon_keyword_swimming" = "السباحة";
+"icon_keyword_skating" = "التزلج";
+"icon_keyword_strengthtraining" = "تدريب القوة";
+"icon_keyword_gym" = "جيم";
+"icon_keyword_yoga" = "اليوغا";
+"icon_keyword_bowling" = "بولينج";
+"icon_keyword_sportscourt" = "ملعب رياضي";
+"icon_keyword_stadium" = "الملعب";
+"icon_keyword_soccer" = "كرة القدم";
+"icon_keyword_golf" = "جولف";
+"icon_keyword_baseball" = "بيسبول";
+"icon_keyword_basketball" = "كرة السلة";
+"icon_keyword_volleyball" = "كرة الطائرة";
+"icon_keyword_trophy" = "الكأس";
+"icon_keyword_medal" = "ميدالية";
+"icon_keyword_flag" = "علم";
+"icon_keyword_race" = "سباق السيارات";
+"icon_keyword_gamecontroller" = "جهاز التحكم في اللعبة";
+"icon_keyword_videogames" = "ألعاب الفيديو";
+"icon_keyword_gaming" = "الألعاب";
+"icon_keyword_playstation" = "PlayStation";
+"icon_keyword_xbox" = "Xbox";
+"icon_keyword_nintento_switch" = "Nintendo Switch";
+"icon_keyword_book" = "كتاب";
+"icon_keyword_books" = "كتب";
+"icon_keyword_magazine" = "مجلة";
+"icon_keyword_reading" = "القراءة";
+"icon_keyword_painting" = "الرسم";
+"icon_keyword_drawing" = "رسم";
+"icon_keyword_theater" = "مسرح";
+"icon_keyword_singing" = "الغناء";
+"icon_keyword_karaoke" = "كاريوكي";
+"icon_keyword_music" = "موسيقى";
+"icon_keyword_spotify" = "Spotify";
+"icon_keyword_apple_music" = "Apple Music";
+"icon_keyword_piano" = "بيانو";
+"icon_keyword_guitar" = "جيتار";
+"icon_keyword_rockband" = "فرقة روك";
+"icon_keyword_festival" = "Festival";
+"icon_keyword_tent" = "خيمة";
+"icon_keyword_dice" = "نرد";
+"icon_keyword_boardgames" = "ألعاب الطاولة";
+"icon_keyword_gambling" = "المقامرة";
+"icon_keyword_camera" = "الكاميرا";
+"icon_keyword_photography" = "تصوير فوتوغرافي";
+"icon_keyword_photo" = "صورة";
+"icon_keyword_world" = "العالم";
+"icon_keyword_globe" = "الكرة الأرضية";
+"icon_keyword_sun" = "الشمس";
+"icon_keyword_summer" = "الصيف";
+"icon_keyword_moon" = "القمر";
+"icon_keyword_stars" = "النجوم";
+"icon_keyword_cloud" = "السحب";
+"icon_keyword_icloud" = "iCloud";
+"icon_keyword_rain" = "مطر";
+"icon_keyword_flame" = "Flame";
+"icon_keyword_fire" = "حريق";
+"icon_keyword_snow" = "ثلج";
+"icon_keyword_winter" = "الشتاء";
+"icon_keyword_bolt" = "البرق";
+"icon_keyword_plug" = "التوصيل";
+"icon_keyword_electric" = "الكهرباء";
+"icon_keyword_electrics" = "الهندسة الكهربائية";
+"icon_keyword_electricity" = "الكهرباء";
+"icon_keyword_tornado" = "إعصار";
+"icon_keyword_sea" = "البحر";
+"icon_keyword_hare" = "أرنب";
+"icon_keyword_rabbit" = "أرنب";
+"icon_keyword_animal" = "حيوان";
+"icon_keyword_tortoise" = "سلحفاة";
+"icon_keyword_lizard" = "سحلية";
+"icon_keyword_bird" = "طائر";
+"icon_keyword_ant" = "Ant";
+"icon_keyword_ladybug" = "الدعسوقة";
+"icon_keyword_fish" = "سمك";
+"icon_keyword_pet" = "حيوان أليف";
+"icon_keyword_cat" = "قطة";
+"icon_keyword_dog" = "كلب";
+"icon_keyword_leaf" = "ورقة";
+"icon_keyword_plant" = "نبات";
+"icon_keyword_flower" = "زهرة";
+"icon_keyword_eating" = "طعام";
+"icon_keyword_restaurant" = "مطعم";
+"icon_keyword_drinking" = "الشرب";
+"icon_keyword_cafe" = "مقهى";
+"icon_keyword_coffee" = "قهوة";
+"icon_keyword_fastfood" = "وجبات سريعة";
+"icon_keyword_picnic" = "نزهة";
+"icon_keyword_wine" = "نبيذ";
+"icon_keyword_birthday" = "عيد ميلاد";
+"icon_keyword_cake" = "كعكة";
+"icon_keyword_carrot" = "جزرة";
+"icon_keyword_vegetables" = "خضروات";
+"icon_keyword_bag" = "حقيبة";
+"icon_keyword_cone" = "حقيبة";
+"icon_keyword_shopping" = "التسوق";
+"icon_keyword_supermarket" = "سوبر ماركت";
+"icon_keyword_groceries" = "المنتجات";
+"icon_keyword_creditcard" = "بطاقة الائتمان";
+"icon_keyword_giftcard" = "بطاقة هدية";
+"icon_keyword_gift" = "هدية";
+"icon_keyword_clothes" = "ملابس";
+"icon_keyword_clothing" = "ملابس";
+"icon_keyword_globe" = "الكرة الأرضية";
+"icon_keyword_online" = "متصل";
+"icon_keyword_internet" = "الإنترنت";
+"icon_keyword_amazon" = "Amazon";
+"icon_keyword_package" = "الصندوق";
+"icon_keyword_apple" = "Apple";
+"icon_keyword_banknote" = "الورقة النقدية";
+"icon_keyword_refund" = "استرداد الأموال";
+"icon_keyword_dollar" = "دولار";
+"icon_keyword_cents" = "سنت";
+"icon_keyword_yen" = "ين";
+"icon_keyword_pound" = "باوند";
+"icon_keyword_franc" = "فرانكونيا";
+"icon_keyword_lira" = "ليرة";
+"icon_keyword_ruble" = "روبل";
+"icon_keyword_euro" = "يورو";
+"icon_keyword_rupee" = "روبية";
+"icon_keyword_peso" = "بيزو";
+"icon_keyword_bitcoin" = "بيتكوين";
+"icon_keyword_real" = "ريال برازيلي";
+"icon_keyword_case" = "حقيبة السفر";
+"icon_keyword_lungs" = "الرئتين";
+"icon_keyword_allergens" = "الحساسية";
+"icon_keyword_thermometer" = "مقياس الحرارة";
+"icon_keyword_bandage" = "الضمادات";
+"icon_keyword_syringe" = "المحقنة";
+"icon_keyword_medicine" = "الطب";
+"icon_keyword_drug" = "الطب";
+"icon_keyword_facemask" = "قناع الوجه";
+"icon_keyword_pills" = "حبوب";
+"icon_keyword_cross" = "Cross";
+"icon_keyword_hospital" = "مستشفى";
+"icon_keyword_ivfluid" = "قطارة";
+"icon_keyword_eye" = "عين";
+"icon_keyword_brain" = "Brain";
+"icon_keyword_ear" = "الأذن";
+"icon_keyword_mouth" = "فم";
+"icon_keyword_ecg" = "ECG";
+"icon_keyword_shield" = "Shield";
+"icon_keyword_insurance" = "التأمين";
+"icon_keyword_video_conference" = "مؤتمر فيديو";
+"icon_keyword_facetime" = "Facetime";
+"icon_keyword_phone" = "الهاتف";
+"icon_keyword_mobilephone" = "الجوال";
+"icon_keyword_iphone" = "iPhone";
+"icon_keyword_tablet" = "جهاز لوحي";
+"icon_keyword_ipad" = "iPad";
+"icon_keyword_macintosh" = "Mac";
+"icon_keyword_macbook" = "Macbook";
+"icon_keyword_imac" = "iMac";
+"icon_keyword_smartphone" = "الهاتف الذكي";
+"icon_keyword_calling" = "اتصال";
+"icon_keyword_message" = "رسالة";
+"icon_keyword_envelope" = "المغلف";
+"icon_keyword_mail" = "البريد";
+"icon_keyword_email" = "البريد الإلكتروني";
+"icon_keyword_chart" = "مخطط";
+"icon_keyword_stocks" = "الأسهم";
+"icon_keyword_investment" = "استثمار";
+"icon_keyword_signature" = "التوقيع";
+"icon_keyword_contract" = "العقد";
+"icon_keyword_computer" = "الكمبيوتر";
+"icon_keyword_pc" = "كمبيوتر شخصي";
+"icon_keyword_display" = "الشاشة";
+"icon_keyword_mouse" = "ماوس";
+"icon_keyword_keyboard" = "لوحة المفاتيح";
+"icon_keyword_printer" = "الطابعة";
+"icon_keyword_scanner" = "الماسح الضوئي";
+"icon_keyword_pin" = "دبوس";
+"icon_keyword_paperclip" = "مشبك الورق";
+"icon_keyword_clipboard" = "الحافظة";
+"icon_keyword_list" = "القائمة";
+"icon_keyword_server" = "الخادم";
+"icon_keyword_simcard" = "بطاقة Sim";
+"icon_keyword_bank" = "البنك";
+"icon_keyword_apple_watch" = "Apple Watch";
+"icon_keyword_clock" = "الساعة";
+"icon_keyword_alarm" = "إنذار";
+"icon_keyword_box" = "الصندوق";
+"icon_keyword_wand" = "العصا السحرية";
+"icon_keyword_hourglass" = "الساعة الرملية";
+"icon_keyword_newspaper" = "صحيفة";
+"icon_keyword_wrench" = "كماشة";
+"icon_keyword_screwdriver" = "مفك البراغي";
+"icon_keyword_hammer" = "المطرقة";
+"icon_keyword_craftsman" = "الرئيسي";
+"icon_keyword_tools" = "الأداة";
+"icon_keyword_plumber" = "سباك";
+"icon_keyword_construction_market" = "المطرقة";
+"icon_keyword_scissors" = "مقص";
+"icon_keyword_hairdresser" = "مصفف الشعر";
+"icon_keyword_key" = "المفتاح";
+"icon_keyword_school" = "مدرسة";
+"icon_keyword_university" = "الجامعة";
+"icon_keyword_study" = "دراسة";
+"icon_keyword_tuition_fees" = "الرسوم الدراسية";
+"icon_keyword_flashlight" = "مصباح يدوي";
+"icon_keyword_bell" = "الجرس";
+"icon_keyword_subscription" = "الاشتراك";
+"icon_keyword_loupe" = "عدسة مكبرة";
+"icon_keyword_binoculars" = "منظار";
+"icon_keyword_rosette" = "وردة";
+"icon_keyword_crown" = "تاج";
+"icon_keyword_umbrella" = "مظلة";
+"icon_keyword_beach" = "الشاطئ";
+"icon_keyword_megaphone" = "مكبر الصوت";
+"icon_keyword_advertisement" = "إعلان";
+"icon_keyword_puzzle" = "لغز";
+"icon_keyword_lab" = "المختبر";
+"icon_keyword_calendar" = "التقويم";
+"icon_keyword_rent" = "إيجار";
+"icon_keyword_flat" = "مسطح";
+"icon_keyword_work" = "العمل";
+"icon_keyword_salary" = "الراتب";
+"icon_keyword_corona" = "تاج";
+"icon_keyword_rainbow" = "قوس قزح";
+"icon_keyword_glasses" = "نظارات";
+"icon_keyword_sunglasses" = "نظارة شمسية";
+"icon_keyword_discount" = "الخصم";
+"icon_keyword_percent" = "نسبة مئوية";
+"icon_keyword_wallet" = "المحفظة";
+"icon_keyword_convertible" = "قابل للتحويل";
+"icon_keyword_drone" = "طائرة بدون طيار";
+"icon_keyword_motorcycle" = "دراجة نارية";
+"icon_keyword_tire" = "إطار";
+"icon_keyword_oilcan" = "علبة الزيت";
+"icon_keyword_keys" = "المفاتيح";
+"icon_keyword_fire_extinguisher" = "طفاية حريق";
+"icon_keyword_hockey" = "الهوكي";
+"icon_keyword_ice_hockey" = "هوكي الجليد";
+"icon_keyword_ice_skating" = "التزلج على الجليد";
+"icon_keyword_rowing" = "التجديف";
+"icon_keyword_inhaler" = "جهاز الاستنشاق";
+"icon_keyword_wheelchair" = "كرسي متحرك";
+"icon_keyword_vacuum" = "مكنسة كهربائية";
+"icon_keyword_doctor" = "دكتور";
+"icon_keyword_dentist" = "طبيب أسنان";
+"icon_keyword_parking" = "موقف سيارات";
+
+
+/* MARK: - App Intents */
+/* Entities */
+"budget_book_entity_name" = "دفتر الميزانية";
+"account_entity_name" = "الحساب";
+"category_group_entity_name" = "المجموعة";
+"category_entity_name" = "الفئة";
+"payee_entity_name" = "المستفيد";
+
+/* Categories */
+"add_category_name" = "إضافة";
+"open_category_name" = "فتح";
+"show_category_name" = "إظهار";
+"search_category_name" = "بحث";
+
+/* Search */
+"search_budget_book_title" = "البحث في دفتر الميزانية";
+"search_budget_book_description" = "البحث عن كتاب ميزانية محدد حسب العنوان";
+"search_budget_book_parameter_summary" = "ابحث في دفتر الميزانية باستخدام ${name}";
+"search_account_title" = "البحث عن الحساب";
+"search_account_description" = "البحث عن حساب محدد بالاسم";
+"search_account_parameter_summary" = "ابحث عن حساب بـ ${name} في ${budgetBook}";
+"search_category_group_title" = "البحث في المجموعة";
+"search_category_group_description" = "البحث عن مجموعة معينة بالاسم";
+"search_category_group_parameter_summary" = "ابحث عن المجلد الذي يحتوي على ${name} في ${budgetBook}";
+"search_category_title" = "فئة البحث";
+"search_category_description" = "البحث عن فئة معينة بالاسم";
+"search_category_parameter_summary" = "البحث عن فئة تحتوي على ${name} في ${categoryGroup} في ${budgetBook}";
+"search_payee_title" = "البحث عن المدفوع لأمره";
+"search_payee_description" = "البحث عن مدفوع لأمره محدد بالاسم";
+"search_payee_parameter_summary" = "ابحث عن المدفوع لأمره حسب ${name} في ${budgetBook}";
+
+"name_parameter_title" = "الاسم";
+"name_parameter_dialog" = "ما الاسم؟";
+
+"budget_book_parameter_title" = "دفتر الميزانية";
+"budget_book_parameter_description" = "دفتر الميزانية المرتبط.";
+"budget_book_parameter_dialog" = "ما هو دفتر الميزانية المرتبط؟";
+"category_group_parameter_title" = "مجلد";
+"category_group_parameter_description" = "المجلد المرتبط.";
+"category_group_parameter_dialog" = "ما هو المجلد المرتبط؟";
+
+/* Open */
+"open_add_new_income_view_title" = "أضف دخلًا جديدًا";
+"open_add_new_income_view_description" = "يفتح عرض إضافة دخل جديد في التطبيق.";
+"open_add_new_expense_view_title" = "أضف نفقات جديدة";
+"open_add_new_expense_view_description" = "يفتح نافذة لإضافة نفقات جديدة في التطبيق.";
+"open_add_new_transfer_view_title" = "إضافة نقل جديد";
+"open_add_new_transfer_view_description" = "يفتح نافذة لإضافة نقل جديد في التطبيق.";
+"open_add_new_recurring_view_title" = "أضف عملية متكررة جديدة";
+"open_add_new_recurring_view_description" = "يفتح نافذة لإضافة عملية متكررة جديدة في التطبيق.";
+"open_upcoming_transactions_view_title" = "المعاملات المجدولة";
+"open_upcoming_transactions_view_description" = "يفتح عرضًا للمعاملات المجدولة في التطبيق.";
+
+/* Show */
+"show_chart_title" = "إظهار المخطط";
+"show_chart_description" = "يعرض رسمًا بيانيًا لأرصدة حسابك، أو دخلك، أو نفقاتك للفترة المحددة.";
+"show_chart_parameter_summary" = "إظهار المخطط ${type} لـ ${periodType}";
+
+"chart_type_parameter_title" = "النوع";
+"chart_type_dialog" = "ما نوع المخطط الذي تحتاجه؟";
+"chart_type_account_balances_title" = "أرصدة الحساب";
+"chart_type_balance_title" = "الرصيد";
+"chart_type_total_income_title" = "إجمالي الدخل";
+"chart_type_total_expenses_title" = "إجمالي النفقات";
+"chart_type_fixed_expenses_title" = "النفقات الثابتة";
+"chart_type_variable_expenses_title" = "النفقات المتغيرة";
+
+"chart_period_type_parameter_title" = "الفترة";
+"chart_period_type_dialog" = "ما هي الفترة التي تريد عرضها؟";
+"chart_type_current_month_title" = "الشهر الحالي";
+"chart_type_current_year_title" = "السنة الحالية";
+
+
+/* MARK: - Dummy Data */
+"default_budget_book_name" = "دفتر ميزانيتي";
+"default_credit_card_name" = "بطاقة الائتمان";
+"default_location_address" = "فورستنبيرج";

@@ -1,0 +1,20 @@
+/*
+  InfoPlist.strings
+  BudgetFlow
+
+  Created by Fabian Hasse on 23.07.20.
+  Copyright © 2020 Fabian Hasse. All rights reserved.
+*/
+
+"CFBundleName" = "Budget Flow";
+"CFBundleDisplayName" = "Budget Flow";
+
+"NSLocationAlwaysAndWhenInUseUsageDescription" = "Access to your location is used to automatically add your current location to transactions.";
+"NSLocationUsageDescription" = "Access to your location is used to automatically add your current location to transactions.";
+"NSLocationWhenInUseUsageDescription" = "Access to your location is used to automatically add your current location to transactions.";
+"NSCameraUsageDescription" = "Access to your camera is used to add photos to transactions.";
+"NSPhotoLibraryUsageDescription" = "Access to your photo library is used to automatically save taken photos.";
+"NSPhotoLibraryAddUsageDescription" = "Access to your photo library is used to automatically save taken photos.";
+"NSFaceIDUsageDescription" = "Access to Face ID is required so that you can unlock the app without entering a passcode.";
+"NSTouchIDUsageDescription" = "Access to Touch ID is required so that you can unlock the app without entering a passcode.";
+"NSContactsUsageDescription" = "Access to your contacts is used to display names and photos of people you have shared your budget book with.";

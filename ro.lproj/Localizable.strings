@@ -1,0 +1,2016 @@
+/*
+  Localizable.strings
+  BudgetFlow
+
+  Created by Fabian Hasse on 19.05.20.
+  Copyright © 2020 Fabian Hasse. All rights reserved.
+*/
+
+/* MARK: - General */
+"app_name" = "Budget Flow";
+
+"feedback_quick_action_title" = "Feedback";
+"feedback_quick_action_subtitle" = "Faceți clic aici pentru a oferi feedback despre aplicație.";
+"income_quick_action_title" = "Venit nou";
+"expense_quick_action_title" = "Cheltuieli noi";
+"transfer_quick_action_title" = "Transfer nou";
+"recurring_quick_action_title" = "Recurent";
+
+
+/* MARK: - Miscellaneous */
+"face_id" = "Face ID";
+"touch_id" = "Touch ID";
+"required" = "Necesar";
+"optional" = "Opțional";
+"uncategorized" = "Necategorizat";
+"before" = "înainte";
+"account_reconcilation" = "Reconciliere cont";
+
+
+/* MARK: - Enums */
+"account_type_cash" = "Numerar";
+"account_type_payment" = "Cont de plată";
+"account_type_savings" = "Cont de economii";
+"account_type_credit_card" = "Carte de credit";
+"account_type_investment" = "Investiție";
+"account_type_precaution" = "Precauție";
+"account_type_liability" = "Răspundere";
+"account_type_business" = "Cont de companie";
+
+"account_type_payment_plural" = "Conturi de plată";
+"account_type_savings_plural" = "Conturi de economii";
+"account_type_credit_card_plural" = "Carti de credit";
+"account_type_investment_plural" = "Investiții";
+"account_type_precaution_plural" = "Precauție";
+"account_type_liability_plural" = "Datorii";
+"account_type_business_plural" = "Conturi de afaceri";
+
+"transaction_type_income" = "Venit";
+"transaction_type_expense" = "Cheltuieli";
+"transaction_type_transfer" = "Transfer";
+
+"transaction_type_income_plural" = "Venit";
+"transaction_type_expense_plural" = "Cheltuieli";
+"transaction_type_transfer_plural" = "Transferuri";
+
+"payment_status" = "Stare";
+"payment_status_completed" = "Finalizat";
+"payment_status_pending" = "În așteptare";
+
+"attachment_type_image" = "Fotografie";
+"attachment_type_image_plural" = "Fotografii";
+"attachment_type_document" = "Document";
+"attachment_type_document_plural" = "Documente";
+
+"period_type_month" = "Luna";
+"period_type_year" = "Anul";
+"period_type_custom" = "Data";
+
+"sort_type_alphabetically" = "În ordine alfabetică";
+"sort_type_date" = "Data";
+"sort_type_amount" = "Suma";
+"sort_type_type" = "Tip";
+
+"sort_option_ascending" = "Crescent";
+"sort_option_descending" = "Descendent";
+
+"group_option_day" = "Ziua";
+"group_option_month" = "Luna";
+"group_option_account" = "Cont";
+"group_option_category" = "Categorie";
+"group_option_category_group" = "Folder";
+"group_option_type" = "Tip";
+"group_option_payee" = "Beneficiar";
+"group_option_repetition_frequency" = "Interval";
+
+"date_repetition_frequency_never" = "Niciodată";
+"date_repetition_frequency_daily" = "Zilnic";
+"date_repetition_frequency_weekly" = "Săptămânal";
+"date_repetition_frequency_everyTwoWeeks" = "La fiecare 2 săptămâni";
+"date_repetition_frequency_everyThreeWeeks" = "La fiecare 3 săptămâni";
+"date_repetition_frequency_everyFourWeeks" = "La fiecare 4 săptămâni";
+"date_repetition_frequency_monthly" = "Lunar";
+"date_repetition_frequency_everyTwoMonths" = "La fiecare 2 luni";
+"date_repetition_frequency_everyThreeMonths" = "Trimestrial";
+"date_repetition_frequency_everySixMonths" = "Semestrial";
+"date_repetition_frequency_yearly" = "Anual";
+"date_repetition_frequency_custom" = "Personalizat";
+
+"csv_transaction_type_automatic" = "Automat";
+"csv_transaction_type_income" = "Venit";
+"csv_transaction_type_expenses" = "Cheltuieli";
+
+"passcode_type_four_digits" = "Cod de acces numeric din patru cifre";
+"passcode_type_six_digits" = "Cod de acces numeric din șase cifre";
+"passcode_type_custom_numeric" = "Cod numeric personalizat";
+"passcode_type_custom_alphanumeric" = "Cod alfanumeric personalizat";
+
+"auto_lock_time_type_immediately" = "Imediat";
+"auto_lock_time_type_after_one_minute" = "După 1 minut";
+"auto_lock_time_type_after_five_minutes" = "După 5 minute";
+"auto_lock_time_type_after_fifteen_minutes" = "După 15 minute";
+"auto_lock_time_type_after_one_hour" = "După 1 oră";
+"auto_lock_time_type_after_four_hours" = "După 4 ore";
+
+"widget_type_chart_stack" = "Diagrame";
+"widget_type_suggestions" = "Sugestii";
+"widget_type_distribution" = "Distribuție";
+"widget_type_balance" = "Sold";
+"widget_type_savings_rate" = "Salvat";
+"widget_type_upcoming_transactions" = "Planificat";
+"widget_type_participants" = "Oameni";
+"widget_type_budget" = "Buget";
+"widget_type_pending_transactions" = "În așteptare";
+"widget_type_total_assets" = "Active";
+"widget_type_forecast" = "Prognoză";
+
+"chart_type_bar" = "Diagrama cu bare";
+"chart_type_pie" = "Diagramă circulară";
+
+"category_chart_data_type_category" = "Categorie";
+"category_chart_data_type_category_group" = "Folder";
+
+"product_type_individual" = "Persoană fizică";
+"product_type_family" = "Familie";
+
+"subscription_period_day" = "Ziua";
+"subscription_period_days" = "zile";
+"subscription_period_month" = "Luna";
+"subscription_period_months" = "Luni";
+"subscription_period_year" = "anul";
+"subscription_period_years" = "Ani";
+
+"overview_period_type_current_week" = "Săptămâna aceasta";
+
+"quick_action_type_new_income" = "Venit nou";
+"quick_action_type_new_expense" = "Cheltuieli noi";
+"quick_action_type_new_transfer" = "Transfer nou";
+"quick_action_type_new_recurring" = "Recurent";
+
+"suggestion_type_add_income_transaction" = "Venit nou";
+"suggestion_type_add_expense_transaction" = "Cheltuieli noi";
+
+"user_interface_style_system" = "Sistem";
+"user_interface_style_light" = "Lumina";
+"user_interface_style_dark" = "Întunecat";
+
+"transaction_title_type_category" = "Categorie";
+"transaction_title_type_payee" = "Beneficiar";
+"transaction_title_type_notes" = "Note";
+
+"transaction_subtitle_type_none" = "Niciunul";
+"transaction_subtitle_type_category" = "Categorie";
+"transaction_subtitle_type_payee" = "Beneficiar";
+"transaction_subtitle_type_notes" = "Note";
+
+
+/* MARK: - Custom Date Repetition */
+"frequency" = "Frecventa";
+
+"every" = "Fiecare";
+"every_day" = "Fiecare";
+"every_week" = "Fiecare";
+"every_month" = "Fiecare";
+"every_year" = "Fiecare";
+"every_day_plural" = "Fiecare";
+"every_week_plural" = "Fiecare";
+"every_month_plural" = "Fiecare";
+"every_year_plural" = "Fiecare";
+
+"each" = "Fiecare";
+"on_the" = "Pe...";
+"days_of_week" = "Zilele săptămânii";
+"last_day" = "Ultima zi";
+
+"daily" = "Zilnic";
+"weekly" = "Săptămânal";
+"monthly" = "Lunar";
+"yearly" = "Anual";
+
+"first" = "1.";
+"second" = "2.";
+"third" = "3.";
+"fourth" = "4.";
+"fifth" = "5.";
+"last" = "ultimul";
+
+
+/* MARK: - Menu Bar */
+"accounts_menu_title" = "Conturi";
+"show_accounts_menu_title" = "Afișați toate conturile";
+"budgets_menu_title" = "Bugete";
+"show_budgets_menu_title" = "Afișați toate bugetele";
+"transactions_menu_title" = "Tranzacții";
+"show_all_transactions_menu_title" = "Afișați toate tranzacțiile";
+"show_recurring_transactions_menu_title" = "Afișați tranzacțiile recurente";
+"show_upcoming_transactions_menu_title" = "Afișați tranzacțiile planificate";
+
+
+/* MARK: - Sidebar Menu */
+"menu" = "Meniu";
+"menu_accounts_section" = "Conturi";
+"menu_categories_section" = "Categorii";
+"menu_selected_budget_book_title" = "Selectat";
+
+
+/* MARK: - Tabs */
+"dashboard_tab" = "Prezentare generală";
+"transactions_tab" = "Tranzacții";
+"budgets_tab" = "Bugete";
+"settings_tab" = "Setari";
+
+
+/* MARK: - Buttons */
+"add_button" = "Adaugă";
+"edit_button" = "Editare";
+"copy_button" = "Copiere";
+"edit_account_button" = "Editați contul";
+"edit_category_button" = "Editați categoria";
+"edit_payee_button" = "Editați beneficiarul";
+"edit_tag_button" = "Editați eticheta";
+"edit_budget_button" = "Editați bugetul";
+"multi_selection_button" = "Selectie multipla";
+"back_button" = "Înapoi";
+"done_button" = "Terminat";
+"save_button" = "Salvați";
+"import_button" = "Import";
+"unlock_button" = "Deblocare";
+"cancel_button" = "Anulează";
+"close_button" = "Închidere";
+"delete_button" = "Șterge";
+"end_repetition_button" = "Încheiați repetiția";
+"reset_button" = "Resetare";
+"apply_button" = "Aplicați";
+"yes_button" = "Da";
+"no_button" = "Nu";
+"ok_button" = "OK";
+"faq_button" = "FAQ";
+"create_reminder_button" = "Creați memento";
+"remove_reminder_button" = "Elimină mementoul";
+"do_not_show_again_button" = "Nu afișa din nou";
+"mark_as_paid_button" = "Plata finalizată";
+"mark_as_pending_button" = "Plata în așteptare";
+"show_contra_entry_button" = "Intrare de contor";
+
+"save_changes_button" = "Salvați modificările";
+"discard_changes_button" = "Renunțați la modificări";
+
+"show_help_center_button" = "Centrul de ajutor (🇬🇧)";
+"contact_developer_button" = "Contactați dezvoltatorul";
+
+"filter_button" = "Filtru";
+"sort_button" = "Sortează";
+"sort_categories_button" = "Sortează categoriile";
+"sort_category_groups_button" = "Sortează folderele";
+"group_button" = "Grup";
+"configure_button" = "Configurare";
+
+"show_filter_button" = "Afișați filtrul";
+
+"show_amount_values_button" = "Afișați sumele";
+"hide_amount_values_button" = "Ascundeți sumele";
+
+"take_photo_button" = "Fă fotografia";
+"add_photo_button" = "Selectați fotografii";
+"add_document_button" = "Selectați documentele";
+"scan_receipt_button" = "Scanați chitanța";
+
+"open_button" = "Deschide";
+"open_folder_button" = "Deschide folderul";
+"open_in_browser_button" = "Deschide în browser";
+
+"show_more_button" = "Afișați mai multe";
+"show_less_button" = "Afișați mai puține";
+
+"add_category_button" = "Categorie nouă";
+"add_category_group_button" = "Folder nou";
+
+"add_income_transaction_button" = "Venit nou";
+"add_expense_transaction_button" = "Cheltuieli noi";
+"add_transfer_transaction_button" = "Transfer nou";
+
+"manage_budget_books_button" = "Gestionați cărțile bugetare";
+"select_budget_book_button" = "Selectați cartea bugetului";
+"edit_budget_book_button" = "Editați cartea bugetului";
+
+"continue_button" = "Continuați";
+"skip_button" = "Omiteți";
+"accept_button" = "Accept";
+"get_started_button" = "Începeți";
+
+"show_transactions_button" = "Afișați tranzacțiile";
+"show_in_app_store_button" = "Afișați în App Store";
+
+"learn_more" = "Aflați mai multe";
+
+
+/* MARK: - Share View */
+/* Titles */
+"share_title" = "Distribuie";
+
+/* Alert Views */
+"alert_sync_shares_in_progress_title" = "Se sincronizează...";
+"alert_sync_shares_in_progress_message" = "Registrele dvs. bugetare se sincronizează cu iCloud, astfel încât să puteți accesa conținutul partajat. Vă rugăm să aveți răbdare...";
+"alert_cloud_share_quota_exceeded_error_message" = "Nu s-a putut finaliza partajarea deoarece nu există suficient spațiu în iCloud. Eliberați spațiu și încercați din nou.";
+"alert_cloud_share_unknown_error_message" = "Nu s-a putut finaliza partajarea deoarece a apărut o eroare. Probabil că nu este suficient spațiu disponibil în iCloud. Vă rugăm să eliberați spațiu și să încercați din nou.";
+
+
+/* MARK: - Search View */
+/* Titles */
+"search_title" = "Căutare";
+"filter_title" = "Filtru";
+
+/* Sections */
+"search_text_section_title" = "Căutare text";
+"search_suggestions_section_title" = "Sugestii";
+
+
+/* MARK: - Period Selection View */
+/* Titles */
+"period_selection_title" = "Perioada";
+"period_selection_current_year_title" = "Anul curent";
+"period_selection_current_month_title" = "Luna curentă";
+
+/* Items */
+"from_title" = "De la";
+"to_title" = "Către";
+
+
+/* MARK: - Dashboard View */
+/* Titles */
+"configure_title" = "Configurați";
+"balance_widget_income_title" = "Venit";
+"balance_widget_expenses_title" = "Cheltuieli";
+"savings_rate_widget_absolute_title" = "Absolut";
+"savings_rate_widget_percentual_title" = "Procent";
+"budget_widget_planned_title" = "Planificat";
+"budget_widget_remaining_title" = "Disponibil";
+"total_assets_widget_absolute_title" = "Absolut";
+"total_assets_widget_trend_title" = "Tendință";
+"forecast_widget_upcoming_title" = "Planificat";
+"forecast_widget_pending_title" = "În așteptare";
+"forecast_widget_final_balance_title" = "Sold final";
+"pie_chart_widget_transactions_title" = "Tranzacții";
+"pie_chart_widget_categories_title" = "Categorii";
+
+/* Sections */
+"inactive_widgets_section_title" = "Mai multe widget-uri";
+
+/* Footer */
+"participants_widget_footer_title" = "Notă: widgetul \"oameni\" apare numai pentru cărțile cu buget comun.";
+
+/* Messages */
+"no_widgets_title" = "Niciun widget adăugat";
+"no_widgets_message" = "Faceți clic pe butonul \"pen\" pentru a configura vizualizarea.";
+"no_suggestions_title" = "Fără sugestii";
+"not_shared_title" = "Cartea de buget nu a fost partajată";
+
+/* Widgets */
+"account_balances_widget_title" = "Soldurile contului";
+"balance_widget_title" = "Sold";
+"total_income_widget_title" = "Venit total";
+"total_expenses_widget_title" = "Cheltuieli totale";
+"fixed_expenses_widget_title" = "Cheltuieli fixe";
+"variable_expenses_widget_title" = "Cheltuieli variabile";
+
+"account_balances_distribution_widget_title" = "Soldurile contului";
+"balance_distribution_widget_title" = "Sold";
+"total_income_distribution_widget_title" = "Venit total";
+"total_expenses_distribution_widget_title" = "Cheltuieli totale";
+"fixed_expenses_distribution_widget_title" = "Cheltuieli fixe";
+"variable_expenses_distribution_widget_title" = "Cheltuieli variabile";
+
+
+/* MARK: - Transaction List View */
+/* Titles */
+"sum_title" = "Suma";
+"total_sum_title" = "Suma totală";
+"recurring_transactions_title" = "Recurring";
+"upcoming_transactions_title" = "Planificat";
+"reminded_transactions_title" = "Cu memento";
+
+/* Info */
+"recurring_transactions_info_title" = "Descriere";
+"recurring_transactions_info_description" = "Creați tranzacții recurente pentru a le adăuga automat în aplicație la scadență.";
+
+/* Sections */
+"account_filter_section_title" = "Cont";
+"category_filter_section_title" = "Categorie";
+"payee_filter_section_title" = "Beneficiar";
+"tag_filter_section_title" = "Etichetă";
+"user_filter_section_title" = "Persoană";
+"payment_status_filter_section_title" = "Plata";
+"transaction_type_filter_section_title" = "Tip";
+"date_range_filter_section_title" = "Data";
+"amount_range_filter_section_title" = "Suma";
+
+/* Messages */
+"no_transactions_title" = "Fără tranzacții";
+"no_transactions_title_short" = "Niciuna";
+"no_transactions_found_title" = "Nu au fost găsite tranzacții";
+"no_transactions_found_message" = "Faceți clic pe butonul \"+\" pentru a adăuga o nouă tranzacție.";
+"no_transactions_found_button_title" = "Tranzacție nouă";
+"no_recurring_transactions_found_message" = "Faceți clic pe butonul \"+\" pentru a adăuga o nouă tranzacție recurentă.";
+"no_upcoming_transactions_found_message" = "Faceți clic pe butonul \"+\" pentru a adăuga o nouă tranzacție planificată.";
+"no_reminded_transactions_found_message" = "Faceți clic pe butonul \"+\" pentru a adăuga o nouă tranzacție cu un memento.";
+"transactions_search_placeholder_message" = "Căutați după numele unei categorii, beneficiar, etichetă sau note";
+
+/* Buttons */
+"show_analysis_button" = "Afișați analiza";
+"show_analysis_button_short" = "Analiză";
+"show_forecast_button" = "Afișați prognoza";
+"show_forecast_button_short" = "Prognoză";
+"show_upcoming_transactions_button" = "Planificat";
+
+/* Alert Views */
+"alert_confirm_add_next_upcoming_transaction_title" = "Adăugați tranzacție";
+"alert_confirm_add_next_upcoming_transaction_message" = "Sunteți sigur că doriți să adăugați această tranzacție planificată acum?";
+
+/* Miscellaneous */
+"payed_by_and_modified_at" = "Platit de %@\nUltima modificare pe %@";
+"modified_at" = "Ultima modificare pe %@";
+"average_per_transaction" = "Ø pe tranzacție";
+"average_per_day" = "Ø pe zi";
+"average_per_month" = "Ø pe lună";
+
+
+/* MARK: - Budget List View */
+/* Titles */
+"remaining_title" = "Disponibil";
+"balanced_title" = "Echilibrat";
+"exceeded_title" = "Depășit";
+"user_has_no_budgets_title" = "Nu aveți bugete.";
+"user_is_within_budget_title" = "Sunteți în bugetul dvs.! 🎉";
+"user_was_within_budget_title" = "Ai fost în limitele bugetului tău! 🎉";
+"user_is_not_within_budget_title" = "Sunteți %d peste buget 😢";
+"user_is_not_within_budgets_title" = "Ați depășit %d bugete 😢";
+
+/* Messages */
+"no_budgets_title" = "Fără bugete";
+"no_budgets_found_title" = "Nu s-au găsit bugete";
+"no_budgets_found_message" = "Faceți clic pe butonul \"+\" pentru a adăuga un nou buget.";
+"budgets_search_placeholder_message" = "Căutați după numele unui buget";
+"no_budgets_found_button_title" = "Buget nou";
+
+
+/* MARK: - Analysis View */
+/* Titles */
+"analysis_title" = "Analiză";
+"trend_widget_average_title" = "Medie";
+"trend_widget_current_year_title" = "Anul acesta";
+"trend_widget_current_month_title" = "Luna aceasta";
+
+/* Messages */
+"trend_widget_received_more_message" = "Câștigați mai mult decât de obicei.";
+"trend_widget_received_less_message" = "Câștigați mai puțin decât de obicei.";
+"trend_widget_received_same_message" = "Câștigați la fel ca de obicei.";
+"trend_widget_has_received_more_message" = "Ați câștigat mai mult decât de obicei.";
+"trend_widget_has_received_less_message" = "Ați câștigat mai puțin decât de obicei.";
+"trend_widget_has_received_same_message" = "Ați câștigat la fel ca de obicei.";
+
+"trend_widget_spent_more_message" = "Cheltuiți mai mult decât de obicei.";
+"trend_widget_spent_less_message" = "Cheltuiți mai puțin decât de obicei.";
+"trend_widget_spent_same_message" = "Cheltuiți la fel ca de obicei.";
+"trend_widget_has_spent_more_message" = "Ați cheltuit mai mult decât de obicei.";
+"trend_widget_has_spent_less_message" = "Ați cheltuit mai puțin decât de obicei.";
+"trend_widget_has_spent_same_message" = "Ați cheltuit la fel ca de obicei.";
+
+"total_balance_widget_current_balance_message" = "Soldul dvs. este %@.";
+"total_balance_widget_previous_balance_message" = "Soldul dvs. a fost %@.";
+
+"savings_rate_widget_current_savings_rate_message" = "Rata dvs. de economii este %@ %%.";
+"savings_rate_widget_previous_savings_rate_message" = "Rata dvs. de economisire a fost %@ %%.";
+
+/* Widgets */
+"trend_widget_title" = "Tendință";
+"total_balance_widget_title" = "Sold";
+"savings_rate_widget_title" = "Rata de economii";
+
+
+/* MARK: - Account Forecast View */
+/* Titles */
+"account_forecast_title" = "Prognoză";
+"account_balance_title" = "Sold";
+"not_enough_data_title" = "Date insuficiente";
+
+
+/* MARK: - Settings View */
+/* Titles */
+"no_budget_book_title" = "Fără carte bugetară";
+
+/* Messages */
+"share_app_message" = "\"%@ - Expense Tracker\"\n\nDescărcați acum gratuit:";
+
+/* Sections */
+"general_setting_section_title" = "General";
+"upgrade_setting_section_title" = "Versiune completă";
+"support_setting_section_title" = "Suport";
+"legal_setting_section_title" = "Legal";
+"data_setting_section_title" = "Date";
+"miscellaneous_setting_section_title" = "Diverse";
+
+/* Footer */
+"upgrade_setting_footer_title" = "Vă mulțumim că ați folosit versiunea completă!";
+"support_setting_footer_title" = "Orice întrebări sau idei? Scrieți un mesaj sau o recenzie pozitivă în App Store! Feedback-ul dvs. este foarte motivant și ajută la îmbunătățirea aplicației.";
+
+/* Buttons */
+"share_budgetbook_button" = "Partajați cartea bugetului";
+"show_participants_button" = "Afișați participanții";
+"cloud_not_available_button" = "iCloud nu este disponibil";
+"upgrade_show_all_features_button" = "Afișați toate caracteristicile";
+"reset_app_button" = "Resetați aplicația";
+
+/* General Settings */
+"accounts_setting_title" = "Gestionați conturile";
+"categories_setting_title" = "Gestionați categoriile";
+"payees_setting_title" = "Gestionați beneficiarii";
+"tags_setting_title" = "Gestionați etichetele";
+"reminders_setting_title" = "Mementouri";
+
+/* Upgrade Settings */
+"upgrade_setting_title" = "Deblocați versiunea completă 🚀";
+"upgrade_setting_description" = "Deblocați acum versiunea completă și beneficiați de mai multe funcții suplimentare!";
+
+/* Support Settings */
+"share_app_setting_title" = "Informați prietenii";
+"translate_app_setting_title" = "Ajutor la traducere";
+"help_center_setting_title" = "Centrul de ajutor (🇬🇧)";
+"feature_roadmap_setting_title" = "Sugerează caracteristică";
+"rate_app_setting_title" = "Evaluați aplicația";
+
+/* Legal Settings */
+"imprint_setting" = "Amprentă";
+"privacy_setting" = "Politica de confidențialitate";
+"terms_of_use_setting" = "Termeni de utilizare";
+"acknowledgements_setting" = "Mulțumiri";
+"licenses_setting" = "Licențe";
+
+"acknowledgements_setting_info_title" = "Descriere";
+"acknowledgements_setting_info_description" = "Mai jos este o listă de persoane care au ajutat într-un fel cu aplicația.";
+"translation_acknowledgement" = "Traducere (%@)";
+"licenses_setting_info_title" = "Descriere";
+"licenses_setting_info_description" = "Mai jos este o listă a tuturor licențelor terță parte utilizate de aplicație.";
+
+/* Data Settings */
+"sync_and_data_setting" = "Sincronizare & date";
+"sync_and_data_setting_short" = "Sincronizare & date";
+"recurring_transactions_setting" = "Tranzacții recurente";
+
+/* Miscellaneous Settings */
+"new_features_setting" = "Funcții noi";
+"testflight_beta_setting" = "TestFlight beta";
+"apple_pay_setting" = " Pay integrare";
+"appearance_setting" = "Personalizare";
+"advanced_setting" = "Setări avansate";
+
+/* Contact Developer */
+"mail_subject_type_contact" = "Contact";
+"mail_subject_type_support" = "Support";
+"mail_subject_type_feedback" = "Feedback";
+"mail_subject_type_translate" = "Translate";
+"mail_subject_type_discount" = "Discount";
+
+"alert_contact_developer_title" = "Despre ce este solicitarea ta?";
+"alert_contact_developer_feature_request" = "💡 Funcție de sugestie";
+"alert_contact_developer_bug_report" = "🐞 Raport de eroare";
+"alert_contact_developer_other" = "📬 Altele (e-mail)";
+
+"contact_developer_mail_subject" = "%@: %@%@";
+"contact_developer_mail_subject_full_version" = " (full version)";
+"contact_developer_mail_message" = "
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+<b>Support Information:</b>
+</br>
+<u>General:</u></br>
+- Device: %@</br>
+- iOS version: %@</br>
+- Language: %@</br>
+- Currency: %@</br>
+- Time zone: %@</br>
+</br>
+<u>App Specific:</u></br>
+- App version: %@</br>
+- Build: %@</br>
+</br>
+<u>In-App Purchases:</u></br>
+- User ID: %@</br>
+- Active: %@</br>
+- Purchases: %@";
+"contact_developer_mail_no_purchases" = "None";
+
+/* Appearance Settings */
+"appearance_setting_info_title" = "Descriere";
+"appearance_setting_info_description" = "Personalizați aplicația după bunul plac, schimbând aspectul sau culoarea de accent a aplicației.";
+"appearance_ui_style_setting_section_title" = "Temă";
+"appearance_ui_style_setting_footer_title" = "Modifică aspectul aplicației.";
+"appearance_accent_color_setting_section_title" = "Culoarea accentului";
+"appearance_accent_color_setting_footer_title" = "Modifică culoarea butoanelor și a altor comenzi din aplicație.";
+"appearance_app_icon_setting_section_title" = "Pictogramă aplicație";
+
+/* Sync & Data Settings */
+"sync_and_data_setting_info_title" = "Descriere";
+"sync_and_data_setting_info_description" = "Obțineți o prezentare generală a stării curente de sincronizare și importați sau exportați date folosind un fișier CSV.";
+
+"sync_and_data_cloud_setting_section_title" = "iCloud";
+"sync_and_data_cloud_setting_footer_title" = "Indică dacă sincronizarea cu iCloud a avut succes sau dacă a apărut o eroare.";
+"sync_and_data_setting_cloud_sync_status_title" = "Starea sincronizării";
+"backup_setting_section_title" = "Backup-uri";
+"backup_setting_footer_title" = "Gestionați-vă backup-urile și setările de backup.";
+"backup_setting_manage_backups_title" = "Gestionați";
+"sync_and_data_csv_setting_section_title" = "Date-CSV";
+"sync_and_data_csv_setting_footer_title" = "Importați sau exportați tranzacțiile folosind un fișier CSV.";
+"sync_and_data_setting_csv_import_title" = "Import";
+"sync_and_data_setting_csv_export_title" = "Export";
+"sync_and_data_setting_get_csv_template_title" = "Descărcați șablonul";
+
+"clear_cache_button" = "Ștergeți memoria cache";
+"cache_setting_footer_title" = "Informații: Ștergerea memoriei cache șterge toate fișierele din directorul de documente al aplicației (inclusiv copiile de rezervă).";
+
+"alert_csv_import_successful_title" = "Import cu succes 🎉";
+"alert_csv_import_successful_message" = "În total, %d din %d tranzacții au fost importate.%@";
+"alert_csv_import_skipped_message" = " Prin urmare, %d tranzacții au fost omise.";
+"alert_csv_import_error_message" = "Importarea cu succes a %d din %d tranzacții.\n\n%@";
+"alert_csv_import_error_reason_field_message" = "Vă rugăm să verificați următoarele câmpuri din fișierul dvs. CSV: %@.";
+
+"alert_csv_export_successful_title" = "Export cu succes 🎉";
+"alert_csv_export_successful_message" = "Datele dvs. au fost exportate cu succes în \"%@\".";
+
+/* Cloud Settings */
+"cloud_setting_info_title" = "Descriere";
+"cloud_setting_info_description" = "Următoarea vizualizare oferă o imagine de ansamblu mai detaliată a stării curente de sincronizare iCloud și ajută la depanarea.";
+
+"cloud_setting_network_status_title" = "Rețea";
+"cloud_setting_network_status_success_value" = "Conexiune la internet disponibilă";
+"cloud_setting_network_status_error_value" = "Fără conexiune la internet";
+"cloud_setting_account_status_title" = "Cont iCloud";
+"cloud_setting_account_status_success_value" = "Conectat la iCloud";
+"cloud_setting_account_status_error_value" = "Neconectat la iCloud";
+"cloud_setting_upload_status_title" = "Ultima încărcare";
+"cloud_setting_download_status_title" = "Ultima descărcare";
+"cloud_setting_number_of_transactions_title" = "Tranzacții";
+"cloud_setting_number_of_transactions_value" = "Pe dispozitiv: %d\nÎn iCloud: %d";
+"cloud_setting_number_of_transactions_in_progress_title" = "Vă rugăm să așteptați...";
+"cloud_setting_number_of_transactions_error_title" = "Eroare";
+
+/* Backup Settings */
+"backup_setting_info_title" = "Descriere";
+"backup_setting_info_description" = "Când este activat, Budget Flow face în mod regulat copii de siguranță ale datelor dvs., astfel încât să puteți restabili oricând aplicația la o stare anterioară.";
+
+"backup_general_setting_section_title" = "General";
+"backup_recent_backups_setting_section_title" = "Backup-uri recente";
+"backup_setting_use_automatic_backups_title" = "Backup automat";
+"backup_setting_create_backup_title" = "Creează o copie de rezervă";
+
+"alert_restore_backup_title" = "Restabiliți această copie de rezervă?";
+"alert_restore_backup_message" = "Restabilirea copiilor de siguranță este în prezent o funcție experimentală. Va șterge datele dvs. curente și le va suprascrie cu copia de rezervă selectată.\n\nDupă aceea, aplicația se va închide automat.\n\nAvertisment: Acest proces nu poate fi anulat.!";
+"alert_restore_backup_button" = "Restaurează backup";
+
+/* Advanced Settings */
+"advanced_setting_info_title" = "Descriere";
+"advanced_setting_info_description" = "Efectuați alte setări pentru a configura aplicația.";
+
+"advanced_security_setting_section_title" = "Securitate";
+"advanced_view_setting_section_title" = "Afișare";
+"advanced_sidebar_setting_section_title" = "Bară laterală";
+"advanced_transaction_setting_section_title" = "Tranzacții";
+"advanced_other_setting_section_title" = "Altele";
+
+"advanced_setting_use_passcode_title" = "Utilizați codul de acces";
+"advanced_setting_use_title" = "Folosiți %@";
+"advanced_setting_auto_lock_title" = "Solicitare cod";
+
+"advanced_setting_chart_type_title" = "Tipul diagramei";
+"advanced_setting_show_frequently_used_items_title" = "Afișați categorii și etichete frecvente";
+"advanced_setting_show_frequently_used_items_description" = "Afișați categoriile și etichetele utilizate frecvent în lista de selecție la crearea și editarea tranzacțiilor.";
+"advanced_setting_show_notes_in_title_title" = "Afișați notele în loc de categorie";
+"advanced_setting_show_notes_in_title_description" = "Afișați conținutul notelor în loc de numele categoriei pentru tranzacții.";
+"advanced_setting_start_day_of_month_title" = "Ziua de început a lunii";
+"advanced_setting_start_day_of_month_description" = "Specificați ziua de început a fiecărei luni, astfel încât rapoartele, tranzacțiile și bugetele să fie calculate corespunzător.";
+"advanced_setting_configure_transaction_title_title" = "Titlu tranzacție";
+"advanced_setting_configure_transaction_subtitle_title" = "Subtitlu tranzacție";
+
+"advanced_setting_configure_transaction_title_info_title" = "Descriere";
+"advanced_setting_configure_transaction_title_info_description" = "Setați ordinea articolelor care urmează să fie afișate în titlul tranzacției. Dacă un articol lipsește, următorul din comandă este utilizat automat.";
+
+"advanced_setting_show_accounts_in_sidebar_title" = "Afișați conturile în bara laterală";
+"advanced_setting_show_accounts_in_sidebar_description" = "Afișați o listă a conturilor dvs. în bara laterală.";
+"advanced_setting_group_accounts_in_sidebar_title" = "Conturi de grup în bara laterală";
+"advanced_setting_group_accounts_in_sidebar_description" = "Grupați-vă conturile în bara laterală după tip.";
+"advanced_setting_show_categories_in_sidebar_title" = "Afișați categoriile în bara laterală";
+"advanced_setting_show_categories_in_sidebar_description" = "Afișați o listă a categoriilor dvs. în bara laterală.";
+"advanced_setting_group_categories_in_sidebar_title" = "Categorii de grup în bara laterală";
+"advanced_setting_group_categories_in_sidebar_description" = "Grupați categoriile în bara laterală după folder.";
+
+"advanced_setting_select_time_automatically_title" = "Selectare automată a timpului";
+"advanced_setting_select_time_automatically_description" = "Selectați automat ora curentă pentru tranzacțiile noi.";
+"advanced_setting_select_location_automatically_title" = "Selectare automată a locației";
+"advanced_setting_select_location_automatically_description" = "Selectați automat locația curentă pentru tranzacții noi.";
+"advanced_setting_save_photos_in_library_title" = "Salvați fotografiile în bibliotecă";
+"advanced_setting_save_photos_description" = "Salvați automat fotografiile capturate în biblioteca de fotografii.";
+"advanced_setting_consider_pending_items_title" = "Rezervați toate tranzacțiile";
+"advanced_setting_consider_pending_items_description" = "Includeți tranzacțiile în așteptare la calcularea soldurilor contului, soldurilor, totalurilor etc.";
+
+"advanced_setting_enable_exact_times_title" = "Introduceți orele exacte";
+"advanced_setting_enable_exact_times_description" = "Selectați orele exacte folosind rotația minutelor pentru tranzacții (de exemplu, 9:41 am).";
+"advanced_setting_reverse_keyboard_title" = "Tastatură inversată";
+"advanced_setting_reverse_keyboard_description" = "Răstoarnă dispunerea tastaturii numerice vertical, pentru a se potrivi cu stilul tradițional al unei calculatoare.";
+"advanced_setting_enable_haptic_keyboard_title" = "Feedback de la tastatură";
+"advanced_setting_enable_haptic_keyboard_description" = "Obțineți feedback haptic când introduceți sume monetare folosind tastatura.";
+"advanced_setting_enable_live_activities_title" = "Live-Activities";
+"advanced_setting_enable_live_activities_description" = "Vedeți soldul actual și multe altele pe insula dinamică, precum și pe ecranul de blocare.";
+"advanced_setting_ask_for_feedback_title" = "Cereți feedback";
+"advanced_setting_ask_for_feedback_description" = "Permiteți aplicației să vă solicite ocazional feedback.";
+
+/* Cloud Sync Status */
+"cloud_sync_status_not_logged_in" = "Nu v-ați conectat la iCloud";
+"cloud_sync_status_not_started" = "Nesincronizat";
+"cloud_sync_status_no_network" = "Fără conexiune la internet";
+"cloud_sync_status_in_progress" = "Se sincronizează...";
+"cloud_sync_status_succeeded" = "Complet sincronizat";
+"cloud_sync_status_quota_exceeded" = "Spațiul tău iCloud este plin. Eliberează puțin spațiu și încearcă din nou.";
+"cloud_sync_status_limit_exceeded" = "Ai atins limita de încărcare/descarcare iCloud. Așteaptă câteva momente și încearcă din nou mai târziu.";
+"cloud_sync_status_network_failure" = "A apărut o eroare de rețea. Încearcă din nou mai târziu.";
+"cloud_sync_status_service_unavailable" = "iCloud este temporar indisponibil. Încearcă din nou mai târziu.";
+"cloud_sync_status_request_rate_limited" = "Ai trimis prea multe cereri către iCloud într-un timp scurt. Așteaptă câteva momente și încearcă din nou mai târziu.";
+"cloud_sync_status_request_unknown_error" = "A apărut o eroare necunoscută. Încearcă din nou mai târziu.";
+
+/* Alert Views */
+"alert_share_app_type_selection_title" = "Ce ați dori să distribuiți?";
+"alert_share_app_type_selection_link_button" = "Link";
+"alert_share_app_type_selection_qrcode_button" = "Cod QR";
+
+"alert_reset_app_title" = "Resetați aplicația";
+"alert_reset_app_message" = "Sunteți sigur că doriți să resetați aplicația la setările implicite? Acest lucru va șterge definitiv toate datele stocate pe acest dispozitiv și pe iCloud.";
+
+"alert_error_title" = "A apărut o eroare 😢";
+
+/* Social Media */
+"follow_on_social_media" = "Follow \"%@\" on Social Media";
+
+/* Copyright */
+"version" = "Versiune";
+"developed_by" = "Dezvoltat de %@ 👨🏻‍💻";
+
+
+/* MARK: - Passcode View */
+/* Titles */
+"passcode_view_enter_passcode_title" = "Introduceți codul de acces";
+"passcode_view_create_passcode_title" = "Creează codul de acces";
+"passcode_view_confirm_passcode_title" = "Confirmați parola";
+"passcode_view_authenticate_reason" = "Autentificare utilizator";
+
+/* Alert Views */
+"alert_set_passcode_type_title" = "Alegeți opțiunea codului de acces";
+
+
+/* MARK: - Welcome View */
+/* Titles */
+"welcome_view_title" = "Bine ați venit la";
+"privacy_policy_title" = "Politica de confidențialitate";
+
+/* Sections */
+"welcome_view_overview_section_title" = "Rezumat";
+"welcome_view_legal_documents_section_title" = "Mai multe informații";
+
+/* Overview */
+"privacy_overview_datastorage_title" = "Depozitare securizată a datelor";
+"privacy_overview_datastorage_description" = "Finanțele tale sunt private – și ar trebui să rămână așa. De aceea datele tale sunt stocate exclusiv pe dispozitivul tău sau (opțional) în iCloud-ul tău personal.";
+
+"privacy_overview_privacy_control_title" = "Dețineți controlul";
+"privacy_overview_privacy_control_description" = "Fie că este vorba despre datele dvs. salvate, utilizarea locației dvs. sau accesul la camera dvs. - aveți întotdeauna controlul. De exemplu, puteți șterge cu ușurință datele prin resetarea aplicației, iar permisiunile de acces ale aplicației se ajustează la oricând.";
+
+/* Footer */
+"welcome_view_value_description" = "Controlați-vă toate finanțele cu ușurință: Introduceți bugetul, obțineți informații și urmăriți toate veniturile și cheltuielile dvs.";
+"welcome_view_agreement_description" = "Făcând clic pe \"Accept\" sunteți de acord cu %@.";
+
+
+/* MARK: - New Features View */
+/* Titles */
+"new_features_view_title" = "New Features";
+
+/* Buttons */
+"new_features_view_rate_app_button" = "Rate App";
+"new_features_view_close_button" = "Maybe later";
+
+
+/* MARK: - Rate App View */
+/* Titles */
+"purchase_success_view_title" = "Mulțumesc!";
+
+/* Messages */
+"purchase_success_view_info_message" = "Dacă vă place aplicația, vă rugăm să scrieți o recenzie pozitivă în App Store. Chiar ajută foarte mult și motivează îmbunătățirea continuă a aplicației. 😊";
+"purchase_success_view_info_message_info" = "\n\nInformație: Când treci de la un abonament la o achiziție pe viață, nu uita să anulezi abonamentul existent ulterior.";
+
+/* Buttons */
+"purchase_success_view_rate_app_button" = "Evaluați aplicația";
+"purchase_success_view_close_button" = "Poate mai târziu";
+
+
+/* MARK: - Upgrade View */
+/* Titles */
+"upgrade_view_title" = "Versiune completă";
+
+/* Info */
+"upgrade_info_description" = "Această caracteristică este disponibilă numai în versiunea completă:";
+"upgrade_sharing_info_description" = "Utilizabil de până la cinci persoane";
+
+/* Discount */
+"upgrade_discount_title" = "Ofertă specială 🌟";
+"upgrade_discount_multiple_title" = "Salvați până la %d %%!";
+"upgrade_discount_montly_subscription_title" = "Salvați %d %% la abonamentul lunar!";
+"upgrade_discount_yearly_subscription_title" = "Salvați %d %% la abonamentul anual!";
+"upgrade_discount_lifetime_purchase_title" = "Salvați %d %% la achiziția unică!";
+"upgrade_discount_ends_in" = "Se termină în";
+
+/* Sections */
+"upgrade_info_section_title" = "Informații";
+"upgrade_reviews_section_title" = "Recenzii";
+
+/* Messages */
+"apply_for_discount_text" = "Ești student sau ai nevoie de bani?\nFaceți clic aici pentru a aplica pentru o reducere.";
+"apply_for_discount_highlighted_text" = "Faceți clic aici pentru a aplica pentru o reducere.";
+
+/* Features */
+"upgrade_features" = "Caracteristici";
+"upgrade_more_features" = "Mai multe caracteristici";
+"upgrade_features_description" = "Următoarele sunt toate caracteristicile care vor fi deblocate odată cu achiziționarea versiunii complete:";
+"upgrade_feature_unlimited_accounts_title" = "Conturi suplimentare";
+"upgrade_feature_unlimited_accounts_description" = "Creați conturi suplimentare și atribuiți-le tranzacții pentru o imagine de ansamblu și mai bună asupra veniturilor și cheltuielilor dvs.";
+"upgrade_feature_unlimited_categories_and_tags_title" = "Categorii și etichete nelimitate";
+"upgrade_feature_unlimited_categories_and_tags_description" = "Creați categorii și etichete nelimitate pe care le puteți adăuga la tranzacții pentru a le organiza mai bine.";
+"upgrade_feature_extended_analyses_title" = "Analitice extinse";
+"upgrade_feature_extended_analyses_description" = "Profitați de analize suplimentare și de o prognoză extinsă a soldurilor și tranzacțiilor viitoare ale contului dvs..";
+"upgrade_feature_unlimited_budgetbooks_title" = "Cărți cu mai multe bugete";
+"upgrade_feature_unlimited_budgetbooks_description" = "Creați mai multe cărți de buget, astfel încât, de exemplu, mai multe persoane să își poată folosi fiecare pe un singur dispozitiv sau în cazul în care doriți să partajați o carte de buget separat (de exemplu, pentru o vacanță).";
+"upgrade_feature_security_title" = "Date securizate";
+"upgrade_feature_security_description" = "Protejați-vă datele cu %@.";
+"upgrade_feature_security_description_passcode" = "Protejați-vă datele prin crearea unui cod";
+"upgrade_feature_security_description_biometric" = "sau utilizați %@";
+"upgrade_feature_currency_converter_title" = "Convertorul valutar";
+"upgrade_feature_currency_converter_description" = "Utilizați convertorul de valută încorporat pentru a converti automat sumele într-una dintre cele peste 150 de valute străine.";
+"upgrade_feature_customization" = "Personalizare";
+"upgrade_feature_customization_description" = "Alegeți dintre mai multe culori de accent și pictograme pentru a personaliza aplicația după cum doriți.";
+"upgrade_feature_sharedbudget_books_title" = "Partajați cărțile bugetare";
+"upgrade_feature_sharedbudget_books_description" = "Partajați registrele de buget, inclusiv conturile, categoriile, tranzacțiile și bugetele pentru a colabora cu una sau mai multe persoane.";
+"upgrade_feature_receipt_scanner_title" = "Scanați chitanțe";
+"upgrade_feature_receipt_scanner_description" = "Utilizați scanerul încorporat pentru a digitiza chitanțele și a recunoaște automat suma și numele comerciantului.";
+"upgrade_feature_widgets_title" = "Widget-uri Acasă și ecran de blocare";
+"upgrade_feature_widgets_description" = "Cu ajutorul widget-urilor vă puteți vedea veniturile și cheltuielile curente, soldurile contului și multe altele dintr-o privire, fără a fi nevoie să deschideți aplicația. Pentru a previzualiza widget-urile, editați ecranul de pornire sau de blocare, deschideți Vizualizare \"Adăugați widget\" și apoi selectați această aplicație.";
+"upgrade_feature_reminders_title" = "Creați mementouri";
+"upgrade_feature_reminders_description" = "Creați mementouri pentru tranzacțiile planificate pentru a primi notificări push (și offline).";
+"upgrade_feature_csv_title" = "Import și export CSV";
+"upgrade_feature_csv_description" = "Importă și exportă tranzacțiile folosind un fișier CSV pentru a transfera date de la banca ta sau din alte aplicații.";
+"upgrade_feature_remove_ads_title" = "Fără anunțuri";
+"upgrade_feature_remove_ads_description" = "Nu veți mai vedea anunțuri pentru versiunea completă în aplicație.";
+"upgrade_feature_support_title" = "Suport pentru dezvoltare";
+"upgrade_feature_support_description" = "Susțineți un dezvoltator tânăr și, prin urmare, dezvoltarea continuă a aplicației! 😊";
+
+/* Reviews */
+"user_review_title_de" = "Awesome app";
+"user_review_description_de" = "The app is very well designed and functional. It meets all my needs and the support is very fast and helpful. I can only recommend it.";
+"user_review_title_hr" = "Beautiful app";
+"user_review_description_hr" = "Feature rich app, with an easy to use user interface. Tried many alternatives on iOS, none of them met my needs the way this app does. Worth the money.";
+"user_review_title_bg" = "Outstanding support";
+"user_review_description_bg" = "Great app with an outstanding customer support. And it’s a very reasonable priced for the quality of the software.";
+"user_review_title_us" = "Great app so far";
+"user_review_description_us" = "Huge fan of this being an app available on iOS, iPad and macOS so that I can update it anywhere. It is also really nice to see that there is no account required or data collection which seems rare these days but important to me for finance applications.";
+"user_review_title_uk" = "This is the one!";
+"user_review_description_uk" = "I’ve been looking for this app for over two years. I wanted a phone based finance manager that was designed around a good looking overview screen, allowing easy entry of new data and the ability to drill down for more info when needed! Give it a go.";
+"user_review_title_es" = "Best budgeting app";
+"user_review_description_es" = "Simply the best I have tried. I think it is still a new app but defetinely you can see the potential it has.";
+"user_review_title_fr" = "Superb, feature-rich app";
+"user_review_description_fr" = "I've been using the app for a few months now and I really like it. Congratulations on your work and I can't wait to see what the app will look like in a few months :)";
+"user_review_title_it" = "Simply great";
+"user_review_description_it" = "Finally. I was lloking for such a solution for years now. Use it with transaction iOS shortcut trigger, love the design. And I like the pay once in a lifetime feature. Keep up the great work!";
+"user_review_title_ch" = "Great support";
+"user_review_description_ch" = "Great support - fast and uncomplicated problem solving. I feel taken seriously as a user.";
+"user_review_title_pl" = "Very pleasant to use";
+"user_review_description_pl" = "The app is an excellent budget tracker and planner that I use on a daily basis. In addition the developer is very attentive to their community, despite its small size.";
+
+/* Products */
+"monthly_subscription_title" = "1";
+"yearly_subscription_title" = "12";
+"lifetime_purchase_title" = "∞";
+
+"monthly_subscription_subtitle" = "Luna";
+"yearly_subscription_subtitle" = "Luni";
+"lifetime_purchase_subtitle" = "Nelimitat";
+
+"product_discount_header_title" = "- %d %%";
+
+/* Buttons */
+"upgrade_is_active_button" = "Activ";
+"upgrade_purchase_button" = "Cumpărare";
+"upgrade_subscribe_button" = "Abonare";
+"upgrade_free_trial_button" = "Probă gratuită";
+"upgrade_restore_button" = "Restabiliți achizițiile";
+"upgrade_restore_in_progress_button" = "Vă rugăm să așteptați...";
+
+"subscription_button_info_text" = "Anulabil în orice moment.";
+"subscription_trial_button_info_text" = "%d %@ de încercare gratuită. Apoi %@ per %@.";
+"lifetime_purchase_button_info_text" = "Deblochează versiunea completă o dată (fără abonament).";
+
+/* Alert Views */
+"alert_upgrade_view_purchase_success_title" = "Achiziție reușită 🎉";
+"alert_upgrade_view_purchase_success_message" = "Vă mulțumim pentru sprijin! 😊";
+"alert_upgrade_view_purchase_success_message_info" = "\n\nInformații: Dacă treceți de la un abonament la achiziția unică, nu uitați să anulați abonamentul anterior ulterior.";
+"alert_upgrade_view_purchase_error_message" = "Achiziția dvs. nu a putut fi finalizată cu succes.";
+"alert_upgrade_view_purchase_error_store_problem_message" = "A apărut o problemă cu App Store.\n\nInformații: Uneori, achiziția poate funcționa numai dacă confirmați cu parola în loc de Touch ID / Face ID.\n\nDe exemplu, dacă folosești Face ID, acoperă doar camera frontală și încearcă din nou pentru a vedea dialogul cu parola.";
+"alert_upgrade_view_purchase_error_not_allowed_message" = "Achizițiile nu sunt permise pe acest dispozitiv.";
+"alert_upgrade_view_purchase_error_invalid_message" = "Verificați metoda de plată și încercați din nou mai târziu. Dacă eroarea persistă, contactați asistența.";
+"alert_upgrade_view_purchase_error_network_message" = "Verificați-vă conexiunea la internet și încercați din nou mai târziu. Dacă eroarea persistă, contactați asistența.";
+
+"alert_upgrade_view_load_products_error_message" = "Produsele nu au putut fi încărcate. Verificați-vă conexiunea la internet și încercați din nou mai târziu. Dacă eroarea persistă, contactați asistența.";
+
+"alert_upgrade_view_restore_success_title" = "Achiziții restaurate";
+"alert_upgrade_view_restore_success_message" = "Achizițiile dvs. au fost restaurate cu succes! 😊";
+"alert_upgrade_view_restore_error_message" = "Achizițiile dvs. nu au putut fi restabilite. Vă rugăm să încercați din nou mai târziu.";
+"alert_upgrade_view_restore_nothing_to_do_title" = "Nu există achiziții disponibile 😢";
+"alert_upgrade_view_restore_nothing_to_do_message" = "Nu am putut găsi nicio achiziție de restaurat.";
+
+
+/* MARK: - Upgrade FAQ View */
+/* Titles */
+"upgrade_faq_view_title" = "Întrebări frecvente";
+
+/* Sections */
+"upgrade_faq_general_section_title" = "General";
+"upgrade_faq_purchases_section_title" = "Achiziții și abonamente";
+
+/* Items */
+"upgrade_faq_about_title" = "Ce este Budget Flow?";
+"upgrade_faq_about_value" = "Budget Flow este o aplicație modernă și ușor de utilizat de urmărire a bugetului pentru toți cei care doresc să își țină evidența finanțelor și să își gestioneze eficient cheltuielile.";
+"upgrade_faq_developer_title" = "Cine a dezvoltat aplicația?";
+"upgrade_faq_developer_value" = "Budget Flow a fost început ca un proiect secundar și de atunci a fost complet proiectat, dezvoltat și întreținut de mine, Fabian Hasse. Sunt un dezvoltator de software entuziast, cu peste 10 ani de experiență și lucrez cu multă pasiune pentru dezvolta cea mai bună aplicație de bugetare și urmărire a cheltuielilor din App Store.";
+"upgrade_faq_free_use_title" = "Aplicația poate fi folosită și gratuit?";
+"upgrade_faq_free_use_value" = "Da, puteți utiliza funcțiile de bază ale aplicației, cum ar fi crearea de tranzacții, complet gratuit.\n\nÎn plus, aplicația oferă o perioadă de probă pentru versiunea completă, astfel încât să o puteți încerca în avans. înainte de a vă decide să cumpărați sau să vă abonați la versiunea completă.";
+"upgrade_faq_security_title" = "Datele mele sunt securizate?";
+"upgrade_faq_security_value" = "Finanțele tale sunt private – și ar trebui să rămână așa. De aceea datele tale sunt stocate exclusiv pe dispozitivul tău sau (opțional) în iCloud-ul tău personal.";
+"upgrade_faq_why_subscription_title" = "De ce este oferită versiunea completă ca abonament?";
+"upgrade_faq_why_subscription_value" = "Scopul nostru este să dezvoltăm o aplicație de înaltă calitate care să vă ofere ca utilizator noi funcții și îmbunătățiri în mod regulat. Cu toate acestea, pentru a atinge acest obiectiv, aplicația are nevoie de venituri continue pentru a se finanța și fi sustenabil din punct de vedere economic.\n\nCeea ce mulți nu știu Dezvoltarea și întreținerea unei aplicații necesită mult timp. În cazul Budget Flow, de exemplu, a fost nevoie de aproape doi ani și câteva mii de ore de muncă de la idee până la dezvoltare și testare înainte ca prima versiune să poată fi lansată în App Store.\n\nÎn calitate de client, beneficiați în special de actualizări și îmbunătățiri regulate prin modelul de abonament, precum și de un suport bun pentru a vă asigura că sunteți în continuare mulțumit. De asemenea, aveți posibilitatea de a încerca gratuit aplicația în avans, pentru a vă asigura că se potrivește nevoilor dvs., puteți schimba sau anula abonamentul în orice moment dacă vă răzgândiți.\n\nÎn general, un model de abonament vă oferă multe beneficii ca client și o experiență de utilizator mai bună prin actualizări și asistență continuă, comparativ cu o achiziție unică. Pe termen lung, o achiziție unică nu ar fi, din păcate, sustenabilă, deoarece acest model de afaceri impune ca noii utilizatori să continue să cumpere aplicația pentru a asigura continuarea dezvoltării.\n\nDeci, dacă vă place aplicația, am fi foarte fericiți dacă ne susțineți munca, astfel încât să putem continua să vă oferim și mai multe funcții grozave în viitor!❤️";
+"upgrade_faq_multiple_devices_title" = "Pot folosi versiunea completă pe mai multe dispozitive?";
+"upgrade_faq_multiple_devices_value" = "Da, puteți utiliza versiunea completă a Budget Flow pe toate dispozitivele Apple cu același ID Apple. Deoarece aplicația este sincronizată prin iCloud, puteți comuta fără probleme între dispozitive și aveți întotdeauna acces la datele dvs. financiare și setări.";
+"upgrade_faq_multiple_people_title" = "Pot folosi versiunea completă cu mai multe persoane?";
+"upgrade_faq_multiple_people_value" = "Da, puteți partaja achiziția unică, precum și abonamentul versiunii complete cu până la cinci persoane dintr-un grup de familie. Tot ce trebuie să faceți este să activați partajarea în familie în setările sistemului și să adăugați invitați celelalte persoane din grup.";
+"upgrade_faq_cancel_subscription_title" = "Cum îmi anulez abonamentul?";
+"upgrade_faq_cancel_subscription_value" = "Puteți anula oricând abonamentul folosind ID-ul Apple din Preferințe de sistem.";
+"upgrade_faq_subscription_data_loss_title" = "Se vor pierde datele mele dacă îmi anulez abonamentul?";
+"upgrade_faq_subscription_data_loss_value" = "Nu. Orice creați în timp ce vă abonați la versiunea completă va fi în continuare disponibil dacă reveniți la versiunea gratuită.";
+"upgrade_faq_refund_title" = "Cum pot obține o rambursare?";
+"upgrade_faq_refund_value" = "Plățile efectuate prin App Store sunt rambursabile numai de către Apple. Pentru a primi o rambursare, trebuie să contactați asistența Apple în termen de 14 zile de la cumpărare.";
+"upgrade_faq_switch_plan_title" = "Este posibil să treceți de la un abonament la achiziția unică la o dată ulterioară?";
+"upgrade_faq_switch_plan_value" = "Da, puteți trece de la un abonament activ la achiziția unică în orice moment, cumpărând produsul corespunzător din aplicație. Totuși, vă rugăm să nu uitați să anulați abonamentul anterior, astfel încât să nu plătiți mai mult de o singura data.";
+
+
+/* MARK: - User Feedback */
+"user_feedback" = "feedback";
+
+/* Buttons */
+"user_feedback_message_title" = "Bună, acesta este Fabian, dezvoltatorul Budget Flow. Aveți un moment pentru a oferi feedback despre aplicație? 😊";
+
+/* Alert Views */
+"alert_user_feedback_title" = "Îți place aplicația?";
+
+"alert_user_feedback_like_title" = "Mulțumesc! 🎉";
+"alert_user_feedback_like_message" = "Dacă vă place aplicația, vă rugăm să scrieți o recenzie pozitivă în App Store. Chiar ajută foarte mult și motivează îmbunătățirea continuă a aplicației. 😊";
+"alert_user_feedback_rate_app_button" = "Evaluați aplicația";
+"alert_user_feedback_maybe_later_button" = "Poate mai târziu";
+
+"alert_user_feedback_dislike_title" = "Sugestii? 🤔";
+"alert_user_feedback_dislike_message" = "Îmi pare rău să aud că încă nu vă place aplicația. Pentru a schimba asta, vă rugăm să-mi spuneți ideile și sugestiile dvs. de îmbunătățire. 😊";
+"alert_user_feedback_contact_developer_button" = "Contactați dezvoltatorul";
+
+
+/* MARK: - Progress View */
+"progress_view_load_images_title" = "Se încarcă fotografii...";
+"progress_view_load_images_subtitle" = "Notă: dacă utilizați Biblioteca foto iCloud, descărcarea fotografiilor dvs. poate dura ceva timp.";
+"progress_view_load_documents_title" = "Se încarcă documente...";
+"progress_view_load_documents_subtitle" = "Informații: dacă utilizați iCloud Drive, descărcarea documentelor dvs. poate dura ceva timp.";
+"progress_view_import_csv_title" = "Se importă date...";
+"progress_view_import_csv_subtitle" = "Vă rugăm să așteptați...";
+
+
+/* MARK: - Widgets */
+"chart_widget_title" = "Grafic";
+"chart_widget_description" = "Acest widget afișează un grafic al soldurilor contului dvs., soldul dvs. curent sau o defalcare a veniturilor și cheltuielilor dvs. pentru perioada de timp selectată.";
+
+"overview_widget_title" = "Prezentare generală";
+"overview_widget_description" = "Acest widget afișează o prezentare generală a soldurilor contului dvs., soldul curent sau un total de venituri și cheltuieli pentru perioada selectată.";
+
+"upcoming_transactions_widget_title" = "Planificat";
+"upcoming_transactions_widget_description" = "Acest widget vă arată următoarea tranzacție planificată.";
+
+"budget_widget_title" = "Buget";
+"budget_widget_description" = "Acest widget vă arată un buget specific pentru perioada selectată.";
+"budget_widget_no_budget_title" = "Niciun buget selectat";
+
+"suggestion_widget_title" = "Sugerat";
+"suggestion_widget_description" = "Acest widget vă arată o categorie sugerată pe baza datei curente pentru care puteți crea o nouă tranzacție.";
+
+"quick_actions_widget_title" = "Intrare rapidă";
+"quick_actions_widget_description" = "Acest widget vă permite să adăugați rapid tranzacții noi.";
+"quick_actions_widget_new_title" = "Nou";
+
+"widget_upgrade_locked_title" = "Blocat";
+"widget_upgrade_necessary_title" = "Versiune completă";
+"widget_upgrade_necessary_title_long" = "Versiunea completă necesară";
+"widget_upgrade_necessary_description" = "Este necesară o actualizare a versiunii completă pentru a utiliza acest widget.";
+"widget_upgrade_necessary_highlighted_text" = "versiunii completă";
+
+
+/* MARK: - Add Item Form View */
+/* Alert Views */
+/* Info */
+"alert_no_budget_book_selected_title" = "Nu a fost selectată nicio carte de buget";
+"alert_upgrade_necessary_title" = "Versiune completă";
+"alert_upgrade_necessary_description" = "Pentru a utiliza această caracteristică, trebuie să faceți upgrade la versiunea completă. Aceasta poate fi activată în cadrul aplicației.";
+
+/* Dismiss */
+"alert_confirm_dismiss_title" = "Sunteți sigur că doriți să renunțați la modificări?";
+
+/* Delete */
+"alert_confirm_delete_budgetbook_title" = "Sunteți sigur că doriți să ștergeți această carte de buget? Toate conturile, categoriile, tranzacțiile și bugetele asociate vor fi, de asemenea, șterse.";
+"alert_confirm_delete_budgetbook_button" = "Ștergeți cartea bugetului";
+"alert_confirm_delete_budgetbook_multiple_title" = "Sunteți sigur că doriți să ștergeți toate registrele bugetare selectate? Toate conturile, categoriile, tranzacțiile și bugetele asociate vor fi, de asemenea, șterse.";
+"alert_confirm_delete_budgetbook_multiple_button" = "Ștergeți cărțile bugetare";
+
+"alert_confirm_delete_account_title" = "Sunteți sigur că doriți să ștergeți acest cont? Toate tranzacțiile asociate vor fi, de asemenea, șterse.";
+"alert_confirm_delete_account_button" = "Ștergeți contul";
+"alert_confirm_delete_account_multiple_title" = "Sunteți sigur că doriți să ștergeți toate conturile selectate? Toate tranzacțiile asociate vor fi, de asemenea, șterse.";
+"alert_confirm_delete_account_multiple_button" = "Ștergeți conturile";
+
+"alert_confirm_delete_categorygroup_title" = "Sunteți sigur că doriți să ștergeți acest dosar? Toate categoriile, tranzacțiile și bugetele asociate vor fi, de asemenea, șterse (dacă este necesar).";
+"alert_confirm_delete_categorygroup_button" = "Ștergeți folderul";
+"alert_confirm_delete_categorygroup_multiple_title" = "Sunteți sigur că doriți să ștergeți toate dosarele selectate? Toate categoriile, tranzacțiile și bugetele asociate vor fi, de asemenea, șterse (dacă este necesar).";
+"alert_confirm_delete_categorygroup_multiple_button" = "Șterge folderul";
+
+"alert_confirm_delete_category_title" = "Sunteți sigur că doriți să ștergeți această categorie? Toate bugetele asociate vor fi, de asemenea, șterse (dacă este necesar).";
+"alert_confirm_delete_category_button" = "Ștergeți categoria";
+"alert_confirm_delete_category_multiple_title" = "Sunteți sigur că doriți să ștergeți toate categoriile selectate? Toate tranzacțiile și bugetele asociate vor fi, de asemenea, șterse.";
+"alert_confirm_delete_category_multiple_button" = "Ștergeți categoriile";
+
+"alert_confirm_delete_payee_title" = "Sunteți sigur că doriți să ștergeți acest beneficiar?";
+"alert_confirm_delete_payee_button" = "Șterge beneficiarul";
+"alert_confirm_delete_payee_multiple_title" = "Sunteți sigur că doriți să ștergeți toți beneficiarii selectați?";
+"alert_confirm_delete_payee_multiple_button" = "Ștergeți beneficiarii";
+
+"alert_confirm_delete_tag_title" = "Sunteți sigur că doriți să ștergeți această etichetă?";
+"alert_confirm_delete_tag_button" = "Ștergeți eticheta";
+"alert_confirm_delete_tag_multiple_title" = "Sunteți sigur că doriți să ștergeți toate etichetele selectate?";
+"alert_confirm_delete_tag_multiple_button" = "Ștergeți etichetele";
+
+"alert_confirm_delete_reminder_title" = "Sunteți sigur că doriți să ștergeți acest memento?";
+"alert_confirm_delete_reminder_button" = "Ștergeți mementoul";
+"alert_confirm_delete_reminder_multiple_title" = "Sunteți sigur că doriți să ștergeți toate mementourile selectate?";
+"alert_confirm_delete_reminder_multiple_button" = "Ștergeți mementourile";
+
+"alert_confirm_delete_transaction_title" = "Sunteți sigur că doriți să ștergeți această tranzacție?";
+"alert_confirm_delete_assigned_transaction_title" = "Doriți și să ștergeți toate tranzacțiile alocate?";
+"alert_confirm_delete_transaction_button" = "Ștergeți tranzacția";
+"alert_confirm_delete_transaction_multiple_title" = "Sunteți sigur că doriți să ștergeți toate tranzacțiile selectate?";
+"alert_confirm_delete_transaction_multiple_button" = "Ștergeți tranzacțiile";
+
+"alert_confirm_delete_imageitem_title" = "Sunteți sigur că doriți să ștergeți această fotografie?";
+"alert_confirm_delete_imageitem_button" = "Ștergeți fotografia";
+"alert_confirm_delete_imageitem_multiple_title" = "Sunteți sigur că doriți să ștergeți toate fotografiile selectate?";
+"alert_confirm_delete_imageitem_multiple_button" = "Ștergeți fotografiile";
+
+"alert_confirm_delete_documentitem_title" = "Sunteți sigur că doriți să ștergeți acest document?";
+"alert_confirm_delete_documentitem_button" = "Șterge documentul";
+"alert_confirm_delete_documentitem_multiple_title" = "Sunteți sigur că doriți să ștergeți toate documentele selectate?";
+"alert_confirm_delete_documentitem_multiple_button" = "Ștergeți documentele";
+
+"alert_confirm_delete_budget_title" = "Sunteți sigur că doriți să ștergeți acest buget?";
+"alert_confirm_delete_budget_button" = "Ștergeți bugetul";
+"alert_confirm_delete_budget_multiple_title" = "Sunteți sigur că doriți să ștergeți toate bugetele selectate?";
+"alert_confirm_delete_budget_multiple_button" = "Ștergeți bugetele";
+
+"alert_confirm_delete_backupitem_title" = "Sunteți sigur că doriți să ștergeți această copie de rezervă?";
+"alert_confirm_delete_backupitem_button" = "Ștergeți backupul";
+
+"alert_confirm_delete_contra_entry_title" = "Această tranzacție este un transfer. Doriți, de asemenea, să ștergeți contravaloarea?";
+
+/* Updates */
+"alert_confirm_update_contra_entry_title" = "Această tranzacție este un transfer. Doriți să actualizați și contra intrare?";
+"alert_confirm_update_transaction_multiple_title" = "Această tranzacție aparține unui grup. Ce anume doriți să salvați?";
+"alert_confirm_update_transaction_single_button" = "Salvați numai acesta";
+"alert_confirm_update_transaction_all_button" = "Salvați aceasta și cele viitoare";
+
+/* End Repetition */
+"alert_confirm_end_repetition_for_transaction_title" = "Sunteți sigur că doriți să nu mai repetați această tranzacție?";
+"alert_confirm_end_repetition_for_transaction_button" = "Încheiați repetarea";
+"alert_confirm_end_repetition_for_transaction_multiple_title" = "Sunteți sigur că doriți ca toate tranzacțiile selectate să nu se mai repete?";
+"alert_confirm_end_repetition_for_transaction_multiple_button" = "Opriți repetarea";
+
+/* Currency Selection */
+"alert_change_currency_or_exchange_rate_title" = "Ce anume doriți să schimbați?";
+"alert_change_currency_button" = "Moneda";
+"alert_change_exchange_rate_button" = "Rata de schimb";
+
+
+/* MARK: - Currency Selection View */
+/* Titles */
+"currency_selection_title" = "Monede";
+
+/* Info */
+"currency_selection_info_title" = "Descriere";
+"currency_selection_info_description" = "Alegeți moneda implicită pentru tranzacțiile existente și viitoare.";
+
+/* Sections */
+"default_currency_section_title" = "Moneda implicită";
+"suggested_currencies_section_title" = "Sugestii";
+
+/* Messages */
+"no_currencies_found_title" = "Nu au fost găsite monede";
+"currency_selection_search_placeholder_message" = "Căutați numele unei monede sau abrevierea acesteia";
+
+/* Buttons */
+"change_default_currency_button" = "Schimbați moneda implicită";
+
+/* Alert Views */
+"alert_confirm_change_default_currency_title" = "Sunteți sigur că doriți să vă schimbați moneda implicită? Aceasta va converti toate tranzacțiile existente în noua monedă (%@).";
+"alert_confirm_change_default_account_currency_title" = "Sunteți sigur că doriți să schimbați moneda? Aceasta va converti toate tranzacțiile existente ale acestui cont în noua monedă (%@).";
+
+
+/* MARK: - Currency Conversion View */
+/* Titles */
+"currency_conversion_title" = "Cursul de schimb";
+"currency_conversion_last_synchronization_title" = "Actualizat: %@";
+"currency_conversion_synchronization_failed_title" = "Sincronizare eșuată";
+"currency_conversion_synchronization_failed_no_internet_title" = "Fără conexiune la internet";
+
+/* Sections */
+"source_currency_section_title" = "De la";
+"target_currency_section_title" = "Către";
+
+
+/* MARK: - Manage Item View */
+/* Titles */
+"manage_budgetbooks_title" = "Carti pentru buget";
+"manage_accounts_title" = "Conturi";
+"manage_categories_title" = "Categorii";
+"manage_category_groups_title" = "Foldere";
+"manage_payees_title" = "Beneficiari";
+"manage_tags_title" = "Etichete";
+"manage_reminders_title" = "Mementouri";
+
+/* Info */
+"manage_reminders_info_title" = "Descriere";
+"manage_reminders_info_description" = "Creați mementouri personalizate sau adăugați-le la tranzacțiile viitoare pentru ca aplicația să vă notifice.";
+
+/* Sections */
+"shared_by_you_budgetbooks_section_title" = "Partajat de tine";
+"shared_with_you_budgetbooks_section_title" = "Partajat cu tine";
+"not_shared_budgetbooks_section_title" = "Nu este partajat";
+"most_used_items_section_title" = "Cel mai folosit";
+"archived_items_section_title" = "Arhivat";
+"own_reminders_section_title" = "Mementouri proprii";
+
+/* Messages */
+"no_budget_books_found_title" = "Nu s-au găsit cărți bugetare";
+"no_budget_books_found_message" = "Faceți clic pe butonul \"+\" pentru a adăuga o nouă carte de buget.";
+"no_budget_books_found_button_title" = "Carte nouă de buget";
+"no_budget_books_found_cloud_sync_message" = "Datele existente se încarcă din iCloud. Vă rugăm să așteptați un moment...\n\nAlternativ, faceți clic pe butonul \"+\" pentru a adăuga o nouă carte de buget.";
+"no_budget_books_found_cloud_sync_message_short" = "Datele existente se încarcă din iCloud. Vă rugăm să așteptați un moment...";
+"budget_books_search_placeholder_message" = "Căutați un nume de rezervare bugetară";
+
+"no_accounts_title" = "Fără conturi";
+"no_accounts_found_title" = "Nu au fost găsite conturi";
+"no_accounts_found_message" = "Faceți clic pe butonul \"+\" pentru a adăuga un cont nou.";
+"no_accounts_found_button_title" = "Cont nou";
+"accounts_search_placeholder_message" = "Căutați după numele contului sau tipul contului";
+
+"no_categories_found_title" = "Nu au fost găsite categorii";
+"no_categories_found_message" = "Faceți clic pe butonul \"+\" pentru a adăuga o nouă categorie.";
+"no_categories_found_button_title" = "Categorie nouă";
+"categories_search_placeholder_message" = "Căutați după un nume de categorie sau folder";
+
+"no_category_groups_found_title" = "Nu s-au găsit foldere";
+"no_category_groups_found_message" = "Faceți clic pe butonul \"+\" pentru a adăuga un folder nou.";
+"no_category_groups_found_button_title" = "Folder nou";
+"category_groups_search_placeholder_message" = "Căutați după numele unui folder";
+
+"no_payees_found_title" = "Nu a fost găsit niciun beneficiar";
+"no_payees_found_message" = "Faceți clic pe butonul \"+\" pentru a adăuga un nou beneficiar.";
+"no_payees_found_button_title" = "Beneficiar nou";
+"payees_search_placeholder_message" = "Căutați după numele unui beneficiar";
+
+"no_tags_found_title" = "Nu au fost găsite etichete";
+"no_tags_found_message" = "Faceți clic pe butonul \"+\" pentru a adăuga o nouă etichetă.";
+"no_tags_found_button_title" = "Etichetă nouă";
+"tags_search_placeholder_message" = "Căutați după numele unei etichete";
+
+"no_reminders_found_title" = "Nu s-au găsit mementouri";
+"no_reminders_found_message" = "Faceți clic pe butonul \"+\" pentru a adăuga un nou memento.";
+"no_reminders_found_button_title" = "Memento nou";
+"reminders_search_placeholder_message" = "Căutați după titlul unui memento";
+
+/* Value */
+"balance" = "Echilibru";
+
+
+/* MARK: - Add Item Form View */
+/* Titles */
+"form_title_edit" = "Editare";
+
+/* Sections */
+"form_name_section_title" = "Nume";
+"form_title_section_title" = "Titlu";
+"form_color_section_title" = "Culoare";
+"form_icon_section_title" = "Picoa";
+"form_assignment_section_title" = "Tesare";
+"form_miscellaneous_section_title" = "Diverse";
+
+/* Miscellaneous */
+"number_of_selected_items" = "%d selectat";
+
+
+/* MARK: - Add Budget Book Form View */
+/* Titles */
+"form_title_new_budgetbook" = "Carte nouă de buget";
+
+/* Items */
+"form_budgetbook_currency_title" = "Moneda";
+
+/* Buttons */
+"form_button_delete_budgetbook" = "Ștergeți cartea bugetului";
+
+
+/* MARK: - Add Account Form View */
+/* Titles */
+"form_title_new_account" = "Cont nou";
+
+/* Sections */
+"form_billing_section_title" = "Facturare automată";
+"form_transactions_section_title" = "Tranzacții";
+"form_account_balance_section_title" = "Soldul contului";
+
+/* Footer */
+"form_billing_footer_title" = "Activați această funcție pentru a echilibra automat acest card de credit într-o anumită zi a lunii (dacă este necesar).";
+"form_transactions_footer_title" = "Activați această funcție pentru a marca automat tranzacțiile noi pentru acest cont ca \"în așteptare\".";
+"form_account_balance_footer_title" = "Modificați soldul inițial/total pentru a reconcilia manual soldul contului.";
+
+/* Items */
+"form_enable_automatic_billing_title" = "Activat";
+"form_billing_day_title" = "Ziua de facturare";
+"form_mark_transactions_as_pending_title" = "Marcați ca în așteptare";
+"form_account_type_title" = "Tipul de cont";
+"form_initial_balance_title" = "Sold inițial";
+"form_total_balance_title" = "Sold total";
+"form_use_as_default_account_title" = "Cont implicit";
+"form_account_currency_title" = "Moneda";
+
+/* Buttons */
+"form_button_archive_account" = "Arhivează contul";
+"form_button_unarchive_account" = "Dezarhivați contul";
+"form_button_delete_account" = "Ștergeți contul";
+
+
+/* MARK: - Add Category Group Form View */
+/* Titles */
+"form_title_new_categorygroup" = "Folder nou";
+
+/* Buttons */
+"form_button_delete_categorygroup" = "Ștergeți folderul";
+
+
+/* MARK: - Add Category Form View */
+/* Titles */
+"form_title_new_category" = "Categorie nouă";
+
+/* Items */
+"form_category_group_title" = "Folder";
+"form_category_group_none_type_value" = "Niciunul";
+
+/* Buttons */
+"form_button_delete_category" = "Ștergeți categoria";
+
+
+/* MARK: - Add Payee Form View */
+/* Titles */
+"form_title_new_payee" = "Beneficiar nou";
+
+/* Footer */
+"form_assignment_default_entries_footer_title" = "Atribuiți acestui beneficiar un cont, o categorie sau o locație pe care să o utilizeze în mod prestabilit pentru tranzacții.";
+
+/* Items */
+"form_location_title" = "Locație";
+"form_location_none_type_value" = "Niciunul";
+
+/* Buttons */
+"form_button_delete_payee" = "Șterge beneficiarul";
+
+
+/* MARK: - Add Tag Form View */
+/* Titles */
+"form_title_new_tag" = "Etichetă nouă";
+
+/* Buttons */
+"form_button_delete_tag" = "Ștergeți eticheta";
+
+
+/* MARK: - Add Reminder Form View */
+/* Titles */
+"form_title_new_reminder" = "Memento nou";
+
+/* Items */
+"form_is_enabled_title" = "Activat";
+
+/* Buttons */
+"form_button_preview_reminder" = "Afișează previzualizarea";
+"form_button_delete_reminder" = "Ștergeți mementoul";
+
+/* Notifications */
+"reminder_notification_title" = "Memento";
+
+
+/* MARK: - Add Transaction Form View */
+/* Titles */
+"form_title_new_income" = "Venit nou";
+"form_title_new_expense" = "Cheltuieli noi";
+"form_title_new_transfer" = "Transfer nou";
+
+/* Sections */
+"form_date_section_title" = "Scadență";
+"form_reminder_section_title" = "Memento";
+"form_location_section_title" = "Locație";
+"form_notes_section_title" = "Note";
+"form_currency_section_title" = "Moneda";
+"form_payment_status_section_title" = "Plata";
+"form_evaluation_section_title" = "Evaluat";
+"form_attachments_section_title" = "Atașamente";
+"form_tags_section_title" = "Etichete";
+
+/* Items */
+"form_account_title" = "Cont";
+"form_from_account_title" = "De la";
+"form_to_account_title" = "Către";
+"form_account_none_type_value" = "Niciunul";
+"form_category_title" = "Categorie";
+"form_categories_title" = "Categorii";
+"form_category_none_type_value" = "Niciunul";
+"form_payee_title" = "Beneficiar";
+"form_payee_none_type_value" = "Niciunul";
+"form_tags_title" = "Etichete";
+"form_tag_none_type_value" = "Niciunul";
+"form_date_title" = "Data";
+"form_date_format_title" = "Format data";
+"form_time_title" = "Ora";
+"form_repetition_frequency_title" = "Repetă";
+"form_date_repetition_has_end_date_title" = "Sfârșit";
+"form_date_repetition_end_date_title" = "Data de încheiere";
+"form_reminder_title" = "Activ";
+"form_reminder_none_type_value" = "Niciunul";
+"form_reminder_none_type_value_long" = "Fără memento";
+"form_reminder_on_due_value" = "Pentru scadență";
+"form_location_none_type_value_long" = "Nici o locație";
+"form_original_amount_title" = "Suma originală";
+"form_exchange_rate_title" = "Rata de schimb";
+"form_is_selected_title" = "Selectat";
+"form_is_pending_title" = "În așteptare";
+"form_payed_by_title" = "Atribuit";
+"form_payed_by_none_type_value" = "Nimeni";
+"form_include_in_statistics_title" = "Statistici";
+"form_include_in_budgets_title" = "Bugete";
+
+/* Footer */
+"form_payment_status_footer_title" = "Marcați plata ca \"în așteptare\", astfel încât suma să nu fie inclusă în calcule.";
+"form_evaluation_footer_title" = "Excludeți această tranzacție din statistici și/sau bugete pentru a o lua în considerare doar în soldul contului.";
+"form_reminded_transactions_is_invalid_footer_title" = "Notă: Pentru a adăuga un memento la această tranzacție, trebuie selectat fie o dată viitoare, fie un interval de repetare.";
+
+/* Buttons */
+"form_button_delete_transaction" = "Ștergeți tranzacția";
+"form_button_end_repetition_for_transaction" = "Încheiați repetarea";
+"form_button_clear_title" = "Elimină";
+"form_button_today_title" = "Astăzi";
+
+/* Miscellaneous */
+"receipt_total" = "Total";
+"receipt_amount" = "Suma";
+"receipt_to_pay" = "De plătit";
+
+/* Notifications */
+"transaction_notification_body" = "Suma: %@\nData: %@";
+"transaction_notification_body_notes" = "Note: %@";
+
+
+/* MARK: - Add Budget Form View */
+/* Titles */
+"form_title_new_budget" = "Buget nou";
+
+/* Sections */
+"form_interval_section_title" = "Interval";
+
+/* Footer */
+"form_budget_amount_calculation_footer_title" = "Intervalul determină cât de des este repetat bugetul, prin care suma disponibilă afișată este ajustată automat la perioada de timp selectată.";
+
+/* Items */
+"form_is_cumulative_title" = "Cumulative";
+
+/* Buttons */
+"form_button_delete_budget" = "Ștergeți bugetul";
+
+
+/* MARK: - Assign CSV Fields Form View */
+/* Titles */
+"form_title_csv_assign_fields" = "Atribuiți câmpuri";
+
+/* Info */
+"csv_assign_fields_info_title" = "Descriere";
+"csv_assign_fields_info_description" = "Vă rugăm să atribuiți coloanele fișierului CSV care urmează să fie importat câmpurilor corespunzătoare.";
+
+/* Sections */
+"form_general_section_title" = "General";
+
+/* Footer */
+"form_invalid_footer_title" = "Eroare:";
+"form_invalid_amount_footer_title" = "Valorile pentru \"%@\" nu sunt sume monetare valide.";
+"form_invalid_currency_footer_title" = "Valorile pentru \"%@\" nu sunt monede valide.";
+"form_invalid_exchange_rate_footer_title" = "Valorile pentru \"%@\" nu sunt valori numerice valide.";
+"form_invalid_date_format_footer_title" = "Data și/sau formatul selectat nu sunt valide.";
+"form_type_footer_title" = "Informații: Selectați \"%@\" pentru a calcula tipul tranzacției pe baza semnului valorii sumei.";
+"form_date_format_footer_title" = "Exemplu: %@";
+
+/* Items */
+"form_type_title" = "Tip";
+"form_amount_title" = "Suma";
+"form_source_currency_title" = "Moneda sursă";
+"form_target_currency_title" = "Moneda țintă";
+"form_budget_book_title" = "Cartea bugetului";
+"form_notes_title" = "Note";
+"form_skip_zero_amounts_title" = "Sări peste sumele \"0\"";
+"form_skip_duplicates_title" = "Sări peste duplicatele";
+"form_csv_assign_field_none_type_value" = "Neatribuit";
+
+
+/* MARK: - Color Selection View */
+/* Titles */
+"color_selection_title" = "Culori";
+
+/* Messages */
+"no_colors_found_title" = "Nu au fost găsite culori";
+"color_selection_search_placeholder_message" = "Căutați o culoare sau un nume de grup";
+
+
+/* MARK: - Icon Selection View */
+/* Titles */
+"icon_selection_title" = "Icoane";
+
+/* Messages */
+"no_icons_found_title" = "Nu au fost găsite pictograme";
+"icon_selection_search_placeholder_message" = "Căutați o etichetă de pictogramă sau un nume de grup";
+
+
+/* MARK: - Location Selection View */
+/* Titles */
+"location_selection_title" = "Locație";
+"location_selection_searchbar_placeholder" = "Căutare";
+"location_selection_search_history_title" = "Recent";
+
+/* Buttons */
+"location_selection_select_button_title" = "Selectați";
+
+/* Alert Views */
+"location_selection_no_internet_error_title" = "Eroare";
+"location_selection_no_internet_error_message" = "Se pare că nu există nicio conexiune la internet";
+
+
+/* MARK: - Other Alert Views */
+"alert_selected_period_changed_title" = "%@ selectat";
+"alert_selected_period_changed_message" = "Deoarece a început un %@, perioada curentă a fost ajustată automat.\n\nPentru a comuta între perioade și a vedea tranzacțiile anterioare, faceți clic pe butonul \"%@\" din colțul din stânga sus al ecranului , apoi selectați perioada de timp dorită.";
+"alert_selected_period_changed_new_month" = "luna noua";
+"alert_selected_period_changed_new_year" = "anul nou";
+
+"alert_no_mail_initialized_title" = "Niciun cont de e-mail";
+"alert_no_mail_initialized_message" = "Se pare că nu aveți un cont de e-mail configurat pe dispozitiv. Cu toate acestea, acest lucru este obligatoriu pentru a utiliza această funcție.";
+
+"alert_no_camera_title" = "Nici o cameră disponibilă";
+"alert_no_camera_message" = "Se pare că nu aveți o cameră. Cu toate acestea, este obligatoriu să utilizați această funcție.";
+
+"alert_permissions_title" = "Aproape acolo!";
+"alert_permissions_activate_button" = "Activați acum";
+"alert_permissions_cancel_button" = "Poate mai târziu";
+
+"alert_camera_permissions_message" = "Pentru a face fotografii, tot ce trebuie să faceți este să activați accesul la \"camera\" în setări.";
+"alert_photolibrary_permissions_message" = "Pentru a adăuga fotografii, tot ce trebuie să faceți este să activați accesul la \"fotografii\" în setări.";
+"alert_notifications_permissions_message" = "Pentru a primi notificări push, tot ce trebuie să faceți este să activați \"notificări\" în setări.";
+
+
+/* MARK: - Tips */
+"period_selection_tip_title" = "Schimbați perioada";
+"period_selection_tip_message" = "Faceți clic aici pentru a modifica perioada afișată. Acest lucru afectează toate vizualizările (prezentare generală, tranzacții și bugete).";
+"interactive_charts_tip_title" = "Diagrame interactive";
+"interactive_charts_tip_message" = "Trasați spre stânga sau spre dreapta pentru a schimba graficul activ sau apăsați lung pe o diagramă pentru a vedea valorile pentru o anumită dată.";
+"switch_budget_books_tip_title" = "Schimbați cărțile bugetare";
+"switch_budget_books_tip_message" = "Apăsați lung pe fila Prezentare generală pentru a comuta rapid între cărțile de buget.";
+
+
+/* MARK: - Watch App */
+/* Titles */
+"cloud_sync_status_section_title" = "Starea de sincronizare iCloud";
+"cloud_sync_status_footer_title" = "Informații: trebuie să fiți conectat la iCloud pentru a sincroniza datele de pe iPhone.";
+
+
+/* MARK: - Localized URLs */
+"imprintUrl" = "https://budget-flow.app/json/en/imprint.json";
+"termsOfUseUrl" = "https://www.apple.com/legal/internet-services/itunes/dev/stdeula";
+"privacyUrl" = "https://www.iubenda.com/api/privacy-policy/17322265/no-markup";
+"privacyUrlWeb" = "https://budget-flow.app/privacy-policy";
+"imprintUrlWeb" = "https://budget-flow.app/imprint";
+"familySharingUrl" = "https://www.apple.com/family-sharing";
+
+
+/* MARK: - Default Data */
+"default_account_name" = "Cont implicit";
+
+"default_category_group_name_income" = "Venit";
+"default_category_name_salary" = "Salariu";
+
+"default_category_group_name_free_time" = "Timp liber";
+"default_category_name_shopping" = "Cumpărături";
+"default_category_name_vacation" = "Vacanță";
+
+"default_category_group_name_mobility" = "Mobilitate";
+"default_category_name_car" = "Mașină";
+
+"default_category_group_name_groceries" = "Băcănii";
+"default_category_name_supermarket" = "Supermarket";
+"default_category_name_restaurant" = "Restaurant";
+"default_category_name_fast_food" = "Fast Food";
+
+"default_category_group_name_living" = "Locuitor";
+"default_category_name_rent" = "Închiriere";
+
+"default_category_group_name_miscellaneous" = "Diverse";
+
+"default_reminder_title" = "Înregistrați cheltuielile";
+
+
+/* MARK: - Color Sections */
+"color_section_classic_title" = "Clasic";
+"color_section_sunset_title" = "Apus de soare";
+"color_section_afterglow_title" = "Strălucire ulterioară";
+"color_section_ocean_title" = "Ocean";
+"color_section_nightsky_title" = "Cer de noapte";
+"color_section_apple_title" = "Apple Inc.";
+"color_section_pastel_title" = "Pastel";
+
+
+/* MARK: - Color Keywords */
+"color_keyword_custom" = "Personalizat";
+"color_keyword_red" = "Roșu";
+"color_keyword_green" = "Verde";
+"color_keyword_blue" = "Albastru";
+"color_keyword_yellow" = "Galben";
+"color_keyword_orange" = "Portocaliu";
+"color_keyword_purple" = "Violet";
+"color_keyword_pink" = "Roz";
+"color_keyword_brown" = "Maro";
+"color_keyword_mint" = "Mint";
+"color_keyword_cyan" = "Cyan";
+"color_keyword_violet" = "Violet";
+"color_keyword_gray" = "Gri";
+
+
+/* MARK: - Icon Sections */
+"icon_section_suggestions_title" = "Sugestii";
+"icon_section_general_title" = "General";
+"icon_section_mobility_title" = "Mobilitate";
+"icon_section_household_title" = "Gospodărie";
+"icon_section_freetime_title" = "Timp liber";
+"icon_section_nature_title" = "Natura";
+"icon_section_food_and_drinks_title" = "Mâncare și băuturi";
+"icon_section_shopping_title" = "Cumpărături";
+"icon_section_health_title" = "Sănătate";
+"icon_section_office_title" = "Birou";
+"icon_section_arrows_title" = "Săgeți";
+"icon_section_objects_title" = "Obiecte";
+"icon_section_people_title" = "Oameni";
+"icon_section_buildings_title" = "Clădiri";
+"icon_section_payment_methods_title" = "Metode de plată";
+
+
+/* MARK: - Icon Keywords */
+"icon_keyword_emoji" = "Emoji";
+"icon_keyword_tag" = "Etichetă";
+"icon_keyword_heart" = "Inimă";
+"icon_keyword_star" = "Steaua";
+"icon_keyword_folder" = "Dosar";
+"icon_keyword_bookmark" = "Marcaj";
+"icon_keyword_building" = "Clădire";
+"icon_keyword_house" = "Casa";
+"icon_keyword_lightbulb" = "Bec";
+"icon_keyword_fan" = "Ventilator";
+"icon_keyword_lamp" = "Lampa";
+"icon_keyword_alarm_system" = "Sistem de alarmă";
+"icon_keyword_webcam" = "Cameră web";
+"icon_keyword_camera" = "Camera foto";
+"icon_keyword_door" = "Ușă";
+"icon_keyword_garage" = "Garaj";
+"icon_keyword_window" = "Fereastra";
+"icon_keyword_blinds" = "Jaluzele";
+"icon_keyword_roller" = "Rolă";
+"icon_keyword_curtains" = "Perdele";
+"icon_keyword_air_purifier" = "Purificator de aer";
+"icon_keyword_dehumidifier" = "Dezumidificator";
+"icon_keyword_humidifier" = "Umidificator";
+"icon_keyword_heater" = "Incalzitor";
+"icon_keyword_air_conditioner" = "Aer condiționat";
+"icon_keyword_sprinkler" = "Aspersor";
+"icon_keyword_trash" = "Coș de gunoi";
+"icon_keyword_spigot" = "Robinet";
+"icon_keyword_shower" = "Duș";
+"icon_keyword_bathtub" = "Cadă";
+"icon_keyword_pipe" = "Conducta de apa";
+"icon_keyword_hifi_reveiver" = "Sistem Hifi";
+"icon_keyword_video_projector" = "Proiector video";
+"icon_keyword_beamer" = "Proiector";
+"icon_keyword_wifi_router" = "Ruter Wifi";
+"icon_keyword_internet" = "Internet";
+"icon_keyword_party" = "Partid";
+"icon_keyword_balloon" = "Balon";
+"icon_keyword_pan" = "Tigaie";
+"icon_keyword_cooking" = "Gătit";
+"icon_keyword_kitchen" = "Bucătărie";
+"icon_keyword_popcorn" = "Flome de porumb";
+"icon_keyword_cinema" = "Cinema";
+"icon_keyword_movie" = "Film";
+"icon_keyword_food" = "Mâncare";
+"icon_keyword_bed" = "Pat";
+"icon_keyword_bedroom" = "Dormitor";
+"icon_keyword_hotel" = "Hotel";
+"icon_keyword_sofa" = "Canapea";
+"icon_keyword_couch" = "Canapea";
+"icon_keyword_livingroom" = "Camera de zi";
+"icon_keyword_chair" = "Scaun";
+"icon_keyword_armchair" = "Fotliu";
+"icon_keyword_cabinet" = "Dulap";
+"icon_keyword_fireplace" = "Semineu";
+"icon_keyword_washer" = "Mașină de spălat";
+"icon_keyword_dryer" = "Uscător de rufe";
+"icon_keyword_dishwasher" = "Mașină de spălat vase";
+"icon_keyword_oven" = "Cuptor";
+"icon_keyword_stove" = "Soba";
+"icon_keyword_microwave" = "Curtor cu microunde";
+"icon_keyword_refrigerator" = "frigider";
+"icon_keyword_sink" = "Chiuveta";
+"icon_keyword_toilet" = "Toaletă";
+"icon_keyword_bathroom" = "Baie";
+"icon_keyword_tv_remote" = "Control de la distanță";
+"icon_keyword_tv" = "TV";
+"icon_keyword_person" = "Persoană";
+"icon_keyword_human" = "Om";
+"icon_keyword_airplane" = "Avion";
+"icon_keyword_vacation" = "Vacanță";
+"icon_keyword_car" = "Mașină";
+"icon_keyword_electric_car" = "Mașină electrică";
+"icon_keyword_charging_station" = "Stație de încărcare";
+"icon_keyword_car_pool" = "Carpool";
+"icon_keyword_bus" = "Autobuz";
+"icon_keyword_tram" = "Tren";
+"icon_keyword_railroad" = "Calea ferata";
+"icon_keyword_cablecar" = "Tramvai";
+"icon_keyword_ferry" = "Ferribotul";
+"icon_keyword_ship" = "Navă";
+"icon_keyword_truck" = "Camion";
+"icon_keyword_relocation" = "Relocare";
+"icon_keyword_bicycle" = "Bicicletă";
+"icon_keyword_sport" = "Sport";
+"icon_keyword_scooter" = "Scooter";
+"icon_keyword_sailboat" = "Barcă cu pânze";
+"icon_keyword_fuel" = "Combustibil";
+"icon_keyword_refuel" = "Realimentare";
+"icon_keyword_gas_station" = "Stație de benzină";
+"icon_keyword_walking" = "Merg";
+"icon_keyword_running" = "Rulează";
+"icon_keyword_rugby" = "Rugby";
+"icon_keyword_badminton" = "Badminton";
+"icon_keyword_tennis" = "Tenis";
+"icon_keyword_dancing" = "Dansez";
+"icon_keyword_skiing" = "Schi";
+"icon_keyword_swimming" = "Îot";
+"icon_keyword_skating" = "Patinaj";
+"icon_keyword_strengthtraining" = "Pregătire de forță";
+"icon_keyword_gym" = "Sala de sport";
+"icon_keyword_yoga" = "Yoga";
+"icon_keyword_bowling" = "Bowling";
+"icon_keyword_sportscourt" = "Teren de sport";
+"icon_keyword_stadium" = "Stadion";
+"icon_keyword_soccer" = "Fotbal";
+"icon_keyword_golf" = "Golf";
+"icon_keyword_baseball" = "Baseball";
+"icon_keyword_basketball" = "Baschet";
+"icon_keyword_volleyball" = "Volei";
+"icon_keyword_trophy" = "Trofeu";
+"icon_keyword_medal" = "Medalie";
+"icon_keyword_flag" = "Strap";
+"icon_keyword_race" = "Cursa cu mașini";
+"icon_keyword_gamecontroller" = "Control de joc";
+"icon_keyword_videogames" = "Jocuri video";
+"icon_keyword_gaming" = "Jocuri";
+"icon_keyword_playstation" = "PlayStation";
+"icon_keyword_xbox" = "Xbox";
+"icon_keyword_nintento_switch" = "Nintendo Switch";
+"icon_keyword_book" = "Carte";
+"icon_keyword_books" = "Cărți";
+"icon_keyword_magazine" = "Revista";
+"icon_keyword_reading" = "Citesc";
+"icon_keyword_painting" = "Pictură";
+"icon_keyword_drawing" = "Desen";
+"icon_keyword_theater" = "Teatru";
+"icon_keyword_singing" = "Cântând";
+"icon_keyword_karaoke" = "Karaoke";
+"icon_keyword_music" = "Muzica";
+"icon_keyword_spotify" = "Spotify";
+"icon_keyword_apple_music" = "Muzică Apple";
+"icon_keyword_piano" = "Pian";
+"icon_keyword_guitar" = "Chitara";
+"icon_keyword_rockband" = "Banda de rock";
+"icon_keyword_festival" = "Festival";
+"icon_keyword_tent" = "Cort";
+"icon_keyword_dice" = "Zaruri";
+"icon_keyword_boardgames" = "Jocuri de societate";
+"icon_keyword_gambling" = "Jocuri de noroc";
+"icon_keyword_camera" = "Camera foto";
+"icon_keyword_photography" = "Fotografie";
+"icon_keyword_photo" = "Fotografie";
+"icon_keyword_world" = "Lumea";
+"icon_keyword_globe" = "Glob";
+"icon_keyword_sun" = "Soare";
+"icon_keyword_summer" = "Vara";
+"icon_keyword_moon" = "Luna";
+"icon_keyword_stars" = "Stele";
+"icon_keyword_cloud" = "Nori";
+"icon_keyword_icloud" = "iCloud";
+"icon_keyword_rain" = "Ploaie";
+"icon_keyword_flame" = "Flacăra";
+"icon_keyword_fire" = "Incendiu";
+"icon_keyword_snow" = "Zăpadă";
+"icon_keyword_winter" = "Iarna";
+"icon_keyword_bolt" = "Fulger";
+"icon_keyword_plug" = "Conectare";
+"icon_keyword_electric" = "Electric";
+"icon_keyword_electrics" = "Electricitate";
+"icon_keyword_electricity" = "Electricitate";
+"icon_keyword_tornado" = "Tornada";
+"icon_keyword_sea" = "Marea";
+"icon_keyword_hare" = "Iepure";
+"icon_keyword_rabbit" = "Iepure";
+"icon_keyword_animal" = "Animal";
+"icon_keyword_tortoise" = "Testoasa";
+"icon_keyword_lizard" = "Soparla";
+"icon_keyword_bird" = "Pasare";
+"icon_keyword_ant" = "Furnica";
+"icon_keyword_ladybug" = "Eroare";
+"icon_keyword_fish" = "Pește";
+"icon_keyword_pet" = "Animal de companie";
+"icon_keyword_cat" = "Pisica";
+"icon_keyword_dog" = "Câine";
+"icon_keyword_leaf" = "Frunză";
+"icon_keyword_plant" = "Plantă";
+"icon_keyword_flower" = "Floare";
+"icon_keyword_eating" = "Mâncăm";
+"icon_keyword_restaurant" = "Restaurant";
+"icon_keyword_drinking" = "Băutură";
+"icon_keyword_cafe" = "Cafenea";
+"icon_keyword_coffee" = "Cafea";
+"icon_keyword_fastfood" = "Fastfood";
+"icon_keyword_picnic" = "Picnic";
+"icon_keyword_wine" = "Vin";
+"icon_keyword_birthday" = "Ziua de naștere";
+"icon_keyword_cake" = "Prăjitură";
+"icon_keyword_carrot" = "Morcov";
+"icon_keyword_vegetables" = "Legume";
+"icon_keyword_bag" = "Gantă";
+"icon_keyword_cone" = "Gantă";
+"icon_keyword_shopping" = "Cumpărături";
+"icon_keyword_supermarket" = "Supermarket";
+"icon_keyword_groceries" = "Băcănii";
+"icon_keyword_creditcard" = "Carte de credit";
+"icon_keyword_giftcard" = "Carte cadou";
+"icon_keyword_gift" = "Cadou";
+"icon_keyword_clothes" = "Haine";
+"icon_keyword_clothing" = "Îmbrăcăminte";
+"icon_keyword_globe" = "Glob";
+"icon_keyword_online" = "Online";
+"icon_keyword_internet" = "Internet";
+"icon_keyword_amazon" = "Amazon";
+"icon_keyword_package" = "Pachet";
+"icon_keyword_apple" = "Mere";
+"icon_keyword_banknote" = "Bancnotă";
+"icon_keyword_refund" = "Rambursare";
+"icon_keyword_dollar" = "Dolari";
+"icon_keyword_cents" = "Cenți";
+"icon_keyword_yen" = "Yen";
+"icon_keyword_pound" = "Liră";
+"icon_keyword_franc" = "Franconia";
+"icon_keyword_lira" = "Lira";
+"icon_keyword_ruble" = "Rubla";
+"icon_keyword_euro" = "Euro";
+"icon_keyword_rupee" = "Rupia";
+"icon_keyword_peso" = "Peso";
+"icon_keyword_bitcoin" = "Bitcoin";
+"icon_keyword_real" = "Real brazilian";
+"icon_keyword_case" = "Valiza";
+"icon_keyword_lungs" = "Plămâni";
+"icon_keyword_allergens" = "Alergii";
+"icon_keyword_thermometer" = "Termometru";
+"icon_keyword_bandage" = "Band-Aids";
+"icon_keyword_syringe" = "Seringă";
+"icon_keyword_medicine" = "Medicina";
+"icon_keyword_drug" = "Drog";
+"icon_keyword_facemask" = "Mască facială";
+"icon_keyword_pills" = "Pastile";
+"icon_keyword_cross" = "Cruce";
+"icon_keyword_hospital" = "Spitalul";
+"icon_keyword_ivfluid" = "Infuzie";
+"icon_keyword_eye" = "Ochi";
+"icon_keyword_brain" = "Creier";
+"icon_keyword_ear" = "Ureche";
+"icon_keyword_mouth" = "Gura";
+"icon_keyword_ecg" = "ECG";
+"icon_keyword_shield" = "Scut";
+"icon_keyword_insurance" = "Asigurare";
+"icon_keyword_video_conference" = "Conferință video";
+"icon_keyword_facetime" = "Facetime";
+"icon_keyword_phone" = "Telefon";
+"icon_keyword_mobilephone" = "Mobil";
+"icon_keyword_iphone" = "iPhone";
+"icon_keyword_tablet" = "Tabletă";
+"icon_keyword_ipad" = "iPad";
+"icon_keyword_macintosh" = "Macintosh";
+"icon_keyword_macbook" = "Macbook";
+"icon_keyword_imac" = "iMac";
+"icon_keyword_smartphone" = "Smartphone";
+"icon_keyword_calling" = "Apelare";
+"icon_keyword_message" = "Mesaj";
+"icon_keyword_envelope" = "Plic";
+"icon_keyword_mail" = "Poștă";
+"icon_keyword_email" = "E-mail";
+"icon_keyword_chart" = "Grafic";
+"icon_keyword_stocks" = "Stocuri";
+"icon_keyword_investment" = "Investiție";
+"icon_keyword_signature" = "Semnătura";
+"icon_keyword_contract" = "Contract";
+"icon_keyword_computer" = "Computer";
+"icon_keyword_pc" = "PC";
+"icon_keyword_display" = "Monitor";
+"icon_keyword_mouse" = "Mouse-ul";
+"icon_keyword_keyboard" = "Tastatură";
+"icon_keyword_printer" = "Imprimanta";
+"icon_keyword_scanner" = "Scaner";
+"icon_keyword_pin" = "Fix";
+"icon_keyword_paperclip" = "Agrafă";
+"icon_keyword_clipboard" = "Clipboard";
+"icon_keyword_list" = "Lista";
+"icon_keyword_server" = "Server";
+"icon_keyword_simcard" = "Card SIM";
+"icon_keyword_bank" = "Bancă";
+"icon_keyword_apple_watch" = "Apple Watch";
+"icon_keyword_clock" = "Ceas";
+"icon_keyword_alarm" = "Alarmă";
+"icon_keyword_box" = "Cutie";
+"icon_keyword_wand" = "Bagheta magică";
+"icon_keyword_hourglass" = "clepsidra";
+"icon_keyword_newspaper" = "Ziar";
+"icon_keyword_wrench" = "Cleste";
+"icon_keyword_screwdriver" = "Șurubelniță";
+"icon_keyword_hammer" = "Ciocanul";
+"icon_keyword_craftsman" = "Meșteșugar";
+"icon_keyword_tools" = "Instrument";
+"icon_keyword_plumber" = "Instalator";
+"icon_keyword_construction_market" = "Piata de constructii";
+"icon_keyword_scissors" = "Foarfece";
+"icon_keyword_hairdresser" = "Coafor";
+"icon_keyword_key" = "Cheie";
+"icon_keyword_school" = "Școală";
+"icon_keyword_university" = "Universitate";
+"icon_keyword_study" = "Studiu";
+"icon_keyword_tuition_fees" = "Taxe de școlarizare";
+"icon_keyword_flashlight" = "Laterna";
+"icon_keyword_bell" = "Clopotel";
+"icon_keyword_subscription" = "Abonament";
+"icon_keyword_loupe" = "Lupa";
+"icon_keyword_binoculars" = "Binoclu";
+"icon_keyword_rosette" = "Rozetă";
+"icon_keyword_crown" = "Coroană";
+"icon_keyword_umbrella" = "Umbrela";
+"icon_keyword_beach" = "Plajă";
+"icon_keyword_megaphone" = "Megafon";
+"icon_keyword_advertisement" = "Reclamă";
+"icon_keyword_puzzle" = "Puzzle";
+"icon_keyword_lab" = "Laborator";
+"icon_keyword_calendar" = "Calendar";
+"icon_keyword_rent" = "Închiriere";
+"icon_keyword_flat" = "Plat";
+"icon_keyword_work" = "Munca";
+"icon_keyword_salary" = "Salariu";
+"icon_keyword_corona" = "Corona";
+"icon_keyword_rainbow" = "Curcubeu";
+"icon_keyword_glasses" = "Ochelari";
+"icon_keyword_sunglasses" = "Ochelari de soare";
+"icon_keyword_discount" = "Reducere";
+"icon_keyword_percent" = "Procent";
+"icon_keyword_wallet" = "Portofel";
+"icon_keyword_convertible" = "Convertibil";
+"icon_keyword_drone" = "Dronă";
+"icon_keyword_motorcycle" = "Motocicletă";
+"icon_keyword_tire" = "Anvelopă";
+"icon_keyword_oilcan" = "Bidon de ulei";
+"icon_keyword_keys" = "Chei";
+"icon_keyword_fire_extinguisher" = "Extinctor";
+"icon_keyword_hockey" = "Hochei";
+"icon_keyword_ice_hockey" = "Hochei pe gheață";
+"icon_keyword_ice_skating" = "Patinaj pe gheață";
+"icon_keyword_rowing" = "Vâslit";
+"icon_keyword_inhaler" = "Inhalator";
+"icon_keyword_wheelchair" = "Scaun cu rotile";
+"icon_keyword_vacuum" = "Aspirator";
+"icon_keyword_doctor" = "Doctor";
+"icon_keyword_dentist" = "Dentist";
+"icon_keyword_parking" = "Parcare";
+
+
+/* MARK: - App Intents */
+/* Entities */
+"budget_book_entity_name" = "Cartea bugetului";
+"account_entity_name" = "Cont";
+"category_group_entity_name" = "Folder";
+"category_entity_name" = "Categorie";
+"payee_entity_name" = "Beneficiar";
+
+/* Categories */
+"add_category_name" = "Adăugați";
+"open_category_name" = "Deschis";
+"show_category_name" = "Afișați";
+"search_category_name" = "Căutare";
+
+/* Search */
+"search_budget_book_title" = "Căutați cartea bugetului";
+"search_budget_book_description" = "Căutați o anumită carte de buget după nume.";
+"search_budget_book_parameter_summary" = "Căutați în cartea bugetului cu ${name}";
+"search_account_title" = "Căutați contul";
+"search_account_description" = "Căutați un anumit cont după nume.";
+"search_account_parameter_summary" = "Căutați contul cu ${name} în ${budgetBook}";
+"search_category_group_title" = "Căutați folderul";
+"search_category_group_description" = "Căutați un anumit folder după nume.";
+"search_category_group_parameter_summary" = "Căutați folderul cu ${name} în ${budgetBook}";
+"search_category_title" = "Căutare categorie";
+"search_category_description" = "Căutați o anumită categorie după nume.";
+"search_category_parameter_summary" = "Căutați categoria cu ${name} în ${categoryGroup} din ${budgetBook}";
+"search_payee_title" = "Căutați beneficiarul";
+"search_payee_description" = "Căutați un anumit beneficiar după nume.";
+"search_payee_parameter_summary" = "Căutați beneficiarul cu ${name} în ${budgetBook}";
+
+"name_parameter_title" = "Nume";
+"name_parameter_dialog" = "Care este numele?";
+
+"budget_book_parameter_title" = "Cartea bugetului";
+"budget_book_parameter_description" = "Registrul de buget asociat.";
+"budget_book_parameter_dialog" = "Care este cartea bugetară asociată?";
+"category_group_parameter_title" = "Folder";
+"category_group_parameter_description" = "Dosarul asociat.";
+"category_group_parameter_dialog" = "Care este folderul asociat?";
+
+/* Open */
+"open_add_new_income_view_title" = "Adăugați un venit nou";
+"open_add_new_income_view_description" = "Deschide vizualizarea Adăugați venituri noi în aplicație.";
+"open_add_new_expense_view_title" = "Adăugați o cheltuială nouă";
+"open_add_new_expense_view_description" = "Deschide vizualizarea de adăugare a cheltuielilor noi în aplicație.";
+"open_add_new_transfer_view_title" = "Adăugați un nou transfer";
+"open_add_new_transfer_view_description" = "Deschide vizualizarea pentru adăugarea unui nou transfer în aplicație.";
+"open_add_new_recurring_view_title" = "Adăugați o nouă tranzacție recurentă";
+"open_add_new_recurring_view_description" = "Deschide vizualizarea pentru adăugarea unei noi tranzacții recurente în aplicație.";
+"open_upcoming_transactions_view_title" = "Tranzacții planificate";
+"open_upcoming_transactions_view_description" = "Deschide vizualizarea tranzacțiilor planificate în aplicație.";
+
+/* Show */
+"show_chart_title" = "Afișați diagrama";
+"show_chart_description" = "Afișează un grafic al soldurilor, veniturilor sau cheltuielilor contului dvs. pentru perioada specificată.";
+"show_chart_parameter_summary" = "Afișați graficul ${type} pentru ${periodType}";
+
+"chart_type_parameter_title" = "Tip";
+"chart_type_dialog" = "Ce tip de diagramă doriți?";
+"chart_type_account_balances_title" = "Soldurile contului";
+"chart_type_balance_title" = "Sold";
+"chart_type_total_income_title" = "Venit total";
+"chart_type_total_expenses_title" = "Cheltuieli totale";
+"chart_type_fixed_expenses_title" = "Cheltuieli fixe";
+"chart_type_variable_expenses_title" = "Cheltuieli variabile";
+
+"chart_period_type_parameter_title" = "Perioada";
+"chart_period_type_dialog" = "La ce perioadă doriți să priviți?";
+"chart_type_current_month_title" = "Luna curentă";
+"chart_type_current_year_title" = "Anul curent";
+
+
+/* MARK: - Dummy Data */
+"default_budget_book_name" = "Cartea mea de buget";
+"default_credit_card_name" = "Carte de credit";
+"default_location_address" = "Fürstenberg";

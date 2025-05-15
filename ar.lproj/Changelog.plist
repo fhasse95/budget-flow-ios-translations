@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>2.2.0</key>
+	<array>
+		<dict>
+			<key>Title</key>
+			<string>تحسين تعديل الرصيد</string>
+			<key>Description</key>
+			<string>عند تعديل رصيد حسابك يدويًا، سيتم الآن إنشاء معاملة تلقائيًا - مما يحافظ على دقة وسلامة سجلك.</string>
+			<key>IconName</key>
+			<string>building.columns</string>
+			<key>IconColor</key>
+			<string>#00a38b</string>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>دعم التخصيص للأيقونات</string>
+			<key>Description</key>
+			<string>يمكنك الآن استخدام صورك الخاصة كرموز - سواء كان ذلك شعار البنك لحساباتك أو صورًا شخصية للفئات.</string>
+			<key>IconName</key>
+			<string>photo.on.rectangle.angled</string>
+			<key>IconColor</key>
+			<string>#007aff</string>
+		</dict>
+	</array>
+</dict>
+</plist>

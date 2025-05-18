@@ -1518,12 +1518,12 @@
 
 
 /* MARK: - Localized URLs */
-"imprintUrl" = "";
-"termsOfUseUrl" = "";
-"privacyUrl" = "";
-"privacyUrlWeb" = "";
-"imprintUrlWeb" = "";
-"familySharingUrl" = "";
+"imprintUrl" = "https://budget-flow.app/json/pt/imprint.json";
+"termsOfUseUrl" = "https://www.apple.com/legal/internet-services/itunes/dev/stdeula";
+"privacyUrl" = "https://www.iubenda.com/api/privacy-policy/17322265/no-markup";
+"privacyUrlWeb" = "https://budget-flow.app/privacy-policy";
+"imprintUrlWeb" = "https://budget-flow.app/imprint";
+"familySharingUrl" = "https://www.apple.com/family-sharing";
 
 
 /* MARK: - Default Data */

@@ -41,7 +41,7 @@
 "account_type_savings_plural" = "Contas de poupança";
 "account_type_credit_card_plural" = "Cartões de crédito";
 "account_type_investment_plural" = "Investimentos";
-"account_type_precaution_plural" = "Precaução";
+"account_type_precaution_plural" = "Reservas de emergência";
 "account_type_liability_plural" = "Passivos";
 "account_type_business_plural" = "Contas empresariais";
 
@@ -167,7 +167,7 @@
 /* MARK: - Custom Date Repetition */
 "frequency" = "Frequência";
 
-"every" = "a cada";
+"every" = "A cada";
 "every_day" = "Todo";
 "every_week" = "Toda";
 "every_month" = "Todo";
@@ -429,9 +429,9 @@
 /* Miscellaneous */
 "payed_by_and_modified_at" = "Pago por %@\nÚltima modificação em %@";
 "modified_at" = "Última modificação em %@";
-"average_per_transaction" = "Média por transação";
-"average_per_day" = "Média por dia";
-"average_per_month" = "Média por mês";
+"average_per_transaction" = "Ø por transação";
+"average_per_day" = "Ø por dia";
+"average_per_month" = "Ø por mês";
 
 
 /* MARK: - Budget List View */

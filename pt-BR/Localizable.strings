@@ -177,7 +177,6 @@
 "every_month_plural" = "Todos os";
 "every_year_plural" = "Todos os";
 
-
 "each" = "Cada";
 "on_the" = "No dia";
 "days_of_week" = "Dias da semana";
@@ -577,7 +576,7 @@
 "alert_contact_developer_other" = "📬 Outro (e-mail)";
 
 "contact_developer_mail_subject" = "%@: %@%@";
-"contact_developer_mail_subject_full_version" = " (versão completa)";
+"contact_developer_mail_subject_full_version" = " (full version)";
 "contact_developer_mail_message" = "
 </br>
 </br>
@@ -823,10 +822,10 @@
 
 /* Discount */
 "upgrade_discount_title" = "Oferta Especial 🌟";
-"upgrade_discount_multiple_title" = "Poupe até %d%%!";
-"upgrade_discount_montly_subscription_title" = "Economize %d%% na assinatura mensal!";
-"upgrade_discount_yearly_subscription_title" = "Economize %d%% na assinatura anual!";
-"upgrade_discount_lifetime_purchase_title" = "Economize %d%% na compra única!";
+"upgrade_discount_multiple_title" = "Poupe até %d %%!";
+"upgrade_discount_montly_subscription_title" = "Economize %d %% na assinatura mensal!";
+"upgrade_discount_yearly_subscription_title" = "Economize %d %% na assinatura anual!";
+"upgrade_discount_lifetime_purchase_title" = "Economize %d %% na compra única!";
 "upgrade_discount_ends_in" = "Termina em";
 
 /* Sections */
@@ -1738,6 +1737,7 @@
 "icon_keyword_dice" = "Dados";
 "icon_keyword_boardgames" = "Jogos de Tabuleiro";
 "icon_keyword_gambling" = "Apostas";
+"icon_keyword_camera" = "Câmara";
 "icon_keyword_photography" = "Fotografia";
 "icon_keyword_photo" = "Foto";
 "icon_keyword_world" = "Mundo";
@@ -1797,7 +1797,9 @@
 "icon_keyword_gift" = "Presente";
 "icon_keyword_clothes" = "Roupas";
 "icon_keyword_clothing" = "Vestuário";
+"icon_keyword_globe" = "Globo";
 "icon_keyword_online" = "Online";
+"icon_keyword_internet" = "Internet";
 "icon_keyword_amazon" = "Amazon";
 "icon_keyword_package" = "Pacote";
 "icon_keyword_apple" = "Maçã";

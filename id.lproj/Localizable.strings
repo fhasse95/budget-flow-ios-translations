@@ -570,10 +570,14 @@
 "mail_subject_type_translate" = "Translate";
 "mail_subject_type_discount" = "Discount";
 
+"alert_translate_app_title" = "Bagaimana kamu ingin membantu dengan terjemahan?";
+"alert_translate_app_github" = "👨🏻‍💻 Lewat GitHub";
+"alert_translate_app_email" = "📬 Lewat E-Mail";
+
 "alert_contact_developer_title" = "Apa permintaan anda?";
 "alert_contact_developer_feature_request" = "💡 Sarankan fitur";
 "alert_contact_developer_bug_report" = "🐞 Laporan bug";
-"alert_contact_developer_other" = "📬 Lainnya (e-mail)";
+"alert_contact_developer_other" = "📬 Lainnya (E-Mail)";
 
 "contact_developer_mail_subject" = "%@: %@%@";
 "contact_developer_mail_subject_full_version" = " (full version)";

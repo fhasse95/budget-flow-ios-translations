@@ -570,10 +570,14 @@
 "mail_subject_type_translate" = "Translate";
 "mail_subject_type_discount" = "Discount";
 
-"alert_contact_developer_title" = "What is your request about?";
-"alert_contact_developer_feature_request" = "💡 Feature request";
-"alert_contact_developer_bug_report" = "🐞 Bug report";
-"alert_contact_developer_other" = "📬 Other (e-mail)";
+"alert_translate_app_title" = "كيف تريد المساعدة في الترجمة؟";
+"alert_translate_app_github" = "👨🏻‍💻 عبر GitHub";
+"alert_translate_app_email" = "📬 عبر البريد الإلكتروني";
+
+"alert_contact_developer_title" = "عن ماذا يتعلق طلبك؟";
+"alert_contact_developer_feature_request" = "💡 طلب ميزة";
+"alert_contact_developer_bug_report" = "🐞 تقرير عن خلل";
+"alert_contact_developer_other" = "📬 أخرى (بريد إلكتروني)";
 
 "contact_developer_mail_subject" = "%@: %@%@";
 "contact_developer_mail_subject_full_version" = " (full version)";

@@ -570,6 +570,10 @@
 "mail_subject_type_translate" = "Übersetzen";
 "mail_subject_type_discount" = "Rabatt";
 
+"alert_translate_app_title" = "Wie möchtest du bei der Übersetzung helfen?";
+"alert_translate_app_github" = "👨🏻‍💻 Über GitHub";
+"alert_translate_app_email" = "📬 Per E-Mail";
+
 "alert_contact_developer_title" = "Worum geht es bei deiner Anfrage?";
 "alert_contact_developer_feature_request" = "💡 Funktion vorschlagen";
 "alert_contact_developer_bug_report" = "🐞 Fehler melden";

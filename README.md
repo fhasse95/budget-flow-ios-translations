@@ -2,7 +2,7 @@
   <img align="right" alt="Project logo" src="./Icon_Rounded.png" width="128px">
 </h1>
 <p>
-  Translations for "Budget Flow – Expense Tracker", supporting multiple Apple platforms including iPhone, iPad, Mac, and Apple Watch.
+  Translations for "Budget Flow", a modern and easy to use expense tracking app for iPhone, iPad, Mac and Apple Watch.
 </p>
 
 [![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-red.svg)](https://github.com/fhasse95/budget-flow-ios-translations/pulls)
@@ -27,7 +27,7 @@ git clone https://github.com/fhasse95/budget-flow-ios-translations.git
 cd budget-flow-ios-translations
 
 # Create a new branch for your changes
-git checkout -b <branch-name>
+git checkout -b <your-branch-name>
 ```
 
 > [!NOTE]

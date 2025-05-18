@@ -570,10 +570,14 @@
 "mail_subject_type_translate" = "Translate";
 "mail_subject_type_discount" = "Discount";
 
+"alert_translate_app_title" = "翻訳をどう手伝いたいですか？";
+"alert_translate_app_github" = "👨🏻‍💻 GitHub で協力する";
+"alert_translate_app_email" = "📬 E-Mail で連絡する";
+
 "alert_contact_developer_title" = "リクエストの内容は何ですか?";
 "alert_contact_developer_feature_request" = "💡 機能を提案する";
 "alert_contact_developer_bug_report" = "🐞 バグレポート";
-"alert_contact_developer_other" = "📬 その他 (e-mail)";
+"alert_contact_developer_other" = "📬 その他 (E-Mail)";
 
 "contact_developer_mail_subject" = "%@: %@%@";
 "contact_developer_mail_subject_full_version" = " (full version)";

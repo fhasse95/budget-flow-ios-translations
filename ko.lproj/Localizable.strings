@@ -570,10 +570,14 @@
 "mail_subject_type_translate" = "Translate";
 "mail_subject_type_discount" = "Discount";
 
+"alert_translate_app_title" = "번역을 어떻게 도와주고 싶나요?";
+"alert_translate_app_github" = "👨🏻‍💻 GitHub 으로 협력하기";
+"alert_translate_app_email" = "📬 E-Mail 로 연락하기";
+
 "alert_contact_developer_title" = "요청 내용이 무엇입니까?";
 "alert_contact_developer_feature_request" = "💡 기능 제안";
 "alert_contact_developer_bug_report" = "🐞 버그 신고";
-"alert_contact_developer_other" = "📬 기타 (e-mail)";
+"alert_contact_developer_other" = "📬 기타 (E-Mail)";
 
 "contact_developer_mail_subject" = "%@: %@%@";
 "contact_developer_mail_subject_full_version" = " (full version)";

@@ -570,10 +570,14 @@
 "mail_subject_type_translate" = "Translate";
 "mail_subject_type_discount" = "Discount";
 
+"alert_translate_app_title" = "Nasıl yardımcı olmak istersin çeviri için?";
+"alert_translate_app_github" = "👨🏻‍💻 GitHub üzerinden";
+"alert_translate_app_email" = "📬 E-Mail ile";
+
 "alert_contact_developer_title" = "İsteğiniz neyle ilgili?";
 "alert_contact_developer_feature_request" = "💡 Önerme özelliği";
 "alert_contact_developer_bug_report" = "🐞 Hata raporu";
-"alert_contact_developer_other" = "📬 Diğer (e-mail)";
+"alert_contact_developer_other" = "📬 Diğer (E-Mail)";
 
 "contact_developer_mail_subject" = "%@: %@%@";
 "contact_developer_mail_subject_full_version" = " (full version)";

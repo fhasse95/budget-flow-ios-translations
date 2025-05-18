@@ -570,10 +570,14 @@
 "mail_subject_type_translate" = "Translate";
 "mail_subject_type_discount" = "Discount";
 
+"alert_translate_app_title" = "Jak bys chtěl pomoci s překladem?";
+"alert_translate_app_github" = "👨🏻‍💻 S GitHubem";
+"alert_translate_app_email" = "📬 S E-mailem";
+
 "alert_contact_developer_title" = "Čeho se týká váš požadavek?";
 "alert_contact_developer_feature_request" = "💡 Navrhnout funkci";
 "alert_contact_developer_bug_report" = "🐞 Zpráva o chybě";
-"alert_contact_developer_other" = "📬 Jiné (e-mail)";
+"alert_contact_developer_other" = "📬 Jiné (E-Mail)";
 
 "contact_developer_mail_subject" = "%@: %@%@";
 "contact_developer_mail_subject_full_version" = " (full version)";

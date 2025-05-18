@@ -891,7 +891,7 @@
 "user_review_title_ch" = "Grande suporte";
 "user_review_description_ch" = "Grande suporte - resolução de problemas rápida e descomplicada. Sinto-me levado a sério como utilizador.";
 "user_review_title_pl" = "Muito agradável de usar";
-"user_review_description_pl" = "A aplicação é um excelente rastreador e planeador de orçamento que uso diariamente. Além disso, o programador está muito atento à sua comunidade, apesar do seu pequeno tamanho.";
+"user_review_description_pl" = "A aplicação é um excelente rastreador e planeador de orçamento que uso diariamente. Além disso, o programador está muito atento à tua comunidade, apesar do teu pequeno tamanho.";
 
 /* Products */
 "monthly_subscription_title" = "1";
@@ -945,7 +945,7 @@
 
 /* Items */
 "upgrade_faq_about_title" = "O que é o Budget Flow?";
-"upgrade_faq_about_value" = "Budget Flow é uma aplicação de rastreamento de orçamento moderna e fácil de usar para todos que querem acompanhar as suas finanças e gerir as suas despesas de forma eficaz.";
+"upgrade_faq_about_value" = "Budget Flow é uma aplicação de rastreamento de orçamento moderna e fácil de usar para todos que querem acompanhar as tuas finanças e gerir as tuas despesas de forma eficaz.";
 "upgrade_faq_developer_title" = "Quem desenvolveu a aplicação?";
 "upgrade_faq_developer_value" = "O Budget Flow foi iniciado como um projeto paralelo e desde então foi completamente concebido, desenvolvido e mantido por mim, Fabian Hasse. Sou um programador de software entusiasta com mais de 10 anos de experiência e trabalho com muita paixão para desenvolver a melhor aplicação de orçamento e controlo de despesas na App Store.";
 "upgrade_faq_free_use_title" = "A aplicação também pode ser usada gratuitamente?";
@@ -1128,7 +1128,7 @@
 
 /* Messages */
 "no_currencies_found_title" = "Nenhuma moeda encontrada";
-"currency_selection_search_placeholder_message" = "Procurar um nome de moeda ou a sua abreviação";
+"currency_selection_search_placeholder_message" = "Procurar um nome de moeda ou a tua abreviação";
 
 /* Buttons */
 "change_default_currency_button" = "Alterar moeda padrão";

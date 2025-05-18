@@ -552,8 +552,8 @@
 "licenses_setting_info_description" = "Нижче наведено список усіх сторонніх ліцензій, які використовуються програмою.";
 
 /* Data Settings */
-"sync_and_data_setting" = "Синхронізація & даних";
-"sync_and_data_setting_short" = "Синхронізація & даних";
+"sync_and_data_setting" = "Синхронізація даних";
+"sync_and_data_setting_short" = "Синхронізація даних";
 "recurring_transactions_setting" = "Повторювані транзакції";
 
 /* Miscellaneous Settings */

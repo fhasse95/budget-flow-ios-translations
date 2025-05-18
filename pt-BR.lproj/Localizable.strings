@@ -417,7 +417,7 @@
 
 /* Buttons */
 "show_analysis_button" = "Mostrar análise";
-"show_analysis_button_short" = "Análise";
+"share_app_message" = "Análise";
 "show_forecast_button" = "Mostrar previsão";
 "show_forecast_button_short" = "Previsão";
 "show_upcoming_transactions_button" = "Planejadas";
@@ -499,7 +499,7 @@
 "no_budget_book_title" = "Sem Caderno de Orçamento";
 
 /* Messages */
-"share_app_message" = "\"%@ - Gerenciador de Despesas\"\n\nFaça o download agora gratuitamente:";
+"share_app_message" = "\"%@ - Gestão Gastos\"\n\nFaça o download agora gratuitamente:";
 
 /* Sections */
 "general_setting_section_title" = "Geral";

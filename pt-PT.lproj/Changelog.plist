@@ -8,7 +8,7 @@
 			<key>Title</key>
 			<string>Melhoria no ajuste de saldo</string>
 			<key>Description</key>
-			<string>Quando você modifica manualmente o saldo da sua conta, agora uma transação é criada automaticamente, mantendo seu histórico preciso e intacto.</string>
+			<string>Quando modificas manualmente o saldo da tua conta, agora é criada automaticamente uma transação, mantendo o teu histórico preciso e intacto.</string>
 			<key>IconName</key>
 			<string>building.columns</string>
 			<key>IconColor</key>
@@ -18,7 +18,7 @@
 			<key>Title</key>
 			<string>Personalização de ícones</string>
 			<key>Description</key>
-			<string>Agora você pode usar suas próprias imagens como ícones, seja o logotipo do seu banco para contas ou fotos pessoais para categorias.</string>
+			<string>Agora podes usar as tuas próprias imagens como ícones, seja o logotipo do teu banco para contas ou fotos pessoais para categorias.</string>
 			<key>IconName</key>
 			<string>photo.on.rectangle.angled</string>
 			<key>IconColor</key>

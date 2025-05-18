@@ -499,7 +499,7 @@
 "no_budget_book_title" = "Sem Caderno de Orçamento";
 
 /* Messages */
-"share_app_message" = "\"%@ - Gestor de Despesas\"\n\nDescarrega agora gratuitamente:";
+"share_app_message" = "\"%@ - Gestão Gastos\"\n\nDescarrega agora gratuitamente:";
 
 /* Sections */
 "general_setting_section_title" = "Geral";

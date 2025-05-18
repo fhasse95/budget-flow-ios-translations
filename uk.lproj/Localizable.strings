@@ -570,10 +570,14 @@
 "mail_subject_type_translate" = "Translate";
 "mail_subject_type_discount" = "Discount";
 
+"alert_translate_app_title" = "Як ти хочеш допомогти з перекладом?";
+"alert_translate_app_github" = "👨🏻‍💻 Через GitHub";
+"alert_translate_app_email" = "📬 Через E-Mail";
+
 "alert_contact_developer_title" = "Про що ваш запит?";
 "alert_contact_developer_feature_request" = "💡 Запропонувати функцію";
 "alert_contact_developer_bug_report" = "🐞 звіт про помилку";
-"alert_contact_developer_other" = "📬 Інше (e-mail)";
+"alert_contact_developer_other" = "📬 Інше (E-Mail)";
 
 "contact_developer_mail_subject" = "%@: %@%@";
 "contact_developer_mail_subject_full_version" = " (full version)";

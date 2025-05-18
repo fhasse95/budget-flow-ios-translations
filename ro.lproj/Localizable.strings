@@ -570,10 +570,14 @@
 "mail_subject_type_translate" = "Translate";
 "mail_subject_type_discount" = "Discount";
 
+"alert_translate_app_title" = "Cum dorești să ajuți la traducere?";
+"alert_translate_app_github" = "👨🏻‍💻 Prin GitHub";
+"alert_translate_app_email" = "📬 Prin E-Mail";
+
 "alert_contact_developer_title" = "Despre ce este solicitarea ta?";
 "alert_contact_developer_feature_request" = "💡 Funcție de sugestie";
 "alert_contact_developer_bug_report" = "🐞 Raport de eroare";
-"alert_contact_developer_other" = "📬 Altele (e-mail)";
+"alert_contact_developer_other" = "📬 Altele (E-Mail)";
 
 "contact_developer_mail_subject" = "%@: %@%@";
 "contact_developer_mail_subject_full_version" = " (full version)";

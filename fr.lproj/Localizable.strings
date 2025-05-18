@@ -570,10 +570,14 @@
 "mail_subject_type_translate" = "Translate";
 "mail_subject_type_discount" = "Discount";
 
+"alert_translate_app_title" = "Comment souhaites-tu aider à la traduction ?";
+"alert_translate_app_github" = "👨🏻‍💻 Avec GitHub";
+"alert_translate_app_email" = "📬 Par E-Mail";
+
 "alert_contact_developer_title" = "Sur quoi porte votre demande ?";
 "alert_contact_developer_feature_request" = "💡 Suggérer une fonctionnalité";
 "alert_contact_developer_bug_report" = "🐞 Rapport de bug";
-"alert_contact_developer_other" = "📬 Autre (e-mail)";
+"alert_contact_developer_other" = "📬 Autre (E-Mail)";
 
 "contact_developer_mail_subject" = "%@: %@%@";
 "contact_developer_mail_subject_full_version" = " (full version)";

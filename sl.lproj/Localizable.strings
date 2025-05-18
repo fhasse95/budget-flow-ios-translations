@@ -570,6 +570,10 @@
 "mail_subject_type_translate" = "Prevedi";
 "mail_subject_type_discount" = "Popust";
 
+"alert_translate_app_title" = "Kako želiš pomagati pri prevodu?";
+"alert_translate_app_github" = "👨🏻‍💻 Preko GitHub";
+"alert_translate_app_email" = "📬 Preko E-Mail";
+
 "alert_contact_developer_title" = "Kaj je predmet vaše zahteve?";
 "alert_contact_developer_feature_request" = "💡 Zahteva za funkcijo";
 "alert_contact_developer_bug_report" = "🐞 Poročilo o napaki";

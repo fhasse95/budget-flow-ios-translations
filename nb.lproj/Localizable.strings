@@ -570,10 +570,14 @@
 "mail_subject_type_translate" = "Translate";
 "mail_subject_type_discount" = "Discount";
 
+"alert_translate_app_title" = "Hvordan vil du bidra til oversettelsen?";
+"alert_translate_app_github" = "👨🏻‍💻 Med GitHub";
+"alert_translate_app_email" = "📬 Med E-Post";
+
 "alert_contact_developer_title" = "Hva handler forespørselen din om?";
 "alert_contact_developer_feature_request" = "💡 Foreslå funksjon";
 "alert_contact_developer_bug_report" = "🐞 Feilrapport";
-"alert_contact_developer_other" = "📬 Annet (e-mail)";
+"alert_contact_developer_other" = "📬 Annet (E-Post)";
 
 "contact_developer_mail_subject" = "%@: %@%@";
 "contact_developer_mail_subject_full_version" = " (full version)";

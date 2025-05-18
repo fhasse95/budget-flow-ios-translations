@@ -570,10 +570,14 @@
 "mail_subject_type_translate" = "Translate";
 "mail_subject_type_discount" = "Discount";
 
+"alert_translate_app_title" = "Πώς θέλεις να βοηθήσεις με τη μετάφραση;";
+"alert_translate_app_github" = "👨🏻‍💻 Μέσω GitHub";
+"alert_translate_app_email" = "📬 Μέσω E-Mail";
+
 "alert_contact_developer_title" = "Ποιο είναι το αίτημά σας;";
 "alert_contact_developer_feature_request" = "💡 Πρόταση λειτουργίας";
 "alert_contact_developer_bug_report" = "🐞 Αναφορά σφάλματος";
-"alert_contact_developer_other" = "📬 Άλλο (e-mail)";
+"alert_contact_developer_other" = "📬 Άλλο (E-Mail)";
 
 "contact_developer_mail_subject" = "%@: %@%@";
 "contact_developer_mail_subject_full_version" = " (full version)";

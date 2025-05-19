@@ -417,7 +417,7 @@
 
 /* Buttons */
 "show_analysis_button" = "Mostrar análise";
-"share_app_message" = "Análise";
+"show_analysis_button_short" = "Análise";
 "show_forecast_button" = "Mostrar previsão";
 "show_forecast_button_short" = "Previsão";
 "show_upcoming_transactions_button" = "Planejadas";
@@ -539,7 +539,7 @@
 "rate_app_setting_title" = "Avaliar o aplicativo";
 
 /* Legal Settings */
-"imprint_setting" = "Expediente";
+"imprint_setting" = "Aviso Legal";
 "privacy_setting" = "Política de Privacidade";
 "terms_of_use_setting" = "Termos de Uso";
 "acknowledgements_setting" = "Agradecimentos";

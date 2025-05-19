@@ -198,8 +198,8 @@
 /* MARK: - Menu Bar */
 "accounts_menu_title" = "Računi";
 "show_accounts_menu_title" = "Prikaži vse račune";
-"budgets_menu_title" = "Proračuni";
-"show_budgets_menu_title" = "Prikaži vse proračune";
+"budgets_menu_title" = "Načrt porabe";
+"show_budgets_menu_title" = "Prikaži vse načrte porabe";
 "transactions_menu_title" = "Transakcije";
 "show_all_transactions_menu_title" = "Prikaži vse transakcije";
 "show_recurring_transactions_menu_title" = "Prikaži ponavljajoče transakcije";
@@ -216,7 +216,7 @@
 /* MARK: - Tabs */
 "dashboard_tab" = "Pregled";
 "transactions_tab" = "Transakcije";
-"budgets_tab" = "Proračuni";
+"budgets_tab" = "Načrt porabe";
 "settings_tab" = "Nastavitve";
 
 
@@ -289,9 +289,9 @@
 "add_expense_transaction_button" = "Nov strošek";
 "add_transfer_transaction_button" = "Nov prenos";
 
-"manage_budget_books_button" = "Upravljaj proračunske knjige";
-"select_budget_book_button" = "Izberi proračunsko knjigo";
-"edit_budget_book_button" = "Uredi proračunsko knjigo";
+"manage_budget_books_button" = "Upravljaj denarnice";
+"select_budget_book_button" = "Izberi denarnico";
+"edit_budget_book_button" = "Uredi denarnico";
 
 "continue_button" = "Nadaljuj";
 "skip_button" = "Preskoči";
@@ -366,14 +366,14 @@
 "not_shared_title" = "Proračunska knjiga ni v skupni rabi";
 
 /* Widgets */
-"account_balances_widget_title" = "Stanja računov";
+"account_balances_widget_title" = "Skupno stanje računov";
 "balance_widget_title" = "Stanje";
 "total_income_widget_title" = "Skupni dohodki";
 "total_expenses_widget_title" = "Skupni stroški";
 "fixed_expenses_widget_title" = "Fiksni stroški";
 "variable_expenses_widget_title" = "Spremenljivi stroški";
 
-"account_balances_distribution_widget_title" = "Stanja računov";
+"account_balances_distribution_widget_title" = "Skupno stanje računov";
 "balance_distribution_widget_title" = "Stanje";
 "total_income_distribution_widget_title" = "Skupni dohodki";
 "total_expenses_distribution_widget_title" = "Skupni stroški";
@@ -386,7 +386,7 @@
 "sum_title" = "Vsota";
 "total_sum_title" = "Skupna vsota";
 "recurring_transactions_title" = "Ponavljajoče";
-"upcoming_transactions_title" = "Načrtovano";
+"upcoming_transactions_title" = "Načrtovane";
 "reminded_transactions_title" = "Z opomnikom";
 
 /* Info */
@@ -439,18 +439,18 @@
 "remaining_title" = "Razpoložljivo";
 "balanced_title" = "Uravnoteženo";
 "exceeded_title" = "Preseženo";
-"user_has_no_budgets_title" = "Nimate proračunov.";
-"user_is_within_budget_title" = "V okviru proračuna ste! 🎉";
-"user_was_within_budget_title" = "Bili ste v okviru proračuna! 🎉";
-"user_is_not_within_budget_title" = "Presegli ste %d proračun 😢";
-"user_is_not_within_budgets_title" = "Presegli ste %d proračune 😢";
+"user_has_no_budgets_title" = "Nimate načrtov porabe.";
+"user_is_within_budget_title" = "V okviru načrta porabe ste! 🎉";
+"user_was_within_budget_title" = "Bili ste v okviru načrta porabe! 🎉";
+"user_is_not_within_budget_title" = "Presegli ste %d načrt porabe 😢";
+"user_is_not_within_budgets_title" = "Presegli ste %d načrt porabe 😢";
 
 /* Messages */
-"no_budgets_title" = "Ni proračunov";
-"no_budgets_found_title" = "Ni najdenih proračunov";
-"no_budgets_found_message" = "Kliknite gumb \"+\", da dodate nov proračun.";
-"budgets_search_placeholder_message" = "Iščite po imenu proračuna";
-"no_budgets_found_button_title" = "Nov proračun";
+"no_budgets_title" = "Ni načrtov porabe";
+"no_budgets_found_title" = "Ni najdenih načrtov porabe";
+"no_budgets_found_message" = "Kliknite gumb \"+\", da dodate nov načrtov porabe.";
+"budgets_search_placeholder_message" = "Iščite po imenu načrta porabe";
+"no_budgets_found_button_title" = "Nov načrt porabe";
 
 
 /* MARK: - Analysis View */
@@ -514,7 +514,7 @@
 "support_setting_footer_title" = "Imate vprašanja ali ideje? Napišite sporočilo ali pozitivno oceno v App Store! Vaše povratne informacije so zelo motivirajoče in pomagajo izboljšati aplikacijo.";
 
 /* Buttons */
-"share_budgetbook_button" = "Deli proračunsko knjigo";
+"share_budgetbook_button" = "Deli denarnico";
 "show_participants_button" = "Prikaži udeležence";
 "cloud_not_available_button" = "iCloud ni na voljo";
 "upgrade_show_all_features_button" = "Prikaži vse funkcije";
@@ -532,14 +532,14 @@
 "upgrade_setting_description" = "Odklenite polno različico zdaj in uživajte v več dodatnih funkcijah!";
 
 /* Support Settings */
-"share_app_setting_title" = "Obvesti prijatelje";
+"share_app_setting_title" = "Obvestite prijatelje";
 "translate_app_setting_title" = "Pomagaj pri prevajanju";
 "help_center_setting_title" = "Pomoč";
 "feature_roadmap_setting_title" = "Predlagaj funkcijo";
 "rate_app_setting_title" = "Oceni aplikacijo";
 
 /* Legal Settings */
-"imprint_setting" = "Impresum";
+"imprint_setting" = "O aplikaciji";
 "privacy_setting" = "Politika zasebnosti";
 "terms_of_use_setting" = "Pogoji uporabe";
 "acknowledgements_setting" = "Zahvale";
@@ -549,7 +549,7 @@
 "acknowledgements_setting_info_description" = "Spodaj je seznam ljudi, ki so na nek način pomagali pri aplikaciji.";
 "translation_acknowledgement" = "Prevod (%@)";
 "licenses_setting_info_title" = "opis";
-"licenses_setting_info_description" = "Spodaj je seznam vseh tretje osebe licenc, ki jih uporablja aplikacija.";
+"licenses_setting_info_description" = "Spodaj je seznam vseh tretje osebnih licenc, ki jih uporablja aplikacija.";
 
 /* Data Settings */
 "sync_and_data_setting" = "Sinhronizacija & podatki";
@@ -558,7 +558,7 @@
 
 /* Miscellaneous Settings */
 "new_features_setting" = "Nove funkcije";
-"testflight_beta_setting" = "TestFlight Beta";
+"testflight_beta_setting" = "Beta različica (TestFlight)";
 "apple_pay_setting" = "Integracija  Pay";
 "appearance_setting" = "Personalizacija";
 "advanced_setting" = "Napredne nastavitve";
@@ -695,7 +695,7 @@
 "advanced_setting_show_notes_in_title_title" = "Prikaži opombe namesto kategorije";
 "advanced_setting_show_notes_in_title_description" = "Prikaži vsebino opomb namesto imena kategorije za transakcije.";
 "advanced_setting_start_day_of_month_title" = "Začetni dan meseca";
-"advanced_setting_start_day_of_month_description" = "Določite začetni dan vsakega meseca, da bodo poročila, transakcije in proračuni ustrezno izračunani.";
+"advanced_setting_start_day_of_month_description" = "Določite začetni dan vsakega meseca, da bodo poročila, transakcije in načrti porabe ustrezno izračunani.";
 "advanced_setting_configure_transaction_title_title" = "Naslov transakcije";
 "advanced_setting_configure_transaction_subtitle_title" = "Podnaslov transakcije";
 
@@ -822,7 +822,7 @@
 
 /* Info */
 "upgrade_info_description" = "Ta funkcija je na voljo samo v polni različici:";
-"upgrade_sharing_info_description" = "Uporabno z do petimi ljudmi";
+"upgrade_sharing_info_description" = "Podpira Family Sharing – do 5 oseb";
 
 /* Discount */
 "upgrade_discount_title" = "Posebna ponudba 🌟";
@@ -850,8 +850,8 @@
 "upgrade_feature_unlimited_categories_and_tags_description" = "Ustvarite neomejeno število kategorij in oznak, ki jih lahko dodate transakcijam za boljšo organizacijo.";
 "upgrade_feature_extended_analyses_title" = "Razširjene analize";
 "upgrade_feature_extended_analyses_description" = "Izkoristite dodatne analize in razširjeno napoved vaših prihodnjih stanj računov in transakcij.";
-"upgrade_feature_unlimited_budgetbooks_title" = "Več proračunskih knjig";
-"upgrade_feature_unlimited_budgetbooks_description" = "Ustvarite več proračunskih knjig, tako da lahko na primer več ljudi uporablja svojo na eni napravi ali če želite deliti ločeno proračunsko knjigo (npr. za počitnice).";
+"upgrade_feature_unlimited_budgetbooks_title" = "Več denarnic";
+"upgrade_feature_unlimited_budgetbooks_description" = "Ustvarite več denarnic, tako da lahko na primer več ljudi uporablja svojo na eni napravi ali če želite deliti ločeno denarnico (npr. za počitnice).";
 "upgrade_feature_security_title" = "Varni podatki";
 "upgrade_feature_security_description" = "Zaščitite svoje podatke z %@.";
 "upgrade_feature_security_description_passcode" = "Zaščitite svoje podatke z ustvarjanjem kode";
@@ -860,9 +860,9 @@
 "upgrade_feature_currency_converter_description" = "Uporabite vgrajeni pretvornik valut za samodejno pretvorbo zneskov v eno od več kot 150 tujih valut.";
 "upgrade_feature_customization" = "Personalizacija";
 "upgrade_feature_customization_description" = "Izberite med več poudarnimi barvami in ikonami, da prilagodite aplikacijo svojim željam.";
-"upgrade_feature_sharedbudget_books_title" = "Deli proračunske knjige";
-"upgrade_feature_sharedbudget_books_description" = "Delite svoje proračunske knjige, vključno z računi, kategorijami, transakcijami in proračuni, za sodelovanje z eno ali več osebami.";
-"upgrade_feature_receipt_scanner_title" = "Skenirajte račune";
+"upgrade_feature_sharedbudget_books_title" = "Deli denarnice";
+"upgrade_feature_sharedbudget_books_description" = "Delite svoje denarnice, vključno z računi, kategorijami, transakcijami in načrti porabe, za sodelovanje z eno ali več osebami.";
+"upgrade_feature_receipt_scanner_title" = "Skeniranje računov";
 "upgrade_feature_receipt_scanner_description" = "Uporabite vgrajeni skener za digitalizacijo računov in samodejno prepoznavanje zneska in imena trgovca.";
 "upgrade_feature_widgets_title" = "Domovni & zaklepni pripomočki";
 "upgrade_feature_widgets_description" = "S pomočjo pripomočkov lahko na prvi pogled vidite svoje trenutne prihodke in stroške, stanja računov in še veliko več, ne da bi morali odpreti aplikacijo. Za predogled pripomočkov uredite svoj domači ali zaklepni zaslon, odprite pogled \"Dodaj pripomoček\" in nato izberite to aplikacijo.";
@@ -871,8 +871,8 @@
 "upgrade_feature_csv_title" = "CSV uvoz in izvoz";
 "upgrade_feature_csv_description" = "Uvozite in izvozite svoje transakcije z uporabo CSV datoteke za prenos podatkov iz vaše banke ali drugih aplikacij.";
 "upgrade_feature_remove_ads_title" = "Brez oglasov";
-"upgrade_feature_remove_ads_description" = "V aplikaciji ne boste več videli oglasov za polno različico.";
-"upgrade_feature_support_title" = "Podprite razvoj";
+"upgrade_feature_remove_ads_description" = "V aplikaciji ne boste več videli oglasov za nadgradnjo na polno različico.";
+"upgrade_feature_support_title" = "Podprite razvoj ❤️";
 "upgrade_feature_support_description" = "Podpirate mladega razvijalca in s tem nenehni razvoj aplikacije! 😊";
 
 /* Reviews */
@@ -916,9 +916,9 @@
 "upgrade_restore_button" = "Obnovi nakup";
 "upgrade_restore_in_progress_button" = "Prosimo, počakajte...";
 
-"subscription_button_info_text" = "Preklicljivo kadarkoli.";
-"subscription_trial_button_info_text" = "%d %@ brezplačni preizkus. Nato %@ na %@.";
-"lifetime_purchase_button_info_text" = "Odkleni polno različico enkrat (brez naročnine).";
+"subscription_button_info_text" = "Prekličete jo lahko kadarkoli – brez skrbi.";
+"subscription_trial_button_info_text" = "%d %@ brezplačnega preizkusa. Nato %@ na %@.";
+"lifetime_purchase_button_info_text" = "Z enkratnim nakupom odklenete vse funkcije za vedno – brez naročnine.";
 
 /* Alert Views */
 "alert_upgrade_view_purchase_success_title" = "Nakup uspešen 🎉";
@@ -935,13 +935,13 @@
 "alert_upgrade_view_restore_success_title" = "Nakupi obnovljeni";
 "alert_upgrade_view_restore_success_message" = "Vaši nakupi so bili uspešno obnovljeni! 😊";
 "alert_upgrade_view_restore_error_message" = "Vaših nakupov ni bilo mogoče obnoviti. Prosimo, poskusite znova pozneje.";
-"alert_upgrade_view_restore_nothing_to_do_title" = "Ni nakupov na voljo 😢";
+"alert_upgrade_view_restore_nothing_to_do_title" = "Na voljo ni preteklih nakupov 😢";
 "alert_upgrade_view_restore_nothing_to_do_message" = "Ni bilo mogoče najti nobenih nakupov za obnovitev.";
 
 
 /* MARK: - Upgrade FAQ View */
 /* Titles */
-"upgrade_faq_view_title" = "FAQ";
+"upgrade_faq_view_title" = "Pogosta vprašanja";
 
 /* Sections */
 "upgrade_faq_general_section_title" = "Splošno";
@@ -1177,12 +1177,12 @@
 "own_reminders_section_title" = "Lastni opomniki";
 
 /* Messages */
-"no_budget_books_found_title" = "Ni najdenih budgetov";
-"no_budget_books_found_message" = "Kliknite gumb \"+\" za dodajanje novega budgeta.";
-"no_budget_books_found_button_title" = "Nov budget";
-"no_budget_books_found_cloud_sync_message" = "Obstoječi podatki se nalagajo iz iCloud. Prosimo, počakajte trenutek...\n\nLahko tudi kliknite gumb \"+\" za dodajanje novega budgeta.";
+"no_budget_books_found_title" = "Ni najdenih načrtov porabe";
+"no_budget_books_found_message" = "Kliknite gumb \"+\" za dodajanje novega načrta porabe.";
+"no_budget_books_found_button_title" = "Nov načrt porabe";
+"no_budget_books_found_cloud_sync_message" = "Obstoječi podatki se nalagajo iz iCloud. Prosimo, počakajte trenutek...\n\nLahko tudi kliknite gumb \"+\" za dodajanje novega načrta porabe.";
 "no_budget_books_found_cloud_sync_message_short" = "Obstoječi podatki se nalagajo iz iCloud. Prosimo, počakajte trenutek...";
-"budget_books_search_placeholder_message" = "Iščite po imenu budgeta";
+"budget_books_search_placeholder_message" = "Iščite po imenu načrtu porabe";
 
 "no_accounts_title" = "Ni računov";
 "no_accounts_found_title" = "Ni najdenih računov";
@@ -1237,13 +1237,13 @@
 
 /* MARK: - Add Proračunska knjiga Form View */
 /* Titles */
-"form_title_new_budgetbook" = "Nov budget";
+"form_title_new_budgetbook" = "Nova denarnica";
 
 /* Items */
 "form_budgetbook_currency_title" = "Valuta";
 
 /* Buttons */
-"form_button_delete_budgetbook" = "Izbriši budget";
+"form_button_delete_budgetbook" = "Izbriši denarnico";
 
 
 /* MARK: - Add Account Form View */
@@ -1381,7 +1381,7 @@
 "form_payed_by_title" = "Dodeljeno";
 "form_payed_by_none_type_value" = "Nihče";
 "form_include_in_statistics_title" = "Statistika";
-"form_include_in_budgets_title" = "Proračuni";
+"form_include_in_budgets_title" = "Načrt porabe";
 
 /* Footer */
 "form_payment_status_footer_title" = "Označite plačilo kot \"v čakanju\", da znesek ne bo vključen v izračune.";
@@ -1406,19 +1406,19 @@
 
 /* MARK: - Add Budget Form View */
 /* Titles */
-"form_title_new_budget" = "Nov budget";
+"form_title_new_budget" = "Nov načrt porabe";
 
 /* Sections */
 "form_interval_section_title" = "Interval";
 
 /* Footer */
-"form_budget_amount_calculation_footer_title" = "Interval določa, kako pogosto se budget ponavlja, pri čemer se prikazani razpoložljivi znesek samodejno prilagodi izbranemu časovnemu obdobju.";
+"form_budget_amount_calculation_footer_title" = "Interval določa, kako pogosto se načrt porabe ponavlja, pri čemer se prikazani razpoložljivi znesek samodejno prilagodi izbranemu časovnemu obdobju.";
 
 /* Items */
 "form_is_cumulative_title" = "Kumulativno";
 
 /* Buttons */
-"form_button_delete_budget" = "Izbriši budget";
+"form_button_delete_budget" = "Izbriši načrt porabe";
 
 
 /* MARK: - Assign CSV Fields Form View */
@@ -1943,7 +1943,7 @@
 
 /* MARK: - App Intents */
 /* Entities */
-"budget_book_entity_name" = "Proračunska knjiga";
+"budget_book_entity_name" = "Ime denarnice";
 "account_entity_name" = "Račun";
 "category_group_entity_name" = "Mapa";
 "category_entity_name" = "Kategorija";

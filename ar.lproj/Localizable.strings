@@ -822,7 +822,8 @@
 
 /* Info */
 "upgrade_info_description" = "هذه الميزة متاحة فقط في الإصدار الكامل:";
-"upgrade_sharing_info_description" = "يمكن استخدامه بواسطة ما يصل إلى خمسة أشخاص";
+"upgrade_sharing_info_text" = "يدعم مشاركة العائلة من Apple";
+"upgrade_sharing_info_highlighted_text" = "مشاركة العائلة من Apple";
 
 /* Discount */
 "upgrade_discount_title" = "عرض خاص 🌟";

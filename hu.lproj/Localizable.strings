@@ -822,7 +822,8 @@
 
 /* Info */
 "upgrade_info_description" = "Ez a funkció csak a teljes verzióban érhető el:";
-"upgrade_sharing_info_description" = "Legfeljebb öt személlyel használható";
+"upgrade_sharing_info_text" = "Támogatja az Apple Családi megosztást";
+"upgrade_sharing_info_highlighted_text" = "Apple Családi megosztás";
 
 /* Discount */
 "upgrade_discount_title" = "Különleges ajánlat 🌟";

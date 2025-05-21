@@ -822,7 +822,8 @@
 
 /* Info */
 "upgrade_info_description" = "Ova je značajka dostupna samo u punoj verziji:";
-"upgrade_sharing_info_description" = "Može se koristiti s do pet osoba";
+"upgrade_sharing_info_text" = "Podržava Apple Dijeljenje s obitelji";
+"upgrade_sharing_info_highlighted_text" = "Apple Dijeljenje s obitelji";
 
 /* Discount */
 "upgrade_discount_title" = "Posebna ponuda 🌟";

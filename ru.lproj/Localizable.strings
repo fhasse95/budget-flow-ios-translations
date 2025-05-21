@@ -822,7 +822,8 @@
 
 /* Info */
 "upgrade_info_description" = "Эта функция доступна только в полной версии:";
-"upgrade_sharing_info_description" = "Можно использовать до пяти человек";
+"upgrade_sharing_info_text" = "Поддерживает семейный доступ Apple";
+"upgrade_sharing_info_highlighted_text" = "Семейный доступ Apple";
 
 /* Discount */
 "upgrade_discount_title" = "Специальное предложение 🌟";

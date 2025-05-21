@@ -822,7 +822,8 @@
 
 /* Info */
 "upgrade_info_description" = "この機能はフルバージョンでのみ利用可能です:";
-"upgrade_sharing_info_description" = "最大 5 人で使用可能";
+"upgrade_sharing_info_text" = "Appleのファミリー共有に対応";
+"upgrade_sharing_info_highlighted_text" = "Appleのファミリー共有";
 
 /* Discount */
 "upgrade_discount_title" = "特別オファー 🌟";

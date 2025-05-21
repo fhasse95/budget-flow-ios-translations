@@ -822,7 +822,8 @@
 
 /* Info */
 "upgrade_info_description" = "Các tính năng này chỉ có ở Tài khoản Premium";
-"upgrade_sharing_info_description" = "Có thể chia sẻ được với tối đa 5 người";
+"upgrade_sharing_info_text" = "Hỗ trợ Chia sẻ Gia đình của Apple";
+"upgrade_sharing_info_highlighted_text" = "Chia sẻ Gia đình của Apple";
 
 /* Discount */
 "upgrade_discount_title" = "Ưu đãi đặc biệt 🌟";
@@ -906,7 +907,7 @@
 "yearly_subscription_subtitle" = "Tháng";
 "lifetime_purchase_subtitle" = "Không giới hạn";
 
-"product_discount_header_title" = "Tiết kiệm %d %%";
+"product_discount_header_title" = "- %d %%";
 
 /* Buttons */
 "upgrade_is_active_button" = "Kích hoạt";

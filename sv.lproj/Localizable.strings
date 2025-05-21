@@ -822,7 +822,8 @@
 
 /* Info */
 "upgrade_info_description" = "Denna funktion är endast tillgänglig i den fullständiga versionen:";
-"upgrade_sharing_info_description" = "Användbar med upp till fem personer";
+"upgrade_sharing_info_text" = "Kompatibel med Apples familjedelning";
+"upgrade_sharing_info_highlighted_text" = "Apples familjedelning";
 
 /* Discount */
 "upgrade_discount_title" = "Specialerbjudande 🌟";

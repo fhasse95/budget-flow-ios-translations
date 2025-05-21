@@ -822,7 +822,8 @@
 
 /* Info */
 "upgrade_info_description" = "Ta funkcija je na voljo samo v polni različici:";
-"upgrade_sharing_info_description" = "Podpira Family Sharing – do 5 oseb";
+"upgrade_sharing_info_text" = "Podpira Apple Družinsko skupno rabo";
+"upgrade_sharing_info_highlighted_text" = "Apple Družinska skupna raba";
 
 /* Discount */
 "upgrade_discount_title" = "Posebna ponudba 🌟";
@@ -906,7 +907,7 @@
 "yearly_subscription_subtitle" = "Letna naročnina";
 "lifetime_purchase_subtitle" = "Doživljenska naročnina";
 
-"product_discount_header_title" = "Prihranite %d %%";
+"product_discount_header_title" = "- %d %%";
 
 /* Buttons */
 "upgrade_is_active_button" = "Aktivno";

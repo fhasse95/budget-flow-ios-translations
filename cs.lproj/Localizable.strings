@@ -822,7 +822,8 @@
 
 /* Info */
 "upgrade_info_description" = "Tato funkce je dostupná pouze v plné verzi:";
-"upgrade_sharing_info_description" = "Použitelné až pro pět lidí";
+"upgrade_sharing_info_text" = "Podporuje Apple Rodinné sdílení";
+"upgrade_sharing_info_highlighted_text" = "Apple Rodinné sdílení";
 
 /* Discount */
 "upgrade_discount_title" = "Speciální nabídka 🌟";

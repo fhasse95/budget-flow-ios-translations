@@ -822,7 +822,8 @@
 
 /* Info */
 "upgrade_info_description" = "Această caracteristică este disponibilă numai în versiunea completă:";
-"upgrade_sharing_info_description" = "Utilizabil de până la cinci persoane";
+"upgrade_sharing_info_text" = "Acceptă Partajarea Familială Apple";
+"upgrade_sharing_info_highlighted_text" = "Partajarea Familială Apple";
 
 /* Discount */
 "upgrade_discount_title" = "Ofertă specială 🌟";

@@ -822,7 +822,8 @@
 
 /* Info */
 "upgrade_info_description" = "Este recurso só está disponível na versão completa:";
-"upgrade_sharing_info_description" = "Utilizável com até cinco pessoas";
+"upgrade_sharing_info_text" = "Suporta Compartilhamento Familiar da Apple";
+"upgrade_sharing_info_highlighted_text" = "Compartilhamento Familiar da Apple";
 
 /* Discount */
 "upgrade_discount_title" = "Oferta Especial 🌟";
@@ -906,7 +907,7 @@
 "yearly_subscription_subtitle" = "Meses";
 "lifetime_purchase_subtitle" = "Ilimitado";
 
-"product_discount_header_title" = "Economize %d%%";
+"product_discount_header_title" = "- %d %%";
 
 /* Buttons */
 "upgrade_is_active_button" = "Ativo";

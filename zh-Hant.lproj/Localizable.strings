@@ -822,7 +822,8 @@
 
 /* Info */
 "upgrade_info_description" = "以下功能僅在完整版中可用：";
-"upgrade_sharing_info_description" = "最多可與五人使用";
+"upgrade_sharing_info_text" = "支援 Apple 家庭共享";
+"upgrade_sharing_info_highlighted_text" = "Apple 家庭共享";
 
 /* Discount */
 "upgrade_discount_title" = "特別優惠 🌟";

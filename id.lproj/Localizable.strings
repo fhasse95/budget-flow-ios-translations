@@ -822,7 +822,8 @@
 
 /* Info */
 "upgrade_info_description" = "Fitur ini hanya tersedia dalam versi lengkap:";
-"upgrade_sharing_info_description" = "Dapat digunakan hingga lima orang";
+"upgrade_sharing_info_text" = "Mendukung Berbagi Keluarga Apple";
+"upgrade_sharing_info_highlighted_text" = "Berbagi Keluarga Apple";
 
 /* Discount */
 "upgrade_discount_title" = "Penawaran Spesial 🌟";

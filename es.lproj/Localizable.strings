@@ -822,7 +822,8 @@
 
 /* Info */
 "upgrade_info_description" = "Esta función solo está disponible en la versión completa:";
-"upgrade_sharing_info_description" = "Utilizable con hasta cinco personas";
+"upgrade_sharing_info_text" = "Compatible con En Familia de Apple";
+"upgrade_sharing_info_highlighted_text" = "En Familia de Apple";
 
 /* Discount */
 "upgrade_discount_title" = "Oferta Especial 🌟";

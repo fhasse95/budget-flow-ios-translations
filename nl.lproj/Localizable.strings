@@ -822,7 +822,8 @@
 
 /* Info */
 "upgrade_info_description" = "Deze functie is alleen beschikbaar in de volledige versie:";
-"upgrade_sharing_info_description" = "Te gebruiken met maximaal vijf personen";
+"upgrade_sharing_info_text" = "Ondersteunt Apple Delen met gezin";
+"upgrade_sharing_info_highlighted_text" = "Apple Delen met gezin";
 
 /* Discount */
 "upgrade_discount_title" = "Speciale aanbieding 🌟";

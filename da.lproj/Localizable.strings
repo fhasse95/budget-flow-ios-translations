@@ -822,7 +822,8 @@
 
 /* Info */
 "upgrade_info_description" = "Denne funktion er kun tilgængelig i den fulde version:";
-"upgrade_sharing_info_description" = "Anvendes med op til fem personer";
+"upgrade_sharing_info_text" = "Understøtter Apples familiedeling";
+"upgrade_sharing_info_highlighted_text" = "Apples familiedeling";
 
 /* Discount */
 "upgrade_discount_title" = "Særtilbud 🌟";

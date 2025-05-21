@@ -822,7 +822,8 @@
 
 /* Info */
 "upgrade_info_description" = "이 기능은 정식 버전에서만 사용할 수 있습니다.";
-"upgrade_sharing_info_description" = "최대 5명까지 사용 가능";
+"upgrade_sharing_info_text" = "Apple 가족 공유 지원";
+"upgrade_sharing_info_highlighted_text" = "Apple 가족 공유";
 
 /* Discount */
 "upgrade_discount_title" = "특별 제안 🌟";

@@ -822,7 +822,8 @@
 
 /* Info */
 "upgrade_info_description" = "Tämä ominaisuus on saatavilla vain täysversiossa:";
-"upgrade_sharing_info_description" = "Käytettävissä enintään viiden henkilön kanssa";
+"upgrade_sharing_info_text" = "Yhteensopiva Applen perhejako-toiminnon kanssa";
+"upgrade_sharing_info_highlighted_text" = "Applen perhejako";
 
 /* Discount */
 "upgrade_discount_title" = "Erikoistarjous 🌟";

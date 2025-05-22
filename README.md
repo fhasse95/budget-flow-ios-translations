@@ -18,10 +18,13 @@ If your language is not yet supported or if you notice any translation errors, I
 ## Contribute
 The following steps are necessary to participate in the translation process:
 
-### 1) Clone the repository
+### 1) Fork this repository
+Click the "Fork" button in the top right corner of this repository to create your own copy of it.
+
+### 2) Clone your forked repository
 ```console
-# Clone the repository
-git clone https://github.com/fhasse95/budget-flow-ios-translations.git
+# Clone your forked repository
+git clone https://github.com/<your-username>/budget-flow-ios-translations.git
 
 # Navigate into the project directory
 cd budget-flow-ios-translations
@@ -33,8 +36,7 @@ git checkout -b <your-branch-name>
 > [!NOTE]
 > Make sure [Git](https://git-scm.com/downloads) is installed on your system before running these commands.
 
-### 2) Adjust the translations
-
+### 3) Adjust the translations
 To translate the entries, simply change the **values** of each key (e.g. `"account_type_payment" = "<VALUE>";`).
 
 **Do not translate:**
@@ -43,14 +45,14 @@ To translate the entries, simply change the **values** of each key (e.g. `"accou
 - Entries under `/* Contact Developer */` – those should remain in English so I can understand support requests.
 
 
-### 3) Commit and push your changes
+### 4) Commit and push your changes
 ```console
 # Commit and push your changes
 git commit -m "Updated translations"
 git push origin <your-branch-name>
 ```
 
-### 4) Open a Pull Request
+### 5) Open a Pull Request
 - Go to the repository on GitHub.
 - You’ll see a prompt to open a Pull Request (PR) from your recently pushed branch.
 - Give your PR a descriptive title and a short summary of what you changed.

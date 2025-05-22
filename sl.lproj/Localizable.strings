@@ -33,7 +33,7 @@
 "account_type_savings" = "Varčevalni račun";
 "account_type_credit_card" = "Kreditna kartica";
 "account_type_investment" = "Naložba";
-"account_type_precaution" = "Previdenost";
+"account_type_precaution" = "Previdnost";
 "account_type_liability" = "Obveznost";
 "account_type_business" = "Poslovni račun";
 
@@ -41,7 +41,7 @@
 "account_type_savings_plural" = "Varčevalni računi";
 "account_type_credit_card_plural" = "Kreditne kartice";
 "account_type_investment_plural" = "Naložbe";
-"account_type_precaution_plural" = "Previdenost";
+"account_type_precaution_plural" = "Previdnostni";
 "account_type_liability_plural" = "Obveznosti";
 "account_type_business_plural" = "Poslovni računi";
 
@@ -119,7 +119,7 @@
 "widget_type_savings_rate" = "Prihranjeno";
 "widget_type_upcoming_transactions" = "Načrtovano";
 "widget_type_participants" = "Ljudje";
-"widget_type_budget" = "Proračun";
+"widget_type_budget" = "Načrt porabe ";
 "widget_type_pending_transactions" = "Čakajoče";
 "widget_type_total_assets" = "Sredstva";
 "widget_type_forecast" = "Napoved";
@@ -228,7 +228,7 @@
 "edit_category_button" = "Uredi kategorijo";
 "edit_payee_button" = "Uredi plačnika";
 "edit_tag_button" = "Uredi oznako";
-"edit_budget_button" = "Uredi proračun";
+"edit_budget_button" = "Uredi načrt porabe";
 "multi_selection_button" = "Večkratna izbira";
 "back_button" = "Nazaj";
 "done_button" = "Končano";
@@ -348,7 +348,7 @@
 "total_assets_widget_absolute_title" = "Absolutno";
 "total_assets_widget_trend_title" = "Trend";
 "forecast_widget_upcoming_title" = "Načrtovano";
-"forecast_widget_pending_title" = "Načrtovano";
+"forecast_widget_pending_title" = "Čakajoče";
 "forecast_widget_final_balance_title" = "Končno stanje";
 "pie_chart_widget_transactions_title" = "Transakcije";
 "pie_chart_widget_categories_title" = "Kategorije";
@@ -440,10 +440,10 @@
 "balanced_title" = "Uravnoteženo";
 "exceeded_title" = "Preseženo";
 "user_has_no_budgets_title" = "Nimate načrtov porabe.";
-"user_is_within_budget_title" = "V okviru načrta porabe ste! 🎉";
+"user_is_within_budget_title" = "Čestitamo, ste v okviru načrta porabe! 🎉";
 "user_was_within_budget_title" = "Bili ste v okviru načrta porabe! 🎉";
-"user_is_not_within_budget_title" = "Presegli ste %d načrt porabe 😢";
-"user_is_not_within_budgets_title" = "Presegli ste %d načrt porabe 😢";
+"user_is_not_within_budget_title" = "Presegli ste %d načrt(e) porabe 😢";
+"user_is_not_within_budgets_title" = "Presegli ste %d načrt(e) porabe 😢";
 
 /* Messages */
 "no_budgets_title" = "Ni načrtov porabe";
@@ -548,7 +548,7 @@
 "acknowledgements_setting_info_title" = "Opis";
 "acknowledgements_setting_info_description" = "Spodaj je seznam ljudi, ki so na nek način pomagali pri aplikaciji.";
 "translation_acknowledgement" = "Prevod (%@)";
-"licenses_setting_info_title" = "opis";
+"licenses_setting_info_title" = "Opis";
 "licenses_setting_info_description" = "Spodaj je seznam vseh tretje osebnih licenc, ki jih uporablja aplikacija.";
 
 /* Data Settings */
@@ -726,9 +726,9 @@
 "advanced_setting_reverse_keyboard_description" = "Zasuka postavitev numerične tipkovnice navpično, da se ujema s tradicionalnim slogom kalkulatorja.";
 "advanced_setting_enable_haptic_keyboard_title" = "Povratna informacija tipkovnice";
 "advanced_setting_enable_haptic_keyboard_description" = "Prejmite taktilno povratno informacijo pri vnosu denarnih zneskov s tipkovnico.";
-"advanced_setting_enable_live_activities_title" = "Live-Activities";
+"advanced_setting_enable_live_activities_title" = "Aktivnosti v živo";
 "advanced_setting_enable_live_activities_description" = "Oglejte si svoje trenutno stanje in več na dinamičnem otoku in zaklepnem zaslonu.";
-"advanced_setting_ask_for_feedback_title" = "Zahtevaj povratne informacije";
+"advanced_setting_ask_for_feedback_title" = "Obvestilo za povratne informacije";
 "advanced_setting_ask_for_feedback_description" = "Dovolite aplikaciji, da vas občasno prosi za povratne informacije.";
 
 /* Cloud Sync Status */
@@ -784,13 +784,13 @@
 
 /* Overview */
 "privacy_overview_datastorage_title" = "Varno shranjevanje podatkov";
-"privacy_overview_datastorage_description" = "Vaše finance so zasebne – in naj tako ostanejo. Zato so vaši podatki shranjeni izključno na vaši napravi ali (po želji) v vašem osebnem iCloud.";
+"privacy_overview_datastorage_description" = "Vaše finance so zasebne – in naj tako ostanejo. Zato so vaši podatki shranjeni izključno na vaši napravi ali (po želji) v vašem osebnem iCloudu.";
 
 "privacy_overview_privacy_control_title" = "Nadzor nad zasebnostjo";
 "privacy_overview_privacy_control_description" = "Ne glede na to, ali gre za shranjene podatke, uporabo vaše lokacije ali dostop do vašega fotoaparata – vedno imate nadzor. Na primer, lahko preprosto izbrišete svoje podatke s ponastavitvijo aplikacije in dovoljenja dostopa aplikacije lahko kadarkoli prilagodite.";
 
 /* Footer */
-"welcome_view_value_description" = "Enostavno upravljajte vse svoje finance: Vnesite svoj proračun, pridobite vpoglede in spremljajte vse svoje prihodke in stroške.";
+"welcome_view_value_description" = "Enostavno upravljajte vse svoje finance: Vnesite svoj načrt porabe, pridobite vpoglede in spremljajte vse svoje prihodke in stroške.";
 "welcome_view_agreement_description" = "S klikom na \"Sprejmi\" se strinjate z %@.";
 
 
@@ -799,7 +799,7 @@
 "new_features_view_title" = "Nove funkcije";
 
 /* Buttons */
-"new_features_view_rate_app_button" = "Oceni aplikacijo";
+"new_features_view_rate_app_button" = "Ocenite aplikacijo";
 "new_features_view_close_button" = "Morda pozneje";
 
 
@@ -887,7 +887,7 @@
 "user_review_description_us" = "Velik oboževalec tega, da je aplikacija na voljo na iOS, iPad in macOS, tako da jo lahko posodabljam kjerkoli. Prav tako je zelo lepo videti, da ni potreben račun ali zbiranje podatkov, kar se zdaj zdi redko, a je za finančne aplikacije pomembno.";
 "user_review_title_uk" = "To je tisto!";
 "user_review_description_uk" = "Iskal sem to aplikacijo več kot dve leti. Želel sem si upravitelja financ na telefonu, ki je zasnovan okoli dobro izgledajočega preglednega zaslona, omogoča enostaven vnos novih podatkov in možnost podrobnejšega pregleda, ko je potrebno! Poskusite.";
-"user_review_title_es" = "Najboljša aplikacija za proračun";
+"user_review_title_es" = "Najboljša aplikacija za načrte porabe";
 "user_review_description_es" = "Preprosto najboljša, kar sem poskusil. Mislim, da je še vedno nova aplikacija, vendar zagotovo vidite potencial, ki ga ima.";
 "user_review_title_fr" = "Odlična aplikacija z bogatimi funkcijami";
 "user_review_description_fr" = "Uporabljam aplikacijo že nekaj mesecev in mi je zelo všeč. Čestitke za vaše delo in komaj čakam, da vidim, kako bo aplikacija izgledala čez nekaj mesecev :)";
@@ -952,7 +952,7 @@
 "upgrade_faq_about_title" = "Kaj je Budget Flow?";
 "upgrade_faq_about_value" = "Budget Flow je moderna in enostavna aplikacija za sledenje proračunu za vse, ki želijo imeti pregled nad svojimi financami in učinkovito upravljati svoje stroške.";
 "upgrade_faq_developer_title" = "Kdo je razvil aplikacijo?";
-"upgrade_faq_developer_value" = "Budget Flow se je začel kot stranski projekt in je od takrat v celoti zasnovan, razvit in vzdrževan zame, Fabian Hasse. Sem navdušen razvijalec programske opreme z več kot 10 leti izkušenj in z veliko strastjo delam na razvoju najboljše aplikacije za proračun in sledenje stroškom v App Store.";
+"upgrade_faq_developer_value" = "Budget Flow se je začel kot stranski projekt in je od takrat v celoti zasnovan, razvit in vzdrževan zame, Fabian Hasse. Sem navdušen razvijalec programske opreme z več kot 10 leti izkušenj in z veliko strastjo delam na razvoju najboljše aplikacije za načrt porabe in sledenje stroškom v App Store.";
 "upgrade_faq_free_use_title" = "Ali je aplikacijo mogoče uporabljati tudi brezplačno?";
 "upgrade_faq_free_use_value" = "Da, osnovne funkcije aplikacije, kot je ustvarjanje transakcij, lahko uporabljate popolnoma brezplačno.\n\nPoleg tega aplikacija ponuja preizkusno obdobje za polno različico, tako da jo lahko preizkusite vnaprej, preden se odločite za nakup ali naročnino polne različice.";
 "upgrade_faq_security_title" = "Ali so moji podatki varni?";
@@ -1040,9 +1040,9 @@
 "alert_confirm_dismiss_title" = "Ali ste prepričani, da želite zavreči spremembe?";
 
 /* Delete */
-"alert_confirm_delete_budgetbook_title" = "Ali ste prepričani, da želite izbrisati ta budget? Vse povezane račune, kategorije, transakcije in budgeti bodo prav tako izbrisani.";
+"alert_confirm_delete_budgetbook_title" = "Ali ste prepričani, da želite izbrisati ta budget? Vse povezane račune, kategorije, transakcije in denarnice bodo prav tako izbrisani.";
 "alert_confirm_delete_budgetbook_button" = "Izbriši budget";
-"alert_confirm_delete_budgetbook_multiple_title" = "Ali ste prepričani, da želite izbrisati vse izbrane budgete? Vse povezane račune, kategorije, transakcije in budgeti bodo prav tako izbrisani.";
+"alert_confirm_delete_budgetbook_multiple_title" = "Ali ste prepričani, da želite izbrisati vse izbrane budgete? Vse povezane račune, kategorije, transakcije in denarnice bodo prav tako izbrisani.";
 "alert_confirm_delete_budgetbook_multiple_button" = "Izbriši budgete";
 
 "alert_confirm_delete_account_title" = "Ali ste prepričani, da želite izbrisati ta račun? Vse povezane transakcije bodo prav tako izbrisane.";
@@ -1050,14 +1050,14 @@
 "alert_confirm_delete_account_multiple_title" = "Ali ste prepričani, da želite izbrisati vse izbrane račune? Vse povezane transakcije bodo prav tako izbrisane.";
 "alert_confirm_delete_account_multiple_button" = "Izbriši račune";
 
-"alert_confirm_delete_categorygroup_title" = "Ali ste prepričani, da želite izbrisati to mapo? Vse povezane kategorije, transakcije in budgeti bodo prav tako izbrisani (če je potrebno).";
+"alert_confirm_delete_categorygroup_title" = "Ali ste prepričani, da želite izbrisati to mapo? Vse povezane kategorije, transakcije in denarnice bodo prav tako izbrisani (če je potrebno).";
 "alert_confirm_delete_categorygroup_button" = "Izbriši mapo";
-"alert_confirm_delete_categorygroup_multiple_title" = "Ali ste prepričani, da želite izbrisati vse izbrane mape? Vse povezane kategorije, transakcije in budgeti bodo prav tako izbrisani (če je potrebno).";
+"alert_confirm_delete_categorygroup_multiple_title" = "Ali ste prepričani, da želite izbrisati vse izbrane mape? Vse povezane kategorije, transakcije in denarnice bodo prav tako izbrisani (če je potrebno).";
 "alert_confirm_delete_categorygroup_multiple_button" = "Izbriši mape";
 
 "alert_confirm_delete_category_title" = "Ali ste prepričani, da želite izbrisati to kategorijo? Vse povezane budgete bodo prav tako izbrisani (če je potrebno).";
 "alert_confirm_delete_category_button" = "Izbriši kategorijo";
-"alert_confirm_delete_category_multiple_title" = "Ali ste prepričani, da želite izbrisati vse izbrane kategorije? Vse povezane transakcije in budgeti bodo prav tako izbrisani.";
+"alert_confirm_delete_category_multiple_title" = "Ali ste prepričani, da želite izbrisati vse izbrane kategorije? Vse povezane transakcije in denarnice bodo prav tako izbrisani.";
 "alert_confirm_delete_category_multiple_button" = "Izbriši kategorije";
 
 "alert_confirm_delete_payee_title" = "Ali ste prepričani, da želite izbrisati tega plačnika?";
@@ -1157,7 +1157,7 @@
 
 /* MARK: - Manage Item View */
 /* Titles */
-"manage_budgetbooks_title" = "Budgeti";
+"manage_budgetbooks_title" = "Denarnice";
 "manage_accounts_title" = "Računi";
 "manage_categories_title" = "Kategorije";
 "manage_category_groups_title" = "Mape";
@@ -1509,11 +1509,11 @@
 
 /* MARK: - Tips */
 "period_selection_tip_title" = "Spremeni obdobje";
-"period_selection_tip_message" = "Kliknite tukaj, če želite spremeniti prikazano obdobje. To vpliva na vse poglede (pregled, transakcije in budgete).";
+"period_selection_tip_message" = "Kliknite tukaj, če želite spremeniti prikazano obdobje. To vpliva na vse poglede (pregled, transakcije in denarnice).";
 "interactive_charts_tip_title" = "Interaktivni grafikoni";
 "interactive_charts_tip_message" = "Pomaknite se levo ali desno, če želite spremeniti aktivni grafikon, ali dolgo pritisnite na grafikon, če želite videti vrednosti za določen datum.";
-"switch_budget_books_tip_title" = "Preklopi budgete";
-"switch_budget_books_tip_message" = "Dolgo pritisnite zavihek pregleda za hitro preklapljanje med vašimi budgeti.";
+"switch_budget_books_tip_title" = "Preklopi denarnice";
+"switch_budget_books_tip_message" = "Dolgo pritisnite zavihek pregleda za hitro preklapljanje med vašimi denarnice.";
 
 
 /* MARK: - Watch App */
@@ -2016,6 +2016,6 @@
 
 
 /* MARK: - Dummy Data */
-"default_budget_book_name" = "Moja proračunska knjiga";
+"default_budget_book_name" = "Moja denarnica";
 "default_credit_card_name" = "Kreditna kartica";
 "default_location_address" = "Fürstenberg";

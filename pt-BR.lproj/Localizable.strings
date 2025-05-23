@@ -690,7 +690,7 @@
 "advanced_setting_auto_lock_title" = "Pedir senha";
 
 "advanced_setting_chart_type_title" = "Tipo de gráfico";
-"advanced_setting_show_frequency_used_items_title" = "Mostrar categorias e tags frequentes";
+"advanced_setting_show_frequently_used_items_title" = "Mostrar categorias e tags frequentes";
 "advanced_setting_show_frequently_used_items_description" = "Mostrar categorias e tags usadas com frequência na lista de seleção ao criar e editar transações.";
 "advanced_setting_show_notes_in_title_title" = "Mostrar notas em vez de categoria";
 "advanced_setting_show_notes_in_title_description" = "Mostrar o conteúdo das notas em vez do nome da categoria para transações.";

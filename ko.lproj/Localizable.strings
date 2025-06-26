@@ -683,6 +683,7 @@
 "advanced_view_setting_section_title" = "보기 설정";
 "advanced_sidebar_setting_section_title" = "사이드 바";
 "advanced_transaction_setting_section_title" = "거래";
+"advanced_input_setting_section_title" = "입력";
 "advanced_other_setting_section_title" = "기타";
 
 "advanced_setting_use_passcode_title" = "암호 사용";
@@ -726,6 +727,7 @@
 "advanced_setting_reverse_keyboard_description" = "숫자 키보드 레이아웃을 수직으로 뒤집어 전통적인 계산기 스타일에 맞춥니다.";
 "advanced_setting_enable_haptic_keyboard_title" = "키보드 피드백";
 "advanced_setting_enable_haptic_keyboard_description" = "키보드를 사용하여 금액을 입력할 때 햅틱 피드백을 받습니다.";
+
 "advanced_setting_enable_live_activities_title" = "Live Activities 활성화";
 "advanced_setting_enable_live_activities_description" = "잠금화면과 다이내믹 아일랜드에서 잔액 등을 확인할 수 있습니다.";
 "advanced_setting_ask_for_feedback_title" = "피드백 요청";

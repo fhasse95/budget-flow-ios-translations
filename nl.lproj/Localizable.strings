@@ -683,6 +683,7 @@
 "advanced_view_setting_section_title" = "Weergave";
 "advanced_sidebar_setting_section_title" = "Zijbalk";
 "advanced_transaction_setting_section_title" = "Transacties";
+"advanced_input_setting_section_title" = "Invoer";
 "advanced_other_setting_section_title" = "Overige";
 
 "advanced_setting_use_passcode_title" = "Gebruik toegangscode";
@@ -726,6 +727,7 @@
 "advanced_setting_reverse_keyboard_description" = "Draait de numerieke toetsenbordindeling verticaal om het te laten overeenkomen met de stijl van een traditionele rekenmachine.";
 "advanced_setting_enable_haptic_keyboard_title" = "Toetsenbordfeedback";
 "advanced_setting_enable_haptic_keyboard_description" = "Krijg haptische feedback wanneer u geldbedragen invoert via het toetsenbord.";
+
 "advanced_setting_enable_live_activities_title" = "Live-activiteiten";
 "advanced_setting_enable_live_activities_description" = "Bekijk uw huidige saldo en meer op het dynamische eiland en op het vergrendelscherm.";
 "advanced_setting_ask_for_feedback_title" = "Vraag om feedback";

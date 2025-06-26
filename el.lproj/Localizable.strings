@@ -683,6 +683,7 @@
 "advanced_view_setting_section_title" = "Εμφάνιση";
 "advanced_sidebar_setting_section_title" = "Πλαϊνή γραμμή";
 "advanced_transaction_setting_section_title" = "Συναλλαγές";
+"advanced_input_setting_section_title" = "Είσοδος";
 "advanced_other_setting_section_title" = "Άλλο";
 
 "advanced_setting_use_passcode_title" = "Χρήση κωδικού πρόσβασης";
@@ -726,6 +727,7 @@
 "advanced_setting_reverse_keyboard_description" = "Αναστρέφει την κατανομή του αριθμητικού πληκτρολογίου κατακόρυφα για να ταιριάζει με το παραδοσιακό στυλ αριθμομηχανής.";
 "advanced_setting_enable_haptic_keyboard_title" = "Σχόλια πληκτρολογίου";
 "advanced_setting_enable_haptic_keyboard_description" = "Λάβετε απτική ανατροφοδότηση κατά την εισαγωγή χρηματικών ποσών χρησιμοποιώντας το πληκτρολόγιο.";
+
 "advanced_setting_enable_live_activities_title" = "Ζωντανές δραστηριότητες";
 "advanced_setting_enable_live_activities_description" = "Δείτε το τρέχον υπόλοιπό σας και πολλά άλλα στο δυναμικό νησί καθώς και στην οθόνη κλειδώματος.";
 "advanced_setting_ask_for_feedback_title" = "Ζητήστε σχόλια";

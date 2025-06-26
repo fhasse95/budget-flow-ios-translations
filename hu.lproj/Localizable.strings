@@ -683,6 +683,7 @@
 "advanced_view_setting_section_title" = "Megjelenítés";
 "advanced_sidebar_setting_section_title" = "Oldalsáv";
 "advanced_transaction_setting_section_title" = "Tranzakciók";
+"advanced_input_setting_section_title" = "Bemenet";
 "advanced_other_setting_section_title" = "Egyéb";
 
 "advanced_setting_use_passcode_title" = "Jelszó használata";
@@ -726,6 +727,7 @@
 "advanced_setting_reverse_keyboard_description" = "Vertikálisan elforgatja a numerikus billentyűzet elrendezését, hogy illeszkedjen a hagyományos számológép stílusához.";
 "advanced_setting_enable_haptic_keyboard_title" = "Visszajelzés a billentyűzetről";
 "advanced_setting_enable_haptic_keyboard_description" = "Érzékeny visszajelzést kaphat, amikor pénzösszegeket ír be a billentyűzet segítségével.";
+
 "advanced_setting_enable_live_activities_title" = "Élő tevékenységek";
 "advanced_setting_enable_live_activities_description" = "Tekintse meg aktuális egyenlegét és még sok mást a dinamikus szigeten, valamint a lezárási képernyőn.";
 "advanced_setting_ask_for_feedback_title" = "Visszajelzés kérése";

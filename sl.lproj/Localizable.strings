@@ -683,6 +683,7 @@
 "advanced_view_setting_section_title" = "Pogled";
 "advanced_sidebar_setting_section_title" = "Stranska vrstica";
 "advanced_transaction_setting_section_title" = "Transakcije";
+"advanced_input_setting_section_title" = "Vnos";
 "advanced_other_setting_section_title" = "Drugo";
 
 "advanced_setting_use_passcode_title" = "Uporabi kodo";
@@ -726,6 +727,7 @@
 "advanced_setting_reverse_keyboard_description" = "Zasuka postavitev numerične tipkovnice navpično, da se ujema s tradicionalnim slogom kalkulatorja.";
 "advanced_setting_enable_haptic_keyboard_title" = "Povratna informacija tipkovnice";
 "advanced_setting_enable_haptic_keyboard_description" = "Prejmite taktilno povratno informacijo pri vnosu denarnih zneskov s tipkovnico.";
+
 "advanced_setting_enable_live_activities_title" = "Aktivnosti v živo";
 "advanced_setting_enable_live_activities_description" = "Oglejte si svoje trenutno stanje in več na dinamičnem otoku in zaklepnem zaslonu.";
 "advanced_setting_ask_for_feedback_title" = "Obvestilo za povratne informacije";

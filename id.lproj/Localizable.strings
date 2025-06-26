@@ -683,6 +683,7 @@
 "advanced_view_setting_section_title" = "Tampilan";
 "advanced_sidebar_setting_section_title" = "Bilah Sisi";
 "advanced_transaction_setting_section_title" = "Transaksi";
+"advanced_input_setting_section_title" = "Input";
 "advanced_other_setting_section_title" = "Lainnya";
 
 "advanced_setting_use_passcode_title" = "Gunakan Kode Sandi";
@@ -726,6 +727,7 @@
 "advanced_setting_reverse_keyboard_description" = "Membalikkan tata letak papan ketik numerik secara vertikal untuk menyesuaikan dengan gaya kalkulator tradisional.";
 "advanced_setting_enable_haptic_keyboard_title" = "Umpan Balik Keyboard";
 "advanced_setting_enable_haptic_keyboard_description" = "Dapatkan masukan haptik saat memasukkan jumlah uang menggunakan keyboard.";
+
 "advanced_setting_enable_live_activities_title" = "Aktivitas Langsung";
 "advanced_setting_enable_live_activities_description" = "Lihat saldo Anda saat ini dan lebih banyak lagi di pulau dinamis serta layar kunci.";
 "advanced_setting_ask_for_feedback_title" = "Minta Masukan";

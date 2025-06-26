@@ -683,6 +683,7 @@
 "advanced_view_setting_section_title" = "Görüntü";
 "advanced_sidebar_setting_section_title" = "Kenar çubuğu";
 "advanced_transaction_setting_section_title" = "İşlemler";
+"advanced_input_setting_section_title" = "Girdi";
 "advanced_other_setting_section_title" = "Diğer";
 
 "advanced_setting_use_passcode_title" = "Parola Kullan";
@@ -726,6 +727,7 @@
 "advanced_setting_reverse_keyboard_description" = "Sayısal klavye düzenini dikey olarak ters çevirir, geleneksel bir hesap makinesi stiline uyacak şekilde.";
 "advanced_setting_enable_haptic_keyboard_title" = "Klavye Geri Bildirimi";
 "advanced_setting_enable_haptic_keyboard_description" = "Klavyeyi kullanarak parasal tutarları girerken dokunsal geri bildirim alın.";
+
 "advanced_setting_enable_live_activities_title" = "Canlı Etkinlikler";
 "advanced_setting_enable_live_activities_description" = "Kilit ekranının yanı sıra dinamik adada mevcut bakiyenizi ve daha fazlasını görün.";
 "advanced_setting_ask_for_feedback_title" = "Geri Bildirim İste";

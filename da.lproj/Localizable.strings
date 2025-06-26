@@ -683,6 +683,7 @@
 "advanced_view_setting_section_title" = "Skærm";
 "advanced_sidebar_setting_section_title" = "Sidebjælke";
 "advanced_transaction_setting_section_title" = "Transaktioner";
+"advanced_input_setting_section_title" = "Input";
 "advanced_other_setting_section_title" = "Andet";
 
 "advanced_setting_use_passcode_title" = "Brug adgangskode";
@@ -726,6 +727,7 @@
 "advanced_setting_reverse_keyboard_description" = "Vender det numeriske tastaturlayout vertikalt for at matche en traditionel lommeregnerstil.";
 "advanced_setting_enable_haptic_keyboard_title" = "Tastaturfeedback";
 "advanced_setting_enable_haptic_keyboard_description" = "Få haptisk feedback, når du indtaster pengebeløb ved hjælp af tastaturet.";
+
 "advanced_setting_enable_live_activities_title" = "Live-aktiviteter";
 "advanced_setting_enable_live_activities_description" = "Se din aktuelle saldo og mere på den dynamiske ø samt låseskærmen.";
 "advanced_setting_ask_for_feedback_title" = "Bed om feedback";

@@ -683,6 +683,7 @@
 "advanced_view_setting_section_title" = "Visualizzazione";
 "advanced_sidebar_setting_section_title" = "Barra laterale";
 "advanced_transaction_setting_section_title" = "Transazioni";
+"advanced_input_setting_section_title" = "Inserimento";
 "advanced_other_setting_section_title" = "Altro";
 
 "advanced_setting_use_passcode_title" = "Usa codice di accesso";
@@ -726,6 +727,7 @@
 "advanced_setting_reverse_keyboard_description" = "Capovolge verticalmente il layout della tastiera numerica per abbinarlo allo stile di una calcolatrice tradizionale.";
 "advanced_setting_enable_haptic_keyboard_title" = "Feedback da tastiera";
 "advanced_setting_enable_haptic_keyboard_description" = "Ricevi un feedback tattile quando digiti un importo sulla tastiera.";
+
 "advanced_setting_enable_live_activities_title" = "Attività dal vivo";
 "advanced_setting_enable_live_activities_description" = "Visualizza il tuo saldo attuale e altro ancora sull'isola dinamica e sulla schermata di blocco.";
 "advanced_setting_ask_for_feedback_title" = "Chiedi feedback";

@@ -683,6 +683,7 @@
 "advanced_view_setting_section_title" = "表示";
 "advanced_sidebar_setting_section_title" = "サイドバー";
 "advanced_transaction_setting_section_title" = "トランザクション";
+"advanced_input_setting_section_title" = "入力";
 "advanced_other_setting_section_title" = "その他";
 
 "advanced_setting_use_passcode_title" = "パスコードを使用";
@@ -726,6 +727,7 @@
 "advanced_setting_reverse_keyboard_description" = "数字キーボードのレイアウトを垂直に反転させ、従来の電卓スタイルに合わせます。";
 "advanced_setting_enable_haptic_keyboard_title" = "キーボード フィードバック";
 "advanced_setting_enable_haptic_keyboard_description" = "キーボードでお金を入力するときに触覚フィードバックを取得するには、この機能をオンにします。";
+
 "advanced_setting_enable_live_activities_title" = "Live-Activities";
 "advanced_setting_enable_live_activities_description" = "現在の残高などを dynamic island およびロック画面で確認するには、この機能を有効にします。";
 "advanced_setting_ask_for_feedback_title" = "フィードバックを求める";

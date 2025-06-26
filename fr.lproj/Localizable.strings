@@ -34,7 +34,7 @@
 "account_type_credit_card" = "Carte de crédit";
 "account_type_investment" = "Investissement";
 "account_type_precaution" = "Précaution";
-"account_type_liability" = "Responsabilité";
+"account_type_liability" = "Dette";
 "account_type_business" = "Compte professionnel";
 
 "account_type_payment_plural" = "Comptes de paiement";

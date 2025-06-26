@@ -728,6 +728,7 @@
 "advanced_setting_enable_haptic_keyboard_title" = "Keyboard Feedback";
 "advanced_setting_enable_haptic_keyboard_description" = "Get haptic feedback when entering monetary amounts using the numeric keyboard.";
 
+"advanced_setting_app_language_title" = "Language";
 "advanced_setting_enable_live_activities_title" = "Live-Activities";
 "advanced_setting_enable_live_activities_description" = "See your current balance and more on the dynamic island as well as the lock screen.";
 "advanced_setting_ask_for_feedback_title" = "Ask for Feedback";

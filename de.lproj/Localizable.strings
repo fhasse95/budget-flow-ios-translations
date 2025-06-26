@@ -728,6 +728,7 @@
 "advanced_setting_enable_haptic_keyboard_title" = "Haptisches Tastaturfeedback";
 "advanced_setting_enable_haptic_keyboard_description" = "Erhalte haptisches Feedback bei der Eingabe von Geldbeträgen über die Tastatur.";
 
+"advanced_setting_app_language_title" = "Sprache";
 "advanced_setting_enable_live_activities_title" = "Live-Aktivitäten";
 "advanced_setting_enable_live_activities_description" = "Zeig deine aktuelle Bilanz und mehr auf der Dynamic Island sowie dem Lockscreen an.";
 "advanced_setting_ask_for_feedback_title" = "Nach Feedback fragen";

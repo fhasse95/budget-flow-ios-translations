@@ -728,6 +728,7 @@
 "advanced_setting_enable_haptic_keyboard_title" = "キーボード フィードバック";
 "advanced_setting_enable_haptic_keyboard_description" = "キーボードでお金を入力するときに触覚フィードバックを取得するには、この機能をオンにします。";
 
+"advanced_setting_app_language_title" = "言語";
 "advanced_setting_enable_live_activities_title" = "Live-Activities";
 "advanced_setting_enable_live_activities_description" = "現在の残高などを dynamic island およびロック画面で確認するには、この機能を有効にします。";
 "advanced_setting_ask_for_feedback_title" = "フィードバックを求める";

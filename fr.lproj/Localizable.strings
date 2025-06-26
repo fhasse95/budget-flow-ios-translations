@@ -728,6 +728,7 @@
 "advanced_setting_enable_haptic_keyboard_title" = "Commentaires sur le clavier";
 "advanced_setting_enable_haptic_keyboard_description" = "Obtenez un retour haptique lors de la saisie de montants monétaires à l'aide du clavier.";
 
+"advanced_setting_app_language_title" = "Langue";
 "advanced_setting_enable_live_activities_title" = "Activités en direct";
 "advanced_setting_enable_live_activities_description" = "Consultez votre solde actuel et bien plus encore sur l'île dynamique ainsi que sur l'écran de verrouillage.";
 "advanced_setting_ask_for_feedback_title" = "Demander des commentaires";

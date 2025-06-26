@@ -728,6 +728,7 @@
 "advanced_setting_enable_haptic_keyboard_title" = "键盘反馈";
 "advanced_setting_enable_haptic_keyboard_description" = "启用此功能以在键盘上输入金额时获得触觉反馈";
 
+"advanced_setting_app_language_title" = "语言";
 "advanced_setting_enable_live_activities_title" = "实时活动";
 "advanced_setting_enable_live_activities_description" = "启用此功能以在灵动岛和锁屏上查看您当前的余额等信息";
 "advanced_setting_ask_for_feedback_title" = "请求反馈";

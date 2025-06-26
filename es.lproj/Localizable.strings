@@ -728,6 +728,7 @@
 "advanced_setting_enable_haptic_keyboard_title" = "Comentarios del teclado";
 "advanced_setting_enable_haptic_keyboard_description" = "Obtenga respuesta táctil al ingresar cantidades monetarias usando el teclado.";
 
+"advanced_setting_app_language_title" = "Idioma";
 "advanced_setting_enable_live_activities_title" = "Actividades en vivo";
 "advanced_setting_enable_live_activities_description" = "Consulta tu saldo actual y más en la isla dinámica y en la pantalla de bloqueo.";
 "advanced_setting_ask_for_feedback_title" = "Solicitar comentarios";

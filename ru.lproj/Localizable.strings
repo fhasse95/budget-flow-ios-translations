@@ -728,6 +728,7 @@
 "advanced_setting_enable_haptic_keyboard_title" = "Отклик клавиатуры";
 "advanced_setting_enable_haptic_keyboard_description" = "Получать тактильную обратную связь при вводе суммы с клавиатуры.";
 
+"advanced_setting_app_language_title" = "Язык";
 "advanced_setting_enable_live_activities_title" = "Эфир активности";
 "advanced_setting_enable_live_activities_description" = "Показывать текущий баланс и другие сведения на Dynamic Island, а также на экране блокировки.";
 "advanced_setting_ask_for_feedback_title" = "Попросить оставить отзыв";

@@ -728,6 +728,7 @@
 "advanced_setting_enable_haptic_keyboard_title" = "Feedback de la tastatură";
 "advanced_setting_enable_haptic_keyboard_description" = "Obțineți feedback haptic când introduceți sume monetare folosind tastatura.";
 
+"advanced_setting_app_language_title" = "Limbă";
 "advanced_setting_enable_live_activities_title" = "Live-Activities";
 "advanced_setting_enable_live_activities_description" = "Vedeți soldul actual și multe altele pe insula dinamică, precum și pe ecranul de blocare.";
 "advanced_setting_ask_for_feedback_title" = "Cereți feedback";

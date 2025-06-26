@@ -728,6 +728,7 @@
 "advanced_setting_enable_haptic_keyboard_title" = "Toetsenbordfeedback";
 "advanced_setting_enable_haptic_keyboard_description" = "Krijg haptische feedback wanneer u geldbedragen invoert via het toetsenbord.";
 
+"advanced_setting_app_language_title" = "Taal";
 "advanced_setting_enable_live_activities_title" = "Live-activiteiten";
 "advanced_setting_enable_live_activities_description" = "Bekijk uw huidige saldo en meer op het dynamische eiland en op het vergrendelscherm.";
 "advanced_setting_ask_for_feedback_title" = "Vraag om feedback";

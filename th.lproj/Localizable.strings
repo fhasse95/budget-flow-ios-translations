@@ -728,6 +728,7 @@
 "advanced_setting_enable_haptic_keyboard_title" = "การตอบสนองของแป้นพิมพ์";
 "advanced_setting_enable_haptic_keyboard_description" = "รับการตอบสนองแบบสัมผัสเมื่อป้อนจำนวนเงินโดยใช้แป้นพิมพ์";
 
+"advanced_setting_app_language_title" = "ภาษา";
 "advanced_setting_enable_live_activities_title" = "กิจกรรมสด";
 "advanced_setting_enable_live_activities_description" = "ดูยอดคงเหลือปัจจุบันของคุณและอื่นๆ บนเกาะไดนามิกตลอดจนหน้าจอล็อค";
 "advanced_setting_ask_for_feedback_title" = "ขอคำติชม";

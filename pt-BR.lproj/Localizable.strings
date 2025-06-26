@@ -728,6 +728,7 @@
 "advanced_setting_enable_haptic_keyboard_title" = "Feedback tátil do teclado";
 "advanced_setting_enable_haptic_keyboard_description" = "Receba feedback tátil ao inserir valores monetários usando o teclado.";
 
+"advanced_setting_app_language_title" = "Idioma";
 "advanced_setting_enable_live_activities_title" = "Atividades ao Vivo";
 "advanced_setting_enable_live_activities_description" = "Veja seu saldo atual e muito mais na Ilha Dinâmica (Dynamic Island), bem como na tela de bloqueio.";
 "advanced_setting_ask_for_feedback_title" = "Solicitar feedback";

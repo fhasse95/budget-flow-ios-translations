@@ -728,6 +728,7 @@
 "advanced_setting_enable_haptic_keyboard_title" = "Klavye Geri Bildirimi";
 "advanced_setting_enable_haptic_keyboard_description" = "Klavyeyi kullanarak parasal tutarları girerken dokunsal geri bildirim alın.";
 
+"advanced_setting_app_language_title" = "Dil";
 "advanced_setting_enable_live_activities_title" = "Canlı Etkinlikler";
 "advanced_setting_enable_live_activities_description" = "Kilit ekranının yanı sıra dinamik adada mevcut bakiyenizi ve daha fazlasını görün.";
 "advanced_setting_ask_for_feedback_title" = "Geri Bildirim İste";

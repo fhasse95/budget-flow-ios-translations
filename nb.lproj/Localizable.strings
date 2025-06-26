@@ -728,6 +728,7 @@
 "advanced_setting_enable_haptic_keyboard_title" = "Tastaturtilbakemelding";
 "advanced_setting_enable_haptic_keyboard_description" = "Få haptisk tilbakemelding når du legger inn pengebeløp med tastaturet.";
 
+"advanced_setting_app_language_title" = "Språk";
 "advanced_setting_enable_live_activities_title" = "Live-aktiviteter";
 "advanced_setting_enable_live_activities_description" = "Se din nåværende saldo og mer på den dynamiske øya samt låseskjermen.";
 "advanced_setting_ask_for_feedback_title" = "Be om tilbakemelding";

@@ -728,6 +728,7 @@
 "advanced_setting_enable_haptic_keyboard_title" = "Povratne informacije o tastaturi";
 "advanced_setting_enable_haptic_keyboard_description" = "Dobijte povratnu informaciju kada unosite novčane iznose pomoću tastature.";
 
+"advanced_setting_app_language_title" = "Jezik";
 "advanced_setting_enable_live_activities_title" = "Aktivnosti uživo";
 "advanced_setting_enable_live_activities_description" = "Pogledajte svoj trenutni bilans i više na dinamičnom ostrvu, kao i na zaključanom ekranu.";
 "advanced_setting_ask_for_feedback_title" = "Traži povratnu informaciju";

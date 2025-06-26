@@ -728,6 +728,7 @@
 "advanced_setting_enable_haptic_keyboard_title" = "鍵盤回饋";
 "advanced_setting_enable_haptic_keyboard_description" = "啟用此功能以在鍵盤上輸入金額時獲得觸覺回饋";
 
+"advanced_setting_app_language_title" = "語言";
 "advanced_setting_enable_live_activities_title" = "即時活動";
 "advanced_setting_enable_live_activities_description" = "啟用此功能以在靈動島和鎖定畫面上查看您目前的餘額等資訊";
 "advanced_setting_ask_for_feedback_title" = "請求回饋";

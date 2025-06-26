@@ -728,6 +728,7 @@
 "advanced_setting_enable_haptic_keyboard_title" = "키보드 피드백";
 "advanced_setting_enable_haptic_keyboard_description" = "키보드를 사용하여 금액을 입력할 때 햅틱 피드백을 받습니다.";
 
+"advanced_setting_app_language_title" = "언어";
 "advanced_setting_enable_live_activities_title" = "Live Activities 활성화";
 "advanced_setting_enable_live_activities_description" = "잠금화면과 다이내믹 아일랜드에서 잔액 등을 확인할 수 있습니다.";
 "advanced_setting_ask_for_feedback_title" = "피드백 요청";

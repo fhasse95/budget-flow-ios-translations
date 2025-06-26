@@ -728,6 +728,7 @@
 "advanced_setting_enable_haptic_keyboard_title" = "Umpan Balik Keyboard";
 "advanced_setting_enable_haptic_keyboard_description" = "Dapatkan masukan haptik saat memasukkan jumlah uang menggunakan keyboard.";
 
+"advanced_setting_app_language_title" = "Bahasa";
 "advanced_setting_enable_live_activities_title" = "Aktivitas Langsung";
 "advanced_setting_enable_live_activities_description" = "Lihat saldo Anda saat ini dan lebih banyak lagi di pulau dinamis serta layar kunci.";
 "advanced_setting_ask_for_feedback_title" = "Minta Masukan";

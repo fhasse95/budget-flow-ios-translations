@@ -728,6 +728,7 @@
 "advanced_setting_enable_haptic_keyboard_title" = "Phản hồi bàn phím";
 "advanced_setting_enable_haptic_keyboard_description" = "Nhận phản hồi xúc giác khi nhập số tiền bằng bàn phím.";
 
+"advanced_setting_app_language_title" = "Ngôn ngữ";
 "advanced_setting_enable_live_activities_title" = "Hoạt động trực tiếp";
 "advanced_setting_enable_live_activities_description" = "Xem số dư hiện tại của bạn và nhiều thông tin khác trên đảo động cũng như màn hình khóa.";
 "advanced_setting_ask_for_feedback_title" = "Yêu cầu phản hồi";

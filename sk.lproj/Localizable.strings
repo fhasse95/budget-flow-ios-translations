@@ -728,6 +728,7 @@
 "advanced_setting_enable_haptic_keyboard_title" = "Spätná väzba na klávesnicu";
 "advanced_setting_enable_haptic_keyboard_description" = "Získajte hmatovú odozvu pri zadávaní peňažných čiastok pomocou klávesnice.";
 
+"advanced_setting_app_language_title" = "Jazyk";
 "advanced_setting_enable_live_activities_title" = "Aktivity naživo";
 "advanced_setting_enable_live_activities_description" = "Pozrite si svoj aktuálny zostatok a ďalšie informácie na dynamickom ostrove, ako aj na uzamknutej obrazovke.";
 "advanced_setting_ask_for_feedback_title" = "Požiadať o spätnú väzbu";

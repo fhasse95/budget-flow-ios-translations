@@ -683,6 +683,7 @@
 "advanced_view_setting_section_title" = "Відображення";
 "advanced_sidebar_setting_section_title" = "Бічна панель";
 "advanced_transaction_setting_section_title" = "Трансакції";
+"advanced_input_setting_section_title" = "Ввід";
 "advanced_other_setting_section_title" = "Інше";
 
 "advanced_setting_use_passcode_title" = "Використовувати пароль";
@@ -726,6 +727,8 @@
 "advanced_setting_reverse_keyboard_description" = "Перевертає розкладку числової клавіатури вертикально, щоб відповідати традиційному стилю калькулятора.";
 "advanced_setting_enable_haptic_keyboard_title" = "Відгук про клавіатуру";
 "advanced_setting_enable_haptic_keyboard_description" = "Отримувати тактильний відгук під час введення грошових сум за допомогою клавіатури.";
+
+"advanced_setting_app_language_title" = "Мова";
 "advanced_setting_enable_live_activities_title" = "Живі дії";
 "advanced_setting_enable_live_activities_description" = "Перегляньте свій поточний баланс і багато іншого на динамічному острові, а також на екрані блокування.";
 "advanced_setting_ask_for_feedback_title" = "Запитувати відгук";

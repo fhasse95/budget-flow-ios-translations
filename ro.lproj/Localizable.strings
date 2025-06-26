@@ -683,6 +683,7 @@
 "advanced_view_setting_section_title" = "Afișare";
 "advanced_sidebar_setting_section_title" = "Bară laterală";
 "advanced_transaction_setting_section_title" = "Tranzacții";
+"advanced_input_setting_section_title" = "Intrare";
 "advanced_other_setting_section_title" = "Altele";
 
 "advanced_setting_use_passcode_title" = "Utilizați codul de acces";
@@ -726,6 +727,8 @@
 "advanced_setting_reverse_keyboard_description" = "Răstoarnă dispunerea tastaturii numerice vertical, pentru a se potrivi cu stilul tradițional al unei calculatoare.";
 "advanced_setting_enable_haptic_keyboard_title" = "Feedback de la tastatură";
 "advanced_setting_enable_haptic_keyboard_description" = "Obțineți feedback haptic când introduceți sume monetare folosind tastatura.";
+
+"advanced_setting_app_language_title" = "Limbă";
 "advanced_setting_enable_live_activities_title" = "Live-Activities";
 "advanced_setting_enable_live_activities_description" = "Vedeți soldul actual și multe altele pe insula dinamică, precum și pe ecranul de blocare.";
 "advanced_setting_ask_for_feedback_title" = "Cereți feedback";

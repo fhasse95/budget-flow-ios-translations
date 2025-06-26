@@ -683,6 +683,7 @@
 "advanced_view_setting_section_title" = "Visa";
 "advanced_sidebar_setting_section_title" = "Sidofält";
 "advanced_transaction_setting_section_title" = "Transaktioner";
+"advanced_input_setting_section_title" = "Inmatning";
 "advanced_other_setting_section_title" = "Annat";
 
 "advanced_setting_use_passcode_title" = "Använd lösenord";
@@ -726,6 +727,8 @@
 "advanced_setting_reverse_keyboard_description" = "Vänder det numeriska tangentbordets layout vertikalt för att matcha en traditionell miniräknare.";
 "advanced_setting_enable_haptic_keyboard_title" = "Tangentbordsfeedback";
 "advanced_setting_enable_haptic_keyboard_description" = "Få haptisk feedback när du anger monetära belopp med tangentbordet.";
+
+"advanced_setting_app_language_title" = "Språk";
 "advanced_setting_enable_live_activities_title" = "Live-aktiviteter";
 "advanced_setting_enable_live_activities_description" = "Se ditt nuvarande saldo och mer på den dynamiska ön samt låsskärmen.";
 "advanced_setting_ask_for_feedback_title" = "Be om feedback";

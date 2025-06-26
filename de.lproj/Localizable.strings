@@ -683,6 +683,7 @@
 "advanced_view_setting_section_title" = "Anzeige";
 "advanced_sidebar_setting_section_title" = "Seitenleiste";
 "advanced_transaction_setting_section_title" = "Transaktionen";
+"advanced_input_setting_section_title" = "Eingabe";
 "advanced_other_setting_section_title" = "Sonstiges";
 
 "advanced_setting_use_passcode_title" = "Code verwenden";
@@ -720,12 +721,14 @@
 "advanced_setting_consider_pending_items_title" = "Alle Transaktionen verbuchen";
 "advanced_setting_consider_pending_items_description" = "Berücksichtige bei der Berechnung von Kontoständen, Bilanzen, etc. auch alle vorgemerkten Transaktionen.";
 
-"advanced_setting_enable_exact_times_title" = "Genaue Uhrzeiten eingeben";
+"advanced_setting_enable_exact_times_title" = "Genaue Uhrzeiten";
 "advanced_setting_enable_exact_times_description" = "Wähle genaue Uhrzeiten mithilfe des Minuten-Drehfelds für Transaktionen aus (z.B. 9:41).";
 "advanced_setting_reverse_keyboard_title" = "Umgedrehtes Tastaturlayout";
 "advanced_setting_reverse_keyboard_description" = "Drehe das numerische Tastaturlayout um, sodass es dem Layout eines Taschenrechners entspricht.";
 "advanced_setting_enable_haptic_keyboard_title" = "Haptisches Tastaturfeedback";
 "advanced_setting_enable_haptic_keyboard_description" = "Erhalte haptisches Feedback bei der Eingabe von Geldbeträgen über die Tastatur.";
+
+"advanced_setting_app_language_title" = "Sprache";
 "advanced_setting_enable_live_activities_title" = "Live-Aktivitäten";
 "advanced_setting_enable_live_activities_description" = "Zeig deine aktuelle Bilanz und mehr auf der Dynamic Island sowie dem Lockscreen an.";
 "advanced_setting_ask_for_feedback_title" = "Nach Feedback fragen";

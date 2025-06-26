@@ -683,6 +683,7 @@
 "advanced_view_setting_section_title" = "Afficher";
 "advanced_sidebar_setting_section_title" = "Barre latérale";
 "advanced_transaction_setting_section_title" = "Transactions";
+"advanced_input_setting_section_title" = "Saisie";
 "advanced_other_setting_section_title" = "Autre";
 
 "advanced_setting_use_passcode_title" = "Utiliser un code d'accès";
@@ -726,6 +727,8 @@
 "advanced_setting_reverse_keyboard_description" = "Inverse la disposition du clavier numérique à la verticale pour correspondre à celle d'une calculatrice classique.";
 "advanced_setting_enable_haptic_keyboard_title" = "Commentaires sur le clavier";
 "advanced_setting_enable_haptic_keyboard_description" = "Obtenez un retour haptique lors de la saisie de montants monétaires à l'aide du clavier.";
+
+"advanced_setting_app_language_title" = "Langue";
 "advanced_setting_enable_live_activities_title" = "Activités en direct";
 "advanced_setting_enable_live_activities_description" = "Consultez votre solde actuel et bien plus encore sur l'île dynamique ainsi que sur l'écran de verrouillage.";
 "advanced_setting_ask_for_feedback_title" = "Demander des commentaires";

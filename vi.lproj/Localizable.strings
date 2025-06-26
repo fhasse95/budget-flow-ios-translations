@@ -683,6 +683,7 @@
 "advanced_view_setting_section_title" = "Hiển thị";
 "advanced_sidebar_setting_section_title" = "Thanh bên";
 "advanced_transaction_setting_section_title" = "Giao dịch";
+"advanced_input_setting_section_title" = "Nhập liệu";
 "advanced_other_setting_section_title" = "Khác";
 
 "advanced_setting_use_passcode_title" = "Sử dụng mật khẩu";
@@ -726,6 +727,8 @@
 "advanced_setting_reverse_keyboard_description" = "Lật ngược bố cục bàn phím số theo chiều dọc để phù hợp với phong cách máy tính cầm tay truyền thống.";
 "advanced_setting_enable_haptic_keyboard_title" = "Phản hồi bàn phím";
 "advanced_setting_enable_haptic_keyboard_description" = "Nhận phản hồi xúc giác khi nhập số tiền bằng bàn phím.";
+
+"advanced_setting_app_language_title" = "Ngôn ngữ";
 "advanced_setting_enable_live_activities_title" = "Hoạt động trực tiếp";
 "advanced_setting_enable_live_activities_description" = "Xem số dư hiện tại của bạn và nhiều thông tin khác trên đảo động cũng như màn hình khóa.";
 "advanced_setting_ask_for_feedback_title" = "Yêu cầu phản hồi";

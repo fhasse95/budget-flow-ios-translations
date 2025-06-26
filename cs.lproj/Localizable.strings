@@ -683,6 +683,7 @@
 "advanced_view_setting_section_title" = "Zobrazení";
 "advanced_sidebar_setting_section_title" = "Postranní panel";
 "advanced_transaction_setting_section_title" = "Transakce";
+"advanced_input_setting_section_title" = "Vstup";
 "advanced_other_setting_section_title" = "Jiné";
 
 "advanced_setting_use_passcode_title" = "Použít přístupový kód";
@@ -726,6 +727,8 @@
 "advanced_setting_reverse_keyboard_description" = "Otočí rozložení numerické klávesnice vertikálně, aby odpovídalo tradičnímu stylu kalkulačky.";
 "advanced_setting_enable_haptic_keyboard_title" = "Zpětná vazba na klávesnici";
 "advanced_setting_enable_haptic_keyboard_description" = "Získejte hmatovou odezvu při zadávání peněžních částek pomocí klávesnice.";
+
+"advanced_setting_app_language_title" = "Jazyk";
 "advanced_setting_enable_live_activities_title" = "Živé aktivity";
 "advanced_setting_enable_live_activities_description" = "Podívejte se na svůj aktuální zůstatek a další informace na dynamickém ostrově a také na zamykací obrazovce.";
 "advanced_setting_ask_for_feedback_title" = "Požádat o zpětnou vazbu";

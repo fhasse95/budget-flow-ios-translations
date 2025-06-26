@@ -683,6 +683,7 @@
 "advanced_view_setting_section_title" = "الشاشة";
 "advanced_sidebar_setting_section_title" = "الشريط الجانبي";
 "advanced_transaction_setting_section_title" = "المعاملات";
+"advanced_input_setting_section_title" = "إدخال";
 "advanced_other_setting_section_title" = "أخرى";
 
 "advanced_setting_use_passcode_title" = "استخدم رمز المرور";
@@ -726,6 +727,8 @@
 "advanced_setting_reverse_keyboard_description" = "يتم عكس تخطيط لوحة المفاتيح الرقمية رأسياً ليتناسب مع نمط الآلة الحاسبة التقليدية.";
 "advanced_setting_enable_haptic_keyboard_title" = "استجابة لوحة المفاتيح";
 "advanced_setting_enable_haptic_keyboard_description" = "احصل على ردود فعل لمسية عند إدخال مبلغ باستخدام لوحة المفاتيح.";
+
+"advanced_setting_app_language_title" = "اللغة";
 "advanced_setting_enable_live_activities_title" = "النشاط المباشر";
 "advanced_setting_enable_live_activities_description" = "إظهار الرصيد الحالي والمعلومات الأخرى في Dynamic Island وعلى شاشة القفل.";
 "advanced_setting_ask_for_feedback_title" = "اطلب تعليقات";

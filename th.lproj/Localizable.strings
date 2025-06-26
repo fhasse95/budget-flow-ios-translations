@@ -570,6 +570,10 @@
 "mail_subject_type_translate" = "Translate";
 "mail_subject_type_discount" = "Discount";
 
+"alert_translate_app_title" = "คุณต้องการช่วยแปลอย่างไร?";
+"alert_translate_app_github" = "👨🏻‍💻 ผ่าน GitHub";
+"alert_translate_app_email" = "📬 ทางอีเมล";
+
 "alert_contact_developer_title" = "คำขอของคุณเกี่ยวกับอะไร";
 "alert_contact_developer_feature_request" = "💡 แนะนำคุณสมบัติ";
 "alert_contact_developer_bug_report" = "🐞 รายงานข้อผิดพลาด";
@@ -679,6 +683,7 @@
 "advanced_view_setting_section_title" = "แสดงผล";
 "advanced_sidebar_setting_section_title" = "แถบด้านข้าง";
 "advanced_transaction_setting_section_title" = "ธุรกรรม";
+"advanced_input_setting_section_title" = "ป้อนข้อมูล";
 "advanced_other_setting_section_title" = "อื่นๆ";
 
 "advanced_setting_use_passcode_title" = "ใช้รหัสผ่าน";
@@ -722,6 +727,8 @@
 "advanced_setting_reverse_keyboard_description" = "พลิกเค้าโครงแป้นพิมพ์ตัวเลขแนวตั้งเพื่อให้ตรงกับสไตล์เครื่องคิดเลขแบบดั้งเดิม";
 "advanced_setting_enable_haptic_keyboard_title" = "การตอบสนองของแป้นพิมพ์";
 "advanced_setting_enable_haptic_keyboard_description" = "รับการตอบสนองแบบสัมผัสเมื่อป้อนจำนวนเงินโดยใช้แป้นพิมพ์";
+
+"advanced_setting_app_language_title" = "ภาษา";
 "advanced_setting_enable_live_activities_title" = "กิจกรรมสด";
 "advanced_setting_enable_live_activities_description" = "ดูยอดคงเหลือปัจจุบันของคุณและอื่นๆ บนเกาะไดนามิกตลอดจนหน้าจอล็อค";
 "advanced_setting_ask_for_feedback_title" = "ขอคำติชม";

@@ -683,6 +683,7 @@
 "advanced_view_setting_section_title" = "Näyttö";
 "advanced_sidebar_setting_section_title" = "Sivupalkki";
 "advanced_transaction_setting_section_title" = "Tapahtumat";
+"advanced_input_setting_section_title" = "Syöte";
 "advanced_other_setting_section_title" = "Muu";
 
 "advanced_setting_use_passcode_title" = "Käytä pääsykoodia";
@@ -726,6 +727,8 @@
 "advanced_setting_reverse_keyboard_description" = "Kääntää numeronäppäimistön asettelun pystysuunnassa vastaamaan perinteisen laskimen tyyliä.";
 "advanced_setting_enable_haptic_keyboard_title" = "Näppäimistöpalaute";
 "advanced_setting_enable_haptic_keyboard_description" = "Saa haptista palautetta syöttäessäsi rahasummia näppäimistöllä.";
+
+"advanced_setting_app_language_title" = "Kieli";
 "advanced_setting_enable_live_activities_title" = "Live-aktiviteetit";
 "advanced_setting_enable_live_activities_description" = "Katso nykyinen saldosi ja paljon muuta dynaamisella saarella sekä lukitusnäytöllä.";
 "advanced_setting_ask_for_feedback_title" = "Pyydä palautetta";

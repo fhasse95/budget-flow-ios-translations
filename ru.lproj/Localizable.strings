@@ -655,6 +655,9 @@
 "cloud_setting_account_status_title" = "Аккаунт iCloud";
 "cloud_setting_account_status_success_value" = "Вошли в iCloud";
 "cloud_setting_account_status_error_value" = "Не вошли в iCloud";
+"cloud_setting_low_power_mode_status_title" = "Режим энергосбережения";
+"cloud_setting_low_power_mode_status_enabled_value" = "Включено (синхронизация может быть приостановлена)";
+"cloud_setting_low_power_mode_status_disabled_value" = "Отключено";
 "cloud_setting_upload_status_title" = "Последняя загрузка";
 "cloud_setting_download_status_title" = "Последняя загрузка";
 "cloud_setting_number_of_transactions_title" = "Транзакции";

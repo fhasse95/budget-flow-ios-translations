@@ -655,6 +655,9 @@
 "cloud_setting_account_status_title" = "Λογαριασμός iCloud";
 "cloud_setting_account_status_success_value" = "Συνδεδεμένο στο iCloud";
 "cloud_setting_account_status_error_value" = "Μη συνδεδεμένο στο iCloud";
+"cloud_setting_low_power_mode_status_title" = "Λειτουργία χαμηλής κατανάλωσης";
+"cloud_setting_low_power_mode_status_enabled_value" = "Ενεργοποιημένη (Η συγχρονισμός μπορεί να διακοπεί προσωρινά)";
+"cloud_setting_low_power_mode_status_disabled_value" = "Απενεργοποιημένη";
 "cloud_setting_upload_status_title" = "Τελευταία μεταφόρτωση";
 "cloud_setting_download_status_title" = "Τελευταία λήψη";
 "cloud_setting_number_of_transactions_title" = "Συναλλαγές";

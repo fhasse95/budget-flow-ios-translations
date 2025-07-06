@@ -655,6 +655,9 @@
 "cloud_setting_account_status_title" = "iCloud-konto";
 "cloud_setting_account_status_success_value" = "Logget ind på iCloud";
 "cloud_setting_account_status_error_value" = "Ikke logget ind på iCloud";
+"cloud_setting_low_power_mode_status_title" = "Strømbesparende tilstand";
+"cloud_setting_low_power_mode_status_enabled_value" = "Aktiveret (Synkronisering kan være sat på pause)";
+"cloud_setting_low_power_mode_status_disabled_value" = "Deaktiveret";
 "cloud_setting_upload_status_title" = "Sidst uploadet";
 "cloud_setting_download_status_title" = "Sidst downloadet";
 "cloud_setting_number_of_transactions_title" = "Transaktioner";

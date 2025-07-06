@@ -655,6 +655,9 @@
 "cloud_setting_account_status_title" = "iCloud-tili";
 "cloud_setting_account_status_success_value" = "Kirjautunut iCloudiin";
 "cloud_setting_account_status_error_value" = "Ei kirjautunut iCloudiin";
+"cloud_setting_low_power_mode_status_title" = "Virransäästötila";
+"cloud_setting_low_power_mode_status_enabled_value" = "Käytössä (synkronointi saattaa olla keskeytetty)";
+"cloud_setting_low_power_mode_status_disabled_value" = "Pois käytöstä";
 "cloud_setting_upload_status_title" = "Viimeksi ladattu";
 "cloud_setting_download_status_title" = "Viimeksi ladattu";
 "cloud_setting_number_of_transactions_title" = "Tapahtumat";

@@ -655,6 +655,9 @@
 "cloud_setting_account_status_title" = "Účet iCloud";
 "cloud_setting_account_status_success_value" = "Přihlášeno do iCloudu";
 "cloud_setting_account_status_error_value" = "Nepřihlášeno do iCloudu";
+"cloud_setting_low_power_mode_status_title" = "Režim nízké spotřeby";
+"cloud_setting_low_power_mode_status_enabled_value" = "Zapnuto (synchronizace může být pozastavena)";
+"cloud_setting_low_power_mode_status_disabled_value" = "Vypnuto";
 "cloud_setting_upload_status_title" = "Naposledy nahráno";
 "cloud_setting_download_status_title" = "Naposledy staženo";
 "cloud_setting_number_of_transactions_title" = "Transakce";

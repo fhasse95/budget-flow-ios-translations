@@ -655,6 +655,9 @@
 "cloud_setting_account_status_title" = "iCloud-account";
 "cloud_setting_account_status_success_value" = "Ingelogd op iCloud";
 "cloud_setting_account_status_error_value" = "Niet ingelogd op iCloud";
+"cloud_setting_low_power_mode_status_title" = "Energiezuinige modus";
+"cloud_setting_low_power_mode_status_enabled_value" = "Ingeschakeld (Synchronisatie kan gepauzeerd zijn)";
+"cloud_setting_low_power_mode_status_disabled_value" = "Uitgeschakeld";
 "cloud_setting_upload_status_title" = "Laatst geüpload";
 "cloud_setting_download_status_title" = "Laatst gedownload";
 "cloud_setting_number_of_transactions_title" = "Transacties";

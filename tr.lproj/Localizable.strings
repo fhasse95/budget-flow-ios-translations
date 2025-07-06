@@ -655,6 +655,9 @@
 "cloud_setting_account_status_title" = "iCloud Hesabı";
 "cloud_setting_account_status_success_value" = "iCloud'a giriş yapıldı";
 "cloud_setting_account_status_error_value" = "iCloud'a giriş yapılmadı";
+"cloud_setting_low_power_mode_status_title" = "Düşük Güç Modu";
+"cloud_setting_low_power_mode_status_enabled_value" = "Etkin (Senkronizasyon duraklatılabilir)";
+"cloud_setting_low_power_mode_status_disabled_value" = "Devre Dışı";
 "cloud_setting_upload_status_title" = "Son yüklenen";
 "cloud_setting_download_status_title" = "Son indirilen";
 "cloud_setting_number_of_transactions_title" = "İşlemler";

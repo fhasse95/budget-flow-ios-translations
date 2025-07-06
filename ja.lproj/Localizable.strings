@@ -655,6 +655,9 @@
 "cloud_setting_account_status_title" = "iCloud アカウント";
 "cloud_setting_account_status_success_value" = "iCloud にサインイン済み";
 "cloud_setting_account_status_error_value" = "iCloud にサインインしていません";
+"cloud_setting_low_power_mode_status_title" = "低電力モード";
+"cloud_setting_low_power_mode_status_enabled_value" = "有効（同期が一時停止する場合があります）";
+"cloud_setting_low_power_mode_status_disabled_value" = "無効";
 "cloud_setting_upload_status_title" = "最終アップロード";
 "cloud_setting_download_status_title" = "最終ダウンロード";
 "cloud_setting_number_of_transactions_title" = "トランザクション";

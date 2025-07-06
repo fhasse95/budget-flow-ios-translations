@@ -655,6 +655,9 @@
 "cloud_setting_account_status_title" = "Cont iCloud";
 "cloud_setting_account_status_success_value" = "Conectat la iCloud";
 "cloud_setting_account_status_error_value" = "Neconectat la iCloud";
+"cloud_setting_low_power_mode_status_title" = "Mod Economie Energie";
+"cloud_setting_low_power_mode_status_enabled_value" = "Activat (Sincronizarea poate fi întreruptă)";
+"cloud_setting_low_power_mode_status_disabled_value" = "Dezactivat";
 "cloud_setting_upload_status_title" = "Ultima încărcare";
 "cloud_setting_download_status_title" = "Ultima descărcare";
 "cloud_setting_number_of_transactions_title" = "Tranzacții";

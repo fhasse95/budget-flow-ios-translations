@@ -655,6 +655,9 @@
 "cloud_setting_account_status_title" = "iCloud-fiók";
 "cloud_setting_account_status_success_value" = "Bejelentkezve az iCloudba";
 "cloud_setting_account_status_error_value" = "Nincs bejelentkezve az iCloudba";
+"cloud_setting_low_power_mode_status_title" = "Energiatakarékos mód";
+"cloud_setting_low_power_mode_status_enabled_value" = "Bekapcsolva (Szinkronizálás szünetelhet)";
+"cloud_setting_low_power_mode_status_disabled_value" = "Kikapcsolva";
 "cloud_setting_upload_status_title" = "Utoljára feltöltve";
 "cloud_setting_download_status_title" = "Utolsó letöltés";
 "cloud_setting_number_of_transactions_title" = "Tranzakciók";

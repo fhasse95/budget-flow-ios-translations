@@ -655,6 +655,9 @@
 "cloud_setting_account_status_title" = "iCloud 계정";
 "cloud_setting_account_status_success_value" = "iCloud에 로그인됨";
 "cloud_setting_account_status_error_value" = "iCloud에 로그인되지 않음";
+"cloud_setting_low_power_mode_status_title" = "저전력 모드";
+"cloud_setting_low_power_mode_status_enabled_value" = "활성화됨 (동기화가 일시 중지될 수 있음)";
+"cloud_setting_low_power_mode_status_disabled_value" = "비활성화됨";
 "cloud_setting_upload_status_title" = "마지막 업로드";
 "cloud_setting_download_status_title" = "마지막 다운로드";
 "cloud_setting_number_of_transactions_title" = "거래";

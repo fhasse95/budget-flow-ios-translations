@@ -655,6 +655,9 @@
 "cloud_setting_account_status_title" = "Tài khoản iCloud";
 "cloud_setting_account_status_success_value" = "Đã đăng nhập vào iCloud";
 "cloud_setting_account_status_error_value" = "Chưa đăng nhập vào iCloud";
+"cloud_setting_low_power_mode_status_title" = "Chế độ tiết kiệm pin";
+"cloud_setting_low_power_mode_status_enabled_value" = "Đã bật (Đồng bộ có thể tạm dừng)";
+"cloud_setting_low_power_mode_status_disabled_value" = "Đã tắt";
 "cloud_setting_upload_status_title" = "Tải lên lần cuối";
 "cloud_setting_download_status_title" = "Tải xuống lần cuối";
 "cloud_setting_number_of_transactions_title" = "Giao dịch";

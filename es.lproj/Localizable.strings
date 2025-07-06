@@ -655,6 +655,9 @@
 "cloud_setting_account_status_title" = "Cuenta de iCloud";
 "cloud_setting_account_status_success_value" = "Conectado a iCloud";
 "cloud_setting_account_status_error_value" = "No conectado a iCloud";
+"cloud_setting_low_power_mode_status_title" = "Modo de bajo consumo";
+"cloud_setting_low_power_mode_status_enabled_value" = "Activado (la sincronización puede estar en pausa)";
+"cloud_setting_low_power_mode_status_disabled_value" = "Desactivado";
 "cloud_setting_upload_status_title" = "Última carga";
 "cloud_setting_download_status_title" = "Última descarga";
 "cloud_setting_number_of_transactions_title" = "Transacciones";

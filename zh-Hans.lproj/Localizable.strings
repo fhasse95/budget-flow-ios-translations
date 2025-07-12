@@ -226,6 +226,7 @@
 "copy_button" = "复制";
 "edit_account_button" = "编辑账户";
 "edit_category_button" = "编辑类别";
+"edit_category_group_button" = "编辑文件夹";
 "edit_payee_button" = "编辑收款人";
 "edit_tag_button" = "编辑标签";
 "edit_budget_button" = "编辑预算";

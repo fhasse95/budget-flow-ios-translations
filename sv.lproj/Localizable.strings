@@ -226,6 +226,7 @@
 "copy_button" = "Kopiera";
 "edit_account_button" = "Redigera konto";
 "edit_category_button" = "Redigera kategori";
+"edit_category_group_button" = "Redigera mapp";
 "edit_payee_button" = "Redigera betalningsmottagare";
 "edit_tag_button" = "Redigera tagg";
 "edit_budget_button" = "Redigera budget";

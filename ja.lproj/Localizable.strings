@@ -226,6 +226,7 @@
 "copy_button" = "コピー";
 "edit_account_button" = "アカウントを編集";
 "edit_category_button" = "カテゴリを編集";
+"edit_category_group_button" = "フォルダーを編集";
 "edit_payee_button" = "受取人の編集";
 "edit_tag_button" = "タグを編集";
 "edit_budget_button" = "予算を編集";

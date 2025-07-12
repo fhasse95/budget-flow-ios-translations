@@ -226,6 +226,7 @@
 "copy_button" = "Copy";
 "edit_account_button" = "Edit Account";
 "edit_category_button" = "Edit Category";
+"edit_category_group_button" = "Edit Folder";
 "edit_payee_button" = "Edit Payee";
 "edit_tag_button" = "Edit Tag";
 "edit_budget_button" = "Edit Budget";

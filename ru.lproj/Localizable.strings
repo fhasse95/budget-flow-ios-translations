@@ -226,6 +226,7 @@
 "copy_button" = "Копировать";
 "edit_account_button" = "Изменить счет";
 "edit_category_button" = "Изменить категорию";
+"edit_category_group_button" = "Изменить папку";
 "edit_payee_button" = "Изменить получателя";
 "edit_tag_button" = "Изменить тег";
 "edit_budget_button" = "Изменить бюджет";

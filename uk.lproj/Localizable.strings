@@ -226,6 +226,7 @@
 "copy_button" = "Копіювати";
 "edit_account_button" = "Редагувати обліковий запис";
 "edit_category_button" = "Редагувати категорію";
+"edit_category_group_button" = "Редагувати папку";
 "edit_payee_button" = "Редагувати одержувача";
 "edit_tag_button" = "Редагувати тег";
 "edit_budget_button" = "Редагувати бюджет";

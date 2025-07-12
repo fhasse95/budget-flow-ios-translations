@@ -226,6 +226,7 @@
 "copy_button" = "نسخ";
 "edit_account_button" = "تحرير الحساب";
 "edit_category_button" = "تحرير الفئة";
+"edit_category_group_button" = "تعديل المجلد";
 "edit_payee_button" = "تحرير المستفيد";
 "edit_tag_button" = "تحرير الوسم";
 "edit_budget_button" = "تحرير الميزانية";

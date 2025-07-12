@@ -224,11 +224,12 @@
 "add_button" = "Tambah";
 "edit_button" = "Ubah";
 "copy_button" = "Salin";
-"edit_account_button" = "Ubah akun";
-"edit_category_button" = "Ubah kategori";
-"edit_payee_button" = "Edit penerima pembayaran";
-"edit_tag_button" = "Edit tanda";
-"edit_budget_button" = "Edit anggaran";
+"edit_account_button" = "Sunting akun";
+"edit_category_button" = "Sunting kategori";
+"edit_category_group_button" = "Sunting folder";
+"edit_payee_button" = "Sunting penerima";
+"edit_tag_button" = "Sunting tag";
+"edit_budget_button" = "Sunting anggaran";
 "multi_selection_button" = "Pilihan ganda";
 "back_button" = "Kembali";
 "selesai_button" = "Selesai";

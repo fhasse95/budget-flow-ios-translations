@@ -226,6 +226,7 @@
 "copy_button" = "Kopiraj";
 "edit_account_button" = "Uredi račun";
 "edit_category_button" = "Uredi kategoriju";
+"edit_category_group_button" = "Uredi mapu";
 "edit_payee_button" = "Uredi primatelja";
 "edit_tag_button" = "Uredi oznaku";
 "edit_budget_button" = "Uredi proračun";

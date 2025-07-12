@@ -226,6 +226,7 @@
 "copy_button" = "Kopírovat";
 "edit_account_button" = "Upravit účet";
 "edit_category_button" = "Upravit kategorii";
+"edit_category_group_button" = "Upravit složku";
 "edit_payee_button" = "Upravit příjemce";
 "edit_tag_button" = "Upravit značku";
 "edit_budget_button" = "Upravit rozpočet";

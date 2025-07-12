@@ -226,6 +226,7 @@
 "copy_button" = "Αντιγραφή";
 "edit_account_button" = "Επεξεργασία λογαριασμού";
 "edit_category_button" = "Επεξεργασία κατηγορίας";
+"edit_category_group_button" = "Επεξεργασία φακέλου";
 "edit_payee_button" = "Επεξεργασία δικαιούχου πληρωμής";
 "edit_tag_button" = "Επεξεργασία ετικέτας";
 "edit_budget_button" = "Επεξεργασία προϋπολογισμού";

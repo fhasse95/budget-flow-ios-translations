@@ -226,6 +226,7 @@
 "copy_button" = "Kopyala";
 "edit_account_button" = "Hesabı düzenle";
 "edit_category_button" = "Kategoriyi düzenle";
+"edit_category_group_button" = "Klasörü Düzenle";
 "edit_payee_button" = "Alacaklıyı düzenle";
 "edit_tag_button" = "Etiketi Düzenle";
 "edit_budget_button" = "Bütçeyi düzenle";

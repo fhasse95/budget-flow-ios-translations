@@ -226,6 +226,7 @@
 "copy_button" = "Másolás";
 "edit_account_button" = "Fiók szerkesztése";
 "edit_category_button" = "Kategória szerkesztése";
+"edit_category_group_button" = "Mappa szerkesztése";
 "edit_payee_button" = "Kedvezményezett szerkesztése";
 "edit_tag_button" = "Címke szerkesztése";
 "edit_budget_button" = "Költségkeret szerkesztése";

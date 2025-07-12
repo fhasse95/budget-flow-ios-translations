@@ -226,6 +226,7 @@
 "copy_button" = "Copier";
 "edit_account_button" = "Modifier le compte";
 "edit_category_button" = "Modifier la catégorie";
+"edit_category_group_button" = "Modifier le dossier";
 "edit_payee_button" = "Modifier le bénéficiaire";
 "edit_tag_button" = "Modifier la balise";
 "edit_budget_button" = "Modifier le budget";

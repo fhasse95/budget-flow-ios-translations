@@ -226,6 +226,7 @@
 "copy_button" = "복사";
 "edit_account_button" = "계좌 편집";
 "edit_category_button" = "카테고리 편집";
+"edit_category_group_button" = "폴더 편집";
 "edit_payee_button" = "수취인 편집";
 "edit_tag_button" = "태그 편집";
 "edit_budget_button" = "예산 수정";

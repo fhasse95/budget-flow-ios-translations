@@ -226,6 +226,7 @@
 "copy_button" = "Sao chép";
 "edit_account_button" = "Sửa Ví";
 "edit_category_button" = "Sửa Danh mục";
+"edit_category_group_button" = "Chỉnh sửa thư mục";
 "edit_payee_button" = "Sửa Người nhận";
 "edit_tag_button" = "Chỉnh sửa nhãn";
 "edit_budget_button" = "Sửa ngân sách";

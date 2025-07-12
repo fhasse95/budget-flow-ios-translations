@@ -226,6 +226,7 @@
 "copy_button" = "複製";
 "edit_account_button" = "編輯帳戶";
 "edit_category_button" = "編輯類別";
+"edit_category_group_button" = "編輯資料夾";
 "edit_payee_button" = "編輯收款人";
 "edit_tag_button" = "編輯標籤";
 "edit_budget_button" = "編輯預算";

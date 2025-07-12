@@ -226,6 +226,7 @@
 "copy_button" = "Copiere";
 "edit_account_button" = "Editați contul";
 "edit_category_button" = "Editați categoria";
+"edit_category_group_button" = "Editați dosar";
 "edit_payee_button" = "Editați beneficiarul";
 "edit_tag_button" = "Editați eticheta";
 "edit_budget_button" = "Editați bugetul";

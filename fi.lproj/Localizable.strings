@@ -226,6 +226,7 @@
 "copy_button" = "Kopioi";
 "edit_account_button" = "Muokkaa tiliä";
 "edit_category_button" = "Muokkaa luokkaa";
+"edit_category_group_button" = "Muokkaa kansiota";
 "edit_payee_button" = "Muokkaa maksunsaajaa";
 "edit_tag_button" = "Muokkaa tunnistetta";
 "edit_budget_button" = "Muokkaa budjettia";

@@ -613,7 +613,8 @@
 "appearance_setting_info_title" = "Opis";
 "appearance_setting_info_description" = "Prilagodite aplikacijo svojim željam s spreminjanjem videza aplikacije ali poudarne barve.";
 "appearance_ui_style_setting_section_title" = "Tema";
-"appearance_ui_style_setting_footer_title" = "Spremeni videz aplikacije.";
+"appearance_ui_style_apply_to_icons_title" = "Uporabi za ikone";
+"appearance_ui_style_apply_to_icons_description" = "Uporabi izbran videz tudi za vse ikone v aplikaciji.";
 "appearance_accent_color_setting_section_title" = "Poudarna barva";
 "appearance_accent_color_setting_footer_title" = "Spremeni barvo gumbov in drugih kontrolnikov v aplikaciji.";
 "appearance_app_icon_setting_section_title" = "Ikona aplikacije";

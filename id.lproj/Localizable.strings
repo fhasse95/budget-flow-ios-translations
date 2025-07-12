@@ -613,7 +613,8 @@
 "appearance_setting_info_title" = "Deskripsi";
 "appearance_setting_info_description" = "Personalisasikan aplikasi sesuai keinginan Anda dengan mengubah tampilan atau warna aksen aplikasi.";
 "appearance_ui_style_setting_section_title" = "Tema";
-"appearance_ui_style_setting_footer_title" = "Mengubah tampilan app.";
+"appearance_ui_style_apply_to_icons_title" = "Terapkan ke Ikon";
+"appearance_ui_style_apply_to_icons_description" = "Terapkan tampilan yang dipilih ke semua ikon dalam aplikasi.";
 "appearance_accent_color_setting_section_title" = "Warna Aksen";
 "appearance_accent_color_setting_footer_title" = "Mengubah warna tombol dan kontrol lain di dalam aplikasi.";
 "appearance_app_icon_setting_section_title" = "Ikon Aplikasi";

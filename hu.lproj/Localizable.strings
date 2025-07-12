@@ -613,7 +613,8 @@
 "appearance_setting_info_title" = "Leírás";
 "appearance_setting_info_description" = "Személyre szabhatja az alkalmazást az alkalmazás megjelenésének vagy kiemelő színének módosításával.";
 "appearance_ui_style_setting_section_title" = "Téma";
-"appearance_ui_style_setting_footer_title" = "Módosítja az alkalmazás megjelenését.";
+"appearance_ui_style_apply_to_icons_title" = "Alkalmazás ikonokra";
+"appearance_ui_style_apply_to_icons_description" = "Alkalmazza a kiválasztott megjelenést az alkalmazás összes ikonjára is.";
 "appearance_accent_color_setting_section_title" = "Kiemelési szín";
 "appearance_accent_color_setting_footer_title" = "Módosítja a gombok és egyéb vezérlők színét az alkalmazáson belül.";
 "appearance_app_icon_setting_section_title" = "Alkalmazásikon";

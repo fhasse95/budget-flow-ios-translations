@@ -613,7 +613,8 @@
 "appearance_setting_info_title" = "설명";
 "appearance_setting_info_description" = "아이콘이나 색상을 원하는 디자인으로 이용해보세요";
 "appearance_ui_style_setting_section_title" = "테마";
-"appearance_ui_style_setting_footer_title" = "앱의 아이콘을 변경합니다.";
+"appearance_ui_style_apply_to_icons_title" = "아이콘에 적용";
+"appearance_ui_style_apply_to_icons_description" = "선택한 외관을 앱의 모든 아이콘에 적용합니다.";
 "appearance_accent_color_setting_section_title" = "색상";
 "appearance_accent_color_setting_footer_title" = "앱 내 버튼 및 기타 컨트롤의 색상을 변경합니다.";
 "appearance_app_icon_setting_section_title" = "앱 아이콘";

@@ -613,7 +613,8 @@
 "appearance_setting_info_title" = "Descriere";
 "appearance_setting_info_description" = "Personalizați aplicația după bunul plac, schimbând aspectul sau culoarea de accent a aplicației.";
 "appearance_ui_style_setting_section_title" = "Temă";
-"appearance_ui_style_setting_footer_title" = "Modifică aspectul aplicației.";
+"appearance_ui_style_apply_to_icons_title" = "Aplică la pictograme";
+"appearance_ui_style_apply_to_icons_description" = "Aplică și stilul selectat tuturor pictogramelor din aplicație.";
 "appearance_accent_color_setting_section_title" = "Culoarea accentului";
 "appearance_accent_color_setting_footer_title" = "Modifică culoarea butoanelor și a altor comenzi din aplicație.";
 "appearance_app_icon_setting_section_title" = "Pictogramă aplicație";

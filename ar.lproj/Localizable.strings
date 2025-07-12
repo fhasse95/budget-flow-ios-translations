@@ -613,7 +613,8 @@
 "appearance_setting_info_title" = "الوصف";
 "appearance_setting_info_description" = "قم بتخصيص التطبيق حسب رغبتك عن طريق تغيير مظهره أو لون التمييز.";
 "appearance_ui_style_setting_section_title" = "السمة";
-"appearance_ui_style_setting_footer_title" = "يغير مظهر التطبيق.";
+"appearance_ui_style_apply_to_icons_title" = "تطبيق على الأيقونات";
+"appearance_ui_style_apply_to_icons_description" = "قم بتطبيق المظهر المحدد أيضًا على جميع الأيقونات داخل التطبيق.";
 "appearance_accent_color_setting_section_title" = "لون التمييز";
 "appearance_accent_color_setting_footer_title" = "تغيير لون الأزرار وعناصر التحكم الأخرى في التطبيق.";
 "appearance_app_icon_setting_section_title" = "رمز التطبيق";

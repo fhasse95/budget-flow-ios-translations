@@ -613,7 +613,8 @@
 "appearance_setting_info_title" = "Beskrivning";
 "appearance_setting_info_description" = "Anpassa appen efter eget tycke genom att ändra appens utseende eller accentfärg.";
 "appearance_ui_style_setting_section_title" = "Tema";
-"appearance_ui_style_setting_footer_title" = "Ändrar appens utseende.";
+"appearance_ui_style_apply_to_icons_title" = "Tillämpa på ikoner";
+"appearance_ui_style_apply_to_icons_description" = "Tillämpa även det valda utseendet på alla ikoner i appen.";
 "appearance_accent_color_setting_section_title" = "Accentfärg";
 "appearance_accent_color_setting_footer_title" = "Ändrar färgen på knappar och andra kontroller i appen.";
 "appearance_app_icon_setting_section_title" = "Appikon";

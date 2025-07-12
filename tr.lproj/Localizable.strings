@@ -613,7 +613,8 @@
 "appearance_setting_info_title" = "Açıklama";
 "appearance_setting_info_description" = "Uygulamanın görünümünü veya vurgu rengini değiştirerek uygulamayı beğeninize göre kişiselleştirin.";
 "appearance_ui_style_setting_section_title" = "Tema";
-"appearance_ui_style_setting_footer_title" = "Uygulamanın görünümünü değiştirir.";
+"appearance_ui_style_apply_to_icons_title" = "Simgelere Uygula";
+"appearance_ui_style_apply_to_icons_description" = "Seçilen görünümü uygulamadaki tüm simgelere de uygula.";
 "appearance_accent_color_setting_section_title" = "Vurgu Rengi";
 "appearance_accent_color_setting_footer_title" = "Uygulama içindeki düğmelerin ve diğer kontrollerin rengini değiştirir.";
 "appearance_app_icon_setting_section_title" = "Uygulama Simgesi";

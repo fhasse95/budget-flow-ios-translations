@@ -613,7 +613,8 @@
 "appearance_setting_info_title" = "Descripción";
 "appearance_setting_info_description" = "Personaliza la app a tu gusto cambiando la apariencia o el color de acento.";
 "appearance_ui_style_setting_section_title" = "Tema";
-"appearance_ui_style_setting_footer_title" = "Cambia la apariencia de la app.";
+"appearance_ui_style_apply_to_icons_title" = "Aplicar a los iconos";
+"appearance_ui_style_apply_to_icons_description" = "Aplicar también la apariencia seleccionada a todos los iconos de la app.";
 "appearance_accent_color_setting_section_title" = "Color de acento";
 "appearance_accent_color_setting_footer_title" = "Cambia el color de los botones y otros controles dentro de la app.";
 "appearance_app_icon_setting_section_title" = "Icono de la app";

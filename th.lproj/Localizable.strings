@@ -613,7 +613,8 @@
 "appearance_setting_info_title" = "คำอธิบาย";
 "appearance_setting_info_description" = "ปรับแต่งแอพฯ ตามที่คุณต้องการโดยการเปลี่ยนรูปลักษณ์หรือสีที่ถูกเน้นของแอพ";
 "appearance_ui_style_setting_section_title" = "ธีม";
-"appearance_ui_style_setting_footer_title" = "เปลี่ยนรูปลักษณ์ของแอป";
+"appearance_ui_style_apply_to_icons_title" = "ใช้กับไอคอน";
+"appearance_ui_style_apply_to_icons_description" = "ใช้ลักษณะที่เลือกกับไอคอนทั้งหมดในแอปด้วย";
 "appearance_accent_color_setting_section_title" = "สีเน้น";
 "appearance_accent_color_setting_footer_title" = "เปลี่ยนสีของปุ่มและการควบคุมอื่นๆ ภายในแอป";
 "appearance_app_icon_setting_section_title" = "ไอคอนแอป";

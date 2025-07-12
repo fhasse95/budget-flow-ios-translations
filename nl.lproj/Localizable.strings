@@ -613,7 +613,8 @@
 "appearance_setting_info_title" = "Beschrijving";
 "appearance_setting_info_description" = "Personaliseer de app naar wens door het uiterlijk of de accentkleur van de app te wijzigen.";
 "appearance_ui_style_setting_section_title" = "Thema";
-"appearance_ui_style_setting_footer_title" = "Wijzigt het uiterlijk van de app.";
+"appearance_ui_style_apply_to_icons_title" = "Toepassen op pictogrammen";
+"appearance_ui_style_apply_to_icons_description" = "Pas het geselecteerde uiterlijk ook toe op alle pictogrammen in de app.";
 "appearance_accent_color_setting_section_title" = "Accentkleur";
 "appearance_accent_color_setting_footer_title" = "Wijzigt de kleur van knoppen en andere bedieningselementen in de app.";
 "appearance_app_icon_setting_section_title" = "App-pictogram";

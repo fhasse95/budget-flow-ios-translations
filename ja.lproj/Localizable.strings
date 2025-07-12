@@ -613,7 +613,8 @@
 "appearance_setting_info_title" = "説明";
 "appearance_setting_info_description" = "アプリの外観やアクセントカラーを変更して、アプリを好みに合わせてカスタマイズします。";
 "appearance_ui_style_setting_section_title" = "テーマ";
-"appearance_ui_style_setting_footer_title" = "アプリの外観を変更します。";
+"appearance_ui_style_apply_to_icons_title" = "アイコンに適用";
+"appearance_ui_style_apply_to_icons_description" = "選択した外観をアプリ内のすべてのアイコンにも適用します。";
 "appearance_accent_color_setting_section_title" = "アクセントカラー";
 "appearance_accent_color_setting_footer_title" = "アプリ内のボタンやその他のコントロールの色を変更します。";
 "appearance_app_icon_setting_section_title" = "アプリアイコン";

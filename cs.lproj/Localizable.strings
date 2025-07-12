@@ -613,7 +613,8 @@
 "appearance_setting_info_title" = "Popis";
 "appearance_setting_info_description" = "Přizpůsobte si aplikaci podle svých představ změnou vzhledu aplikace nebo barvy zvýraznění.";
 "appearance_ui_style_setting_section_title" = "Motiv";
-"appearance_ui_style_setting_footer_title" = "Změní vzhled aplikace.";
+"appearance_ui_style_apply_to_icons_title" = "Použít na ikony";
+"appearance_ui_style_apply_to_icons_description" = "Použít zvolený vzhled i na všechny ikony v aplikaci.";
 "appearance_accent_color_setting_section_title" = "Barva zvýraznění";
 "appearance_accent_color_setting_footer_title" = "Změní barvu tlačítek a dalších ovládacích prvků v aplikaci.";
 "appearance_app_icon_setting_section_title" = "Ikona aplikace";

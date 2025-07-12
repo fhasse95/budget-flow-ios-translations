@@ -613,7 +613,8 @@
 "appearance_setting_info_title" = "Описание";
 "appearance_setting_info_description" = "Настройте приложение по своему вкусу, изменив его внешний вид или цвет акцента.";
 "appearance_ui_style_setting_section_title" = "Тема";
-"appearance_ui_style_setting_footer_title" = "Изменяет внешний вид приложения.";
+"appearance_ui_style_apply_to_icons_title" = "Применить к иконкам";
+"appearance_ui_style_apply_to_icons_description" = "Также применить выбранный стиль ко всем иконкам в приложении.";
 "appearance_accent_color_setting_section_title" = "Акцентный цвет";
 "appearance_accent_color_setting_footer_title" = "Изменяет цвет кнопок и других элементов управления в приложении.";
 "appearance_app_icon_setting_section_title" = "Значок приложения";

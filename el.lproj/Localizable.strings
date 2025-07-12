@@ -613,7 +613,8 @@
 "appearance_setting_info_title" = "Περιγραφή";
 "appearance_setting_info_description" = "Εξατομικεύστε την εφαρμογή σύμφωνα με τις προτιμήσεις σας αλλάζοντας την εμφάνιση ή το χρώμα έμφασης της εφαρμογής.";
 "appearance_ui_style_setting_section_title" = "Θέμα";
-"appearance_ui_style_setting_footer_title" = "Αλλάζει την εμφάνιση της εφαρμογής.";
+"appearance_ui_style_apply_to_icons_title" = "Εφαρμογή στα εικονίδια";
+"appearance_ui_style_apply_to_icons_description" = "Εφαρμόστε επίσης την επιλεγμένη εμφάνιση σε όλα τα εικονίδια της εφαρμογής.";
 "appearance_accent_color_setting_section_title" = "Χρώμα έμφασης";
 "appearance_accent_color_setting_footer_title" = "Αλλάζει το χρώμα των κουμπιών και άλλων στοιχείων ελέγχου εντός της εφαρμογής.";
 "appearance_app_icon_setting_section_title" = "Εικονίδιο εφαρμογής";

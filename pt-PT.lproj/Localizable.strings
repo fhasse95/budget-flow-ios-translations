@@ -613,7 +613,8 @@
 "appearance_setting_info_title" = "Descrição";
 "appearance_setting_info_description" = "Personaliza a aplicação ao teu gosto, alterando a aparência ou a cor de destaque da aplicação.";
 "appearance_ui_style_setting_section_title" = "Tema";
-"appearance_ui_style_setting_footer_title" = "Altera a aparência da aplicação.";
+"appearance_ui_style_apply_to_icons_title" = "Aplicar aos ícones";
+"appearance_ui_style_apply_to_icons_description" = "Aplicar também a aparência selecionada a todos os ícones da aplicação.";
 "appearance_accent_color_setting_section_title" = "Cor de destaque";
 "appearance_accent_color_setting_footer_title" = "Altera a cor dos botões e outros controlos dentro da aplicação.";
 "appearance_app_icon_setting_section_title" = "Ícone da aplicação";

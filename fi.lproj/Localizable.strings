@@ -613,7 +613,8 @@
 "appearance_setting_info_title" = "Kuvaus";
 "appearance_setting_info_description" = "Personoi sovellus mieleiseksesi muuttamalla sovelluksen ulkoasua tai korostusväriä.";
 "appearance_ui_style_setting_section_title" = "Teema";
-"appearance_ui_style_setting_footer_title" = "Muuttaa sovelluksen ulkonäköä.";
+"appearance_ui_style_apply_to_icons_title" = "Käytä kuvakkeisiin";
+"appearance_ui_style_apply_to_icons_description" = "Käytä valittua ulkoasua myös sovelluksen kaikkiin kuvakkeisiin.";
 "appearance_accent_color_setting_section_title" = "Aksenttiväri";
 "appearance_accent_color_setting_footer_title" = "Muuttaa painikkeiden ja muiden säätimien väriä sovelluksessa.";
 "appearance_app_icon_setting_section_title" = "Sovelluskuvake";

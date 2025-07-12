@@ -613,7 +613,8 @@
 "appearance_setting_info_title" = "描述";
 "appearance_setting_info_description" = "通过更改应用的外观或强调色来个性化您的应用";
 "appearance_ui_style_setting_section_title" = "主题";
-"appearance_ui_style_setting_footer_title" = "更改应用的外观";
+"appearance_ui_style_apply_to_icons_title" = "应用到图标";
+"appearance_ui_style_apply_to_icons_description" = "将所选外观应用到应用中的所有图标。";
 "appearance_accent_color_setting_section_title" = "强调色";
 "appearance_accent_color_setting_footer_title" = "更改应用内按钮和其他控件的颜色";
 "appearance_app_icon_setting_section_title" = "应用图标";

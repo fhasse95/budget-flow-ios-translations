@@ -29,7 +29,7 @@
 
 /* MARK: - Enums */
 "account_type_cash" = "Cash";
-"account_type_payment" = "Checking Account";
+"account_type_payment" = "Current Account";
 "account_type_savings" = "Savings Account";
 "account_type_credit_card" = "Credit Card";
 "account_type_investment" = "Investment";
@@ -37,7 +37,7 @@
 "account_type_liability" = "Liability";
 "account_type_business" = "Business Account";
 
-"account_type_payment_plural" = "Checking Accounts";
+"account_type_payment_plural" = "Current Accounts";
 "account_type_savings_plural" = "Savings Accounts";
 "account_type_credit_card_plural" = "Credit Cards";
 "account_type_investment_plural" = "Investments";

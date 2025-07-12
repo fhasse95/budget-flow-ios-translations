@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>2.2.0</key>
+	<array>
+		<dict>
+			<key>Title</key>
+			<string>Improved Balance Adjustment</string>
+			<key>Description</key>
+			<string>When you change your account balance manually, a transaction is now created automatically—keeping your history accurate and intact.</string>
+			<key>IconName</key>
+			<string>building.columns</string>
+			<key>IconColor</key>
+			<string>#00a38b</string>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>Customization Support for Icons</string>
+			<key>Description</key>
+			<string>You can now use your own images as icons—whether it’s your bank’s logo for accounts or personal photos for categories.</string>
+			<key>IconName</key>
+			<string>photo.on.rectangle.angled</string>
+			<key>IconColor</key>
+			<string>#007aff</string>
+		</dict>
+	</array>
+</dict>
+</plist>

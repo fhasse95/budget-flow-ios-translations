@@ -442,8 +442,8 @@
 "user_has_no_budgets_title" = "Nie masz żadnych budżetów.";
 "user_is_within_budget_title" = "Zmieściłeś się w swoim budżecie! 🎉";
 "user_was_within_budget_title" = "Zmieściłeś się w swoim budżecie! 🎉";
-"user_is_not_within_budget_title" = "Przekraczasz budżet o %d 😢";
-"user_is_not_within_budgets_title" = "Przekroczyłeś %d budżetów 😢";
+"user_is_not_within_budget_title" = "Przekraczasz %d budżet 😢";
+"user_is_not_within_budgets_title" = "Przekroczyłeś %d budżety 😢";
 
 /* Messages */
 "no_budgets_title" = "Brak budżetów";

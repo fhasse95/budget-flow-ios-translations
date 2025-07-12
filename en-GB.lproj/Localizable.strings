@@ -29,7 +29,7 @@
 
 /* MARK: - Enums */
 "account_type_cash" = "Cash";
-"account_type_payment" = "Checking Account";
+"account_type_payment" = "Current Account";
 "account_type_savings" = "Savings Account";
 "account_type_credit_card" = "Credit Card";
 "account_type_investment" = "Investment";
@@ -37,7 +37,7 @@
 "account_type_liability" = "Liability";
 "account_type_business" = "Business Account";
 
-"account_type_payment_plural" = "Checking Accounts";
+"account_type_payment_plural" = "Current Accounts";
 "account_type_savings_plural" = "Savings Accounts";
 "account_type_credit_card_plural" = "Credit Cards";
 "account_type_investment_plural" = "Investments";
@@ -226,7 +226,6 @@
 "copy_button" = "Copy";
 "edit_account_button" = "Edit Account";
 "edit_category_button" = "Edit Category";
-"edit_category_group_button" = "Edit Folder";
 "edit_payee_button" = "Edit Payee";
 "edit_tag_button" = "Edit Tag";
 "edit_budget_button" = "Edit Budget";
@@ -613,8 +612,7 @@
 "appearance_setting_info_title" = "Description";
 "appearance_setting_info_description" = "Personalize the app to your liking by changing the app's appearance or accent color.";
 "appearance_ui_style_setting_section_title" = "Theme";
-"appearance_ui_style_apply_to_icons_title" = "Apply to Icons";
-"appearance_ui_style_apply_to_icons_description" = "Apply the selected appearance to all icons within the app as well.";
+"appearance_ui_style_setting_footer_title" = "Changes the appearance of the app.";
 "appearance_accent_color_setting_section_title" = "Accent Color";
 "appearance_accent_color_setting_footer_title" = "Changes the color of buttons and other controls within the app.";
 "appearance_app_icon_setting_section_title" = "App Icon";

@@ -163,6 +163,10 @@
 "transaction_subtitle_type_payee" = "Kedvezményezett";
 "transaction_subtitle_type_notes" = "Megjegyzések";
 
+"timezone_type_floating" = "Lebegő";
+"timezone_type_floating_title" = "Lebegő időzóna";
+"timezone_type_floating_subtitle" = "Alkalmazkodik a helyi időzónádhoz";
+
 
 /* MARK: - Custom Date Repetition */
 "frequency" = "Frekvencia";
@@ -733,7 +737,8 @@
 "advanced_setting_enable_haptic_keyboard_title" = "Visszajelzés a billentyűzetről";
 "advanced_setting_enable_haptic_keyboard_description" = "Érzékeny visszajelzést kaphat, amikor pénzösszegeket ír be a billentyűzet segítségével.";
 
-"advanced_setting_app_language_title" = "Nyelv";
+"advanced_setting_language_title" = "Nyelv";
+"advanced_setting_timezone_title" = "Időzóna";
 "advanced_setting_enable_live_activities_title" = "Élő tevékenységek";
 "advanced_setting_enable_live_activities_description" = "Tekintse meg aktuális egyenlegét és még sok mást a dinamikus szigeten, valamint a lezárási képernyőn.";
 "advanced_setting_ask_for_feedback_title" = "Visszajelzés kérése";
@@ -1161,6 +1166,15 @@
 /* Sections */
 "source_currency_section_title" = "Feladó";
 "target_currency_section_title" = "Címzett";
+
+
+/* MARK: - Timezone Selection View */
+/* Titles */
+"timezone_selection_title" = "Időzóna";
+
+/* Messages */
+"no_timezones_found_title" = "Nem található időzóna";
+"timezone_selection_search_placeholder_message" = "Keresés ország vagy város időzónája szerint";
 
 
 /* MARK: - Manage Item View */

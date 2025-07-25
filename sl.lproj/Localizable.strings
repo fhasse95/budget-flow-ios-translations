@@ -163,6 +163,10 @@
 "transaction_subtitle_type_payee" = "Prejemnik";
 "transaction_subtitle_type_notes" = "Opombe";
 
+"timezone_type_floating" = "Lebdeči";
+"timezone_type_floating_title" = "Lebdeča časovna cona";
+"timezone_type_floating_subtitle" = "Prilagaja se vaši lokalni časovni coni";
+
 
 /* MARK: - Custom Date Repetition */
 "frequency" = "Pogostost";
@@ -733,7 +737,8 @@
 "advanced_setting_enable_haptic_keyboard_title" = "Povratna informacija tipkovnice";
 "advanced_setting_enable_haptic_keyboard_description" = "Prejmite taktilno povratno informacijo pri vnosu denarnih zneskov s tipkovnico.";
 
-"advanced_setting_app_language_title" = "Jezik";
+"advanced_setting_language_title" = "Jezik";
+"advanced_setting_timezone_title" = "Časovni pas";
 "advanced_setting_enable_live_activities_title" = "Aktivnosti v živo";
 "advanced_setting_enable_live_activities_description" = "Oglejte si svoje trenutno stanje in več na dinamičnem otoku in zaklepnem zaslonu.";
 "advanced_setting_ask_for_feedback_title" = "Obvestilo za povratne informacije";
@@ -1161,6 +1166,15 @@
 /* Sections */
 "source_currency_section_title" = "Od";
 "target_currency_section_title" = "Za";
+
+
+/* MARK: - Timezone Selection View */
+/* Titles */
+"timezone_selection_title" = "Časovni pas";
+
+/* Messages */
+"no_timezones_found_title" = "Ni najdenih časovnih pasov";
+"timezone_selection_search_placeholder_message" = "Išči časovni pas države ali mesta";
 
 
 /* MARK: - Manage Item View */

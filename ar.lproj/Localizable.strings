@@ -163,6 +163,10 @@
 "transaction_subtitle_type_payee" = "المستفيد";
 "transaction_subtitle_type_notes" = "ملاحظات";
 
+"timezone_type_floating" = "عائم";
+"timezone_type_floating_title" = "المنطقة الزمنية العائمة";
+"timezone_type_floating_subtitle" = "تتكيف مع المنطقة الزمنية المحلية الخاصة بك";
+
 
 /* MARK: - Custom Date Repetition */
 "frequency" = "التكرار";
@@ -733,7 +737,8 @@
 "advanced_setting_enable_haptic_keyboard_title" = "استجابة لوحة المفاتيح";
 "advanced_setting_enable_haptic_keyboard_description" = "احصل على ردود فعل لمسية عند إدخال مبلغ باستخدام لوحة المفاتيح.";
 
-"advanced_setting_app_language_title" = "اللغة";
+"advanced_setting_language_title" = "اللغة";
+"advanced_setting_timezone_title" = "المنطقة الزمنية";
 "advanced_setting_enable_live_activities_title" = "النشاط المباشر";
 "advanced_setting_enable_live_activities_description" = "إظهار الرصيد الحالي والمعلومات الأخرى في Dynamic Island وعلى شاشة القفل.";
 "advanced_setting_ask_for_feedback_title" = "اطلب تعليقات";
@@ -1161,6 +1166,15 @@
 /* Sections */
 "source_currency_section_title" = "من";
 "target_currency_section_title" = "إلى";
+
+
+/* MARK: - Timezone Selection View */
+/* Titles */
+"timezone_selection_title" = "المنطقة الزمنية";
+
+/* Messages */
+"no_timezones_found_title" = "لم يتم العثور على مناطق زمنية";
+"timezone_selection_search_placeholder_message" = "ابحث عن المنطقة الزمنية لبلد أو مدينة";
 
 
 /* MARK: - Manage Item View */

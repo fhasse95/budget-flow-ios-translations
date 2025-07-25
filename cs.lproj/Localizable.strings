@@ -163,6 +163,10 @@
 "transaction_subtitle_type_payee" = "Příjemce";
 "transaction_subtitle_type_notes" = "Poznámky";
 
+"timezone_type_floating" = "Plovoucí";
+"timezone_type_floating_title" = "Plovoucí časové pásmo";
+"timezone_type_floating_subtitle" = "Přizpůsobuje se vaší místní časové zóně";
+
 
 /* MARK: - Custom Date Repetition */
 "frequency" = "Frekvence";
@@ -733,7 +737,8 @@
 "advanced_setting_enable_haptic_keyboard_title" = "Zpětná vazba na klávesnici";
 "advanced_setting_enable_haptic_keyboard_description" = "Získejte hmatovou odezvu při zadávání peněžních částek pomocí klávesnice.";
 
-"advanced_setting_app_language_title" = "Jazyk";
+"advanced_setting_language_title" = "Jazyk";
+"advanced_setting_timezone_title" = "Časové pásmo";
 "advanced_setting_enable_live_activities_title" = "Živé aktivity";
 "advanced_setting_enable_live_activities_description" = "Podívejte se na svůj aktuální zůstatek a další informace na dynamickém ostrově a také na zamykací obrazovce.";
 "advanced_setting_ask_for_feedback_title" = "Požádat o zpětnou vazbu";
@@ -1161,6 +1166,15 @@
 /* Sections */
 "source_currency_section_title" = "Od";
 "target_currency_section_title" = "Komu";
+
+
+/* MARK: - Timezone Selection View */
+/* Titles */
+"timezone_selection_title" = "Časové pásmo";
+
+/* Messages */
+"no_timezones_found_title" = "Nenalezena žádná časová pásma";
+"timezone_selection_search_placeholder_message" = "Vyhledejte časové pásmo země nebo města";
 
 
 /* MARK: - Manage Item View */

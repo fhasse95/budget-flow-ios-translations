@@ -163,6 +163,10 @@
 "transaction_subtitle_type_payee" = "Beneficiario";
 "transaction_subtitle_type_notes" = "Note";
 
+"timezone_type_floating" = "Mobile";
+"timezone_type_floating_title" = "Fuso orario mobile";
+"timezone_type_floating_subtitle" = "Si adatta al tuo fuso orario locale";
+
 
 /* MARK: - Custom Date Repetition */
 "frequency" = "Frequenza";
@@ -733,7 +737,8 @@
 "advanced_setting_enable_haptic_keyboard_title" = "Feedback da tastiera";
 "advanced_setting_enable_haptic_keyboard_description" = "Ricevi un feedback tattile quando digiti un importo sulla tastiera.";
 
-"advanced_setting_app_language_title" = "Lingua";
+"advanced_setting_language_title" = "Lingua";
+"advanced_setting_timezone_title" = "Fuso orario";
 "advanced_setting_enable_live_activities_title" = "Attività dal vivo";
 "advanced_setting_enable_live_activities_description" = "Visualizza il tuo saldo attuale e altro ancora sull'isola dinamica e sulla schermata di blocco.";
 "advanced_setting_ask_for_feedback_title" = "Chiedi feedback";
@@ -1161,6 +1166,15 @@
 /* Sections */
 "source_currency_section_title" = "Da";
 "target_currency_section_title" = "A";
+
+
+/* MARK: - Timezone Selection View */
+/* Titles */
+"timezone_selection_title" = "Fuso orario";
+
+/* Messages */
+"no_timezones_found_title" = "Nessun fuso orario trovato";
+"timezone_selection_search_placeholder_message" = "Cerca il fuso orario di un paese o di una città";
 
 
 /* MARK: - Manage Item View */

@@ -163,6 +163,10 @@
 "transaction_subtitle_type_payee" = "受取人";
 "transaction_subtitle_type_notes" = "メモ";
 
+"timezone_type_floating" = "フローティング";
+"timezone_type_floating_title" = "フローティングタイムゾーン";
+"timezone_type_floating_subtitle" = "ローカルのタイムゾーンに合わせて調整";
+
 
 /* MARK: - Custom Date Repetition */
 "frequency" = "頻度";
@@ -733,7 +737,8 @@
 "advanced_setting_enable_haptic_keyboard_title" = "キーボード フィードバック";
 "advanced_setting_enable_haptic_keyboard_description" = "キーボードでお金を入力するときに触覚フィードバックを取得するには、この機能をオンにします。";
 
-"advanced_setting_app_language_title" = "言語";
+"advanced_setting_language_title" = "言語";
+"advanced_setting_timezone_title" = "タイムゾーン";
 "advanced_setting_enable_live_activities_title" = "Live-Activities";
 "advanced_setting_enable_live_activities_description" = "現在の残高などを dynamic island およびロック画面で確認するには、この機能を有効にします。";
 "advanced_setting_ask_for_feedback_title" = "フィードバックを求める";
@@ -1161,6 +1166,15 @@
 /* Sections */
 "source_currency_section_title" = "From";
 "target_currency_section_title" = "宛先";
+
+
+/* MARK: - Timezone Selection View */
+/* Titles */
+"timezone_selection_title" = "タイムゾーン";
+
+/* Messages */
+"no_timezones_found_title" = "タイムゾーンが見つかりません";
+"timezone_selection_search_placeholder_message" = "国または都市のタイムゾーンを検索";
 
 
 /* MARK: - Manage Item View */

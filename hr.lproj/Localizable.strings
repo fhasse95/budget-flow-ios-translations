@@ -163,6 +163,10 @@
 "transaction_subtitle_type_payee" = "Primatelj uplate";
 "transaction_subtitle_type_notes" = "Napomene";
 
+"timezone_type_floating" = "Pokretna";
+"timezone_type_floating_title" = "Pokretna vremenska zona";
+"timezone_type_floating_subtitle" = "Prilagođava se vašoj lokalnoj vremenskoj zoni";
+
 
 /* MARK: - Custom Date Repetition */
 "frequency" = "Frekvencija";
@@ -733,7 +737,8 @@
 "advanced_setting_enable_haptic_keyboard_title" = "Povratne informacije tipkovnice";
 "advanced_setting_enable_haptic_keyboard_description" = "Dobijte dodirne povratne informacije prilikom unosa novčanih iznosa pomoću tipkovnice.";
 
-"advanced_setting_app_language_title" = "Jezik";
+"advanced_setting_language_title" = "Jezik";
+"advanced_setting_timezone_title" = "Vremenska zona";
 "advanced_setting_enable_live_activities_title" = "Aktivnosti uživo";
 "advanced_setting_enable_live_activities_description" = "Pogledajte svoj trenutni saldo i više na dinamičnom otoku kao i na zaključanom zaslonu.";
 "advanced_setting_ask_for_feedback_title" = "Traži povratne informacije";
@@ -1161,6 +1166,15 @@
 /* Sections */
 "source_currency_section_title" = "Od";
 "target_currency_section_title" = "Do";
+
+
+/* MARK: - Timezone Selection View */
+/* Titles */
+"timezone_selection_title" = "Vremenska zona";
+
+/* Messages */
+"no_timezones_found_title" = "Nema pronađenih vremenskih zona";
+"timezone_selection_search_placeholder_message" = "Pretraži vremensku zonu države ili grada";
 
 
 /* MARK: - Manage Item View */

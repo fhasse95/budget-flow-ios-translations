@@ -163,6 +163,10 @@
 "transaction_subtitle_type_payee" = "Betalningsmottagare";
 "transaction_subtitle_type_notes" = "Anteckningar";
 
+"timezone_type_floating" = "Flytande";
+"timezone_type_floating_title" = "Flytande tidszon";
+"timezone_type_floating_subtitle" = "Anpassar sig till din lokala tidszon";
+
 
 /* MARK: - Custom Date Repetition */
 "frequency" = "Frekvens";
@@ -733,7 +737,8 @@
 "advanced_setting_enable_haptic_keyboard_title" = "Tangentbordsfeedback";
 "advanced_setting_enable_haptic_keyboard_description" = "Få haptisk feedback när du anger monetära belopp med tangentbordet.";
 
-"advanced_setting_app_language_title" = "Språk";
+"advanced_setting_language_title" = "Språk";
+"advanced_setting_timezone_title" = "Tidszon";
 "advanced_setting_enable_live_activities_title" = "Live-aktiviteter";
 "advanced_setting_enable_live_activities_description" = "Se ditt nuvarande saldo och mer på den dynamiska ön samt låsskärmen.";
 "advanced_setting_ask_for_feedback_title" = "Be om feedback";
@@ -1161,6 +1166,15 @@
 /* Sections */
 "source_currency_section_title" = "Från";
 "target_currency_section_title" = "Till";
+
+
+/* MARK: - Timezone Selection View */
+/* Titles */
+"timezone_selection_title" = "Tidszon";
+
+/* Messages */
+"no_timezones_found_title" = "Inga tidszoner hittades";
+"timezone_selection_search_placeholder_message" = "Sök efter en tidszon för ett land eller en stad";
 
 
 /* MARK: - Manage Item View */

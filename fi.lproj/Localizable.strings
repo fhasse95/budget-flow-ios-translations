@@ -163,6 +163,10 @@
 "transaction_subtitle_type_payee" = "Maksunsaaja";
 "transaction_subtitle_type_notes" = "Huomautukset";
 
+"timezone_type_floating" = "Liikkuva";
+"timezone_type_floating_title" = "Liikkuva aikavyöhyke";
+"timezone_type_floating_subtitle" = "Säätää paikalliseen aikavyöhykkeeseesi";
+
 
 /* MARK: - Custom Date Repetition */
 "frequency" = "Taajuus";
@@ -733,7 +737,8 @@
 "advanced_setting_enable_haptic_keyboard_title" = "Näppäimistöpalaute";
 "advanced_setting_enable_haptic_keyboard_description" = "Saa haptista palautetta syöttäessäsi rahasummia näppäimistöllä.";
 
-"advanced_setting_app_language_title" = "Kieli";
+"advanced_setting_language_title" = "Kieli";
+"advanced_setting_timezone_title" = "Aikavyöhyke";
 "advanced_setting_enable_live_activities_title" = "Live-aktiviteetit";
 "advanced_setting_enable_live_activities_description" = "Katso nykyinen saldosi ja paljon muuta dynaamisella saarella sekä lukitusnäytöllä.";
 "advanced_setting_ask_for_feedback_title" = "Pyydä palautetta";
@@ -1161,6 +1166,15 @@
 /* Sections */
 "source_currency_section_title" = "Lähettäjä";
 "target_currency_section_title" = "Vastaanottaja";
+
+
+/* MARK: - Timezone Selection View */
+/* Titles */
+"timezone_selection_title" = "Aikavyöhyke";
+
+/* Messages */
+"no_timezones_found_title" = "Aikavyöhykkeitä ei löytynyt";
+"timezone_selection_search_placeholder_message" = "Etsi maan tai kaupungin aikavyöhyke";
 
 
 /* MARK: - Manage Item View */

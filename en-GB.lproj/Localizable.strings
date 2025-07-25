@@ -163,6 +163,10 @@
 "transaction_subtitle_type_payee" = "Payee";
 "transaction_subtitle_type_notes" = "Notes";
 
+"timezone_type_floating" = "Floating";
+"timezone_type_floating_title" = "Floating Timezone";
+"timezone_type_floating_subtitle" = "Adjusts to your local timezone";
+
 
 /* MARK: - Custom Date Repetition */
 "frequency" = "Frequency";
@@ -731,7 +735,8 @@
 "advanced_setting_enable_haptic_keyboard_title" = "Keyboard Feedback";
 "advanced_setting_enable_haptic_keyboard_description" = "Get haptic feedback when entering monetary amounts using the numeric keyboard.";
 
-"advanced_setting_app_language_title" = "Language";
+"advanced_setting_language_title" = "Language";
+"advanced_setting_timezone_title" = "Timezone";
 "advanced_setting_enable_live_activities_title" = "Live-Activities";
 "advanced_setting_enable_live_activities_description" = "See your current balance and more on the dynamic island as well as the lock screen.";
 "advanced_setting_ask_for_feedback_title" = "Ask for Feedback";
@@ -1159,6 +1164,15 @@
 /* Sections */
 "source_currency_section_title" = "From";
 "target_currency_section_title" = "To";
+
+
+/* MARK: - Timezone Selection View */
+/* Titles */
+"timezone_selection_title" = "Timezone";
+
+/* Messages */
+"no_timezones_found_title" = "No timezones found";
+"timezone_selection_search_placeholder_message" = "Search for the timezone of a country or city";
 
 
 /* MARK: - Manage Item View */

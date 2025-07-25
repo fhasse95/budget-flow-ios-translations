@@ -163,6 +163,10 @@
 "transaction_subtitle_type_payee" = "收款人";
 "transaction_subtitle_type_notes" = "備註";
 
+"timezone_type_floating" = "浮動";
+"timezone_type_floating_title" = "浮動時區";
+"timezone_type_floating_subtitle" = "會依據您的本地時區調整";
+
 
 /* MARK: - Custom Date Repetition */
 "frequency" = "頻率";
@@ -733,7 +737,8 @@
 "advanced_setting_enable_haptic_keyboard_title" = "鍵盤回饋";
 "advanced_setting_enable_haptic_keyboard_description" = "啟用此功能以在鍵盤上輸入金額時獲得觸覺回饋";
 
-"advanced_setting_app_language_title" = "語言";
+"advanced_setting_language_title" = "語言";
+"advanced_setting_timezone_title" = "時區";
 "advanced_setting_enable_live_activities_title" = "即時活動";
 "advanced_setting_enable_live_activities_description" = "啟用此功能以在靈動島和鎖定畫面上查看您目前的餘額等資訊";
 "advanced_setting_ask_for_feedback_title" = "請求回饋";
@@ -1161,6 +1166,15 @@
 /* Sections */
 "source_currency_section_title" = "來源貨幣";
 "target_currency_section_title" = "目標貨幣";
+
+
+/* MARK: - Timezone Selection View */
+/* Titles */
+"timezone_selection_title" = "時區";
+
+/* Messages */
+"no_timezones_found_title" = "找不到時區";
+"timezone_selection_search_placeholder_message" = "搜尋國家或城市的時區";
 
 
 /* MARK: - Manage Item View */

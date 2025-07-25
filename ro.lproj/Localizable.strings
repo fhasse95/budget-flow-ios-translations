@@ -163,6 +163,10 @@
 "transaction_subtitle_type_payee" = "Beneficiar";
 "transaction_subtitle_type_notes" = "Note";
 
+"timezone_type_floating" = "Plutitoare";
+"timezone_type_floating_title" = "Fus orar plutitor";
+"timezone_type_floating_subtitle" = "Se ajustează fusului tău orar local";
+
 
 /* MARK: - Custom Date Repetition */
 "frequency" = "Frecventa";
@@ -733,7 +737,8 @@
 "advanced_setting_enable_haptic_keyboard_title" = "Feedback de la tastatură";
 "advanced_setting_enable_haptic_keyboard_description" = "Obțineți feedback haptic când introduceți sume monetare folosind tastatura.";
 
-"advanced_setting_app_language_title" = "Limbă";
+"advanced_setting_language_title" = "Limbă";
+"advanced_setting_timezone_title" = "Fus orar";
 "advanced_setting_enable_live_activities_title" = "Live-Activities";
 "advanced_setting_enable_live_activities_description" = "Vedeți soldul actual și multe altele pe insula dinamică, precum și pe ecranul de blocare.";
 "advanced_setting_ask_for_feedback_title" = "Cereți feedback";
@@ -1161,6 +1166,15 @@
 /* Sections */
 "source_currency_section_title" = "De la";
 "target_currency_section_title" = "Către";
+
+
+/* MARK: - Timezone Selection View */
+/* Titles */
+"timezone_selection_title" = "Fus orar";
+
+/* Messages */
+"no_timezones_found_title" = "Nu s-au găsit fusuri orare";
+"timezone_selection_search_placeholder_message" = "Caută fusul orar al unei țări sau oraș";
 
 
 /* MARK: - Manage Item View */

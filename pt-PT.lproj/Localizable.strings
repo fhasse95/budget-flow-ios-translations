@@ -163,6 +163,10 @@
 "transaction_subtitle_type_payee" = "Beneficiário";
 "transaction_subtitle_type_notes" = "Notas";
 
+"timezone_type_floating" = "Flutuante";
+"timezone_type_floating_title" = "Fuso horário flutuante";
+"timezone_type_floating_subtitle" = "Ajusta-se ao seu fuso horário local";
+
 
 /* MARK: - Custom Date Repetition */
 "frequency" = "Frequência";
@@ -733,7 +737,8 @@
 "advanced_setting_enable_haptic_keyboard_title" = "Feedback tátil do teclado";
 "advanced_setting_enable_haptic_keyboard_description" = "Recebe feedback tátil ao inserir valores monetários usando o teclado.";
 
-"advanced_setting_app_language_title" = "Idioma";
+"advanced_setting_language_title" = "Idioma";
+"advanced_setting_timezone_title" = "Fuso horário";
 "advanced_setting_enable_live_activities_title" = "Atividades ao Vivo";
 "advanced_setting_enable_live_activities_description" = "Vê o teu saldo atual e muito mais na Ilha Dinâmica (Dynamic Island), bem como no ecrã de bloqueio.";
 "advanced_setting_ask_for_feedback_title" = "Solicitar feedback";
@@ -1161,6 +1166,15 @@
 /* Sections */
 "source_currency_section_title" = "De";
 "target_currency_section_title" = "Para";
+
+
+/* MARK: - Timezone Selection View */
+/* Titles */
+"timezone_selection_title" = "Fuso horário";
+
+/* Messages */
+"no_timezones_found_title" = "Nenhum fuso horário encontrado";
+"timezone_selection_search_placeholder_message" = "Procura o fuso horário de um país ou de uma cidade";
 
 
 /* MARK: - Manage Item View */

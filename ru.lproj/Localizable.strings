@@ -163,6 +163,10 @@
 "transaction_subtitle_type_payee" = "Получатель платежа";
 "transaction_subtitle_type_notes" = "Примечания";
 
+"timezone_type_floating" = "Плавающий";
+"timezone_type_floating_title" = "Плавающий часовой пояс";
+"timezone_type_floating_subtitle" = "Подстраивается под ваше местное время";
+
 
 /* MARK: - Custom Date Repetition */
 "frequency" = "Частота";
@@ -733,7 +737,8 @@
 "advanced_setting_enable_haptic_keyboard_title" = "Отклик клавиатуры";
 "advanced_setting_enable_haptic_keyboard_description" = "Получать тактильную обратную связь при вводе суммы с клавиатуры.";
 
-"advanced_setting_app_language_title" = "Язык";
+"advanced_setting_language_title" = "Язык";
+"advanced_setting_timezone_title" = "Часовой пояс";
 "advanced_setting_enable_live_activities_title" = "Эфир активности";
 "advanced_setting_enable_live_activities_description" = "Показывать текущий баланс и другие сведения на Dynamic Island, а также на экране блокировки.";
 "advanced_setting_ask_for_feedback_title" = "Попросить оставить отзыв";
@@ -1161,6 +1166,15 @@
 /* Sections */
 "source_currency_section_title" = "От";
 "target_currency_section_title" = "Кому";
+
+
+/* MARK: - Timezone Selection View */
+/* Titles */
+"timezone_selection_title" = "Часовой пояс";
+
+/* Messages */
+"no_timezones_found_title" = "Часовые пояса не найдены";
+"timezone_selection_search_placeholder_message" = "Поиск часового пояса страны или города";
 
 
 /* MARK: - Manage Item View */

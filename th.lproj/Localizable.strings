@@ -163,6 +163,10 @@
 "transaction_subtitle_type_payee" = "ผู้รับเงิน";
 "transaction_subtitle_type_notes" = "หมายเหตุ";
 
+"timezone_type_floating" = "ลอยตัว";
+"timezone_type_floating_title" = "โซนเวลาลอยตัว";
+"timezone_type_floating_subtitle" = "ปรับตามโซนเวลาท้องถิ่นของคุณ";
+
 
 /* MARK: - Custom Date Repetition */
 "frequency" = "ความถี่";
@@ -733,7 +737,8 @@
 "advanced_setting_enable_haptic_keyboard_title" = "การตอบสนองของแป้นพิมพ์";
 "advanced_setting_enable_haptic_keyboard_description" = "รับการตอบสนองแบบสัมผัสเมื่อป้อนจำนวนเงินโดยใช้แป้นพิมพ์";
 
-"advanced_setting_app_language_title" = "ภาษา";
+"advanced_setting_language_title" = "ภาษา";
+"advanced_setting_timezone_title" = "เขตเวลา";
 "advanced_setting_enable_live_activities_title" = "กิจกรรมสด";
 "advanced_setting_enable_live_activities_description" = "ดูยอดคงเหลือปัจจุบันของคุณและอื่นๆ บนเกาะไดนามิกตลอดจนหน้าจอล็อค";
 "advanced_setting_ask_for_feedback_title" = "ขอคำติชม";
@@ -1161,6 +1166,15 @@
 /* Sections */
 "source_currency_section_title" = "จาก";
 "target_currency_section_title" = "ถึง";
+
+
+/* MARK: - Timezone Selection View */
+/* Titles */
+"timezone_selection_title" = "เขตเวลา";
+
+/* Messages */
+"no_timezones_found_title" = "ไม่พบเขตเวลา";
+"timezone_selection_search_placeholder_message" = "ค้นหาเขตเวลาของประเทศหรือเมือง";
 
 
 /* MARK: - Manage Item View */

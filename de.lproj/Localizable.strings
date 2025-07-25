@@ -164,7 +164,7 @@
 "transaction_subtitle_type_notes" = "Notizen";
 
 "timezone_type_floating" = "Fließend";
-"timezone_type_floating_title" = "Fließend Zeitzone";
+"timezone_type_floating_title" = "Fließende Zeitzone";
 "timezone_type_floating_subtitle" = "Passt sich an deine lokale Zeitzone an";
 
 

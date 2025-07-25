@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Abu Dhabi</key>
+	<string>ابو ظبي</string>
+	<key>Accra</key>
+	<string>أكرا</string>
+	<key>Adak</key>
+	<string>آداك</string>
+	<key>Addis Ababa</key>
+	<string>أديس أبابا</string>
+	<key>Adelaide</key>
+	<string>أديلايد</string>
+	<key>Algiers</key>
+	<string>الجزائر</string>
+	<key>Amman</key>
+	<string>عمّان</string>
+	<key>Amsterdam</key>
+	<string>أمستردام</string>
+	<key>Anadyr</key>
+	<string>أنادير</string>
+	<key>Anchorage</key>
+	<string>أنكوريج</string>
+	<key>Ankara</key>
+	<string>أنقره</string>
+	<key>Antananarivo</key>
+	<string>أنتاناناريفو</string>
+	<key>Ashgabat</key>
+	<string>عشق آباد</string>
+	<key>Asmera</key>
+	<string>أسمرا</string>
+	<key>Asuncion</key>
+	<string>أسانسيون</string>
+	<key>Athens</key>
+	<string>أثينا</string>
+	<key>Atlanta</key>
+	<string>أطلنطا</string>
+	<key>Austin</key>
+	<string>أوستن</string>
+	<key>Baghdad</key>
+	<string>بغداد</string>
+	<key>Baku</key>
+	<string>باكو</string>
+	<key>Bamako</key>
+	<string>باماكو</string>
+	<key>Bangkok</key>
+	<string>بانكوك</string>
+	<key>Bangui</key>
+	<string>باني</string>
+	<key>Beijing</key>
+	<string>بكين</string>
+	<key>Beirut</key>
+	<string>بيروت</string>
+	<key>Belgrade</key>
+	<string>بلغراد</string>
+	<key>Berlin</key>
+	<string>برلين</string>
+	<key>Blacksburg</key>
+	<string>بلاكسبيرغ</string>
+	<key>Bogota</key>
+	<string>بوغوتا</string>
+	<key>Boston</key>
+	<string>بوسطن</string>
+	<key>Brasalia</key>
+	<string>برازيليا</string>
+	<key>Bratislava</key>
+	<string>براتيسلافا</string>
+	<key>Bridgetown</key>
+	<string>بريدج تاون</string>
+	<key>Brisbane</key>
+	<string>بريسبان</string>
+	<key>Brussels</key>
+	<string>بروكسل</string>
+	<key>Bucharest</key>
+	<string>بوخارست</string>
+	<key>Budapest</key>
+	<string>بودابست</string>
+	<key>Buenos Aires</key>
+	<string>بوينس ايرس</string>
+	<key>Cairo</key>
+	<string>القاهرة</string>
+	<key>Calgary</key>
+	<string>كالغري</string>
+	<key>Canberra</key>
+	<string>كانبرا</string>
+	<key>Canton</key>
+	<string>كانتون</string>
+	<key>Cape Town</key>
+	<string>كابتون</string>
+	<key>Caracas</key>
+	<string>كراكاس</string>
+	<key>Cardiff</key>
+	<string>كارديف</string>
+	<key>Cayenne</key>
+	<string>كايين</string>
+	<key>Chennai</key>
+	<string>تشيني (مدراس)</string>
+	<key>Chicago</key>
+	<string>شيكاغو</string>
+	<key>Colombo</key>
+	<string>كولومبو</string>
+	<key>Columbus</key>
+	<string>كولومبس</string>
+	<key>Conakry</key>
+	<string>كوناكري</string>
+	<key>Copenhagen</key>
+	<string>كوبنهاغن</string>
+	<key>Cork</key>
+	<string>كورك</string>
+	<key>Cupertino</key>
+	<string>كوبرتينو</string>
+	<key>Dakar</key>
+	<string>داكار</string>
+	<key>Dallas</key>
+	<string>دالاس</string>
+	<key>Damascus</key>
+	<string>دمشق</string>
+	<key>Dar es Salaam</key>
+	<string>دار السلام</string>
+	<key>Darwin</key>
+	<string>داروين</string>
+	<key>Denver</key>
+	<string>دنفر</string>
+	<key>Detroit</key>
+	<string>ديترويت</string>
+	<key>Dhaka</key>
+	<string>داكا</string>
+	<key>Djibouti</key>
+	<string>جيبوتي</string>
+	<key>Doha</key>
+	<string>الدوحة</string>
+	<key>Douala</key>
+	<string>دوالا</string>
+	<key>Dublin</key>
+	<string>دبلن</string>
+	<key>Edinburgh</key>
+	<string>إدنبره</string>
+	<key>Freetown</key>
+	<string>فريتاون</string>
+	<key>Geneva</key>
+	<string>جنيف</string>
+	<key>Georgetown</key>
+	<string>جورج تاون</string>
+	<key>Grytviken</key>
+	<string>غريتفيكن</string>
+	<key>Guam</key>
+	<string>غوام</string>
+	<key>Guatemala</key>
+	<string>غواتيمالا</string>
+	<key>Halifax</key>
+	<string>هالي فاكس</string>
+	<key>Hamburg</key>
+	<string>هامبورغ</string>
+	<key>Hanoi</key>
+	<string>هانوي</string>
+	<key>Harare</key>
+	<string>هاراري</string>
+	<key>Havana</key>
+	<string>هافانا</string>
+	<key>Helsinki</key>
+	<string>هلسنكي</string>
+	<key>Hobart</key>
+	<string>هوبارت</string>
+	<key>Hong Kong</key>
+	<string>هونغ كونغ</string>
+	<key>Honolulu</key>
+	<string>هونولولو</string>
+	<key>Houston</key>
+	<string>هيوستن</string>
+	<key>Indianapolis</key>
+	<string>انديانابوليس</string>
+	<key>Islamabad</key>
+	<string>إسلام أباد</string>
+	<key>Istanbul</key>
+	<string>إسطنبول</string>
+	<key>Jakarta</key>
+	<string>جاكارتا</string>
+	<key>Jerusalem</key>
+	<string>القدس</string>
+	<key>Kabul</key>
+	<string>كابول</string>
+	<key>Kampala</key>
+	<string>كمبالا</string>
+	<key>Katmandu</key>
+	<string>كاتماندو</string>
+	<key>Khartoum</key>
+	<string>الخرطوم</string>
+	<key>Kiev</key>
+	<string>كييف</string>
+	<key>Kinshasa</key>
+	<string>كنشاسا</string>
+	<key>Knoxville</key>
+	<string>نكسفيل</string>
+	<key>Kolkata</key>
+	<string>كالكتا</string>
+	<key>Krasnoyarsk</key>
+	<string>كراسنويارسك</string>
+	<key>Kuala Lumpur</key>
+	<string>كوالالمبور</string>
+	<key>Kuwait</key>
+	<string>الكويت</string>
+	<key>La Paz</key>
+	<string>لاباز</string>
+	<key>Lagos</key>
+	<string>لاغوس</string>
+	<key>Lima</key>
+	<string>ليما</string>
+	<key>Lisbon</key>
+	<string>لشبونة</string>
+	<key>Ljubljana</key>
+	<string>ليوبليانا</string>
+	<key>London</key>
+	<string>لندن</string>
+	<key>Los Angeles</key>
+	<string>لوس أنجلس</string>
+	<key>Luanda</key>
+	<string>لواندا</string>
+	<key>Lusaka</key>
+	<string>لوساكا</string>
+	<key>Madrid</key>
+	<string>مدريد</string>
+	<key>Magadan</key>
+	<string>ماغادان</string>
+	<key>Male</key>
+	<string>مايل</string>
+	<key>Managua</key>
+	<string>ماناغوا</string>
+	<key>Manama</key>
+	<string>المنامة</string>
+	<key>Manchester</key>
+	<string>مانشستر</string>
+	<key>Manila</key>
+	<string>مانيلا</string>
+	<key>Maputo</key>
+	<string>مابوتو</string>
+	<key>Mecca</key>
+	<string>مكة</string>
+	<key>Melbourne</key>
+	<string>ملبورن</string>
+	<key>Memphis</key>
+	<string>ممفيس</string>
+	<key>Mexico City</key>
+	<string>مكسيكو سيتي</string>
+	<key>Miami</key>
+	<string>ميامي</string>
+	<key>Minneapolis</key>
+	<string>مينيابوليس</string>
+	<key>Mogadisho</key>
+	<string>مقديشو</string>
+	<key>Monrovia</key>
+	<string>مونروفيا</string>
+	<key>Montevideo</key>
+	<string>مونتفيديو</string>
+	<key>Montreal</key>
+	<string>مونتريال</string>
+	<key>Moscow</key>
+	<string>موسكو</string>
+	<key>Mumbai</key>
+	<string>مومباي (بومباي)</string>
+	<key>Munich</key>
+	<string>ميونيخ</string>
+	<key>Muscat</key>
+	<string>مسقط</string>
+	<key>Nairobi</key>
+	<string>نيروبي</string>
+	<key>Ndjamena</key>
+	<string>نجامينا</string>
+	<key>New Delhi</key>
+	<string>نيودلهي</string>
+	<key>New York</key>
+	<string>نيويورك</string>
+	<key>Nouakchott</key>
+	<string>نواكشوط</string>
+	<key>Noumea</key>
+	<string>نوميا</string>
+	<key>Novosibirsk</key>
+	<string>نوفوسيبيرسك</string>
+	<key>Nuuk</key>
+	<string>نووك</string>
+	<key>Omsk</key>
+	<string>أومسك</string>
+	<key>Osaka</key>
+	<string>أوساكا</string>
+	<key>Oslo</key>
+	<string>أوسلو</string>
+	<key>Ottawa</key>
+	<string>أوتاوا</string>
+	<key>Ougadougou</key>
+	<string>واغادوغو</string>
+	<key>Pago Pago</key>
+	<string>باغو باغو</string>
+	<key>Panama</key>
+	<string>بنما</string>
+	<key>Paramaribo</key>
+	<string>باراماريبو</string>
+	<key>Paris</key>
+	<string>باريس</string>
+	<key>Perth</key>
+	<string>بيرث</string>
+	<key>Philadelphia</key>
+	<string>فيلادلفيا</string>
+	<key>Phnom Penh</key>
+	<string>بنوم بنه</string>
+	<key>Phoenix</key>
+	<string>فينكس</string>
+	<key>Ponta Delgada</key>
+	<string>بونتا دلغادا</string>
+	<key>Port Louis</key>
+	<string>بورت لويس</string>
+	<key>Port-au-Prince</key>
+	<string>بورت او برينس</string>
+	<key>Portland</key>
+	<string>بورتلاند</string>
+	<key>Prague</key>
+	<string>براغ</string>
+	<key>Pyongyang</key>
+	<string>بيونغ يانغ</string>
+	<key>Quito</key>
+	<string>كويتو</string>
+	<key>Rabat</key>
+	<string>الرباط</string>
+	<key>Rangoon</key>
+	<string>رانغون</string>
+	<key>Recife</key>
+	<string>ريسيف</string>
+	<key>Regina</key>
+	<string>ريجينا</string>
+	<key>Reykjavik</key>
+	<string>ريكيافيك</string>
+	<key>Rio de Janeiro</key>
+	<string>ريو دي جانيرو</string>
+	<key>Riyadh</key>
+	<string>الرياض</string>
+	<key>Rome</key>
+	<string>روما</string>
+	<key>Salt Lake City</key>
+	<string>سولت لايك سيتي</string>
+	<key>San Diego</key>
+	<string>سان دييغو</string>
+	<key>San Francisco</key>
+	<string>سان فرانسيسكو</string>
+	<key>San Jose</key>
+	<string>سان خوسيه</string>
+	<key>San Juan</key>
+	<string>سان خوان</string>
+	<key>San Salvador</key>
+	<string>سان سلفادور</string>
+	<key>Sanaa</key>
+	<string>صنعاء</string>
+	<key>Santiago</key>
+	<string>سانتياغو</string>
+	<key>Santo Domingo</key>
+	<string>سانتو دومنغو</string>
+	<key>Sao Paulo</key>
+	<string>ساو باولو</string>
+	<key>Seattle</key>
+	<string>سياتل</string>
+	<key>Seoul</key>
+	<string>سيول</string>
+	<key>Shanghai</key>
+	<string>شنغهاي</string>
+	<key>Singapore</key>
+	<string>سنغافورة</string>
+	<key>Sofia</key>
+	<string>صوفيا</string>
+	<key>St. John's</key>
+	<string>سانت جونز</string>
+	<key>St. Louis</key>
+	<string>سانت لويس</string>
+	<key>St. Petersburg</key>
+	<string>سانت بيترسبرغ</string>
+	<key>Stockholm</key>
+	<string>ستوكهولم</string>
+	<key>Sydney</key>
+	<string>سيدني</string>
+	<key>Taipei</key>
+	<string>تايبي</string>
+	<key>Tashkent</key>
+	<string>طشقند</string>
+	<key>Tegucigalpa</key>
+	<string>تيغوسي غالبا</string>
+	<key>Tehran</key>
+	<string>طهران</string>
+	<key>Thanh Pho Ho Chi Minh</key>
+	<string>هو تشي منه</string>
+	<key>Tientsin</key>
+	<string>تيانجين</string>
+	<key>Tokyo</key>
+	<string>طوكيو</string>
+	<key>Toronto</key>
+	<string>تورونتو</string>
+	<key>Tripoli</key>
+	<string>طرابلس الغرب</string>
+	<key>Tunis</key>
+	<string>تونس</string>
+	<key>UTC</key>
+	<string>UTC</string>
+	<key>Ulaanbaatar</key>
+	<string>أولان باتور</string>
+	<key>Vancouver</key>
+	<string>فانكوفر</string>
+	<key>Victoria</key>
+	<string>فيكتوريا</string>
+	<key>Vienna</key>
+	<string>فيينا</string>
+	<key>Vladivostok</key>
+	<string>فلاديفوستوك</string>
+	<key>Volgograd</key>
+	<string>فولغوغراد</string>
+	<key>Warsaw</key>
+	<string>وارسو</string>
+	<key>Washington, D.C.</key>
+	<string>واشنطن العاصمة</string>
+	<key>Wellington</key>
+	<string>ويلنغتون</string>
+	<key>Winnipeg</key>
+	<string>وينيبغ</string>
+	<key>Yakutsk</key>
+	<string>ياكوتسك</string>
+	<key>Yekaterinburg</key>
+	<string>ييكاتيرينبرغ</string>
+	<key>Yerevan</key>
+	<string>ياريفان</string>
+	<key>Zagreb</key>
+	<string>زاغرب</string>
+	<key>Zurich</key>
+	<string>زيورخ</string>
+</dict>
+</plist>

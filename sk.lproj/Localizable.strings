@@ -1168,7 +1168,7 @@
 "target_currency_section_title" = "Komu";
 
 
-/* MARK: - Timezone Selection View */
+/* MARK: - Time Zone Selection View */
 /* Titles */
 "timezone_selection_title" = "Časové pásmo";
 

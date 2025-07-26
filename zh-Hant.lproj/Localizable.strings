@@ -1168,7 +1168,7 @@
 "target_currency_section_title" = "目標貨幣";
 
 
-/* MARK: - Timezone Selection View */
+/* MARK: - Time Zone Selection View */
 /* Titles */
 "timezone_selection_title" = "時區";
 

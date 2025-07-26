@@ -164,8 +164,8 @@
 "transaction_subtitle_type_notes" = "Notes";
 
 "timezone_type_floating" = "Floating";
-"timezone_type_floating_title" = "Floating Timezone";
-"timezone_type_floating_subtitle" = "Adjusts to your local timezone";
+"timezone_type_floating_title" = "Floating Time Zone";
+"timezone_type_floating_subtitle" = "Adjusts to your local time zone";
 
 
 /* MARK: - Custom Date Repetition */
@@ -736,7 +736,7 @@
 "advanced_setting_enable_haptic_keyboard_description" = "Get haptic feedback when entering monetary amounts using the numeric keyboard.";
 
 "advanced_setting_language_title" = "Language";
-"advanced_setting_timezone_title" = "Timezone";
+"advanced_setting_timezone_title" = "Time Zone";
 "advanced_setting_enable_live_activities_title" = "Live-Activities";
 "advanced_setting_enable_live_activities_description" = "See your current balance and more on the dynamic island as well as the lock screen.";
 "advanced_setting_ask_for_feedback_title" = "Ask for Feedback";
@@ -1166,13 +1166,13 @@
 "target_currency_section_title" = "To";
 
 
-/* MARK: - Timezone Selection View */
+/* MARK: - Time Zone Selection View */
 /* Titles */
-"timezone_selection_title" = "Timezone";
+"timezone_selection_title" = "Time Zone";
 
 /* Messages */
-"no_timezones_found_title" = "No timezones found";
-"timezone_selection_search_placeholder_message" = "Search for the timezone of a country or city";
+"no_timezones_found_title" = "No time zones found";
+"timezone_selection_search_placeholder_message" = "Search for the time zone of a country or city";
 
 
 /* MARK: - Manage Item View */

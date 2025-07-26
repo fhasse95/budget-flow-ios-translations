@@ -163,9 +163,9 @@
 "transaction_subtitle_type_payee" = "Người nhận";
 "transaction_subtitle_type_notes" = "Ghi chú";
 
-"timezone_type_floating" = "Di động";
-"timezone_type_floating_title" = "Múi giờ di động";
-"timezone_type_floating_subtitle" = "Tự động điều chỉnh theo múi giờ địa phương của bạn";
+"time_zone_type_floating" = "Di động";
+"time_zone_type_floating_title" = "Múi giờ di động";
+"time_zone_type_floating_subtitle" = "Tự động điều chỉnh theo múi giờ địa phương của bạn";
 
 
 /* MARK: - Custom Date Repetition */
@@ -738,7 +738,7 @@
 "advanced_setting_enable_haptic_keyboard_description" = "Nhận phản hồi xúc giác khi nhập số tiền bằng bàn phím.";
 
 "advanced_setting_language_title" = "Ngôn ngữ";
-"advanced_setting_timezone_title" = "Múi giờ";
+"advanced_setting_time_zone_title" = "Múi giờ";
 "advanced_setting_enable_live_activities_title" = "Hoạt động trực tiếp";
 "advanced_setting_enable_live_activities_description" = "Xem số dư hiện tại của bạn và nhiều thông tin khác trên đảo động cũng như màn hình khóa.";
 "advanced_setting_ask_for_feedback_title" = "Yêu cầu phản hồi";
@@ -1170,11 +1170,11 @@
 
 /* MARK: - Time Zone Selection View */
 /* Titles */
-"timezone_selection_title" = "Múi giờ";
+"time_zone_selection_title" = "Múi giờ";
 
 /* Messages */
 "no_timezones_found_title" = "Không tìm thấy múi giờ nào";
-"timezone_selection_search_placeholder_message" = "Tìm kiếm múi giờ của một quốc gia hoặc thành phố";
+"time_zone_selection_search_placeholder_message" = "Tìm kiếm múi giờ của một quốc gia hoặc thành phố";
 
 
 /* MARK: - Manage Item View */

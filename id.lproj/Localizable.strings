@@ -163,9 +163,9 @@
 "transaction_subtitle_type_payee" = "Penerima pembayaran";
 "transaction_subtitle_type_notes" = "Catatan";
 
-"timezone_type_floating" = "Mengambang";
-"timezone_type_floating_title" = "Zona Waktu Mengambang";
-"timezone_type_floating_subtitle" = "Menyesuaikan dengan zona waktu lokal Anda";
+"time_zone_type_floating" = "Mengambang";
+"time_zone_type_floating_title" = "Zona Waktu Mengambang";
+"time_zone_type_floating_subtitle" = "Menyesuaikan dengan zona waktu lokal Anda";
 
 
 /* MARK: - Custom Date Repetition */
@@ -738,7 +738,7 @@
 "advanced_setting_enable_haptic_keyboard_description" = "Dapatkan masukan haptik saat memasukkan jumlah uang menggunakan keyboard.";
 
 "advanced_setting_language_title" = "Bahasa";
-"advanced_setting_timezone_title" = "Zona waktu";
+"advanced_setting_time_zone_title" = "Zona waktu";
 "advanced_setting_enable_live_activities_title" = "Aktivitas Langsung";
 "advanced_setting_enable_live_activities_description" = "Lihat saldo Anda saat ini dan lebih banyak lagi di pulau dinamis serta layar kunci.";
 "advanced_setting_ask_for_feedback_title" = "Minta Masukan";
@@ -1170,11 +1170,11 @@
 
 /* MARK: - Time Zone Selection View */
 /* Titles */
-"timezone_selection_title" = "Zona waktu";
+"time_zone_selection_title" = "Zona waktu";
 
 /* Messages */
 "no_timezones_found_title" = "Zona waktu tidak ditemukan";
-"timezone_selection_search_placeholder_message" = "Cari zona waktu negara atau kota";
+"time_zone_selection_search_placeholder_message" = "Cari zona waktu negara atau kota";
 
 
 /* MARK: - Manage Item View */

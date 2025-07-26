@@ -163,9 +163,9 @@
 "transaction_subtitle_type_payee" = "Odbiorca";
 "transaction_subtitle_type_notes" = "Notatki";
 
-"timezone_type_floating" = "Pływająca";
-"timezone_type_floating_title" = "Pływająca strefa czasowa";
-"timezone_type_floating_subtitle" = "Dopasowuje się do lokalnej strefy czasowej";
+"time_zone_type_floating" = "Pływająca";
+"time_zone_type_floating_title" = "Pływająca strefa czasowa";
+"time_zone_type_floating_subtitle" = "Dopasowuje się do lokalnej strefy czasowej";
 
 
 /* MARK: - Custom Date Repetition */
@@ -738,7 +738,7 @@
 "advanced_setting_enable_haptic_keyboard_description" = "Odbieraj dotykowe informacje podczas wprowadzania kwot pieniężnych za pomocą klawiatury.";
 
 "advanced_setting_language_title" = "Język";
-"advanced_setting_timezone_title" = "Strefa czasowa";
+"advanced_setting_time_zone_title" = "Strefa czasowa";
 "advanced_setting_enable_live_activities_title" = "Aktywności na żywo";
 "advanced_setting_enable_live_activities_description" = "Sprawdź swoje aktualne saldo i nie tylko na dynamicznej wyspie, a także na ekranie blokady.";
 "advanced_setting_ask_for_feedback_title" = "Prośba o opinię";
@@ -1170,11 +1170,11 @@
 
 /* MARK: - Time Zone Selection View */
 /* Titles */
-"timezone_selection_title" = "Strefa czasowa";
+"time_zone_selection_title" = "Strefa czasowa";
 
 /* Messages */
 "no_timezones_found_title" = "Nie znaleziono stref czasowych";
-"timezone_selection_search_placeholder_message" = "Wyszukaj strefę czasową kraju lub miasta";
+"time_zone_selection_search_placeholder_message" = "Wyszukaj strefę czasową kraju lub miasta";
 
 
 /* MARK: - Manage Item View */

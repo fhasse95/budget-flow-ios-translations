@@ -163,9 +163,9 @@
 "transaction_subtitle_type_payee" = "Begunstigde";
 "transaction_subtitle_type_notes" = "Notities";
 
-"timezone_type_floating" = "Vast";
-"timezone_type_floating_title" = "Vaste tijdzone";
-"timezone_type_floating_subtitle" = "Past zich aan jouw lokale tijdzone aan";
+"time_zone_type_floating" = "Vast";
+"time_zone_type_floating_title" = "Vaste tijdzone";
+"time_zone_type_floating_subtitle" = "Past zich aan jouw lokale tijdzone aan";
 
 
 /* MARK: - Custom Date Repetition */
@@ -738,7 +738,7 @@
 "advanced_setting_enable_haptic_keyboard_description" = "Krijg haptische feedback wanneer u geldbedragen invoert via het toetsenbord.";
 
 "advanced_setting_language_title" = "Taal";
-"advanced_setting_timezone_title" = "Tijdzone";
+"advanced_setting_time_zone_title" = "Tijdzone";
 "advanced_setting_enable_live_activities_title" = "Live-activiteiten";
 "advanced_setting_enable_live_activities_description" = "Bekijk uw huidige saldo en meer op het dynamische eiland en op het vergrendelscherm.";
 "advanced_setting_ask_for_feedback_title" = "Vraag om feedback";
@@ -1170,11 +1170,11 @@
 
 /* MARK: - Time Zone Selection View */
 /* Titles */
-"timezone_selection_title" = "Tijdzone";
+"time_zone_selection_title" = "Tijdzone";
 
 /* Messages */
 "no_timezones_found_title" = "Geen tijdzones gevonden";
-"timezone_selection_search_placeholder_message" = "Zoek naar de tijdzone van een land of stad";
+"time_zone_selection_search_placeholder_message" = "Zoek naar de tijdzone van een land of stad";
 
 
 /* MARK: - Manage Item View */

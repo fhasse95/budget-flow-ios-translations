@@ -163,9 +163,9 @@
 "transaction_subtitle_type_payee" = "Beneficiario";
 "transaction_subtitle_type_notes" = "Notas";
 
-"timezone_type_floating" = "Flotante";
-"timezone_type_floating_title" = "Zona horaria flotante";
-"timezone_type_floating_subtitle" = "Se ajusta a tu zona horaria local";
+"time_zone_type_floating" = "Flotante";
+"time_zone_type_floating_title" = "Zona horaria flotante";
+"time_zone_type_floating_subtitle" = "Se ajusta a tu zona horaria local";
 
 
 /* MARK: - Custom Date Repetition */
@@ -738,7 +738,7 @@
 "advanced_setting_enable_haptic_keyboard_description" = "Obtenga respuesta táctil al ingresar cantidades monetarias usando el teclado.";
 
 "advanced_setting_language_title" = "Idioma";
-"advanced_setting_timezone_title" = "Zona horaria";
+"advanced_setting_time_zone_title" = "Zona horaria";
 "advanced_setting_enable_live_activities_title" = "Actividades en vivo";
 "advanced_setting_enable_live_activities_description" = "Consulta tu saldo actual y más en la isla dinámica y en la pantalla de bloqueo.";
 "advanced_setting_ask_for_feedback_title" = "Solicitar comentarios";
@@ -1170,11 +1170,11 @@
 
 /* MARK: - Time Zone Selection View */
 /* Titles */
-"timezone_selection_title" = "Zona horaria";
+"time_zone_selection_title" = "Zona horaria";
 
 /* Messages */
 "no_timezones_found_title" = "No se encontraron zonas horarias";
-"timezone_selection_search_placeholder_message" = "Busca la zona horaria de un país o una ciudad";
+"time_zone_selection_search_placeholder_message" = "Busca la zona horaria de un país o una ciudad";
 
 
 /* MARK: - Manage Item View */

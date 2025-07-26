@@ -163,9 +163,9 @@
 "transaction_subtitle_type_payee" = "Príjemca platby";
 "transaction_subtitle_type_notes" = "Poznámky";
 
-"timezone_type_floating" = "Pohyblivý";
-"timezone_type_floating_title" = "Pohyblivá časová zóna";
-"timezone_type_floating_subtitle" = "Prispôsobuje sa vašej miestnej časovej zóne";
+"time_zone_type_floating" = "Pohyblivý";
+"time_zone_type_floating_title" = "Pohyblivá časová zóna";
+"time_zone_type_floating_subtitle" = "Prispôsobuje sa vašej miestnej časovej zóne";
 
 
 /* MARK: - Custom Date Repetition */
@@ -738,7 +738,7 @@
 "advanced_setting_enable_haptic_keyboard_description" = "Získajte hmatovú odozvu pri zadávaní peňažných čiastok pomocou klávesnice.";
 
 "advanced_setting_language_title" = "Jazyk";
-"advanced_setting_timezone_title" = "Časové pásmo";
+"advanced_setting_time_zone_title" = "Časové pásmo";
 "advanced_setting_enable_live_activities_title" = "Aktivity naživo";
 "advanced_setting_enable_live_activities_description" = "Pozrite si svoj aktuálny zostatok a ďalšie informácie na dynamickom ostrove, ako aj na uzamknutej obrazovke.";
 "advanced_setting_ask_for_feedback_title" = "Požiadať o spätnú väzbu";
@@ -1170,11 +1170,11 @@
 
 /* MARK: - Time Zone Selection View */
 /* Titles */
-"timezone_selection_title" = "Časové pásmo";
+"time_zone_selection_title" = "Časové pásmo";
 
 /* Messages */
 "no_timezones_found_title" = "Nenájdené časové pásma";
-"timezone_selection_search_placeholder_message" = "Vyhľadajte časové pásmo krajiny alebo mesta";
+"time_zone_selection_search_placeholder_message" = "Vyhľadajte časové pásmo krajiny alebo mesta";
 
 
 /* MARK: - Manage Item View */

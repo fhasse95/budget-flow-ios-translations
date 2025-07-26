@@ -163,9 +163,9 @@
 "transaction_subtitle_type_payee" = "Alacaklı";
 "transaction_subtitle_type_notes" = "Notlar";
 
-"timezone_type_floating" = "Hareketli";
-"timezone_type_floating_title" = "Hareketli Zaman Dilimi";
-"timezone_type_floating_subtitle" = "Yerel zaman diliminize uyum sağlar";
+"time_zone_type_floating" = "Hareketli";
+"time_zone_type_floating_title" = "Hareketli Zaman Dilimi";
+"time_zone_type_floating_subtitle" = "Yerel zaman diliminize uyum sağlar";
 
 
 /* MARK: - Custom Date Repetition */
@@ -738,7 +738,7 @@
 "advanced_setting_enable_haptic_keyboard_description" = "Klavyeyi kullanarak parasal tutarları girerken dokunsal geri bildirim alın.";
 
 "advanced_setting_language_title" = "Dil";
-"advanced_setting_timezone_title" = "Zaman dilimi";
+"advanced_setting_time_zone_title" = "Zaman dilimi";
 "advanced_setting_enable_live_activities_title" = "Canlı Etkinlikler";
 "advanced_setting_enable_live_activities_description" = "Kilit ekranının yanı sıra dinamik adada mevcut bakiyenizi ve daha fazlasını görün.";
 "advanced_setting_ask_for_feedback_title" = "Geri Bildirim İste";
@@ -1170,11 +1170,11 @@
 
 /* MARK: - Time Zone Selection View */
 /* Titles */
-"timezone_selection_title" = "Zaman dilimi";
+"time_zone_selection_title" = "Zaman dilimi";
 
 /* Messages */
 "no_timezones_found_title" = "Zaman dilimi bulunamadı";
-"timezone_selection_search_placeholder_message" = "Bir ülke veya şehir için zaman dilimini ara";
+"time_zone_selection_search_placeholder_message" = "Bir ülke veya şehir için zaman dilimini ara";
 
 
 /* MARK: - Manage Item View */

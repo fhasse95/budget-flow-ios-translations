@@ -163,9 +163,9 @@
 "transaction_subtitle_type_payee" = "Δικαιούχος πληρωμής";
 "transaction_subtitle_type_notes" = "Σημειώσεις";
 
-"timezone_type_floating" = "Κινούμενη";
-"timezone_type_floating_title" = "Κινούμενη ζώνη ώρας";
-"timezone_type_floating_subtitle" = "Προσαρμόζεται στη τοπική σας ζώνη ώρας";
+"time_zone_type_floating" = "Κινούμενη";
+"time_zone_type_floating_title" = "Κινούμενη ζώνη ώρας";
+"time_zone_type_floating_subtitle" = "Προσαρμόζεται στη τοπική σας ζώνη ώρας";
 
 
 /* MARK: - Custom Date Repetition */
@@ -738,7 +738,7 @@
 "advanced_setting_enable_haptic_keyboard_description" = "Λάβετε απτική ανατροφοδότηση κατά την εισαγωγή χρηματικών ποσών χρησιμοποιώντας το πληκτρολόγιο.";
 
 "advanced_setting_language_title" = "Γλώσσα";
-"advanced_setting_timezone_title" = "Ζώνη ώρας";
+"advanced_setting_time_zone_title" = "Ζώνη ώρας";
 "advanced_setting_enable_live_activities_title" = "Ζωντανές δραστηριότητες";
 "advanced_setting_enable_live_activities_description" = "Δείτε το τρέχον υπόλοιπό σας και πολλά άλλα στο δυναμικό νησί καθώς και στην οθόνη κλειδώματος.";
 "advanced_setting_ask_for_feedback_title" = "Ζητήστε σχόλια";
@@ -1170,11 +1170,11 @@
 
 /* MARK: - Time Zone Selection View */
 /* Titles */
-"timezone_selection_title" = "Ζώνη ώρας";
+"time_zone_selection_title" = "Ζώνη ώρας";
 
 /* Messages */
 "no_timezones_found_title" = "Δεν βρέθηκαν ζώνες ώρας";
-"timezone_selection_search_placeholder_message" = "Αναζήτηση ζώνης ώρας χώρας ή πόλης";
+"time_zone_selection_search_placeholder_message" = "Αναζήτηση ζώνης ώρας χώρας ή πόλης";
 
 
 /* MARK: - Manage Item View */

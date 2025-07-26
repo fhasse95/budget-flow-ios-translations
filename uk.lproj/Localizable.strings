@@ -163,9 +163,9 @@
 "transaction_subtitle_type_payee" = "Одержувач платежу";
 "transaction_subtitle_type_notes" = "Примітки";
 
-"timezone_type_floating" = "Плаваючий";
-"timezone_type_floating_title" = "Плаваючий часовий пояс";
-"timezone_type_floating_subtitle" = "Підлаштовується під ваш місцевий часовий пояс";
+"time_zone_type_floating" = "Плаваючий";
+"time_zone_type_floating_title" = "Плаваючий часовий пояс";
+"time_zone_type_floating_subtitle" = "Підлаштовується під ваш місцевий часовий пояс";
 
 
 /* MARK: - Custom Date Repetition */
@@ -738,7 +738,7 @@
 "advanced_setting_enable_haptic_keyboard_description" = "Отримувати тактильний відгук під час введення грошових сум за допомогою клавіатури.";
 
 "advanced_setting_language_title" = "Мова";
-"advanced_setting_timezone_title" = "Часовий пояс";
+"advanced_setting_time_zone_title" = "Часовий пояс";
 "advanced_setting_enable_live_activities_title" = "Живі дії";
 "advanced_setting_enable_live_activities_description" = "Перегляньте свій поточний баланс і багато іншого на динамічному острові, а також на екрані блокування.";
 "advanced_setting_ask_for_feedback_title" = "Запитувати відгук";
@@ -1170,11 +1170,11 @@
 
 /* MARK: - Time Zone Selection View */
 /* Titles */
-"timezone_selection_title" = "Часовий пояс";
+"time_zone_selection_title" = "Часовий пояс";
 
 /* Messages */
 "no_timezones_found_title" = "Часові пояси не знайдені";
-"timezone_selection_search_placeholder_message" = "Пошук часового поясу країни або міста";
+"time_zone_selection_search_placeholder_message" = "Пошук часового поясу країни або міста";
 
 
 /* MARK: - Manage Item View */

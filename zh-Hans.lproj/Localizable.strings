@@ -163,9 +163,9 @@
 "transaction_subtitle_type_payee" = "收款人";
 "transaction_subtitle_type_notes" = "备注";
 
-"timezone_type_floating" = "浮动";
-"timezone_type_floating_title" = "浮动时区";
-"timezone_type_floating_subtitle" = "会根据您的本地时区调整";
+"time_zone_type_floating" = "浮动";
+"time_zone_type_floating_title" = "浮动时区";
+"time_zone_type_floating_subtitle" = "会根据您的本地时区调整";
 
 
 /* MARK: - Custom Date Repetition */
@@ -738,7 +738,7 @@
 "advanced_setting_enable_haptic_keyboard_description" = "启用此功能以在键盘上输入金额时获得触觉反馈";
 
 "advanced_setting_language_title" = "语言";
-"advanced_setting_timezone_title" = "时区";
+"advanced_setting_time_zone_title" = "时区";
 "advanced_setting_enable_live_activities_title" = "实时活动";
 "advanced_setting_enable_live_activities_description" = "启用此功能以在灵动岛和锁屏上查看您当前的余额等信息";
 "advanced_setting_ask_for_feedback_title" = "请求反馈";
@@ -1170,11 +1170,11 @@
 
 /* MARK: - Time Zone Selection View */
 /* Titles */
-"timezone_selection_title" = "时区";
+"time_zone_selection_title" = "时区";
 
 /* Messages */
 "no_timezones_found_title" = "未找到时区";
-"timezone_selection_search_placeholder_message" = "搜索国家或城市的时区";
+"time_zone_selection_search_placeholder_message" = "搜索国家或城市的时区";
 
 
 /* MARK: - Manage Item View */

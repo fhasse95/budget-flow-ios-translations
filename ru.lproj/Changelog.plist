@@ -2,27 +2,37 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>2.2.0</key>
+	<key>3.0.0</key>
 	<array>
 		<dict>
 			<key>Title</key>
-			<string>Улучшенная корректировка баланса</string>
+			<string>Полное обновление дизайна</string>
 			<key>Description</key>
-			<string>Когда ты вручную изменяешь баланс своего счета, теперь автоматически создается транзакция – так твоя история остается точной и неизменной.</string>
+			<string>На iOS, iPadOS и macOS 26 приложение сияет новым, обновлённым дизайном – включая эффекты Liquid-Glass и поддержку тёмного режима для иконок внутри приложения.</string>
 			<key>IconName</key>
-			<string>building.columns</string>
+			<string>sparkles</string>
 			<key>IconColor</key>
-			<string>#00a38b</string>
+			<string>#ff8d28</string>
 		</dict>
 		<dict>
 			<key>Title</key>
-			<string>Поддержка персонализации иконок</string>
+			<string>Массовая обработка транзакций</string>
 			<key>Description</key>
-			<string>Теперь ты можешь использовать свои изображения в качестве иконок – например, логотип банка для счетов или личные фотографии для категорий.</string>
+			<string>Теперь вы можете выбирать и редактировать несколько транзакций одновременно. Это позволяет, например, назначить одну и ту же категорию или определённые теги для всех транзакций.</string>
 			<key>IconName</key>
-			<string>photo.on.rectangle.angled</string>
+			<string>square.and.pencil</string>
 			<key>IconColor</key>
-			<string>#007aff</string>
+			<string>#35c759</string>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>Поддержка фиксированных часовых поясов</string>
+			<key>Description</key>
+			<string>В расширенных настройках теперь можно установить фиксированный часовой пояс. Это гарантирует, что ваши данные будут отображаться одинаково везде, независимо от того, где вы находитесь.</string>
+			<key>IconName</key>
+			<string>globe</string>
+			<key>IconColor</key>
+			<string>#0088ff</string>
 		</dict>
 	</array>
 </dict>

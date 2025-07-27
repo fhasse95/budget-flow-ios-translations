@@ -2,27 +2,37 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>2.2.0</key>
+	<key>3.0.0</key>
 	<array>
 		<dict>
 			<key>Title</key>
-			<string>Ajustement du solde amélioré</string>
+			<string>Mise à jour complète du design</string>
 			<key>Description</key>
-			<string>Lorsque tu modifies manuellement ton solde bancaire, une transaction est maintenant créée automatiquement – pour que ton historique reste précis et intact.</string>
+			<string>Sur iOS, iPadOS et macOS 26, l'application brille avec un design frais et révisé – incluant des effets Liquid-Glass et le support du mode sombre pour les icônes dans l'application.</string>
 			<key>IconName</key>
-			<string>building.columns</string>
+			<string>sparkles</string>
 			<key>IconColor</key>
-			<string>#00a38b</string>
+			<string>#ff8d28</string>
 		</dict>
 		<dict>
 			<key>Title</key>
-			<string>Personnalisation pour les Icônes</string>
+			<string>Édition en masse des transactions</string>
 			<key>Description</key>
-			<string>Tu peux maintenant utiliser tes propres images comme icônes – que ce soit le logo de ta banque pour les comptes ou des photos personnelles pour les catégories.</string>
+			<string>Vous pouvez désormais sélectionner et modifier plusieurs transactions en même temps. Cela vous permet, par exemple, d'attribuer la même catégorie ou des balises spécifiques à toutes.</string>
 			<key>IconName</key>
-			<string>photo.on.rectangle.angled</string>
+			<string>square.and.pencil</string>
 			<key>IconColor</key>
-			<string>#007aff</string>
+			<string>#35c759</string>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>Support des fuseaux horaires fixes</string>
+			<key>Description</key>
+			<string>Dans les paramètres avancés, vous pouvez désormais définir un fuseau horaire fixe. Cela garantit que vos données sont affichées de manière cohérente partout, peu importe où vous vous trouvez.</string>
+			<key>IconName</key>
+			<string>globe</string>
+			<key>IconColor</key>
+			<string>#0088ff</string>
 		</dict>
 	</array>
 </dict>

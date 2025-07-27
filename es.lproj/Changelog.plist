@@ -2,27 +2,37 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>2.2.0</key>
+	<key>3.0.0</key>
 	<array>
 		<dict>
 			<key>Title</key>
-			<string>Mejora en el ajuste de saldo</string>
+			<string>Actualización completa del diseño</string>
 			<key>Description</key>
-			<string>Cuando modificas manualmente el saldo de tu cuenta, ahora se crea automáticamente una transacción, manteniendo tu historial preciso e intacto.</string>
+			<string>En iOS, iPadOS y macOS 26, la aplicación brilla con un diseño fresco y renovado, incluyendo efectos Liquid-Glass y soporte para el modo oscuro en los íconos dentro de la aplicación.</string>
 			<key>IconName</key>
-			<string>building.columns</string>
+			<string>sparkles</string>
 			<key>IconColor</key>
-			<string>#00a38b</string>
+			<string>#ff8d28</string>
 		</dict>
 		<dict>
 			<key>Title</key>
-			<string>Personalización de iconos</string>
+			<string>Edición masiva de transacciones</string>
 			<key>Description</key>
-			<string>Ahora puedes usar tus propias imágenes como iconos, ya sea el logo de tu banco para cuentas o fotos personales para categorías.</string>
+			<string>AhoraizardAhora puedes seleccionar y editar múltiples transacciones a la vez. Esto te permite, por ejemplo, asignar la misma categoría o etiquetas específicas a todas ellas.</string>
 			<key>IconName</key>
-			<string>photo.on.rectangle.angled</string>
+			<string>square.and.pencil</string>
 			<key>IconColor</key>
-			<string>#007aff</string>
+			<string>#35c759</string>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>Soporte para zonas horarias fijas</string>
+			<key>Description</key>
+			<string>En la configuración avanzada, ahora puedes establecer una zona horaria fija. Esto garantiza que tus datos se muestren de manera consistente en cualquier lugar, independientemente de dónde te encuentres.</string>
+			<key>IconName</key>
+			<string>globe</string>
+			<key>IconColor</key>
+			<string>#0088ff</string>
 		</dict>
 	</array>
 </dict>

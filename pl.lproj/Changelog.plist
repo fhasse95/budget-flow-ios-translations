@@ -2,27 +2,37 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>2.2.0</key>
+	<key>3.0.0</key>
 	<array>
 		<dict>
 			<key>Title</key>
-			<string>Ulepszone dostosowanie salda</string>
+			<string>Kompleksowa aktualizacja designu</string>
 			<key>Description</key>
-			<string>Gdy ręcznie zmieniasz saldo swojego konta, teraz automatycznie tworzona jest transakcja, aby historia pozostała dokładna i nienaruszona.</string>
+			<string>Na iOS, iPadOS i macOS 26 aplikacja zachwyca nowym, odświeżonym designem – w tym efektami Liquid-Glass i wsparciem dla trybu ciemnego dla ikon w aplikacji.</string>
 			<key>IconName</key>
-			<string>building.columns</string>
+			<string>sparkles</string>
 			<key>IconColor</key>
-			<string>#00a38b</string>
+			<string>#ff8d28</string>
 		</dict>
 		<dict>
 			<key>Title</key>
-			<string>Obsługa dostosowywania ikon</string>
+			<string>Masowa edycja transakcji</string>
 			<key>Description</key>
-			<string>Teraz możesz używać własnych obrazów jako ikon – niezależnie od tego, czy jest to logo Twojego banku dla kont, czy osobiste zdjęcia dla kategorii.</string>
+			<string>Teraz możesz wybierać i edytować wiele transakcji jednocześnie. Dzięki temu możesz, na przykład, przypisać tę samą kategorię lub określone tagi do wszystkich z nich.</string>
 			<key>IconName</key>
-			<string>photo.on.rectangle.angled</string>
+			<string>square.and.pencil</string>
 			<key>IconColor</key>
-			<string>#007aff</string>
+			<string>#35c759</string>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>Wsparcie dla stałych stref czasowych</string>
+			<key>Description</key>
+			<string>W zaawansowanych ustawieniach możesz teraz ustawić stałą strefę czasową. Dzięki temu Twoje dane są wyświetlane spójnie wszędzie, niezależnie od tego, gdzie się znajdujesz.</string>
+			<key>IconName</key>
+			<string>globe</string>
+			<key>IconColor</key>
+			<string>#0088ff</string>
 		</dict>
 	</array>
 </dict>

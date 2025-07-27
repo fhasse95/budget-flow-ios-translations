@@ -2,27 +2,37 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>2.2.0</key>
+	<key>3.0.0</key>
 	<array>
 		<dict>
 			<key>Title</key>
-			<string>Improved Balance Adjustment</string>
+			<string>Comprehensive Design Update</string>
 			<key>Description</key>
-			<string>When you change your account balance manually, a transaction is now created automatically—keeping your history accurate and intact.</string>
+			<string>On iOS, iPadOS, and macOS 26, the app shines with a fresh, revised design – including Liquid-Glass effects and Dark Mode support for in-app icons.</string>
 			<key>IconName</key>
-			<string>building.columns</string>
+			<string>sparkles</string>
 			<key>IconColor</key>
-			<string>#00a38b</string>
+			<string>#ff8d28</string>
 		</dict>
 		<dict>
 			<key>Title</key>
-			<string>Customization Support for Icons</string>
+			<string>Bulk Transaction Editing</string>
 			<key>Description</key>
-			<string>You can now use your own images as icons—whether it’s your bank’s logo for accounts or personal photos for categories.</string>
+			<string>You can now select and edit multiple transactions at once. This allows you to assign the same category or specific tags to all of them, for example.</string>
 			<key>IconName</key>
-			<string>photo.on.rectangle.angled</string>
+			<string>square.and.pencil</string>
 			<key>IconColor</key>
-			<string>#007aff</string>
+			<string>#35c759</string>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>Support for Fixed Time Zones</string>
+			<key>Description</key>
+			<string>In the advanced settings, you can now set a fixed time zone. This ensures your data is displayed consistently everywhere, regardless of where you are.</string>
+			<key>IconName</key>
+			<string>globe</string>
+			<key>IconColor</key>
+			<string>#0088ff</string>
 		</dict>
 	</array>
 </dict>

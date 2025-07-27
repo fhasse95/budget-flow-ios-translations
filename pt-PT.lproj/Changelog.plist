@@ -2,27 +2,37 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>2.2.0</key>
+	<key>3.0.0</key>
 	<array>
 		<dict>
 			<key>Title</key>
-			<string>Melhoria no ajuste de saldo</string>
+			<string>Atualização Completa do Design</string>
 			<key>Description</key>
-			<string>Quando modificas manualmente o saldo da tua conta, agora é criada automaticamente uma transação, mantendo o teu histórico preciso e intacto.</string>
+			<string>No iOS, iPadOS e macOS 26, a aplicação brilha com um design fresco e renovado – incluindo efeitos Liquid-Glass e suporte para o modo escuro nos ícones dentro da aplicação.</string>
 			<key>IconName</key>
-			<string>building.columns</string>
+			<string>sparkles</string>
 			<key>IconColor</key>
-			<string>#00a38b</string>
+			<string>#ff8d28</string>
 		</dict>
 		<dict>
 			<key>Title</key>
-			<string>Personalização de ícones</string>
+			<string>Edição em Massa de Transações</string>
 			<key>Description</key>
-			<string>Agora podes usar as tuas próprias imagens como ícones, seja o logotipo do teu banco para contas ou fotos pessoais para categorias.</string>
+			<string>Agora podes selecionar e editar várias transações ao mesmo tempo. Isso permite, por exemplo, atribuir a mesma categoria ou etiquetas específicas a todas elas.</string>
 			<key>IconName</key>
-			<string>photo.on.rectangle.angled</string>
+			<string>square.and.pencil</string>
 			<key>IconColor</key>
-			<string>#007aff</string>
+			<string>#35c759</string>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>Suporte para Fusos Horários Fixos</string>
+			<key>Description</key>
+			<string>Nas configurações avançadas, agora podes definir um fuso horário fixo. Isso garante que os teus dados sejam exibidos de forma consistente em qualquer lugar, independentemente de onde estejas.</string>
+			<key>IconName</key>
+			<string>globe</string>
+			<key>IconColor</key>
+			<string>#0088ff</string>
 		</dict>
 	</array>
 </dict>

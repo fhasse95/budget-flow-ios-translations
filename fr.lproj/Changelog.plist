@@ -8,7 +8,7 @@
 			<key>Title</key>
 			<string>Mise à jour complète du design</string>
 			<key>Description</key>
-			<string>Sur iOS, iPadOS et macOS 26, l'application brille avec un design frais et révisé – incluant des effets Liquid-Glass et le support du mode sombre pour les icônes dans l'application.</string>
+			<string>Sur iOS, iPadOS et macOS 26, l&apos;application bénéficie d&apos;un nouveau design revisité, avec notamment des effets Liquid Glass et la prise en charge du mode sombre pour les icônes intégrées à l&apos;application.</string>
 			<key>IconName</key>
 			<string>sparkles</string>
 			<key>IconColor</key>
@@ -18,7 +18,7 @@
 			<key>Title</key>
 			<string>Édition en masse des transactions</string>
 			<key>Description</key>
-			<string>Vous pouvez désormais sélectionner et modifier plusieurs transactions en même temps. Cela vous permet, par exemple, d'attribuer la même catégorie ou des balises spécifiques à toutes.</string>
+			<string>Vous pouvez désormais sélectionner et modifier plusieurs transactions en même temps. Cela vous permet, par exemple, d&apos;attribuer la même catégorie ou des balises spécifiques à toutes.</string>
 			<key>IconName</key>
 			<string>square.and.pencil</string>
 			<key>IconColor</key>

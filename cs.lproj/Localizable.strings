@@ -25,6 +25,8 @@
 "uncategorized" = "Necategorized";
 "before" = "před";
 "account_reconcilation" = "Smíření účtu";
+"evaluated" = "Vyhodnoceno";
+"not_evaluated" = "Nevyhodnoceno";
 
 
 /* MARK: - Enums */

@@ -25,6 +25,8 @@
 "uncategorized" = "Χωρίς κατηγορία";
 "before" = "πριν";
 "account_reconcilation" = "Συμφιλίωση λογαριασμού";
+"evaluated" = "Αξιολογημένο";
+"not_evaluated" = "Μη αξιολογημένο";
 
 
 /* MARK: - Enums */

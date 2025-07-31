@@ -25,6 +25,8 @@
 "uncategorized" = "Okategoriserad";
 "before" = "före";
 "account_reconcilation" = "Kontavstämning";
+"evaluated" = "Utvärderad";
+"not_evaluated" = "Ej utvärderad";
 
 
 /* MARK: - Enums */

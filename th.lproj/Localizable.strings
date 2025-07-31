@@ -25,6 +25,8 @@
 "uncategorized" = "ไม่ได้จัดหมวดหมู่";
 "before" = "ก่อน";
 "account_reconcilation" = "การกระทบยอดบัญชี";
+"evaluated" = "ประเมินแล้ว";
+"not_evaluated" = "ยังไม่ประเมิน";
 
 
 /* MARK: - Enums */

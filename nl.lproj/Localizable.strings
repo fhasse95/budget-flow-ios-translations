@@ -25,6 +25,8 @@
 "uncategorized" = "Niet gecategoriseerd";
 "before" = "voor";
 "account_reconcilation" = "Rekeningafstemming";
+"evaluated" = "Beoordeeld";
+"not_evaluated" = "Niet beoordeeld";
 
 
 /* MARK: - Enums */

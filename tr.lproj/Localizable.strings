@@ -25,6 +25,8 @@
 "uncategorized" = "Uncategorized";
 "before" = "önce";
 "account_reconcilation" = "Hesap mutabakatı";
+"evaluated" = "Değerlendirildi";
+"not_evaluated" = "Değerlendirilmedi";
 
 
 /* MARK: - Enums */

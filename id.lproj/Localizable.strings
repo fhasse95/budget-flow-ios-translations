@@ -25,6 +25,8 @@
 "uncategorized" = "Tidak dikategorikan";
 "before" = "sebelum";
 "account_reconcilation" = "Rekonsiliasi akun";
+"evaluated" = "Sudah Dinilai";
+"not_evaluated" = "Belum Dinilai";
 
 
 /* MARK: - Enum */

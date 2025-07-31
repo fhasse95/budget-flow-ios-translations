@@ -25,6 +25,8 @@
 "uncategorized" = "Uncategorized";
 "before" = "ennen";
 "account_reconcilation" = "Tilin täsmäytys";
+"evaluated" = "Arvioitu";
+"not_evaluated" = "Ei arvioitu";
 
 
 /* MARK: - Enums */

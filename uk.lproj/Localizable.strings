@@ -25,6 +25,8 @@
 "uncategorized" = "Без категорії";
 "before" = "раніше";
 "account_reconcilation" = "Звірка рахунку";
+"evaluated" = "Оцінено";
+"not_evaluated" = "Не оцінено";
 
 
 /* MARK: - Enums */

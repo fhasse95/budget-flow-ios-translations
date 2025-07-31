@@ -25,6 +25,8 @@
 "uncategorized" = "Nekategorizirano";
 "before" = "pred";
 "account_reconcilation" = "Usklajevanje računa";
+"evaluated" = "Ocenjeno";
+"not_evaluated" = "Niso ocenjeni";
 
 
 /* MARK: - Enums */

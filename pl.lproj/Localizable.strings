@@ -25,6 +25,8 @@
 "uncategorized" = "Bez kategorii";
 "before" = "przed";
 "account_reconcilation" = "Uzgadnianie konta";
+"evaluated" = "Oceniony";
+"not_evaluated" = "Nieoceniony";
 
 
 /* MARK: - Enums */

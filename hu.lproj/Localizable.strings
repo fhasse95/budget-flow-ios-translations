@@ -25,6 +25,8 @@
 "uncategorized" = "Nincs kategorizálva";
 "before" = "előtte";
 "account_reconcilation" = "Számlaegyeztetés";
+"evaluated" = "Értékelt";
+"not_evaluated" = "Nem értékelt";
 
 
 /* MARK: - Enums */

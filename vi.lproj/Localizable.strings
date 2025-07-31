@@ -25,6 +25,8 @@
 "uncategorized" = "Chưa phân loại";
 "before" = "trước";
 "account_reconcilation" = "Đối chiếu tài khoản";
+"evaluated" = "Đã đánh giá";
+"not_evaluated" = "Chưa đánh giá";
 
 
 /* MARK: - Enums */

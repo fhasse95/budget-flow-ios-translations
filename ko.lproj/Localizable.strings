@@ -25,6 +25,8 @@
 "uncategorized" = "분류되지 않음";
 "before" = "전에";
 "account_reconcilation" = "계정 조정";
+"evaluated" = "평가됨";
+"not_evaluated" = "평가되지 않음";
 
 
 /* MARK: - Enums */

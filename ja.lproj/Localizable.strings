@@ -25,6 +25,8 @@
 "uncategorized" = "未分類";
 "before" = "前";
 "account_reconcilation" = "口座照合";
+"evaluated" = "評価済み";
+"not_evaluated" = "未評価";
 
 
 /* MARK: - Enums */

@@ -25,6 +25,8 @@
 "uncategorized" = "未分類";
 "before" = "之前";
 "account_reconcilation" = "帳戶對帳";
+"evaluated" = "已評估";
+"not_evaluated" = "未評估";
 
 
 /* MARK: - Enums */

@@ -373,6 +373,7 @@
 "not_shared_title" = "Proračunska knjiga ni v skupni rabi";
 
 /* Widgets */
+"net_worth_widget_title" = "Čista vrednost";
 "account_balances_widget_title" = "Skupno stanje računov";
 "balance_widget_title" = "Stanje";
 "total_income_widget_title" = "Skupni dohodki";
@@ -380,6 +381,7 @@
 "fixed_expenses_widget_title" = "Fiksni stroški";
 "variable_expenses_widget_title" = "Spremenljivi stroški";
 
+"net_worth_distribution_widget_title" = "Distribucija";
 "account_balances_distribution_widget_title" = "Skupno stanje računov";
 "balance_distribution_widget_title" = "Stanje";
 "total_income_distribution_widget_title" = "Skupni dohodki";

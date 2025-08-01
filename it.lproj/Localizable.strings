@@ -373,6 +373,7 @@
 "not_shared_title" = "Budget non condiviso";
 
 /* Widgets */
+"net_worth_widget_title" = "Patrimonio netto";
 "account_balances_widget_title" = "Saldo del conto";
 "balance_widget_title" = "Distribuzione del saldo";
 "total_income_widget_title" = "Totale ingressi";
@@ -380,6 +381,7 @@
 "fixed_expenses_widget_title" = "Spese fisse";
 "variable_expenses_widget_title" = "Spese variabili";
 
+"net_worth_distribution_widget_title" = "Distribuzione";
 "account_balances_distribution_widget_title" = "Saldo del conto";
 "balance_distribution_widget_title" = "Distribuzione del saldo";
 "total_income_distribution_widget_title" = "Totale ingressi";

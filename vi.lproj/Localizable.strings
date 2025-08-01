@@ -373,6 +373,7 @@
 "not_shared_title" = "Ví không được chia sẻ";
 
 /* Widgets */
+"net_worth_widget_title" = "Giá trị ròng";
 "account_balances_widget_title" = "Số dư";
 "balance_widget_title" = "Số dư";
 "total_income_widget_title" = "Tổng thu nhập";
@@ -380,6 +381,7 @@
 "fixed_expenses_widget_title" = "Chi phí cố định";
 "variable_expenses_widget_title" = "Chi phí thay đổi";
 
+"net_worth_distribution_widget_title" = "Phân phối";
 "account_balances_distribution_widget_title" = "Số dư";
 "balance_distribution_widget_title" = "Số dư";
 "total_income_distribution_widget_title" = "Tổng thu nhập";

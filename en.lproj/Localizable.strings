@@ -373,6 +373,7 @@
 "not_shared_title" = "Budget Book not shared";
 
 /* Widgets */
+"net_worth_widget_title" = "Net Worth";
 "account_balances_widget_title" = "Account Balances";
 "balance_widget_title" = "Balance";
 "total_income_widget_title" = "Total Income";
@@ -380,6 +381,7 @@
 "fixed_expenses_widget_title" = "Fixed Expenses";
 "variable_expenses_widget_title" = "Variable Expenses";
 
+"net_worth_distribution_widget_title" = "Distribution";
 "account_balances_distribution_widget_title" = "Account Balances";
 "balance_distribution_widget_title" = "Balance";
 "total_income_distribution_widget_title" = "Total Income";

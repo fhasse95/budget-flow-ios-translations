@@ -373,6 +373,7 @@
 "not_shared_title" = "Το βιβλίο προϋπολογισμού δεν είναι κοινόχρηστο";
 
 /* Widgets */
+"net_worth_widget_title" = "Καθαρή αξία";
 "account_balances_widget_title" = "Υπόλοιπα λογαριασμού";
 "balance_widget_title" = "Υπόλοιπο";
 "total_income_widget_title" = "Συνολικό εισόδημα";
@@ -380,6 +381,7 @@
 "fixed_expenses_widget_title" = "Σταθερές δαπάνες";
 "variable_expenses_widget_title" = "Μεταβλητά Έξοδα";
 
+"net_worth_distribution_widget_title" = "Κατανομή";
 "account_balances_distribution_widget_title" = "Υπόλοιπα λογαριασμού";
 "balance_distribution_widget_title" = "Υπόλοιπο";
 "total_income_distribution_widget_title" = "Συνολικό εισόδημα";

@@ -373,6 +373,7 @@
 "not_shared_title" = "Budgetbok inte delad";
 
 /* Widgets */
+"net_worth_widget_title" = "Nettovärde";
 "account_balances_widget_title" = "Kontosaldon";
 "balance_widget_title" = "Saldo";
 "total_income_widget_title" = "Totala inkomster";
@@ -380,6 +381,7 @@
 "fixed_expenses_widget_title" = "Fasta utgifter";
 "variable_expenses_widget_title" = "Variabla utgifter";
 
+"net_worth_distribution_widget_title" = "Fördelning";
 "account_balances_distribution_widget_title" = "Kontosaldon";
 "balance_distribution_widget_title" = "Saldo";
 "total_income_distribution_widget_title" = "Total inkomst";

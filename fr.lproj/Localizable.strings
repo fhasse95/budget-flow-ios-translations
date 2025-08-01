@@ -373,6 +373,7 @@
 "not_shared_title" = "Livre budgétaire non partagé";
 
 /* Widgets */
+"net_worth_widget_title" = "Valeur nette";
 "account_balances_widget_title" = "Soldes de compte";
 "balance_widget_title" = "Solde";
 "total_income_widget_title" = "Revenu total";
@@ -380,6 +381,7 @@
 "fixed_expenses_widget_title" = "Dépenses fixes";
 "variable_expenses_widget_title" = "Dépenses variables";
 
+"net_worth_distribution_widget_title" = "Répartition";
 "account_balances_distribution_widget_title" = "Soldes des comptes";
 "balance_distribution_widget_title" = "Solde";
 "total_income_distribution_widget_title" = "Revenu total";

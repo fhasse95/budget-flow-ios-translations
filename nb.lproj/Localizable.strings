@@ -373,6 +373,7 @@
 "not_shared_title" = "Budsjettbok er ikke delt";
 
 /* Widgets */
+"net_worth_widget_title" = "Nettoverdi";
 "account_balances_widget_title" = "Kontosaldo";
 "balance_widget_title" = "Saldo";
 "total_income_widget_title" = "Total inntekt";
@@ -380,6 +381,7 @@
 "fixed_expenses_widget_title" = "Faste utgifter";
 "variable_expenses_widget_title" = "Variable utgifter";
 
+"net_worth_distribution_widget_title" = "Fordeling";
 "account_balances_distribution_widget_title" = "Kontosaldo";
 "balance_distribution_widget_title" = "Saldo";
 "total_income_distribution_widget_title" = "Total inntekt";

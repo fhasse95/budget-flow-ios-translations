@@ -373,6 +373,7 @@
 "not_shared_title" = "Haushaltsbuch nicht geteilt";
 
 /* Widgets */
+"net_worth_widget_title" = "Vermögen";
 "account_balances_widget_title" = "Kontostände";
 "balance_widget_title" = "Bilanz";
 "total_income_widget_title" = "Gesamteinnahmen";
@@ -380,6 +381,7 @@
 "fixed_expenses_widget_title" = "Fixkosten";
 "variable_expenses_widget_title" = "Variable Kosten";
 
+"net_worth_distribution_widget_title" = "Aufteilung";
 "account_balances_distribution_widget_title" = "Kontostände";
 "balance_distribution_widget_title" = "Bilanz";
 "total_income_distribution_widget_title" = "Gesamteinnahmen";

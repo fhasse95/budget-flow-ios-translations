@@ -373,6 +373,7 @@
 "not_shared_title" = "预算账本未共享";
 
 /* Widgets */
+"net_worth_widget_title" = "净资产";
 "account_balances_widget_title" = "账户余额";
 "balance_widget_title" = "余额";
 "total_income_widget_title" = "总收入";
@@ -380,6 +381,7 @@
 "fixed_expenses_widget_title" = "固定支出";
 "variable_expenses_widget_title" = "变动支出";
 
+"net_worth_distribution_widget_title" = "分布";
 "account_balances_distribution_widget_title" = "账户余额";
 "balance_distribution_widget_title" = "余额";
 "total_income_distribution_widget_title" = "总收入";

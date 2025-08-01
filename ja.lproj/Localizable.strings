@@ -373,6 +373,7 @@
 "not_shared_title" = "予算簿は共有されていません";
 
 /* Widgets */
+"net_worth_widget_title" = "純資産";
 "account_balances_widget_title" = "アカウント残高";
 "balance_widget_title" = "残高";
 "total_income_widget_title" = "総収入";
@@ -380,6 +381,7 @@
 "fixed_expenses_widget_title" = "固定費";
 "variable_expenses_widget_title" = "変動費";
 
+"net_worth_distribution_widget_title" = "分布";
 "account_balances_distribution_widget_title" = "アカウント残高";
 "balance_distribution_widget_title" = "残高";
 "total_income_distribution_widget_title" = "総収入";

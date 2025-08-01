@@ -373,6 +373,7 @@
 "not_shared_title" = "예산 장부가 공유되지 않음";
 
 /* Widgets */
+"net_worth_widget_title" = "순자산";
 "account_balances_widget_title" = "계좌 잔액";
 "balance_widget_title" = "잔고";
 "total_income_widget_title" = "총 수입";
@@ -380,6 +381,7 @@
 "fixed_expenses_widget_title" = "고정 지출";
 "variable_expenses_widget_title" = "변동 지출";
 
+"net_worth_distribution_widget_title" = "분포";
 "account_balances_distribution_widget_title" = "계좌 잔액";
 "balance_distribution_widget_title" = "잔액";
 "total_income_distribution_widget_title" = "총 수입";

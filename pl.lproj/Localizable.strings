@@ -373,6 +373,7 @@
 "not_shared_title" = "Księga budżetowa nie jest udostępniana";
 
 /* Widgets */
+"net_worth_widget_title" = "Wartość netto";
 "account_balances_widget_title" = "Salda kont";
 "balance_widget_title" = "Saldo";
 "total_income_widget_title" = "Całkowite dochody";
@@ -380,6 +381,7 @@
 "fixed_expenses_widget_title" = "Wydatki stałe";
 "variable_expenses_widget_title" = "Wydatki zmienne";
 
+"net_worth_distribution_widget_title" = "Dystrybucja";
 "account_balances_distribution_widget_title" = "Salda kont";
 "balance_distribution_widget_title" = "Saldo";
 "total_income_distribution_widget_title" = "Całkowite dochody";

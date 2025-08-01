@@ -373,6 +373,7 @@
 "not_shared_title" = "Budjettikirjaa ei jaettu";
 
 /* Widgets */
+"net_worth_widget_title" = "Nettovarallisuus";
 "account_balances_widget_title" = "Tilien saldot";
 "balance_widget_title" = "Saldo";
 "total_income_widget_title" = "Kokonaistulot";
@@ -380,6 +381,7 @@
 "fixed_expenses_widget_title" = "Kiinteät kulut";
 "variable_expenses_widget_title" = "Muuttuvat kulut";
 
+"net_worth_distribution_widget_title" = "Jakautuminen";
 "account_balances_distribution_widget_title" = "Tilien saldot";
 "balance_distribution_widget_title" = "Saldo";
 "total_income_distribution_widget_title" = "Kokonaistulot";

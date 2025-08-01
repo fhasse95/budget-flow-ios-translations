@@ -373,6 +373,7 @@
 "not_shared_title" = "Книга бюджету не надіслана";
 
 /* Widgets */
+"net_worth_widget_title" = "Чиста вартість";
 "account_balances_widget_title" = "Баланси облікового запису";
 "balance_widget_title" = "Баланс";
 "total_income_widget_title" = "Загальний дохід";
@@ -380,6 +381,7 @@
 "fixed_expenses_widget_title" = "Постійні витрати";
 "variable_expenses_widget_title" = "Змінні витрати";
 
+"net_worth_distribution_widget_title" = "Розподіл";
 "account_balances_distribution_widget_title" = "Баланси облікового запису";
 "balance_distribution_widget_title" = "Баланс";
 "total_income_distribution_widget_title" = "Загальний дохід";

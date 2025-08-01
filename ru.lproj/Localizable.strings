@@ -373,6 +373,7 @@
 "not_shared_title" = "Книга бюджета недоступна";
 
 /* Widgets */
+"net_worth_widget_title" = "Чистая стоимость";
 "account_balances_widget_title" = "Баланс счетов";
 "balance_widget_title" = "Баланс";
 "total_income_widget_title" = "Общие доходы";
@@ -380,6 +381,7 @@
 "fixed_expenses_widget_title" = "Постоянные расходы";
 "variable_expenses_widget_title" = "Переменные расходы";
 
+"net_worth_distribution_widget_title" = "Распределение";
 "account_balances_distribution_widget_title" = "Баланс счетов";
 "balance_distribution_widget_title" = "Баланс";
 "total_income_distribution_widget_title" = "Общий доход";

@@ -373,6 +373,7 @@
 "not_shared_title" = "Caderno de Orçamento não partilhado";
 
 /* Widgets */
+"net_worth_widget_title" = "Património líquido";
 "account_balances_widget_title" = "Saldos das contas";
 "balance_widget_title" = "Saldo";
 "total_income_widget_title" = "Rendimento total";
@@ -380,6 +381,7 @@
 "fixed_expenses_widget_title" = "Despesas fixas";
 "variable_expenses_widget_title" = "Despesas variáveis";
 
+"net_worth_distribution_widget_title" = "Distribuição";
 "account_balances_distribution_widget_title" = "Saldos das contas";
 "balance_distribution_widget_title" = "Saldo";
 "total_income_distribution_widget_title" = "Rendimento total";

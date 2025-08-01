@@ -373,6 +373,7 @@
 "not_shared_title" = "دفتر الميزانية غير متوفر";
 
 /* Widgets */
+"net_worth_widget_title" = "صافي القيمة";
 "account_balances_widget_title" = "أرصدة الحساب";
 "balance_widget_title" = "الرصيد";
 "total_income_widget_title" = "إجمالي الدخل";
@@ -380,6 +381,7 @@
 "fixed_expenses_widget_title" = "النفقات الثابتة";
 "variable_expenses_widget_title" = "النفقات المتغيرة";
 
+"net_worth_distribution_widget_title" = "التوزيع";
 "account_balances_distribution_widget_title" = "أرصدة الحساب";
 "balance_distribution_widget_title" = "الرصيد";
 "total_income_distribution_widget_title" = "إجمالي الدخل";

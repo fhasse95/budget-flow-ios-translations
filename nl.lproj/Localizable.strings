@@ -373,6 +373,7 @@
 "not_shared_title" = "Budgetboek niet gedeeld";
 
 /* Widgets */
+"net_worth_widget_title" = "Nettowaarde";
 "account_balances_widget_title" = "Rekeningsaldi";
 "balance_widget_title" = "Saldo";
 "total_income_widget_title" = "Totaal inkomen";
@@ -380,6 +381,7 @@
 "fixed_expenses_widget_title" = "Vaste kosten";
 "variable_expenses_widget_title" = "Variabele uitgaven";
 
+"net_worth_distribution_widget_title" = "Verdeling";
 "account_balances_distribution_widget_title" = "Rekeningsaldi";
 "balance_distribution_widget_title" = "Saldo";
 "total_income_distribution_widget_title" = "Totaal inkomen";

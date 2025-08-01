@@ -373,6 +373,7 @@
 "not_shared_title" = "Buku anggaran tidak dibagikan";
 
 /* Widget */
+"net_worth_widget_title" = "Nilai Bersih";
 "account_balances_widget_title" = "Saldo Akun";
 "balance_widget_title" = "Saldo";
 "total_income_widget_title" = "Total Pendapatan";
@@ -380,6 +381,7 @@
 "fixed_expenses_widget_title" = "Beban Tetap";
 "variable_expenses_widget_title" = "Beban Variabel";
 
+"net_worth_distribution_widget_title" = "Distribusi";
 "account_balances_distribution_widget_title" = "Saldo Akun";
 "balance_distribution_widget_title" = "Saldo";
 "total_income_distribution_widget_title" = "Total Pendapatan";

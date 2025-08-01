@@ -373,6 +373,7 @@
 "not_shared_title" = "A költségvetési könyv nincs megosztva";
 
 /* Widgets */
+"net_worth_widget_title" = "Nettó érték";
 "account_balances_widget_title" = "Számlaegyenlegek";
 "balance_widget_title" = "Egyenleg";
 "total_income_widget_title" = "Összes bevétel";
@@ -380,6 +381,7 @@
 "fixed_expenses_widget_title" = "Rögzített költségek";
 "variable_expenses_widget_title" = "Változó költségek";
 
+"net_worth_distribution_widget_title" = "Eloszlás";
 "account_balances_distribution_widget_title" = "Számlaegyenlegek";
 "balance_distribution_widget_title" = "Egyenleg";
 "total_income_distribution_widget_title" = "Teljes bevétel";

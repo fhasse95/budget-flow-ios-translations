@@ -373,6 +373,7 @@
 "not_shared_title" = "Bütçe defteri paylaşılmaz";
 
 /* Widgets */
+"net_worth_widget_title" = "Net Değer";
 "account_balances_widget_title" = "Hesap Bakiyeleri";
 "balance_widget_title" = "Bakiye";
 "total_income_widget_title" = "Toplam Gelir";
@@ -380,6 +381,7 @@
 "fixed_expenses_widget_title" = "Sabit Giderler";
 "variable_expenses_widget_title" = "Değişken Giderler";
 
+"net_worth_distribution_widget_title" = "Dağılım";
 "account_balances_distribution_widget_title" = "Hesap Bakiyeleri";
 "balance_distribution_widget_title" = "Bakiye";
 "total_income_distribution_widget_title" = "Toplam Gelir";

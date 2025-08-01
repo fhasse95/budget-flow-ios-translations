@@ -373,6 +373,7 @@
 "not_shared_title" = "Cartea de buget nu a fost partajată";
 
 /* Widgets */
+"net_worth_widget_title" = "Valoare netă";
 "account_balances_widget_title" = "Soldurile contului";
 "balance_widget_title" = "Sold";
 "total_income_widget_title" = "Venit total";
@@ -380,6 +381,7 @@
 "fixed_expenses_widget_title" = "Cheltuieli fixe";
 "variable_expenses_widget_title" = "Cheltuieli variabile";
 
+"net_worth_distribution_widget_title" = "Distribuție";
 "account_balances_distribution_widget_title" = "Soldurile contului";
 "balance_distribution_widget_title" = "Sold";
 "total_income_distribution_widget_title" = "Venit total";

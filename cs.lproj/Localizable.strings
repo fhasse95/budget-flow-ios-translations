@@ -373,6 +373,7 @@
 "not_shared_title" = "Rozpočtová kniha není sdílena";
 
 /* Widgets */
+"net_worth_widget_title" = "Čistá hodnota";
 "account_balances_widget_title" = "Zůstatky na účtech";
 "balance_widget_title" = "Zůstatek";
 "total_income_widget_title" = "Celkový příjem";
@@ -380,6 +381,7 @@
 "fixed_expenses_widget_title" = "Pevné výdaje";
 "variable_expenses_widget_title" = "Variabilní výdaje";
 
+"net_worth_distribution_widget_title" = "Distribuce";
 "account_balances_distribution_widget_title" = "Zůstatky na účtech";
 "balance_distribution_widget_title" = "Zůstatek";
 "total_income_distribution_widget_title" = "Celkový příjem";

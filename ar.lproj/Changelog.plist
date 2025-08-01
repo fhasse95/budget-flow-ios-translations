@@ -26,11 +26,11 @@
 		</dict>
 		<dict>
 			<key>Title</key>
-			<string>دعم المناطق الزمنية الثابتة</string>
+			<string>ماسح الإيصالات المحسن</string>
 			<key>Description</key>
-			<string>في الإعدادات المتقدمة، يمكنك الآن تعيين منطقة زمنية ثابتة. هذا يضمن عرض بياناتك بشكل متسق في كل مكان، بغض النظر عن مكان وجودك.</string>
+			<string>يمكّن ماسح الإيصالات المدمج الآن من اكتشاف التواريخ تلقائيًا، وتصنيف المعاملات، وعرض العناصر المشتراة باستخدام Apple Intelligence على iOS / iPadOS 26.</string>
 			<key>IconName</key>
-			<string>globe</string>
+			<string>receipt.viewfinder</string>
 			<key>IconColor</key>
 			<string>#0088ff</string>
 		</dict>

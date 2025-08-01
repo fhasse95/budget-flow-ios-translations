@@ -26,11 +26,11 @@
 		</dict>
 		<dict>
 			<key>Title</key>
-			<string>Unterstützung für feste Zeitzonen</string>
+			<string>Verbesserter Belegscanner</string>
 			<key>Description</key>
-			<string>In den weiteren Einstellungen kannst du nun eine feste Zeitzone festlegen. So werden deine Daten überall identisch angezeigt – unabhängig davon, wo du dich auf der Welt befindest.</string>
+			<string>Der integrierte Belegscanner erkennt nun automatisch Datumsangaben, kategorisiert Transaktionen und listet gekaufte Artikel mithilfe von Apple Intelligence unter iOS / iPadOS 26 auf.</string>
 			<key>IconName</key>
-			<string>globe</string>
+			<string>receipt.viewfinder</string>
 			<key>IconColor</key>
 			<string>#0088ff</string>
 		</dict>

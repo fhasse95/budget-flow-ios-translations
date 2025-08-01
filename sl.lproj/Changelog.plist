@@ -26,11 +26,11 @@
 		</dict>
 		<dict>
 			<key>Title</key>
-			<string>Podpora za fiksne časovne pasove</string>
+			<string>Izboljšan optični bralnik računov</string>
 			<key>Description</key>
-			<string>V naprednih nastavitvah lahko zdaj nastavite fiksni časovni pas. To zagotavlja, da so vaši podatki povsod prikazani dosledno, ne glede na to, kje se nahajate.</string>
+			<string>Integrirani optični bralnik računov zdaj samodejno zazna datume, razvrsti transakcije in navede kupljene izdelke z uporabo Apple Intelligence na iOS / iPadOS 26.</string>
 			<key>IconName</key>
-			<string>globe</string>
+			<string>receipt.viewfinder</string>
 			<key>IconColor</key>
 			<string>#0088ff</string>
 		</dict>

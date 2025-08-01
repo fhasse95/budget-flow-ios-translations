@@ -26,11 +26,11 @@
 		</dict>
 		<dict>
 			<key>Title</key>
-			<string>고정 시간대 지원</string>
+			<string>개선된 영수증 스캐너</string>
 			<key>Description</key>
-			<string>고급 설정에서 이제 고정 시간대를 설정할 수 있습니다. 이를 통해 사용자가 어디에 있든 데이터가 일관되게 표시됩니다.</string>
+			<string>통합된 영수증 스캐너가 이제 자동으로 날짜를 감지하고, 거래를 분류하며, iOS / iPadOS 26에서 Apple Intelligence를 사용하여 구매한 항목을 나열합니다.</string>
 			<key>IconName</key>
-			<string>globe</string>
+			<string>receipt.viewfinder</string>
 			<key>IconColor</key>
 			<string>#0088ff</string>
 		</dict>

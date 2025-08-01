@@ -26,11 +26,11 @@
 		</dict>
 		<dict>
 			<key>Title</key>
-			<string>Suporte para Fusos Horários Fixos</string>
+			<string>Scanner de recibos melhorado</string>
 			<key>Description</key>
-			<string>Nas configurações avançadas, agora podes definir um fuso horário fixo. Isso garante que os teus dados sejam exibidos de forma consistente em qualquer lugar, independentemente de onde estejas.</string>
+			<string>O scanner de recibos integrado agora deteta automaticamente datas, categoriza transações e lista os artigos comprados com Apple Intelligence no iOS / iPadOS 26.</string>
 			<key>IconName</key>
-			<string>globe</string>
+			<string>receipt.viewfinder</string>
 			<key>IconColor</key>
 			<string>#0088ff</string>
 		</dict>

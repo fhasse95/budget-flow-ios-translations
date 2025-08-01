@@ -26,11 +26,11 @@
 		</dict>
 		<dict>
 			<key>Title</key>
-			<string>Support des fuseaux horaires fixes</string>
+			<string>Scanner de reçus amélioré</string>
 			<key>Description</key>
-			<string>Dans les paramètres avancés, vous pouvez désormais définir un fuseau horaire fixe. Cela garantit que vos données sont affichées de manière cohérente partout, peu importe où vous vous trouvez.</string>
+			<string>Le scanner de reçus intégré détecte désormais automatiquement les dates, catégorise les transactions et répertorie les articles achetés grâce à Apple Intelligence sur iOS / iPadOS 26.</string>
 			<key>IconName</key>
-			<string>globe</string>
+			<string>receipt.viewfinder</string>
 			<key>IconColor</key>
 			<string>#0088ff</string>
 		</dict>

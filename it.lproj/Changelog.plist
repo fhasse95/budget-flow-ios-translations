@@ -26,11 +26,11 @@
 		</dict>
 		<dict>
 			<key>Title</key>
-			<string>Supporto per fusi orari fissi</string>
+			<string>Scanner scontrini migliorato</string>
 			<key>Description</key>
-			<string>Nelle impostazioni avanzate, ora puoi impostare un fuso orario fisso. Questo garantisce che i tuoi dati siano visualizzati in modo coerente ovunque, indipendentemente da dove ti trovi.</string>
+			<string>Lo scanner di scontrini integrato ora rileva automaticamente le date, classifica le transazioni ed elenca gli articoli acquistati grazie a Apple Intelligence su iOS / iPadOS 26.</string>
 			<key>IconName</key>
-			<string>globe</string>
+			<string>receipt.viewfinder</string>
 			<key>IconColor</key>
 			<string>#0088ff</string>
 		</dict>

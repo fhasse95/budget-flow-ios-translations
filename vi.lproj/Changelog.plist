@@ -26,11 +26,11 @@
 		</dict>
 		<dict>
 			<key>Title</key>
-			<string>Hỗ trợ múi giờ cố định</string>
+			<string>Trình quét hóa đơn được cải tiến</string>
 			<key>Description</key>
-			<string>Trong cài đặt nâng cao, bạn có thể thiết lập một múi giờ cố định. Điều này đảm bảo dữ liệu của bạn được hiển thị nhất quán ở mọi nơi, bất kể bạn đang ở đâu.</string>
+			<string>Trình quét hóa đơn tích hợp hiện có thể tự động phát hiện ngày, phân loại giao dịch và liệt kê các mặt hàng đã mua bằng Apple Intelligence trên iOS / iPadOS 26.</string>
 			<key>IconName</key>
-			<string>globe</string>
+			<string>receipt.viewfinder</string>
 			<key>IconColor</key>
 			<string>#0088ff</string>
 		</dict>

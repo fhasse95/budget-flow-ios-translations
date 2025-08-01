@@ -26,11 +26,11 @@
 		</dict>
 		<dict>
 			<key>Title</key>
-			<string>支援固定時區</string>
+			<string>改良的收據掃描器</string>
 			<key>Description</key>
-			<string>在進階設定中，您現在可以設定一個固定的時區。這確保您的資料在全球任何地方都以一致的方式顯示，無論您身處何地。</string>
+			<string>整合的收據掃描器現在會自動偵測日期、分類交易，並使用 Apple Intelligence 在 iOS / iPadOS 26 上列出購買項目。</string>
 			<key>IconName</key>
-			<string>globe</string>
+			<string>receipt.viewfinder</string>
 			<key>IconColor</key>
 			<string>#0088ff</string>
 		</dict>

@@ -26,11 +26,11 @@
 		</dict>
 		<dict>
 			<key>Title</key>
-			<string>Soporte para zonas horarias fijas</string>
+			<string>Escáner de recibos mejorado</string>
 			<key>Description</key>
-			<string>En la configuración avanzada, ahora puedes establecer una zona horaria fija. Esto garantiza que tus datos se muestren de manera consistente en cualquier lugar, independientemente de dónde te encuentres.</string>
+			<string>El escáner de recibos integrado ahora detecta automáticamente las fechas, categoriza las transacciones y enumera los artículos comprados usando Apple Intelligence en iOS / iPadOS 26.</string>
 			<key>IconName</key>
-			<string>globe</string>
+			<string>receipt.viewfinder</string>
 			<key>IconColor</key>
 			<string>#0088ff</string>
 		</dict>

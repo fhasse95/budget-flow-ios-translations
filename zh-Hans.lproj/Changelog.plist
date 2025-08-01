@@ -26,11 +26,11 @@
 		</dict>
 		<dict>
 			<key>Title</key>
-			<string>支持固定时区</string>
+			<string>改进的收据扫描仪</string>
 			<key>Description</key>
-			<string>在高级设置中，您现在可以设置一个固定的时区。这确保您的数据在全球任何地方都以一致的方式显示，无论您身处何地。</string>
+			<string>集成的收据扫描仪现在可以自动识别日期、分类交易，并使用 Apple Intelligence 在 iOS / iPadOS 26 上列出购买的商品。</string>
 			<key>IconName</key>
-			<string>globe</string>
+			<string>receipt.viewfinder</string>
 			<key>IconColor</key>
 			<string>#0088ff</string>
 		</dict>

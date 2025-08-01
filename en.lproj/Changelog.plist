@@ -26,11 +26,11 @@
 		</dict>
 		<dict>
 			<key>Title</key>
-			<string>Support for Fixed Time Zones</string>
+			<string>Improved Receipt Scanner</string>
 			<key>Description</key>
-			<string>In the advanced settings, you can now set a fixed time zone. This ensures your data is displayed consistently everywhere, regardless of where you are.</string>
+			<string>The integrated receipt scanner now automatically detects dates, categorizes transactions, and lists purchased items using Apple Intelligence on iOS / iPadOS 26.</string>
 			<key>IconName</key>
-			<string>globe</string>
+			<string>receipt.viewfinder</string>
 			<key>IconColor</key>
 			<string>#0088ff</string>
 		</dict>

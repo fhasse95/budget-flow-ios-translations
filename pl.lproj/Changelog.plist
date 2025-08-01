@@ -26,11 +26,11 @@
 		</dict>
 		<dict>
 			<key>Title</key>
-			<string>Wsparcie dla stałych stref czasowych</string>
+			<string>Ulepszony skaner paragonów</string>
 			<key>Description</key>
-			<string>W zaawansowanych ustawieniach możesz teraz ustawić stałą strefę czasową. Dzięki temu Twoje dane są wyświetlane spójnie wszędzie, niezależnie od tego, gdzie się znajdujesz.</string>
+			<string>Zintegrowany skaner paragonów automatycznie wykrywa teraz daty, kategoryzuje transakcje i wymienia zakupione przedmioty dzięki Apple Intelligence w systemie iOS / iPadOS 26.</string>
 			<key>IconName</key>
-			<string>globe</string>
+			<string>receipt.viewfinder</string>
 			<key>IconColor</key>
 			<string>#0088ff</string>
 		</dict>

@@ -26,11 +26,11 @@
 		</dict>
 		<dict>
 			<key>Title</key>
-			<string>Поддержка фиксированных часовых поясов</string>
+			<string>Улучшенный сканер чеков</string>
 			<key>Description</key>
-			<string>В расширенных настройках теперь можно установить фиксированный часовой пояс. Это гарантирует, что ваши данные будут отображаться одинаково везде, независимо от того, где вы находитесь.</string>
+			<string>Интегрированный сканер чеков теперь автоматически определяет даты, классифицирует транзакции и перечисляет купленные товары с помощью Apple Intelligence на iOS / iPadOS 26.</string>
 			<key>IconName</key>
-			<string>globe</string>
+			<string>receipt.viewfinder</string>
 			<key>IconColor</key>
 			<string>#0088ff</string>
 		</dict>

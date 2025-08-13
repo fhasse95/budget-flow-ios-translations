@@ -440,7 +440,7 @@
 "modified_at" = "Zadnja sprememba %@";
 "average_per_transaction" = "Ø na transakcijo";
 "average_per_day" = "Ø na dan";
-"average_per_month" = "Ø na mesec";
+"average_last_twelve_months" = "Ø zadnjih 12 mesecev";
 
 
 /* MARK: - Budget List View */

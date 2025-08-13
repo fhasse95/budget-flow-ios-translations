@@ -439,8 +439,8 @@
 "payed_by_and_modified_at" = "ชำระโดย %@\nแก้ไขล่าสุดเมื่อ %@";
 "modified_at" = "แก้ไขล่าสุดเมื่อ %@";
 "average_per_transaction" = "ค่าเฉลี่ยต่อธุรกรรม";
-"average_per_day" = "ค่าเฉลี่ยต่อวัน";
-"average_per_month" = "ค่าเฉลี่ยต่อเดือน";
+"average_per_day" = "Ø ต่อวัน";
+"average_last_twelve_months" = "Ø 12 เดือนที่ผ่านมา";
 
 
 /* MARK: - Budget List View */

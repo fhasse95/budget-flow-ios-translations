@@ -440,7 +440,7 @@
 "modified_at" = "Laatst gewijzigd op %@";
 "average_per_transaction" = "Ø per transactie";
 "average_per_day" = "Ø per dag";
-"average_per_month" = "Ø per maand";
+"average_last_twelve_months" = "Ø laatste 12 maanden";
 
 
 /* MARK: - Budget List View */

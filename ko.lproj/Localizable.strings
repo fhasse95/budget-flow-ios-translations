@@ -439,8 +439,8 @@
 "payed_by_and_modified_at" = "%@를 통한 결제\n%@가 마지막으로 수정됨";
 "modified_at" = "%@에 마지막으로 수정됨";
 "average_per_transaction" = "거래당 평균";
-"average_per_day" = "일당 평균";
-"average_per_month" = "월당 평균";
+"average_per_day" = "Ø 일일";
+"average_last_twelve_months" = "Ø 최근 12개월";
 
 
 /* MARK: - Budget List View */

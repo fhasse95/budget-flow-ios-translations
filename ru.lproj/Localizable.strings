@@ -440,7 +440,7 @@
 "modified_at" = "Изменено: %@";
 "average_per_transaction" = "Ø за транзакцию";
 "average_per_day" = "Ø за день";
-"average_per_month" = "Ø за месяц";
+"average_last_twelve_months" = "Ø последние 12 месяцев";
 
 
 /* MARK: - Budget List View */

@@ -440,7 +440,7 @@
 "modified_at" = "Utolsó módosítás: %@";
 "average_per_transaction" = "Ø tranzakciónként";
 "average_per_day" = "Ø naponta";
-"average_per_month" = "Ø havonta";
+"average_last_twelve_months" = "Ø utolsó 12 hónap";
 
 
 /* MARK: - Budget List View */

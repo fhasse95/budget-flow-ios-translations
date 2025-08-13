@@ -440,7 +440,7 @@
 "modified_at" = "Sửa đổi lần cuối lúc %@";
 "average_per_transaction" = "Ø cho mỗi giao dịch";
 "average_per_day" = "Ø cho mỗi ngày";
-"average_per_month" = "Ø cho mỗi tháng";
+"average_last_twelve_months" = "Ø 12 tháng qua";
 
 
 /* MARK: - Budget List View */

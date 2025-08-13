@@ -439,8 +439,8 @@
 "payed_by_and_modified_at" = "によって支払われました %@\n最終更新日: %@";
 "modified_at" = "最終更新日: %@";
 "average_per_transaction" = "トランザクションあたりの平均";
-"average_per_day" = "1 日あたりの平均";
-"average_per_month" = "1 か月あたりの平均";
+"average_per_day" = "Ø 1日あたり";
+"average_last_twelve_months" = "Ø 過去12ヶ月間";
 
 
 /* MARK: - Budget List View */

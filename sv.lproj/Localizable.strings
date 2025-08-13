@@ -440,7 +440,7 @@
 "modified_at" = "Senast ändrad den %@";
 "average_per_transaction" = "Ø per transaktion";
 "average_per_day" = "Ø per dag";
-"average_per_month" = "Ø per månad";
+"average_last_twelve_months" = "Ø senaste 12 månaderna";
 
 
 /* MARK: - Budget List View */

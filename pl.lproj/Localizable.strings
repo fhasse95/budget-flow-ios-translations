@@ -440,7 +440,7 @@
 "modified_at" = "Ostatnia modyfikacja %@";
 "average_per_transaction" = "Ø na transakcję";
 "average_per_day" = "Ø na dzień";
-"average_per_month" = "Ø na miesiąc";
+"average_last_twelve_months" = "Ø ostatnie 12 miesięcy";
 
 
 /* MARK: - Budget List View */

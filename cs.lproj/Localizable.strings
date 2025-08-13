@@ -440,7 +440,7 @@
 "modified_at" = "Naposledy upraveno %@";
 "average_per_transaction" = "Ø na transakci";
 "average_per_day" = "Ø za den";
-"average_per_month" = "Ø za měsíc";
+"average_last_twelve_months" = "Ø posledních 12 měsíců";
 
 
 /* MARK: - Budget List View */

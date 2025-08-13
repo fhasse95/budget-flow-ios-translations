@@ -440,7 +440,7 @@
 "modified_at" = "最后修改于 %@";
 "average_per_transaction" = "平均每笔交易";
 "average_per_day" = "平均每日值";
-"average_per_month" = "每月平均价值";
+"average_last_twelve_months" = "过去12个月的平均值";
 
 
 /* MARK: - Budget List View */

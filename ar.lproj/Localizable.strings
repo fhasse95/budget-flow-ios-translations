@@ -25,6 +25,8 @@
 "uncategorized" = "غير مصنف";
 "before" = "قبل";
 "account_reconcilation" = "تسوية الحساب";
+"evaluated" = "تم التقييم";
+"not_evaluated" = "لم يتم التقييم";
 
 
 /* MARK: - Enums */
@@ -163,6 +165,10 @@
 "transaction_subtitle_type_payee" = "المستفيد";
 "transaction_subtitle_type_notes" = "ملاحظات";
 
+"time_zone_type_floating" = "عائم";
+"time_zone_type_floating_title" = "المنطقة الزمنية العائمة";
+"time_zone_type_floating_subtitle" = "تتكيف مع المنطقة الزمنية المحلية الخاصة بك";
+
 
 /* MARK: - Custom Date Repetition */
 "frequency" = "التكرار";
@@ -226,6 +232,7 @@
 "copy_button" = "نسخ";
 "edit_account_button" = "تحرير الحساب";
 "edit_category_button" = "تحرير الفئة";
+"edit_category_group_button" = "تعديل المجلد";
 "edit_payee_button" = "تحرير المستفيد";
 "edit_tag_button" = "تحرير الوسم";
 "edit_budget_button" = "تحرير الميزانية";
@@ -366,6 +373,7 @@
 "not_shared_title" = "دفتر الميزانية غير متوفر";
 
 /* Widgets */
+"net_worth_widget_title" = "صافي القيمة";
 "account_balances_widget_title" = "أرصدة الحساب";
 "balance_widget_title" = "الرصيد";
 "total_income_widget_title" = "إجمالي الدخل";
@@ -373,6 +381,7 @@
 "fixed_expenses_widget_title" = "النفقات الثابتة";
 "variable_expenses_widget_title" = "النفقات المتغيرة";
 
+"net_worth_distribution_widget_title" = "التوزيع";
 "account_balances_distribution_widget_title" = "أرصدة الحساب";
 "balance_distribution_widget_title" = "الرصيد";
 "total_income_distribution_widget_title" = "إجمالي الدخل";
@@ -431,7 +440,7 @@
 "modified_at" = "تم التعديل: %@";
 "average_per_transaction" = "Ø لكل معاملة";
 "average_per_day" = "Ø في اليوم";
-"average_per_month" = "Ø في الشهر";
+"average_last_twelve_months" = "Ø آخر 12 شهرًا";
 
 
 /* MARK: - Budget List View */
@@ -612,7 +621,8 @@
 "appearance_setting_info_title" = "الوصف";
 "appearance_setting_info_description" = "قم بتخصيص التطبيق حسب رغبتك عن طريق تغيير مظهره أو لون التمييز.";
 "appearance_ui_style_setting_section_title" = "السمة";
-"appearance_ui_style_setting_footer_title" = "يغير مظهر التطبيق.";
+"appearance_ui_style_apply_to_icons_title" = "تطبيق على الأيقونات";
+"appearance_ui_style_apply_to_icons_description" = "قم بتطبيق المظهر المحدد أيضًا على جميع الأيقونات داخل التطبيق.";
 "appearance_accent_color_setting_section_title" = "لون التمييز";
 "appearance_accent_color_setting_footer_title" = "تغيير لون الأزرار وعناصر التحكم الأخرى في التطبيق.";
 "appearance_app_icon_setting_section_title" = "رمز التطبيق";
@@ -731,7 +741,8 @@
 "advanced_setting_enable_haptic_keyboard_title" = "استجابة لوحة المفاتيح";
 "advanced_setting_enable_haptic_keyboard_description" = "احصل على ردود فعل لمسية عند إدخال مبلغ باستخدام لوحة المفاتيح.";
 
-"advanced_setting_app_language_title" = "اللغة";
+"advanced_setting_language_title" = "اللغة";
+"advanced_setting_time_zone_title" = "المنطقة الزمنية";
 "advanced_setting_enable_live_activities_title" = "النشاط المباشر";
 "advanced_setting_enable_live_activities_description" = "إظهار الرصيد الحالي والمعلومات الأخرى في Dynamic Island وعلى شاشة القفل.";
 "advanced_setting_ask_for_feedback_title" = "اطلب تعليقات";
@@ -1159,6 +1170,15 @@
 /* Sections */
 "source_currency_section_title" = "من";
 "target_currency_section_title" = "إلى";
+
+
+/* MARK: - Time Zone Selection View */
+/* Titles */
+"time_zone_selection_title" = "المنطقة الزمنية";
+
+/* Messages */
+"no_timezones_found_title" = "لم يتم العثور على مناطق زمنية";
+"time_zone_selection_search_placeholder_message" = "ابحث عن المنطقة الزمنية لبلد أو مدينة";
 
 
 /* MARK: - Manage Item View */

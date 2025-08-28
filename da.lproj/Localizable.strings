@@ -25,6 +25,8 @@
 "uncategorized" = "Ikke kategoriseret";
 "before" = "før";
 "account_reconcilation" = "Kontoafstemning";
+"evaluated" = "Evalueret";
+"not_evaluated" = "Ikke evalueret";
 
 
 /* MARK: - Enums */
@@ -163,6 +165,10 @@
 "transaction_subtitle_type_payee" = "Betalingsmodtager";
 "transaction_subtitle_type_notes" = "Noter";
 
+"time_zone_type_floating" = "Flydende";
+"time_zone_type_floating_title" = "Flydende tidszone";
+"time_zone_type_floating_subtitle" = "Tilpasser sig din lokale tidszone";
+
 
 /* MARK: - Custom Date Repetition */
 "frequency" = "Frekvens";
@@ -226,6 +232,7 @@
 "copy_button" = "Kopier";
 "edit_account_button" = "Rediger konto";
 "edit_category_button" = "Rediger kategori";
+"edit_category_group_button" = "Rediger mappe";
 "edit_payee_button" = "Rediger betalingsmodtager";
 "edit_tag_button" = "Rediger tag";
 "edit_budget_button" = "Rediger budget";
@@ -366,6 +373,7 @@
 "not_shared_title" = "Budgetbog ikke delt";
 
 /* Widgets */
+"net_worth_widget_title" = "Nettoformue";
 "account_balances_widget_title" = "Kontosaldi";
 "balance_widget_title" = "Saldo";
 "total_income_widget_title" = "Samlet indkomst";
@@ -373,6 +381,7 @@
 "fixed_expenses_widget_title" = "Faste udgifter";
 "variable_expenses_widget_title" = "Variable udgifter";
 
+"net_worth_distribution_widget_title" = "Fordeling";
 "account_balances_distribution_widget_title" = "Kontosaldi";
 "balance_distribution_widget_title" = "Saldo";
 "total_income_distribution_widget_title" = "Samlet indkomst";
@@ -431,7 +440,7 @@
 "modified_at" = "Sidst ændret den %@";
 "average_per_transaction" = "Ø pr. transaktion";
 "average_per_day" = "Ø pr. dag";
-"average_per_month" = "Ø pr. måned";
+"average_last_twelve_months" = "Ø sidste 12 måneder";
 
 
 /* MARK: - Budget List View */
@@ -612,7 +621,8 @@
 "appearance_setting_info_title" = "Beskrivelse";
 "appearance_setting_info_description" = "Tilpas appen efter din smag ved at ændre appens udseende eller accentfarve.";
 "appearance_ui_style_setting_section_title" = "Tema";
-"appearance_ui_style_setting_footer_title" = "Ændrer appens udseende.";
+"appearance_ui_style_apply_to_icons_title" = "Anvend på ikoner";
+"appearance_ui_style_apply_to_icons_description" = "Anvend også det valgte udseende på alle ikoner i appen.";
 "appearance_accent_color_setting_section_title" = "Accentfarve";
 "appearance_accent_color_setting_footer_title" = "Ændrer farven på knapper og andre kontroller i appen.";
 "appearance_app_icon_setting_section_title" = "App-ikon";
@@ -731,7 +741,8 @@
 "advanced_setting_enable_haptic_keyboard_title" = "Tastaturfeedback";
 "advanced_setting_enable_haptic_keyboard_description" = "Få haptisk feedback, når du indtaster pengebeløb ved hjælp af tastaturet.";
 
-"advanced_setting_app_language_title" = "Sprog";
+"advanced_setting_language_title" = "Sprog";
+"advanced_setting_time_zone_title" = "Tidszone";
 "advanced_setting_enable_live_activities_title" = "Live-aktiviteter";
 "advanced_setting_enable_live_activities_description" = "Se din aktuelle saldo og mere på den dynamiske ø samt låseskærmen.";
 "advanced_setting_ask_for_feedback_title" = "Bed om feedback";
@@ -1159,6 +1170,15 @@
 /* Sections */
 "source_currency_section_title" = "Fra";
 "target_currency_section_title" = "Til";
+
+
+/* MARK: - Time Zone Selection View */
+/* Titles */
+"time_zone_selection_title" = "Tidszone";
+
+/* Messages */
+"no_timezones_found_title" = "Ingen tidszoner fundet";
+"time_zone_selection_search_placeholder_message" = "Søg efter tidszonen for et land eller en by";
 
 
 /* MARK: - Manage Item View */

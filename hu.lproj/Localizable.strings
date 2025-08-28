@@ -25,6 +25,8 @@
 "uncategorized" = "Nincs kategorizálva";
 "before" = "előtte";
 "account_reconcilation" = "Számlaegyeztetés";
+"evaluated" = "Értékelt";
+"not_evaluated" = "Nem értékelt";
 
 
 /* MARK: - Enums */
@@ -163,6 +165,10 @@
 "transaction_subtitle_type_payee" = "Kedvezményezett";
 "transaction_subtitle_type_notes" = "Megjegyzések";
 
+"time_zone_type_floating" = "Lebegő";
+"time_zone_type_floating_title" = "Lebegő időzóna";
+"time_zone_type_floating_subtitle" = "Alkalmazkodik a helyi időzónádhoz";
+
 
 /* MARK: - Custom Date Repetition */
 "frequency" = "Frekvencia";
@@ -226,6 +232,7 @@
 "copy_button" = "Másolás";
 "edit_account_button" = "Fiók szerkesztése";
 "edit_category_button" = "Kategória szerkesztése";
+"edit_category_group_button" = "Mappa szerkesztése";
 "edit_payee_button" = "Kedvezményezett szerkesztése";
 "edit_tag_button" = "Címke szerkesztése";
 "edit_budget_button" = "Költségkeret szerkesztése";
@@ -366,6 +373,7 @@
 "not_shared_title" = "A költségvetési könyv nincs megosztva";
 
 /* Widgets */
+"net_worth_widget_title" = "Nettó érték";
 "account_balances_widget_title" = "Számlaegyenlegek";
 "balance_widget_title" = "Egyenleg";
 "total_income_widget_title" = "Összes bevétel";
@@ -373,6 +381,7 @@
 "fixed_expenses_widget_title" = "Rögzített költségek";
 "variable_expenses_widget_title" = "Változó költségek";
 
+"net_worth_distribution_widget_title" = "Eloszlás";
 "account_balances_distribution_widget_title" = "Számlaegyenlegek";
 "balance_distribution_widget_title" = "Egyenleg";
 "total_income_distribution_widget_title" = "Teljes bevétel";
@@ -431,7 +440,7 @@
 "modified_at" = "Utolsó módosítás: %@";
 "average_per_transaction" = "Ø tranzakciónként";
 "average_per_day" = "Ø naponta";
-"average_per_month" = "Ø havonta";
+"average_last_twelve_months" = "Ø utolsó 12 hónap";
 
 
 /* MARK: - Budget List View */
@@ -612,7 +621,8 @@
 "appearance_setting_info_title" = "Leírás";
 "appearance_setting_info_description" = "Személyre szabhatja az alkalmazást az alkalmazás megjelenésének vagy kiemelő színének módosításával.";
 "appearance_ui_style_setting_section_title" = "Téma";
-"appearance_ui_style_setting_footer_title" = "Módosítja az alkalmazás megjelenését.";
+"appearance_ui_style_apply_to_icons_title" = "Alkalmazás ikonokra";
+"appearance_ui_style_apply_to_icons_description" = "Alkalmazza a kiválasztott megjelenést az alkalmazás összes ikonjára is.";
 "appearance_accent_color_setting_section_title" = "Kiemelési szín";
 "appearance_accent_color_setting_footer_title" = "Módosítja a gombok és egyéb vezérlők színét az alkalmazáson belül.";
 "appearance_app_icon_setting_section_title" = "Alkalmazásikon";
@@ -731,7 +741,8 @@
 "advanced_setting_enable_haptic_keyboard_title" = "Visszajelzés a billentyűzetről";
 "advanced_setting_enable_haptic_keyboard_description" = "Érzékeny visszajelzést kaphat, amikor pénzösszegeket ír be a billentyűzet segítségével.";
 
-"advanced_setting_app_language_title" = "Nyelv";
+"advanced_setting_language_title" = "Nyelv";
+"advanced_setting_time_zone_title" = "Időzóna";
 "advanced_setting_enable_live_activities_title" = "Élő tevékenységek";
 "advanced_setting_enable_live_activities_description" = "Tekintse meg aktuális egyenlegét és még sok mást a dinamikus szigeten, valamint a lezárási képernyőn.";
 "advanced_setting_ask_for_feedback_title" = "Visszajelzés kérése";
@@ -1159,6 +1170,15 @@
 /* Sections */
 "source_currency_section_title" = "Feladó";
 "target_currency_section_title" = "Címzett";
+
+
+/* MARK: - Time Zone Selection View */
+/* Titles */
+"time_zone_selection_title" = "Időzóna";
+
+/* Messages */
+"no_timezones_found_title" = "Nem található időzóna";
+"time_zone_selection_search_placeholder_message" = "Keresés ország vagy város időzónája szerint";
 
 
 /* MARK: - Manage Item View */

@@ -25,6 +25,8 @@
 "uncategorized" = "Niet gecategoriseerd";
 "before" = "voor";
 "account_reconcilation" = "Rekeningafstemming";
+"evaluated" = "Beoordeeld";
+"not_evaluated" = "Niet beoordeeld";
 
 
 /* MARK: - Enums */
@@ -163,6 +165,10 @@
 "transaction_subtitle_type_payee" = "Begunstigde";
 "transaction_subtitle_type_notes" = "Notities";
 
+"time_zone_type_floating" = "Vast";
+"time_zone_type_floating_title" = "Vaste tijdzone";
+"time_zone_type_floating_subtitle" = "Past zich aan jouw lokale tijdzone aan";
+
 
 /* MARK: - Custom Date Repetition */
 "frequency" = "Frequentie";
@@ -226,6 +232,7 @@
 "copy_button" = "Kopiëren";
 "edit_account_button" = "Account bewerken";
 "edit_category_button" = "Categorie bewerken";
+"edit_category_group_button" = "Map bewerken";
 "edit_payee_button" = "Begunstigde bewerken";
 "edit_tag_button" = "Tag bewerken";
 "edit_budget_button" = "Budget bewerken";
@@ -366,6 +373,7 @@
 "not_shared_title" = "Budgetboek niet gedeeld";
 
 /* Widgets */
+"net_worth_widget_title" = "Nettowaarde";
 "account_balances_widget_title" = "Rekeningsaldi";
 "balance_widget_title" = "Saldo";
 "total_income_widget_title" = "Totaal inkomen";
@@ -373,6 +381,7 @@
 "fixed_expenses_widget_title" = "Vaste kosten";
 "variable_expenses_widget_title" = "Variabele uitgaven";
 
+"net_worth_distribution_widget_title" = "Verdeling";
 "account_balances_distribution_widget_title" = "Rekeningsaldi";
 "balance_distribution_widget_title" = "Saldo";
 "total_income_distribution_widget_title" = "Totaal inkomen";
@@ -431,7 +440,7 @@
 "modified_at" = "Laatst gewijzigd op %@";
 "average_per_transaction" = "Ø per transactie";
 "average_per_day" = "Ø per dag";
-"average_per_month" = "Ø per maand";
+"average_last_twelve_months" = "Ø laatste 12 maanden";
 
 
 /* MARK: - Budget List View */
@@ -612,7 +621,8 @@
 "appearance_setting_info_title" = "Beschrijving";
 "appearance_setting_info_description" = "Personaliseer de app naar wens door het uiterlijk of de accentkleur van de app te wijzigen.";
 "appearance_ui_style_setting_section_title" = "Thema";
-"appearance_ui_style_setting_footer_title" = "Wijzigt het uiterlijk van de app.";
+"appearance_ui_style_apply_to_icons_title" = "Toepassen op pictogrammen";
+"appearance_ui_style_apply_to_icons_description" = "Pas het geselecteerde uiterlijk ook toe op alle pictogrammen in de app.";
 "appearance_accent_color_setting_section_title" = "Accentkleur";
 "appearance_accent_color_setting_footer_title" = "Wijzigt de kleur van knoppen en andere bedieningselementen in de app.";
 "appearance_app_icon_setting_section_title" = "App-pictogram";
@@ -731,7 +741,8 @@
 "advanced_setting_enable_haptic_keyboard_title" = "Toetsenbordfeedback";
 "advanced_setting_enable_haptic_keyboard_description" = "Krijg haptische feedback wanneer u geldbedragen invoert via het toetsenbord.";
 
-"advanced_setting_app_language_title" = "Taal";
+"advanced_setting_language_title" = "Taal";
+"advanced_setting_time_zone_title" = "Tijdzone";
 "advanced_setting_enable_live_activities_title" = "Live-activiteiten";
 "advanced_setting_enable_live_activities_description" = "Bekijk uw huidige saldo en meer op het dynamische eiland en op het vergrendelscherm.";
 "advanced_setting_ask_for_feedback_title" = "Vraag om feedback";
@@ -1159,6 +1170,15 @@
 /* Sections */
 "source_currency_section_title" = "Van";
 "target_currency_section_title" = "Aan";
+
+
+/* MARK: - Time Zone Selection View */
+/* Titles */
+"time_zone_selection_title" = "Tijdzone";
+
+/* Messages */
+"no_timezones_found_title" = "Geen tijdzones gevonden";
+"time_zone_selection_search_placeholder_message" = "Zoek naar de tijdzone van een land of stad";
 
 
 /* MARK: - Manage Item View */

@@ -25,6 +25,8 @@
 "uncategorized" = "Chưa phân loại";
 "before" = "trước";
 "account_reconcilation" = "Đối chiếu tài khoản";
+"evaluated" = "Đã đánh giá";
+"not_evaluated" = "Chưa đánh giá";
 
 
 /* MARK: - Enums */
@@ -163,6 +165,10 @@
 "transaction_subtitle_type_payee" = "Người nhận";
 "transaction_subtitle_type_notes" = "Ghi chú";
 
+"time_zone_type_floating" = "Di động";
+"time_zone_type_floating_title" = "Múi giờ di động";
+"time_zone_type_floating_subtitle" = "Tự động điều chỉnh theo múi giờ địa phương của bạn";
+
 
 /* MARK: - Custom Date Repetition */
 "frequency" = "Tần suất";
@@ -226,6 +232,7 @@
 "copy_button" = "Sao chép";
 "edit_account_button" = "Sửa Ví";
 "edit_category_button" = "Sửa Danh mục";
+"edit_category_group_button" = "Chỉnh sửa thư mục";
 "edit_payee_button" = "Sửa Người nhận";
 "edit_tag_button" = "Chỉnh sửa nhãn";
 "edit_budget_button" = "Sửa ngân sách";
@@ -366,6 +373,7 @@
 "not_shared_title" = "Ví không được chia sẻ";
 
 /* Widgets */
+"net_worth_widget_title" = "Giá trị ròng";
 "account_balances_widget_title" = "Số dư";
 "balance_widget_title" = "Số dư";
 "total_income_widget_title" = "Tổng thu nhập";
@@ -373,6 +381,7 @@
 "fixed_expenses_widget_title" = "Chi phí cố định";
 "variable_expenses_widget_title" = "Chi phí thay đổi";
 
+"net_worth_distribution_widget_title" = "Phân phối";
 "account_balances_distribution_widget_title" = "Số dư";
 "balance_distribution_widget_title" = "Số dư";
 "total_income_distribution_widget_title" = "Tổng thu nhập";
@@ -431,7 +440,7 @@
 "modified_at" = "Sửa đổi lần cuối lúc %@";
 "average_per_transaction" = "Ø cho mỗi giao dịch";
 "average_per_day" = "Ø cho mỗi ngày";
-"average_per_month" = "Ø cho mỗi tháng";
+"average_last_twelve_months" = "Ø 12 tháng qua";
 
 
 /* MARK: - Budget List View */
@@ -612,7 +621,8 @@
 "appearance_setting_info_title" = "Mô tả";
 "appearance_setting_info_description" = "Cá nhân hóa ứng dụng theo ý thích của bạn bằng cách thay đổi giao diện hoặc màu chủ đạo của ứng dụng.";
 "appearance_ui_style_setting_section_title" = "Chủ đề";
-"appearance_ui_style_setting_footer_title" = "Thay đổi giao diện sáng tối của ứng dụng.";
+"appearance_ui_style_apply_to_icons_title" = "Áp dụng cho biểu tượng";
+"appearance_ui_style_apply_to_icons_description" = "Áp dụng giao diện đã chọn cho tất cả biểu tượng trong ứng dụng.";
 "appearance_accent_color_setting_section_title" = "Màu chủ đạo";
 "appearance_accent_color_setting_footer_title" = "Thay đổi màu của các nút trong ứng dụng.";
 "appearance_app_icon_setting_section_title" = "Biểu tượng";
@@ -731,7 +741,8 @@
 "advanced_setting_enable_haptic_keyboard_title" = "Phản hồi bàn phím";
 "advanced_setting_enable_haptic_keyboard_description" = "Nhận phản hồi xúc giác khi nhập số tiền bằng bàn phím.";
 
-"advanced_setting_app_language_title" = "Ngôn ngữ";
+"advanced_setting_language_title" = "Ngôn ngữ";
+"advanced_setting_time_zone_title" = "Múi giờ";
 "advanced_setting_enable_live_activities_title" = "Hoạt động trực tiếp";
 "advanced_setting_enable_live_activities_description" = "Xem số dư hiện tại của bạn và nhiều thông tin khác trên đảo động cũng như màn hình khóa.";
 "advanced_setting_ask_for_feedback_title" = "Yêu cầu phản hồi";
@@ -1159,6 +1170,15 @@
 /* Sections */
 "source_currency_section_title" = "Từ";
 "target_currency_section_title" = "Đến";
+
+
+/* MARK: - Time Zone Selection View */
+/* Titles */
+"time_zone_selection_title" = "Múi giờ";
+
+/* Messages */
+"no_timezones_found_title" = "Không tìm thấy múi giờ nào";
+"time_zone_selection_search_placeholder_message" = "Tìm kiếm múi giờ của một quốc gia hoặc thành phố";
 
 
 /* MARK: - Manage Item View */

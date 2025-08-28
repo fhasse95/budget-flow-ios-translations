@@ -25,6 +25,8 @@
 "uncategorized" = "Tidak dikategorikan";
 "before" = "sebelum";
 "account_reconcilation" = "Rekonsiliasi akun";
+"evaluated" = "Sudah Dinilai";
+"not_evaluated" = "Belum Dinilai";
 
 
 /* MARK: - Enum */
@@ -163,6 +165,10 @@
 "transaction_subtitle_type_payee" = "Penerima pembayaran";
 "transaction_subtitle_type_notes" = "Catatan";
 
+"time_zone_type_floating" = "Mengambang";
+"time_zone_type_floating_title" = "Zona Waktu Mengambang";
+"time_zone_type_floating_subtitle" = "Menyesuaikan dengan zona waktu lokal Anda";
+
 
 /* MARK: - Custom Date Repetition */
 "frequency" = "Frekuensi";
@@ -224,11 +230,12 @@
 "add_button" = "Tambah";
 "edit_button" = "Ubah";
 "copy_button" = "Salin";
-"edit_account_button" = "Ubah akun";
-"edit_category_button" = "Ubah kategori";
-"edit_payee_button" = "Edit penerima pembayaran";
-"edit_tag_button" = "Edit tanda";
-"edit_budget_button" = "Edit anggaran";
+"edit_account_button" = "Sunting akun";
+"edit_category_button" = "Sunting kategori";
+"edit_category_group_button" = "Sunting folder";
+"edit_payee_button" = "Sunting penerima";
+"edit_tag_button" = "Sunting tag";
+"edit_budget_button" = "Sunting anggaran";
 "multi_selection_button" = "Pilihan ganda";
 "back_button" = "Kembali";
 "selesai_button" = "Selesai";
@@ -366,6 +373,7 @@
 "not_shared_title" = "Buku anggaran tidak dibagikan";
 
 /* Widget */
+"net_worth_widget_title" = "Nilai Bersih";
 "account_balances_widget_title" = "Saldo Akun";
 "balance_widget_title" = "Saldo";
 "total_income_widget_title" = "Total Pendapatan";
@@ -373,6 +381,7 @@
 "fixed_expenses_widget_title" = "Beban Tetap";
 "variable_expenses_widget_title" = "Beban Variabel";
 
+"net_worth_distribution_widget_title" = "Distribusi";
 "account_balances_distribution_widget_title" = "Saldo Akun";
 "balance_distribution_widget_title" = "Saldo";
 "total_income_distribution_widget_title" = "Total Pendapatan";
@@ -431,7 +440,7 @@
 "modified_at" = "Terakhir diubah pada %@";
 "average_per_transaction" = "Ø per transaksi";
 "average_per_day" = "Ø per hari";
-"average_per_month" = "Ø setiap bulan";
+"average_last_twelve_months" = "Ø 12 bulan terakhir";
 
 
 /* MARK: - Budget List View */
@@ -612,7 +621,8 @@
 "appearance_setting_info_title" = "Deskripsi";
 "appearance_setting_info_description" = "Personalisasikan aplikasi sesuai keinginan Anda dengan mengubah tampilan atau warna aksen aplikasi.";
 "appearance_ui_style_setting_section_title" = "Tema";
-"appearance_ui_style_setting_footer_title" = "Mengubah tampilan app.";
+"appearance_ui_style_apply_to_icons_title" = "Terapkan ke Ikon";
+"appearance_ui_style_apply_to_icons_description" = "Terapkan tampilan yang dipilih ke semua ikon dalam aplikasi.";
 "appearance_accent_color_setting_section_title" = "Warna Aksen";
 "appearance_accent_color_setting_footer_title" = "Mengubah warna tombol dan kontrol lain di dalam aplikasi.";
 "appearance_app_icon_setting_section_title" = "Ikon Aplikasi";
@@ -731,7 +741,8 @@
 "advanced_setting_enable_haptic_keyboard_title" = "Umpan Balik Keyboard";
 "advanced_setting_enable_haptic_keyboard_description" = "Dapatkan masukan haptik saat memasukkan jumlah uang menggunakan keyboard.";
 
-"advanced_setting_app_language_title" = "Bahasa";
+"advanced_setting_language_title" = "Bahasa";
+"advanced_setting_time_zone_title" = "Zona waktu";
 "advanced_setting_enable_live_activities_title" = "Aktivitas Langsung";
 "advanced_setting_enable_live_activities_description" = "Lihat saldo Anda saat ini dan lebih banyak lagi di pulau dinamis serta layar kunci.";
 "advanced_setting_ask_for_feedback_title" = "Minta Masukan";
@@ -1159,6 +1170,15 @@
 /* Sections */
 "source_currency_section_title" = "Dari";
 "target_currency_section_title" = "Kepada";
+
+
+/* MARK: - Time Zone Selection View */
+/* Titles */
+"time_zone_selection_title" = "Zona waktu";
+
+/* Messages */
+"no_timezones_found_title" = "Zona waktu tidak ditemukan";
+"time_zone_selection_search_placeholder_message" = "Cari zona waktu negara atau kota";
 
 
 /* MARK: - Manage Item View */

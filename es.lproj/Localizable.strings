@@ -25,6 +25,8 @@
 "uncategorized" = "Sin categorizar";
 "before" = "antes";
 "account_reconcilation" = "Conciliación de cuenta";
+"evaluated" = "Evaluado";
+"not_evaluated" = "No evaluado";
 
 
 /* MARK: - Enums */
@@ -163,6 +165,10 @@
 "transaction_subtitle_type_payee" = "Beneficiario";
 "transaction_subtitle_type_notes" = "Notas";
 
+"time_zone_type_floating" = "Flotante";
+"time_zone_type_floating_title" = "Zona horaria flotante";
+"time_zone_type_floating_subtitle" = "Se ajusta a tu zona horaria local";
+
 
 /* MARK: - Custom Date Repetition */
 "frequency" = "Frecuencia";
@@ -226,6 +232,7 @@
 "copy_button" = "Copiar";
 "edit_account_button" = "Editar cuenta";
 "edit_category_button" = "Editar categoría";
+"edit_category_group_button" = "Editar carpeta";
 "edit_payee_button" = "Editar beneficiario";
 "edit_tag_button" = "Editar etiqueta";
 "edit_budget_button" = "Editar presupuesto";
@@ -366,6 +373,7 @@
 "not_shared_title" = "Libro de presupuesto no compartido";
 
 /* Widgets */
+"net_worth_widget_title" = "Patrimonio neto";
 "account_balances_widget_title" = "Saldos de cuentas";
 "balance_widget_title" = "Balance";
 "total_income_widget_title" = "Ingresos totales";
@@ -373,6 +381,7 @@
 "fixed_expenses_widget_title" = "Gastos fijos";
 "variable_expenses_widget_title" = "Gastos variables";
 
+"net_worth_distribution_widget_title" = "Distribución";
 "account_balances_distribution_widget_title" = "Saldos de cuentas";
 "balance_distribution_widget_title" = "Balance";
 "total_income_distribution_widget_title" = "Ingresos totales";
@@ -431,7 +440,7 @@
 "modified_at" = "Última modificación el %@";
 "average_per_transaction" = "Ø por transacción";
 "average_per_day" = "Ø por día";
-"average_per_month" = "Ø por mes";
+"average_last_twelve_months" = "Ø últimos 12 meses";
 
 
 /* MARK: - Budget List View */
@@ -612,7 +621,8 @@
 "appearance_setting_info_title" = "Descripción";
 "appearance_setting_info_description" = "Personaliza la app a tu gusto cambiando la apariencia o el color de acento.";
 "appearance_ui_style_setting_section_title" = "Tema";
-"appearance_ui_style_setting_footer_title" = "Cambia la apariencia de la app.";
+"appearance_ui_style_apply_to_icons_title" = "Aplicar a los iconos";
+"appearance_ui_style_apply_to_icons_description" = "Aplicar también la apariencia seleccionada a todos los iconos de la app.";
 "appearance_accent_color_setting_section_title" = "Color de acento";
 "appearance_accent_color_setting_footer_title" = "Cambia el color de los botones y otros controles dentro de la app.";
 "appearance_app_icon_setting_section_title" = "Icono de la app";
@@ -731,7 +741,8 @@
 "advanced_setting_enable_haptic_keyboard_title" = "Comentarios del teclado";
 "advanced_setting_enable_haptic_keyboard_description" = "Obtenga respuesta táctil al ingresar cantidades monetarias usando el teclado.";
 
-"advanced_setting_app_language_title" = "Idioma";
+"advanced_setting_language_title" = "Idioma";
+"advanced_setting_time_zone_title" = "Zona horaria";
 "advanced_setting_enable_live_activities_title" = "Actividades en vivo";
 "advanced_setting_enable_live_activities_description" = "Consulta tu saldo actual y más en la isla dinámica y en la pantalla de bloqueo.";
 "advanced_setting_ask_for_feedback_title" = "Solicitar comentarios";
@@ -1159,6 +1170,15 @@
 /* Sections */
 "source_currency_section_title" = "De";
 "target_currency_section_title" = "Para";
+
+
+/* MARK: - Time Zone Selection View */
+/* Titles */
+"time_zone_selection_title" = "Zona horaria";
+
+/* Messages */
+"no_timezones_found_title" = "No se encontraron zonas horarias";
+"time_zone_selection_search_placeholder_message" = "Busca la zona horaria de un país o una ciudad";
 
 
 /* MARK: - Manage Item View */

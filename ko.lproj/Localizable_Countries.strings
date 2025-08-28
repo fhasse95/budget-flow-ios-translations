@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Afghanistan</key>
+	<string>아프가니스탄</string>
+	<key>Algeria</key>
+	<string>알제리</string>
+	<key>Angola</key>
+	<string>앙골라</string>
+	<key>Argentina</key>
+	<string>아르헨티나</string>
+	<key>Armenia</key>
+	<string>아르메니아</string>
+	<key>Australia</key>
+	<string>오스트레일리아</string>
+	<key>Austria</key>
+	<string>오스트리아</string>
+	<key>Azerbaijan</key>
+	<string>아제르바이잔</string>
+	<key>Bahrain</key>
+	<string>바레인</string>
+	<key>Bangladesh</key>
+	<string>방글라데시</string>
+	<key>Barbados</key>
+	<string>바베이도스</string>
+	<key>Belgium</key>
+	<string>벨기에</string>
+	<key>Bolivia</key>
+	<string>볼리비아</string>
+	<key>Brazil</key>
+	<string>브라질</string>
+	<key>Bulgaria</key>
+	<string>불가리아</string>
+	<key>Burkina Faso</key>
+	<string>부르키나파소</string>
+	<key>Burma</key>
+	<string>버마</string>
+	<key>Cambodia</key>
+	<string>캄보디아</string>
+	<key>Cameroon</key>
+	<string>카메룬</string>
+	<key>Canada</key>
+	<string>캐나다</string>
+	<key>Central African Republic</key>
+	<string>중앙 아프리카 공화국</string>
+	<key>Chad</key>
+	<string>차드</string>
+	<key>Chile</key>
+	<string>칠레</string>
+	<key>China</key>
+	<string>중국</string>
+	<key>Colombia</key>
+	<string>콜롬비아</string>
+	<key>Costa Rica</key>
+	<string>코스타리카</string>
+	<key>Croatia</key>
+	<string>크로아티아</string>
+	<key>Cuba</key>
+	<string>쿠바</string>
+	<key>Czech Republic</key>
+	<string>체코</string>
+	<key>Denmark</key>
+	<string>덴마크</string>
+	<key>Djibouti</key>
+	<string>지부티</string>
+	<key>Dominican Republic</key>
+	<string>도미니카 공화국</string>
+	<key>Ecuador</key>
+	<string>에콰도르</string>
+	<key>Egypt</key>
+	<string>이집트</string>
+	<key>El Salvador</key>
+	<string>엘살바도르</string>
+	<key>England</key>
+	<string>잉글랜드</string>
+	<key>Eritrea</key>
+	<string>에리트레아</string>
+	<key>Ethiopia</key>
+	<string>에티오피아</string>
+	<key>Finland</key>
+	<string>핀란드</string>
+	<key>France</key>
+	<string>프랑스</string>
+	<key>French Guiana</key>
+	<string>프랑스 기아나</string>
+	<key>Germany</key>
+	<string>독일</string>
+	<key>Ghana</key>
+	<string>가나</string>
+	<key>Greece</key>
+	<string>그리스</string>
+	<key>Greenland</key>
+	<string>그린란드</string>
+	<key>Guatemala</key>
+	<string>과테말라</string>
+	<key>Guinea</key>
+	<string>기니</string>
+	<key>Guyana</key>
+	<string>가이아나</string>
+	<key>Haiti</key>
+	<string>아이티</string>
+	<key>Honduras</key>
+	<string>온두라스</string>
+	<key>Hong Kong</key>
+	<string>홍콩</string>
+	<key>Hungary</key>
+	<string>헝가리</string>
+	<key>Iceland</key>
+	<string>아이슬란드</string>
+	<key>India</key>
+	<string>인도</string>
+	<key>Indonesia</key>
+	<string>인도네시아</string>
+	<key>Iran</key>
+	<string>이란</string>
+	<key>Iraq</key>
+	<string>이라크</string>
+	<key>Ireland</key>
+	<string>아일랜드</string>
+	<key>Israel</key>
+	<string>이스라엘</string>
+	<key>Italy</key>
+	<string>이탈리아</string>
+	<key>Japan</key>
+	<string>일본</string>
+	<key>Jordan</key>
+	<string>요르단</string>
+	<key>Kenya</key>
+	<string>케냐</string>
+	<key>Korea</key>
+	<string>대한민국</string>
+	<key>Kuwait</key>
+	<string>쿠웨이트</string>
+	<key>Lebanon</key>
+	<string>레바논</string>
+	<key>Liberia</key>
+	<string>라이베리아</string>
+	<key>Libya</key>
+	<string>리비아</string>
+	<key>Madagascar</key>
+	<string>마다가스카르</string>
+	<key>Malaysia</key>
+	<string>말레이시아</string>
+	<key>Maldives</key>
+	<string>몰디브</string>
+	<key>Mali</key>
+	<string>말리</string>
+	<key>Mauritania</key>
+	<string>모리타니</string>
+	<key>Mauritius</key>
+	<string>모리셔스</string>
+	<key>Mexico</key>
+	<string>멕시코</string>
+	<key>Mongolia</key>
+	<string>몽고</string>
+	<key>Morocco</key>
+	<string>모로코</string>
+	<key>Mozambique</key>
+	<string>모잠비크</string>
+	<key>Nepal</key>
+	<string>네팔</string>
+	<key>Netherlands</key>
+	<string>네덜란드</string>
+	<key>New Caledonia</key>
+	<string>뉴칼레도니아</string>
+	<key>New Zealand</key>
+	<string>뉴질랜드</string>
+	<key>Nicaragua</key>
+	<string>니카라과</string>
+	<key>Nigeria</key>
+	<string>나이지리아</string>
+	<key>North Korea</key>
+	<string>북한</string>
+	<key>Norway</key>
+	<string>노르웨이</string>
+	<key>Oman</key>
+	<string>오만</string>
+	<key>Pakistan</key>
+	<string>파키스탄</string>
+	<key>Panama</key>
+	<string>파나마</string>
+	<key>Paraguay</key>
+	<string>파라과이</string>
+	<key>Peru</key>
+	<string>페루</string>
+	<key>Philippines</key>
+	<string>필리핀</string>
+	<key>Poland</key>
+	<string>폴란드</string>
+	<key>Portugal</key>
+	<string>포르투갈</string>
+	<key>Puerto Rico</key>
+	<string>푸에르토리코</string>
+	<key>Qatar</key>
+	<string>카타르</string>
+	<key>Romania</key>
+	<string>루마니아</string>
+	<key>Russia</key>
+	<string>러시아</string>
+	<key>Samoa</key>
+	<string>사모아</string>
+	<key>Saudi Arabia</key>
+	<string>사우디 아라비아</string>
+	<key>Scotland</key>
+	<string>스코틀랜드</string>
+	<key>Senegal</key>
+	<string>세네갈</string>
+	<key>Serbia and Montenegro</key>
+	<string>세르비아-몬테네그로</string>
+	<key>Seychelles</key>
+	<string>세이셸</string>
+	<key>Sierra Leone</key>
+	<string>시에라리온</string>
+	<key>Singapore</key>
+	<string>싱가포르</string>
+	<key>Slovakia</key>
+	<string>슬로바키아</string>
+	<key>Slovenia</key>
+	<string>슬로베니아</string>
+	<key>Somalia</key>
+	<string>소말리아</string>
+	<key>South Africa</key>
+	<string>남아프리카</string>
+	<key>South Georgia</key>
+	<string>사우스 조지아섬</string>
+	<key>Spain</key>
+	<string>스페인</string>
+	<key>Sri Lanka</key>
+	<string>스리랑카</string>
+	<key>Sudan</key>
+	<string>수단</string>
+	<key>Surinam</key>
+	<string>수리남</string>
+	<key>Sweden</key>
+	<string>스웨덴</string>
+	<key>Switzerland</key>
+	<string>스위스</string>
+	<key>Syria</key>
+	<string>시리아</string>
+	<key>Taiwan</key>
+	<string>대만</string>
+	<key>Tanzania</key>
+	<string>탄자니아</string>
+	<key>Thailand</key>
+	<string>태국</string>
+	<key>Tunisia</key>
+	<string>튀니지</string>
+	<key>Turkey</key>
+	<string>터키</string>
+	<key>Turkmenistan</key>
+	<string>투르크메니스탄</string>
+	<key>U.A.E.</key>
+	<string>U.A.E.</string>
+	<key>U.S.A.</key>
+	<string>U.S.A.</string>
+	<key>UTC</key>
+	<string>협정 세계시(UTC)</string>
+	<key>Uganda</key>
+	<string>우간다</string>
+	<key>Ukraine</key>
+	<string>우크라이나</string>
+	<key>Unknown</key>
+	<string>알 수 없음</string>
+	<key>Uruguay</key>
+	<string>우루과이</string>
+	<key>Uzbekistan</key>
+	<string>우즈베키스탄</string>
+	<key>Venezuela</key>
+	<string>베네수엘라</string>
+	<key>Vietnam</key>
+	<string>베트남</string>
+	<key>Wales</key>
+	<string>웨일스</string>
+	<key>Yemen</key>
+	<string>예멘</string>
+	<key>Zaire</key>
+	<string>콩고</string>
+	<key>Zambia</key>
+	<string>잠비아</string>
+	<key>Zimbabwe</key>
+	<string>짐바브웨</string>
+</dict>
+</plist>

@@ -25,6 +25,8 @@
 "uncategorized" = "Unkategorisiert";
 "before" = "vorher";
 "account_reconcilation" = "Kontoabgleich";
+"evaluated" = "Ausgewertet";
+"not_evaluated" = "Nicht ausgewerted";
 
 
 /* MARK: - Enums */
@@ -163,6 +165,10 @@
 "transaction_subtitle_type_payee" = "Empfänger";
 "transaction_subtitle_type_notes" = "Notizen";
 
+"time_zone_type_floating" = "Fließend";
+"time_zone_type_floating_title" = "Fließende Zeitzone";
+"time_zone_type_floating_subtitle" = "Passt sich an deine lokale Zeitzone an";
+
 
 /* MARK: - Custom Date Repetition */
 "frequency" = "Häufigkeit";
@@ -226,6 +232,7 @@
 "copy_button" = "Kopieren";
 "edit_account_button" = "Konto bearbeiten";
 "edit_category_button" = "Kategorie bearbeiten";
+"edit_category_group_button" = "Ordner bearbeiten";
 "edit_payee_button" = "Empfänger bearbeiten";
 "edit_tag_button" = "Tag bearbeiten";
 "edit_budget_button" = "Budget bearbeiten";
@@ -366,6 +373,7 @@
 "not_shared_title" = "Haushaltsbuch nicht geteilt";
 
 /* Widgets */
+"net_worth_widget_title" = "Vermögen";
 "account_balances_widget_title" = "Kontostände";
 "balance_widget_title" = "Bilanz";
 "total_income_widget_title" = "Gesamteinnahmen";
@@ -373,6 +381,7 @@
 "fixed_expenses_widget_title" = "Fixkosten";
 "variable_expenses_widget_title" = "Variable Kosten";
 
+"net_worth_distribution_widget_title" = "Aufteilung";
 "account_balances_distribution_widget_title" = "Kontostände";
 "balance_distribution_widget_title" = "Bilanz";
 "total_income_distribution_widget_title" = "Gesamteinnahmen";
@@ -431,7 +440,7 @@
 "modified_at" = "Zuletzt bearbeitet am %@";
 "average_per_transaction" = "Ø pro Transaktion";
 "average_per_day" = "Ø pro Tag";
-"average_per_month" = "Ø pro Monat";
+"average_last_twelve_months" = "Ø letzte 12 Monate";
 
 
 /* MARK: - Budget List View */
@@ -612,7 +621,8 @@
 "appearance_setting_info_title" = "Beschreibung";
 "appearance_setting_info_description" = "Personalisiere die App indem du das Erscheinungsbild oder die Akzentfarbe änderst.";
 "appearance_ui_style_setting_section_title" = "Design";
-"appearance_ui_style_setting_footer_title" = "Ändert das Erscheinungsbild der App.";
+"appearance_ui_style_apply_to_icons_title" = "Auf Symbole anwenden";
+"appearance_ui_style_apply_to_icons_description" = "Wende das gewählte Design auch auf sämtliche Symbole innerhalb der App an.";
 "appearance_accent_color_setting_section_title" = "Akzentfarbe";
 "appearance_accent_color_setting_footer_title" = "Ändert die Farbe von Schaltflächen und anderen Steuerelementen innerhalb der App.";
 "appearance_app_icon_setting_section_title" = "App Icon";
@@ -731,7 +741,8 @@
 "advanced_setting_enable_haptic_keyboard_title" = "Haptisches Tastaturfeedback";
 "advanced_setting_enable_haptic_keyboard_description" = "Erhalte haptisches Feedback bei der Eingabe von Geldbeträgen über die Tastatur.";
 
-"advanced_setting_app_language_title" = "Sprache";
+"advanced_setting_language_title" = "Sprache";
+"advanced_setting_time_zone_title" = "Zeitzone";
 "advanced_setting_enable_live_activities_title" = "Live-Aktivitäten";
 "advanced_setting_enable_live_activities_description" = "Zeig deine aktuelle Bilanz und mehr auf der Dynamic Island sowie dem Lockscreen an.";
 "advanced_setting_ask_for_feedback_title" = "Nach Feedback fragen";
@@ -1159,6 +1170,15 @@
 /* Sections */
 "source_currency_section_title" = "Von";
 "target_currency_section_title" = "Nach";
+
+
+/* MARK: - Time Zone Selection View */
+/* Titles */
+"time_zone_selection_title" = "Zeitzone";
+
+/* Messages */
+"no_timezones_found_title" = "Keine Zeitzonen gefunden";
+"time_zone_selection_search_placeholder_message" = "Suche nach der Zeitzone eines Landes oder einer Stadt";
 
 
 /* MARK: - Manage Item View */

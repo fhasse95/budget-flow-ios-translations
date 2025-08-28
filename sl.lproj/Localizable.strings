@@ -25,6 +25,8 @@
 "uncategorized" = "Nekategorizirano";
 "before" = "pred";
 "account_reconcilation" = "Usklajevanje računa";
+"evaluated" = "Ocenjeno";
+"not_evaluated" = "Niso ocenjeni";
 
 
 /* MARK: - Enums */
@@ -163,6 +165,10 @@
 "transaction_subtitle_type_payee" = "Prejemnik";
 "transaction_subtitle_type_notes" = "Opombe";
 
+"time_zone_type_floating" = "Lebdeči";
+"time_zone_type_floating_title" = "Lebdeča časovna cona";
+"time_zone_type_floating_subtitle" = "Prilagaja se vaši lokalni časovni coni";
+
 
 /* MARK: - Custom Date Repetition */
 "frequency" = "Pogostost";
@@ -226,6 +232,7 @@
 "copy_button" = "Kopiraj";
 "edit_account_button" = "Uredi račun";
 "edit_category_button" = "Uredi kategorijo";
+"edit_category_group_button" = "Uredi mapo";
 "edit_payee_button" = "Uredi plačnika";
 "edit_tag_button" = "Uredi oznako";
 "edit_budget_button" = "Uredi načrt porabe";
@@ -366,6 +373,7 @@
 "not_shared_title" = "Proračunska knjiga ni v skupni rabi";
 
 /* Widgets */
+"net_worth_widget_title" = "Čista vrednost";
 "account_balances_widget_title" = "Skupno stanje računov";
 "balance_widget_title" = "Stanje";
 "total_income_widget_title" = "Skupni dohodki";
@@ -373,6 +381,7 @@
 "fixed_expenses_widget_title" = "Fiksni stroški";
 "variable_expenses_widget_title" = "Spremenljivi stroški";
 
+"net_worth_distribution_widget_title" = "Distribucija";
 "account_balances_distribution_widget_title" = "Skupno stanje računov";
 "balance_distribution_widget_title" = "Stanje";
 "total_income_distribution_widget_title" = "Skupni dohodki";
@@ -431,7 +440,7 @@
 "modified_at" = "Zadnja sprememba %@";
 "average_per_transaction" = "Ø na transakcijo";
 "average_per_day" = "Ø na dan";
-"average_per_month" = "Ø na mesec";
+"average_last_twelve_months" = "Ø zadnjih 12 mesecev";
 
 
 /* MARK: - Budget List View */
@@ -612,7 +621,8 @@
 "appearance_setting_info_title" = "Opis";
 "appearance_setting_info_description" = "Prilagodite aplikacijo svojim željam s spreminjanjem videza aplikacije ali poudarne barve.";
 "appearance_ui_style_setting_section_title" = "Tema";
-"appearance_ui_style_setting_footer_title" = "Spremeni videz aplikacije.";
+"appearance_ui_style_apply_to_icons_title" = "Uporabi za ikone";
+"appearance_ui_style_apply_to_icons_description" = "Uporabi izbran videz tudi za vse ikone v aplikaciji.";
 "appearance_accent_color_setting_section_title" = "Poudarna barva";
 "appearance_accent_color_setting_footer_title" = "Spremeni barvo gumbov in drugih kontrolnikov v aplikaciji.";
 "appearance_app_icon_setting_section_title" = "Ikona aplikacije";
@@ -731,7 +741,8 @@
 "advanced_setting_enable_haptic_keyboard_title" = "Povratna informacija tipkovnice";
 "advanced_setting_enable_haptic_keyboard_description" = "Prejmite taktilno povratno informacijo pri vnosu denarnih zneskov s tipkovnico.";
 
-"advanced_setting_app_language_title" = "Jezik";
+"advanced_setting_language_title" = "Jezik";
+"advanced_setting_time_zone_title" = "Časovni pas";
 "advanced_setting_enable_live_activities_title" = "Aktivnosti v živo";
 "advanced_setting_enable_live_activities_description" = "Oglejte si svoje trenutno stanje in več na dinamičnem otoku in zaklepnem zaslonu.";
 "advanced_setting_ask_for_feedback_title" = "Obvestilo za povratne informacije";
@@ -1159,6 +1170,15 @@
 /* Sections */
 "source_currency_section_title" = "Od";
 "target_currency_section_title" = "Za";
+
+
+/* MARK: - Time Zone Selection View */
+/* Titles */
+"time_zone_selection_title" = "Časovni pas";
+
+/* Messages */
+"no_timezones_found_title" = "Ni najdenih časovnih pasov";
+"time_zone_selection_search_placeholder_message" = "Išči časovni pas države ali mesta";
 
 
 /* MARK: - Manage Item View */

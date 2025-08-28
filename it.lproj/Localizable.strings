@@ -25,6 +25,8 @@
 "uncategorized" = "Senza categoria";
 "before" = "prima";
 "account_reconcilation" = "Riconciliazione del conto";
+"evaluated" = "Valutato";
+"not_evaluated" = "Non valutato";
 
 
 /* MARK: - Enums */
@@ -163,6 +165,10 @@
 "transaction_subtitle_type_payee" = "Beneficiario";
 "transaction_subtitle_type_notes" = "Note";
 
+"time_zone_type_floating" = "Mobile";
+"time_zone_type_floating_title" = "Fuso orario mobile";
+"time_zone_type_floating_subtitle" = "Si adatta al tuo fuso orario locale";
+
 
 /* MARK: - Custom Date Repetition */
 "frequency" = "Frequenza";
@@ -226,6 +232,7 @@
 "copy_button" = "Copia";
 "edit_account_button" = "Modifica conto";
 "edit_category_button" = "Modifica categoria";
+"edit_category_group_button" = "Modifica cartella";
 "edit_payee_button" = "Modifica beneficiario";
 "edit_tag_button" = "Modifica tag";
 "edit_budget_button" = "Modifica budget";
@@ -366,6 +373,7 @@
 "not_shared_title" = "Budget non condiviso";
 
 /* Widgets */
+"net_worth_widget_title" = "Patrimonio netto";
 "account_balances_widget_title" = "Saldo del conto";
 "balance_widget_title" = "Distribuzione del saldo";
 "total_income_widget_title" = "Totale ingressi";
@@ -373,6 +381,7 @@
 "fixed_expenses_widget_title" = "Spese fisse";
 "variable_expenses_widget_title" = "Spese variabili";
 
+"net_worth_distribution_widget_title" = "Distribuzione";
 "account_balances_distribution_widget_title" = "Saldo del conto";
 "balance_distribution_widget_title" = "Distribuzione del saldo";
 "total_income_distribution_widget_title" = "Totale ingressi";
@@ -431,7 +440,7 @@
 "modified_at" = "Ultima modifica il %@";
 "average_per_transaction" = "Ø per transazione";
 "average_per_day" = "Ø al giorno";
-"average_per_month" = "Ø al mese";
+"average_last_twelve_months" = "Ø ultimi 12 mesi";
 
 
 /* MARK: - Budget List View */
@@ -612,7 +621,8 @@
 "appearance_setting_info_title" = "Descrizione";
 "appearance_setting_info_description" = "Personalizza l'aspetto o il colore dell'app secondo le tue preferenze.";
 "appearance_ui_style_setting_section_title" = "Tema";
-"appearance_ui_style_setting_footer_title" = "Cambia l'aspetto dell'app.";
+"appearance_ui_style_apply_to_icons_title" = "Applica alle icone";
+"appearance_ui_style_apply_to_icons_description" = "Applica anche l'aspetto selezionato a tutte le icone dell'app.";
 "appearance_accent_color_setting_section_title" = "Colore principale";
 "appearance_accent_color_setting_footer_title" = "Cambia il colore dei pulsanti e di altri controlli all'interno dell'app.";
 "appearance_app_icon_setting_section_title" = "Icona dell'app";
@@ -731,7 +741,8 @@
 "advanced_setting_enable_haptic_keyboard_title" = "Feedback da tastiera";
 "advanced_setting_enable_haptic_keyboard_description" = "Ricevi un feedback tattile quando digiti un importo sulla tastiera.";
 
-"advanced_setting_app_language_title" = "Lingua";
+"advanced_setting_language_title" = "Lingua";
+"advanced_setting_time_zone_title" = "Fuso orario";
 "advanced_setting_enable_live_activities_title" = "Attività dal vivo";
 "advanced_setting_enable_live_activities_description" = "Visualizza il tuo saldo attuale e altro ancora sull'isola dinamica e sulla schermata di blocco.";
 "advanced_setting_ask_for_feedback_title" = "Chiedi feedback";
@@ -1159,6 +1170,15 @@
 /* Sections */
 "source_currency_section_title" = "Da";
 "target_currency_section_title" = "A";
+
+
+/* MARK: - Time Zone Selection View */
+/* Titles */
+"time_zone_selection_title" = "Fuso orario";
+
+/* Messages */
+"no_timezones_found_title" = "Nessun fuso orario trovato";
+"time_zone_selection_search_placeholder_message" = "Cerca il fuso orario di un paese o di una città";
 
 
 /* MARK: - Manage Item View */

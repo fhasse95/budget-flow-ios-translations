@@ -25,6 +25,8 @@
 "uncategorized" = "분류되지 않음";
 "before" = "전에";
 "account_reconcilation" = "계정 조정";
+"evaluated" = "평가됨";
+"not_evaluated" = "평가되지 않음";
 
 
 /* MARK: - Enums */
@@ -163,6 +165,10 @@
 "transaction_subtitle_type_payee" = "수취인";
 "transaction_subtitle_type_notes" = "메모";
 
+"time_zone_type_floating" = "플로팅";
+"time_zone_type_floating_title" = "플로팅 시간대";
+"time_zone_type_floating_subtitle" = "사용자의 현지 시간대에 맞게 조정됨";
+
 
 /* MARK: - Custom Date Repetition */
 "frequency" = "빈도";
@@ -226,6 +232,7 @@
 "copy_button" = "복사";
 "edit_account_button" = "계좌 편집";
 "edit_category_button" = "카테고리 편집";
+"edit_category_group_button" = "폴더 편집";
 "edit_payee_button" = "수취인 편집";
 "edit_tag_button" = "태그 편집";
 "edit_budget_button" = "예산 수정";
@@ -366,6 +373,7 @@
 "not_shared_title" = "예산 장부가 공유되지 않음";
 
 /* Widgets */
+"net_worth_widget_title" = "순자산";
 "account_balances_widget_title" = "계좌 잔액";
 "balance_widget_title" = "잔고";
 "total_income_widget_title" = "총 수입";
@@ -373,6 +381,7 @@
 "fixed_expenses_widget_title" = "고정 지출";
 "variable_expenses_widget_title" = "변동 지출";
 
+"net_worth_distribution_widget_title" = "분포";
 "account_balances_distribution_widget_title" = "계좌 잔액";
 "balance_distribution_widget_title" = "잔액";
 "total_income_distribution_widget_title" = "총 수입";
@@ -430,8 +439,8 @@
 "payed_by_and_modified_at" = "%@를 통한 결제\n%@가 마지막으로 수정됨";
 "modified_at" = "%@에 마지막으로 수정됨";
 "average_per_transaction" = "거래당 평균";
-"average_per_day" = "일당 평균";
-"average_per_month" = "월당 평균";
+"average_per_day" = "Ø 일일";
+"average_last_twelve_months" = "Ø 최근 12개월";
 
 
 /* MARK: - Budget List View */
@@ -612,7 +621,8 @@
 "appearance_setting_info_title" = "설명";
 "appearance_setting_info_description" = "아이콘이나 색상을 원하는 디자인으로 이용해보세요";
 "appearance_ui_style_setting_section_title" = "테마";
-"appearance_ui_style_setting_footer_title" = "앱의 아이콘을 변경합니다.";
+"appearance_ui_style_apply_to_icons_title" = "아이콘에 적용";
+"appearance_ui_style_apply_to_icons_description" = "선택한 외관을 앱의 모든 아이콘에 적용합니다.";
 "appearance_accent_color_setting_section_title" = "색상";
 "appearance_accent_color_setting_footer_title" = "앱 내 버튼 및 기타 컨트롤의 색상을 변경합니다.";
 "appearance_app_icon_setting_section_title" = "앱 아이콘";
@@ -731,7 +741,8 @@
 "advanced_setting_enable_haptic_keyboard_title" = "키보드 피드백";
 "advanced_setting_enable_haptic_keyboard_description" = "키보드를 사용하여 금액을 입력할 때 햅틱 피드백을 받습니다.";
 
-"advanced_setting_app_language_title" = "언어";
+"advanced_setting_language_title" = "언어";
+"advanced_setting_time_zone_title" = "시간대";
 "advanced_setting_enable_live_activities_title" = "Live Activities 활성화";
 "advanced_setting_enable_live_activities_description" = "잠금화면과 다이내믹 아일랜드에서 잔액 등을 확인할 수 있습니다.";
 "advanced_setting_ask_for_feedback_title" = "피드백 요청";
@@ -1159,6 +1170,15 @@
 /* Sections */
 "source_currency_section_title" = "보낸 사람";
 "target_currency_section_title" = "받는 사람";
+
+
+/* MARK: - Time Zone Selection View */
+/* Titles */
+"time_zone_selection_title" = "시간대";
+
+/* Messages */
+"no_timezones_found_title" = "시간대를 찾을 수 없습니다";
+"time_zone_selection_search_placeholder_message" = "국가 또는 도시의 시간대를 검색하세요";
 
 
 /* MARK: - Manage Item View */

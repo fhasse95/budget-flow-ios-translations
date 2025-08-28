@@ -25,6 +25,8 @@
 "uncategorized" = "ไม่ได้จัดหมวดหมู่";
 "before" = "ก่อน";
 "account_reconcilation" = "การกระทบยอดบัญชี";
+"evaluated" = "ประเมินแล้ว";
+"not_evaluated" = "ยังไม่ประเมิน";
 
 
 /* MARK: - Enums */
@@ -163,6 +165,10 @@
 "transaction_subtitle_type_payee" = "ผู้รับเงิน";
 "transaction_subtitle_type_notes" = "หมายเหตุ";
 
+"time_zone_type_floating" = "ลอยตัว";
+"time_zone_type_floating_title" = "โซนเวลาลอยตัว";
+"time_zone_type_floating_subtitle" = "ปรับตามโซนเวลาท้องถิ่นของคุณ";
+
 
 /* MARK: - Custom Date Repetition */
 "frequency" = "ความถี่";
@@ -226,6 +232,7 @@
 "copy_button" = "คัดลอก";
 "edit_account_button" = "แก้ไขบัญชี";
 "edit_category_button" = "แก้ไขหมวดหมู่";
+"edit_category_group_button" = "แก้ไขโฟลเดอร์";
 "edit_payee_button" = "แก้ไขผู้รับเงิน";
 "edit_tag_button" = "แก้ไขแท็ก";
 "edit_budget_button" = "แก้ไขงบประมาณ";
@@ -366,6 +373,7 @@
 "not_shared_title" = "ไม่ได้แชร์สมุดงบประมาณ";
 
 /* Widgets */
+"net_worth_widget_title" = "มูลค่าสุทธิ";
 "account_balances_widget_title" = "ยอดคงเหลือในบัญชี";
 "balance_widget_title" = "ยอดคงเหลือ";
 "total_income_widget_title" = "รายได้ทั้งหมด";
@@ -373,6 +381,7 @@
 "fixed_expenses_widget_title" = "ค่าใช้จ่ายคงที่";
 "variable_expenses_widget_title" = "ค่าใช้จ่ายผันแปร";
 
+"net_worth_distribution_widget_title" = "การแจกแจง";
 "account_balances_distribution_widget_title" = "ยอดคงเหลือในบัญชี";
 "balance_distribution_widget_title" = "ยอดคงเหลือ";
 "total_income_distribution_widget_title" = "รายได้ทั้งหมด";
@@ -430,8 +439,8 @@
 "payed_by_and_modified_at" = "ชำระโดย %@\nแก้ไขล่าสุดเมื่อ %@";
 "modified_at" = "แก้ไขล่าสุดเมื่อ %@";
 "average_per_transaction" = "ค่าเฉลี่ยต่อธุรกรรม";
-"average_per_day" = "ค่าเฉลี่ยต่อวัน";
-"average_per_month" = "ค่าเฉลี่ยต่อเดือน";
+"average_per_day" = "Ø ต่อวัน";
+"average_last_twelve_months" = "Ø 12 เดือนที่ผ่านมา";
 
 
 /* MARK: - Budget List View */
@@ -612,7 +621,8 @@
 "appearance_setting_info_title" = "คำอธิบาย";
 "appearance_setting_info_description" = "ปรับแต่งแอพฯ ตามที่คุณต้องการโดยการเปลี่ยนรูปลักษณ์หรือสีที่ถูกเน้นของแอพ";
 "appearance_ui_style_setting_section_title" = "ธีม";
-"appearance_ui_style_setting_footer_title" = "เปลี่ยนรูปลักษณ์ของแอป";
+"appearance_ui_style_apply_to_icons_title" = "ใช้กับไอคอน";
+"appearance_ui_style_apply_to_icons_description" = "ใช้ลักษณะที่เลือกกับไอคอนทั้งหมดในแอปด้วย";
 "appearance_accent_color_setting_section_title" = "สีเน้น";
 "appearance_accent_color_setting_footer_title" = "เปลี่ยนสีของปุ่มและการควบคุมอื่นๆ ภายในแอป";
 "appearance_app_icon_setting_section_title" = "ไอคอนแอป";
@@ -731,7 +741,8 @@
 "advanced_setting_enable_haptic_keyboard_title" = "การตอบสนองของแป้นพิมพ์";
 "advanced_setting_enable_haptic_keyboard_description" = "รับการตอบสนองแบบสัมผัสเมื่อป้อนจำนวนเงินโดยใช้แป้นพิมพ์";
 
-"advanced_setting_app_language_title" = "ภาษา";
+"advanced_setting_language_title" = "ภาษา";
+"advanced_setting_time_zone_title" = "เขตเวลา";
 "advanced_setting_enable_live_activities_title" = "กิจกรรมสด";
 "advanced_setting_enable_live_activities_description" = "ดูยอดคงเหลือปัจจุบันของคุณและอื่นๆ บนเกาะไดนามิกตลอดจนหน้าจอล็อค";
 "advanced_setting_ask_for_feedback_title" = "ขอคำติชม";
@@ -1159,6 +1170,15 @@
 /* Sections */
 "source_currency_section_title" = "จาก";
 "target_currency_section_title" = "ถึง";
+
+
+/* MARK: - Time Zone Selection View */
+/* Titles */
+"time_zone_selection_title" = "เขตเวลา";
+
+/* Messages */
+"no_timezones_found_title" = "ไม่พบเขตเวลา";
+"time_zone_selection_search_placeholder_message" = "ค้นหาเขตเวลาของประเทศหรือเมือง";
 
 
 /* MARK: - Manage Item View */

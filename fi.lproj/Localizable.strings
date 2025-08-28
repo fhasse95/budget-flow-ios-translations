@@ -25,6 +25,8 @@
 "uncategorized" = "Uncategorized";
 "before" = "ennen";
 "account_reconcilation" = "Tilin täsmäytys";
+"evaluated" = "Arvioitu";
+"not_evaluated" = "Ei arvioitu";
 
 
 /* MARK: - Enums */
@@ -163,6 +165,10 @@
 "transaction_subtitle_type_payee" = "Maksunsaaja";
 "transaction_subtitle_type_notes" = "Huomautukset";
 
+"time_zone_type_floating" = "Liikkuva";
+"time_zone_type_floating_title" = "Liikkuva aikavyöhyke";
+"time_zone_type_floating_subtitle" = "Säätää paikalliseen aikavyöhykkeeseesi";
+
 
 /* MARK: - Custom Date Repetition */
 "frequency" = "Taajuus";
@@ -226,6 +232,7 @@
 "copy_button" = "Kopioi";
 "edit_account_button" = "Muokkaa tiliä";
 "edit_category_button" = "Muokkaa luokkaa";
+"edit_category_group_button" = "Muokkaa kansiota";
 "edit_payee_button" = "Muokkaa maksunsaajaa";
 "edit_tag_button" = "Muokkaa tunnistetta";
 "edit_budget_button" = "Muokkaa budjettia";
@@ -366,6 +373,7 @@
 "not_shared_title" = "Budjettikirjaa ei jaettu";
 
 /* Widgets */
+"net_worth_widget_title" = "Nettovarallisuus";
 "account_balances_widget_title" = "Tilien saldot";
 "balance_widget_title" = "Saldo";
 "total_income_widget_title" = "Kokonaistulot";
@@ -373,6 +381,7 @@
 "fixed_expenses_widget_title" = "Kiinteät kulut";
 "variable_expenses_widget_title" = "Muuttuvat kulut";
 
+"net_worth_distribution_widget_title" = "Jakautuminen";
 "account_balances_distribution_widget_title" = "Tilien saldot";
 "balance_distribution_widget_title" = "Saldo";
 "total_income_distribution_widget_title" = "Kokonaistulot";
@@ -431,7 +440,7 @@
 "modified_at" = "Muokattu viimeksi %@";
 "average_per_transaction" = "Ø tapahtumaa kohden";
 "average_per_day" = "Ø päivässä";
-"average_per_month" = "Ø kuukaudessa";
+"average_last_twelve_months" = "Ø viimeiset 12 kuukautta";
 
 
 /* MARK: - Budget List View */
@@ -612,7 +621,8 @@
 "appearance_setting_info_title" = "Kuvaus";
 "appearance_setting_info_description" = "Personoi sovellus mieleiseksesi muuttamalla sovelluksen ulkoasua tai korostusväriä.";
 "appearance_ui_style_setting_section_title" = "Teema";
-"appearance_ui_style_setting_footer_title" = "Muuttaa sovelluksen ulkonäköä.";
+"appearance_ui_style_apply_to_icons_title" = "Käytä kuvakkeisiin";
+"appearance_ui_style_apply_to_icons_description" = "Käytä valittua ulkoasua myös sovelluksen kaikkiin kuvakkeisiin.";
 "appearance_accent_color_setting_section_title" = "Aksenttiväri";
 "appearance_accent_color_setting_footer_title" = "Muuttaa painikkeiden ja muiden säätimien väriä sovelluksessa.";
 "appearance_app_icon_setting_section_title" = "Sovelluskuvake";
@@ -731,7 +741,8 @@
 "advanced_setting_enable_haptic_keyboard_title" = "Näppäimistöpalaute";
 "advanced_setting_enable_haptic_keyboard_description" = "Saa haptista palautetta syöttäessäsi rahasummia näppäimistöllä.";
 
-"advanced_setting_app_language_title" = "Kieli";
+"advanced_setting_language_title" = "Kieli";
+"advanced_setting_time_zone_title" = "Aikavyöhyke";
 "advanced_setting_enable_live_activities_title" = "Live-aktiviteetit";
 "advanced_setting_enable_live_activities_description" = "Katso nykyinen saldosi ja paljon muuta dynaamisella saarella sekä lukitusnäytöllä.";
 "advanced_setting_ask_for_feedback_title" = "Pyydä palautetta";
@@ -1159,6 +1170,15 @@
 /* Sections */
 "source_currency_section_title" = "Lähettäjä";
 "target_currency_section_title" = "Vastaanottaja";
+
+
+/* MARK: - Time Zone Selection View */
+/* Titles */
+"time_zone_selection_title" = "Aikavyöhyke";
+
+/* Messages */
+"no_timezones_found_title" = "Aikavyöhykkeitä ei löytynyt";
+"time_zone_selection_search_placeholder_message" = "Etsi maan tai kaupungin aikavyöhyke";
 
 
 /* MARK: - Manage Item View */

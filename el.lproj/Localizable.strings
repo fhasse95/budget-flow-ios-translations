@@ -25,6 +25,8 @@
 "uncategorized" = "Χωρίς κατηγορία";
 "before" = "πριν";
 "account_reconcilation" = "Συμφιλίωση λογαριασμού";
+"evaluated" = "Αξιολογημένο";
+"not_evaluated" = "Μη αξιολογημένο";
 
 
 /* MARK: - Enums */
@@ -163,6 +165,10 @@
 "transaction_subtitle_type_payee" = "Δικαιούχος πληρωμής";
 "transaction_subtitle_type_notes" = "Σημειώσεις";
 
+"time_zone_type_floating" = "Κινούμενη";
+"time_zone_type_floating_title" = "Κινούμενη ζώνη ώρας";
+"time_zone_type_floating_subtitle" = "Προσαρμόζεται στη τοπική σας ζώνη ώρας";
+
 
 /* MARK: - Custom Date Repetition */
 "frequency" = "Συχνότητα";
@@ -226,6 +232,7 @@
 "copy_button" = "Αντιγραφή";
 "edit_account_button" = "Επεξεργασία λογαριασμού";
 "edit_category_button" = "Επεξεργασία κατηγορίας";
+"edit_category_group_button" = "Επεξεργασία φακέλου";
 "edit_payee_button" = "Επεξεργασία δικαιούχου πληρωμής";
 "edit_tag_button" = "Επεξεργασία ετικέτας";
 "edit_budget_button" = "Επεξεργασία προϋπολογισμού";
@@ -366,6 +373,7 @@
 "not_shared_title" = "Το βιβλίο προϋπολογισμού δεν είναι κοινόχρηστο";
 
 /* Widgets */
+"net_worth_widget_title" = "Καθαρή αξία";
 "account_balances_widget_title" = "Υπόλοιπα λογαριασμού";
 "balance_widget_title" = "Υπόλοιπο";
 "total_income_widget_title" = "Συνολικό εισόδημα";
@@ -373,6 +381,7 @@
 "fixed_expenses_widget_title" = "Σταθερές δαπάνες";
 "variable_expenses_widget_title" = "Μεταβλητά Έξοδα";
 
+"net_worth_distribution_widget_title" = "Κατανομή";
 "account_balances_distribution_widget_title" = "Υπόλοιπα λογαριασμού";
 "balance_distribution_widget_title" = "Υπόλοιπο";
 "total_income_distribution_widget_title" = "Συνολικό εισόδημα";
@@ -431,7 +440,7 @@
 "modified_at" = "Τελευταία τροποποίηση στο %@";
 "average_per_transaction" = "Ø ανά συναλλαγή";
 "average_per_day" = "Ø ανά ημέρα";
-"average_per_month" = "Ø ανά μήνα";
+"average_last_twelve_months" = "Ø τελευταίοι 12 μήνες";
 
 
 /* MARK: - Budget List View */
@@ -612,7 +621,8 @@
 "appearance_setting_info_title" = "Περιγραφή";
 "appearance_setting_info_description" = "Εξατομικεύστε την εφαρμογή σύμφωνα με τις προτιμήσεις σας αλλάζοντας την εμφάνιση ή το χρώμα έμφασης της εφαρμογής.";
 "appearance_ui_style_setting_section_title" = "Θέμα";
-"appearance_ui_style_setting_footer_title" = "Αλλάζει την εμφάνιση της εφαρμογής.";
+"appearance_ui_style_apply_to_icons_title" = "Εφαρμογή στα εικονίδια";
+"appearance_ui_style_apply_to_icons_description" = "Εφαρμόστε επίσης την επιλεγμένη εμφάνιση σε όλα τα εικονίδια της εφαρμογής.";
 "appearance_accent_color_setting_section_title" = "Χρώμα έμφασης";
 "appearance_accent_color_setting_footer_title" = "Αλλάζει το χρώμα των κουμπιών και άλλων στοιχείων ελέγχου εντός της εφαρμογής.";
 "appearance_app_icon_setting_section_title" = "Εικονίδιο εφαρμογής";
@@ -731,7 +741,8 @@
 "advanced_setting_enable_haptic_keyboard_title" = "Σχόλια πληκτρολογίου";
 "advanced_setting_enable_haptic_keyboard_description" = "Λάβετε απτική ανατροφοδότηση κατά την εισαγωγή χρηματικών ποσών χρησιμοποιώντας το πληκτρολόγιο.";
 
-"advanced_setting_app_language_title" = "Γλώσσα";
+"advanced_setting_language_title" = "Γλώσσα";
+"advanced_setting_time_zone_title" = "Ζώνη ώρας";
 "advanced_setting_enable_live_activities_title" = "Ζωντανές δραστηριότητες";
 "advanced_setting_enable_live_activities_description" = "Δείτε το τρέχον υπόλοιπό σας και πολλά άλλα στο δυναμικό νησί καθώς και στην οθόνη κλειδώματος.";
 "advanced_setting_ask_for_feedback_title" = "Ζητήστε σχόλια";
@@ -1159,6 +1170,15 @@
 /* Sections */
 "source_currency_section_title" = "Από";
 "target_currency_section_title" = "Προς";
+
+
+/* MARK: - Time Zone Selection View */
+/* Titles */
+"time_zone_selection_title" = "Ζώνη ώρας";
+
+/* Messages */
+"no_timezones_found_title" = "Δεν βρέθηκαν ζώνες ώρας";
+"time_zone_selection_search_placeholder_message" = "Αναζήτηση ζώνης ώρας χώρας ή πόλης";
 
 
 /* MARK: - Manage Item View */

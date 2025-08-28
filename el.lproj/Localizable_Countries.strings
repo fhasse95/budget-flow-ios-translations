@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Afghanistan</key>
+	<string>Αφγανιστάν</string>
+	<key>Algeria</key>
+	<string>Αλγερία</string>
+	<key>Angola</key>
+	<string>Αγκόλα</string>
+	<key>Argentina</key>
+	<string>Αργεντινή</string>
+	<key>Armenia</key>
+	<string>Αρμενία</string>
+	<key>Australia</key>
+	<string>Αυστραλία</string>
+	<key>Austria</key>
+	<string>Αυστρία</string>
+	<key>Azerbaijan</key>
+	<string>Αζερμπαϊτζάν</string>
+	<key>Bahrain</key>
+	<string>Μπαχρέιν</string>
+	<key>Bangladesh</key>
+	<string>Μπανγκλαντές</string>
+	<key>Barbados</key>
+	<string>Μπαρμπάντος</string>
+	<key>Belgium</key>
+	<string>Βέλγιο</string>
+	<key>Bolivia</key>
+	<string>Βολιβία</string>
+	<key>Brazil</key>
+	<string>Βραζιλία</string>
+	<key>Bulgaria</key>
+	<string>Βουλγαρία</string>
+	<key>Burkina Faso</key>
+	<string>Μπουρκίνα Φάσο</string>
+	<key>Burma</key>
+	<string>Μπούρμα</string>
+	<key>Cambodia</key>
+	<string>Καμπότζη</string>
+	<key>Cameroon</key>
+	<string>Καμερούν</string>
+	<key>Canada</key>
+	<string>Καναδάς</string>
+	<key>Central African Republic</key>
+	<string>Κεντροαφρικανική Δημοκρατία</string>
+	<key>Chad</key>
+	<string>Τσαντ</string>
+	<key>Chile</key>
+	<string>Χιλή</string>
+	<key>China</key>
+	<string>Κίνα</string>
+	<key>Colombia</key>
+	<string>Κολομβία</string>
+	<key>Costa Rica</key>
+	<string>Κόστα Ρίκα</string>
+	<key>Croatia</key>
+	<string>Κροατία</string>
+	<key>Cuba</key>
+	<string>Κούβα</string>
+	<key>Czech Republic</key>
+	<string>Δημοκρατία της Τσεχίας</string>
+	<key>Denmark</key>
+	<string>Δανία</string>
+	<key>Djibouti</key>
+	<string>Τζιμπουτί</string>
+	<key>Dominican Republic</key>
+	<string>Δομινικανή Δημοκρατία</string>
+	<key>Ecuador</key>
+	<string>Ισημερινός</string>
+	<key>Egypt</key>
+	<string>Αίγυπτος</string>
+	<key>El Salvador</key>
+	<string>Ελ Σαλβαδόρ</string>
+	<key>England</key>
+	<string>Αγγλία</string>
+	<key>Eritrea</key>
+	<string>Ερυθραία</string>
+	<key>Ethiopia</key>
+	<string>Αιθιοπία</string>
+	<key>Finland</key>
+	<string>Φινλανδία</string>
+	<key>France</key>
+	<string>Γαλλία</string>
+	<key>French Guiana</key>
+	<string>Γαλλική Γουιάνα</string>
+	<key>Germany</key>
+	<string>Γερμανία</string>
+	<key>Ghana</key>
+	<string>Γκάνα</string>
+	<key>Greece</key>
+	<string>Ελλάδα</string>
+	<key>Greenland</key>
+	<string>Γροιλανδία</string>
+	<key>Guatemala</key>
+	<string>Γουατεμάλα</string>
+	<key>Guinea</key>
+	<string>Γουινέα</string>
+	<key>Guyana</key>
+	<string>Γουιάνα</string>
+	<key>Haiti</key>
+	<string>Αϊτή</string>
+	<key>Honduras</key>
+	<string>Ονδούρα</string>
+	<key>Hong Kong</key>
+	<string>Χονγκ Κονγκ</string>
+	<key>Hungary</key>
+	<string>Ουγγαρία</string>
+	<key>Iceland</key>
+	<string>Ισλανδία</string>
+	<key>India</key>
+	<string>Ινδία</string>
+	<key>Indonesia</key>
+	<string>Ινδονησία</string>
+	<key>Iran</key>
+	<string>Ιράν</string>
+	<key>Iraq</key>
+	<string>Ιράκ</string>
+	<key>Ireland</key>
+	<string>Ιρλανδία</string>
+	<key>Israel</key>
+	<string>Ισραήλ</string>
+	<key>Italy</key>
+	<string>Ιταλία</string>
+	<key>Japan</key>
+	<string>Ιαπωνία</string>
+	<key>Jordan</key>
+	<string>Ιορδανία</string>
+	<key>Kenya</key>
+	<string>Κένυα</string>
+	<key>Korea</key>
+	<string>Κορέα</string>
+	<key>Kuwait</key>
+	<string>Κουβέιτ</string>
+	<key>Lebanon</key>
+	<string>Λίβανος</string>
+	<key>Liberia</key>
+	<string>Λιβερία</string>
+	<key>Libya</key>
+	<string>Λιβύη</string>
+	<key>Madagascar</key>
+	<string>Μαδαγασκάρη</string>
+	<key>Malaysia</key>
+	<string>Μαλαισία</string>
+	<key>Maldives</key>
+	<string>Μαλδίβες</string>
+	<key>Mali</key>
+	<string>Μάλι</string>
+	<key>Mauritania</key>
+	<string>Μαυριτανία</string>
+	<key>Mauritius</key>
+	<string>Μαυρίκιος</string>
+	<key>Mexico</key>
+	<string>Μεξικό</string>
+	<key>Mongolia</key>
+	<string>Μογγολία</string>
+	<key>Morocco</key>
+	<string>Μαρόκο</string>
+	<key>Mozambique</key>
+	<string>Μοζαμβίκη</string>
+	<key>Nepal</key>
+	<string>Νεπάλ</string>
+	<key>Netherlands</key>
+	<string>Κάτω Χώρες</string>
+	<key>New Caledonia</key>
+	<string>Νέα Καληδονία</string>
+	<key>New Zealand</key>
+	<string>Νέα Ζηλανδία</string>
+	<key>Nicaragua</key>
+	<string>Νικαράγουα</string>
+	<key>Nigeria</key>
+	<string>Νιγηρία</string>
+	<key>North Korea</key>
+	<string>Βόρεια Κορέα</string>
+	<key>Norway</key>
+	<string>Νορβηγία</string>
+	<key>Oman</key>
+	<string>Ομάν</string>
+	<key>Pakistan</key>
+	<string>Πακιστάν</string>
+	<key>Panama</key>
+	<string>Παναμάς</string>
+	<key>Paraguay</key>
+	<string>Παραγουάη</string>
+	<key>Peru</key>
+	<string>Περού</string>
+	<key>Philippines</key>
+	<string>Φιλιππίνες</string>
+	<key>Poland</key>
+	<string>Πολωνία</string>
+	<key>Portugal</key>
+	<string>Πορτογαλία</string>
+	<key>Puerto Rico</key>
+	<string>Πουέρτο Ρίκο</string>
+	<key>Qatar</key>
+	<string>Κατάρ</string>
+	<key>Romania</key>
+	<string>Ρουμανία</string>
+	<key>Russia</key>
+	<string>Ρωσία</string>
+	<key>Samoa</key>
+	<string>Σαμόα</string>
+	<key>Saudi Arabia</key>
+	<string>Σαουδική Αραβία</string>
+	<key>Scotland</key>
+	<string>Σκοτία</string>
+	<key>Senegal</key>
+	<string>Σενεγάλη</string>
+	<key>Serbia and Montenegro</key>
+	<string>Σερβία και Μαυροβούνιο</string>
+	<key>Seychelles</key>
+	<string>Σεϋχέλλες</string>
+	<key>Sierra Leone</key>
+	<string>Σιέρα Λεόνε</string>
+	<key>Singapore</key>
+	<string>Σιγκαπούρη</string>
+	<key>Slovakia</key>
+	<string>Σλοβακία</string>
+	<key>Slovenia</key>
+	<string>Σλοβενία</string>
+	<key>Somalia</key>
+	<string>Σομαλία</string>
+	<key>South Africa</key>
+	<string>Νότια Αφρική</string>
+	<key>South Georgia</key>
+	<string>Νότια Γεωργία</string>
+	<key>Spain</key>
+	<string>Ισπανία</string>
+	<key>Sri Lanka</key>
+	<string>Σρι Λάνκα</string>
+	<key>Sudan</key>
+	<string>Σουδάν</string>
+	<key>Surinam</key>
+	<string>Σουρινάμ</string>
+	<key>Sweden</key>
+	<string>Σουηδία</string>
+	<key>Switzerland</key>
+	<string>Ελβετία</string>
+	<key>Syria</key>
+	<string>Συρία</string>
+	<key>Taiwan</key>
+	<string>Ταϊβάν</string>
+	<key>Tanzania</key>
+	<string>Τανζανία</string>
+	<key>Thailand</key>
+	<string>Ταϊλάνδη</string>
+	<key>Tunisia</key>
+	<string>Τυνησία</string>
+	<key>Turkey</key>
+	<string>Τουρκία</string>
+	<key>Turkmenistan</key>
+	<string>Τουρκμενιστάν</string>
+	<key>U.A.E.</key>
+	<string>Η.Α.Ε.</string>
+	<key>U.S.A.</key>
+	<string>ΗΠΑ</string>
+	<key>UTC</key>
+	<string>UTC</string>
+	<key>Uganda</key>
+	<string>Ουγκάντα</string>
+	<key>Ukraine</key>
+	<string>Ουκρανία</string>
+	<key>Unknown</key>
+	<string>Άγνωστο</string>
+	<key>Uruguay</key>
+	<string>Ουρουγουάη</string>
+	<key>Uzbekistan</key>
+	<string>Ουζμπεκιστάν</string>
+	<key>Venezuela</key>
+	<string>Βενεζουέλα</string>
+	<key>Vietnam</key>
+	<string>Βιετνάμ</string>
+	<key>Wales</key>
+	<string>Ουαλία</string>
+	<key>Yemen</key>
+	<string>Υεμένη</string>
+	<key>Zaire</key>
+	<string>Δημοκρατία του Κονγκό</string>
+	<key>Zambia</key>
+	<string>Ζάμπια</string>
+	<key>Zimbabwe</key>
+	<string>Ζιμπάμπουε</string>
+</dict>
+</plist>

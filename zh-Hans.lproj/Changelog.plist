@@ -2,27 +2,37 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>2.2.0</key>
+	<key>3.0.0</key>
 	<array>
 		<dict>
 			<key>Title</key>
-			<string>改进的余额调整</string>
+			<string>全面设计更新</string>
 			<key>Description</key>
-			<string>当你手动更改账户余额时，现在会自动创建一笔交易，以确保你的历史记录准确无误。</string>
+			<string>在 iOS、iPadOS 和 macOS 26 上，应用程序以全新的、改进的设计焕发光彩——包括 Liquid-Glass 效果和对应用内图标的暗黑模式支持。</string>
 			<key>IconName</key>
-			<string>building.columns</string>
+			<string>sparkles</string>
 			<key>IconColor</key>
-			<string>#00a38b</string>
+			<string>#ff8d28</string>
 		</dict>
 		<dict>
 			<key>Title</key>
-			<string>圖示的客製化支援</string>
+			<string>批量编辑交易</string>
 			<key>Description</key>
-			<string>现在，你可以使用自己的图片作为图标——无论是银行的标志用于账户，还是个人照片用于分类。</string>
+			<string>现在您可以同时选择和编辑多个交易。例如，这允许您为所有交易分配相同的类别或特定标签。</string>
 			<key>IconName</key>
-			<string>photo.on.rectangle.angled</string>
+			<string>square.and.pencil</string>
 			<key>IconColor</key>
-			<string>#007aff</string>
+			<string>#35c759</string>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>改进的收据扫描仪</string>
+			<key>Description</key>
+			<string>集成的收据扫描仪现在可以自动识别日期、分类交易，并使用 Apple Intelligence 在 iOS / iPadOS 26 上列出购买的商品。</string>
+			<key>IconName</key>
+			<string>receipt.viewfinder</string>
+			<key>IconColor</key>
+			<string>#0088ff</string>
 		</dict>
 	</array>
 </dict>

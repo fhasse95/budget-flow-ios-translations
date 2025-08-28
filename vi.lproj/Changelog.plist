@@ -2,27 +2,37 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>2.2.0</key>
+	<key>3.0.0</key>
 	<array>
 		<dict>
 			<key>Title</key>
-			<string>Cải thiện điều chỉnh số dư</string>
+			<string>Cập nhật thiết kế toàn diện</string>
 			<key>Description</key>
-			<string>Khi bạn thay đổi số dư tài khoản của mình theo cách thủ công, một giao dịch sẽ tự động được tạo – giúp lịch sử của bạn luôn chính xác và không bị thay đổi.</string>
+			<string>Trên iOS, iPadOS và macOS 26, ứng dụng tỏa sáng với thiết kế mới mẻ, được cải tiến – bao gồm hiệu ứng Liquid-Glass và hỗ trợ chế độ tối cho các biểu tượng trong ứng dụng.</string>
 			<key>IconName</key>
-			<string>building.columns</string>
+			<string>sparkles</string>
 			<key>IconColor</key>
-			<string>#00a38b</string>
+			<string>#ff8d28</string>
 		</dict>
 		<dict>
 			<key>Title</key>
-			<string>Hỗ trợ tùy chỉnh biểu tượng</string>
+			<string>Chỉnh sửa hàng loạt giao dịch</string>
 			<key>Description</key>
-			<string>Bây giờ bạn có thể sử dụng hình ảnh của riêng mình làm biểu tượng – cho dù đó là logo ngân hàng của bạn cho tài khoản hay ảnh cá nhân cho danh mục.</string>
+			<string>Bây giờ bạn có thể chọn và chỉnh sửa nhiều giao dịch cùng lúc. Điều này cho phép bạn, ví dụ, gán cùng một danh mục hoặc các thẻ cụ thể cho tất cả chúng.</string>
 			<key>IconName</key>
-			<string>photo.on.rectangle.angled</string>
+			<string>square.and.pencil</string>
 			<key>IconColor</key>
-			<string>#007aff</string>
+			<string>#35c759</string>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>Trình quét hóa đơn được cải tiến</string>
+			<key>Description</key>
+			<string>Trình quét hóa đơn tích hợp hiện có thể tự động phát hiện ngày, phân loại giao dịch và liệt kê các mặt hàng đã mua bằng Apple Intelligence trên iOS / iPadOS 26.</string>
+			<key>IconName</key>
+			<string>receipt.viewfinder</string>
+			<key>IconColor</key>
+			<string>#0088ff</string>
 		</dict>
 	</array>
 </dict>

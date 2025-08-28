@@ -25,6 +25,8 @@
 "uncategorized" = "未分類";
 "before" = "前";
 "account_reconcilation" = "口座照合";
+"evaluated" = "評価済み";
+"not_evaluated" = "未評価";
 
 
 /* MARK: - Enums */
@@ -163,6 +165,10 @@
 "transaction_subtitle_type_payee" = "受取人";
 "transaction_subtitle_type_notes" = "メモ";
 
+"time_zone_type_floating" = "フローティング";
+"time_zone_type_floating_title" = "フローティングタイムゾーン";
+"time_zone_type_floating_subtitle" = "ローカルのタイムゾーンに合わせて調整";
+
 
 /* MARK: - Custom Date Repetition */
 "frequency" = "頻度";
@@ -226,6 +232,7 @@
 "copy_button" = "コピー";
 "edit_account_button" = "アカウントを編集";
 "edit_category_button" = "カテゴリを編集";
+"edit_category_group_button" = "フォルダーを編集";
 "edit_payee_button" = "受取人の編集";
 "edit_tag_button" = "タグを編集";
 "edit_budget_button" = "予算を編集";
@@ -366,6 +373,7 @@
 "not_shared_title" = "予算簿は共有されていません";
 
 /* Widgets */
+"net_worth_widget_title" = "純資産";
 "account_balances_widget_title" = "アカウント残高";
 "balance_widget_title" = "残高";
 "total_income_widget_title" = "総収入";
@@ -373,6 +381,7 @@
 "fixed_expenses_widget_title" = "固定費";
 "variable_expenses_widget_title" = "変動費";
 
+"net_worth_distribution_widget_title" = "分布";
 "account_balances_distribution_widget_title" = "アカウント残高";
 "balance_distribution_widget_title" = "残高";
 "total_income_distribution_widget_title" = "総収入";
@@ -430,8 +439,8 @@
 "payed_by_and_modified_at" = "によって支払われました %@\n最終更新日: %@";
 "modified_at" = "最終更新日: %@";
 "average_per_transaction" = "トランザクションあたりの平均";
-"average_per_day" = "1 日あたりの平均";
-"average_per_month" = "1 か月あたりの平均";
+"average_per_day" = "Ø 1日あたり";
+"average_last_twelve_months" = "Ø 過去12ヶ月間";
 
 
 /* MARK: - Budget List View */
@@ -612,7 +621,8 @@
 "appearance_setting_info_title" = "説明";
 "appearance_setting_info_description" = "アプリの外観やアクセントカラーを変更して、アプリを好みに合わせてカスタマイズします。";
 "appearance_ui_style_setting_section_title" = "テーマ";
-"appearance_ui_style_setting_footer_title" = "アプリの外観を変更します。";
+"appearance_ui_style_apply_to_icons_title" = "アイコンに適用";
+"appearance_ui_style_apply_to_icons_description" = "選択した外観をアプリ内のすべてのアイコンにも適用します。";
 "appearance_accent_color_setting_section_title" = "アクセントカラー";
 "appearance_accent_color_setting_footer_title" = "アプリ内のボタンやその他のコントロールの色を変更します。";
 "appearance_app_icon_setting_section_title" = "アプリアイコン";
@@ -731,7 +741,8 @@
 "advanced_setting_enable_haptic_keyboard_title" = "キーボード フィードバック";
 "advanced_setting_enable_haptic_keyboard_description" = "キーボードでお金を入力するときに触覚フィードバックを取得するには、この機能をオンにします。";
 
-"advanced_setting_app_language_title" = "言語";
+"advanced_setting_language_title" = "言語";
+"advanced_setting_time_zone_title" = "タイムゾーン";
 "advanced_setting_enable_live_activities_title" = "Live-Activities";
 "advanced_setting_enable_live_activities_description" = "現在の残高などを dynamic island およびロック画面で確認するには、この機能を有効にします。";
 "advanced_setting_ask_for_feedback_title" = "フィードバックを求める";
@@ -1159,6 +1170,15 @@
 /* Sections */
 "source_currency_section_title" = "From";
 "target_currency_section_title" = "宛先";
+
+
+/* MARK: - Time Zone Selection View */
+/* Titles */
+"time_zone_selection_title" = "タイムゾーン";
+
+/* Messages */
+"no_timezones_found_title" = "タイムゾーンが見つかりません";
+"time_zone_selection_search_placeholder_message" = "国または都市のタイムゾーンを検索";
 
 
 /* MARK: - Manage Item View */

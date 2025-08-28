@@ -25,6 +25,8 @@
 "uncategorized" = "Okategoriserad";
 "before" = "före";
 "account_reconcilation" = "Kontavstämning";
+"evaluated" = "Utvärderad";
+"not_evaluated" = "Ej utvärderad";
 
 
 /* MARK: - Enums */
@@ -163,6 +165,10 @@
 "transaction_subtitle_type_payee" = "Betalningsmottagare";
 "transaction_subtitle_type_notes" = "Anteckningar";
 
+"time_zone_type_floating" = "Flytande";
+"time_zone_type_floating_title" = "Flytande tidszon";
+"time_zone_type_floating_subtitle" = "Anpassar sig till din lokala tidszon";
+
 
 /* MARK: - Custom Date Repetition */
 "frequency" = "Frekvens";
@@ -226,6 +232,7 @@
 "copy_button" = "Kopiera";
 "edit_account_button" = "Redigera konto";
 "edit_category_button" = "Redigera kategori";
+"edit_category_group_button" = "Redigera mapp";
 "edit_payee_button" = "Redigera betalningsmottagare";
 "edit_tag_button" = "Redigera tagg";
 "edit_budget_button" = "Redigera budget";
@@ -366,6 +373,7 @@
 "not_shared_title" = "Budgetbok inte delad";
 
 /* Widgets */
+"net_worth_widget_title" = "Nettovärde";
 "account_balances_widget_title" = "Kontosaldon";
 "balance_widget_title" = "Saldo";
 "total_income_widget_title" = "Totala inkomster";
@@ -373,6 +381,7 @@
 "fixed_expenses_widget_title" = "Fasta utgifter";
 "variable_expenses_widget_title" = "Variabla utgifter";
 
+"net_worth_distribution_widget_title" = "Fördelning";
 "account_balances_distribution_widget_title" = "Kontosaldon";
 "balance_distribution_widget_title" = "Saldo";
 "total_income_distribution_widget_title" = "Total inkomst";
@@ -431,7 +440,7 @@
 "modified_at" = "Senast ändrad den %@";
 "average_per_transaction" = "Ø per transaktion";
 "average_per_day" = "Ø per dag";
-"average_per_month" = "Ø per månad";
+"average_last_twelve_months" = "Ø senaste 12 månaderna";
 
 
 /* MARK: - Budget List View */
@@ -612,7 +621,8 @@
 "appearance_setting_info_title" = "Beskrivning";
 "appearance_setting_info_description" = "Anpassa appen efter eget tycke genom att ändra appens utseende eller accentfärg.";
 "appearance_ui_style_setting_section_title" = "Tema";
-"appearance_ui_style_setting_footer_title" = "Ändrar appens utseende.";
+"appearance_ui_style_apply_to_icons_title" = "Tillämpa på ikoner";
+"appearance_ui_style_apply_to_icons_description" = "Tillämpa även det valda utseendet på alla ikoner i appen.";
 "appearance_accent_color_setting_section_title" = "Accentfärg";
 "appearance_accent_color_setting_footer_title" = "Ändrar färgen på knappar och andra kontroller i appen.";
 "appearance_app_icon_setting_section_title" = "Appikon";
@@ -731,7 +741,8 @@
 "advanced_setting_enable_haptic_keyboard_title" = "Tangentbordsfeedback";
 "advanced_setting_enable_haptic_keyboard_description" = "Få haptisk feedback när du anger monetära belopp med tangentbordet.";
 
-"advanced_setting_app_language_title" = "Språk";
+"advanced_setting_language_title" = "Språk";
+"advanced_setting_time_zone_title" = "Tidszon";
 "advanced_setting_enable_live_activities_title" = "Live-aktiviteter";
 "advanced_setting_enable_live_activities_description" = "Se ditt nuvarande saldo och mer på den dynamiska ön samt låsskärmen.";
 "advanced_setting_ask_for_feedback_title" = "Be om feedback";
@@ -1159,6 +1170,15 @@
 /* Sections */
 "source_currency_section_title" = "Från";
 "target_currency_section_title" = "Till";
+
+
+/* MARK: - Time Zone Selection View */
+/* Titles */
+"time_zone_selection_title" = "Tidszon";
+
+/* Messages */
+"no_timezones_found_title" = "Inga tidszoner hittades";
+"time_zone_selection_search_placeholder_message" = "Sök efter en tidszon för ett land eller en stad";
 
 
 /* MARK: - Manage Item View */

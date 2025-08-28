@@ -2,27 +2,37 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>2.2.0</key>
+	<key>3.0.0</key>
 	<array>
 		<dict>
 			<key>Title</key>
-			<string>تحسين تعديل الرصيد</string>
+			<string>تحديث شامل للتصميم</string>
 			<key>Description</key>
-			<string>عند تعديل رصيد حسابك يدويًا، سيتم الآن إنشاء معاملة تلقائيًا - مما يحافظ على دقة وسلامة سجلك.</string>
+			<string>على أنظمة iOS وiPadOS وmacOS 26، يتألق التطبيق بتصdebميم جديد ومحدث - يتضمن تأثيرات Liquid-Glass ودعم الوضع الداكن للأيقونات داخل التطبيق.</string>
 			<key>IconName</key>
-			<string>building.columns</string>
+			<string>sparkles</string>
 			<key>IconColor</key>
-			<string>#00a38b</string>
+			<string>#ff8d28</string>
 		</dict>
 		<dict>
 			<key>Title</key>
-			<string>دعم التخصيص للأيقونات</string>
+			<string>تعديل المعاملات بشكل جماعي</string>
 			<key>Description</key>
-			<string>يمكنك الآن استخدام صورك الخاصة كرموز - سواء كان ذلك شعار البنك لحساباتك أو صورًا شخصية للفئات.</string>
+			<string>يمكنك الآن تحديد وتعديل عدة معاملات في وقت واحد. يتيح لك هذا، على سبيل المثال، تعيين نفس الفئة أو العلامات المحددة لجميع المعاملات.</string>
 			<key>IconName</key>
-			<string>photo.on.rectangle.angled</string>
+			<string>square.and.pencil</string>
 			<key>IconColor</key>
-			<string>#007aff</string>
+			<string>#35c759</string>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>ماسح الإيصالات المحسن</string>
+			<key>Description</key>
+			<string>يمكّن ماسح الإيصالات المدمج الآن من اكتشاف التواريخ تلقائيًا، وتصنيف المعاملات، وعرض العناصر المشتراة باستخدام Apple Intelligence على iOS / iPadOS 26.</string>
+			<key>IconName</key>
+			<string>receipt.viewfinder</string>
+			<key>IconColor</key>
+			<string>#0088ff</string>
 		</dict>
 	</array>
 </dict>

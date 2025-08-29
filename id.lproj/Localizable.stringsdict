@@ -125,9 +125,9 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>%1$d transaksi yang akan datang</string>
+			<string>%1$d transaksi terencana</string>
 			<key>other</key>
-			<string>%1$d transaksi yang akan datang</string>
+			<string>%1$d transaksi terencana</string>
 		</dict>
 	</dict>
 	<key>number_of_reminded_transactions</key>
@@ -205,9 +205,9 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>Terulang setiap hari.</string>
+			<string>Berulang setiap hari.</string>
 			<key>other</key>
-			<string>Terulang setiap %1$d hari.</string>
+			<string>Berulang setiap %1$d hari.</string>
 		</dict>
 	</dict>
 	<key>repeats_every_week_on</key>
@@ -221,9 +221,9 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>Terulang setiap minggu pada hari %2$@.</string>
+			<string>Berulang setiap minggu pada hari %2$@.</string>
 			<key>other</key>
-			<string>Terulang setiap %1$d minggu pada hari %2$@.</string>
+			<string>Berulang setiap %1$d minggu pada hari %2$@.</string>
 		</dict>
 	</dict>
 	<key>repeats_every_month</key>
@@ -237,9 +237,9 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>Terulang setiap bulan.</string>
+			<string>Berulang setiap bulan.</string>
 			<key>other</key>
-			<string>Terulang setiap %1$d bulan.</string>
+			<string>Berulang setiap %1$d bulan.</string>
 		</dict>
 	</dict>
 	<key>repeats_every_month_on</key>
@@ -253,9 +253,9 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>Terulang setiap bulan pada hari %2$@.</string>
+			<string>Berulang setiap bulan pada hari %2$@.</string>
 			<key>other</key>
-			<string>Terulang setiap %1$d bulan pada hari %2$@.</string>
+			<string>Berulang setiap %1$d bulan pada hari %2$@.</string>
 		</dict>
 	</dict>
 	<key>repeats_every_month_on_the</key>
@@ -269,9 +269,9 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>Terulang setiap bulan pada hari %3$@ dari minggu %2$@.</string>
+			<string>Berulang setiap bulan pada hari %3$@ dari minggu %2$@.</string>
 			<key>other</key>
-			<string>Terulang setiap %1$d bulan pada hari %3$@ dari minggu %2$@.</string>
+			<string>Berulang setiap %1$d bulan pada hari %3$@ dari minggu %2$@.</string>
 		</dict>
 	</dict>
 	<key>repeats_every_year_in</key>
@@ -285,9 +285,9 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>Terulang setiap tahun pada bulan %2$@.</string>
+			<string>Berulang setiap tahun pada bulan %2$@.</string>
 			<key>other</key>
-			<string>Terulang setiap %1$d tahun pada bulan %2$@.</string>
+			<string>Berulang setiap %1$d tahun pada bulan %2$@.</string>
 		</dict>
 	</dict>
 	<key>repeats_every_year_on</key>
@@ -301,9 +301,9 @@
 			<key>NSStringFormatValueTypeKey</key>
 			<string>d</string>
 			<key>one</key>
-			<string>Terulang setiap tahun pada %2$@ %3$@ dari %4$@.</string>
+			<string>Berulang setiap tahun pada hari %3$@ dari minggu %2$@ di bulan %4$@.</string>
 			<key>other</key>
-			<string>Terulang setiap %1$d tahun pada %2$@ %3$@ dari %4$@.</string>
+			<string>Berulang setiap %1$d tahun pada hari %3$@ dari minggu %2$@ di bulan %4$@.</string>
 		</dict>
 	</dict>
 </dict>

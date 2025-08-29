@@ -5,7 +5,7 @@
 	<key>Abu Dhabi</key>
 	<string>Abu Dhabi</string>
 	<key>Accra</key>
-	<string>Akra</string>
+	<string>Accra</string>
 	<key>Adak</key>
 	<string>Adak</string>
 	<key>Addis Ababa</key>
@@ -29,7 +29,7 @@
 	<key>Ashgabat</key>
 	<string>Ashgabat</string>
 	<key>Asmera</key>
-	<string>Asmera</string>
+	<string>Asmara</string>
 	<key>Asuncion</key>
 	<string>Asunción</string>
 	<key>Athens</key>
@@ -39,7 +39,7 @@
 	<key>Austin</key>
 	<string>Austin</string>
 	<key>Baghdad</key>
-	<string>Baghdad</string>
+	<string>Bagdad</string>
 	<key>Baku</key>
 	<string>Baku</string>
 	<key>Bamako</key>
@@ -89,7 +89,7 @@
 	<key>Cape Town</key>
 	<string>Cape Town</string>
 	<key>Caracas</key>
-	<string>Karakas</string>
+	<string>Caracas</string>
 	<key>Cardiff</key>
 	<string>Cardiff</string>
 	<key>Cayenne</key>
@@ -139,7 +139,7 @@
 	<key>Freetown</key>
 	<string>Freetown</string>
 	<key>Geneva</key>
-	<string>Geneva</string>
+	<string>Jenewa</string>
 	<key>Georgetown</key>
 	<string>Georgetown</string>
 	<key>Grytviken</key>
@@ -235,19 +235,19 @@
 	<key>Maputo</key>
 	<string>Maputo</string>
 	<key>Mecca</key>
-	<string>Mekkah</string>
+	<string>Mekah</string>
 	<key>Melbourne</key>
 	<string>Melbourne</string>
 	<key>Memphis</key>
 	<string>Memphis</string>
 	<key>Mexico City</key>
-	<string>Mexico City</string>
+	<string>Kota Meksiko</string>
 	<key>Miami</key>
 	<string>Miami</string>
 	<key>Minneapolis</key>
 	<string>Minneapolis</string>
 	<key>Mogadisho</key>
-	<string>Mogadisho</string>
+	<string>Mogadishu</string>
 	<key>Monrovia</key>
 	<string>Monrovia</string>
 	<key>Montevideo</key>
@@ -257,9 +257,9 @@
 	<key>Moscow</key>
 	<string>Moskwa</string>
 	<key>Mumbai</key>
-	<string>Mumbai (Bombay)</string>
+	<string>Mumbai (Bombai)</string>
 	<key>Munich</key>
-	<string>Munich</string>
+	<string>München</string>
 	<key>Muscat</key>
 	<string>Muskat</string>
 	<key>Nairobi</key>
@@ -287,7 +287,7 @@
 	<key>Ottawa</key>
 	<string>Ottawa</string>
 	<key>Ougadougou</key>
-	<string>Ougadougou</string>
+	<string>Ouagadougou</string>
 	<key>Pago Pago</key>
 	<string>Pago Pago</string>
 	<key>Panama</key>
@@ -321,7 +321,7 @@
 	<key>Rabat</key>
 	<string>Rabat</string>
 	<key>Rangoon</key>
-	<string>Rangoon</string>
+	<string>Yangon</string>
 	<key>Recife</key>
 	<string>Recife</string>
 	<key>Regina</key>
@@ -341,7 +341,7 @@
 	<key>San Francisco</key>
 	<string>San Francisco</string>
 	<key>San Jose</key>
-	<string>San Jose</string>
+	<string>San José</string>
 	<key>San Juan</key>
 	<string>San Juan</string>
 	<key>San Salvador</key>
@@ -383,9 +383,9 @@
 	<key>Tehran</key>
 	<string>Teheran</string>
 	<key>Thanh Pho Ho Chi Minh</key>
-	<string>Thanh Pho Ho Chi Minh</string>
+	<string>Kota Ho Chi Minh</string>
 	<key>Tientsin</key>
-	<string>Tientsin</string>
+	<string>Tianjin</string>
 	<key>Tokyo</key>
 	<string>Tokyo</string>
 	<key>Toronto</key>
@@ -397,7 +397,7 @@
 	<key>UTC</key>
 	<string>UTC</string>
 	<key>Ulaanbaatar</key>
-	<string>Ulan Bator</string>
+	<string>Ulaanbaatar</string>
 	<key>Vancouver</key>
 	<string>Vancouver</string>
 	<key>Victoria</key>

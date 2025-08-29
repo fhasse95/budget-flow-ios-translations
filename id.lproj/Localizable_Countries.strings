@@ -35,7 +35,7 @@
 	<key>Burkina Faso</key>
 	<string>Burkina Faso</string>
 	<key>Burma</key>
-	<string>Burma</string>
+	<string>Myanmar</string>
 	<key>Cambodia</key>
 	<string>Kamboja</string>
 	<key>Cameroon</key>
@@ -59,7 +59,7 @@
 	<key>Cuba</key>
 	<string>Kuba</string>
 	<key>Czech Republic</key>
-	<string>Republik Cek</string>
+	<string>Republik Ceko</string>
 	<key>Denmark</key>
 	<string>Denmark</string>
 	<key>Djibouti</key>
@@ -189,9 +189,9 @@
 	<key>Poland</key>
 	<string>Polandia</string>
 	<key>Portugal</key>
-	<string>Portugis</string>
+	<string>Portugal</string>
 	<key>Puerto Rico</key>
-	<string>Puerto Riko</string>
+	<string>Puerto Rico</string>
 	<key>Qatar</key>
 	<string>Qatar</string>
 	<key>Romania</key>
@@ -215,7 +215,7 @@
 	<key>Singapore</key>
 	<string>Singapura</string>
 	<key>Slovakia</key>
-	<string>Slowakia</string>
+	<string>Slovakia</string>
 	<key>Slovenia</key>
 	<string>Slovenia</string>
 	<key>Somalia</key>
@@ -249,9 +249,9 @@
 	<key>Turkey</key>
 	<string>Turki</string>
 	<key>Turkmenistan</key>
-	<string>Turkimenistan</string>
+	<string>Turkmenistan</string>
 	<key>U.A.E.</key>
-	<string>U.A.E.</string>
+	<string>U.E.A.</string>
 	<key>U.S.A.</key>
 	<string>A.S.</string>
 	<key>UTC</key>

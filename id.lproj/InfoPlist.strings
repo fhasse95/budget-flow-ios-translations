@@ -9,12 +9,12 @@
 "CFBundleName" = "Budget Flow";
 "CFBundleDisplayName" = "Budget Flow";
 
-"NSLocationAlwaysAndWhenInUseUsageDescription" = "Akses ke lokasi Anda digunakan untuk menambahkan lokasi Anda saat ini ke transaksi secara otomatis.";
-"NSLocationUsageDescription" = "Akses ke lokasi Anda digunakan untuk menambahkan lokasi Anda saat ini ke transaksi secara otomatis.";
-"NSLocationWhenInUseUsageDescription" = "Akses ke lokasi Anda digunakan untuk menambahkan lokasi Anda saat ini ke transaksi secara otomatis.";
+"NSLocationAlwaysAndWhenInUseUsageDescription" = "Akses ke lokasi Anda digunakan untuk menambahkan lokasi saat ini ke transaksi secara otomatis.";
+"NSLocationUsageDescription" = "Akses ke lokasi Anda digunakan untuk menambahkan lokasi saat ini ke transaksi secara otomatis.";
+"NSLocationWhenInUseUsageDescription" = "Akses ke lokasi Anda digunakan untuk menambahkan lokasi saat ini ke transaksi secara otomatis.";
 "NSCameraUsageDescription" = "Akses ke kamera Anda digunakan untuk menambahkan foto ke transaksi.";
-"NSPhotoLibraryUsageDescription" = "Akses ke perpustakaan foto Anda digunakan untuk menyimpan foto yang diambil secara otomatis.";
-"NSPhotoLibraryAddUsageDescription" = "Akses ke perpustakaan foto Anda digunakan untuk menyimpan foto yang diambil secara otomatis.";
-"NSFaceIDUsageDescription" = "Akses ke Face ID diperlukan agar Anda dapat membuka kunci app tanpa memasukkan kode sandi.";
-"NSTouchIDUsageDescription" = "Akses ke Touch ID diperlukan agar Anda dapat membuka kunci aplikasi tanpa memasukkan kode sandi.";
-"NSContactsUsageDescription" = "Akses ke kontak Anda digunakan untuk menampilkan nama dan foto orang yang telah berbagi buku anggaran dengan Anda.";
+"NSPhotoLibraryUsageDescription" = "Akses ke galeri foto Anda digunakan untuk menyimpan foto yang diambil secara otomatis.";
+"NSPhotoLibraryAddUsageDescription" = "Akses ke galeri foto Anda digunakan untuk menyimpan foto yang diambil secara otomatis.";
+"NSFaceIDUsageDescription" = "Akses ke Face ID diperlukan agar Anda dapat membuka aplikasi tanpa memasukkan kode sandi.";
+"NSTouchIDUsageDescription" = "Akses ke Touch ID diperlukan agar Anda dapat membuka aplikasi tanpa memasukkan kode sandi.";
+"NSContactsUsageDescription" = "Akses ke kontak Anda digunakan untuk menampilkan nama dan foto orang yang Anda bagikan buku anggaran.";

@@ -279,6 +279,8 @@
 
 "take_photo_button" = "Posneti fotografijo";
 "add_photo_button" = "Izberi fotografije";
+"add_photo_from_files_button" = "Izberi iz datotek";
+"add_photo_from_gallery_button" = "Izberi iz galerije";
 "add_document_button" = "Izberi dokumente";
 "scan_receipt_button" = "Skeniraj račun";
 

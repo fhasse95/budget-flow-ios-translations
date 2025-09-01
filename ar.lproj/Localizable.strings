@@ -279,6 +279,8 @@
 
 "take_photo_button" = "التقاط صورة";
 "add_photo_button" = "اختر صورة";
+"add_photo_from_files_button" = "اختر من الملفات";
+"add_photo_from_gallery_button" = "اختر من المعرض";
 "add_document_button" = "حدد المستندات";
 "scan_receipt_button" = "إيصال المسح الضوئي";
 

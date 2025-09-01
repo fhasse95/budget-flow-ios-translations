@@ -279,6 +279,8 @@
 
 "take_photo_button" = "Зробити фото";
 "add_photo_button" = "Вибрати фото";
+"add_photo_from_files_button" = "Вибрати з файлів";
+"add_photo_from_gallery_button" = "Вибрати з галереї";
 "add_document_button" = "Вибрати документи";
 "scan_receipt_button" = "Сканувати квитанцію";
 

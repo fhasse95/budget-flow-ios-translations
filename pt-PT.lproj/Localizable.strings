@@ -279,6 +279,8 @@
 
 "take_photo_button" = "Tirar foto";
 "add_photo_button" = "Selecionar fotos";
+"add_photo_from_files_button" = "Selecionar de ficheiros";
+"add_photo_from_gallery_button" = "Selecionar da galeria";
 "add_document_button" = "Selecionar documentos";
 "scan_receipt_button" = "Digitalizar recibo";
 

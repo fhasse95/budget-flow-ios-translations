@@ -340,7 +340,7 @@
 
 /* Items */
 "from_title" = "Dari";
-"to_title" = "Kepada";
+"to_title" = "Sampai";
 
 
 /* MARK: - Dashboard View */
@@ -450,7 +450,7 @@
 "exceeded_title" = "Melebihi";
 "user_has_no_budgets_title" = "Anda belum memiliki anggaran.";
 "user_is_within_budget_title" = "Anda masih dalam anggaran! 🎉";
-"user_was_within_budget_title" = "Anda sebelumnya masih dalam anggaran! 🎉";
+"user_was_within_budget_title" = "Sejauh ini, Anda masih dalam anggaran! 🎉";
 "user_is_not_within_budget_title" = "Anda telah melebihi %d anggaran 😢";
 "user_is_not_within_budgets_title" = "Anda telah melebihi %d anggaran 😢";
 
@@ -705,7 +705,7 @@
 
 "advanced_setting_chart_type_title" = "Jenis Grafik";
 "advanced_setting_show_frequently_used_items_title" = "Tampilkan kategori & tag yang sering digunakan";
-"advanced_setting_show_frequently_used_items_description" = "Tampilkan kategori & tag yang sering digunakan dalam daftar pilihan saat membuat dan mengedit transaksi.";
+"advanced_setting_show_frequently_used_items_description" = "Tampilkan kategori & tag yang sering digunakan dalam daftar pilihan saat membuat dan mengubah transaksi.";
 "advanced_setting_show_notes_in_title_title" = "Tampilkan catatan, bukan kategori";
 "advanced_setting_show_notes_in_title_description" = "Tampilkan isi catatan, bukan nama kategori untuk transaksi.";
 "advanced_setting_start_day_of_month_title" = "Tanggal awal bulan";
@@ -735,7 +735,7 @@
 "advanced_setting_consider_pending_items_description" = "Sertakan transaksi yang tertunda saat menghitung saldo akun, saldo, total, dll.";
 
 "advanced_setting_enable_exact_times_title" = "Masukkan waktu yang tepat";
-"advanced_setting_enable_exact_times_description" = "Pilih waktu yang tepat menggunakan pemutar menit untuk transaksi (misalnya 09:41).";
+"advanced_setting_enable_exact_times_description" = "Pilih waktu yang tepat menggunakan pemutar menit untuk transaksi (misalnya 09.41).";
 "advanced_setting_reverse_keyboard_title" = "Papan Ketik Terbalik";
 "advanced_setting_reverse_keyboard_description" = "Membalikkan tata letak papan ketik numerik secara vertikal untuk menyesuaikan dengan gaya kalkulator tradisional.";
 "advanced_setting_enable_haptic_keyboard_title" = "Umpan Balik Papan Ketik";
@@ -873,7 +873,7 @@
 "upgrade_feature_security_title" = "Data Aman";
 "upgrade_feature_security_description" = "Lindungi data Anda dengan %@.";
 "upgrade_feature_security_description_passcode" = "Lindungi data Anda dengan membuat kode sandi";
-"upgrade_feature_security_description_biometrik" = " atau gunakan %@";
+"upgrade_feature_security_description_biometric" = " atau gunakan %@";
 "upgrade_feature_currency_converter_title" = "Konverter Mata Uang";
 "upgrade_feature_currency_converter_description" = "Gunakan pengonversi mata uang bawaan untuk mengonversi jumlah menjadi salah satu dari 150+ mata uang asing secara otomatis.";
 "upgrade_feature_customization" = "Personalisasi";
@@ -979,7 +979,7 @@
 "upgrade_faq_multiple_devices_title" = "Dapatkah saya menggunakan versi lengkap di beberapa perangkat?";
 "upgrade_faq_multiple_devices_value" = "Ya, Anda dapat menggunakan versi lengkap Budget Flow di semua perangkat Apple Anda dengan Apple ID yang sama. Karena aplikasi disinkronkan melalui iCloud, Anda dapat beralih dari satu perangkat ke perangkat lain dengan lancar serta selalu dapat mengakses data keuangan dan pengaturan Anda.";
 "upgrade_faq_multiple_people_title" = "Dapatkah saya menggunakan versi lengkap dengan banyak orang?";
-"upgrade_faq_multiple_people_value" = "Ya, Anda dapat berbagi pembelian satu kali serta langganan versi lengkap dengan maksimal lima orang dalam satu grup keluarga. Hal yang harus Anda lakukan adalah mengaktifkan berbagi keluarga di pengaturan sistem dan menambahkan orang lain ke grup.";
+"upgrade_faq_multiple_people_value" = "Ya, Anda dapat berbagi pembelian satu kali serta langganan versi lengkap dengan maksimal lima orang dalam satu grup keluarga. Hal yang harus Anda lakukan adalah mengaktifkan keluarga berbagi di pengaturan sistem dan menambahkan orang lain ke grup.";
 "upgrade_faq_cancel_subscription_title" = "Bagaimana cara membatalkan langganan saya?";
 "upgrade_faq_cancel_subscription_value" = "Anda dapat membatalkan langganan kapan saja menggunakan Apple ID Anda di Preferensi Sistem.";
 "upgrade_faq_subscription_data_loss_title" = "Apakah data saya akan hilang jika saya membatalkan langganan?";

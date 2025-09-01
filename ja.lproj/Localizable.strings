@@ -279,6 +279,8 @@
 
 "take_photo_button" = "写真を撮る";
 "add_photo_button" = "写真を選択";
+"add_photo_from_files_button" = "ファイルから選択";
+"add_photo_from_gallery_button" = "ギャラリーから選択";
 "add_document_button" = "ドキュメントを選択";
 "scan_receipt_button" = "領収書のスキャン";
 

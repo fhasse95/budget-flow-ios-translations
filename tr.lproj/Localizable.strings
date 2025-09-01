@@ -279,6 +279,8 @@
 
 "take_photo_button" = "Fotoğraf Çek";
 "add_photo_button" = "Fotoğraf Seç";
+"add_photo_from_files_button" = "Dosyalardan seç";
+"add_photo_from_gallery_button" = "Galeriden seç";
 "add_document_button" = "Belgeleri seçin";
 "scan_receipt_button" = "Faturayı Tara";
 

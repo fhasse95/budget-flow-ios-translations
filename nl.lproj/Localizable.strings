@@ -279,6 +279,8 @@
 
 "take_photo_button" = "Foto maken";
 "add_photo_button" = "Selecteer foto's";
+"add_photo_from_files_button" = "Selecteer uit bestanden";
+"add_photo_from_gallery_button" = "Selecteer uit galerij";
 "add_document_button" = "Selecteer documenten";
 "scan_receipt_button" = "Scanbon";
 

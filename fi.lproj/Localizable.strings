@@ -279,6 +279,8 @@
 
 "take_photo_button" = "Ota valokuva";
 "add_photo_button" = "Valitse valokuvat";
+"add_photo_from_files_button" = "Valitse tiedostoista";
+"add_photo_from_gallery_button" = "Valitse galleriasta";
 "add_document_button" = "Valitse asiakirjat";
 "scan_receipt_button" = "Skannaa kuitti";
 

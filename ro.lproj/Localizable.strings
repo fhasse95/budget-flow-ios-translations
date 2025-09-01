@@ -279,6 +279,8 @@
 
 "take_photo_button" = "Fă fotografia";
 "add_photo_button" = "Selectați fotografii";
+"add_photo_from_files_button" = "Selectează din fișiere";
+"add_photo_from_gallery_button" = "Selectează din galerie";
 "add_document_button" = "Selectați documentele";
 "scan_receipt_button" = "Scanați chitanța";
 

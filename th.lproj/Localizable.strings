@@ -279,8 +279,8 @@
 
 "take_photo_button" = "ถ่ายภาพ";
 "add_photo_button" = "เลือกรูปภาพ";
-"add_photo_from_files_button" = "เลือกจากไฟล์";
-"add_photo_from_gallery_button" = "เลือกจากแกลเลอรี";
+"add_photo_from_files_button" = "ไฟล์";
+"add_photo_from_library_button" = "คลังภาพ";
 "add_document_button" = "เลือกเอกสาร";
 "scan_receipt_button" = "สแกนใบเสร็จ";
 

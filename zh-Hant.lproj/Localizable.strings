@@ -279,8 +279,8 @@
 
 "take_photo_button" = "拍照";
 "add_photo_button" = "選擇照片";
-"add_photo_from_files_button" = "從檔案選擇";
-"add_photo_from_gallery_button" = "從相簿選擇";
+"add_photo_from_files_button" = "檔案";
+"add_photo_from_library_button" = "照片圖庫";
 "add_document_button" = "選擇文件";
 "scan_receipt_button" = "掃描收據";
 

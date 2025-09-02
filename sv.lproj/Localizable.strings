@@ -279,8 +279,8 @@
 
 "take_photo_button" = "Ta foto";
 "add_photo_button" = "Välj foton";
-"add_photo_from_files_button" = "Välj från filer";
-"add_photo_from_gallery_button" = "Välj från galleriet";
+"add_photo_from_files_button" = "Filer";
+"add_photo_from_library_button" = "Bildbibliotek";
 "add_document_button" = "Välj dokument";
 "scan_receipt_button" = "Skanna kvitto";
 

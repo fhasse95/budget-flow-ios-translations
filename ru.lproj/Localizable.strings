@@ -279,8 +279,8 @@
 
 "take_photo_button" = "Сделать фото";
 "add_photo_button" = "Выбрать фото";
-"add_photo_from_files_button" = "Выбрать из файлов";
-"add_photo_from_gallery_button" = "Выбрать из галереи";
+"add_photo_from_files_button" = "Файлы";
+"add_photo_from_library_button" = "Фототека";
 "add_document_button" = "Выбрать документы";
 "scan_receipt_button" = "Сканировать чек";
 

@@ -279,8 +279,8 @@
 
 "take_photo_button" = "Chụp ảnh";
 "add_photo_button" = "Chọn ảnh";
-"add_photo_from_files_button" = "Chọn từ tệp";
-"add_photo_from_gallery_button" = "Chọn từ thư viện";
+"add_photo_from_files_button" = "Tệp";
+"add_photo_from_library_button" = "Thư viện ảnh";
 "add_document_button" = "Chọn tài liệu";
 "scan_receipt_button" = "Quét hoá đơn";
 

@@ -279,8 +279,8 @@
 
 "take_photo_button" = "Ambil Foto";
 "add_photo_button" = "Pilih Foto";
-"add_photo_from_files_button" = "Pilih dari file";
-"add_photo_from_gallery_button" = "Pilih dari galeri";
+"add_photo_from_files_button" = "File";
+"add_photo_from_library_button" = "Perpustakaan Foto";
 "add_document_button" = "Pilih Dokumen";
 "scan_receipt_button" = "Pindai Struk";
 

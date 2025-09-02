@@ -279,8 +279,8 @@
 
 "take_photo_button" = "Zrób zdjęcie";
 "add_photo_button" = "Wybierz zdjęcia";
-"add_photo_from_files_button" = "Wybierz z plików";
-"add_photo_from_gallery_button" = "Wybierz z galerii";
+"add_photo_from_files_button" = "Pliki";
+"add_photo_from_library_button" = "Biblioteka zdjęć";
 "add_document_button" = "Wybierz dokumenty";
 "scan_receipt_button" = "Skanuj paragon";
 

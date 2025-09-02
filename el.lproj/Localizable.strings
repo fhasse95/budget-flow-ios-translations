@@ -279,8 +279,8 @@
 
 "take_photo_button" = "Λήψη φωτογραφίας";
 "add_photo_button" = "Επιλογή φωτογραφιών";
-"add_photo_from_files_button" = "Επιλογή από αρχεία";
-"add_photo_from_gallery_button" = "Επιλογή από τη συλλογή";
+"add_photo_from_files_button" = "Αρχεία";
+"add_photo_from_library_button" = "Φωτοθήκη";
 "add_document_button" = "Επιλογή εγγράφων";
 "scan_receipt_button" = "Σάρωση απόδειξης";
 

@@ -279,8 +279,8 @@
 
 "take_photo_button" = "Odfotiť";
 "add_photo_button" = "Vybrať fotografie";
-"add_photo_from_files_button" = "Vybrať zo súborov";
-"add_photo_from_gallery_button" = "Vybrať z galérie";
+"add_photo_from_files_button" = "Súbory";
+"add_photo_from_library_button" = "Knižnica fotiek";
 "add_document_button" = "Vybrať dokumenty";
 "scan_receipt_button" = "Skenovať potvrdenie";
 

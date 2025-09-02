@@ -279,8 +279,8 @@
 
 "take_photo_button" = "Fénykép készítése";
 "add_photo_button" = "Fényképek kiválasztása";
-"add_photo_from_files_button" = "Választás fájlokból";
-"add_photo_from_gallery_button" = "Választás galériából";
+"add_photo_from_files_button" = "Fájlok";
+"add_photo_from_library_button" = "Fotókönyvtár";
 "add_document_button" = "Dokumentumok kiválasztása";
 "scan_receipt_button" = "Nyugta beolvasása";
 

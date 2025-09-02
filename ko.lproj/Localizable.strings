@@ -279,8 +279,8 @@
 
 "take_photo_button" = "사진 찍기";
 "add_photo_button" = "사진 선택";
-"add_photo_from_files_button" = "파일에서 선택";
-"add_photo_from_gallery_button" = "갤러리에서 선택";
+"add_photo_from_files_button" = "파일";
+"add_photo_from_library_button" = "사진 보관함";
 "add_document_button" = "문서 선택";
 "scan_receipt_button" = "영수증 스캔";
 

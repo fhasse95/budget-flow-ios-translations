@@ -2045,5 +2045,7 @@
 
 /* MARK: - Dummy Data */
 "default_budget_book_name" = "Моя книга бюджета";
+"family_budget_book_name" = "Семейная книга бюджета";
+"shared_budget_book_name" = "Совместная книга бюджета";
 "default_credit_card_name" = "Кредитная карта";
 "default_location_address" = "Фюрстенберг";

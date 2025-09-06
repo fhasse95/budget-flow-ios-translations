@@ -2045,5 +2045,7 @@
 
 /* MARK: - Dummy Data */
 "default_budget_book_name" = "Το βιβλίο προϋπολογισμού μου";
+"family_budget_book_name" = "Βιβλίο οικογενειακού προϋπολογισμού";
+"shared_budget_book_name" = "Κοινό βιβλίο προϋπολογισμού";
 "default_credit_card_name" = "Πιστωτική Κάρτα";
 "default_location_address" = "Fürstenberg";

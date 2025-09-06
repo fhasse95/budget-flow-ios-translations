@@ -2045,5 +2045,7 @@
 
 /* MARK: - Dummy Data */
 "default_budget_book_name" = "我的預算帳本";
+"family_budget_book_name" = "家庭預算書";
+"shared_budget_book_name" = "共享預算書";
 "default_credit_card_name" = "信用卡";
 "default_location_address" = "北京";

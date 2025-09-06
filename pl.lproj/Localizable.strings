@@ -2045,5 +2045,7 @@
 
 /* MARK: - Dummy Data */
 "default_budget_book_name" = "Moja książka budżetowa";
+"family_budget_book_name" = "Książka budżetu rodzinnego";
+"shared_budget_book_name" = "Wspólna książka budżetu";
 "default_credit_card_name" = "Karta kredytowa";
 "default_location_address" = "Fürstenberg";

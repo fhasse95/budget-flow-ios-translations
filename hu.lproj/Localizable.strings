@@ -2045,5 +2045,7 @@
 
 /* MARK: - Dummy Data */
 "default_budget_book_name" = "Költségvetési könyvem";
+"family_budget_book_name" = "Családi költségvetési könyv";
+"shared_budget_book_name" = "Megosztott költségvetési könyv";
 "default_credit_card_name" = "Hitelkártya";
 "default_location_address" = "Fürstenberg";

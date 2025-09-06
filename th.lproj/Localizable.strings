@@ -2045,5 +2045,7 @@
 
 /* MARK: - Dummy Data */
 "default_budget_book_name" = "สมุดงบประมาณของฉัน";
+"family_budget_book_name" = "สมุดงบครอบครัว";
+"shared_budget_book_name" = "สมุดงบที่แชร์ร่วมกัน";
 "default_credit_card_name" = "บัตรเครดิต";
 "default_location_address" = "เฟิร์สเตนเบิร์ก";

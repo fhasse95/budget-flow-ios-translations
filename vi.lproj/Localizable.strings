@@ -2045,5 +2045,7 @@
 
 /* MARK: - Dummy Data */
 "default_budget_book_name" = "Sổ ngân sách của tôi";
+"family_budget_book_name" = "Sổ ngân sách gia đình";
+"shared_budget_book_name" = "Sổ ngân sách chia sẻ";
 "default_credit_card_name" = "Thẻ tín dụng";
 "default_location_address" = "Việt Nam";

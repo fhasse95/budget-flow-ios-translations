@@ -2045,5 +2045,7 @@
 
 /* MARK: - Dummy Data */
 "default_budget_book_name" = "Oma budjettikirja";
+"family_budget_book_name" = "Perhebudjettikirja";
+"shared_budget_book_name" = "Jaettu budjettikirja";
 "default_credit_card_name" = "Luottokortti";
 "default_location_address" = "Fürstenberg";

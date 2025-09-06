@@ -2045,5 +2045,7 @@
 
 /* MARK: - Dummy Data */
 "default_budget_book_name" = "Cartea mea de buget";
+"family_budget_book_name" = "Cartea bugetului familiei";
+"shared_budget_book_name" = "Cartea bugetului partajat";
 "default_credit_card_name" = "Carte de credit";
 "default_location_address" = "Fürstenberg";

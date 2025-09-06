@@ -2045,5 +2045,7 @@
 
 /* MARK: - Dummy Data */
 "default_budget_book_name" = "Moja kniha rozpočtu";
+"family_budget_book_name" = "Rodinná kniha rozpočtu";
+"shared_budget_book_name" = "Zdieľaná kniha rozpočtu";
 "default_credit_card_name" = "Kreditná karta";
 "default_location_address" = "Fürstenberg";

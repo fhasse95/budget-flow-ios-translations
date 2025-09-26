@@ -677,6 +677,9 @@
 "cloud_setting_number_of_transactions_in_progress_title" = "Lütfen bekleyin...";
 "cloud_setting_number_of_transactions_error_title" = "Hata";
 
+"import_from_cloud_button" = "iCloud'dan indir";
+"manual_sync_cloud_setting_footer_title" = "Verileriniz iCloud ile senkronize edilmediyse veya tam olarak senkronize edilmediyse, senkronizasyonu buradan manuel olarak başlatabilirsiniz.";
+
 /* Backup Settings */
 "backup_setting_info_title" = "Açıklama";
 "backup_setting_info_description" = "Bütçe Akışı etkinleştirildiğinde verilerinizi düzenli olarak yedekler, böylece uygulamayı istediğiniz zaman önceki durumuna geri yükleyebilirsiniz.";
@@ -1014,10 +1017,16 @@
 /* MARK: - Progress View */
 "progress_view_load_images_title" = "Fotoğraflar Yükleniyor...";
 "progress_view_load_images_subtitle" = "Not: iCloud Photo Library kullanıyorsanız, fotoğraflarınızın indirilmesi biraz zaman alabilir.";
+
 "progress_view_load_documents_title" = "Belgeler Yükleniyor...";
 "progress_view_load_documents_subtitle" = "Bilgi: iCloud Drive kullanıyorsanız belgelerinizin indirilmesi biraz zaman alabilir.";
+
 "progress_view_import_csv_title" = "Veriler İçe Aktarılıyor...";
 "progress_view_import_csv_subtitle" = "Lütfen bekleyin...";
+
+"progress_view_import_from_cloud_title" = "iCloud'dan veriler yükleniyor...";
+"progress_view_import_from_cloud_initialization_subtitle" = "Lütfen bekleyin...";
+"progress_view_import_from_cloud_loaded_objects_subtitle" = "Yüklenen nesneler: %d";
 
 
 /* MARK: - Widgets */

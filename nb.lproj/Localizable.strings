@@ -677,6 +677,9 @@
 "cloud_setting_number_of_transactions_in_progress_title" = "Vennlig vent...";
 "cloud_setting_number_of_transactions_error_title" = "Feil";
 
+"import_from_cloud_button" = "Last ned fra iCloud";
+"manual_sync_cloud_setting_footer_title" = "Hvis dataene dine ikke er eller ikke er fullstendig synkronisert med iCloud, kan du starte synkroniseringen manuelt her.";
+
 /* Backup Settings */
 "backup_setting_info_title" = "Beskrivelse";
 "backup_setting_info_description" = "Når aktivert, sikkerhetskopierer Budget Flow regelmessig dataene dine slik at du når som helst kan gjenopprette appen til en tidligere tilstand.";
@@ -1014,10 +1017,16 @@
 /* MARK: - Progress View */
 "progress_view_load_images_title" = "Laster bilder...";
 "progress_view_load_images_subtitle" = "Merk: Hvis du bruker iCloud Photo Library, kan det ta litt tid å laste ned bildene.";
+
 "progress_view_load_documents_title" = "Läser dokument...";
 "progress_view_load_documents_subtitle" = "Merk: Om du använder iCloud Drive kan det ta ett tag att ladda ner dina dokument.";
+
 "progress_view_import_csv_title" = "Importerer data...";
 "progress_view_import_csv_subtitle" = "Vennligst vent...";
+
+"progress_view_import_from_cloud_title" = "Laster data fra iCloud...";
+"progress_view_import_from_cloud_initialization_subtitle" = "Vennligst vent...";
+"progress_view_import_from_cloud_loaded_objects_subtitle" = "Lastede objekter: %d";
 
 
 /* MARK: - Widgets */

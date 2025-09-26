@@ -677,6 +677,9 @@
 "cloud_setting_number_of_transactions_in_progress_title" = "Even geduld...";
 "cloud_setting_number_of_transactions_error_title" = "Fout";
 
+"import_from_cloud_button" = "Last ned fra iCloud";
+"manual_sync_cloud_setting_footer_title" = "Hvis dataene dine ikke er eller ikke er fullstendig synkronisert med iCloud, kan du starte synkroniseringen manuelt her.";
+
 /* Backup Settings */
 "backup_setting_info_title" = "Beschrijving";
 "backup_setting_info_description" = "Indien ingeschakeld, maakt Budget Flow regelmatig een back-up van uw gegevens, zodat u de app op elk moment naar een eerdere staat kunt herstellen.";
@@ -1014,10 +1017,16 @@
 /* MARK: - Progress View */
 "progress_view_load_images_title" = "Foto's laden...";
 "progress_view_load_images_subtitle" = "Opmerking: als u iCloud-fotobibliotheek gebruikt, kan het even duren voordat uw foto's zijn gedownload.";
+
 "progress_view_load_documents_title" = "Documenten laden...";
 "progress_view_load_documents_subtitle" = "Info: als u iCloud Drive gebruikt, kan het downloaden van uw documenten enige tijd duren.";
+
 "progress_view_import_csv_title" = "Gegevens importeren...";
 "progress_view_import_csv_subtitle" = "Een ogenblik geduld...";
+
+"progress_view_import_from_cloud_title" = "Gegevens laden van iCloud...";
+"progress_view_import_from_cloud_initialization_subtitle" = "Even geduld...";
+"progress_view_import_from_cloud_loaded_objects_subtitle" = "Geladen objecten: %d";
 
 
 /* MARK: - Widgets */

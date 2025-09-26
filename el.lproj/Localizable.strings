@@ -677,6 +677,9 @@
 "cloud_setting_number_of_transactions_in_progress_title" = "Παρακαλώ περιμένετε...";
 "cloud_setting_number_of_transactions_error_title" = "Σφάλμα";
 
+"import_from_cloud_button" = "Λήψη από iCloud";
+"manual_sync_cloud_setting_footer_title" = "Αν τα δεδομένα σας δεν έχουν συγχρονιστεί ή δεν έχουν συγχρονιστεί πλήρως με το iCloud, μπορείτε να ξεκινήσετε το συγχρονισμό χειροκίνητα εδώ.";
+
 /* Backup Settings */
 "backup_setting_info_title" = "Περιγραφή";
 "backup_setting_info_description" = "Όταν είναι ενεργοποιημένο, το Budget Flow δημιουργεί τακτικά αντίγραφα ασφαλείας των δεδομένων σας, ώστε να μπορείτε να επαναφέρετε την εφαρμογή στην προηγούμενη κατάσταση ανά πάσα στιγμή.";
@@ -1014,10 +1017,16 @@
 /* MARK: - Progress View */
 "progress_view_load_images_title" = "Φόρτωση φωτογραφιών...";
 "progress_view_load_images_subtitle" = "Σημείωση: Εάν χρησιμοποιείτε τη Βιβλιοθήκη φωτογραφιών iCloud, η λήψη των φωτογραφιών σας μπορεί να χρειαστεί λίγο χρόνο.";
+
 "progress_view_load_documents_title" = "Φόρτωση εγγράφων...";
 "progress_view_load_documents_subtitle" = "Πληροφορίες: Εάν χρησιμοποιείτε το iCloud Drive, η λήψη των εγγράφων σας μπορεί να χρειαστεί λίγο χρόνο.";
+
 "progress_view_import_csv_title" = "Εισαγωγή δεδομένων...";
 "progress_view_import_csv_subtitle" = "Παρακαλώ περιμένετε...";
+
+"progress_view_import_from_cloud_title" = "Φόρτωση δεδομένων από το iCloud...";
+"progress_view_import_from_cloud_initialization_subtitle" = "Παρακαλώ περιμένετε...";
+"progress_view_import_from_cloud_loaded_objects_subtitle" = "Φορτωμένα αντικείμενα: %d";
 
 
 /* MARK: - Widgets */

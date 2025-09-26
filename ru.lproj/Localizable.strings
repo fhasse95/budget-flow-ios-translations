@@ -677,6 +677,9 @@
 "cloud_setting_number_of_transactions_in_progress_title" = "Пожалуйста, подождите...";
 "cloud_setting_number_of_transactions_error_title" = "Ошибка";
 
+"import_from_cloud_button" = "Загрузить из iCloud";
+"manual_sync_cloud_setting_footer_title" = "Если ваши данные не были или не полностью синхронизированы с iCloud, вы можете вручную запустить синхронизацию здесь.";
+
 /* Backup Settings */
 "backup_setting_info_title" = "Описание";
 "backup_setting_info_description" = "Если включена, эту функция будет регулярно создавать резервные копии ваших данных, чтобы вы могли в любой момент восстановить приложение до предыдущего состояния.";
@@ -1014,10 +1017,16 @@
 /* MARK: - Progress View */
 "progress_view_load_images_title" = "Загрузка фотографий...";
 "progress_view_load_images_subtitle" = "Примечание. Если вы используете библиотеку фотографий iCloud, загрузка фотографий может занять некоторое время.";
+
 "progress_view_load_documents_title" = "Загрузка документов...";
 "progress_view_load_documents_subtitle" = "Информация: если вы используете iCloud Drive, загрузка ваших документов может занять некоторое время.";
+
 "progress_view_import_csv_title" = "Импорт данных...";
 "progress_view_import_csv_subtitle" = "Пожалуйста, подождите...";
+
+"progress_view_import_from_cloud_title" = "Загрузка данных из iCloud...";
+"progress_view_import_from_cloud_initialization_subtitle" = "Пожалуйста, подождите...";
+"progress_view_import_from_cloud_loaded_objects_subtitle" = "Загруженные объекты: %d";
 
 
 /* MARK: - Widgets */

@@ -677,6 +677,9 @@
 "cloud_setting_number_of_transactions_in_progress_title" = "Odota...";
 "cloud_setting_number_of_transactions_error_title" = "Virhe";
 
+"import_from_cloud_button" = "Lataa iCloudista";
+"manual_sync_cloud_setting_footer_title" = "Jos tietojasi ei ole synkronoitu tai ne eivät ole täysin synkronoitu iCloudin kanssa, voit käynnistää synkronoinnin manuaalisesti täällä.";
+
 /* Backup Settings */
 "backup_setting_info_title" = "Kuvaus";
 "backup_setting_info_description" = "Kun se on käytössä, Budget Flow varmuuskopioi tiedot säännöllisesti, jotta voit palauttaa sovelluksen aiempaan tilaan milloin tahansa.";
@@ -1014,10 +1017,16 @@
 /* MARK: - Progress View */
 "progress_view_load_images_title" = "Ladataan valokuvia...";
 "progress_view_load_images_subtitle" = "Huomaa: Jos käytät iCloud-valokuvakirjastoa, valokuviesi lataaminen voi kestää hetken.";
+
 "progress_view_load_documents_title" = "Ladataan asiakirjoja...";
 "progress_view_load_documents_subtitle" = "Tiedot: Jos käytät iCloud Drivea, asiakirjojen lataaminen voi kestää hetken.";
+
 "progress_view_import_csv_title" = "Tuodaan tietoja...";
 "progress_view_import_csv_subtitle" = "Odota...";
+
+"progress_view_import_from_cloud_title" = "Ladataan tietoja iCloudista...";
+"progress_view_import_from_cloud_initialization_subtitle" = "Odota hetki...";
+"progress_view_import_from_cloud_loaded_objects_subtitle" = "Ladatut objektit: %d";
 
 
 /* MARK: - Widgets */

@@ -677,6 +677,9 @@
 "cloud_setting_number_of_transactions_in_progress_title" = "Mohon tunggu...";
 "cloud_setting_number_of_transactions_error_title" = "Kesalahan";
 
+"import_from_cloud_button" = "Unduh dari iCloud";
+"manual_sync_cloud_setting_footer_title" = "Jika data Anda belum atau belum sepenuhnya disinkronkan dengan iCloud, Anda dapat memulai sinkronisasi secara manual di sini.";
+
 /* Backup Settings */
 "backup_setting_info_title" = "Deskripsi";
 "backup_setting_info_description" = "Jika diaktifkan, Budget Flow mencadangkan data Anda secara rutin sehingga Anda dapat memulihkan aplikasi ke keadaan sebelumnya kapan saja.";
@@ -1014,10 +1017,16 @@
 /* MARK: - Progress View */
 "progress_view_load_images_title" = "Memuat Foto...";
 "progress_view_load_images_subtitle" = "Info: Jika Anda menggunakan Galeri Foto iCloud, foto Anda mungkin memerlukan waktu beberapa saat untuk diunduh.";
+
 "progress_view_load_documents_title" = "Memuat Dokumen...";
 "progress_view_load_documents_subtitle" = "Info: Jika Anda menggunakan iCloud Drive, dokumen Anda mungkin memerlukan waktu beberapa saat untuk diunduh.";
+
 "progress_view_import_csv_title" = "Mengimpor Data...";
 "progress_view_import_csv_subtitle" = "Mohon tunggu...";
+
+"progress_view_import_from_cloud_title" = "Memuat data dari iCloud...";
+"progress_view_import_from_cloud_initialization_subtitle" = "Harap tunggu...";
+"progress_view_import_from_cloud_loaded_objects_subtitle" = "Objek dimuat: %d";
 
 
 /* MARK: - Widgets */

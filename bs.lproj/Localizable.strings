@@ -677,6 +677,9 @@
 "cloud_setting_number_of_transactions_in_progress_title" = "Molim sačekajte...";
 "cloud_setting_number_of_transactions_error_title" = "Greška";
 
+"import_from_cloud_button" = "Preuzmi sa iClouda";
+"manual_sync_cloud_setting_footer_title" = "Ako vaši podaci nisu ili nisu potpuno sinkronizirani s iCloudom, ovdje možete ručno pokrenuti sinkronizaciju.";
+
 /* Backup Settings */
 "backup_setting_info_title" = "Opis";
 "backup_setting_info_description" = "Kada je omogućen, Budget Flow redovno izrađuje sigurnosne kopije vaših podataka kako biste mogli vratiti aplikaciju u prethodno stanje u bilo kojem trenutku.";
@@ -1014,10 +1017,16 @@
 /* MARK: - Progress View */
 "progress_view_load_images_title" = "Učitavanje fotografija...";
 "progress_view_load_images_subtitle" = "Informacije: Ako koristite iCloud Photo Library, preuzimanje vaših fotografija može potrajati.";
+
 "progress_view_load_documents_title" = "Učitavanje dokumenata...";
 "progress_view_load_documents_subtitle" = "Informacije: Ako koristite iCloud Drive, može potrajati neko vrijeme za preuzimanje vaših dokumenata.";
+
 "progress_view_import_csv_title" = "Uvoz podataka...";
 "progress_view_import_csv_subtitle" = "Molim sačekajte...";
+
+"progress_view_import_from_cloud_title" = "Učitavanje podataka s iClouda...";
+"progress_view_import_from_cloud_initialization_subtitle" = "Molimo sačekajte...";
+"progress_view_import_from_cloud_loaded_objects_subtitle" = "Učitani objekti: %d";
 
 
 /* MARK: - Widgets */

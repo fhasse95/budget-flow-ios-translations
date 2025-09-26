@@ -677,6 +677,9 @@
 "cloud_setting_number_of_transactions_in_progress_title" = "請等待...";
 "cloud_setting_number_of_transactions_error_title" = "錯誤";
 
+"import_from_cloud_button" = "從 iCloud 下載";
+"manual_sync_cloud_setting_footer_title" = "如果您的資料未與 iCloud 同步或未完全同步，您可以在此手動啟動同步。";
+
 /* Backup Settings */
 "backup_setting_info_title" = "描述";
 "backup_setting_info_description" = "啟用後，Budget Flow 將定期備份您的數據，以便您可以隨時將應用程式還原到先前的狀態。";
@@ -1014,10 +1017,16 @@
 /* MARK: - Progress View */
 "progress_view_load_images_title" = "正在載入照片...";
 "progress_view_load_images_subtitle" = "注意：如果您使用 iCloud 照片，您的照片可能需要一段時間才能下載";
+
 "progress_view_load_documents_title" = "正在載入文件...";
 "progress_view_load_documents_subtitle" = "訊息：如果您使用 iCloud Drive，您的文件可能需要一段時間才能下載。";
+
 "progress_view_import_csv_title" = "正在匯入資料...";
 "progress_view_import_csv_subtitle" = "請稍候...";
+
+"progress_view_import_from_cloud_title" = "正在從 iCloud 載入資料...";
+"progress_view_import_from_cloud_initialization_subtitle" = "請稍候...";
+"progress_view_import_from_cloud_loaded_objects_subtitle" = "已載入的物件：%d";
 
 
 /* MARK: - Widgets */

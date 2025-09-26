@@ -677,6 +677,9 @@
 "cloud_setting_number_of_transactions_in_progress_title" = "الرجاء الانتظار...";
 "cloud_setting_number_of_transactions_error_title" = "خطأ";
 
+"import_from_cloud_button" = "تنزيل من iCloud";
+"manual_sync_cloud_setting_footer_title" = "إذا لم تتم مزامنة بياناتك أو لم تتم مزامنتها بالكامل مع iCloud، يمكنك بدء المزامنة يدويًا من هنا.";
+
 /* Backup Settings */
 "backup_setting_info_title" = "الوصف";
 "backup_setting_info_description" = "ي حالة تمكينها، ستقوم Budget Flow بنسخ بياناتك احتياطيًا بانتظام حتى تتمكن من استعادة التطبيق إلى حالته السابقة في أي وقت.";
@@ -1014,10 +1017,16 @@
 /* MARK: - Progress View */
 "progress_view_load_images_title" = "جارٍ تحميل الصور...";
 "progress_view_load_images_subtitle" = "ملاحظة: إذا كنت تستخدم مكتبة صور iCloud، فقد يستغرق تحميل الصور بعض الوقت.";
+
 "progress_view_load_documents_title" = "جارٍ تحميل المستندات...";
 "progress_view_load_documents_subtitle" = "معلومات: إذا كنت تستخدم iCloud Drive، فقد يستغرق تحميل مستنداتك بعض الوقت.";
+
 "progress_view_import_csv_title" = "جارٍ استيراد البيانات...";
 "progress_view_import_csv_subtitle" = "الرجاء الانتظار...";
+
+"progress_view_import_from_cloud_title" = "جاري تحميل البيانات من iCloud...";
+"progress_view_import_from_cloud_initialization_subtitle" = "يرجى الانتظار...";
+"progress_view_import_from_cloud_loaded_objects_subtitle" = "العناصر التي تم تحميلها: %d";
 
 
 /* MARK: - Widgets */

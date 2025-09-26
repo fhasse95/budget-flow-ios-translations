@@ -677,6 +677,9 @@
 "cloud_setting_number_of_transactions_in_progress_title" = "Vui lòng đợi...";
 "cloud_setting_number_of_transactions_error_title" = "Lỗi";
 
+"import_from_cloud_button" = "Tải xuống từ iCloud";
+"manual_sync_cloud_setting_footer_title" = "Nếu dữ liệu của bạn chưa hoặc chưa được đồng bộ đầy đủ với iCloud, bạn có thể khởi động đồng bộ thủ công tại đây.";
+
 /* Backup Settings */
 "backup_setting_info_title" = "Mô tả";
 "backup_setting_info_description" = "Budget Flow sẽ thường xuyên sao lưu dữ liệu của bạn vào bất cứ lúc nào.";
@@ -1014,10 +1017,16 @@
 /* MARK: - Progress View */
 "progress_view_load_images_title" = "Đang tải ảnh...";
 "progress_view_load_images_subtitle" = "Lưu ý: Nếu bạn sử dụng Thư viện ảnh iCloud, ảnh của bạn có thể mất một lúc để tải xuống.";
+
 "progress_view_load_documents_title" = "Đang tải Tài liệu...";
 "progress_view_load_documents_subtitle" = "Lưu ý: Nếu bạn đang sử dụng iCloud Driv, Tài liệu của bạn sẽ mất một lúc để tải xuống.";
+
 "progress_view_import_csv_title" = "Đang nhập dữ liệu...";
 "progress_view_import_csv_subtitle" = "Vui lòng chờ...";
+
+"progress_view_import_from_cloud_title" = "Đang tải dữ liệu từ iCloud...";
+"progress_view_import_from_cloud_initialization_subtitle" = "Vui lòng chờ...";
+"progress_view_import_from_cloud_loaded_objects_subtitle" = "Đối tượng đã tải: %d";
 
 
 /* MARK: - Widgets */

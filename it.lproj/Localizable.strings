@@ -677,6 +677,9 @@
 "cloud_setting_number_of_transactions_in_progress_title" = "Attendi...";
 "cloud_setting_number_of_transactions_error_title" = "Errore";
 
+"import_from_cloud_button" = "Scarica da iCloud";
+"manual_sync_cloud_setting_footer_title" = "Se i tuoi dati non sono stati sincronizzati o non sono stati completamente sincronizzati con iCloud, puoi avviare qui la sincronizzazione manualmente.";
+
 /* Backup Settings */
 "backup_setting_info_title" = "Descrizione";
 "backup_setting_info_description" = "Quando attivo, Budget Flow effettua regolari copie di backup dei tuoi dati, permettendoti di ripristinare l'app a uno stato precedente in qualsiasi momento.";
@@ -1014,10 +1017,16 @@
 /* MARK: - Progress View */
 "progress_view_load_images_title" = "Caricamento foto...";
 "progress_view_load_images_subtitle" = "Nota: se usi la libreria foto di iCloud, il download delle foto potrebbe richiedere del tempo.";
+
 "progress_view_load_documents_title" = "Caricamento documenti...";
 "progress_view_load_documents_subtitle" = "Nota: se utilizzi iCloud Drive, il download delle documenti potrebbe richiedere del tempo.";
+
 "progress_view_import_csv_title" = "Importazione dati...";
 "progress_view_import_csv_subtitle" = "Attendere...";
+
+"progress_view_import_from_cloud_title" = "Caricamento dati da iCloud...";
+"progress_view_import_from_cloud_initialization_subtitle" = "Attendere prego...";
+"progress_view_import_from_cloud_loaded_objects_subtitle" = "Oggetti caricati: %d";
 
 
 /* MARK: - Widgets */

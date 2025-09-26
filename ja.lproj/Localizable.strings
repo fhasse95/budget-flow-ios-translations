@@ -677,6 +677,9 @@
 "cloud_setting_number_of_transactions_in_progress_title" = "お待ちください...";
 "cloud_setting_number_of_transactions_error_title" = "エラー";
 
+"import_from_cloud_button" = "iCloudからダウンロード";
+"manual_sync_cloud_setting_footer_title" = "データがiCloudと同期されていない、または完全に同期されていない場合は、ここで手動で同期を開始できます。";
+
 /* Backup Settings */
 "backup_setting_info_title" = "説明";
 "backup_setting_info_description" = "有効にすると、Budget Flow が定期的にデータをバックアップするため、いつでもアプリを以前の状態に復元できます。";
@@ -1014,10 +1017,16 @@
 /* MARK: - Progress View */
 "progress_view_load_images_title" = "写真を読み込み中...";
 "progress_view_load_images_subtitle" = "注: iCloud フォト ライブラリを使用している場合、写真のダウンロードに時間がかかる場合があります。";
+
 "progress_view_load_documents_title" = "ドキュメントをロード中...";
 "progress_view_load_documents_subtitle" = "情報: iCloud Drive を使用している場合、ドキュメントのダウンロードに時間がかかる場合があります。";
+
 "progress_view_import_csv_title" = "データをインポートしています...";
 "progress_view_import_csv_subtitle" = "お待ちください...";
+
+"progress_view_import_from_cloud_title" = "iCloudからデータを読み込み中...";
+"progress_view_import_from_cloud_initialization_subtitle" = "お待ちください...";
+"progress_view_import_from_cloud_loaded_objects_subtitle" = "読み込まれたオブジェクト: %d";
 
 
 /* MARK: - Widgets */

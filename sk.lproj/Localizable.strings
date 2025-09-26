@@ -677,6 +677,9 @@
 "cloud_setting_number_of_transactions_in_progress_title" = "Čakajte, prosím...";
 "cloud_setting_number_of_transactions_error_title" = "Chyba";
 
+"import_from_cloud_button" = "Stiahnuť z iCloudu";
+"manual_sync_cloud_setting_footer_title" = "Ak vaše údaje neboli alebo nie sú úplne synchronizované s iCloudom, môžete tu manuálne spustiť synchronizáciu.";
+
 /* Backup Settings */
 "backup_setting_info_title" = "Popis";
 "backup_setting_info_description" = "Ak je povolený, Budget Flow pravidelne zálohuje vaše dáta, takže aplikáciu môžete kedykoľvek obnoviť do predchádzajúceho stavu.";
@@ -1014,10 +1017,16 @@
 /* MARK: - Progress View */
 "progress_view_load_images_title" = "Načítavam fotografie...";
 "progress_view_load_images_subtitle" = "Informácie: Ak používate iCloud Photo Library, sťahovanie fotografií môže chvíľu trvať.";
+
 "progress_view_load_documents_title" = "Načítavam dokumenty...";
 "progress_view_load_documents_subtitle" = "Informácie: Ak používate iCloud Drive, sťahovanie dokumentov môže chvíľu trvať.";
+
 "progress_view_import_csv_title" = "Importujú sa údaje...";
 "progress_view_import_csv_subtitle" = "Čakajte, prosím...";
+
+"progress_view_import_from_cloud_title" = "Načítavam údaje z iCloudu...";
+"progress_view_import_from_cloud_initialization_subtitle" = "Prosím, čakajte...";
+"progress_view_import_from_cloud_loaded_objects_subtitle" = "Načítané objekty: %d";
 
 
 /* MARK: - Widgets */

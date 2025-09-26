@@ -677,6 +677,9 @@
 "cloud_setting_number_of_transactions_in_progress_title" = "Kérjük, várjon...";
 "cloud_setting_number_of_transactions_error_title" = "Hiba";
 
+"import_from_cloud_button" = "Letöltés iCloudból";
+"manual_sync_cloud_setting_footer_title" = "Ha adataid nem vagy nem teljesen szinkronizálódtak az iClouddal, itt manuálisan indíthatod a szinkronizálást.";
+
 /* Backup Settings */
 "backup_setting_info_title" = "Leírás";
 "backup_setting_info_description" = "Ha engedélyezve van, a Budget Flow rendszeresen biztonsági másolatot készít az adatokról, így bármikor visszaállíthatja az alkalmazást egy korábbi állapotba.";
@@ -1014,10 +1017,16 @@
 /* MARK: - Progress View */
 "progress_view_load_images_title" = "Fényképek betöltése...";
 "progress_view_load_images_subtitle" = "Megjegyzés: Ha az iCloud Photo Library szolgáltatást használja, a fényképek letöltése eltarthat egy ideig.";
+
 "progress_view_load_documents_title" = "Dokumentumok betöltése...";
 "progress_view_load_documents_subtitle" = "Információ: Ha iCloud Drive-ot használ, a dokumentumok letöltése eltarthat egy ideig.";
+
 "progress_view_import_csv_title" = "Adatok importálása...";
 "progress_view_import_csv_subtitle" = "Kérjük, várjon...";
+
+"progress_view_import_from_cloud_title" = "Adatok betöltése iCloudból...";
+"progress_view_import_from_cloud_initialization_subtitle" = "Kérjük, várjon...";
+"progress_view_import_from_cloud_loaded_objects_subtitle" = "Betöltött objektumok: %d";
 
 
 /* MARK: - Widgets */

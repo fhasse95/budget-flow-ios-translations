@@ -677,6 +677,9 @@
 "cloud_setting_number_of_transactions_in_progress_title" = "잠시 기다려 주세요...";
 "cloud_setting_number_of_transactions_error_title" = "오류";
 
+"import_from_cloud_button" = "iCloud에서 다운로드";
+"manual_sync_cloud_setting_footer_title" = "데이터가 iCloud와 동기화되지 않았거나 완전히 동기화되지 않은 경우, 여기에서 수동으로 동기화를 시작할 수 있습니다.";
+
 /* Backup Settings */
 "backup_setting_info_title" = "설명";
 "backup_setting_info_description" = "백업이 활성화 되면 정기적으로 데이터를 백업하여, 언제든지 앱을 이전 상태로 복원할 수 있습니다.";
@@ -1014,10 +1017,16 @@
 /* MARK: - Progress View */
 "progress_view_load_images_title" = "사진 로드 중...";
 "progress_view_load_images_subtitle" = "참고: iCloud 사진 보관함을 사용하는 경우 사진을 다운로드하는 데 시간이 걸릴 수 있습니다.";
+
 "progress_view_load_documents_title" = "문서 로드 중...";
 "progress_view_load_documents_subtitle" = "정보: iCloud Drive를 사용하는 경우 문서를 다운로드하는 데 시간이 걸릴 수 있습니다.";
+
 "progress_view_import_csv_title" = "데이터 가져오는 중...";
 "progress_view_import_csv_subtitle" = "잠깐 기다려주세요...";
+
+"progress_view_import_from_cloud_title" = "iCloud에서 데이터 불러오는 중...";
+"progress_view_import_from_cloud_initialization_subtitle" = "잠시만 기다려주세요...";
+"progress_view_import_from_cloud_loaded_objects_subtitle" = "불러온 객체: %d";
 
 
 /* MARK: - Widgets */

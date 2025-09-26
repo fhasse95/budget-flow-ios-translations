@@ -677,6 +677,9 @@
 "cloud_setting_number_of_transactions_in_progress_title" = "กรุณารอ...";
 "cloud_setting_number_of_transactions_error_title" = "ข้อผิดพลาด";
 
+"import_from_cloud_button" = "ดาวน์โหลดจาก iCloud";
+"manual_sync_cloud_setting_footer_title" = "หากข้อมูลของคุณยังไม่ได้หรือยังไม่สมบูรณ์กับ iCloud คุณสามารถเริ่มการซิงค์ด้วยตนเองที่นี่ได้";
+
 /* Backup Settings */
 "backup_setting_info_title" = "คำอธิบาย";
 "backup_setting_info_description" = "เมื่อเปิดใช้งาน โฟลว์งบประมาณจะสำรองข้อมูลของคุณเป็นประจำ เพื่อให้คุณสามารถคืนค่าแอปให้อยู่ในสถานะก่อนหน้าได้ตลอดเวลา";
@@ -1014,10 +1017,16 @@
 /* MARK: - Progress View */
 "progress_view_load_images_title" = "กำลังโหลดรูปภาพ...";
 "progress_view_load_images_subtitle" = "หมายเหตุ: หากคุณใช้ iCloud Photo Library รูปภาพของคุณอาจใช้เวลาสักครู่ในการดาวน์โหลด";
+
 "progress_view_load_documents_title" = "กำลังโหลดเอกสาร...";
 "progress_view_load_documents_subtitle" = "ข้อมูล: หากคุณใช้ iCloud Drive เอกสารของคุณอาจใช้เวลาสักครู่ในการดาวน์โหลด";
+
 "progress_view_import_csv_title" = "กำลังนำเข้าข้อมูล...";
 "progress_view_import_csv_subtitle" = "โปรดรอสักครู่...";
+
+"progress_view_import_from_cloud_title" = "กำลังโหลดข้อมูลจาก iCloud...";
+"progress_view_import_from_cloud_initialization_subtitle" = "กรุณารอสักครู่...";
+"progress_view_import_from_cloud_loaded_objects_subtitle" = "วัตถุที่โหลดแล้ว: %d";
 
 
 /* MARK: - Widgets */

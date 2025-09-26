@@ -677,6 +677,9 @@
 "cloud_setting_number_of_transactions_in_progress_title" = "Vă rugăm să așteptați...";
 "cloud_setting_number_of_transactions_error_title" = "Eroare";
 
+"import_from_cloud_button" = "Descărcați din iCloud";
+"manual_sync_cloud_setting_footer_title" = "Dacă datele dvs. nu au fost sau nu sunt complet sincronizate cu iCloud, puteți declanșa manual sincronizarea aici.";
+
 /* Backup Settings */
 "backup_setting_info_title" = "Descriere";
 "backup_setting_info_description" = "Când este activat, Budget Flow face în mod regulat copii de siguranță ale datelor dvs., astfel încât să puteți restabili oricând aplicația la o stare anterioară.";
@@ -1014,10 +1017,16 @@
 /* MARK: - Progress View */
 "progress_view_load_images_title" = "Se încarcă fotografii...";
 "progress_view_load_images_subtitle" = "Notă: dacă utilizați Biblioteca foto iCloud, descărcarea fotografiilor dvs. poate dura ceva timp.";
+
 "progress_view_load_documents_title" = "Se încarcă documente...";
 "progress_view_load_documents_subtitle" = "Informații: dacă utilizați iCloud Drive, descărcarea documentelor dvs. poate dura ceva timp.";
+
 "progress_view_import_csv_title" = "Se importă date...";
 "progress_view_import_csv_subtitle" = "Vă rugăm să așteptați...";
+
+"progress_view_import_from_cloud_title" = "Se încarcă datele din iCloud...";
+"progress_view_import_from_cloud_initialization_subtitle" = "Vă rugăm să așteptați...";
+"progress_view_import_from_cloud_loaded_objects_subtitle" = "Obiecte încărcate: %d";
 
 
 /* MARK: - Widgets */

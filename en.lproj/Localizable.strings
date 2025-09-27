@@ -27,6 +27,8 @@
 "account_reconcilation" = "Account Reconcilation";
 "evaluated" = "Evaluated";
 "not_evaluated" = "Not Evaluated";
+"share_participant_owner" = "Owner";
+"share_participant_you" = "You";
 
 
 /* MARK: - Enums */

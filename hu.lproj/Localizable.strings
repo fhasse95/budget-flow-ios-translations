@@ -27,6 +27,8 @@
 "account_reconcilation" = "Számlaegyeztetés";
 "evaluated" = "Értékelt";
 "not_evaluated" = "Nem értékelt";
+"share_participant_owner" = "Tulajdonos";
+"share_participant_you" = "Te";
 
 
 /* MARK: - Enums */

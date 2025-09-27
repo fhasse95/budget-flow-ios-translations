@@ -27,6 +27,8 @@
 "account_reconcilation" = "Сверка счета";
 "evaluated" = "Оценено";
 "not_evaluated" = "Не оценено";
+"share_participant_owner" = "Владелец";
+"share_participant_you" = "Вы";
 
 
 /* MARK: - Enums */

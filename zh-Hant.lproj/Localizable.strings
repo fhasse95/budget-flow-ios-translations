@@ -27,6 +27,8 @@
 "account_reconcilation" = "帳戶對帳";
 "evaluated" = "已評估";
 "not_evaluated" = "未評估";
+"share_participant_owner" = "擁有者";
+"share_participant_you" = "您";
 
 
 /* MARK: - Enums */

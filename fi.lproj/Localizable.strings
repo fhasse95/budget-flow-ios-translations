@@ -27,6 +27,8 @@
 "account_reconcilation" = "Tilin täsmäytys";
 "evaluated" = "Arvioitu";
 "not_evaluated" = "Ei arvioitu";
+"share_participant_owner" = "Omistaja";
+"share_participant_you" = "Sinä";
 
 
 /* MARK: - Enums */

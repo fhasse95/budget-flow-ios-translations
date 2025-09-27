@@ -27,6 +27,8 @@
 "account_reconcilation" = "Звірка рахунку";
 "evaluated" = "Оцінено";
 "not_evaluated" = "Не оцінено";
+"share_participant_owner" = "Власник";
+"share_participant_you" = "Ви";
 
 
 /* MARK: - Enums */

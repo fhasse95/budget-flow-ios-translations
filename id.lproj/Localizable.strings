@@ -27,6 +27,8 @@
 "account_reconcilation" = "Rekonsiliasi Akun";
 "evaluated" = "Sudah Dinilai";
 "not_evaluated" = "Belum Dinilai";
+"share_participant_owner" = "Pemilik";
+"share_participant_you" = "Anda";
 
 
 /* MARK: - Enums */

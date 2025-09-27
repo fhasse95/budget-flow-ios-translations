@@ -27,6 +27,8 @@
 "account_reconcilation" = "Kontoabgleich";
 "evaluated" = "Ausgewertet";
 "not_evaluated" = "Nicht ausgewerted";
+"share_participant_owner" = "Eigentümer";
+"share_participant_you" = "Du";
 
 
 /* MARK: - Enums */

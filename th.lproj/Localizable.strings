@@ -27,6 +27,8 @@
 "account_reconcilation" = "การกระทบยอดบัญชี";
 "evaluated" = "ประเมินแล้ว";
 "not_evaluated" = "ยังไม่ประเมิน";
+"share_participant_owner" = "เจ้าของ";
+"share_participant_you" = "คุณ";
 
 
 /* MARK: - Enums */

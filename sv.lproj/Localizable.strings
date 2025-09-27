@@ -27,6 +27,8 @@
 "account_reconcilation" = "Kontavstämning";
 "evaluated" = "Utvärderad";
 "not_evaluated" = "Ej utvärderad";
+"share_participant_owner" = "Ägare";
+"share_participant_you" = "Du";
 
 
 /* MARK: - Enums */

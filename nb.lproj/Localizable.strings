@@ -27,6 +27,8 @@
 "account_reconcilation" = "Kontoregulering";
 "evaluated" = "Evaluert";
 "not_evaluated" = "Ikke evaluert";
+"share_participant_owner" = "Eier";
+"share_participant_you" = "Du";
 
 
 /* MARK: - Enums */

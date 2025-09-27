@@ -27,6 +27,8 @@
 "account_reconcilation" = "Đối chiếu tài khoản";
 "evaluated" = "Đã đánh giá";
 "not_evaluated" = "Chưa đánh giá";
+"share_participant_owner" = "Chủ sở hữu";
+"share_participant_you" = "Bạn";
 
 
 /* MARK: - Enums */

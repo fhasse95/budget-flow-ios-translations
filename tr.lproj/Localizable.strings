@@ -27,6 +27,8 @@
 "account_reconcilation" = "Hesap mutabakatı";
 "evaluated" = "Değerlendirildi";
 "not_evaluated" = "Değerlendirilmedi";
+"share_participant_owner" = "Sahip";
+"share_participant_you" = "Sen";
 
 
 /* MARK: - Enums */

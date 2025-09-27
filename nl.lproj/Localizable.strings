@@ -27,6 +27,8 @@
 "account_reconcilation" = "Rekeningafstemming";
 "evaluated" = "Beoordeeld";
 "not_evaluated" = "Niet beoordeeld";
+"share_participant_owner" = "Eigenaar";
+"share_participant_you" = "Jij";
 
 
 /* MARK: - Enums */

@@ -27,6 +27,8 @@
 "account_reconcilation" = "Zosúladenie účtu";
 "evaluated" = "Vyhodnotený";
 "not_evaluated" = "Nevyhodnotený";
+"share_participant_owner" = "Vlastník";
+"share_participant_you" = "Ty";
 
 
 /* MARK: - Enums */

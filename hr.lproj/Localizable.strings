@@ -27,6 +27,8 @@
 "account_reconcilation" = "Usklađenje računa";
 "evaluated" = "Ocijenjeno";
 "not_evaluated" = "Nije ocijenjeno";
+"share_participant_owner" = "Vlasnik";
+"share_participant_you" = "Ti";
 
 
 /* MARK: - Enums */

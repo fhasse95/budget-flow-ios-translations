@@ -27,6 +27,8 @@
 "account_reconcilation" = "Kontoafstemning";
 "evaluated" = "Evalueret";
 "not_evaluated" = "Ikke evalueret";
+"share_participant_owner" = "Ejer";
+"share_participant_you" = "Du";
 
 
 /* MARK: - Enums */

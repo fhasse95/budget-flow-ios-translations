@@ -27,6 +27,8 @@
 "account_reconcilation" = "계정 조정";
 "evaluated" = "평가됨";
 "not_evaluated" = "평가되지 않음";
+"share_participant_owner" = "소유자";
+"share_participant_you" = "당신";
 
 
 /* MARK: - Enums */

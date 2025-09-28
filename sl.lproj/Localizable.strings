@@ -167,7 +167,7 @@
 "transaction_subtitle_type_payee" = "Prejemnik";
 "transaction_subtitle_type_notes" = "Opombe";
 
-"time_zone_type_floating" = "Lebdeči";
+"time_zone_type_floating" = "Lebdeča";
 "time_zone_type_floating_title" = "Lebdeča časovna cona";
 "time_zone_type_floating_subtitle" = "Prilagaja se vaši lokalni časovni coni";
 
@@ -636,7 +636,7 @@
 "sync_and_data_setting_info_description" = "Pridobite pregled trenutnega stanja sinhronizacije in uvozite ali izvozite podatke z uporabo CSV datoteke.";
 
 "sync_and_data_cloud_setting_section_title" = "iCloud";
-"sync_and_data_cloud_setting_footer_title" = "Označuje, ali je bila sinhronizacija z iCloud uspešna ali je prišlo do napake.";
+"sync_and_data_cloud_setting_footer_title" = "Označuje, ali je bila sinhronizacija z iCloud uspešna oziroma je prišlo do napake.";
 "sync_and_data_setting_cloud_sync_status_title" = "Status sinhronizacije";
 "backup_setting_section_title" = "Varnostne kopije";
 "backup_setting_footer_title" = "Upravljajte svoje varnostne kopije in nastavitve varnostnih kopij.";

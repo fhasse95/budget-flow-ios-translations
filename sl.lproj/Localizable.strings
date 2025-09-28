@@ -167,7 +167,7 @@
 "transaction_subtitle_type_payee" = "Prejemnik";
 "transaction_subtitle_type_notes" = "Opombe";
 
-"time_zone_type_floating" = "Lebdeča";
+"time_zone_type_floating" = "Lebdeči";
 "time_zone_type_floating_title" = "Lebdeča časovna cona";
 "time_zone_type_floating_subtitle" = "Prilagaja se vaši lokalni časovni coni";
 

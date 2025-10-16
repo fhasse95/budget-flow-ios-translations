@@ -1175,7 +1175,7 @@
 
 /* MARK: - Currency Conversion View */
 /* Titles */
-"currency_conversion_title" = "Växelkurs";
+"currency_conversion_title" = "Konvertera";
 "currency_conversion_last_synchronization_title" = "Uppdaterad: %@";
 "currency_conversion_synchronization_failed_title" = "Synkroniseringen misslyckades";
 "currency_conversion_synchronization_failed_no_internet_title" = "Ingen internetanslutning";

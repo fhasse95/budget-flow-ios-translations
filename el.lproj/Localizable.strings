@@ -1175,7 +1175,7 @@
 
 /* MARK: - Currency Conversion View */
 /* Titles */
-"currency_conversion_title" = "Ισοτιμία συναλλάγματος";
+"currency_conversion_title" = "Μετατροπή";
 "currency_conversion_last_synchronization_title" = "Ενημερώθηκε: %@";
 "currency_conversion_synchronization_failed_title" = "Ο συγχρονισμός απέτυχε";
 "currency_conversion_synchronization_failed_no_internet_title" = "Δεν υπάρχει σύνδεση στο διαδίκτυο";

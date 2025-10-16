@@ -1175,7 +1175,7 @@
 
 /* MARK: - Currency Conversion View */
 /* Titles */
-"currency_conversion_title" = "Átváltási árfolyam";
+"currency_conversion_title" = "Átváltás";
 "currency_conversion_last_synchronization_title" = "Frissítve: %@";
 "currency_conversion_synchronization_failed_title" = "A szinkronizálás nem sikerült";
 "currency_conversion_synchronization_failed_no_internet_title" = "Nincs internetkapcsolat";

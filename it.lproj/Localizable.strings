@@ -1175,7 +1175,7 @@
 
 /* MARK: - Currency Conversion View */
 /* Titles */
-"currency_conversion_title" = "Tasso di cambio";
+"currency_conversion_title" = "Converti";
 "currency_conversion_last_synchronization_title" = "Aggiornato: %@";
 "currency_conversion_synchronization_failed_title" = "Sincronizzazione fallita";
 "currency_conversion_synchronization_failed_no_internet_title" = "Nessuna connessione Internet";

@@ -1175,7 +1175,7 @@
 
 /* MARK: - Currency Conversion View */
 /* Titles */
-"currency_conversion_title" = "Wisselkoers";
+"currency_conversion_title" = "Converteren";
 "currency_conversion_last_synchronization_title" = "Bijgewerkt: %@";
 "currency_conversion_synchronization_failed_title" = "Synchronisatie mislukt";
 "currency_conversion_synchronization_failed_no_internet_title" = "Geen internetverbinding";

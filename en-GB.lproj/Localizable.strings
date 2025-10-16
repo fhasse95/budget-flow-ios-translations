@@ -1174,7 +1174,7 @@
 
 /* MARK: - Currency Conversion View */
 /* Titles */
-"currency_conversion_title" = "Exchange Rate";
+"currency_conversion_title" = "Convert";
 "currency_conversion_last_synchronization_title" = "Updated: %@";
 "currency_conversion_synchronization_failed_title" = "Synchronization Failed";
 "currency_conversion_synchronization_failed_no_internet_title" = "No internet connection";

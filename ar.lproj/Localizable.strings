@@ -1175,7 +1175,7 @@
 
 /* MARK: - Currency Conversion View */
 /* Titles */
-"currency_conversion_title" = "سعر الصرف";
+"currency_conversion_title" = "تحويل";
 "currency_conversion_last_synchronization_title" = "تم التحديث: %@";
 "currency_conversion_synchronization_failed_title" = "فشلت المزامنة";
 "currency_conversion_synchronization_failed_no_internet_title" = "لا يوجد اتصال بالإنترنت";

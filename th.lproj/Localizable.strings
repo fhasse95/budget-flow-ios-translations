@@ -1175,7 +1175,7 @@
 
 /* MARK: - Currency Conversion View */
 /* Titles */
-"currency_conversion_title" = "อัตราแลกเปลี่ยน";
+"currency_conversion_title" = "แปลง";
 "currency_conversion_last_synchronization_title" = "อัปเดตแล้ว: %@";
 "currency_conversion_synchronization_failed_title" = "การซิงโครไนซ์ล้มเหลว";
 "currency_conversion_synchronization_failed_no_internet_title" = "ไม่มีการเชื่อมต่ออินเทอร์เน็ต";

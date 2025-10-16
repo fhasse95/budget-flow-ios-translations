@@ -1175,7 +1175,7 @@
 
 /* MARK: - Currency Conversion View */
 /* Titles */
-"currency_conversion_title" = "환율";
+"currency_conversion_title" = "변환";
 "currency_conversion_last_synchronization_title" = "업데이트: %@";
 "currency_conversion_synchronization_failed_title" = "동기화 실패";
 "currency_conversion_synchronization_failed_no_internet_title" = "인터넷 연결 없음";

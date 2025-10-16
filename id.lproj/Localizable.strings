@@ -1175,7 +1175,7 @@
 
 /* MARK: - Currency Conversion View */
 /* Titles */
-"currency_conversion_title" = "Nilai Tukar";
+"currency_conversion_title" = "Konversi";
 "currency_conversion_last_synchronization_title" = "Diperbarui: %@";
 "currency_conversion_synchronization_failed_title" = "Sinkronisasi Gagal";
 "currency_conversion_synchronization_failed_no_internet_title" = "Tidak ada koneksi internet";

@@ -1175,7 +1175,7 @@
 
 /* MARK: - Currency Conversion View */
 /* Titles */
-"currency_conversion_title" = "Tipo de cambio";
+"currency_conversion_title" = "Convertir";
 "currency_conversion_last_synchronization_title" = "Actualizado: %@";
 "currency_conversion_synchronization_failed_title" = "Error de sincronización";
 "currency_conversion_synchronization_failed_no_internet_title" = "Sin conexión a internet";

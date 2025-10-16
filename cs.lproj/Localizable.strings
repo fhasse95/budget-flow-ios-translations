@@ -1175,7 +1175,7 @@
 
 /* MARK: - Currency Conversion View */
 /* Titles */
-"currency_conversion_title" = "Směnný kurz";
+"currency_conversion_title" = "Převést";
 "currency_conversion_last_synchronization_title" = "Aktualizováno: %@";
 "currency_conversion_synchronization_failed_title" = "Synchronizace se nezdařila";
 "currency_conversion_synchronization_failed_no_internet_title" = "Žádné připojení k internetu";

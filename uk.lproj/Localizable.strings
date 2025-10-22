@@ -204,8 +204,8 @@
 
 
 /* MARK: - Menu Bar */
-"accounts_menu_title" = "Облікові записи";
-"show_accounts_menu_title" = "Показати всі облікові записи";
+"accounts_menu_title" = "Рахунки";
+"show_accounts_menu_title" = "Показати всі рахунки";
 "budgets_menu_title" = "Бюджети";
 "show_budgets_menu_title" = "Показати всі бюджети";
 "transactions_menu_title" = "Транзакції";
@@ -216,7 +216,7 @@
 
 /* MARK: - Sidebar Menu */
 "menu" = "Меню";
-"menu_accounts_section" = "Облікові записи";
+"menu_accounts_section" = "Рахунки";
 "menu_categories_section" = "Категорії";
 "menu_selected_budget_book_title" = "Вибрані";
 
@@ -723,10 +723,10 @@
 "advanced_setting_configure_transaction_title_info_title" = "Опис";
 "advanced_setting_configure_transaction_title_info_description" = "Установіть порядок елементів, які відображатимуться в назві транзакції. Якщо елемент відсутній, автоматично використовується наступний у порядку.";
 
-"advanced_setting_show_accounts_in_sidebar_title" = "Показати облікові записи на бічній панелі";
+"advanced_setting_show_accounts_in_sidebar_title" = "Показати рахунки на бічній панелі";
 "advanced_setting_show_accounts_in_sidebar_description" = "Показати список ваших облікових записів на бічній панелі.";
-"advanced_setting_group_accounts_in_sidebar_title" = "Групувати облікові записи на бічній панелі";
-"advanced_setting_group_accounts_in_sidebar_description" = "Згрупуйте свої облікові записи на бічній панелі за типом.";
+"advanced_setting_group_accounts_in_sidebar_title" = "Групувати рахунки на бічній панелі";
+"advanced_setting_group_accounts_in_sidebar_description" = "Згрупуйте свої рахунки на бічній панелі за типом.";
 "advanced_setting_show_categories_in_sidebar_title" = "Показати категорії на бічній панелі";
 "advanced_setting_show_categories_in_sidebar_description" = "Показати список ваших категорій на бічній панелі.";
 "advanced_setting_group_categories_in_sidebar_title" = "Групувати категорії на бічній панелі";
@@ -869,8 +869,8 @@
 "upgrade_features" = "Функції";
 "upgrade_more_features" = "Додаткові функції";
 "upgrade_features_description" = "Нижче наведено всі функції, які будуть розблоковані при покупці повної версії:";
-"upgrade_feature_unlimited_accounts_title" = "Додаткові облікові записи";
-"upgrade_feature_unlimited_accounts_description" = "Створіть додаткові облікові записи та призначте їм транзакції для ще кращого огляду ваших доходів і витрат.";
+"upgrade_feature_unlimited_accounts_title" = "Додаткові рахунки";
+"upgrade_feature_unlimited_accounts_description" = "Створіть додаткові рахунки та призначте їм транзакції для ще кращого огляду ваших доходів і витрат.";
 "upgrade_feature_unlimited_categories_and_tags_title" = "Необмежена кількість категорій і тегів";
 "upgrade_feature_unlimited_categories_and_tags_description" = "Створіть необмежену кількість категорій і тегів, які ви можете додати до транзакцій, щоб краще їх упорядкувати.";
 "upgrade_feature_extended_analyses_title" = "Розширена аналітика";
@@ -1070,15 +1070,15 @@
 "alert_confirm_dismiss_title" = "Ви впевнені, що бажаєте скасувати свої зміни?";
 
 /* Delete */
-"alert_confirm_delete_budgetbook_title" = "Ви впевнені, що хочете видалити цю бюджетну книгу? Усі пов'язані облікові записи, категорії, транзакції та бюджети також будуть видалені.";
+"alert_confirm_delete_budgetbook_title" = "Ви впевнені, що хочете видалити цю бюджетну книгу? Усі пов'язані рахунки, категорії, транзакції та бюджети також будуть видалені.";
 "alert_confirm_delete_budgetbook_button" = "Видалити бюджетну книгу";
-"alert_confirm_delete_budgetbook_multiple_title" = "Ви впевнені, що хочете видалити всі вибрані бюджетні книги? Усі пов'язані облікові записи, категорії, транзакції та бюджети також будуть видалені.";
+"alert_confirm_delete_budgetbook_multiple_title" = "Ви впевнені, що хочете видалити всі вибрані бюджетні книги? Усі пов'язані рахунки, категорії, транзакції та бюджети також будуть видалені.";
 "alert_confirm_delete_budgetbook_multiple_button" = "Видалити бюджетні книги";
 
 "alert_confirm_delete_account_title" = "Ви впевнені, що хочете видалити цей обліковий запис? Усі пов'язані транзакції також будуть видалені.";
 "alert_confirm_delete_account_button" = "Видалити обліковий запис";
-"alert_confirm_delete_account_multiple_title" = "Ви впевнені, що хочете видалити всі вибрані облікові записи? Усі пов'язані транзакції також будуть видалені.";
-"alert_confirm_delete_account_multiple_button" = "Видалити облікові записи";
+"alert_confirm_delete_account_multiple_title" = "Ви впевнені, що хочете видалити всі вибрані рахунки? Усі пов'язані транзакції також будуть видалені.";
+"alert_confirm_delete_account_multiple_button" = "Видалити рахунки";
 
 "alert_confirm_delete_categorygroup_title" = "Ви впевнені, що хочете видалити цю папку? Усі пов'язані категорії, транзакції та бюджети також будуть видалені (за потреби).";
 "alert_confirm_delete_categorygroup_button" = "Видалити папку";
@@ -1197,7 +1197,7 @@
 /* MARK: - Manage Item View */
 /* Titles */
 "manage_budgetbooks_title" = "Книги про бюджет";
-"manage_accounts_title" = "Облікові записи";
+"manage_accounts_title" = "Рахунки";
 "manage_categories_title" = "Категорії";
 "manage_category_groups_title" = "Папки";
 "manage_payees_title" = "Одержувачі";
@@ -1225,7 +1225,7 @@
 "budget_books_search_placeholder_message" = "Шукати назву бюджетника";
 
 "no_accounts_title" = "Немає облікових записів";
-"no_accounts_found_title" = "Облікові записи не знайдено";
+"no_accounts_found_title" = "Рахунки не знайдено";
 "no_accounts_found_message" = "Натисніть кнопку \"+\", щоб додати новий обліковий запис.";
 "no_accounts_found_button_title" = "Новий обліковий запис";
 "accounts_search_placeholder_message" = "Пошук за назвою або типом облікового запису";

@@ -172,7 +172,7 @@
 "time_zone_type_floating_subtitle" = "S'ajusta a la teva zona horària local";
 
 
-/* MARK: - Repetició de dates personalitzada */
+/* MARK: - Custom Date Repetition */
 "frequency" = "Freqüència";
 
 "every" = "Cada";
@@ -325,6 +325,7 @@
 "alert_cloud_share_quota_exceeded_error_message" = "No s'ha pogut completar el compartiment perquè no hi ha prou espai a iCloud. Allibera espai i torna-ho a provar.";
 "alert_cloud_share_unknown_error_message" = "No s'ha pogut completar el compartiment perquè s'ha produït un error. Probablement no hi ha prou espai disponible a iCloud. Allibera espai i torna-ho a provar.";
 
+
 /* MARK: - Search View */
 /* Titles */
 "search_title" = "Cercar";
@@ -333,6 +334,7 @@
 /* Sections */
 "search_text_section_title" = "Cercar text";
 "search_suggestions_section_title" = "Suggeriments";
+
 
 /* MARK: - Period Selection View */
 /* Titles */
@@ -343,6 +345,7 @@
 /* Items */
 "from_title" = "De";
 "to_title" = "Fins";
+
 
 /* MARK: - Dashboard View */
 /* Titles */
@@ -389,6 +392,7 @@
 "total_expenses_distribution_widget_title" = "Despeses totals";
 "fixed_expenses_distribution_widget_title" = "Despeses fixes";
 "variable_expenses_distribution_widget_title" = "Despeses variables";
+
 
 /* MARK: - Transaction List View */
 /* Titles */
@@ -442,6 +446,7 @@
 "average_per_day" = "Ø per dia";
 "average_last_twelve_months" = "Ø últims 12 mesos";
 
+
 /* MARK: - Budget List View */
 /* Titles */
 "remaining_title" = "Disponible";
@@ -459,6 +464,7 @@
 "no_budgets_found_message" = "Fes clic al botó \"+\" per afegir un nou pressupost.";
 "budgets_search_placeholder_message" = "Cerca pel nom d'un pressupost";
 "no_budgets_found_button_title" = "Nou pressupost";
+
 
 /* MARK: - Analysis View */
 /* Titles */
@@ -493,11 +499,13 @@
 "total_balance_widget_title" = "Saldo";
 "savings_rate_widget_title" = "Taxa d'estalvi";
 
+
 /* MARK: - Account Forecast View */
 /* Titles */
 "account_forecast_title" = "Previsió";
 "account_balance_title" = "Saldo";
 "not_enough_data_title" = "No hi ha dades suficients";
+
 
 /* MARK: - Settings View */
 /* Titles */
@@ -747,7 +755,6 @@
 "advanced_setting_ask_for_feedback_title" = "Sol·licitar comentaris";
 "advanced_setting_ask_for_feedback_description" = "Permetre que l'app et sol·liciti comentaris de tant en tant.";
 
-
 /* Cloud Sync Status */
 "cloud_sync_status_not_logged_in" = "No has iniciat sessió a iCloud";
 "cloud_sync_status_not_started" = "No sincronitzat";
@@ -778,6 +785,7 @@
 "version" = "Versió";
 "developed_by" = "Desenvolupat per %@ 👨🏻‍💻";
 
+
 /* MARK: - Passcode View */
 /* Titles */
 "passcode_view_enter_passcode_title" = "Introdueix el codi d'accés";
@@ -787,6 +795,7 @@
 
 /* Alert Views */
 "alert_set_passcode_type_title" = "Tria una opció de codi d'accés";
+
 
 /* MARK: - Welcome View */
 /* Titles */
@@ -808,6 +817,7 @@
 "welcome_view_value_description" = "Controla totes les teves finances fàcilment: introdueix el teu pressupost, obté informació i fes un seguiment de tots els teus ingressos i despeses";
 "welcome_view_agreement_description" = "En fer clic a \"Acceptar\" acceptes el %@.";
 
+
 /* MARK: - New Features View */
 /* Titles */
 "new_features_view_title" = "Noves funcions";
@@ -816,7 +826,8 @@
 "new_features_view_rate_app_button" = "Valorar app";
 "new_features_view_close_button" = "Potser més tard";
 
-/* MARK: - Rate App View */
+
+/* MARK: - Purchase Success View */
 /* Titles */
 "purchase_success_view_title" = "Gràcies!";
 
@@ -827,6 +838,7 @@
 /* Buttons */
 "purchase_success_view_rate_app_button" = "Valorar app";
 "purchase_success_view_close_button" = "Potser més tard";
+
 
 /* MARK: - Upgrade View */
 /* Titles */
@@ -932,7 +944,6 @@
 "subscription_button_info_text" = "Cancel·lable en qualsevol moment.";
 "subscription_trial_button_info_text" = "%d %@ prova gratuïta. Després, %@ per %@.";
 "lifetime_purchase_button_info_text" = "Desbloqueja la versió completa una vegada (sense subscripció).";
-
 
 /* Alert Views */
 "alert_upgrade_view_purchase_success_title" = "Compra exitosa 🎉";
@@ -1127,12 +1138,6 @@
 "alert_confirm_update_transaction_all_button" = "Salva esta y las futuras";
 
 /* End Repetition */
-"alert_confirm_update_contra_entry_title" = "Aquesta transacció és una transferència. Vols actualitzar també l’entrada contrària?";
-"alert_confirm_update_transaction_multiple_title" = "Aquesta transacció pertany a un grup. Què exactament vols desar?";
-"alert_confirm_update_transaction_single_button" = "Desa només aquesta";
-"alert_confirm_update_transaction_all_button" = "Desa aquesta i les futures";
-
-/* End Repetition */
 "alert_confirm_end_repetition_for_transaction_title" = "Estàs segur que vols deixar de repetir aquesta transacció?";
 "alert_confirm_end_repetition_for_transaction_button" = "Fi de la repetició";
 "alert_confirm_end_repetition_for_transaction_multiple_title" = "Estàs segur que vols que totes les transaccions seleccionades deixin de repetir-se?";
@@ -1142,6 +1147,7 @@
 "alert_change_currency_or_exchange_rate_title" = "Què vols canviar exactament?";
 "alert_change_currency_button" = "Moneda";
 "alert_change_exchange_rate_button" = "Tipus de canvi";
+
 
 /* MARK: - Currency Selection View */
 /* Titles */
@@ -1166,6 +1172,7 @@
 "alert_confirm_change_default_currency_title" = "Estàs segur que vols canviar la teva moneda predeterminada? Això convertirà totes les transaccions existents a la nova moneda (%@).";
 "alert_confirm_change_default_account_currency_title" = "Estàs segur que vols canviar la moneda? Això convertirà totes les transaccions existents d’aquest compte a la nova moneda (%@).";
 
+
 /* MARK: - Currency Conversion View */
 /* Titles */
 "currency_conversion_title" = "Convertir";
@@ -1177,6 +1184,7 @@
 "source_currency_section_title" = "De";
 "target_currency_section_title" = "A";
 
+
 /* MARK: - Time Zone Selection View */
 /* Titles */
 "time_zone_selection_title" = "Zona horària";
@@ -1184,6 +1192,7 @@
 /* Messages */
 "no_timezones_found_title" = "No s’han trobat zones horàries";
 "time_zone_selection_search_placeholder_message" = "Cerca la zona horària d’un país o ciutat";
+
 
 /* MARK: - Manage Item View */
 /* Titles */
@@ -1249,6 +1258,7 @@
 /* Value */
 "balance" = "Saldo";
 
+
 /* MARK: - Add Item Form View */
 /* Titles */
 "form_title_edit" = "Editar";
@@ -1264,6 +1274,7 @@
 /* Miscellaneous */
 "number_of_selected_items" = "%d seleccionats";
 
+
 /* MARK: - Add Budget Book Form View */
 /* Titles */
 "form_title_new_budgetbook" = "Nou llibre de pressupostos";
@@ -1273,6 +1284,7 @@
 
 /* Buttons */
 "form_button_delete_budgetbook" = "Eliminar llibre de pressupost";
+
 
 /* MARK: - Add Account Form View */
 /* Titles */
@@ -1303,12 +1315,14 @@
 "form_button_unarchive_account" = "Desarxivar compte";
 "form_button_delete_account" = "Eliminar compte";
 
+
 /* MARK: - Add Category Group Form View */
 /* Titles */
 "form_title_new_categorygroup" = "Nova carpeta";
 
 /* Buttons */
 "form_button_delete_categorygroup" = "Eliminar carpeta";
+
 
 /* MARK: - Add Category Form View */
 /* Titles */
@@ -1320,6 +1334,7 @@
 
 /* Buttons */
 "form_button_delete_category" = "Eliminar categoria";
+
 
 /* MARK: - Add Payee Form View */
 /* Titles */
@@ -1335,12 +1350,14 @@
 /* Buttons */
 "form_button_delete_payee" = "Eliminar beneficiari";
 
+
 /* MARK: - Add Tag Form View */
 /* Titles */
 "form_title_new_tag" = "Nova etiqueta";
 
 /* Buttons */
 "form_button_delete_tag" = "Eliminar etiqueta";
+
 
 /* MARK: - Add Reminder Form View */
 /* Titles */
@@ -1355,6 +1372,7 @@
 
 /* Notifications */
 "reminder_notification_title" = "Recordatori";
+
 
 /* MARK: - Add Transaction Form View */
 /* Titles */
@@ -1425,6 +1443,7 @@
 "transaction_notification_body" = "Import: %@\nData: %@";
 "transaction_notification_body_notes" = "Notes: %@";
 
+
 /* MARK: - Add Budget Form View */
 /* Titles */
 "form_title_new_budget" = "Nou pressupost";
@@ -1440,6 +1459,7 @@
 
 /* Buttons */
 "form_button_delete_budget" = "Eliminar pressupost";
+
 
 /* MARK: - Assign CSV Fields Form View */
 /* Titles */
@@ -1472,6 +1492,7 @@
 "form_skip_duplicates_title" = "Omet duplicats";
 "form_csv_assign_field_none_type_value" = "Sense assignar";
 
+
 /* MARK: - Color Selection View */
 /* Titles */
 "color_selection_title" = "Colors";
@@ -1480,6 +1501,7 @@
 "no_colors_found_title" = "No s'han trobat colors";
 "color_selection_search_placeholder_message" = "Cerca un color o un nom de grup";
 
+
 /* MARK: - Icon Selection View */
 /* Titles */
 "icon_selection_title" = "Icones";
@@ -1487,6 +1509,7 @@
 /* Messages */
 "no_icons_found_title" = "No s'han trobat icones";
 "icon_selection_search_placeholder_message" = "Cerca una etiqueta d'icona o un nom de grup";
+
 
 /* MARK: - Location Selection View */
 /* Titles */
@@ -1500,6 +1523,7 @@
 /* Alert Views */
 "location_selection_no_internet_error_title" = "Error";
 "location_selection_no_internet_error_message" = "Sembla que no hi ha connexió a Internet";
+
 
 /* MARK: - Other Alert Views */
 "alert_selected_period_changed_title" = "%@ seleccionat";
@@ -1521,6 +1545,7 @@
 "alert_photolibrary_permissions_message" = "Per afegir fotos, només cal habilitar l'accés a \"fotos\" a la configuració.";
 "alert_notifications_permissions_message" = "Per rebre notificacions automàtiques, només cal habilitar \"notificacions\" a la configuració.";
 
+
 /* MARK: - Tips */
 "period_selection_tip_title" = "Canviar període";
 "period_selection_tip_message" = "Fes clic aquí per canviar el període mostrat. Això afecta totes les vistes (resum, transaccions i pressupostos).";
@@ -1529,10 +1554,12 @@
 "switch_budget_books_tip_title" = "Canviar de llibre de pressupost";
 "switch_budget_books_tip_message" = "Mantén premuda la pestanya de descripció general per canviar ràpidament entre els teus llibres de pressupost.";
 
+
 /* MARK: - Watch App */
 /* Titles */
 "cloud_sync_status_section_title" = "Estat de sincronització d'iCloud";
 "cloud_sync_status_footer_title" = "Informació: Has d'iniciar sessió a iCloud per sincronitzar les dades del teu iPhone.";
+
 
 /* MARK: - Localized URLs */
 "imprintUrl" = "https://budget-flow.app/json/en/imprint.json";
@@ -1611,6 +1638,7 @@
 "icon_section_people_title" = "Persones";
 "icon_section_buildings_title" = "Edificis";
 "icon_section_payment_methods_title" = "Mètodes de pagament";
+
 
 /* MARK: - Icon Keywords */
 "icon_keyword_emoji" = "Emoji";
@@ -1753,6 +1781,7 @@
 "icon_keyword_dice" = "Daus";
 "icon_keyword_boardgames" = "Jocs de taula";
 "icon_keyword_gambling" = "Jocs d’atzar";
+"icon_keyword_camera" = "Cámara";
 "icon_keyword_photography" = "Fotografia";
 "icon_keyword_photo" = "Foto";
 "icon_keyword_world" = "Món";
@@ -1771,6 +1800,7 @@
 "icon_keyword_bolt" = "Raig";
 "icon_keyword_plug" = "Endoll";
 "icon_keyword_electric" = "Elèctric";
+"icon_keyword_electrics" = "Electricitat";
 "icon_keyword_electricity" = "Electricitat";
 "icon_keyword_tornado" = "Tornado";
 "icon_keyword_sea" = "Mar";
@@ -1811,7 +1841,9 @@
 "icon_keyword_gift" = "Regal";
 "icon_keyword_clothes" = "Roba";
 "icon_keyword_clothing" = "Robes";
+"icon_keyword_globe" = "Globo";
 "icon_keyword_online" = "En línia";
+"icon_keyword_internet" = "Internet";
 "icon_keyword_amazon" = "Amazon";
 "icon_keyword_package" = "Paquet";
 "icon_keyword_apple" = "Apple";
@@ -2020,6 +2052,7 @@
 "chart_period_type_dialog" = "Quin període vols veure?";
 "chart_type_current_month_title" = "Mes actual";
 "chart_type_current_year_title" = "Any actual";
+
 
 /* MARK: - Dummy Data */
 "default_budget_book_name" = "El meu llibre de pressupost";

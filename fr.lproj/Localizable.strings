@@ -280,11 +280,12 @@
 "hide_amount_values_button" = "Masquer les montants";
 
 "take_photo_button" = "Prendre une photo";
-"add_photo_button" = "Sélectionner les photos";
-"add_photo_from_files_button" = "Fichiers";
-"add_photo_from_library_button" = "Photothèque";
-"add_document_button" = "Sélectionner les documents";
+"select_photos_button" = "Sélectionner les photos";
+"select_documents_button" = "Sélectionner les documents";
 "scan_receipt_button" = "Scanner le reçu";
+"select_receipt_button" = "Sélectionner le reçu";
+"select_from_files_button" = "Fichiers";
+"select_from_library_button" = "Photothèque";
 
 "open_button" = "Ouvrir";
 "open_folder_button" = "Ouvrir le dossier";

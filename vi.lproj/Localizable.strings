@@ -280,11 +280,12 @@
 "hide_amount_values_button" = "Ẩn số tiền";
 
 "take_photo_button" = "Chụp ảnh";
-"add_photo_button" = "Chọn ảnh";
-"add_photo_from_files_button" = "Tệp";
-"add_photo_from_library_button" = "Thư viện ảnh";
-"add_document_button" = "Chọn tài liệu";
+"select_photos_button" = "Chọn ảnh";
+"select_documents_button" = "Chọn tài liệu";
 "scan_receipt_button" = "Quét hoá đơn";
+"select_receipt_button" = "Chọn hóa đơn";
+"select_from_files_button" = "Tệp";
+"select_from_library_button" = "Thư viện ảnh";
 
 "open_button" = "Mở";
 "open_folder_button" = "Mở thư mục";

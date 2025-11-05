@@ -280,11 +280,12 @@
 "hide_amount_values_button" = "隐藏金额";
 
 "take_photo_button" = "拍照";
-"add_photo_button" = "选择照片";
-"add_photo_from_files_button" = "文件";
-"add_photo_from_library_button" = "照片图库";
-"add_document_button" = "选择文档";
+"select_photos_button" = "选择照片";
+"select_documents_button" = "选择文档";
 "scan_receipt_button" = "扫描收据";
+"select_receipt_button" = "选择收据";
+"select_from_files_button" = "文件";
+"select_from_library_button" = "照片图库";
 
 "open_button" = "打开";
 "open_folder_button" = "打开文件夹";

@@ -280,11 +280,12 @@
 "hide_amount_values_button" = "Sembunyikan Jumlah";
 
 "take_photo_button" = "Ambil Foto";
-"add_photo_button" = "Pilih Foto";
-"add_photo_from_files_button" = "File";
-"add_photo_from_library_button" = "Perpustakaan Foto";
-"add_document_button" = "Pilih Dokumen";
+"select_photos_button" = "Pilih Foto";
+"select_documents_button" = "Pilih Dokumen";
 "scan_receipt_button" = "Pindai Struk";
+"select_receipt_button" = "Pilih tanda terima";
+"select_from_files_button" = "File";
+"select_from_library_button" = "Perpustakaan Foto";
 
 "open_button" = "Buka";
 "open_folder_button" = "Buka folder";

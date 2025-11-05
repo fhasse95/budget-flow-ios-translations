@@ -280,11 +280,12 @@
 "hide_amount_values_button" = "Bedragen verbergen";
 
 "take_photo_button" = "Foto maken";
-"add_photo_button" = "Selecteer foto's";
-"add_photo_from_files_button" = "Bestanden";
-"add_photo_from_library_button" = "Fotobibliotheek";
-"add_document_button" = "Selecteer documenten";
+"select_photos_button" = "Selecteer foto's";
+"select_documents_button" = "Selecteer documenten";
 "scan_receipt_button" = "Scanbon";
+"select_receipt_button" = "Selecteer bon";
+"select_from_files_button" = "Bestanden";
+"select_from_library_button" = "Fotobibliotheek";
 
 "open_button" = "Openen";
 "open_folder_button" = "Openen map";

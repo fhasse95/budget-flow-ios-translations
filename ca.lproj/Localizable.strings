@@ -280,11 +280,12 @@
 "hide_amount_values_button" = "Amagar imports";
 
 "take_photo_button" = "Fer foto";
-"add_photo_button" = "Seleccionar fotos";
-"add_photo_from_files_button" = "Arxius";
-"add_photo_from_library_button" = "Fototeca";
-"add_document_button" = "Seleccionar documents";
+"select_photos_button" = "Seleccionar fotos";
+"select_documents_button" = "Seleccionar documents";
 "scan_receipt_button" = "Escanejar rebut";
+"select_receipt_button" = "Seleccionar rebut";
+"select_from_files_button" = "Arxius";
+"select_from_library_button" = "Fototeca";
 
 "open_button" = "Obrir";
 "open_folder_button" = "Obrir carpeta";

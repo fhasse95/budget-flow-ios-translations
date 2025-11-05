@@ -280,11 +280,12 @@
 "hide_amount_values_button" = "Приховати суми";
 
 "take_photo_button" = "Зробити фото";
-"add_photo_button" = "Вибрати фото";
-"add_photo_from_files_button" = "Файли";
-"add_photo_from_library_button" = "Фототека";
-"add_document_button" = "Вибрати документи";
+"select_photos_button" = "Вибрати фото";
+"select_documents_button" = "Вибрати документи";
 "scan_receipt_button" = "Сканувати квитанцію";
+"select_receipt_button" = "Вибрати чек";
+"select_from_files_button" = "Файли";
+"select_from_library_button" = "Фототека";
 
 "open_button" = "Відкрити";
 "open_folder_button" = "Відкрити папку";

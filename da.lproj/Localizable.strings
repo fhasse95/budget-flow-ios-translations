@@ -280,11 +280,12 @@
 "hide_amount_values_button" = "Skjul beløb";
 
 "take_photo_button" = "Tag et billede";
-"add_photo_button" = "Vælg billeder";
-"add_photo_from_files_button" = "Filer";
-"add_photo_from_library_button" = "Fotobibliotek";
-"add_document_button" = "Vælg dokumenter";
+"select_photos_button" = "Vælg billeder";
+"select_documents_button" = "Vælg dokumenter";
 "scan_receipt_button" = "Scan kvittering";
+"select_receipt_button" = "Vælg kvittering";
+"select_from_files_button" = "Filer";
+"select_from_library_button" = "Fotobibliotek";
 
 "open_button" = "Åbn";
 "open_folder_button" = "Åbn mappe";

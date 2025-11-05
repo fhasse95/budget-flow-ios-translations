@@ -280,11 +280,12 @@
 "hide_amount_values_button" = "Nascondi importi";
 
 "take_photo_button" = "Scatta foto";
-"add_photo_button" = "Seleziona foto";
-"add_photo_from_files_button" = "File";
-"add_photo_from_library_button" = "Libreria foto";
-"add_document_button" = "Seleziona documenti";
+"select_photos_button" = "Seleziona foto";
+"select_documents_button" = "Seleziona documenti";
 "scan_receipt_button" = "Scansiona ricevuta";
+"select_receipt_button" = "Seleziona ricevuta";
+"select_from_files_button" = "File";
+"select_from_library_button" = "Libreria foto";
 
 "open_button" = "Apri";
 "open_folder_button" = "Apri cartella";

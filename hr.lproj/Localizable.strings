@@ -280,11 +280,12 @@
 "hide_amount_values_button" = "Sakrij iznose";
 
 "take_photo_button" = "Snimi fotografiju";
-"add_photo_button" = "Odaberi fotografije";
-"add_photo_from_files_button" = "Datoteke";
-"add_photo_from_library_button" = "Fototeka";
-"add_document_button" = "Odaberi dokumente";
+"select_photos_button" = "Odaberi fotografije";
+"select_documents_button" = "Odaberi dokumente";
 "scan_receipt_button" = "Skeniraj potvrdu";
+"select_receipt_button" = "Odaberi račun";
+"select_from_files_button" = "Datoteke";
+"select_from_library_button" = "Fototeka";
 
 "open_button" = "Otvori";
 "open_folder_button" = "Otvori mapu";

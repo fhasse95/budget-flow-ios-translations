@@ -280,11 +280,12 @@
 "hide_amount_values_button" = "Tutarları Gizle";
 
 "take_photo_button" = "Fotoğraf Çek";
-"add_photo_button" = "Fotoğraf Seç";
-"add_photo_from_files_button" = "Dosyalar";
-"add_photo_from_library_button" = "Fotoğraf kitaplığı";
-"add_document_button" = "Belgeleri seçin";
+"select_photos_button" = "Fotoğraf Seç";
+"select_documents_button" = "Belgeleri seçin";
 "scan_receipt_button" = "Faturayı Tara";
+"select_receipt_button" = "Fiş seç";
+"select_from_files_button" = "Dosyalar";
+"select_from_library_button" = "Fotoğraf kitaplığı";
 
 "open_button" = "Aç";
 "open_folder_button" = "Klasörü aç";

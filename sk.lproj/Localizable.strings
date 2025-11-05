@@ -280,11 +280,12 @@
 "hide_amount_values_button" = "Skryť sumy";
 
 "take_photo_button" = "Odfotiť";
-"add_photo_button" = "Vybrať fotografie";
-"add_photo_from_files_button" = "Súbory";
-"add_photo_from_library_button" = "Knižnica fotiek";
-"add_document_button" = "Vybrať dokumenty";
+"select_photos_button" = "Vybrať fotografie";
+"select_documents_button" = "Vybrať dokumenty";
 "scan_receipt_button" = "Skenovať potvrdenie";
+"select_receipt_button" = "Vybrať účtenku";
+"select_from_files_button" = "Súbory";
+"select_from_library_button" = "Knižnica fotiek";
 
 "open_button" = "Otvoriť";
 "open_folder_button" = "Otvoriť priečinok";

@@ -280,11 +280,12 @@
 "hide_amount_values_button" = "金額を非表示";
 
 "take_photo_button" = "写真を撮る";
-"add_photo_button" = "写真を選択";
-"add_photo_from_files_button" = "ファイル";
-"add_photo_from_library_button" = "フォトライブラリ";
-"add_document_button" = "ドキュメントを選択";
+"select_photos_button" = "写真を選択";
+"select_documents_button" = "ドキュメントを選択";
 "scan_receipt_button" = "領収書のスキャン";
+"select_receipt_button" = "領収書を選択";
+"select_from_files_button" = "ファイル";
+"select_from_library_button" = "フォトライブラリ";
 
 "open_button" = "開く";
 "open_folder_button" = "フォルダーを開く";

@@ -280,11 +280,12 @@
 "hide_amount_values_button" = "隱藏金額";
 
 "take_photo_button" = "拍照";
-"add_photo_button" = "選擇照片";
-"add_photo_from_files_button" = "檔案";
-"add_photo_from_library_button" = "照片圖庫";
-"add_document_button" = "選擇文件";
+"select_photos_button" = "選擇照片";
+"select_documents_button" = "選擇文件";
 "scan_receipt_button" = "掃描收據";
+"select_receipt_button" = "選擇收據";
+"select_from_files_button" = "檔案";
+"select_from_library_button" = "照片圖庫";
 
 "open_button" = "開啟";
 "open_folder_button" = "開啟資料夾";

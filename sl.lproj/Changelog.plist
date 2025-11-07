@@ -2,35 +2,35 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>3.0.0</key>
+	<key>3.1.0</key>
 	<array>
 		<dict>
 			<key>Title</key>
-			<string>Obsežna posodobitev dizajna</string>
+			<string>Predlagane opombe</string>
 			<key>Description</key>
-			<string>Na iOS, iPadOS in macOS 26 aplikacija zasije z novim, prenovljenim dizajnom – vključno z učinki Liquid-Glass in podporo za temni način za ikone znotraj aplikacije.</string>
+			<string>Med urejanjem opomb pri transakciji zdaj samodejno prejmete predlog na podlagi svojih prejšnjih vnosov, ki ga lahko uporabite z enim dotikom.</string>
 			<key>IconName</key>
-			<string>sparkles</string>
+			<string>character.cursor.ibeam</string>
 			<key>IconColor</key>
 			<string>#ff8d28</string>
 		</dict>
 		<dict>
 			<key>Title</key>
-			<string>Masovno urejanje transakcij</string>
+			<string>Poenostavljen preračun valut</string>
 			<key>Description</key>
-			<string>Zdaj lahko hkrati izberete in urejate več transakcij. To vam omogoča, na primer, da vsem dodelite isto kategorijo ali specifične oznake.</string>
+			<string>Zdaj lahko zamenjate izvorno in ciljno valuto ter ustrezen menjalni tečaj, da lažje izračunate pravilne vrednosti.</string>
 			<key>IconName</key>
-			<string>square.and.pencil</string>
+			<string>arrow.up.arrow.down</string>
 			<key>IconColor</key>
 			<string>#35c759</string>
 		</dict>
 		<dict>
 			<key>Title</key>
-			<string>Izboljšan optični bralnik računov</string>
+			<string>Analiza obstoječih računov</string>
 			<key>Description</key>
-			<string>Integrirani optični bralnik računov zdaj samodejno zazna datume, razvrsti transakcije in navede kupljene izdelke z uporabo Apple Intelligence na iOS / iPadOS 26.</string>
+			<string>S pomočjo vgrajenega optičnega bralnika računov lahko zdaj analizirate tudi obstoječe račune, shranjene v aplikacijah Fotografije ali Datoteke, in jih uporabite za ustvarjanje transakcij.</string>
 			<key>IconName</key>
-			<string>receipt.viewfinder</string>
+			<string>custom.receipt.badge.arrow.up</string>
 			<key>IconColor</key>
 			<string>#0088ff</string>
 		</dict>

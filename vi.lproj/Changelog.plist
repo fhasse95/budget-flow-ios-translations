@@ -2,35 +2,35 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>3.0.0</key>
+	<key>3.1.0</key>
 	<array>
 		<dict>
 			<key>Title</key>
-			<string>Cập nhật thiết kế toàn diện</string>
+			<string>Gợi ý ghi chú</string>
 			<key>Description</key>
-			<string>Trên iOS, iPadOS và macOS 26, ứng dụng tỏa sáng với thiết kế mới mẻ, được cải tiến – bao gồm hiệu ứng Liquid-Glass và hỗ trợ chế độ tối cho các biểu tượng trong ứng dụng.</string>
+			<string>Khi chỉnh sửa ghi chú của giao dịch, bạn sẽ tự động nhận được gợi ý dựa trên các nội dung đã nhập trước đó và có thể áp dụng ngay bằng cách chạm vào gợi ý.</string>
 			<key>IconName</key>
-			<string>sparkles</string>
+			<string>character.cursor.ibeam</string>
 			<key>IconColor</key>
 			<string>#ff8d28</string>
 		</dict>
 		<dict>
 			<key>Title</key>
-			<string>Chỉnh sửa hàng loạt giao dịch</string>
+			<string>Chuyển đổi tiền tệ dễ dàng hơn</string>
 			<key>Description</key>
-			<string>Bây giờ bạn có thể chọn và chỉnh sửa nhiều giao dịch cùng lúc. Điều này cho phép bạn, ví dụ, gán cùng một danh mục hoặc các thẻ cụ thể cho tất cả chúng.</string>
+			<string>Bây giờ bạn có thể hoán đổi tiền tệ gốc và tiền tệ đích cũng như tỷ giá hối đoái tương ứng để tính toán giá trị chính xác dễ dàng hơn.</string>
 			<key>IconName</key>
-			<string>square.and.pencil</string>
+			<string>arrow.up.arrow.down</string>
 			<key>IconColor</key>
 			<string>#35c759</string>
 		</dict>
 		<dict>
 			<key>Title</key>
-			<string>Trình quét hóa đơn được cải tiến</string>
+			<string>Phân tích hóa đơn có sẵn</string>
 			<key>Description</key>
-			<string>Trình quét hóa đơn tích hợp hiện có thể tự động phát hiện ngày, phân loại giao dịch và liệt kê các mặt hàng đã mua bằng Apple Intelligence trên iOS / iPadOS 26.</string>
+			<string>Với trình quét hóa đơn tích hợp, giờ đây bạn cũng có thể phân tích các hóa đơn đã lưu trong ứng dụng Ảnh hoặc Tệp và sử dụng chúng để tạo giao dịch.</string>
 			<key>IconName</key>
-			<string>receipt.viewfinder</string>
+			<string>custom.receipt.badge.arrow.up</string>
 			<key>IconColor</key>
 			<string>#0088ff</string>
 		</dict>

@@ -2,35 +2,35 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>3.0.0</key>
+	<key>3.1.0</key>
 	<array>
 		<dict>
 			<key>Title</key>
-			<string>Comprehensive Design Update</string>
+			<string>Suggested Notes</string>
 			<key>Description</key>
-			<string>On iOS, iPadOS, and macOS 26, the app features a fresh, revised design – including Liquid-Glass effects and Dark Mode support for in-app icons.</string>
+			<string>While editing a transaction’s notes, you now automatically receive a suggestion based on your previous entries, which you can apply directly by tapping on it.</string>
 			<key>IconName</key>
-			<string>sparkles</string>
+			<string>character.cursor.ibeam</string>
 			<key>IconColor</key>
 			<string>#ff8d28</string>
 		</dict>
 		<dict>
 			<key>Title</key>
-			<string>Bulk Transaction Editing</string>
+			<string>Easier Currency Conversion</string>
 			<key>Description</key>
-			<string>You can now select and edit multiple transactions at once. This allows you to assign the same category or specific tags to all of them, for example.</string>
+			<string>You can now swap the source and target currencies, as well as the exchange rate, to calculate the correct values more easily.</string>
 			<key>IconName</key>
-			<string>square.and.pencil</string>
+			<string>arrow.up.arrow.down</string>
 			<key>IconColor</key>
 			<string>#35c759</string>
 		</dict>
 		<dict>
 			<key>Title</key>
-			<string>Improved Receipt Scanner</string>
+			<string>Analyze Existing Receipts</string>
 			<key>Description</key>
-			<string>The integrated receipt scanner now automatically detects dates, categorizes transactions, and lists purchased items using Apple Intelligence on iOS / iPadOS 26.</string>
+			<string>With the integrated receipt scanner, you can now also analyze existing receipts from your Photos or Files app and use them to create transactions.</string>
 			<key>IconName</key>
-			<string>receipt.viewfinder</string>
+			<string>custom.receipt.badge.arrow.up</string>
 			<key>IconColor</key>
 			<string>#0088ff</string>
 		</dict>

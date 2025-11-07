@@ -2,35 +2,35 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>3.0.0</key>
+	<key>3.1.0</key>
 	<array>
 		<dict>
 			<key>Title</key>
-			<string>Mise à jour complète du design</string>
+			<string>Notes suggérées</string>
 			<key>Description</key>
-			<string>Sur iOS, iPadOS et macOS 26, l&apos;application bénéficie d&apos;un nouveau design revisité, avec notamment des effets Liquid Glass et la prise en charge du mode sombre pour les icônes intégrées à l&apos;application.</string>
+			<string>Lors de la modification des notes d’une transaction, vous recevez désormais automatiquement une suggestion basée sur vos saisies précédentes, que vous pouvez appliquer directement en appuyant dessus.</string>
 			<key>IconName</key>
-			<string>sparkles</string>
+			<string>character.cursor.ibeam</string>
 			<key>IconColor</key>
 			<string>#ff8d28</string>
 		</dict>
 		<dict>
 			<key>Title</key>
-			<string>Édition en masse des transactions</string>
+			<string>Conversion de devises simplifiée</string>
 			<key>Description</key>
-			<string>Vous pouvez désormais sélectionner et modifier plusieurs transactions en même temps. Cela vous permet, par exemple, d&apos;attribuer la même catégorie ou des balises spécifiques à toutes.</string>
+			<string>Vous pouvez désormais échanger la devise source et la devise cible, ainsi que le taux de change correspondant, afin de calculer plus facilement les montants corrects.</string>
 			<key>IconName</key>
-			<string>square.and.pencil</string>
+			<string>arrow.up.arrow.down</string>
 			<key>IconColor</key>
 			<string>#35c759</string>
 		</dict>
 		<dict>
 			<key>Title</key>
-			<string>Scanner de reçus amélioré</string>
+			<string>Analyse des reçus existants</string>
 			<key>Description</key>
-			<string>Le scanner de reçus intégré détecte désormais automatiquement les dates, catégorise les transactions et répertorie les articles achetés grâce à Apple Intelligence sur iOS / iPadOS 26.</string>
+			<string>Grâce au scanner de reçus intégré, vous pouvez désormais également analyser les reçus déjà enregistrés depuis l’app Photos ou Fichiers et les utiliser pour créer des transactions.</string>
 			<key>IconName</key>
-			<string>receipt.viewfinder</string>
+			<string>custom.receipt.badge.arrow.up</string>
 			<key>IconColor</key>
 			<string>#0088ff</string>
 		</dict>

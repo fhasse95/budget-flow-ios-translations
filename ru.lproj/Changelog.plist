@@ -2,35 +2,35 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>3.0.0</key>
+	<key>3.1.0</key>
 	<array>
 		<dict>
 			<key>Title</key>
-			<string>Полное обновление дизайна</string>
+			<string>Предлагаемые заметки</string>
 			<key>Description</key>
-			<string>Ha iOS, iPadOS и macOS 26 приложение имеет обновленный дизайн, включая эффекты Liquid-Glass и поддержку темного режима для значков в приложении.</string>
+			<string>При редактировании заметок к транзакции теперь автоматически появляется предложение на основе ваших предыдущих записей, которое можно применить одним касанием.</string>
 			<key>IconName</key>
-			<string>sparkles</string>
+			<string>character.cursor.ibeam</string>
 			<key>IconColor</key>
 			<string>#ff8d28</string>
 		</dict>
 		<dict>
 			<key>Title</key>
-			<string>Массовая обработка транзакций</string>
+			<string>Упрощённая конвертация валют</string>
 			<key>Description</key>
-			<string>Теперь вы можете выбирать и редактировать несколько транзакций одновременно. Это позволяет, например, назначить одну и ту же категорию или определённые теги для всех транзакций.</string>
+			<string>Теперь вы можете менять местами исходную и целевую валюту, а также соответствующий обменный курс, чтобы проще рассчитывать правильные значения.</string>
 			<key>IconName</key>
-			<string>square.and.pencil</string>
+			<string>arrow.up.arrow.down</string>
 			<key>IconColor</key>
 			<string>#35c759</string>
 		</dict>
 		<dict>
 			<key>Title</key>
-			<string>Улучшенный сканер чеков</string>
+			<string>Анализ существующих чеков</string>
 			<key>Description</key>
-			<string>Интегрированный сканер чеков теперь автоматически определяет даты, классифицирует транзакции и перечисляет купленные товары с помощью Apple Intelligence на iOS / iPadOS 26.</string>
+			<string>С помощью встроенного сканера чеков теперь можно анализировать уже сохранённые чеки из приложений Фото или Файлы и использовать их для создания транзакций.</string>
 			<key>IconName</key>
-			<string>receipt.viewfinder</string>
+			<string>custom.receipt.badge.arrow.up</string>
 			<key>IconColor</key>
 			<string>#0088ff</string>
 		</dict>

@@ -2,35 +2,35 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>3.0.0</key>
+	<key>3.1.0</key>
 	<array>
 		<dict>
 			<key>Title</key>
-			<string>Повне оновлення дизайну</string>
+			<string>Запропоновані нотатки</string>
 			<key>Description</key>
-			<string>На iOS, iPadOS та macOS 26 додаток має оновлений дизайн, що включає ефекти Liquid-Glass та підтримку темного режиму для іконок у додатку.</string>
+			<string>Під час редагування нотаток до транзакції тепер автоматично з’являється пропозиція на основі ваших попередніх записів, яку можна застосувати одним дотиком.</string>
 			<key>IconName</key>
-			<string>sparkles</string>
+			<string>character.cursor.ibeam</string>
 			<key>IconColor</key>
 			<string>#ff8d28</string>
 		</dict>
 		<dict>
 			<key>Title</key>
-			<string>Масове редагування транзакцій</string>
+			<string>Спрощене конвертування валют</string>
 			<key>Description</key>
-			<string>Тепер ви можете вибирати та редагувати кілька транзакцій одночасно. Це дозволяє, наприклад, призначити однакову категорію або спеціальні теги для всіх них.</string>
+			<string>Тепер ви можете міняти місцями вихідну та цільову валюту, а також відповідний обмінний курс, щоб легше розраховувати правильні значення.</string>
 			<key>IconName</key>
-			<string>square.and.pencil</string>
+			<string>arrow.up.arrow.down</string>
 			<key>IconColor</key>
 			<string>#35c759</string>
 		</dict>
 		<dict>
 			<key>Title</key>
-			<string>Покращений сканер чеків</string>
+			<string>Аналіз наявних чеків</string>
 			<key>Description</key>
-			<string>Вбудований сканер чеків тепер автоматично виявляє дати, класифікує транзакції та перелічує придбані товари за допомогою Apple Intelligence на iOS / iPadOS 26.</string>
+			<string>Завдяки вбудованому сканеру чеків тепер можна аналізувати вже збережені чеки з додатків Фото або Файли та використовувати їх для створення транзакцій.</string>
 			<key>IconName</key>
-			<string>receipt.viewfinder</string>
+			<string>custom.receipt.badge.arrow.up</string>
 			<key>IconColor</key>
 			<string>#0088ff</string>
 		</dict>

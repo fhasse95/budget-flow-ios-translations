@@ -2,35 +2,35 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>3.0.0</key>
+	<key>3.1.0</key>
 	<array>
 		<dict>
 			<key>Title</key>
-			<string>تحديث شامل للتصميم</string>
+			<string>ملاحظات مقترحة</string>
 			<key>Description</key>
-			<string>على أنظمة iOS وiPadOS وmacOS 26، يتألق التطبيق بتصdebميم جديد ومحدث - يتضمن تأثيرات Liquid-Glass ودعم الوضع الداكن للأيقونات داخل التطبيق.</string>
+			<string>أثناء تعديل ملاحظات المعاملة، ستحصل الآن تلقائيًا على اقتراح يعتمد على إدخالاتك السابقة، ويمكنك تطبيقه مباشرة بلمسة واحدة.</string>
 			<key>IconName</key>
-			<string>sparkles</string>
+			<string>character.cursor.ibeam</string>
 			<key>IconColor</key>
 			<string>#ff8d28</string>
 		</dict>
 		<dict>
 			<key>Title</key>
-			<string>تعديل المعاملات بشكل جماعي</string>
+			<string>تحويل العملات أصبح أسهل</string>
 			<key>Description</key>
-			<string>يمكنك الآن تحديد وتعديل عدة معاملات في وقت واحد. يتيح لك هذا، على سبيل المثال، تعيين نفس الفئة أو العلامات المحددة لجميع المعاملات.</string>
+			<string>يمكنك الآن تبديل العملة الأصلية والعملة المستهدفة بالإضافة إلى سعر الصرف المقابل لحساب القيم الصحيحة بسهولة أكبر.</string>
 			<key>IconName</key>
-			<string>square.and.pencil</string>
+			<string>arrow.up.arrow.down</string>
 			<key>IconColor</key>
 			<string>#35c759</string>
 		</dict>
 		<dict>
 			<key>Title</key>
-			<string>ماسح الإيصالات المحسن</string>
+			<string>تحليل الإيصالات الموجودة</string>
 			<key>Description</key>
-			<string>يمكّن ماسح الإيصالات المدمج الآن من اكتشاف التواريخ تلقائيًا، وتصنيف المعاملات، وعرض العناصر المشتراة باستخدام Apple Intelligence على iOS / iPadOS 26.</string>
+			<string>من خلال الماسح الضوئي المدمج للإيصالات، يمكنك الآن أيضًا تحليل الإيصالات المحفوظة مسبقًا من تطبيق الصور أو الملفات واستخدامها لإنشاء المعاملات.</string>
 			<key>IconName</key>
-			<string>receipt.viewfinder</string>
+			<string>custom.receipt.badge.arrow.up</string>
 			<key>IconColor</key>
 			<string>#0088ff</string>
 		</dict>

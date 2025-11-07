@@ -2,35 +2,35 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>3.0.0</key>
+	<key>3.1.0</key>
 	<array>
 		<dict>
 			<key>Title</key>
-			<string>전면적인 디자인 업데이트</string>
+			<string>추천 메모</string>
 			<key>Description</key>
-			<string>iOS, iPadOS 및 macOS 26에서 앱은 새로운 Liquid-Glass 효과와 앱 내 아이콘에 대한 다크 모드 지원을 포함한 새롭고 개선된 디자인으로 빛납니다.</string>
+			<string>거래 메모를 편집할 때, 이전 입력 내용을 기반으로 자동 추천이 표시되며, 추천 항목을 탭하여 바로 적용할 수 있습니다.</string>
 			<key>IconName</key>
-			<string>sparkles</string>
+			<string>character.cursor.ibeam</string>
 			<key>IconColor</key>
 			<string>#ff8d28</string>
 		</dict>
 		<dict>
 			<key>Title</key>
-			<string>일괄 거래 편집</string>
+			<string>간편한 환율 변환</string>
 			<key>Description</key>
-			<string>이제 여러 거래를 동시에 선택하고 편집할 수 있습니다. 예를 들어, 모든 거래에 동일한 카테고리 또는 특정 태그를 지정할 수 있습니다.</string>
+			<string>이제 원화와 대상 통화, 그리고 환율을 서로 바꿔가며 보다 쉽게 올바른 금액을 계산할 수 있습니다.</string>
 			<key>IconName</key>
-			<string>square.and.pencil</string>
+			<string>arrow.up.arrow.down</string>
 			<key>IconColor</key>
 			<string>#35c759</string>
 		</dict>
 		<dict>
 			<key>Title</key>
-			<string>개선된 영수증 스캐너</string>
+			<string>기존 영수증 분석</string>
 			<key>Description</key>
-			<string>통합된 영수증 스캐너가 이제 자동으로 날짜를 감지하고, 거래를 분류하며, iOS / iPadOS 26에서 Apple Intelligence를 사용하여 구매한 항목을 나열합니다.</string>
+			<string>내장된 영수증 스캐너를 통해 이제 사진 또는 파일 앱에 저장된 기존 영수증도 분석하여 거래 생성에 활용할 수 있습니다.</string>
 			<key>IconName</key>
-			<string>receipt.viewfinder</string>
+			<string>custom.receipt.badge.arrow.up</string>
 			<key>IconColor</key>
 			<string>#0088ff</string>
 		</dict>

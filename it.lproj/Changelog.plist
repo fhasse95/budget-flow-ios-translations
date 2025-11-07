@@ -2,35 +2,35 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>3.0.0</key>
+	<key>3.1.0</key>
 	<array>
 		<dict>
 			<key>Title</key>
-			<string>Aggiornamento completo del design</string>
+			<string>Note suggerite</string>
 			<key>Description</key>
-			<string>Su iOS, iPadOS e macOS 26, l&apos;app presenta un design rinnovato e rivisitato, che include effetti Liquid-Glass e il supporto della modalità scura per le icone all&apos;interno dell&apos;app.</string>
+			<string>Durante la modifica delle note di una transazione, ora ricevi automaticamente un suggerimento basato sui tuoi inserimenti precedenti, che puoi applicare direttamente toccandolo.</string>
 			<key>IconName</key>
-			<string>sparkles</string>
+			<string>character.cursor.ibeam</string>
 			<key>IconColor</key>
 			<string>#ff8d28</string>
 		</dict>
 		<dict>
 			<key>Title</key>
-			<string>Modifica in blocco delle transazioni</string>
+			<string>Conversione valuta semplificata</string>
 			<key>Description</key>
-			<string>Ora puoi selezionare e modificare più transazioni contemporaneamente. Questo ti consente, ad esempio, di assegnare la stessa categoria o tag specifici a tutte.</string>
+			<string>Ora puoi scambiare la valuta di origine e quella di destinazione, insieme al tasso di cambio corrispondente, per calcolare più facilmente i valori corretti.</string>
 			<key>IconName</key>
-			<string>square.and.pencil</string>
+			<string>arrow.up.arrow.down</string>
 			<key>IconColor</key>
 			<string>#35c759</string>
 		</dict>
 		<dict>
 			<key>Title</key>
-			<string>Scanner scontrini migliorato</string>
+			<string>Analisi delle ricevute esistenti</string>
 			<key>Description</key>
-			<string>Lo scanner di scontrini integrato ora rileva automaticamente le date, classifica le transazioni ed elenca gli articoli acquistati grazie a Apple Intelligence su iOS / iPadOS 26.</string>
+			<string>Con lo scanner di ricevute integrato puoi ora analizzare anche le ricevute già salvate dall’app Foto o File e utilizzarle per creare transazioni.</string>
 			<key>IconName</key>
-			<string>receipt.viewfinder</string>
+			<string>custom.receipt.badge.arrow.up</string>
 			<key>IconColor</key>
 			<string>#0088ff</string>
 		</dict>

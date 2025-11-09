@@ -2,35 +2,35 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>3.0.0</key>
+	<key>3.1.0</key>
 	<array>
 		<dict>
 			<key>Title</key>
-			<string>Atualização Completa do Design</string>
+			<string>Notas sugeridas</string>
 			<key>Description</key>
-			<string>No iOS, iPadOS e macOS 26, o aplicativo apresenta um design renovado e revisado, incluindo efeitos Liquid-Glass e suporte ao Modo Escuro para ícones no aplicativo.</string>
+			<string>Ao editar as notas de uma transação, você agora recebe automaticamente uma sugestão com base nas suas entradas anteriores, que pode aplicar diretamente tocando nela.</string>
 			<key>IconName</key>
-			<string>sparkles</string>
+			<string>character.cursor.ibeam</string>
 			<key>IconColor</key>
 			<string>#ff8d28</string>
 		</dict>
 		<dict>
 			<key>Title</key>
-			<string>Edição em Lote de Transações</string>
+			<string>Conversão de moedas simplificada</string>
 			<key>Description</key>
-			<string>Agora você pode selecionar e editar várias transações ao mesmo tempo. Isso permite, por exemplo, atribuir a mesma categoria ou etiquetas específicas a todas elas.</string>
+			<string>Agora você pode trocar a moeda de origem e a de destino, bem como a taxa de câmbio correspondente, para calcular os valores corretos com mais facilidade.</string>
 			<key>IconName</key>
-			<string>square.and.pencil</string>
+			<string>arrow.up.arrow.down</string>
 			<key>IconColor</key>
 			<string>#35c759</string>
 		</dict>
 		<dict>
 			<key>Title</key>
-			<string>Scanner de recibos aprimorado</string>
+			<string>Análise de recibos existentes</string>
 			<key>Description</key>
-			<string>O scanner de recibos integrado agora detecta automaticamente datas, categoriza transações e lista os itens comprados usando a Apple Intelligence no iOS / iPadOS 26.</string>
+			<string>Com o scanner de recibos integrado, agora também é possível analisar recibos já salvos a partir dos apps Fotos ou Arquivos e usá-los para criar transações.</string>
 			<key>IconName</key>
-			<string>receipt.viewfinder</string>
+			<string>custom.receipt.badge.arrow.up</string>
 			<key>IconColor</key>
 			<string>#0088ff</string>
 		</dict>

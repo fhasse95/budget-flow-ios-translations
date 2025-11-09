@@ -280,11 +280,12 @@
 "hide_amount_values_button" = "금액 숨기기";
 
 "take_photo_button" = "사진 찍기";
-"add_photo_button" = "사진 선택";
-"add_photo_from_files_button" = "파일";
-"add_photo_from_library_button" = "사진 보관함";
-"add_document_button" = "문서 선택";
+"select_photos_button" = "사진 선택";
+"select_documents_button" = "문서 선택";
 "scan_receipt_button" = "영수증 스캔";
+"select_receipt_button" = "영수증 선택";
+"select_from_files_button" = "파일";
+"select_from_library_button" = "사진 보관함";
 
 "open_button" = "열기";
 "open_folder_button" = "폴더 열기";
@@ -311,6 +312,8 @@
 
 "show_transactions_button" = "거래 보기";
 "show_in_app_store_button" = "App Store에 표시";
+
+"flip_values_button" = "뒤집기 ⇅";
 
 "learn_more" = "자세히 알아보기";
 

@@ -280,11 +280,12 @@
 "hide_amount_values_button" = "Ukryj kwoty";
 
 "take_photo_button" = "Zrób zdjęcie";
-"add_photo_button" = "Wybierz zdjęcia";
-"add_photo_from_files_button" = "Pliki";
-"add_photo_from_library_button" = "Biblioteka zdjęć";
-"add_document_button" = "Wybierz dokumenty";
+"select_photos_button" = "Wybierz zdjęcia";
+"select_documents_button" = "Wybierz dokumenty";
 "scan_receipt_button" = "Skanuj paragon";
+"select_receipt_button" = "Wybierz paragon";
+"select_from_files_button" = "Pliki";
+"select_from_library_button" = "Biblioteka zdjęć";
 
 "open_button" = "Otwórz";
 "open_folder_button" = "Otwórz folder";
@@ -311,6 +312,8 @@
 
 "show_transactions_button" = "Pokaż transakcje";
 "show_in_app_store_button" = "Pokaż w App Store";
+
+"flip_values_button" = "Odwróć ⇅";
 
 "learn_more" = "Więcej informacji";
 

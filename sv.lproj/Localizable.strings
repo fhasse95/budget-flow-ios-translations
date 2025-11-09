@@ -280,11 +280,12 @@
 "hide_amount_values_button" = "Dölj belopp";
 
 "take_photo_button" = "Ta foto";
-"add_photo_button" = "Välj foton";
-"add_photo_from_files_button" = "Filer";
-"add_photo_from_library_button" = "Bildbibliotek";
-"add_document_button" = "Välj dokument";
+"select_photos_button" = "Välj foton";
+"select_documents_button" = "Välj dokument";
 "scan_receipt_button" = "Skanna kvitto";
+"select_receipt_button" = "Välj kvitto";
+"select_from_files_button" = "Filer";
+"select_from_library_button" = "Bildbibliotek";
 
 "open_button" = "Öppna";
 "open_folder_button" = "Öppna mapp";
@@ -311,6 +312,8 @@
 
 "show_transactions_button" = "Visa transaktioner";
 "show_in_app_store_button" = "Visa i App Store";
+
+"flip_values_button" = "Vänd ⇅";
 
 "learn_more" = "Läs mer";
 

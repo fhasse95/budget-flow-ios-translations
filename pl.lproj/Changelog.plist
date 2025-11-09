@@ -2,35 +2,35 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>3.0.0</key>
+	<key>3.1.0</key>
 	<array>
 		<dict>
 			<key>Title</key>
-			<string>Kompleksowa aktualizacja designu</string>
+			<string>Sugerowane notatki</string>
 			<key>Description</key>
-			<string>W systemach iOS, iPadOS i macOS 26 aplikacja ma nowy, odświeżony wygląd – w tym efekty Liquid-Glass i obsługę trybu ciemnego dla ikon w aplikacji.</string>
+			<string>Podczas edycji notatek do transakcji otrzymujesz teraz automatyczną sugestię na podstawie wcześniejszych wpisów, którą możesz zastosować bezpośrednio, dotykając jej.</string>
 			<key>IconName</key>
-			<string>sparkles</string>
+			<string>character.cursor.ibeam</string>
 			<key>IconColor</key>
 			<string>#ff8d28</string>
 		</dict>
 		<dict>
 			<key>Title</key>
-			<string>Masowa edycja transakcji</string>
+			<string>Uproszczone przeliczanie walut</string>
 			<key>Description</key>
-			<string>Teraz możesz wybierać i edytować wiele transakcji jednocześnie. Dzięki temu możesz, na przykład, przypisać tę samą kategorię lub określone tagi do wszystkich z nich.</string>
+			<string>Możesz teraz zamieniać walutę źródłową i docelową oraz odpowiadający im kurs wymiany, aby łatwiej obliczać poprawne wartości.</string>
 			<key>IconName</key>
-			<string>square.and.pencil</string>
+			<string>arrow.up.arrow.down</string>
 			<key>IconColor</key>
 			<string>#35c759</string>
 		</dict>
 		<dict>
 			<key>Title</key>
-			<string>Ulepszony skaner paragonów</string>
+			<string>Analiza istniejących paragonów</string>
 			<key>Description</key>
-			<string>Zintegrowany skaner paragonów automatycznie wykrywa teraz daty, kategoryzuje transakcje i wymienia zakupione przedmioty dzięki Apple Intelligence w systemie iOS / iPadOS 26.</string>
+			<string>Dzięki wbudowanemu skanerowi paragonów możesz teraz również analizować istniejące paragony zapisane w aplikacjach Zdjęcia lub Pliki i wykorzystywać je do tworzenia transakcji.</string>
 			<key>IconName</key>
-			<string>receipt.viewfinder</string>
+			<string>custom.receipt.badge.arrow.up</string>
 			<key>IconColor</key>
 			<string>#0088ff</string>
 		</dict>

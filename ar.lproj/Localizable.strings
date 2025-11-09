@@ -280,11 +280,12 @@
 "hide_amount_values_button" = "إخفاء المبالغ";
 
 "take_photo_button" = "التقاط صورة";
-"add_photo_button" = "اختر صورة";
-"add_photo_from_files_button" = "الملفات";
-"add_photo_from_library_button" = "مكتبة الصور";
-"add_document_button" = "حدد المستندات";
+"select_photos_button" = "اختر صورة";
+"select_documents_button" = "حدد المستندات";
 "scan_receipt_button" = "إيصال المسح الضوئي";
+"select_receipt_button" = "اختر الإيصال";
+"select_from_files_button" = "الملفات";
+"select_from_library_button" = "مكتبة الصور";
 
 "open_button" = "فتح";
 "open_folder_button" = "فتح المجلد";
@@ -311,6 +312,8 @@
 
 "show_transactions_button" = "إظهار المعاملات";
 "show_in_app_store_button" = "عرض في App Store";
+
+"flip_values_button" = "عكس ⇅";
 
 "learn_more" = "تعرف على المزيد";
 

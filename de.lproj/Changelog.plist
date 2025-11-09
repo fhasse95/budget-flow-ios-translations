@@ -2,35 +2,35 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>3.0.0</key>
+	<key>3.1.0</key>
 	<array>
 		<dict>
 			<key>Title</key>
-			<string>Umfangreiches Design-Update</string>
+			<string>Vorgeschlagene Notizen</string>
 			<key>Description</key>
-			<string>Unter iOS, iPadOS und macOS 26 erstrahlt die App in einem frischen, überarbeiteten Design – inklusive Liquid-Glass-Effekten und Dark-Mode-Unterstützung für In-App-Icons.</string>
+			<string>Während du die Notizen einer Transaktion bearbeitest, erhältst du nun automatisch einen Vorschlag basierend auf deinen bisherigen Eingaben, den du durch Antippen direkt übernehmen kannst.</string>
 			<key>IconName</key>
-			<string>sparkles</string>
+			<string>character.cursor.ibeam</string>
 			<key>IconColor</key>
 			<string>#ff8d28</string>
 		</dict>
 		<dict>
 			<key>Title</key>
-			<string>Transaktionen gleichzeitig bearbeiten</string>
+			<string>Einfachere Wechselkursberechnung</string>
 			<key>Description</key>
-			<string>Ab sofort kannst du mehrere Transaktionen auswählen und gleichzeitig bearbeiten. So kannst du beispielsweise allen dieselbe Kategorie oder bestimmte Tags zuweisen.</string>
+			<string>Bei der Umrechnung von Wechselkursen kannst du nun die Ursprungs- und Zielwährung sowie den zugehörigen Wechselkurs miteinander vertauschen, um die korrekten Werte einfacher zu berechnen.</string>
 			<key>IconName</key>
-			<string>square.and.pencil</string>
+			<string>arrow.up.arrow.down</string>
 			<key>IconColor</key>
 			<string>#35c759</string>
 		</dict>
 		<dict>
 			<key>Title</key>
-			<string>Verbesserter Belegscanner</string>
+			<string>Vorhandene Belege auswerten</string>
 			<key>Description</key>
-			<string>Der integrierte Belegscanner erkennt nun automatisch Datumsangaben, kategorisiert Transaktionen und listet gekaufte Artikel mithilfe von Apple Intelligence unter iOS / iPadOS 26 auf.</string>
+			<string>Mithilfe des integrierten Belegscanners kannst du nun auch bereits vorhandene Belege aus Fotos / Dateien auswerten und für die Erstellung von Transaktionen nutzen.</string>
 			<key>IconName</key>
-			<string>receipt.viewfinder</string>
+			<string>custom.receipt.badge.arrow.up</string>
 			<key>IconColor</key>
 			<string>#0088ff</string>
 		</dict>

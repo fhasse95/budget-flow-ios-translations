@@ -280,11 +280,12 @@
 "hide_amount_values_button" = "Összegek elrejtése";
 
 "take_photo_button" = "Fénykép készítése";
-"add_photo_button" = "Fényképek kiválasztása";
-"add_photo_from_files_button" = "Fájlok";
-"add_photo_from_library_button" = "Fotókönyvtár";
-"add_document_button" = "Dokumentumok kiválasztása";
+"select_photos_button" = "Fényképek kiválasztása";
+"select_documents_button" = "Dokumentumok kiválasztása";
 "scan_receipt_button" = "Nyugta beolvasása";
+"select_receipt_button" = "Válassz nyugtát";
+"select_from_files_button" = "Fájlok";
+"select_from_library_button" = "Fotókönyvtár";
 
 "open_button" = "Megnyitás";
 "open_folder_button" = "Mappa megnyitása";
@@ -311,6 +312,8 @@
 
 "show_transactions_button" = "Tranzakciók megjelenítése";
 "show_in_app_store_button" = "Megjelenítés az App Store-ban";
+
+"flip_values_button" = "Felcserél ⇅";
 
 "learn_more" = "További információ";
 

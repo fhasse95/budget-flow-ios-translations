@@ -2,35 +2,35 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>3.0.0</key>
+	<key>3.1.0</key>
 	<array>
 		<dict>
 			<key>Title</key>
-			<string>全面设计更新</string>
+			<string>推荐备注</string>
 			<key>Description</key>
-			<string>在 iOS、iPadOS 和 macOS 26 上，应用程序以全新的、改进的设计焕发光彩——包括 Liquid-Glass 效果和对应用内图标的暗黑模式支持。</string>
+			<string>在编辑交易备注时，系统现在会根据你之前的输入自动提供推荐内容，你可以直接点击推荐来应用。</string>
 			<key>IconName</key>
-			<string>sparkles</string>
+			<string>character.cursor.ibeam</string>
 			<key>IconColor</key>
 			<string>#ff8d28</string>
 		</dict>
 		<dict>
 			<key>Title</key>
-			<string>批量编辑交易</string>
+			<string>更简单的汇率换算</string>
 			<key>Description</key>
-			<string>现在您可以同时选择和编辑多个交易。例如，这允许您为所有交易分配相同的类别或特定标签。</string>
+			<string>现在你可以互换原始货币和目标货币以及相应的汇率，从而更轻松地计算正确金额。</string>
 			<key>IconName</key>
-			<string>square.and.pencil</string>
+			<string>arrow.up.arrow.down</string>
 			<key>IconColor</key>
 			<string>#35c759</string>
 		</dict>
 		<dict>
 			<key>Title</key>
-			<string>改进的收据扫描仪</string>
+			<string>分析已有收据</string>
 			<key>Description</key>
-			<string>集成的收据扫描仪现在可以自动识别日期、分类交易，并使用 Apple Intelligence 在 iOS / iPadOS 26 上列出购买的商品。</string>
+			<string>通过内置的收据扫描器，现在你也可以分析保存在“照片”或“文件”应用中的收据，并将其用于创建交易。</string>
 			<key>IconName</key>
-			<string>receipt.viewfinder</string>
+			<string>custom.receipt.badge.arrow.up</string>
 			<key>IconColor</key>
 			<string>#0088ff</string>
 		</dict>

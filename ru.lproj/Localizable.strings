@@ -280,11 +280,12 @@
 "hide_amount_values_button" = "Скрыть суммы";
 
 "take_photo_button" = "Сделать фото";
-"add_photo_button" = "Выбрать фото";
-"add_photo_from_files_button" = "Файлы";
-"add_photo_from_library_button" = "Фототека";
-"add_document_button" = "Выбрать документы";
+"select_photos_button" = "Выбрать фото";
+"select_documents_button" = "Выбрать документы";
 "scan_receipt_button" = "Сканировать чек";
+"select_receipt_button" = "Выбрать чек";
+"select_from_files_button" = "Файлы";
+"select_from_library_button" = "Фототека";
 
 "open_button" = "Открыть";
 "open_folder_button" = "Открыть папку";
@@ -311,6 +312,8 @@
 
 "show_transactions_button" = "Показать операции";
 "show_in_app_store_button" = "Показать в App Store";
+
+"flip_values_button" = "Поменять ⇅";
 
 "learn_more" = "Узнать больше";
 

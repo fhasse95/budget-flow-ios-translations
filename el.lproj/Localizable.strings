@@ -280,11 +280,12 @@
 "hide_amount_values_button" = "Απόκρυψη Ποσών";
 
 "take_photo_button" = "Λήψη φωτογραφίας";
-"add_photo_button" = "Επιλογή φωτογραφιών";
-"add_photo_from_files_button" = "Αρχεία";
-"add_photo_from_library_button" = "Φωτοθήκη";
-"add_document_button" = "Επιλογή εγγράφων";
+"select_photos_button" = "Επιλογή φωτογραφιών";
+"select_documents_button" = "Επιλογή εγγράφων";
 "scan_receipt_button" = "Σάρωση απόδειξης";
+"select_receipt_button" = "Επιλέξτε απόδειξη";
+"select_from_files_button" = "Αρχεία";
+"select_from_library_button" = "Φωτοθήκη";
 
 "open_button" = "Άνοιγμα";
 "open_folder_button" = "Άνοιγμα φακέλου";
@@ -311,6 +312,8 @@
 
 "show_transactions_button" = "Εμφάνιση συναλλαγών";
 "show_in_app_store_button" = "Εμφάνιση στο App Store";
+
+"flip_values_button" = "Αντιστροφή ⇅";
 
 "learn_more" = "Μάθετε περισσότερα";
 

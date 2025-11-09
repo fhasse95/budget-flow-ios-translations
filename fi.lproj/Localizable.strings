@@ -280,11 +280,12 @@
 "hide_amount_values_button" = "Piilota summat";
 
 "take_photo_button" = "Ota valokuva";
-"add_photo_button" = "Valitse valokuvat";
-"add_photo_from_files_button" = "Tiedostot";
-"add_photo_from_library_button" = "Kuvakirjasto";
-"add_document_button" = "Valitse asiakirjat";
+"select_photos_button" = "Valitse valokuvat";
+"select_documents_button" = "Valitse asiakirjat";
 "scan_receipt_button" = "Skannaa kuitti";
+"select_receipt_button" = "Valitse kuitti";
+"select_from_files_button" = "Tiedostot";
+"select_from_library_button" = "Kuvakirjasto";
 
 "open_button" = "Avaa";
 "open_folder_button" = "Avaa kansio";
@@ -311,6 +312,8 @@
 
 "show_transactions_button" = "Näytä tapahtumat";
 "show_in_app_store_button" = "Näytä App Storessa";
+
+"flip_values_button" = "Vaihda ⇅";
 
 "learn_more" = "Lisätietoja";
 

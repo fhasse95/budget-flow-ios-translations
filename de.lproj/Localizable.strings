@@ -280,11 +280,12 @@
 "hide_amount_values_button" = "Beträge ausblenden";
 
 "take_photo_button" = "Foto aufnehmen";
-"add_photo_button" = "Fotos auswählen";
-"add_photo_from_files_button" = "Dateien";
-"add_photo_from_library_button" = "Fotomediathek";
-"add_document_button" = "Dokumente auswählen";
+"select_photos_button" = "Fotos auswählen";
+"select_documents_button" = "Dokumente auswählen";
 "scan_receipt_button" = "Beleg scannen";
+"select_receipt_button" = "Beleg auswählen";
+"select_from_files_button" = "Dateien";
+"select_from_library_button" = "Fotomediathek";
 
 "open_button" = "Öffnen";
 "open_folder_button" = "Ordner öffnen";
@@ -311,6 +312,8 @@
 
 "show_transactions_button" = "Transaktionen anzeigen";
 "show_in_app_store_button" = "Im App Store anzeigen";
+
+"flip_values_button" = "Tauschen ⇅";
 
 "learn_more" = "Mehr erfahren";
 

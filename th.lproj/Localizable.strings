@@ -280,11 +280,12 @@
 "hide_amount_values_button" = "ซ่อนจำนวนเงิน";
 
 "take_photo_button" = "ถ่ายภาพ";
-"add_photo_button" = "เลือกรูปภาพ";
-"add_photo_from_files_button" = "ไฟล์";
-"add_photo_from_library_button" = "คลังภาพ";
-"add_document_button" = "เลือกเอกสาร";
+"select_photos_button" = "เลือกรูปภาพ";
+"select_documents_button" = "เลือกเอกสาร";
 "scan_receipt_button" = "สแกนใบเสร็จ";
+"select_receipt_button" = "เลือกใบเสร็จ";
+"select_from_files_button" = "ไฟล์";
+"select_from_library_button" = "คลังภาพ";
 
 "open_button" = "เปิด";
 "open_folder_button" = "เปิดโฟลเดอร์";
@@ -311,6 +312,8 @@
 
 "show_transactions_button" = "แสดงธุรกรรม";
 "show_in_app_store_button" = "แสดงใน App Store";
+
+"flip_values_button" = "สลับ ⇅";
 
 "learn_more" = "เรียนรู้เพิ่มเติม";
 

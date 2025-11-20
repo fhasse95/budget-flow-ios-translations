@@ -305,10 +305,10 @@
 "select_budget_book_button" = "帳簿を選択";
 "edit_budget_book_button" = "帳簿を編集";
 
-"continue_button" = "続行";
+"continue_button" = "次へ";
 "skip_button" = "スキップ";
 "accept_button" = "同意する";
-"get_started_button" = "始めましょう";
+"get_started_button" = "開始する";
 
 "show_transactions_button" = "トランザクションを表示";
 "show_in_app_store_button" = "App Store で表示";

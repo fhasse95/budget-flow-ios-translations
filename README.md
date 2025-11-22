@@ -17,7 +17,9 @@ If your language is not yet supported by the app, or if you notice an issue with
 
 Additionally, all translation files are available in this repository, and contributions are welcome! 😊
 
-### Translation Status
+<br>
+
+## Translation Status
 | Language | ISO-Code | Countries | Translator | Status |
 |:--|:--|:--|:--|:--|
 | Arabic | ar | 🇸🇦 🇪🇬 🇦🇪 🇲🇦 🇶🇦 + | Mohamed Alyahri | 🟢 Proofread |

@@ -9,11 +9,11 @@
 [![Xcode 15.0+](https://img.shields.io/badge/Xcode-15.0%20%2B-147EFB)](https://developer.apple.com/xcode)
 
 ## Introduction
-Budget Flow currently supports over 30 languages. However, since many of the translations were generated automatically, some may be inaccurate or sound unnatural.
+Budget Flow currently supports over 30 languages, but since many of these were automatically translated, some may contain errors or sound unnatural (see the status table below).
 
-Thanks to the amazing support from the community, many people have already contributed to improving the app’s translations, and I am truly grateful for their help. You can find a list of all contributors under "Settings" → "Acknowledgments" within the app or in the status table below.
+However, thanks to the amazing support from the community, many people have already contributed to improving the app’s translations, and I am truly grateful for their help. You can find a list of all contributors under "Settings" → "Acknowledgments" within the app.
 
-If your language is not yet supported by the app, or if you notice an issue with the existing translations, I’d love to hear from you! Send me an email at mail@budget-flow.app with the subject "Translate," or contact me directly within the app under "Settings" → "Help with Translation".
+If your language is not yet supported by the app, or if you notice an issue with the existing translations, I’d love to hear from you! Just send me an email at mail@budget-flow.app with the subject "Translate", or contact me directly within the app under "Settings" → "Help with Translation".
 
 Additionally, all translation files are available in this repository, and contributions are welcome! 😊
 
@@ -94,7 +94,7 @@ git push origin <your-branch-name>
 ```
 
 ### 5) Open a Pull Request
-- Go to the repository on GitHub.
+- Go to your repository on GitHub.
 - You’ll see a prompt to open a Pull Request (PR) from your recently pushed branch.
 - Give your PR a descriptive title and a short summary of what you changed.
 - Submit the PR against the main branch.

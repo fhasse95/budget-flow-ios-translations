@@ -223,7 +223,7 @@
 			<key>one</key>
 			<string>毎週 %2$@ 繰り返す。</string>
 			<key>other</key>
-			<string>%1$d 週間ごとに %2$@ 繰り返す。</string>
+			<string>%1$d 週間ごとの %2$@ に繰り返す。</string>
 		</dict>
 	</dict>
 	<key>repeats_every_month</key>
@@ -271,7 +271,7 @@
 			<key>one</key>
 			<string>毎月 %2$@ の第 %3$@ 日に繰り返す。</string>
 			<key>other</key>
-			<string>%1$d ヶ月ごとに %2$@ の第 %3$@ 日に繰り返す。</string>
+			<string>%1$d ヶ月ごとの %2$@ %3$@ 日に繰り返す。</string>
 		</dict>
 	</dict>
 	<key>repeats_every_year_in</key>

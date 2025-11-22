@@ -9,11 +9,13 @@
 [![Xcode 15.0+](https://img.shields.io/badge/Xcode-15.0%20%2B-147EFB)](https://developer.apple.com/xcode)
 
 ## Introduction
-Budget Flow currently supports over 30 languages. However, since many of these translations were generated automatically, some may contain inaccuracies or sound unnatural (see status table below).
+Budget Flow currently supports over 30 languages. However, since many translations were generated automatically, some may contain inaccuracies or sound unnatural.
 
-Thanks to the incredible support of many kind users, several people have already contributed to improving the translations of the app, and I am truly grateful for their help. You can find a list of all users who have assisted with the translation in the "Acknowledgments" section of the app.
+Thanks to the incredible support of many kind users, several people have already contributed to improving the translations of the app, and I am truly grateful for their help. You can find a list of all users who have assisted under "Settings" → "Acknowledgments" within the app or the status table below.
 
-If your language is not yet supported or if you notice an issue with the translation, I’d love to hear from you! You can either send me an email at mail@budget-flow.app or contact me directly within the app under "Help with Translation" in settings. Additionally, all current translation files are available in this open-source repository, and contributions are always welcome! 😊
+If your language is not yet supported by the app or if you notice an issue with the existing translations, I’d love to hear from you! You can either send me an email at mail@budget-flow.app or contact me directly within the app under "Settings" → "Help with Translation".
+
+Additionally, all translation files are available in this repository, and contributions are welcome! 😊
 
 ### Translation Status
 | Language | ISO-Code | Countries | Translator | Status |

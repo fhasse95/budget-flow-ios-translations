@@ -9,11 +9,50 @@
 [![Xcode 15.0+](https://img.shields.io/badge/Xcode-15.0%20%2B-147EFB)](https://developer.apple.com/xcode)
 
 ## Introduction
-Currently, Budget Flow supports over 30 languages. However, since the app has been automatically translated into many of them, there can sometimes be errors, which is why the translation may not always be perfect for certain languages.
+Budget Flow currently supports over 30 languages. However, since many of these translations were generated automatically, some may contain inaccuracies or sound unnatural (see status table below).
 
-Thanks to the incredible support of many kind users, several people have already contributed to translating the app, and I am truly grateful for their help. You can find a list of all users who have assisted with the translation in the "Acknowledgments" section of the app.
+Thanks to the incredible support of many kind users, several people have already contributed to improving the translations of the app, and I am truly grateful for their help. You can find a list of all users who have assisted with the translation in the "Acknowledgments" section of the app.
 
-If your language is not yet supported or if you notice any translation errors, I would greatly appreciate hearing from you. To do so, you can either send me a message via email at mail@budget-flow.app or contact me directly within the app under "Help with Translation" in the settings. In addition, the latest versions of the translations are now available directly within this open-source repository. If you would like to contribute, please feel free to do so!
+If your language is not yet supported or if you notice an issue with the translation, I’d love to hear from you! You can either send me an email at mail@budget-flow.app or contact me directly within the app under "Help with Translation" in settings. Additionally, all current translation files are available in this open-source repository, and contributions are always welcome! 😊
+
+### Translation Status
+| Language | ISO-Code | Countries | Translator | Status |
+|:--|:--|:--|:--|:--|
+| Arabic | ar | 🇸🇦 🇪🇬 🇦🇪 🇲🇦 🇶🇦 + | Mohamed Alyahri | 🟢 Proofread |
+| Bosnian | bs | 🇧🇦 | Antonio Dujmović | 🟢 Proofread |
+| Catalan | ca | 🇦🇩 | Jesús López Gómez | 🟢 Proofread |
+| Chinese (Simplified) | zh-Hans | 🇨🇳 🇸🇬 | Boran Cui | 🟢 Proofread |
+| Chinese (Traditional) | zh-Hant | 🇹🇼 🇭🇰 🇲🇴 | - | 🟡 Auto Translated |
+| Croatian | hr | 🇭🇷 | Antonio Dujmović | 🟢 Proofread |
+| Czech | cs | 🇨🇿 | - | 🟡 Auto Translated |
+| Danish | da | 🇩🇰 | - | 🟡 Auto Translated |
+| Dutch | nl | 🇳🇱 🇧🇪 | - | 🟡 Auto Translated |
+| English | en | 🇺🇸 🇬🇧 🇨🇦 🇮🇪 🇦🇺 + | Fabian Hasse | 🟢 Proofread |
+| Finnish | fi | 🇫🇮 | - | 🟡 Auto Translated |
+| French | fr | 🇫🇷 🇨🇦 🇧🇪 🇨🇭 🇱🇺 + | Aram | 🟢 Proofread |
+| German | de | 🇩🇪 🇦🇹 🇨🇭 | Fabian Hasse | 🟢 Proofread |
+| Greek | el | 🇬🇷 🇨🇾 | - | 🟡 Auto Translated |
+| Hungarian | hu | 🇭🇺 | - | 🟡 Auto Translated |
+| Indonesian | id | 🇮🇩 | Alex Wijaya | 🟢 Proofread |
+| Italian | it | 🇮🇹 🇸🇲 🇻🇦 🇨🇭 | Fabio Zaramella | 🟢 Proofread |
+| Japanese | ja | 🇯🇵 | - | 🟢 Proofread |
+| Korean | ko | 🇰🇷 | Junghwan Lee | 🟢 Proofread |
+| Norwegian Bokmål | nb | 🇳🇴 | - | 🟡 Auto Translated |
+| Polish | pl | 🇵🇱 | Jakub Domeracki | 🟢 Proofread |
+| Portuguese (Portugal) | pt-PT | 🇵🇹 🇨🇻 🇲🇿 🇦🇴 🇬🇼 + | Sergio Lourenco | 🟢 Proofread |
+| Portuguese (Brazil) | pt-BR | 🇧🇷 | José Henrique Leão | 🟢 Proofread |
+| Romanian | ro | 🇷🇴 | - | 🟡 Auto Translated |
+| Russian | ru | 🇷🇺 🇧🇾 🇰🇿 🇰🇬 | Ilya Yuhatskiy | 🟢 Proofread |
+| Slovenian | sl | 🇸🇮 | David Rok Roglič | 🟢 Proofread |
+| Slovak | sk | 🇸🇰 | - | 🟡 Auto Translated |
+| Spanish | es | 🇪🇸 🇲🇽 🇦🇷 🇨🇴 🇵🇪 + | Javier Parra | 🟢 Proofread |
+| Swedish | sv | 🇸🇪 | - | 🟡 Auto Translated |
+| Thai | th | 🇹🇭 | - | 🟡 Auto Translated |
+| Turkish | tr | 🇹🇷 | - | 🟡 Auto Translated |
+| Ukrainian | uk | 🇺🇦 | Marian Leontiev | 🟢 Proofread |
+| Vietnamese | vi | 🇻🇳 | Vũ Tuấn | 🟢 Proofread |
+
+<br>
 
 ## Contribute
 The following steps are necessary to participate in the translation process:

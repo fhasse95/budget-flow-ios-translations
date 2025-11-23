@@ -39,7 +39,7 @@ Additionally, all translation files are available in this repository, and contri
 | Hungarian | hu | 🇭🇺 | - | 🟡 Auto Translated |
 | Indonesian | id | 🇮🇩 | Alex Wijaya | 🟢 Proofread |
 | Italian | it | 🇮🇹 🇸🇲 🇻🇦 🇨🇭 | Fabio Zaramella | 🟢 Proofread |
-| Japanese | ja | 🇯🇵 | - | 🟢 Proofread |
+| Japanese | ja | 🇯🇵 | Miharu | 🟢 Proofread |
 | Korean | ko | 🇰🇷 | Junghwan Lee | 🟢 Proofread |
 | Norwegian Bokmål | nb | 🇳🇴 | - | 🟡 Auto Translated |
 | Polish | pl | 🇵🇱 | Jakub Domeracki | 🟢 Proofread |

@@ -1038,6 +1038,10 @@
 "chart_widget_title" = "Grafik";
 "chart_widget_description" = "Bu pencere öğesi, hesap bakiyelerinizin, cari bakiyenizin bir tablosunu veya seçilen dönem için gelir ve giderlerinizin bir dökümünü görüntüler.";
 
+"account_widget_title" = "Hesap";
+"account_widget_description" = "Bu widget, belirli bir hesap ve seçilen dönem için hesap bakiyesi grafiğini gösterir.";
+"account_widget_no_account_title" = "Herhangi bir hesap seçilmedi";
+
 "overview_widget_title" = "Genel Bakış";
 "overview_widget_description" = "Bu widget, hesap bakiyelerinize, cari bakiyenize veya seçilen dönem için toplam gelir ve giderlerinize genel bir bakış sunar.";
 

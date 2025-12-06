@@ -1038,6 +1038,10 @@
 "chart_widget_title" = "Diagram";
 "chart_widget_description" = "Ez a widget megjeleníti a számlaegyenlegét, az aktuális egyenlegét vagy a bevételek és kiadások bontását a kiválasztott időszakra vonatkozóan.";
 
+"account_widget_title" = "Fiók";
+"account_widget_description" = "Ez a widget grafikont jelenít meg a fiók egyenlegéről egy adott fiók és a kiválasztott időszak alapján.";
+"account_widget_no_account_title" = "Nincs fiók kiválasztva";
+
 "overview_widget_title" = "Áttekintés";
 "overview_widget_description" = "Ez a widget áttekintést nyújt számlaegyenlegéről, aktuális egyenlegéről vagy a kiválasztott időszak bevételeinek és kiadásainak összegéről.";
 

@@ -1,0 +1,213 @@
+/*
+ WidgetIntents.strings
+ BudgetFlow
+ 
+ Created by Fabian Hasse on 18.03.23.
+ Copyright © 2023 Fabian Hasse. All rights reserved.
+*/
+
+/* MARK: - Widget Intents */
+/* General */
+"xOcSma" = "유형";
+"pELoxA" = "유형";
+"eyacbM" = "유형";
+"K76l0O" = "유형";
+
+"ktfUSN" = "예산";
+"jfTgFR" = "예산";
+
+"skIWPc" = "계정";
+"RZfRcv" = "계정";
+
+"hVCchi" = "마침표";
+"nzkPH7" = "마침표";
+"y8DNWw" = "마침표";
+"hnez9L" = "마침표";
+"jEusyP" = "마침표";
+"K7Xh6q" = "마침표";
+"hVCchi" = "마침표";
+
+"6fYCl9" = "빠른 입력";
+"sZa6ZG" = "새로운 거래";
+
+/* Configuration */
+"prSCwi" = "차트 구성";
+"ioernk" = "계정 구성";
+"LM22qM" = "개요 구성";
+"z0ovGL" = "예산 구성";
+
+/* Descriptions */
+"pFbMvr" = "이 위젯은 계좌 잔액 차트, 현재 잔액 또는 선택한 기간 동안의 소득 및 지출 내역을 표시합니다.";
+"lMVOAh" = "이 위젯은 특정 계정과 선택된 기간의 계좌 잔액 그래프를 표시합니다.";
+"S2zZlu" = "이 위젯은 계좌 잔액 요약, 현재 잔액 또는 선택한 기간 동안의 총 수입과 지출을 표시합니다.";
+"ju8eTZ" = "이 위젯은 선택한 기간 동안 특정 예산을 보여줍니다.";
+"c79LHS" = "이 위젯을 사용하면 새로운 거래를 빠르게 추가할 수 있습니다.";
+
+"dDaQZs" = "앱 내에서 새로운 소득을 추가합니다.";
+"p9tWSU" = "앱 내에서 새로운 비용을 추가합니다.";
+"UCPXGi" = "앱 내에서 새로운 이체를 추가합니다.";
+"yC8ys5" = "앱 내에서 새로운 반복 거래를 추가합니다.";
+"sqTaTl" = "앱 내에서 예정된 거래를 추가합니다.";
+
+/* Overview Types */
+"hVyAjR" = "순자산";
+"9mfrfk-hVyAjR" = "확인을 위해, ‘순자산’을 원하셨나요?";
+"jlSssx-hVyAjR" = "‘순자산’과 일치하는 옵션이 ${count}개 있습니다.";
+
+"3GCjUk" = "잔고";
+"Lvj3sF" = "잔고";
+"9mfrfk-3GCjUk" = "[확인] '잔고'를 선택하셨습니까?";
+"MkDC8c-Lvj3sF" = "[확인] '잔고'을 선택하셨습니까?";
+"5xfjRl-Lvj3sF" = "'잔액'과 일치하는 ${count}개의 옵션이 있습니다.";
+"jlSssx-3GCjUk" = "'잔액'과 일치하는 ${count}개의 옵션이 있습니다.";
+
+"nXqb0W" = "총 수입";
+"wXUvBH" = "총 수입";
+"MkDC8c-nXqb0W" = "[확인] '총 수입'을 선택하셨습니까?";
+"9mfrfk-wXUvBH" = "[확인] '총 수입'을 선택하셨습니까?";
+"jlSssx-wXUvBH" = "'총 수입'과 일치하는 ${count}개의 옵션이 있습니다.";
+"5xfjRl-nXqb0W" = "'총 수입'과 일치하는 ${count}개의 옵션이 있습니다.";
+
+"4CQ3jz" = "총 비용";
+"LTGP2N" = "총 비용";
+"MkDC8c-LTGP2N" = "[확인] '총 비용'을 선택하셨습니까?";
+"9mfrfk-4CQ3jz" = "[확인] '총 비용'을 선택하셨습니까?";
+"jlSssx-4CQ3jz" = "'총 비용'과 일치하는 ${count}개의 옵션이 있습니다.";
+"5xfjRl-LTGP2N" = "'총 비용'과 일치하는 ${count}개의 옵션이 있습니다.";
+
+"967MIQ" = "고정 비용";
+"G7YBAE" = "고정 비용";
+"9mfrfk-G7YBAE" = "[확인] '고정 비용'을 선택하셨습니까?";
+"MkDC8c-967MIQ" = "[확인] '고정 비용'을 선택하셨습니까?";
+"5xfjRl-967MIQ" = "'고정 비용'과 일치하는 ${count}개의 옵션이 있습니다.";
+"jlSssx-G7YBAE" = "'고정 비용'과 일치하는 ${count}개의 옵션이 있습니다.";
+
+"R35A16" = "변동 비용";
+"Xq1BNs" = "변동 비용";
+"MkDC8c-R35A16" = "[확인] '변동 비용'을 선택하셨습니까?";
+"9mfrfk-Xq1BNs" = "[확인] '변동 비용'을 선택하셨습니까?";
+"5xfjRl-R35A16" = "'변수 비용'과 일치하는 ${count}개의 옵션이 있습니다.";
+"jlSssx-Xq1BNs" = "'변수 비용'과 일치하는 ${count}개의 옵션이 있습니다.";
+
+"PhqijR" = "계좌 잔액";
+"VhlRFH" = "계좌 잔액";
+"MkDC8c-PhqijR" = "[확인] '계좌 잔액'을 원하십니까?";
+"9mfrfk-VhlRFH" = "[확인] '계좌 잔액'을 원하십니까?";
+"5xfjRl-PhqijR" = "'계좌 잔액'과 일치하는 ${count}개의 옵션이 있습니다.";
+"jlSssx-VhlRFH" = "'계좌 잔액'과 일치하는 ${count}개의 옵션이 있습니다.";
+
+/* Action Types */
+"CVbmHD" = "액션";
+"WjgQ3F" = "새로운 수입";
+"6vnhNE-WjgQ3F" = "[확인] '새 수입'을 선택하셨습니까?";
+"SiRH8S-WjgQ3F" = "'새 소득'과 일치하는 ${count}개의 옵션이 있습니다.";
+"Frl0u1" = "새로운 경비";
+"6vnhNE-Frl0u1" = "[확인] '새 지출'을 원하십니까?";
+"SiRH8S-Frl0u1" = "'새 비용'과 일치하는 ${count}개의 옵션이 있습니다.";
+"89P1cU" = "새로운 전송";
+"6vnhNE-89P1cU" = "[확인] '새 이체'를 원하십니까?";
+"SiRH8S-89P1cU" = "'새 전송'과 일치하는 ${count}개의 옵션이 있습니다.";
+"sEOquD" = "반복";
+"6vnhNE-sEOquD" = "[확인] '반복'을 선택하셨습니까?";
+"SiRH8S-sEOquD" = "'반복'과 일치하는 ${count}개의 옵션이 있습니다.";
+
+/* Period Types */
+"W8Xs6i" = "현재 날짜";
+
+"Nvy91A" = "현재 주";
+
+"0uJvbe" = "이번 달";
+"9M6g0C" = "이번 달";
+"5k1p3H" = "이번 달";
+"BgXL00-0uJvbe" = "[확인] '이번 달'을 선택하셨습니까?";
+"EqxQCI-0uJvbe" = "[확인] '이번 달'을 선택하셨습니까?";
+"uJZrBb-0uJvbe" = "[확인] '이번 달'을 선택하셨습니까?";
+"Iw8VwE-0uJvbe" = "'이번 달'과 일치하는 ${count}개의 옵션이 있습니다.";
+"ujLY0p-0uJvbe" = "'이번 달'과 일치하는 ${count}개의 옵션이 있습니다.";
+"2bSbou-0uJvbe" = "'이번 달'과 일치하는 ${count}개의 옵션이 있습니다.";
+
+"XLsrlR" = "현재 연도";
+"OjUmV9" = "현재 연도";
+"PSloJn" = "현재 연도";
+"BgXL00-OjUmV9" = "[확인] '현재 연도'를 선택하셨습니까?";
+"EqxQCI-OjUmV9" = "[확인] '현재 연도'를 선택하셨습니까?";
+"uJZrBb-OjUmV9" = "[확인] '현재 연도'를 선택하셨습니까?";
+"Iw8VwE-OjUmV9" = "'현재 연도'와 일치하는 ${count} 개의 옵션이 있습니다.";
+"ujLY0p-OjUmV9" = "'현재 연도'와 일치하는 ${count} 개의 옵션이 있습니다.";
+"2bSbou-OjUmV9" = "'현재 연도'와 일치하는 ${count} 개의 옵션이 있습니다.";
+
+/* MARK: - Siri Intents */
+/* Types */
+"PrcHew" = "예산 장부";
+"RfTeQa" = "계좌";
+"lhsAlw" = "범주";
+"7K8wsp" = "폴더";
+"ktfUSN" = "예산";
+"TgSVEY" = "수취인";
+
+/* Create Transaction */
+"2UssG9" = "거래 생성";
+"0iH3hu" = "거래 생성";
+"Yd8NCf" = "거래 생성";
+
+"J710PA" = "지정된 매개변수를 사용하여 새로운 거래을 생성하고 이를 앱에 추가합니다.";
+"O6voV3" = "새 거래가 생성되었습니다";
+
+"c4H0S5" = "거래 유형은 무엇입니까?";
+"112aEi" = "거래 금액은 얼마입니까?";
+"qnGAXN" = "거래 결제가 보류 중입니까?";
+"lTy5qN" = "거래가 통계에 포함되어야 합니까?";
+"zZSQvt" = "어떤 예산 장부를 사용해야 합니까?";
+"Y5Nex5" = "어떤 계좌을 사용해야 합니까?";
+"0HLNLH" = "어떤 카테고리를 사용해야 합니까?";
+"wqsAJE" = "어떤 수취인을 지정해야 합니까?";
+"X8ocGF" = "어떤 태그를 사용해야 합니까?";
+"AHmcT3" = "어떤 날짜를 사용해야 합니까?";
+"P32rK5" = "거래을 얼마나 자주 반복해야 합니까?";
+
+"aweDKY" = "[확인] '${type}'을(를) 원하셨나요?";
+"f00iD1" = "[확인] '${repetitionFrequency}'을(를) 원하셨나요?";
+"LsIZmT" = "${displayName}은(는) 음수일 수 없습니다.";
+"aMDTJp" = "${displayName}은(는) ${minimumValue}보다 낮을 수 없습니다.";
+"awYsJs" = "${displayName}은(는) ${maximumValue}보다 클 수 없습니다.";
+
+"zDQBnU" = "유형";
+"BCP2vE" = "금액";
+"xB1kqh" = "보류 중";
+"gNilw1" = "평가됨";
+"iRwipD" = "날짜";
+"Qi16cy" = "시간";
+"v08W8X" = "반복";
+"aXdf7M" = "예산 장부";
+"ozYI0G" = "계좌";
+"tBBc2U" = "범주";
+"8zofwJ" = "수취인";
+"QLnzaL" = "태그";
+"boEz9o" = "위치";
+"SCKlIf" = "메모";
+"ZZ6bgZ" = "첨부 파일";
+
+"OCqRVA" = "예";
+"MpQ9fH" = "아니요";
+
+"7xlIvf" = "예";
+"pOelwg" = "아니요";
+
+"jDpx7J" = "소득";
+"KDwsQL" = "비용";
+
+"EmPlTq" = "안함";
+"yNgckQ" = "매일";
+"1vBp0l" = "매주";
+"YugMLR" = "2주마다";
+"BPTs4x" = "3주마다";
+"yVd6fu" = "4주마다";
+"bJHfBW" = "매월";
+"hcXxle" = "2개월마다";
+"JFZtOn" = "분기별";
+"v02Q1j" = "반년마다";
+"GB1jzm" = "연간";
+
+"ozlKhL" = "결과";
+"1ap2ew" = "거래가 추가되었습니다";
+"TAoThb" = "거래가 추가되지 않았습니다";

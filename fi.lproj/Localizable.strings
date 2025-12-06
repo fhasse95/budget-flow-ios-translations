@@ -1038,6 +1038,10 @@
 "chart_widget_title" = "Kaavio";
 "chart_widget_description" = "Tämä widget näyttää kaavion tilisi saldoista, nykyisestä saldosta tai erittelyn tuloistasi ja menoistasi valitulta ajanjaksolta.";
 
+"account_widget_title" = "Tili";
+"account_widget_description" = "Tämä widget näyttää kaavion tilisi saldosta tietylle tilille ja valitulle ajanjaksolle.";
+"account_widget_no_account_title" = "Tiliä ei ole valittu";
+
 "overview_widget_title" = "Yleiskatsaus";
 "overview_widget_description" = "Tämä widget näyttää yleiskatsauksen tilisi saldoista, nykyisestä saldosta tai tulojen ja menojen kokonaismäärästä valitulta ajanjaksolta.";
 

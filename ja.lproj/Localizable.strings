@@ -1038,6 +1038,10 @@
 "chart_widget_title" = "チャート";
 "chart_widget_description" = "このウィジェットには、口座残高、現在の残高、または選択した期間の収入と支出の内訳のグラフが表示されます。";
 
+"account_widget_title" = "アカウント";
+"account_widget_description" = "このウィジェットは、特定のアカウントおよび選択した期間における残高グラフを表示します。";
+"account_widget_no_account_title" = "アカウントが選択されていません";
+
 "overview_widget_title" = "概要";
 "overview_widget_description" = "このウィジェットには、口座残高、現在の残高、または選択した期間の収入と支出の合計の概要が表示されます。";
 

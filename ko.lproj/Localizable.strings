@@ -1038,6 +1038,10 @@
 "chart_widget_title" = "차트";
 "chart_widget_description" = "이 위젯은 계좌 잔액 차트, 현재 잔액 또는 선택한 기간 동안의 수입 및 지출 내역을 표시합니다.";
 
+"account_widget_title" = "계정";
+"account_widget_description" = "이 위젯은 특정 계정과 선택된 기간의 계좌 잔액 그래프를 표시합니다.";
+"account_widget_no_account_title" = "선택된 계정이 없습니다";
+
 "overview_widget_title" = "개요";
 "overview_widget_description" = "이 위젯은 계좌 잔액, 현재 잔액 또는 선택한 기간 동안의 총 수입과 지출에 대한 개요를 보여줍니다.";
 

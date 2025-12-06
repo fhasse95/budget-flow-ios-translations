@@ -1038,6 +1038,10 @@
 "chart_widget_title" = "Graphique";
 "chart_widget_description" = "Ce widget affiche un graphique des soldes de vos comptes, votre solde actuel ou une ventilation de vos revenus et dépenses pour la période sélectionnée.";
 
+"account_widget_title" = "Compte";
+"account_widget_description" = "Ce widget affiche un graphique du solde de votre compte pour un compte spécifique et la période sélectionnée.";
+"account_widget_no_account_title" = "Aucun compte sélectionné";
+
 "overview_widget_title" = "Aperçu";
 "overview_widget_description" = "Ce widget affiche un aperçu des soldes de vos comptes, votre solde actuel ou un total des revenus et des dépenses pour la période sélectionnée.";
 

@@ -1,0 +1,213 @@
+/*
+ WidgetIntents.strings
+ BudgetFlow
+ 
+ Created by Fabian Hasse on 18.03.23.
+ Copyright © 2023 Fabian Hasse. All rights reserved.
+*/
+
+/* MARK: - Widget Intents */
+/* General */
+"xOcSma" = "Tipo";
+"pELoxA" = "Tipo";
+"eyacbM" = "Tipo";
+"K76l0O" = "Tipo";
+
+"ktfUSN" = "Presupuesto";
+"jfTgFR" = "Presupuesto";
+
+"skIWPc" = "Cuenta";
+"RZfRcv" = "Cuenta";
+
+"hVCchi" = "Período";
+"nzkPH7" = "Período";
+"y8DNWw" = "Período";
+"hnez9L" = "Período";
+"jEusyP" = "Período";
+"K7Xh6q" = "Período";
+"hVCchi" = "Periodo";
+
+"6fYCl9" = "Entrada rápida";
+"sZa6ZG" = "Nueva transacción";
+
+/* Configuration */
+"prSCwi" = "Configurar gráfico";
+"ioernk" = "Configurar cuenta";
+"LM22qM" = "Configurar vista general";
+"z0ovGL" = "Configurar presupuesto";
+
+/* Descriptions */
+"pFbMvr" = "Este widget muestra un gráfico de los saldos de su cuenta, su saldo actual o un desglose de sus ingresos y gastos para el período de tiempo seleccionado.";
+"lMVOAh" = "Este widget muestra un gráfico del saldo de tu cuenta para una cuenta específica y el período seleccionado.";
+"S2zZlu" = "Este widget muestra un resumen de los saldos de su cuenta, su saldo actual o un total de sus ingresos y gastos para el período de tiempo seleccionado.";
+"ju8eTZ" = "Este widget le muestra un presupuesto específico para el período seleccionado.";
+"c79LHS" = "Este widget le permite agregar rápidamente nuevas transacciones.";
+
+"dDaQZs" = "Abre la vista de agregar nuevos ingresos dentro de la app.";
+"p9tWSU" = "Abre la vista de agregar nuevos gastos dentro de la app.";
+"UCPXGi" = "Abre la vista de agregar nueva transferencia dentro de la app.";
+"yC8ys5" = "Abre la vista de agregar nueva transacción recurrente dentro de la app.";
+"sqTaTl" = "Abre la vista de transacciones planificadas dentro de la app.";
+
+/* Overview Types */
+"hVyAjR" = "Valor neto";
+"9mfrfk-hVyAjR" = "Solo para confirmar, ¿querías ‘Valor neto’?";
+"jlSssx-hVyAjR" = "Hay ${count} opciones que coinciden con ‘Valor neto’.";
+
+"3GCjUk" = "Balance";
+"Lvj3sF" = "Balance";
+"9mfrfk-3GCjUk" = "Solo para confirmar, ¿querías 'balance'?";
+"MkDC8c-Lvj3sF" = "Solo para confirmar, ¿querías 'balance'?";
+"5xfjRl-Lvj3sF" = "Hay opciones ${count} que coinciden con 'balance'.";
+"jlSssx-3GCjUk" = "Hay opciones ${count} que coinciden con 'balance'.";
+
+"nXqb0W" = "Ingresos totales";
+"wXUvBH" = "Ingresos totales";
+"MkDC8c-nXqb0W" = "Solo para confirmar, ¿querías 'ingresos totales'?";
+"9mfrfk-wXUvBH" = "Solo para confirmar, ¿querías 'ingresos totales'?";
+"jlSssx-wXUvBH" = "Hay opciones de ${count} que coinciden con 'ingresos totales'.";
+"5xfjRl-nXqb0W" = "Hay opciones de ${count} que coinciden con 'ingresos totales'.";
+
+"4CQ3jz" = "Gastos totales";
+"LTGP2N" = "Gastos totales";
+"MkDC8c-LTGP2N" = "Solo para confirmar, ¿querías 'gastos totales'?";
+"9mfrfk-4CQ3jz" = "Solo para confirmar, ¿querías 'gastos totales'?";
+"jlSssx-4CQ3jz" = "Hay opciones ${count} que coinciden con 'gastos totales'.";
+"5xfjRl-LTGP2N" = "Hay opciones ${count} que coinciden con 'gastos totales'";
+
+"967MIQ" = "Gastos fijos";
+"G7YBAE" = "Gastos fijos";
+"9mfrfk-G7YBAE" = "Solo para confirmar, ¿querías 'gastos fijos'?";
+"MkDC8c-967MIQ" = "Solo para confirmar, ¿querías 'gastos fijos'?";
+"5xfjRl-967MIQ" = "Hay opciones ${count} que coinciden con 'gastos fijos'.";
+"jlSssx-G7YBAE" = "Hay opciones ${count} que coinciden con 'gastos fijos'.";
+
+"R35A16" = "Gastos variables";
+"Xq1BNs" = "Gastos variables";
+"MkDC8c-R35A16" = "Solo para confirmar, ¿querías 'gastos variables'?";
+"9mfrfk-Xq1BNs" = "Solo para confirmar, ¿querías 'gastos variables'?";
+"5xfjRl-R35A16" = "Hay opciones ${count} que coinciden con 'gastos variables'.";
+"jlSssx-Xq1BNs" = "Hay opciones ${count} que coinciden con 'gastos variables'.";
+
+"PhqijR" = "Saldos de cuentas";
+"VhlRFH" = "Saldos de cuentas";
+"MkDC8c-PhqijR" = "Solo para confirmar, ¿querías 'saldos de cuentas'?";
+"9mfrfk-VhlRFH" = "Solo para confirmar, ¿querías 'saldos de cuentas'?";
+"5xfjRl-PhqijR" = "Hay opciones de ${count} que coinciden con los 'saldos de las cuentas'.";
+"jlSssx-VhlRFH" = "Hay opciones de ${count} que coinciden con los 'saldos de las cuentas'.";
+
+/* Action Types */
+"CVbmHD" = "Acción";
+"WjgQ3F" = "Nuevos ingresos";
+"6vnhNE-WjgQ3F" = "Solo para confirmar, ¿querías 'nuevos ingresos'?";
+"SiRH8S-WjgQ3F" = "Hay opciones de ${count} que coinciden con 'nuevos ingresos'.";
+"Frl0u1" = "Nuevo gasto";
+"6vnhNE-Frl0u1" = "Solo para confirmar, ¿querías 'nuevo gasto'?";
+"SiRH8S-Frl0u1" = "Hay opciones ${count} que coinciden con 'nuevo gasto'.";
+"89P1cU" = "Nueva transferencia";
+"6vnhNE-89P1cU" = "Solo para confirmar, ¿querías 'nueva transferencia'?";
+"SiRH8S-89P1cU" = "Hay opciones ${count} que coinciden con 'nueva transferencia'.";
+"sEOquD" = "Recurrente";
+"6vnhNE-sEOquD" = "Solo para confirmar, ¿querías 'recurrente'?";
+"SiRH8S-sEOquD" = "Hay opciones ${count} que coinciden con 'recurrente'.";
+
+/* Period Types */
+"W8Xs6i" = "Día actual";
+
+"Nvy91A" = "Semana actual";
+
+"0uJvbe" = "Mes actual";
+"9M6g0C" = "Mes actual";
+"5k1p3H" = "Mes actual";
+"BgXL00-0uJvbe" = "Solo para confirmar, ¿querías 'mes actual'?";
+"EqxQCI-0uJvbe" = "Solo para confirmar, ¿querías 'mes actual'?";
+"uJZrBb-0uJvbe" = "Solo para confirmar, ¿querías 'mes actual'?";
+"Iw8VwE-0uJvbe" = "Hay opciones ${count} que coinciden con 'mes actual'.";
+"ujLY0p-0uJvbe" = "Hay opciones ${count} que coinciden con 'mes actual'.";
+"2bSbou-0uJvbe" = "Hay opciones ${count} que coinciden con 'mes actual'.";
+
+"XLsrlR" = "Año actual";
+"OjUmV9" = "Año actual";
+"PSloJn" = "Año actual";
+"BgXL00-OjUmV9" = "Solo para confirmar, ¿querías 'año actual'?";
+"EqxQCI-OjUmV9" = "Solo para confirmar, ¿querías 'año actual'?";
+"uJZrBb-OjUmV9" = "Solo para confirmar, ¿querías 'año actual'?";
+"Iw8VwE-OjUmV9" = "Hay opciones ${count} que coinciden con 'año actual'.";
+"ujLY0p-OjUmV9" = "Hay opciones ${count} que coinciden con 'año actual'.";
+"2bSbou-OjUmV9" = "Hay opciones ${count} que coinciden con 'año actual'.";
+
+/* MARK: - Siri Intents */
+/* Types */
+"PrcHew" = "Libro de presupuesto";
+"RfTeQa" = "Cuenta";
+"lhsAlw" = "Categoría";
+"7K8wsp" = "Carpeta";
+"ktfUSN" = "Presupuesto";
+"TgSVEY" = "Beneficiario";
+
+/* Create Transaction */
+"2UssG9" = "Crear transacción";
+"0iH3hu" = "Crear transacción";
+"Yd8NCf" = "Crear transacción";
+
+"J710PA" = "Crea una nueva transacción utilizando los parámetros especificados y la agrega a la app.";
+"O6voV3" = "Nueva transacción creada";
+
+"c4H0S5" = "¿Cuál es el tipo de transacción?";
+"112aEi" = "¿Cuál es el monto de la transacción?";
+"qnGAXN" = "¿Está pendiente el pago de la transacción?";
+"lTy5qN" = "¿La transacción debe incluirse en las estadísticas?";
+"zZSQvt" = "¿Qué libro de presupuesto se debe utilizar?";
+"Y5Nex5" = "¿Qué cuenta se debe usar?";
+"0HLNLH" = "¿Qué categoría debe utilizarse?";
+"wqsAJE" = "¿Qué beneficiario debe asignarse?";
+"X8ocGF" = "¿Qué etiquetas se deben utilizar?";
+"AHmcT3" = "¿Qué fecha debe usarse?";
+"P32rK5" = "¿Con qué frecuencia se debe repetir la transacción?";
+
+"aweDKY" = "Solo para confirmar, ¿querías '${type}'?";
+"f00iD1" = "Solo para confirmar, ¿querías '${repetitionFrequency}'?";
+"LsIZmT" = "${displayName} no puede ser negativo.";
+"aMDTJp" = "${displayName} no puede ser inferior a ${minimumValue}.";
+"awYsJs" = "${displayName} no puede ser mayor que ${maximumValue}.";
+
+"zDQBnU" = "Tipo";
+"BCP2vE" = "Importe";
+"xB1kqh" = "Pendiente";
+"gNilw1" = "Evaluado";
+"iRwipD" = "Fecha";
+"Qi16cy" = "Hora";
+"v08W8X" = "Repetir";
+"aXdf7M" = "Libro de presupuesto";
+"ozYI0G" = "Cuenta";
+"tBBc2U" = "Categoría";
+"8zofwJ" = "Beneficiario";
+"QLnzaL" = "Etiquetas";
+"boEz9o" = "Ubicación";
+"SCKlIf" = "Notas";
+"ZZ6bgZ" = "Archivos adjuntos";
+
+"OCqRVA" = "Sí";
+"MpQ9fH" = "No";
+
+"7xlIvf" = "Sí";
+"pOelwg" = "No";
+
+"jDpx7J" = "Ingresos";
+"KDwsQL" = "Gastos";
+
+"EmPlTq" = "Nunca";
+"yNgckQ" = "Diariamente";
+"1vBp0l" = "Semanal";
+"YugMLR" = "Cada 2 semanas";
+"BPTs4x" = "Cada 3 semanas";
+"yVd6fu" = "Cada 4 semanas";
+"bJHfBW" = "Mensual";
+"hcXxle" = "Cada 2 meses";
+"JFZtOn" = "Trimestral";
+"v02Q1j" = "Semestralmente";
+"GB1jzm" = "Anual";
+
+"ozlKhL" = "Transacción agregada";
+"1ap2ew" = "Sí";
+"TAoThb" = "No";

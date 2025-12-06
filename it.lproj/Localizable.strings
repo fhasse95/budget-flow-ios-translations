@@ -1038,6 +1038,10 @@
 "chart_widget_title" = "Grafico";
 "chart_widget_description" = "Questo widget mostra l'andamento dei movimenti del tuo conto, il tuo saldo attuale o una ripartizione delle tue entrate e uscite per il periodo selezionato.";
 
+"account_widget_title" = "Conto";
+"account_widget_description" = "Questo widget mostra un grafico del saldo del tuo conto per un conto specifico e il periodo selezionato.";
+"account_widget_no_account_title" = "Nessun conto selezionato";
+
 "overview_widget_title" = "Riepilogo";
 "overview_widget_description" = "Questo widget mostra un riepilogo dei movimenti del tuo conto, del tuo saldo attuale o del totale delle tue entrate e uscite per il periodo selezionato.";
 

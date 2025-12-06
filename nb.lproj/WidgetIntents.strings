@@ -1,0 +1,213 @@
+/*
+ WidgetIntents.strings
+ BudgetFlow
+ 
+ Created by Fabian Hasse on 18.03.23.
+ Copyright © 2023 Fabian Hasse. All rights reserved.
+*/
+
+/* MARK: - Widget Intents */
+/* General */
+"xOcSma" = "Type";
+"pELoxA" = "Type";
+"eyacbM" = "Type";
+"K76l0O" = "Type";
+
+"ktfUSN" = "Budsjett";
+"jfTgFR" = "Budsjett";
+
+"skIWPc" = "Konto";
+"RZfRcv" = "Konto";
+
+"hVCchi" = "Periode";
+"nzkPH7" = "Periode";
+"y8DNWw" = "Periode";
+"hnez9L" = "Periode";
+"jEusyP" = "Periode";
+"K7Xh6q" = "Periode";
+"hVCchi" = "Periode";
+
+"6fYCl9" = "Rask inngang";
+"sZa6ZG" = "Ny transaksjon";
+
+/* Configuration */
+"prSCwi" = "Konfigurer diagram";
+"ioernk" = "Konfigurer konto";
+"LM22qM" = "Konfigurer oversikt";
+"z0ovGL" = "Konfigurer budsjett";
+
+/* Descriptions */
+"pFbMvr" = "Denne widgeten viser et diagram over kontosaldoene dine, gjeldende saldo eller en oversikt over inntekter og utgifter for den valgte tidsperioden.";
+"lMVOAh" = "Denne widgeten viser en graf over kontosaldoen din for en spesifikk konto og valgt tidsperiode.";
+"S2zZlu" = "Denne widgeten viser et sammendrag av kontosaldoene dine, gjeldende saldo eller summen av inntektene og utgiftene dine for den valgte tidsperioden.";
+"ju8eTZ" = "Denne widgeten viser deg et spesifikt budsjett for den valgte perioden.";
+"c79LHS" = "Denne widgeten lar deg raskt legge til nye transaksjoner.";
+
+"dDaQZs" = "Åpner visningen for å legge til ny inntekt i appen.";
+"p9tWSU" = "Åpner visningen Legg til ny utgift i appen.";
+"UCPXGi" = "Åpner visningen for å legge til ny overføring i appen.";
+"yC8ys5" = "Åpner visningen for å legge til nye gjentakende transaksjoner i appen.";
+"sqTaTl" = "Åpner visningen for kommende transaksjoner i appen.";
+
+/* Overview Types */
+"hVyAjR" = "Nettoformue";
+"9mfrfk-hVyAjR" = "Bare for å bekrefte, ønsket du ‘Nettoformue’?";
+"jlSssx-hVyAjR" = "Det finnes ${count} alternativer som passer med ‘Nettoformue’.";
+
+"3GCjUk" = "Saldo";
+"Lvj3sF" = "Saldo";
+"9mfrfk-3GCjUk" = "Bare for å bekrefte, ville du ha 'balanse'?";
+"MkDC8c-Lvj3sF" = "Bare for å bekrefte, ville du ha 'balanse'?";
+"5xfjRl-Lvj3sF" = "Det er ${count} alternativer som samsvarer med 'saldo'.";
+"jlSssx-3GCjUk" = "Det er ${count} alternativer som samsvarer med 'saldo'.";
+
+"nXqb0W" = "Total inntekt";
+"wXUvBH" = "Total inntekt";
+"MkDC8c-nXqb0W" = "Bare for å bekrefte, ville du ha 'total inntekt'?";
+"9mfrfk-wXUvBH" = "Bare for å bekrefte, ville du ha 'total inntekt'?";
+"jlSssx-wXUvBH" = "Det er ${count} alternativer som samsvarer med 'total inntekt'.";
+"5xfjRl-nXqb0W" = "Det er ${count} alternativer som samsvarer med 'total inntekt'.";
+
+"4CQ3jz" = "Totale utgifter";
+"LTGP2N" = "Totale utgifter";
+"MkDC8c-LTGP2N" = "Bare for å bekrefte, ville du ha 'totale utgifter'?";
+"9mfrfk-4CQ3jz" = "Bare for å bekrefte, ville du ha 'totale utgifter'?";
+"jlSssx-4CQ3jz" = "Det er ${count} alternativer som samsvarer med 'totale utgifter'.";
+"5xfjRl-LTGP2N" = "Det er ${count} alternativer som samsvarer med 'totale utgifter'";
+
+"967MIQ" = "Faste utgifter";
+"G7YBAE" = "Faste utgifter";
+"9mfrfk-G7YBAE" = "Bare for å bekrefte, ville du ha 'faste utgifter'?";
+"MkDC8c-967MIQ" = "Bare for å bekrefte, ville du ha 'faste utgifter'?";
+"5xfjRl-967MIQ" = "Det er ${count} alternativer som samsvarer med 'faste utgifter'.";
+"jlSssx-G7YBAE" = "Det er ${count} alternativer som samsvarer med 'faste utgifter'.";
+
+"R35A16" = "Variable utgifter";
+"Xq1BNs" = "Variable utgifter";
+"MkDC8c-R35A16" = "Bare for å bekrefte, ville du ha 'variable utgifter'?";
+"9mfrfk-Xq1BNs" = "Bare for å bekrefte, ville du ha 'variable utgifter'?";
+"5xfjRl-R35A16" = "Det er ${count} alternativer som samsvarer med 'variable utgifter'.";
+"jlSssx-Xq1BNs" = "Det er ${count} alternativer som samsvarer med 'variable utgifter'.";
+
+"PhqijR" = "Kontosaldo";
+"VhlRFH" = "Kontosaldo";
+"MkDC8c-PhqijR" = "Bare for å bekrefte, ville du ha 'kontosaldo'?";
+"9mfrfk-VhlRFH" = "Bare for å bekrefte, ville du ha 'kontosaldo'?";
+"5xfjRl-PhqijR" = "Det er ${count} alternativer som samsvarer med 'kontosaldo'.";
+"jlSssx-VhlRFH" = "Det er ${count} alternativer som samsvarer med 'kontosaldo'.";
+
+/* Action Types */
+"CVbmHD" = "Handling";
+"WjgQ3F" = "Ny inntekt";
+"6vnhNE-WjgQ3F" = "Bare for å bekrefte, ville du ha 'ny inntekt'?";
+"SiRH8S-WjgQ3F" = "Det er ${count} alternativer som samsvarer med 'ny inntekt'.";
+"Frl0u1" = "Ny utgift";
+"6vnhNE-Frl0u1" = "Bare for å bekrefte, ville du ha 'ny utgift'?";
+"SiRH8S-Frl0u1" = "Det er ${count} alternativer som samsvarer med 'ny utgift'.";
+"89P1cU" = "Ny overføring";
+"6vnhNE-89P1cU" = "Bare for å bekrefte, ville du ha 'ny overføring'?";
+"SiRH8S-89P1cU" = "Det er ${count} alternativer som samsvarer med 'ny overføring'.";
+"sEOquD" = "Gjentakende";
+"6vnhNE-sEOquD" = "Bare for å bekrefte, ønsket du 'gjentakende'?";
+"SiRH8S-sEOquD" = "Det er ${count} alternativer som samsvarer med 'gjentakende'.";
+
+/* Period Types */
+"W8Xs6i" = "Gjeldende dag";
+
+"Nvy91A" = "Gjeldende uke";
+
+"0uJvbe" = "Gjeldende måned";
+"9M6g0C" = "Gjeldende måned";
+"5k1p3H" = "Gjeldende måned";
+"BgXL00-0uJvbe" = "Bare for å bekrefte, ville du ha 'gjeldende måned'?";
+"EqxQCI-0uJvbe" = "Bare for å bekrefte, ville du ha 'nåværende måned'?";
+"uJZrBb-0uJvbe" = "Bare for å bekrefte, ville du ha 'nåværende måned'?";
+"Iw8VwE-0uJvbe" = "Det er ${count} alternativer som samsvarer med 'gjeldende måned'.";
+"ujLY0p-0uJvbe" = "Det er ${count} alternativer som samsvarer med 'gjeldende måned'.";
+"2bSbou-0uJvbe" = "Det er ${count} alternativer som samsvarer med 'gjeldende måned'.";
+
+"XLsrlR" = "Gjeldende år";
+"OjUmV9" = "Gjeldende år";
+"PSloJn" = "Gjeldende år";
+"BgXL00-OjUmV9" = "Bare for å bekrefte, ville du ha 'gjeldende år'?";
+"EqxQCI-OjUmV9" = "Bare for å bekrefte, ville du ha 'gjeldende år'?";
+"uJZrBb-OjUmV9" = "Bare for å bekrefte, ville du ha 'gjeldende år'?";
+"Iw8VwE-OjUmV9" = "Det er ${count} alternativer som samsvarer med 'gjeldende år'.";
+"ujLY0p-OjUmV9" = "Det er ${count} alternativer som samsvarer med 'gjeldende år'.";
+"2bSbou-OjUmV9" = "Det er ${count} alternativer som samsvarer med 'gjeldende år'.";
+
+/* MARK: - Siri Intents */
+/* Types */
+"PrcHew" = "Budsjettbok";
+"RfTeQa" = "Konto";
+"lhsAlw" = "Kategori";
+"7K8wsp" = "Mappe";
+"ktfUSN" = "Budsjett";
+"TgSVEY" = "Utbetalingsmottaker";
+
+/* Create Transaction */
+"2UssG9" = "Opprett transaksjon";
+"0iH3hu" = "Opprett transaksjon";
+"Yd8NCf" = "Opprett transaksjon";
+
+"J710PA" = "Oppretter en ny transaksjon med de angitte parameterne og legger den til i appen.";
+"O6voV3" = "Opprettet ny transaksjon";
+
+"c4H0S5" = "Hva er transaksjonstypen?";
+"112aEi" = "Hva er transaksjonsbeløpet?";
+"qnGAXN" = "Venter betalingen av transaksjonen?";
+"lTy5qN" = "Bør transaksjonen inkluderes i statistikken?";
+"zZSQvt" = "Hvilken budsjettbok skal brukes?";
+"Y5Nex5" = "Hvilken konto bør brukes?";
+"0HLNLH" = "Hvilken kategori skal brukes?";
+"wqsAJE" = "Hvilken betalingsmottaker bør tildeles?";
+"X8ocGF" = "Hvilke tagger bør brukes?";
+"AHmcT3" = "Hvilken dato skal brukes?";
+"P32rK5" = "Hvor ofte bør transaksjonen gjentas?";
+
+"aweDKY" = "Bare for å bekrefte, ville du ha '${type}'?";
+"f00iD1" = "Bare for å bekrefte, ville du ha ‘${repetitionFrequency}’?";
+"LsIZmT" = "${displayName} kan ikke være negativ.";
+"aMDTJp" = "${displayName} kan ikke være lavere enn ${minimumValue}.";
+"awYsJs" = "${displayName} kan ikke være høyere enn ${maximumValue}.";
+
+"zDQBnU" = "Type";
+"BCP2vE" = "Beløp";
+"xB1kqh" = "Venter";
+"gNilw1" = "Evaluert";
+"iRwipD" = "Dato";
+"Qi16cy" = "Tid";
+"v08W8X" = "Gjenta";
+"aXdf7M" = "Budsjettbok";
+"ozYI0G" = "Konto";
+"tBBc2U" = "Kategori";
+"8zofwJ" = "Utbetalingsmottaker";
+"QLnzaL" = "Etiketter";
+"boEz9o" = "Plassering";
+"SCKlIf" = "Notater";
+"ZZ6bgZ" = "Vedlegg";
+
+"OCqRVA" = "Ja";
+"MpQ9fH" = "Nei";
+
+"7xlIvf" = "Ja";
+"pOelwg" = "Nei";
+
+"jDpx7J" = "Inntekt";
+"KDwsQL" = "Utgift";
+
+"EmPlTq" = "Aldri";
+"yNgckQ" = "Daglig";
+"1vBp0l" = "Ukentlig";
+"YugMLR" = "Hver 2. uke";
+"BPTs4x" = "Hver 3. uke";
+"yVd6fu" = "Hver 4. uke";
+"bJHfBW" = "Månedlig";
+"hcXxle" = "Hver 2. måned";
+"JFZtOn" = "Kvartalsvis";
+"v02Q1j" = "Halvårlig";
+"GB1jzm" = "Årlig";
+
+"ozlKhL" = "Resultat";
+"1ap2ew" = "Transaksjon lagt til";
+"TAoThb" = "Transaksjonen ikke lagt til";

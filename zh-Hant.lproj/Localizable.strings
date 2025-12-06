@@ -1038,6 +1038,10 @@
 "chart_widget_title" = "圖表";
 "chart_widget_description" = "此小組件顯示您的帳戶餘額圖表、當前餘額或所選時間內的收入和支出分佈";
 
+"account_widget_title" = "帳戶";
+"account_widget_description" = "此小工具會顯示特定帳戶在所選期間內的帳戶餘額圖表。";
+"account_widget_no_account_title" = "未選擇帳戶";
+
 "overview_widget_title" = "概覽";
 "overview_widget_description" = "此小組件顯示您的帳戶餘額概覽、當前餘額或所選期間的收入和支出總計";
 

@@ -1038,6 +1038,10 @@
 "chart_widget_title" = "Grafik";
 "chart_widget_description" = "Widget ini menampilkan grafik saldo akun Anda, saldo Anda saat ini, atau perincian pendapatan dan pengeluaran Anda untuk periode waktu yang dipilih.";
 
+"account_widget_title" = "Akun";
+"account_widget_description" = "Widget ini menampilkan grafik saldo akun Anda untuk akun tertentu dan periode yang dipilih.";
+"account_widget_no_account_title" = "Belum ada akun yang dipilih";
+
 "overview_widget_title" = "Ringkasan";
 "overview_widget_description" = "Widget ini menampilkan ringkasan saldo akun Anda, saldo Anda saat ini, atau total pendapatan dan pengeluaran untuk periode yang dipilih.";
 

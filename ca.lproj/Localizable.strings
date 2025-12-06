@@ -1038,6 +1038,10 @@
 "chart_widget_title" = "Gràfic";
 "chart_widget_description" = "Aquest widget mostra un gràfic dels saldos del teu compte, el teu saldo actual o un desglossament dels teus ingressos i despeses per al període seleccionat.";
 
+"account_widget_title" = "Compte";
+"account_widget_description" = "Aquest widget mostra un gràfic del saldo del teu compte per a un compte específic i el període seleccionat.";
+"account_widget_no_account_title" = "No s’ha seleccionat cap compte";
+
 "overview_widget_title" = "Visió general";
 "overview_widget_description" = "Aquest widget mostra una visió general dels saldos del teu compte, el teu saldo actual o un total d’ingressos i despeses pel període seleccionat.";
 

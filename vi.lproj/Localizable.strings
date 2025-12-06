@@ -1038,6 +1038,10 @@
 "chart_widget_title" = "Đồ thị";
 "chart_widget_description" = "Tiện ích này hiển thị biểu đồ số dư Ví, Số dư hiện tại của bạn hoặc bảng phân tích thu nhập và chi phí của bạn trong khoảng thời gian đã chọn.";
 
+"account_widget_title" = "Tài khoản";
+"account_widget_description" = "Widget này hiển thị biểu đồ số dư tài khoản của bạn cho một tài khoản cụ thể và khoảng thời gian đã chọn.";
+"account_widget_no_account_title" = "Chưa chọn tài khoản";
+
 "overview_widget_title" = "Tổng quan";
 "overview_widget_description" = "Tiện ích này hiển thị tổng quan về số dư Ví, Số dư hiện tại của bạn hoặc tổng thu nhập và chi phí trong khoảng thời gian đã chọn.";
 

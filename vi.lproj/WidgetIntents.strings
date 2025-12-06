@@ -1,0 +1,213 @@
+/*
+ WidgetIntents.strings
+ BudgetFlow
+ 
+ Created by Fabian Hasse on 18.03.23.
+ Copyright © 2023 Fabian Hasse. All rights reserved.
+*/
+
+/* MARK: - Widget Intents */
+/* General */
+"xOcSma" = "Kiểu";
+"pELoxA" = "Kiểu";
+"eyacbM" = "Kiểu";
+"K76l0O" = "Kiểu";
+
+"ktfUSN" = "Ngân sách";
+"jfTgFR" = "Ngân sách";
+
+"skIWPc" = "Tài khoản";
+"RZfRcv" = "Tài khoản";
+
+"hVCchi" = "Giai đoạn";
+"nzkPH7" = "Giai đoạn";
+"y8DNWw" = "Giai đoạn";
+"hnez9L" = "Giai đoạn";
+"jEusyP" = "Giai đoạn";
+"K7Xh6q" = "Giai đoạn";
+"hVCchi" = "Giai đoạn";
+
+"6fYCl9" = "Nhập nhanh";
+"sZa6ZG" = "Giao dịch mới";
+
+/* Configuration */
+"prSCwi" = "Cấu hình biểu đồ";
+"ioernk" = "Cấu hình tài khoản";
+"LM22qM" = "Cấu hình tổng quan";
+"z0ovGL" = "Cấu hình ngân sách";
+
+/* Descriptions */
+"pFbMvr" = "Hiển thị biểu đồ số dư hiện tại của bạn hoặc bảng phân tích thu nhập và chi phí của bạn trong khoảng thời gian đã chọn.";
+"lMVOAh" = "Hiển thị biểu đồ số dư tài khoản của bạn cho một tài khoản cụ thể và khoảng thời gian đã chọn.";
+"S2zZlu" = "Hiển thị bản tóm tắt số dư hiện tại của bạn hoặc tổng thu nhập và chi phí của bạn trong khoảng thời gian đã chọn.";
+"ju8eTZ" = "Hiển thị cho bạn ngân sách cụ thể cho khoảng thời gian đã chọn.";
+"c79LHS" = "Tiện ích này cho phép bạn nhanh chóng thêm các giao dịch mới.";
+
+"dDaQZs" = "Thêm khoản thu mới trong ứng dụng.";
+"p9tWSU" = "Thêm khoản chi mới trong ứng dụng.";
+"UCPXGi" = "Thêm chuyển khoản trong ứng dụng.";
+"yC8ys5" = "Thêm giao dịch định kỳ trong ứng dụng.";
+"sqTaTl" = "Thêm kế hoạch giao dịch trong ứng dụng.";
+
+/* Overview Types */
+"hVyAjR" = "Giá trị ròng";
+"9mfrfk-hVyAjR" = "Chỉ để xác nhận, bạn muốn ‘Giá trị ròng’ đúng không?";
+"jlSssx-hVyAjR" = "Có ${count} tùy chọn phù hợp với ‘Giá trị ròng’.";
+
+"3GCjUk" = "Số dư";
+"Lvj3sF" = "Số dư";
+"9mfrfk-3GCjUk" = "Xác nhận, bạn muốn là 'số dư'?";
+"MkDC8c-Lvj3sF" = "Xác nhận, bạn muốn là 'số dư'?";
+"5xfjRl-Lvj3sF" = "Có ${count} tuỳ chọn phù hợp với 'số dư'.";
+"jlSssx-3GCjUk" = "Có ${count} tuỳ chọn phù hợp với 'số dư'.";
+
+"nXqb0W" = "Tổng thu nhập";
+"wXUvBH" = "Tổng thu nhập";
+"MkDC8c-nXqb0W" = "Xác nhận, bạn muốn là 'tổng thu nhập'?";
+"9mfrfk-wXUvBH" = "Xác nhận, bạn muốn là 'tổng thu nhập'?";
+"jlSssx-wXUvBH" = "Có ${count} tuỳ chọn phù hợp với 'tổng thu nhập'.";
+"5xfjRl-nXqb0W" = "Có ${count} tuỳ chọn phù hợp với 'tổng thu nhập'.";
+
+"4CQ3jz" = "Tổng chi phí";
+"LTGP2N" = "Tổng chi phí";
+"MkDC8c-LTGP2N" = "Xác nhận, bạn muốn là 'tổng chi phí'?";
+"9mfrfk-4CQ3jz" = "Xác nhận, bạn muốn là 'tổng chi phí'?";
+"jlSssx-4CQ3jz" = "Có ${count} tuỳ chọn phù hợp với 'tổng chi phí'.";
+"5xfjRl-LTGP2N" = "Có ${count} tuỳ chọn phù hợp với 'tổng chi phí'";
+
+"967MIQ" = "Chi phí cố định";
+"G7YBAE" = "Chi phí cố định";
+"9mfrfk-G7YBAE" = "Xác nhận, bạn muốn là 'chi phí cố định'?";
+"MkDC8c-967MIQ" = "Xác nhận, bạn muốn là 'chi phí cố định'?";
+"5xfjRl-967MIQ" = "Có ${count} tuỳ chọn phù hợp với 'chi phí cố định'.";
+"jlSssx-G7YBAE" = "Có ${count} tuỳ chọn phù hợp với 'chi phí cố định'.";
+
+"R35A16" = "Chi phí biến đổi";
+"Xq1BNs" = "Chi phí biến đổi";
+"MkDC8c-R35A16" = "Xác nhận, bạn muốn là 'chi phí biến đổi'?";
+"9mfrfk-Xq1BNs" = "Xác nhận, bạn muốn là 'chi phí biến đổi'?";
+"5xfjRl-R35A16" = "Có ${count} tuỳ chọn phù hợp với 'chi phí biến đổi'.";
+"jlSssx-Xq1BNs" = "Có ${count} tuỳ chọn phù hợp với 'chi phí biến đổi'.";
+
+"PhqijR" = "Số dư ví";
+"VhlRFH" = "Số dư ví";
+"MkDC8c-PhqijR" = "Xác nhận, bạn muốn là 'số dư ví'?";
+"9mfrfk-VhlRFH" = "Xác nhận, bạn muốn là 'số dư ví'?";
+"5xfjRl-PhqijR" = "Có ${count} tuỳ chọn phù hợp với 'số dư ví'.";
+"jlSssx-VhlRFH" = "Có ${count} tuỳ chọn phù hợp với 'số dư ví'.";
+
+/* Action Types */
+"CVbmHD" = "Hành động";
+"WjgQ3F" = "Khoản thu mới";
+"6vnhNE-WjgQ3F" = "Xác nhận, bạn muốn là 'khoản thu mới'?";
+"SiRH8S-WjgQ3F" = "Có ${count} tuỳ chọn phù hợp với 'khoản thu mới'.";
+"Frl0u1" = "Khoản chi mới";
+"6vnhNE-Frl0u1" = "Xác nhận, bạn muốn là 'khoản chi mới'?";
+"SiRH8S-Frl0u1" = "Có ${count} tuỳ chọn phù hợp với 'khoản chi mới'.";
+"89P1cU" = "Chuyển khoản mới";
+"6vnhNE-89P1cU" = "Xác nhận, bạn muốn là 'chuyển khoản mới'?";
+"SiRH8S-89P1cU" = "Có ${count} tuỳ chọn phù hợp với 'chuyển khoản mới'.";
+"sEOquD" = "Định kỳ";
+"6vnhNE-sEOquD" = "Xác nhận, bạn muốn là 'định kỳ'?";
+"SiRH8S-sEOquD" = "Có ${count} tuỳ chọn phù hợp với 'định kỳ'.";
+
+/* Period Types */
+"W8Xs6i" = "Ngày hôm nay";
+
+"Nvy91A" = "Tuần này";
+
+"0uJvbe" = "Tháng này";
+"9M6g0C" = "Tháng này";
+"5k1p3H" = "Tháng này";
+"BgXL00-0uJvbe" = "Xác nhận, bạn muốn là 'tháng này'?";
+"EqxQCI-0uJvbe" = "Xác nhận, bạn muốn là 'tháng này'?";
+"uJZrBb-0uJvbe" = "Xác nhận, bạn muốn là 'tháng này'?";
+"Iw8VwE-0uJvbe" = "Có ${count} tuỳ chọn phù hợp với 'tháng này'.";
+"ujLY0p-0uJvbe" = "Có ${count} tuỳ chọn phù hợp với 'tháng này'.";
+"2bSbou-0uJvbe" = "Có ${count} tuỳ chọn phù hợp với 'tháng này'.";
+
+"XLsrlR" = "Năm nay";
+"OjUmV9" = "Năm nay";
+"PSloJn" = "Năm nay";
+"BgXL00-OjUmV9" = "Xác nhận, bạn muốn là 'năm nay'?";
+"EqxQCI-OjUmV9" = "Xác nhận, bạn muốn là 'năm nay'?";
+"uJZrBb-OjUmV9" = "Xác nhận, bạn muốn là 'năm nay'?";
+"Iw8VwE-OjUmV9" = "Có ${count} tuỳ chọn phù hợp với 'năm nay'.";
+"ujLY0p-OjUmV9" = "Có ${count} tuỳ chọn phù hợp với 'năm nay'.";
+"2bSbou-OjUmV9" = "Có ${count} tuỳ chọn phù hợp với 'năm nay'.";
+
+/* MARK: - Siri Intents */
+/* Types */
+"PrcHew" = "Sổ ngân sách";
+"RfTeQa" = "Ví";
+"lhsAlw" = "Danh mục";
+"7K8wsp" = "Nhóm";
+"ktfUSN" = "Ngân sách";
+"TgSVEY" = "Người nhận";
+
+/* Create Transaction */
+"2UssG9" = "Tạo giao dịch";
+"0iH3hu" = "Tạo giao dịch";
+"Yd8NCf" = "Tạo giao dịch";
+
+"J710PA" = "Tạo giao dịch mới từ các tham số đã chỉ định và thêm vào ứng dụng";
+"O6voV3" = "Đã tạo giao dịch mới";
+
+"c4H0S5" = "Loại giao dịch là gì?";
+"112aEi" = "Số tiền bạn giao dịch là bao nhiêu?";
+"qnGAXN" = "Có phải là thanh toán đang chờ xử lý?";
+"lTy5qN" = "Giao dịch có nên được đưa vào thống kê không?";
+"zZSQvt" = "Bạn muốn sử dụng Sổ ngân sách nào?";
+"Y5Nex5" = "Bạn đã sử dụng Ví nào?";
+"0HLNLH" = "Bạn đã chi tiêu vào Danh mục nào?";
+"wqsAJE" = "Nên chỉ định người nhận thanh toán nào?";
+"X8ocGF" = "Nên sử dụng thẻ nào?";
+"AHmcT3" = "Bạn đã chi tiêu vào lúc nào?";
+"P32rK5" = "Giao dịch này nên lặp lại với tần suất như thế nào?";
+
+"aweDKY" = "Xác nhận, bạn muốn là '${type}'?";
+"f00iD1" = "Xác nhận, bạn muốn là ‘${repetitionFrequency}’?";
+"LsIZmT" = "${displayName} không thể là số âm.";
+"aMDTJp" = "${displayName} không được thấp hơn ${minimumValue}.";
+"awYsJs" = "${displayName} không được cao hơn ${maximumValue}.";
+
+"zDQBnU" = "Kiểu";
+"BCP2vE" = "Số tiền";
+"xB1kqh" = "Đang chờ xử lý";
+"gNilw1" = "Đã đánh giá";
+"iRwipD" = "Ngày";
+"Qi16cy" = "Thời gian";
+"v08W8X" = "Lặp lại";
+"aXdf7M" = "Sổ ngân sách";
+"ozYI0G" = "Ví";
+"tBBc2U" = "Danh mục";
+"8zofwJ" = "Người nhận";
+"QLnzaL" = "Thẻ";
+"boEz9o" = "Vị trí";
+"SCKlIf" = "Ghi chú";
+"ZZ6bgZ" = "Tệp đính kèm";
+
+"OCqRVA" = "Có";
+"MpQ9fH" = "Không";
+
+"7xlIvf" = "Có";
+"pOelwg" = "Không";
+
+"jDpx7J" = "Khoản thu";
+"KDwsQL" = "Khoản chi";
+
+"EmPlTq" = "Không bao giờ";
+"yNgckQ" = "Hằng ngày";
+"1vBp0l" = "Hằng tuần";
+"YugMLR" = "Mỗi 2 tuần";
+"BPTs4x" = "Mỗi 3 tuần";
+"yVd6fu" = "Mỗi 4 tuần";
+"bJHfBW" = "Hằng tháng";
+"hcXxle" = "Mỗi 2 tháng";
+"JFZtOn" = "Mỗi 4 tháng";
+"v02Q1j" = "Mỗi 6 tháng";
+"GB1jzm" = "Hằng năm";
+
+"ozlKhL" = "Kết quả";
+"1ap2ew" = "Đã thêm giao dịch";
+"TAoThb" = "Giao dịch chưa được thêm";

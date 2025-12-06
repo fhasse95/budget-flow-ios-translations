@@ -1,0 +1,213 @@
+/*
+ WidgetIntents.strings
+ BudgetFlow
+ 
+ Created by Fabian Hasse on 18.03.23.
+ Copyright © 2023 Fabian Hasse. All rights reserved.
+*/
+
+/* MARK: - Widget Intents */
+/* General */
+"xOcSma" = "Tip";
+"pELoxA" = "Tip";
+"eyacbM" = "Tip";
+"K76l0O" = "Tip";
+
+"ktfUSN" = "Proračun";
+"jfTgFR" = "Proračun";
+
+"skIWPc" = "Račun";
+"RZfRcv" = "Račun";
+
+"hVCchi" = "Obdobje";
+"nzkPH7" = "Obdobje";
+"y8DNWw" = "Obdobje";
+"hnez9L" = "Obdobje";
+"jEusyP" = "Obdobje";
+"K7Xh6q" = "Obdobje";
+"hVCchi" = "Obdobje";
+
+"6fYCl9" = "Hiter vnos";
+"sZa6ZG" = "Nova transakcija";
+
+/* Configuration */
+"prSCwi" = "Konfiguriraj grafikon";
+"ioernk" = "Konfiguriraj račun";
+"LM22qM" = "Konfiguriraj pregled";
+"z0ovGL" = "Konfiguriraj proračun";
+
+/* Descriptions */
+"pFbMvr" = "Ta pripomoček prikazuje grafikon stanja na vaših računih, trenutno stanje ali razčlenitev prihodkov in odhodkov za izbrano časovno obdobje.";
+"lMVOAh" = "Ta pripomoček prikazuje graf stanja vašega računa za določen račun in izbrano časovno obdobje.";
+"S2zZlu" = "Ta pripomoček prikazuje povzetek stanja na vaših računih, trenutno stanje ali skupno vsoto prihodkov in odhodkov za izbrano časovno obdobje.";
+"ju8eTZ" = "Ta pripomoček prikazuje določen proračun za izbrano obdobje.";
+"c79LHS" = "Ta pripomoček vam omogoča hitro dodajanje novih transakcij.";
+
+"dDaQZs" = "Odpre pogled za dodajanje novega prihodka v aplikaciji.";
+"p9tWSU" = "Odpre pogled za dodajanje novega odhodka v aplikaciji.";
+"UCPXGi" = "Odpre pogled za dodajanje novega prenosa v aplikaciji.";
+"yC8ys5" = "Odpre pogled za dodajanje novega ponavljajočega se plačila v aplikaciji.";
+"sqTaTl" = "Odpre pogled na načrtovane transakcije v aplikaciji.";
+
+/* Overview Types */
+"hVyAjR" = "Čista vrednost";
+"9mfrfk-hVyAjR" = "Samo za potrditev, ste želeli ‘Čista vrednost’?";
+"jlSssx-hVyAjR" = "Obstaja ${count} možnosti, ki ustrezajo ‘Čista vrednost’.";
+
+"3GCjUk" = "Stanje";
+"Lvj3sF" = "Stanje";
+"9mfrfk-3GCjUk" = "Samo za potrditev, ali ste želeli 'stanje'?";
+"MkDC8c-Lvj3sF" = "Samo za potrditev, ali ste želeli 'stanje'?";
+"5xfjRl-Lvj3sF" = "Na voljo je ${count} možnosti, ki ustrezajo 'stanje'.";
+"jlSssx-3GCjUk" = "Na voljo je ${count} možnosti, ki ustrezajo 'stanje'.";
+
+"nXqb0W" = "Skupni prihodki";
+"wXUvBH" = "Skupni prihodki";
+"MkDC8c-nXqb0W" = "Samo za potrditev, ali ste želeli 'skupni prihodki'?";
+"9mfrfk-wXUvBH" = "Samo za potrditev, ali ste želeli 'skupni prihodki'?";
+"jlSssx-wXUvBH" = "Na voljo je ${count} možnosti, ki ustrezajo 'skupni prihodki'.";
+"5xfjRl-nXqb0W" = "Na voljo je ${count} možnosti, ki ustrezajo 'skupni prihodki'.";
+
+"4CQ3jz" = "Skupni odhodki";
+"LTGP2N" = "Skupni odhodki";
+"MkDC8c-LTGP2N" = "Samo za potrditev, ali ste želeli 'skupni odhodki'?";
+"9mfrfk-4CQ3jz" = "Samo za potrditev, ali ste želeli 'skupni odhodki'?";
+"jlSssx-4CQ3jz" = "Na voljo je ${count} možnosti, ki ustrezajo 'skupni odhodki'.";
+"5xfjRl-LTGP2N" = "Na voljo je ${count} možnosti, ki ustrezajo 'skupni odhodki'";
+
+"967MIQ" = "Fiksni odhodki";
+"G7YBAE" = "Fiksni odhodki";
+"9mfrfk-G7YBAE" = "Samo za potrditev, ali ste želeli 'fiksni odhodki'?";
+"MkDC8c-967MIQ" = "Samo za potrditev, ali ste želeli 'fiksni odhodki'?";
+"5xfjRl-967MIQ" = "Na voljo je ${count} možnosti, ki ustrezajo 'fiksni odhodki'.";
+"jlSssx-G7YBAE" = "Na voljo je ${count} možnosti, ki ustrezajo 'fiksni odhodki'.";
+
+"R35A16" = "Spremenljivi odhodki";
+"Xq1BNs" = "Spremenljivi odhodki";
+"MkDC8c-R35A16" = "Samo za potrditev, ali ste želeli 'spremenljivi odhodki'?";
+"9mfrfk-Xq1BNs" = "Samo za potrditev, ali ste želeli 'spremenljivi odhodki'?";
+"5xfjRl-R35A16" = "Na voljo je ${count} možnosti, ki ustrezajo 'spremenljivi odhodki'.";
+"jlSssx-Xq1BNs" = "Na voljo je ${count} možnosti, ki ustrezajo 'spremenljivi odhodki'.";
+
+"PhqijR" = "Stanje na računih";
+"VhlRFH" = "Stanje na računih";
+"MkDC8c-PhqijR" = "Samo za potrditev, ali ste želeli 'stanje na računih'?";
+"9mfrfk-VhlRFH" = "Samo za potrditev, ali ste želeli 'stanje na računih'?";
+"5xfjRl-PhqijR" = "Na voljo je ${count} možnosti, ki ustrezajo 'stanje na računih'.";
+"jlSssx-VhlRFH" = "Na voljo je ${count} možnosti, ki ustrezajo 'stanje na računih'.";
+
+/* Action Types */
+"CVbmHD" = "Dejanje";
+"WjgQ3F" = "Nov prihodek";
+"6vnhNE-WjgQ3F" = "Samo za potrditev, ali ste želeli 'nov prihodek'?";
+"SiRH8S-WjgQ3F" = "Na voljo je ${count} možnosti, ki ustrezajo 'nov prihodek'.";
+"Frl0u1" = "Nov odhodek";
+"6vnhNE-Frl0u1" = "Samo za potrditev, ali ste želeli 'nov odhodek'?";
+"SiRH8S-Frl0u1" = "Na voljo je ${count} možnosti, ki ustrezajo 'nov odhodek'.";
+"89P1cU" = "Nov prenos";
+"6vnhNE-89P1cU" = "Samo za potrditev, ali ste želeli 'nov prenos'?";
+"SiRH8S-89P1cU" = "Na voljo je ${count} možnosti, ki ustrezajo 'nov prenos'.";
+"sEOquD" = "Ponavljajoče se";
+"6vnhNE-sEOquD" = "Samo za potrditev, ali ste želeli 'ponavljajoče se'?";
+"SiRH8S-sEOquD" = "Na voljo je ${count} možnosti, ki ustrezajo 'ponavljajoče se'.";
+
+/* Period Types */
+"W8Xs6i" = "Trenutni dan";
+
+"Nvy91A" = "Trenutni teden";
+
+"0uJvbe" = "Trenutni mesec";
+"9M6g0C" = "Trenutni mesec";
+"5k1p3H" = "Trenutni mesec";
+"BgXL00-0uJvbe" = "Samo za potrditev, ali ste želeli 'trenutni mesec'?";
+"EqxQCI-0uJvbe" = "Samo za potrditev, ali ste želeli 'trenutni mesec'?";
+"uJZrBb-0uJvbe" = "Samo za potrditev, ali ste želeli 'trenutni mesec'?";
+"Iw8VwE-0uJvbe" = "Na voljo je ${count} možnosti, ki ustrezajo 'trenutni mesec'.";
+"ujLY0p-0uJvbe" = "Na voljo je ${count} možnosti, ki ustrezajo 'trenutni mesec'.";
+"2bSbou-0uJvbe" = "Na voljo je ${count} možnosti, ki ustrezajo 'trenutni mesec'.";
+
+"XLsrlR" = "Trenutno leto";
+"OjUmV9" = "Trenutno leto";
+"PSloJn" = "Trenutno leto";
+"BgXL00-OjUmV9" = "Samo za potrditev, ali ste želeli 'trenutno leto'?";
+"EqxQCI-OjUmV9" = "Samo za potrditev, ali ste želeli 'trenutno leto'?";
+"uJZrBb-OjUmV9" = "Samo za potrditev, ali ste želeli 'trenutno leto'?";
+"Iw8VwE-OjUmV9" = "Na voljo je ${count} možnosti, ki ustrezajo 'trenutno leto'.";
+"ujLY0p-OjUmV9" = "Na voljo je ${count} možnosti, ki ustrezajo 'trenutno leto'.";
+"2bSbou-OjUmV9" = "Na voljo je ${count} možnosti, ki ustrezajo 'trenutno leto'.";
+
+/* MARK: - Siri Intents */
+/* Types */
+"PrcHew" = "Proračunska knjiga";
+"RfTeQa" = "Račun";
+"lhsAlw" = "Kategorija";
+"7K8wsp" = "Mapa";
+"ktfUSN" = "Proračun";
+"TgSVEY" = "Prejemnik";
+
+/* Create Transaction */
+"2UssG9" = "Ustvari transakcijo";
+"0iH3hu" = "Ustvari transakcijo";
+"Yd8NCf" = "Ustvari transakcijo";
+
+"J710PA" = "Ustvari novo transakcijo z določenimi parametri in jo doda v aplikacijo.";
+"O6voV3" = "Ustvarjena nova transakcija";
+
+"c4H0S5" = "Kakšen je tip transakcije?";
+"112aEi" = "Kakšen je znesek transakcije?";
+"qnGAXN" = "Ali je plačilo transakcije čakajoče?";
+"lTy5qN" = "Ali naj bo transakcija vključena v statistiko?";
+"zZSQvt" = "Katera proračunska knjiga naj bo uporabljena?";
+"Y5Nex5" = "Kateri račun naj bo uporabljen?";
+"0HLNLH" = "Katera kategorija naj bo uporabljena?";
+"wqsAJE" = "Kateri prejemnik naj bo uporabljen?";
+"X8ocGF" = "Katere oznake naj bodo uporabljene?";
+"AHmcT3" = "Kateri datum naj bo uporabljen?";
+"P32rK5" = "Kako pogosto naj se transakcija ponavlja?";
+
+"aweDKY" = "Samo za potrditev, ali ste želeli '${type}'?";
+"f00iD1" = "Samo za potrditev, ali ste želeli '${repetitionFrequency}'?";
+"LsIZmT" = "${displayName} ne more biti negativen.";
+"aMDTJp" = "${displayName} ne more biti nižji od ${minimumValue}.";
+"awYsJs" = "${displayName} ne more biti višji od ${maximumValue}.";
+
+"zDQBnU" = "Tip";
+"BCP2vE" = "Znesek";
+"xB1kqh" = "Je čakajoče";
+"gNilw1" = "Vrednoteno";
+"iRwipD" = "Datum";
+"Qi16cy" = "Čas";
+"v08W8X" = "Ponovi";
+"aXdf7M" = "Proračunska knjiga";
+"ozYI0G" = "Račun";
+"tBBc2U" = "Kategorija";
+"8zofwJ" = "Prejemnik";
+"QLnzaL" = "Oznake";
+"boEz9o" = "Lokacija";
+"SCKlIf" = "Opombe";
+"ZZ6bgZ" = "Priloge";
+
+"OCqRVA" = "Da";
+"MpQ9fH" = "Ne";
+
+"7xlIvf" = "Da";
+"pOelwg" = "Ne";
+
+"jDpx7J" = "Prihodek";
+"KDwsQL" = "Odhodek";
+
+"EmPlTq" = "Nikoli";
+"yNgckQ" = "Dnevno";
+"1vBp0l" = "Tedensko";
+"YugMLR" = "Vsake 2 tedna";
+"BPTs4x" = "Vsake 3 tedne";
+"yVd6fu" = "Vsake 4 tedne";
+"bJHfBW" = "Mesečno";
+"hcXxle" = "Vsaka 2 meseca";
+"JFZtOn" = "Četrtletno";
+"v02Q1j" = "Polletno";
+"GB1jzm" = "Letno";
+
+"ozlKhL" = "Rezultat";
+"1ap2ew" = "Transakcija dodana";
+"TAoThb" = "Transakcija ni bila dodana";

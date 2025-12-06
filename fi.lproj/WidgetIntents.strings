@@ -1,0 +1,213 @@
+/*
+ WidgetIntents.strings
+ BudgetFlow
+ 
+ Created by Fabian Hasse on 18.03.23.
+ Copyright © 2023 Fabian Hasse. All rights reserved.
+*/
+
+/* MARK: - Widget Intents */
+/* General */
+"xOcSma" = "Tyyppi";
+"pELoxA" = "Tyyppi";
+"eyacbM" = "Tyyppi";
+"K76l0O" = "Tyyppi";
+
+"ktfUSN" = "Budjetti";
+"jfTgFR" = "Budjetti";
+
+"skIWPc" = "Tili";
+"RZfRcv" = "Tili";
+
+"hVCchi" = "Jakso";
+"nzkPH7" = "Jakso";
+"y8DNWw" = "Jakso";
+"hnez9L" = "Jakso";
+"jEusyP" = "Kausi";
+"K7Xh6q" = "Jakso";
+"hVCchi" = "Jakso";
+
+"6fYCl9" = "Pikasyöttö";
+"sZa6ZG" = "Uusi tapahtuma";
+
+/* Configuration */
+"prSCwi" = "Määritä kaavio";
+"ioernk" = "Määritä tili";
+"LM22qM" = "Määritä yleiskatsaus";
+"z0ovGL" = "Määritä budjetti";
+
+/* Descriptions */
+"pFbMvr" = "Tämä widget näyttää kaavion tilisi saldoista, nykyisestä saldosta tai erittelyn tuloistasi ja menoistasi valitulta ajanjaksolta.";
+"lMVOAh" = "Tämä widget näyttää kaavion tilisi saldosta tietylle tilille ja valitulle ajanjaksolle.";
+"S2zZlu" = "Tämä widget näyttää yhteenvedon tilisi saldoista, nykyisestä saldosta tai kokonaistuloistasi ja menoistasi valitulta ajanjaksolta.";
+"ju8eTZ" = "Tämä widget näyttää tietyn budjetin valitulle ajanjaksolle.";
+"c79LHS" = "Tämän widgetin avulla voit lisätä nopeasti uusia tapahtumia.";
+
+"dDaQZs" = "Avaa uusien tulojen lisäämisnäkymän sovelluksessa.";
+"p9tWSU" = "Avaa uusien kulujen lisäämisnäkymän sovelluksessa.";
+"UCPXGi" = "Avaa uuden siirtonäkymän sovelluksessa.";
+"yC8ys5" = "Avaa uuden toistuvan tapahtuman lisäysnäkymän sovelluksessa.";
+"sqTaTl" = "Avaa tulevien tapahtumien näkymän sovelluksessa.";
+
+/* Overview Types */
+"hVyAjR" = "Nettovarallisuus";
+"9mfrfk-hVyAjR" = "Varmistuksena, halusitko ‘Nettovarallisuus’?";
+"jlSssx-hVyAjR" = "On ${count} vaihtoehtoa, jotka vastaavat ‘Nettovarallisuus’.";
+
+"3GCjUk" = "Saldo";
+"Lvj3sF" = "Saldo";
+"9mfrfk-3GCjUk" = "Vahvistaaksesi, halusit 'tasapainon'?";
+"MkDC8c-Lvj3sF" = "Vahvistaaksesi, halusit 'tasapainon'?";
+"5xfjRl-Lvj3sF" = "On ${count} vaihtoehtoa, jotka vastaavat 'saldoa'.";
+"jlSssx-3GCjUk" = "On ${count} vaihtoehtoa, jotka vastaavat 'saldoa'.";
+
+"nXqb0W" = "Tuot yhteensä";
+"wXUvBH" = "Tuot yhteensä";
+"MkDC8c-nXqb0W" = "Vahvistuksena, halusit 'kokonaistulot'?";
+"9mfrfk-wXUvBH" = "Vahvistuksena, halusit 'kokonaistulot'?";
+"jlSssx-wXUvBH" = "On ${count} vaihtoehtoa, jotka vastaavat 'kokonaistuloa'.";
+"5xfjRl-nXqb0W" = "On ${count} vaihtoehtoa, jotka vastaavat 'kokonaistuloa'.";
+
+"4CQ3jz" = "Kokonaiskulut";
+"LTGP2N" = "Kokonaiskulut";
+"MkDC8c-LTGP2N" = "Vahvistuksena, halusit 'kokonaiskulut'?";
+"9mfrfk-4CQ3jz" = "Vahvistuksena, halusit 'kokonaiskulut'?";
+"jlSssx-4CQ3jz" = "On ${count} vaihtoehtoa, jotka vastaavat 'kokonaiskuluja'.";
+"5xfjRl-LTGP2N" = "On ${count} vaihtoehtoa, jotka vastaavat 'kokonaiskuluja'";
+
+"967MIQ" = "Kiinteät kulut";
+"G7YBAE" = "Kiinteät kulut";
+"9mfrfk-G7YBAE" = "Vahvistaaksesi, halusit 'kiinteitä kuluja'?";
+"MkDC8c-967MIQ" = "Vahvistaaksesi, halusit 'kiinteitä kuluja'?";
+"5xfjRl-967MIQ" = "On ${count} vaihtoehtoa, jotka vastaavat 'kiinteitä kuluja'.";
+"jlSssx-G7YBAE" = "On ${count} vaihtoehtoa, jotka vastaavat 'kiinteitä kuluja'.";
+
+"R35A16" = "Muuttuvat kulut";
+"Xq1BNs" = "Muuttuvat kulut";
+"MkDC8c-R35A16" = "Vahvistuksena, halusit 'muuttuvia kuluja'?";
+"9mfrfk-Xq1BNs" = "Vahvistuksena, halusit 'muuttuvia kuluja'?";
+"5xfjRl-R35A16" = "On ${count} vaihtoehtoa, jotka vastaavat 'muuttuvia kuluja'.";
+"jlSssx-Xq1BNs" = "On ${count} vaihtoehtoa, jotka vastaavat 'muuttuvia kuluja'.";
+
+"PhqijR" = "Tilien saldot";
+"VhlRFH" = "Tilien saldot";
+"MkDC8c-PhqijR" = "Vahvistaaksesi, halusit 'tilin saldot'?";
+"9mfrfk-VhlRFH" = "Vahvistaaksesi, halusit 'tilin saldot'?";
+"5xfjRl-PhqijR" = "On ${count} vaihtoehtoa, jotka vastaavat 'tilin saldoa'.";
+"jlSssx-VhlRFH" = "On ${count} vaihtoehtoa, jotka vastaavat 'tilin saldot'.";
+
+/* Action Types */
+"CVbmHD" = "Toiminto";
+"WjgQ3F" = "Uusi tulo";
+"6vnhNE-WjgQ3F" = "Vahvistuksena, halusit 'uutta tuloa'?";
+"SiRH8S-WjgQ3F" = "On ${count} vaihtoehtoa, jotka vastaavat 'uutta tuloa'.";
+"Frl0u1" = "Uusi kulu";
+"6vnhNE-Frl0u1" = "Vahvistuksena, halusit 'uuden kulun'?";
+"SiRH8S-Frl0u1" = "On ${count} vaihtoehtoa, jotka vastaavat 'uutta kulua'.";
+"89P1cU" = "Uusi siirto";
+"6vnhNE-89P1cU" = "Vahvistaaksesi, halusit 'uuden siirron'?";
+"SiRH8S-89P1cU" = "On ${count} vaihtoehtoa, jotka vastaavat 'uutta siirtoa'.";
+"sEOquD" = "Toistuva";
+"6vnhNE-sEOquD" = "Vahvistaaksesi, halusit 'toistuvan'?";
+"SiRH8S-sEOquD" = "On ${count} vaihtoehtoa, jotka vastaavat sanaa 'toistuva'.";
+
+/* Period Types */
+"W8Xs6i" = "Nykyinen päivä";
+
+"Nvy91A" = "Nykyinen viikko";
+
+"0uJvbe" = "Nykyinen kuukausi";
+"9M6g0C" = "Nykyinen kuukausi";
+"5k1p3H" = "Nykyinen kuukausi";
+"BgXL00-0uJvbe" = "Vahvistaaksesi, halusit 'kuluvan kuukauden'?";
+"EqxQCI-0uJvbe" = "Vahvistaaksesi, halusit 'kuluvan kuukauden'?";
+"uJZrBb-0uJvbe" = "Vahvistaaksesi, halusit 'kuluvan kuukauden'?";
+"Iw8VwE-0uJvbe" = "On ${count} vaihtoehtoa, jotka vastaavat 'current month'.";
+"ujLY0p-0uJvbe" = "On ${count} vaihtoehtoa, jotka vastaavat 'current month'.";
+"2bSbou-0uJvbe" = "On ${count} vaihtoehtoa, jotka vastaavat 'current month'.";
+
+"XLsrlR" = "Kuluva vuosi";
+"OjUmV9" = "Kuluva vuosi";
+"PSloJn" = "Kuluva vuosi";
+"BgXL00-OjUmV9" = "Vahvistaaksesi, halusit 'kuluvan vuoden'?";
+"EqxQCI-OjUmV9" = "Vahvistaaksesi, halusit 'kuluvan vuoden'?";
+"uJZrBb-OjUmV9" = "Vahvistuksena, halusit 'kuluvan vuoden'?";
+"Iw8VwE-OjUmV9" = "On ${count} vaihtoehtoa, jotka vastaavat 'kuluvaa vuotta'.";
+"ujLY0p-OjUmV9" = "On ${count} vaihtoehtoa, jotka vastaavat 'kuluvaa vuotta'.";
+"2bSbou-OjUmV9" = "On ${count} vaihtoehtoa, jotka vastaavat 'kuluvaa vuotta'.";
+
+/* MARK: - Siri Intents */
+/* Types */
+"PrcHew" = "Budjettikirja";
+"RfTeQa" = "Tili";
+"lhsAlw" = "Luokka";
+"7K8wsp" = "Kansio";
+"ktfUSN" = "Budjetti";
+"TgSVEY" = "Maksunsaaja";
+
+/* Create Transaction */
+"2UssG9" = "Luo tapahtuma";
+"0iH3hu" = "Luo tapahtuma";
+"Yd8NCf" = "Luo tapahtuma";
+
+"J710PA" = "Luo uuden tapahtuman määritettyjen parametrien avulla ja lisää sen sovellukseen.";
+"O6voV3" = "Luotu uusi tapahtuma";
+
+"c4H0S5" = "Mikä on tapahtuman tyyppi?";
+"112aEi" = "Mikä on tapahtuman summa?";
+"qnGAXN" = "Onko tapahtuman maksu vireillä?";
+"lTy5qN" = "Pitäisikö tapahtuma sisällyttää tilastoihin?";
+"zZSQvt" = "Mitä budjettikirjaa tulisi käyttää?";
+"Y5Nex5" = "Mitä tiliä tulisi käyttää?";
+"0HLNLH" = "Mitä luokkaa tulisi käyttää?";
+"wqsAJE" = "Mikä maksunsaaja pitäisi määrittää?";
+"X8ocGF" = "Mitä tunnisteita tulisi käyttää?";
+"AHmcT3" = "Mitä päivämäärää tulisi käyttää?";
+"P32rK5" = "Kuinka usein tapahtuma tulee toistaa?";
+
+"aweDKY" = "Vahvistaaksesi, halusit '${type}'?";
+"f00iD1" = "Vahvistaaksesi, halusit '${repetitionFrequency}'?";
+"LsIZmT" = "${displayName} ei voi olla negatiivinen.";
+"aMDTJp" = "${displayName} ei voi olla pienempi kuin ${minimumValue}.";
+"awYsJs" = "${displayName} ei voi olla suurempi kuin ${maximumValue}.";
+
+"zDQBnU" = "Tyyppi";
+"BCP2vE" = "Summa";
+"xB1kqh" = "Odottaa";
+"gNilw1" = "Arvioitu";
+"iRwipD" = "Päivämäärä";
+"Qi16cy" = "Aika";
+"v08W8X" = "Toista";
+"aXdf7M" = "Budjettikirja";
+"ozYI0G" = "Tili";
+"tBBc2U" = "Luokka";
+"8zofwJ" = "Maksunsaaja";
+"QLnzaL" = "Tunnisteet";
+"boEz9o" = "Sijainti";
+"SCKlIf" = "Huomautukset";
+"ZZ6bgZ" = "Liitteet";
+
+"OCqRVA" = "Kyllä";
+"MpQ9fH" = "Ei";
+
+"7xlIvf" = "Kyllä";
+"pOelwg" = "Ei";
+
+"jDpx7J" = "Tulot";
+"KDwsQL" = "Kulu";
+
+"EmPlTq" = "Ei koskaan";
+"yNgckQ" = "Päivittäin";
+"1vBp0l" = "Viikoittain";
+"YugMLR" = "2 viikon välein";
+"BPTs4x" = "3 viikon välein";
+"yVd6fu" = "4 viikon välein";
+"bJHfBW" = "Kuukausittain";
+"hcXxle" = "2 kuukauden välein";
+"JFZtOn" = "Neljännesvuosittain";
+"v02Q1j" = "Puolivuosittain";
+"GB1jzm" = "Vuotuinen";
+
+"ozlKhL" = "Tulos";
+"1ap2ew" = "Tapahtuma lisätty";
+"TAoThb" = "Tapahtumaa ei lisätty";

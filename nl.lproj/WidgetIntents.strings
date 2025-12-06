@@ -1,0 +1,213 @@
+/*
+ WidgetIntents.strings
+ BudgetFlow
+ 
+ Created by Fabian Hasse on 18.03.23.
+ Copyright © 2023 Fabian Hasse. All rights reserved.
+*/
+
+/* MARK: - Widget Intents */
+/* General */
+"xOcSma" = "Type";
+"pELoxA" = "Type";
+"eyacbM" = "Type";
+"K76l0O" = "Type";
+
+"ktfUSN" = "Budget";
+"jfTgFR" = "Budget";
+
+"skIWPc" = "Rekening";
+"RZfRcv" = "Rekening";
+
+"hVCchi" = "Periode";
+"nzkPH7" = "Periode";
+"y8DNWw" = "Periode";
+"hnez9L" = "Periode";
+"jEusyP" = "Periode";
+"K7Xh6q" = "Periode";
+"hVCchi" = "Periode";
+
+"6fYCl9" = "Snelle invoer";
+"sZa6ZG" = "Nieuwe transactie";
+
+/* Configuration */
+"prSCwi" = "Grafiek configureren";
+"ioernk" = "Rekening configureren";
+"LM22qM" = "Overzicht configureren";
+"z0ovGL" = "Configureer budget";
+
+/* Descriptions */
+"pFbMvr" = "Deze widget geeft een overzicht weer van uw rekeningsaldi, uw huidige saldo of een uitsplitsing van uw inkomsten en uitgaven voor de geselecteerde periode.";
+"lMVOAh" = "Deze widget toont een grafiek van je rekeningsaldo voor een specifieke rekening en de geselecteerde periode.";
+"S2zZlu" = "Deze widget geeft een overzicht weer van uw rekeningsaldi, uw huidige saldo of een totaal van uw inkomsten en uitgaven voor de geselecteerde periode.";
+"ju8eTZ" = "Deze widget toont u een specifiek budget voor de geselecteerde periode.";
+"c79LHS" = "Met deze widget kunt u snel nieuwe transacties toevoegen.";
+
+"dDaQZs" = "Opent de weergave voor het toevoegen van nieuwe inkomsten in de app.";
+"p9tWSU" = "Opent de weergave voor het toevoegen van nieuwe uitgaven in de app.";
+"UCPXGi" = "Opent de weergave voor het toevoegen van een nieuwe overdracht in de app.";
+"yC8ys5" = "Opent de weergave voor het toevoegen van nieuwe terugkerende transacties in de app.";
+"sqTaTl" = "Opent de weergave van aankomende transacties in de app.";
+
+/* Overview Types */
+"hVyAjR" = "Vermogen";
+"9mfrfk-hVyAjR" = "Even ter bevestiging, bedoelde je ‘Vermogen’?";
+"jlSssx-hVyAjR" = "Er zijn ${count} opties die overeenkomen met ‘Vermogen’.";
+
+"3GCjUk" = "Saldo";
+"Lvj3sF" = "Saldo";
+"9mfrfk-3GCjUk" = "Ter bevestiging: u wilde 'balans'?";
+"MkDC8c-Lvj3sF" = "Ter bevestiging: u wilde 'balans'?";
+"5xfjRl-Lvj3sF" = "Er zijn ${count} opties die overeenkomen met 'saldo'.";
+"jlSssx-3GCjUk" = "Er zijn ${count} opties die overeenkomen met 'saldo'.";
+
+"nXqb0W" = "Totaal inkomen";
+"wXUvBH" = "Totaal inkomen";
+"MkDC8c-nXqb0W" = "Ter bevestiging: u wilde 'totaal inkomen'?";
+"9mfrfk-wXUvBH" = "Ter bevestiging: u wilde 'totaal inkomen'?";
+"jlSssx-wXUvBH" = "Er zijn ${count} opties die overeenkomen met 'totaal inkomen'.";
+"5xfjRl-nXqb0W" = "Er zijn ${count} opties die overeenkomen met 'totaal inkomen'.";
+
+"4CQ3jz" = "Totale uitgaven";
+"LTGP2N" = "Totale uitgaven";
+"MkDC8c-LTGP2N" = "Ter bevestiging: u wilde 'totale uitgaven'?";
+"9mfrfk-4CQ3jz" = "Ter bevestiging: u wilde 'totale uitgaven'?";
+"jlSssx-4CQ3jz" = "Er zijn ${count} opties die overeenkomen met 'totale uitgaven'.";
+"5xfjRl-LTGP2N" = "Er zijn ${count} opties die overeenkomen met 'totale uitgaven'";
+
+"967MIQ" = "Vaste kosten";
+"G7YBAE" = "Vaste kosten";
+"9mfrfk-G7YBAE" = "Ter bevestiging: u wilde 'vaste kosten'?";
+"MkDC8c-967MIQ" = "Ter bevestiging: u wilde 'vaste kosten'?";
+"5xfjRl-967MIQ" = "Er zijn ${count} opties die overeenkomen met 'vaste uitgaven'.";
+"jlSssx-G7YBAE" = "Er zijn ${count} opties die overeenkomen met 'vaste uitgaven'.";
+
+"R35A16" = "Variabele kosten";
+"Xq1BNs" = "Variabele kosten";
+"MkDC8c-R35A16" = "Ter bevestiging: u wilde 'variabele kosten'?";
+"9mfrfk-Xq1BNs" = "Ter bevestiging: u wilde 'variabele kosten'?";
+"5xfjRl-R35A16" = "Er zijn ${count} opties die overeenkomen met 'variabele uitgaven'.";
+"jlSssx-Xq1BNs" = "Er zijn ${count} opties die overeenkomen met 'variabele uitgaven'.";
+
+"PhqijR" = "Rekeningsaldi";
+"VhlRFH" = "Rekeningssaldi";
+"MkDC8c-PhqijR" = "Ter bevestiging: u wilde 'rekeningsaldi'?";
+"9mfrfk-VhlRFH" = "Ter bevestiging: u wilde 'rekeningsaldi'?";
+"5xfjRl-PhqijR" = "Er zijn ${count} opties die overeenkomen met 'rekeningsaldi'.";
+"jlSssx-VhlRFH" = "Er zijn ${count} opties die overeenkomen met 'rekeningsaldi'.";
+
+/* Action Types */
+"CVbmHD" = "Actie";
+"WjgQ3F" = "Nieuw inkomen";
+"6vnhNE-WjgQ3F" = "Ter bevestiging: u wilde 'nieuwe inkomsten'?";
+"SiRH8S-WjgQ3F" = "Er zijn ${count} opties die overeenkomen met 'nieuw inkomen'.";
+"Frl0u1" = "Nieuwe uitgave";
+"6vnhNE-Frl0u1" = "Ter bevestiging: u wilde 'nieuwe uitgave'?";
+"SiRH8S-Frl0u1" = "Er zijn ${count} opties die overeenkomen met 'nieuwe uitgave'.";
+"89P1cU" = "Nieuwe overdracht";
+"6vnhNE-89P1cU" = "Ter bevestiging: u wilde 'nieuwe overboeking'?";
+"SiRH8S-89P1cU" = "Er zijn ${count} opties die overeenkomen met 'nieuwe overdracht'.";
+"sEOquD" = "Terugkerend";
+"6vnhNE-sEOquD" = "Ter bevestiging: u wilde 'terugkerend'?";
+"SiRH8S-sEOquD" = "Er zijn ${count} opties die overeenkomen met 'terugkerend'.";
+
+/* Period Types */
+"W8Xs6i" = "Huidige dag";
+
+"Nvy91A" = "Huidige week";
+
+"0uJvbe" = "Huidige maand";
+"9M6g0C" = "Huidige maand";
+"5k1p3H" = "Huidige maand";
+"BgXL00-0uJvbe" = "Ter bevestiging: u wilde 'huidige maand'?";
+"EqxQCI-0uJvbe" = "Ter bevestiging: u wilde 'huidige maand'?";
+"uJZrBb-0uJvbe" = "Ter bevestiging: u wilde 'huidige maand'?";
+"Iw8VwE-0uJvbe" = "Er zijn ${count} opties die overeenkomen met 'huidige maand'.";
+"ujLY0p-0uJvbe" = "Er zijn ${count} opties die overeenkomen met 'huidige maand'.";
+"2bSbou-0uJvbe" = "Er zijn ${count} opties die overeenkomen met 'huidige maand'.";
+
+"XLsrlR" = "Huidig ​​jaar";
+"OjUmV9" = "Huidig ​​jaar";
+"PSloJn" = "Huidig ​​jaar";
+"BgXL00-OjUmV9" = "Ter bevestiging: u wilde 'huidig ​​jaar'?";
+"EqxQCI-OjUmV9" = "Ter bevestiging: u wilde 'huidig ​​jaar'?";
+"uJZrBb-OjUmV9" = "Ter bevestiging: u wilde 'huidig ​​jaar'?";
+"Iw8VwE-OjUmV9" = "Er zijn ${count} opties die overeenkomen met 'huidig ​​jaar'.";
+"ujLY0p-OjUmV9" = "Er zijn ${count} opties die overeenkomen met 'huidig ​​jaar'.";
+"2bSbou-OjUmV9" = "Er zijn ${count} opties die overeenkomen met 'huidig ​​jaar'.";
+
+/* MARK: - Siri Intents */
+/* Types */
+"PrcHew" = "Budgetboek";
+"RfTeQa" = "Rekening";
+"lhsAlw" = "Categorie";
+"7K8wsp" = "Map";
+"ktfUSN" = "Begroting";
+"TgSVEY" = "Begunstigde";
+
+/* Create Transaction */
+"2UssG9" = "Transactie aanmaken";
+"0iH3hu" = "Transactie aanmaken";
+"Yd8NCf" = "Transactie aanmaken";
+
+"J710PA" = "Maakt een nieuwe transactie aan met behulp van de opgegeven parameters en voegt deze toe aan de app.";
+"O6voV3" = "Nieuwe transactie aangemaakt";
+
+"c4H0S5" = "Wat is het type transactie?";
+"112aEi" = "Wat is het bedrag van de transactie?";
+"qnGAXN" = "Is de betaling van de transactie in behandeling?";
+"lTy5qN" = "Moet de transactie worden opgenomen in de statistieken?";
+"zZSQvt" = "Welk budgetboek moet worden gebruikt?";
+"Y5Nex5" = "Welk account moet worden gebruikt?";
+"0HLNLH" = "Welke categorie moet worden gebruikt?";
+"wqsAJE" = "Welke begunstigde moet worden toegewezen?";
+"X8ocGF" = "Welke tags moeten worden gebruikt?";
+"AHmcT3" = "Welke datum moet worden gebruikt?";
+"P32rK5" = "Hoe vaak moet de transactie worden herhaald?";
+
+"aweDKY" = "Ter bevestiging: je wilde '${type}'?";
+"f00iD1" = "Ter bevestiging: u wilde ‘${repetitionFrequency}’?";
+"LsIZmT" = "${displayName} kan niet negatief zijn.";
+"aMDTJp" = "${displayName} mag niet lager zijn dan ${minimumValue}.";
+"awYsJs" = "${displayName} kan niet hoger zijn dan ${maximumValue}.";
+
+"zDQBnU" = "Type";
+"BCP2vE" = "Bedrag";
+"xB1kqh" = "In behandeling";
+"gNilw1" = "Geëvalueerd";
+"iRwipD" = "Datum";
+"Qi16cy" = "Tijd";
+"v08W8X" = "Herhalen";
+"aXdf7M" = "Budgetboek";
+"ozYI0G" = "Rekening";
+"tBBc2U" = "Categorie";
+"8zofwJ" = "Begunstigde";
+"QLnzaL" = "Tags";
+"boEz9o" = "Locatie";
+"SCKlIf" = "Notities";
+"ZZ6bgZ" = "Bijlagen";
+
+"OCqRVA" = "Ja";
+"MpQ9fH" = "Nee";
+
+"7xlIvf" = "Ja";
+"pOelwg" = "Nee";
+
+"jDpx7J" = "Inkomen";
+"KDwsQL" = "Onkosten";
+
+"EmPlTq" = "Nooit";
+"yNgckQ" = "Dagelijks";
+"1vBp0l" = "Wekelijks";
+"YugMLR" = "Elke 2 weken";
+"BPTs4x" = "Elke 3 weken";
+"yVd6fu" = "Elke 4 weken";
+"bJHfBW" = "Maandelijks";
+"hcXxle" = "Elke 2 maanden";
+"JFZtOn" = "Driemaandelijks";
+"v02Q1j" = "Halfjaarlijks";
+"GB1jzm" = "Jaarlijks";
+
+"ozlKhL" = "Resultaat";
+"1ap2ew" = "Transactie toegevoegd";
+"TAoThb" = "Transactie niet toegevoegd";

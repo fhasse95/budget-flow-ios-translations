@@ -1038,6 +1038,10 @@
 "chart_widget_title" = "Grafikon";
 "chart_widget_description" = "Ovaj widget prikazuje grafikon stanja vašeg računa, vaše trenutno stanje ili raščlambu vaših prihoda i troškova za odabrano vremensko razdoblje.";
 
+"account_widget_title" = "Račun";
+"account_widget_description" = "Ovaj widget prikazuje grafikon stanja vašeg računa za određeni račun i odabrani period.";
+"account_widget_no_account_title" = "Nijedan račun nije odabran";
+
 "overview_widget_title" = "Pregled";
 "overview_widget_description" = "Ovaj widget prikazuje pregled stanja vašeg računa, vaše trenutno stanje ili ukupni prihod i rashode za odabrano razdoblje.";
 

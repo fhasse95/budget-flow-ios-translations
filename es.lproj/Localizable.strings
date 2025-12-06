@@ -1038,6 +1038,10 @@
 "chart_widget_title" = "Gráfico";
 "chart_widget_description" = "Este widget muestra un gráfico de los saldos de su cuenta, su saldo actual o un desglose de sus ingresos y gastos para el período de tiempo seleccionado.";
 
+"account_widget_title" = "Cuenta";
+"account_widget_description" = "Este widget muestra un gráfico del saldo de tu cuenta para una cuenta específica y el período seleccionado.";
+"account_widget_no_account_title" = "No se ha seleccionado ninguna cuenta";
+
 "overview_widget_title" = "Visión general";
 "overview_widget_description" = "Este widget muestra una descripción general de los saldos de su cuenta, su saldo actual o un total de ingresos y gastos para el período seleccionado.";
 

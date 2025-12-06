@@ -1,0 +1,213 @@
+/*
+ WidgetIntents.strings
+ BudgetFlow
+ 
+ Created by Fabian Hasse on 18.03.23.
+ Copyright © 2023 Fabian Hasse. All rights reserved.
+*/
+
+/* MARK: - Widget Intents */
+/* General */
+"xOcSma" = "Type";
+"pELoxA" = "Type";
+"eyacbM" = "Type";
+"K76l0O" = "Type";
+
+"ktfUSN" = "Budget";
+"jfTgFR" = "Budget";
+
+"skIWPc" = "Konto";
+"RZfRcv" = "Konto";
+
+"hVCchi" = "Periode";
+"nzkPH7" = "Periode";
+"y8DNWw" = "Periode";
+"hnez9L" = "Periode";
+"jEusyP" = "Periode";
+"K7Xh6q" = "Periode";
+"hVCchi" = "Periode";
+
+"6fYCl9" = "Hurtig indtastning";
+"sZa6ZG" = "Ny transaktion";
+
+/* Configuration */
+"prSCwi" = "Konfigurer diagram";
+"ioernk" = "Konfigurer konto";
+"LM22qM" = "Konfigurer oversigt";
+"z0ovGL" = "Konfigurer budget";
+
+/* Descriptions */
+"pFbMvr" = "Denne widget viser et diagram over dine kontosaldi, din aktuelle saldo eller en oversigt over dine indtægter og udgifter for den valgte tidsperiode.";
+"lMVOAh" = "Denne widget viser en graf over din kontosaldo for en bestemt konto og den valgte periode.";
+"S2zZlu" = "Denne widget viser en oversigt over din kontosaldo, din aktuelle saldo eller en total af dine indtægter og udgifter for den valgte tidsperiode.";
+"ju8eTZ" = "Denne widget viser dig et specifikt budget for den valgte periode.";
+"c79LHS" = "Denne widget giver dig mulighed for hurtigt at tilføje nye transaktioner.";
+
+"dDaQZs" = "Åbner visningen Tilføj ny indkomst i appen.";
+"p9tWSU" = "Åbner visningen Tilføj ny udgift i appen.";
+"UCPXGi" = "Åbner Tilføj ny overførselsvisning i appen.";
+"yC8ys5" = "Åbner visningen Tilføj ny tilbagevendende transaktion i appen.";
+"sqTaTl" = "Åbner visningen for kommende transaktioner i appen.";
+
+/* Overview Types */
+"hVyAjR" = "Nettoformue";
+"9mfrfk-hVyAjR" = "Bare for at bekræfte, ønskede du ‘Nettoformue’?";
+"jlSssx-hVyAjR" = "Der er ${count} muligheder, der matcher ‘Nettoformue’.";
+
+"3GCjUk" = "Saldo";
+"Lvj3sF" = "Saldo";
+"9mfrfk-3GCjUk" = "Bare for at bekræfte, ville du have 'balance'?";
+"MkDC8c-Lvj3sF" = "Bare for at bekræfte, ville du have 'balance'?";
+"5xfjRl-Lvj3sF" = "Der er ${count} muligheder, der matcher 'balance'.";
+"jlSssx-3GCjUk" = "Der er ${count} muligheder, der matcher 'balance'.";
+
+"nXqb0W" = "Samlet indkomst";
+"wXUvBH" = "Samlet indkomst";
+"MkDC8c-nXqb0W" = "Bare for at bekræfte, ville du have 'samlet indkomst'?";
+"9mfrfk-wXUvBH" = "Bare for at bekræfte, ville du have 'samlet indkomst'?";
+"jlSssx-wXUvBH" = "Der er ${count} muligheder, der matcher 'samlet indkomst'.";
+"5xfjRl-nXqb0W" = "Der er ${count} muligheder, der matcher 'samlet indkomst'.";
+
+"4CQ3jz" = "Samlede udgifter";
+"LTGP2N" = "Samlede udgifter";
+"MkDC8c-LTGP2N" = "Bare for at bekræfte, ville du have 'samlede udgifter'?";
+"9mfrfk-4CQ3jz" = "Bare for at bekræfte, ville du have 'samlede udgifter'?";
+"jlSssx-4CQ3jz" = "Der er ${count} muligheder, der matcher 'samlede udgifter'.";
+"5xfjRl-LTGP2N" = "Der er ${count} muligheder, der matcher 'samlede udgifter'";
+
+"967MIQ" = "Faste udgifter";
+"G7YBAE" = "Faste udgifter";
+"9mfrfk-G7YBAE" = "Bare for at bekræfte, ville du have 'faste udgifter'?";
+"MkDC8c-967MIQ" = "Bare for at bekræfte, ville du have 'faste udgifter'?";
+"5xfjRl-967MIQ" = "Der er ${count} muligheder, der matcher 'faste udgifter'.";
+"jlSssx-G7YBAE" = "Der er ${count} muligheder, der matcher 'faste udgifter'.";
+
+"R35A16" = "Variable udgifter";
+"Xq1BNs" = "Variable udgifter";
+"MkDC8c-R35A16" = "Bare for at bekræfte, ville du have 'variable udgifter'?";
+"9mfrfk-Xq1BNs" = "Bare for at bekræfte, ville du have 'variable udgifter'?";
+"5xfjRl-R35A16" = "Der er ${count} muligheder, der matcher 'variable udgifter'.";
+"jlSssx-Xq1BNs" = "Der er ${count} muligheder, der matcher 'variable udgifter'.";
+
+"PhqijR" = "Kontosaldi";
+"VhlRFH" = "Kontosaldi";
+"MkDC8c-PhqijR" = "Bare for at bekræfte, ville du have 'kontosaldi'?";
+"9mfrfk-VhlRFH" = "Bare for at bekræfte, ville du have 'kontosaldi'?";
+"5xfjRl-PhqijR" = "Der er ${count} muligheder, der matcher 'kontosaldi'.";
+"jlSssx-VhlRFH" = "Der er ${count} muligheder, der matcher 'kontosaldi'.";
+
+/* Action Types */
+"CVbmHD" = "Handling";
+"WjgQ3F" = "Ny indkomst";
+"6vnhNE-WjgQ3F" = "Bare for at bekræfte, ville du have 'ny indkomst'?";
+"SiRH8S-WjgQ3F" = "Der er ${count} muligheder, der matcher 'ny indkomst'.";
+"Frl0u1" = "Ny udgift";
+"6vnhNE-Frl0u1" = "Bare for at bekræfte, ville du have 'ny udgift'?";
+"SiRH8S-Frl0u1" = "Der er ${count} muligheder, der matcher 'ny udgift'.";
+"89P1cU" = "Ny overførsel";
+"6vnhNE-89P1cU" = "Bare for at bekræfte, ville du have 'ny overførsel'?";
+"SiRH8S-89P1cU" = "Der er ${count} muligheder, der matcher 'ny overførsel'.";
+"sEOquD" = "Tilbagevendende";
+"6vnhNE-sEOquD" = "Bare for at bekræfte, ville du have 'gentagende'?";
+"SiRH8S-sEOquD" = "Der er ${count} muligheder, der matcher 'tilbagevendende'.";
+
+/* Period Types */
+"W8Xs6i" = "Aktuel dag";
+
+"Nvy91A" = "Aktuel uge";
+
+"0uJvbe" = "Nuværende måned";
+"9M6g0C" = "Nuværende måned";
+"5k1p3H" = "Nuværende måned";
+"BgXL00-0uJvbe" = "Bare for at bekræfte, ville du have 'aktuel måned'?";
+"EqxQCI-0uJvbe" = "Bare for at bekræfte, ville du have 'aktuel måned'?";
+"uJZrBb-0uJvbe" = "Bare for at bekræfte, ville du have 'aktuel måned'?";
+"Iw8VwE-0uJvbe" = "Der er ${count} muligheder, der matcher 'aktuel måned'.";
+"ujLY0p-0uJvbe" = "Der er ${count} muligheder, der matcher 'aktuel måned'.";
+"2bSbou-0uJvbe" = "Der er ${count} muligheder, der matcher 'aktuel måned'.";
+
+"XLsrlR" = "Nuværende år";
+"OjUmV9" = "Nuværende år";
+"PSloJn" = "Nuværende år";
+"BgXL00-OjUmV9" = "Bare for at bekræfte, ville du have 'det nuværende år'?";
+"EqxQCI-OjUmV9" = "Bare for at bekræfte, ville du have 'det nuværende år'?";
+"uJZrBb-OjUmV9" = "Bare for at bekræfte, ville du have 'det nuværende år'?";
+"Iw8VwE-OjUmV9" = "Der er ${count} muligheder, der matcher 'aktuelt år'.";
+"ujLY0p-OjUmV9" = "Der er ${count} muligheder, der matcher 'aktuelt år'.";
+"2bSbou-OjUmV9" = "Der er ${count} muligheder, der matcher 'aktuelt år'.";
+
+/* MARK: - Siri Intents */
+/* Types */
+"PrcHew" = "Budgetbog";
+"RfTeQa" = "Konto";
+"lhsAlw" = "Kategori";
+"7K8wsp" = "Mappe";
+"ktfUSN" = "Budget";
+"TgSVEY" = "Betalingsmodtager";
+
+/* Create Transaction */
+"2UssG9" = "Opret transaktion";
+"0iH3hu" = "Opret transaktion";
+"Yd8NCf" = "Opret transaktion";
+
+"J710PA" = "Opretter en ny transaktion ved hjælp af de angivne parametre og føjer den til appen.";
+"O6voV3" = "Oprettet ny transaktion";
+
+"c4H0S5" = "Hvad er transaktionstypen?";
+"112aEi" = "Hvad er transaktionsbeløbet?";
+"qnGAXN" = "Er betalingen af transaktionen afventende?";
+"lTy5qN" = "Skal transaktionen inkluderes i statistikken?";
+"zZSQvt" = "Hvilken budgetbog skal bruges?";
+"Y5Nex5" = "Hvilken konto skal bruges?";
+"0HLNLH" = "Hvilken kategori skal bruges?";
+"wqsAJE" = "Hvilken betalingsmodtager skal tildeles?";
+"X8ocGF" = "Hvilke tags skal bruges?";
+"AHmcT3" = "Hvilken dato skal bruges?";
+"P32rK5" = "Hvor ofte skal transaktionen gentages?";
+
+"aweDKY" = "Bare for at bekræfte, ville du have '${type}'?";
+"f00iD1" = "Bare for at bekræfte, ville du have ‘${repetitionFrequency}’?";
+"LsIZmT" = "${displayName} kan ikke være negativ.";
+"aMDTJp" = "${displayName} må ikke være lavere end ${minimumValue}.";
+"awYsJs" = "${displayName} må ikke være højere end ${maximumValue}.";
+
+"zDQBnU" = "Type";
+"BCP2vE" = "Beløb";
+"xB1kqh" = "Afventer";
+"gNilw1" = "Evalueret";
+"iRwipD" = "Dato";
+"Qi16cy" = "Tid";
+"v08W8X" = "Gentag";
+"aXdf7M" = "Budgetbog";
+"ozYI0G" = "Konto";
+"tBBc2U" = "Kategori";
+"8zofwJ" = "Betalingsmodtager";
+"QLnzaL" = "Tags";
+"boEz9o" = "Placering";
+"SCKlIf" = "Noter";
+"ZZ6bgZ" = "Vedhæftede filer";
+
+"OCqRVA" = "Ja";
+"MpQ9fH" = "Nej";
+
+"7xlIvf" = "Ja";
+"pOelwg" = "Nej";
+
+"jDpx7J" = "Indkomst";
+"KDwsQL" = "Udgift";
+
+"EmPlTq" = "Aldrig";
+"yNgckQ" = "Dagligt";
+"1vBp0l" = "Ugentligt";
+"YugMLR" = "Hver anden uge";
+"BPTs4x" = "Hver 3. uge";
+"yVd6fu" = "Hver 4. uge";
+"bJHfBW" = "Månedligt";
+"hcXxle" = "Hver anden måned";
+"JFZtOn" = "Kvartalsvis";
+"v02Q1j" = "Halvårligt";
+"GB1jzm" = "Årlig";
+
+"ozlKhL" = "Resultat";
+"1ap2ew" = "Transaktion tilføjet";
+"TAoThb" = "Transaktion ikke tilføjet";

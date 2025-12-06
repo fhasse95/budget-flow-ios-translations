@@ -1038,6 +1038,10 @@
 "chart_widget_title" = "Grafikon";
 "chart_widget_description" = "Ta pripomoček prikazuje grafikon vaših stanj na računih, trenutno stanje ali razčlenitev prihodkov in odhodkov za izbrano časovno obdobje.";
 
+"account_widget_title" = "Račun";
+"account_widget_description" = "Ta pripomoček prikazuje graf stanja vašega računa za določen račun in izbrano časovno obdobje.";
+"account_widget_no_account_title" = "Ni izbranega računa";
+
 "overview_widget_title" = "Pregled";
 "overview_widget_description" = "Ta pripomoček prikazuje pregled vaših stanj na računih, trenutno stanje ali skupno vsoto prihodkov in odhodkov za izbrano obdobje.";
 

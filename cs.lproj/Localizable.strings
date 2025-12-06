@@ -1038,6 +1038,10 @@
 "chart_widget_title" = "Graf";
 "chart_widget_description" = "Tento widget zobrazuje graf zůstatků na vašich účtech, aktuální zůstatek nebo rozpis vašich příjmů a výdajů za zvolené časové období.";
 
+"account_widget_title" = "Účet";
+"account_widget_description" = "Tento widget zobrazuje graf zůstatku na vašem účtu pro konkrétní účet a vybrané období.";
+"account_widget_no_account_title" = "Není vybrán žádný účet";
+
 "overview_widget_title" = "Přehled";
 "overview_widget_description" = "Tento widget zobrazuje přehled zůstatků na vašich účtech, aktuální zůstatek nebo celkové příjmy a výdaje za zvolené období.";
 

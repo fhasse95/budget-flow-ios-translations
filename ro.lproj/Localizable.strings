@@ -1038,6 +1038,10 @@
 "chart_widget_title" = "Grafic";
 "chart_widget_description" = "Acest widget afișează un grafic al soldurilor contului dvs., soldul dvs. curent sau o defalcare a veniturilor și cheltuielilor dvs. pentru perioada de timp selectată.";
 
+"account_widget_title" = "Cont";
+"account_widget_description" = "Acest widget afișează un grafic al soldului contului pentru un cont specific și perioada selectată.";
+"account_widget_no_account_title" = "Niciun cont selectat";
+
 "overview_widget_title" = "Prezentare generală";
 "overview_widget_description" = "Acest widget afișează o prezentare generală a soldurilor contului dvs., soldul curent sau un total de venituri și cheltuieli pentru perioada selectată.";
 

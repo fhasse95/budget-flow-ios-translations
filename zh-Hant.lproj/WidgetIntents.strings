@@ -1,0 +1,213 @@
+/*
+ WidgetIntents.strings
+ BudgetFlow
+ 
+ Created by Fabian Hasse on 18.03.23.
+ Copyright © 2023 Fabian Hasse. All rights reserved.
+*/
+
+/* MARK: - Widget Intents */
+/* General */
+"xOcSma" = "類型";
+"pELoxA" = "類型";
+"eyacbM" = "類型";
+"K76l0O" = "類型";
+
+"ktfUSN" = "預算";
+"jfTgFR" = "預算";
+
+"skIWPc" = "帳戶";
+"RZfRcv" = "帳戶";
+
+"hVCchi" = "時期";
+"nzkPH7" = "時期";
+"y8DNWw" = "時期";
+"hnez9L" = "時期";
+"jEusyP" = "時期";
+"K7Xh6q" = "時期";
+"hVCchi" = "時期";
+
+"6fYCl9" = "快速輸入";
+"sZa6ZG" = "新交易";
+
+/* Configuration */
+"prSCwi" = "配置圖表";
+"ioernk" = "設定帳戶";
+"LM22qM" = "配置概覽";
+"z0ovGL" = "配置預算";
+
+/* Descriptions */
+"pFbMvr" = "此小組件顯示您的帳戶餘額、當前餘額或所選時間內的收入和支出分佈";
+"lMVOAh" = "此小工具會顯示特定帳戶在所選期間內的帳戶餘額圖表。";
+"S2zZlu" = "此小組件顯示您的帳戶餘額、當前餘額或所選期間的收入和支出總計";
+"ju8eTZ" = "此小組件顯示您所選期間的特定預算";
+"c79LHS" = "此小元件可讓您快速新增交易";
+
+"dDaQZs" = "在應用程式內開啟新增收入視圖";
+"p9tWSU" = "在應用程式內開啟新增支出視圖";
+"UCPXGi" = "在應用程式內開啟新增轉帳視圖";
+"yC8ys5" = "在應用程式內開啟新增新的重複交易檢視";
+"sqTaTl" = "在應用程式內開啟計畫中的交易視圖";
+
+/* Overview Types */
+"hVyAjR" = "淨資產";
+"9mfrfk-hVyAjR" = "只是確認，您想要‘淨資產’？";
+"jlSssx-hVyAjR" = "有${count}個選項符合‘淨資產’。";
+
+"3GCjUk" = "餘額";
+"Lvj3sF" = "餘額";
+"9mfrfk-3GCjUk" = "您是想要'餘額'嗎？";
+"MkDC8c-Lvj3sF" = "您是想要'餘額'嗎？";
+"5xfjRl-Lvj3sF" = "有 ${count} 個選項與'餘額'匹配";
+"jlSssx-3GCjUk" = "有 ${count} 個選項與'餘額'匹配";
+
+"nXqb0W" = "總收入";
+"wXUvBH" = "總收入";
+"MkDC8c-nXqb0W" = "您是想要'總收入'嗎？";
+"9mfrfk-wXUvBH" = "您是想要'總收入'嗎？";
+"jlSssx-wXUvBH" = "有 ${count} 個選項與'總收入'匹配";
+"5xfjRl-nXqb0W" = "有 ${count} 個選項與'總收入'匹配";
+
+"4CQ3jz" = "總支出";
+"LTGP2N" = "總支出";
+"MkDC8c-LTGP2N" = "您是想要'總支出'嗎？";
+"9mfrfk-4CQ3jz" = "您是想要'總支出'嗎？";
+"jlSssx-4CQ3jz" = "有 ${count} 個選項與'總支出'匹配";
+"5xfjRl-LTGP2N" = "有 ${count} 個選項與'總支出'匹配";
+
+"967MIQ" = "固定支出";
+"G7YBAE" = "固定支出";
+"9mfrfk-G7YBAE" = "您是想要'固定支出'嗎？";
+"MkDC8c-967MIQ" = "您是想要'固定支出'嗎？";
+"5xfjRl-967MIQ" = "有 ${count} 個選項與'固定支出'匹配";
+"jlSssx-G7YBAE" = "有 ${count} 個選項與'固定支出'匹配";
+
+"R35A16" = "可變支出";
+"Xq1BNs" = "可變支出";
+"MkDC8c-R35A16" = "您是想要'可變支出'嗎？";
+"9mfrfk-Xq1BNs" = "您是想要'可變支出'嗎？";
+"5xfjRl-R35A16" = "有 ${count} 個選項與'可變支出'匹配";
+"jlSssx-Xq1BNs" = "有 ${count} 個選項與'可變支出'匹配";
+
+"PhqijR" = "帳戶餘額";
+"VhlRFH" = "帳戶餘額";
+"MkDC8c-PhqijR" = "您是想要'帳戶餘額'嗎？";
+"9mfrfk-VhlRFH" = "您是想要'帳戶餘額'嗎？";
+"5xfjRl-PhqijR" = "有 ${count} 個選項與'帳戶餘額'匹配";
+"jlSssx-VhlRFH" = "有 ${count} 個選項與'帳戶餘額'匹配";
+
+/* Action Types */
+"CVbmHD" = "操作";
+"WjgQ3F" = "新收入";
+"6vnhNE-WjgQ3F" = "您是想要'新收入'嗎？";
+"SiRH8S-WjgQ3F" = "有 ${count} 個選項與'新收入'匹配";
+"Frl0u1" = "新支出";
+"6vnhNE-Frl0u1" = "您是想要'新支出'嗎？";
+"SiRH8S-Frl0u1" = "有 ${count} 個選項與'新支出'匹配";
+"89P1cU" = "新轉帳";
+"6vnhNE-89P1cU" = "您是想要'新轉帳'嗎？";
+"SiRH8S-89P1cU" = "有 ${count} 個選項與'新轉帳'匹配";
+"sEOquD" = "重複";
+"6vnhNE-sEOquD" = "您是想要'重複'嗎？";
+"SiRH8S-sEOquD" = "有 ${count} 個選項與'定期交易'匹配";
+
+/* Period Types */
+"W8Xs6i" = "當日";
+
+"Nvy91A" = "本週";
+
+"0uJvbe" = "本月";
+"9M6g0C" = "本月";
+"5k1p3H" = "本月";
+"BgXL00-0uJvbe" = "您是想要'本月'嗎？";
+"EqxQCI-0uJvbe" = "您是想要'本月'嗎？";
+"uJZrBb-0uJvbe" = "您是想要'本月'嗎？";
+"Iw8VwE-0uJvbe" = "有 ${count}個選項與'本月'匹配";
+"ujLY0p-0uJvbe" = "有 ${count} 個選項與'本月'匹配";
+"2bSbou-0uJvbe" = "有 ${count} 個選項與'本月'匹配";
+
+"XLsrlR" = "本年";
+"OjUmV9" = "本年";
+"PSloJn" = "本年";
+"BgXL00-OjUmV9" = "您是想要'今年'嗎？";
+"EqxQCI-OjUmV9" = "您是想要'今年'嗎？";
+"uJZrBb-OjUmV9" = "您是想要'今年'嗎？";
+"Iw8VwE-OjUmV9" = "有 ${count} 個選項與'本年'匹配";
+"ujLY0p-OjUmV9" = "有 ${count} 個選項與'本年'匹配";
+"2bSbou-OjUmV9" = "有 ${count} 個選項與'本年'匹配";
+
+/* MARK: - Siri Intents */
+/* Types */
+"PrcHew" = "預算帳本";
+"RfTeQa" = "帳號";
+"lhsAlw" = "分類";
+"7K8wsp" = "資料夾";
+"ktfUSN" = "預算";
+"TgSVEY" = "收款人";
+
+/* Create Transaction */
+"2UssG9" = "建立交易";
+"0iH3hu" = "建立交易";
+"Yd8NCf" = "建立交易";
+
+"J710PA" = "使用指定參數建立新交易並將其新增至應用";
+"O6voV3" = "已建立新交易";
+
+"c4H0S5" = "交易類型是什麼？";
+"112aEi" = "交易金額是多少？";
+"qnGAXN" = "交易的支付是否待處理？";
+"lTy5qN" = "該交易是否應該納入統計？";
+"zZSQvt" = "要使用哪一個預算帳本？";
+"Y5Nex5" = "應使用哪一個帳戶？";
+"0HLNLH" = "應使用哪一個分類？";
+"wqsAJE" = "應指定哪一位收款人？";
+"X8ocGF" = "應該使用哪些標籤？";
+"AHmcT3" = "應使用哪個日期？";
+"P32rK5" = "交易應該重複多久？";
+
+"aweDKY" = "只是確認，您想要'${type}'嗎？";
+"f00iD1" = "只是確認，您想要‘${repetitionFrequency}’嗎？";
+"LsIZmT" = "${displayName} 不能為負";
+"aMDTJp" = "${displayName} 不能低於 ${minimumValue}";
+"awYsJs" = "${displayName} 不能高於 ${maximumValue}";
+
+"zDQBnU" = "型別";
+"BCP2vE" = "金額";
+"xB1kqh" = "待處理";
+"gNilw1" = "已評估";
+"iRwipD" = "日期";
+"Qi16cy" = "時間";
+"v08W8X" = "重複";
+"aXdf7M" = "預算帳本";
+"ozYI0G" = "帳戶";
+"tBBc2U" = "分類";
+"8zofwJ" = "收款人";
+"QLnzaL" = "標籤";
+"boEz9o" = "位置";
+"SCKlIf" = "備註";
+"ZZ6bgZ" = "附件";
+
+"OCqRVA" = "是";
+"MpQ9fH" = "否";
+
+"7xlIvf" = "是";
+"pOelwg" = "否";
+
+"jDpx7J" = "收入";
+"KDwsQL" = "支出";
+
+"EmPlTq" = "從不";
+"yNgckQ" = "每天";
+"1vBp0l" = "每週";
+"YugMLR" = "每兩週";
+"BPTs4x" = "每三週";
+"yVd6fu" = "每四周";
+"bJHfBW" = "每月";
+"hcXxle" = "每兩個月";
+"JFZtOn" = "每季";
+"v02Q1j" = "每半年";
+"GB1jzm" = "每年";
+
+"ozlKhL" = "結果";
+"1ap2ew" = "交易已新增";
+"TAoThb" = "交易未新增";

@@ -1038,6 +1038,10 @@
 "chart_widget_title" = "Wykres";
 "chart_widget_description" = "Ten widżet wyświetla wykres sald konta, aktualnego salda lub zestawienie dochodów i wydatków w wybranym okresie.";
 
+"account_widget_title" = "Konto";
+"account_widget_description" = "Ten widżet wyświetla wykres salda konta dla wybranego konta i okresu.";
+"account_widget_no_account_title" = "Nie wybrano konta";
+
 "overview_widget_title" = "Przegląd";
 "overview_widget_description" = "Ten widżet pokazuje przegląd sald konta, aktualne saldo lub sumę dochodów i wydatków za wybrany okres.";
 

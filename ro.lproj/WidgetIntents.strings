@@ -1,0 +1,213 @@
+/*
+ WidgetIntents.strings
+ BudgetFlow
+ 
+ Created by Fabian Hasse on 18.03.23.
+ Copyright © 2023 Fabian Hasse. All rights reserved.
+*/
+
+/* MARK: - Widget Intents */
+/* General */
+"xOcSma" = "Tip";
+"pELoxA" = "Tip";
+"eyacbM" = "Tip";
+"K76l0O" = "Tip";
+
+"ktfUSN" = "Buget";
+"jfTgFR" = "Buget";
+
+"skIWPc" = "Cont";
+"RZfRcv" = "Cont";
+
+"hVCchi" = "Perioada";
+"nzkPH7" = "Perioada";
+"y8DNWw" = "Perioada";
+"hnez9L" = "Perioada";
+"jEusyP" = "Perioada";
+"K7Xh6q" = "Perioada";
+"hVCchi" = "Perioadă";
+
+"6fYCl9" = "Intrare rapidă";
+"sZa6ZG" = "Tranzacție nouă";
+
+/* Configuration */
+"prSCwi" = "Configurați diagrama";
+"ioernk" = "Configurează contul";
+"LM22qM" = "Configurare prezentare generală";
+"z0ovGL" = "Configurați bugetul";
+
+/* Descriptions */
+"pFbMvr" = "Acest widget afișează un grafic al soldurilor contului dvs., soldul curent sau o defalcare a veniturilor și cheltuielilor dvs. pentru perioada de timp selectată.";
+"lMVOAh" = "Acest widget afișează un grafic al soldului contului pentru un cont specific și perioada selectată.";
+"S2zZlu" = "Acest widget afișează un rezumat al soldurilor contului dvs., soldul curent sau un total al veniturilor și cheltuielilor dvs. pentru perioada de timp selectată.";
+"ju8eTZ" = "Acest widget vă arată un buget specific pentru perioada selectată.";
+"c79LHS" = "Acest widget vă permite să adăugați rapid tranzacții noi.";
+
+"dDaQZs" = "Deschide vizualizarea Adăugați venituri noi în aplicație.";
+"p9tWSU" = "Deschide vizualizarea de adăugare a cheltuielilor noi în aplicație.";
+"UCPXGi" = "Deschide vizualizarea pentru adăugarea unui nou transfer în aplicație.";
+"yC8ys5" = "Deschide vizualizarea pentru adăugarea unei noi tranzacții recurente în aplicație.";
+"sqTaTl" = "Deschide vizualizarea tranzacțiilor viitoare din aplicație.";
+
+/* Overview Types */
+"hVyAjR" = "Valoare netă";
+"9mfrfk-hVyAjR" = "Doar pentru confirmare, ați dorit ‘Valoare netă’?";
+"jlSssx-hVyAjR" = "Există ${count} opțiuni care corespund ‘Valoare netă’.";
+
+"3GCjUk" = "Sold";
+"Lvj3sF" = "Echilibru";
+"9mfrfk-3GCjUk" = "Doar pentru a confirma, ați vrut 'sold'?";
+"MkDC8c-Lvj3sF" = "Doar pentru a confirma, ați vrut 'sold'?";
+"5xfjRl-Lvj3sF" = "Există opțiuni ${count} care se potrivesc cu 'sold'.";
+"jlSssx-3GCjUk" = "Există ${count} opțiuni care se potrivesc cu 'balance'.";
+
+"nXqb0W" = "Venitul total";
+"wXUvBH" = "Venitul total";
+"MkDC8c-nXqb0W" = "Doar pentru a confirma, ați vrut 'venitul total'?";
+"9mfrfk-wXUvBH" = "Doar pentru a confirma, ați vrut 'venitul total'?";
+"jlSssx-wXUvBH" = "Există ${count} opțiuni care se potrivesc cu 'venitul total'.";
+"5xfjRl-nXqb0W" = "Există ${count} opțiuni care se potrivesc cu 'venitul total'.";
+
+"4CQ3jz" = "Cheltuieli totale";
+"LTGP2N" = "Cheltuieli totale";
+"MkDC8c-LTGP2N" = "Doar pentru a confirma, ați vrut 'cheltuieli totale'?";
+"9mfrfk-4CQ3jz" = "Doar pentru a confirma, ați vrut 'cheltuieli totale'?";
+"jlSssx-4CQ3jz" = "Există ${count} opțiuni care se potrivesc cu 'cheltuieli totale'.";
+"5xfjRl-LTGP2N" = "Există ${count} opțiuni care se potrivesc cu 'cheltuieli totale'";
+
+"967MIQ" = "Cheltuieli fixe";
+"G7YBAE" = "Cheltuieli fixe";
+"9mfrfk-G7YBAE" = "Doar pentru a confirma, ați vrut 'cheltuieli fixe'?";
+"MkDC8c-967MIQ" = "Doar pentru a confirma, ați vrut 'cheltuieli fixe'?";
+"5xfjRl-967MIQ" = "Există ${count} opțiuni care se potrivesc cu 'cheltuieli fixe'.";
+"jlSssx-G7YBAE" = "Există ${count} opțiuni care se potrivesc cu 'cheltuieli fixe'.";
+
+"R35A16" = "Cheltuieli variabile";
+"Xq1BNs" = "Cheltuieli variabile";
+"MkDC8c-R35A16" = "Doar pentru a confirma, ați dorit 'cheltuieli variabile'?";
+"9mfrfk-Xq1BNs" = "Doar pentru a confirma, ați vrut 'cheltuieli variabile'?";
+"5xfjRl-R35A16" = "Există ${count} opțiuni care se potrivesc cu 'cheltuieli variabile'.";
+"jlSssx-Xq1BNs" = "Există ${count} opțiuni care se potrivesc cu 'cheltuieli variabile'.";
+
+"PhqijR" = "Soldurile contului";
+"VhlRFH" = "Soldurile contului";
+"MkDC8c-PhqijR" = "Doar pentru a confirma, ați vrut 'solduri de cont'?";
+"9mfrfk-VhlRFH" = "Doar pentru a confirma, ați vrut 'solduri de cont'?";
+"5xfjRl-PhqijR" = "Există opțiuni ${count} care se potrivesc cu 'soldurile contului'.";
+"jlSssx-VhlRFH" = "Există ${count} opțiuni care se potrivesc cu 'soldurile contului'.";
+
+/* Action Types */
+"CVbmHD" = "Acțiune";
+"WjgQ3F" = "Venit nou";
+"6vnhNE-WjgQ3F" = "Doar pentru a confirma, ați vrut 'venit nou'?";
+"SiRH8S-WjgQ3F" = "Există ${count} opțiuni care se potrivesc cu 'venit nou'.";
+"Frl0u1" = "Cheltuială nouă";
+"6vnhNE-Frl0u1" = "Doar pentru a confirma, ați vrut 'cheltuială nouă'?";
+"SiRH8S-Frl0u1" = "Există ${count} opțiuni care se potrivesc cu 'cheltuială nouă'.";
+"89P1cU" = "Transfer nou";
+"6vnhNE-89P1cU" = "Doar pentru a confirma, ați vrut 'transfer nou'?";
+"SiRH8S-89P1cU" = "Există ${count} opțiuni care se potrivesc cu 'transfer nou'.";
+"sEOquD" = "Recurente";
+"6vnhNE-sEOquD" = "Doar pentru a confirma, ați vrut 'recurent'?";
+"SiRH8S-sEOquD" = "Există ${count} opțiuni care se potrivesc cu 'recurente'.";
+
+/* Period Types */
+"W8Xs6i" = "Ziua curentă";
+
+"Nvy91A" = "Săptămâna curentă";
+
+"0uJvbe" = "Luna curentă";
+"9M6g0C" = "Luna curentă";
+"5k1p3H" = "Luna curentă";
+"BgXL00-0uJvbe" = "Doar pentru a confirma, ați vrut 'luna curentă'?";
+"EqxQCI-0uJvbe" = "Doar pentru a confirma, ați vrut 'luna curentă'?";
+"uJZrBb-0uJvbe" = "Doar pentru a confirma, ați vrut 'luna curentă'?";
+"Iw8VwE-0uJvbe" = "Există ${count} opțiuni care se potrivesc cu 'luna curentă'.";
+"ujLY0p-0uJvbe" = "Există ${count} opțiuni care se potrivesc cu 'luna curentă'.";
+"2bSbou-0uJvbe" = "Există ${count} opțiuni care se potrivesc cu 'luna curentă'.";
+
+"XLsrlR" = "Anul curent";
+"OjUmV9" = "Anul curent";
+"PSloJn" = "Anul curent";
+"BgXL00-OjUmV9" = "Doar pentru a confirma, ați vrut 'anul curent'?";
+"EqxQCI-OjUmV9" = "Doar pentru a confirma, ați vrut 'anul curent'?";
+"uJZrBb-OjUmV9" = "Doar pentru a confirma, ați vrut 'anul curent'?";
+"Iw8VwE-OjUmV9" = "Există ${count} opțiuni care se potrivesc cu 'anul curent'.";
+"ujLY0p-OjUmV9" = "Există ${count} opțiuni care se potrivesc cu 'anul curent'.";
+"2bSbou-OjUmV9" = "Există ${count} opțiuni care se potrivesc cu 'anul curent'.";
+
+/* MARK: - Siri Intents */
+/* Types */
+"PrcHew" = "Cartea bugetului";
+"RfTeQa" = "Cont";
+"lhsAlw" = "Categorie";
+"7K8wsp" = "Dosar";
+"ktfUSN" = "Buget";
+"TgSVEY" = "Beneficiar";
+
+/* Create Transaction */
+"2UssG9" = "Creează tranzacție";
+"0iH3hu" = "Creează tranzacție";
+"Yd8NCf" = "Creează tranzacție";
+
+"J710PA" = "Creează o nouă tranzacție folosind parametrii specificați și o adaugă în aplicație.";
+"O6voV3" = "S-a creat o nouă tranzacție";
+
+"c4H0S5" = "Care este tipul tranzacției?";
+"112aEi" = "Care este valoarea tranzacției?";
+"qnGAXN" = "Este în așteptare plata tranzacției?";
+"lTy5qN" = "Ar trebui ca tranzacția să fie inclusă în statistici?";
+"zZSQvt" = "Ce carte bugetară ar trebui utilizată?";
+"Y5Nex5" = "Ce cont ar trebui utilizat?";
+"0HLNLH" = "Ce categorie ar trebui utilizată?";
+"wqsAJE" = "Ce beneficiar ar trebui să fie atribuit?";
+"X8ocGF" = "Ce etichete ar trebui utilizate?";
+"AHmcT3" = "Ce dată ar trebui utilizată?";
+"P32rK5" = "Cât de des trebuie repetată tranzacția?";
+
+"aweDKY" = "Doar pentru a confirma, ați vrut '${type}'?";
+"f00iD1" = "Doar pentru a confirma, ați vrut '${repetitionFrequency}'?";
+"LsIZmT" = "${displayName} nu poate fi negativ.";
+"aMDTJp" = "${displayName} nu poate fi mai mic de ${minimumValue}.";
+"awYsJs" = "${displayName} nu poate fi mai mare de ${maximumValue}.";
+
+"zDQBnU" = "Tip";
+"BCP2vE" = "Suma";
+"xB1kqh" = "În așteptare";
+"gNilw1" = "Evaluat";
+"iRwipD" = "Data";
+"Qi16cy" = "Timp";
+"v08W8X" = "Repetați";
+"aXdf7M" = "Cartea bugetului";
+"ozYI0G" = "Cont";
+"tBBc2U" = "Categorie";
+"8zofwJ" = "Beneficiar";
+"QLnzaL" = "Etichete";
+"boEz9o" = "Locație";
+"SCKlIf" = "Note";
+"ZZ6bgZ" = "Atasamente";
+
+"OCqRVA" = "Da";
+"MpQ9fH" = "Nu";
+
+"7xlIvf" = "Da";
+"pOelwg" = "Nu";
+
+"jDpx7J" = "Venit";
+"KDwsQL" = "Cheltuieli";
+
+"EmPlTq" = "Niciodată";
+"yNgckQ" = "Zilnic";
+"1vBp0l" = "Săptămânal";
+"YugMLR" = "La fiecare 2 săptămâni";
+"BPTs4x" = "La fiecare 3 săptămâni";
+"yVd6fu" = "La fiecare 4 săptămâni";
+"bJHfBW" = "Lunar";
+"hcXxle" = "La fiecare 2 luni";
+"JFZtOn" = "Trimestrial";
+"v02Q1j" = "Semianual";
+"GB1jzm" = "Anual";
+
+"ozlKhL" = "Rezultat";
+"1ap2ew" = "Tranzacție adăugată";
+"TAoThb" = "Tranzacția nu a fost adăugată";

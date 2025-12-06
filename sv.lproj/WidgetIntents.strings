@@ -1,0 +1,213 @@
+/*
+ WidgetIntents.strings
+ BudgetFlow
+ 
+ Created by Fabian Hasse on 18.03.23.
+ Copyright © 2023 Fabian Hasse. All rights reserved.
+*/
+
+/* MARK: - Widget Intents */
+/* General */
+"xOcSma" = "Typ";
+"pELoxA" = "Typ";
+"eyacbM" = "Typ";
+"K76l0O" = "Typ";
+
+"ktfUSN" = "Budget";
+"jfTgFR" = "Budget";
+
+"skIWPc" = "Konto";
+"RZfRcv" = "Konto";
+
+"hVCchi" = "Period";
+"nzkPH7" = "Period";
+"y8DNWw" = "Period";
+"hnez9L" = "Period";
+"jEusyP" = "Period";
+"K7Xh6q" = "Period";
+"hVCchi" = "Period";
+
+"6fYCl9" = "Snabbinträde";
+"sZa6ZG" = "Ny transaktion";
+
+/* Configuration */
+"prSCwi" = "Konfigurera diagram";
+"ioernk" = "Konfigurera konto";
+"LM22qM" = "Konfigurera översikt";
+"z0ovGL" = "Konfigurera budget";
+
+/* Descriptions */
+"pFbMvr" = "Denna widget visar ett diagram över ditt kontosaldo, ditt aktuella saldo eller en uppdelning av dina inkomster och utgifter för den valda tidsperioden.";
+"lMVOAh" = "Den här widgeten visar ett diagram över ditt kontosaldo för ett specifikt konto och den valda perioden.";
+"S2zZlu" = "Denna widget visar en sammanfattning av ditt kontosaldo, ditt aktuella saldo eller summan av dina inkomster och utgifter för den valda tidsperioden.";
+"ju8eTZ" = "Denna widget visar dig en specifik budget för den valda perioden.";
+"c79LHS" = "Denna widget låter dig snabbt lägga till nya transaktioner.";
+
+"dDaQZs" = "Öppnar vyn Lägg till ny inkomst i appen.";
+"p9tWSU" = "Öppnar vyn Lägg till ny utgift i appen.";
+"UCPXGi" = "Öppnar vyn Lägg till ny överföring i appen.";
+"yC8ys5" = "Öppnar vyn Lägg till ny återkommande transaktion i appen.";
+"sqTaTl" = "Öppnar vyn för kommande transaktioner i appen.";
+
+/* Overview Types */
+"hVyAjR" = "Nettovärde";
+"9mfrfk-hVyAjR" = "Bara för att bekräfta, ville du ha ‘Nettovärde’?";
+"jlSssx-hVyAjR" = "Det finns ${count} alternativ som matchar ‘Nettovärde’.";
+
+"3GCjUk" = "Saldo";
+"Lvj3sF" = "Saldo";
+"9mfrfk-3GCjUk" = "Bara för att bekräfta ville du ha 'balans'?";
+"MkDC8c-Lvj3sF" = "Bara för att bekräfta ville du ha 'balans'?";
+"5xfjRl-Lvj3sF" = "Det finns ${count} alternativ som matchar 'saldo'.";
+"jlSssx-3GCjUk" = "Det finns ${count} alternativ som matchar 'saldo'.";
+
+"nXqb0W" = "Total inkomst";
+"wXUvBH" = "Total inkomst";
+"MkDC8c-nXqb0W" = "Bara för att bekräfta ville du ha 'total inkomst'?";
+"9mfrfk-wXUvBH" = "Bara för att bekräfta ville du ha 'total inkomst'?";
+"jlSssx-wXUvBH" = "Det finns ${count} alternativ som matchar 'total inkomst'.";
+"5xfjRl-nXqb0W" = "Det finns ${count} alternativ som matchar 'total inkomst'.";
+
+"4CQ3jz" = "Totala utgifter";
+"LTGP2N" = "Totala utgifter";
+"MkDC8c-LTGP2N" = "Bara för att bekräfta ville du ha 'totala kostnader'?";
+"9mfrfk-4CQ3jz" = "Bara för att bekräfta ville du ha 'totala kostnader'?";
+"jlSssx-4CQ3jz" = "Det finns ${count} alternativ som matchar 'totala kostnader'.";
+"5xfjRl-LTGP2N" = "Det finns ${count} alternativ som matchar 'totala kostnader'";
+
+"967MIQ" = "Fasta utgifter";
+"G7YBAE" = "Fasta utgifter";
+"9mfrfk-G7YBAE" = "Bara för att bekräfta ville du ha 'fasta utgifter'?";
+"MkDC8c-967MIQ" = "Bara för att bekräfta ville du ha 'fasta utgifter'?";
+"5xfjRl-967MIQ" = "Det finns ${count} alternativ som matchar 'fasta utgifter'.";
+"jlSssx-G7YBAE" = "Det finns ${count} alternativ som matchar 'fasta utgifter'.";
+
+"R35A16" = "Variabla utgifter";
+"Xq1BNs" = "Variabla utgifter";
+"MkDC8c-R35A16" = "Bara för att bekräfta ville du ha 'rörliga utgifter'?";
+"9mfrfk-Xq1BNs" = "Bara för att bekräfta ville du ha 'rörliga utgifter'?";
+"5xfjRl-R35A16" = "Det finns ${count} alternativ som matchar 'variabla kostnader'.";
+"jlSssx-Xq1BNs" = "Det finns ${count} alternativ som matchar 'variabla kostnader'.";
+
+"PhqijR" = "Kontosaldon";
+"VhlRFH" = "Kontosaldon";
+"MkDC8c-PhqijR" = "Bara för att bekräfta ville du ha 'kontosaldo'?";
+"9mfrfk-VhlRFH" = "Bara för att bekräfta ville du ha 'kontosaldon'?";
+"5xfjRl-PhqijR" = "Det finns ${count} alternativ som matchar 'kontosaldon'.";
+"jlSssx-VhlRFH" = "Det finns ${count} alternativ som matchar 'kontosaldon'.";
+
+/* Action Types */
+"CVbmHD" = "Åtgärd";
+"WjgQ3F" = "Ny inkomst";
+"6vnhNE-WjgQ3F" = "Bara för att bekräfta ville du ha 'ny inkomst'?";
+"SiRH8S-WjgQ3F" = "Det finns ${count} alternativ som matchar 'ny inkomst'.";
+"Frl0u1" = "Ny utgift";
+"6vnhNE-Frl0u1" = "Bara för att bekräfta ville du ha 'ny utgift'?";
+"SiRH8S-Frl0u1" = "Det finns ${count} alternativ som matchar 'ny utgift'.";
+"89P1cU" = "Ny överföring";
+"6vnhNE-89P1cU" = "Bara för att bekräfta ville du ha 'ny överföring'?";
+"SiRH8S-89P1cU" = "Det finns ${count} alternativ som matchar 'ny överföring'.";
+"sEOquD" = "Återkommande";
+"6vnhNE-sEOquD" = "Bara för att bekräfta, du ville ha 'återkommande'?";
+"SiRH8S-sEOquD" = "Det finns ${count} alternativ som matchar 'återkommande'.";
+
+/* Period Types */
+"W8Xs6i" = "Aktuell dag";
+
+"Nvy91A" = "Aktuell vecka";
+
+"0uJvbe" = "Aktuell månad";
+"9M6g0C" = "Aktuell månad";
+"5k1p3H" = "Aktuell månad";
+"BgXL00-0uJvbe" = "Bara för att bekräfta ville du ha 'aktuell månad'?";
+"EqxQCI-0uJvbe" = "Bara för att bekräfta ville du ha 'aktuell månad'?";
+"uJZrBb-0uJvbe" = "Bara för att bekräfta ville du ha 'aktuell månad'?";
+"Iw8VwE-0uJvbe" = "Det finns ${count} alternativ som matchar 'nuvarande månad'.";
+"ujLY0p-0uJvbe" = "Det finns ${count} alternativ som matchar 'nuvarande månad'.";
+"2bSbou-0uJvbe" = "Det finns ${count} alternativ som matchar 'nuvarande månad'.";
+
+"XLsrlR" = "Aktuellt år";
+"OjUmV9" = "Aktuellt år";
+"PSloJn" = "Aktuellt år";
+"BgXL00-OjUmV9" = "Bara för att bekräfta, ville du ha 'aktuellt år'?";
+"EqxQCI-OjUmV9" = "Bara för att bekräfta, ville du ha 'aktuellt år'?";
+"uJZrBb-OjUmV9" = "Bara för att bekräfta, ville du ha 'aktuellt år'?";
+"Iw8VwE-OjUmV9" = "Det finns ${count} alternativ som matchar 'aktuellt år'.";
+"ujLY0p-OjUmV9" = "Det finns ${count} alternativ som matchar 'aktuellt år'.";
+"2bSbou-OjUmV9" = "Det finns ${count} alternativ som matchar 'aktuellt år'.";
+
+/* MARK: - Siri Intents */
+/* Types */
+"PrcHew" = "Budgetbok";
+"RfTeQa" = "Konto";
+"lhsAlw" = "Kategori";
+"7K8wsp" = "Mapp";
+"ktfUSN" = "Budget";
+"TgSVEY" = "Betalningsmottagare";
+
+/* Create Transaction */
+"2UssG9" = "Skapa transaktion";
+"0iH3hu" = "Skapa transaktion";
+"Yd8NCf" = "Skapa transaktion";
+
+"J710PA" = "Skapar en ny transaktion med de angivna parametrarna och lägger till den i appen.";
+"O6voV3" = "Skapade ny transaktion";
+
+"c4H0S5" = "Vilken typ av transaktion är det?";
+"112aEi" = "Vilket är transaktionsbeloppet?";
+"qnGAXN" = "Är betalningen av transaktionen väntande?";
+"lTy5qN" = "Ska transaktionen inkluderas i statistiken?";
+"zZSQvt" = "Vilken budgetbok ska användas?";
+"Y5Nex5" = "Vilket konto ska användas?";
+"0HLNLH" = "Vilken kategori ska användas?";
+"wqsAJE" = "Vilken betalningsmottagare ska tilldelas?";
+"X8ocGF" = "Vilka taggar ska användas?";
+"AHmcT3" = "Vilket datum ska användas?";
+"P32rK5" = "Hur ofta ska transaktionen upprepas?";
+
+"aweDKY" = "Bara för att bekräfta ville du ha '${type}'?";
+"f00iD1" = "Bara för att bekräfta ville du ha '${repetitionFrequency}'?";
+"LsIZmT" = "${displayName} kan inte vara negativ.";
+"aMDTJp" = "${displayName} kan inte vara lägre än ${minimumValue}.";
+"awYsJs" = "${displayName} kan inte vara högre än ${maximumValue}.";
+
+"zDQBnU" = "Typ";
+"BCP2vE" = "Belopp";
+"xB1kqh" = "Väntar";
+"gNilw1" = "Utvärderad";
+"iRwipD" = "Datum";
+"Qi16cy" = "Tid";
+"v08W8X" = "Upprepa";
+"aXdf7M" = "Budgetbok";
+"ozYI0G" = "Konto";
+"tBBc2U" = "Kategori";
+"8zofwJ" = "Betalningsmottagare";
+"QLnzaL" = "Taggar";
+"boEz9o" = "Plats";
+"SCKlIf" = "Anteckningar";
+"ZZ6bgZ" = "Bilagor";
+
+"OCqRVA" = "Ja";
+"MpQ9fH" = "Nej";
+
+"7xlIvf" = "Ja";
+"pOelwg" = "Nej";
+
+"jDpx7J" = "Inkomst";
+"KDwsQL" = "Utgift";
+
+"EmPlTq" = "Aldrig";
+"yNgckQ" = "Dagligen";
+"1vBp0l" = "Veckovis";
+"YugMLR" = "Varannan vecka";
+"BPTs4x" = "Var tredje vecka";
+"yVd6fu" = "Var 4:e vecka";
+"bJHfBW" = "Månatlig";
+"hcXxle" = "Varannan månad";
+"JFZtOn" = "Kvartalsvis";
+"v02Q1j" = "Halvårsvis";
+"GB1jzm" = "Årlig";
+
+"ozlKhL" = "Resultat";
+"1ap2ew" = "Transaktion tillagd";
+"TAoThb" = "Transaktionen har inte lagts till";

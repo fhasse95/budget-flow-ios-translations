@@ -1038,6 +1038,10 @@
 "chart_widget_title" = "Diagram";
 "chart_widget_description" = "Denne widgeten viser et diagram over kontosaldoene dine, gjeldende saldo eller en oversikt over inntekter og utgifter for den valgte tidsperioden.";
 
+"account_widget_title" = "Konto";
+"account_widget_description" = "Denne widgeten viser en graf over kontosaldoen din for en spesifikk konto og valgt tidsperiode.";
+"account_widget_no_account_title" = "Ingen konto valgt";
+
 "overview_widget_title" = "Oversikt";
 "overview_widget_description" = "Denne widgeten viser en oversikt over kontosaldoene dine, gjeldende saldo eller summen av inntekter og utgifter for den valgte perioden.";
 

@@ -1038,6 +1038,10 @@
 "chart_widget_title" = "图表";
 "chart_widget_description" = "此小组件显示您的账户余额图表、当前余额或所选时间段内的收入和支出分布";
 
+"account_widget_title" = "账户";
+"account_widget_description" = "此小组件会显示某个特定账户在所选时间范围内的账户余额图表。";
+"account_widget_no_account_title" = "未选择账户";
+
 "overview_widget_title" = "概览";
 "overview_widget_description" = "此小组件显示您的账户余额概览、当前余额或所选时期的收入和支出总计";
 

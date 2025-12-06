@@ -1038,6 +1038,10 @@
 "chart_widget_title" = "Grafiek";
 "chart_widget_description" = "Deze widget geeft een overzicht weer van uw rekeningsaldi, uw huidige saldo of een uitsplitsing van uw inkomsten en uitgaven voor de geselecteerde periode.";
 
+"account_widget_title" = "Rekening";
+"account_widget_description" = "Deze widget toont een grafiek van je rekeningsaldo voor een specifieke rekening en de geselecteerde periode.";
+"account_widget_no_account_title" = "Geen rekening geselecteerd";
+
 "overview_widget_title" = "Overzicht";
 "overview_widget_description" = "Deze widget toont een overzicht van uw rekeningsaldi, uw huidige saldo of een totaal van inkomsten en uitgaven voor de geselecteerde periode.";
 

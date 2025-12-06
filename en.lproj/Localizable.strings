@@ -1038,8 +1038,12 @@
 "chart_widget_title" = "Chart";
 "chart_widget_description" = "This widget displays a chart of your account balances, your current balance, or a breakdown of your income and expenses for the selected time period.";
 
+"account_widget_title" = "Account";
+"account_widget_description" = "This widget displays a chart of your account balance for a specific account and the selected time period.";
+
 "overview_widget_title" = "Overview";
 "overview_widget_description" = "This widget shows an overview of your account balances, your current balance or a total of income and expenses for the selected period.";
+"account_widget_no_account_title" = "No account selected";
 
 "upcoming_transactions_widget_title" = "Planned";
 "upcoming_transactions_widget_description" = "This widget shows you your next planned transaction.";

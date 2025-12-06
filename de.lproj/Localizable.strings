@@ -1038,8 +1038,12 @@
 "chart_widget_title" = "Diagramm";
 "chart_widget_description" = "Dieses Widget zeigt ein Diagramm deiner Kontostände, deine aktulle Bilanz oder eine Aufschlüsselung deiner Ein- und Ausgaben für den ausgewählten Zeitraum an.";
 
+"account_widget_title" = "Konto";
+"account_widget_description" = "Dieses Widget zeigt ein Diagramm deines Kontostands für ein spezifisches Konto und den ausgewählten Zeitraum an.";
+
 "overview_widget_title" = "Übersicht";
 "overview_widget_description" = "Dieses Widget zeigt eine Übersicht deiner Kontostände, deine aktulle Bilanz oder eine Summe der Ein- und Ausgaben für den ausgewählten Zeitraum an.";
+"account_widget_no_account_title" = "Kein Konto gewählt";
 
 "upcoming_transactions_widget_title" = "Geplant";
 "upcoming_transactions_widget_description" = "Dieses Widget zeigt dir deine nächste geplante Transaktion an.";

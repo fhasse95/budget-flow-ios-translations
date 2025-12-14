@@ -2,7 +2,7 @@
   "sourceLanguage" : "en",
   "strings" : {
     "/Afghanistan:dict/:string" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -211,7 +211,7 @@
       }
     },
     "/Algeria:dict/:string" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -420,7 +420,7 @@
       }
     },
     "/Angola:dict/:string" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -629,7 +629,7 @@
       }
     },
     "/Argentina:dict/:string" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -838,7 +838,7 @@
       }
     },
     "/Armenia:dict/:string" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -1047,7 +1047,7 @@
       }
     },
     "/Australia:dict/:string" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -1256,7 +1256,7 @@
       }
     },
     "/Austria:dict/:string" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -1465,7 +1465,7 @@
       }
     },
     "/Azerbaijan:dict/:string" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -1674,7 +1674,7 @@
       }
     },
     "/Bahrain:dict/:string" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -1883,7 +1883,7 @@
       }
     },
     "/Bangladesh:dict/:string" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -2092,7 +2092,7 @@
       }
     },
     "/Barbados:dict/:string" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -2301,7 +2301,7 @@
       }
     },
     "/Belgium:dict/:string" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -2510,7 +2510,7 @@
       }
     },
     "/Bolivia:dict/:string" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -2719,7 +2719,7 @@
       }
     },
     "/Brazil:dict/:string" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -2928,7 +2928,7 @@
       }
     },
     "/Bulgaria:dict/:string" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -3137,7 +3137,7 @@
       }
     },
     "/Burkina Faso:dict/:string" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -3346,7 +3346,7 @@
       }
     },
     "/Burma:dict/:string" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -3555,7 +3555,7 @@
       }
     },
     "/Cambodia:dict/:string" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -3764,7 +3764,7 @@
       }
     },
     "/Cameroon:dict/:string" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -3973,7 +3973,7 @@
       }
     },
     "/Canada:dict/:string" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -4182,7 +4182,7 @@
       }
     },
     "/Central African Republic:dict/:string" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -4391,7 +4391,7 @@
       }
     },
     "/Chad:dict/:string" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -4600,7 +4600,7 @@
       }
     },
     "/Chile:dict/:string" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -4809,7 +4809,7 @@
       }
     },
     "/China:dict/:string" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -5018,7 +5018,7 @@
       }
     },
     "/Colombia:dict/:string" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -5227,7 +5227,7 @@
       }
     },
     "/Costa Rica:dict/:string" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -5436,7 +5436,7 @@
       }
     },
     "/Croatia:dict/:string" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -5645,7 +5645,7 @@
       }
     },
     "/Cuba:dict/:string" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -5854,7 +5854,7 @@
       }
     },
     "/Czech Republic:dict/:string" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -6063,7 +6063,7 @@
       }
     },
     "/Denmark:dict/:string" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -6272,7 +6272,7 @@
       }
     },
     "/Djibouti:dict/:string" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -6481,7 +6481,7 @@
       }
     },
     "/Dominican Republic:dict/:string" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -6690,7 +6690,7 @@
       }
     },
     "/Ecuador:dict/:string" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -6899,7 +6899,7 @@
       }
     },
     "/Egypt:dict/:string" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -7108,7 +7108,7 @@
       }
     },
     "/El Salvador:dict/:string" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -7317,7 +7317,7 @@
       }
     },
     "/England:dict/:string" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -7526,7 +7526,7 @@
       }
     },
     "/Eritrea:dict/:string" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -7735,7 +7735,7 @@
       }
     },
     "/Ethiopia:dict/:string" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -7944,7 +7944,7 @@
       }
     },
     "/Finland:dict/:string" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -8153,7 +8153,7 @@
       }
     },
     "/France:dict/:string" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -8362,7 +8362,7 @@
       }
     },
     "/French Guiana:dict/:string" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -8571,7 +8571,7 @@
       }
     },
     "/Germany:dict/:string" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -8780,7 +8780,7 @@
       }
     },
     "/Ghana:dict/:string" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -8989,7 +8989,7 @@
       }
     },
     "/Greece:dict/:string" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -9198,7 +9198,7 @@
       }
     },
     "/Greenland:dict/:string" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -9407,7 +9407,7 @@
       }
     },
     "/Guatemala:dict/:string" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -9616,7 +9616,7 @@
       }
     },
     "/Guinea:dict/:string" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -9825,7 +9825,7 @@
       }
     },
     "/Guyana:dict/:string" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -10034,7 +10034,7 @@
       }
     },
     "/Haiti:dict/:string" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -10243,7 +10243,7 @@
       }
     },
     "/Honduras:dict/:string" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -10452,7 +10452,7 @@
       }
     },
     "/Hong Kong:dict/:string" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -10661,7 +10661,7 @@
       }
     },
     "/Hungary:dict/:string" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -10870,7 +10870,7 @@
       }
     },
     "/Iceland:dict/:string" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -11079,7 +11079,7 @@
       }
     },
     "/India:dict/:string" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -11288,7 +11288,7 @@
       }
     },
     "/Indonesia:dict/:string" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -11497,7 +11497,7 @@
       }
     },
     "/Iran:dict/:string" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -11706,7 +11706,7 @@
       }
     },
     "/Iraq:dict/:string" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -11915,7 +11915,7 @@
       }
     },
     "/Ireland:dict/:string" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -12124,7 +12124,7 @@
       }
     },
     "/Israel:dict/:string" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -12333,7 +12333,7 @@
       }
     },
     "/Italy:dict/:string" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -12542,7 +12542,7 @@
       }
     },
     "/Japan:dict/:string" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -12751,7 +12751,7 @@
       }
     },
     "/Jordan:dict/:string" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -12960,7 +12960,7 @@
       }
     },
     "/Kenya:dict/:string" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -13169,7 +13169,7 @@
       }
     },
     "/Korea:dict/:string" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -13378,7 +13378,7 @@
       }
     },
     "/Kuwait:dict/:string" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -13587,7 +13587,7 @@
       }
     },
     "/Lebanon:dict/:string" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -13796,7 +13796,7 @@
       }
     },
     "/Liberia:dict/:string" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -14005,7 +14005,7 @@
       }
     },
     "/Libya:dict/:string" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -14214,7 +14214,7 @@
       }
     },
     "/Madagascar:dict/:string" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -14423,7 +14423,7 @@
       }
     },
     "/Malaysia:dict/:string" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -14632,7 +14632,7 @@
       }
     },
     "/Maldives:dict/:string" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -14841,7 +14841,7 @@
       }
     },
     "/Mali:dict/:string" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -15050,7 +15050,7 @@
       }
     },
     "/Mauritania:dict/:string" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -15259,7 +15259,7 @@
       }
     },
     "/Mauritius:dict/:string" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -15468,7 +15468,7 @@
       }
     },
     "/Mexico:dict/:string" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -15677,7 +15677,7 @@
       }
     },
     "/Mongolia:dict/:string" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -15886,7 +15886,7 @@
       }
     },
     "/Morocco:dict/:string" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -16095,7 +16095,7 @@
       }
     },
     "/Mozambique:dict/:string" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -16304,7 +16304,7 @@
       }
     },
     "/Nepal:dict/:string" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -16513,7 +16513,7 @@
       }
     },
     "/Netherlands:dict/:string" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -16722,7 +16722,7 @@
       }
     },
     "/New Caledonia:dict/:string" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -16931,7 +16931,7 @@
       }
     },
     "/New Zealand:dict/:string" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -17140,7 +17140,7 @@
       }
     },
     "/Nicaragua:dict/:string" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -17349,7 +17349,7 @@
       }
     },
     "/Nigeria:dict/:string" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -17558,7 +17558,7 @@
       }
     },
     "/North Korea:dict/:string" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -17767,7 +17767,7 @@
       }
     },
     "/Norway:dict/:string" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -17976,7 +17976,7 @@
       }
     },
     "/Oman:dict/:string" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -18185,7 +18185,7 @@
       }
     },
     "/Pakistan:dict/:string" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -18394,7 +18394,7 @@
       }
     },
     "/Panama:dict/:string" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -18603,7 +18603,7 @@
       }
     },
     "/Paraguay:dict/:string" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -18812,7 +18812,7 @@
       }
     },
     "/Peru:dict/:string" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -19021,7 +19021,7 @@
       }
     },
     "/Philippines:dict/:string" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -19230,7 +19230,7 @@
       }
     },
     "/Poland:dict/:string" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -19439,7 +19439,7 @@
       }
     },
     "/Portugal:dict/:string" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -19648,7 +19648,7 @@
       }
     },
     "/Puerto Rico:dict/:string" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -19857,7 +19857,7 @@
       }
     },
     "/Qatar:dict/:string" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -20066,7 +20066,7 @@
       }
     },
     "/Romania:dict/:string" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -20275,7 +20275,7 @@
       }
     },
     "/Russia:dict/:string" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -20484,7 +20484,7 @@
       }
     },
     "/Samoa:dict/:string" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -20693,7 +20693,7 @@
       }
     },
     "/Saudi Arabia:dict/:string" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -20902,7 +20902,7 @@
       }
     },
     "/Scotland:dict/:string" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -21111,7 +21111,7 @@
       }
     },
     "/Senegal:dict/:string" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -21320,7 +21320,7 @@
       }
     },
     "/Serbia and Montenegro:dict/:string" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -21529,7 +21529,7 @@
       }
     },
     "/Seychelles:dict/:string" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -21738,7 +21738,7 @@
       }
     },
     "/Sierra Leone:dict/:string" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -21947,7 +21947,7 @@
       }
     },
     "/Singapore:dict/:string" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -22156,7 +22156,7 @@
       }
     },
     "/Slovakia:dict/:string" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -22365,7 +22365,7 @@
       }
     },
     "/Slovenia:dict/:string" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -22574,7 +22574,7 @@
       }
     },
     "/Somalia:dict/:string" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -22783,7 +22783,7 @@
       }
     },
     "/South Africa:dict/:string" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -22992,7 +22992,7 @@
       }
     },
     "/South Georgia:dict/:string" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -23201,7 +23201,7 @@
       }
     },
     "/Spain:dict/:string" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -23410,7 +23410,7 @@
       }
     },
     "/Sri Lanka:dict/:string" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -23619,7 +23619,7 @@
       }
     },
     "/Sudan:dict/:string" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -23828,7 +23828,7 @@
       }
     },
     "/Surinam:dict/:string" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -24037,7 +24037,7 @@
       }
     },
     "/Sweden:dict/:string" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -24246,7 +24246,7 @@
       }
     },
     "/Switzerland:dict/:string" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -24455,7 +24455,7 @@
       }
     },
     "/Syria:dict/:string" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -24664,7 +24664,7 @@
       }
     },
     "/Taiwan:dict/:string" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -24873,7 +24873,7 @@
       }
     },
     "/Tanzania:dict/:string" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -25082,7 +25082,7 @@
       }
     },
     "/Thailand:dict/:string" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -25291,7 +25291,7 @@
       }
     },
     "/Tunisia:dict/:string" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -25500,7 +25500,7 @@
       }
     },
     "/Turkey:dict/:string" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -25709,7 +25709,7 @@
       }
     },
     "/Turkmenistan:dict/:string" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -25918,7 +25918,7 @@
       }
     },
     "/U.A.E.:dict/:string" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -26127,7 +26127,7 @@
       }
     },
     "/U.S.A.:dict/:string" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -26336,7 +26336,7 @@
       }
     },
     "/Uganda:dict/:string" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -26545,7 +26545,7 @@
       }
     },
     "/Ukraine:dict/:string" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -26754,7 +26754,7 @@
       }
     },
     "/Unknown:dict/:string" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -26963,7 +26963,7 @@
       }
     },
     "/Uruguay:dict/:string" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -27172,7 +27172,7 @@
       }
     },
     "/UTC:dict/:string" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -27381,7 +27381,7 @@
       }
     },
     "/Uzbekistan:dict/:string" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -27590,7 +27590,7 @@
       }
     },
     "/Venezuela:dict/:string" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -27799,7 +27799,7 @@
       }
     },
     "/Vietnam:dict/:string" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -28008,7 +28008,7 @@
       }
     },
     "/Wales:dict/:string" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -28217,7 +28217,7 @@
       }
     },
     "/Yemen:dict/:string" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -28426,7 +28426,7 @@
       }
     },
     "/Zaire:dict/:string" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -28635,7 +28635,7 @@
       }
     },
     "/Zambia:dict/:string" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {
@@ -28844,7 +28844,7 @@
       }
     },
     "/Zimbabwe:dict/:string" : {
-      "extractionState" : "migrated",
+      "extractionState" : "manual",
       "localizations" : {
         "ar" : {
           "stringUnit" : {

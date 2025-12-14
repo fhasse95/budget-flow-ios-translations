@@ -80,12 +80,17 @@ git checkout -b <your-branch-name>
 > Make sure [Git](https://git-scm.com/downloads) is installed on your system before running these commands.
 
 ### 3) Adjust the translations
-To translate the entries, simply change the **values** of each key (e.g. `"account_type_payment" = "<VALUE>";`).
+To translate the entries, you need to do the following:
+- For `*.xcstrings` files:
+  - Open the file in [XCode](https://developer.apple.com/xcode) (if possible) in order to easily change the **values** within the editor.
+  - If you don't have access to Xcode, you can use a different text editor, such as [Visual Studio Code](https://code.visualstudio.com). However,  it is recommended to use XCode in order to prevent errors when manually editing the file (e.g. missing entries).
+- For `*.strings` and `*.plist` files under `Projects`:
+  - Open the file in any text editor and change the **values** of each key (e.g. `"<KEY>" = "<VALUE>";`).
 
 **Do not translate:**
 - The `"app_name"` since "Budget Flow" remains the same in every locale.
 - Specific terms like `"Face ID"` / `"Touch ID"` – these should stay unchanged.
-- Entries under `/* Contact Developer */` – those should remain in English so I can understand support requests.
+- All `"contact_developer_mail_*"` entries – those should remain in English so I can understand support requests.
 
 
 ### 4) Commit and push your changes

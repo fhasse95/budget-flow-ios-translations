@@ -748,7 +748,7 @@
 "advanced_setting_enable_exact_times_description" = "Wybierz dokładny czas transakcji, używając pokrętła minutowego (np. 9:41).";
 "advanced_setting_reverse_keyboard_title" = "Odwrócona klawiatura";
 "advanced_setting_reverse_keyboard_description" = "Odwraca układ klawiatury numerycznej pionowo, aby pasował do tradycyjnego stylu kalkulatora.";
-"advanced_setting_enable_haptic_keyboard_title" = "Opinia o klawiaturze";
+"advanced_setting_enable_haptic_keyboard_title" = "Haptyczna odpowiedź klawiatury";
 "advanced_setting_enable_haptic_keyboard_description" = "Odbieraj dotykowe informacje podczas wprowadzania kwot pieniężnych za pomocą klawiatury.";
 
 "advanced_setting_language_title" = "Język";

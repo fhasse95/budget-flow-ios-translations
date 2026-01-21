@@ -30,7 +30,7 @@ Additionally, all translation files are available in this repository, and contri
 | Croatian | hr | 🇭🇷 | Antonio Dujmović | 🟢 Proofread |
 | Czech | cs | 🇨🇿 | - | 🟡 Auto Translated |
 | Danish | da | 🇩🇰 | - | 🟡 Auto Translated |
-| Dutch | nl | 🇳🇱 🇧🇪 | - | 🟡 Auto Translated |
+| Dutch | nl | 🇳🇱 🇧🇪 | Hans van der Klok | 🟢 Proofread |
 | English | en | 🇺🇸 🇬🇧 🇨🇦 🇮🇪 🇦🇺 + | Fabian Hasse | 🟢 Proofread |
 | Finnish | fi | 🇫🇮 | - | 🟡 Auto Translated |
 | French | fr | 🇫🇷 🇨🇦 🇧🇪 🇨🇭 🇱🇺 + | Aram | 🟢 Proofread |

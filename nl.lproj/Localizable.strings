@@ -324,9 +324,9 @@
 
 /* Alert Views */
 "alert_sync_shares_in_progress_title" = "Synchroniseren...";
-"alert_sync_shares_in_progress_message" = "Uw budgetboeken worden gesynchroniseerd met iCloud, zodat u toegang krijgt tot de gedeelde inhoud. Even geduld...";
-"alert_cloud_share_quota_exceeded_error_message" = "Kan het delen niet voltooien omdat er niet genoeg ruimte is in uw iCloud. Maak wat ruimte vrij en probeer het opnieuw.";
-"alert_cloud_share_unknown_error_message" = "Kan het delen niet voltooien omdat er een fout is opgetreden. Er is waarschijnlijk niet genoeg ruimte beschikbaar in uw iCloud. Maak wat ruimte vrij en probeer het opnieuw.";
+"alert_sync_shares_in_progress_message" = "Je budgetboeken worden gesynchroniseerd met iCloud, zodat je toegang krijgt tot de gedeelde inhoud. Even geduld...";
+"alert_cloud_share_quota_exceeded_error_message" = "Kan het delen niet voltooien omdat er niet genoeg ruimte is in je iCloud. Maak wat ruimte vrij en probeer het opnieuw.";
+"alert_cloud_share_unknown_error_message" = "Kan het delen niet voltooien omdat er een fout is opgetreden. Er is waarschijnlijk niet genoeg ruimte beschikbaar in je iCloud. Maak wat ruimte vrij en probeer het opnieuw.";
 
 
 /* MARK: - Search View */
@@ -440,7 +440,7 @@
 
 /* Alert Views */
 "alert_confirm_add_next_upcoming_transaction_title" = "Transactie toevoegen";
-"alert_confirm_add_next_upcoming_transaction_message" = "Weet u zeker dat u deze geplande transactie nu wilt toevoegen?";
+"alert_confirm_add_next_upcoming_transaction_message" = "Weet je zeker dat je deze geplande transactie nu wilt toevoegen?";
 
 /* Miscellaneous */
 "payed_by_and_modified_at" = "Betaald door %@\nLaatst gewijzigd op %@";
@@ -455,11 +455,11 @@
 "remaining_title" = "Beschikbaar";
 "balanced_title" = "Gebalanceerd";
 "exceeded_title" = "Overtroffen";
-"user_has_no_budgets_title" = "U heeft geen budgetten.";
-"user_is_within_budget_title" = "U zit binnen uw budget! 🎉";
-"user_was_within_budget_title" = "U zat binnen uw budget! 🎉";
+"user_has_no_budgets_title" = "Je heeft geen budgetten.";
+"user_is_within_budget_title" = "Je zit binnen je budget! 🎉";
+"user_was_within_budget_title" = "Je zat binnen je budget! 🎉";
 "user_is_not_within_budget_title" = "Je zit %d boven je budget 😢";
-"user_is_not_within_budgets_title" = "U heeft %d budgetten overschreden 😢";
+"user_is_not_within_budgets_title" = "Je hebt %d budgetten overschreden 😢";
 
 /* Messages */
 "no_budgets_title" = "Geen budgetten";
@@ -484,18 +484,18 @@
 "trend_widget_has_received_less_message" = "Je hebt minder verdiend dan normaal.";
 "trend_widget_has_received_same_message" = "Je hebt hetzelfde verdiend als normaal.";
 
-"trend_widget_spent_more_message" = "U geeft meer uit dan normaal.";
-"trend_widget_spent_less_message" = "U geeft minder uit dan normaal.";
-"trend_widget_spent_same_message" = "U geeft hetzelfde uit als gewoonlijk.";
+"trend_widget_spent_more_message" = "Je geeft meer uit dan normaal.";
+"trend_widget_spent_less_message" = "Je geeft minder uit dan normaal.";
+"trend_widget_spent_same_message" = "Je geeft hetzelfde uit als gewoonlijk.";
 "trend_widget_has_spent_more_message" = "Je hebt meer uitgegeven dan normaal.";
 "trend_widget_has_spent_less_message" = "Je hebt minder uitgegeven dan normaal.";
 "trend_widget_has_spent_same_message" = "Je hebt hetzelfde uitgegeven als normaal.";
 
-"total_balance_widget_current_balance_message" = "Uw saldo is %@.";
-"total_balance_widget_previous_balance_message" = "Uw saldo was %@.";
+"total_balance_widget_current_balance_message" = "Je saldo is %@.";
+"total_balance_widget_previous_balance_message" = "Je saldo was %@.";
 
-"savings_rate_widget_current_savings_rate_message" = "Uw spaarpercentage is %@ %%.";
-"savings_rate_widget_previous_savings_rate_message" = "Uw spaarpercentage was %@ %%.";
+"savings_rate_widget_current_savings_rate_message" = "Je spaarpercentage is %@ %%.";
+"savings_rate_widget_previous_savings_rate_message" = "Je spaarpercentage was %@ %%.";
 
 /* Widgets */
 "trend_widget_title" = "Trend";
@@ -527,7 +527,7 @@
 
 /* Footer */
 "upgrade_setting_footer_title" = "Bedankt voor het gebruik van de volledige versie!";
-"support_setting_footer_title" = "Vragen of ideeën? Schrijf een bericht of een positieve recensie in de App Store! Uw feedback is erg motiverend en helpt om de app te verbeteren.";
+"support_setting_footer_title" = "Vragen of ideeën? Schrijf een bericht of een positieve recensie in de App Store! Je feedback is erg motiverend en helpt om de app te verbeteren.";
 
 /* Buttons */
 "share_budgetbook_button" = "Deel budgetboek";
@@ -590,10 +590,10 @@
 "alert_translate_app_github" = "👨🏻‍💻 Met GitHub";
 "alert_translate_app_email" = "📬 Met E-Mail";
 
-"alert_contact_developer_title" = "Waar gaat uw verzoek over?";
+"alert_contact_developer_title" = "Waar gaat je verzoek over?";
 "alert_contact_developer_feature_request" = "💡 Functie voorstellen";
 "alert_contact_developer_bug_report" = "🐞 Bugrapport";
-"alert_contact_developer_other" = "📬 Anders (E-Mail)";
+"alert_contact_developer_other" = "📬 Anders (E-mail)";
 
 "contact_developer_mail_subject" = "%@: %@%@";
 "contact_developer_mail_subject_full_version" = " (full version)";
@@ -642,25 +642,25 @@
 "sync_and_data_cloud_setting_footer_title" = "Geeft aan of de synchronisatie met iCloud is gelukt of dat er een fout is opgetreden.";
 "sync_and_data_setting_cloud_sync_status_title" = "Synchronisatiestatus";
 "backup_setting_section_title" = "Back-ups";
-"backup_setting_footer_title" = "Beheer uw back-ups en back-up instellingen.";
+"backup_setting_footer_title" = "Beheer je back-ups en back-up instellingen.";
 "backup_setting_manage_backups_title" = "Beheren";
 "sync_and_data_csv_setting_section_title" = "CSV-gegevens";
-"sync_and_data_csv_setting_footer_title" = "Importeer of exporteer uw transacties met behulp van een CSV-bestand.";
+"sync_and_data_csv_setting_footer_title" = "Importeer of exporteer je transacties met behulp van een CSV-bestand.";
 "sync_and_data_setting_csv_import_title" = "Importeren";
 "sync_and_data_setting_csv_export_title" = "Exporteren";
 "sync_and_data_setting_get_csv_template_title" = "Sjabloon downloaden";
 
 "clear_cache_button" = "Cache wissen";
-"cache_setting_footer_title" = "Info: Als u de cache wist, worden alle bestanden in de documentmap van de app verwijderd (inclusief back-ups).";
+"cache_setting_footer_title" = "Info: Als je de cache wist, worden alle bestanden in de documentmap van de app verwijderd (inclusief back-ups).";
 
 "alert_csv_import_successful_title" = "Import succesvol 🎉";
 "alert_csv_import_successful_message" = "In totaal zijn %d van %d transacties geïmporteerd.%@";
 "alert_csv_import_skipped_message" = " Daarbij zijn %d transacties overgeslagen.";
 "alert_csv_import_error_message" = "Het importeren van %d van %d transacties is mislukt.\n\n%@";
-"alert_csv_import_error_reason_field_message" = "Controleer de volgende velden in uw CSV-bestand: %@.";
+"alert_csv_import_error_reason_field_message" = "Controleer de volgende velden in je CSV-bestand: %@.";
 
 "alert_csv_export_successful_title" = "Export succesvol 🎉";
-"alert_csv_export_successful_message" = "Uw gegevens zijn succesvol geëxporteerd naar \"%@\".";
+"alert_csv_export_successful_message" = "Je gegevens zijn succesvol geëxporteerd naar \"%@\".";
 
 /* Cloud Settings */
 "cloud_setting_info_title" = "Beschrijving";
@@ -682,12 +682,12 @@
 "cloud_setting_number_of_transactions_in_progress_title" = "Even geduld...";
 "cloud_setting_number_of_transactions_error_title" = "Fout";
 
-"import_from_cloud_button" = "Last ned fra iCloud";
-"manual_sync_cloud_setting_footer_title" = "Hvis dataene dine ikke er eller ikke er fullstendig synkronisert med iCloud, kan du starte synkroniseringen manuelt her.";
+"import_from_cloud_button" = "Synchroniseer met iCloud";
+"manual_sync_cloud_setting_footer_title" = "Als je gegevens niet of niet volledig zijn gesynchroniseerd met iCloud, kun je de synchronisatie hier handmatig starten.";
 
 /* Backup Settings */
 "backup_setting_info_title" = "Beschrijving";
-"backup_setting_info_description" = "Indien ingeschakeld, maakt Budget Flow regelmatig een back-up van uw gegevens, zodat u de app op elk moment naar een eerdere staat kunt herstellen.";
+"backup_setting_info_description" = "Indien ingeschakeld, maakt Budget Flow regelmatig een back-up van je gegevens, zodat je de app op elk moment naar een eerdere versie kunt herstellen.";
 
 "backup_general_setting_section_title" = "Algemeen";
 "backup_recent_backups_setting_section_title" = "Recente back-ups";
@@ -695,7 +695,7 @@
 "backup_setting_create_backup_title" = "Back-up maken";
 
 "alert_restore_backup_title" = "Deze back-up herstellen?";
-"alert_restore_backup_message" = "Het herstellen van back-ups is momenteel een experimentele functie. Uw huidige gegevens worden verwijderd en overschreven met de geselecteerde back-up.\n\nDaarna wordt de app automatisch gesloten.\n\nWaarschuwing: Dit proces kan niet ongedaan worden gemaakt!";
+"alert_restore_backup_message" = "Het herstellen van back-ups is momenteel een experimentele functie. Je huidige gegevens worden verwijderd en overschreven met de geselecteerde back-up.\n\nDaarna wordt de app automatisch gesloten.\n\nWaarschuwing: Dit proces kan niet ongedaan worden gemaakt!";
 "alert_restore_backup_button" = "Back-up herstellen";
 
 /* Advanced Settings */
@@ -727,20 +727,20 @@
 "advanced_setting_configure_transaction_title_info_description" = "Stel de volgorde in van de items die in de transactietitel moeten worden weergegeven. Als een item ontbreekt, wordt automatisch het volgende item in de volgorde gebruikt.";
 
 "advanced_setting_show_accounts_in_sidebar_title" = "Toon accounts in zijbalk";
-"advanced_setting_show_accounts_in_sidebar_description" = "Toon een lijst met uw accounts in de zijbalk.";
+"advanced_setting_show_accounts_in_sidebar_description" = "Toon een lijst met accounts in de zijbalk.";
 "advanced_setting_group_accounts_in_sidebar_title" = "Groepeer accounts in zijbalk";
-"advanced_setting_group_accounts_in_sidebar_description" = "Groepeer uw accounts in de zijbalk op type.";
+"advanced_setting_group_accounts_in_sidebar_description" = "Groepeer accounts in de zijbalk op type.";
 "advanced_setting_show_categories_in_sidebar_title" = "Toon categorieën in zijbalk";
-"advanced_setting_show_categories_in_sidebar_description" = "Toon een lijst met uw categorieën in de zijbalk.";
+"advanced_setting_show_categories_in_sidebar_description" = "Toon een lijst met categorieën in de zijbalk.";
 "advanced_setting_group_categories_in_sidebar_title" = "Groepeer categorieën in zijbalk";
-"advanced_setting_group_categories_in_sidebar_description" = "Groepeer uw categorieën in de zijbalk op map.";
+"advanced_setting_group_categories_in_sidebar_description" = "Groepeer categorieën in de zijbalk op map.";
 
 "advanced_setting_select_time_automatically_title" = "Automatische tijdselectie";
 "advanced_setting_select_time_automatically_description" = "Selecteer automatisch de huidige tijd voor nieuwe transacties.";
 "advanced_setting_select_location_automatically_title" = "Automatische locatieselectie";
 "advanced_setting_select_location_automatically_description" = "Selecteer automatisch de huidige locatie voor nieuwe transacties.";
 "advanced_setting_save_photos_in_library_title" = "Foto's opslaan in bibliotheek";
-"advanced_setting_save_photos_description" = "Sla vastgelegde foto's automatisch op in de fotobibliotheek.";
+"advanced_setting_save_photos_description" = "Sla vastgelegde foto's automatisch op in je fotobibliotheek.";
 "advanced_setting_consider_pending_items_title" = "Boek alle transacties";
 "advanced_setting_consider_pending_items_description" = "Neem openstaande transacties op bij het berekenen van rekeningsaldi, saldi, totalen, enz.";
 
@@ -749,14 +749,14 @@
 "advanced_setting_reverse_keyboard_title" = "Omgekeerd toetsenbord";
 "advanced_setting_reverse_keyboard_description" = "Draait de numerieke toetsenbordindeling verticaal om het te laten overeenkomen met de stijl van een traditionele rekenmachine.";
 "advanced_setting_enable_haptic_keyboard_title" = "Toetsenbordfeedback";
-"advanced_setting_enable_haptic_keyboard_description" = "Krijg haptische feedback wanneer u geldbedragen invoert via het toetsenbord.";
+"advanced_setting_enable_haptic_keyboard_description" = "Krijg haptische feedback wanneer je geldbedragen invoert via het toetsenbord.";
 
 "advanced_setting_language_title" = "Taal";
 "advanced_setting_time_zone_title" = "Tijdzone";
 "advanced_setting_enable_live_activities_title" = "Live-activiteiten";
-"advanced_setting_enable_live_activities_description" = "Bekijk uw huidige saldo en meer op het dynamische eiland en op het vergrendelscherm.";
+"advanced_setting_enable_live_activities_description" = "Bekijk je huidige saldo en meer op het dynamische eiland en op het vergrendelscherm.";
 "advanced_setting_ask_for_feedback_title" = "Vraag om feedback";
-"advanced_setting_ask_for_feedback_description" = "Sta toe dat de app u af en toe om feedback vraagt.";
+"advanced_setting_ask_for_feedback_description" = "Sta toe dat de app je af en toe om feedback vraagt.";
 
 /* Cloud Sync Status */
 "cloud_sync_status_not_logged_in" = "Niet aangemeld bij iCloud";
@@ -764,12 +764,12 @@
 "cloud_sync_status_no_network" = "Geen internetverbinding";
 "cloud_sync_status_in_progress" = "Synchroniseren...";
 "cloud_sync_status_succeeded" = "Volledig gesynchroniseerd";
-"cloud_sync_status_quota_exceeded" = "iCloud-lagringen din er full. Frigjør plass og prøv igjen.";
-"cloud_sync_status_limit_exceeded" = "Du har nådd iClouds opplastings-/nedlastingsgrense. Vent et øyeblikk og prøv igjen senere.";
-"cloud_sync_status_network_failure" = "Det oppstod en nettverksfeil. Prøv igjen senere.";
-"cloud_sync_status_service_unavailable" = "iCloud er midlertidig utilgjengelig. Prøv igjen senere.";
-"cloud_sync_status_request_rate_limited" = "Du har sendt for mange forespørsler til iCloud på kort tid. Vent et øyeblikk og prøv igjen senere.";
-"cloud_sync_status_request_unknown_error" = "Det oppstod en ukjent feil. Prøv igjen senere.";
+"cloud_sync_status_quota_exceeded" = "Je iCloud-opslag is vol. Maak ruimte vrij en probeer het opnieuw.";
+"cloud_sync_status_limit_exceeded" = "Je hebt de upload-/downloadlimiet van iCloud bereikt. Wacht even en probeer het later opnieuw.";
+"cloud_sync_status_network_failure" = "Er is een netwerkfout opgetreden. Probeer het later opnieuw.";
+"cloud_sync_status_service_unavailable" = "iCloud is tijdelijk niet beschikbaar. Probeer het later opnieuw.";
+"cloud_sync_status_request_rate_limited" = "Je hebt te veel verzoeken naar iCloud gestuurd in korte tijd. Wacht even en probeer het later opnieuw.";
+"cloud_sync_status_request_unknown_error" = "Er is een onbekende fout opgetreden. Probeer het later opnieuw.";
 
 /* Alert Views */
 "alert_share_app_type_selection_title" = "Wat wil je delen?";
@@ -777,7 +777,7 @@
 "alert_share_app_type_selection_qrcode_button" = "QR-code";
 
 "alert_reset_app_title" = "App resetten";
-"alert_reset_app_message" = "Weet u zeker dat u de standaardinstellingen van de app wilt herstellen? Hierdoor worden al uw gegevens permanent gewist die op dit apparaat en in iCloud zijn opgeslagen.";
+"alert_reset_app_message" = "Weet je zeker dat je de standaardinstellingen van de app wilt herstellen? Hierdoor worden al je gegevens permanent gewist die op dit apparaat en in iCloud zijn opgeslagen.";
 
 "alert_error_title" = "Er is een fout opgetreden 😢";
 
@@ -811,23 +811,23 @@
 
 /* Overview */
 "privacy_overview_datastorage_title" = "Beveiligde gegevensopslag";
-"privacy_overview_datastorage_description" = "Uw financiën zijn privé – en dat moeten ze ook blijven. Daarom worden uw gegevens uitsluitend op uw apparaat of (optioneel) in uw persoonlijke iCloud opgeslagen.";
+"privacy_overview_datastorage_description" = "Je financiën zijn privé – en dat moeten ze ook blijven. Daarom worden je gegevens uitsluitend op jouw apparaat of (optioneel) in je persoonlijke iCloud opgeslagen.";
 
-"privacy_overview_privacy_control_title" = "U heeft de controle";
-"privacy_overview_privacy_control_description" = "Of het nu gaat om uw opgeslagen gegevens, gebruik van uw locatie of toegang tot uw camera - u heeft altijd de controle. U kunt bijvoorbeeld eenvoudig uw gegevens verwijderen door de app opnieuw in te stellen en de toegangsrechten van de app aan te passen op elk moment.";
+"privacy_overview_privacy_control_title" = "Jij hebt de controle";
+"privacy_overview_privacy_control_description" = "Of het nu gaat om je opgeslagen gegevens, gebruik van je locatie of toegang tot je camera: jij hebt altijd de controle. Je kunt bijvoorbeeld eenvoudig je gegevens verwijderen door de app opnieuw in te stellen en de toegangsrechten van de app aan te passen op elk moment.";
 
 /* Footer */
-"welcome_view_value_description" = "Beheer al uw financiën met gemak: Voer uw budget in, krijg inzichten en houd al uw inkomsten en uitgaven bij.";
-"welcome_view_agreement_description" = "Door op \"Accepteren\" te klikken, gaat u akkoord met de %@.";
+"welcome_view_value_description" = "Beheer al je financiën met gemak: Voer je budget in, krijg inzichten en houd al je inkomsten en uitgaven bij.";
+"welcome_view_agreement_description" = "Door op \"Accepteren\" te klikken, ga je akkoord met de %@.";
 
 
 /* MARK: - New Features View */
 /* Titles */
-"new_features_view_title" = "New Features";
+"new_features_view_title" = "Nieuwe functies";
 
 /* Buttons */
-"new_features_view_rate_app_button" = "Rate App";
-"new_features_view_close_button" = "Maybe later";
+"new_features_view_rate_app_button" = "Beoordeel app";
+"new_features_view_close_button" = "Misschien later";
 
 
 /* MARK: - Rate App View */
@@ -873,35 +873,35 @@
 "upgrade_more_features" = "Meer functies";
 "upgrade_features_description" = "De volgende functies worden ontgrendeld bij aankoop van de volledige versie:";
 "upgrade_feature_unlimited_accounts_title" = "Extra accounts";
-"upgrade_feature_unlimited_accounts_description" = "Maak extra accounts aan en wijs er transacties aan toe voor een nog beter overzicht van uw inkomsten en uitgaven.";
+"upgrade_feature_unlimited_accounts_description" = "Maak extra accounts aan en wijs er transacties aan toe voor een nog beter overzicht van je inkomsten en uitgaven.";
 "upgrade_feature_unlimited_categories_and_tags_title" = "Onbeperkte categorieën en tags";
-"upgrade_feature_unlimited_categories_and_tags_description" = "Maak een onbeperkt aantal categorieën en tags die u aan transacties kunt toevoegen om ze beter te organiseren.";
+"upgrade_feature_unlimited_categories_and_tags_description" = "Maak een onbeperkt aantal categorieën en tags die je aan transacties kunt toevoegen om ze beter te organiseren.";
 "upgrade_feature_extended_analyses_title" = "Uitgebreide analyses";
-"upgrade_feature_extended_analyses_description" = "Profiteer van aanvullende analyses en een uitgebreide prognose van uw toekomstige rekeningsaldi en transacties.";
+"upgrade_feature_extended_analyses_description" = "Profiteer van aanvullende analyses en een uitgebreide prognose van je toekomstige rekeningsaldi en transacties.";
 "upgrade_feature_unlimited_budgetbooks_title" = "Meerdere budgetboeken";
-"upgrade_feature_unlimited_budgetbooks_description" = "Maak meerdere budgetboeken aan zodat bijvoorbeeld meerdere mensen elk hun eigen op één apparaat kunnen gebruiken, of als u een apart budgetboek wilt delen (bijvoorbeeld voor een vakantie).";
+"upgrade_feature_unlimited_budgetbooks_description" = "Maak meerdere budgetboeken aan, zodat bijvoorbeeld meerdere personen elk hun eigen budgetboek op één apparaat kunnen gebruiken, of voor het delen van een apart budgetboek (bijvoorbeeld voor een vakantie).";
 "upgrade_feature_security_title" = "Beveiligde gegevens";
-"upgrade_feature_security_description" = "Bescherm uw gegevens met %@.";
-"upgrade_feature_security_description_passcode" = "Bescherm uw gegevens door een code te maken";
+"upgrade_feature_security_description" = "Bescherm je gegevens met %@.";
+"upgrade_feature_security_description_passcode" = "Bescherm je gegevens door een code te maken";
 "upgrade_feature_security_description_biometric" = " of gebruik %@";
 "upgrade_feature_currency_converter_title" = "Valuta-omzetter";
-"upgrade_feature_currency_converter_description" = "Gebruik de ingebouwde valuta-omzetter om bedragen automatisch om te rekenen naar een van de meer dan 150 vreemde valuta's.";
+"upgrade_feature_currency_converter_description" = "Gebruik de ingebouwde valuta-omzetter om bedragen automatisch om te rekenen naar één van de meer dan 150 vreemde valuta's.";
 "upgrade_feature_customization" = "Personalisatie";
 "upgrade_feature_customization_description" = "Kies uit meerdere accentkleuren en pictogrammen om de app naar wens aan te passen.";
 "upgrade_feature_sharedbudget_books_title" = "Budgetboeken delen";
-"upgrade_feature_sharedbudget_books_description" = "Deel uw budgetboeken inclusief rekeningen, categorieën, transacties en budgetten om samen te werken met een of meer mensen.";
-"upgrade_feature_receipt_scanner_title" = "Bewijzen scannen";
-"upgrade_feature_receipt_scanner_description" = "Gebruik de ingebouwde scanner om bonnen te digitaliseren en automatisch het bedrag en de naam van de handelaar te herkennen.";
+"upgrade_feature_sharedbudget_books_description" = "Deel je budgetboeken inclusief rekeningen, categorieën, transacties en budgetten om samen te werken met een of meer mensen.";
+"upgrade_feature_receipt_scanner_title" = "Bonnen scannen";
+"upgrade_feature_receipt_scanner_description" = "Gebruik de ingebouwde scanner om bonnen te digitaliseren en automatisch het bedrag en de naam van de winkel te herkennen.";
 "upgrade_feature_widgets_title" = "Widgets voor startscherm en vergrendelscherm";
-"upgrade_feature_widgets_description" = "Met behulp van de widgets kunt u uw huidige inkomsten en uitgaven, uw rekeningsaldi en nog veel meer in één oogopslag zien zonder dat u de app hoeft te openen. Als u een voorbeeld van de widgets wilt bekijken, uw startscherm of vergrendelscherm wilt bewerken, opent u de \"Widget toevoegen\" bekijken en selecteer deze app.";
+"upgrade_feature_widgets_description" = "Met behulp van de widgets kunt je jouw huidige inkomsten en uitgaven, je rekeningsaldi en nog veel meer in één oogopslag zien zonder dat je de app hoeft te openen. Om de widgets te bekijken, bewerk je je start- of vergrendelscherm, open je het scherm \"Widget toevoegen\" en selecteer je deze app.";
 "upgrade_feature_reminders_title" = "Maak herinneringen aan";
-"upgrade_feature_reminders_description" = "Maak herinneringen aan voor uw geplande transacties om pushmeldingen te ontvangen (ook offline).";
+"upgrade_feature_reminders_description" = "Maak herinneringen aan voor je geplande transacties om pushmeldingen te ontvangen (ook offline).";
 "upgrade_feature_csv_title" = "CSV importeren en exporteren";
-"upgrade_feature_csv_description" = "Importeer en exporteer uw transacties met behulp van een CSV-bestand om gegevens van uw bank of andere toepassingen over te dragen.";
+"upgrade_feature_csv_description" = "Importeer en exporteer je transacties met behulp van een CSV-bestand om gegevens van je bank of andere toepassingen over te dragen.";
 "upgrade_feature_remove_ads_title" = "Geen advertenties";
-"upgrade_feature_remove_ads_description" = "U zult geen advertenties meer zien voor de volledige versie in de app.";
+"upgrade_feature_remove_ads_description" = "Je zult binnen de app geen advertenties voor de volledige versie meer zien.";
 "upgrade_feature_support_title" = "Ontwikkeling ondersteunen";
-"upgrade_feature_support_description" = "U ondersteunt een jonge ontwikkelaar en daarmee de continue ontwikkeling van de app! 😊";
+"upgrade_feature_support_description" = "Je ondersteunt een jonge ontwikkelaar en daarmee de continue ontwikkeling van de app! 😊";
 
 /* Reviews */
 "user_review_title_de" = "Awesome app";
@@ -950,19 +950,19 @@
 
 /* Alert Views */
 "alert_upgrade_view_purchase_success_title" = "Aankoop geslaagd 🎉";
-"alert_upgrade_view_purchase_success_message" = "Bedankt voor uw steun! 😊";
-"alert_upgrade_view_purchase_success_message_info" = "\n\nInfo: Als u overstapt van een abonnement naar een eenmalige aankoop, vergeet dan niet om uw vorige abonnement daarna op te zeggen.";
-"alert_upgrade_view_purchase_error_message" = "Uw aankoop kon niet succesvol worden afgerond.";
-"alert_upgrade_view_purchase_error_store_problem_message" = "Er is een probleem opgetreden met de App Store.\n\nInfo: Soms werkt de aankoop alleen als u bevestigt met uw wachtwoord in plaats van met Touch ID/Face ID.\n\nBijvoorbeeld, als je Face ID gebruikt, bedek dan gewoon de frontcamera en probeer het opnieuw om het wachtwoorddialoog te zien.";
+"alert_upgrade_view_purchase_success_message" = "Bedankt voor je steun! 😊";
+"alert_upgrade_view_purchase_success_message_info" = "\n\nInfo: Als je overstapt van een abonnement naar een eenmalige aankoop, vergeet dan niet om je vorige abonnement daarna op te zeggen.";
+"alert_upgrade_view_purchase_error_message" = "Je aankoop kon niet succesvol worden afgerond.";
+"alert_upgrade_view_purchase_error_store_problem_message" = "Er is een probleem opgetreden met de App Store.\n\nInfo: Soms werkt de aankoop alleen als je bevestigt met je wachtwoord in plaats van met Touch ID/Face ID.\n\nBijvoorbeeld, als je Face ID gebruikt, bedek dan gewoon de frontcamera en probeer het opnieuw om het wachtwoorddialoog te zien.";
 "alert_upgrade_view_purchase_error_not_allowed_message" = "Aankopen zijn niet toegestaan ​​op dit apparaat.";
-"alert_upgrade_view_purchase_error_invalid_message" = "Controleer uw betaalmethode en probeer het later opnieuw. Als de fout zich blijft voordoen, neem dan contact op met de ondersteuning.";
+"alert_upgrade_view_purchase_error_invalid_message" = "Controleer je betaalmethode en probeer het later opnieuw. Als de fout zich blijft voordoen, neem dan contact op met de ondersteuning.";
 "alert_upgrade_view_purchase_error_network_message" = "Controleer je internetverbinding en probeer het later opnieuw. Als de fout zich blijft voordoen, neem dan contact op met de ondersteuning.";
 
-"alert_upgrade_view_load_products_error_message" = "De producten konden niet worden geladen. Controleer uw internetverbinding en probeer het later opnieuw. Als de fout zich blijft voordoen, neem dan contact op met de ondersteuning.";
+"alert_upgrade_view_load_products_error_message" = "De producten konden niet worden geladen. Controleer je internetverbinding en probeer het later opnieuw. Als de fout zich blijft voordoen, neem dan contact op met de ondersteuning.";
 
 "alert_upgrade_view_restore_success_title" = "Aankopen hersteld";
-"alert_upgrade_view_restore_success_message" = "Uw aankopen zijn hersteld! 😊";
-"alert_upgrade_view_restore_error_message" = "Uw aankopen konden niet worden hersteld. Probeer het later opnieuw.";
+"alert_upgrade_view_restore_success_message" = "Je aankopen zijn hersteld! 😊";
+"alert_upgrade_view_restore_error_message" = "Je aankopen konden niet worden hersteld. Probeer het later opnieuw.";
 "alert_upgrade_view_restore_nothing_to_do_title" = "Geen aankopen beschikbaar 😢";
 "alert_upgrade_view_restore_nothing_to_do_message" = "Kan geen aankopen vinden om te herstellen.";
 
@@ -981,23 +981,23 @@
 "upgrade_faq_developer_title" = "Wie heeft de app ontwikkeld?";
 "upgrade_faq_developer_value" = "Budget Flow is begonnen als een zijproject en is sindsdien volledig ontworpen, ontwikkeld en onderhouden door mij, Fabian Hasse. Ik ben een enthousiaste softwareontwikkelaar met meer dan 10 jaar ervaring en ik werk met veel passie om de beste budgetterings- en kostenregistratie-app in de App Store te ontwikkelen.";
 "upgrade_faq_free_use_title" = "Kan de app ook gratis gebruikt worden?";
-"upgrade_faq_free_use_value" = "Ja, u kunt de basisfuncties van de app, zoals het aanmaken van transacties, volledig gratis gebruiken.\n\nDaarnaast biedt de app een proefperiode voor de volledige versie, zodat u deze van tevoren kunt uitproberen voordat u besluit de volledige versie te kopen of u erop te abonneren.";
+"upgrade_faq_free_use_value" = "Ja, je kunt de basisfuncties van de app, zoals het aanmaken van transacties, volledig gratis gebruiken.\n\nDaarnaast biedt de app een proefperiode voor de volledige versie, zodat je deze van tevoren kunt uitproberen voordat je besluit de volledige versie te kopen of u erop te abonneren.";
 "upgrade_faq_security_title" = "Zijn mijn gegevens veilig?";
-"upgrade_faq_security_value" = "Uw financiën zijn privé – en dat moeten ze ook blijven. Daarom worden uw gegevens uitsluitend op uw apparaat of (optioneel) in uw persoonlijke iCloud opgeslagen.";
+"upgrade_faq_security_value" = "Je financiën zijn privé – en dat moeten ze ook blijven. Daarom worden je gegevens uitsluitend op jouw apparaat of (optioneel) in je persoonlijke iCloud opgeslagen.";
 "upgrade_faq_why_subscription_title" = "Waarom wordt de volledige versie als abonnement aangeboden?";
-"upgrade_faq_why_subscription_value" = "Ons doel is een app van hoge kwaliteit te ontwikkelen die u als gebruiker regelmatig nieuwe functies en verbeteringen biedt. Om dit doel te bereiken, heeft de app echter continue inkomsten nodig om zichzelf te financieren en economisch duurzaam zijn.\n\nWat velen niet weten Het ontwikkelen en onderhouden van een app kost veel tijd. In het geval van Budget Flow kostte het bijvoorbeeld bijna twee jaar en enkele duizenden uren werk van idee tot ontwikkeling en testen voordat de eerste versie naar de App Store kon worden vrijgegeven.\n\nAls klant profiteert u vooral van regelmatige updates en verbeteringen via het abonnementsmodel, evenals goede ondersteuning om ervoor te zorgen dat u tevreden blijft. hebben ook de mogelijkheid om de app van tevoren gratis uit te proberen om er zeker van te zijn dat deze aan uw behoeften voldoet. U kunt het abonnement op elk moment wijzigen of annuleren als u van gedachten verandert.\n\nAl met al biedt een abonnementsmodel u als gebruiker veel voordelen klant en een betere gebruikerservaring door continue updates en ondersteuning in vergelijking met een eenmalige aankoop. Op de lange termijn zou een eenmalige aankoop helaas niet duurzaam zijn, aangezien dit bedrijfsmodel vereist dat nieuwe gebruikers de app blijven kopen om de voortzetting van de ontwikkeling te garanderen.\n\nDus als je de app leuk vindt, zouden we erg blij zijn als je ons werk steunt, zodat we je in de toekomst nog meer geweldige functies kunnen blijven bieden!❤️";
+"upgrade_faq_why_subscription_value" = "Mijn doel is om een hoogwaardige app te ontwikkelen die jou als gebruiker regelmatig nieuwe functies en verbeteringen biedt. Om dit te kunnen realiseren, heeft de app echter continue inkomsten nodig om zichzelf te financieren en economisch duurzaam te blijven.\n\nWat veel mensen niet weten: het ontwikkelen en onderhouden van een app kost veel tijd. In het geval van Budget Flow duurde het bijvoorbeeld bijna twee jaar en werden er enkele duizenden uren besteed aan het uitwerken van het idee, de ontwikkeling en het testen, voordat de eerste versie in de App Store kon worden uitgebracht.\n\nVia het abonnementsmodel profiteer je van regelmatige updates en verbeteringen, evenals ondersteuning om je tevredenheid te waarborgen. Je hebt ook de mogelijkheid om de app vooraf gratis uit te proberen om te zien of deze bij je past, en je kunt het abonnement op elk moment wijzigen of annuleren als je van gedachten verandert.\n\nOmdat sommige gebruikers echter geen abonnementen prettig vinden, is er ook een iets duurdere eenmalige aankoop beschikbaar. De prijs van deze eenmalige aankoop weerspiegelt de customer lifetime value (CLV) en is ongeveer 2,5 keer de jaarlijkse abonnementsprijs. Op deze manier zijn alle toekomstige kosten voor updates en ondersteuning voor de gehele levensduur van de app gedekt, kosten die anders via terugkerende betalingen in een abonnement zouden worden gefinancierd.\n\nAl met al biedt dit businessmodel jou als gebruiker veel voordelen en een betere ervaring door voortdurende updates en ondersteuning. Op de lange termijn zou een eenmalige aankoop tegen een lage prijs helaas niet duurzaam zijn, omdat dit model nieuwe gebruikers nodig heeft die de app blijven kopen om de doorlopende ontwikkeling te waarborgen.\n\nDus, als je de app leuk vindt, zou ik het ontzettend waarderen als je mijn werk steunt, zodat ik je in de toekomst nog meer geweldige functies kan bieden! ❤️";
 "upgrade_faq_multiple_devices_title" = "Kan ik de volledige versie op meerdere apparaten gebruiken?";
 "upgrade_faq_multiple_devices_value" = "Ja, je kunt de volledige versie van Budget Flow gebruiken op al je Apple-apparaten met dezelfde Apple ID. Omdat de app via iCloud wordt gesynchroniseerd, kun je naadloos schakelen tussen je apparaten en heb je altijd toegang tot je financiële gegevens en instellingen.";
 "upgrade_faq_multiple_people_title" = "Kan ik de volledige versie met meerdere mensen gebruiken?";
-"upgrade_faq_multiple_people_value" = "Ja, u kunt zowel de eenmalige aankoop als het abonnement op de volledige versie delen met maximaal vijf personen binnen een gezinsgroep. Het enige wat u hoeft te doen is delen met gezin inschakelen in de systeeminstellingen en toevoegen de andere mensen voor de groep uitnodigen.";
+"upgrade_faq_multiple_people_value" = "Ja, je kunt zowel de eenmalige aankoop als het abonnement op de volledige versie delen met maximaal vijf personen binnen een gezinsgroep. Het enige wat je hoeft te doen is delen met gezin inschakelen in de systeeminstellingen en toevoegen de andere mensen voor de groep uitnodigen.";
 "upgrade_faq_cancel_subscription_title" = "Hoe zeg ik mijn abonnement op?";
-"upgrade_faq_cancel_subscription_value" = "U kunt uw abonnement op elk moment opzeggen met uw Apple ID in Systeemvoorkeuren.";
+"upgrade_faq_cancel_subscription_value" = "Je kunt je abonnement op elk moment annuleren via je Apple ID in de systeeminstellingen.";
 "upgrade_faq_subscription_data_loss_title" = "Gaan mijn gegevens verloren als ik mijn abonnement opzeg?";
-"upgrade_faq_subscription_data_loss_value" = "Nee. Alles wat u maakt terwijl u zich abonneert op de volledige versie, is nog steeds beschikbaar als u terugschakelt naar de gratis versie.";
-"upgrade_faq_refund_title" = "Hoe kan ik geld terugkrijgen?";
-"upgrade_faq_refund_value" = "Betalingen die via de App Store zijn gedaan, worden alleen door Apple terugbetaald. Om een ​​terugbetaling te ontvangen, moet u binnen 14 dagen na aankoop contact opnemen met Apple Support.";
+"upgrade_faq_subscription_data_loss_value" = "Nee. Alles wat je aanmaakt terwijl je het volledige abonnement hebt, blijft beschikbaar als je teruggaat naar de gratis versie.";
+"upgrade_faq_refund_title" = "Hoe kan ik mijn geld terugkrijgen?";
+"upgrade_faq_refund_value" = "Betalingen die via de App Store zijn gedaan, worden alleen door Apple terugbetaald. Om een ​​terugbetaling te ontvangen, moet je binnen 14 dagen na aankoop contact opnemen met Apple Support.";
 "upgrade_faq_switch_plan_title" = "Is het mogelijk om op een later tijdstip over te stappen van een abonnement naar een eenmalige aankoop?";
-"upgrade_faq_switch_plan_value" = "Ja, u kunt op elk moment overstappen van een actief abonnement naar een eenmalige aankoop door het bijbehorende product in de app te kopen. Vergeet echter niet uw vorige abonnement op te zeggen, zodat u niet meer betaalt dan eenmaal.";
+"upgrade_faq_switch_plan_value" = "Ja, je kunt op elk moment overstappen van een actief abonnement naar de eenmalige aankoop door het bijbehorende product in de app aan te schaffen. Vergeet echter niet je eerdere abonnement te annuleren, zodat je niet dubbel betaalt.";
 
 
 /* MARK: - User Feedback */
@@ -1021,10 +1021,10 @@
 
 /* MARK: - Progress View */
 "progress_view_load_images_title" = "Foto's laden...";
-"progress_view_load_images_subtitle" = "Opmerking: als u iCloud-fotobibliotheek gebruikt, kan het even duren voordat uw foto's zijn gedownload.";
+"progress_view_load_images_subtitle" = "Opmerking: als u iCloud-fotobibliotheek gebruikt, kan het even duren voordat je foto's zijn gedownload.";
 
 "progress_view_load_documents_title" = "Documenten laden...";
-"progress_view_load_documents_subtitle" = "Info: als u iCloud Drive gebruikt, kan het downloaden van uw documenten enige tijd duren.";
+"progress_view_load_documents_subtitle" = "Info: als je iCloud Drive gebruikt, kan het downloaden van je documenten enige tijd duren.";
 
 "progress_view_import_csv_title" = "Gegevens importeren...";
 "progress_view_import_csv_subtitle" = "Een ogenblik geduld...";
@@ -1036,27 +1036,27 @@
 
 /* MARK: - Widgets */
 "chart_widget_title" = "Grafiek";
-"chart_widget_description" = "Deze widget geeft een overzicht weer van uw rekeningsaldi, uw huidige saldo of een uitsplitsing van uw inkomsten en uitgaven voor de geselecteerde periode.";
+"chart_widget_description" = "Deze widget geeft een overzicht weer van je rekeningsaldi, je huidige saldo of een uitsplitsing van je inkomsten en uitgaven voor de geselecteerde periode.";
 
 "account_widget_title" = "Rekening";
 "account_widget_description" = "Deze widget toont een grafiek van je rekeningsaldo voor een specifieke rekening en de geselecteerde periode.";
 "account_widget_no_account_title" = "Geen rekening geselecteerd";
 
 "overview_widget_title" = "Overzicht";
-"overview_widget_description" = "Deze widget toont een overzicht van uw rekeningsaldi, uw huidige saldo of een totaal van inkomsten en uitgaven voor de geselecteerde periode.";
+"overview_widget_description" = "Deze widget toont een overzicht van je rekeningsaldi, je huidige saldo of een totaal van inkomsten en uitgaven voor de geselecteerde periode.";
 
 "upcoming_transactions_widget_title" = "Gepland";
-"upcoming_transactions_widget_description" = "Deze widget toont u uw volgende geplande transactie.";
+"upcoming_transactions_widget_description" = "Deze widget toont je volgende geplande transactie.";
 
 "budget_widget_title" = "Budget";
-"budget_widget_description" = "Deze widget toont u een specifiek budget voor de geselecteerde periode.";
+"budget_widget_description" = "Deze widget toont je specifiek budget voor de geselecteerde periode.";
 "budget_widget_no_budget_title" = "Geen budget geselecteerd";
 
 "suggestion_widget_title" = "Voorgesteld";
-"suggestion_widget_description" = "Deze widget toont u een voorgestelde categorie op basis van de huidige datum waarvoor u een nieuwe transactie kunt aanmaken.";
+"suggestion_widget_description" = "Deze widget toont de voorgestelde categorie op basis van de huidige datum waarvoor je een nieuwe transactie kunt aanmaken.";
 
 "quick_actions_widget_title" = "Snelle invoer";
-"quick_actions_widget_description" = "Met deze widget kunt u snel nieuwe transacties toevoegen.";
+"quick_actions_widget_description" = "Met deze widget kunt je snel nieuwe transacties toevoegen.";
 "quick_actions_widget_new_title" = "Nieuw";
 
 "widget_upgrade_locked_title" = "Vergrendeld";
@@ -1071,87 +1071,87 @@
 /* Info */
 "alert_no_budget_book_selected_title" = "Geen budgetboek geselecteerd";
 "alert_upgrade_necessary_title" = "Volledige versie";
-"alert_upgrade_necessary_description" = "Om deze functie te gebruiken, moet u upgraden naar de volledige versie. Dit kan worden geactiveerd in de app.";
+"alert_upgrade_necessary_description" = "Om deze functie te gebruiken, moet je upgraden naar de volledige versie. Dit kan worden geactiveerd in de app.";
 
 /* Dismiss */
-"alert_confirm_dismiss_title" = "Weet u zeker dat u uw wijzigingen wilt annuleren?";
+"alert_confirm_dismiss_title" = "Weet je zeker dat je je wijzigingen wilt annuleren?";
 
 /* Delete */
-"alert_confirm_delete_budgetbook_title" = "Weet u zeker dat u dit budgetboek wilt verwijderen? Alle gekoppelde accounts, categorieën, transacties en budgetten worden ook verwijderd.";
+"alert_confirm_delete_budgetbook_title" = "Weet je zeker dat je dit budgetboek wilt verwijderen? Alle gekoppelde accounts, categorieën, transacties en budgetten worden ook verwijderd.";
 "alert_confirm_delete_budgetbook_button" = "Budgetboek verwijderen";
-"alert_confirm_delete_budgetbook_multiple_title" = "Weet u zeker dat u alle geselecteerde budgetboeken wilt verwijderen? Alle gekoppelde rekeningen, categorieën, transacties en budgetten worden ook verwijderd.";
+"alert_confirm_delete_budgetbook_multiple_title" = "Weet je zeker dat je alle geselecteerde budgetboeken wilt verwijderen? Alle gekoppelde rekeningen, categorieën, transacties en budgetten worden ook verwijderd.";
 "alert_confirm_delete_budgetbook_multiple_button" = "Budgetboeken verwijderen";
 
-"alert_confirm_delete_account_title" = "Weet u zeker dat u deze account wilt verwijderen? Alle gekoppelde transacties worden ook verwijderd.";
+"alert_confirm_delete_account_title" = "Weet je zeker dat je dit account wilt verwijderen? Alle gekoppelde transacties worden ook verwijderd.";
 "alert_confirm_delete_account_button" = "Account verwijderen";
-"alert_confirm_delete_account_multiple_title" = "Weet u zeker dat u alle geselecteerde accounts wilt verwijderen? Alle gekoppelde transacties worden ook verwijderd.";
+"alert_confirm_delete_account_multiple_title" = "Weet je zeker dat je alle geselecteerde accounts wilt verwijderen? Alle gekoppelde transacties worden ook verwijderd.";
 "alert_confirm_delete_account_multiple_button" = "Accounts verwijderen";
 
-"alert_confirm_delete_categorygroup_title" = "Weet u zeker dat u deze map wilt verwijderen? Alle bijbehorende categorieën, transacties en budgetten worden ook verwijderd (indien nodig).";
+"alert_confirm_delete_categorygroup_title" = "Weet je zeker dat je deze map wilt verwijderen? Alle bijbehorende categorieën, transacties en budgetten worden ook verwijderd (indien nodig).";
 "alert_confirm_delete_categorygroup_button" = "Map verwijderen";
-"alert_confirm_delete_categorygroup_multiple_title" = "Weet u zeker dat u alle geselecteerde mappen wilt verwijderen? Alle bijbehorende categorieën, transacties en budgetten worden ook verwijderd (indien nodig).";
+"alert_confirm_delete_categorygroup_multiple_title" = "Weet je zeker dat je alle geselecteerde mappen wilt verwijderen? Alle bijbehorende categorieën, transacties en budgetten worden ook verwijderd (indien nodig).";
 "alert_confirm_delete_categorygroup_multiple_button" = "Map verwijderen";
 
-"alert_confirm_delete_category_title" = "Weet u zeker dat u deze categorie wilt verwijderen? Alle bijbehorende budgetten worden ook verwijderd (indien nodig).";
+"alert_confirm_delete_category_title" = "Weet je zeker dat je deze categorie wilt verwijderen? Alle bijbehorende budgetten worden ook verwijderd (indien nodig).";
 "alert_confirm_delete_category_button" = "Categorie verwijderen";
-"alert_confirm_delete_category_multiple_title" = "Weet u zeker dat u alle geselecteerde categorieën wilt verwijderen? Alle gekoppelde transacties en budgetten worden ook verwijderd.";
+"alert_confirm_delete_category_multiple_title" = "Weet je zeker dat je alle geselecteerde categorieën wilt verwijderen? Alle gekoppelde transacties en budgetten worden ook verwijderd.";
 "alert_confirm_delete_category_multiple_button" = "Categorieën verwijderen";
 
-"alert_confirm_delete_payee_title" = "Weet u zeker dat u deze begunstigde wilt verwijderen?";
+"alert_confirm_delete_payee_title" = "Weet je zeker dat je deze begunstigde wilt verwijderen?";
 "alert_confirm_delete_payee_button" = "Begunstigde verwijderen";
-"alert_confirm_delete_payee_multiple_title" = "Weet u zeker dat u alle geselecteerde begunstigden wilt verwijderen?";
+"alert_confirm_delete_payee_multiple_title" = "Weet je zeker dat je alle geselecteerde begunstigden wilt verwijderen?";
 "alert_confirm_delete_payee_multiple_button" = "Verwijder begunstigden";
 
-"alert_confirm_delete_tag_title" = "Weet u zeker dat u deze tag wilt verwijderen?";
+"alert_confirm_delete_tag_title" = "Weet je zeker dat je deze tag wilt verwijderen?";
 "alert_confirm_delete_tag_button" = "Tag verwijderen";
-"alert_confirm_delete_tag_multiple_title" = "Weet u zeker dat u alle geselecteerde tags wilt verwijderen?";
+"alert_confirm_delete_tag_multiple_title" = "Weet je zeker dat je alle geselecteerde tags wilt verwijderen?";
 "alert_confirm_delete_tag_multiple_button" = "Verwijder tags";
 
-"alert_confirm_delete_reminder_title" = "Weet u zeker dat u deze herinnering wilt verwijderen?";
+"alert_confirm_delete_reminder_title" = "Weet je zeker dat je deze herinnering wilt verwijderen?";
 "alert_confirm_delete_reminder_button" = "Herinnering verwijderen";
-"alert_confirm_delete_reminder_multiple_title" = "Weet u zeker dat u alle geselecteerde herinneringen wilt verwijderen?";
+"alert_confirm_delete_reminder_multiple_title" = "Weet je zeker dat je alle geselecteerde herinneringen wilt verwijderen?";
 "alert_confirm_delete_reminder_multiple_button" = "Verwijder herinneringen";
 
-"alert_confirm_delete_transaction_title" = "Weet u zeker dat u deze transactie wilt verwijderen?";
-"alert_confirm_delete_assigned_transaction_title" = "Wilt u ook alle toegewezen transacties verwijderen?";
+"alert_confirm_delete_transaction_title" = "Weet je zeker dat je deze transactie wilt verwijderen?";
+"alert_confirm_delete_assigned_transaction_title" = "Wil je ook alle toegewezen transacties verwijderen?";
 "alert_confirm_delete_transaction_button" = "Transactie verwijderen";
-"alert_confirm_delete_transaction_multiple_title" = "Weet u zeker dat u alle geselecteerde transacties wilt verwijderen?";
+"alert_confirm_delete_transaction_multiple_title" = "Weet je zeker dat je alle geselecteerde transacties wilt verwijderen?";
 "alert_confirm_delete_transaction_multiple_button" = "Transacties verwijderen";
 
-"alert_confirm_delete_imageitem_title" = "Weet u zeker dat u deze foto wilt verwijderen?";
+"alert_confirm_delete_imageitem_title" = "Weet je zeker dat je deze foto wilt verwijderen?";
 "alert_confirm_delete_imageitem_button" = "Foto verwijderen";
-"alert_confirm_delete_imageitem_multiple_title" = "Weet u zeker dat u alle geselecteerde foto's wilt verwijderen?";
+"alert_confirm_delete_imageitem_multiple_title" = "Weet je zeker dat je alle geselecteerde foto's wilt verwijderen?";
 "alert_confirm_delete_imageitem_multiple_button" = "Foto's verwijderen";
 
-"alert_confirm_delete_documentitem_title" = "Weet u zeker dat u dit document wilt verwijderen?";
+"alert_confirm_delete_documentitem_title" = "Weet je zeker dat je dit document wilt verwijderen?";
 "alert_confirm_delete_documentitem_button" = "Document verwijderen";
-"alert_confirm_delete_documentitem_multiple_title" = "Weet u zeker dat u alle geselecteerde documenten wilt verwijderen?";
+"alert_confirm_delete_documentitem_multiple_title" = "Weet je zeker dat je alle geselecteerde documenten wilt verwijderen?";
 "alert_confirm_delete_documentitem_multiple_button" = "Documenten verwijderen";
 
-"alert_confirm_delete_budget_title" = "Weet u zeker dat u dit budget wilt verwijderen?";
+"alert_confirm_delete_budget_title" = "Weet je zeker dat je dit budget wilt verwijderen?";
 "alert_confirm_delete_budget_button" = "Budget verwijderen";
-"alert_confirm_delete_budget_multiple_title" = "Weet u zeker dat u alle geselecteerde budgetten wilt verwijderen?";
+"alert_confirm_delete_budget_multiple_title" = "Weet je zeker dat je alle geselecteerde budgetten wilt verwijderen?";
 "alert_confirm_delete_budget_multiple_button" = "Budgetten verwijderen";
 
-"alert_confirm_delete_backupitem_title" = "Weet u zeker dat u deze back-up wilt verwijderen?";
+"alert_confirm_delete_backupitem_title" = "Weet je zeker dat je deze back-up wilt verwijderen?";
 "alert_confirm_delete_backupitem_button" = "Back-up verwijderen";
 
-"alert_confirm_delete_contra_entry_title" = "Deze transactie is een overboeking. Wilt u de tegenboeking ook verwijderen?";
+"alert_confirm_delete_contra_entry_title" = "Deze transactie is een overboeking. Wil je de tegenboeking ook verwijderen?";
 
 /* Updates */
-"alert_confirm_update_contra_entry_title" = "Deze transactie is een overboeking. Wilt u ook de tegenboeking bijwerken?";
-"alert_confirm_update_transaction_multiple_title" = "Deze transactie behoort tot een groep. Wat wilt u precies opslaan?";
+"alert_confirm_update_contra_entry_title" = "Deze transactie is een overboeking. Wil je ook de tegenboeking bijwerken?";
+"alert_confirm_update_transaction_multiple_title" = "Deze transactie behoort tot een groep. Wat wil je precies opslaan?";
 "alert_confirm_update_transaction_single_button" = "Alleen deze opslaan";
 "alert_confirm_update_transaction_all_button" = "Bewaar deze en toekomstige";
 
 /* End Repetition */
-"alert_confirm_end_repetition_for_transaction_title" = "Weet u zeker dat u wilt stoppen met het herhalen van deze transactie?";
+"alert_confirm_end_repetition_for_transaction_title" = "Weet je zeker dat je wilt stoppen met het herhalen van deze transactie?";
 "alert_confirm_end_repetition_for_transaction_button" = "Herhaling beëindigen";
-"alert_confirm_end_repetition_for_transaction_multiple_title" = "Weet u zeker dat u alle geselecteerde transacties niet meer wilt herhalen?";
+"alert_confirm_end_repetition_for_transaction_multiple_title" = "Weet je zeker dat je alle geselecteerde transacties niet meer wilt herhalen?";
 "alert_confirm_end_repetition_for_transaction_multiple_button" = "Herhaling beëindigen";
 
 /* Currency Selection */
-"alert_change_currency_or_exchange_rate_title" = "Wat wilt u precies wijzigen?";
+"alert_change_currency_or_exchange_rate_title" = "Wat wil je precies wijzigen?";
 "alert_change_currency_button" = "Valuta";
 "alert_change_exchange_rate_button" = "Wisselkoers";
 
@@ -1176,8 +1176,8 @@
 "change_default_currency_button" = "Standaardvaluta wijzigen";
 
 /* Alert Views */
-"alert_confirm_change_default_currency_title" = "Weet u zeker dat u uw standaardvaluta wilt wijzigen? Hierdoor worden alle bestaande transacties geconverteerd naar de nieuwe valuta (%@).";
-"alert_confirm_change_default_account_currency_title" = "Weet u zeker dat u de valuta wilt wijzigen? Hierdoor worden alle bestaande transacties van deze rekening geconverteerd naar de nieuwe valuta (%@).";
+"alert_confirm_change_default_currency_title" = "Weet je zeker dat je de standaardvaluta wilt wijzigen? Hierdoor worden alle bestaande transacties geconverteerd naar de nieuwe valuta (%@).";
+"alert_confirm_change_default_account_currency_title" = "Weet je zeker dat je de valuta wilt wijzigen? Hierdoor worden alle bestaande transacties van deze rekening geconverteerd naar de nieuwe valuta (%@).";
 
 
 /* MARK: - Currency Conversion View */
@@ -1213,7 +1213,7 @@
 
 /* Info */
 "manage_reminders_info_title" = "Beschrijving";
-"manage_reminders_info_description" = "Maak aangepaste herinneringen aan of voeg ze toe aan toekomstige transacties zodat de app u hiervan op de hoogte stelt.";
+"manage_reminders_info_description" = "Maak aangepaste herinneringen aan of voeg ze toe aan toekomstige transacties zodat de app je hiervan op de hoogte stelt.";
 
 /* Sections */
 "shared_by_you_budgetbooks_section_title" = "Door jou gedeeld";
@@ -1227,8 +1227,8 @@
 "no_budget_books_found_title" = "Geen budgetboeken gevonden";
 "no_budget_books_found_message" = "Klik op de knop \"+\" om een ​​nieuw budgetboek toe te voegen.";
 "no_budget_books_found_button_title" = "Nieuw budgetboek";
-"no_budget_books_found_cloud_sync_message" = "Bestaande gegevens worden geladen vanuit iCloud. Een ogenblik geduld...\n\nU kunt ook op de knop \"+\" klikken om een ​​nieuw budgetboek toe te voegen.";
-"no_budget_books_found_cloud_sync_message_short" = "Bestaande gegevens worden geladen vanuit iCloud. Een ogenblik geduld alstublieft...";
+"no_budget_books_found_cloud_sync_message" = "Bestaande gegevens worden geladen vanuit iCloud. Een ogenblik geduld...\n\nJe kunt ook op de knop \"+\" klikken om een ​​nieuw budgetboek toe te voegen.";
+"no_budget_books_found_cloud_sync_message_short" = "Bestaande gegevens worden geladen vanuit iCloud. Een moment geduld alsjeblieft...";
 "budget_books_search_placeholder_message" = "Zoek naar de naam van een budgetboeker";
 
 "no_accounts_title" = "Geen accounts";
@@ -1305,7 +1305,7 @@
 /* Footer */
 "form_billing_footer_title" = "Schakel deze functie in om het saldo van deze creditcard automatisch op een specifieke dag van de maand in rekening te brengen (indien nodig).";
 "form_transactions_footer_title" = "Schakel deze functie in om nieuwe transacties voor deze rekening automatisch te markeren als \"in behandeling\".";
-"form_account_balance_footer_title" = "Wijzig het begin-/totaalsaldo om uw accountsaldo handmatig te verzoenen.";
+"form_account_balance_footer_title" = "Wijzig het begin- of totaalsaldo om je rekeningsaldo handmatig te corrigeren.";
 
 /* Items */
 "form_enable_automatic_billing_title" = "Ingeschakeld";
@@ -1534,23 +1534,23 @@
 
 /* MARK: - Other Alert Views */
 "alert_selected_period_changed_title" = "%@ geselecteerd";
-"alert_selected_period_changed_message" = "Sinds een %@ is gestart, is de huidige periode automatisch aangepast.\n\nOm tussen periodes te schakelen en eerdere transacties te bekijken, klikt u op de knop \"%@\" in de linkerbovenhoek van het scherm , selecteer vervolgens de gewenste tijdsperiode.";
+"alert_selected_period_changed_message" = "Sinds een %@ is gestart, is de huidige periode automatisch aangepast.\n\nOm tussen periodes te schakelen en eerdere transacties te bekijken, klik je op de knop \"%@\" in de linkerbovenhoek van het scherm , selecteer vervolgens de gewenste tijdsperiode.";
 "alert_selected_period_changed_new_month" = "nieuwe maand";
 "alert_selected_period_changed_new_year" = "nieuw jaar";
 
 "alert_no_mail_initialized_title" = "Geen e-mailaccount";
-"alert_no_mail_initialized_message" = "Het lijkt erop dat u geen e-mailaccount heeft ingesteld op uw apparaat. Dit is echter verplicht om deze functie te gebruiken.";
+"alert_no_mail_initialized_message" = "Het lijkt erop dat je geen e-mailaccount hebt ingesteld op je apparaat. Dit is echter verplicht om deze functie te kunnen gebruiken.";
 
 "alert_no_camera_title" = "Geen camera beschikbaar";
-"alert_no_camera_message" = "Het lijkt erop dat u geen camera heeft. Het gebruik van deze functie is echter verplicht.";
+"alert_no_camera_message" = "Het lijkt erop dat je geen camera hebt. Deze functie vereist echter een camera.";
 
-"alert_permissions_title" = "Bijna daar!";
+"alert_permissions_title" = "Je bent er bijna!";
 "alert_permissions_activate_button" = "Nu activeren";
 "alert_permissions_cancel_button" = "Misschien later";
 
-"alert_camera_permissions_message" = "Als u foto's wilt maken, hoeft u alleen \"camera\"-toegang in de instellingen in te schakelen.";
-"alert_photolibrary_permissions_message" = "Om foto's toe te voegen, hoeft u alleen de toegang tot \"foto's\" in de instellingen in te schakelen.";
-"alert_notifications_permissions_message" = "Om pushmeldingen te ontvangen, hoeft u alleen \"meldingen\" in de instellingen in te schakelen.";
+"alert_camera_permissions_message" = "Als je foto's wilt maken, hoef je alleen \"camera\"-toegang in de instellingen in te schakelen.";
+"alert_photolibrary_permissions_message" = "Om foto's toe te voegen, hoef je alleen de toegang tot \"foto's\" in de instellingen in te schakelen.";
+"alert_notifications_permissions_message" = "Om pushmeldingen te ontvangen, hoef je alleen \"meldingen\" in de instellingen in te schakelen.";
 
 
 /* MARK: - Tips */
@@ -1559,13 +1559,13 @@
 "interactive_charts_tip_title" = "Interactieve grafieken";
 "interactive_charts_tip_message" = "Veeg naar links of rechts om de actieve grafiek te wijzigen, of druk lang op een grafiek om de waarden voor een specifieke datum te bekijken.";
 "switch_budget_books_tip_title" = "Wissel budgetboeken";
-"switch_budget_books_tip_message" = "Druk lang op het tabblad Overzicht om snel tussen uw budgetboeken te schakelen.";
+"switch_budget_books_tip_message" = "Druk lang op het tabblad Overzicht om snel tussen je budgetboeken te schakelen.";
 
 
 /* MARK: - Watch App */
 /* Titles */
 "cloud_sync_status_section_title" = "iCloud-synchronisatiestatus";
-"cloud_sync_status_footer_title" = "Info: u moet bij iCloud zijn aangemeld om gegevens van uw iPhone te synchroniseren.";
+"cloud_sync_status_footer_title" = "Info: je moet bij iCloud zijn aangemeld om gegevens van je iPhone te synchroniseren.";
 
 
 /* MARK: - Localized URLs */
@@ -2043,11 +2043,11 @@
 
 /* Show */
 "show_chart_title" = "Toon diagram";
-"show_chart_description" = "Toont een diagram van uw rekeningsaldi, inkomsten of uitgaven voor de opgegeven periode.";
+"show_chart_description" = "Toont een diagram van je rekeningsaldi, inkomsten of uitgaven voor de opgegeven periode.";
 "show_chart_parameter_summary" = "Toon ${type} diagram voor ${periodType}";
 
 "chart_type_parameter_title" = "Type";
-"chart_type_dialog" = "Welk type diagram wilt u?";
+"chart_type_dialog" = "Welk type diagram wilt je?";
 "chart_type_account_balances_title" = "Rekeningsaldi";
 "chart_type_balance_title" = "Saldo";
 "chart_type_total_income_title" = "Totaal inkomen";
@@ -2056,7 +2056,7 @@
 "chart_type_variable_expenses_title" = "Variabele uitgaven";
 
 "chart_period_type_parameter_title" = "Periode";
-"chart_period_type_dialog" = "Welke periode wilt u bekijken?";
+"chart_period_type_dialog" = "Welke periode wil je bekijken?";
 "chart_type_current_month_title" = "Huidige maand";
 "chart_type_current_year_title" = "Huidig jaar";
 

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>3.1.0</key>
+	<array>
+		<dict>
+			<key>Title</key>
+			<string>Voorgestelde notities</string>
+			<key>Description</key>
+			<string>Tijdens het bewerken van de notities van een transactie ontvang je nu automatisch een suggestie op basis van je eerdere invoer, die je eenvoudig kunt toepassen door erop te tikken.</string>
+			<key>IconName</key>
+			<string>character.cursor.ibeam</string>
+			<key>IconColor</key>
+			<string>#ff8d28</string>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>Eenvoudigere valutaconversie</string>
+			<key>Description</key>
+			<string>Bij het uitvoeren van een valutaconversie kun je nu de bron- en doelvaluta, evenals de wisselkoers, omwisselen om eenvoudiger de juiste waarden te berekenen.</string>
+			<key>IconName</key>
+			<string>arrow.up.arrow.down</string>
+			<key>IconColor</key>
+			<string>#35c759</string>
+		</dict>
+		<dict>
+			<key>Title</key>
+			<string>Bestaande bonnetjes analyseren</string>
+			<key>Description</key>
+			<string>Met de geïntegreerde bonnenscanner kun je nu ook bestaande bonnetjes uit de Foto’s- of Bestanden-app analyseren en deze gebruiken om transacties aan te maken.</string>
+			<key>IconName</key>
+			<string>custom.receipt.badge.arrow.up</string>
+			<key>IconColor</key>
+			<string>#0088ff</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1534,7 +1534,7 @@
 
 /* MARK: - Other Alert Views */
 "alert_selected_period_changed_title" = "%@ geselecteerd";
-"alert_selected_period_changed_message" = "Sinds een %@ is gestart, is de huidige periode automatisch aangepast.\n\nOm tussen periodes te schakelen en eerdere transacties te bekijken, klik je op de knop \"%@\" in de linkerbovenhoek van het scherm , selecteer vervolgens de gewenste tijdsperiode.";
+"alert_selected_period_changed_message" = "Sinds een %@ is gestart, is de huidige periode automatisch aangepast.\n\nOm tussen periodes te schakelen en eerdere transacties te bekijken, klik je op de knop \"%@\" in de linkerbovenhoek van het scherm en selecteer vervolgens de gewenste tijdsperiode.";
 "alert_selected_period_changed_new_month" = "nieuwe maand";
 "alert_selected_period_changed_new_year" = "nieuw jaar";
 

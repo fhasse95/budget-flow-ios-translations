@@ -1049,7 +1049,7 @@
 "upcoming_transactions_widget_description" = "Deze widget toont je volgende geplande transactie.";
 
 "budget_widget_title" = "Budget";
-"budget_widget_description" = "Deze widget toont je specifiek budget voor de geselecteerde periode.";
+"budget_widget_description" = "Deze widget toont je specifieke budget voor de geselecteerde periode.";
 "budget_widget_no_budget_title" = "Geen budget geselecteerd";
 
 "suggestion_widget_title" = "Voorgesteld";

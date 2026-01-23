@@ -2047,7 +2047,7 @@
 "show_chart_parameter_summary" = "Toon ${type} diagram voor ${periodType}";
 
 "chart_type_parameter_title" = "Type";
-"chart_type_dialog" = "Welk type diagram wilt je?";
+"chart_type_dialog" = "Welk type diagram wil je?";
 "chart_type_account_balances_title" = "Rekeningsaldi";
 "chart_type_balance_title" = "Saldo";
 "chart_type_total_income_title" = "Totaal inkomen";

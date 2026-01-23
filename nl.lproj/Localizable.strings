@@ -1056,7 +1056,7 @@
 "suggestion_widget_description" = "Deze widget toont de voorgestelde categorie op basis van de huidige datum waarvoor je een nieuwe transactie kunt aanmaken.";
 
 "quick_actions_widget_title" = "Snelle invoer";
-"quick_actions_widget_description" = "Met deze widget kunt je snel nieuwe transacties toevoegen.";
+"quick_actions_widget_description" = "Met deze widget kun je snel nieuwe transacties toevoegen.";
 "quick_actions_widget_new_title" = "Nieuw";
 
 "widget_upgrade_locked_title" = "Vergrendeld";

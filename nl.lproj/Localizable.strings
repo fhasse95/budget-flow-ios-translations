@@ -893,7 +893,7 @@
 "upgrade_feature_receipt_scanner_title" = "Bonnen scannen";
 "upgrade_feature_receipt_scanner_description" = "Gebruik de ingebouwde scanner om bonnen te digitaliseren en automatisch het bedrag en de naam van de winkel te herkennen.";
 "upgrade_feature_widgets_title" = "Widgets voor startscherm en vergrendelscherm";
-"upgrade_feature_widgets_description" = "Met behulp van de widgets kunt je jouw huidige inkomsten en uitgaven, je rekeningsaldi en nog veel meer in één oogopslag zien zonder dat je de app hoeft te openen. Om de widgets te bekijken, bewerk je je start- of vergrendelscherm, open je het scherm \"Widget toevoegen\" en selecteer je deze app.";
+"upgrade_feature_widgets_description" = "Met behulp van de widgets kun je jouw huidige inkomsten en uitgaven, je rekeningsaldi en nog veel meer in één oogopslag zien zonder dat je de app hoeft te openen. Om de widgets te bekijken, bewerk je je start- of vergrendelscherm, open je het scherm \"Widget toevoegen\" en selecteer je deze app.";
 "upgrade_feature_reminders_title" = "Maak herinneringen aan";
 "upgrade_feature_reminders_description" = "Maak herinneringen aan voor je geplande transacties om pushmeldingen te ontvangen (ook offline).";
 "upgrade_feature_csv_title" = "CSV importeren en exporteren";

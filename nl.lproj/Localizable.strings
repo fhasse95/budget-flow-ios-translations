@@ -1021,7 +1021,7 @@
 
 /* MARK: - Progress View */
 "progress_view_load_images_title" = "Foto's laden...";
-"progress_view_load_images_subtitle" = "Opmerking: als u iCloud-fotobibliotheek gebruikt, kan het even duren voordat je foto's zijn gedownload.";
+"progress_view_load_images_subtitle" = "Opmerking: als je iCloud-fotobibliotheek gebruikt, kan het even duren voordat je foto's zijn gedownload.";
 
 "progress_view_load_documents_title" = "Documenten laden...";
 "progress_view_load_documents_subtitle" = "Info: als je iCloud Drive gebruikt, kan het downloaden van je documenten enige tijd duren.";

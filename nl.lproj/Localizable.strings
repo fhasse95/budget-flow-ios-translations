@@ -455,7 +455,7 @@
 "remaining_title" = "Beschikbaar";
 "balanced_title" = "Gebalanceerd";
 "exceeded_title" = "Overtroffen";
-"user_has_no_budgets_title" = "Je heeft geen budgetten.";
+"user_has_no_budgets_title" = "Je hebt geen budgetten.";
 "user_is_within_budget_title" = "Je zit binnen je budget! 🎉";
 "user_was_within_budget_title" = "Je zat binnen je budget! 🎉";
 "user_is_not_within_budget_title" = "Je zit %d boven je budget 😢";

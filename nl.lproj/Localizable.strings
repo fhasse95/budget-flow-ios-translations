@@ -682,8 +682,8 @@
 "cloud_setting_number_of_transactions_in_progress_title" = "Even geduld...";
 "cloud_setting_number_of_transactions_error_title" = "Fout";
 
-"import_from_cloud_button" = "Synchroniseer met iCloud";
-"manual_sync_cloud_setting_footer_title" = "Als je gegevens niet of niet volledig zijn gesynchroniseerd met iCloud, kun je de synchronisatie hier handmatig starten.";
+"import_from_cloud_button" = "Download van iCloud";
+"manual_sync_cloud_setting_footer_title" = "Als je gegevens nog niet volledig zijn gedownload van iCloud, dan kun je hier handmatig de download starten.";
 
 /* Backup Settings */
 "backup_setting_info_title" = "Beschrijving";

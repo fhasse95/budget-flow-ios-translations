@@ -716,7 +716,7 @@
 "advanced_setting_chart_type_title" = "Diagrammtyp";
 "advanced_setting_show_frequently_used_items_title" = "Häufige Kategorien & Tags";
 "advanced_setting_show_frequently_used_items_description" = "Zeig häufig verwendete Kategorien und Tags beim Erstellen und Bearbeiten von Transaktionen an.";
-"advanced_setting_show_notes_in_title_title" = "Notizen statt Kategorie";
+"advanced_setting_show_notes_in_title_title" = "Notizen statt Kategorie anzeigen";
 "advanced_setting_show_notes_in_title_description" = "Zeig den Inhalt von Notizen anstelle des Namens der zugeordneten Kategorie für Transaktionen an.";
 "advanced_setting_start_day_of_month_title" = "Tag des Monatsanfangs";
 "advanced_setting_start_day_of_month_description" = "Lege den Tag des Monatsanfangs fest, um Auswertungen, Diagramme und Budgets korrekt zu berechnen.";

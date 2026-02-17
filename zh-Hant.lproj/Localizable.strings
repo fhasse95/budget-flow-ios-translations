@@ -242,7 +242,7 @@
 "back_button" = "返回";
 "done_button" = "完成";
 "save_button" = "儲存";
-"import_button" = "導入";
+"import_button" = "匯入";
 "unlock_button" = "解鎖";
 "cancel_button" = "取消";
 "close_button" = "關閉";
@@ -646,20 +646,20 @@
 "backup_setting_manage_backups_title" = "管理";
 "sync_and_data_csv_setting_section_title" = "CSV-資料";
 "sync_and_data_csv_setting_footer_title" = "使用 CSV 檔案匯入或匯出您的交易";
-"sync_and_data_setting_csv_import_title" = "導入";
-"sync_and_data_setting_csv_export_title" = "導出";
+"sync_and_data_setting_csv_import_title" = "匯入";
+"sync_and_data_setting_csv_export_title" = "匯出";
 "sync_and_data_setting_get_csv_template_title" = "下載模板";
 
 "clear_cache_button" = "清除快取";
 "cache_setting_footer_title" = "訊息：清除快取會刪除應用程式文件目錄中的所有檔案（包括備份)";
 
-"alert_csv_import_successful_title" = "導入成功 🎉";
+"alert_csv_import_successful_title" = "匯入成功 🎉";
 "alert_csv_import_successful_message" = "總共匯入了 %d 筆交易中的 %d 筆。%@";
 "alert_csv_import_skipped_message" = " 其中 %d 筆交易被跳過。";
 "alert_csv_import_error_message" = "無法成功匯入 %d 筆交易中的 %d 資料。\n\n%@";
 "alert_csv_import_error_reason_field_message" = "請檢查您 CSV 檔案中的下列欄位：%@";
 
-"alert_csv_export_successful_title" = "導出成功 🎉";
+"alert_csv_export_successful_title" = "匯出成功 🎉";
 "alert_csv_export_successful_message" = "您的資料已成功匯出至 \"%@\"";
 
 /* Cloud Settings */
@@ -896,7 +896,7 @@
 "upgrade_feature_widgets_description" = "借助小組件，您可以一目了然地看到您當前的收入和支出、帳戶餘額等，無需打開應用。要預覽小組件，請編輯您的主屏幕或鎖屏，打開\"添加小組件\" 視圖，然後選擇此應用程式";
 "upgrade_feature_reminders_title" = "建立提醒";
 "upgrade_feature_reminders_description" = "為您規劃的交易建立提醒，以便接收推播通知（也可離線使用）";
-"upgrade_feature_csv_title" = "CSV導入與匯出";
+"upgrade_feature_csv_title" = "CSV匯入與匯出";
 "upgrade_feature_csv_description" = "使用 CSV 檔案匯入和匯出交易，以便從您的銀行或其他應用程式傳輸資料";
 "upgrade_feature_remove_ads_title" = "無廣告";
 "upgrade_feature_remove_ads_description" = "您將不再在應用程式中看到廣告";

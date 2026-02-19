@@ -26,7 +26,7 @@ Additionally, all translation files are available in this repository, and contri
 | Bosnian | bs | 🇧🇦 | Antonio Dujmović | 🟢 Proofread |
 | Catalan | ca | 🇦🇩 | Jesús López Gómez | 🟢 Proofread |
 | Chinese (Simplified) | zh-Hans | 🇨🇳 🇸🇬 | Boran Cui | 🟢 Proofread |
-| Chinese (Traditional) | zh-Hant | 🇹🇼 🇭🇰 🇲🇴 | - | 🟡 Auto Translated |
+| Chinese (Traditional) | zh-Hant | 🇹🇼 🇭🇰 🇲🇴 | Andy Chen | 🟢 Proofread |
 | Croatian | hr | 🇭🇷 | Antonio Dujmović | 🟢 Proofread |
 | Czech | cs | 🇨🇿 | - | 🟡 Auto Translated |
 | Danish | da | 🇩🇰 | - | 🟡 Auto Translated |

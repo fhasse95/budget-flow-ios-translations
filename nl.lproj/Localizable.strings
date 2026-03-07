@@ -25,8 +25,8 @@
 "uncategorized" = "Niet gecategoriseerd";
 "before" = "voor";
 "account_reconcilation" = "Rekeningafstemming";
-"evaluated" = "Beoordeeld";
-"not_evaluated" = "Niet beoordeeld";
+"evaluated" = "Inbegrepen";
+"not_evaluated" = "Uitgesloten";
 "share_participant_owner" = "Eigenaar";
 "share_participant_you" = "Jij";
 

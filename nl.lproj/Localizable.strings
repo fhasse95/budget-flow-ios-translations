@@ -494,8 +494,8 @@
 "total_balance_widget_current_balance_message" = "Je saldo is %@.";
 "total_balance_widget_previous_balance_message" = "Je saldo was %@.";
 
-"savings_rate_widget_current_savings_rate_message" = "Je spaarpercentage is %@ %%.";
-"savings_rate_widget_previous_savings_rate_message" = "Je spaarpercentage was %@ %%.";
+"savings_rate_widget_current_savings_rate_message" = "Je spaarpercentage is %@.";
+"savings_rate_widget_previous_savings_rate_message" = "Je spaarpercentage was %@.";
 
 /* Widgets */
 "trend_widget_title" = "Trend";
@@ -854,10 +854,10 @@
 
 /* Discount */
 "upgrade_discount_title" = "Speciale aanbieding 🌟";
-"upgrade_discount_multiple_title" = "Bespaar tot %d %%!";
-"upgrade_discount_montly_subscription_title" = "Bespaar %d %% op het maandabonnement!";
-"upgrade_discount_yearly_subscription_title" = "Bespaar %d %% op het jaarabonnement!";
-"upgrade_discount_lifetime_purchase_title" = "Bespaar %d %% op de eenmalige aankoop!";
+"upgrade_discount_multiple_title" = "Bespaar tot %@!";
+"upgrade_discount_montly_subscription_title" = "Bespaar %@ op het maandabonnement!";
+"upgrade_discount_yearly_subscription_title" = "Bespaar %@ op het jaarabonnement!";
+"upgrade_discount_lifetime_purchase_title" = "Bespaar %@ op de eenmalige aankoop!";
 "upgrade_discount_ends_in" = "Eindigt over";
 
 /* Sections */
@@ -934,7 +934,7 @@
 "yearly_subscription_subtitle" = "Maanden";
 "lifetime_purchase_subtitle" = "Onbeperkt";
 
-"product_discount_header_title" = "- %d %%";
+"product_discount_header_title" = "- %@";
 
 /* Buttons */
 "upgrade_is_active_button" = "Actief";

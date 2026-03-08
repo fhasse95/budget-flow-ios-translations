@@ -494,8 +494,8 @@
 "total_balance_widget_current_balance_message" = "Votre solde est %@.";
 "total_balance_widget_previous_balance_message" = "Votre solde était de %@.";
 
-"savings_rate_widget_current_savings_rate_message" = "Votre taux d'épargne est de %@ %%.";
-"savings_rate_widget_previous_savings_rate_message" = "Votre taux d'épargne était de %@ %%.";
+"savings_rate_widget_current_savings_rate_message" = "Votre taux d'épargne est de %@.";
+"savings_rate_widget_previous_savings_rate_message" = "Votre taux d'épargne était de %@.";
 
 /* Widgets */
 "trend_widget_title" = "Tendance";
@@ -854,10 +854,10 @@
 
 /* Discount */
 "upgrade_discount_title" = "Offre spéciale 🌟";
-"upgrade_discount_multiple_title" = "Économisez jusqu'à %d %% !";
-"upgrade_discount_montly_subscription_title" = "Économisez %d %% sur l'abonnement mensuel !";
-"upgrade_discount_yearly_subscription_title" = "Économisez %d %% sur l'abonnement annuel !";
-"upgrade_discount_lifetime_purchase_title" = "Économisez %d %% sur un achat unique !";
+"upgrade_discount_multiple_title" = "Économisez jusqu'à %@ !";
+"upgrade_discount_montly_subscription_title" = "Économisez %@ sur l'abonnement mensuel !";
+"upgrade_discount_yearly_subscription_title" = "Économisez %@ sur l'abonnement annuel !";
+"upgrade_discount_lifetime_purchase_title" = "Économisez %@ sur un achat unique !";
 "upgrade_discount_ends_in" = "Fin de";
 
 /* Sections */
@@ -934,7 +934,7 @@
 "yearly_subscription_subtitle" = "Mois";
 "lifetime_purchase_subtitle" = "Illimité";
 
-"product_discount_header_title" = "Épargne %d %%";
+"product_discount_header_title" = "Épargne %@";
 
 /* Buttons */
 "upgrade_is_active_button" = "Actif";

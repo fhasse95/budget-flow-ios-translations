@@ -494,8 +494,8 @@
 "total_balance_widget_current_balance_message" = "El teu saldo és %@.";
 "total_balance_widget_previous_balance_message" = "El teu saldo era %@.";
 
-"savings_rate_widget_current_savings_rate_message" = "La teva taxa d'estalvi és %@ %%.";
-"savings_rate_widget_previous_savings_rate_message" = "La teva taxa d'estalvi era %@ %%.";
+"savings_rate_widget_current_savings_rate_message" = "La teva taxa d'estalvi és %@.";
+"savings_rate_widget_previous_savings_rate_message" = "La teva taxa d'estalvi era %@.";
 
 /* Widgets */
 "trend_widget_title" = "Tendència";
@@ -854,10 +854,10 @@
 
 /* Discount */
 "upgrade_discount_title" = "Oferta Especial 🌟";
-"upgrade_discount_multiple_title" = "Estalvia fins a %d %%!";
-"upgrade_discount_montly_subscription_title" = "Estalvia %d %% en la subscripció mensual!";
-"upgrade_discount_yearly_subscription_title" = "Estalvia %d %% en la subscripció anual!";
-"upgrade_discount_lifetime_purchase_title" = "Estalvia %d %% en la compra única!";
+"upgrade_discount_multiple_title" = "Estalvia fins a %@!";
+"upgrade_discount_montly_subscription_title" = "Estalvia %@ en la subscripció mensual!";
+"upgrade_discount_yearly_subscription_title" = "Estalvia %@ en la subscripció anual!";
+"upgrade_discount_lifetime_purchase_title" = "Estalvia %@ en la compra única!";
 "upgrade_discount_ends_in" = "Acaba en";
 
 /* Sections */
@@ -934,7 +934,7 @@
 "yearly_subscription_subtitle" = "Mesos";
 "lifetime_purchase_subtitle" = "Il·limitat";
 
-"product_discount_header_title" = "Estalvia %d %%";
+"product_discount_header_title" = "- %@";
 
 /* Botons */
 "upgrade_is_active_button" = "Actiu";

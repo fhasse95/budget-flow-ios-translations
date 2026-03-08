@@ -494,8 +494,8 @@
 "total_balance_widget_current_balance_message" = "رصيدك هو %@.";
 "total_balance_widget_previous_balance_message" = "رصيدك هو %@.";
 
-"savings_rate_widget_current_savings_rate_message" = "معدل التوفير الخاص بك هو %@ %%.";
-"savings_rate_widget_previous_savings_rate_message" = "معدل التوفير الخاص بك هو %@ %%.";
+"savings_rate_widget_current_savings_rate_message" = "معدل التوفير الخاص بك هو %@.";
+"savings_rate_widget_previous_savings_rate_message" = "معدل التوفير الخاص بك هو %@.";
 
 /* Widgets */
 "trend_widget_title" = "الاتجاه";
@@ -854,10 +854,10 @@
 
 /* Discount */
 "upgrade_discount_title" = "عرض خاص 🌟";
-"upgrade_discount_multiple_title" = "وفّر حتى %d %%!";
-"upgrade_discount_montly_subscription_title" = "وفّر %d %% على اشتراكك الشهري!";
-"upgrade_discount_yearly_subscription_title" = "وفّر %d %% على اشتراكك السنوي!";
-"upgrade_discount_lifetime_purchase_title" = "وفّر %d %% عند الشراء لمرة واحدة!";
+"upgrade_discount_multiple_title" = "وفّر حتى %@!";
+"upgrade_discount_montly_subscription_title" = "وفّر %@ على اشتراكك الشهري!";
+"upgrade_discount_yearly_subscription_title" = "وفّر %@ على اشتراكك السنوي!";
+"upgrade_discount_lifetime_purchase_title" = "وفّر %@ عند الشراء لمرة واحدة!";
 "upgrade_discount_ends_in" = "ينتهي";
 
 /* Sections */
@@ -934,7 +934,7 @@
 "yearly_subscription_subtitle" = "الأشهر";
 "lifetime_purchase_subtitle" = "للأبد";
 
-"product_discount_header_title" = "- %d %%";
+"product_discount_header_title" = "- %@";
 
 /* Buttons */
 "upgrade_is_active_button" = "نشط";

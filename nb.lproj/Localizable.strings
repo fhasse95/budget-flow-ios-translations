@@ -494,8 +494,8 @@
 "total_balance_widget_current_balance_message" = "Saldoen din er %@.";
 "total_balance_widget_previous_balance_message" = "Saldoen din var %@.";
 
-"savings_rate_widget_current_savings_rate_message" = "Sparingsgraden din er %@ %%.";
-"savings_rate_widget_previous_savings_rate_message" = "Sparingsraten din var %@ %%.";
+"savings_rate_widget_current_savings_rate_message" = "Sparingsgraden din er %@.";
+"savings_rate_widget_previous_savings_rate_message" = "Sparingsraten din var %@.";
 
 /* Widgets */
 "trend_widget_title" = "Trend";
@@ -854,10 +854,10 @@
 
 /* Discount */
 "upgrade_discount_title" = "Spesialtilbud 🌟";
-"upgrade_discount_multiple_title" = "Lagre opptil %d %%!";
-"upgrade_discount_montly_subscription_title" = "Spar %d %% på det månedlige abonnementet!";
-"upgrade_discount_yearly_subscription_title" = "Spar %d %% på det årlige abonnementet!";
-"upgrade_discount_lifetime_purchase_title" = "Spar %d %% på engangskjøpet!";
+"upgrade_discount_multiple_title" = "Lagre opptil %@!";
+"upgrade_discount_montly_subscription_title" = "Spar %@ på det månedlige abonnementet!";
+"upgrade_discount_yearly_subscription_title" = "Spar %@ på det årlige abonnementet!";
+"upgrade_discount_lifetime_purchase_title" = "Spar %@ på engangskjøpet!";
 "upgrade_discount_ends_in" = "Ender om";
 
 /* Sections */
@@ -934,7 +934,7 @@
 "yearly_subscription_subtitle" = "Måneder";
 "lifetime_purchase_subtitle" = "Ubegrenset";
 
-"product_discount_header_title" = "- %d %%";
+"product_discount_header_title" = "- %@";
 
 /* Buttons */
 "upgrade_is_active_button" = "Aktiv";

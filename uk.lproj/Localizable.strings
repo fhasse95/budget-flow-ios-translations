@@ -494,8 +494,8 @@
 "total_balance_widget_current_balance_message" = "Ваш баланс %@.";
 "total_balance_widget_previous_balance_message" = "Ваш баланс був %@.";
 
-"savings_rate_widget_current_savings_rate_message" = "Ваш рівень заощаджень становить %@ %%.";
-"savings_rate_widget_previous_savings_rate_message" = "Ваш рівень заощаджень становив %@ %%.";
+"savings_rate_widget_current_savings_rate_message" = "Ваш рівень заощаджень становить %@.";
+"savings_rate_widget_previous_savings_rate_message" = "Ваш рівень заощаджень становив %@.";
 
 /* Widgets */
 "trend_widget_title" = "Тенденція";
@@ -854,10 +854,10 @@
 
 /* Discount */
 "upgrade_discount_title" = "Спеціальна пропозиція 🌟";
-"upgrade_discount_multiple_title" = "Заощаджуйте до %d %%!";
-"upgrade_discount_montly_subscription_title" = "Заощаджуйте %d %% на місячній підписці!";
-"upgrade_discount_yearly_subscription_title" = "Заощаджуйте %d %% на річній підписці!";
-"upgrade_discount_lifetime_purchase_title" = "Заощаджуйте %d %% на одноразовій покупці!";
+"upgrade_discount_multiple_title" = "Заощаджуйте до %@!";
+"upgrade_discount_montly_subscription_title" = "Заощаджуйте %@ на місячній підписці!";
+"upgrade_discount_yearly_subscription_title" = "Заощаджуйте %@ на річній підписці!";
+"upgrade_discount_lifetime_purchase_title" = "Заощаджуйте %@ на одноразовій покупці!";
 "upgrade_discount_ends_in" = "Закінчується через";
 
 /* Sections */
@@ -934,7 +934,7 @@
 "yearly_subscription_subtitle" = "Місяці";
 "lifetime_purchase_subtitle" = "Необмежений";
 
-"product_discount_header_title" = "- %d %%";
+"product_discount_header_title" = "- %@";
 
 /* Buttons */
 "upgrade_is_active_button" = "Активний";

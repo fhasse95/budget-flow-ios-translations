@@ -494,8 +494,8 @@
 "total_balance_widget_current_balance_message" = "Egyenlege %@.";
 "total_balance_widget_previous_balance_message" = "Egyenlege %@ volt.";
 
-"savings_rate_widget_current_savings_rate_message" = "A megtakarítási ráta %@ %%.";
-"savings_rate_widget_previous_savings_rate_message" = "A megtakarítási ráta %@ %% volt.";
+"savings_rate_widget_current_savings_rate_message" = "A megtakarítási ráta %@.";
+"savings_rate_widget_previous_savings_rate_message" = "A megtakarítási ráta %@ volt.";
 
 /* Widgets */
 "trend_widget_title" = "Trend";
@@ -854,10 +854,10 @@
 
 /* Discount */
 "upgrade_discount_title" = "Különleges ajánlat 🌟";
-"upgrade_discount_multiple_title" = "Akár %d %% megtakarítás!";
-"upgrade_discount_montly_subscription_title" = "%d %% megtakarítás a havi előfizetésen!";
-"upgrade_discount_yearly_subscription_title" = "%d %% megtakarítás az éves előfizetésen!";
-"upgrade_discount_lifetime_purchase_title" = "%d %% megtakarítás az egyszeri vásárlásnál!";
+"upgrade_discount_multiple_title" = "Akár %@ megtakarítás!";
+"upgrade_discount_montly_subscription_title" = "%@ megtakarítás a havi előfizetésen!";
+"upgrade_discount_yearly_subscription_title" = "%@ megtakarítás az éves előfizetésen!";
+"upgrade_discount_lifetime_purchase_title" = "%@ megtakarítás az egyszeri vásárlásnál!";
 "upgrade_discount_ends_in" = "Vége";
 
 /* Sections */
@@ -934,7 +934,7 @@
 "yearly_subscription_subtitle" = "Hónapok";
 "lifetime_purchase_subtitle" = "Korlátlan";
 
-"product_discount_header_title" = "- %d %%";
+"product_discount_header_title" = "- %@";
 
 /* Buttons */
 "upgrade_is_active_button" = "Aktív";

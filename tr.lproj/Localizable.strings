@@ -494,8 +494,8 @@
 "total_balance_widget_current_balance_message" = "Bakiyeniz %@.";
 "total_balance_widget_precious_balance_message" = "Bakiyeniz %@ idi.";
 
-"savings_rate_widget_current_savings_rate_message" = "Tasarruf oranınız %@ %%.";
-"savings_rate_widget_previous_savings_rate_message" = "Tasarruf oranınız %@ %% idi.";
+"savings_rate_widget_current_savings_rate_message" = "Tasarruf oranınız %@.";
+"savings_rate_widget_previous_savings_rate_message" = "Tasarruf oranınız %@ idi.";
 
 /* Widgets */
 "trend_widget_title" = "Trend";
@@ -854,10 +854,10 @@
 
 /* Discount */
 "upgrade_discount_title" = "Özel Teklif 🌟";
-"upgrade_discount_multiple_title" = "%%d'ye kadar tasarruf edin!";
-"upgrade_discount_montly_subscription_title" = "Aylık abonelikte %d %% tasarruf edin!";
-"upgrade_discount_yearly_subscription_title" = "Yıllık abonelikte %d %% tasarruf edin!";
-"upgrade_discount_lifetime_purchase_title" = "Tek seferlik satın alma işleminde %d %% tasarruf edin!";
+"upgrade_discount_multiple_title" = "%@'ye varan indirim kazanın!";
+"upgrade_discount_montly_subscription_title" = "Aylık abonelikte %@ tasarruf edin!";
+"upgrade_discount_yearly_subscription_title" = "Yıllık abonelikte %@ tasarruf edin!";
+"upgrade_discount_lifetime_purchase_title" = "Tek seferlik satın alma işleminde %@ tasarruf edin!";
 "upgrade_discount_ends_in" = "Bitiş tarihi";
 
 /* Sections */
@@ -934,7 +934,7 @@
 "yearly_subscription_subtitle" = "Aylar";
 "lifetime_purchase_subtitle" = "Sınırsız";
 
-"product_discount_header_title" = "- %d %%";
+"product_discount_header_title" = "- %@";
 
 /* Buttons */
 "upgrade_is_active_button" = "Etkin";

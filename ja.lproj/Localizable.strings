@@ -494,8 +494,8 @@
 "total_balance_widget_current_balance_message" = "残高は %@ です。";
 "total_balance_widget_previous_balance_message" = "残高は %@ でした。";
 
-"savings_rate_widget_current_savings_rate_message" = "貯蓄率は %@ %% です。";
-"savings_rate_widget_previous_savings_rate_message" = "貯蓄率は %@ %% でした。";
+"savings_rate_widget_current_savings_rate_message" = "貯蓄率は %@ です。";
+"savings_rate_widget_previous_savings_rate_message" = "貯蓄率は %@ でした。";
 
 /* Widgets */
 "trend_widget_title" = "傾向";
@@ -854,10 +854,10 @@
 
 /* Discount */
 "upgrade_discount_title" = "特別オファー 🌟";
-"upgrade_discount_multiple_title" = "最大 %d %% 割引!";
-"upgrade_discount_montly_subscription_title" = "月額サブスクリプションが %d %% 割引!";
-"upgrade_discount_yearly_subscription_title" = "年間サブスクリプションが %d %% 節約!";
-"upgrade_discount_lifetime_purchase_title" = "一度の購入で %d %% 割引!";
+"upgrade_discount_multiple_title" = "最大 %@ 割引!";
+"upgrade_discount_montly_subscription_title" = "月額サブスクリプションが %@ 割引!";
+"upgrade_discount_yearly_subscription_title" = "年間サブスクリプションが %@ 節約!";
+"upgrade_discount_lifetime_purchase_title" = "一度の購入で %@ 割引!";
 "upgrade_discount_ends_in" = "終了日";
 
 /* Sections */
@@ -934,7 +934,7 @@
 "yearly_subscription_subtitle" = "月";
 "lifetime_purchase_subtitle" = "無制限";
 
-"product_discount_header_title" = "- %d %%";
+"product_discount_header_title" = "- %@";
 
 /* Buttons */
 "upgrade_is_active_button" = "アクティブ";

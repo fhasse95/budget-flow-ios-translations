@@ -494,8 +494,8 @@
 "total_balance_widget_current_balance_message" = "Vaše stanje je %@.";
 "total_balance_widget_previous_balance_message" = "Vaše stanje je bilo %@.";
 
-"savings_rate_widget_current_savings_rate_message" = "Vaša stopa štednje je %@ %%.";
-"savings_rate_widget_previous_savings_rate_message" = "Vaša stopa štednje je bila %@ %%.";
+"savings_rate_widget_current_savings_rate_message" = "Vaša stopa štednje je %@.";
+"savings_rate_widget_previous_savings_rate_message" = "Vaša stopa štednje je bila %@.";
 
 /* Widgets */
 "trend_widget_title" = "Trend";
@@ -854,10 +854,10 @@
 
 /* Discount */
 "upgrade_discount_title" = "Posebna ponuda 🌟";
-"upgrade_discount_multiple_title" = "Uštedite do %d %%!";
-"upgrade_discount_montly_subscription_title" = "Uštedite %d %% na mjesečnoj pretplati!";
-"upgrade_discount_yearly_subscription_title" = "Uštedite %d %% na godišnjoj pretplati!";
-"upgrade_discount_lifetime_purchase_title" = "Uštedite %d %% na jednokratnoj kupovini!";
+"upgrade_discount_multiple_title" = "Uštedite do %@!";
+"upgrade_discount_montly_subscription_title" = "Uštedite %@ na mjesečnoj pretplati!";
+"upgrade_discount_yearly_subscription_title" = "Uštedite %@ na godišnjoj pretplati!";
+"upgrade_discount_lifetime_purchase_title" = "Uštedite %@ na jednokratnoj kupovini!";
 "upgrade_discount_ends_in" = "Završava";
 
 /* Sections */
@@ -934,7 +934,7 @@
 "yearly_subscription_subtitle" = "Mjeseci";
 "lifetime_purchase_subtitle" = "Neograničeno";
 
-"product_discount_header_title" = "- %d %%";
+"product_discount_header_title" = "- %@";
 
 /* Buttons */
 "upgrade_is_active_button" = "Aktivan";

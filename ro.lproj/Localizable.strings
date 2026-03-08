@@ -494,8 +494,8 @@
 "total_balance_widget_current_balance_message" = "Soldul dvs. este %@.";
 "total_balance_widget_previous_balance_message" = "Soldul dvs. a fost %@.";
 
-"savings_rate_widget_current_savings_rate_message" = "Rata dvs. de economii este %@ %%.";
-"savings_rate_widget_previous_savings_rate_message" = "Rata dvs. de economisire a fost %@ %%.";
+"savings_rate_widget_current_savings_rate_message" = "Rata dvs. de economii este %@";
+"savings_rate_widget_previous_savings_rate_message" = "Rata dvs. de economisire a fost %@";
 
 /* Widgets */
 "trend_widget_title" = "Tendință";
@@ -854,10 +854,10 @@
 
 /* Discount */
 "upgrade_discount_title" = "Ofertă specială 🌟";
-"upgrade_discount_multiple_title" = "Salvați până la %d %%!";
-"upgrade_discount_montly_subscription_title" = "Salvați %d %% la abonamentul lunar!";
-"upgrade_discount_yearly_subscription_title" = "Salvați %d %% la abonamentul anual!";
-"upgrade_discount_lifetime_purchase_title" = "Salvați %d %% la achiziția unică!";
+"upgrade_discount_multiple_title" = "Salvați până la %@!";
+"upgrade_discount_montly_subscription_title" = "Salvați %@ la abonamentul lunar!";
+"upgrade_discount_yearly_subscription_title" = "Salvați %@ la abonamentul anual!";
+"upgrade_discount_lifetime_purchase_title" = "Salvați %@ la achiziția unică!";
 "upgrade_discount_ends_in" = "Se termină în";
 
 /* Sections */
@@ -934,7 +934,7 @@
 "yearly_subscription_subtitle" = "Luni";
 "lifetime_purchase_subtitle" = "Nelimitat";
 
-"product_discount_header_title" = "- %d %%";
+"product_discount_header_title" = "- %@";
 
 /* Buttons */
 "upgrade_is_active_button" = "Activ";

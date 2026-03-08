@@ -494,8 +494,8 @@
 "total_balance_widget_current_balance_message" = "Ваш баланс %@.";
 "total_balance_widget_previous_balance_message" = "Ваш баланс составил %@.";
 
-"savings_rate_widget_current_savings_rate_message" = "Ваша норма сбережений составляет %@ %%.";
-"savings_rate_widget_previous_savings_rate_message" = "Ваша норма сбережений составила %@ %%.";
+"savings_rate_widget_current_savings_rate_message" = "Ваша норма сбережений составляет %@.";
+"savings_rate_widget_previous_savings_rate_message" = "Ваша норма сбережений составила %@.";
 
 /* Widgets */
 "trend_widget_title" = "Тенденция";
@@ -854,10 +854,10 @@
 
 /* Discount */
 "upgrade_discount_title" = "Специальное предложение 🌟";
-"upgrade_discount_multiple_title" = "Сэкономьте до %d %%!";
-"upgrade_discount_montly_subscription_title" = "Сэкономьте %d %% на ежемесячной подписке!";
-"upgrade_discount_yearly_subscription_title" = "Сэкономьте %d %% на годовой подписке!";
-"upgrade_discount_lifetime_purchase_title" = "Сэкономьте %d %% на разовой покупке!";
+"upgrade_discount_multiple_title" = "Сэкономьте до %@!";
+"upgrade_discount_montly_subscription_title" = "Сэкономьте %@ на ежемесячной подписке!";
+"upgrade_discount_yearly_subscription_title" = "Сэкономьте %@ на годовой подписке!";
+"upgrade_discount_lifetime_purchase_title" = "Сэкономьте %@ на разовой покупке!";
 "upgrade_discount_ends_in" = "Заканчивается";
 
 /* Sections */
@@ -934,7 +934,7 @@
 "yearly_subscription_subtitle" = "Месяцев";
 "lifetime_purchase_subtitle" = "Навсегда";
 
-"product_discount_header_title" = "- %d %%";
+"product_discount_header_title" = "- %@";
 
 /* Buttons */
 "upgrade_is_active_button" = "Активно";

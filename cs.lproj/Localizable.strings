@@ -494,8 +494,8 @@
 "total_balance_widget_current_balance_message" = "Váš zůstatek je %@.";
 "total_balance_widget_previous_balance_message" = "Váš zůstatek byl %@.";
 
-"savings_rate_widget_current_savings_rate_message" = "Vaše míra úspor je %@ %%.";
-"savings_rate_widget_previous_savings_rate_message" = "Vaše míra úspor byla %@ %%.";
+"savings_rate_widget_current_savings_rate_message" = "Vaše míra úspor je %@.";
+"savings_rate_widget_previous_savings_rate_message" = "Vaše míra úspor byla %@.";
 
 /* Widgets */
 "trend_widget_title" = "Trend";
@@ -854,10 +854,10 @@
 
 /* Discount */
 "upgrade_discount_title" = "Speciální nabídka 🌟";
-"upgrade_discount_multiple_title" = "Ušetřete až %d %%!";
-"upgrade_discount_montly_subscription_title" = "Ušetřete %d %% na měsíčním předplatném!";
-"upgrade_discount_yearly_subscription_title" = "Ušetřete %d %% na ročním předplatném!";
-"upgrade_discount_lifetime_purchase_title" = "Ušetřete %d %% při jednorázovém nákupu!";
+"upgrade_discount_multiple_title" = "Ušetřete až %@!";
+"upgrade_discount_montly_subscription_title" = "Ušetřete %@ na měsíčním předplatném!";
+"upgrade_discount_yearly_subscription_title" = "Ušetřete %@ na ročním předplatném!";
+"upgrade_discount_lifetime_purchase_title" = "Ušetřete %@ při jednorázovém nákupu!";
 "upgrade_discount_ends_in" = "Končí za";
 
 /* Sections */
@@ -934,7 +934,7 @@
 "yearly_subscription_subtitle" = "Měsíce";
 "lifetime_purchase_subtitle" = "Neomezeno";
 
-"product_discount_header_title" = "- %d %%";
+"product_discount_header_title" = "- %@";
 
 /* Buttons */
 "upgrade_is_active_button" = "Aktivní";

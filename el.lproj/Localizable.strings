@@ -494,8 +494,8 @@
 "total_balance_widget_current_balance_message" = "Το υπόλοιπό σας είναι %@.";
 "total_balance_widget_previous_balance_message" = "Το υπόλοιπό σας ήταν %@.";
 
-"savings_rate_widget_current_savings_rate_message" = "Το ποσοστό αποταμίευσής σας είναι %@ %%.";
-"savings_rate_widget_previous_savings_rate_message" = "Το ποσοστό αποταμίευσής σας ήταν %@ %%.";
+"savings_rate_widget_current_savings_rate_message" = "Το ποσοστό αποταμίευσής σας είναι %@.";
+"savings_rate_widget_previous_savings_rate_message" = "Το ποσοστό αποταμίευσής σας ήταν %@.";
 
 /* Widgets */
 "trend_widget_title" = "Τάση";
@@ -854,10 +854,10 @@
 
 /* Discount */
 "upgrade_discount_title" = "Ειδική Προσφορά 🌟";
-"upgrade_discount_multiple_title" = "Εξοικονόμηση έως και %d %%!";
-"upgrade_discount_montly_subscription_title" = "Εξοικονομήστε %d %% στη μηνιαία συνδρομή!";
-"upgrade_discount_yearly_subscription_title" = "Εξοικονομήστε %d %% στην ετήσια συνδρομή!";
-"upgrade_discount_lifetime_purchase_title" = "Εξοικονομήστε %d %% στην εφάπαξ αγορά!";
+"upgrade_discount_multiple_title" = "Εξοικονόμηση έως και %@!";
+"upgrade_discount_montly_subscription_title" = "Εξοικονομήστε %@ στη μηνιαία συνδρομή!";
+"upgrade_discount_yearly_subscription_title" = "Εξοικονομήστε %@ στην ετήσια συνδρομή!";
+"upgrade_discount_lifetime_purchase_title" = "Εξοικονομήστε %@ στην εφάπαξ αγορά!";
 "upgrade_discount_ends_in" = "Τελειώνει σε";
 
 /* Sections */
@@ -934,7 +934,7 @@
 "yearly_subscription_subtitle" = "Μήνες";
 "lifetime_purchase_subtitle" = "Απεριόριστο";
 
-"product_discount_header_title" = "- %d %%";
+"product_discount_header_title" = "- %@";
 
 /* Buttons */
 "upgrade_is_active_button" = "Ενεργό";

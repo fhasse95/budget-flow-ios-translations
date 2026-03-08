@@ -494,8 +494,8 @@
 "total_balance_widget_current_balance_message" = "Saldosi on %@.";
 "total_balance_widget_previous_balance_message" = "Saldosi oli %@.";
 
-"savings_rate_widget_current_savings_rate_message" = "Säästöprosenttisi on %@ %%.";
-"savings_rate_widget_previous_savings_rate_message" = "Säästöprosenttisi oli %@ %%.";
+"savings_rate_widget_current_savings_rate_message" = "Säästöprosenttisi on %@.";
+"savings_rate_widget_previous_savings_rate_message" = "Säästöprosenttisi oli %@.";
 
 /* Widgets */
 "trend_widget_title" = "Trendi";
@@ -854,10 +854,10 @@
 
 /* Discount */
 "upgrade_discount_title" = "Erikoistarjous 🌟";
-"upgrade_discount_multiple_title" = "Säästä jopa %d %%!";
-"upgrade_discount_montly_subscription_title" = "Säästä %d %% kuukausitilauksesta!";
-"upgrade_discount_yearly_subscription_title" = "Säästä %d %% vuositilauksesta!";
-"upgrade_discount_lifetime_purchase_title" = "Säästä %d %% kertaostoksesta!";
+"upgrade_discount_multiple_title" = "Säästä jopa %@!";
+"upgrade_discount_montly_subscription_title" = "Säästä %@ kuukausitilauksesta!";
+"upgrade_discount_yearly_subscription_title" = "Säästä %@ vuositilauksesta!";
+"upgrade_discount_lifetime_purchase_title" = "Säästä %@ kertaostoksesta!";
 "upgrade_discount_ends_in" = "Slutar om";
 
 /* Sections */
@@ -934,7 +934,7 @@
 "yearly_subscription_subtitle" = "Kuukaudet";
 "lifetime_purchase_subtitle" = "Rajaton";
 
-"product_discount_header_title" = "- %d %%";
+"product_discount_header_title" = "- %@";
 
 /* Buttons */
 "upgrade_is_active_button" = "Aktiivinen";

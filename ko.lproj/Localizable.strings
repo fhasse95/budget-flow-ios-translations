@@ -494,8 +494,8 @@
 "total_balance_widget_current_balance_message" = "잔액은 %@입니다.";
 "total_balance_widget_previous_balance_message" = "잔액은 %@였습니다.";
 
-"savings_rate_widget_current_savings_rate_message" = "저축률은 %@ %%입니다.";
-"savings_rate_widget_previous_savings_rate_message" = "저축률이 %@ %%였습니다.";
+"savings_rate_widget_current_savings_rate_message" = "저축률은 %@ 입니다.";
+"savings_rate_widget_previous_savings_rate_message" = "저축률이 %@ 였습니다.";
 
 /* Widgets */
 "trend_widget_title" = "추세";
@@ -854,10 +854,10 @@
 
 /* Discount */
 "upgrade_discount_title" = "특별 제안 🌟";
-"upgrade_discount_multiple_title" = "최대 %d %%까지 절약하세요!";
-"upgrade_discount_montly_subscription_title" = "월간 구독료 %d %% 할인!";
-"upgrade_discount_yearly_subscription_title" = "연간 구독 시 %d %% 할인을 받으세요!";
-"upgrade_discount_lifetime_purchase_title" = "일회성 구매 시 %d %% 할인!";
+"upgrade_discount_multiple_title" = "최대 %@까지 절약하세요!";
+"upgrade_discount_montly_subscription_title" = "월간 구독료 %@ 할인!";
+"upgrade_discount_yearly_subscription_title" = "연간 구독 시 %@ 할인을 받으세요!";
+"upgrade_discount_lifetime_purchase_title" = "일회성 구매 시 %@ 할인!";
 "upgrade_discount_ends_in" = "할인종료";
 
 /* Sections */
@@ -934,7 +934,7 @@
 "yearly_subscription_subtitle" = "월";
 "lifetime_purchase_subtitle" = "평생소장";
 
-"product_discount_header_title" = "- %d %%";
+"product_discount_header_title" = "- %@";
 
 /* Buttons */
 "upgrade_is_active_button" = "활성";

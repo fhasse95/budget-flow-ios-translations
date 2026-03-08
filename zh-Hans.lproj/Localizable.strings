@@ -494,8 +494,8 @@
 "total_balance_widget_current_balance_message" = "你的余额是 %@";
 "total_balance_widget_previous_balance_message" = "你的余额曾经是 %@";
 
-"savings_rate_widget_current_savings_rate_message" = "你的储蓄率是 %@ %%";
-"savings_rate_widget_previous_savings_rate_message" = "你的储蓄率曾经是 %@ %%";
+"savings_rate_widget_current_savings_rate_message" = "你的储蓄率是 %@";
+"savings_rate_widget_previous_savings_rate_message" = "你的储蓄率曾经是 %@";
 
 /* Widgets */
 "trend_widget_title" = "趋势";
@@ -854,10 +854,10 @@
 
 /* Discount */
 "upgrade_discount_title" = "特别优惠 🌟";
-"upgrade_discount_multiple_title" = "最高节省 %d %%！";
-"upgrade_discount_montly_subscription_title" = "月订阅节省 %d %%！";
-"upgrade_discount_yearly_subscription_title" = "年订阅节省 %d %%！";
-"upgrade_discount_lifetime_purchase_title" = "一次性购买节省 %d %%！";
+"upgrade_discount_multiple_title" = "最高节省 %@！";
+"upgrade_discount_montly_subscription_title" = "月订阅节省 %@！";
+"upgrade_discount_yearly_subscription_title" = "年订阅节省 %@！";
+"upgrade_discount_lifetime_purchase_title" = "一次性购买节省 %@！";
 "upgrade_discount_ends_in" = "截止于";
 
 /* Sections */
@@ -934,7 +934,7 @@
 "yearly_subscription_subtitle" = "个月";
 "lifetime_purchase_subtitle" = "终身";
 
-"product_discount_header_title" = "- %d %%";
+"product_discount_header_title" = "- %@";
 
 /* Buttons */
 "upgrade_is_active_button" = "激活";

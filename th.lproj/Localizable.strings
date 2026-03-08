@@ -494,8 +494,8 @@
 "total_balance_widget_current_balance_message" = "ยอดคงเหลือของคุณคือ %@";
 "total_balance_widget_previous_balance_message" = "ยอดคงเหลือของคุณคือ %@";
 
-"savings_rate_widget_current_savings_rate_message" = "อัตราการออมของคุณคือ %@ %%";
-"savings_rate_widget_previous_savings_rate_message" = "อัตราการออมของคุณคือ %@ %%";
+"savings_rate_widget_current_savings_rate_message" = "อัตราการออมของคุณคือ %@";
+"savings_rate_widget_previous_savings_rate_message" = "อัตราการออมของคุณคือ %@";
 
 /* Widgets */
 "trend_widget_title" = "เทรนด์";
@@ -854,10 +854,10 @@
 
 /* Discount */
 "upgrade_discount_title" = "ข้อเสนอพิเศษ 🌟";
-"upgrade_discount_multiple_title" = "ประหยัดได้ถึง %d %%!";
-"upgrade_discount_montly_subscription_title" = "ประหยัด %d %% ในการสมัครสมาชิกรายเดือน!";
-"upgrade_discount_yearly_subscription_title" = "ประหยัด %d %% ในการสมัครสมาชิกรายปี!";
-"upgrade_discount_lifetime_purchase_title" = "ประหยัด %d %% ในการซื้อครั้งเดียว!";
+"upgrade_discount_multiple_title" = "ประหยัดได้ถึง %@!";
+"upgrade_discount_montly_subscription_title" = "ประหยัด %@ ในการสมัครสมาชิกรายเดือน!";
+"upgrade_discount_yearly_subscription_title" = "ประหยัด %@ ในการสมัครสมาชิกรายปี!";
+"upgrade_discount_lifetime_purchase_title" = "ประหยัด %@ ในการซื้อครั้งเดียว!";
 "upgrade_discount_ends_in" = "สิ้นสุดใน";
 
 /* Sections */
@@ -934,7 +934,7 @@
 "yearly_subscription_subtitle" = "เดือน";
 "lifetime_purchase_subtitle" = "ไม่จำกัด";
 
-"product_discount_header_title" = "- %d %%";
+"product_discount_header_title" = "- %@";
 
 /* Buttons */
 "upgrade_is_active_button" = "ใช้งานอยู่";

@@ -494,8 +494,8 @@
 "total_balance_widget_current_balance_message" = "Số dư của bạn là %@.";
 "total_balance_widget_previous_balance_message" = "Số dư của bạn là %@.";
 
-"savings_rate_widget_current_savings_rate_message" = "Tỷ lệ tiết kiệm của bạn là %@ %%.";
-"savings_rate_widget_previous_savings_rate_message" = "Tỷ lệ tiết kiệm của bạn là %@ %%.";
+"savings_rate_widget_current_savings_rate_message" = "Tỷ lệ tiết kiệm của bạn là %@.";
+"savings_rate_widget_previous_savings_rate_message" = "Tỷ lệ tiết kiệm của bạn là %@.";
 
 /* Widgets */
 "trend_widget_title" = "Xu hướng";
@@ -854,10 +854,10 @@
 
 /* Discount */
 "upgrade_discount_title" = "Ưu đãi đặc biệt 🌟";
-"upgrade_discount_multiple_title" = "Tiết kiệm đến %d %%!";
-"upgrade_discount_montly_subscription_title" = "Tiết kệm %d %% khi đăng ký hàng tháng.";
-"upgrade_discount_yearly_subscription_title" = "Tiết kệm %d %% khi đăng ký hàng năm.";
-"upgrade_discount_lifetime_purchase_title" = "Tiết kệm %d %% khi đăng ký vĩnh viễn.";
+"upgrade_discount_multiple_title" = "Tiết kiệm đến %@!";
+"upgrade_discount_montly_subscription_title" = "Tiết kệm %@ khi đăng ký hàng tháng.";
+"upgrade_discount_yearly_subscription_title" = "Tiết kệm %@ khi đăng ký hàng năm.";
+"upgrade_discount_lifetime_purchase_title" = "Tiết kệm %@ khi đăng ký vĩnh viễn.";
 "upgrade_discount_ends_in" = "Kết thúc vào";
 
 /* Sections */
@@ -934,7 +934,7 @@
 "yearly_subscription_subtitle" = "Tháng";
 "lifetime_purchase_subtitle" = "Không giới hạn";
 
-"product_discount_header_title" = "- %d %%";
+"product_discount_header_title" = "- %@";
 
 /* Buttons */
 "upgrade_is_active_button" = "Kích hoạt";

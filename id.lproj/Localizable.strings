@@ -494,8 +494,8 @@
 "total_balance_widget_current_balance_message" = "Saldo Anda sebesar %@.";
 "total_balance_widget_previous_balance_message" = "Saldo Anda sebelumnya sebesar %@.";
 
-"savings_rate_widget_current_savings_rate_message" = "Tingkat tabungan Anda adalah %@ %%";
-"savings_rate_widget_previous_savings_rate_message" = "Tingkat tabungan Anda sebelumnya adalah %@ %%";
+"savings_rate_widget_current_savings_rate_message" = "Tingkat tabungan Anda adalah %@";
+"savings_rate_widget_previous_savings_rate_message" = "Tingkat tabungan Anda sebelumnya adalah %@";
 
 /* Widgets */
 "trend_widget_title" = "Tren";
@@ -854,10 +854,10 @@
 
 /* Discount */
 "upgrade_discount_title" = "Penawaran Spesial 🌟";
-"upgrade_discount_multiple_title" = "Hemat hingga %d %%!";
-"upgrade_discount_montly_subscription_title" = "Hemat %d %% untuk langganan bulanan!";
-"upgrade_discount_yearly_subscription_title" = "Hemat %d %% untuk langganan tahunan!";
-"upgrade_discount_lifetime_purchase_title" = "Hemat %d %% untuk pembelian satu kali!";
+"upgrade_discount_multiple_title" = "Hemat hingga %@!";
+"upgrade_discount_montly_subscription_title" = "Hemat %@ untuk langganan bulanan!";
+"upgrade_discount_yearly_subscription_title" = "Hemat %@ untuk langganan tahunan!";
+"upgrade_discount_lifetime_purchase_title" = "Hemat %@ untuk pembelian satu kali!";
 "upgrade_discount_ends_in" = "Berakhir pada";
 
 /* Sections */
@@ -934,7 +934,7 @@
 "yearly_subscription_subtitle" = "Bulan";
 "lifetime_purchase_subtitle" = "Selamanya";
 
-"product_discount_header_title" = "Hemat %d %%";
+"product_discount_header_title" = "- %@";
 
 /* Buttons */
 "upgrade_is_active_button" = "Aktif";

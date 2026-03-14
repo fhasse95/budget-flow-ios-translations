@@ -9,8 +9,8 @@ let package = Package(
         .library(name: "BudgetFlowTranslations", targets: ["BudgetFlowTranslations"])
     ],
     dependencies: [
-        .package(url: "https://source.skip.tools/skip.git", from: "1.7.4"),
-        .package(url: "https://source.skip.tools/skip-foundation.git", from: "1.3.13")
+        .package(url: "https://source.skip.tools/skip.git", from: "1.7.5"),
+        .package(url: "https://source.skip.tools/skip-foundation.git", from: "1.3.15")
     ],
     targets: [
         .target(

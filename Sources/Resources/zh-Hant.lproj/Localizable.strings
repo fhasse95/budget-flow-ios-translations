@@ -774,7 +774,7 @@
 /* Alert Views */
 "alert_share_app_type_selection_title" = "您想要分享什麼？";
 "alert_share_app_type_selection_link_button" = "連結";
-"alert_share_app_type_selection_qrcode_button" = "二維碼";
+"alert_share_app_type_selection_qrcode_button" = "二維條碼";
 
 "alert_reset_app_title" = "重置應用";
 "alert_reset_app_message" = "您確定要將應用程式重設為預設設定嗎？這將永久清除儲存在此裝置和 iCloud 上的所有資料";

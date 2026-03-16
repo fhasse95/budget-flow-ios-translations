@@ -706,6 +706,7 @@
 "advanced_view_setting_section_title" = "Weergave";
 "advanced_sidebar_setting_section_title" = "Zijbalk";
 "advanced_transaction_setting_section_title" = "Transacties";
+"advanced_receipt_scanner_setting_section_title" = "Bonscanner";
 "advanced_input_setting_section_title" = "Invoer";
 "advanced_other_setting_section_title" = "Overige";
 
@@ -743,6 +744,9 @@
 "advanced_setting_save_photos_description" = "Sla vastgelegde foto's automatisch op in je fotobibliotheek.";
 "advanced_setting_consider_pending_items_title" = "Boek alle transacties";
 "advanced_setting_consider_pending_items_description" = "Neem openstaande transacties op bij het berekenen van rekeningsaldi, saldi, totalen, enz.";
+
+"advanced_setting_use_apple_intelligence_in_receipt_scanner_title" = "Apple Intelligence";
+"advanced_setting_use_apple_intelligence_in_receipt_scanner_description" = "Gebruik Apple Intelligence om automatisch extra velden in te vullen bij het scannen van een bon.";
 
 "advanced_setting_enable_exact_times_title" = "Voer exacte tijden in";
 "advanced_setting_enable_exact_times_description" = "Selecteer exacte tijden met behulp van de minutendraaier voor transacties (bijvoorbeeld 9:41 uur).";

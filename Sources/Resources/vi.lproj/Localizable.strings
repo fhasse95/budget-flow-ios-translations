@@ -706,6 +706,7 @@
 "advanced_view_setting_section_title" = "Hiển thị";
 "advanced_sidebar_setting_section_title" = "Thanh bên";
 "advanced_transaction_setting_section_title" = "Giao dịch";
+"advanced_receipt_scanner_setting_section_title" = "Trình quét hóa đơn";
 "advanced_input_setting_section_title" = "Nhập liệu";
 "advanced_other_setting_section_title" = "Khác";
 
@@ -743,6 +744,9 @@
 "advanced_setting_save_photos_description" = "Tự động lưu ảnh đã chụp vào thư viện ảnh.";
 "advanced_setting_consider_pending_items_title" = "Đặt tất cả giao dịch";
 "advanced_setting_consider_pending_items_description" = "Bao gồm các giao dịch đang chờ xử lý khi tính toán số dư tài khoản, số dư, tổng số, v.v.";
+
+"advanced_setting_use_apple_intelligence_in_receipt_scanner_title" = "Apple Intelligence";
+"advanced_setting_use_apple_intelligence_in_receipt_scanner_description" = "Sử dụng Apple Intelligence để tự động điền các trường bổ sung khi quét hóa đơn.";
 
 "advanced_setting_enable_exact_times_title" = "Nhập thời gian chính xác";
 "advanced_setting_enable_exact_times_description" = "Chọn thời gian chính xác bằng cách sử dụng vòng quay phút cho các giao dịch (ví dụ: 9:41 sáng).";

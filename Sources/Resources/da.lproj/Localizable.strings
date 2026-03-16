@@ -706,6 +706,7 @@
 "advanced_view_setting_section_title" = "Skærm";
 "advanced_sidebar_setting_section_title" = "Sidebjælke";
 "advanced_transaction_setting_section_title" = "Transaktioner";
+"advanced_receipt_scanner_setting_section_title" = "Kvitteringsscanner";
 "advanced_input_setting_section_title" = "Input";
 "advanced_other_setting_section_title" = "Andet";
 
@@ -743,6 +744,9 @@
 "advanced_setting_save_photos_description" = "Gem automatisk optagne fotos i fotobiblioteket.";
 "advanced_setting_consider_pending_items_title" = "Bestil alle transaktioner";
 "advanced_setting_consider_pending_items_description" = "Inkluder afventende transaktioner ved beregning af kontosaldi, saldi, totaler osv.";
+
+"advanced_setting_use_apple_intelligence_in_receipt_scanner_title" = "Apple Intelligence";
+"advanced_setting_use_apple_intelligence_in_receipt_scanner_description" = "Brug Apple Intelligence til automatisk at udfylde ekstra felter, når du scanner en kvittering.";
 
 "advanced_setting_enable_exact_times_title" = "Indtast nøjagtige tidspunkter";
 "advanced_setting_enable_exact_times_description" = "Vælg nøjagtige tidspunkter ved hjælp af minutskruen for transaktioner (f.eks. 9:41).";

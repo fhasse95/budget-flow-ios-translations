@@ -706,6 +706,7 @@
 "advanced_view_setting_section_title" = "Zobraziť";
 "advanced_sidebar_setting_section_title" = "Bočný panel";
 "advanced_transaction_setting_section_title" = "Transakcie";
+"advanced_receipt_scanner_setting_section_title" = "Skener účteniek";
 "advanced_input_setting_section_title" = "Vstup";
 "advanced_other_setting_section_title" = "Iné";
 
@@ -743,6 +744,9 @@
 "advanced_setting_save_photos_description" = "Automaticky ukladať nasnímané fotografie do knižnice fotografií.";
 "advanced_setting_consider_pending_items_title" = "Zarezervovať všetky transakcie";
 "advanced_setting_consider_pending_items_description" = "Zahrnúť čakajúce transakcie pri výpočte zostatkov na účte, zostatkov, súčtu atď.";
+
+"advanced_setting_use_apple_intelligence_in_receipt_scanner_title" = "Apple Intelligence";
+"advanced_setting_use_apple_intelligence_in_receipt_scanner_description" = "Použite Apple Intelligence na automatické vyplnenie ďalších polí pri skenovaní účtenky.";
 
 "advanced_setting_enable_exact_times_title" = "Zadajte presné časy";
 "advanced_setting_enable_exact_times_description" = "Vyberte presné časy pomocou minútového číselníka pre transakcie (napr. 9:41).";

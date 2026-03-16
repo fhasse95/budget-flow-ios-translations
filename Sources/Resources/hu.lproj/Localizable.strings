@@ -706,6 +706,7 @@
 "advanced_view_setting_section_title" = "Megjelenítés";
 "advanced_sidebar_setting_section_title" = "Oldalsáv";
 "advanced_transaction_setting_section_title" = "Tranzakciók";
+"advanced_receipt_scanner_setting_section_title" = "Nyugták szkennelése";
 "advanced_input_setting_section_title" = "Bemenet";
 "advanced_other_setting_section_title" = "Egyéb";
 
@@ -743,6 +744,9 @@
 "advanced_setting_save_photos_description" = "A rögzített fényképek automatikus mentése a fotókönyvtárba.";
 "advanced_setting_consider_pending_items_title" = "Összes tranzakció lefoglalása";
 "advanced_setting_consider_pending_items_description" = "A függőben lévő tranzakciók belefoglalása a számlaegyenlegek, egyenlegek, végösszegek stb. kiszámításakor.";
+
+"advanced_setting_use_apple_intelligence_in_receipt_scanner_title" = "Apple Intelligence";
+"advanced_setting_use_apple_intelligence_in_receipt_scanner_description" = "Használja az Apple Intelligence-et további mezők automatikus kitöltéséhez nyugta szkennelésekor.";
 
 "advanced_setting_enable_exact_times_title" = "Adja meg a pontos időpontokat";
 "advanced_setting_enable_exact_times_description" = "Válassza ki a pontos időpontokat a tranzakciókhoz a percforgató segítségével (pl. 9:41).";

@@ -706,6 +706,7 @@
 "advanced_view_setting_section_title" = "Экран";
 "advanced_sidebar_setting_section_title" = "Боковая панель";
 "advanced_transaction_setting_section_title" = "Операции";
+"advanced_receipt_scanner_setting_section_title" = "Сканер чеков";
 "advanced_input_setting_section_title" = "Ввод";
 "advanced_other_setting_section_title" = "Другое";
 
@@ -743,6 +744,9 @@
 "advanced_setting_save_photos_description" = "Сохранять в медиатеку фотографии, снятые в приложении.";
 "advanced_setting_consider_pending_items_title" = "Учитывать все операции";
 "advanced_setting_consider_pending_items_description" = "Включить незавершенные операции при расчете остатков на счетах, сальдо, итогов.";
+
+"advanced_setting_use_apple_intelligence_in_receipt_scanner_title" = "Apple Intelligence";
+"advanced_setting_use_apple_intelligence_in_receipt_scanner_description" = "Используйте Apple Intelligence для автоматического заполнения дополнительных полей при сканировании чека.";
 
 "advanced_setting_enable_exact_times_title" = "Вводить точное время";
 "advanced_setting_enable_exact_times_description" = "Предлагать выбрать точное время для новых операций (напр., 9:41), вместо округления с шагом в 5 минут.";

@@ -706,6 +706,7 @@
 "advanced_view_setting_section_title" = "الشاشة";
 "advanced_sidebar_setting_section_title" = "الشريط الجانبي";
 "advanced_transaction_setting_section_title" = "المعاملات";
+"advanced_receipt_scanner_setting_section_title" = "ماسح الإيصالات";
 "advanced_input_setting_section_title" = "إدخال";
 "advanced_other_setting_section_title" = "أخرى";
 
@@ -743,6 +744,9 @@
 "advanced_setting_save_photos_description" = "احفظ الصور الملتقطة في التطبيق في مكتبتك.";
 "advanced_setting_consider_pending_items_title" = "النظر في كافة المعاملات";
 "advanced_setting_consider_pending_items_description" = "تضمين المعاملات المعلقة عند حساب أرصدة الحسابات والأرصدة والإجماليات.";
+
+"advanced_setting_use_apple_intelligence_in_receipt_scanner_title" = "Apple Intelligence";
+"advanced_setting_use_apple_intelligence_in_receipt_scanner_description" = "استخدم Apple Intelligence لملء الحقول الإضافية تلقائيًا عند مسح إيصال.";
 
 "advanced_setting_enable_exact_times_title" = "أدخل الوقت المحدد";
 "advanced_setting_enable_exact_times_description" = "المطالبة بتحديد وقت محدد للمعاملات الجديدة (على سبيل المثال 9:41)، بدلاً من التقريب بزيادات قدرها 5 دقائق.";

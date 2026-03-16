@@ -706,6 +706,7 @@
 "advanced_view_setting_section_title" = "Visualização";
 "advanced_sidebar_setting_section_title" = "Barra Lateral";
 "advanced_transaction_setting_section_title" = "Transações";
+"advanced_receipt_scanner_setting_section_title" = "Digitalizador de recibos";
 "advanced_input_setting_section_title" = "Entrada";
 "advanced_other_setting_section_title" = "Outros";
 
@@ -743,6 +744,9 @@
 "advanced_setting_save_photos_description" = "Guardar automaticamente as fotos capturadas na biblioteca de fotos.";
 "advanced_setting_consider_pending_items_title" = "Considerar transações pendentes";
 "advanced_setting_consider_pending_items_description" = "Incluir transações pendentes ao calcular saldos de contas, saldos, totais, etc.";
+
+"advanced_setting_use_apple_intelligence_in_receipt_scanner_title" = "Apple Intelligence";
+"advanced_setting_use_apple_intelligence_in_receipt_scanner_description" = "Utilize o Apple Intelligence para preencher automaticamente campos adicionais ao digitalizar um recibo.";
 
 "advanced_setting_enable_exact_times_title" = "Inserir horários exatos";
 "advanced_setting_enable_exact_times_description" = "Seleciona os horários exatos usando o seletor de minutos para transações (por exemplo, 9h41min).";

@@ -706,6 +706,7 @@
 "advanced_view_setting_section_title" = "Εμφάνιση";
 "advanced_sidebar_setting_section_title" = "Πλαϊνή γραμμή";
 "advanced_transaction_setting_section_title" = "Συναλλαγές";
+"advanced_receipt_scanner_setting_section_title" = "Σαρωτής αποδείξεων";
 "advanced_input_setting_section_title" = "Είσοδος";
 "advanced_other_setting_section_title" = "Άλλο";
 
@@ -743,6 +744,9 @@
 "advanced_setting_save_photos_description" = "Αυτόματη αποθήκευση φωτογραφιών στη βιβλιοθήκη φωτογραφιών.";
 "advanced_setting_consider_pending_items_title" = "Κράτηση όλων των συναλλαγών";
 "advanced_setting_consider_pending_items_description" = "Συμπεριλάβετε τις εκκρεμείς συναλλαγές κατά τον υπολογισμό των υπολοίπων λογαριασμών, των υπολοίπων, των συνόλων κ.λπ.";
+
+"advanced_setting_use_apple_intelligence_in_receipt_scanner_title" = "Apple Intelligence";
+"advanced_setting_use_apple_intelligence_in_receipt_scanner_description" = "Χρησιμοποιήστε το Apple Intelligence για να συμπληρώνονται αυτόματα επιπλέον πεδία κατά τη σάρωση μιας απόδειξης.";
 
 "advanced_setting_enable_exact_times_title" = "Εισαγάγετε ακριβείς ώρες";
 "advanced_setting_enable_exact_times_description" = "Επιλέξτε ακριβείς ώρες χρησιμοποιώντας τον περιστρεφόμενο χρόνο για συναλλαγές (π.χ. 9:41 π.μ.).";

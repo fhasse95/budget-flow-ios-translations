@@ -706,6 +706,7 @@
 "advanced_view_setting_section_title" = "Tampilan";
 "advanced_sidebar_setting_section_title" = "Bilah Sisi";
 "advanced_transaction_setting_section_title" = "Transaksi";
+"advanced_receipt_scanner_setting_section_title" = "Pemindai struk";
 "advanced_input_setting_section_title" = "Masukan";
 "advanced_other_setting_section_title" = "Lainnya";
 
@@ -743,6 +744,9 @@
 "advanced_setting_save_photos_description" = "Secara otomatis menyimpan foto yang diambil ke galeri foto.";
 "advanced_setting_consider_pending_items_title" = "Hitung semua transaksi";
 "advanced_setting_consider_pending_items_description" = "Sertakan transaksi yang tertunda saat menghitung saldo akun, saldo, total, dll.";
+
+"advanced_setting_use_apple_intelligence_in_receipt_scanner_title" = "Apple Intelligence";
+"advanced_setting_use_apple_intelligence_in_receipt_scanner_description" = "Gunakan Apple Intelligence untuk mengisi bidang tambahan secara otomatis saat memindai struk.";
 
 "advanced_setting_enable_exact_times_title" = "Masukkan waktu yang tepat";
 "advanced_setting_enable_exact_times_description" = "Pilih waktu yang tepat menggunakan pemutar menit untuk transaksi (misalnya 09.41).";

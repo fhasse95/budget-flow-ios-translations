@@ -706,6 +706,7 @@
 "advanced_view_setting_section_title" = "Відображення";
 "advanced_sidebar_setting_section_title" = "Бічна панель";
 "advanced_transaction_setting_section_title" = "Трансакції";
+"advanced_receipt_scanner_setting_section_title" = "Сканер чеків";
 "advanced_input_setting_section_title" = "Ввід";
 "advanced_other_setting_section_title" = "Інше";
 
@@ -743,6 +744,9 @@
 "advanced_setting_save_photos_description" = "Автоматично зберігати зроблені фотографії до бібліотеки фотографій.";
 "advanced_setting_consider_pending_items_title" = "Забронювати всі транзакції";
 "advanced_setting_consider_pending_items_description" = "Включати транзакції, що очікують на розгляд, під час розрахунку залишків на рахунку, сальдо, підсумків тощо";
+
+"advanced_setting_use_apple_intelligence_in_receipt_scanner_title" = "Apple Intelligence";
+"advanced_setting_use_apple_intelligence_in_receipt_scanner_description" = "Використовуйте Apple Intelligence, щоб автоматично заповнювати додаткові поля під час сканування чека.";
 
 "advanced_setting_enable_exact_times_title" = "Введіть точний час";
 "advanced_setting_enable_exact_times_description" = "Виберіть точний час за допомогою лічильника хвилин для транзакцій (наприклад, 9:41).";

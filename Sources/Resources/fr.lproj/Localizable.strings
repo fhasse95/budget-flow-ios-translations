@@ -706,6 +706,7 @@
 "advanced_view_setting_section_title" = "Afficher";
 "advanced_sidebar_setting_section_title" = "Barre latérale";
 "advanced_transaction_setting_section_title" = "Transactions";
+"advanced_receipt_scanner_setting_section_title" = "Scanner de reçus";
 "advanced_input_setting_section_title" = "Saisie";
 "advanced_other_setting_section_title" = "Autre";
 
@@ -743,6 +744,9 @@
 "advanced_setting_save_photos_description" = "Enregistrer automatiquement les photos capturées dans la photothèque.";
 "advanced_setting_consider_pending_items_title" = "Réservez toutes les transactions";
 "advanced_setting_consider_pending_items_description" = "Inclure les transactions en attente lors du calcul des soldes des comptes, des soldes, des totaux, etc.";
+
+"advanced_setting_use_apple_intelligence_in_receipt_scanner_title" = "Apple Intelligence";
+"advanced_setting_use_apple_intelligence_in_receipt_scanner_description" = "Utiliser Apple Intelligence pour remplir automatiquement des champs supplémentaires lors de la numérisation d’un reçu.";
 
 "advanced_setting_enable_exact_times_title" = "Entrez les heures exactes";
 "advanced_setting_enable_exact_times_description" = "Sélectionnez les heures exactes à l'aide du compteur de minutes pour les transactions (par exemple, 9h41).";

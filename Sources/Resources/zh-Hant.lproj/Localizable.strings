@@ -249,7 +249,7 @@
 "delete_button" = "刪除";
 "end_repetition_button" = "結束重複";
 "reset_button" = "重置";
-"apply_button" = "應用程式";
+"apply_button" = "套用";
 "yes_button" = "是";
 "no_button" = "否";
 "ok_button" = "確定";
@@ -477,25 +477,25 @@
 "trend_widget_current_month_title" = "本月";
 
 /* Messages */
-"trend_widget_received_more_message" = "你賺得比平常多";
-"trend_widget_received_less_message" = "你賺得比平常少";
-"trend_widget_received_same_message" = "你賺得跟往常一樣";
-"trend_widget_has_received_more_message" = "你已經賺得比平常多";
-"trend_widget_has_received_less_message" = "你已經賺得比平常少";
-"trend_widget_has_received_same_message" = "你已經賺得跟往常一樣";
+"trend_widget_received_more_message" = "您賺得比平常多";
+"trend_widget_received_less_message" = "您賺得比平常少";
+"trend_widget_received_same_message" = "您賺得跟往常一樣";
+"trend_widget_has_received_more_message" = "您已經賺得比平常多";
+"trend_widget_has_received_less_message" = "您已經賺得比平常少";
+"trend_widget_has_received_same_message" = "您已經賺得跟往常一樣";
 
-"trend_widget_spent_more_message" = "你花的比平常多";
-"trend_widget_spent_less_message" = "你花費的比平常少";
-"trend_widget_spent_same_message" = "你花費的和往常一樣";
-"trend_widget_has_spent_more_message" = "你已經花費的比平常多";
-"trend_widget_has_spent_less_message" = "你已經花費的比平常少";
-"trend_widget_has_spent_same_message" = "你已經花費的和往常一樣";
+"trend_widget_spent_more_message" = "您花的比平常多";
+"trend_widget_spent_less_message" = "您花費的比平常少";
+"trend_widget_spent_same_message" = "您花費的和往常一樣";
+"trend_widget_has_spent_more_message" = "您已經花費的比平常多";
+"trend_widget_has_spent_less_message" = "您已經花費的比平常少";
+"trend_widget_has_spent_same_message" = "您已經花費的和往常一樣";
 
-"total_balance_widget_current_balance_message" = "你的餘額是 %@";
-"total_balance_widget_previous_balance_message" = "你的餘額曾經是 %@";
+"total_balance_widget_current_balance_message" = "您的餘額是 %@";
+"total_balance_widget_previous_balance_message" = "您的餘額曾經是 %@";
 
-"savings_rate_widget_current_savings_rate_message" = "你的儲蓄率是 %@";
-"savings_rate_widget_previous_savings_rate_message" = "你的儲蓄率曾經是 %@";
+"savings_rate_widget_current_savings_rate_message" = "您的儲蓄率是 %@";
+"savings_rate_widget_previous_savings_rate_message" = "您的儲蓄率曾經是 %@";
 
 /* Widgets */
 "trend_widget_title" = "趨勢";
@@ -586,7 +586,7 @@
 "mail_subject_type_translate" = "Translate";
 "mail_subject_type_discount" = "Discount";
 
-"alert_translate_app_title" = "你想如何幫助翻譯？";
+"alert_translate_app_title" = "您想如何幫助翻譯？";
 "alert_translate_app_github" = "👨🏻‍💻 使用 GitHub";
 "alert_translate_app_email" = "📬 使用 E-Mail";
 
@@ -666,7 +666,7 @@
 "cloud_setting_info_title" = "描述";
 "cloud_setting_info_description" = "以下視圖提供了當前 iCloud 同步狀態的更詳細概述，並有助於排除故障。";
 
-"cloud_setting_network_status_title" = "網絡";
+"cloud_setting_network_status_title" = "網路";
 "cloud_setting_network_status_success_value" = "可用的網際網路連線";
 "cloud_setting_network_status_error_value" = "沒有網際網路連線";
 "cloud_setting_account_status_title" = "iCloud 帳戶";
@@ -813,7 +813,7 @@
 "privacy_overview_datastorage_title" = "安全資料儲存";
 "privacy_overview_datastorage_description" = "您的財務是私密的—並且應該保持私密。這就是為什麼您的資料僅儲存在裝置上，或（可選）儲存在您的個人 iCloud 中。";
 
-"privacy_overview_privacy_control_title" = "你的財務由你做主";
+"privacy_overview_privacy_control_title" = "您的財務由您做主";
 "privacy_overview_privacy_control_description" = "無論是您保存的數據、您的位置還是訪問您的相機- 您始終有著最高掌控權。例如，您可以通過重置應用輕鬆刪除您的數據，並且應用的訪問權限調整為任何 時候。";
 
 /* Footer */
@@ -1683,7 +1683,7 @@
 "icon_keyword_video_projector" = "視訊投影機";
 "icon_keyword_beamer" = "投影機";
 "icon_keyword_wifi_router" = "無線路由器";
-"icon_keyword_internet" = "互聯網";
+"icon_keyword_internet" = "網際網路";
 "icon_keyword_party" = "派對";
 "icon_keyword_balloon" = "氣球";
 "icon_keyword_pan" = "煎鍋";
@@ -1703,14 +1703,14 @@
 "icon_keyword_armchair" = "扶手椅";
 "icon_keyword_cabinet" = "壁櫥";
 "icon_keyword_fireplace" = "壁爐";
-"icon_keyword_washer" = "墊圈";
+"icon_keyword_washer" = "洗衣機";
 "icon_keyword_dryer" = "滾筒烘乾機";
 "icon_keyword_dishwasher" = "洗碗機";
 "icon_keyword_oven" = "烤箱";
 "icon_keyword_stove" = "爐子";
 "icon_keyword_microwave" = "微波爐";
 "icon_keyword_refrigerator" = "冰箱";
-"icon_keyword_sink" = "下沉";
+"icon_keyword_sink" = "水槽";
 "icon_keyword_toilet" = "廁所";
 "icon_keyword_bathroom" = "浴室";
 "icon_keyword_tv_remote" = "遙控器";
@@ -1767,7 +1767,7 @@
 "icon_keyword_gaming" = "遊戲";
 "icon_keyword_playstation" = "PlayStation";
 "icon_keyword_xbox" = "Xbox";
-"icon_keyword_nintento_switch" = "任天堂開關";
+"icon_keyword_nintento_switch" = "掌機";
 "icon_keyword_book" = "書籍";
 "icon_keyword_books" = "書籍";
 "icon_keyword_magazine" = "雜誌";
@@ -1818,7 +1818,7 @@
 "icon_keyword_lizard" = "蜥蜴";
 "icon_keyword_bird" = "鳥";
 "icon_keyword_ant" = "螞蟻";
-"icon_keyword_ladybug" = "蟲子";
+"icon_keyword_ladybug" = "瓢蟲";
 "icon_keyword_fish" = "魚";
 "icon_keyword_pet" = "寵物";
 "icon_keyword_cat" = "貓";
@@ -1838,8 +1838,8 @@
 "icon_keyword_cake" = "蛋糕";
 "icon_keyword_carrot" = "胡蘿蔔";
 "icon_keyword_vegetables" = "蔬菜";
-"icon_keyword_bag" = "套件";
-"icon_keyword_cone" = "套件";
+"icon_keyword_bag" = "袋子";
+"icon_keyword_cone" = "圓錐";
 "icon_keyword_shopping" = "購物";
 "icon_keyword_supermarket" = "超級市場";
 "icon_keyword_groceries" = "雜貨";
@@ -1850,7 +1850,7 @@
 "icon_keyword_clothing" = "服裝";
 "icon_keyword_globe" = "地球";
 "icon_keyword_online" = "線上";
-"icon_keyword_internet" = "互聯網";
+"icon_keyword_internet" = "網際網路";
 "icon_keyword_amazon" = "亞馬遜";
 "icon_keyword_package" = "套件";
 "icon_keyword_apple" = "蘋果";
@@ -1860,7 +1860,7 @@
 "icon_keyword_cents" = "美分";
 "icon_keyword_yen" = "日圓";
 "icon_keyword_pound" = "磅";
-"icon_keyword_franc" = "法蘭克尼亞";
+"icon_keyword_franc" = "法郎";
 "icon_keyword_lira" = "里拉";
 "icon_keyword_ruble" = "盧布";
 "icon_keyword_euro" = "歐元";
@@ -2066,4 +2066,4 @@
 "family_budget_book_name" = "家庭預算書";
 "shared_budget_book_name" = "共享預算書";
 "default_credit_card_name" = "信用卡";
-"default_location_address" = "北京";
+"default_location_address" = "台北";

@@ -742,6 +742,8 @@
 "advanced_setting_select_location_automatically_description" = "Автоматически выбирать текущее местоположение для новых операций.";
 "advanced_setting_save_photos_in_library_title" = "Сохранять фотографии в медиатеку";
 "advanced_setting_save_photos_description" = "Сохранять в медиатеку фотографии, снятые в приложении.";
+"advanced_setting_suggested_notes_title" = "Предлагаемые заметки";
+"advanced_setting_suggested_notes_description" = "Получайте предложения на основе ваших предыдущих транзакций при вводе в поле заметки.";
 "advanced_setting_consider_pending_items_title" = "Учитывать все операции";
 "advanced_setting_consider_pending_items_description" = "Включить незавершенные операции при расчете остатков на счетах, сальдо, итогов.";
 

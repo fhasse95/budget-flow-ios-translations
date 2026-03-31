@@ -742,6 +742,8 @@
 "advanced_setting_select_location_automatically_description" = "Automaticky vybrať aktuálne umiestnenie pre nové transakcie.";
 "advanced_setting_save_photos_in_library_title" = "Uložiť fotografie do knižnice";
 "advanced_setting_save_photos_description" = "Automaticky ukladať nasnímané fotografie do knižnice fotografií.";
+"advanced_setting_suggested_notes_title" = "Navrhované poznámky";
+"advanced_setting_suggested_notes_description" = "Získajte návrhy na základe vašich predchádzajúcich transakcií pri písaní do poľa poznámky.";
 "advanced_setting_consider_pending_items_title" = "Zarezervovať všetky transakcie";
 "advanced_setting_consider_pending_items_description" = "Zahrnúť čakajúce transakcie pri výpočte zostatkov na účte, zostatkov, súčtu atď.";
 

@@ -742,6 +742,8 @@
 "advanced_setting_select_location_automatically_description" = "Automatically select the current location for new transactions.";
 "advanced_setting_save_photos_in_library_title" = "Save photos in library";
 "advanced_setting_save_photos_description" = "Automatically save captured photos to the photo library.";
+"advanced_setting_suggested_notes_title" = "Suggested notes";
+"advanced_setting_suggested_notes_description" = "Get suggestions based on your previous transactions as you type in the note field.";
 "advanced_setting_consider_pending_items_title" = "Book all transactions";
 "advanced_setting_consider_pending_items_description" = "Include pending transactions when calculating account balances, balances, totals, etc.";
 

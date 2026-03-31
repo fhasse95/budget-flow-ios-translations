@@ -742,6 +742,8 @@
 "advanced_setting_select_location_automatically_description" = "Secara otomatis memilih lokasi saat ini untuk transaksi baru.";
 "advanced_setting_save_photos_in_library_title" = "Simpan foto di galeri";
 "advanced_setting_save_photos_description" = "Secara otomatis menyimpan foto yang diambil ke galeri foto.";
+"advanced_setting_suggested_notes_title" = "Catatan yang disarankan";
+"advanced_setting_suggested_notes_description" = "Dapatkan saran berdasarkan transaksi sebelumnya saat Anda mengetik di kolom catatan.";
 "advanced_setting_consider_pending_items_title" = "Hitung semua transaksi";
 "advanced_setting_consider_pending_items_description" = "Sertakan transaksi yang tertunda saat menghitung saldo akun, saldo, total, dll.";
 

@@ -742,6 +742,8 @@
 "advanced_setting_select_location_automatically_description" = "Αυτόματη επιλογή της τρέχουσας τοποθεσίας για νέες συναλλαγές.";
 "advanced_setting_save_photos_in_library_title" = "Αποθήκευση φωτογραφιών στη βιβλιοθήκη";
 "advanced_setting_save_photos_description" = "Αυτόματη αποθήκευση φωτογραφιών στη βιβλιοθήκη φωτογραφιών.";
+"advanced_setting_suggested_notes_title" = "Προτεινόμενες σημειώσεις";
+"advanced_setting_suggested_notes_description" = "Λάβετε προτάσεις βάσει των προηγούμενων συναλλαγών σας καθώς πληκτρολογείτε στο πεδίο σημειώσεων.";
 "advanced_setting_consider_pending_items_title" = "Κράτηση όλων των συναλλαγών";
 "advanced_setting_consider_pending_items_description" = "Συμπεριλάβετε τις εκκρεμείς συναλλαγές κατά τον υπολογισμό των υπολοίπων λογαριασμών, των υπολοίπων, των συνόλων κ.λπ.";
 

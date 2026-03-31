@@ -742,6 +742,8 @@
 "advanced_setting_select_location_automatically_description" = "새 거래의 현재 위치를 자동으로 선택합니다.";
 "advanced_setting_save_photos_in_library_title" = "사진앱에 사진 저장";
 "advanced_setting_save_photos_description" = "캡처한 사진을 사진앱에 자동으로 저장합니다.";
+"advanced_setting_suggested_notes_title" = "提案されたメモ";
+"advanced_setting_suggested_notes_description" = "メモ欄に入力する際、過去の取引に基づいた候補が表示されます。";
 "advanced_setting_consider_pending_items_title" = "예약 거래 계산";
 "advanced_setting_consider_pending_items_description" = "계좌 잔액, 총액 등을 계산할 때 대기 중인 거래를 계산하여 표시합니다";
 

@@ -742,6 +742,8 @@
 "advanced_setting_select_location_automatically_description" = "เลือกตำแหน่งปัจจุบันสำหรับธุรกรรมใหม่โดยอัตโนมัติ";
 "advanced_setting_save_photos_in_library_title" = "บันทึกรูปภาพในคลัง";
 "advanced_setting_save_photos_description" = "บันทึกรูปภาพที่ถ่ายไปยังคลังรูปภาพโดยอัตโนมัติ";
+"advanced_setting_suggested_notes_title" = "โน้ตที่แนะนำ";
+"advanced_setting_suggested_notes_description" = "รับคำแนะนำตามธุรกรรมก่อนหน้าของคุณขณะพิมพ์ในช่องโน้ต";
 "advanced_setting_consider_pending_items_title" = "จองธุรกรรมทั้งหมด";
 "advanced_setting_consider_pending_items_description" = "รวมธุรกรรมที่รอดำเนินการเมื่อคำนวณยอดคงเหลือในบัญชี ยอดคงเหลือ ยอดรวม ฯลฯ";
 

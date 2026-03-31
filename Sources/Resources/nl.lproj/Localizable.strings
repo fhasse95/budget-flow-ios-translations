@@ -742,6 +742,8 @@
 "advanced_setting_select_location_automatically_description" = "Selecteer automatisch de huidige locatie voor nieuwe transacties.";
 "advanced_setting_save_photos_in_library_title" = "Foto's opslaan in bibliotheek";
 "advanced_setting_save_photos_description" = "Sla vastgelegde foto's automatisch op in je fotobibliotheek.";
+"advanced_setting_suggested_notes_title" = "Voorgestelde notities";
+"advanced_setting_suggested_notes_description" = "Ontvang suggesties op basis van je eerdere transacties terwijl je in het notitieveld typt.";
 "advanced_setting_consider_pending_items_title" = "Boek alle transacties";
 "advanced_setting_consider_pending_items_description" = "Neem openstaande transacties op bij het berekenen van rekeningsaldi, saldi, totalen, enz.";
 

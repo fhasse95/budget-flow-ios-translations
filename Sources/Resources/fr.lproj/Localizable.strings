@@ -742,6 +742,8 @@
 "advanced_setting_select_location_automatically_description" = "Sélectionner automatiquement l'emplacement actuel pour les nouvelles transactions.";
 "advanced_setting_save_photos_in_library_title" = "Enregistrer les photos dans la bibliothèque";
 "advanced_setting_save_photos_description" = "Enregistrer automatiquement les photos capturées dans la photothèque.";
+"advanced_setting_suggested_notes_title" = "Notes suggérées";
+"advanced_setting_suggested_notes_description" = "Obtenez des suggestions basées sur vos transactions précédentes lorsque vous saisissez du texte dans le champ de note.";
 "advanced_setting_consider_pending_items_title" = "Réservez toutes les transactions";
 "advanced_setting_consider_pending_items_description" = "Inclure les transactions en attente lors du calcul des soldes des comptes, des soldes, des totaux, etc.";
 

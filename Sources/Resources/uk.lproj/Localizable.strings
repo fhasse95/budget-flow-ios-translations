@@ -742,6 +742,8 @@
 "advanced_setting_select_location_automatically_description" = "Автоматично вибирати поточне місце для нових транзакцій.";
 "advanced_setting_save_photos_in_library_title" = "Зберегти фотографії в бібліотеці";
 "advanced_setting_save_photos_description" = "Автоматично зберігати зроблені фотографії до бібліотеки фотографій.";
+"advanced_setting_suggested_notes_title" = "Запропоновані нотатки";
+"advanced_setting_suggested_notes_description" = "Отримуйте підказки на основі попередніх транзакцій під час введення в полі нотаток.";
 "advanced_setting_consider_pending_items_title" = "Забронювати всі транзакції";
 "advanced_setting_consider_pending_items_description" = "Включати транзакції, що очікують на розгляд, під час розрахунку залишків на рахунку, сальдо, підсумків тощо";
 

@@ -742,6 +742,8 @@
 "advanced_setting_select_location_automatically_description" = "Automaticky vybrat aktuální umístění pro nové transakce.";
 "advanced_setting_save_photos_in_library_title" = "Uložit fotografie do knihovny";
 "advanced_setting_save_photos_description" = "Automaticky ukládat zachycené fotografie do knihovny fotografií.";
+"advanced_setting_suggested_notes_title" = "Navrhované poznámky";
+"advanced_setting_suggested_notes_description" = "Získejte návrhy na základě vašich předchozích transakcí při psaní do pole poznámky.";
 "advanced_setting_consider_pending_items_title" = "Zarezervovat všechny transakce";
 "advanced_setting_consider_pending_items_description" = "Zahrnout čekající transakce při výpočtu zůstatků na účtech, zůstatků, součtů atd.";
 

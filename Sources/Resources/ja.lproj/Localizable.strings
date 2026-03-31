@@ -742,6 +742,8 @@
 "advanced_setting_select_location_automatically_description" = "新しいトランザクションのために現在の場所を自動的に選択するには、この機能をオンにします。";
 "advanced_setting_save_photos_in_library_title" = "写真をライブラリに保存";
 "advanced_setting_save_photos_description" = "撮影した写真をフォト ライブラリに自動的に保存するには、この機能をオンにします。";
+"advanced_setting_suggested_notes_title" = "提案されたメモ";
+"advanced_setting_suggested_notes_description" = "メモ欄に入力する際、過去の取引に基づいた候補が表示されます。";
 "advanced_setting_consider_pending_items_title" = "すべてのトランザクションを予約";
 "advanced_setting_consider_pending_items_description" = "口座残高、残高、合計などを計算するときに保留中のトランザクションを含めるには、この機能を有効にします。";
 

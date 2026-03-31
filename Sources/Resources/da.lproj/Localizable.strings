@@ -742,6 +742,8 @@
 "advanced_setting_select_location_automatically_description" = "Vælg automatisk den aktuelle placering for nye transaktioner.";
 "advanced_setting_save_photos_in_library_title" = "Gem billeder i biblioteket";
 "advanced_setting_save_photos_description" = "Gem automatisk optagne fotos i fotobiblioteket.";
+"advanced_setting_suggested_notes_title" = "Foreslåede noter";
+"advanced_setting_suggested_notes_description" = "Få forslag baseret på dine tidligere transaktioner, mens du skriver i notefeltet.";
 "advanced_setting_consider_pending_items_title" = "Bestil alle transaktioner";
 "advanced_setting_consider_pending_items_description" = "Inkluder afventende transaktioner ved beregning af kontosaldi, saldi, totaler osv.";
 

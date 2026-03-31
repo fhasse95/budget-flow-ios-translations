@@ -742,6 +742,8 @@
 "advanced_setting_select_location_automatically_description" = "Selecciona automàticament l'ubicació actual per a noves transaccions.";
 "advanced_setting_save_photos_in_library_title" = "Guardar fotos a la biblioteca";
 "advanced_setting_save_photos_description" = "Guardar automàticament les fotos capturades a la biblioteca de fotos.";
+"advanced_setting_suggested_notes_title" = "Notes suggerides";
+"advanced_setting_suggested_notes_description" = "Rep suggeriments basats en les teves transaccions anteriors mentre escrius al camp de notes.";
 "advanced_setting_consider_pending_items_title" = "Incluir totes les transaccions";
 "advanced_setting_consider_pending_items_description" = "Incloure transaccions pendents al calcular saldos de comptes, saldos, totals, etc.";
 

@@ -742,6 +742,8 @@
 "advanced_setting_select_location_automatically_description" = "Valitse automaattisesti nykyinen sijainti uusille tapahtumille.";
 "advanced_setting_save_photos_in_library_title" = "Tallenna kuvat kirjastoon";
 "advanced_setting_save_photos_description" = "Tallenna otetut kuvat automaattisesti valokuvakirjastoon.";
+"advanced_setting_suggested_notes_title" = "Ehdotetut muistiinpanot";
+"advanced_setting_suggested_notes_description" = "Saat ehdotuksia aiempien tapahtumiesi perusteella kirjoittaessasi muistiinpanokenttään.";
 "advanced_setting_consider_pending_items_title" = "Varaa kaikki tapahtumat";
 "advanced_setting_consider_pending_items_description" = "Sisällytä odottavat tapahtumat laskettaessa tilisaldot, saldot, loppusummat jne.";
 

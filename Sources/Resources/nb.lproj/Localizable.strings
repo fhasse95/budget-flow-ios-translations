@@ -742,6 +742,8 @@
 "advanced_setting_select_location_automatically_description" = "Velg automatisk gjeldende plassering for nye transaksjoner.";
 "advanced_setting_save_photos_in_library_title" = "Lagre bilder i biblioteket";
 "advanced_setting_save_photos_description" = "Lagre tatt bilder automatisk i bildebiblioteket.";
+"advanced_setting_suggested_notes_title" = "Foreslåtte notater";
+"advanced_setting_suggested_notes_description" = "Få forslag basert på dine tidligere transaksjoner mens du skriver i notatfeltet.";
 "advanced_setting_consider_pending_items_title" = "Bestill alle transaksjoner";
 "advanced_setting_consider_pending_items_description" = "Ta med ventende transaksjoner når du beregner kontosaldoer, saldoer, totaler osv.";
 

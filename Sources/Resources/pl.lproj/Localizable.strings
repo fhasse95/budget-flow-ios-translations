@@ -742,6 +742,8 @@
 "advanced_setting_select_location_automatically_description" = "Automatycznie wybieraj bieżącą lokalizację dla nowych transakcji.";
 "advanced_setting_save_photos_in_library_title" = "Zapisz zdjęcia w bibliotece";
 "advanced_setting_save_photos_description" = "Automatycznie zapisuj zrobione zdjęcia w bibliotece zdjęć.";
+"advanced_setting_suggested_notes_title" = "Sugerowane notatki";
+"advanced_setting_suggested_notes_description" = "Otrzymuj sugestie na podstawie wcześniejszych transakcji podczas wpisywania w polu notatki.";
 "advanced_setting_consider_pending_items_title" = "Zaksięguj wszystkie transakcje";
 "advanced_setting_consider_pending_items_description" = "Uwzględnij oczekujące transakcje podczas obliczania sald kont, sald, sum itp.";
 

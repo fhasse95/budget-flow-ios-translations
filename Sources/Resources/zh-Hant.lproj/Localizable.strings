@@ -742,6 +742,8 @@
 "advanced_setting_select_location_automatically_description" = "啟用此功能以為新交易會自動選擇您的目前位置";
 "advanced_setting_save_photos_in_library_title" = "在圖庫中儲存照片";
 "advanced_setting_save_photos_description" = "啟用此功能以自動將拍攝的照片儲存到照片庫";
+"advanced_setting_suggested_notes_title" = "建議的備註";
+"advanced_setting_suggested_notes_description" = "在備註欄位輸入時，根據您先前的交易提供建議。";
 "advanced_setting_consider_pending_items_title" = "預訂所有交易";
 "advanced_setting_consider_pending_items_description" = "啟用此功能以在計算帳戶餘額、餘額、總金額等時包含待處理的交易";
 

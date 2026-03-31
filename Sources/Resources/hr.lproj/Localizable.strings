@@ -742,6 +742,8 @@
 "advanced_setting_select_location_automatically_description" = "Automatski odaberite trenutnu lokaciju za nove transakcije.";
 "advanced_setting_save_photos_in_library_title" = "Spremi fotografije u knjižnicu";
 "advanced_setting_save_photos_description" = "Automatski sprema snimljene fotografije u biblioteku fotografija.";
+"advanced_setting_suggested_notes_title" = "Predložene bilješke";
+"advanced_setting_suggested_notes_description" = "Dobijte prijedloge na temelju svojih prethodnih transakcija dok upisujete u polje bilješke.";
 "advanced_setting_consider_pending_items_title" = "Knjižite sve transakcije";
 "advanced_setting_consider_pending_items_description" = "Uključi transakcije na čekanju pri izračunavanju stanja računa, stanja, ukupnih iznosa itd.";
 

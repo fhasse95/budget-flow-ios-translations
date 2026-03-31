@@ -742,6 +742,8 @@
 "advanced_setting_select_location_automatically_description" = "Az aktuális hely automatikus kiválasztása az új tranzakciókhoz.";
 "advanced_setting_save_photos_in_library_title" = "Fényképek mentése a könyvtárba";
 "advanced_setting_save_photos_description" = "A rögzített fényképek automatikus mentése a fotókönyvtárba.";
+"advanced_setting_suggested_notes_title" = "Javasolt megjegyzések";
+"advanced_setting_suggested_notes_description" = "Kapj javaslatokat a korábbi tranzakcióid alapján, miközben a megjegyzés mezőbe írsz.";
 "advanced_setting_consider_pending_items_title" = "Összes tranzakció lefoglalása";
 "advanced_setting_consider_pending_items_description" = "A függőben lévő tranzakciók belefoglalása a számlaegyenlegek, egyenlegek, végösszegek stb. kiszámításakor.";
 

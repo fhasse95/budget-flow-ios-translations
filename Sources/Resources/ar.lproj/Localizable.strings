@@ -742,6 +742,8 @@
 "advanced_setting_select_location_automatically_description" = "تحديد الموقع الحالي تلقائيًا للعمليات الجديدة.";
 "advanced_setting_save_photos_in_library_title" = "حفظ الصور في المكتبة";
 "advanced_setting_save_photos_description" = "احفظ الصور الملتقطة في التطبيق في مكتبتك.";
+"advanced_setting_suggested_notes_title" = "ملاحظات مقترحة";
+"advanced_setting_suggested_notes_description" = "احصل على اقتراحات بناءً على معاملاتك السابقة أثناء الكتابة في حقل الملاحظات.";
 "advanced_setting_consider_pending_items_title" = "النظر في كافة المعاملات";
 "advanced_setting_consider_pending_items_description" = "تضمين المعاملات المعلقة عند حساب أرصدة الحسابات والأرصدة والإجماليات.";
 

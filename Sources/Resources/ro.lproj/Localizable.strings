@@ -742,6 +742,8 @@
 "advanced_setting_select_location_automatically_description" = "Selectați automat locația curentă pentru tranzacții noi.";
 "advanced_setting_save_photos_in_library_title" = "Salvați fotografiile în bibliotecă";
 "advanced_setting_save_photos_description" = "Salvați automat fotografiile capturate în biblioteca de fotografii.";
+"advanced_setting_suggested_notes_title" = "Note sugerate";
+"advanced_setting_suggested_notes_description" = "Primește sugestii bazate pe tranzacțiile tale anterioare în timp ce scrii în câmpul de note.";
 "advanced_setting_consider_pending_items_title" = "Rezervați toate tranzacțiile";
 "advanced_setting_consider_pending_items_description" = "Includeți tranzacțiile în așteptare la calcularea soldurilor contului, soldurilor, totalurilor etc.";
 

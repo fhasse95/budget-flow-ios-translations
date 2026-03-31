@@ -742,6 +742,8 @@
 "advanced_setting_select_location_automatically_description" = "Tự động chọn vị trí hiện tại cho các giao dịch mới.";
 "advanced_setting_save_photos_in_library_title" = "Lưu ảnh vào thư viện";
 "advanced_setting_save_photos_description" = "Tự động lưu ảnh đã chụp vào thư viện ảnh.";
+"advanced_setting_suggested_notes_title" = "Ghi chú đề xuất";
+"advanced_setting_suggested_notes_description" = "Nhận gợi ý dựa trên các giao dịch trước đây của bạn khi nhập vào trường ghi chú.";
 "advanced_setting_consider_pending_items_title" = "Đặt tất cả giao dịch";
 "advanced_setting_consider_pending_items_description" = "Bao gồm các giao dịch đang chờ xử lý khi tính toán số dư tài khoản, số dư, tổng số, v.v.";
 

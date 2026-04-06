@@ -564,7 +564,7 @@
 "acknowledgements_setting_info_title" = "Description";
 "acknowledgements_setting_info_description" = "Below is a list of people who have helped with the app in some way.";
 "translation_acknowledgement" = "Translation (%@)";
-"licenses_setting_info_title" = "description";
+"licenses_setting_info_title" = "Description";
 "licenses_setting_info_description" = "Below is a list of all third-party licenses used by the app.";
 
 /* Data Settings */

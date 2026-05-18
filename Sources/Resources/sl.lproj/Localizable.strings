@@ -706,6 +706,7 @@
 "advanced_view_setting_section_title" = "Pogled";
 "advanced_sidebar_setting_section_title" = "Stranska vrstica";
 "advanced_transaction_setting_section_title" = "Transakcije";
+"advanced_receipt_scanner_setting_section_title" = "Skener računov";
 "advanced_input_setting_section_title" = "Vnos";
 "advanced_other_setting_section_title" = "Drugo";
 
@@ -741,8 +742,13 @@
 "advanced_setting_select_location_automatically_description" = "Samodejno izberite trenutno lokacijo za nove transakcije.";
 "advanced_setting_save_photos_in_library_title" = "Shrani fotografije v knjižnico";
 "advanced_setting_save_photos_description" = "Samodejno shrani posnete fotografije v knjižnico fotografij.";
+"advanced_setting_suggested_notes_title" = "Predlagane opombe";
+"advanced_setting_suggested_notes_description" = "Prejmite predloge na podlagi svojih preteklih transakcij med pisanjem v polje za opombe.";
 "advanced_setting_consider_pending_items_title" = "Knjiži vse transakcije";
 "advanced_setting_consider_pending_items_description" = "Vključi transakcije v čakanju pri izračunu stanj računov, stanj, skupnih zneskov itd.";
+
+"advanced_setting_use_apple_intelligence_in_receipt_scanner_title" = "Apple Intelligence";
+"advanced_setting_use_apple_intelligence_in_receipt_scanner_description" = "Uporabite Apple Intelligence za samodejno izpolnjevanje dodatnih polj pri skeniranju računa.";
 
 "advanced_setting_enable_exact_times_title" = "Vnesi natančne čase";
 "advanced_setting_enable_exact_times_description" = "Izberite natančne čase z uporabo minutnega kazalca za transakcije (npr. 9:41).";

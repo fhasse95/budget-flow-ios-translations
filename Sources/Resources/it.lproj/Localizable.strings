@@ -706,6 +706,7 @@
 "advanced_view_setting_section_title" = "Visualizzazione";
 "advanced_sidebar_setting_section_title" = "Barra laterale";
 "advanced_transaction_setting_section_title" = "Transazioni";
+"advanced_receipt_scanner_setting_section_title" = "Scanner ricevute";
 "advanced_input_setting_section_title" = "Inserimento";
 "advanced_other_setting_section_title" = "Altro";
 
@@ -741,8 +742,13 @@
 "advanced_setting_select_location_automatically_description" = "Seleziona automaticamente la posizione corrente per le nuove transazioni.";
 "advanced_setting_save_photos_in_library_title" = "Salva foto nella libreria";
 "advanced_setting_save_photos_description" = "Salva automaticamente le foto catturate nella libreria fotografica.";
+"advanced_setting_suggested_notes_title" = "Note suggerite";
+"advanced_setting_suggested_notes_description" = "Ricevi suggerimenti basati sulle tue transazioni precedenti mentre scrivi nel campo delle note.";
 "advanced_setting_consider_pending_items_title" = "Considera tutte le transazioni";
 "advanced_setting_consider_pending_items_description" = "Includi le transazioni in sospeso nel calcolo del riepilogo transazioni, dei saldi, dei totali, ecc.";
+
+"advanced_setting_use_apple_intelligence_in_receipt_scanner_title" = "Apple Intelligence";
+"advanced_setting_use_apple_intelligence_in_receipt_scanner_description" = "Usa Apple Intelligence per compilare automaticamente campi aggiuntivi durante la scansione di una ricevuta.";
 
 "advanced_setting_enable_exact_times_title" = "Inserisci gli orari esatti";
 "advanced_setting_enable_exact_times_description" = "Seleziona gli orari esatti utilizzando il selettore dei minuti per le transazioni (ad esempio 9:41).";

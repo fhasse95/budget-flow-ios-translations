@@ -706,6 +706,7 @@
 "advanced_view_setting_section_title" = "Näyttö";
 "advanced_sidebar_setting_section_title" = "Sivupalkki";
 "advanced_transaction_setting_section_title" = "Tapahtumat";
+"advanced_receipt_scanner_setting_section_title" = "Kuittiskanneri";
 "advanced_input_setting_section_title" = "Syöte";
 "advanced_other_setting_section_title" = "Muu";
 
@@ -741,8 +742,13 @@
 "advanced_setting_select_location_automatically_description" = "Valitse automaattisesti nykyinen sijainti uusille tapahtumille.";
 "advanced_setting_save_photos_in_library_title" = "Tallenna kuvat kirjastoon";
 "advanced_setting_save_photos_description" = "Tallenna otetut kuvat automaattisesti valokuvakirjastoon.";
+"advanced_setting_suggested_notes_title" = "Ehdotetut muistiinpanot";
+"advanced_setting_suggested_notes_description" = "Saat ehdotuksia aiempien tapahtumiesi perusteella kirjoittaessasi muistiinpanokenttään.";
 "advanced_setting_consider_pending_items_title" = "Varaa kaikki tapahtumat";
 "advanced_setting_consider_pending_items_description" = "Sisällytä odottavat tapahtumat laskettaessa tilisaldot, saldot, loppusummat jne.";
+
+"advanced_setting_use_apple_intelligence_in_receipt_scanner_title" = "Apple Intelligence";
+"advanced_setting_use_apple_intelligence_in_receipt_scanner_description" = "Käytä Apple Intelligencea täyttääksesi automaattisesti lisäkenttiä kuitin skannauksen yhteydessä.";
 
 "advanced_setting_enable_exact_times_title" = "Anna tarkat ajat";
 "advanced_setting_enable_exact_times_description" = "Valitse tarkat ajat tapahtumien minuuttipyörän avulla (esim. 9:41).";

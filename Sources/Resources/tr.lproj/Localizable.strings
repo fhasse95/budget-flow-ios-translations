@@ -706,6 +706,7 @@
 "advanced_view_setting_section_title" = "Görüntü";
 "advanced_sidebar_setting_section_title" = "Kenar çubuğu";
 "advanced_transaction_setting_section_title" = "İşlemler";
+"advanced_receipt_scanner_setting_section_title" = "Fiş Tarayıcı";
 "advanced_input_setting_section_title" = "Girdi";
 "advanced_other_setting_section_title" = "Diğer";
 
@@ -741,8 +742,13 @@
 "advanced_setting_select_location_automaically_description" = "Yeni işlemler için geçerli konumu otomatik olarak seç.";
 "advanced_setting_save_photos_in_library_title" = "Fotoğrafları kitaplığa kaydet";
 "advanced_setting_save_photos_description" = "Yakalanan fotoğrafları otomatik olarak fotoğraf kitaplığına kaydedin.";
+"advanced_setting_suggested_notes_title" = "Önerilen notlar";
+"advanced_setting_suggested_notes_description" = "Not alanına yazarken önceki işlemlerinize göre öneriler alın.";
 "advanced_setting_consider_pending_items_title" = "Tüm işlemleri ayırtın";
 "advanced_setting_consider_pending_items_description" = "Hesap bakiyelerini, bakiyeleri, toplamları vb. hesaplarken bekleyen işlemleri dahil edin.";
+
+"advanced_setting_use_apple_intelligence_in_receipt_scanner_title" = "Apple Intelligence";
+"advanced_setting_use_apple_intelligence_in_receipt_scanner_description" = "Bir fişi tararken ek alanları otomatik olarak doldurmak için Apple Intelligence kullanın.";
 
 "advanced_setting_enable_exact_times_title" = "Tam saatleri girin";
 "advanced_setting_enable_exact_times_description" = "İşlemler için dakika döndürücüyü kullanarak tam saatleri seçin (ör. 9:41 am).";

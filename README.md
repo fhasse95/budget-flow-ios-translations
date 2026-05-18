@@ -41,7 +41,7 @@ Additionally, all translation files are available in this repository, and contri
 | Italian | it | 🇮🇹 🇸🇲 🇻🇦 🇨🇭 | Fabio Zaramella | 🟢 Proofread |
 | Japanese | ja | 🇯🇵 | Miharu | 🟢 Proofread |
 | Korean | ko | 🇰🇷 | Junghwan Lee | 🟢 Proofread |
-| Norwegian Bokmål | nb | 🇳🇴 | - | 🟡 Auto Translated |
+| Norwegian Bokmål | nb | 🇳🇴 | Simon Sæthren | 🟢 Proofread |
 | Polish | pl | 🇵🇱 | Jakub Domeracki | 🟢 Proofread |
 | Portuguese (Portugal) | pt-PT | 🇵🇹 🇨🇻 🇲🇿 🇦🇴 🇬🇼 + | Sergio Lourenco | 🟢 Proofread |
 | Portuguese (Brazil) | pt-BR | 🇧🇷 | José Henrique Leão | 🟢 Proofread |

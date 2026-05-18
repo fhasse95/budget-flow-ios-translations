@@ -706,6 +706,7 @@
 "advanced_view_setting_section_title" = "보기 설정";
 "advanced_sidebar_setting_section_title" = "사이드 바";
 "advanced_transaction_setting_section_title" = "거래";
+"advanced_receipt_scanner_setting_section_title" = "영수증 스캐너";
 "advanced_input_setting_section_title" = "입력";
 "advanced_other_setting_section_title" = "기타";
 
@@ -741,8 +742,13 @@
 "advanced_setting_select_location_automatically_description" = "새 거래의 현재 위치를 자동으로 선택합니다.";
 "advanced_setting_save_photos_in_library_title" = "사진앱에 사진 저장";
 "advanced_setting_save_photos_description" = "캡처한 사진을 사진앱에 자동으로 저장합니다.";
+"advanced_setting_suggested_notes_title" = "提案されたメモ";
+"advanced_setting_suggested_notes_description" = "メモ欄に入力する際、過去の取引に基づいた候補が表示されます。";
 "advanced_setting_consider_pending_items_title" = "예약 거래 계산";
 "advanced_setting_consider_pending_items_description" = "계좌 잔액, 총액 등을 계산할 때 대기 중인 거래를 계산하여 표시합니다";
+
+"advanced_setting_use_apple_intelligence_in_receipt_scanner_title" = "Apple Intelligence";
+"advanced_setting_use_apple_intelligence_in_receipt_scanner_description" = "영수증을 스캔할 때 Apple Intelligence를 사용하여 추가 필드를 자동으로 채웁니다.";
 
 "advanced_setting_enable_exact_times_title" = "분단위 시간 입력";
 "advanced_setting_enable_exact_times_description" = "거래의 분을 정확하게 선택할 수 있습니다(예: 오전 9시 41분).";

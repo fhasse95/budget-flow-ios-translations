@@ -706,6 +706,7 @@
 "advanced_view_setting_section_title" = "Zobrazení";
 "advanced_sidebar_setting_section_title" = "Postranní panel";
 "advanced_transaction_setting_section_title" = "Transakce";
+"advanced_receipt_scanner_setting_section_title" = "Skener účtenek";
 "advanced_input_setting_section_title" = "Vstup";
 "advanced_other_setting_section_title" = "Jiné";
 
@@ -741,8 +742,13 @@
 "advanced_setting_select_location_automatically_description" = "Automaticky vybrat aktuální umístění pro nové transakce.";
 "advanced_setting_save_photos_in_library_title" = "Uložit fotografie do knihovny";
 "advanced_setting_save_photos_description" = "Automaticky ukládat zachycené fotografie do knihovny fotografií.";
+"advanced_setting_suggested_notes_title" = "Navrhované poznámky";
+"advanced_setting_suggested_notes_description" = "Získejte návrhy na základě vašich předchozích transakcí při psaní do pole poznámky.";
 "advanced_setting_consider_pending_items_title" = "Zarezervovat všechny transakce";
 "advanced_setting_consider_pending_items_description" = "Zahrnout čekající transakce při výpočtu zůstatků na účtech, zůstatků, součtů atd.";
+
+"advanced_setting_use_apple_intelligence_in_receipt_scanner_title" = "Apple Intelligence";
+"advanced_setting_use_apple_intelligence_in_receipt_scanner_description" = "Použijte Apple Intelligence k automatickému vyplnění dalších polí při skenování účtenky.";
 
 "advanced_setting_enable_exact_times_title" = "Zadejte přesné časy";
 "advanced_setting_enable_exact_times_description" = "Vyberte přesné časy pomocí minutového číselníku pro transakce (např. 9:41).";

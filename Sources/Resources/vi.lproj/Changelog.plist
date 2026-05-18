@@ -2,35 +2,35 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>3.1.0</key>
+	<key>3.2.0</key>
 	<array>
 		<dict>
 			<key>Title</key>
-			<string>Gợi ý ghi chú</string>
+			<string>Trình quét biên lai nâng cao</string>
 			<key>Description</key>
-			<string>Khi chỉnh sửa ghi chú của giao dịch, bạn sẽ tự động nhận được gợi ý dựa trên các nội dung đã nhập trước đó và có thể áp dụng ngay bằng cách chạm vào gợi ý.</string>
+			<string>Trình quét biên lai tích hợp giờ đây cũng nhận diện người nhận thanh toán dựa trên các mục nhập trước đây của bạn.</string>
 			<key>IconName</key>
-			<string>character.cursor.ibeam</string>
+			<string>receipt.viewfinder</string>
 			<key>IconColor</key>
 			<string>#ff8d28</string>
 		</dict>
 		<dict>
 			<key>Title</key>
-			<string>Chuyển đổi tiền tệ dễ dàng hơn</string>
+			<string>Biểu tượng bổ sung</string>
 			<key>Description</key>
-			<string>Bây giờ bạn có thể hoán đổi tiền tệ gốc và tiền tệ đích cũng như tỷ giá hối đoái tương ứng để tính toán giá trị chính xác dễ dàng hơn.</string>
+			<string>Đã thêm nhiều biểu tượng hơn để bạn có thể cá nhân hóa ứng dụng đúng theo ý mình.</string>
 			<key>IconName</key>
-			<string>arrow.up.arrow.down</string>
+			<string>paintpalette</string>
 			<key>IconColor</key>
-			<string>#35c759</string>
+			<string>#ff375f</string>
 		</dict>
 		<dict>
 			<key>Title</key>
-			<string>Phân tích hóa đơn có sẵn</string>
+			<string>Bản dịch được cải thiện</string>
 			<key>Description</key>
-			<string>Với trình quét hóa đơn tích hợp, giờ đây bạn cũng có thể phân tích các hóa đơn đã lưu trong ứng dụng Ảnh hoặc Tệp và sử dụng chúng để tạo giao dịch.</string>
+			<string>Bản dịch tiếng Na Uy của ứng dụng đã được tối ưu hóa, nên giờ đây dễ hiểu hơn nữa.</string>
 			<key>IconName</key>
-			<string>custom.receipt.badge.arrow.up</string>
+			<string>globe</string>
 			<key>IconColor</key>
 			<string>#0088ff</string>
 		</dict>

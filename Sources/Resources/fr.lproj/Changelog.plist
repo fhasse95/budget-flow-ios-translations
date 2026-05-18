@@ -2,35 +2,35 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>3.1.0</key>
+	<key>3.2.0</key>
 	<array>
 		<dict>
 			<key>Title</key>
-			<string>Notes suggérées</string>
+			<string>Scanner de reçus amélioré</string>
 			<key>Description</key>
-			<string>Lors de la modification des notes d’une transaction, vous recevez désormais automatiquement une suggestion basée sur vos saisies précédentes, que vous pouvez appliquer directement en appuyant dessus.</string>
+			<string>Le scanner de reçus intégré reconnaît désormais aussi le bénéficiaire à partir de vos saisies précédentes.</string>
 			<key>IconName</key>
-			<string>character.cursor.ibeam</string>
+			<string>receipt.viewfinder</string>
 			<key>IconColor</key>
 			<string>#ff8d28</string>
 		</dict>
 		<dict>
 			<key>Title</key>
-			<string>Conversion de devises simplifiée</string>
+			<string>Icônes supplémentaires</string>
 			<key>Description</key>
-			<string>Vous pouvez désormais échanger la devise source et la devise cible, ainsi que le taux de change correspondant, afin de calculer plus facilement les montants corrects.</string>
+			<string>De nouvelles icônes ont été ajoutées afin que vous puissiez personnaliser l’app selon vos préférences.</string>
 			<key>IconName</key>
-			<string>arrow.up.arrow.down</string>
+			<string>paintpalette</string>
 			<key>IconColor</key>
-			<string>#35c759</string>
+			<string>#ff375f</string>
 		</dict>
 		<dict>
 			<key>Title</key>
-			<string>Analyse des reçus existants</string>
+			<string>Traduction améliorée</string>
 			<key>Description</key>
-			<string>Grâce au scanner de reçus intégré, vous pouvez désormais également analyser les reçus déjà enregistrés depuis l’app Photos ou Fichiers et les utiliser pour créer des transactions.</string>
+			<string>La traduction norvégienne de l’app a été optimisée afin d’être encore plus facile à comprendre.</string>
 			<key>IconName</key>
-			<string>custom.receipt.badge.arrow.up</string>
+			<string>globe</string>
 			<key>IconColor</key>
 			<string>#0088ff</string>
 		</dict>

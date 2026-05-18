@@ -706,6 +706,7 @@
 "advanced_view_setting_section_title" = "视图";
 "advanced_sidebar_setting_section_title" = "侧边栏";
 "advanced_transaction_setting_section_title" = "交易";
+"advanced_receipt_scanner_setting_section_title" = "收据扫描器";
 "advanced_input_setting_section_title" = "输入";
 "advanced_other_setting_section_title" = "其他";
 
@@ -741,8 +742,13 @@
 "advanced_setting_select_location_automatically_description" = "启用此功能以为新交易自动选择您的当前位置";
 "advanced_setting_save_photos_in_library_title" = "在图库中保存照片";
 "advanced_setting_save_photos_description" = "启用此功能以自动将拍摄的照片保存到照片库";
+"advanced_setting_suggested_notes_title" = "建议备注";
+"advanced_setting_suggested_notes_description" = "在备注字段中输入时，根据您之前的交易提供建议。";
 "advanced_setting_consider_pending_items_title" = "预订所有交易";
 "advanced_setting_consider_pending_items_description" = "启用此功能以在计算账户余额、余额、总额等时包括待处理的交易";
+
+"advanced_setting_use_apple_intelligence_in_receipt_scanner_title" = "Apple Intelligence";
+"advanced_setting_use_apple_intelligence_in_receipt_scanner_description" = "在扫描收据时使用 Apple Intelligence 自动填写额外字段。";
 
 "advanced_setting_enable_exact_times_title" = "输入精确时间";
 "advanced_setting_enable_exact_times_description" = "启用此功能以为交易选择精确时间，使用分钟选择器（例如 9:41）";

@@ -706,6 +706,7 @@
 "advanced_view_setting_section_title" = "Anzeige";
 "advanced_sidebar_setting_section_title" = "Seitenleiste";
 "advanced_transaction_setting_section_title" = "Transaktionen";
+"advanced_receipt_scanner_setting_section_title" = "Belegscanner";
 "advanced_input_setting_section_title" = "Eingabe";
 "advanced_other_setting_section_title" = "Sonstiges";
 
@@ -741,8 +742,13 @@
 "advanced_setting_select_location_automatically_description" = "Wähle den aktuellen Standort automatisch für neue Transaktionen aus.";
 "advanced_setting_save_photos_in_library_title" = "Fotos in Mediathek speichern";
 "advanced_setting_save_photos_description" = "Speichere aufgenommene Fotos automatisch in der Foto-Mediathek.";
+"advanced_setting_suggested_notes_title" = "Vorgeschlagene Notizen";
+"advanced_setting_suggested_notes_description" = "Erhalte Vorschläge basierend auf deinen bisherigen Transaktionen, während du im Notizfeld etwas eingibst.";
 "advanced_setting_consider_pending_items_title" = "Alle Transaktionen verbuchen";
 "advanced_setting_consider_pending_items_description" = "Berücksichtige bei der Berechnung von Kontoständen, Bilanzen, etc. auch alle vorgemerkten Transaktionen.";
+
+"advanced_setting_use_apple_intelligence_in_receipt_scanner_title" = "Apple Intelligence";
+"advanced_setting_use_apple_intelligence_in_receipt_scanner_description" = "Nutze Apple Intelligence, um beim Scannen eines Belegs automatisch zusätzliche Felder auszufüllen.";
 
 "advanced_setting_enable_exact_times_title" = "Genaue Uhrzeiten";
 "advanced_setting_enable_exact_times_description" = "Wähle genaue Uhrzeiten mithilfe des Minuten-Drehfelds für Transaktionen aus (z.B. 9:41).";

@@ -706,6 +706,7 @@
 "advanced_view_setting_section_title" = "View";
 "advanced_sidebar_setting_section_title" = "Sidebar";
 "advanced_transaction_setting_section_title" = "Transactions";
+"advanced_receipt_scanner_setting_section_title" = "Receipt Scanner";
 "advanced_input_setting_section_title" = "Input";
 "advanced_other_setting_section_title" = "Other";
 
@@ -741,8 +742,13 @@
 "advanced_setting_select_location_automatically_description" = "Automatically select the current location for new transactions.";
 "advanced_setting_save_photos_in_library_title" = "Save photos in library";
 "advanced_setting_save_photos_description" = "Automatically save captured photos to the photo library.";
+"advanced_setting_suggested_notes_title" = "Suggested notes";
+"advanced_setting_suggested_notes_description" = "Get suggestions based on your previous transactions as you type in the note field.";
 "advanced_setting_consider_pending_items_title" = "Book all transactions";
 "advanced_setting_consider_pending_items_description" = "Include pending transactions when calculating account balances, balances, totals, etc.";
+
+"advanced_setting_use_apple_intelligence_in_receipt_scanner_title" = "Apple Intelligence";
+"advanced_setting_use_apple_intelligence_in_receipt_scanner_description" = "Use Apple Intelligence to automatically fill in extra fields when scanning a receipt.";
 
 "advanced_setting_enable_exact_times_title" = "Enter exact times";
 "advanced_setting_enable_exact_times_description" = "Select exact times using the minute spinner for transactions (e.g. 9:41 am).";

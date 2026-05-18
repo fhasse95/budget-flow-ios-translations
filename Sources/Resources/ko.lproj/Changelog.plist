@@ -2,35 +2,35 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>3.1.0</key>
+	<key>3.2.0</key>
 	<array>
 		<dict>
 			<key>Title</key>
-			<string>추천 메모</string>
+			<string>향상된 영수증 스캐너</string>
 			<key>Description</key>
-			<string>거래 메모를 편집할 때, 이전 입력 내용을 기반으로 자동 추천이 표시되며, 추천 항목을 탭하여 바로 적용할 수 있습니다.</string>
+			<string>내장 영수증 스캐너가 이제 이전 입력을 바탕으로 수취인도 인식합니다.</string>
 			<key>IconName</key>
-			<string>character.cursor.ibeam</string>
+			<string>receipt.viewfinder</string>
 			<key>IconColor</key>
 			<string>#ff8d28</string>
 		</dict>
 		<dict>
 			<key>Title</key>
-			<string>간편한 환율 변환</string>
+			<string>추가 아이콘</string>
 			<key>Description</key>
-			<string>이제 원화와 대상 통화, 그리고 환율을 서로 바꿔가며 보다 쉽게 올바른 금액을 계산할 수 있습니다.</string>
+			<string>앱을 원하는 대로 개인화할 수 있도록 더 많은 아이콘이 추가되었습니다.</string>
 			<key>IconName</key>
-			<string>arrow.up.arrow.down</string>
+			<string>paintpalette</string>
 			<key>IconColor</key>
-			<string>#35c759</string>
+			<string>#ff375f</string>
 		</dict>
 		<dict>
 			<key>Title</key>
-			<string>기존 영수증 분석</string>
+			<string>개선된 번역</string>
 			<key>Description</key>
-			<string>내장된 영수증 스캐너를 통해 이제 사진 또는 파일 앱에 저장된 기존 영수증도 분석하여 거래 생성에 활용할 수 있습니다.</string>
+			<string>앱의 노르웨이어 번역이 최적화되어 이제 더 쉽게 이해할 수 있습니다.</string>
 			<key>IconName</key>
-			<string>custom.receipt.badge.arrow.up</string>
+			<string>globe</string>
 			<key>IconColor</key>
 			<string>#0088ff</string>
 		</dict>

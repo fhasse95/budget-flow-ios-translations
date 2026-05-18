@@ -706,6 +706,7 @@
 "advanced_view_setting_section_title" = "Vista";
 "advanced_sidebar_setting_section_title" = "Barra lateral";
 "advanced_transaction_setting_section_title" = "Transacciones";
+"advanced_receipt_scanner_setting_section_title" = "Escáner de recibos";
 "advanced_input_setting_section_title" = "Entrada";
 "advanced_other_setting_section_title" = "Otros";
 
@@ -741,8 +742,13 @@
 "advanced_setting_select_location_automatically_description" = "Seleccione automáticamente la ubicación actual para nuevas transacciones.";
 "advanced_setting_save_photos_in_library_title" = "Guardar fotos en la biblioteca";
 "advanced_setting_save_photos_description" = "Guardar automáticamente las fotos capturadas en la biblioteca de fotos.";
+"advanced_setting_suggested_notes_title" = "Notas sugeridas";
+"advanced_setting_suggested_notes_description" = "Recibe sugerencias basadas en tus transacciones anteriores mientras escribes en el campo de notas.";
 "advanced_setting_consider_pending_items_title" = "Reservar todas las transacciones";
 "advanced_setting_consider_pending_items_description" = "Incluir transacciones pendientes al calcular saldos de cuentas, saldos, totales, etc.";
+
+"advanced_setting_use_apple_intelligence_in_receipt_scanner_title" = "Apple Intelligence";
+"advanced_setting_use_apple_intelligence_in_receipt_scanner_description" = "Usa Apple Intelligence para completar automáticamente campos adicionales al escanear un recibo.";
 
 "advanced_setting_enable_exact_times_title" = "Ingrese horas exactas";
 "advanced_setting_enable_exact_times_description" = "Seleccione las horas exactas utilizando el control de minutos para las transacciones (por ejemplo, 9:41 a. m.)";

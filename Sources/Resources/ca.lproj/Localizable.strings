@@ -706,6 +706,7 @@
 "advanced_view_setting_section_title" = "Vista";
 "advanced_sidebar_setting_section_title" = "Barra lateral";
 "advanced_transaction_setting_section_title" = "Transaccions";
+"advanced_receipt_scanner_setting_section_title" = "Escàner de rebuts";
 "advanced_input_setting_section_title" = "Entrada";
 "advanced_other_setting_section_title" = "Altres";
 
@@ -741,8 +742,13 @@
 "advanced_setting_select_location_automatically_description" = "Selecciona automàticament l'ubicació actual per a noves transaccions.";
 "advanced_setting_save_photos_in_library_title" = "Guardar fotos a la biblioteca";
 "advanced_setting_save_photos_description" = "Guardar automàticament les fotos capturades a la biblioteca de fotos.";
+"advanced_setting_suggested_notes_title" = "Notes suggerides";
+"advanced_setting_suggested_notes_description" = "Rep suggeriments basats en les teves transaccions anteriors mentre escrius al camp de notes.";
 "advanced_setting_consider_pending_items_title" = "Incluir totes les transaccions";
 "advanced_setting_consider_pending_items_description" = "Incloure transaccions pendents al calcular saldos de comptes, saldos, totals, etc.";
+
+"advanced_setting_use_apple_intelligence_in_receipt_scanner_title" = "Apple Intelligence";
+"advanced_setting_use_apple_intelligence_in_receipt_scanner_description" = "Utilitza Apple Intelligence per omplir automàticament camps addicionals en escanejar un rebut.";
 
 "advanced_setting_enable_exact_times_title" = "Introduir hores exactes";
 "advanced_setting_enable_exact_times_description" = "Selecciona les hores exactes utilitzant el control de minuts per a les transaccions (per exemple, 9:41 a. m.)";

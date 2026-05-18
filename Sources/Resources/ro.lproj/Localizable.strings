@@ -706,6 +706,7 @@
 "advanced_view_setting_section_title" = "Afișare";
 "advanced_sidebar_setting_section_title" = "Bară laterală";
 "advanced_transaction_setting_section_title" = "Tranzacții";
+"advanced_receipt_scanner_setting_section_title" = "Scanner de chitanțe";
 "advanced_input_setting_section_title" = "Intrare";
 "advanced_other_setting_section_title" = "Altele";
 
@@ -741,8 +742,13 @@
 "advanced_setting_select_location_automatically_description" = "Selectați automat locația curentă pentru tranzacții noi.";
 "advanced_setting_save_photos_in_library_title" = "Salvați fotografiile în bibliotecă";
 "advanced_setting_save_photos_description" = "Salvați automat fotografiile capturate în biblioteca de fotografii.";
+"advanced_setting_suggested_notes_title" = "Note sugerate";
+"advanced_setting_suggested_notes_description" = "Primește sugestii bazate pe tranzacțiile tale anterioare în timp ce scrii în câmpul de note.";
 "advanced_setting_consider_pending_items_title" = "Rezervați toate tranzacțiile";
 "advanced_setting_consider_pending_items_description" = "Includeți tranzacțiile în așteptare la calcularea soldurilor contului, soldurilor, totalurilor etc.";
+
+"advanced_setting_use_apple_intelligence_in_receipt_scanner_title" = "Apple Intelligence";
+"advanced_setting_use_apple_intelligence_in_receipt_scanner_description" = "Folosește Apple Intelligence pentru a completa automat câmpuri suplimentare atunci când scanezi o chitanță.";
 
 "advanced_setting_enable_exact_times_title" = "Introduceți orele exacte";
 "advanced_setting_enable_exact_times_description" = "Selectați orele exacte folosind rotația minutelor pentru tranzacții (de exemplu, 9:41 am).";

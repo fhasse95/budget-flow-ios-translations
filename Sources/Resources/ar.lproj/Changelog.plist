@@ -2,35 +2,35 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>3.1.0</key>
+	<key>3.2.0</key>
 	<array>
 		<dict>
 			<key>Title</key>
-			<string>ملاحظات مقترحة</string>
+			<string>ماسح إيصالات محسّن</string>
 			<key>Description</key>
-			<string>أثناء تعديل ملاحظات المعاملة، ستحصل الآن تلقائيًا على اقتراح يعتمد على إدخالاتك السابقة، ويمكنك تطبيقه مباشرة بلمسة واحدة.</string>
+			<string>أصبح ماسح الإيصالات المدمج يتعرّف الآن أيضًا على المستفيد بناءً على إدخالاتك السابقة.</string>
 			<key>IconName</key>
-			<string>character.cursor.ibeam</string>
+			<string>receipt.viewfinder</string>
 			<key>IconColor</key>
 			<string>#ff8d28</string>
 		</dict>
 		<dict>
 			<key>Title</key>
-			<string>تحويل العملات أصبح أسهل</string>
+			<string>أيقونات إضافية</string>
 			<key>Description</key>
-			<string>يمكنك الآن تبديل العملة الأصلية والعملة المستهدفة بالإضافة إلى سعر الصرف المقابل لحساب القيم الصحيحة بسهولة أكبر.</string>
+			<string>تمت إضافة المزيد من الأيقونات لتتمكن من تخصيص التطبيق بالطريقة التي تفضلها.</string>
 			<key>IconName</key>
-			<string>arrow.up.arrow.down</string>
+			<string>paintpalette</string>
 			<key>IconColor</key>
-			<string>#35c759</string>
+			<string>#ff375f</string>
 		</dict>
 		<dict>
 			<key>Title</key>
-			<string>تحليل الإيصالات الموجودة</string>
+			<string>ترجمة محسّنة</string>
 			<key>Description</key>
-			<string>من خلال الماسح الضوئي المدمج للإيصالات، يمكنك الآن أيضًا تحليل الإيصالات المحفوظة مسبقًا من تطبيق الصور أو الملفات واستخدامها لإنشاء المعاملات.</string>
+			<string>تم تحسين الترجمة النرويجية للتطبيق، فأصبحت الآن أسهل في الفهم.</string>
 			<key>IconName</key>
-			<string>custom.receipt.badge.arrow.up</string>
+			<string>globe</string>
 			<key>IconColor</key>
 			<string>#0088ff</string>
 		</dict>

@@ -2,35 +2,35 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>3.1.0</key>
+	<key>3.2.0</key>
 	<array>
 		<dict>
 			<key>Title</key>
-			<string>Sugerowane notatki</string>
+			<string>Ulepszony skaner paragonów</string>
 			<key>Description</key>
-			<string>Podczas edycji notatek do transakcji otrzymujesz teraz automatyczną sugestię na podstawie wcześniejszych wpisów, którą możesz zastosować bezpośrednio, dotykając jej.</string>
+			<string>Wbudowany skaner paragonów rozpoznaje teraz także odbiorcę płatności na podstawie Twoich wcześniejszych wpisów.</string>
 			<key>IconName</key>
-			<string>character.cursor.ibeam</string>
+			<string>receipt.viewfinder</string>
 			<key>IconColor</key>
 			<string>#ff8d28</string>
 		</dict>
 		<dict>
 			<key>Title</key>
-			<string>Uproszczone przeliczanie walut</string>
+			<string>Dodatkowe ikony</string>
 			<key>Description</key>
-			<string>Możesz teraz zamieniać walutę źródłową i docelową oraz odpowiadający im kurs wymiany, aby łatwiej obliczać poprawne wartości.</string>
+			<string>Dodano więcej ikon, dzięki którym możesz spersonalizować aplikację dokładnie tak, jak chcesz.</string>
 			<key>IconName</key>
-			<string>arrow.up.arrow.down</string>
+			<string>paintpalette</string>
 			<key>IconColor</key>
-			<string>#35c759</string>
+			<string>#ff375f</string>
 		</dict>
 		<dict>
 			<key>Title</key>
-			<string>Analiza istniejących paragonów</string>
+			<string>Ulepszone tłumaczenie</string>
 			<key>Description</key>
-			<string>Dzięki wbudowanemu skanerowi paragonów możesz teraz również analizować istniejące paragony zapisane w aplikacjach Zdjęcia lub Pliki i wykorzystywać je do tworzenia transakcji.</string>
+			<string>Norweskie tłumaczenie aplikacji zostało zoptymalizowane, dzięki czemu jest teraz jeszcze łatwiejsze do zrozumienia.</string>
 			<key>IconName</key>
-			<string>custom.receipt.badge.arrow.up</string>
+			<string>globe</string>
 			<key>IconColor</key>
 			<string>#0088ff</string>
 		</dict>

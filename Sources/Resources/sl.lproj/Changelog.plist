@@ -2,35 +2,35 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>3.1.0</key>
+	<key>3.2.0</key>
 	<array>
 		<dict>
 			<key>Title</key>
-			<string>Predlagane opombe</string>
+			<string>Izboljšan optični bralnik računov</string>
 			<key>Description</key>
-			<string>Med urejanjem opomb pri transakciji zdaj samodejno prejmete predlog na podlagi svojih prejšnjih vnosov, ki ga lahko uporabite z enim dotikom.</string>
+			<string>Vgrajeni optični bralnik računov zdaj na podlagi tvojih prejšnjih vnosov prepozna tudi prejemnika plačila.</string>
 			<key>IconName</key>
-			<string>character.cursor.ibeam</string>
+			<string>receipt.viewfinder</string>
 			<key>IconColor</key>
 			<string>#ff8d28</string>
 		</dict>
 		<dict>
 			<key>Title</key>
-			<string>Poenostavljen preračun valut</string>
+			<string>Dodatne ikone</string>
 			<key>Description</key>
-			<string>Zdaj lahko zamenjate izvorno in ciljno valuto ter ustrezen menjalni tečaj, da lažje izračunate pravilne vrednosti.</string>
+			<string>Dodali smo več ikon, s katerimi lahko aplikacijo prilagodiš povsem po svojih željah.</string>
 			<key>IconName</key>
-			<string>arrow.up.arrow.down</string>
+			<string>paintpalette</string>
 			<key>IconColor</key>
-			<string>#35c759</string>
+			<string>#ff375f</string>
 		</dict>
 		<dict>
 			<key>Title</key>
-			<string>Analiza obstoječih računov</string>
+			<string>Izboljšan prevod</string>
 			<key>Description</key>
-			<string>S pomočjo vgrajenega optičnega bralnika računov lahko zdaj analizirate tudi obstoječe račune, shranjene v aplikacijah Fotografije ali Datoteke, in jih uporabite za ustvarjanje transakcij.</string>
+			<string>Norveški prevod aplikacije je bil optimiziran, zato ga je zdaj še lažje razumeti.</string>
 			<key>IconName</key>
-			<string>custom.receipt.badge.arrow.up</string>
+			<string>globe</string>
 			<key>IconColor</key>
 			<string>#0088ff</string>
 		</dict>

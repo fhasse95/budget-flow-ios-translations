@@ -33,19 +33,19 @@
 
 /* MARK: - Enums */
 "account_type_cash" = "Kontanter";
-"account_type_payment" = "Betalingskonto";
+"account_type_payment" = "Brukskonto";
 "account_type_savings" = "Sparekonto";
 "account_type_credit_card" = "Kredittkort";
 "account_type_investment" = "Investering";
-"account_type_precaution" = "Forholdsregel";
-"account_type_liability" = "Ansvar";
+"account_type_precaution" = "Bufferkonto";
+"account_type_liability" = "Forpliktelse";
 "account_type_business" = "Bedriftskonto";
 
 "account_type_payment_plural" = "Betalingskontoer";
 "account_type_savings_plural" = "Sparekontoer";
 "account_type_credit_card_plural" = "Kredittkort";
 "account_type_investment_plural" = "Investeringer";
-"account_type_precaution_plural" = "Forholdsregel";
+"account_type_precaution_plural" = "Bufferkontoer";
 "account_type_liability_plural" = "Forpliktelser";
 "account_type_business_plural" = "Bedriftskontoer";
 
@@ -53,18 +53,18 @@
 "transaction_type_expense" = "Utgift";
 "transaction_type_transfer" = "Overføring";
 
-"transaction_type_income_plural" = "Inntekt";
+"transaction_type_income_plural" = "Inntekter";
 "transaction_type_expense_plural" = "Utgifter";
 "transaction_type_transfer_plural" = "Overføringer";
 
 "payment_status" = "Status";
 "payment_status_completed" = "Fullført";
-"payment_status_pending" = "Venter";
+"payment_status_pending" = "Reservert";
 
-"attachment_type_image" = "Foto";
-"attachment_type_image_plural" = "Foton";
+"attachment_type_image" = "Bilde";
+"attachment_type_image_plural" = "Bilder";
 "attachment_type_document" = "Dokument";
-"attachment_type_document_plural" = "Dokument";
+"attachment_type_document_plural" = "Dokumenter";
 
 "period_type_month" = "Måned";
 "period_type_year" = "År";
@@ -84,7 +84,7 @@
 "group_option_category" = "Kategori";
 "group_option_category_group" = "Mappe";
 "group_option_type" = "Type";
-"group_option_payee" = "Utbetalingsmottaker";
+"group_option_payee" = "Betalingsmottaker";
 "group_option_repetition_frequency" = "Intervall";
 
 "date_repetition_frequency_never" = "Aldri";
@@ -101,7 +101,7 @@
 "date_repetition_frequency_custom" = "Egendefinert";
 
 "csv_transaction_type_automatic" = "Automatisk";
-"csv_transaction_type_income" = "Inntekt";
+"csv_transaction_type_income" = "Inntekter";
 "csv_transaction_type_expenses" = "Utgifter";
 
 "passcode_type_four_digits" = "Firesifret numerisk passord";
@@ -118,18 +118,18 @@
 
 "widget_type_chart_stack" = "Diagrammer";
 "widget_type_suggestions" = "Forslag";
-"widget_type_distribution" = "Distribusjon";
+"widget_type_distribution" = "Fordeling";
 "widget_type_balance" = "Saldo";
-"widget_type_savings_rate" = "Lagret";
-"widget_type_upcoming_transactions" = "Planlagt";
+"widget_type_savings_rate" = "Oppspart";
+"widget_type_upcoming_transactions" = "Kommende";
 "widget_type_participants" = "Folk";
 "widget_type_budget" = "Budsjett";
-"widget_type_pending_transactions" = "Venter";
+"widget_type_pending_transactions" = "Reserverte";
 "widget_type_total_assets" = "Eiendeler";
-"widget_type_forecast" = "Værvarsel";
+"widget_type_forecast" = "Prognose";
 
 "chart_type_bar" = "Søylediagram";
-"chart_type_pie" = "Skakediagram";
+"chart_type_pie" = "Kakediagram";
 
 "category_chart_data_type_category" = "Kategori";
 "category_chart_data_type_category_group" = "Mappe";
@@ -141,7 +141,7 @@
 "subscription_period_days" = "dager";
 "subscription_period_month" = "Måned";
 "subscription_period_months" = "Måneder";
-"subscription_period_year" = "ar";
+"subscription_period_year" = "år";
 "subscription_period_years" = "År";
 
 "overview_period_type_current_week" = "Denne uken";
@@ -159,17 +159,17 @@
 "user_interface_style_dark" = "Mørk";
 
 "transaction_title_type_category" = "Kategori";
-"transaction_title_type_payee" = "Utbetalingsmottaker";
+"transaction_title_type_payee" = "Betalingsmottaker";
 "transaction_title_type_notes" = "Notater";
 
 "transaction_subtitle_type_none" = "Ingen";
 "transaction_subtitle_type_category" = "Kategori";
-"transaction_subtitle_type_payee" = "Utbetalingsmottaker";
+"transaction_subtitle_type_payee" = "Betalingsmottaker";
 "transaction_subtitle_type_notes" = "Notater";
 
-"time_zone_type_floating" = "Flytende";
-"time_zone_type_floating_title" = "Flytende tidssone";
-"time_zone_type_floating_subtitle" = "Justere seg til din lokale tidssone";
+"time_zone_type_floating" = "Dynamisk";
+"time_zone_type_floating_title" = "Dynamisk tidssone";
+"time_zone_type_floating_subtitle" = "Justerer seg til din lokale tidssone";
 
 
 /* MARK: - Custom Date Repetition */
@@ -179,13 +179,13 @@
 "every_day" = "Hver";
 "every_week" = "Hver";
 "every_month" = "Hver";
-"every_year" = "Hver";
-"every_day_plural" = "Hver";
-"every_week_plural" = "Hver";
-"every_month_plural" = "Hver";
-"every_year_plural" = "Hver";
+"every_year" = "Hvert";
+"every_day_plural" = "Alle";
+"every_week_plural" = "Alle";
+"every_month_plural" = "Alle";
+"every_year_plural" = "Alle";
 
-"each" = "Hver";
+"each" = "Hver enkelt";
 "on_the" = "På...";
 "days_of_week" = "Ukedager";
 "last_day" = "Siste dag";
@@ -235,10 +235,10 @@
 "edit_account_button" = "Rediger konto";
 "edit_category_button" = "Rediger kategori";
 "edit_category_group_button" = "Rediger mappe";
-"edit_payee_button" = "Rediger utbetalingsmottaker";
+"edit_payee_button" = "Rediger Betalingsmottaker";
 "edit_tag_button" = "Rediger tag";
 "edit_budget_button" = "Rediger budsjett";
-"multi_selection_button" = "Multivalg";
+"multi_selection_button" = "Flervalg";
 "back_button" = "Tilbake";
 "done_button" = "Ferdig";
 "save_button" = "Lagre";
@@ -258,8 +258,8 @@
 "remove_reminder_button" = "Fjern påminnelse";
 "do_not_show_again_button" = "Ikke vis igjen";
 "mark_as_paid_button" = "Betaling fullført";
-"mark_as_pending_button" = "Betaling venter";
-"show_contra_entry_button" = "Vis telleroppføring";
+"mark_as_pending_button" = "Betaling reservert";
+"show_contra_entry_button" = "Vis motpost";
 
 "save_changes_button" = "Lagre endringer";
 "discard_changes_button" = "Forkast endringer";
@@ -324,7 +324,7 @@
 
 /* Alert Views */
 "alert_sync_shares_in_progress_title" = "Synkroniserer...";
-"alert_sync_shares_in_progress_message" = "Budsjettbøkene dine synkroniseres med iCloud slik at du får tilgang til det delte innholdet. Vær tålmodig...";
+"alert_sync_shares_in_progress_message" = "Vennligst vent... Budsjettbøkene dine synkroniseres med iCloud slik at du får tilgang til det delte innholdet.";
 "alert_cloud_share_quota_exceeded_error_message" = "Kunne ikke fullføre deling fordi det ikke er nok plass i iCloud. Frigjør plass og prøv igjen.";
 "alert_cloud_share_unknown_error_message" = "Kunne ikke fullføre deling fordi det oppstod en feil. Det er sannsynligvis ikke nok plass tilgjengelig i iCloud. Vennligst frigjør plass og prøv igjen.";
 
@@ -332,18 +332,18 @@
 /* MARK: - Search View */
 /* Titles */
 "search_title" = "Søk";
-"filter_title" = "Filter";
+"filter_title" = "Filtrer";
 
 /* Sections */
-"search_text_section_title" = "Søk etter tekst";
+"search_text_section_title" = "Søketekst";
 "search_suggestions_section_title" = "Forslag";
 
 
 /* MARK: - Period Selection View */
 /* Titles */
 "period_selection_title" = "Periode";
-"period_selection_current_year_title" = "Gjeldende år";
-"period_selection_current_month_title" = "Gjeldende måned";
+"period_selection_current_year_title" = "Inneværende år";
+"period_selection_current_month_title" = "Inneværende måned";
 
 /* Items */
 "from_title" = "Fra";
@@ -355,14 +355,14 @@
 "configure_title" = "Konfigurer";
 "balance_widget_income_title" = "Inntekt";
 "balance_widget_expenses_title" = "Utgifter";
-"savings_rate_widget_absolute_title" = "Absolutt";
-"savings_rate_widget_percentual_title" = "Prosentandel";
-"budget_widget_planned_title" = "Planlagt";
+"savings_rate_widget_absolute_title" = "Total";
+"savings_rate_widget_percentual_title" = "Prosent";
+"budget_widget_planned_title" = "Kommende";
 "budget_widget_remaining_title" = "Tilgjengelig";
-"total_assets_widget_absolute_title" = "Absolutt";
+"total_assets_widget_absolute_title" = "Total";
 "total_assets_widget_trend_title" = "Trend";
-"forecast_widget_upcoming_title" = "Planlagt";
-"forecast_widget_pending_title" = "Venter";
+"forecast_widget_upcoming_title" = "Kommende";
+"forecast_widget_pending_title" = "Reservert";
 "forecast_widget_final_balance_title" = "Endelig saldo";
 "pie_chart_widget_transactions_title" = "Transaksjoner";
 "pie_chart_widget_categories_title" = "Kategorier";
@@ -402,7 +402,7 @@
 "sum_title" = "Sum";
 "total_sum_title" = "Total sum";
 "recurring_transactions_title" = "Gjentakende";
-"upcoming_transactions_title" = "Planlagt";
+"upcoming_transactions_title" = "Kommende";
 "reminded_transactions_title" = "Med påminnelse";
 
 /* Info */
@@ -422,25 +422,25 @@
 
 /* Messages */
 "no_transactions_title" = "Ingen transaksjoner";
-"no_transactions_title_short" = "Ingen";
+"no_transactions_title_short" = "Tomt";
 "no_transactions_found_title" = "Ingen transaksjoner funnet";
 "no_transactions_found_message" = "Klikk \"+\"-knappen for å legge til en ny transaksjon.";
 "no_transactions_found_button_title" = "Ny transaksjon";
-"no_recurring_transactions_found_message" = "Klikk \"+\"-knappen for å legge til en ny tilbakevendende transaksjon.";
-"no_upcoming_transactions_found_message" = "Klikk \"+\"-knappen for å legge til en ny planlagt transaksjon.";
+"no_recurring_transactions_found_message" = "Klikk \"+\"-knappen for å legge til en ny gjentakende transaksjon.";
+"no_upcoming_transactions_found_message" = "Klikk \"+\"-knappen for å legge til en ny kommende transaksjon.";
 "no_reminded_transactions_found_message" = "Klikk \"+\"-knappen for å legge til en ny transaksjon med en påminnelse.";
-"transactions_search_placeholder_message" = "Søk etter navnet på en kategori, utbetalingsmottaker, merke eller notater";
+"transactions_search_placeholder_message" = "Søk etter navnet på en kategori, betalingsmottaker, tag eller notater";
 
 /* Buttons */
 "show_analysis_button" = "Vis analyse";
 "show_analysis_button_short" = "Analyse";
 "show_forecast_button" = "Vis prognose";
-"show_forecast_button_short" = "Værvarsel";
-"show_upcoming_transactions_button" = "Planlagt";
+"show_forecast_button_short" = "Prognose";
+"show_upcoming_transactions_button" = "Kommende";
 
 /* Alert Views */
 "alert_confirm_add_next_upcoming_transaction_title" = "Legg til transaksjon";
-"alert_confirm_add_next_upcoming_transaction_message" = "Er du sikker på at du vil legge til denne planlagte transaksjonen nå?";
+"alert_confirm_add_next_upcoming_transaction_message" = "Er du sikker på at du vil legge til denne kommende transaksjonen nå?";
 
 /* Miscellaneous */
 "payed_by_and_modified_at" = "Betalt av %@\nSist endret %@";
@@ -452,7 +452,7 @@
 
 /* MARK: - Budget List View */
 /* Titles */
-"remaining_title" = "Tilgjengelig";
+"remaining_title" = "Gjenværende";
 "balanced_title" = "Balansert";
 "exceeded_title" = "Overskredet";
 "user_has_no_budgets_title" = "Du har ingen budsjetter.";
@@ -500,12 +500,12 @@
 /* Widgets */
 "trend_widget_title" = "Trend";
 "total_balance_widget_title" = "Saldo";
-"savings_rate_widget_title" = "Sparerate";
+"savings_rate_widget_title" = "Sparingsrate";
 
 
 /* MARK: - Account Forecast View */
 /* Titles */
-"account_forecast_title" = "Værvarsel";
+"account_forecast_title" = "Prognose";
 "account_balance_title" = "Saldo";
 "not_enough_data_title" = "Ikke nok data";
 
@@ -521,7 +521,7 @@
 "general_setting_section_title" = "Generelt";
 "upgrade_setting_section_title" = "Fullversjon";
 "support_setting_section_title" = "Støtte";
-"legal_setting_section_title" = "Lovlig";
+"legal_setting_section_title" = "Juridisk";
 "data_setting_section_title" = "Data";
 "miscellaneous_setting_section_title" = "Diverse";
 
@@ -545,7 +545,7 @@
 
 /* Upgrade Settings */
 "upgrade_setting_title" = "Lås opp fullversjonen 🚀";
-"upgrade_setting_description" = "Lås opp fullversjonen nå og dra nytte av flere tilleggsfunksjoner!";
+"upgrade_setting_description" = "Lås opp fullversjonen nå og dra nytte av flere funksjoner!";
 
 /* Support Settings */
 "share_app_setting_title" = "Informer venner";
@@ -712,10 +712,10 @@
 
 "advanced_setting_use_passcode_title" = "Bruk passord";
 "advanced_setting_use_title" = "Bruk %@";
-"advanced_setting_auto_lock_title" = "Forespørselskode";
+"advanced_setting_auto_lock_title" = "Etterspør kode";
 
-"advanced_setting_chart_type_title" = "Karttype";
-"advanced_setting_show_frequently_used_items_title" = "Vis hyppige kategorier og tagger";
+"advanced_setting_chart_type_title" = "Diagramtype";
+"advanced_setting_show_frequently_used_items_title" = "Vis ofte brukte kategorier og tagger";
 "advanced_setting_show_frequently_used_items_description" = "Vis ofte brukte kategorier og tagger i utvalgslisten når du oppretter og redigerer transaksjoner.";
 "advanced_setting_show_notes_in_title_title" = "Vis notater i stedet for kategori";
 "advanced_setting_show_notes_in_title_description" = "Vis innholdet i notatene i stedet for kategorinavnet for transaksjoner.";
@@ -729,22 +729,22 @@
 
 "advanced_setting_show_accounts_in_sidebar_title" = "Vis kontoer i sidefeltet";
 "advanced_setting_show_accounts_in_sidebar_description" = "Vis en liste over kontoene dine i sidefeltet.";
-"advanced_setting_group_accounts_in_sidebar_title" = "Gruppe kontoer i sidefeltet";
+"advanced_setting_group_accounts_in_sidebar_title" = "Grupper kontoer i sidefeltet";
 "advanced_setting_group_accounts_in_sidebar_description" = "Grupper kontoene dine i sidefeltet etter type.";
 "advanced_setting_show_categories_in_sidebar_title" = "Vis kategorier i sidefeltet";
 "advanced_setting_show_categories_in_sidebar_description" = "Vis en liste over kategoriene dine i sidefeltet.";
-"advanced_setting_group_categories_in_sidebar_title" = "Gruppekategorier i sidefeltet";
+"advanced_setting_group_categories_in_sidebar_title" = "Grupper kategorier i sidefeltet";
 "advanced_setting_group_categories_in_sidebar_description" = "Grupper kategoriene dine i sidefeltet etter mappe.";
 
 "advanced_setting_select_time_automatically_title" = "Automatisk tidsvalg";
 "advanced_setting_select_time_automatically_description" = "Velg automatisk gjeldende tidspunkt for nye transaksjoner.";
 "advanced_setting_select_location_automatically_title" = "Automatisk plasseringsvalg";
-"advanced_setting_select_location_automatically_description" = "Velg automatisk gjeldende plassering for nye transaksjoner.";
+"advanced_setting_select_location_automatically_description" = "Velg automatisk gjeldende posisjon for nye transaksjoner.";
 "advanced_setting_save_photos_in_library_title" = "Lagre bilder i biblioteket";
-"advanced_setting_save_photos_description" = "Lagre tatt bilder automatisk i bildebiblioteket.";
+"advanced_setting_save_photos_description" = "Lagre bilder automatisk i bildebiblioteket.";
 "advanced_setting_suggested_notes_title" = "Foreslåtte notater";
 "advanced_setting_suggested_notes_description" = "Få forslag basert på dine tidligere transaksjoner mens du skriver i notatfeltet.";
-"advanced_setting_consider_pending_items_title" = "Bestill alle transaksjoner";
+"advanced_setting_consider_pending_items_title" = "Gjennomfor alle ventende transaksjoner";
 "advanced_setting_consider_pending_items_description" = "Ta med ventende transaksjoner når du beregner kontosaldoer, saldoer, totaler osv.";
 
 "advanced_setting_use_apple_intelligence_in_receipt_scanner_title" = "Apple Intelligence";
@@ -754,7 +754,7 @@
 "advanced_setting_enable_exact_times_description" = "Velg eksakte tider ved å bruke minuttspinneren for transaksjoner (f.eks. 09:41).";
 "advanced_setting_reverse_keyboard_title" = "Omvendt tastatur";
 "advanced_setting_reverse_keyboard_description" = "Snur det numeriske tastaturoppsettet vertikalt for å samsvare med en tradisjonell kalkulatorstil.";
-"advanced_setting_enable_haptic_keyboard_title" = "Tastaturtilbakemelding";
+"advanced_setting_enable_haptic_keyboard_title" = "Tastaturvibrasjon";
 "advanced_setting_enable_haptic_keyboard_description" = "Få haptisk tilbakemelding når du legger inn pengebeløp med tastaturet.";
 
 "advanced_setting_language_title" = "Språk";

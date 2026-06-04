@@ -456,8 +456,8 @@
 "balanced_title" = "Dengeli";
 "exceeded_title" = "Aşıldı";
 "user_has_no_budgets_title" = "Bütçeniz yok.";
-"user_is_within_budget_title" = "Bütçenizi aştınız! 🎉";
-"user_was_within_budget_title" = "Bütçenizi aştınız! 🎉";
+"user_is_within_budget_title" = "Bütçenizi aşmadınız! 🎉";
+"user_was_within_budget_title" = "Bütçenizi aşmamıştınız! 🎉";
 "user_is_not_within_budget_title" = "Bütçeyi %d aştınız 😢";
 "user_is_not_within_budgets_title" = "%d bütçeyi aştınız 😢";
 

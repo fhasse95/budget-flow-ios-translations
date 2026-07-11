@@ -1615,8 +1615,9 @@
 "color_section_afterglow_title" = "แสงระเรื่อ";
 "color_section_ocean_title" = "มหาสมุทร";
 "color_section_nightsky_title" = "ท้องฟ้ายามค่ำคืน";
-"color_section_apple_title" = "Apple Inc.";
 "color_section_pastel_title" = "สีพาสเทล";
+"color_section_apple_title" = "Apple";
+"color_section_google_title" = "Google";
 
 
 /* MARK: - Color Keywords */

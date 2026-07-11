@@ -1615,8 +1615,9 @@
 "color_section_afterglow_title" = "残光";
 "color_section_ocean_title" = "海";
 "color_section_nightsky_title" = "夜空";
-"color_section_apple_title" = "Apple社";
 "color_section_pastel_title" = "パステル";
+"color_section_apple_title" = "Apple";
+"color_section_google_title" = "Google";
 
 
 /* MARK: - Color Keywords */

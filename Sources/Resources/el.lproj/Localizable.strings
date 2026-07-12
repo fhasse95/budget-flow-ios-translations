@@ -1615,8 +1615,9 @@
 "color_section_afterglow_title" = "Μετά τη λάμψη";
 "color_section_ocean_title" = "Ωκεανός";
 "color_section_nightsky_title" = "Νυχτερινός ουρανός";
-"color_section_apple_title" = "Apple Inc.";
 "color_section_pastel_title" = "Παστέλ";
+"color_section_apple_title" = "Apple";
+"color_section_google_title" = "Google";
 
 
 /* MARK: - Color Keywords */

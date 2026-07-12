@@ -1615,8 +1615,9 @@
 "color_section_afterglow_title" = "Afterglow";
 "color_section_ocean_title" = "Ocean";
 "color_section_nightsky_title" = "Night Sky";
-"color_section_apple_title" = "Apple Inc.";
 "color_section_pastel_title" = "Pastel";
+"color_section_apple_title" = "Apple";
+"color_section_google_title" = "Google";
 
 
 /* MARK: - Color Keywords */

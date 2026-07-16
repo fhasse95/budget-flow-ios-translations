@@ -20,16 +20,20 @@
 /* MARK: - Miscellaneous */
 "face_id" = "Face ID";
 "touch_id" = "Touch ID";
+"biometrics" = "Biometri";
+
 "required" = "Obligatoriskt";
 "optional" = "Valfritt";
-"uncategorized" = "Okategoriserad";
+
 "before" = "före";
+"uncategorized" = "Okategoriserad";
 "account_reconcilation" = "Kontavstämning";
+
 "evaluated" = "Utvärderad";
 "not_evaluated" = "Ej utvärderad";
+
 "share_participant_owner" = "Ägare";
 "share_participant_you" = "Du";
-
 
 /* MARK: - Enums */
 "account_type_cash" = "Kontanter";
@@ -715,8 +719,10 @@
 "advanced_setting_auto_lock_title" = "Begär kod";
 
 "advanced_setting_chart_type_title" = "Diagramtyp";
-"advanced_setting_show_frequently_used_items_title" = "Visa vanliga kategorier och taggar";
-"advanced_setting_show_frequently_used_items_description" = "Visa ofta använda kategorier och taggar i urvalslistan när du skapar och redigerar transaktioner.";
+"advanced_setting_show_most_used_items_title" = "Visa vanliga kategorier och taggar";
+"advanced_setting_show_most_used_items_description" = "Visa ofta använda kategorier och taggar i urvalslistan när du skapar och redigerar transaktioner.";
+"advanced_setting_remove_most_used_items_from_groups_title" = "Ta bort mest använda objekt från grupper";
+"advanced_setting_remove_most_used_items_from_groups_description" = "Tar bort de mest använda kategorierna och taggarna från deras vanliga grupper i urvalslistan när du skapar och redigerar transaktioner.";
 "advanced_setting_show_notes_in_title_title" = "Visa anteckningar istället för kategori";
 "advanced_setting_show_notes_in_title_description" = "Visa innehållet i anteckningarna istället för kategorinamnet för transaktioner.";
 "advanced_setting_start_day_of_month_title" = "Startdagen i månaden";
@@ -800,7 +806,7 @@
 "passcode_view_enter_passcode_title" = "Ange lösenord";
 "passcode_view_create_passcode_title" = "Skapa lösenord";
 "passcode_view_confirm_passcode_title" = "Bekräfta lösenord";
-"passcode_view_authenticate_reason" = "Användarautentisering";
+"passcode_view_authenticate_reason" = "Autentisering krävs";
 
 /* Alert Views */
 "alert_set_passcode_type_title" = "Välj lösenordsalternativ";

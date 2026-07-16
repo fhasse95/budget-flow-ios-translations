@@ -20,16 +20,20 @@
 /* MARK: - Miscellaneous */
 "face_id" = "Face ID";
 "touch_id" = "Touch ID";
+"biometrics" = "Biometri";
+
 "required" = "Påkrævet";
 "optional" = "Valgfrit";
-"uncategorized" = "Ikke kategoriseret";
+
 "before" = "før";
+"uncategorized" = "Ikke kategoriseret";
 "account_reconcilation" = "Kontoafstemning";
+
 "evaluated" = "Evalueret";
 "not_evaluated" = "Ikke evalueret";
+
 "share_participant_owner" = "Ejer";
 "share_participant_you" = "Du";
-
 
 /* MARK: - Enums */
 "account_type_cash" = "Kontanter";
@@ -715,8 +719,10 @@
 "advanced_setting_auto_lock_title" = "Anmod om kode";
 
 "advanced_setting_chart_type_title" = "Diagramtype";
-"advanced_setting_show_frequently_used_items_title" = "Vis hyppige kategorier og tags";
-"advanced_setting_show_frequently_used_items_description" = "Vis hyppigt brugte kategorier & tags på valglisten, når du opretter og redigerer transaktioner.";
+"advanced_setting_show_most_used_items_title" = "Vis hyppige kategorier og tags";
+"advanced_setting_show_most_used_items_description" = "Vis hyppigt brugte kategorier & tags på valglisten, når du opretter og redigerer transaktioner.";
+"advanced_setting_remove_most_used_items_from_groups_title" = "Fjern mest brugte elementer fra grupper";
+"advanced_setting_remove_most_used_items_from_groups_description" = "Fjern de mest brugte kategorier og tags fra deres normale grupper på valglisten, når du opretter og redigerer transaktioner.";
 "advanced_setting_show_notes_in_title_title" = "Vis noter i stedet for kategori";
 "advanced_setting_show_notes_in_title_description" = "Vis indholdet af noterne i stedet for kategorinavnet for transaktioner.";
 "advanced_setting_start_day_of_month_title" = "Startdag i måneden";
@@ -800,7 +806,7 @@
 "passcode_view_enter_passcode_title" = "Indtast adgangskode";
 "passcode_view_create_passcode_title" = "Opret adgangskode";
 "passcode_view_confirm_passcode_title" = "Bekræft adgangskode";
-"passcode_view_authenticate_reason" = "Brugergodkendelse";
+"passcode_view_authenticate_reason" = "Godkendelse påkrævet";
 
 /* Alert Views */
 "alert_set_passcode_type_title" = "Vælg adgangskodeindstilling";

@@ -20,16 +20,20 @@
 /* MARK: - Miscellaneous */
 "face_id" = "Face ID";
 "touch_id" = "Touch ID";
+"biometrics" = "Біометрія";
+
 "required" = "Потрібно";
 "optional" = "Необов'язково";
-"uncategorized" = "Без категорії";
+
 "before" = "раніше";
+"uncategorized" = "Без категорії";
 "account_reconcilation" = "Звірка рахунку";
+
 "evaluated" = "Оцінено";
 "not_evaluated" = "Не оцінено";
+
 "share_participant_owner" = "Власник";
 "share_participant_you" = "Ви";
-
 
 /* MARK: - Enums */
 "account_type_cash" = "Готівка";
@@ -715,8 +719,10 @@
 "advanced_setting_auto_lock_title" = "Код запиту";
 
 "advanced_setting_chart_type_title" = "Тип діаграми";
-"advanced_setting_show_frequently_used_items_title" = "Показувати часті категорії та теги";
-"advanced_setting_show_frequently_used_items_description" = "Показувати часто використовувані категорії та теги у списку вибору під час створення та редагування транзакцій.";
+"advanced_setting_show_most_used_items_title" = "Показувати часті категорії та теги";
+"advanced_setting_show_most_used_items_description" = "Показувати часто використовувані категорії та теги у списку вибору під час створення та редагування транзакцій.";
+"advanced_setting_remove_most_used_items_from_groups_title" = "Вилучати найчастіше використовувані елементи з груп";
+"advanced_setting_remove_most_used_items_from_groups_description" = "Вилучайте найчастіше використовувані категорії та теги з їхніх звичайних груп у списку вибору під час створення та редагування транзакцій.";
 "advanced_setting_show_notes_in_title_title" = "Показувати нотатки замість категорії";
 "advanced_setting_show_notes_in_title_description" = "Показувати вміст приміток замість назви категорії для транзакцій.";
 "advanced_setting_start_day_of_month_title" = "День початку місяця";
@@ -800,7 +806,7 @@
 "passcode_view_enter_passcode_title" = "Введіть пароль";
 "passcode_view_create_passcode_title" = "Створити пароль";
 "passcode_view_confirm_passcode_title" = "Підтвердити пароль";
-"passcode_view_authenticate_reason" = "Автентифікація користувача";
+"passcode_view_authenticate_reason" = "Потрібна автентифікація";
 
 /* Alert Views */
 "alert_set_passcode_type_title" = "Виберіть параметр пароля";

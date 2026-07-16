@@ -20,16 +20,20 @@
 /* MARK: - Miscellaneous */
 "face_id" = "Face ID";
 "touch_id" = "Touch ID";
+"biometrics" = "Biométrie";
+
 "required" = "Requis";
 "optional" = "Facultatif";
-"uncategorized" = "Non catégorisé";
+
 "before" = "avant";
+"uncategorized" = "Non catégorisé";
 "account_reconcilation" = "Rapprochement de compte";
+
 "evaluated" = "Évalué";
 "not_evaluated" = "Non évalué";
+
 "share_participant_owner" = "Propriétaire";
 "share_participant_you" = "Vous";
-
 
 /* MARK: - Enums */
 "account_type_cash" = "Espèces";
@@ -715,8 +719,10 @@
 "advanced_setting_auto_lock_title" = "Exiger le code";
 
 "advanced_setting_chart_type_title" = "Type de graphique";
-"advanced_setting_show_frequently_used_items_title" = "Afficher les catégories et tags fréquents";
-"advanced_setting_show_frequently_used_items_description" = "Afficher les catégories et balises fréquemment utilisées dans la liste de sélection lors de la création et de la modification de transactions.";
+"advanced_setting_show_most_used_items_title" = "Afficher les catégories et tags fréquents";
+"advanced_setting_show_most_used_items_description" = "Afficher les catégories et balises fréquemment utilisées dans la liste de sélection lors de la création et de la modification de transactions.";
+"advanced_setting_remove_most_used_items_from_groups_title" = "Retirer les éléments les plus utilisés des groupes";
+"advanced_setting_remove_most_used_items_from_groups_description" = "Retire les catégories et tags les plus utilisés de leurs groupes habituels dans la liste de sélection lors de la création et de la modification de transactions.";
 "advanced_setting_show_notes_in_title_title" = "Afficher les notes au lieu de la catégorie";
 "advanced_setting_show_notes_in_title_description" = "Afficher le contenu des notes au lieu du nom de la catégorie pour les transactions.";
 "advanced_setting_start_day_of_month_title" = "Jour de début du mois";
@@ -800,7 +806,7 @@
 "passcode_view_enter_passcode_title" = "Entrez le code d'accès";
 "passcode_view_create_passcode_title" = "Créer un mot de passe";
 "passcode_view_confirm_passcode_title" = "Confirmer le code";
-"passcode_view_authenticate_reason" = "Authentification utilisateur";
+"passcode_view_authenticate_reason" = "Authentification requise";
 
 /* Alert Views */
 "alert_set_passcode_type_title" = "Choisir l'option de code d'accès";

@@ -20,16 +20,20 @@
 /* MARK: - Miscellaneous */
 "face_id" = "Face ID";
 "touch_id" = "Touch ID";
+"biometrics" = "Biometria";
+
 "required" = "Obrigatório";
 "optional" = "Opcional";
-"uncategorized" = "Sem categoria";
+
 "before" = "antes";
+"uncategorized" = "Sem categoria";
 "account_reconcilation" = "Reconciliação de conta";
+
 "evaluated" = "Avaliado";
 "not_evaluated" = "Não avaliado";
+
 "share_participant_owner" = "Proprietário";
 "share_participant_you" = "Você";
-
 
 /* MARK: - Enums */
 "account_type_cash" = "Dinheiro";
@@ -715,8 +719,10 @@
 "advanced_setting_auto_lock_title" = "Pedir palavra-passe";
 
 "advanced_setting_chart_type_title" = "Tipo de gráfico";
-"advanced_setting_show_frequently_used_items_title" = "Mostrar categorias e etiquetas frequentes";
-"advanced_setting_show_frequently_used_items_description" = "Mostrar categorias e etiquetas usadas com frequência na lista de seleção ao criar e editar transações.";
+"advanced_setting_show_most_used_items_title" = "Mostrar categorias e etiquetas frequentes";
+"advanced_setting_show_most_used_items_description" = "Mostrar categorias e etiquetas usadas com frequência na lista de seleção ao criar e editar transações.";
+"advanced_setting_remove_most_used_items_from_groups_title" = "Remover itens mais usados dos grupos";
+"advanced_setting_remove_most_used_items_from_groups_description" = "Remove as categorias e etiquetas mais usadas dos seus grupos normais na lista de seleção ao criar e editar transações.";
 "advanced_setting_show_notes_in_title_title" = "Mostrar notas em vez de categoria";
 "advanced_setting_show_notes_in_title_description" = "Mostrar o conteúdo das notas em vez do nome da categoria para transações.";
 "advanced_setting_start_day_of_month_title" = "Dia de início do mês";
@@ -800,7 +806,7 @@
 "passcode_view_enter_passcode_title" = "Introduz a palavra-passe";
 "passcode_view_create_passcode_title" = "Criar palavra-passe";
 "passcode_view_confirm_passcode_title" = "Confirmar palavra-passe";
-"passcode_view_authenticate_reason" = "Autenticação do utilizador";
+"passcode_view_authenticate_reason" = "Autenticação necessária";
 
 /* Alert Views */
 "alert_set_passcode_type_title" = "Escolhe uma opção de palavra-passe";

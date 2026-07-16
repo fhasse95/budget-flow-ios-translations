@@ -20,16 +20,20 @@
 /* MARK: - Miscellaneous */
 "face_id" = "Face ID";
 "touch_id" = "Touch ID";
+"biometrics" = "Biometría";
+
 "required" = "Obligatorio";
 "optional" = "Opcional";
-"uncategorized" = "Sin categorizar";
+
 "before" = "antes";
+"uncategorized" = "Sin categorizar";
 "account_reconcilation" = "Conciliación de cuenta";
+
 "evaluated" = "Evaluado";
 "not_evaluated" = "No evaluado";
+
 "share_participant_owner" = "Propietario";
 "share_participant_you" = "Tú";
-
 
 /* MARK: - Enums */
 "account_type_cash" = "Efectivo";
@@ -715,8 +719,10 @@
 "advanced_setting_auto_lock_title" = "Solicitar código";
 
 "advanced_setting_chart_type_title" = "Tipo de gráfico";
-"advanced_setting_show_frequently_used_items_title" = "Mostrar categorías y etiquetas frecuentes";
-"advanced_setting_show_frequency_used_items_description" = "Mostrar categorías y etiquetas utilizadas con frecuencia en la lista de selección al crear y editar transacciones.";
+"advanced_setting_show_most_used_items_title" = "Mostrar categorías y etiquetas frecuentes";
+"advanced_setting_show_most_used_items_description" = "Mostrar categorías y etiquetas utilizadas con frecuencia en la lista de selección al crear y editar transacciones.";
+"advanced_setting_remove_most_used_items_from_groups_title" = "Eliminar los elementos más usados de los grupos";
+"advanced_setting_remove_most_used_items_from_groups_description" = "Elimina las categorías y etiquetas más usadas de sus grupos habituales en la lista de selección al crear y editar transacciones.";
 "advanced_setting_show_notes_in_title_title" = "Mostrar notas en lugar de categoría";
 "advanced_setting_show_notes_in_title_description" = "Mostrar el contenido de las notas en lugar del nombre de la categoría para las transacciones.";
 "advanced_setting_start_day_of_month_title" = "Día de inicio del mes";
@@ -800,7 +806,7 @@
 "passcode_view_enter_passcode_title" = "Ingrese el código de acceso";
 "passcode_view_create_passcode_title" = "Crear código de acceso";
 "passcode_view_confirm_passcode_title" = "Confirmar código de acceso";
-"passcode_view_authenticate_reason" = "Autenticación de usuario";
+"passcode_view_authenticate_reason" = "Autenticación requerida";
 
 /* Alert Views */
 "alert_set_passcode_type_title" = "Elegir opción de código de acceso";

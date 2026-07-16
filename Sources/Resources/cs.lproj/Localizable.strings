@@ -20,16 +20,20 @@
 /* MARK: - Miscellaneous */
 "face_id" = "Face ID";
 "touch_id" = "Touch ID";
+"biometrics" = "Biometrie";
+
 "required" = "Vyžadováno";
 "optional" = "Volitelné";
-"uncategorized" = "Necategorized";
+
 "before" = "před";
+"uncategorized" = "Necategorized";
 "account_reconcilation" = "Smíření účtu";
+
 "evaluated" = "Vyhodnoceno";
 "not_evaluated" = "Nevyhodnoceno";
+
 "share_participant_owner" = "Vlastník";
 "share_participant_you" = "Ty";
-
 
 /* MARK: - Enums */
 "account_type_cash" = "Hotovost";
@@ -715,8 +719,10 @@
 "advanced_setting_auto_lock_title" = "Kód požadavku";
 
 "advanced_setting_chart_type_title" = "Typ grafu";
-"advanced_setting_show_frequently_used_items_title" = "Zobrazit časté kategorie a štítky";
-"advanced_setting_show_frequently_used_items_description" = "Zobrazit často používané kategorie a značky ve výběrovém seznamu při vytváření a úpravách transakcí.";
+"advanced_setting_show_most_used_items_title" = "Zobrazit časté kategorie a štítky";
+"advanced_setting_show_most_used_items_description" = "Zobrazit často používané kategorie a značky ve výběrovém seznamu při vytváření a úpravách transakcí.";
+"advanced_setting_remove_most_used_items_from_groups_title" = "Odebrat nejpoužívanější položky ze skupin";
+"advanced_setting_remove_most_used_items_from_groups_description" = "Odebrat nejpoužívanější kategorie a značky z jejich běžných skupin ve výběrovém seznamu při vytváření a úpravách transakcí.";
 "advanced_setting_show_notes_in_title_title" = "Zobrazit poznámky místo kategorie";
 "advanced_setting_show_notes_in_title_description" = "U transakcí zobrazit místo názvu kategorie obsah poznámek.";
 "advanced_setting_start_day_of_month_title" = "Počáteční den měsíce";
@@ -800,7 +806,7 @@
 "passcode_view_enter_passcode_title" = "Zadejte přístupový kód";
 "passcode_view_create_passcode_title" = "Vytvořit přístupový kód";
 "passcode_view_confirm_passcode_title" = "Potvrdit přístupový kód";
-"passcode_view_authenticate_reason" = "Ověření uživatele";
+"passcode_view_authenticate_reason" = "Je vyžadováno ověření";
 
 /* Alert Views */
 "alert_set_passcode_type_title" = "Vyberte možnost přístupového kódu";

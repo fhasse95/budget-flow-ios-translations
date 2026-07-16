@@ -20,16 +20,20 @@
 /* MARK: - Miscellaneous */
 "face_id" = "Face ID";
 "touch_id" = "Touch ID";
+"biometrics" = "Sinh trắc học";
+
 "required" = "Yêu cầu";
 "optional" = "Không bắt buộc";
-"uncategorized" = "Chưa phân loại";
+
 "before" = "trước";
+"uncategorized" = "Chưa phân loại";
 "account_reconcilation" = "Đối chiếu tài khoản";
+
 "evaluated" = "Đã đánh giá";
 "not_evaluated" = "Chưa đánh giá";
+
 "share_participant_owner" = "Chủ sở hữu";
 "share_participant_you" = "Bạn";
-
 
 /* MARK: - Enums */
 "account_type_cash" = "Ví tiền mặt";
@@ -715,8 +719,10 @@
 "advanced_setting_auto_lock_title" = "Yêu cầu mật khẩu";
 
 "advanced_setting_chart_type_title" = "Loại biểu đồ";
-"advanced_setting_show_frequently_used_items_title" = "Hiển thị nhãn và Danh mục thường sử dụng";
-"advanced_setting_show_frequently_used_items_description" = "Hiển thị các danh mục & thẻ được sử dụng thường xuyên trong danh sách lựa chọn khi tạo và chỉnh sửa giao dịch.";
+"advanced_setting_show_most_used_items_title" = "Hiển thị nhãn và Danh mục thường sử dụng";
+"advanced_setting_show_most_used_items_description" = "Hiển thị các danh mục & thẻ được sử dụng thường xuyên trong danh sách lựa chọn khi tạo và chỉnh sửa giao dịch.";
+"advanced_setting_remove_most_used_items_from_groups_title" = "Xóa các mục được dùng nhiều nhất khỏi nhóm";
+"advanced_setting_remove_most_used_items_from_groups_description" = "Xóa các danh mục và thẻ được dùng nhiều nhất khỏi các nhóm thông thường trong danh sách lựa chọn khi tạo và chỉnh sửa giao dịch.";
 "advanced_setting_show_notes_in_title_title" = "Hiển thị ghi chú thay vì danh mục";
 "advanced_setting_show_notes_in_title_description" = "Hiển thị nội dung của ghi chú thay vì tên danh mục cho các giao dịch.";
 "advanced_setting_start_day_of_month_title" = "Ngày bắt đầu của tháng";
@@ -800,7 +806,7 @@
 "passcode_view_enter_passcode_title" = "Nhập mật mã";
 "passcode_view_create_passcode_title" = "Tạo mật mã";
 "passcode_view_confirm_passcode_title" = "Xác nhận mật mã";
-"passcode_view_authenticate_reason" = "Xác thực người dùng";
+"passcode_view_authenticate_reason" = "Yêu cầu xác thực";
 
 /* Alert Views */
 "alert_set_passcode_type_title" = "Tuỳ chọn mật mã";

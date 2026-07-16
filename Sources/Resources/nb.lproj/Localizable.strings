@@ -20,16 +20,20 @@
 /* MARK: - Miscellaneous */
 "face_id" = "Face ID";
 "touch_id" = "Touch-ID";
+"biometrics" = "Biometri";
+
 "required" = "Obligatorisk";
 "optional" = "Valgfritt";
-"uncategorized" = "Ukategorisert";
+
 "before" = "før";
+"uncategorized" = "Ukategorisert";
 "account_reconcilation" = "Kontoregulering";
+
 "evaluated" = "Evaluert";
 "not_evaluated" = "Ikke evaluert";
+
 "share_participant_owner" = "Eier";
 "share_participant_you" = "Du";
-
 
 /* MARK: - Enums */
 "account_type_cash" = "Kontanter";
@@ -715,8 +719,10 @@
 "advanced_setting_auto_lock_title" = "Etterspør kode";
 
 "advanced_setting_chart_type_title" = "Diagramtype";
-"advanced_setting_show_frequently_used_items_title" = "Vis ofte brukte kategorier og tagger";
-"advanced_setting_show_frequently_used_items_description" = "Vis ofte brukte kategorier og tagger i utvalgslisten når du oppretter og redigerer transaksjoner.";
+"advanced_setting_show_most_used_items_title" = "Vis ofte brukte kategorier og tagger";
+"advanced_setting_show_most_used_items_description" = "Vis ofte brukte kategorier og tagger i utvalgslisten når du oppretter og redigerer transaksjoner.";
+"advanced_setting_remove_most_used_items_from_groups_title" = "Fjern mest brukte elementer fra grupper";
+"advanced_setting_remove_most_used_items_from_groups_description" = "Fjern de mest brukte kategoriene og taggene fra de vanlige gruppene i utvalgslisten når du oppretter og redigerer transaksjoner.";
 "advanced_setting_show_notes_in_title_title" = "Vis notater i stedet for kategori";
 "advanced_setting_show_notes_in_title_description" = "Vis innholdet i notatene i stedet for kategorinavnet for transaksjoner.";
 "advanced_setting_start_day_of_month_title" = "Startdagen i måneden";
@@ -800,7 +806,7 @@
 "passcode_view_enter_passcode_title" = "Skriv inn passord";
 "passcode_view_create_passcode_title" = "Opprett passord";
 "passcode_view_confirm_passcode_title" = "Bekreft passord";
-"passcode_view_authenticate_reason" = "Brukerautentisering";
+"passcode_view_authenticate_reason" = "Autentisering kreves";
 
 /* Alert Views */
 "alert_set_passcode_type_title" = "Velg passordalternativ";

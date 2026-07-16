@@ -20,16 +20,20 @@
 /* MARK: - Miscellaneous */
 "face_id" = "Face ID";
 "touch_id" = "Touch ID";
+"biometrics" = "Biometria";
+
 "required" = "Obligatori";
 "optional" = "Opcional";
-"uncategorized" = "Sense categoritzar";
+
 "before" = "abans";
+"uncategorized" = "Sense categoritzar";
 "account_reconcilation" = "Conciliació de compte";
+
 "evaluated" = "Avaluat";
 "not_evaluated" = "No avaluat";
+
 "share_participant_owner" = "Propietari";
 "share_participant_you" = "Tu";
-
 
 /* MARK: - Enums */
 "account_type_cash" = "Efectiu";
@@ -715,8 +719,10 @@
 "advanced_setting_auto_lock_title" = "Sol·licitar codi";
 
 "advanced_setting_chart_type_title" = "Tipus de gràfic";
-"advanced_setting_show_frequently_used_items_title" = "Mostrar categories i etiquetes freqüents";
-"advanced_setting_show_frequency_used_items_description" = "Mostrar categories i etiquetes utilitzades amb freqüència a la llista de selecció al crear i editar transaccions.";
+"advanced_setting_show_most_used_items_title" = "Mostrar categories i etiquetes freqüents";
+"advanced_setting_show_most_used_items_description" = "Mostrar categories i etiquetes utilitzades amb freqüència a la llista de selecció al crear i editar transaccions.";
+"advanced_setting_remove_most_used_items_from_groups_title" = "Elimina els elements més utilitzats dels grups";
+"advanced_setting_remove_most_used_items_from_groups_description" = "Elimina les categories i etiquetes més utilitzades dels seus grups habituals a la llista de selecció en crear i editar transaccions.";
 "advanced_setting_show_notes_in_title_title" = "Mostrar notes en lloc de categoria";
 "advanced_setting_show_notes_in_title_description" = "Mostrar el contingut de les notes en lloc del nom de la categoria per a les transaccions.";
 "advanced_setting_start_day_of_month_title" = "Dia d'inici del mes";
@@ -800,7 +806,7 @@
 "passcode_view_enter_passcode_title" = "Introdueix el codi d'accés";
 "passcode_view_create_passcode_title" = "Crear codi d'accés";
 "passcode_view_confirm_passcode_title" = "Confirma el codi d'accés";
-"passcode_view_authenticate_reason" = "Autenticació d'usuari";
+"passcode_view_authenticate_reason" = "Cal autenticació";
 
 /* Alert Views */
 "alert_set_passcode_type_title" = "Tria una opció de codi d'accés";

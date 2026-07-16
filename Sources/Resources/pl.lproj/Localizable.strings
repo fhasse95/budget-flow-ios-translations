@@ -20,16 +20,20 @@
 /* MARK: - Miscellaneous */
 "face_id" = "Face ID";
 "touch_id" = "Touch ID";
+"biometrics" = "Biometria";
+
 "required" = "Wymagane";
 "optional" = "Opcjonalnie";
-"uncategorized" = "Bez kategorii";
+
 "before" = "przed";
+"uncategorized" = "Bez kategorii";
 "account_reconcilation" = "Uzgadnianie konta";
+
 "evaluated" = "Oceniony";
 "not_evaluated" = "Nieoceniony";
+
 "share_participant_owner" = "Właściciel";
 "share_participant_you" = "Ty";
-
 
 /* MARK: - Enums */
 "account_type_cash" = "Gotówka";
@@ -715,8 +719,10 @@
 "advanced_setting_auto_lock_title" = "Poproś o kod";
 
 "advanced_setting_chart_type_title" = "Typ wykresu";
-"advanced_setting_show_frequently_used_items_title" = "Pokaż częste kategorie i tagi";
-"advanced_setting_show_frequently_used_items_description" = "Pokaż często używane kategorie i znaczniki na liście wyboru podczas tworzenia i edytowania transakcji.";
+"advanced_setting_show_most_used_items_title" = "Pokaż częste kategorie i tagi";
+"advanced_setting_show_most_used_items_description" = "Pokaż często używane kategorie i znaczniki na liście wyboru podczas tworzenia i edytowania transakcji.";
+"advanced_setting_remove_most_used_items_from_groups_title" = "Usuń najczęściej używane elementy z grup";
+"advanced_setting_remove_most_used_items_from_groups_description" = "Usuń najczęściej używane kategorie i znaczniki z ich zwykłych grup na liście wyboru podczas tworzenia i edytowania transakcji.";
 "advanced_setting_show_notes_in_title_title" = "Pokaż notatki zamiast kategorii";
 "advanced_setting_show_notes_in_title_description" = "Pokaż zawartość notatek zamiast nazwy kategorii transakcji.";
 "advanced_setting_start_day_of_month_title" = "Dzień rozpoczynający miesiąc";
@@ -800,7 +806,7 @@
 "passcode_view_enter_passcode_title" = "Wprowadź hasło";
 "passcode_view_create_passcode_title" = "Utwórz kod dostępu";
 "passcode_view_confirm_passcode_title" = "Potwierdź hasło";
-"passcode_view_authenticate_reason" = "Uwierzytelnianie użytkownika";
+"passcode_view_authenticate_reason" = "Wymagane uwierzytelnienie";
 
 /* Alert Views */
 "alert_set_passcode_type_title" = "Wybierz opcję kodu dostępu";

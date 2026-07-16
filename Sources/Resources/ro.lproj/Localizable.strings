@@ -20,16 +20,20 @@
 /* MARK: - Miscellaneous */
 "face_id" = "Face ID";
 "touch_id" = "Touch ID";
+"biometrics" = "Biometrie";
+
 "required" = "Necesar";
 "optional" = "Opțional";
-"uncategorized" = "Necategorizat";
+
 "before" = "înainte";
+"uncategorized" = "Necategorizat";
 "account_reconcilation" = "Reconciliere cont";
+
 "evaluated" = "Evaluat";
 "not_evaluated" = "Neevaluat";
+
 "share_participant_owner" = "Proprietar";
 "share_participant_you" = "Tu";
-
 
 /* MARK: - Enums */
 "account_type_cash" = "Numerar";
@@ -715,8 +719,10 @@
 "advanced_setting_auto_lock_title" = "Solicitare cod";
 
 "advanced_setting_chart_type_title" = "Tipul diagramei";
-"advanced_setting_show_frequently_used_items_title" = "Afișați categorii și etichete frecvente";
-"advanced_setting_show_frequently_used_items_description" = "Afișați categoriile și etichetele utilizate frecvent în lista de selecție la crearea și editarea tranzacțiilor.";
+"advanced_setting_show_most_used_items_title" = "Afișați categorii și etichete frecvente";
+"advanced_setting_show_most_used_items_description" = "Afișați categoriile și etichetele utilizate frecvent în lista de selecție la crearea și editarea tranzacțiilor.";
+"advanced_setting_remove_most_used_items_from_groups_title" = "Elimină cele mai utilizate elemente din grupuri";
+"advanced_setting_remove_most_used_items_from_groups_description" = "Elimină categoriile și etichetele cele mai utilizate din grupurile lor obișnuite din lista de selecție la crearea și editarea tranzacțiilor.";
 "advanced_setting_show_notes_in_title_title" = "Afișați notele în loc de categorie";
 "advanced_setting_show_notes_in_title_description" = "Afișați conținutul notelor în loc de numele categoriei pentru tranzacții.";
 "advanced_setting_start_day_of_month_title" = "Ziua de început a lunii";
@@ -800,7 +806,7 @@
 "passcode_view_enter_passcode_title" = "Introduceți codul de acces";
 "passcode_view_create_passcode_title" = "Creează codul de acces";
 "passcode_view_confirm_passcode_title" = "Confirmați parola";
-"passcode_view_authenticate_reason" = "Autentificare utilizator";
+"passcode_view_authenticate_reason" = "Autentificare necesară";
 
 /* Alert Views */
 "alert_set_passcode_type_title" = "Alegeți opțiunea codului de acces";

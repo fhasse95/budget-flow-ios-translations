@@ -20,16 +20,20 @@
 /* MARK: - Miscellaneous */
 "face_id" = "Face ID";
 "touch_id" = "Touch ID";
+"biometrics" = "Biometrie";
+
 "required" = "Erforderlich";
 "optional" = "Optional";
-"uncategorized" = "Unkategorisiert";
+
 "before" = "vorher";
+"uncategorized" = "Unkategorisiert";
 "account_reconcilation" = "Kontoabgleich";
+
 "evaluated" = "Ausgewertet";
 "not_evaluated" = "Nicht ausgewertet";
+
 "share_participant_owner" = "Eigentümer";
 "share_participant_you" = "Du";
-
 
 /* MARK: - Enums */
 "account_type_cash" = "Bargeld";
@@ -715,8 +719,10 @@
 "advanced_setting_auto_lock_title" = "Code anfordern";
 
 "advanced_setting_chart_type_title" = "Diagrammtyp";
-"advanced_setting_show_frequently_used_items_title" = "Häufige Kategorien & Tags";
-"advanced_setting_show_frequently_used_items_description" = "Zeig häufig verwendete Kategorien und Tags beim Erstellen und Bearbeiten von Transaktionen an.";
+"advanced_setting_show_most_used_items_title" = "Häufige Kategorien & Tags";
+"advanced_setting_show_most_used_items_description" = "Zeig häufig verwendete Kategorien und Tags beim Erstellen und Bearbeiten von Transaktionen an.";
+"advanced_setting_remove_most_used_items_from_groups_title" = "Häufig verwendete Elemente aus Gruppen entfernen";
+"advanced_setting_remove_most_used_items_from_groups_description" = "Entferne häufig verwendete Kategorien und Tags beim Erstellen und Bearbeiten von Transaktionen aus ihren regulären Gruppen.";
 "advanced_setting_show_notes_in_title_title" = "Notizen statt Kategorie anzeigen";
 "advanced_setting_show_notes_in_title_description" = "Zeig den Inhalt von Notizen anstelle des Namens der zugeordneten Kategorie für Transaktionen an.";
 "advanced_setting_start_day_of_month_title" = "Tag des Monatsanfangs";
@@ -800,7 +806,7 @@
 "passcode_view_enter_passcode_title" = "Code eingeben";
 "passcode_view_create_passcode_title" = "Code erstellen";
 "passcode_view_confirm_passcode_title" = "Code bestätigen";
-"passcode_view_authenticate_reason" = "Authentifizierung des Benutzers";
+"passcode_view_authenticate_reason" = "Authentifizierung erforderlich";
 
 /* Alert Views */
 "alert_set_passcode_type_title" = "Codeoption wählen";

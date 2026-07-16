@@ -20,16 +20,20 @@
 /* MARK: - Miscellaneous */
 "face_id" = "Face ID";
 "touch_id" = "Touch ID";
+"biometrics" = "Биометрия";
+
 "required" = "Требуется";
 "optional" = "Необязательно";
-"uncategorized" = "Без категории";
+
 "before" = "до";
+"uncategorized" = "Без категории";
 "account_reconcilation" = "Сверка счета";
+
 "evaluated" = "Оценено";
 "not_evaluated" = "Не оценено";
+
 "share_participant_owner" = "Владелец";
 "share_participant_you" = "Вы";
-
 
 /* MARK: - Enums */
 "account_type_cash" = "Наличные";
@@ -715,8 +719,10 @@
 "advanced_setting_auto_lock_title" = "Спрашивать пароль";
 
 "advanced_setting_chart_type_title" = "Тип диаграммы";
-"advanced_setting_show_frequently_used_items_title" = "Показывать часто используемые категории и теги";
-"advanced_setting_show_frequently_used_items_description" = "Включите эту функцию, чтобы отображать часто используемые категории и теги в списке выбора при создании и редактировании транзакций.";
+"advanced_setting_show_most_used_items_title" = "Показывать часто используемые категории и теги";
+"advanced_setting_show_most_used_items_description" = "Включите эту функцию, чтобы отображать часто используемые категории и теги в списке выбора при создании и редактировании транзакций.";
+"advanced_setting_remove_most_used_items_from_groups_title" = "Удалять наиболее используемые элементы из групп";
+"advanced_setting_remove_most_used_items_from_groups_description" = "Удаляйте наиболее используемые категории и теги из их обычных групп в списке выбора при создании и редактировании транзакций.";
 "advanced_setting_show_notes_in_title_title" = "Показывать заметки вместо категории";
 "advanced_setting_show_notes_in_title_description" = "Отображать заметку вместо названия категории в списке операций.";
 "advanced_setting_start_day_of_month_title" = "День начала месяца";
@@ -800,7 +806,7 @@
 "passcode_view_enter_passcode_title" = "Введите пароль";
 "passcode_view_create_passcode_title" = "Создать пароль";
 "passcode_view_confirm_passcode_title" = "Подтвердите пароль";
-"passcode_view_authenticate_reason" = "Аутентификация пользователя";
+"passcode_view_authenticate_reason" = "Требуется аутентификация";
 
 /* Alert Views */
 "alert_set_passcode_type_title" = "Выберите тип пароля";

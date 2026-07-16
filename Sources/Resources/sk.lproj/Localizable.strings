@@ -20,16 +20,20 @@
 /* MARK: - Miscellaneous */
 "face_id" = "Face ID";
 "touch_id" = "Touch ID";
+"biometrics" = "Biometria";
+
 "required" = "Povinné";
 "optional" = "Voliteľné";
-"uncategorized" = "Necategorized";
+
 "before" = "pred";
+"uncategorized" = "Necategorized";
 "account_reconcilation" = "Zosúladenie účtu";
+
 "evaluated" = "Vyhodnotený";
 "not_evaluated" = "Nevyhodnotený";
+
 "share_participant_owner" = "Vlastník";
 "share_participant_you" = "Ty";
-
 
 /* MARK: - Enums */
 "account_type_cash" = "Hotovosť";
@@ -715,8 +719,10 @@
 "advanced_setting_auto_lock_title" = "Kód žiadosti";
 
 "advanced_setting_chart_type_title" = "Typ grafu";
-"advanced_setting_show_frequently_used_items_title" = "Zobraziť často používané kategórie";
-"advanced_setting_show_frequently_used_items_description" = "Zobraziť často používané kategórie a značky vo výberovom zozname pri vytváraní a úprave transakcií.";
+"advanced_setting_show_most_used_items_title" = "Zobraziť často používané kategórie";
+"advanced_setting_show_most_used_items_description" = "Zobraziť často používané kategórie a značky vo výberovom zozname pri vytváraní a úprave transakcií.";
+"advanced_setting_remove_most_used_items_from_groups_title" = "Odstrániť najpoužívanejšie položky zo skupín";
+"advanced_setting_remove_most_used_items_from_groups_description" = "Odstráni najpoužívanejšie kategórie a značky z ich bežných skupín vo výberovom zozname pri vytváraní a úprave transakcií.";
 "advanced_setting_show_notes_in_title_title" = "Zobraziť poznámky namiesto kategórie";
 "advanced_setting_show_notes_in_title_description" = "Zobraziť obsah poznámok namiesto názvu kategórie pre transakcie.";
 "advanced_setting_start_day_of_month_title" = "Počiatočný deň mesiaca";
@@ -800,7 +806,7 @@
 "passcode_view_enter_passcode_title" = "Zadajte prístupový kód";
 "passcode_view_create_passcode_title" = "Vytvoriť prístupový kód";
 "passcode_view_confirm_passcode_title" = "Potvrdiť prístupový kód";
-"passcode_view_authenticate_reason" = "Autentifikácia používateľa";
+"passcode_view_authenticate_reason" = "Vyžaduje sa overenie";
 
 /* Alert Views */
 "alert_set_passcode_type_title" = "Vyberte možnosť prístupového kódu";

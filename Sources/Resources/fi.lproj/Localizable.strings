@@ -20,16 +20,20 @@
 /* MARK: - Miscellaneous */
 "face_id" = "Face ID";
 "touch_id" = "Touch ID";
+"biometrics" = "Biometria";
+
 "required" = "Pakollinen";
 "optional" = "Valinnainen";
-"uncategorized" = "Uncategorized";
+
 "before" = "ennen";
+"uncategorized" = "Uncategorized";
 "account_reconcilation" = "Tilin täsmäytys";
+
 "evaluated" = "Arvioitu";
 "not_evaluated" = "Ei arvioitu";
+
 "share_participant_owner" = "Omistaja";
 "share_participant_you" = "Sinä";
-
 
 /* MARK: - Enums */
 "account_type_cash" = "Käteinen";
@@ -715,8 +719,10 @@
 "advanced_setting_auto_lock_title" = "Pyydä koodia";
 
 "advanced_setting_chart_type_title" = "Kaavion tyyppi";
-"advanced_setting_show_frequently_used_items_title" = "Näytä usein luokat ja tunnisteet";
-"advanced_setting_show_frequently_used_items_description" = "Näytä usein käytetyt luokat ja tunnisteet valintaluettelossa, kun luot ja muokkaat tapahtumia.";
+"advanced_setting_show_most_used_items_title" = "Näytä usein luokat ja tunnisteet";
+"advanced_setting_show_most_used_items_description" = "Näytä usein käytetyt luokat ja tunnisteet valintaluettelossa, kun luot ja muokkaat tapahtumia.";
+"advanced_setting_remove_most_used_items_from_groups_title" = "Poista eniten käytetyt kohteet ryhmistä";
+"advanced_setting_remove_most_used_items_from_groups_description" = "Poista eniten käytetyt luokat ja tunnisteet niiden tavallisista ryhmistä valintaluettelossa, kun luot ja muokkaat tapahtumia.";
 "advanced_setting_show_notes_in_title_title" = "Näytä muistiinpanot luokan sijaan";
 "advanced_setting_show_notes_in_title_description" = "Näytä muistiinpanojen sisältö tapahtumien luokan nimen sijaan.";
 "advanced_setting_start_day_of_month_title" = "Kuukauden aloituspäivä";
@@ -800,7 +806,7 @@
 "passcode_view_enter_passcode_title" = "Anna pääsykoodi";
 "passcode_view_create_passcode_title" = "Luo pääsykoodi";
 "passcode_view_confirm_passcode_title" = "Vahvista pääsykoodi";
-"passcode_view_authenticate_reason" = "Käyttäjän todennus";
+"passcode_view_authenticate_reason" = "Todennus vaaditaan";
 
 /* Alert Views */
 "alert_set_passcode_type_title" = "Valitse pääsykoodivaihtoehto";

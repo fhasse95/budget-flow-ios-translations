@@ -20,16 +20,20 @@
 /* MARK: - Miscellaneous */
 "face_id" = "Face ID";
 "touch_id" = "Touch ID";
+"biometrics" = "Biometrik";
+
 "required" = "Wajib";
 "optional" = "Opsional";
-"uncategorized" = "Tidak Dikategorikan";
+
 "before" = "sebelum";
+"uncategorized" = "Tidak Dikategorikan";
 "account_reconcilation" = "Rekonsiliasi Akun";
+
 "evaluated" = "Sudah Dinilai";
 "not_evaluated" = "Belum Dinilai";
+
 "share_participant_owner" = "Pemilik";
 "share_participant_you" = "Anda";
-
 
 /* MARK: - Enums */
 "account_type_cash" = "Tunai";
@@ -715,8 +719,10 @@
 "advanced_setting_auto_lock_title" = "Minta Kode";
 
 "advanced_setting_chart_type_title" = "Jenis Grafik";
-"advanced_setting_show_frequently_used_items_title" = "Tampilkan kategori & tag yang sering digunakan";
-"advanced_setting_show_frequently_used_items_description" = "Tampilkan kategori & tag yang sering digunakan dalam daftar pilihan saat membuat dan mengubah transaksi.";
+"advanced_setting_show_most_used_items_title" = "Tampilkan kategori & tag yang sering digunakan";
+"advanced_setting_show_most_used_items_description" = "Tampilkan kategori & tag yang sering digunakan dalam daftar pilihan saat membuat dan mengubah transaksi.";
+"advanced_setting_remove_most_used_items_from_groups_title" = "Hapus item yang paling sering digunakan dari grup";
+"advanced_setting_remove_most_used_items_from_groups_description" = "Hapus kategori dan tag yang paling sering digunakan dari grup biasanya dalam daftar pilihan saat membuat dan mengedit transaksi.";
 "advanced_setting_show_notes_in_title_title" = "Tampilkan catatan, bukan kategori";
 "advanced_setting_show_notes_in_title_description" = "Tampilkan isi catatan, bukan nama kategori untuk transaksi.";
 "advanced_setting_start_day_of_month_title" = "Tanggal awal bulan";
@@ -800,7 +806,7 @@
 "passcode_view_enter_passcode_title" = "Masukkan Kode Sandi";
 "passcode_view_create_passcode_title" = "Buat Kode Sandi";
 "passcode_view_confirm_passcode_title" = "Konfirmasi Kode Sandi";
-"passcode_view_authenticate_reason" = "Autentikasi Pengguna";
+"passcode_view_authenticate_reason" = "Autentikasi diperlukan";
 
 /* Alert Views */
 "alert_set_passcode_type_title" = "Pilih opsi kode sandi";

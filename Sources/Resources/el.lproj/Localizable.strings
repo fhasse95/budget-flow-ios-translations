@@ -20,16 +20,20 @@
 /* MARK: - Miscellaneous */
 "face_id" = "Face ID";
 "touch_id" = "Touch ID";
+"biometrics" = "Βιομετρικά στοιχεία";
+
 "required" = "Απαιτείται";
 "optional" = "Προαιρετικό";
-"uncategorized" = "Χωρίς κατηγορία";
+
 "before" = "πριν";
+"uncategorized" = "Χωρίς κατηγορία";
 "account_reconcilation" = "Συμφιλίωση λογαριασμού";
+
 "evaluated" = "Αξιολογημένο";
 "not_evaluated" = "Μη αξιολογημένο";
+
 "share_participant_owner" = "Ιδιοκτήτης";
 "share_participant_you" = "Εσύ";
-
 
 /* MARK: - Enums */
 "account_type_cash" = "Μετρητά";
@@ -715,8 +719,10 @@
 "advanced_setting_auto_lock_title" = "Αίτηση κωδικού";
 
 "advanced_setting_chart_type_title" = "Τύπος γραφήματος";
-"advanced_setting_show_frequently_used_items_title" = "Εμφάνιση συχνών κατηγοριών και ετικετών";
-"advanced_setting_show_frequently_used_items_description" = "Εμφάνιση κατηγοριών και ετικετών που χρησιμοποιούνται συχνά στη λίστα επιλογής κατά τη δημιουργία και την επεξεργασία συναλλαγών.";
+"advanced_setting_show_most_used_items_title" = "Εμφάνιση συχνών κατηγοριών και ετικετών";
+"advanced_setting_show_most_used_items_description" = "Εμφάνιση κατηγοριών και ετικετών που χρησιμοποιούνται συχνά στη λίστα επιλογής κατά τη δημιουργία και την επεξεργασία συναλλαγών.";
+"advanced_setting_remove_most_used_items_from_groups_title" = "Αφαίρεση των πιο χρησιμοποιούμενων στοιχείων από ομάδες";
+"advanced_setting_remove_most_used_items_from_groups_description" = "Αφαιρέστε τις πιο χρησιμοποιούμενες κατηγορίες και ετικέτες από τις κανονικές ομάδες τους στη λίστα επιλογής κατά τη δημιουργία και την επεξεργασία συναλλαγών.";
 "advanced_setting_show_notes_in_title_title" = "Εμφάνιση σημειώσεων αντί για κατηγορία";
 "advanced_setting_show_notes_in_title_description" = "Εμφάνιση των περιεχομένων των σημειώσεων αντί του ονόματος της κατηγορίας για τις συναλλαγές.";
 "advanced_setting_start_day_of_month_title" = "Ημέρα έναρξης του μήνα";
@@ -800,7 +806,7 @@
 "passcode_view_enter_passcode_title" = "Εισαγάγετε τον κωδικό πρόσβασης";
 "passcode_view_create_passcode_title" = "Δημιουργία κωδικού πρόσβασης";
 "passcode_view_confirm_passcode_title" = "Επιβεβαίωση κωδικού πρόσβασης";
-"passcode_view_authenticate_reason" = "Έλεγχος ταυτότητας χρήστη";
+"passcode_view_authenticate_reason" = "Απαιτείται έλεγχος ταυτότητας";
 
 /* Alert Views */
 "alert_set_passcode_type_title" = "Επιλογή κωδικού πρόσβασης";

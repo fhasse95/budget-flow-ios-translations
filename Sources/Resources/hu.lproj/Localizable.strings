@@ -20,16 +20,20 @@
 /* MARK: - Miscellaneous */
 "face_id" = "Face ID";
 "touch_id" = "Touch ID";
+"biometrics" = "Biometria";
+
 "required" = "Kötelező";
 "optional" = "Nem kötelező";
-"uncategorized" = "Nincs kategorizálva";
+
 "before" = "előtte";
+"uncategorized" = "Nincs kategorizálva";
 "account_reconcilation" = "Számlaegyeztetés";
+
 "evaluated" = "Értékelt";
 "not_evaluated" = "Nem értékelt";
+
 "share_participant_owner" = "Tulajdonos";
 "share_participant_you" = "Te";
-
 
 /* MARK: - Enums */
 "account_type_cash" = "Készpénz";
@@ -715,8 +719,10 @@
 "advanced_setting_auto_lock_title" = "Kód kérése";
 
 "advanced_setting_chart_type_title" = "Diagramtípus";
-"advanced_setting_show_frequently_used_items_title" = "Gyakori kategóriák és címkék megjelenítése";
-"advanced_setting_show_frequently_used_items_description" = "Gyakran használt kategóriák és címkék megjelenítése a kiválasztási listában tranzakciók létrehozásakor és szerkesztésekor.";
+"advanced_setting_show_most_used_items_title" = "Gyakori kategóriák és címkék megjelenítése";
+"advanced_setting_show_most_used_items_description" = "Gyakran használt kategóriák és címkék megjelenítése a kiválasztási listában tranzakciók létrehozásakor és szerkesztésekor.";
+"advanced_setting_remove_most_used_items_from_groups_title" = "Leggyakrabban használt elemek eltávolítása a csoportokból";
+"advanced_setting_remove_most_used_items_from_groups_description" = "Eltávolítja a leggyakrabban használt kategóriákat és címkéket a szokásos csoportjaikból a kiválasztási listában tranzakciók létrehozásakor és szerkesztésekor.";
 "advanced_setting_show_notes_in_title_title" = "Jegyzetek megjelenítése kategória helyett";
 "advanced_setting_show_notes_in_title_description" = "A tranzakciók kategórianév helyett a megjegyzések tartalmát jelenítse meg.";
 "advanced_setting_start_day_of_month_title" = "A hónap kezdő napja";
@@ -800,7 +806,7 @@
 "passcode_view_enter_passcode_title" = "Adja meg a jelszót";
 "passcode_view_create_passcode_title" = "Jelszó létrehozása";
 "passcode_view_confirm_passcode_title" = "Jelszó megerősítése";
-"passcode_view_authenticate_reason" = "Felhasználó hitelesítése";
+"passcode_view_authenticate_reason" = "Hitelesítés szükséges";
 
 /* Alert Views */
 "alert_set_passcode_type_title" = "Jelszó opció kiválasztása";

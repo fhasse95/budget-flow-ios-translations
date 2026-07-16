@@ -20,16 +20,20 @@
 /* MARK: - Miscellaneous */
 "face_id" = "Face ID";
 "touch_id" = "Touch ID";
+"biometrics" = "Biometrija";
+
 "required" = "Potrebno";
 "optional" = "Izborno";
-"uncategorized" = "Nekategorizirano";
+
 "before" = "prije";
+"uncategorized" = "Nekategorizirano";
 "account_reconcilation" = "Usklađenje računa";
+
 "evaluated" = "Ocijenjeno";
 "not_evaluated" = "Nije ocijenjeno";
+
 "share_participant_owner" = "Vlasnik";
 "share_participant_you" = "Ti";
-
 
 /* MARK: - Enums */
 "account_type_cash" = "Gotovina";
@@ -715,8 +719,10 @@
 "advanced_setting_auto_lock_title" = "Zatraži pin";
 
 "advanced_setting_chart_type_title" = "Vrsta grafikona";
-"advanced_setting_show_frequently_used_items_title" = "Prikaži česte kategorije i oznake";
-"advanced_setting_show_frequently_used_items_description" = "Prikaži često korištene kategorije i oznake na popisu za odabir prilikom stvaranja i uređivanja transakcija.";
+"advanced_setting_show_most_used_items_title" = "Prikaži česte kategorije i oznake";
+"advanced_setting_show_most_used_items_description" = "Prikaži često korištene kategorije i oznake na popisu za odabir prilikom stvaranja i uređivanja transakcija.";
+"advanced_setting_remove_most_used_items_from_groups_title" = "Ukloni najčešće korištene stavke iz grupa";
+"advanced_setting_remove_most_used_items_from_groups_description" = "Ukloni najčešće korištene kategorije i oznake iz njihovih uobičajenih grupa na popisu za odabir prilikom stvaranja i uređivanja transakcija.";
 "advanced_setting_show_notes_in_title_title" = "Prikaži bilješke umjesto kategorije";
 "advanced_setting_show_notes_in_title_description" = "Prikaži sadržaj bilješki umjesto naziva kategorije za transakcije.";
 "advanced_setting_start_day_of_month_title" = "Početni dan u mjesecu";
@@ -800,7 +806,7 @@
 "passcode_view_enter_passcode_title" = "Unesite pin";
 "passcode_view_create_passcode_title" = "Stvori pin";
 "passcode_view_confirm_passcode_title" = "Potvrdi pin";
-"passcode_view_authenticate_reason" = "Provjera autentičnosti korisnika";
+"passcode_view_authenticate_reason" = "Potrebna je autentifikacija";
 
 /* Alert Views */
 "alert_set_passcode_type_title" = "Odaberi opciju šifre";

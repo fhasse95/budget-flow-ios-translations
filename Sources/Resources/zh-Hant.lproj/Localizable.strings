@@ -20,16 +20,20 @@
 /* MARK: - Miscellaneous */
 "face_id" = "Face ID";
 "touch_id" = "Touch ID";
+"biometrics" = "生物辨識";
+
 "required" = "必填";
 "optional" = "可選";
-"uncategorized" = "未分類";
+
 "before" = "之前";
+"uncategorized" = "未分類";
 "account_reconcilation" = "帳戶對帳";
+
 "evaluated" = "已評估";
 "not_evaluated" = "未評估";
+
 "share_participant_owner" = "擁有者";
 "share_participant_you" = "您";
-
 
 /* MARK: - Enums */
 "account_type_cash" = "現金";
@@ -715,8 +719,10 @@
 "advanced_setting_auto_lock_title" = "請求密碼";
 
 "advanced_setting_chart_type_title" = "圖表類型";
-"advanced_setting_show_frequently_used_items_title" = "顯示常用類別和標籤";
-"advanced_setting_show_frequently_used_items_description" = "啟用此功能以便在建立和編輯交易時在選擇清單中顯示常用的類別和標籤";
+"advanced_setting_show_most_used_items_title" = "顯示常用類別和標籤";
+"advanced_setting_show_most_used_items_description" = "啟用此功能以便在建立和編輯交易時在選擇清單中顯示常用的類別和標籤";
+"advanced_setting_remove_most_used_items_from_groups_title" = "從群組中移除最常用項目";
+"advanced_setting_remove_most_used_items_from_groups_description" = "在建立和編輯交易時，從選擇清單中的一般群組移除最常用的類別和標籤。";
 "advanced_setting_show_notes_in_title_title" = "顯示備註而非類別";
 "advanced_setting_show_notes_in_title_description" = "啟用此功能以在交易中顯示備註內容而非類別名稱";
 "advanced_setting_start_day_of_month_title" = "月份開始日";
@@ -800,7 +806,7 @@
 "passcode_view_enter_passcode_title" = "輸入密碼";
 "passcode_view_create_passcode_title" = "建立密碼";
 "passcode_view_confirm_passcode_title" = "確認密碼";
-"passcode_view_authenticate_reason" = "使用者驗證";
+"passcode_view_authenticate_reason" = "需要認證";
 
 /* Alert Views */
 "alert_set_passcode_type_title" = "選擇密碼選項";

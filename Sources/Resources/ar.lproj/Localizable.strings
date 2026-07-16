@@ -20,16 +20,20 @@
 /* MARK: - Miscellaneous */
 "face_id" = "Face ID";
 "touch_id" = "Touch ID";
+"biometrics" = "القياسات الحيوية";
+
 "required" = "مطلوب";
 "optional" = "اختياري";
-"uncategorized" = "غير مصنف";
+
 "before" = "قبل";
+"uncategorized" = "غير مصنف";
 "account_reconcilation" = "تسوية الحساب";
+
 "evaluated" = "تم التقييم";
 "not_evaluated" = "لم يتم التقييم";
+
 "share_participant_owner" = "المالك";
 "share_participant_you" = "أنت";
-
 
 /* MARK: - Enums */
 "account_type_cash" = "نقدًا";
@@ -715,8 +719,10 @@
 "advanced_setting_auto_lock_title" = "اطلب كلمة المرور";
 
 "advanced_setting_chart_type_title" = "نوع المخطط";
-"advanced_setting_show_frequently_used_items_title" = "إظهار الفئات والعلامات المستخدمة بشكل متكرر";
-"advanced_setting_show_frequently_used_items_description" = "قم بتمكين هذه الميزة لعرض الفئات والعلامات المستخدمة بشكل متكرر في قائمة التحديد عند إنشاء المعاملات وتحريرها.";
+"advanced_setting_show_most_used_items_title" = "إظهار الفئات والعلامات المستخدمة بشكل متكرر";
+"advanced_setting_show_most_used_items_description" = "قم بتمكين هذه الميزة لعرض الفئات والعلامات المستخدمة بشكل متكرر في قائمة التحديد عند إنشاء المعاملات وتحريرها.";
+"advanced_setting_remove_most_used_items_from_groups_title" = "إزالة العناصر الأكثر استخدامًا من المجموعات";
+"advanced_setting_remove_most_used_items_from_groups_description" = "إزالة الفئات والعلامات الأكثر استخدامًا من مجموعاتها العادية في قائمة التحديد عند إنشاء المعاملات وتحريرها.";
 "advanced_setting_show_notes_in_title_title" = "إظهار الملاحظات بدلاً من الفئة";
 "advanced_setting_show_notes_in_title_description" = "أظهر ملاحظة بدلاً من اسم الفئة في قائمة الأنشطة.";
 "advanced_setting_start_day_of_month_title" = "يوم من الشهر";
@@ -800,7 +806,7 @@
 "passcode_view_enter_passcode_title" = "أدخل كلمة المرور";
 "passcode_view_create_passcode_title" = "إنشاء كلمة مرور";
 "passcode_view_confirm_passcode_title" = "تأكيد كلمة المرور";
-"passcode_view_authenticate_reason" = "مصادقة المستخدم";
+"passcode_view_authenticate_reason" = "المصادقة مطلوبة";
 
 /* Alert Views */
 "alert_set_passcode_type_title" = "اختر نوع كلمة المرور";

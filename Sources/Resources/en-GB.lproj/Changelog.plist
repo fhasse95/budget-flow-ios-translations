@@ -3,7 +3,11 @@
 <plist version="1.0">
 <dict>
 	<key>3.2.0</key>
-	<array>
+	<dict>
+		<key>Summary</key>
+		<string>This release improves receipt scanning, adds more icons, and optimises the Norwegian translation.</string>
+		<key>Items</key>
+		<array>
 		<dict>
 			<key>Title</key>
 			<string>Enhanced Receipt Scanner</string>
@@ -34,6 +38,7 @@
 			<key>IconColor</key>
 			<string>#0088ff</string>
 		</dict>
-	</array>
+		</array>
+	</dict>
 </dict>
 </plist>

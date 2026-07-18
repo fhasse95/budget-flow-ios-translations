@@ -1209,7 +1209,7 @@
 "time_zone_selection_title" = "Zona Waktu";
 
 /* Messages */
-"no_timezones_found_title" = "Tidak ada zona waktu yang ditemukan";
+"no_time_zones_found_title" = "Tidak ada zona waktu yang ditemukan";
 "time_zone_selection_search_placeholder_message" = "Cari zona waktu negara atau kota";
 
 

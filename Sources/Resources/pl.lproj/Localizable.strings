@@ -1209,7 +1209,7 @@
 "time_zone_selection_title" = "Strefa czasowa";
 
 /* Messages */
-"no_timezones_found_title" = "Nie znaleziono stref czasowych";
+"no_time_zones_found_title" = "Nie znaleziono stref czasowych";
 "time_zone_selection_search_placeholder_message" = "Wyszukaj strefę czasową kraju lub miasta";
 
 

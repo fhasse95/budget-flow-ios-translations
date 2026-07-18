@@ -1209,7 +1209,7 @@
 "time_zone_selection_title" = "Tidszone";
 
 /* Messages */
-"no_timezones_found_title" = "Ingen tidszoner fundet";
+"no_time_zones_found_title" = "Ingen tidszoner fundet";
 "time_zone_selection_search_placeholder_message" = "Søg efter tidszonen for et land eller en by";
 
 

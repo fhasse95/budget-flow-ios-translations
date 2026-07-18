@@ -1209,7 +1209,7 @@
 "time_zone_selection_title" = "Fuso orario";
 
 /* Messages */
-"no_timezones_found_title" = "Nessun fuso orario trovato";
+"no_time_zones_found_title" = "Nessun fuso orario trovato";
 "time_zone_selection_search_placeholder_message" = "Cerca il fuso orario di un paese o di una città";
 
 

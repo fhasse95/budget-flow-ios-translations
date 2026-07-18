@@ -1209,7 +1209,7 @@
 "time_zone_selection_title" = "Časové pásmo";
 
 /* Messages */
-"no_timezones_found_title" = "Nenalezena žádná časová pásma";
+"no_time_zones_found_title" = "Nenalezena žádná časová pásma";
 "time_zone_selection_search_placeholder_message" = "Vyhledejte časové pásmo země nebo města";
 
 

@@ -1209,7 +1209,7 @@
 "time_zone_selection_title" = "Aikavyöhyke";
 
 /* Messages */
-"no_timezones_found_title" = "Aikavyöhykkeitä ei löytynyt";
+"no_time_zones_found_title" = "Aikavyöhykkeitä ei löytynyt";
 "time_zone_selection_search_placeholder_message" = "Etsi maan tai kaupungin aikavyöhyke";
 
 

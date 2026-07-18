@@ -1209,7 +1209,7 @@
 "time_zone_selection_title" = "Vremenska zona";
 
 /* Messages */
-"no_timezones_found_title" = "Nisu pronađene vremenske zone";
+"no_time_zones_found_title" = "Nisu pronađene vremenske zone";
 "time_zone_selection_search_placeholder_message" = "Pretraži vremensku zonu države ili grada";
 
 

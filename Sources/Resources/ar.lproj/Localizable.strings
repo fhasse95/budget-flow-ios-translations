@@ -1209,7 +1209,7 @@
 "time_zone_selection_title" = "المنطقة الزمنية";
 
 /* Messages */
-"no_timezones_found_title" = "لم يتم العثور على مناطق زمنية";
+"no_time_zones_found_title" = "لم يتم العثور على مناطق زمنية";
 "time_zone_selection_search_placeholder_message" = "ابحث عن المنطقة الزمنية لبلد أو مدينة";
 
 

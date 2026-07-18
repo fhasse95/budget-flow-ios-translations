@@ -1209,7 +1209,7 @@
 "time_zone_selection_title" = "Časovni pas";
 
 /* Messages */
-"no_timezones_found_title" = "Ni najdenih časovnih pasov";
+"no_time_zones_found_title" = "Ni najdenih časovnih pasov";
 "time_zone_selection_search_placeholder_message" = "Išči časovni pas države ali mesta";
 
 

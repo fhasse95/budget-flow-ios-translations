@@ -1209,7 +1209,7 @@
 "time_zone_selection_title" = "เขตเวลา";
 
 /* Messages */
-"no_timezones_found_title" = "ไม่พบเขตเวลา";
+"no_time_zones_found_title" = "ไม่พบเขตเวลา";
 "time_zone_selection_search_placeholder_message" = "ค้นหาเขตเวลาของประเทศหรือเมือง";
 
 

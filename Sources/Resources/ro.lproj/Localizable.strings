@@ -1209,7 +1209,7 @@
 "time_zone_selection_title" = "Fus orar";
 
 /* Messages */
-"no_timezones_found_title" = "Nu s-au găsit fusuri orare";
+"no_time_zones_found_title" = "Nu s-au găsit fusuri orare";
 "time_zone_selection_search_placeholder_message" = "Caută fusul orar al unei țări sau oraș";
 
 

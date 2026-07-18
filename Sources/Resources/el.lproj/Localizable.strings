@@ -1209,7 +1209,7 @@
 "time_zone_selection_title" = "Ζώνη ώρας";
 
 /* Messages */
-"no_timezones_found_title" = "Δεν βρέθηκαν ζώνες ώρας";
+"no_time_zones_found_title" = "Δεν βρέθηκαν ζώνες ώρας";
 "time_zone_selection_search_placeholder_message" = "Αναζήτηση ζώνης ώρας χώρας ή πόλης";
 
 

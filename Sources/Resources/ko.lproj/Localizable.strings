@@ -1209,7 +1209,7 @@
 "time_zone_selection_title" = "시간대";
 
 /* Messages */
-"no_timezones_found_title" = "시간대를 찾을 수 없습니다";
+"no_time_zones_found_title" = "시간대를 찾을 수 없습니다";
 "time_zone_selection_search_placeholder_message" = "국가 또는 도시의 시간대를 검색하세요";
 
 

@@ -1209,7 +1209,7 @@
 "time_zone_selection_title" = "Часовий пояс";
 
 /* Messages */
-"no_timezones_found_title" = "Часові пояси не знайдені";
+"no_time_zones_found_title" = "Часові пояси не знайдені";
 "time_zone_selection_search_placeholder_message" = "Пошук часового поясу країни або міста";
 
 

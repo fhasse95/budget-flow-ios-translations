@@ -1209,7 +1209,7 @@
 "time_zone_selection_title" = "Múi giờ";
 
 /* Messages */
-"no_timezones_found_title" = "Không tìm thấy múi giờ nào";
+"no_time_zones_found_title" = "Không tìm thấy múi giờ nào";
 "time_zone_selection_search_placeholder_message" = "Tìm kiếm múi giờ của một quốc gia hoặc thành phố";
 
 

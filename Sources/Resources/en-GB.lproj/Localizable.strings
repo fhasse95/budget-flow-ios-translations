@@ -1208,7 +1208,7 @@
 "time_zone_selection_title" = "Time Zone";
 
 /* Messages */
-"no_timezones_found_title" = "No time zones found";
+"no_time_zones_found_title" = "No time zones found";
 "time_zone_selection_search_placeholder_message" = "Search for the time zone of a country or city";
 
 

@@ -1209,7 +1209,7 @@
 "time_zone_selection_title" = "时区";
 
 /* Messages */
-"no_timezones_found_title" = "未找到时区";
+"no_time_zones_found_title" = "未找到时区";
 "time_zone_selection_search_placeholder_message" = "搜索国家或城市的时区";
 
 

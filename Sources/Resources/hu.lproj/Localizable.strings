@@ -1209,7 +1209,7 @@
 "time_zone_selection_title" = "Időzóna";
 
 /* Messages */
-"no_timezones_found_title" = "Nem található időzóna";
+"no_time_zones_found_title" = "Nem található időzóna";
 "time_zone_selection_search_placeholder_message" = "Keresés ország vagy város időzónája szerint";
 
 

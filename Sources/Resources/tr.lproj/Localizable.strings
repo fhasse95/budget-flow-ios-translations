@@ -1209,7 +1209,7 @@
 "time_zone_selection_title" = "Zaman dilimi";
 
 /* Messages */
-"no_timezones_found_title" = "Zaman dilimi bulunamadı";
+"no_time_zones_found_title" = "Zaman dilimi bulunamadı";
 "time_zone_selection_search_placeholder_message" = "Bir ülke veya şehir için zaman dilimini ara";
 
 

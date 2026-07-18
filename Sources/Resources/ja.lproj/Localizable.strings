@@ -1209,7 +1209,7 @@
 "time_zone_selection_title" = "タイムゾーン";
 
 /* Messages */
-"no_timezones_found_title" = "タイムゾーンが見つかりません";
+"no_time_zones_found_title" = "タイムゾーンが見つかりません";
 "time_zone_selection_search_placeholder_message" = "国または都市のタイムゾーンを検索";
 
 

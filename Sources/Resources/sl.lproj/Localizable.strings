@@ -693,13 +693,35 @@
 "backup_setting_info_title" = "Opis";
 "backup_setting_info_description" = "Ko je omogočeno, Budget Flow redno ustvarja varnostne kopije vaših podatkov, tako da lahko kadarkoli obnovite aplikacijo na prejšnje stanje.";
 
-"backup_general_setting_section_title" = "Splošno";
-"backup_recent_backups_setting_section_title" = "Nedavne varnostne kopije";
+"backup_setting_general_section_title" = "Splošno";
+"backup_setting_recent_section_title" = "Nedavne varnostne kopije";
 "backup_setting_use_automatic_backups_title" = "Samodejna varnostna kopija";
+"backup_setting_back_up_to_icloud_drive_title" = "Varnostno kopiraj v iCloud Drive";
+
+"backup_setting_keep_backups_title" = "Obdrži varnostne kopije";
+"backup_setting_keep_backups_last_5_title" = "Zadnjih 5";
+"backup_setting_keep_backups_last_10_title" = "Zadnjih 10";
+"backup_setting_keep_backups_last_20_title" = "Zadnjih 20";
+"backup_setting_keep_backups_last_30_title" = "Zadnjih 30";
+"backup_setting_keep_backups_all_title" = "Vse";
+
 "backup_setting_create_backup_title" = "Ustvari varnostno kopijo";
 
-"alert_restore_backup_title" = "Obnoviti to varnostno kopijo?";
-"alert_restore_backup_message" = "Obnavljanje varnostnih kopij je trenutno eksperimentalna funkcija. Izbrisala bo vaše trenutne podatke in jih prepisala z izbrano varnostno kopijo.\n\nPo tem se bo aplikacija samodejno zaprla.\n\nOpozorilo: Tega postopka ni mogoče razveljaviti!";
+"backup_setting_no_recent_backups_title" = "Ni razpoložljivih varnostnih kopij";
+"backup_setting_backup_subtitle" = "%@ · %@";
+
+"backup_setting_delete_backup_alert_title" = "Izbriši varnostno kopijo";
+"backup_setting_delete_backup_alert_message" = "Ali res želite izbrisati to varnostno kopijo?";
+
+"backup_setting_restore_success_title" = "Varnostna kopija obnovljena";
+"backup_setting_restore_success_message" = "Izbrana varnostna kopija je bila obnovljena.";
+
+"backup_setting_error_title" = "Varnostno kopiranje ni uspelo";
+"backup_setting_icloud_drive_unavailable_error" = "iCloud Drive ni na voljo v tej napravi.";
+"backup_setting_could_not_create_backup_directory_error" = "Mape za varnostne kopije ni bilo mogoče ustvariti.";
+
+"alert_restore_backup_title" = "Obnovi varnostno kopijo";
+"alert_restore_backup_message" = "Ali res želite obnoviti to varnostno kopijo?\n\nS tem boste izbrisali trenutne podatke in jih nadomestili s podatki iz izbrane varnostne kopije.\n\nOpozorilo: Tega dejanja ni mogoče razveljaviti!";
 "alert_restore_backup_button" = "Obnovi varnostno kopijo";
 
 /* Advanced Settings */

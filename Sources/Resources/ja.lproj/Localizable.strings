@@ -693,13 +693,35 @@
 "backup_setting_info_title" = "説明";
 "backup_setting_info_description" = "有効にすると、Budget Flow が定期的にデータをバックアップするため、いつでもアプリを以前の状態に復元できます。";
 
-"backup_general_setting_section_title" = "全般";
-"backup_recent_backups_setting_section_title" = "最近のバックアップ";
+"backup_setting_general_section_title" = "全般";
+"backup_setting_recent_section_title" = "最近のバックアップ";
 "backup_setting_use_automatic_backups_title" = "自動バックアップ";
+"backup_setting_back_up_to_icloud_drive_title" = "iCloud Driveにバックアップ";
+
+"backup_setting_keep_backups_title" = "バックアップを保持";
+"backup_setting_keep_backups_last_5_title" = "最新5件";
+"backup_setting_keep_backups_last_10_title" = "最新10件";
+"backup_setting_keep_backups_last_20_title" = "最新20件";
+"backup_setting_keep_backups_last_30_title" = "最新30件";
+"backup_setting_keep_backups_all_title" = "すべて";
+
 "backup_setting_create_backup_title" = "バックアップを作成";
 
-"alert_restore_backup_title" = "このバックアップを復元しますか?";
-"alert_restore_backup_message" = "バックアップの復元は現在実験的な機能です。現在のデータが削除され、選択したバックアップで上書きされます。\n\nその後、アプリは自動的に閉じられます。\n\n警告: このプロセスは元に戻すことができません !";
+"backup_setting_no_recent_backups_title" = "利用可能なバックアップがありません";
+"backup_setting_backup_subtitle" = "%@ · %@";
+
+"backup_setting_delete_backup_alert_title" = "バックアップを削除";
+"backup_setting_delete_backup_alert_message" = "このバックアップを本当に削除しますか？";
+
+"backup_setting_restore_success_title" = "バックアップを復元しました";
+"backup_setting_restore_success_message" = "選択したバックアップが復元されました。";
+
+"backup_setting_error_title" = "バックアップに失敗しました";
+"backup_setting_icloud_drive_unavailable_error" = "このデバイスではiCloud Driveを利用できません。";
+"backup_setting_could_not_create_backup_directory_error" = "バックアップフォルダを作成できませんでした。";
+
+"alert_restore_backup_title" = "バックアップを復元";
+"alert_restore_backup_message" = "このバックアップを本当に復元しますか？\n\n現在のデータは削除され、選択したバックアップのデータに置き換えられます。\n\n警告: この操作は元に戻せません!";
 "alert_restore_backup_button" = "バックアップを復元";
 
 /* Advanced Settings */

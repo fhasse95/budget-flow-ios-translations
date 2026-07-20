@@ -693,13 +693,35 @@
 "backup_setting_info_title" = "Περιγραφή";
 "backup_setting_info_description" = "Όταν είναι ενεργοποιημένο, το Budget Flow δημιουργεί τακτικά αντίγραφα ασφαλείας των δεδομένων σας, ώστε να μπορείτε να επαναφέρετε την εφαρμογή στην προηγούμενη κατάσταση ανά πάσα στιγμή.";
 
-"backup_general_setting_section_title" = "Γενικά";
-"backup_recent_backups_setting_section_title" = "Πρόσφατα αντίγραφα ασφαλείας";
+"backup_setting_general_section_title" = "Γενικά";
+"backup_setting_recent_section_title" = "Πρόσφατα αντίγραφα ασφαλείας";
 "backup_setting_use_automatic_backups_title" = "Αυτόματη δημιουργία αντιγράφων ασφαλείας";
+"backup_setting_back_up_to_icloud_drive_title" = "Δημιουργία αντιγράφου στο iCloud Drive";
+
+"backup_setting_keep_backups_title" = "Διατήρηση αντιγράφων ασφαλείας";
+"backup_setting_keep_backups_last_5_title" = "Τελευταία 5";
+"backup_setting_keep_backups_last_10_title" = "Τελευταία 10";
+"backup_setting_keep_backups_last_20_title" = "Τελευταία 20";
+"backup_setting_keep_backups_last_30_title" = "Τελευταία 30";
+"backup_setting_keep_backups_all_title" = "Όλα";
+
 "backup_setting_create_backup_title" = "Δημιουργία αντιγράφου ασφαλείας";
 
-"alert_restore_backup_title" = "Επαναφορά αυτού του αντιγράφου ασφαλείας?";
-"alert_restore_backup_message" = "Η επαναφορά των αντιγράφων ασφαλείας είναι επί του παρόντος μια πειραματική λειτουργία. Θα διαγράψει τα τρέχοντα δεδομένα σας και θα τα αντικαταστήσει με το επιλεγμένο αντίγραφο ασφαλείας.\n\nΣτη συνέχεια, η εφαρμογή θα κλείσει αυτόματα.\n\nΠροειδοποίηση: Αυτή η διαδικασία δεν μπορεί να αναιρεθεί!";
+"backup_setting_no_recent_backups_title" = "Δεν υπάρχουν διαθέσιμα αντίγραφα ασφαλείας";
+"backup_setting_backup_subtitle" = "%@ · %@";
+
+"backup_setting_delete_backup_alert_title" = "Διαγραφή αντιγράφου ασφαλείας";
+"backup_setting_delete_backup_alert_message" = "Θέλετε σίγουρα να διαγράψετε αυτό το αντίγραφο ασφαλείας;";
+
+"backup_setting_restore_success_title" = "Το αντίγραφο ασφαλείας επαναφέρθηκε";
+"backup_setting_restore_success_message" = "Το επιλεγμένο αντίγραφο ασφαλείας επαναφέρθηκε.";
+
+"backup_setting_error_title" = "Η δημιουργία αντιγράφου ασφαλείας απέτυχε";
+"backup_setting_icloud_drive_unavailable_error" = "Το iCloud Drive δεν είναι διαθέσιμο σε αυτήν τη συσκευή.";
+"backup_setting_could_not_create_backup_directory_error" = "Δεν ήταν δυνατή η δημιουργία του φακέλου αντιγράφων ασφαλείας.";
+
+"alert_restore_backup_title" = "Επαναφορά αντιγράφου ασφαλείας";
+"alert_restore_backup_message" = "Θέλετε σίγουρα να επαναφέρετε αυτό το αντίγραφο ασφαλείας;\n\nΜε αυτόν τον τρόπο θα διαγραφούν τα τρέχοντα δεδομένα σας και θα αντικατασταθούν με τα δεδομένα από το επιλεγμένο αντίγραφο ασφαλείας.\n\nΠροειδοποίηση: Αυτή η ενέργεια δεν μπορεί να αναιρεθεί!";
 "alert_restore_backup_button" = "Επαναφορά αντιγράφου ασφαλείας";
 
 /* Advanced Settings */

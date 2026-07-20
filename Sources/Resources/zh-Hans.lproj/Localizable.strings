@@ -693,13 +693,35 @@
 "backup_setting_info_title" = "描述";
 "backup_setting_info_description" = "启用后，Budget Flow 将定期备份您的数据，以便您可以随时将应用恢复到以前的状态。";
 
-"backup_general_setting_section_title" = "通用";
-"backup_recent_backups_setting_section_title" = "最近备份";
+"backup_setting_general_section_title" = "通用";
+"backup_setting_recent_section_title" = "最近备份";
 "backup_setting_use_automatic_backups_title" = "自动备份";
+"backup_setting_back_up_to_icloud_drive_title" = "备份到 iCloud Drive";
+
+"backup_setting_keep_backups_title" = "保留备份";
+"backup_setting_keep_backups_last_5_title" = "最近 5 个";
+"backup_setting_keep_backups_last_10_title" = "最近 10 个";
+"backup_setting_keep_backups_last_20_title" = "最近 20 个";
+"backup_setting_keep_backups_last_30_title" = "最近 30 个";
+"backup_setting_keep_backups_all_title" = "全部";
+
 "backup_setting_create_backup_title" = "创建备份";
 
-"alert_restore_backup_title" = "恢复此备份？";
-"alert_restore_backup_message" = "恢复备份目前是实验性功能。它将删除您当前的数据并用选定的备份覆盖。\n\n之后，应用将自动关闭。\n\n警告：此过程无法撤销！";
+"backup_setting_no_recent_backups_title" = "没有可用备份";
+"backup_setting_backup_subtitle" = "%@ · %@";
+
+"backup_setting_delete_backup_alert_title" = "删除备份";
+"backup_setting_delete_backup_alert_message" = "确定要删除此备份吗？";
+
+"backup_setting_restore_success_title" = "备份已恢复";
+"backup_setting_restore_success_message" = "所选备份已恢复。";
+
+"backup_setting_error_title" = "备份失败";
+"backup_setting_icloud_drive_unavailable_error" = "此设备上无法使用 iCloud Drive。";
+"backup_setting_could_not_create_backup_directory_error" = "无法创建备份文件夹。";
+
+"alert_restore_backup_title" = "恢复备份";
+"alert_restore_backup_message" = "确定要恢复此备份吗？\n\n这会删除您当前的数据，并用所选备份中的数据替换。\n\n警告：此操作无法撤销！";
 "alert_restore_backup_button" = "恢复备份";
 
 /* Advanced Settings */

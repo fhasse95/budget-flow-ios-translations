@@ -693,13 +693,35 @@
 "backup_setting_info_title" = "Описание";
 "backup_setting_info_description" = "Если включена, эту функция будет регулярно создавать резервные копии ваших данных, чтобы вы могли в любой момент восстановить приложение до предыдущего состояния.";
 
-"backup_general_setting_section_title" = "Общие";
-"backup_recent_backups_setting_section_title" = "Последние резервные копии";
+"backup_setting_general_section_title" = "Общие";
+"backup_setting_recent_section_title" = "Последние резервные копии";
 "backup_setting_use_automatic_backups_title" = "Автоматическое резервное копирование";
+"backup_setting_back_up_to_icloud_drive_title" = "Создавать копии в iCloud Drive";
+
+"backup_setting_keep_backups_title" = "Хранить резервные копии";
+"backup_setting_keep_backups_last_5_title" = "Последние 5";
+"backup_setting_keep_backups_last_10_title" = "Последние 10";
+"backup_setting_keep_backups_last_20_title" = "Последние 20";
+"backup_setting_keep_backups_last_30_title" = "Последние 30";
+"backup_setting_keep_backups_all_title" = "Все";
+
 "backup_setting_create_backup_title" = "Создать резервную копию";
 
-"alert_restore_backup_title" = "Восстановить эту резервную копию?";
-"alert_restore_backup_message" = "Восстановление резервных копий в настоящее время является экспериментальной функцией. Она удалит ваши текущие данные и перезапишет их выбранной резервной копией.\n\nПосле этого приложение закроется автоматически.\n\nВнимание: этот процесс нельзя отменить!";
+"backup_setting_no_recent_backups_title" = "Нет доступных резервных копий";
+"backup_setting_backup_subtitle" = "%@ · %@";
+
+"backup_setting_delete_backup_alert_title" = "Удалить резервную копию";
+"backup_setting_delete_backup_alert_message" = "Вы действительно хотите удалить эту резервную копию?";
+
+"backup_setting_restore_success_title" = "Резервная копия восстановлена";
+"backup_setting_restore_success_message" = "Выбранная резервная копия восстановлена.";
+
+"backup_setting_error_title" = "Не удалось создать резервную копию";
+"backup_setting_icloud_drive_unavailable_error" = "iCloud Drive недоступен на этом устройстве.";
+"backup_setting_could_not_create_backup_directory_error" = "Не удалось создать папку резервных копий.";
+
+"alert_restore_backup_title" = "Восстановить резервную копию";
+"alert_restore_backup_message" = "Вы действительно хотите восстановить эту резервную копию?\n\nТекущие данные будут удалены и заменены данными из выбранной резервной копии.\n\nВнимание: это действие нельзя отменить!";
 "alert_restore_backup_button" = "Восстановить резервную копию";
 
 /* Advanced Settings */

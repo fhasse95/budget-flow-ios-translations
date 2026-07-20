@@ -693,13 +693,35 @@
 "backup_setting_info_title" = "Leírás";
 "backup_setting_info_description" = "Ha engedélyezve van, a Budget Flow rendszeresen biztonsági másolatot készít az adatokról, így bármikor visszaállíthatja az alkalmazást egy korábbi állapotba.";
 
-"backup_general_setting_section_title" = "Általános";
-"backup_recent_backups_setting_section_title" = "Legutóbbi biztonsági másolatok";
+"backup_setting_general_section_title" = "Általános";
+"backup_setting_recent_section_title" = "Legutóbbi biztonsági másolatok";
 "backup_setting_use_automatic_backups_title" = "Automatikus biztonsági mentés";
+"backup_setting_back_up_to_icloud_drive_title" = "Biztonsági mentés az iCloud Drive-ra";
+
+"backup_setting_keep_backups_title" = "Biztonsági mentések megőrzése";
+"backup_setting_keep_backups_last_5_title" = "Utolsó 5";
+"backup_setting_keep_backups_last_10_title" = "Utolsó 10";
+"backup_setting_keep_backups_last_20_title" = "Utolsó 20";
+"backup_setting_keep_backups_last_30_title" = "Utolsó 30";
+"backup_setting_keep_backups_all_title" = "Összes";
+
 "backup_setting_create_backup_title" = "Biztonsági másolat létrehozása";
 
-"alert_restore_backup_title" = "Visszaállítja ezt a biztonsági másolatot?";
-"alert_restore_backup_message" = "A biztonsági mentések visszaállítása jelenleg egy kísérleti funkció. Törli az aktuális adatokat, és felülírja azokat a kiválasztott biztonsági másolattal.\n\nEzt követően az alkalmazás automatikusan bezárul.\n\nFigyelmeztetés: Ez a folyamat nem vonható vissza. !";
+"backup_setting_no_recent_backups_title" = "Nincs elérhető biztonsági mentés";
+"backup_setting_backup_subtitle" = "%@ · %@";
+
+"backup_setting_delete_backup_alert_title" = "Biztonsági mentés törlése";
+"backup_setting_delete_backup_alert_message" = "Biztosan törölni szeretné ezt a biztonsági mentést?";
+
+"backup_setting_restore_success_title" = "Biztonsági mentés visszaállítva";
+"backup_setting_restore_success_message" = "A kiválasztott biztonsági mentés vissza lett állítva.";
+
+"backup_setting_error_title" = "A biztonsági mentés sikertelen";
+"backup_setting_icloud_drive_unavailable_error" = "Az iCloud Drive nem érhető el ezen az eszközön.";
+"backup_setting_could_not_create_backup_directory_error" = "A biztonsági mentések mappája nem hozható létre.";
+
+"alert_restore_backup_title" = "Biztonsági mentés visszaállítása";
+"alert_restore_backup_message" = "Biztosan vissza szeretné állítani ezt a biztonsági mentést?\n\nEz törli a jelenlegi adatait, és lecseréli őket a kiválasztott biztonsági mentés adataira.\n\nFigyelmeztetés: Ez a művelet nem vonható vissza!";
 "alert_restore_backup_button" = "Biztonsági másolat visszaállítása";
 
 /* Advanced Settings */

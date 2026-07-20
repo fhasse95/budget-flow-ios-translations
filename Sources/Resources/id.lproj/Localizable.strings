@@ -693,13 +693,35 @@
 "backup_setting_info_title" = "Deskripsi";
 "backup_setting_info_description" = "Jika diaktifkan, Budget Flow mencadangkan data Anda secara rutin sehingga Anda dapat memulihkan aplikasi ke keadaan sebelumnya kapan saja.";
 
-"backup_general_setting_section_title" = "Umum";
-"backup_recent_backups_setting_section_title" = "Cadangan Terbaru";
+"backup_setting_general_section_title" = "Umum";
+"backup_setting_recent_section_title" = "Cadangan Terbaru";
 "backup_setting_use_automatic_backups_title" = "Pencadangan Otomatis";
+"backup_setting_back_up_to_icloud_drive_title" = "Cadangkan ke iCloud Drive";
+
+"backup_setting_keep_backups_title" = "Simpan cadangan";
+"backup_setting_keep_backups_last_5_title" = "5 terakhir";
+"backup_setting_keep_backups_last_10_title" = "10 terakhir";
+"backup_setting_keep_backups_last_20_title" = "20 terakhir";
+"backup_setting_keep_backups_last_30_title" = "30 terakhir";
+"backup_setting_keep_backups_all_title" = "Semua";
+
 "backup_setting_create_backup_title" = "Buat cadangan";
 
-"alert_restore_backup_title" = "Pulihkan cadangan ini?";
-"alert_restore_backup_message" = "Memulihkan cadangan saat ini merupakan fitur eksperimental. Ini akan menghapus data Anda saat ini dan menimpanya dengan cadangan yang dipilih.\n\nSetelah itu, aplikasi akan ditutup secara otomatis.\n\nPeringatan: Proses ini tidak dapat dibatalkan!";
+"backup_setting_no_recent_backups_title" = "Tidak ada cadangan tersedia";
+"backup_setting_backup_subtitle" = "%@ · %@";
+
+"backup_setting_delete_backup_alert_title" = "Hapus Cadangan";
+"backup_setting_delete_backup_alert_message" = "Apakah Anda yakin ingin menghapus cadangan ini?";
+
+"backup_setting_restore_success_title" = "Cadangan dipulihkan";
+"backup_setting_restore_success_message" = "Cadangan yang dipilih telah dipulihkan.";
+
+"backup_setting_error_title" = "Pencadangan gagal";
+"backup_setting_icloud_drive_unavailable_error" = "iCloud Drive tidak tersedia di perangkat ini.";
+"backup_setting_could_not_create_backup_directory_error" = "Folder cadangan tidak dapat dibuat.";
+
+"alert_restore_backup_title" = "Pulihkan Cadangan";
+"alert_restore_backup_message" = "Apakah Anda yakin ingin memulihkan cadangan ini?\n\nIni akan menghapus data Anda saat ini dan menggantinya dengan data dari cadangan yang dipilih.\n\nPeringatan: Tindakan ini tidak dapat dibatalkan!";
 "alert_restore_backup_button" = "Pulihkan cadangan";
 
 /* Advanced Settings */

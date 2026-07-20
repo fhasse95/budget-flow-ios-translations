@@ -693,13 +693,35 @@
 "backup_setting_info_title" = "Descriere";
 "backup_setting_info_description" = "Când este activat, Budget Flow face în mod regulat copii de siguranță ale datelor dvs., astfel încât să puteți restabili oricând aplicația la o stare anterioară.";
 
-"backup_general_setting_section_title" = "General";
-"backup_recent_backups_setting_section_title" = "Backup-uri recente";
+"backup_setting_general_section_title" = "Setări generale";
+"backup_setting_recent_section_title" = "Backup-uri recente";
 "backup_setting_use_automatic_backups_title" = "Backup automat";
+"backup_setting_back_up_to_icloud_drive_title" = "Backup în iCloud Drive";
+
+"backup_setting_keep_backups_title" = "Păstrează copiile de rezervă";
+"backup_setting_keep_backups_last_5_title" = "Ultimele 5";
+"backup_setting_keep_backups_last_10_title" = "Ultimele 10";
+"backup_setting_keep_backups_last_20_title" = "Ultimele 20";
+"backup_setting_keep_backups_last_30_title" = "Ultimele 30";
+"backup_setting_keep_backups_all_title" = "Toate";
+
 "backup_setting_create_backup_title" = "Creează o copie de rezervă";
 
-"alert_restore_backup_title" = "Restabiliți această copie de rezervă?";
-"alert_restore_backup_message" = "Restabilirea copiilor de siguranță este în prezent o funcție experimentală. Va șterge datele dvs. curente și le va suprascrie cu copia de rezervă selectată.\n\nDupă aceea, aplicația se va închide automat.\n\nAvertisment: Acest proces nu poate fi anulat.!";
+"backup_setting_no_recent_backups_title" = "Nu există copii de rezervă disponibile";
+"backup_setting_backup_subtitle" = "%@ · %@";
+
+"backup_setting_delete_backup_alert_title" = "Șterge copia de rezervă";
+"backup_setting_delete_backup_alert_message" = "Sigur doriți să ștergeți această copie de rezervă?";
+
+"backup_setting_restore_success_title" = "Copie de rezervă restaurată";
+"backup_setting_restore_success_message" = "Copia de rezervă selectată a fost restaurată.";
+
+"backup_setting_error_title" = "Backup eșuat";
+"backup_setting_icloud_drive_unavailable_error" = "iCloud Drive nu este disponibil pe acest dispozitiv.";
+"backup_setting_could_not_create_backup_directory_error" = "Folderul de backup nu a putut fi creat.";
+
+"alert_restore_backup_title" = "Restaurează copia de rezervă";
+"alert_restore_backup_message" = "Sigur doriți să restaurați această copie de rezervă?\n\nAceasta va șterge datele curente și le va înlocui cu datele din copia de rezervă selectată.\n\nAvertisment: Această acțiune nu poate fi anulată!";
 "alert_restore_backup_button" = "Restaurează backup";
 
 /* Advanced Settings */

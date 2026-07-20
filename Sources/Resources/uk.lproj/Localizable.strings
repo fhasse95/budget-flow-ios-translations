@@ -693,13 +693,35 @@
 "backup_setting_info_title" = "Опис";
 "backup_setting_info_description" = "Якщо ввімкнено, Budget Flow регулярно створює резервні копії ваших даних, щоб ви могли будь-коли відновити програму до попереднього стану.";
 
-"backup_general_setting_section_title" = "Загальні";
-"backup_recent_backups_setting_section_title" = "Останні резервні копії";
+"backup_setting_general_section_title" = "Загальні";
+"backup_setting_recent_section_title" = "Останні резервні копії";
 "backup_setting_use_automatic_backups_title" = "Автоматичне резервне копіювання";
+"backup_setting_back_up_to_icloud_drive_title" = "Створювати резервні копії в iCloud Drive";
+
+"backup_setting_keep_backups_title" = "Зберігати резервні копії";
+"backup_setting_keep_backups_last_5_title" = "Останні 5";
+"backup_setting_keep_backups_last_10_title" = "Останні 10";
+"backup_setting_keep_backups_last_20_title" = "Останні 20";
+"backup_setting_keep_backups_last_30_title" = "Останні 30";
+"backup_setting_keep_backups_all_title" = "Усі";
+
 "backup_setting_create_backup_title" = "Створити резервну копію";
 
-"alert_restore_backup_title" = "Відновити цю резервну копію?";
-"alert_restore_backup_message" = "Відновлення резервних копій наразі є експериментальною функцією. Вона видаляє ваші поточні дані та перезаписує їх вибраною резервною копією.\n\nПісля цього програму буде закрито автоматично.\n\nПопередження: цей процес не можна скасувати!";
+"backup_setting_no_recent_backups_title" = "Немає доступних резервних копій";
+"backup_setting_backup_subtitle" = "%@ · %@";
+
+"backup_setting_delete_backup_alert_title" = "Видалити резервну копію";
+"backup_setting_delete_backup_alert_message" = "Ви справді хочете видалити цю резервну копію?";
+
+"backup_setting_restore_success_title" = "Резервну копію відновлено";
+"backup_setting_restore_success_message" = "Вибрану резервну копію відновлено.";
+
+"backup_setting_error_title" = "Не вдалося створити резервну копію";
+"backup_setting_icloud_drive_unavailable_error" = "iCloud Drive недоступний на цьому пристрої.";
+"backup_setting_could_not_create_backup_directory_error" = "Не вдалося створити папку резервних копій.";
+
+"alert_restore_backup_title" = "Відновити резервну копію";
+"alert_restore_backup_message" = "Ви справді хочете відновити цю резервну копію?\n\nПоточні дані буде видалено й замінено даними з вибраної резервної копії.\n\nПопередження: цю дію не можна скасувати!";
 "alert_restore_backup_button" = "Відновити резервну копію";
 
 /* Advanced Settings */

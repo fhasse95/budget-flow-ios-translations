@@ -693,13 +693,35 @@
 "backup_setting_info_title" = "설명";
 "backup_setting_info_description" = "백업이 활성화 되면 정기적으로 데이터를 백업하여, 언제든지 앱을 이전 상태로 복원할 수 있습니다.";
 
-"backup_general_setting_section_title" = "일반";
-"backup_recent_backups_setting_section_title" = "최근 백업";
+"backup_setting_general_section_title" = "일반";
+"backup_setting_recent_section_title" = "최근 백업";
 "backup_setting_use_automatic_backups_title" = "자동 백업";
+"backup_setting_back_up_to_icloud_drive_title" = "iCloud Drive에 백업";
+
+"backup_setting_keep_backups_title" = "백업 보관";
+"backup_setting_keep_backups_last_5_title" = "최근 5개";
+"backup_setting_keep_backups_last_10_title" = "최근 10개";
+"backup_setting_keep_backups_last_20_title" = "최근 20개";
+"backup_setting_keep_backups_last_30_title" = "최근 30개";
+"backup_setting_keep_backups_all_title" = "모두";
+
 "backup_setting_create_backup_title" = "백업 생성";
 
-"alert_restore_backup_title" = "이 백업을 복원하시겠습니까?";
-"alert_restore_backup_message" = "백업 복원은 현재 실험적인 기능입니다. 현재 데이터를 삭제하고 선택한 백업으로 덮어씁니다.\n\n작업 후 앱이 자동으로 닫힙니다.\n\n경고: 이 프로세스는 취소할 수 없습니다!";
+"backup_setting_no_recent_backups_title" = "사용 가능한 백업 없음";
+"backup_setting_backup_subtitle" = "%@ · %@";
+
+"backup_setting_delete_backup_alert_title" = "백업 삭제";
+"backup_setting_delete_backup_alert_message" = "이 백업을 정말 삭제하시겠습니까?";
+
+"backup_setting_restore_success_title" = "백업 복원됨";
+"backup_setting_restore_success_message" = "선택한 백업이 복원되었습니다.";
+
+"backup_setting_error_title" = "백업 실패";
+"backup_setting_icloud_drive_unavailable_error" = "이 기기에서 iCloud Drive를 사용할 수 없습니다.";
+"backup_setting_could_not_create_backup_directory_error" = "백업 폴더를 생성할 수 없습니다.";
+
+"alert_restore_backup_title" = "백업 복원";
+"alert_restore_backup_message" = "이 백업을 정말 복원하시겠습니까?\n\n현재 데이터가 삭제되고 선택한 백업의 데이터로 대체됩니다.\n\n경고: 이 작업은 취소할 수 없습니다!";
 "alert_restore_backup_button" = "백업 복원";
 
 /* Advanced Settings */

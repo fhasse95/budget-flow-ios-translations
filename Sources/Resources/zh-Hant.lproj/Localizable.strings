@@ -693,13 +693,35 @@
 "backup_setting_info_title" = "描述";
 "backup_setting_info_description" = "啟用後，Budget Flow 將定期備份您的數據，以便您可以隨時將應用程式還原到先前的狀態。";
 
-"backup_general_setting_section_title" = "通用";
-"backup_recent_backups_setting_section_title" = "最近備份";
+"backup_setting_general_section_title" = "通用";
+"backup_setting_recent_section_title" = "最近備份";
 "backup_setting_use_automatic_backups_title" = "自動備份";
+"backup_setting_back_up_to_icloud_drive_title" = "備份到 iCloud Drive";
+
+"backup_setting_keep_backups_title" = "保留備份";
+"backup_setting_keep_backups_last_5_title" = "最近 5 個";
+"backup_setting_keep_backups_last_10_title" = "最近 10 個";
+"backup_setting_keep_backups_last_20_title" = "最近 20 個";
+"backup_setting_keep_backups_last_30_title" = "最近 30 個";
+"backup_setting_keep_backups_all_title" = "全部";
+
 "backup_setting_create_backup_title" = "建立備份";
 
-"alert_restore_backup_title" = "還原此備份？";
-"alert_restore_backup_message" = "還原備份目前是實驗性功能。它將刪除您目前的資料並用選定的備份覆蓋。\n\n之後，應用程式將自動關閉。\n\n警告：此過程無法撤銷！" ;
+"backup_setting_no_recent_backups_title" = "沒有可用備份";
+"backup_setting_backup_subtitle" = "%@ · %@";
+
+"backup_setting_delete_backup_alert_title" = "刪除備份";
+"backup_setting_delete_backup_alert_message" = "你確定要刪除此備份嗎？";
+
+"backup_setting_restore_success_title" = "備份已還原";
+"backup_setting_restore_success_message" = "所選備份已還原。";
+
+"backup_setting_error_title" = "備份失敗";
+"backup_setting_icloud_drive_unavailable_error" = "此裝置無法使用 iCloud Drive。";
+"backup_setting_could_not_create_backup_directory_error" = "無法建立備份資料夾。";
+
+"alert_restore_backup_title" = "還原備份";
+"alert_restore_backup_message" = "你確定要還原此備份嗎？\n\n這會刪除你目前的資料，並以所選備份中的資料取代。\n\n警告：此操作無法復原！";
 "alert_restore_backup_button" = "還原備份";
 
 /* Advanced Settings */

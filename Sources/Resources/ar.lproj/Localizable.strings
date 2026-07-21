@@ -628,7 +628,8 @@
 - Purchases: %@";
 "contact_developer_mail_no_purchases" = "None";
 
-/* Appearance Settings */
+/* MARK: - Appearance Settings View */
+/* Info */
 "appearance_setting_info_title" = "الوصف";
 "appearance_setting_info_description" = "قم بتخصيص التطبيق حسب رغبتك عن طريق تغيير مظهره أو لون التمييز.";
 "appearance_ui_style_setting_section_title" = "السمة";
@@ -638,7 +639,8 @@
 "appearance_accent_color_setting_footer_title" = "تغيير لون الأزرار وعناصر التحكم الأخرى في التطبيق.";
 "appearance_app_icon_setting_section_title" = "رمز التطبيق";
 
-/* Sync & Data Settings */
+/* MARK: - Sync & Data Settings View */
+/* Info */
 "sync_and_data_setting_info_title" = "الوصف";
 "sync_and_data_setting_info_description" = "احصل على نظرة عامة على حالة المزامنة الحالية وقم باستيراد أو تصدير البيانات باستخدام ملف CSV.";
 
@@ -666,7 +668,8 @@
 "alert_csv_export_successful_title" = "تم التصدير بنجاح 🎉";
 "alert_csv_export_successful_message" = "تم تصدير بياناتك بنجاح إلى \"%@\".";
 
-/* Cloud Settings */
+/* MARK: - Cloud Settings View */
+/* Info */
 "cloud_setting_info_title" = "الوصف";
 "cloud_setting_info_description" = "يوفر العرض التالي نظرة عامة أكثر تفصيلاً عن حالة مزامنة iCloud الحالية ويساعد في استكشاف الأخطاء وإصلاحها.";
 
@@ -689,7 +692,8 @@
 "import_from_cloud_button" = "تنزيل من iCloud";
 "manual_sync_cloud_setting_footer_title" = "إذا لم تتم مزامنة بياناتك أو لم تتم مزامنتها بالكامل مع iCloud، يمكنك بدء المزامنة يدويًا من هنا.";
 
-/* Backup Settings */
+/* MARK: - Backup Settings View */
+/* Info */
 "backup_setting_info_title" = "الوصف";
 "backup_setting_info_description" = "ي حالة تمكينها، ستقوم Budget Flow بنسخ بياناتك احتياطيًا بانتظام حتى تتمكن من استعادة التطبيق إلى حالته السابقة في أي وقت.";
 
@@ -724,7 +728,27 @@
 "alert_restore_backup_message" = "هل تريد حقًا استعادة هذه النسخة الاحتياطية؟\n\nسيؤدي ذلك إلى حذف بياناتك الحالية واستبدالها بالبيانات من النسخة الاحتياطية المحددة.\n\nتحذير: لا يمكن التراجع عن هذا الإجراء!";
 "alert_restore_backup_button" = "استعادة النسخة الاحتياطية";
 
-/* Advanced Settings */
+/* Progress */
+"backup_restore_progress_alert_title" = "جارٍ استعادة النسخة الاحتياطية";
+"backup_restore_progress_preparing" = "جارٍ تحضير النسخة الاحتياطية";
+"backup_restore_progress_validating" = "جارٍ التحقق من النسخة الاحتياطية";
+"backup_restore_progress_reading_data" = "جارٍ قراءة بيانات النسخة الاحتياطية";
+"backup_restore_progress_deleting_existing_data" = "جارٍ حذف البيانات الحالية";
+"backup_restore_progress_finishing" = "جارٍ إنهاء الاستعادة";
+
+/* Progress Entities */
+"backup_restore_progress_budget_books" = "دفاتر الميزانية";
+"backup_restore_progress_accounts" = "الحسابات";
+"backup_restore_progress_category_groups" = "مجموعات الفئات";
+"backup_restore_progress_categories" = "الفئات";
+"backup_restore_progress_payees" = "المستفيدون";
+"backup_restore_progress_tags" = "الوسوم";
+"backup_restore_progress_budgets" = "الميزانيات";
+"backup_restore_progress_transaction_groups" = "مجموعات المعاملات";
+"backup_restore_progress_transactions" = "المعاملات";
+"backup_restore_progress_reminders" = "التذكيرات";
+
+/* MARK: - Advanced Settings View */
 "advanced_setting_info_title" = "الوصف";
 "advanced_setting_info_description" = "الإعدادات المتقدمة لتخصيص التطبيق.";
 

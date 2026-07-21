@@ -628,7 +628,8 @@
 - Purchases: %@";
 "contact_developer_mail_no_purchases" = "None";
 
-/* Appearance Settings */
+/* MARK: - Appearance Settings View */
+/* Info */
 "appearance_setting_info_title" = "描述";
 "appearance_setting_info_description" = "通过更改应用的外观或强调色来个性化您的应用";
 "appearance_ui_style_setting_section_title" = "主题";
@@ -638,7 +639,8 @@
 "appearance_accent_color_setting_footer_title" = "更改应用内按钮和其他控件的颜色";
 "appearance_app_icon_setting_section_title" = "应用图标";
 
-/* Sync & Data Settings */
+/* MARK: - Sync & Data Settings View */
+/* Info */
 "sync_and_data_setting_info_title" = "描述";
 "sync_and_data_setting_info_description" = "获取当前同步状态的概览，并使用 CSV 文件导入或导出数据";
 
@@ -666,7 +668,8 @@
 "alert_csv_export_successful_title" = "导出成功 🎉";
 "alert_csv_export_successful_message" = "您的数据已成功导出到 \"%@\"";
 
-/* Cloud Settings */
+/* MARK: - Cloud Settings View */
+/* Info */
 "cloud_setting_info_title" = "描述";
 "cloud_setting_info_description" = "以下视图提供了当前 iCloud 同步状态的更详细概述，并有助于排除故障。";
 
@@ -689,7 +692,8 @@
 "import_from_cloud_button" = "从 iCloud 下载";
 "manual_sync_cloud_setting_footer_title" = "如果您的数据未与 iCloud 同步或未完全同步，您可以在此手动启动同步。";
 
-/* Backup Settings */
+/* MARK: - Backup Settings View */
+/* Info */
 "backup_setting_info_title" = "描述";
 "backup_setting_info_description" = "启用后，Budget Flow 将定期备份您的数据，以便您可以随时将应用恢复到以前的状态。";
 
@@ -724,7 +728,27 @@
 "alert_restore_backup_message" = "确定要恢复此备份吗？\n\n这会删除您当前的数据，并用所选备份中的数据替换。\n\n警告：此操作无法撤销！";
 "alert_restore_backup_button" = "恢复备份";
 
-/* Advanced Settings */
+/* Progress */
+"backup_restore_progress_alert_title" = "正在恢复备份";
+"backup_restore_progress_preparing" = "正在准备备份";
+"backup_restore_progress_validating" = "正在验证备份";
+"backup_restore_progress_reading_data" = "正在读取备份数据";
+"backup_restore_progress_deleting_existing_data" = "正在删除现有数据";
+"backup_restore_progress_finishing" = "正在完成恢复";
+
+/* Progress Entities */
+"backup_restore_progress_budget_books" = "预算账本";
+"backup_restore_progress_accounts" = "账户";
+"backup_restore_progress_category_groups" = "类别组";
+"backup_restore_progress_categories" = "类别";
+"backup_restore_progress_payees" = "收款人";
+"backup_restore_progress_tags" = "标签";
+"backup_restore_progress_budgets" = "预算";
+"backup_restore_progress_transaction_groups" = "交易组";
+"backup_restore_progress_transactions" = "交易";
+"backup_restore_progress_reminders" = "提醒";
+
+/* MARK: - Advanced Settings View */
 "advanced_setting_info_title" = "描述";
 "advanced_setting_info_description" = "进行更多设置以配置应用";
 

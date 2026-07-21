@@ -628,7 +628,8 @@
 - Purchases: %@";
 "contact_developer_mail_no_purchases" = "None";
 
-/* Appearance Settings */
+/* MARK: - Appearance Settings View */
+/* Info */
 "appearance_setting_info_title" = "Beskrivning";
 "appearance_setting_info_description" = "Anpassa appen efter eget tycke genom att ändra appens utseende eller accentfärg.";
 "appearance_ui_style_setting_section_title" = "Tema";
@@ -638,7 +639,8 @@
 "appearance_accent_color_setting_footer_title" = "Ändrar färgen på knappar och andra kontroller i appen.";
 "appearance_app_icon_setting_section_title" = "Appikon";
 
-/* Sync & Data Settings */
+/* MARK: - Sync & Data Settings View */
+/* Info */
 "sync_and_data_setting_info_title" = "Beskrivning";
 "sync_and_data_setting_info_description" = "Få en översikt över den aktuella synkroniseringsstatusen och importera eller exportera data med en CSV-fil.";
 
@@ -666,7 +668,8 @@
 "alert_csv_export_successful_title" = "Exporten lyckades 🎉";
 "alert_csv_export_successful_message" = "Din data exporterades framgångsrikt till \"%@\".";
 
-/* Cloud Settings */
+/* MARK: - Cloud Settings View */
+/* Info */
 "cloud_setting_info_title" = "Beskrivning";
 "cloud_setting_info_description" = "Följande vy ger en mer detaljerad översikt över den aktuella iCloud-synkroniseringsstatusen och hjälper till med felsökning.";
 
@@ -689,7 +692,8 @@
 "import_from_cloud_button" = "Ladda ner från iCloud";
 "manual_sync_cloud_setting_footer_title" = "Om dina data inte har synkroniserats eller inte har synkroniserats helt med iCloud kan du starta synkroniseringen manuellt här.";
 
-/* Backup Settings */
+/* MARK: - Backup Settings View */
+/* Info */
 "backup_setting_info_title" = "Beskrivning";
 "backup_setting_info_description" = "När den är aktiverad säkerhetskopierar Budget Flow regelbundet dina data så att du kan återställa appen till ett tidigare tillstånd när som helst.";
 
@@ -724,7 +728,27 @@
 "alert_restore_backup_message" = "Är du säker på att du vill återställa den här säkerhetskopian?\n\nDetta raderar dina nuvarande data och ersätter dem med data från den valda säkerhetskopian.\n\nVarning: Den här åtgärden kan inte ångras!";
 "alert_restore_backup_button" = "Återställ säkerhetskopia";
 
-/* Advanced Settings */
+/* Progress */
+"backup_restore_progress_alert_title" = "Återställer säkerhetskopia";
+"backup_restore_progress_preparing" = "Förbereder säkerhetskopia";
+"backup_restore_progress_validating" = "Validerar säkerhetskopia";
+"backup_restore_progress_reading_data" = "Läser säkerhetskopiedata";
+"backup_restore_progress_deleting_existing_data" = "Raderar befintliga data";
+"backup_restore_progress_finishing" = "Slutför återställning";
+
+/* Progress Entities */
+"backup_restore_progress_budget_books" = "Budgetböcker";
+"backup_restore_progress_accounts" = "Konton";
+"backup_restore_progress_category_groups" = "Kategorigrupper";
+"backup_restore_progress_categories" = "Kategorier";
+"backup_restore_progress_payees" = "Betalningsmottagare";
+"backup_restore_progress_tags" = "Taggar";
+"backup_restore_progress_budgets" = "Budgetar";
+"backup_restore_progress_transaction_groups" = "Transaktionsgrupper";
+"backup_restore_progress_transactions" = "Transaktioner";
+"backup_restore_progress_reminders" = "Påminnelser";
+
+/* MARK: - Advanced Settings View */
 "advanced_setting_info_title" = "Beskrivning";
 "advanced_setting_info_description" = "Gör ytterligare inställningar för att konfigurera appen.";
 

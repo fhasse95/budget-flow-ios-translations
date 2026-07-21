@@ -628,7 +628,8 @@
 - Purchases: %@";
 "contact_developer_mail_no_purchases" = "None";
 
-/* Appearance Settings */
+/* MARK: - Appearance Settings View */
+/* Info */
 "appearance_setting_info_title" = "Descripció";
 "appearance_setting_info_description" = "Personalitza l'app al teu gust canviant l'aparença o el color d'accent.";
 "appearance_ui_style_setting_section_title" = "Tema";
@@ -638,7 +639,8 @@
 "appearance_accent_color_setting_footer_title" = "Canvia el color dels botons i altres controls dins de l'app.";
 "appearance_app_icon_setting_section_title" = "Icona de l'app";
 
-/* Sync & Data Settings */
+/* MARK: - Sync & Data Settings View */
+/* Info */
 "sync_and_data_setting_info_title" = "Descripció";
 "sync_and_data_setting_info_description" = "Obtingueu una visió general de l'estat actual de la sincronització i importeu o exporteu dades mitjançant un fitxer CSV.";
 
@@ -666,7 +668,8 @@
 "alert_csv_export_successful_title" = "Exportació correcta 🎉";
 "alert_csv_export_successful_message" = "Les teves dades s'han exportat correctament a \"%@\".";
 
-/* Cloud Settings */
+/* MARK: - Cloud Settings View */
+/* Info */
 "cloud_setting_info_title" = "Descripció";
 "cloud_setting_info_description" = "La següent vista proporciona una descripció més detallada de l'estat actual de sincronització d'iCloud i ajuda a resoldre problemes.";
 
@@ -689,7 +692,8 @@
 "import_from_cloud_button" = "Descarregar des d'iCloud";
 "manual_sync_cloud_setting_footer_title" = "Si les teves dades no s'han sincronitzat o no s'han sincronitzat completament amb iCloud, pots iniciar la sincronització manualment aquí.";
 
-/* Backup Settings */
+/* MARK: - Backup Settings View */
+/* Info */
 "backup_setting_info_title" = "Descripció";
 "backup_setting_info_description" = "Quan està activat, Budget Flow realitza backups periòdics de les teves dades perquè puguis restaurar l'app a un estat anterior en qualsevol moment.";
 
@@ -724,7 +728,27 @@
 "alert_restore_backup_message" = "Segur que vols restaurar aquesta còpia de seguretat?\n\nAixò suprimirà les teves dades actuals i les substituirà per les dades de la còpia de seguretat seleccionada.\n\nAtenció: aquesta acció no es pot desfer!";
 "alert_restore_backup_button" = "Restaurar backup";
 
-/* Advanced Settings */
+/* Progress */
+"backup_restore_progress_alert_title" = "Restaurant còpia de seguretat";
+"backup_restore_progress_preparing" = "Preparant còpia de seguretat";
+"backup_restore_progress_validating" = "Validant còpia de seguretat";
+"backup_restore_progress_reading_data" = "Llegint dades de la còpia de seguretat";
+"backup_restore_progress_deleting_existing_data" = "Eliminant dades existents";
+"backup_restore_progress_finishing" = "Finalitzant restauració";
+
+/* Progress Entities */
+"backup_restore_progress_budget_books" = "Llibres de pressupost";
+"backup_restore_progress_accounts" = "Comptes";
+"backup_restore_progress_category_groups" = "Grups de categories";
+"backup_restore_progress_categories" = "Categories";
+"backup_restore_progress_payees" = "Beneficiaris";
+"backup_restore_progress_tags" = "Etiquetes";
+"backup_restore_progress_budgets" = "Pressupostos";
+"backup_restore_progress_transaction_groups" = "Grups de transaccions";
+"backup_restore_progress_transactions" = "Transaccions";
+"backup_restore_progress_reminders" = "Recordatoris";
+
+/* MARK: - Advanced Settings View */
 "advanced_setting_info_title" = "Descripció";
 "advanced_setting_info_description" = "Realitza més ajustaments per configurar l'app.";
 

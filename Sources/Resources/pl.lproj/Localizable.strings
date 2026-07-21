@@ -628,7 +628,8 @@
 - Purchases: %@";
 "contact_developer_mail_no_purchases" = "None";
 
-/* Appearance Settings */
+/* MARK: - Appearance Settings View */
+/* Info */
 "appearance_setting_info_title" = "Opis";
 "appearance_setting_info_description" = "Spersonalizuj aplikację według własnych upodobań, zmieniając jej wygląd lub kolor akcentów.";
 "appearance_ui_style_setting_section_title" = "Motyw";
@@ -638,7 +639,8 @@
 "appearance_accent_color_setting_footer_title" = "Zmienia kolor przycisków i innych elementów sterujących w aplikacji.";
 "appearance_app_icon_setting_section_title" = "Ikona aplikacji";
 
-/* Sync & Data Settings */
+/* MARK: - Sync & Data Settings View */
+/* Info */
 "sync_and_data_setting_info_title" = "Opis";
 "sync_and_data_setting_info_description" = "Uzyskaj przegląd aktualnego stanu synchronizacji i importuj lub eksportuj dane za pomocą pliku CSV.";
 
@@ -666,7 +668,8 @@
 "alert_csv_export_successful_title" = "Eksportowanie powiodło się 🎉";
 "alert_csv_export_successful_message" = "Twoje dane zostały pomyślnie wyeksportowane do \"%@\".";
 
-/* Cloud Settings */
+/* MARK: - Cloud Settings View */
+/* Info */
 "cloud_setting_info_title" = "Opis";
 "cloud_setting_info_description" = "Następujący widok zawiera bardziej szczegółowy przegląd bieżącego stanu synchronizacji iCloud i pomaga w rozwiązywaniu problemów.";
 
@@ -689,7 +692,8 @@
 "import_from_cloud_button" = "Pobierz z iCloud";
 "manual_sync_cloud_setting_footer_title" = "Jeśli Twoje dane nie zostały lub nie zostały w pełni zsynchronizowane z iCloud, możesz ręcznie uruchomić synchronizację tutaj.";
 
-/* Backup Settings */
+/* MARK: - Backup Settings View */
+/* Info */
 "backup_setting_info_title" = "Opis";
 "backup_setting_info_description" = "Jeśli ta opcja jest włączona, Budget Flow regularnie tworzy kopię zapasową Twoich danych, dzięki czemu możesz w dowolnej chwili przywrócić aplikację do poprzedniego stanu.";
 
@@ -724,7 +728,27 @@
 "alert_restore_backup_message" = "Czy na pewno chcesz przywrócić tę kopię zapasową?\n\nSpowoduje to usunięcie bieżących danych i zastąpienie ich danymi z wybranej kopii zapasowej.\n\nOstrzeżenie: Tej czynności nie można cofnąć!";
 "alert_restore_backup_button" = "Przywróć kopię zapasową";
 
-/* Advanced Settings */
+/* Progress */
+"backup_restore_progress_alert_title" = "Przywracanie kopii zapasowej";
+"backup_restore_progress_preparing" = "Przygotowywanie kopii zapasowej";
+"backup_restore_progress_validating" = "Sprawdzanie kopii zapasowej";
+"backup_restore_progress_reading_data" = "Odczytywanie danych kopii zapasowej";
+"backup_restore_progress_deleting_existing_data" = "Usuwanie istniejących danych";
+"backup_restore_progress_finishing" = "Kończenie przywracania";
+
+/* Progress Entities */
+"backup_restore_progress_budget_books" = "Księgi budżetowe";
+"backup_restore_progress_accounts" = "Konta";
+"backup_restore_progress_category_groups" = "Grupy kategorii";
+"backup_restore_progress_categories" = "Kategorie";
+"backup_restore_progress_payees" = "Odbiorcy płatności";
+"backup_restore_progress_tags" = "Tagi";
+"backup_restore_progress_budgets" = "Budżety";
+"backup_restore_progress_transaction_groups" = "Grupy transakcji";
+"backup_restore_progress_transactions" = "Transakcje";
+"backup_restore_progress_reminders" = "Przypomnienia";
+
+/* MARK: - Advanced Settings View */
 "advanced_setting_info_title" = "Opis";
 "advanced_setting_info_description" = "Wprowadź dalsze ustawienia, aby skonfigurować aplikację.";
 

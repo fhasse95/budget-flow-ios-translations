@@ -628,7 +628,8 @@
 - Purchases: %@";
 "contact_developer_mail_no_purchases" = "None";
 
-/* Appearance Settings */
+/* MARK: - Appearance Settings View */
+/* Info */
 "appearance_setting_info_title" = "Kuvaus";
 "appearance_setting_info_description" = "Personoi sovellus mieleiseksesi muuttamalla sovelluksen ulkoasua tai korostusväriä.";
 "appearance_ui_style_setting_section_title" = "Teema";
@@ -638,7 +639,8 @@
 "appearance_accent_color_setting_footer_title" = "Muuttaa painikkeiden ja muiden säätimien väriä sovelluksessa.";
 "appearance_app_icon_setting_section_title" = "Sovelluskuvake";
 
-/* Sync & Data Settings */
+/* MARK: - Sync & Data Settings View */
+/* Info */
 "sync_and_data_setting_info_title" = "Kuvaus";
 "sync_and_data_setting_info_description" = "Saat yleiskatsauksen nykyisestä synkronoinnin tilasta ja tuoda tai viedä tietoja CSV-tiedoston avulla.";
 
@@ -666,7 +668,8 @@
 "alert_csv_export_successful_title" = "Vienti onnistui 🎉";
 "alert_csv_export_successful_message" = "Tietosi vietiin osoitteeseen \"%@\".";
 
-/* Cloud Settings */
+/* MARK: - Cloud Settings View */
+/* Info */
 "cloud_setting_info_title" = "Kuvaus";
 "cloud_setting_info_description" = "Seuraava näkymä tarjoaa yksityiskohtaisemman yleiskatsauksen iCloudin nykyisestä synkronoinnin tilasta ja auttaa vianetsinnässä.";
 
@@ -689,7 +692,8 @@
 "import_from_cloud_button" = "Lataa iCloudista";
 "manual_sync_cloud_setting_footer_title" = "Jos tietojasi ei ole synkronoitu tai ne eivät ole täysin synkronoitu iCloudin kanssa, voit käynnistää synkronoinnin manuaalisesti täällä.";
 
-/* Backup Settings */
+/* MARK: - Backup Settings View */
+/* Info */
 "backup_setting_info_title" = "Kuvaus";
 "backup_setting_info_description" = "Kun se on käytössä, Budget Flow varmuuskopioi tiedot säännöllisesti, jotta voit palauttaa sovelluksen aiempaan tilaan milloin tahansa.";
 
@@ -724,7 +728,27 @@
 "alert_restore_backup_message" = "Haluatko varmasti palauttaa tämän varmuuskopion?\n\nTämä poistaa nykyiset tietosi ja korvaa ne valitun varmuuskopion tiedoilla.\n\nVaroitus: Tätä toimintoa ei voi kumota!";
 "alert_restore_backup_button" = "Palauta varmuuskopio";
 
-/* Advanced Settings */
+/* Progress */
+"backup_restore_progress_alert_title" = "Palautetaan varmuuskopiota";
+"backup_restore_progress_preparing" = "Valmistellaan varmuuskopiota";
+"backup_restore_progress_validating" = "Tarkistetaan varmuuskopiota";
+"backup_restore_progress_reading_data" = "Luetaan varmuuskopion tietoja";
+"backup_restore_progress_deleting_existing_data" = "Poistetaan olemassa olevia tietoja";
+"backup_restore_progress_finishing" = "Viimeistellään palautusta";
+
+/* Progress Entities */
+"backup_restore_progress_budget_books" = "Budjettikirjat";
+"backup_restore_progress_accounts" = "Tilit";
+"backup_restore_progress_category_groups" = "Kategoriaryhmät";
+"backup_restore_progress_categories" = "Kategoriat";
+"backup_restore_progress_payees" = "Maksunsaajat";
+"backup_restore_progress_tags" = "Tunnisteet";
+"backup_restore_progress_budgets" = "Budjetit";
+"backup_restore_progress_transaction_groups" = "Tapahtumaryhmät";
+"backup_restore_progress_transactions" = "Tapahtumat";
+"backup_restore_progress_reminders" = "Muistutukset";
+
+/* MARK: - Advanced Settings View */
 "advanced_setting_info_title" = "Kuvaus";
 "advanced_setting_info_description" = "Määritä sovellus määrittämällä lisäasetuksia.";
 

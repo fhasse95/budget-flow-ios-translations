@@ -628,7 +628,8 @@
 - Purchases: %@";
 "contact_developer_mail_no_purchases" = "None";
 
-/* Appearance Settings */
+/* MARK: - Appearance Settings View */
+/* Info */
 "appearance_setting_info_title" = "Opis";
 "appearance_setting_info_description" = "Personalizirajte aplikaciju prema svojim željama promjenom izgleda aplikacije ili boje isticanja.";
 "appearance_ui_style_setting_section_title" = "Tema";
@@ -638,7 +639,8 @@
 "appearance_accent_color_setting_footer_title" = "Mijenja boju gumba i drugih kontrola unutar aplikacije.";
 "appearance_app_icon_setting_section_title" = "Ikona aplikacije";
 
-/* Sync & Data Settings */
+/* MARK: - Sync & Data Settings View */
+/* Info */
 "sync_and_data_setting_info_title" = "Opis";
 "sync_and_data_setting_info_description" = "Dobijte pregled trenutnog statusa sinkronizacije i uvezite ili izvezite podatke pomoću CSV datoteke.";
 
@@ -666,7 +668,8 @@
 "alert_csv_export_successful_title" = "Izvoz uspješan 🎉";
 "alert_csv_export_successful_message" = "Vaši podaci su uspješno izvezeni u \"%@\".";
 
-/* Cloud Settings */
+/* MARK: - Cloud Settings View */
+/* Info */
 "cloud_setting_info_title" = "Opis";
 "cloud_setting_info_description" = "Sljedeći prikaz pruža detaljniji pregled trenutnog statusa iCloud sinhronizacije i pomaže u rješavanju problema.";
 
@@ -689,7 +692,8 @@
 "import_from_cloud_button" = "Preuzmi sa iClouda";
 "manual_sync_cloud_setting_footer_title" = "Ako vaši podaci nisu ili nisu potpuno sinkronizirani s iCloudom, ovdje možete ručno pokrenuti sinkronizaciju.";
 
-/* Backup Settings */
+/* MARK: - Backup Settings View */
+/* Info */
 "backup_setting_info_title" = "Opis";
 "backup_setting_info_description" = "Kada je omogućen, Budget Flow redovno izrađuje sigurnosne kopije vaših podataka kako biste mogli vratiti aplikaciju u prethodno stanje u bilo kojem trenutku.";
 
@@ -724,7 +728,27 @@
 "alert_restore_backup_message" = "Želite li zaista vratiti ovu sigurnosnu kopiju?\n\nTime će se izbrisati vaši trenutni podaci i zamijeniti podacima iz odabrane sigurnosne kopije.\n\nUpozorenje: Ova radnja se ne može poništiti!";
 "alert_restore_backup_button" = "Vrati sigurnosnu kopiju";
 
-/* Advanced Settings */
+/* Progress */
+"backup_restore_progress_alert_title" = "Vraćanje sigurnosne kopije";
+"backup_restore_progress_preparing" = "Priprema sigurnosne kopije";
+"backup_restore_progress_validating" = "Provjera sigurnosne kopije";
+"backup_restore_progress_reading_data" = "Čitanje podataka sigurnosne kopije";
+"backup_restore_progress_deleting_existing_data" = "Brisanje postojećih podataka";
+"backup_restore_progress_finishing" = "Završavanje vraćanja";
+
+/* Progress Entities */
+"backup_restore_progress_budget_books" = "Budžetske knjige";
+"backup_restore_progress_accounts" = "Računi";
+"backup_restore_progress_category_groups" = "Grupe kategorija";
+"backup_restore_progress_categories" = "Kategorije";
+"backup_restore_progress_payees" = "Primaoci plaćanja";
+"backup_restore_progress_tags" = "Oznake";
+"backup_restore_progress_budgets" = "Budžeti";
+"backup_restore_progress_transaction_groups" = "Grupe transakcija";
+"backup_restore_progress_transactions" = "Transakcije";
+"backup_restore_progress_reminders" = "Podsjetnici";
+
+/* MARK: - Advanced Settings View */
 "advanced_setting_info_title" = "Opis";
 "advanced_setting_info_description" = "Daljnje postavke za konfiguraciju aplikacije.";
 

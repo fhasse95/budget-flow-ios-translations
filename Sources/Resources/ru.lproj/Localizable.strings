@@ -628,7 +628,8 @@
 - Purchases: %@";
 "contact_developer_mail_no_purchases" = "None";
 
-/* Appearance Settings */
+/* MARK: - Appearance Settings View */
+/* Info */
 "appearance_setting_info_title" = "Описание";
 "appearance_setting_info_description" = "Настройте приложение по своему вкусу, изменив его внешний вид или цвет акцента.";
 "appearance_ui_style_setting_section_title" = "Тема";
@@ -638,7 +639,8 @@
 "appearance_accent_color_setting_footer_title" = "Изменяет цвет кнопок и других элементов управления в приложении.";
 "appearance_app_icon_setting_section_title" = "Значок приложения";
 
-/* Sync & Data Settings */
+/* MARK: - Sync & Data Settings View */
+/* Info */
 "sync_and_data_setting_info_title" = "Описание";
 "sync_and_data_setting_info_description" = "Получить обзор текущего состояния синхронизации и импортировать или экспортировать данные с помощью CSV-файла.";
 
@@ -666,7 +668,8 @@
 "alert_csv_export_successful_title" = "Экспорт выполнен успешно 🎉";
 "alert_csv_export_successful_message" = "Ваши данные успешно экспортированы в \"%@\".";
 
-/* Cloud Settings */
+/* MARK: - Cloud Settings View */
+/* Info */
 "cloud_setting_info_title" = "Описание";
 "cloud_setting_info_description" = "Следующее представление предоставляет более подробный обзор текущего состояния синхронизации iCloud и помогает при устранении неполадок.";
 
@@ -689,7 +692,8 @@
 "import_from_cloud_button" = "Загрузить из iCloud";
 "manual_sync_cloud_setting_footer_title" = "Если ваши данные не были или не полностью синхронизированы с iCloud, вы можете вручную запустить синхронизацию здесь.";
 
-/* Backup Settings */
+/* MARK: - Backup Settings View */
+/* Info */
 "backup_setting_info_title" = "Описание";
 "backup_setting_info_description" = "Если включена, эту функция будет регулярно создавать резервные копии ваших данных, чтобы вы могли в любой момент восстановить приложение до предыдущего состояния.";
 
@@ -724,7 +728,27 @@
 "alert_restore_backup_message" = "Вы действительно хотите восстановить эту резервную копию?\n\nТекущие данные будут удалены и заменены данными из выбранной резервной копии.\n\nВнимание: это действие нельзя отменить!";
 "alert_restore_backup_button" = "Восстановить резервную копию";
 
-/* Advanced Settings */
+/* Progress */
+"backup_restore_progress_alert_title" = "Восстановление резервной копии";
+"backup_restore_progress_preparing" = "Подготовка резервной копии";
+"backup_restore_progress_validating" = "Проверка резервной копии";
+"backup_restore_progress_reading_data" = "Чтение данных резервной копии";
+"backup_restore_progress_deleting_existing_data" = "Удаление существующих данных";
+"backup_restore_progress_finishing" = "Завершение восстановления";
+
+/* Progress Entities */
+"backup_restore_progress_budget_books" = "Бюджетные книги";
+"backup_restore_progress_accounts" = "Счета";
+"backup_restore_progress_category_groups" = "Группы категорий";
+"backup_restore_progress_categories" = "Категории";
+"backup_restore_progress_payees" = "Получатели платежей";
+"backup_restore_progress_tags" = "Теги";
+"backup_restore_progress_budgets" = "Бюджеты";
+"backup_restore_progress_transaction_groups" = "Группы транзакций";
+"backup_restore_progress_transactions" = "Транзакции";
+"backup_restore_progress_reminders" = "Напоминания";
+
+/* MARK: - Advanced Settings View */
 "advanced_setting_info_title" = "Описание";
 "advanced_setting_info_description" = "Выполните дополнительные настройки, чтобы настроить приложение.";
 

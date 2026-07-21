@@ -628,7 +628,8 @@
 - Purchases: %@";
 "contact_developer_mail_no_purchases" = "None";
 
-/* Appearance Settings */
+/* MARK: - Appearance Settings View */
+/* Info */
 "appearance_setting_info_title" = "Mô tả";
 "appearance_setting_info_description" = "Cá nhân hóa ứng dụng theo ý thích của bạn bằng cách thay đổi giao diện hoặc màu chủ đạo của ứng dụng.";
 "appearance_ui_style_setting_section_title" = "Chủ đề";
@@ -638,7 +639,8 @@
 "appearance_accent_color_setting_footer_title" = "Thay đổi màu của các nút trong ứng dụng.";
 "appearance_app_icon_setting_section_title" = "Biểu tượng";
 
-/* Sync & Data Settings */
+/* MARK: - Sync & Data Settings View */
+/* Info */
 "sync_and_data_setting_info_title" = "Mô tả";
 "sync_and_data_setting_info_description" = "Tổng quan về trạng thái đồng bộ hoặc nhập xuất dữ liệu";
 
@@ -666,7 +668,8 @@
 "alert_csv_export_successful_title" = "Xuất dữ liệu thành công 🎉";
 "alert_csv_export_successful_message" = "Dữ liệu của bạn đã được xuất thành công sang \"%@\".";
 
-/* Cloud Settings */
+/* MARK: - Cloud Settings View */
+/* Info */
 "cloud_setting_info_title" = "Mô tả";
 "cloud_setting_info_description" = "Chế độ xem sau đây cung cấp cái nhìn tổng quan chi tiết hơn về trạng thái đồng bộ hóa iCloud hiện tại và giúp khắc phục sự cố.";
 
@@ -689,7 +692,8 @@
 "import_from_cloud_button" = "Tải xuống từ iCloud";
 "manual_sync_cloud_setting_footer_title" = "Nếu dữ liệu của bạn chưa hoặc chưa được đồng bộ đầy đủ với iCloud, bạn có thể khởi động đồng bộ thủ công tại đây.";
 
-/* Backup Settings */
+/* MARK: - Backup Settings View */
+/* Info */
 "backup_setting_info_title" = "Mô tả";
 "backup_setting_info_description" = "Budget Flow sẽ thường xuyên sao lưu dữ liệu của bạn vào bất cứ lúc nào.";
 
@@ -724,7 +728,27 @@
 "alert_restore_backup_message" = "Bạn có chắc chắn muốn khôi phục bản sao lưu này không?\n\nThao tác này sẽ xóa dữ liệu hiện tại của bạn và thay thế bằng dữ liệu từ bản sao lưu đã chọn.\n\nCảnh báo: Không thể hoàn tác thao tác này!";
 "alert_restore_backup_button" = "Khôi phục bản sao lưu";
 
-/* Advanced Settings */
+/* Progress */
+"backup_restore_progress_alert_title" = "Đang khôi phục bản sao lưu";
+"backup_restore_progress_preparing" = "Đang chuẩn bị bản sao lưu";
+"backup_restore_progress_validating" = "Đang xác thực bản sao lưu";
+"backup_restore_progress_reading_data" = "Đang đọc dữ liệu sao lưu";
+"backup_restore_progress_deleting_existing_data" = "Đang xóa dữ liệu hiện có";
+"backup_restore_progress_finishing" = "Đang hoàn tất khôi phục";
+
+/* Progress Entities */
+"backup_restore_progress_budget_books" = "Sổ ngân sách";
+"backup_restore_progress_accounts" = "Tài khoản";
+"backup_restore_progress_category_groups" = "Nhóm danh mục";
+"backup_restore_progress_categories" = "Danh mục";
+"backup_restore_progress_payees" = "Người nhận thanh toán";
+"backup_restore_progress_tags" = "Thẻ";
+"backup_restore_progress_budgets" = "Ngân sách";
+"backup_restore_progress_transaction_groups" = "Nhóm giao dịch";
+"backup_restore_progress_transactions" = "Giao dịch";
+"backup_restore_progress_reminders" = "Lời nhắc";
+
+/* MARK: - Advanced Settings View */
 "advanced_setting_info_title" = "Mô tả";
 "advanced_setting_info_description" = "Tuỳ chọn thêm cài đặt để cấu hình ứng dụng.";
 

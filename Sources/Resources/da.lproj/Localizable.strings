@@ -628,7 +628,8 @@
 - Purchases: %@";
 "contact_developer_mail_no_purchases" = "None";
 
-/* Appearance Settings */
+/* MARK: - Appearance Settings View */
+/* Info */
 "appearance_setting_info_title" = "Beskrivelse";
 "appearance_setting_info_description" = "Tilpas appen efter din smag ved at ændre appens udseende eller accentfarve.";
 "appearance_ui_style_setting_section_title" = "Tema";
@@ -638,7 +639,8 @@
 "appearance_accent_color_setting_footer_title" = "Ændrer farven på knapper og andre kontroller i appen.";
 "appearance_app_icon_setting_section_title" = "App-ikon";
 
-/* Sync & Data Settings */
+/* MARK: - Sync & Data Settings View */
+/* Info */
 "sync_and_data_setting_info_title" = "Beskrivelse";
 "sync_and_data_setting_info_description" = "Få et overblik over den aktuelle synkroniseringsstatus og importer eller eksporter data ved hjælp af en CSV-fil.";
 
@@ -666,7 +668,8 @@
 "alert_csv_export_successful_title" = "Eksporten lykkedes 🎉";
 "alert_csv_export_successful_message" = "Dine data blev eksporteret til \"%@\".";
 
-/* Cloud Settings */
+/* MARK: - Cloud Settings View */
+/* Info */
 "cloud_setting_info_title" = "Beskrivelse";
 "cloud_setting_info_description" = "Følgende visning giver et mere detaljeret overblik over den aktuelle iCloud-synkroniseringsstatus og hjælper med fejlfinding.";
 
@@ -689,7 +692,8 @@
 "import_from_cloud_button" = "Hent fra iCloud";
 "manual_sync_cloud_setting_footer_title" = "Hvis dine data ikke er eller ikke er fuldt synkroniseret med iCloud, kan du starte synkroniseringen manuelt her.";
 
-/* Backup Settings */
+/* MARK: - Backup Settings View */
+/* Info */
 "backup_setting_info_title" = "Beskrivelse";
 "backup_setting_info_description" = "Når det er aktiveret, sikkerhedskopierer Budget Flow regelmæssigt dine data, så du til enhver tid kan gendanne appen til en tidligere tilstand.";
 
@@ -724,7 +728,27 @@
 "alert_restore_backup_message" = "Er du sikker på, at du vil gendanne denne sikkerhedskopi?\n\nDette sletter dine aktuelle data og erstatter dem med dataene fra den valgte sikkerhedskopi.\n\nAdvarsel: Denne handling kan ikke fortrydes!";
 "alert_restore_backup_button" = "Gendan sikkerhedskopi";
 
-/* Advanced Settings */
+/* Progress */
+"backup_restore_progress_alert_title" = "Gendanner sikkerhedskopi";
+"backup_restore_progress_preparing" = "Forbereder sikkerhedskopi";
+"backup_restore_progress_validating" = "Validerer sikkerhedskopi";
+"backup_restore_progress_reading_data" = "Læser sikkerhedskopidata";
+"backup_restore_progress_deleting_existing_data" = "Sletter eksisterende data";
+"backup_restore_progress_finishing" = "Afslutter gendannelse";
+
+/* Progress Entities */
+"backup_restore_progress_budget_books" = "Budgetbøger";
+"backup_restore_progress_accounts" = "Konti";
+"backup_restore_progress_category_groups" = "Kategorigrupper";
+"backup_restore_progress_categories" = "Kategorier";
+"backup_restore_progress_payees" = "Betalingsmodtagere";
+"backup_restore_progress_tags" = "Tags";
+"backup_restore_progress_budgets" = "Budgetter";
+"backup_restore_progress_transaction_groups" = "Transaktionsgrupper";
+"backup_restore_progress_transactions" = "Transaktioner";
+"backup_restore_progress_reminders" = "Påmindelser";
+
+/* MARK: - Advanced Settings View */
 "advanced_setting_info_title" = "Beskrivelse";
 "advanced_setting_info_description" = "Foretag yderligere indstillinger for at konfigurere appen.";
 

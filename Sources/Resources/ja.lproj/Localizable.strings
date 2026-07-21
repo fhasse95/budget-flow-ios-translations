@@ -628,7 +628,8 @@
 - Purchases: %@";
 "contact_developer_mail_no_purchases" = "None";
 
-/* Appearance Settings */
+/* MARK: - Appearance Settings View */
+/* Info */
 "appearance_setting_info_title" = "説明";
 "appearance_setting_info_description" = "アプリの外観やアクセントカラーを変更して、アプリを好みに合わせてカスタマイズします。";
 "appearance_ui_style_setting_section_title" = "テーマ";
@@ -638,7 +639,8 @@
 "appearance_accent_color_setting_footer_title" = "アプリ内のボタンやその他のコントロールの色を変更します。";
 "appearance_app_icon_setting_section_title" = "アプリアイコン";
 
-/* Sync & Data Settings */
+/* MARK: - Sync & Data Settings View */
+/* Info */
 "sync_and_data_setting_info_title" = "説明";
 "sync_and_data_setting_info_description" = "現在の同期ステータスの概要を取得し、CSV ファイルを使用してデータをインポートまたはエクスポートします。";
 
@@ -666,7 +668,8 @@
 "alert_csv_export_successful_title" = "エクスポートは成功しました 🎉";
 "alert_csv_export_successful_message" = "データは \"%@\" に正常にエクスポートされました。";
 
-/* Cloud Settings */
+/* MARK: - Cloud Settings View */
+/* Info */
 "cloud_setting_info_title" = "説明";
 "cloud_setting_info_description" = "次のビューは、現在の iCloud 同期ステータスのより詳細な概要を提供し、トラブルシューティングに役立ちます。";
 
@@ -689,7 +692,8 @@
 "import_from_cloud_button" = "iCloudからダウンロード";
 "manual_sync_cloud_setting_footer_title" = "データがiCloudと同期されていない、または完全に同期されていない場合は、ここで手動で同期を開始できます。";
 
-/* Backup Settings */
+/* MARK: - Backup Settings View */
+/* Info */
 "backup_setting_info_title" = "説明";
 "backup_setting_info_description" = "有効にすると、Budget Flow が定期的にデータをバックアップするため、いつでもアプリを以前の状態に復元できます。";
 
@@ -724,7 +728,27 @@
 "alert_restore_backup_message" = "このバックアップを本当に復元しますか？\n\n現在のデータは削除され、選択したバックアップのデータに置き換えられます。\n\n警告: この操作は元に戻せません!";
 "alert_restore_backup_button" = "バックアップを復元";
 
-/* Advanced Settings */
+/* Progress */
+"backup_restore_progress_alert_title" = "バックアップを復元中";
+"backup_restore_progress_preparing" = "バックアップを準備中";
+"backup_restore_progress_validating" = "バックアップを検証中";
+"backup_restore_progress_reading_data" = "バックアップデータを読み込み中";
+"backup_restore_progress_deleting_existing_data" = "既存のデータを削除中";
+"backup_restore_progress_finishing" = "復元を完了中";
+
+/* Progress Entities */
+"backup_restore_progress_budget_books" = "予算ブック";
+"backup_restore_progress_accounts" = "口座";
+"backup_restore_progress_category_groups" = "カテゴリグループ";
+"backup_restore_progress_categories" = "カテゴリ";
+"backup_restore_progress_payees" = "支払先";
+"backup_restore_progress_tags" = "タグ";
+"backup_restore_progress_budgets" = "予算";
+"backup_restore_progress_transaction_groups" = "取引グループ";
+"backup_restore_progress_transactions" = "取引";
+"backup_restore_progress_reminders" = "リマインダー";
+
+/* MARK: - Advanced Settings View */
 "advanced_setting_info_title" = "説明";
 "advanced_setting_info_description" = "アプリを構成するためにさらに設定を行います。";
 

@@ -628,48 +628,64 @@
 - Purchases: %@";
 "contact_developer_mail_no_purchases" = "None";
 
-/* Appearance Settings */
+/* MARK: - Appearance Settings View */
+/* Info */
 "appearance_setting_info_title" = "Description";
 "appearance_setting_info_description" = "Personalize the app to your liking by changing the app's appearance or accent color.";
+
+/* Sections */
 "appearance_ui_style_setting_section_title" = "Theme";
-"appearance_ui_style_apply_to_icons_title" = "Apply to Icons";
-"appearance_ui_style_apply_to_icons_description" = "Apply the selected appearance to all icons within the app as well.";
 "appearance_accent_color_setting_section_title" = "Accent Color";
-"appearance_accent_color_setting_footer_title" = "Changes the color of buttons and other controls within the app.";
 "appearance_app_icon_setting_section_title" = "App Icon";
 
-/* Sync & Data Settings */
+/* Options */
+"appearance_ui_style_apply_to_icons_title" = "Apply to Icons";
+"appearance_ui_style_apply_to_icons_description" = "Apply the selected appearance to all icons within the app as well.";
+
+/* Footer */
+"appearance_accent_color_setting_footer_title" = "Changes the color of buttons and other controls within the app.";
+
+/* MARK: - Sync & Data Settings View */
+/* Info */
 "sync_and_data_setting_info_title" = "Description";
 "sync_and_data_setting_info_description" = "Get an overview of the current synchronization status and import or export data using a CSV file.";
 
+/* Sections */
 "sync_and_data_cloud_setting_section_title" = "iCloud";
-"sync_and_data_cloud_setting_footer_title" = "Indicates whether the synchronization with iCloud was successful or if an error occurred.";
-"sync_and_data_setting_cloud_sync_status_title" = "Sync Status";
 "backup_setting_section_title" = "Backups";
-"backup_setting_footer_title" = "Manage your backups and backup settings.";
-"backup_setting_manage_backups_title" = "Manage";
 "sync_and_data_csv_setting_section_title" = "CSV-Data";
-"sync_and_data_csv_setting_footer_title" = "Import or export your transactions using a CSV file.";
+
+/* Titles */
+"sync_and_data_setting_cloud_sync_status_title" = "Sync Status";
+"backup_setting_manage_backups_title" = "Manage";
 "sync_and_data_setting_csv_import_title" = "Import";
 "sync_and_data_setting_csv_export_title" = "Export";
 "sync_and_data_setting_get_csv_template_title" = "Download template";
 
+/* Buttons */
 "clear_cache_button" = "Clear Cache";
+
+/* Footer */
+"sync_and_data_cloud_setting_footer_title" = "Indicates whether the synchronization with iCloud was successful or if an error occurred.";
+"backup_setting_footer_title" = "Manage your backups and backup settings.";
+"sync_and_data_csv_setting_footer_title" = "Import or export your transactions using a CSV file.";
 "cache_setting_footer_title" = "Info: Clearing the cache deletes all files in the app's document directory (including backups).";
 
+/* Alert Views */
 "alert_csv_import_successful_title" = "Import successful 🎉";
 "alert_csv_import_successful_message" = "In total, %d of %d transactions were imported.%@";
 "alert_csv_import_skipped_message" = " Thereby %d transactions have been skipped.";
 "alert_csv_import_error_message" = "Failed to import %d of %d transactions successfully.\n\n%@";
 "alert_csv_import_error_reason_field_message" = "Please check the following fields in your CSV file: %@.";
-
 "alert_csv_export_successful_title" = "Export successful 🎉";
 "alert_csv_export_successful_message" = "Your data was successfully exported to \"%@\".";
 
-/* Cloud Settings */
+/* MARK: - Cloud Settings View */
+/* Info */
 "cloud_setting_info_title" = "Description";
 "cloud_setting_info_description" = "The following view provides a more detailed overview of the current iCloud sync status and helps with troubleshooting.";
 
+/* Status */
 "cloud_setting_network_status_title" = "Network";
 "cloud_setting_network_status_success_value" = "Internet connection available";
 "cloud_setting_network_status_error_value" = "No internet connection";
@@ -686,48 +702,74 @@
 "cloud_setting_number_of_transactions_in_progress_title" = "Please wait...";
 "cloud_setting_number_of_transactions_error_title" = "Error";
 
+/* Buttons */
 "import_from_cloud_button" = "Download from iCloud";
+
+/* Footer */
 "manual_sync_cloud_setting_footer_title" = "If your data has not or not fully synced with iCloud, you can manually trigger the synchronization here.";
 
-/* Backup Settings */
+/* MARK: - Backup Settings View */
+/* Info */
 "backup_setting_info_title" = "Description";
 "backup_setting_info_description" = "When enabled, Budget Flow regularly backs up your data so you can restore the app to a previous state at any time.";
 
+/* Sections */
 "backup_setting_general_section_title" = "General";
 "backup_setting_recent_section_title" = "Recent Backups";
+
+/* Titles */
 "backup_setting_use_automatic_backups_title" = "Automatic Backup";
 "backup_setting_back_up_to_icloud_drive_title" = "Back up to iCloud Drive";
-
 "backup_setting_keep_backups_title" = "Keep Backups";
+"backup_setting_create_backup_title" = "Create backup";
+"backup_setting_no_recent_backups_title" = "No backups available";
+"backup_setting_backup_subtitle" = "%@ · %@";
+
+/* Options */
 "backup_setting_keep_backups_last_5_title" = "Last 5";
 "backup_setting_keep_backups_last_10_title" = "Last 10";
 "backup_setting_keep_backups_last_20_title" = "Last 20";
 "backup_setting_keep_backups_last_30_title" = "Last 30";
 "backup_setting_keep_backups_all_title" = "All";
 
-"backup_setting_create_backup_title" = "Create backup";
-
-"backup_setting_no_recent_backups_title" = "No backups available";
-"backup_setting_backup_subtitle" = "%@ · %@";
-
+/* Alert Views */
 "backup_setting_delete_backup_alert_title" = "Delete Backup";
 "backup_setting_delete_backup_alert_message" = "Are you sure you want to delete this backup?";
-
 "backup_setting_restore_success_title" = "Backup restored";
 "backup_setting_restore_success_message" = "The selected backup has been restored.";
-
 "backup_setting_error_title" = "Backup failed";
 "backup_setting_icloud_drive_unavailable_error" = "iCloud Drive is not available on this device.";
 "backup_setting_could_not_create_backup_directory_error" = "The backup folder could not be created.";
-
 "alert_restore_backup_title" = "Restore Backup";
 "alert_restore_backup_message" = "Are you sure you want to restore this backup?\n\nThis will delete your current data and replace it with the data from the selected backup.\n\nWarning: This action cannot be undone!";
 "alert_restore_backup_button" = "Restore backup";
 
-/* Advanced Settings */
+/* Progress */
+"backup_restore_progress_alert_title" = "Restoring Backup";
+"backup_restore_progress_preparing" = "Preparing Backup";
+"backup_restore_progress_validating" = "Validating Backup";
+"backup_restore_progress_reading_data" = "Reading Backup Data";
+"backup_restore_progress_deleting_existing_data" = "Deleting Existing Data";
+"backup_restore_progress_finishing" = "Finishing Restore";
+
+/* Progress Entities */
+"backup_restore_progress_budget_books" = "Budget Books";
+"backup_restore_progress_accounts" = "Accounts";
+"backup_restore_progress_category_groups" = "Category Groups";
+"backup_restore_progress_categories" = "Categories";
+"backup_restore_progress_payees" = "Payees";
+"backup_restore_progress_tags" = "Tags";
+"backup_restore_progress_budgets" = "Budgets";
+"backup_restore_progress_transaction_groups" = "Transaction Groups";
+"backup_restore_progress_transactions" = "Transactions";
+"backup_restore_progress_reminders" = "Reminders";
+
+/* MARK: - Advanced Settings View */
+/* Info */
 "advanced_setting_info_title" = "Description";
 "advanced_setting_info_description" = "Make further settings to configure the app.";
 
+/* Sections */
 "advanced_security_setting_section_title" = "Security";
 "advanced_view_setting_section_title" = "View";
 "advanced_sidebar_setting_section_title" = "Sidebar";
@@ -736,10 +778,12 @@
 "advanced_input_setting_section_title" = "Input";
 "advanced_other_setting_section_title" = "Other";
 
+/* Security */
 "advanced_setting_use_passcode_title" = "Use Passcode";
 "advanced_setting_use_title" = "Use %@";
 "advanced_setting_auto_lock_title" = "Request Code";
 
+/* View */
 "advanced_setting_chart_type_title" = "Chart Type";
 "advanced_setting_show_most_used_items_title" = "Show frequent categories & tags";
 "advanced_setting_show_most_used_items_description" = "Show frequently used categories & tags in the selection list when creating and editing transactions.";
@@ -751,10 +795,10 @@
 "advanced_setting_start_day_of_month_description" = "Specify the start day of each month so that reports, transactions and budgets are calculated appropriately.";
 "advanced_setting_configure_transaction_title_title" = "Transaction Title";
 "advanced_setting_configure_transaction_subtitle_title" = "Transaction Subtitle";
-
 "advanced_setting_configure_transaction_title_info_title" = "Description";
 "advanced_setting_configure_transaction_title_info_description" = "Set the order of the items to be displayed in the transaction title. If an item is missing, the next one in the order is automatically used.";
 
+/* Sidebar */
 "advanced_setting_show_accounts_in_sidebar_title" = "Show accounts in sidebar";
 "advanced_setting_show_accounts_in_sidebar_description" = "Show a list of your accounts in the sidebar.";
 "advanced_setting_group_accounts_in_sidebar_title" = "Group accounts in sidebar";
@@ -764,6 +808,7 @@
 "advanced_setting_group_categories_in_sidebar_title" = "Group categories in sidebar";
 "advanced_setting_group_categories_in_sidebar_description" = "Group your categories in the sidebar by folder.";
 
+/* Input */
 "advanced_setting_select_time_automatically_title" = "Automatic time selection";
 "advanced_setting_select_time_automatically_description" = "Automatically select the current time for new transactions.";
 "advanced_setting_select_location_automatically_title" = "Automatic location selection";
@@ -774,10 +819,6 @@
 "advanced_setting_suggested_notes_description" = "Get suggestions based on your previous transactions as you type in the note field.";
 "advanced_setting_consider_pending_items_title" = "Book all transactions";
 "advanced_setting_consider_pending_items_description" = "Include pending transactions when calculating account balances, balances, totals, etc.";
-
-"advanced_setting_use_apple_intelligence_in_receipt_scanner_title" = "Apple Intelligence";
-"advanced_setting_use_apple_intelligence_in_receipt_scanner_description" = "Use Apple Intelligence to automatically fill in extra fields when scanning a receipt.";
-
 "advanced_setting_enable_exact_times_title" = "Enter exact times";
 "advanced_setting_enable_exact_times_description" = "Select exact times using the minute spinner for transactions (e.g. 9:41 am).";
 "advanced_setting_reverse_keyboard_title" = "Reversed Keyboard";
@@ -785,6 +826,11 @@
 "advanced_setting_enable_haptic_keyboard_title" = "Keyboard Feedback";
 "advanced_setting_enable_haptic_keyboard_description" = "Get haptic feedback when entering monetary amounts using the numeric keyboard.";
 
+/* Receipt Scanner */
+"advanced_setting_use_apple_intelligence_in_receipt_scanner_title" = "Apple Intelligence";
+"advanced_setting_use_apple_intelligence_in_receipt_scanner_description" = "Use Apple Intelligence to automatically fill in extra fields when scanning a receipt.";
+
+/* Other */
 "advanced_setting_language_title" = "Language";
 "advanced_setting_time_zone_title" = "Timezone";
 "advanced_setting_enable_live_activities_title" = "Live-Activities";

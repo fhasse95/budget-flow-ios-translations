@@ -628,48 +628,64 @@
 - Käufe: %@";
 "contact_developer_mail_no_purchases" = "Keine";
 
-/* Appearance Settings */
+/* MARK: - Appearance Settings View */
+/* Info */
 "appearance_setting_info_title" = "Beschreibung";
 "appearance_setting_info_description" = "Personalisiere die App indem du das Erscheinungsbild oder die Akzentfarbe änderst.";
+
+/* Sections */
 "appearance_ui_style_setting_section_title" = "Design";
-"appearance_ui_style_apply_to_icons_title" = "Auf Symbole anwenden";
-"appearance_ui_style_apply_to_icons_description" = "Wende das gewählte Design auch auf sämtliche Symbole innerhalb der App an.";
 "appearance_accent_color_setting_section_title" = "Akzentfarbe";
-"appearance_accent_color_setting_footer_title" = "Ändert die Farbe von Schaltflächen und anderen Steuerelementen innerhalb der App.";
 "appearance_app_icon_setting_section_title" = "App Icon";
 
-/* Sync & Data Settings */
+/* Options */
+"appearance_ui_style_apply_to_icons_title" = "Auf Symbole anwenden";
+"appearance_ui_style_apply_to_icons_description" = "Wende das gewählte Design auch auf sämtliche Symbole innerhalb der App an.";
+
+/* Footer */
+"appearance_accent_color_setting_footer_title" = "Ändert die Farbe von Schaltflächen und anderen Steuerelementen innerhalb der App.";
+
+/* MARK: - Sync & Data Settings View */
+/* Info */
 "sync_and_data_setting_info_title" = "Beschreibung";
 "sync_and_data_setting_info_description" = "Verschaffe dir einen Überblick über den iCloud Synchronisationsstatus, verwalte deine Backups oder importiere bzw. exportiere deine Daten mithilfe einer CSV-Datei.";
 
+/* Sections */
 "sync_and_data_cloud_setting_section_title" = "iCloud";
-"sync_and_data_cloud_setting_footer_title" = "Zeigt an, ob die letzte Synchronisierung erfolgreich war oder ein Fehler aufgetreten ist.";
-"sync_and_data_setting_cloud_sync_status_title" = "Sync Status";
 "backup_setting_section_title" = "Backups";
-"backup_setting_footer_title" = "Verwalte deine Backups und Backup-Einstellungen.";
-"backup_setting_manage_backups_title" = "Verwalten";
 "sync_and_data_csv_setting_section_title" = "CSV-Daten";
-"sync_and_data_csv_setting_footer_title" = "Importiere oder exportiere deine Transaktionen mithilfe einer CSV-Datei.";
+
+/* Titles */
+"sync_and_data_setting_cloud_sync_status_title" = "Sync Status";
+"backup_setting_manage_backups_title" = "Verwalten";
 "sync_and_data_setting_csv_import_title" = "Import";
 "sync_and_data_setting_csv_export_title" = "Export";
 "sync_and_data_setting_get_csv_template_title" = "Vorlage herunterladen";
 
+/* Buttons */
 "clear_cache_button" = "Cache leeren";
+
+/* Footer */
+"sync_and_data_cloud_setting_footer_title" = "Zeigt an, ob die letzte Synchronisierung erfolgreich war oder ein Fehler aufgetreten ist.";
+"backup_setting_footer_title" = "Verwalte deine Backups und Backup-Einstellungen.";
+"sync_and_data_csv_setting_footer_title" = "Importiere oder exportiere deine Transaktionen mithilfe einer CSV-Datei.";
 "cache_setting_footer_title" = "Hinweis: Beim Leeren des Caches werden sämtliche Dateien im Dokumentenverzeichnis der App gelöscht (inkl. Backups).";
 
+/* Alert Views */
 "alert_csv_import_successful_title" = "Import erfolgreich 🎉";
 "alert_csv_import_successful_message" = "Ingesamt wurden %d von %d Transaktionen importiert.%@";
 "alert_csv_import_skipped_message" = " Dabei sind %d Transaktionen übersprungen worden.";
 "alert_csv_import_error_message" = "Es konnten %d von %d Transaktionen nicht erfolgreich importiert werden.\n\n%@";
 "alert_csv_import_error_reason_field_message" = "Bitte überprüfe folgende Felder in deiner CSV-Datei: %@.";
-
 "alert_csv_export_successful_title" = "Export erfolgreich 🎉";
 "alert_csv_export_successful_message" = "Deine Daten wurden erfolgreich nach \"%@\" exportiert.";
 
-/* Cloud Settings */
+/* MARK: - Cloud Settings View */
+/* Info */
 "cloud_setting_info_title" = "Beschreibung";
 "cloud_setting_info_description" = "Die folgende Ansicht liefert einen detaillierteren Überblick über den aktuellen Status der iCloud-Synchronisierung und hilft bei der Fehlerbehebung.";
 
+/* Status */
 "cloud_setting_network_status_title" = "Netzwerk";
 "cloud_setting_network_status_success_value" = "Internetverbindung verfügbar";
 "cloud_setting_network_status_error_value" = "Keine Internetverbindung";
@@ -686,48 +702,74 @@
 "cloud_setting_number_of_transactions_in_progress_title" = "Bitte warten...";
 "cloud_setting_number_of_transactions_error_title" = "Fehler";
 
+/* Buttons */
 "import_from_cloud_button" = "Aus iCloud herunterladen";
+
+/* Footer */
 "manual_sync_cloud_setting_footer_title" = "Wenn deine Daten nicht oder nicht vollständig mit der iCloud synchronisiert wurden, kannst du hier die Synchronisierung manuell anstoßen.";
 
-/* Backup Settings */
+/* MARK: - Backup Settings View */
+/* Info */
 "backup_setting_info_title" = "Beschreibung";
 "backup_setting_info_description" = "Wenn aktiviert, erstellt Budget Flow regelmäßig Backups deiner Daten, sodass du die App jederzeit auf einen früheren Stand zurücksetzen kannst.";
 
+/* Sections */
 "backup_setting_general_section_title" = "Allgemein";
 "backup_setting_recent_section_title" = "Letzte Backups";
+
+/* Titles */
 "backup_setting_use_automatic_backups_title" = "Automatisches Backup";
 "backup_setting_back_up_to_icloud_drive_title" = "In iCloud Drive sichern";
-
 "backup_setting_keep_backups_title" = "Backups behalten";
+"backup_setting_create_backup_title" = "Backup erstellen";
+"backup_setting_no_recent_backups_title" = "Keine Backups verfügbar";
+"backup_setting_backup_subtitle" = "%@ · %@";
+
+/* Options */
 "backup_setting_keep_backups_last_5_title" = "Letzte 5";
 "backup_setting_keep_backups_last_10_title" = "Letzte 10";
 "backup_setting_keep_backups_last_20_title" = "Letzte 20";
 "backup_setting_keep_backups_last_30_title" = "Letzte 30";
 "backup_setting_keep_backups_all_title" = "Alle";
 
-"backup_setting_create_backup_title" = "Backup erstellen";
-
-"backup_setting_no_recent_backups_title" = "Keine Backups verfügbar";
-"backup_setting_backup_subtitle" = "%@ · %@";
-
+/* Alert Views */
 "backup_setting_delete_backup_alert_title" = "Backup löschen";
 "backup_setting_delete_backup_alert_message" = "Möchtest du dieses Backup wirklich löschen?";
-
 "backup_setting_restore_success_title" = "Backup wiederhergestellt";
 "backup_setting_restore_success_message" = "Das ausgewählte Backup wurde wiederhergestellt.";
-
 "backup_setting_error_title" = "Backup fehlgeschlagen";
 "backup_setting_icloud_drive_unavailable_error" = "iCloud Drive ist auf diesem Gerät nicht verfügbar.";
 "backup_setting_could_not_create_backup_directory_error" = "Der Backup-Ordner konnte nicht erstellt werden.";
-
 "alert_restore_backup_title" = "Backup wiederherstellen";
 "alert_restore_backup_message" = "Möchtest du dieses Backup wirklich wiederherstellen?\n\nDabei werden deine aktuellen Daten gelöscht und durch die Daten aus dem ausgewählten Backup ersetzt.\n\nWarnung: Dieser Vorgang kann nicht rückgängig gemacht werden!";
 "alert_restore_backup_button" = "Backup wiederherstellen";
 
-/* Advanced Settings */
+/* Progress */
+"backup_restore_progress_alert_title" = "Backup wird wiederhergestellt";
+"backup_restore_progress_preparing" = "Backup wird vorbereitet";
+"backup_restore_progress_validating" = "Backup wird geprüft";
+"backup_restore_progress_reading_data" = "Backup-Daten werden gelesen";
+"backup_restore_progress_deleting_existing_data" = "Vorhandene Daten werden gelöscht";
+"backup_restore_progress_finishing" = "Wiederherstellung wird abgeschlossen";
+
+/* Progress Entities */
+"backup_restore_progress_budget_books" = "Budgetbücher";
+"backup_restore_progress_accounts" = "Konten";
+"backup_restore_progress_category_groups" = "Kategoriegruppen";
+"backup_restore_progress_categories" = "Kategorien";
+"backup_restore_progress_payees" = "Zahlungspartner";
+"backup_restore_progress_tags" = "Tags";
+"backup_restore_progress_budgets" = "Budgets";
+"backup_restore_progress_transaction_groups" = "Transaktionsgruppen";
+"backup_restore_progress_transactions" = "Transaktionen";
+"backup_restore_progress_reminders" = "Erinnerungen";
+
+/* MARK: - Advanced Settings View */
+/* Info */
 "advanced_setting_info_title" = "Beschreibung";
 "advanced_setting_info_description" = "Nimm weitere Einstellungen vor, um die App zu konfigurieren.";
 
+/* Sections */
 "advanced_security_setting_section_title" = "Sicherheit";
 "advanced_view_setting_section_title" = "Anzeige";
 "advanced_sidebar_setting_section_title" = "Seitenleiste";
@@ -736,10 +778,12 @@
 "advanced_input_setting_section_title" = "Eingabe";
 "advanced_other_setting_section_title" = "Sonstiges";
 
+/* Security */
 "advanced_setting_use_passcode_title" = "Code verwenden";
 "advanced_setting_use_title" = "%@ verwenden";
 "advanced_setting_auto_lock_title" = "Code anfordern";
 
+/* View */
 "advanced_setting_chart_type_title" = "Diagrammtyp";
 "advanced_setting_show_most_used_items_title" = "Häufige Kategorien & Tags";
 "advanced_setting_show_most_used_items_description" = "Zeig häufig verwendete Kategorien und Tags beim Erstellen und Bearbeiten von Transaktionen an.";
@@ -751,10 +795,10 @@
 "advanced_setting_start_day_of_month_description" = "Lege den Tag des Monatsanfangs fest, um Auswertungen, Diagramme und Budgets korrekt zu berechnen.";
 "advanced_setting_configure_transaction_title_title" = "Transaktions-Titel";
 "advanced_setting_configure_transaction_subtitle_title" = "Transaktions-Untertitel";
-
 "advanced_setting_configure_transaction_title_info_title" = "Beschreibung";
 "advanced_setting_configure_transaction_title_info_description" = "Lege die Reihenfolge der Elemente fest, die im Transaktionstitel angezeigt werden sollen. Ist ein Element nicht vorhanden, wird automatisch das nächste in der Reihenfolge verwendet.";
 
+/* Sidebar */
 "advanced_setting_show_accounts_in_sidebar_title" = "Konten in Seitenleiste anzeigen";
 "advanced_setting_show_accounts_in_sidebar_description" = "Zeige eine Liste deiner Konten in der Seitenleiste an.";
 "advanced_setting_group_accounts_in_sidebar_title" = "Konten in Seitenleiste gruppieren";
@@ -764,6 +808,7 @@
 "advanced_setting_group_categories_in_sidebar_title" = "Kategorien in Seitenleiste gruppieren";
 "advanced_setting_group_categories_in_sidebar_description" = "Gruppiere deine Kategorien in der Seitenleiste nach Ordnern.";
 
+/* Input */
 "advanced_setting_select_time_automatically_title" = "Uhrzeit automatisch auswählen";
 "advanced_setting_select_time_automatically_description" = "Wähle die aktuelle Uhrzeit automatisch für neue Transaktionen aus.";
 "advanced_setting_select_location_automatically_title" = "Standort automatisch auswählen";
@@ -774,10 +819,6 @@
 "advanced_setting_suggested_notes_description" = "Erhalte Vorschläge basierend auf deinen bisherigen Transaktionen, während du im Notizfeld etwas eingibst.";
 "advanced_setting_consider_pending_items_title" = "Alle Transaktionen verbuchen";
 "advanced_setting_consider_pending_items_description" = "Berücksichtige bei der Berechnung von Kontoständen, Bilanzen, etc. auch alle vorgemerkten Transaktionen.";
-
-"advanced_setting_use_apple_intelligence_in_receipt_scanner_title" = "Apple Intelligence";
-"advanced_setting_use_apple_intelligence_in_receipt_scanner_description" = "Nutze Apple Intelligence, um beim Scannen eines Belegs automatisch zusätzliche Felder auszufüllen.";
-
 "advanced_setting_enable_exact_times_title" = "Genaue Uhrzeiten";
 "advanced_setting_enable_exact_times_description" = "Wähle genaue Uhrzeiten mithilfe des Minuten-Drehfelds für Transaktionen aus (z.B. 9:41).";
 "advanced_setting_reverse_keyboard_title" = "Umgedrehtes Tastaturlayout";
@@ -785,6 +826,11 @@
 "advanced_setting_enable_haptic_keyboard_title" = "Haptisches Tastaturfeedback";
 "advanced_setting_enable_haptic_keyboard_description" = "Erhalte haptisches Feedback bei der Eingabe von Geldbeträgen über die Tastatur.";
 
+/* Receipt Scanner */
+"advanced_setting_use_apple_intelligence_in_receipt_scanner_title" = "Apple Intelligence";
+"advanced_setting_use_apple_intelligence_in_receipt_scanner_description" = "Nutze Apple Intelligence, um beim Scannen eines Belegs automatisch zusätzliche Felder auszufüllen.";
+
+/* Other */
 "advanced_setting_language_title" = "Sprache";
 "advanced_setting_time_zone_title" = "Zeitzone";
 "advanced_setting_enable_live_activities_title" = "Live-Aktivitäten";

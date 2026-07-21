@@ -628,7 +628,8 @@
 - Purchases: %@";
 "contact_developer_mail_no_purchases" = "None";
 
-/* Appearance Settings */
+/* MARK: - Appearance Settings View */
+/* Info */
 "appearance_setting_info_title" = "Descrição";
 "appearance_setting_info_description" = "Personalize o aplicativo ao seu gosto, alterando a aparência ou a cor de destaque do aplicativo.";
 "appearance_ui_style_setting_section_title" = "Tema";
@@ -638,7 +639,8 @@
 "appearance_accent_color_setting_footer_title" = "Altera a cor dos botões e outros controles dentro do aplicativo.";
 "appearance_app_icon_setting_section_title" = "Ícone do aplicativo";
 
-/* Sync & Data Settings */
+/* MARK: - Sync & Data Settings View */
+/* Info */
 "sync_and_data_setting_info_title" = "Descrição";
 "sync_and_data_setting_info_description" = "Obtenha uma visão geral do status de sincronização atual e importe ou exporte dados usando um arquivo CSV.";
 
@@ -666,7 +668,8 @@
 "alert_csv_export_successful_title" = "Exportação bem-sucedida 🎉";
 "alert_csv_export_successful_message" = "Seus dados foram exportados com êxito para \"%@\".";
 
-/* Cloud Settings */
+/* MARK: - Cloud Settings View */
+/* Info */
 "cloud_setting_info_title" = "Descrição";
 "cloud_setting_info_description" = "A visualização a seguir fornece uma visão geral mais detalhada do status atual de sincronização do iCloud e ajuda na solução de problemas.";
 
@@ -689,7 +692,8 @@
 "import_from_cloud_button" = "Baixar do iCloud";
 "manual_sync_cloud_setting_footer_title" = "Se seus dados não foram ou não estão totalmente sincronizados com o iCloud, você pode iniciar a sincronização manualmente aqui.";
 
-/* Backup Settings */
+/* MARK: - Backup Settings View */
+/* Info */
 "backup_setting_info_title" = "Descrição";
 "backup_setting_info_description" = "Quando ativado, o Budget Flow faz backup regularmente de seus dados para que você possa restaurar o aplicativo para um estado anterior a qualquer momento.";
 
@@ -724,7 +728,27 @@
 "alert_restore_backup_message" = "Tem certeza de que deseja restaurar este backup?\n\nIsso excluirá seus dados atuais e os substituirá pelos dados do backup selecionado.\n\nAviso: Esta ação não pode ser desfeita!";
 "alert_restore_backup_button" = "Restaurar backup";
 
-/* Advanced Settings */
+/* Progress */
+"backup_restore_progress_alert_title" = "Restaurando backup";
+"backup_restore_progress_preparing" = "Preparando backup";
+"backup_restore_progress_validating" = "Validando backup";
+"backup_restore_progress_reading_data" = "Lendo dados do backup";
+"backup_restore_progress_deleting_existing_data" = "Excluindo dados existentes";
+"backup_restore_progress_finishing" = "Finalizando restauração";
+
+/* Progress Entities */
+"backup_restore_progress_budget_books" = "Livros de orçamento";
+"backup_restore_progress_accounts" = "Contas";
+"backup_restore_progress_category_groups" = "Grupos de categorias";
+"backup_restore_progress_categories" = "Categorias";
+"backup_restore_progress_payees" = "Beneficiários";
+"backup_restore_progress_tags" = "Tags";
+"backup_restore_progress_budgets" = "Orçamentos";
+"backup_restore_progress_transaction_groups" = "Grupos de transações";
+"backup_restore_progress_transactions" = "Transações";
+"backup_restore_progress_reminders" = "Lembretes";
+
+/* MARK: - Advanced Settings View */
 "advanced_setting_info_title" = "Descrição";
 "advanced_setting_info_description" = "Faça mais configurações para personalizar o aplicativo.";
 

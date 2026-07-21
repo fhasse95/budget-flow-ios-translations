@@ -628,7 +628,8 @@
 - Purchases: %@";
 "contact_developer_mail_no_purchases" = "None";
 
-/* Appearance Settings */
+/* MARK: - Appearance Settings View */
+/* Info */
 "appearance_setting_info_title" = "Popis";
 "appearance_setting_info_description" = "Přizpůsobte si aplikaci podle svých představ změnou vzhledu aplikace nebo barvy zvýraznění.";
 "appearance_ui_style_setting_section_title" = "Motiv";
@@ -638,7 +639,8 @@
 "appearance_accent_color_setting_footer_title" = "Změní barvu tlačítek a dalších ovládacích prvků v aplikaci.";
 "appearance_app_icon_setting_section_title" = "Ikona aplikace";
 
-/* Sync & Data Settings */
+/* MARK: - Sync & Data Settings View */
+/* Info */
 "sync_and_data_setting_info_title" = "Popis";
 "sync_and_data_setting_info_description" = "Získejte přehled o aktuálním stavu synchronizace a importujte nebo exportujte data pomocí souboru CSV.";
 
@@ -666,7 +668,8 @@
 "alert_csv_export_successful_title" = "Export byl úspěšný 🎉";
 "alert_csv_export_successful_message" = "Vaše data byla úspěšně exportována do \"%@\".";
 
-/* Cloud Settings */
+/* MARK: - Cloud Settings View */
+/* Info */
 "cloud_setting_info_title" = "Popis";
 "cloud_setting_info_description" = "Následující zobrazení poskytuje podrobnější přehled aktuálního stavu synchronizace iCloud a pomáhá s řešením problémů.";
 
@@ -689,7 +692,8 @@
 "import_from_cloud_button" = "Stáhnout z iCloudu";
 "manual_sync_cloud_setting_footer_title" = "Pokud vaše data nebyla nebo nebyla plně synchronizována s iCloudem, můžete zde synchronizaci spustit ručně.";
 
-/* Backup Settings */
+/* MARK: - Backup Settings View */
+/* Info */
 "backup_setting_info_title" = "Popis";
 "backup_setting_info_description" = "Pokud je povoleno, Budget Flow pravidelně zálohuje vaše data, takže můžete aplikaci kdykoli obnovit do předchozího stavu.";
 
@@ -724,7 +728,27 @@
 "alert_restore_backup_message" = "Opravdu chcete obnovit tuto zálohu?\n\nTím se smažou vaše aktuální data a nahradí se daty z vybrané zálohy.\n\nUpozornění: Tuto akci nelze vrátit zpět!";
 "alert_restore_backup_button" = "Obnovit zálohu";
 
-/* Advanced Settings */
+/* Progress */
+"backup_restore_progress_alert_title" = "Obnovování zálohy";
+"backup_restore_progress_preparing" = "Příprava zálohy";
+"backup_restore_progress_validating" = "Ověřování zálohy";
+"backup_restore_progress_reading_data" = "Čtení dat zálohy";
+"backup_restore_progress_deleting_existing_data" = "Mazání existujících dat";
+"backup_restore_progress_finishing" = "Dokončování obnovy";
+
+/* Progress Entities */
+"backup_restore_progress_budget_books" = "Rozpočtové knihy";
+"backup_restore_progress_accounts" = "Účty";
+"backup_restore_progress_category_groups" = "Skupiny kategorií";
+"backup_restore_progress_categories" = "Kategorie";
+"backup_restore_progress_payees" = "Příjemci plateb";
+"backup_restore_progress_tags" = "Štítky";
+"backup_restore_progress_budgets" = "Rozpočty";
+"backup_restore_progress_transaction_groups" = "Skupiny transakcí";
+"backup_restore_progress_transactions" = "Transakce";
+"backup_restore_progress_reminders" = "Připomínky";
+
+/* MARK: - Advanced Settings View */
 "advanced_setting_info_title" = "Popis";
 "advanced_setting_info_description" = "Proveďte další nastavení pro konfiguraci aplikace.";
 

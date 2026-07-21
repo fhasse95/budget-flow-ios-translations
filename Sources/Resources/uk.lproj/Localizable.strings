@@ -628,7 +628,8 @@
 - Purchases: %@";
 "contact_developer_mail_no_purchases" = "None";
 
-/* Appearance Settings */
+/* MARK: - Appearance Settings View */
+/* Info */
 "appearance_setting_info_title" = "Опис";
 "appearance_setting_info_description" = "Персоналізуйте програму на свій смак, змінивши зовнішній вигляд програми або колір акценту.";
 "appearance_ui_style_setting_section_title" = "Тема";
@@ -638,7 +639,8 @@
 "appearance_accent_color_setting_footer_title" = "Змінює колір кнопок та інших елементів керування в програмі.";
 "appearance_app_icon_setting_section_title" = "Піктограма програми";
 
-/* Sync & Data Settings */
+/* MARK: - Sync & Data Settings View */
+/* Info */
 "sync_and_data_setting_info_title" = "Опис";
 "sync_and_data_setting_info_description" = "Отримати огляд поточного статусу синхронізації та імпортувати або експортувати дані за допомогою файлу CSV.";
 
@@ -666,7 +668,8 @@
 "alert_csv_export_successful_title" = "Експорт успішно 🎉";
 "alert_csv_export_successful_message" = "Ваші дані успішно експортовано до \"%@\".";
 
-/* Cloud Settings */
+/* MARK: - Cloud Settings View */
+/* Info */
 "cloud_setting_info_title" = "Опис";
 "cloud_setting_info_description" = "Це представлення містить більш детальний огляд поточного стану синхронізації iCloud і допомагає у вирішенні проблем.";
 
@@ -689,7 +692,8 @@
 "import_from_cloud_button" = "Завантажити з iCloud";
 "manual_sync_cloud_setting_footer_title" = "Якщо ваші дані не були або не повністю синхронізовані з iCloud, ви можете вручну запустити синхронізацію тут.";
 
-/* Backup Settings */
+/* MARK: - Backup Settings View */
+/* Info */
 "backup_setting_info_title" = "Опис";
 "backup_setting_info_description" = "Якщо ввімкнено, Budget Flow регулярно створює резервні копії ваших даних, щоб ви могли будь-коли відновити програму до попереднього стану.";
 
@@ -724,7 +728,27 @@
 "alert_restore_backup_message" = "Ви справді хочете відновити цю резервну копію?\n\nПоточні дані буде видалено й замінено даними з вибраної резервної копії.\n\nПопередження: цю дію не можна скасувати!";
 "alert_restore_backup_button" = "Відновити резервну копію";
 
-/* Advanced Settings */
+/* Progress */
+"backup_restore_progress_alert_title" = "Відновлення резервної копії";
+"backup_restore_progress_preparing" = "Підготовка резервної копії";
+"backup_restore_progress_validating" = "Перевірка резервної копії";
+"backup_restore_progress_reading_data" = "Читання даних резервної копії";
+"backup_restore_progress_deleting_existing_data" = "Видалення наявних даних";
+"backup_restore_progress_finishing" = "Завершення відновлення";
+
+/* Progress Entities */
+"backup_restore_progress_budget_books" = "Бюджетні книги";
+"backup_restore_progress_accounts" = "Рахунки";
+"backup_restore_progress_category_groups" = "Групи категорій";
+"backup_restore_progress_categories" = "Категорії";
+"backup_restore_progress_payees" = "Одержувачі платежів";
+"backup_restore_progress_tags" = "Теги";
+"backup_restore_progress_budgets" = "Бюджети";
+"backup_restore_progress_transaction_groups" = "Групи транзакцій";
+"backup_restore_progress_transactions" = "Транзакції";
+"backup_restore_progress_reminders" = "Нагадування";
+
+/* MARK: - Advanced Settings View */
 "advanced_setting_info_title" = "Опис";
 "advanced_setting_info_description" = "Виконайте додаткові налаштування для налаштування програми.";
 

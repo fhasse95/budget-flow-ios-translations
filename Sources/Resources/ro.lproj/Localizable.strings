@@ -628,7 +628,8 @@
 - Purchases: %@";
 "contact_developer_mail_no_purchases" = "None";
 
-/* Appearance Settings */
+/* MARK: - Appearance Settings View */
+/* Info */
 "appearance_setting_info_title" = "Descriere";
 "appearance_setting_info_description" = "Personalizați aplicația după bunul plac, schimbând aspectul sau culoarea de accent a aplicației.";
 "appearance_ui_style_setting_section_title" = "Temă";
@@ -638,7 +639,8 @@
 "appearance_accent_color_setting_footer_title" = "Modifică culoarea butoanelor și a altor comenzi din aplicație.";
 "appearance_app_icon_setting_section_title" = "Pictogramă aplicație";
 
-/* Sync & Data Settings */
+/* MARK: - Sync & Data Settings View */
+/* Info */
 "sync_and_data_setting_info_title" = "Descriere";
 "sync_and_data_setting_info_description" = "Obțineți o prezentare generală a stării curente de sincronizare și importați sau exportați date folosind un fișier CSV.";
 
@@ -666,7 +668,8 @@
 "alert_csv_export_successful_title" = "Export cu succes 🎉";
 "alert_csv_export_successful_message" = "Datele dvs. au fost exportate cu succes în \"%@\".";
 
-/* Cloud Settings */
+/* MARK: - Cloud Settings View */
+/* Info */
 "cloud_setting_info_title" = "Descriere";
 "cloud_setting_info_description" = "Următoarea vizualizare oferă o imagine de ansamblu mai detaliată a stării curente de sincronizare iCloud și ajută la depanarea.";
 
@@ -689,7 +692,8 @@
 "import_from_cloud_button" = "Descărcați din iCloud";
 "manual_sync_cloud_setting_footer_title" = "Dacă datele dvs. nu au fost sau nu sunt complet sincronizate cu iCloud, puteți declanșa manual sincronizarea aici.";
 
-/* Backup Settings */
+/* MARK: - Backup Settings View */
+/* Info */
 "backup_setting_info_title" = "Descriere";
 "backup_setting_info_description" = "Când este activat, Budget Flow face în mod regulat copii de siguranță ale datelor dvs., astfel încât să puteți restabili oricând aplicația la o stare anterioară.";
 
@@ -724,7 +728,27 @@
 "alert_restore_backup_message" = "Sigur doriți să restaurați această copie de rezervă?\n\nAceasta va șterge datele curente și le va înlocui cu datele din copia de rezervă selectată.\n\nAvertisment: Această acțiune nu poate fi anulată!";
 "alert_restore_backup_button" = "Restaurează backup";
 
-/* Advanced Settings */
+/* Progress */
+"backup_restore_progress_alert_title" = "Se restaurează copia de rezervă";
+"backup_restore_progress_preparing" = "Se pregătește copia de rezervă";
+"backup_restore_progress_validating" = "Se validează copia de rezervă";
+"backup_restore_progress_reading_data" = "Se citesc datele copiei de rezervă";
+"backup_restore_progress_deleting_existing_data" = "Se șterg datele existente";
+"backup_restore_progress_finishing" = "Se finalizează restaurarea";
+
+/* Progress Entities */
+"backup_restore_progress_budget_books" = "Registre de buget";
+"backup_restore_progress_accounts" = "Conturi";
+"backup_restore_progress_category_groups" = "Grupuri de categorii";
+"backup_restore_progress_categories" = "Categorii";
+"backup_restore_progress_payees" = "Beneficiari";
+"backup_restore_progress_tags" = "Etichete";
+"backup_restore_progress_budgets" = "Bugete";
+"backup_restore_progress_transaction_groups" = "Grupuri de tranzacții";
+"backup_restore_progress_transactions" = "Tranzacții";
+"backup_restore_progress_reminders" = "Mementouri";
+
+/* MARK: - Advanced Settings View */
 "advanced_setting_info_title" = "Descriere";
 "advanced_setting_info_description" = "Efectuați alte setări pentru a configura aplicația.";
 

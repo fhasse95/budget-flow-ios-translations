@@ -628,7 +628,8 @@
 - Purchases: %@";
 "contact_developer_mail_no_purchases" = "None";
 
-/* Appearance Settings */
+/* MARK: - Appearance Settings View */
+/* Info */
 "appearance_setting_info_title" = "Popis";
 "appearance_setting_info_description" = "Prispôsobte si aplikáciu podľa svojich predstáv zmenou vzhľadu aplikácie alebo farby zvýraznenia.";
 "appearance_ui_style_setting_section_title" = "Téma";
@@ -638,7 +639,8 @@
 "appearance_accent_color_setting_footer_title" = "Mení farbu tlačidiel a iných ovládacích prvkov v aplikácii.";
 "appearance_app_icon_setting_section_title" = "Ikona aplikácie";
 
-/* Sync & Data Settings */
+/* MARK: - Sync & Data Settings View */
+/* Info */
 "sync_and_data_setting_info_title" = "Popis";
 "sync_and_data_setting_info_description" = "Získajte prehľad o aktuálnom stave synchronizácie a importujte alebo exportujte dáta pomocou súboru CSV.";
 
@@ -666,7 +668,8 @@
 "alert_csv_export_successful_title" = "Export bol úspešný 🎉";
 "alert_csv_export_successful_message" = "Vaše údaje boli úspešne exportované do \"%@\".";
 
-/* Cloud Settings */
+/* MARK: - Cloud Settings View */
+/* Info */
 "cloud_setting_info_title" = "Popis";
 "cloud_setting_info_description" = "Nasledujúce zobrazenie poskytuje podrobnejší prehľad o aktuálnom stave synchronizácie iCloud a pomáha pri riešení problémov.";
 
@@ -689,7 +692,8 @@
 "import_from_cloud_button" = "Stiahnuť z iCloudu";
 "manual_sync_cloud_setting_footer_title" = "Ak vaše údaje neboli alebo nie sú úplne synchronizované s iCloudom, môžete tu manuálne spustiť synchronizáciu.";
 
-/* Backup Settings */
+/* MARK: - Backup Settings View */
+/* Info */
 "backup_setting_info_title" = "Popis";
 "backup_setting_info_description" = "Ak je povolený, Budget Flow pravidelne zálohuje vaše dáta, takže aplikáciu môžete kedykoľvek obnoviť do predchádzajúceho stavu.";
 
@@ -724,7 +728,27 @@
 "alert_restore_backup_message" = "Naozaj chcete obnoviť túto zálohu?\n\nTýmto sa odstránia vaše aktuálne údaje a nahradia sa údajmi z vybranej zálohy.\n\nUpozornenie: Túto akciu nie je možné vrátiť späť!";
 "alert_restore_backup_button" = "Obnoviť zálohu";
 
-/* Advanced Settings */
+/* Progress */
+"backup_restore_progress_alert_title" = "Obnovovanie zálohy";
+"backup_restore_progress_preparing" = "Príprava zálohy";
+"backup_restore_progress_validating" = "Overovanie zálohy";
+"backup_restore_progress_reading_data" = "Čítanie údajov zálohy";
+"backup_restore_progress_deleting_existing_data" = "Odstraňovanie existujúcich údajov";
+"backup_restore_progress_finishing" = "Dokončovanie obnovy";
+
+/* Progress Entities */
+"backup_restore_progress_budget_books" = "Rozpočtové knihy";
+"backup_restore_progress_accounts" = "Účty";
+"backup_restore_progress_category_groups" = "Skupiny kategórií";
+"backup_restore_progress_categories" = "Kategórie";
+"backup_restore_progress_payees" = "Príjemcovia platieb";
+"backup_restore_progress_tags" = "Značky";
+"backup_restore_progress_budgets" = "Rozpočty";
+"backup_restore_progress_transaction_groups" = "Skupiny transakcií";
+"backup_restore_progress_transactions" = "Transakcie";
+"backup_restore_progress_reminders" = "Pripomienky";
+
+/* MARK: - Advanced Settings View */
 "advanced_setting_info_title" = "Popis";
 "advanced_setting_info_description" = "Vykonajte ďalšie nastavenia na konfiguráciu aplikácie.";
 

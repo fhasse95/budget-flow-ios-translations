@@ -628,7 +628,8 @@
 - Purchases: %@";
 "contact_developer_mail_no_purchases" = "None";
 
-/* Appearance Settings */
+/* MARK: - Appearance Settings View */
+/* Info */
 "appearance_setting_info_title" = "Opis";
 "appearance_setting_info_description" = "Prilagodite aplikacijo svojim željam s spreminjanjem videza aplikacije ali poudarne barve.";
 "appearance_ui_style_setting_section_title" = "Tema";
@@ -638,7 +639,8 @@
 "appearance_accent_color_setting_footer_title" = "Spremeni barvo gumbov in drugih kontrolnikov v aplikaciji.";
 "appearance_app_icon_setting_section_title" = "Ikona aplikacije";
 
-/* Sync & Data Settings */
+/* MARK: - Sync & Data Settings View */
+/* Info */
 "sync_and_data_setting_info_title" = "Opis";
 "sync_and_data_setting_info_description" = "Pridobite pregled trenutnega stanja sinhronizacije in uvozite ali izvozite podatke z uporabo CSV datoteke.";
 
@@ -666,7 +668,8 @@
 "alert_csv_export_successful_title" = "Izvoz uspešen 🎉";
 "alert_csv_export_successful_message" = "Vaši podatki so bili uspešno izvoženi v \"%@\".";
 
-/* Cloud Settings */
+/* MARK: - Cloud Settings View */
+/* Info */
 "cloud_setting_info_title" = "Opis";
 "cloud_setting_info_description" = "Naslednji pogled ponuja podrobnejši pregled trenutnega stanja sinhronizacije iCloud in pomaga pri odpravljanju težav.";
 
@@ -689,7 +692,8 @@
 "import_from_cloud_button" = "Prenesi iz iClouda";
 "manual_sync_cloud_setting_footer_title" = "Če vaši podatki niso bili ali niso popolnoma sinhronizirani z iCloudom, lahko tukaj ročno sprožite sinhronizacijo.";
 
-/* Backup Settings */
+/* MARK: - Backup Settings View */
+/* Info */
 "backup_setting_info_title" = "Opis";
 "backup_setting_info_description" = "Ko je omogočeno, Budget Flow redno ustvarja varnostne kopije vaših podatkov, tako da lahko kadarkoli obnovite aplikacijo na prejšnje stanje.";
 
@@ -724,7 +728,27 @@
 "alert_restore_backup_message" = "Ali res želite obnoviti to varnostno kopijo?\n\nS tem boste izbrisali trenutne podatke in jih nadomestili s podatki iz izbrane varnostne kopije.\n\nOpozorilo: Tega dejanja ni mogoče razveljaviti!";
 "alert_restore_backup_button" = "Obnovi varnostno kopijo";
 
-/* Advanced Settings */
+/* Progress */
+"backup_restore_progress_alert_title" = "Obnavljanje varnostne kopije";
+"backup_restore_progress_preparing" = "Priprava varnostne kopije";
+"backup_restore_progress_validating" = "Preverjanje varnostne kopije";
+"backup_restore_progress_reading_data" = "Branje podatkov varnostne kopije";
+"backup_restore_progress_deleting_existing_data" = "Brisanje obstoječih podatkov";
+"backup_restore_progress_finishing" = "Zaključevanje obnovitve";
+
+/* Progress Entities */
+"backup_restore_progress_budget_books" = "Proračunske knjige";
+"backup_restore_progress_accounts" = "Računi";
+"backup_restore_progress_category_groups" = "Skupine kategorij";
+"backup_restore_progress_categories" = "Kategorije";
+"backup_restore_progress_payees" = "Prejemniki plačil";
+"backup_restore_progress_tags" = "Oznake";
+"backup_restore_progress_budgets" = "Proračuni";
+"backup_restore_progress_transaction_groups" = "Skupine transakcij";
+"backup_restore_progress_transactions" = "Transakcije";
+"backup_restore_progress_reminders" = "Opomniki";
+
+/* MARK: - Advanced Settings View */
 "advanced_setting_info_title" = "Opis";
 "advanced_setting_info_description" = "Naredite dodatne nastavitve za konfiguracijo aplikacije.";
 

@@ -628,7 +628,8 @@
 - Purchases: %@";
 "contact_developer_mail_no_purchases" = "None";
 
-/* Appearance Settings */
+/* MARK: - Appearance Settings View */
+/* Info */
 "appearance_setting_info_title" = "Deskripsi";
 "appearance_setting_info_description" = "Personalisasikan aplikasi sesuai keinginan Anda dengan mengubah tampilan atau warna aksen aplikasi.";
 "appearance_ui_style_setting_section_title" = "Tema";
@@ -638,7 +639,8 @@
 "appearance_accent_color_setting_footer_title" = "Ubah warna tombol dan kontrol lainnya dalam aplikasi.";
 "appearance_app_icon_setting_section_title" = "Ikon Aplikasi";
 
-/* Sync & Data Settings */
+/* MARK: - Sync & Data Settings View */
+/* Info */
 "sync_and_data_setting_info_title" = "Deskripsi";
 "sync_and_data_setting_info_description" = "Dapatkan ringkasan status sinkronisasi saat ini dan impor atau ekspor data menggunakan file CSV.";
 
@@ -666,7 +668,8 @@
 "alert_csv_export_successful_title" = "Ekspor berhasil 🎉";
 "alert_csv_export_successful_message" = "Data Anda berhasil diekspor ke \"%@\".";
 
-/* Cloud Settings */
+/* MARK: - Cloud Settings View */
+/* Info */
 "cloud_setting_info_title" = "Deskripsi";
 "cloud_setting_info_description" = "Tampilan berikut memberikan gambaran umum lebih rinci tentang status sinkronisasi iCloud saat ini dan membantu pemecahan masalah.";
 
@@ -689,7 +692,8 @@
 "import_from_cloud_button" = "Unduh dari iCloud";
 "manual_sync_cloud_setting_footer_title" = "Jika data Anda belum atau belum sepenuhnya disinkronkan dengan iCloud, Anda dapat memulai sinkronisasi secara manual di sini.";
 
-/* Backup Settings */
+/* MARK: - Backup Settings View */
+/* Info */
 "backup_setting_info_title" = "Deskripsi";
 "backup_setting_info_description" = "Jika diaktifkan, Budget Flow mencadangkan data Anda secara rutin sehingga Anda dapat memulihkan aplikasi ke keadaan sebelumnya kapan saja.";
 
@@ -724,7 +728,27 @@
 "alert_restore_backup_message" = "Apakah Anda yakin ingin memulihkan cadangan ini?\n\nIni akan menghapus data Anda saat ini dan menggantinya dengan data dari cadangan yang dipilih.\n\nPeringatan: Tindakan ini tidak dapat dibatalkan!";
 "alert_restore_backup_button" = "Pulihkan cadangan";
 
-/* Advanced Settings */
+/* Progress */
+"backup_restore_progress_alert_title" = "Memulihkan Cadangan";
+"backup_restore_progress_preparing" = "Menyiapkan cadangan";
+"backup_restore_progress_validating" = "Memvalidasi cadangan";
+"backup_restore_progress_reading_data" = "Membaca data cadangan";
+"backup_restore_progress_deleting_existing_data" = "Menghapus data yang ada";
+"backup_restore_progress_finishing" = "Menyelesaikan pemulihan";
+
+/* Progress Entities */
+"backup_restore_progress_budget_books" = "Buku anggaran";
+"backup_restore_progress_accounts" = "Akun";
+"backup_restore_progress_category_groups" = "Grup kategori";
+"backup_restore_progress_categories" = "Kategori";
+"backup_restore_progress_payees" = "Penerima pembayaran";
+"backup_restore_progress_tags" = "Tag";
+"backup_restore_progress_budgets" = "Anggaran";
+"backup_restore_progress_transaction_groups" = "Grup transaksi";
+"backup_restore_progress_transactions" = "Transaksi";
+"backup_restore_progress_reminders" = "Pengingat";
+
+/* MARK: - Advanced Settings View */
 "advanced_setting_info_title" = "Deskripsi";
 "advanced_setting_info_description" = "Lakukan pengaturan lebih lanjut untuk mengonfigurasi aplikasi.";
 

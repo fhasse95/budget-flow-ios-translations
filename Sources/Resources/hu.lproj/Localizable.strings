@@ -628,7 +628,8 @@
 - Purchases: %@";
 "contact_developer_mail_no_purchases" = "None";
 
-/* Appearance Settings */
+/* MARK: - Appearance Settings View */
+/* Info */
 "appearance_setting_info_title" = "Leírás";
 "appearance_setting_info_description" = "Személyre szabhatja az alkalmazást az alkalmazás megjelenésének vagy kiemelő színének módosításával.";
 "appearance_ui_style_setting_section_title" = "Téma";
@@ -638,7 +639,8 @@
 "appearance_accent_color_setting_footer_title" = "Módosítja a gombok és egyéb vezérlők színét az alkalmazáson belül.";
 "appearance_app_icon_setting_section_title" = "Alkalmazásikon";
 
-/* Sync & Data Settings */
+/* MARK: - Sync & Data Settings View */
+/* Info */
 "sync_and_data_setting_info_title" = "Leírás";
 "sync_and_data_setting_info_description" = "Áttekintést kaphat az aktuális szinkronizálási állapotról, és importálhat vagy exportálhat adatokat egy CSV-fájl segítségével.";
 
@@ -666,7 +668,8 @@
 "alert_csv_export_successful_title" = "Az exportálás sikeres 🎉";
 "alert_csv_export_successful_message" = "Az adatai sikeresen exportálva a következőbe: \"%@\".";
 
-/* Cloud Settings */
+/* MARK: - Cloud Settings View */
+/* Info */
 "cloud_setting_info_title" = "Leírás";
 "cloud_setting_info_description" = "A következő nézet részletesebb áttekintést nyújt az iCloud jelenlegi szinkronizálási állapotáról, és segít a hibaelhárításban.";
 
@@ -689,7 +692,8 @@
 "import_from_cloud_button" = "Letöltés iCloudból";
 "manual_sync_cloud_setting_footer_title" = "Ha adataid nem vagy nem teljesen szinkronizálódtak az iClouddal, itt manuálisan indíthatod a szinkronizálást.";
 
-/* Backup Settings */
+/* MARK: - Backup Settings View */
+/* Info */
 "backup_setting_info_title" = "Leírás";
 "backup_setting_info_description" = "Ha engedélyezve van, a Budget Flow rendszeresen biztonsági másolatot készít az adatokról, így bármikor visszaállíthatja az alkalmazást egy korábbi állapotba.";
 
@@ -724,7 +728,27 @@
 "alert_restore_backup_message" = "Biztosan vissza szeretné állítani ezt a biztonsági mentést?\n\nEz törli a jelenlegi adatait, és lecseréli őket a kiválasztott biztonsági mentés adataira.\n\nFigyelmeztetés: Ez a művelet nem vonható vissza!";
 "alert_restore_backup_button" = "Biztonsági másolat visszaállítása";
 
-/* Advanced Settings */
+/* Progress */
+"backup_restore_progress_alert_title" = "Biztonsági mentés visszaállítása";
+"backup_restore_progress_preparing" = "Biztonsági mentés előkészítése";
+"backup_restore_progress_validating" = "Biztonsági mentés ellenőrzése";
+"backup_restore_progress_reading_data" = "Biztonsági mentés adatainak olvasása";
+"backup_restore_progress_deleting_existing_data" = "Meglévő adatok törlése";
+"backup_restore_progress_finishing" = "Visszaállítás befejezése";
+
+/* Progress Entities */
+"backup_restore_progress_budget_books" = "Költségvetési könyvek";
+"backup_restore_progress_accounts" = "Számlák";
+"backup_restore_progress_category_groups" = "Kategóriacsoportok";
+"backup_restore_progress_categories" = "Kategóriák";
+"backup_restore_progress_payees" = "Kedvezményezettek";
+"backup_restore_progress_tags" = "Címkék";
+"backup_restore_progress_budgets" = "Költségvetések";
+"backup_restore_progress_transaction_groups" = "Tranzakciócsoportok";
+"backup_restore_progress_transactions" = "Tranzakciók";
+"backup_restore_progress_reminders" = "Emlékeztetők";
+
+/* MARK: - Advanced Settings View */
 "advanced_setting_info_title" = "Leírás";
 "advanced_setting_info_description" = "Végezze el további beállításokat az alkalmazás konfigurálásához.";
 

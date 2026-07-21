@@ -628,7 +628,8 @@
 - Purchases: %@";
 "contact_developer_mail_no_purchases" = "None";
 
-/* Appearance Settings */
+/* MARK: - Appearance Settings View */
+/* Info */
 "appearance_setting_info_title" = "Beschrijving";
 "appearance_setting_info_description" = "Personaliseer de app naar wens door het uiterlijk of de accentkleur van de app te wijzigen.";
 "appearance_ui_style_setting_section_title" = "Thema";
@@ -638,7 +639,8 @@
 "appearance_accent_color_setting_footer_title" = "Wijzigt de kleur van knoppen en andere bedieningselementen in de app.";
 "appearance_app_icon_setting_section_title" = "App-pictogram";
 
-/* Sync & Data Settings */
+/* MARK: - Sync & Data Settings View */
+/* Info */
 "sync_and_data_setting_info_title" = "Beschrijving";
 "sync_and_data_setting_info_description" = "Krijg een overzicht van de huidige synchronisatiestatus en importeer of exporteer gegevens met behulp van een CSV-bestand.";
 
@@ -666,7 +668,8 @@
 "alert_csv_export_successful_title" = "Export succesvol 🎉";
 "alert_csv_export_successful_message" = "Je gegevens zijn succesvol geëxporteerd naar \"%@\".";
 
-/* Cloud Settings */
+/* MARK: - Cloud Settings View */
+/* Info */
 "cloud_setting_info_title" = "Beschrijving";
 "cloud_setting_info_description" = "De volgende weergave biedt een gedetailleerder overzicht van de huidige iCloud-synchronisatiestatus en helpt bij het oplossen van problemen.";
 
@@ -689,7 +692,8 @@
 "import_from_cloud_button" = "Download van iCloud";
 "manual_sync_cloud_setting_footer_title" = "Als je gegevens nog niet volledig zijn gedownload van iCloud, dan kun je hier handmatig de download starten.";
 
-/* Backup Settings */
+/* MARK: - Backup Settings View */
+/* Info */
 "backup_setting_info_title" = "Beschrijving";
 "backup_setting_info_description" = "Indien ingeschakeld, maakt Budget Flow regelmatig een back-up van je gegevens, zodat je de app op elk moment naar een eerdere versie kunt herstellen.";
 
@@ -724,7 +728,27 @@
 "alert_restore_backup_message" = "Weet je zeker dat je deze back-up wilt herstellen?\n\nHiermee worden je huidige gegevens verwijderd en vervangen door de gegevens uit de geselecteerde back-up.\n\nWaarschuwing: Deze actie kan niet ongedaan worden gemaakt!";
 "alert_restore_backup_button" = "Back-up herstellen";
 
-/* Advanced Settings */
+/* Progress */
+"backup_restore_progress_alert_title" = "Back-up herstellen";
+"backup_restore_progress_preparing" = "Back-up voorbereiden";
+"backup_restore_progress_validating" = "Back-up valideren";
+"backup_restore_progress_reading_data" = "Back-upgegevens lezen";
+"backup_restore_progress_deleting_existing_data" = "Bestaande gegevens verwijderen";
+"backup_restore_progress_finishing" = "Herstel afronden";
+
+/* Progress Entities */
+"backup_restore_progress_budget_books" = "Budgetboeken";
+"backup_restore_progress_accounts" = "Rekeningen";
+"backup_restore_progress_category_groups" = "Categoriegroepen";
+"backup_restore_progress_categories" = "Categorieën";
+"backup_restore_progress_payees" = "Begunstigden";
+"backup_restore_progress_tags" = "Tags";
+"backup_restore_progress_budgets" = "Budgetten";
+"backup_restore_progress_transaction_groups" = "Transactiegroepen";
+"backup_restore_progress_transactions" = "Transacties";
+"backup_restore_progress_reminders" = "Herinneringen";
+
+/* MARK: - Advanced Settings View */
 "advanced_setting_info_title" = "Beschrijving";
 "advanced_setting_info_description" = "Geef meer instellingen om de app te configureren.";
 

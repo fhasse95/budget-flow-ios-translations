@@ -628,7 +628,8 @@
 - Purchases: %@";
 "contact_developer_mail_no_purchases" = "None";
 
-/* Appearance Settings */
+/* MARK: - Appearance Settings View */
+/* Info */
 "appearance_setting_info_title" = "Description";
 "appearance_setting_info_description" = "Personnalisez l'app à votre guise en modifiant son apparence ou la couleur d'accentuation.";
 "appearance_ui_style_setting_section_title" = "Thème";
@@ -638,7 +639,8 @@
 "appearance_accent_color_setting_footer_title" = "Modifie la couleur des boutons et autres commandes de l'app.";
 "appearance_app_icon_setting_section_title" = "Icône de l'app";
 
-/* Sync & Data Settings */
+/* MARK: - Sync & Data Settings View */
+/* Info */
 "sync_and_data_setting_info_title" = "Description";
 "sync_and_data_setting_info_description" = "Obtenez un aperçu de l'état actuel de la synchronisation et importez ou exportez des données à l'aide d'un fichier CSV.";
 
@@ -666,7 +668,8 @@
 "alert_csv_export_successful_title" = "Exportation réussie 🎉";
 "alert_csv_export_successful_message" = "Vos données ont été exportées avec succès vers \"%@\".";
 
-/* Cloud Settings */
+/* MARK: - Cloud Settings View */
+/* Info */
 "cloud_setting_info_title" = "Description";
 "cloud_setting_info_description" = "La vue suivante fournit un aperçu plus détaillé de l'état actuel de la synchronisation iCloud et aide au dépannage.";
 
@@ -689,7 +692,8 @@
 "import_from_cloud_button" = "Télécharger depuis iCloud";
 "manual_sync_cloud_setting_footer_title" = "Si vos données ne se sont pas synchronisées ou ne sont pas complètement synchronisées avec iCloud, vous pouvez lancer la synchronisation manuellement ici.";
 
-/* Backup Settings */
+/* MARK: - Backup Settings View */
+/* Info */
 "backup_setting_info_title" = "Description";
 "backup_setting_info_description" = "Lorsque cette option est activée, Budget Flow sauvegarde régulièrement vos données afin que vous puissiez restaurer l'app à un état antérieur à tout moment.";
 
@@ -724,7 +728,27 @@
 "alert_restore_backup_message" = "Voulez-vous vraiment restaurer cette sauvegarde ?\n\nVos données actuelles seront supprimées et remplacées par les données de la sauvegarde sélectionnée.\n\nAvertissement : cette action ne peut pas être annulée !";
 "alert_restore_backup_button" = "Restaurer la sauvegarde";
 
-/* Advanced Settings */
+/* Progress */
+"backup_restore_progress_alert_title" = "Restauration de la sauvegarde";
+"backup_restore_progress_preparing" = "Préparation de la sauvegarde";
+"backup_restore_progress_validating" = "Validation de la sauvegarde";
+"backup_restore_progress_reading_data" = "Lecture des données de sauvegarde";
+"backup_restore_progress_deleting_existing_data" = "Suppression des données existantes";
+"backup_restore_progress_finishing" = "Finalisation de la restauration";
+
+/* Progress Entities */
+"backup_restore_progress_budget_books" = "Livres de budget";
+"backup_restore_progress_accounts" = "Comptes";
+"backup_restore_progress_category_groups" = "Groupes de catégories";
+"backup_restore_progress_categories" = "Catégories";
+"backup_restore_progress_payees" = "Bénéficiaires";
+"backup_restore_progress_tags" = "Tags";
+"backup_restore_progress_budgets" = "Budgets";
+"backup_restore_progress_transaction_groups" = "Groupes de transactions";
+"backup_restore_progress_transactions" = "Transactions";
+"backup_restore_progress_reminders" = "Rappels";
+
+/* MARK: - Advanced Settings View */
 "advanced_setting_info_title" = "Description";
 "advanced_setting_info_description" = "Effectuez d'autres réglages pour configurer l'app.";
 

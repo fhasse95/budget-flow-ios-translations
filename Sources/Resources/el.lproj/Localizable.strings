@@ -628,7 +628,8 @@
 - Purchases: %@";
 "contact_developer_mail_no_purchases" = "None";
 
-/* Appearance Settings */
+/* MARK: - Appearance Settings View */
+/* Info */
 "appearance_setting_info_title" = "Περιγραφή";
 "appearance_setting_info_description" = "Εξατομικεύστε την εφαρμογή σύμφωνα με τις προτιμήσεις σας αλλάζοντας την εμφάνιση ή το χρώμα έμφασης της εφαρμογής.";
 "appearance_ui_style_setting_section_title" = "Θέμα";
@@ -638,7 +639,8 @@
 "appearance_accent_color_setting_footer_title" = "Αλλάζει το χρώμα των κουμπιών και άλλων στοιχείων ελέγχου εντός της εφαρμογής.";
 "appearance_app_icon_setting_section_title" = "Εικονίδιο εφαρμογής";
 
-/* Sync & Data Settings */
+/* MARK: - Sync & Data Settings View */
+/* Info */
 "sync_and_data_setting_info_title" = "Περιγραφή";
 "sync_and_data_setting_info_description" = "Λάβετε μια επισκόπηση της τρέχουσας κατάστασης συγχρονισμού και εισάγετε ή εξάγετε δεδομένα χρησιμοποιώντας ένα αρχείο CSV.";
 
@@ -666,7 +668,8 @@
 "alert_csv_export_successful_title" = "Επιτυχής εξαγωγή 🎉";
 "alert_csv_export_successful_message" = "Τα δεδομένα σας εξήχθησαν με επιτυχία στο \"%@\".";
 
-/* Cloud Settings */
+/* MARK: - Cloud Settings View */
+/* Info */
 "cloud_setting_info_title" = "Περιγραφή";
 "cloud_setting_info_description" = "Η ακόλουθη προβολή παρέχει μια πιο λεπτομερή επισκόπηση της τρέχουσας κατάστασης συγχρονισμού iCloud και βοηθά στην αντιμετώπιση προβλημάτων.";
 
@@ -689,7 +692,8 @@
 "import_from_cloud_button" = "Λήψη από iCloud";
 "manual_sync_cloud_setting_footer_title" = "Αν τα δεδομένα σας δεν έχουν συγχρονιστεί ή δεν έχουν συγχρονιστεί πλήρως με το iCloud, μπορείτε να ξεκινήσετε το συγχρονισμό χειροκίνητα εδώ.";
 
-/* Backup Settings */
+/* MARK: - Backup Settings View */
+/* Info */
 "backup_setting_info_title" = "Περιγραφή";
 "backup_setting_info_description" = "Όταν είναι ενεργοποιημένο, το Budget Flow δημιουργεί τακτικά αντίγραφα ασφαλείας των δεδομένων σας, ώστε να μπορείτε να επαναφέρετε την εφαρμογή στην προηγούμενη κατάσταση ανά πάσα στιγμή.";
 
@@ -724,7 +728,27 @@
 "alert_restore_backup_message" = "Θέλετε σίγουρα να επαναφέρετε αυτό το αντίγραφο ασφαλείας;\n\nΜε αυτόν τον τρόπο θα διαγραφούν τα τρέχοντα δεδομένα σας και θα αντικατασταθούν με τα δεδομένα από το επιλεγμένο αντίγραφο ασφαλείας.\n\nΠροειδοποίηση: Αυτή η ενέργεια δεν μπορεί να αναιρεθεί!";
 "alert_restore_backup_button" = "Επαναφορά αντιγράφου ασφαλείας";
 
-/* Advanced Settings */
+/* Progress */
+"backup_restore_progress_alert_title" = "Επαναφορά αντιγράφου ασφαλείας";
+"backup_restore_progress_preparing" = "Προετοιμασία αντιγράφου ασφαλείας";
+"backup_restore_progress_validating" = "Έλεγχος αντιγράφου ασφαλείας";
+"backup_restore_progress_reading_data" = "Ανάγνωση δεδομένων αντιγράφου ασφαλείας";
+"backup_restore_progress_deleting_existing_data" = "Διαγραφή υπαρχόντων δεδομένων";
+"backup_restore_progress_finishing" = "Ολοκλήρωση επαναφοράς";
+
+/* Progress Entities */
+"backup_restore_progress_budget_books" = "Βιβλία προϋπολογισμού";
+"backup_restore_progress_accounts" = "Λογαριασμοί";
+"backup_restore_progress_category_groups" = "Ομάδες κατηγοριών";
+"backup_restore_progress_categories" = "Κατηγορίες";
+"backup_restore_progress_payees" = "Δικαιούχοι";
+"backup_restore_progress_tags" = "Ετικέτες";
+"backup_restore_progress_budgets" = "Προϋπολογισμοί";
+"backup_restore_progress_transaction_groups" = "Ομάδες συναλλαγών";
+"backup_restore_progress_transactions" = "Συναλλαγές";
+"backup_restore_progress_reminders" = "Υπενθυμίσεις";
+
+/* MARK: - Advanced Settings View */
 "advanced_setting_info_title" = "Περιγραφή";
 "advanced_setting_info_description" = "Κάντε περαιτέρω ρυθμίσεις για να διαμορφώσετε την εφαρμογή.";
 

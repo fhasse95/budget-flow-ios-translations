@@ -628,7 +628,8 @@
 - Purchases: %@";
 "contact_developer_mail_no_purchases" = "None";
 
-/* Appearance Settings */
+/* MARK: - Appearance Settings View */
+/* Info */
 "appearance_setting_info_title" = "คำอธิบาย";
 "appearance_setting_info_description" = "ปรับแต่งแอพฯ ตามที่คุณต้องการโดยการเปลี่ยนรูปลักษณ์หรือสีที่ถูกเน้นของแอพ";
 "appearance_ui_style_setting_section_title" = "ธีม";
@@ -638,7 +639,8 @@
 "appearance_accent_color_setting_footer_title" = "เปลี่ยนสีของปุ่มและการควบคุมอื่นๆ ภายในแอป";
 "appearance_app_icon_setting_section_title" = "ไอคอนแอป";
 
-/* Sync & Data Settings */
+/* MARK: - Sync & Data Settings View */
+/* Info */
 "sync_and_data_setting_info_title" = "คำอธิบาย";
 "sync_and_data_setting_info_description" = "ดูภาพรวมของสถานะการซิงโครไนซ์ปัจจุบันและนำเข้าหรือส่งออกข้อมูลโดยใช้ไฟล์ CSV";
 
@@ -666,7 +668,8 @@
 "alert_csv_export_successful_title" = "ส่งออกสำเร็จ 🎉";
 "alert_csv_export_successful_message" = "ข้อมูลของคุณส่งออกไปยัง \"%@\" เรียบร้อยแล้ว";
 
-/* Cloud Settings */
+/* MARK: - Cloud Settings View */
+/* Info */
 "cloud_setting_info_title" = "คำอธิบาย";
 "cloud_setting_info_description" = "มุมมองต่อไปนี้ให้ภาพรวมโดยละเอียดเพิ่มเติมของสถานะการเชื่อมข้อมูล iCloud ปัจจุบัน และช่วยในการแก้ไขปัญหา";
 
@@ -689,7 +692,8 @@
 "import_from_cloud_button" = "ดาวน์โหลดจาก iCloud";
 "manual_sync_cloud_setting_footer_title" = "หากข้อมูลของคุณยังไม่ได้หรือยังไม่สมบูรณ์กับ iCloud คุณสามารถเริ่มการซิงค์ด้วยตนเองที่นี่ได้";
 
-/* Backup Settings */
+/* MARK: - Backup Settings View */
+/* Info */
 "backup_setting_info_title" = "คำอธิบาย";
 "backup_setting_info_description" = "เมื่อเปิดใช้งาน โฟลว์งบประมาณจะสำรองข้อมูลของคุณเป็นประจำ เพื่อให้คุณสามารถคืนค่าแอปให้อยู่ในสถานะก่อนหน้าได้ตลอดเวลา";
 
@@ -724,7 +728,27 @@
 "alert_restore_backup_message" = "คุณแน่ใจหรือไม่ว่าต้องการกู้คืนข้อมูลสำรองนี้\n\nการดำเนินการนี้จะลบข้อมูลปัจจุบันของคุณและแทนที่ด้วยข้อมูลจากข้อมูลสำรองที่เลือก\n\nคำเตือน: การดำเนินการนี้ไม่สามารถยกเลิกได้!";
 "alert_restore_backup_button" = "กู้คืนข้อมูลสำรอง";
 
-/* Advanced Settings */
+/* Progress */
+"backup_restore_progress_alert_title" = "กำลังกู้คืนข้อมูลสำรอง";
+"backup_restore_progress_preparing" = "กำลังเตรียมข้อมูลสำรอง";
+"backup_restore_progress_validating" = "กำลังตรวจสอบข้อมูลสำรอง";
+"backup_restore_progress_reading_data" = "กำลังอ่านข้อมูลสำรอง";
+"backup_restore_progress_deleting_existing_data" = "กำลังลบข้อมูลที่มีอยู่";
+"backup_restore_progress_finishing" = "กำลังเสร็จสิ้นการกู้คืน";
+
+/* Progress Entities */
+"backup_restore_progress_budget_books" = "สมุดงบประมาณ";
+"backup_restore_progress_accounts" = "บัญชี";
+"backup_restore_progress_category_groups" = "กลุ่มหมวดหมู่";
+"backup_restore_progress_categories" = "หมวดหมู่";
+"backup_restore_progress_payees" = "ผู้รับเงิน";
+"backup_restore_progress_tags" = "แท็ก";
+"backup_restore_progress_budgets" = "งบประมาณ";
+"backup_restore_progress_transaction_groups" = "กลุ่มธุรกรรม";
+"backup_restore_progress_transactions" = "ธุรกรรม";
+"backup_restore_progress_reminders" = "การเตือน";
+
+/* MARK: - Advanced Settings View */
 "advanced_setting_info_title" = "คำอธิบาย";
 "advanced_setting_info_description" = "ตั้งค่าเพิ่มเติมเพื่อกำหนดค่าแอป";
 

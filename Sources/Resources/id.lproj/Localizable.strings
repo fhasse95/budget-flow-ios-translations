@@ -1538,6 +1538,8 @@
 
 /* Sections */
 "form_general_section_title" = "Umum";
+"form_csv_date_format_suggestions_section_title" = "Saran";
+"form_csv_date_format_other_section_title" = "Lainnya";
 
 /* Footer */
 "form_invalid_footer_title" = "Kesalahan:";

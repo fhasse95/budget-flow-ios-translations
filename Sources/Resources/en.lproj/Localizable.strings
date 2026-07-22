@@ -1560,6 +1560,8 @@
 
 /* Sections */
 "form_general_section_title" = "General";
+"form_csv_date_format_suggestions_section_title" = "Suggestions";
+"form_csv_date_format_other_section_title" = "Other";
 
 /* Footer */
 "form_invalid_footer_title" = "Error:";

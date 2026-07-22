@@ -1538,6 +1538,8 @@
 
 /* Sections */
 "form_general_section_title" = "Общие";
+"form_csv_date_format_suggestions_section_title" = "Предложения";
+"form_csv_date_format_other_section_title" = "Другое";
 
 /* Footer */
 "form_invalid_footer_title" = "Ошибка:";

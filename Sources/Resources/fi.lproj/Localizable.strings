@@ -293,6 +293,8 @@
 
 "open_button" = "Avaa";
 "open_folder_button" = "Avaa kansio";
+"local_folder_button" = "Paikallinen kansio";
+"icloud_drive_folder_button" = "iCloud Drive";
 "open_in_browser_button" = "Avaa selaimessa";
 
 "show_more_button" = "Näytä lisää";

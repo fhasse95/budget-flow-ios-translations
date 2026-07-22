@@ -293,6 +293,8 @@
 
 "open_button" = "開く";
 "open_folder_button" = "フォルダーを開く";
+"local_folder_button" = "ローカルフォルダー";
+"icloud_drive_folder_button" = "iCloud Drive";
 "open_in_browser_button" = "ブラウザで開く";
 
 "show_more_button" = "もっと見る";

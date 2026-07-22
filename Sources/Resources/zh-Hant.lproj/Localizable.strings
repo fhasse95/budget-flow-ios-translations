@@ -293,6 +293,8 @@
 
 "open_button" = "開啟";
 "open_folder_button" = "開啟資料夾";
+"local_folder_button" = "本機資料夾";
+"icloud_drive_folder_button" = "iCloud Drive";
 "open_in_browser_button" = "在瀏覽器中開啟";
 
 "show_more_button" = "顯示更多";

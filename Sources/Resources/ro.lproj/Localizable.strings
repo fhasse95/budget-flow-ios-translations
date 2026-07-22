@@ -293,6 +293,8 @@
 
 "open_button" = "Deschide";
 "open_folder_button" = "Deschide folderul";
+"local_folder_button" = "Dosar local";
+"icloud_drive_folder_button" = "iCloud Drive";
 "open_in_browser_button" = "Deschide în browser";
 
 "show_more_button" = "Afișați mai multe";

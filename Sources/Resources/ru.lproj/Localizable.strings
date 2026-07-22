@@ -293,6 +293,8 @@
 
 "open_button" = "Открыть";
 "open_folder_button" = "Открыть папку";
+"local_folder_button" = "Локальная папка";
+"icloud_drive_folder_button" = "iCloud Drive";
 "open_in_browser_button" = "Открыть в браузере";
 
 "show_more_button" = "Показать все";

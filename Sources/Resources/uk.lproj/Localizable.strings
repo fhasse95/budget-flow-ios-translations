@@ -293,6 +293,8 @@
 
 "open_button" = "Відкрити";
 "open_folder_button" = "Відкрити папку";
+"local_folder_button" = "Локальна папка";
+"icloud_drive_folder_button" = "iCloud Drive";
 "open_in_browser_button" = "Відкрити у браузері";
 
 "show_more_button" = "Показати більше";

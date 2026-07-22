@@ -293,6 +293,8 @@
 
 "open_button" = "Otevřít";
 "open_folder_button" = "Otevřít složku";
+"local_folder_button" = "Místní složka";
+"icloud_drive_folder_button" = "iCloud Drive";
 "open_in_browser_button" = "Otevřít v prohlížeči";
 
 "show_more_button" = "Zobrazit více";

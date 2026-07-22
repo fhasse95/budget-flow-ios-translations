@@ -293,6 +293,8 @@
 
 "open_button" = "Openen";
 "open_folder_button" = "Openen map";
+"local_folder_button" = "Lokale map";
+"icloud_drive_folder_button" = "iCloud Drive";
 "open_in_browser_button" = "Openen in browser";
 
 "show_more_button" = "Toon meer";

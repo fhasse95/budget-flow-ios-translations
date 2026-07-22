@@ -293,6 +293,8 @@
 
 "open_button" = "Aç";
 "open_folder_button" = "Klasörü aç";
+"local_folder_button" = "Yerel klasör";
+"icloud_drive_folder_button" = "iCloud Drive";
 "open_in_browser_button" = "Tarayıcıda aç";
 
 "show_more_button" = "Daha fazlasını göster";

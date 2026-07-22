@@ -293,6 +293,8 @@
 
 "open_button" = "Otvori";
 "open_folder_button" = "Otvori mapu";
+"local_folder_button" = "Lokalna mapa";
+"icloud_drive_folder_button" = "iCloud Drive";
 "open_in_browser_button" = "Otvori u pregledniku";
 
 "show_more_button" = "Prikaži više";

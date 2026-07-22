@@ -293,6 +293,8 @@
 
 "open_button" = "Άνοιγμα";
 "open_folder_button" = "Άνοιγμα φακέλου";
+"local_folder_button" = "Τοπικός φάκελος";
+"icloud_drive_folder_button" = "iCloud Drive";
 "open_in_browser_button" = "Άνοιγμα στο πρόγραμμα περιήγησης";
 
 "show_more_button" = "Εμφάνιση περισσότερων";

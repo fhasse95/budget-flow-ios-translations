@@ -293,6 +293,8 @@
 
 "open_button" = "열기";
 "open_folder_button" = "폴더 열기";
+"local_folder_button" = "로컬 폴더";
+"icloud_drive_folder_button" = "iCloud Drive";
 "open_in_browser_button" = "브라우저에서 열기";
 
 "show_more_button" = "더 보기";

@@ -293,6 +293,8 @@
 
 "open_button" = "Mở";
 "open_folder_button" = "Mở thư mục";
+"local_folder_button" = "Thư mục cục bộ";
+"icloud_drive_folder_button" = "iCloud Drive";
 "open_in_browser_button" = "Mở trong trình duyệt";
 
 "show_more_button" = "Hiển thị thêm";

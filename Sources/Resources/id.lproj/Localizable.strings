@@ -293,6 +293,8 @@
 
 "open_button" = "Buka";
 "open_folder_button" = "Buka folder";
+"local_folder_button" = "Folder lokal";
+"icloud_drive_folder_button" = "iCloud Drive";
 "open_in_browser_button" = "Buka di browser";
 
 "show_more_button" = "Tampilkan lebih banyak";

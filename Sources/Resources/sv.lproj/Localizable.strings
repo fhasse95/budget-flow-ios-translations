@@ -293,6 +293,8 @@
 
 "open_button" = "Öppna";
 "open_folder_button" = "Öppna mapp";
+"local_folder_button" = "Lokal mapp";
+"icloud_drive_folder_button" = "iCloud Drive";
 "open_in_browser_button" = "Öppna i webbläsaren";
 
 "show_more_button" = "Visa mer";

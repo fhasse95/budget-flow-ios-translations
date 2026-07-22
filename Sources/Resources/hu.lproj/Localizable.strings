@@ -293,6 +293,8 @@
 
 "open_button" = "Megnyitás";
 "open_folder_button" = "Mappa megnyitása";
+"local_folder_button" = "Helyi mappa";
+"icloud_drive_folder_button" = "iCloud Drive";
 "open_in_browser_button" = "Megnyitás böngészőben";
 
 "show_more_button" = "Továbbiak megjelenítése";

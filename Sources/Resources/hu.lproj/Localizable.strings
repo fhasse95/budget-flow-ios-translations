@@ -670,6 +670,11 @@
 "alert_csv_export_successful_title" = "Az exportálás sikeres 🎉";
 "alert_csv_export_successful_message" = "Az adatai sikeresen exportálva a következőbe: \"%@\".";
 
+/* Progress */
+"csv_export_progress_preparing" = "Preparing Export";
+"csv_export_progress_transactions" = "Transactions";
+"csv_export_progress_finishing" = "Finishing Export";
+
 /* MARK: - Cloud Settings View */
 /* Info */
 "cloud_setting_info_title" = "Leírás";
@@ -741,7 +746,7 @@
 /* Progress Entities */
 "backup_restore_progress_budget_books" = "Költségvetési könyvek";
 "backup_restore_progress_accounts" = "Számlák";
-"backup_restore_progress_category_groups" = "Kategóriacsoportok";
+"backup_restore_progress_category_groups" = "Mappa";
 "backup_restore_progress_categories" = "Kategóriák";
 "backup_restore_progress_payees" = "Kedvezményezettek";
 "backup_restore_progress_tags" = "Címkék";

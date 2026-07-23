@@ -682,6 +682,11 @@
 "alert_csv_export_successful_title" = "Export erfolgreich 🎉";
 "alert_csv_export_successful_message" = "Deine Daten wurden erfolgreich nach \"%@\" exportiert.";
 
+/* Progress */
+"csv_export_progress_preparing" = "Export wird vorbereitet";
+"csv_export_progress_transactions" = "Transaktionen";
+"csv_export_progress_finishing" = "Export wird abgeschlossen";
+
 /* MARK: - Cloud Settings View */
 /* Info */
 "cloud_setting_info_title" = "Beschreibung";
@@ -755,11 +760,11 @@
 "backup_restore_progress_finishing" = "Wiederherstellung wird abgeschlossen";
 
 /* Progress Entities */
-"backup_restore_progress_budget_books" = "Budgetbücher";
+"backup_restore_progress_budget_books" = "Haushaltsbücher";
 "backup_restore_progress_accounts" = "Konten";
-"backup_restore_progress_category_groups" = "Kategoriegruppen";
+"backup_restore_progress_category_groups" = "Ordner";
 "backup_restore_progress_categories" = "Kategorien";
-"backup_restore_progress_payees" = "Zahlungspartner";
+"backup_restore_progress_payees" = "Zahlungsempfänger";
 "backup_restore_progress_tags" = "Tags";
 "backup_restore_progress_budgets" = "Budgets";
 "backup_restore_progress_transaction_groups" = "Transaktionsgruppen";

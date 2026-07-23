@@ -670,6 +670,11 @@
 "alert_csv_export_successful_title" = "Export succesvol 🎉";
 "alert_csv_export_successful_message" = "Je gegevens zijn succesvol geëxporteerd naar \"%@\".";
 
+/* Progress */
+"csv_export_progress_preparing" = "Preparing Export";
+"csv_export_progress_transactions" = "Transactions";
+"csv_export_progress_finishing" = "Finishing Export";
+
 /* MARK: - Cloud Settings View */
 /* Info */
 "cloud_setting_info_title" = "Beschrijving";
@@ -741,7 +746,7 @@
 /* Progress Entities */
 "backup_restore_progress_budget_books" = "Budgetboeken";
 "backup_restore_progress_accounts" = "Rekeningen";
-"backup_restore_progress_category_groups" = "Categoriegroepen";
+"backup_restore_progress_category_groups" = "Map";
 "backup_restore_progress_categories" = "Categorieën";
 "backup_restore_progress_payees" = "Begunstigden";
 "backup_restore_progress_tags" = "Tags";

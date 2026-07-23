@@ -670,6 +670,11 @@
 "alert_csv_export_successful_title" = "تم التصدير بنجاح 🎉";
 "alert_csv_export_successful_message" = "تم تصدير بياناتك بنجاح إلى \"%@\".";
 
+/* Progress */
+"csv_export_progress_preparing" = "Preparing Export";
+"csv_export_progress_transactions" = "Transactions";
+"csv_export_progress_finishing" = "Finishing Export";
+
 /* MARK: - Cloud Settings View */
 /* Info */
 "cloud_setting_info_title" = "الوصف";
@@ -741,7 +746,7 @@
 /* Progress Entities */
 "backup_restore_progress_budget_books" = "دفاتر الميزانية";
 "backup_restore_progress_accounts" = "الحسابات";
-"backup_restore_progress_category_groups" = "مجموعات الفئات";
+"backup_restore_progress_category_groups" = "مجلد";
 "backup_restore_progress_categories" = "الفئات";
 "backup_restore_progress_payees" = "المستفيدون";
 "backup_restore_progress_tags" = "الوسوم";

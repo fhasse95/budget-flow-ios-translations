@@ -670,6 +670,11 @@
 "alert_csv_export_successful_title" = "Exportación exitosa 🎉";
 "alert_csv_export_successful_message" = "Sus datos se han exportado correctamente a \"%@\".";
 
+/* Progress */
+"csv_export_progress_preparing" = "Preparing Export";
+"csv_export_progress_transactions" = "Transactions";
+"csv_export_progress_finishing" = "Finishing Export";
+
 /* MARK: - Cloud Settings View */
 /* Info */
 "cloud_setting_info_title" = "Descripción";
@@ -741,7 +746,7 @@
 /* Progress Entities */
 "backup_restore_progress_budget_books" = "Libros de presupuesto";
 "backup_restore_progress_accounts" = "Cuentas";
-"backup_restore_progress_category_groups" = "Grupos de categorías";
+"backup_restore_progress_category_groups" = "Carpeta";
 "backup_restore_progress_categories" = "Categorías";
 "backup_restore_progress_payees" = "Beneficiarios";
 "backup_restore_progress_tags" = "Etiquetas";

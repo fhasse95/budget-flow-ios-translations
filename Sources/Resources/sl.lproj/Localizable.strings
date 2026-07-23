@@ -670,6 +670,11 @@
 "alert_csv_export_successful_title" = "Izvoz uspešen 🎉";
 "alert_csv_export_successful_message" = "Vaši podatki so bili uspešno izvoženi v \"%@\".";
 
+/* Progress */
+"csv_export_progress_preparing" = "Preparing Export";
+"csv_export_progress_transactions" = "Transactions";
+"csv_export_progress_finishing" = "Finishing Export";
+
 /* MARK: - Cloud Settings View */
 /* Info */
 "cloud_setting_info_title" = "Opis";
@@ -741,7 +746,7 @@
 /* Progress Entities */
 "backup_restore_progress_budget_books" = "Proračunske knjige";
 "backup_restore_progress_accounts" = "Računi";
-"backup_restore_progress_category_groups" = "Skupine kategorij";
+"backup_restore_progress_category_groups" = "Mapa";
 "backup_restore_progress_categories" = "Kategorije";
 "backup_restore_progress_payees" = "Prejemniki plačil";
 "backup_restore_progress_tags" = "Oznake";

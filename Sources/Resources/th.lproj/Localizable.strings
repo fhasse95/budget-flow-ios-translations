@@ -670,6 +670,11 @@
 "alert_csv_export_successful_title" = "ส่งออกสำเร็จ 🎉";
 "alert_csv_export_successful_message" = "ข้อมูลของคุณส่งออกไปยัง \"%@\" เรียบร้อยแล้ว";
 
+/* Progress */
+"csv_export_progress_preparing" = "Preparing Export";
+"csv_export_progress_transactions" = "Transactions";
+"csv_export_progress_finishing" = "Finishing Export";
+
 /* MARK: - Cloud Settings View */
 /* Info */
 "cloud_setting_info_title" = "คำอธิบาย";
@@ -741,7 +746,7 @@
 /* Progress Entities */
 "backup_restore_progress_budget_books" = "สมุดงบประมาณ";
 "backup_restore_progress_accounts" = "บัญชี";
-"backup_restore_progress_category_groups" = "กลุ่มหมวดหมู่";
+"backup_restore_progress_category_groups" = "โฟลเดอร์";
 "backup_restore_progress_categories" = "หมวดหมู่";
 "backup_restore_progress_payees" = "ผู้รับเงิน";
 "backup_restore_progress_tags" = "แท็ก";

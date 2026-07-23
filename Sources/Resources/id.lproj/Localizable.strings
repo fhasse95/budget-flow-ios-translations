@@ -670,6 +670,11 @@
 "alert_csv_export_successful_title" = "Ekspor berhasil 🎉";
 "alert_csv_export_successful_message" = "Data Anda berhasil diekspor ke \"%@\".";
 
+/* Progress */
+"csv_export_progress_preparing" = "Preparing Export";
+"csv_export_progress_transactions" = "Transactions";
+"csv_export_progress_finishing" = "Finishing Export";
+
 /* MARK: - Cloud Settings View */
 /* Info */
 "cloud_setting_info_title" = "Deskripsi";
@@ -741,7 +746,7 @@
 /* Progress Entities */
 "backup_restore_progress_budget_books" = "Buku anggaran";
 "backup_restore_progress_accounts" = "Akun";
-"backup_restore_progress_category_groups" = "Grup kategori";
+"backup_restore_progress_category_groups" = "Folder";
 "backup_restore_progress_categories" = "Kategori";
 "backup_restore_progress_payees" = "Penerima pembayaran";
 "backup_restore_progress_tags" = "Tag";

@@ -670,6 +670,11 @@
 "alert_csv_export_successful_title" = "匯出成功 🎉";
 "alert_csv_export_successful_message" = "您的資料已成功匯出至 \"%@\"";
 
+/* Progress */
+"csv_export_progress_preparing" = "Preparing Export";
+"csv_export_progress_transactions" = "Transactions";
+"csv_export_progress_finishing" = "Finishing Export";
+
 /* MARK: - Cloud Settings View */
 /* Info */
 "cloud_setting_info_title" = "描述";
@@ -741,7 +746,7 @@
 /* Progress Entities */
 "backup_restore_progress_budget_books" = "預算帳本";
 "backup_restore_progress_accounts" = "帳戶";
-"backup_restore_progress_category_groups" = "類別群組";
+"backup_restore_progress_category_groups" = "資料夾";
 "backup_restore_progress_categories" = "類別";
 "backup_restore_progress_payees" = "收款人";
 "backup_restore_progress_tags" = "標籤";

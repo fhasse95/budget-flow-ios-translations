@@ -773,9 +773,9 @@
 "advanced_setting_auto_lock_title" = "Kód žiadosti";
 
 "advanced_setting_chart_type_title" = "Typ grafu";
-"advanced_setting_show_most_used_items_title" = "Zobraziť často používané kategórie";
-"advanced_setting_show_most_used_items_description" = "Zobraziť často používané kategórie a značky vo výberovom zozname pri vytváraní a úprave transakcií.";
-"advanced_setting_remove_most_used_items_from_groups_title" = "Odstrániť najpoužívanejšie položky zo skupín";
+"advanced_setting_show_most_used_items_title" = "Zobraziť najpoužívanejšie kategórie a značky";
+"advanced_setting_show_most_used_items_description" = "Zobraziť najpoužívanejšie kategórie a značky vo výberovom zozname pri vytváraní a úprave transakcií.";
+"advanced_setting_remove_most_used_items_from_groups_title" = "Odstrániť najpoužívanejšie kategórie a značky zo skupín";
 "advanced_setting_remove_most_used_items_from_groups_description" = "Odstráni najpoužívanejšie kategórie a značky z ich bežných skupín vo výberovom zozname pri vytváraní a úprave transakcií.";
 "advanced_setting_show_notes_in_title_title" = "Zobraziť poznámky namiesto kategórie";
 "advanced_setting_show_notes_in_title_description" = "Zobraziť obsah poznámok namiesto názvu kategórie pre transakcie.";

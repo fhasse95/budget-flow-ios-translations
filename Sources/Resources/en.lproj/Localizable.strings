@@ -793,9 +793,9 @@
 
 /* View */
 "advanced_setting_chart_type_title" = "Chart Type";
-"advanced_setting_show_most_used_items_title" = "Show frequent categories & tags";
-"advanced_setting_show_most_used_items_description" = "Show frequently used categories & tags in the selection list when creating and editing transactions.";
-"advanced_setting_remove_most_used_items_from_groups_title" = "Remove most used items from groups";
+"advanced_setting_show_most_used_items_title" = "Show most used categories & tags";
+"advanced_setting_show_most_used_items_description" = "Show most used categories & tags in the selection list when creating and editing transactions.";
+"advanced_setting_remove_most_used_items_from_groups_title" = "Remove most used categories & tags from groups";
 "advanced_setting_remove_most_used_items_from_groups_description" = "Remove most used categories and tags from their regular groups in the selection list when creating and editing transactions.";
 "advanced_setting_show_notes_in_title_title" = "Show notes instead of category";
 "advanced_setting_show_notes_in_title_description" = "Show the contents of the notes instead of the category name for transactions.";

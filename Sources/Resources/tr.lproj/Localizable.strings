@@ -773,9 +773,9 @@
 "advanced_setting_auto_lock_title" = "İstek Kodu";
 
 "advanced_setting_chart_type_title" = "Grafik türü";
-"advanced_setting_show_most_used_items_title" = "Sık kullanılan kategorileri ve etiketleri göster";
-"advanced_setting_show_most_used_items_description" = "İşlemleri oluştururken ve düzenlerken, seçim listesinde sık kullanılan kategorileri ve etiketleri gösterin.";
-"advanced_setting_remove_most_used_items_from_groups_title" = "En çok kullanılan öğeleri gruplardan kaldır";
+"advanced_setting_show_most_used_items_title" = "En çok kullanılan kategorileri ve etiketleri göster";
+"advanced_setting_show_most_used_items_description" = "İşlemleri oluştururken ve düzenlerken seçim listesinde en çok kullanılan kategorileri ve etiketleri gösterin.";
+"advanced_setting_remove_most_used_items_from_groups_title" = "En çok kullanılan kategorileri ve etiketleri gruplardan kaldır";
 "advanced_setting_remove_most_used_items_from_groups_description" = "İşlemleri oluştururken ve düzenlerken seçim listesinde en çok kullanılan kategorileri ve etiketleri normal gruplarından kaldırır.";
 "advanced_setting_show_notes_in_title_title" = "Kategori yerine notları göster";
 "advanced_setting_show_notes_in_title_description" = "İşlemler için kategori adı yerine notların içeriğini gösterin.";

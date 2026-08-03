@@ -773,9 +773,9 @@
 "advanced_setting_auto_lock_title" = "اطلب كلمة المرور";
 
 "advanced_setting_chart_type_title" = "نوع المخطط";
-"advanced_setting_show_most_used_items_title" = "إظهار الفئات والعلامات المستخدمة بشكل متكرر";
-"advanced_setting_show_most_used_items_description" = "قم بتمكين هذه الميزة لعرض الفئات والعلامات المستخدمة بشكل متكرر في قائمة التحديد عند إنشاء المعاملات وتحريرها.";
-"advanced_setting_remove_most_used_items_from_groups_title" = "إزالة العناصر الأكثر استخدامًا من المجموعات";
+"advanced_setting_show_most_used_items_title" = "إظهار الفئات والعلامات الأكثر استخدامًا";
+"advanced_setting_show_most_used_items_description" = "إظهار الفئات والعلامات الأكثر استخدامًا في قائمة التحديد عند إنشاء المعاملات وتحريرها.";
+"advanced_setting_remove_most_used_items_from_groups_title" = "إزالة الفئات والعلامات الأكثر استخدامًا من المجموعات";
 "advanced_setting_remove_most_used_items_from_groups_description" = "إزالة الفئات والعلامات الأكثر استخدامًا من مجموعاتها العادية في قائمة التحديد عند إنشاء المعاملات وتحريرها.";
 "advanced_setting_show_notes_in_title_title" = "إظهار الملاحظات بدلاً من الفئة";
 "advanced_setting_show_notes_in_title_description" = "أظهر ملاحظة بدلاً من اسم الفئة في قائمة الأنشطة.";

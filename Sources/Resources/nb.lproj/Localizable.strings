@@ -773,9 +773,9 @@
 "advanced_setting_auto_lock_title" = "Etterspør kode";
 
 "advanced_setting_chart_type_title" = "Diagramtype";
-"advanced_setting_show_most_used_items_title" = "Vis ofte brukte kategorier og tagger";
-"advanced_setting_show_most_used_items_description" = "Vis ofte brukte kategorier og tagger i utvalgslisten når du oppretter og redigerer transaksjoner.";
-"advanced_setting_remove_most_used_items_from_groups_title" = "Fjern mest brukte elementer fra grupper";
+"advanced_setting_show_most_used_items_title" = "Vis mest brukte kategorier og tagger";
+"advanced_setting_show_most_used_items_description" = "Vis mest brukte kategorier og tagger i utvalgslisten når du oppretter og redigerer transaksjoner.";
+"advanced_setting_remove_most_used_items_from_groups_title" = "Fjern mest brukte kategorier og tagger fra grupper";
 "advanced_setting_remove_most_used_items_from_groups_description" = "Fjern de mest brukte kategoriene og taggene fra de vanlige gruppene i utvalgslisten når du oppretter og redigerer transaksjoner.";
 "advanced_setting_show_notes_in_title_title" = "Vis notater i stedet for kategori";
 "advanced_setting_show_notes_in_title_description" = "Vis innholdet i notatene i stedet for kategorinavnet for transaksjoner.";

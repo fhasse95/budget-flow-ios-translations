@@ -773,9 +773,9 @@
 "advanced_setting_auto_lock_title" = "Pyydä koodia";
 
 "advanced_setting_chart_type_title" = "Kaavion tyyppi";
-"advanced_setting_show_most_used_items_title" = "Näytä usein luokat ja tunnisteet";
-"advanced_setting_show_most_used_items_description" = "Näytä usein käytetyt luokat ja tunnisteet valintaluettelossa, kun luot ja muokkaat tapahtumia.";
-"advanced_setting_remove_most_used_items_from_groups_title" = "Poista eniten käytetyt kohteet ryhmistä";
+"advanced_setting_show_most_used_items_title" = "Näytä eniten käytetyt luokat ja tunnisteet";
+"advanced_setting_show_most_used_items_description" = "Näytä eniten käytetyt luokat ja tunnisteet valintaluettelossa, kun luot ja muokkaat tapahtumia.";
+"advanced_setting_remove_most_used_items_from_groups_title" = "Poista eniten käytetyt luokat ja tunnisteet ryhmistä";
 "advanced_setting_remove_most_used_items_from_groups_description" = "Poista eniten käytetyt luokat ja tunnisteet niiden tavallisista ryhmistä valintaluettelossa, kun luot ja muokkaat tapahtumia.";
 "advanced_setting_show_notes_in_title_title" = "Näytä muistiinpanot luokan sijaan";
 "advanced_setting_show_notes_in_title_description" = "Näytä muistiinpanojen sisältö tapahtumien luokan nimen sijaan.";

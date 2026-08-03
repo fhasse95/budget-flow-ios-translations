@@ -773,9 +773,9 @@
 "advanced_setting_auto_lock_title" = "Zatraži pin";
 
 "advanced_setting_chart_type_title" = "Tip grafikona";
-"advanced_setting_show_most_used_items_title" = "Prikaži često korištene kategorije";
-"advanced_setting_show_most_used_items_description" = "Prikaži često korištene kategorije i oznake na listi odabira prilikom kreiranja i uređivanja transakcija.";
-"advanced_setting_remove_most_used_items_from_groups_title" = "Ukloni najčešće korištene stavke iz grupa";
+"advanced_setting_show_most_used_items_title" = "Prikaži najčešće korištene kategorije i oznake";
+"advanced_setting_show_most_used_items_description" = "Prikaži najčešće korištene kategorije i oznake na listi odabira prilikom kreiranja i uređivanja transakcija.";
+"advanced_setting_remove_most_used_items_from_groups_title" = "Ukloni najčešće korištene kategorije i oznake iz grupa";
 "advanced_setting_remove_most_used_items_from_groups_description" = "Ukloni najčešće korištene kategorije i oznake iz njihovih uobičajenih grupa u listi odabira prilikom kreiranja i uređivanja transakcija.";
 "advanced_setting_show_notes_in_title_title" = "Prikaži bilješke umjesto kategorije";
 "advanced_setting_show_notes_in_title_description" = "Prikaži sadržaj bilješki umjesto naziva kategorije za transakcije.";

@@ -773,9 +773,9 @@
 "advanced_setting_auto_lock_title" = "รหัสคำขอ";
 
 "advanced_setting_chart_type_title" = "ประเภทแผนภูมิ";
-"advanced_setting_show_most_used_items_title" = "แสดงหมวดหมู่และแท็กที่ใช้บ่อย";
-"advanced_setting_show_most_used_items_description" = "แสดงหมวดหมู่และแท็กที่ใช้บ่อยในรายการการเลือกเมื่อสร้างและแก้ไขธุรกรรม";
-"advanced_setting_remove_most_used_items_from_groups_title" = "นำรายการที่ใช้มากที่สุดออกจากกลุ่ม";
+"advanced_setting_show_most_used_items_title" = "แสดงหมวดหมู่และแท็กที่ใช้มากที่สุด";
+"advanced_setting_show_most_used_items_description" = "แสดงหมวดหมู่และแท็กที่ใช้มากที่สุดในรายการการเลือกเมื่อสร้างและแก้ไขธุรกรรม";
+"advanced_setting_remove_most_used_items_from_groups_title" = "นำหมวดหมู่และแท็กที่ใช้มากที่สุดออกจากกลุ่ม";
 "advanced_setting_remove_most_used_items_from_groups_description" = "นำหมวดหมู่และแท็กที่ใช้มากที่สุดออกจากกลุ่มปกติในรายการตัวเลือกเมื่อสร้างและแก้ไขธุรกรรม";
 "advanced_setting_show_notes_in_title_title" = "แสดงบันทึกแทนหมวดหมู่";
 "advanced_setting_show_notes_in_title_description" = "แสดงเนื้อหาของบันทึกแทนชื่อหมวดหมู่สำหรับธุรกรรม";

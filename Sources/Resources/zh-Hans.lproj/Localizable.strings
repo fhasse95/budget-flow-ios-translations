@@ -773,9 +773,9 @@
 "advanced_setting_auto_lock_title" = "请求密码";
 
 "advanced_setting_chart_type_title" = "图表类型";
-"advanced_setting_show_most_used_items_title" = "显示常用类别和标签";
-"advanced_setting_show_most_used_items_description" = "启用此功能以便在创建和编辑交易时在选择列表中显示常用的类别和标签";
-"advanced_setting_remove_most_used_items_from_groups_title" = "从分组中移除最常用项目";
+"advanced_setting_show_most_used_items_title" = "显示最常用类别和标签";
+"advanced_setting_show_most_used_items_description" = "创建和编辑交易时，在选择列表中显示最常用的类别和标签。";
+"advanced_setting_remove_most_used_items_from_groups_title" = "从分组中移除最常用类别和标签";
 "advanced_setting_remove_most_used_items_from_groups_description" = "在创建和编辑交易时，从选择列表中的常规分组移除最常用的类别和标签。";
 "advanced_setting_show_notes_in_title_title" = "显示备注而非类别";
 "advanced_setting_show_notes_in_title_description" = "启用此功能以在交易中显示备注内容而非类别名称";

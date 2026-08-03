@@ -773,9 +773,9 @@
 "advanced_setting_auto_lock_title" = "잠금 시간 설정";
 
 "advanced_setting_chart_type_title" = "차트 유형";
-"advanced_setting_show_most_used_items_title" = "자주 사용하는 카테고리 및 태그 표시";
-"advanced_setting_show_most_used_items_description" = "거래 생성 및 편집 시 자주 사용하는 카테고리 및 태그를 선택 목록에 표시합니다.";
-"advanced_setting_remove_most_used_items_from_groups_title" = "가장 많이 사용하는 항목을 그룹에서 제거";
+"advanced_setting_show_most_used_items_title" = "가장 많이 사용하는 카테고리 및 태그 표시";
+"advanced_setting_show_most_used_items_description" = "거래 생성 및 편집 시 가장 많이 사용하는 카테고리 및 태그를 선택 목록에 표시합니다.";
+"advanced_setting_remove_most_used_items_from_groups_title" = "가장 많이 사용하는 카테고리 및 태그를 그룹에서 제거";
 "advanced_setting_remove_most_used_items_from_groups_description" = "거래를 생성하고 편집할 때 선택 목록에서 가장 많이 사용하는 카테고리와 태그를 일반 그룹에서 제거합니다.";
 "advanced_setting_show_notes_in_title_title" = "카테고리 대신 메모 표시";
 "advanced_setting_show_notes_in_title_description" = "거래 카테고리 이름 대신 메모 내용을 표시합니다.";

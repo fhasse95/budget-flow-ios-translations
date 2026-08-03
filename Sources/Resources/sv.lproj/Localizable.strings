@@ -773,9 +773,9 @@
 "advanced_setting_auto_lock_title" = "Begär kod";
 
 "advanced_setting_chart_type_title" = "Diagramtyp";
-"advanced_setting_show_most_used_items_title" = "Visa vanliga kategorier och taggar";
-"advanced_setting_show_most_used_items_description" = "Visa ofta använda kategorier och taggar i urvalslistan när du skapar och redigerar transaktioner.";
-"advanced_setting_remove_most_used_items_from_groups_title" = "Ta bort mest använda objekt från grupper";
+"advanced_setting_show_most_used_items_title" = "Visa mest använda kategorier och taggar";
+"advanced_setting_show_most_used_items_description" = "Visa mest använda kategorier och taggar i urvalslistan när du skapar och redigerar transaktioner.";
+"advanced_setting_remove_most_used_items_from_groups_title" = "Ta bort mest använda kategorier och taggar från grupper";
 "advanced_setting_remove_most_used_items_from_groups_description" = "Tar bort de mest använda kategorierna och taggarna från deras vanliga grupper i urvalslistan när du skapar och redigerar transaktioner.";
 "advanced_setting_show_notes_in_title_title" = "Visa anteckningar istället för kategori";
 "advanced_setting_show_notes_in_title_description" = "Visa innehållet i anteckningarna istället för kategorinamnet för transaktioner.";

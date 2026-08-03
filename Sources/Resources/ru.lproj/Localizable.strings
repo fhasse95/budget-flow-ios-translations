@@ -773,9 +773,9 @@
 "advanced_setting_auto_lock_title" = "Спрашивать пароль";
 
 "advanced_setting_chart_type_title" = "Тип диаграммы";
-"advanced_setting_show_most_used_items_title" = "Показывать часто используемые категории и теги";
-"advanced_setting_show_most_used_items_description" = "Включите эту функцию, чтобы отображать часто используемые категории и теги в списке выбора при создании и редактировании транзакций.";
-"advanced_setting_remove_most_used_items_from_groups_title" = "Удалять наиболее используемые элементы из групп";
+"advanced_setting_show_most_used_items_title" = "Показывать наиболее используемые категории и теги";
+"advanced_setting_show_most_used_items_description" = "Показывать наиболее используемые категории и теги в списке выбора при создании и редактировании транзакций.";
+"advanced_setting_remove_most_used_items_from_groups_title" = "Удалять наиболее используемые категории и теги из групп";
 "advanced_setting_remove_most_used_items_from_groups_description" = "Удаляйте наиболее используемые категории и теги из их обычных групп в списке выбора при создании и редактировании транзакций.";
 "advanced_setting_show_notes_in_title_title" = "Показывать заметки вместо категории";
 "advanced_setting_show_notes_in_title_description" = "Отображать заметку вместо названия категории в списке операций.";

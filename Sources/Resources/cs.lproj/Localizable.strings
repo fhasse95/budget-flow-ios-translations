@@ -773,10 +773,10 @@
 "advanced_setting_auto_lock_title" = "Kód požadavku";
 
 "advanced_setting_chart_type_title" = "Typ grafu";
-"advanced_setting_show_most_used_items_title" = "Zobrazit časté kategorie a štítky";
-"advanced_setting_show_most_used_items_description" = "Zobrazit často používané kategorie a značky ve výběrovém seznamu při vytváření a úpravách transakcí.";
-"advanced_setting_remove_most_used_items_from_groups_title" = "Odebrat nejpoužívanější položky ze skupin";
-"advanced_setting_remove_most_used_items_from_groups_description" = "Odebrat nejpoužívanější kategorie a značky z jejich běžných skupin ve výběrovém seznamu při vytváření a úpravách transakcí.";
+"advanced_setting_show_most_used_items_title" = "Zobrazit nejpoužívanější kategorie a štítky";
+"advanced_setting_show_most_used_items_description" = "Zobrazit nejpoužívanější kategorie a štítky ve výběrovém seznamu při vytváření a úpravách transakcí.";
+"advanced_setting_remove_most_used_items_from_groups_title" = "Odebrat nejpoužívanější kategorie a štítky ze skupin";
+"advanced_setting_remove_most_used_items_from_groups_description" = "Odebrat nejpoužívanější kategorie a štítky z jejich běžných skupin ve výběrovém seznamu při vytváření a úpravách transakcí.";
 "advanced_setting_show_notes_in_title_title" = "Zobrazit poznámky místo kategorie";
 "advanced_setting_show_notes_in_title_description" = "U transakcí zobrazit místo názvu kategorie obsah poznámek.";
 "advanced_setting_start_day_of_month_title" = "Počáteční den měsíce";

@@ -773,9 +773,9 @@
 "advanced_setting_auto_lock_title" = "Код запиту";
 
 "advanced_setting_chart_type_title" = "Тип діаграми";
-"advanced_setting_show_most_used_items_title" = "Показувати часті категорії та теги";
-"advanced_setting_show_most_used_items_description" = "Показувати часто використовувані категорії та теги у списку вибору під час створення та редагування транзакцій.";
-"advanced_setting_remove_most_used_items_from_groups_title" = "Вилучати найчастіше використовувані елементи з груп";
+"advanced_setting_show_most_used_items_title" = "Показувати найчастіше використовувані категорії та теги";
+"advanced_setting_show_most_used_items_description" = "Показувати найчастіше використовувані категорії та теги у списку вибору під час створення та редагування транзакцій.";
+"advanced_setting_remove_most_used_items_from_groups_title" = "Вилучати найчастіше використовувані категорії та теги з груп";
 "advanced_setting_remove_most_used_items_from_groups_description" = "Вилучайте найчастіше використовувані категорії та теги з їхніх звичайних груп у списку вибору під час створення та редагування транзакцій.";
 "advanced_setting_show_notes_in_title_title" = "Показувати нотатки замість категорії";
 "advanced_setting_show_notes_in_title_description" = "Показувати вміст приміток замість назви категорії для транзакцій.";

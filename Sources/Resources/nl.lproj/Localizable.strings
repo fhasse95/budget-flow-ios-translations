@@ -773,9 +773,9 @@
 "advanced_setting_auto_lock_title" = "Code aanvragen";
 
 "advanced_setting_chart_type_title" = "Grafiektype";
-"advanced_setting_show_most_used_items_title" = "Toon frequente categorieën en tags";
-"advanced_setting_show_most_used_items_description" = "Toon veelgebruikte categorieën en tags in de selectielijst bij het maken en bewerken van transacties.";
-"advanced_setting_remove_most_used_items_from_groups_title" = "Meest gebruikte items uit groepen verwijderen";
+"advanced_setting_show_most_used_items_title" = "Toon meest gebruikte categorieën en tags";
+"advanced_setting_show_most_used_items_description" = "Toon meest gebruikte categorieën en tags in de selectielijst bij het maken en bewerken van transacties.";
+"advanced_setting_remove_most_used_items_from_groups_title" = "Meest gebruikte categorieën en tags uit groepen verwijderen";
 "advanced_setting_remove_most_used_items_from_groups_description" = "Verwijder de meest gebruikte categorieën en tags uit hun gewone groepen in de selectielijst bij het maken en bewerken van transacties.";
 "advanced_setting_show_notes_in_title_title" = "Toon notities in plaats van categorie";
 "advanced_setting_show_notes_in_title_description" = "Toon de inhoud van de notities in plaats van de categorienaam voor transacties.";

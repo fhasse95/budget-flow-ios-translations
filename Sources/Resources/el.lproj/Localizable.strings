@@ -773,9 +773,9 @@
 "advanced_setting_auto_lock_title" = "Αίτηση κωδικού";
 
 "advanced_setting_chart_type_title" = "Τύπος γραφήματος";
-"advanced_setting_show_most_used_items_title" = "Εμφάνιση συχνών κατηγοριών και ετικετών";
-"advanced_setting_show_most_used_items_description" = "Εμφάνιση κατηγοριών και ετικετών που χρησιμοποιούνται συχνά στη λίστα επιλογής κατά τη δημιουργία και την επεξεργασία συναλλαγών.";
-"advanced_setting_remove_most_used_items_from_groups_title" = "Αφαίρεση των πιο χρησιμοποιούμενων στοιχείων από ομάδες";
+"advanced_setting_show_most_used_items_title" = "Εμφάνιση των πιο χρησιμοποιούμενων κατηγοριών και ετικετών";
+"advanced_setting_show_most_used_items_description" = "Εμφάνιση των πιο χρησιμοποιούμενων κατηγοριών και ετικετών στη λίστα επιλογής κατά τη δημιουργία και την επεξεργασία συναλλαγών.";
+"advanced_setting_remove_most_used_items_from_groups_title" = "Αφαίρεση των πιο χρησιμοποιούμενων κατηγοριών και ετικετών από ομάδες";
 "advanced_setting_remove_most_used_items_from_groups_description" = "Αφαιρέστε τις πιο χρησιμοποιούμενες κατηγορίες και ετικέτες από τις κανονικές ομάδες τους στη λίστα επιλογής κατά τη δημιουργία και την επεξεργασία συναλλαγών.";
 "advanced_setting_show_notes_in_title_title" = "Εμφάνιση σημειώσεων αντί για κατηγορία";
 "advanced_setting_show_notes_in_title_description" = "Εμφάνιση των περιεχομένων των σημειώσεων αντί του ονόματος της κατηγορίας για τις συναλλαγές.";

@@ -773,9 +773,9 @@
 "advanced_setting_auto_lock_title" = "Yêu cầu mật khẩu";
 
 "advanced_setting_chart_type_title" = "Loại biểu đồ";
-"advanced_setting_show_most_used_items_title" = "Hiển thị nhãn và Danh mục thường sử dụng";
-"advanced_setting_show_most_used_items_description" = "Hiển thị các danh mục & thẻ được sử dụng thường xuyên trong danh sách lựa chọn khi tạo và chỉnh sửa giao dịch.";
-"advanced_setting_remove_most_used_items_from_groups_title" = "Xóa các mục được dùng nhiều nhất khỏi nhóm";
+"advanced_setting_show_most_used_items_title" = "Hiển thị danh mục và thẻ được dùng nhiều nhất";
+"advanced_setting_show_most_used_items_description" = "Hiển thị danh mục và thẻ được dùng nhiều nhất trong danh sách lựa chọn khi tạo và chỉnh sửa giao dịch.";
+"advanced_setting_remove_most_used_items_from_groups_title" = "Xóa danh mục và thẻ được dùng nhiều nhất khỏi nhóm";
 "advanced_setting_remove_most_used_items_from_groups_description" = "Xóa các danh mục và thẻ được dùng nhiều nhất khỏi các nhóm thông thường trong danh sách lựa chọn khi tạo và chỉnh sửa giao dịch.";
 "advanced_setting_show_notes_in_title_title" = "Hiển thị ghi chú thay vì danh mục";
 "advanced_setting_show_notes_in_title_description" = "Hiển thị nội dung của ghi chú thay vì tên danh mục cho các giao dịch.";

@@ -773,9 +773,9 @@
 "advanced_setting_auto_lock_title" = "Zahtevaj kodo";
 
 "advanced_setting_chart_type_title" = "Vrsta grafa";
-"advanced_setting_show_most_used_items_title" = "Prikaži pogoste kategorije & oznake";
-"advanced_setting_show_most_used_items_description" = "Prikaži pogosto uporabljene kategorije in oznake na seznamu izbir pri ustvarjanju in urejanju transakcij.";
-"advanced_setting_remove_most_used_items_from_groups_title" = "Odstrani najpogosteje uporabljene elemente iz skupin";
+"advanced_setting_show_most_used_items_title" = "Prikaži najpogosteje uporabljene kategorije in oznake";
+"advanced_setting_show_most_used_items_description" = "Prikaži najpogosteje uporabljene kategorije in oznake na seznamu izbir pri ustvarjanju in urejanju transakcij.";
+"advanced_setting_remove_most_used_items_from_groups_title" = "Odstrani najpogosteje uporabljene kategorije in oznake iz skupin";
 "advanced_setting_remove_most_used_items_from_groups_description" = "Odstrani najpogosteje uporabljene kategorije in oznake iz njihovih običajnih skupin na seznamu izbir pri ustvarjanju in urejanju transakcij.";
 "advanced_setting_show_notes_in_title_title" = "Prikaži opombe namesto kategorije";
 "advanced_setting_show_notes_in_title_description" = "Prikaži vsebino opomb namesto imena kategorije za transakcije.";

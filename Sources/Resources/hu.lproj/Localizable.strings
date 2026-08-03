@@ -773,9 +773,9 @@
 "advanced_setting_auto_lock_title" = "Kód kérése";
 
 "advanced_setting_chart_type_title" = "Diagramtípus";
-"advanced_setting_show_most_used_items_title" = "Gyakori kategóriák és címkék megjelenítése";
-"advanced_setting_show_most_used_items_description" = "Gyakran használt kategóriák és címkék megjelenítése a kiválasztási listában tranzakciók létrehozásakor és szerkesztésekor.";
-"advanced_setting_remove_most_used_items_from_groups_title" = "Leggyakrabban használt elemek eltávolítása a csoportokból";
+"advanced_setting_show_most_used_items_title" = "Leggyakrabban használt kategóriák és címkék megjelenítése";
+"advanced_setting_show_most_used_items_description" = "Leggyakrabban használt kategóriák és címkék megjelenítése a kiválasztási listában tranzakciók létrehozásakor és szerkesztésekor.";
+"advanced_setting_remove_most_used_items_from_groups_title" = "Leggyakrabban használt kategóriák és címkék eltávolítása a csoportokból";
 "advanced_setting_remove_most_used_items_from_groups_description" = "Eltávolítja a leggyakrabban használt kategóriákat és címkéket a szokásos csoportjaikból a kiválasztási listában tranzakciók létrehozásakor és szerkesztésekor.";
 "advanced_setting_show_notes_in_title_title" = "Jegyzetek megjelenítése kategória helyett";
 "advanced_setting_show_notes_in_title_description" = "A tranzakciók kategórianév helyett a megjegyzések tartalmát jelenítse meg.";

@@ -773,9 +773,9 @@
 "advanced_setting_auto_lock_title" = "Exiger le code";
 
 "advanced_setting_chart_type_title" = "Type de graphique";
-"advanced_setting_show_most_used_items_title" = "Afficher les catégories et tags fréquents";
-"advanced_setting_show_most_used_items_description" = "Afficher les catégories et balises fréquemment utilisées dans la liste de sélection lors de la création et de la modification de transactions.";
-"advanced_setting_remove_most_used_items_from_groups_title" = "Retirer les éléments les plus utilisés des groupes";
+"advanced_setting_show_most_used_items_title" = "Afficher les catégories et tags les plus utilisés";
+"advanced_setting_show_most_used_items_description" = "Afficher les catégories et tags les plus utilisés dans la liste de sélection lors de la création et de la modification de transactions.";
+"advanced_setting_remove_most_used_items_from_groups_title" = "Retirer les catégories et tags les plus utilisés des groupes";
 "advanced_setting_remove_most_used_items_from_groups_description" = "Retire les catégories et tags les plus utilisés de leurs groupes habituels dans la liste de sélection lors de la création et de la modification de transactions.";
 "advanced_setting_show_notes_in_title_title" = "Afficher les notes au lieu de la catégorie";
 "advanced_setting_show_notes_in_title_description" = "Afficher le contenu des notes au lieu du nom de la catégorie pour les transactions.";

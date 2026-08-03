@@ -773,9 +773,9 @@
 "advanced_setting_auto_lock_title" = "リクエストコード";
 
 "advanced_setting_chart_type_title" = "グラフの種類";
-"advanced_setting_show_most_used_items_title" = "頻繁に使用されるカテゴリとタグを表示する";
-"advanced_setting_show_most_used_items_description" = "トランザクションの作成および編集時に、頻繁に使用されるカテゴリとタグを選択リストに表示するには、この機能を有効にします。";
-"advanced_setting_remove_most_used_items_from_groups_title" = "最も使用される項目をグループから削除";
+"advanced_setting_show_most_used_items_title" = "最も使用されるカテゴリとタグを表示";
+"advanced_setting_show_most_used_items_description" = "トランザクションの作成および編集時に、最も使用されるカテゴリとタグを選択リストに表示します。";
+"advanced_setting_remove_most_used_items_from_groups_title" = "最も使用されるカテゴリとタグをグループから削除";
 "advanced_setting_remove_most_used_items_from_groups_description" = "取引の作成および編集時に、最も使用されるカテゴリとタグを選択リストの通常のグループから削除します。";
 "advanced_setting_show_notes_in_title_title" = "カテゴリの代わりにメモを表示";
 "advanced_setting_show_notes_in_title_description" = "トランザクションのカテゴリ名の代わりにメモの内容を表示するには、この機能を有効にします。";

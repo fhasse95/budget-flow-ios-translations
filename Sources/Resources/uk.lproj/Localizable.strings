@@ -671,9 +671,10 @@
 "alert_csv_export_successful_message" = "Ваші дані успішно експортовано до \"%@\".";
 
 /* Progress */
-"csv_export_progress_preparing" = "Preparing Export";
-"csv_export_progress_transactions" = "Transactions";
-"csv_export_progress_finishing" = "Finishing Export";
+"alert_csv_export_progress_title" = "Експорт";
+"csv_export_progress_preparing" = "Підготовка експорту";
+"csv_export_progress_transactions" = "Транзакції";
+"csv_export_progress_finishing" = "Завершення експорту";
 
 /* MARK: - Cloud Settings View */
 /* Info */
@@ -842,7 +843,15 @@
 "alert_share_app_type_selection_qrcode_button" = "QR-код";
 
 "alert_reset_app_title" = "Скинути додаток";
-"alert_reset_app_message" = "Ви впевнені, що бажаєте скинути налаштування програми за замовчуванням? Це назавжди видалить усі ваші дані, що зберігаються на цьому пристрої та в iCloud.";
+"alert_reset_app_message" = "Ви впевнені, що бажаєте скинути програму до налаштувань за замовчуванням? Це назавжди видалить усі ваші дані.";
+
+/* Progress */
+"alert_app_reset_progress_title" = "Скинути додаток";
+"app_reset_progress_preparing" = "Підготовка скидання додатка";
+"app_reset_progress_deleting_existing_notifications" = "Видалення наявних сповіщень";
+"app_reset_progress_deleting_existing_data" = "Видалення наявних даних";
+"app_reset_progress_deleting_existing_settings" = "Видалення наявних налаштувань";
+"app_reset_progress_finishing" = "Завершення скидання додатка";
 
 "alert_error_title" = "Сталася помилка😢";
 

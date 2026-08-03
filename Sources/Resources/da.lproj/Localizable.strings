@@ -671,9 +671,10 @@
 "alert_csv_export_successful_message" = "Dine data blev eksporteret til \"%@\".";
 
 /* Progress */
-"csv_export_progress_preparing" = "Preparing Export";
-"csv_export_progress_transactions" = "Transactions";
-"csv_export_progress_finishing" = "Finishing Export";
+"alert_csv_export_progress_title" = "Eksport";
+"csv_export_progress_preparing" = "Forbereder eksport";
+"csv_export_progress_transactions" = "Transaktioner";
+"csv_export_progress_finishing" = "Afslutter eksport";
 
 /* MARK: - Cloud Settings View */
 /* Info */
@@ -842,7 +843,15 @@
 "alert_share_app_type_selection_qrcode_button" = "QR-kode";
 
 "alert_reset_app_title" = "Nulstil app";
-"alert_reset_app_message" = "Er du sikker på, at du vil nulstille appen til standardindstillingerne? Dette vil permanent slette alle dine data gemt på denne enhed og iCloud.";
+"alert_reset_app_message" = "Er du sikker på, at du vil nulstille appen til standardindstillingerne? Dette sletter alle dine data permanent.";
+
+/* Progress */
+"alert_app_reset_progress_title" = "Nulstil app";
+"app_reset_progress_preparing" = "Forbereder nulstilling af app";
+"app_reset_progress_deleting_existing_notifications" = "Sletter eksisterende notifikationer";
+"app_reset_progress_deleting_existing_data" = "Sletter eksisterende data";
+"app_reset_progress_deleting_existing_settings" = "Sletter eksisterende indstillinger";
+"app_reset_progress_finishing" = "Afslutter nulstilling af app";
 
 "alert_error_title" = "Der opstod en fejl 😢";
 

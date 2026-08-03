@@ -671,9 +671,10 @@
 "alert_csv_export_successful_message" = "Dữ liệu của bạn đã được xuất thành công sang \"%@\".";
 
 /* Progress */
-"csv_export_progress_preparing" = "Preparing Export";
-"csv_export_progress_transactions" = "Transactions";
-"csv_export_progress_finishing" = "Finishing Export";
+"alert_csv_export_progress_title" = "Xuất dữ liệu";
+"csv_export_progress_preparing" = "Đang chuẩn bị xuất";
+"csv_export_progress_transactions" = "Giao dịch";
+"csv_export_progress_finishing" = "Đang hoàn tất xuất";
 
 /* MARK: - Cloud Settings View */
 /* Info */
@@ -842,7 +843,15 @@
 "alert_share_app_type_selection_qrcode_button" = "Mã QR";
 
 "alert_reset_app_title" = "Đặt lại ứng dụng";
-"alert_reset_app_message" = "Bạn có chắc chắn muốn đặt lại ứng dụng về cài đặt mặc định không? Thao tác này sẽ xóa vĩnh viễn tất cả dữ liệu của bạn được lưu trữ trên thiết bị này và iCloud.";
+"alert_reset_app_message" = "Bạn có chắc chắn muốn đặt lại ứng dụng về cài đặt mặc định không? Thao tác này sẽ xóa vĩnh viễn tất cả dữ liệu của bạn.";
+
+/* Progress */
+"alert_app_reset_progress_title" = "Đặt lại dữ liệu";
+"app_reset_progress_preparing" = "Đang chuẩn bị đặt lại ứng dụng";
+"app_reset_progress_deleting_existing_notifications" = "Đang xóa thông báo hiện có";
+"app_reset_progress_deleting_existing_data" = "Đang xóa dữ liệu hiện có";
+"app_reset_progress_deleting_existing_settings" = "Đang xóa cài đặt hiện có";
+"app_reset_progress_finishing" = "Đang hoàn tất đặt lại ứng dụng";
 
 "alert_error_title" = "Đã xảy ra lỗi 😢";
 

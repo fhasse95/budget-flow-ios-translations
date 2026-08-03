@@ -671,9 +671,10 @@
 "alert_csv_export_successful_message" = "Je gegevens zijn succesvol geëxporteerd naar \"%@\".";
 
 /* Progress */
-"csv_export_progress_preparing" = "Preparing Export";
-"csv_export_progress_transactions" = "Transactions";
-"csv_export_progress_finishing" = "Finishing Export";
+"alert_csv_export_progress_title" = "Exporteren";
+"csv_export_progress_preparing" = "Export voorbereiden";
+"csv_export_progress_transactions" = "Transacties";
+"csv_export_progress_finishing" = "Export afronden";
 
 /* MARK: - Cloud Settings View */
 /* Info */
@@ -842,7 +843,15 @@
 "alert_share_app_type_selection_qrcode_button" = "QR-code";
 
 "alert_reset_app_title" = "App resetten";
-"alert_reset_app_message" = "Weet je zeker dat je de standaardinstellingen van de app wilt herstellen? Hierdoor worden al je gegevens permanent gewist die op dit apparaat en in iCloud zijn opgeslagen.";
+"alert_reset_app_message" = "Weet je zeker dat je de app wilt herstellen naar de standaardinstellingen? Hierdoor worden al je gegevens permanent gewist.";
+
+/* Progress */
+"alert_app_reset_progress_title" = "App resetten";
+"app_reset_progress_preparing" = "App-reset voorbereiden";
+"app_reset_progress_deleting_existing_notifications" = "Bestaande meldingen verwijderen";
+"app_reset_progress_deleting_existing_data" = "Bestaande gegevens verwijderen";
+"app_reset_progress_deleting_existing_settings" = "Bestaande instellingen verwijderen";
+"app_reset_progress_finishing" = "App-reset afronden";
 
 "alert_error_title" = "Er is een fout opgetreden 😢";
 

@@ -671,9 +671,10 @@
 "alert_csv_export_successful_message" = "データは \"%@\" に正常にエクスポートされました。";
 
 /* Progress */
-"csv_export_progress_preparing" = "Preparing Export";
-"csv_export_progress_transactions" = "Transactions";
-"csv_export_progress_finishing" = "Finishing Export";
+"alert_csv_export_progress_title" = "エクスポート";
+"csv_export_progress_preparing" = "エクスポートを準備中";
+"csv_export_progress_transactions" = "取引";
+"csv_export_progress_finishing" = "エクスポートを完了中";
 
 /* MARK: - Cloud Settings View */
 /* Info */
@@ -842,7 +843,15 @@
 "alert_share_app_type_selection_qrcode_button" = "QRコード";
 
 "alert_reset_app_title" = "アプリをリセット";
-"alert_reset_app_message" = "アプリをデフォルト設定にリセットしてもよろしいですか? これにより、このデバイスと iCloud に保存されているすべてのデータが完全に消去されます。";
+"alert_reset_app_message" = "アプリをデフォルト設定にリセットしてもよろしいですか? これにより、すべてのデータが完全に消去されます。";
+
+/* Progress */
+"alert_app_reset_progress_title" = "アプリをリセット";
+"app_reset_progress_preparing" = "アプリのリセットを準備中";
+"app_reset_progress_deleting_existing_notifications" = "既存の通知を削除中";
+"app_reset_progress_deleting_existing_data" = "既存のデータを削除中";
+"app_reset_progress_deleting_existing_settings" = "既存の設定を削除中";
+"app_reset_progress_finishing" = "アプリのリセットを完了中";
 
 "alert_error_title" = "エラーが発生しました 😢";
 

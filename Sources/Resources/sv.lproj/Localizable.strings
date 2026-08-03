@@ -671,9 +671,10 @@
 "alert_csv_export_successful_message" = "Din data exporterades framgångsrikt till \"%@\".";
 
 /* Progress */
-"csv_export_progress_preparing" = "Preparing Export";
-"csv_export_progress_transactions" = "Transactions";
-"csv_export_progress_finishing" = "Finishing Export";
+"alert_csv_export_progress_title" = "Exportera";
+"csv_export_progress_preparing" = "Förbereder export";
+"csv_export_progress_transactions" = "Transaktioner";
+"csv_export_progress_finishing" = "Slutför export";
 
 /* MARK: - Cloud Settings View */
 /* Info */
@@ -842,7 +843,15 @@
 "alert_share_app_type_selection_qrcode_button" = "QR-kod";
 
 "alert_reset_app_title" = "Återställ appen";
-"alert_reset_app_message" = "Är du säker på att du vill återställa appen till standardinställningarna? Detta kommer att radera alla dina data som lagrats på den här enheten och iCloud permanent.";
+"alert_reset_app_message" = "Är du säker på att du vill återställa appen till standardinställningarna? Detta raderar permanent alla dina data.";
+
+/* Progress */
+"alert_app_reset_progress_title" = "Återställ appen";
+"app_reset_progress_preparing" = "Förbereder återställning av appen";
+"app_reset_progress_deleting_existing_notifications" = "Tar bort befintliga aviseringar";
+"app_reset_progress_deleting_existing_data" = "Tar bort befintlig data";
+"app_reset_progress_deleting_existing_settings" = "Tar bort befintliga inställningar";
+"app_reset_progress_finishing" = "Slutför återställning av appen";
 
 "alert_error_title" = "Ett fel uppstod 😢";
 

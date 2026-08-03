@@ -671,9 +671,10 @@
 "alert_csv_export_successful_message" = "Verileriniz başarıyla \"%@\" konumuna aktarıldı.";
 
 /* Progress */
-"csv_export_progress_preparing" = "Preparing Export";
-"csv_export_progress_transactions" = "Transactions";
-"csv_export_progress_finishing" = "Finishing Export";
+"alert_csv_export_progress_title" = "Dışa Aktar";
+"csv_export_progress_preparing" = "Dışa aktarma hazırlanıyor";
+"csv_export_progress_transactions" = "İşlemler";
+"csv_export_progress_finishing" = "Dışa aktarma tamamlanıyor";
 
 /* MARK: - Cloud Settings View */
 /* Info */
@@ -842,7 +843,15 @@
 "alert_share_app_type_selection_qrcode_button" = "QR Kodu";
 
 "alert_reset_app_title" = "Uygulamayı Sıfırla";
-"alert_reset_app_message" = "Uygulamayı varsayılan ayarlara sıfırlamak istediğinizden emin misiniz? Bu, bu aygıtta ve iCloud'da saklanan tüm verilerinizi kalıcı olarak silecektir.";
+"alert_reset_app_message" = "Uygulamayı varsayılan ayarlara sıfırlamak istediğinizden emin misiniz? Bu, tüm verilerinizi kalıcı olarak silecektir.";
+
+/* Progress */
+"alert_app_reset_progress_title" = "Uygulamayı Sıfırla";
+"app_reset_progress_preparing" = "Uygulama sıfırlama hazırlanıyor";
+"app_reset_progress_deleting_existing_notifications" = "Mevcut bildirimler siliniyor";
+"app_reset_progress_deleting_existing_data" = "Mevcut veriler siliniyor";
+"app_reset_progress_deleting_existing_settings" = "Mevcut ayarlar siliniyor";
+"app_reset_progress_finishing" = "Uygulama sıfırlama tamamlanıyor";
 
 "alert_error_title" = "Bir hata oluştu 😢";
 

@@ -671,9 +671,10 @@
 "alert_csv_export_successful_message" = "ข้อมูลของคุณส่งออกไปยัง \"%@\" เรียบร้อยแล้ว";
 
 /* Progress */
-"csv_export_progress_preparing" = "Preparing Export";
-"csv_export_progress_transactions" = "Transactions";
-"csv_export_progress_finishing" = "Finishing Export";
+"alert_csv_export_progress_title" = "ส่งออก";
+"csv_export_progress_preparing" = "กำลังเตรียมการส่งออก";
+"csv_export_progress_transactions" = "ธุรกรรม";
+"csv_export_progress_finishing" = "กำลังเสร็จสิ้นการส่งออก";
 
 /* MARK: - Cloud Settings View */
 /* Info */
@@ -842,7 +843,15 @@
 "alert_share_app_type_selection_qrcode_button" = "คิวอาร์โค้ด";
 
 "alert_reset_app_title" = "รีเซ็ตแอป";
-"alert_reset_app_message" = "คุณแน่ใจหรือไม่ว่าคุณต้องการรีเซ็ตแอปเป็นการตั้งค่าเริ่มต้น การทำเช่นนี้จะลบข้อมูลทั้งหมดของคุณที่จัดเก็บไว้ในอุปกรณ์นี้และ iCloud อย่างถาวร";
+"alert_reset_app_message" = "คุณแน่ใจหรือไม่ว่าต้องการรีเซ็ตแอปเป็นการตั้งค่าเริ่มต้น การดำเนินการนี้จะลบข้อมูลทั้งหมดของคุณอย่างถาวร";
+
+/* Progress */
+"alert_app_reset_progress_title" = "รีเซ็ตแอป";
+"app_reset_progress_preparing" = "กำลังเตรียมรีเซ็ตแอป";
+"app_reset_progress_deleting_existing_notifications" = "กำลังลบการแจ้งเตือนที่มีอยู่";
+"app_reset_progress_deleting_existing_data" = "กำลังลบข้อมูลที่มีอยู่";
+"app_reset_progress_deleting_existing_settings" = "กำลังลบการตั้งค่าที่มีอยู่";
+"app_reset_progress_finishing" = "กำลังเสร็จสิ้นการรีเซ็ตแอป";
 
 "alert_error_title" = "เกิดข้อผิดพลาด 😢";
 

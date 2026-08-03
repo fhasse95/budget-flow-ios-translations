@@ -671,9 +671,10 @@
 "alert_csv_export_successful_message" = "Seus dados foram exportados com êxito para \"%@\".";
 
 /* Progress */
-"csv_export_progress_preparing" = "Preparing Export";
-"csv_export_progress_transactions" = "Transactions";
-"csv_export_progress_finishing" = "Finishing Export";
+"alert_csv_export_progress_title" = "Exportar";
+"csv_export_progress_preparing" = "Preparando exportação";
+"csv_export_progress_transactions" = "Transações";
+"csv_export_progress_finishing" = "Finalizando exportação";
 
 /* MARK: - Cloud Settings View */
 /* Info */
@@ -842,7 +843,15 @@
 "alert_share_app_type_selection_qrcode_button" = "Código QR";
 
 "alert_reset_app_title" = "Redefinir aplicativo";
-"alert_reset_app_message" = "Tem certeza que deseja redefinir o aplicativo para as configurações padrão? Isto irá excluir permanentemente todos os seus dados armazenados neste dispositivo e no iCloud.";
+"alert_reset_app_message" = "Tem certeza de que deseja redefinir o aplicativo para as configurações padrão? Isso excluirá permanentemente todos os seus dados.";
+
+/* Progress */
+"alert_app_reset_progress_title" = "Redefinir aplicativo";
+"app_reset_progress_preparing" = "Preparando redefinição do aplicativo";
+"app_reset_progress_deleting_existing_notifications" = "Excluindo notificações existentes";
+"app_reset_progress_deleting_existing_data" = "Excluindo dados existentes";
+"app_reset_progress_deleting_existing_settings" = "Excluindo configurações existentes";
+"app_reset_progress_finishing" = "Finalizando redefinição do aplicativo";
 
 "alert_error_title" = "Ocorreu um erro 😢";
 

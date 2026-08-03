@@ -683,6 +683,7 @@
 "alert_csv_export_successful_message" = "Your data was successfully exported to \"%@\".";
 
 /* Progress */
+"alert_csv_export_progress_title" = "Export";
 "csv_export_progress_preparing" = "Preparing Export";
 "csv_export_progress_transactions" = "Transactions";
 "csv_export_progress_finishing" = "Finishing Export";
@@ -864,7 +865,15 @@
 "alert_share_app_type_selection_qrcode_button" = "QR Code";
 
 "alert_reset_app_title" = "Reset App";
-"alert_reset_app_message" = "Are you sure you want to reset the app to default settings? This will permanently erase all your data stored on this device and iCloud.";
+"alert_reset_app_message" = "Are you sure you want to reset the app to default settings? This will permanently erase all your data.";
+
+/* Progress */
+"alert_app_reset_progress_title" = "Reset App";
+"app_reset_progress_preparing" = "Preparing App Reset";
+"app_reset_progress_deleting_existing_notifications" = "Deleting Existing Notifications";
+"app_reset_progress_deleting_existing_data" = "Deleting Existing Data";
+"app_reset_progress_deleting_existing_settings" = "Deleting Existing Settings";
+"app_reset_progress_finishing" = "Finishing App Reset";
 
 "alert_error_title" = "An error occurred 😢";
 

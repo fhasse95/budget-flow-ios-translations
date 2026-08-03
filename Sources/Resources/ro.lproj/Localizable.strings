@@ -671,9 +671,10 @@
 "alert_csv_export_successful_message" = "Datele dvs. au fost exportate cu succes în \"%@\".";
 
 /* Progress */
-"csv_export_progress_preparing" = "Preparing Export";
-"csv_export_progress_transactions" = "Transactions";
-"csv_export_progress_finishing" = "Finishing Export";
+"alert_csv_export_progress_title" = "Export";
+"csv_export_progress_preparing" = "Se pregătește exportul";
+"csv_export_progress_transactions" = "Tranzacții";
+"csv_export_progress_finishing" = "Se finalizează exportul";
 
 /* MARK: - Cloud Settings View */
 /* Info */
@@ -842,7 +843,15 @@
 "alert_share_app_type_selection_qrcode_button" = "Cod QR";
 
 "alert_reset_app_title" = "Resetați aplicația";
-"alert_reset_app_message" = "Sunteți sigur că doriți să resetați aplicația la setările implicite? Acest lucru va șterge definitiv toate datele stocate pe acest dispozitiv și pe iCloud.";
+"alert_reset_app_message" = "Sigur doriți să resetați aplicația la setările implicite? Acest lucru va șterge definitiv toate datele.";
+
+/* Progress */
+"alert_app_reset_progress_title" = "Resetați aplicația";
+"app_reset_progress_preparing" = "Se pregătește resetarea aplicației";
+"app_reset_progress_deleting_existing_notifications" = "Se șterg notificările existente";
+"app_reset_progress_deleting_existing_data" = "Se șterg datele existente";
+"app_reset_progress_deleting_existing_settings" = "Se șterg setările existente";
+"app_reset_progress_finishing" = "Se finalizează resetarea aplicației";
 
 "alert_error_title" = "A apărut o eroare 😢";
 

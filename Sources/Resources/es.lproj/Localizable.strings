@@ -671,9 +671,10 @@
 "alert_csv_export_successful_message" = "Sus datos se han exportado correctamente a \"%@\".";
 
 /* Progress */
-"csv_export_progress_preparing" = "Preparing Export";
-"csv_export_progress_transactions" = "Transactions";
-"csv_export_progress_finishing" = "Finishing Export";
+"alert_csv_export_progress_title" = "Exportación";
+"csv_export_progress_preparing" = "Preparando exportación";
+"csv_export_progress_transactions" = "Transacciones";
+"csv_export_progress_finishing" = "Finalizando exportación";
 
 /* MARK: - Cloud Settings View */
 /* Info */
@@ -842,7 +843,15 @@
 "alert_share_app_type_selection_qrcode_button" = "Código QR";
 
 "alert_reset_app_title" = "Restablecer app";
-"alert_reset_app_message" = "¿Estás seguro de que quieres restablecer la configuración predeterminada de la app? Esto borrará permanentemente todos sus datos almacenados en este dispositivo y en iCloud.";
+"alert_reset_app_message" = "¿Seguro que quieres restablecer la app a la configuración predeterminada? Esto borrará permanentemente todos tus datos.";
+
+/* Progress */
+"alert_app_reset_progress_title" = "Restablecer app";
+"app_reset_progress_preparing" = "Preparando restablecimiento de la app";
+"app_reset_progress_deleting_existing_notifications" = "Eliminando notificaciones existentes";
+"app_reset_progress_deleting_existing_data" = "Eliminando datos existentes";
+"app_reset_progress_deleting_existing_settings" = "Eliminando ajustes existentes";
+"app_reset_progress_finishing" = "Finalizando restablecimiento de la app";
 
 "alert_error_title" = "Se ha producido un error 😢";
 

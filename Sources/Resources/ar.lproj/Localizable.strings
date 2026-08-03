@@ -671,9 +671,10 @@
 "alert_csv_export_successful_message" = "تم تصدير بياناتك بنجاح إلى \"%@\".";
 
 /* Progress */
-"csv_export_progress_preparing" = "Preparing Export";
-"csv_export_progress_transactions" = "Transactions";
-"csv_export_progress_finishing" = "Finishing Export";
+"alert_csv_export_progress_title" = "تصدير";
+"csv_export_progress_preparing" = "جارٍ تحضير التصدير";
+"csv_export_progress_transactions" = "المعاملات";
+"csv_export_progress_finishing" = "جارٍ إنهاء التصدير";
 
 /* MARK: - Cloud Settings View */
 /* Info */
@@ -842,7 +843,15 @@
 "alert_share_app_type_selection_qrcode_button" = "رمز QR";
 
 "alert_reset_app_title" = "إعادة تعيين التطبيق";
-"alert_reset_app_message" = "هل أنت متأكد من رغبتك في إعادة تعيين إعدادات تطبيقك إلى الوضع الافتراضي؟ سيؤدي هذا إلى حذف كافة بياناتك المخزنة على هذا الجهاز وعلى iCloud بشكل دائم.";
+"alert_reset_app_message" = "هل أنت متأكد من رغبتك في إعادة تعيين التطبيق إلى الإعدادات الافتراضية؟ سيؤدي هذا إلى حذف جميع بياناتك نهائيًا.";
+
+/* Progress */
+"alert_app_reset_progress_title" = "إعادة تعيين التطبيق";
+"app_reset_progress_preparing" = "جارٍ تحضير إعادة تعيين التطبيق";
+"app_reset_progress_deleting_existing_notifications" = "جارٍ حذف الإشعارات الموجودة";
+"app_reset_progress_deleting_existing_data" = "جارٍ حذف البيانات الموجودة";
+"app_reset_progress_deleting_existing_settings" = "جارٍ حذف الإعدادات الموجودة";
+"app_reset_progress_finishing" = "جارٍ إنهاء إعادة تعيين التطبيق";
 
 "alert_error_title" = "حدث خطأ 😢";
 

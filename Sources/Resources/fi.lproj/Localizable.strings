@@ -671,9 +671,10 @@
 "alert_csv_export_successful_message" = "Tietosi vietiin osoitteeseen \"%@\".";
 
 /* Progress */
-"csv_export_progress_preparing" = "Preparing Export";
-"csv_export_progress_transactions" = "Transactions";
-"csv_export_progress_finishing" = "Finishing Export";
+"alert_csv_export_progress_title" = "Vienti";
+"csv_export_progress_preparing" = "Valmistellaan vientiä";
+"csv_export_progress_transactions" = "Tapahtumat";
+"csv_export_progress_finishing" = "Viimeistellään vientiä";
 
 /* MARK: - Cloud Settings View */
 /* Info */
@@ -842,7 +843,15 @@
 "alert_share_app_type_selection_qrcode_button" = "QR-koodi";
 
 "alert_reset_app_title" = "Nollaa sovellus";
-"alert_reset_app_message" = "Haluatko varmasti palauttaa sovelluksen oletusasetukset? Tämä poistaa pysyvästi kaikki tähän laitteeseen ja iCloudiin tallennetut tiedot.";
+"alert_reset_app_message" = "Haluatko varmasti palauttaa sovelluksen oletusasetukset? Tämä poistaa pysyvästi kaikki tietosi.";
+
+/* Progress */
+"alert_app_reset_progress_title" = "Nollaa sovellus";
+"app_reset_progress_preparing" = "Valmistellaan sovelluksen nollausta";
+"app_reset_progress_deleting_existing_notifications" = "Poistetaan olemassa olevia ilmoituksia";
+"app_reset_progress_deleting_existing_data" = "Poistetaan olemassa olevia tietoja";
+"app_reset_progress_deleting_existing_settings" = "Poistetaan olemassa olevia asetuksia";
+"app_reset_progress_finishing" = "Viimeistellään sovelluksen nollaus";
 
 "alert_error_title" = "Tapahtui virhe 😢";
 

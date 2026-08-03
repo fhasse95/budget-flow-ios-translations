@@ -671,9 +671,10 @@
 "alert_csv_export_successful_message" = "Les teves dades s'han exportat correctament a \"%@\".";
 
 /* Progress */
-"csv_export_progress_preparing" = "Preparing Export";
-"csv_export_progress_transactions" = "Transactions";
-"csv_export_progress_finishing" = "Finishing Export";
+"alert_csv_export_progress_title" = "Exportar";
+"csv_export_progress_preparing" = "Preparant l'exportació";
+"csv_export_progress_transactions" = "Transaccions";
+"csv_export_progress_finishing" = "Finalitzant l'exportació";
 
 /* MARK: - Cloud Settings View */
 /* Info */
@@ -842,7 +843,15 @@
 "alert_share_app_type_selection_qrcode_button" = "Codi QR";
 
 "alert_reset_app_title" = "Restablir app";
-"alert_reset_app_message" = "Estàs segur que vols restablir la configuració predeterminada de l'app? Això esborrarà permanentment totes les teves dades emmagatzemades en aquest dispositiu i a iCloud.";
+"alert_reset_app_message" = "Segur que vols restablir l'app a la configuració predeterminada? Això esborrarà permanentment totes les teves dades.";
+
+/* Progress */
+"alert_app_reset_progress_title" = "Restableix l'app";
+"app_reset_progress_preparing" = "Preparant el restabliment de l'app";
+"app_reset_progress_deleting_existing_notifications" = "Eliminant notificacions existents";
+"app_reset_progress_deleting_existing_data" = "Eliminant dades existents";
+"app_reset_progress_deleting_existing_settings" = "Eliminant configuració existent";
+"app_reset_progress_finishing" = "Finalitzant el restabliment de l'app";
 
 "alert_error_title" = "S'ha produït un error 😢";
 

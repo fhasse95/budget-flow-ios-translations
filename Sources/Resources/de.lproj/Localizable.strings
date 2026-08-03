@@ -683,6 +683,7 @@
 "alert_csv_export_successful_message" = "Deine Daten wurden erfolgreich nach \"%@\" exportiert.";
 
 /* Progress */
+"alert_csv_export_progress_title" = "Export";
 "csv_export_progress_preparing" = "Export wird vorbereitet";
 "csv_export_progress_transactions" = "Transaktionen";
 "csv_export_progress_finishing" = "Export wird abgeschlossen";
@@ -864,7 +865,15 @@
 "alert_share_app_type_selection_qrcode_button" = "QR Code";
 
 "alert_reset_app_title" = "App zurücksetzen";
-"alert_reset_app_message" = "Möchtest du die App wirklich auf die Standardeinstellungen zurücksetzen? Dadurch werden alle Daten, die auf diesem Gerät und in der iCloud gespeichert sind, unwiderruflich gelöscht.";
+"alert_reset_app_message" = "Möchtest du die App wirklich auf die Standardeinstellungen zurücksetzen? Dadurch werden alle Daten unwiderruflich gelöscht.";
+
+/* Progress */
+"alert_app_reset_progress_title" = "App zurücksetzen";
+"app_reset_progress_preparing" = "App-Reset wird vorbereitet";
+"app_reset_progress_deleting_existing_notifications" = "Benachrichtigungen werden gelöscht";
+"app_reset_progress_deleting_existing_data" = "Vorhandene Daten werden gelöscht";
+"app_reset_progress_deleting_existing_settings" = "Vorhandene Einstellungen werden gelöscht";
+"app_reset_progress_finishing" = "App-Reset wird abgeschlossen";
 
 "alert_error_title" = "Ein Fehler ist aufgetreten 😢";
 

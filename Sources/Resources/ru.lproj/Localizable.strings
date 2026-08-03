@@ -671,9 +671,10 @@
 "alert_csv_export_successful_message" = "Ваши данные успешно экспортированы в \"%@\".";
 
 /* Progress */
-"csv_export_progress_preparing" = "Preparing Export";
-"csv_export_progress_transactions" = "Transactions";
-"csv_export_progress_finishing" = "Finishing Export";
+"alert_csv_export_progress_title" = "Экспорт";
+"csv_export_progress_preparing" = "Подготовка экспорта";
+"csv_export_progress_transactions" = "Транзакции";
+"csv_export_progress_finishing" = "Завершение экспорта";
 
 /* MARK: - Cloud Settings View */
 /* Info */
@@ -842,7 +843,15 @@
 "alert_share_app_type_selection_qrcode_button" = "QR-код";
 
 "alert_reset_app_title" = "Сбросить приложение";
-"alert_reset_app_message" = "Вы действительно хотите сбросить настройки приложения до значений по умолчанию? Это безвозвратно удалит все ваши данные, хранящиеся на этом устройстве и в iCloud.";
+"alert_reset_app_message" = "Вы действительно хотите сбросить приложение до настроек по умолчанию? Это безвозвратно удалит все ваши данные.";
+
+/* Progress */
+"alert_app_reset_progress_title" = "Сбросить приложение";
+"app_reset_progress_preparing" = "Подготовка сброса приложения";
+"app_reset_progress_deleting_existing_notifications" = "Удаление существующих уведомлений";
+"app_reset_progress_deleting_existing_data" = "Удаление существующих данных";
+"app_reset_progress_deleting_existing_settings" = "Удаление существующих настроек";
+"app_reset_progress_finishing" = "Завершение сброса приложения";
 
 "alert_error_title" = "Произошла ошибка 😢";
 

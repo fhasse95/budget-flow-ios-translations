@@ -671,9 +671,10 @@
 "alert_csv_export_successful_message" = "Twoje dane zostały pomyślnie wyeksportowane do \"%@\".";
 
 /* Progress */
-"csv_export_progress_preparing" = "Preparing Export";
-"csv_export_progress_transactions" = "Transactions";
-"csv_export_progress_finishing" = "Finishing Export";
+"alert_csv_export_progress_title" = "Eksport";
+"csv_export_progress_preparing" = "Przygotowywanie eksportu";
+"csv_export_progress_transactions" = "Transakcje";
+"csv_export_progress_finishing" = "Kończenie eksportu";
 
 /* MARK: - Cloud Settings View */
 /* Info */
@@ -842,7 +843,15 @@
 "alert_share_app_type_selection_qrcode_button" = "Kod QR";
 
 "alert_reset_app_title" = "Zresetuj aplikację";
-"alert_reset_app_message" = "Czy na pewno chcesz zresetować aplikację do ustawień domyślnych? Spowoduje to trwałe usunięcie wszystkich danych przechowywanych na tym urządzeniu i iCloud.";
+"alert_reset_app_message" = "Czy na pewno chcesz zresetować aplikację do ustawień domyślnych? Spowoduje to trwałe usunięcie wszystkich danych.";
+
+/* Progress */
+"alert_app_reset_progress_title" = "Resetuj aplikację";
+"app_reset_progress_preparing" = "Przygotowywanie resetowania aplikacji";
+"app_reset_progress_deleting_existing_notifications" = "Usuwanie istniejących powiadomień";
+"app_reset_progress_deleting_existing_data" = "Usuwanie istniejących danych";
+"app_reset_progress_deleting_existing_settings" = "Usuwanie istniejących ustawień";
+"app_reset_progress_finishing" = "Kończenie resetowania aplikacji";
 
 "alert_error_title" = "Wystąpił błąd 😢";
 

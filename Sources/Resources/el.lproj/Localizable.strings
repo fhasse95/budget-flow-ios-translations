@@ -671,9 +671,10 @@
 "alert_csv_export_successful_message" = "Τα δεδομένα σας εξήχθησαν με επιτυχία στο \"%@\".";
 
 /* Progress */
-"csv_export_progress_preparing" = "Preparing Export";
-"csv_export_progress_transactions" = "Transactions";
-"csv_export_progress_finishing" = "Finishing Export";
+"alert_csv_export_progress_title" = "Εξαγωγή";
+"csv_export_progress_preparing" = "Προετοιμασία εξαγωγής";
+"csv_export_progress_transactions" = "Συναλλαγές";
+"csv_export_progress_finishing" = "Ολοκλήρωση εξαγωγής";
 
 /* MARK: - Cloud Settings View */
 /* Info */
@@ -842,7 +843,15 @@
 "alert_share_app_type_selection_qrcode_button" = "Κωδικός QR";
 
 "alert_reset_app_title" = "Επαναφορά εφαρμογής";
-"alert_reset_app_message" = "Είστε βέβαιοι ότι θέλετε να επαναφέρετε την εφαρμογή στις προεπιλεγμένες ρυθμίσεις; Αυτό θα διαγράψει οριστικά όλα τα δεδομένα σας που είναι αποθηκευμένα σε αυτήν τη συσκευή και το iCloud.";
+"alert_reset_app_message" = "Είστε βέβαιοι ότι θέλετε να επαναφέρετε την εφαρμογή στις προεπιλεγμένες ρυθμίσεις; Αυτό θα διαγράψει οριστικά όλα τα δεδομένα σας.";
+
+/* Progress */
+"alert_app_reset_progress_title" = "Επαναφορά εφαρμογής";
+"app_reset_progress_preparing" = "Προετοιμασία επαναφοράς εφαρμογής";
+"app_reset_progress_deleting_existing_notifications" = "Διαγραφή υπαρχουσών ειδοποιήσεων";
+"app_reset_progress_deleting_existing_data" = "Διαγραφή υπαρχόντων δεδομένων";
+"app_reset_progress_deleting_existing_settings" = "Διαγραφή υπαρχουσών ρυθμίσεων";
+"app_reset_progress_finishing" = "Ολοκλήρωση επαναφοράς εφαρμογής";
 
 "alert_error_title" = "Παρουσιάστηκε σφάλμα 😢";
 

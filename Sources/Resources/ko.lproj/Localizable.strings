@@ -671,9 +671,10 @@
 "alert_csv_export_successful_message" = "데이터를 성공적으로 \"%@\"로 내보냈습니다.";
 
 /* Progress */
-"csv_export_progress_preparing" = "Preparing Export";
-"csv_export_progress_transactions" = "Transactions";
-"csv_export_progress_finishing" = "Finishing Export";
+"alert_csv_export_progress_title" = "내보내기";
+"csv_export_progress_preparing" = "내보내기 준비 중";
+"csv_export_progress_transactions" = "거래";
+"csv_export_progress_finishing" = "내보내기 완료 중";
 
 /* MARK: - Cloud Settings View */
 /* Info */
@@ -842,7 +843,15 @@
 "alert_share_app_type_selection_qrcode_button" = "QR 코드";
 
 "alert_reset_app_title" = "앱 재설정";
-"alert_reset_app_message" = "앱을 기본 설정으로 재설정하시겠습니까? 이렇게 하면 이 장비와 iCloud에 저장된 모든 데이터가 영구적으로 지워집니다.";
+"alert_reset_app_message" = "앱을 기본 설정으로 재설정하시겠습니까? 이렇게 하면 모든 데이터가 영구적으로 삭제됩니다.";
+
+/* Progress */
+"alert_app_reset_progress_title" = "앱 초기화";
+"app_reset_progress_preparing" = "앱 초기화 준비 중";
+"app_reset_progress_deleting_existing_notifications" = "기존 알림 삭제 중";
+"app_reset_progress_deleting_existing_data" = "기존 데이터 삭제 중";
+"app_reset_progress_deleting_existing_settings" = "기존 설정 삭제 중";
+"app_reset_progress_finishing" = "앱 초기화 완료 중";
 
 "alert_error_title" = "오류가 발생했습니다 😢";
 

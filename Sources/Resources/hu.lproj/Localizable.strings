@@ -671,9 +671,10 @@
 "alert_csv_export_successful_message" = "Az adatai sikeresen exportálva a következőbe: \"%@\".";
 
 /* Progress */
-"csv_export_progress_preparing" = "Preparing Export";
-"csv_export_progress_transactions" = "Transactions";
-"csv_export_progress_finishing" = "Finishing Export";
+"alert_csv_export_progress_title" = "Exportálás";
+"csv_export_progress_preparing" = "Exportálás előkészítése";
+"csv_export_progress_transactions" = "Tranzakciók";
+"csv_export_progress_finishing" = "Exportálás befejezése";
 
 /* MARK: - Cloud Settings View */
 /* Info */
@@ -842,7 +843,15 @@
 "alert_share_app_type_selection_qrcode_button" = "QR-kód";
 
 "alert_reset_app_title" = "Alkalmazás visszaállítása";
-"alert_reset_app_message" = "Biztosan vissza szeretné állítani az alkalmazást az alapértelmezett beállításokra? Ezzel véglegesen törli az eszközön és az iCloudban tárolt összes adatát.";
+"alert_reset_app_message" = "Biztosan vissza szeretné állítani az alkalmazást az alapértelmezett beállításokra? Ezzel véglegesen törli az összes adatát.";
+
+/* Progress */
+"alert_app_reset_progress_title" = "Alkalmazás visszaállítása";
+"app_reset_progress_preparing" = "Alkalmazás visszaállításának előkészítése";
+"app_reset_progress_deleting_existing_notifications" = "Meglévő értesítések törlése";
+"app_reset_progress_deleting_existing_data" = "Meglévő adatok törlése";
+"app_reset_progress_deleting_existing_settings" = "Meglévő beállítások törlése";
+"app_reset_progress_finishing" = "Alkalmazás visszaállításának befejezése";
 
 "alert_error_title" = "Hiba történt 😢";
 

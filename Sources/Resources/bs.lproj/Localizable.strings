@@ -671,9 +671,10 @@
 "alert_csv_export_successful_message" = "Vaši podaci su uspješno izvezeni u \"%@\".";
 
 /* Progress */
-"csv_export_progress_preparing" = "Preparing Export";
-"csv_export_progress_transactions" = "Transactions";
-"csv_export_progress_finishing" = "Finishing Export";
+"alert_csv_export_progress_title" = "Izvoz";
+"csv_export_progress_preparing" = "Priprema izvoza";
+"csv_export_progress_transactions" = "Transakcije";
+"csv_export_progress_finishing" = "Završavanje izvoza";
 
 /* MARK: - Cloud Settings View */
 /* Info */
@@ -842,7 +843,15 @@
 "alert_share_app_type_selection_qrcode_button" = "QR kod";
 
 "alert_reset_app_title" = "Resetuj aplikaciju";
-"alert_reset_app_message" = "Jeste li sigurni da želite vratiti aplikaciju na tvorničke postavke? Ovo će trajno izbrisati sve vaše podatke pohranjene na ovom uređaju i iCloudu.";
+"alert_reset_app_message" = "Jeste li sigurni da želite vratiti aplikaciju na zadane postavke? Ovo će trajno izbrisati sve vaše podatke.";
+
+/* Progress */
+"alert_app_reset_progress_title" = "Resetuj aplikaciju";
+"app_reset_progress_preparing" = "Priprema resetovanja aplikacije";
+"app_reset_progress_deleting_existing_notifications" = "Brisanje postojećih obavijesti";
+"app_reset_progress_deleting_existing_data" = "Brisanje postojećih podataka";
+"app_reset_progress_deleting_existing_settings" = "Brisanje postojećih postavki";
+"app_reset_progress_finishing" = "Završavanje resetovanja aplikacije";
 
 "alert_error_title" = "Došlo je do greške 😢";
 

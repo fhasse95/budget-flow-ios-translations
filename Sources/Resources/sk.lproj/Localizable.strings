@@ -671,9 +671,10 @@
 "alert_csv_export_successful_message" = "Vaše údaje boli úspešne exportované do \"%@\".";
 
 /* Progress */
-"csv_export_progress_preparing" = "Preparing Export";
-"csv_export_progress_transactions" = "Transactions";
-"csv_export_progress_finishing" = "Finishing Export";
+"alert_csv_export_progress_title" = "Export";
+"csv_export_progress_preparing" = "Príprava exportu";
+"csv_export_progress_transactions" = "Transakcie";
+"csv_export_progress_finishing" = "Dokončovanie exportu";
 
 /* MARK: - Cloud Settings View */
 /* Info */
@@ -842,7 +843,15 @@
 "alert_share_app_type_selection_qrcode_button" = "QR kód";
 
 "alert_reset_app_title" = "Resetovať aplikáciu";
-"alert_reset_app_message" = "Naozaj chcete obnoviť predvolené nastavenia aplikácie? Týmto sa natrvalo vymažú všetky dáta uložené v tomto zariadení a iCloude.";
+"alert_reset_app_message" = "Naozaj chcete obnoviť predvolené nastavenia aplikácie? Týmto sa natrvalo vymažú všetky vaše dáta.";
+
+/* Progress */
+"alert_app_reset_progress_title" = "Resetovať aplikáciu";
+"app_reset_progress_preparing" = "Príprava resetovania aplikácie";
+"app_reset_progress_deleting_existing_notifications" = "Odstraňovanie existujúcich oznámení";
+"app_reset_progress_deleting_existing_data" = "Odstraňovanie existujúcich údajov";
+"app_reset_progress_deleting_existing_settings" = "Odstraňovanie existujúcich nastavení";
+"app_reset_progress_finishing" = "Dokončovanie resetovania aplikácie";
 
 "alert_error_title" = "Vyskytla sa chyba 😢";
 

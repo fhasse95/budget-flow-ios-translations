@@ -671,9 +671,10 @@
 "alert_csv_export_successful_message" = "您的数据已成功导出到 \"%@\"";
 
 /* Progress */
-"csv_export_progress_preparing" = "Preparing Export";
-"csv_export_progress_transactions" = "Transactions";
-"csv_export_progress_finishing" = "Finishing Export";
+"alert_csv_export_progress_title" = "导出";
+"csv_export_progress_preparing" = "正在准备导出";
+"csv_export_progress_transactions" = "交易";
+"csv_export_progress_finishing" = "正在完成导出";
 
 /* MARK: - Cloud Settings View */
 /* Info */
@@ -842,7 +843,15 @@
 "alert_share_app_type_selection_qrcode_button" = "二维码";
 
 "alert_reset_app_title" = "重置应用";
-"alert_reset_app_message" = "您确定要将应用重置为默认设置吗？这将永久擦除存储在此设备和 iCloud 上的所有数据";
+"alert_reset_app_message" = "您确定要将应用重置为默认设置吗？这将永久删除所有数据。";
+
+/* Progress */
+"alert_app_reset_progress_title" = "重置应用";
+"app_reset_progress_preparing" = "正在准备重置应用";
+"app_reset_progress_deleting_existing_notifications" = "正在删除现有通知";
+"app_reset_progress_deleting_existing_data" = "正在删除现有数据";
+"app_reset_progress_deleting_existing_settings" = "正在删除现有设置";
+"app_reset_progress_finishing" = "正在完成重置应用";
 
 "alert_error_title" = "发生错误 😢";
 

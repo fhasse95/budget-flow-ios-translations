@@ -633,7 +633,7 @@
 /* MARK: - Appearance Settings View */
 /* Info */
 "appearance_setting_info_title" = "Leírás";
-"appearance_setting_info_description" = "Személyre szabhatja az alkalmazást az alkalmazás megjelenésének vagy kiemelő színének módosításával.";
+"appearance_setting_info_description" = "Személyre szabhatja az alkalmazást az alkalmazás megjelenésének módosításával.";
 "appearance_ui_style_setting_section_title" = "Téma";
 "appearance_ui_style_apply_to_icons_title" = "Alkalmazás ikonokra";
 "appearance_ui_style_apply_to_icons_description" = "Alkalmazza a kiválasztott megjelenést az alkalmazás összes ikonjára is.";

@@ -633,7 +633,7 @@
 /* MARK: - Appearance Settings View */
 /* Info */
 "appearance_setting_info_title" = "الوصف";
-"appearance_setting_info_description" = "قم بتخصيص التطبيق حسب رغبتك عن طريق تغيير مظهره أو لون التمييز.";
+"appearance_setting_info_description" = "قم بتخصيص التطبيق حسب رغبتك عن طريق تغيير مظهره.";
 "appearance_ui_style_setting_section_title" = "السمة";
 "appearance_ui_style_apply_to_icons_title" = "تطبيق على الأيقونات";
 "appearance_ui_style_apply_to_icons_description" = "قم بتطبيق المظهر المحدد أيضًا على جميع الأيقونات داخل التطبيق.";

@@ -633,7 +633,7 @@
 /* MARK: - Appearance Settings View */
 /* Info */
 "appearance_setting_info_title" = "Deskripsi";
-"appearance_setting_info_description" = "Personalisasikan aplikasi sesuai keinginan Anda dengan mengubah tampilan atau warna aksen aplikasi.";
+"appearance_setting_info_description" = "Personalisasikan aplikasi sesuai keinginan Anda dengan mengubah tampilan aplikasi.";
 "appearance_ui_style_setting_section_title" = "Tema";
 "appearance_ui_style_apply_to_icons_title" = "Terapkan ke Ikon";
 "appearance_ui_style_apply_to_icons_description" = "Terapkan tampilan yang dipilih ke semua ikon dalam aplikasi.";

@@ -633,7 +633,7 @@
 /* MARK: - Appearance Settings View */
 /* Info */
 "appearance_setting_info_title" = "Opis";
-"appearance_setting_info_description" = "Personalizirajte aplikaciju prema svojim željama promjenom izgleda aplikacije ili boje isticanja.";
+"appearance_setting_info_description" = "Personalizirajte aplikaciju prema svojim željama promjenom izgleda aplikacije.";
 "appearance_ui_style_setting_section_title" = "Tema";
 "appearance_ui_style_apply_to_icons_title" = "Primijeni na ikone";
 "appearance_ui_style_apply_to_icons_description" = "Primijeni odabrani izgled i na sve ikone u aplikaciji.";

@@ -633,7 +633,7 @@
 /* MARK: - Appearance Settings View */
 /* Info */
 "appearance_setting_info_title" = "Descripció";
-"appearance_setting_info_description" = "Personalitza l'app al teu gust canviant l'aparença o el color d'accent.";
+"appearance_setting_info_description" = "Personalitza l'app al teu gust canviant-ne l'aparença.";
 "appearance_ui_style_setting_section_title" = "Tema";
 "appearance_ui_style_apply_to_icons_title" = "Aplica als icones";
 "appearance_ui_style_apply_to_icons_description" = "Aplica també l'aparença seleccionada a tots els icones de l'app.";

@@ -633,7 +633,7 @@
 /* MARK: - Appearance Settings View */
 /* Info */
 "appearance_setting_info_title" = "Περιγραφή";
-"appearance_setting_info_description" = "Εξατομικεύστε την εφαρμογή σύμφωνα με τις προτιμήσεις σας αλλάζοντας την εμφάνιση ή το χρώμα έμφασης της εφαρμογής.";
+"appearance_setting_info_description" = "Εξατομικεύστε την εφαρμογή σύμφωνα με τις προτιμήσεις σας αλλάζοντας την εμφάνισή της.";
 "appearance_ui_style_setting_section_title" = "Θέμα";
 "appearance_ui_style_apply_to_icons_title" = "Εφαρμογή στα εικονίδια";
 "appearance_ui_style_apply_to_icons_description" = "Εφαρμόστε επίσης την επιλεγμένη εμφάνιση σε όλα τα εικονίδια της εφαρμογής.";

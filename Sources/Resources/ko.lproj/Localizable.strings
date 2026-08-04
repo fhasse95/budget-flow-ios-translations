@@ -633,7 +633,7 @@
 /* MARK: - Appearance Settings View */
 /* Info */
 "appearance_setting_info_title" = "설명";
-"appearance_setting_info_description" = "아이콘이나 색상을 원하는 디자인으로 이용해보세요";
+"appearance_setting_info_description" = "앱의 외관을 변경하여 원하는 디자인으로 이용해보세요.";
 "appearance_ui_style_setting_section_title" = "테마";
 "appearance_ui_style_apply_to_icons_title" = "아이콘에 적용";
 "appearance_ui_style_apply_to_icons_description" = "선택한 외관을 앱의 모든 아이콘에 적용합니다.";

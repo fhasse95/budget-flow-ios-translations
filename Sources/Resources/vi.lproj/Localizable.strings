@@ -633,7 +633,7 @@
 /* MARK: - Appearance Settings View */
 /* Info */
 "appearance_setting_info_title" = "Mô tả";
-"appearance_setting_info_description" = "Cá nhân hóa ứng dụng theo ý thích của bạn bằng cách thay đổi giao diện hoặc màu chủ đạo của ứng dụng.";
+"appearance_setting_info_description" = "Cá nhân hóa ứng dụng theo ý thích của bạn bằng cách thay đổi giao diện của ứng dụng.";
 "appearance_ui_style_setting_section_title" = "Chủ đề";
 "appearance_ui_style_apply_to_icons_title" = "Áp dụng cho biểu tượng";
 "appearance_ui_style_apply_to_icons_description" = "Áp dụng giao diện đã chọn cho tất cả biểu tượng trong ứng dụng.";

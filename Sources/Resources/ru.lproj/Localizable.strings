@@ -633,7 +633,7 @@
 /* MARK: - Appearance Settings View */
 /* Info */
 "appearance_setting_info_title" = "Описание";
-"appearance_setting_info_description" = "Настройте приложение по своему вкусу, изменив его внешний вид или цвет акцента.";
+"appearance_setting_info_description" = "Настройте приложение по своему вкусу, изменив его внешний вид.";
 "appearance_ui_style_setting_section_title" = "Тема";
 "appearance_ui_style_apply_to_icons_title" = "Применить к иконкам";
 "appearance_ui_style_apply_to_icons_description" = "Также применить выбранный стиль ко всем иконкам в приложении.";

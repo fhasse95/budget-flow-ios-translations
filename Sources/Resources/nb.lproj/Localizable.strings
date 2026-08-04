@@ -633,7 +633,7 @@
 /* MARK: - Appearance Settings View */
 /* Info */
 "appearance_setting_info_title" = "Beskrivelse";
-"appearance_setting_info_description" = "Tilpass appen etter din smak ved å endre appens utseende eller aksentfarge.";
+"appearance_setting_info_description" = "Tilpass appen etter din smak ved å endre appens utseende.";
 "appearance_ui_style_setting_section_title" = "Tema";
 "appearance_ui_style_apply_to_icons_title" = "Bruk på ikoner";
 "appearance_ui_style_apply_to_icons_description" = "Bruk også det valgte utseendet på alle ikoner i appen.";

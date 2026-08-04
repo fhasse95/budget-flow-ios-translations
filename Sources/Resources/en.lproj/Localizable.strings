@@ -633,7 +633,7 @@
 /* MARK: - Appearance Settings View */
 /* Info */
 "appearance_setting_info_title" = "Description";
-"appearance_setting_info_description" = "Personalize the app to your liking by changing the app's appearance or accent color.";
+"appearance_setting_info_description" = "Personalize the app to your liking by changing the app's appearance.";
 
 /* Sections */
 "appearance_ui_style_setting_section_title" = "Theme";

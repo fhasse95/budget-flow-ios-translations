@@ -633,7 +633,7 @@
 /* MARK: - Appearance Settings View */
 /* Info */
 "appearance_setting_info_title" = "Beschrijving";
-"appearance_setting_info_description" = "Personaliseer de app naar wens door het uiterlijk of de accentkleur van de app te wijzigen.";
+"appearance_setting_info_description" = "Personaliseer de app naar wens door het uiterlijk van de app te wijzigen.";
 "appearance_ui_style_setting_section_title" = "Thema";
 "appearance_ui_style_apply_to_icons_title" = "Toepassen op pictogrammen";
 "appearance_ui_style_apply_to_icons_description" = "Pas het geselecteerde uiterlijk ook toe op alle pictogrammen in de app.";

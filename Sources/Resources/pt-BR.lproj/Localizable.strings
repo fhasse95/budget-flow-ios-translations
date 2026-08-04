@@ -633,7 +633,7 @@
 /* MARK: - Appearance Settings View */
 /* Info */
 "appearance_setting_info_title" = "Descrição";
-"appearance_setting_info_description" = "Personalize o aplicativo ao seu gosto, alterando a aparência ou a cor de destaque do aplicativo.";
+"appearance_setting_info_description" = "Personalize o aplicativo ao seu gosto, alterando a aparência do aplicativo.";
 "appearance_ui_style_setting_section_title" = "Tema";
 "appearance_ui_style_apply_to_icons_title" = "Aplicar aos ícones";
 "appearance_ui_style_apply_to_icons_description" = "Aplicar também a aparência selecionada a todos os ícones do aplicativo.";

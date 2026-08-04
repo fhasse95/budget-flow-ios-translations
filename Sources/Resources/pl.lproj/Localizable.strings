@@ -633,7 +633,7 @@
 /* MARK: - Appearance Settings View */
 /* Info */
 "appearance_setting_info_title" = "Opis";
-"appearance_setting_info_description" = "Spersonalizuj aplikację według własnych upodobań, zmieniając jej wygląd lub kolor akcentów.";
+"appearance_setting_info_description" = "Spersonalizuj aplikację według własnych upodobań, zmieniając jej wygląd.";
 "appearance_ui_style_setting_section_title" = "Motyw";
 "appearance_ui_style_apply_to_icons_title" = "Zastosuj do ikon";
 "appearance_ui_style_apply_to_icons_description" = "Zastosuj również wybrany wygląd do wszystkich ikon w aplikacji.";

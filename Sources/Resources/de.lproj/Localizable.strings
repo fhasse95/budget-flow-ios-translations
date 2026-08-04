@@ -633,7 +633,7 @@
 /* MARK: - Appearance Settings View */
 /* Info */
 "appearance_setting_info_title" = "Beschreibung";
-"appearance_setting_info_description" = "Personalisiere die App indem du das Erscheinungsbild oder die Akzentfarbe änderst.";
+"appearance_setting_info_description" = "Personalisiere die App, indem du das Erscheinungsbild änderst.";
 
 /* Sections */
 "appearance_ui_style_setting_section_title" = "Design";

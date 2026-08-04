@@ -633,7 +633,7 @@
 /* MARK: - Appearance Settings View */
 /* Info */
 "appearance_setting_info_title" = "Опис";
-"appearance_setting_info_description" = "Персоналізуйте програму на свій смак, змінивши зовнішній вигляд програми або колір акценту.";
+"appearance_setting_info_description" = "Персоналізуйте програму на свій смак, змінивши її зовнішній вигляд.";
 "appearance_ui_style_setting_section_title" = "Тема";
 "appearance_ui_style_apply_to_icons_title" = "Застосувати до іконок";
 "appearance_ui_style_apply_to_icons_description" = "Також застосувати вибраний стиль до всіх іконок у додатку.";

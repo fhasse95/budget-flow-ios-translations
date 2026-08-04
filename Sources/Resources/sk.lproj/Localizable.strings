@@ -633,7 +633,7 @@
 /* MARK: - Appearance Settings View */
 /* Info */
 "appearance_setting_info_title" = "Popis";
-"appearance_setting_info_description" = "Prispôsobte si aplikáciu podľa svojich predstáv zmenou vzhľadu aplikácie alebo farby zvýraznenia.";
+"appearance_setting_info_description" = "Prispôsobte si aplikáciu podľa svojich predstáv zmenou vzhľadu aplikácie.";
 "appearance_ui_style_setting_section_title" = "Téma";
 "appearance_ui_style_apply_to_icons_title" = "Použiť na ikony";
 "appearance_ui_style_apply_to_icons_description" = "Použiť vybraný vzhľad aj na všetky ikony v aplikácii.";

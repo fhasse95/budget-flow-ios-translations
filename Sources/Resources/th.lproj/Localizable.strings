@@ -633,7 +633,7 @@
 /* MARK: - Appearance Settings View */
 /* Info */
 "appearance_setting_info_title" = "คำอธิบาย";
-"appearance_setting_info_description" = "ปรับแต่งแอพฯ ตามที่คุณต้องการโดยการเปลี่ยนรูปลักษณ์หรือสีที่ถูกเน้นของแอพ";
+"appearance_setting_info_description" = "ปรับแต่งแอพฯ ตามที่คุณต้องการโดยการเปลี่ยนรูปลักษณ์ของแอพ";
 "appearance_ui_style_setting_section_title" = "ธีม";
 "appearance_ui_style_apply_to_icons_title" = "ใช้กับไอคอน";
 "appearance_ui_style_apply_to_icons_description" = "ใช้ลักษณะที่เลือกกับไอคอนทั้งหมดในแอปด้วย";

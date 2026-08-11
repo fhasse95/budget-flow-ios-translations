@@ -317,7 +317,6 @@
 "get_started_button" = "Začni";
 
 "show_transactions_button" = "Prikaži transakcije";
-"show_in_app_store_button" = "Prikaži v App Store";
 
 "flip_values_button" = "Obrni ⇅";
 
@@ -904,19 +903,6 @@
 "new_features_view_close_button" = "Morda pozneje";
 
 
-/* MARK: - Purchase Success View */
-/* Titles */
-"purchase_success_view_title" = "Hvala!";
-
-/* Messages */
-"purchase_success_view_info_message" = "Če vam je aplikacija všeč, prosimo, napišite pozitivno oceno v App Store. Res veliko pomaga in motivira za nenehno izboljševanje aplikacije. 😊";
-"purchase_success_view_info_message_info" = "\n\nInfo: Ko preklopite z naročnine na enkratni nakup, ne pozabite preklicati obstoječe naročnine.";
-
-/* Buttons */
-"purchase_success_view_rate_app_button" = "Oceni aplikacijo";
-"purchase_success_view_close_button" = "Morda pozneje";
-
-
 /* MARK: - Upgrade View */
 /* Titles */
 "upgrade_view_title" = "Polna različica";
@@ -1026,12 +1012,13 @@
 "alert_upgrade_view_purchase_success_title" = "Nakup uspešen 🎉";
 "alert_upgrade_view_purchase_success_message" = "Hvala za vašo podporo! 😊";
 "alert_upgrade_view_purchase_success_message_info" = "\n\nInfo: Če preklopite z naročnine na enkratni nakup, ne pozabite preklicati prejšnje naročnine.";
+
 "alert_upgrade_view_purchase_error_message" = "Vašega nakupa ni bilo mogoče uspešno dokončati.";
-"alert_upgrade_view_purchase_error_store_problem_message" = "Prišlo je do težave z App Store.\n\nInfo: Včasih lahko nakup deluje samo, če potrdite s svojim geslom namesto Touch ID / Face ID.\n\nNa primer, če uporabljate Face ID, preprosto pokrijte sprednjo kamero in poskusite znova, da vidite pogovorno okno z geslom.";
+"alert_upgrade_view_purchase_error_store_problem_message" = "Prišlo je do težave z App Store.";
+"alert_upgrade_view_purchase_error_store_problem_message_info" = "\n\nInfo: Včasih lahko nakup deluje samo, če potrdite s svojim geslom namesto Touch ID / Face ID.\n\nNa primer, če uporabljate Face ID, preprosto pokrijte sprednjo kamero in poskusite znova, da vidite pogovorno okno z geslom.";
 "alert_upgrade_view_purchase_error_not_allowed_message" = "Nakupi na tej napravi niso dovoljeni.";
 "alert_upgrade_view_purchase_error_invalid_message" = "Preverite svoj način plačila in poskusite znova pozneje. Če napaka ostaja, prosimo, kontaktirajte podporo.";
 "alert_upgrade_view_purchase_error_network_message" = "Preverite svojo internetno povezavo in poskusite znova pozneje. Če napaka ostaja, prosimo, kontaktirajte podporo.";
-
 "alert_upgrade_view_load_products_error_message" = "Izdelkov ni bilo mogoče naložiti. Preverite svojo internetno povezavo in poskusite znova pozneje. Če napaka ostaja, prosimo, kontaktirajte podporo.";
 
 "alert_upgrade_view_restore_success_title" = "Nakupi obnovljeni";
@@ -1057,15 +1044,16 @@
 "upgrade_faq_free_use_title" = "Ali je aplikacijo mogoče uporabljati tudi brezplačno?";
 "upgrade_faq_free_use_value" = "Da, osnovne funkcije aplikacije, kot je ustvarjanje transakcij, lahko uporabljate popolnoma brezplačno.\n\nPoleg tega aplikacija ponuja preizkusno obdobje za polno različico, tako da jo lahko preizkusite vnaprej, preden se odločite za nakup ali naročnino polne različice.";
 "upgrade_faq_security_title" = "Ali so moji podatki varni?";
-"upgrade_faq_security_value" = "Vaše finance so zasebne – in naj tako ostanejo. Zato so vaši podatki shranjeni izključno na vaši napravi ali (po želji) v vašem osebnem iCloud.";
+"upgrade_faq_security_value" = "Vaše finance so zasebne – in naj tako ostanejo. Zato so vaši podatki shranjeni izključno na vaši napravi.";
+"upgrade_faq_security_value_icloud_suffix" = " ali (po želji) v vašem osebnem iCloud.";
 "upgrade_faq_why_subscription_title" = "Zakaj je polna različica predvsem ponujena kot naročnina?";
-"upgrade_faq_why_subscription_value" = "Moj cilj je razviti visokokakovostno aplikacijo, ki vam kot uporabniku redno ponuja nove funkcije in izboljšave. Vendar pa za dosego tega cilja aplikacija potrebuje stalne prihodke, da se financira in je ekonomsko trajnostna.\n\nKar mnogi ne vedo: Razvijanje in vzdrževanje aplikacije zahteva veliko časa. V primeru Budget Flow je na primer trajalo skoraj dve leti in več tisoč ur dela od ideje do razvoja in testiranja, preden je bila prva različica lahko izdana v App Store.\n\nZ naročniškim modelom uživate v rednih posodobitvah in izboljšavah, kot tudi v podpori, ki zagotavlja vašo stalno zadovoljstvo. Prav tako imate priložnost, da aplikacijo preizkusite brezplačno vnaprej, da se prepričate, da ustreza vašim potrebam, in lahko kadarkoli spremenite ali prekinete naročnino, če se premislite.\n\nVendar pa, ker nekateri uporabniki ne marajo naročnin, je na voljo tudi nekoliko dražji enkratni nakup. Cena enkratnega nakupa predstavlja življenjsko vrednost stranke (CLV) in je približno 2,5-kratnik letne cene naročnine. Posledično so vsi prihodnji stroški za posodobitve in podporo pokriti za celotno življenjsko dobo aplikacije, ki bi jih sicer pokrila ponavljajoča plačila kot del naročnine.\n\nNa splošno vam ta poslovni model kot uporabniku prinaša številne koristi in boljšo izkušnjo z nenehnimi posodobitvami in podporo. Dolgoročno enkratni nakup z nizko ceno žal ne bi bil trajnosten, saj ta poslovni model zahteva, da novi uporabniki še naprej kupujejo aplikacijo, da se zagotovi njen nenehni razvoj.\n\nČe vam je aplikacija všeč, bi bil zelo vesel, če podprete moje delo, da vam lahko v prihodnosti ponudim še več odličnih funkcij!❤️";
+"upgrade_faq_why_subscription_value" = "Moj cilj je razviti visokokakovostno aplikacijo, ki vam kot uporabniku redno ponuja nove funkcije in izboljšave. Vendar pa za dosego tega cilja aplikacija potrebuje stalne prihodke, da se financira in je ekonomsko trajnostna.\n\nKar mnogi ne vedo: Razvijanje in vzdrževanje aplikacije zahteva veliko časa. V primeru Budget Flow je na primer trajalo skoraj dve leti in več tisoč ur dela od ideje do razvoja in testiranja, preden je bila prva različica lahko izdana.\n\nZ naročniškim modelom uživate v rednih posodobitvah in izboljšavah, kot tudi v podpori, ki zagotavlja vašo stalno zadovoljstvo. Prav tako imate priložnost, da aplikacijo preizkusite brezplačno vnaprej, da se prepričate, da ustreza vašim potrebam, in lahko kadarkoli spremenite ali prekinete naročnino, če se premislite.\n\nVendar pa, ker nekateri uporabniki ne marajo naročnin, je na voljo tudi nekoliko dražji enkratni nakup. Cena enkratnega nakupa predstavlja življenjsko vrednost stranke (CLV) in je približno 2,5-kratnik letne cene naročnine. Posledično so vsi prihodnji stroški za posodobitve in podporo pokriti za celotno življenjsko dobo aplikacije, ki bi jih sicer pokrila ponavljajoča plačila kot del naročnine.\n\nNa splošno vam ta poslovni model kot uporabniku prinaša številne koristi in boljšo izkušnjo z nenehnimi posodobitvami in podporo. Dolgoročno enkratni nakup z nizko ceno žal ne bi bil trajnosten, saj ta poslovni model zahteva, da novi uporabniki še naprej kupujejo aplikacijo, da se zagotovi njen nenehni razvoj.\n\nČe vam je aplikacija všeč, bi bil zelo vesel, če podprete moje delo, da vam lahko v prihodnosti ponudim še več odličnih funkcij!❤️";
 "upgrade_faq_multiple_devices_title" = "Ali lahko uporabljam polno različico na več napravah?";
-"upgrade_faq_multiple_devices_value" = "Da, polno različico Budget Flow lahko uporabljate na vseh svojih Apple napravah z istim Apple ID. Ker se aplikacija sinhronizira prek iCloud, lahko nemoteno preklapljate med svojimi napravami in vedno imate dostop do svojih finančnih podatkov in nastavitev.";
+"upgrade_faq_multiple_devices_value" = "Da, polno različico Budget Flow lahko uporabljate na vseh svojih Apple napravah z istim računom Apple. Ker se aplikacija sinhronizira prek iCloud, lahko nemoteno preklapljate med svojimi napravami in vedno imate dostop do svojih finančnih podatkov in nastavitev.";
 "upgrade_faq_multiple_people_title" = "Ali lahko uporabljam polno različico z več ljudmi?";
 "upgrade_faq_multiple_people_value" = "Da, lahko delite enkratni nakup kot tudi naročnino polne različice z do petimi ljudmi znotraj družinske skupine. Vse kar morate storiti je, da vklopite družinsko skupno rabo v sistemskih nastavitvah in dodate druge ljudi v skupino.";
 "upgrade_faq_cancel_subscription_title" = "Kako prekličem svojo naročnino?";
-"upgrade_faq_cancel_subscription_value" = "Svojo naročnino lahko kadarkoli prekličete z uporabo svojega Apple ID v sistemskih nastavitvah.";
+"upgrade_faq_cancel_subscription_value" = "Svojo naročnino lahko kadarkoli prekličete z uporabo svojega računa Apple v sistemskih nastavitvah.";
 "upgrade_faq_subscription_data_loss_title" = "Ali bodo moji podatki izgubljeni, če prekličem naročnino?";
 "upgrade_faq_subscription_data_loss_value" = "Ne. Vse, kar ustvarite med naročnino na polno različico, bo še vedno na voljo, če se vrnete na brezplačno različico.";
 "upgrade_faq_refund_title" = "Kako lahko dobim povrnjen denar?";

@@ -317,7 +317,6 @@
 "get_started_button" = "Rozpocznij";
 
 "show_transactions_button" = "Pokaż transakcje";
-"show_in_app_store_button" = "Pokaż w App Store";
 
 "flip_values_button" = "Odwróć ⇅";
 
@@ -904,19 +903,6 @@
 "new_features_view_close_button" = "Może później";
 
 
-/* MARK: - Rate App View */
-/* Titles */
-"purchase_success_view_title" = "Dziękujemy!";
-
-/* Messages */
-"purchase_success_view_info_message" = "Jeśli podoba Ci się aplikacja, napisz pozytywną recenzję w App Store. To naprawdę bardzo pomaga i motywuje do ciągłego ulepszania aplikacji. 😊";
-"purchase_success_view_info_message_info" = "\n\nInfo: Gdy przejdziesz z subskrypcji na zakup na całe życie, pamiętaj, aby anulować swoją istniejącą subskrypcję po tym.";
-
-/* Buttons */
-"purchase_success_view_rate_app_button" = "Oceń aplikację";
-"purchase_success_view_close_button" = "Może później";
-
-
 /* MARK: - Upgrade View */
 /* Titles */
 "upgrade_view_title" = "Pełna wersja";
@@ -1026,12 +1012,13 @@
 "alert_upgrade_view_purchase_success_title" = "Zakup pomyślny 🎉";
 "alert_upgrade_view_purchase_success_message" = "Dziękujemy za wsparcie! 😊";
 "alert_upgrade_view_purchase_success_message_info" = "\n\nInformacja: Jeśli przejdziesz z subskrypcji na zakup jednorazowy, pamiętaj, aby później anulować poprzednią subskrypcję.";
+
 "alert_upgrade_view_purchase_error_message" = "Twój zakup nie mógł zostać pomyślnie zrealizowany.";
-"alert_upgrade_view_purchase_error_store_problem_message" = "Wystąpił problem z App Store.\n\nInformacja: Czasami zakup może się udać tylko wtedy, gdy potwierdzisz hasłem zamiast Touch ID / Face ID.\n\nNa przykład, jeśli używasz Face ID, po prostu zakryj przednią kamerę i spróbuj ponownie, aby zobaczyć okno dialogowe hasła.";
+"alert_upgrade_view_purchase_error_store_problem_message" = "Wystąpił problem z App Store.";
+"alert_upgrade_view_purchase_error_store_problem_message_info" = "\n\nInformacja: Czasami zakup może się udać tylko wtedy, gdy potwierdzisz hasłem zamiast Touch ID / Face ID.\n\nNa przykład, jeśli używasz Face ID, po prostu zakryj przednią kamerę i spróbuj ponownie, aby zobaczyć okno dialogowe hasła.";
 "alert_upgrade_view_purchase_error_not_allowed_message" = "Zakupy na tym urządzeniu są niedozwolone.";
 "alert_upgrade_view_purchase_error_invalid_message" = "Sprawdź metodę płatności i spróbuj ponownie później. Jeśli błąd będzie się powtarzał, skontaktuj się z pomocą techniczną.";
 "alert_upgrade_view_purchase_error_network_message" = "Sprawdź swoje połączenie internetowe i spróbuj ponownie później. Jeśli błąd będzie się powtarzał, skontaktuj się z pomocą techniczną.";
-
 "alert_upgrade_view_load_products_error_message" = "Produkty nie mogły zostać załadowane. Sprawdź połączenie internetowe i spróbuj ponownie później. Jeśli błąd będzie się powtarzał, skontaktuj się z pomocą techniczną.";
 
 "alert_upgrade_view_restore_success_title" = "Przywrócono zakup";
@@ -1057,15 +1044,16 @@
 "upgrade_faq_free_use_title" = "Czy z aplikacji można również korzystać za darmo?";
 "upgrade_faq_free_use_value" = "Tak, możesz całkowicie bezpłatnie korzystać z podstawowych funkcji aplikacji, takich jak tworzenie transakcji.\n\nPonadto aplikacja oferuje okres próbny pełnej wersji, dzięki czemu możesz ją wypróbować z wyprzedzeniem zanim zdecydujesz się na zakup lub subskrypcję pełnej wersji.";
 "upgrade_faq_security_title" = "Czy moje dane są bezpieczne?";
-"upgrade_faq_security_value" = "Twoje finanse są prywatne – i powinny takie pozostać. Dlatego Twoje dane są przechowywane wyłącznie na Twoim urządzeniu lub (opcjonalnie) w Twoim osobistym iCloud.";
+"upgrade_faq_security_value" = "Twoje finanse są prywatne – i powinny takie pozostać. Dlatego Twoje dane są przechowywane wyłącznie na Twoim urządzeniu.";
+"upgrade_faq_security_value_icloud_suffix" = " lub (opcjonalnie) w Twoim osobistym iCloud.";
 "upgrade_faq_why_subscription_title" = "Dlaczego pełna wersja jest oferowana jako subskrypcja?";
-"upgrade_faq_why_subscription_value" = "Moim celem jest opracowanie wysokiej jakości aplikacji, która regularnie oferuje nowe funkcje i usprawnienia. Aby jednak osiągnąć ten cel, aplikacja musi generować stały przychód, by móc się finansować i być ekonomicznie zrównoważona. Wielu użytkowników nie zdaje sobie sprawy z tego, że tworzenie i utrzymywanie aplikacji zajmuje mnóstwo czasu. W przypadku Budget Flow, na przykład od pomysłu do gotowej wersji, która mogła zostać wydana w App Store, minęły prawie dwa lata i kilka tysięcy godzin pracy na etapie rozwoju i testowania. Dzięki modelowi subskrypcyjnemu, zyskujesz regularne aktualizacje i ulepszenia, a także wsparcie, aby zapewnić Ci ciągłą satysfakcję. Masz również możliwość wypróbowania aplikacji za darmo, aby upewnić się, że spełni Twoje oczekiwania. W każdej chwili możesz zmienić zdanie i anulować subskrypcję. Jednak, z uwagi na użytkowników, którzy nie przepadają za subskrypcjami, dostępna jest również opcja jednorazowego zakupu w nieco wyższej cenie. Cena jednorazowego zakupu wynosi około 2,5 razy więcej niż roczna subskrypcja. W związku z tym wszystkie przyszłe koszty związane z aktualizacjami i wsparciem są pokrywane przez dożywotnią wersję aplikacji, co w przypadku subskrypcji byłoby pokryte przez cykliczne opłaty. Ostatecznie ten model biznesowy zapewnia Ci, jako użytkownikowi, wiele korzyści i lepsze doświadczenie dzięki ciągłym aktualizacjom i wsparciu. W dłuższym okresie niski koszt jednorazowego zakupu niestety nie byłby zrównoważony, ponieważ ten model wymaga od nowych użytkowników ciągłego zakupu aplikacji, aby zapewnić jej rozwój. Jeśli podoba Ci się aplikacja, będę bardzo wdzięczny za wsparcie mojej pracy, dzięki któremu będę mógł zaoferować Ci jeszcze więcej wspaniałych funkcji w przyszłości! ❤️";
+"upgrade_faq_why_subscription_value" = "Moim celem jest opracowanie wysokiej jakości aplikacji, która regularnie oferuje nowe funkcje i usprawnienia. Aby jednak osiągnąć ten cel, aplikacja musi generować stały przychód, by móc się finansować i być ekonomicznie zrównoważona. Wielu użytkowników nie zdaje sobie sprawy z tego, że tworzenie i utrzymywanie aplikacji zajmuje mnóstwo czasu. W przypadku Budget Flow, na przykład od pomysłu do gotowej wersji, która mogła zostać wydana, minęły prawie dwa lata i kilka tysięcy godzin pracy na etapie rozwoju i testowania. Dzięki modelowi subskrypcyjnemu, zyskujesz regularne aktualizacje i ulepszenia, a także wsparcie, aby zapewnić Ci ciągłą satysfakcję. Masz również możliwość wypróbowania aplikacji za darmo, aby upewnić się, że spełni Twoje oczekiwania. W każdej chwili możesz zmienić zdanie i anulować subskrypcję. Jednak, z uwagi na użytkowników, którzy nie przepadają za subskrypcjami, dostępna jest również opcja jednorazowego zakupu w nieco wyższej cenie. Cena jednorazowego zakupu wynosi około 2,5 razy więcej niż roczna subskrypcja. W związku z tym wszystkie przyszłe koszty związane z aktualizacjami i wsparciem są pokrywane przez dożywotnią wersję aplikacji, co w przypadku subskrypcji byłoby pokryte przez cykliczne opłaty. Ostatecznie ten model biznesowy zapewnia Ci, jako użytkownikowi, wiele korzyści i lepsze doświadczenie dzięki ciągłym aktualizacjom i wsparciu. W dłuższym okresie niski koszt jednorazowego zakupu niestety nie byłby zrównoważony, ponieważ ten model wymaga od nowych użytkowników ciągłego zakupu aplikacji, aby zapewnić jej rozwój. Jeśli podoba Ci się aplikacja, będę bardzo wdzięczny za wsparcie mojej pracy, dzięki któremu będę mógł zaoferować Ci jeszcze więcej wspaniałych funkcji w przyszłości! ❤️";
 "upgrade_faq_multiple_devices_title" = "Czy mogę używać pełnej wersji na wielu urządzeniach?";
-"upgrade_faq_multiple_devices_value" = "Tak, możesz używać pełnej wersji Budget Flow na wszystkich swoich urządzeniach Apple z tym samym Apple ID. Ponieważ aplikacja jest synchronizowana przez iCloud, możesz płynnie przełączać się między urządzeniami i zawsze mieć dostęp do swoich danych finansowych i ustawienia.";
+"upgrade_faq_multiple_devices_value" = "Tak, możesz używać pełnej wersji Budget Flow na wszystkich swoich urządzeniach Apple z tym samym kontem Apple. Ponieważ aplikacja jest synchronizowana przez iCloud, możesz płynnie przełączać się między urządzeniami i zawsze mieć dostęp do swoich danych finansowych i ustawienia.";
 "upgrade_faq_multiple_people_title" = "Czy mogę używać pełnej wersji z wieloma osobami?";
 "upgrade_faq_multiple_people_value" = "Tak, jednorazowy zakup oraz subskrypcję pełnej wersji możesz udostępnić maksymalnie pięciu osobom w grupie rodzinnej. Wystarczy włączyć udostępnianie rodziny w ustawieniach systemu i dodać inne osoby zapraszając je do grupy.";
 "upgrade_faq_cancel_subscription_title" = "Jak anulować subskrypcję?";
-"upgrade_faq_cancel_subscription_value" = "Możesz anulować subskrypcję w dowolnym momencie, używając swojego Apple ID w Preferencjach systemowych.";
+"upgrade_faq_cancel_subscription_value" = "Możesz anulować subskrypcję w dowolnym momencie, używając swojego konta Apple w Preferencjach systemowych.";
 "upgrade_faq_subscription_data_loss_title" = "Czy moje dane zostaną utracone, jeśli anuluję subskrypcję?";
 "upgrade_faq_subscription_data_loss_value" = "Nie. Wszystko, co utworzysz podczas subskrypcji pełnej wersji, będzie nadal dostępne, jeśli wrócisz do wersji darmowej.";
 "upgrade_faq_refund_title" = "Jak mogę otrzymać zwrot pieniędzy?";

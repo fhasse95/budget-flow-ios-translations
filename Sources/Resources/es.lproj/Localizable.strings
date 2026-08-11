@@ -317,7 +317,6 @@
 "get_started_button" = "Comenzar";
 
 "show_transactions_button" = "Mostrar transacciones";
-"show_in_app_store_button" = "Mostrar en App Store";
 
 "flip_values_button" = "Invertir ⇅";
 
@@ -904,19 +903,6 @@
 "new_features_view_close_button" = "Tal vez más tarde";
 
 
-/* MARK: - Rate App View */
-/* Titles */
-"purchase_success_view_title" = "¡Gracias!";
-
-/* Messages */
-"purchase_success_view_info_message" = "Si te gusta la app, escribe una reseña positiva en la App Store. Realmente ayuda mucho y motiva a mejorar continuamente la app. 😊";
-"purchase_success_view_info_message_info" = "\n\nInfo: Cuando cambies de una suscripción a una compra de por vida, recuerda cancelar tu suscripción existente después.";
-
-/* Buttons */
-"purchase_success_view_rate_app_button" = "Calificar app";
-"purchase_success_view_close_button" = "Tal vez más tarde";
-
-
 /* MARK: - Upgrade View */
 /* Titles */
 "upgrade_view_title" = "Versión completa";
@@ -1026,12 +1012,13 @@
 "alert_upgrade_view_purchase_success_title" = "Compra exitosa 🎉";
 "alert_upgrade_view_purchase_success_message" = "¡Gracias por su apoyo! 😊";
 "alert_upgrade_view_purchase_success_message_info" = "\n\nInformación: Si cambia de una suscripción a una compra única, recuerde cancelar su suscripción anterior después.";
+
 "alert_upgrade_view_purchase_error_message" = "Su compra no se pudo completar con éxito.";
-"alert_upgrade_view_purchase_error_store_problem_message" = "Hubo un problema con la App Store.\n\nInformación: A veces, es posible que la compra solo funcione si confirma con su contraseña en lugar de Touch ID / Face ID.\n\nPor ejemplo, si estás utilizando Face ID, solo cubre la cámara frontal y vuelve a intentarlo para ver el cuadro de diálogo de la contraseña.";
+"alert_upgrade_view_purchase_error_store_problem_message" = "Hubo un problema con la App Store.";
+"alert_upgrade_view_purchase_error_store_problem_message_info" = "\n\nInformación: A veces, es posible que la compra solo funcione si confirma con su contraseña en lugar de Touch ID / Face ID.\n\nPor ejemplo, si estás utilizando Face ID, solo cubre la cámara frontal y vuelve a intentarlo para ver el cuadro de diálogo de la contraseña.";
 "alert_upgrade_view_purchase_error_not_allowed_message" = "No se permiten compras en este dispositivo.";
 "alert_upgrade_view_purchase_error_invalid_message" = "Comprueba tu método de pago e inténtalo de nuevo más tarde. Si el error persiste, póngase en contacto con el servicio de asistencia.";
 "alert_upgrade_view_purchase_error_network_message" = "Comprueba tu conexión a Internet e inténtalo de nuevo más tarde. Si el error persiste, póngase en contacto con el servicio de asistencia.";
-
 "alert_upgrade_view_load_products_error_message" = "Los productos no se pudieron cargar. Comprueba tu conexión a Internet e inténtalo de nuevo más tarde. Si el error persiste, póngase en contacto con el servicio de asistencia.";
 
 "alert_upgrade_view_restore_success_title" = "Compras restituidas";
@@ -1057,9 +1044,10 @@
 "upgrade_faq_free_use_title" = "¿Se puede usar la app también de forma gratuita?";
 "upgrade_faq_free_use_value" = "Sí, puedes utilizar las funciones básicas de la app, como la creación de transacciones, de forma totalmente gratuita.\n\nAdemás, la app ofrece un periodo de prueba para la versión completa para que puedas probarla con antelación antes de decidirte a comprar o suscribirte a la versión completa.";
 "upgrade_faq_security_title" = "¿Están seguros mis datos?";
-"upgrade_faq_security_value" = "Tus finanzas son privadas y así deben seguir siendo. Por eso, tus datos se almacenan exclusivamente en tu dispositivo o (opcionalmente) en tu iCloud personal.";
+"upgrade_faq_security_value" = "Tus finanzas son privadas y así deben seguir siendo. Por eso, tus datos se almacenan exclusivamente en tu dispositivo.";
+"upgrade_faq_security_value_icloud_suffix" = " o (opcionalmente) en tu iCloud personal.";
 "upgrade_faq_why_subscription_title" = "¿Por qué la versión completa se ofrece como suscripción?";
-"upgrade_faq_why_subscription_value" = "Mi objetivo es desarrollar una app de alta calidad que te ofrezca a ti, como usuario, nuevas funciones y mejoras de forma regular. Sin embargo, para lograr este objetivo, la app necesita ingresos continuos para financiarse y ser económicamente sostenible.\n\nLo que muchos no saben: Desarrollar y mantener una app lleva mucho tiempo. En el caso de Budget Flow, por ejemplo, se necesitaron casi dos años y varios miles de horas de trabajo desde la idea hasta el desarrollo y las pruebas antes de que la primera versión pudiera lanzarse en la App Store.\n\nComo cliente, se beneficia en particular de actualizaciones y mejoras periódicas a través del modelo de suscripción, así como de un buen soporte para garantizar que siga estando satisfecho. También tiene la oportunidad de probar la app de forma gratuita por adelantado para asegurarse de que se adapte a sus necesidades, puede cambiar o cancelar la suscripción en cualquier momento si cambia de opinión.\n\nEn general, un modelo de suscripción le ofrece muchos beneficios como cliente y una mejor experiencia de usuario a través de actualizaciones y soporte continuos en comparación con una compra única. A largo plazo, una compra única desafortunadamente no sería sostenible, ya que este modelo de negocio requiere que los nuevos usuarios sigan comprando la app para garantizar la continuación del desarrollo.\n\nAsí que si te gusta la app, ¡estaría muy feliz si apoyas mi trabajo para que pueda continuar ofreciéndote aún más funciones excelentes en el futuro!❤️";
+"upgrade_faq_why_subscription_value" = "Mi objetivo es desarrollar una app de alta calidad que te ofrezca a ti, como usuario, nuevas funciones y mejoras de forma regular. Sin embargo, para lograr este objetivo, la app necesita ingresos continuos para financiarse y ser económicamente sostenible.\n\nLo que muchos no saben: Desarrollar y mantener una app lleva mucho tiempo. En el caso de Budget Flow, por ejemplo, se necesitaron casi dos años y varios miles de horas de trabajo desde la idea hasta el desarrollo y las pruebas antes de que la primera versión pudiera lanzarse.\n\nComo cliente, se beneficia en particular de actualizaciones y mejoras periódicas a través del modelo de suscripción, así como de un buen soporte para garantizar que siga estando satisfecho. También tiene la oportunidad de probar la app de forma gratuita por adelantado para asegurarse de que se adapte a sus necesidades, puede cambiar o cancelar la suscripción en cualquier momento si cambia de opinión.\n\nEn general, un modelo de suscripción le ofrece muchos beneficios como cliente y una mejor experiencia de usuario a través de actualizaciones y soporte continuos en comparación con una compra única. A largo plazo, una compra única desafortunadamente no sería sostenible, ya que este modelo de negocio requiere que los nuevos usuarios sigan comprando la app para garantizar la continuación del desarrollo.\n\nAsí que si te gusta la app, ¡estaría muy feliz si apoyas mi trabajo para que pueda continuar ofreciéndote aún más funciones excelentes en el futuro!❤️";
 "upgrade_faq_multiple_devices_title" = "¿Puedo usar la versión completa en varios dispositivos?";
 "upgrade_faq_multiple_devices_value" = "Sí, puedes usar la versión completa de Budget Flow en todos tus dispositivos Apple con el mismo ID de Apple. Debido a que la app se sincroniza a través de iCloud, puede cambiar sin problemas entre sus dispositivos y tener siempre acceso a sus datos y configuraciones financieras.";
 "upgrade_faq_multiple_people_title" = "¿Puedo usar la versión completa con varias personas?";

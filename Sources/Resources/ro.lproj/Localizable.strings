@@ -317,7 +317,6 @@
 "get_started_button" = "Începeți";
 
 "show_transactions_button" = "Afișați tranzacțiile";
-"show_in_app_store_button" = "Afișați în App Store";
 
 "flip_values_button" = "Inversează ⇅";
 
@@ -904,19 +903,6 @@
 "new_features_view_close_button" = "Maybe later";
 
 
-/* MARK: - Rate App View */
-/* Titles */
-"purchase_success_view_title" = "Mulțumesc!";
-
-/* Messages */
-"purchase_success_view_info_message" = "Dacă vă place aplicația, vă rugăm să scrieți o recenzie pozitivă în App Store. Chiar ajută foarte mult și motivează îmbunătățirea continuă a aplicației. 😊";
-"purchase_success_view_info_message_info" = "\n\nInformație: Când treci de la un abonament la o achiziție pe viață, nu uita să anulezi abonamentul existent ulterior.";
-
-/* Buttons */
-"purchase_success_view_rate_app_button" = "Evaluați aplicația";
-"purchase_success_view_close_button" = "Poate mai târziu";
-
-
 /* MARK: - Upgrade View */
 /* Titles */
 "upgrade_view_title" = "Versiune completă";
@@ -1026,12 +1012,13 @@
 "alert_upgrade_view_purchase_success_title" = "Achiziție reușită 🎉";
 "alert_upgrade_view_purchase_success_message" = "Vă mulțumim pentru sprijin! 😊";
 "alert_upgrade_view_purchase_success_message_info" = "\n\nInformații: Dacă treceți de la un abonament la achiziția unică, nu uitați să anulați abonamentul anterior ulterior.";
+
 "alert_upgrade_view_purchase_error_message" = "Achiziția dvs. nu a putut fi finalizată cu succes.";
-"alert_upgrade_view_purchase_error_store_problem_message" = "A apărut o problemă cu App Store.\n\nInformații: Uneori, achiziția poate funcționa numai dacă confirmați cu parola în loc de Touch ID / Face ID.\n\nDe exemplu, dacă folosești Face ID, acoperă doar camera frontală și încearcă din nou pentru a vedea dialogul cu parola.";
+"alert_upgrade_view_purchase_error_store_problem_message" = "A apărut o problemă cu App Store.";
+"alert_upgrade_view_purchase_error_store_problem_message_info" = "\n\nInformații: Uneori, achiziția poate funcționa numai dacă confirmați cu parola în loc de Touch ID / Face ID.\n\nDe exemplu, dacă folosești Face ID, acoperă doar camera frontală și încearcă din nou pentru a vedea dialogul cu parola.";
 "alert_upgrade_view_purchase_error_not_allowed_message" = "Achizițiile nu sunt permise pe acest dispozitiv.";
 "alert_upgrade_view_purchase_error_invalid_message" = "Verificați metoda de plată și încercați din nou mai târziu. Dacă eroarea persistă, contactați asistența.";
 "alert_upgrade_view_purchase_error_network_message" = "Verificați-vă conexiunea la internet și încercați din nou mai târziu. Dacă eroarea persistă, contactați asistența.";
-
 "alert_upgrade_view_load_products_error_message" = "Produsele nu au putut fi încărcate. Verificați-vă conexiunea la internet și încercați din nou mai târziu. Dacă eroarea persistă, contactați asistența.";
 
 "alert_upgrade_view_restore_success_title" = "Achiziții restaurate";
@@ -1057,9 +1044,10 @@
 "upgrade_faq_free_use_title" = "Aplicația poate fi folosită și gratuit?";
 "upgrade_faq_free_use_value" = "Da, puteți utiliza funcțiile de bază ale aplicației, cum ar fi crearea de tranzacții, complet gratuit.\n\nÎn plus, aplicația oferă o perioadă de probă pentru versiunea completă, astfel încât să o puteți încerca în avans. înainte de a vă decide să cumpărați sau să vă abonați la versiunea completă.";
 "upgrade_faq_security_title" = "Datele mele sunt securizate?";
-"upgrade_faq_security_value" = "Finanțele tale sunt private – și ar trebui să rămână așa. De aceea datele tale sunt stocate exclusiv pe dispozitivul tău sau (opțional) în iCloud-ul tău personal.";
+"upgrade_faq_security_value" = "Finanțele tale sunt private – și ar trebui să rămână așa. De aceea datele tale sunt stocate exclusiv pe dispozitivul tău.";
+"upgrade_faq_security_value_icloud_suffix" = " sau (opțional) în iCloud-ul tău personal.";
 "upgrade_faq_why_subscription_title" = "De ce este oferită versiunea completă ca abonament?";
-"upgrade_faq_why_subscription_value" = "Scopul nostru este să dezvoltăm o aplicație de înaltă calitate care să vă ofere ca utilizator noi funcții și îmbunătățiri în mod regulat. Cu toate acestea, pentru a atinge acest obiectiv, aplicația are nevoie de venituri continue pentru a se finanța și fi sustenabil din punct de vedere economic.\n\nCeea ce mulți nu știu Dezvoltarea și întreținerea unei aplicații necesită mult timp. În cazul Budget Flow, de exemplu, a fost nevoie de aproape doi ani și câteva mii de ore de muncă de la idee până la dezvoltare și testare înainte ca prima versiune să poată fi lansată în App Store.\n\nÎn calitate de client, beneficiați în special de actualizări și îmbunătățiri regulate prin modelul de abonament, precum și de un suport bun pentru a vă asigura că sunteți în continuare mulțumit. De asemenea, aveți posibilitatea de a încerca gratuit aplicația în avans, pentru a vă asigura că se potrivește nevoilor dvs., puteți schimba sau anula abonamentul în orice moment dacă vă răzgândiți.\n\nÎn general, un model de abonament vă oferă multe beneficii ca client și o experiență de utilizator mai bună prin actualizări și asistență continuă, comparativ cu o achiziție unică. Pe termen lung, o achiziție unică nu ar fi, din păcate, sustenabilă, deoarece acest model de afaceri impune ca noii utilizatori să continue să cumpere aplicația pentru a asigura continuarea dezvoltării.\n\nDeci, dacă vă place aplicația, am fi foarte fericiți dacă ne susțineți munca, astfel încât să putem continua să vă oferim și mai multe funcții grozave în viitor!❤️";
+"upgrade_faq_why_subscription_value" = "Scopul nostru este să dezvoltăm o aplicație de înaltă calitate care să vă ofere ca utilizator noi funcții și îmbunătățiri în mod regulat. Cu toate acestea, pentru a atinge acest obiectiv, aplicația are nevoie de venituri continue pentru a se finanța și fi sustenabil din punct de vedere economic.\n\nCeea ce mulți nu știu Dezvoltarea și întreținerea unei aplicații necesită mult timp. În cazul Budget Flow, de exemplu, a fost nevoie de aproape doi ani și câteva mii de ore de muncă de la idee până la dezvoltare și testare înainte ca prima versiune să poată fi lansată.\n\nÎn calitate de client, beneficiați în special de actualizări și îmbunătățiri regulate prin modelul de abonament, precum și de un suport bun pentru a vă asigura că sunteți în continuare mulțumit. De asemenea, aveți posibilitatea de a încerca gratuit aplicația în avans, pentru a vă asigura că se potrivește nevoilor dvs., puteți schimba sau anula abonamentul în orice moment dacă vă răzgândiți.\n\nÎn general, un model de abonament vă oferă multe beneficii ca client și o experiență de utilizator mai bună prin actualizări și asistență continuă, comparativ cu o achiziție unică. Pe termen lung, o achiziție unică nu ar fi, din păcate, sustenabilă, deoarece acest model de afaceri impune ca noii utilizatori să continue să cumpere aplicația pentru a asigura continuarea dezvoltării.\n\nDeci, dacă vă place aplicația, am fi foarte fericiți dacă ne susțineți munca, astfel încât să putem continua să vă oferim și mai multe funcții grozave în viitor!❤️";
 "upgrade_faq_multiple_devices_title" = "Pot folosi versiunea completă pe mai multe dispozitive?";
 "upgrade_faq_multiple_devices_value" = "Da, puteți utiliza versiunea completă a Budget Flow pe toate dispozitivele Apple cu același ID Apple. Deoarece aplicația este sincronizată prin iCloud, puteți comuta fără probleme între dispozitive și aveți întotdeauna acces la datele dvs. financiare și setări.";
 "upgrade_faq_multiple_people_title" = "Pot folosi versiunea completă cu mai multe persoane?";

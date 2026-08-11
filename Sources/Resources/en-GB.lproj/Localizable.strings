@@ -317,7 +317,6 @@
 "get_started_button" = "Get Started";
 
 "show_transactions_button" = "Show Transactions";
-"show_in_app_store_button" = "Show in App Store";
 
 "flip_values_button" = "Flip ⇅";
 
@@ -926,19 +925,6 @@
 "new_features_view_close_button" = "Maybe later";
 
 
-/* MARK: - Purchase Success View */
-/* Titles */
-"purchase_success_view_title" = "Thank you!";
-
-/* Messages */
-"purchase_success_view_info_message" = "If you like the app, please write a positive review in the App Store. It really helps a lot and motivates to continuously improve the app. 😊";
-"purchase_success_view_info_message_info" = "\n\nInfo: When switching from a subscription to a lifetime purchase, please remember to cancel your existing subscription afterwards.";
-
-/* Buttons */
-"purchase_success_view_rate_app_button" = "Rate App";
-"purchase_success_view_close_button" = "Maybe later";
-
-
 /* MARK: - Upgrade View */
 /* Titles */
 "upgrade_view_title" = "Full Version";
@@ -1048,12 +1034,13 @@
 "alert_upgrade_view_purchase_success_title" = "Purchase Successful 🎉";
 "alert_upgrade_view_purchase_success_message" = "Thank you for your support! 😊";
 "alert_upgrade_view_purchase_success_message_info" = "\n\nInfo: If you switch from a subscription to the one-time purchase, remember to cancel your previous subscription afterwards.";
+
 "alert_upgrade_view_purchase_error_message" = "Your purchase could not be completed successfully.";
-"alert_upgrade_view_purchase_error_store_problem_message" = "There was a problem with the App Store.\n\nInfo: Sometimes the purchase may only work if you confirm with your password instead of Touch ID / Face ID.\n\nFor example, if you are using Face ID, just cover the front camera and try again to see the password dialog.";
+"alert_upgrade_view_purchase_error_store_problem_message" = "There was a problem with the App Store.";
+"alert_upgrade_view_purchase_error_store_problem_message_info" = "\n\nInfo: Sometimes the purchase may only work if you confirm with your password instead of Touch ID / Face ID.\n\nFor example, if you are using Face ID, just cover the front camera and try again to see the password dialog.";
 "alert_upgrade_view_purchase_error_not_allowed_message" = "Purchases are not allowed on this device.";
 "alert_upgrade_view_purchase_error_invalid_message" = "Check your payment method and try again later. If the error persists, please contact support.";
 "alert_upgrade_view_purchase_error_network_message" = "Check your internet connection and try again later. If the error persists, please contact support.";
-
 "alert_upgrade_view_load_products_error_message" = "The products could not be loaded. Check your internet connection and try again later. If the error persists, please contact support.";
 
 "alert_upgrade_view_restore_success_title" = "Purchases Restored";
@@ -1079,15 +1066,16 @@
 "upgrade_faq_free_use_title" = "Can the app also be used for free?";
 "upgrade_faq_free_use_value" = "Yes, you can use the app's basic functions, such as creating transactions, completely free of charge.\n\nIn addition, the app offers a trial period for the full version so that you can try it out in advance before you decide to purchase or subscribe the full version.";
 "upgrade_faq_security_title" = "Is my data secure?";
-"upgrade_faq_security_value" = "Your finances are private – and they should stay that way. That’s why your data is stored exclusively on your device or (optionally) in your personal iCloud.";
+"upgrade_faq_security_value" = "Your finances are private – and they should stay that way. That’s why your data is stored exclusively on your device.";
+"upgrade_faq_security_value_icloud_suffix" = " or (optionally) in your personal iCloud.";
 "upgrade_faq_why_subscription_title" = "Why is the full version primarily offered as a subscription?";
-"upgrade_faq_why_subscription_value" = "My goal is to develop a high-quality app that offers you as a user new features and improvements on a regular basis. However, in order to achieve this goal, the app needs continuous revenue in order to finance itself and be economically sustainable.\n\nWhat many don't know: Developing and maintaining an app takes a lot of time. In the case of Budget Flow, for example, it took almost two years and several thousand hours of work from the idea to development and testing before the first version could be released to the App Store.\n\nThrough the subscription model, you benefit from regular updates and enhancements, as well as support to ensure your continued satisfaction. You also have the opportunity to try the app for free in advance to ensure that it suits your needs you can change or cancel the subscription at any time if you change your mind.\n\nHowever, since some users do not like subscriptions, a slightly more expensive one-time purchase is also available. The price of the one-time purchase represents the customer lifetime value (CLV) and is approximately 2.5 times the annual subscription price. As a result, all future costs for updates and support are covered for the entire lifetime of the app, which would otherwise have been covered by recurring payments as part of a subscription.\n\nOverall, this business model provides you, the user, with many benefits and a better experience through continuous updates and support. In the long run, a low priced one-time purchase would unfortunately not be sustainable, as this business model requires new users to keep buying the app to ensure its continuous development.\n\nSo if you like the app, I would be very happy if you support my work so that I can offer you even more great features in the future!❤️";
+"upgrade_faq_why_subscription_value" = "My goal is to develop a high-quality app that offers you as a user new features and improvements on a regular basis. However, in order to achieve this goal, the app needs continuous revenue in order to finance itself and be economically sustainable.\n\nWhat many don't know: Developing and maintaining an app takes a lot of time. In the case of Budget Flow, for example, it took almost two years and several thousand hours of work from the idea to development and testing before the first version could be released.\n\nThrough the subscription model, you benefit from regular updates and enhancements, as well as support to ensure your continued satisfaction. You also have the opportunity to try the app for free in advance to ensure that it suits your needs you can change or cancel the subscription at any time if you change your mind.\n\nHowever, since some users do not like subscriptions, a slightly more expensive one-time purchase is also available. The price of the one-time purchase represents the customer lifetime value (CLV) and is approximately 2.5 times the annual subscription price. As a result, all future costs for updates and support are covered for the entire lifetime of the app, which would otherwise have been covered by recurring payments as part of a subscription.\n\nOverall, this business model provides you, the user, with many benefits and a better experience through continuous updates and support. In the long run, a low priced one-time purchase would unfortunately not be sustainable, as this business model requires new users to keep buying the app to ensure its continuous development.\n\nSo if you like the app, I would be very happy if you support my work so that I can offer you even more great features in the future!❤️";
 "upgrade_faq_multiple_devices_title" = "Can I use the full version on multiple devices?";
-"upgrade_faq_multiple_devices_value" = "Yes, you can use the full version of Budget Flow on all your Apple devices with the same Apple ID. Because the app is synced via iCloud, you can seamlessly switch between your devices and have always access to your financial data and settings.";
+"upgrade_faq_multiple_devices_value" = "Yes, you can use the full version of Budget Flow on all your Apple devices with the same Apple Account. Because the app is synced via iCloud, you can seamlessly switch between your devices and have always access to your financial data and settings.";
 "upgrade_faq_multiple_people_title" = "Can I use the full version with multiple people?";
 "upgrade_faq_multiple_people_value" = "Yes, you can share the one-time purchase as well as the subscription of the full version with up to five people within a family group. All you have to do is turn on family sharing in the system settings and add the other people to the group.";
 "upgrade_faq_cancel_subscription_title" = "How do I cancel my subscription?";
-"upgrade_faq_cancel_subscription_value" = "You can cancel your subscription at any time using your Apple ID in system preferences.";
+"upgrade_faq_cancel_subscription_value" = "You can cancel your subscription at any time using your Apple Account in system preferences.";
 "upgrade_faq_subscription_data_loss_title" = "Will my data be lost if I cancel my subscription?";
 "upgrade_faq_subscription_data_loss_value" = "No. Anything you create while subscribing to the full version will still be available if you switch back to the free version.";
 "upgrade_faq_refund_title" = "How can I get a refund?";

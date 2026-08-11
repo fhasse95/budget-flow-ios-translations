@@ -317,7 +317,6 @@
 "get_started_button" = "Aan de slag";
 
 "show_transactions_button" = "Toon transacties";
-"show_in_app_store_button" = "Weergeven in App Store";
 
 "flip_values_button" = "Omkeren ⇅";
 
@@ -904,19 +903,6 @@
 "new_features_view_close_button" = "Misschien later";
 
 
-/* MARK: - Rate App View */
-/* Titles */
-"purchase_success_view_title" = "Bedankt!";
-
-/* Messages */
-"purchase_success_view_info_message" = "Als de app je bevalt, schrijf dan een positieve recensie in de App Store. Dat helpt enorm en motiveert om de app continu te verbeteren. 😊";
-"purchase_success_view_info_message_info" = "\n\nInfo: Wanneer je overstapt van een abonnement naar een levenslange aankoop, vergeet dan niet je bestaande abonnement daarna te annuleren.";
-
-/* Buttons */
-"purchase_success_view_rate_app_button" = "Beoordeel app";
-"purchase_success_view_close_button" = "Misschien later";
-
-
 /* MARK: - Upgrade View */
 /* Titles */
 "upgrade_view_title" = "Volledige versie";
@@ -1026,12 +1012,13 @@
 "alert_upgrade_view_purchase_success_title" = "Aankoop geslaagd 🎉";
 "alert_upgrade_view_purchase_success_message" = "Bedankt voor je steun! 😊";
 "alert_upgrade_view_purchase_success_message_info" = "\n\nInfo: Als je overstapt van een abonnement naar een eenmalige aankoop, vergeet dan niet om je vorige abonnement daarna op te zeggen.";
+
 "alert_upgrade_view_purchase_error_message" = "Je aankoop kon niet succesvol worden afgerond.";
-"alert_upgrade_view_purchase_error_store_problem_message" = "Er is een probleem opgetreden met de App Store.\n\nInfo: Soms werkt de aankoop alleen als je bevestigt met je wachtwoord in plaats van met Touch ID/Face ID.\n\nBijvoorbeeld, als je Face ID gebruikt, bedek dan gewoon de frontcamera en probeer het opnieuw om het wachtwoorddialoog te zien.";
+"alert_upgrade_view_purchase_error_store_problem_message" = "Er is een probleem opgetreden met de App Store.";
+"alert_upgrade_view_purchase_error_store_problem_message_info" = "\n\nInfo: Soms werkt de aankoop alleen als je bevestigt met je wachtwoord in plaats van met Touch ID/Face ID.\n\nBijvoorbeeld, als je Face ID gebruikt, bedek dan gewoon de frontcamera en probeer het opnieuw om het wachtwoorddialoog te zien.";
 "alert_upgrade_view_purchase_error_not_allowed_message" = "Aankopen zijn niet toegestaan ​​op dit apparaat.";
 "alert_upgrade_view_purchase_error_invalid_message" = "Controleer je betaalmethode en probeer het later opnieuw. Als de fout zich blijft voordoen, neem dan contact op met de ondersteuning.";
 "alert_upgrade_view_purchase_error_network_message" = "Controleer je internetverbinding en probeer het later opnieuw. Als de fout zich blijft voordoen, neem dan contact op met de ondersteuning.";
-
 "alert_upgrade_view_load_products_error_message" = "De producten konden niet worden geladen. Controleer je internetverbinding en probeer het later opnieuw. Als de fout zich blijft voordoen, neem dan contact op met de ondersteuning.";
 
 "alert_upgrade_view_restore_success_title" = "Aankopen hersteld";
@@ -1057,15 +1044,16 @@
 "upgrade_faq_free_use_title" = "Kan de app ook gratis gebruikt worden?";
 "upgrade_faq_free_use_value" = "Ja, je kunt de basisfuncties van de app, zoals het aanmaken van transacties, volledig gratis gebruiken.\n\nDaarnaast biedt de app een proefperiode voor de volledige versie, zodat je deze van tevoren kunt uitproberen voordat je besluit de volledige versie te kopen of je erop te abonneren.";
 "upgrade_faq_security_title" = "Zijn mijn gegevens veilig?";
-"upgrade_faq_security_value" = "Je financiën zijn privé – en dat moeten ze ook blijven. Daarom worden je gegevens uitsluitend op jouw apparaat of (optioneel) in je persoonlijke iCloud opgeslagen.";
+"upgrade_faq_security_value" = "Je financiën zijn privé – en dat moeten ze ook blijven. Daarom worden je gegevens uitsluitend op jouw apparaat opgeslagen.";
+"upgrade_faq_security_value_icloud_suffix" = " of (optioneel) in je persoonlijke iCloud opgeslagen.";
 "upgrade_faq_why_subscription_title" = "Waarom wordt de volledige versie als abonnement aangeboden?";
-"upgrade_faq_why_subscription_value" = "Mijn doel is om een hoogwaardige app te ontwikkelen die jou als gebruiker regelmatig nieuwe functies en verbeteringen biedt. Om dit te kunnen realiseren, heeft de app echter continue inkomsten nodig om zichzelf te financieren en economisch duurzaam te blijven.\n\nWat veel mensen niet weten: het ontwikkelen en onderhouden van een app kost veel tijd. In het geval van Budget Flow duurde het bijvoorbeeld bijna twee jaar en werden er enkele duizenden uren besteed aan het uitwerken van het idee, de ontwikkeling en het testen, voordat de eerste versie in de App Store kon worden uitgebracht.\n\nVia het abonnementsmodel profiteer je van regelmatige updates en verbeteringen, evenals ondersteuning om je tevredenheid te waarborgen. Je hebt ook de mogelijkheid om de app vooraf gratis uit te proberen om te zien of deze bij je past, en je kunt het abonnement op elk moment wijzigen of annuleren als je van gedachten verandert.\n\nOmdat sommige gebruikers echter geen abonnementen prettig vinden, is er ook een iets duurdere eenmalige aankoop beschikbaar. De prijs van deze eenmalige aankoop weerspiegelt de customer lifetime value (CLV) en is ongeveer 2,5 keer de jaarlijkse abonnementsprijs. Op deze manier zijn alle toekomstige kosten voor updates en ondersteuning voor de gehele levensduur van de app gedekt, kosten die anders via terugkerende betalingen in een abonnement zouden worden gefinancierd.\n\nAl met al biedt dit businessmodel jou als gebruiker veel voordelen en een betere ervaring door voortdurende updates en ondersteuning. Op de lange termijn zou een eenmalige aankoop tegen een lage prijs helaas niet duurzaam zijn, omdat dit model nieuwe gebruikers nodig heeft die de app blijven kopen om de doorlopende ontwikkeling te waarborgen.\n\nDus, als je de app leuk vindt, zou ik het ontzettend waarderen als je mijn werk steunt, zodat ik je in de toekomst nog meer geweldige functies kan bieden! ❤️";
+"upgrade_faq_why_subscription_value" = "Mijn doel is om een hoogwaardige app te ontwikkelen die jou als gebruiker regelmatig nieuwe functies en verbeteringen biedt. Om dit te kunnen realiseren, heeft de app echter continue inkomsten nodig om zichzelf te financieren en economisch duurzaam te blijven.\n\nWat veel mensen niet weten: het ontwikkelen en onderhouden van een app kost veel tijd. In het geval van Budget Flow duurde het bijvoorbeeld bijna twee jaar en werden er enkele duizenden uren besteed aan het uitwerken van het idee, de ontwikkeling en het testen, voordat de eerste versie kon worden uitgebracht.\n\nVia het abonnementsmodel profiteer je van regelmatige updates en verbeteringen, evenals ondersteuning om je tevredenheid te waarborgen. Je hebt ook de mogelijkheid om de app vooraf gratis uit te proberen om te zien of deze bij je past, en je kunt het abonnement op elk moment wijzigen of annuleren als je van gedachten verandert.\n\nOmdat sommige gebruikers echter geen abonnementen prettig vinden, is er ook een iets duurdere eenmalige aankoop beschikbaar. De prijs van deze eenmalige aankoop weerspiegelt de customer lifetime value (CLV) en is ongeveer 2,5 keer de jaarlijkse abonnementsprijs. Op deze manier zijn alle toekomstige kosten voor updates en ondersteuning voor de gehele levensduur van de app gedekt, kosten die anders via terugkerende betalingen in een abonnement zouden worden gefinancierd.\n\nAl met al biedt dit businessmodel jou als gebruiker veel voordelen en een betere ervaring door voortdurende updates en ondersteuning. Op de lange termijn zou een eenmalige aankoop tegen een lage prijs helaas niet duurzaam zijn, omdat dit model nieuwe gebruikers nodig heeft die de app blijven kopen om de doorlopende ontwikkeling te waarborgen.\n\nDus, als je de app leuk vindt, zou ik het ontzettend waarderen als je mijn werk steunt, zodat ik je in de toekomst nog meer geweldige functies kan bieden! ❤️";
 "upgrade_faq_multiple_devices_title" = "Kan ik de volledige versie op meerdere apparaten gebruiken?";
-"upgrade_faq_multiple_devices_value" = "Ja, je kunt de volledige versie van Budget Flow gebruiken op al je Apple-apparaten met dezelfde Apple ID. Omdat de app via iCloud wordt gesynchroniseerd, kun je naadloos schakelen tussen je apparaten en heb je altijd toegang tot je financiële gegevens en instellingen.";
+"upgrade_faq_multiple_devices_value" = "Ja, je kunt de volledige versie van Budget Flow gebruiken op al je Apple-apparaten met dezelfde Apple account. Omdat de app via iCloud wordt gesynchroniseerd, kun je naadloos schakelen tussen je apparaten en heb je altijd toegang tot je financiële gegevens en instellingen.";
 "upgrade_faq_multiple_people_title" = "Kan ik de volledige versie met meerdere mensen gebruiken?";
 "upgrade_faq_multiple_people_value" = "Ja, je kunt zowel de eenmalige aankoop als het abonnement op de volledige versie delen met maximaal vijf personen binnen een gezinsgroep. Het enige wat je hoeft te doen is delen met gezin inschakelen in de systeeminstellingen en toevoegen de andere mensen voor de groep uitnodigen.";
 "upgrade_faq_cancel_subscription_title" = "Hoe zeg ik mijn abonnement op?";
-"upgrade_faq_cancel_subscription_value" = "Je kunt je abonnement op elk moment annuleren via je Apple ID in de systeeminstellingen.";
+"upgrade_faq_cancel_subscription_value" = "Je kunt je abonnement op elk moment annuleren via je Apple account in de systeeminstellingen.";
 "upgrade_faq_subscription_data_loss_title" = "Gaan mijn gegevens verloren als ik mijn abonnement opzeg?";
 "upgrade_faq_subscription_data_loss_value" = "Nee. Alles wat je aanmaakt terwijl je het volledige abonnement hebt, blijft beschikbaar als je teruggaat naar de gratis versie.";
 "upgrade_faq_refund_title" = "Hoe kan ik mijn geld terugkrijgen?";

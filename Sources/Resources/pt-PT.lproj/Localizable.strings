@@ -317,7 +317,6 @@
 "get_started_button" = "Começar";
 
 "show_transactions_button" = "Mostrar transações";
-"show_in_app_store_button" = "Mostrar na App Store";
 
 "flip_values_button" = "Inverter ⇅";
 
@@ -904,19 +903,6 @@
 "new_features_view_close_button" = "Talvez mais tarde";
 
 
-/* MARK: - Rate App View */
-/* Titles */
-"purchase_success_view_title" = "Obrigado!";
-
-/* Messages */
-"purchase_success_view_info_message" = "Se gostas da aplicação, por favor, escreve uma avaliação positiva na App Store. Isso realmente ajuda muito e motiva a melhorar continuamente a aplicação. 😊";
-"purchase_success_view_info_message_info" = "\n\nNota: Ao mudares de uma subscrição para uma compra vitalícia, lembra-te de cancelar a tua subscrição existente depois.";
-
-/* Buttons */
-"purchase_success_view_rate_app_button" = "Avaliar a aplicação";
-"purchase_success_view_close_button" = "Talvez mais tarde";
-
-
 /* MARK: - Upgrade View */
 /* Titles */
 "upgrade_view_title" = "Versão Completa";
@@ -1026,12 +1012,13 @@
 "alert_upgrade_view_purchase_success_title" = "Compra bem-sucedida 🎉";
 "alert_upgrade_view_purchase_success_message" = "Obrigado pelo apoio! 😊";
 "alert_upgrade_view_purchase_success_message_info" = "\n\nNota: Se mudares de uma subscrição para uma compra única, lembra-te de cancelar a tua subscrição anterior posteriormente.";
+
 "alert_upgrade_view_purchase_error_message" = "A tua compra não pôde ser concluída.";
-"alert_upgrade_view_purchase_error_store_problem_message" = "Houve um problema com a App Store.\n\nNota: Às vezes a compra só funciona se confirmares com a tua palavra-passe em vez do Touch ID / Face ID.\n\nPor exemplo, se estiveres a usar o Face ID, basta cobrires a câmara frontal e tentares novamente para veres a caixa de diálogo da palavra-passe.";
+"alert_upgrade_view_purchase_error_store_problem_message" = "Houve um problema com a App Store.";
+"alert_upgrade_view_purchase_error_store_problem_message_info" = "\n\nNota: Às vezes a compra só funciona se confirmares com a tua palavra-passe em vez do Touch ID / Face ID.\n\nPor exemplo, se estiveres a usar o Face ID, basta cobrires a câmara frontal e tentares novamente para veres a caixa de diálogo da palavra-passe.";
 "alert_upgrade_view_purchase_error_not_allowed_message" = "Não são permitidas compras neste dispositivo.";
 "alert_upgrade_view_purchase_error_invalid_message" = "Verifica o teu método de pagamento e tenta novamente mais tarde. Se o erro persistir, contacta o suporte.";
 "alert_upgrade_view_purchase_error_network_message" = "Verifica a tua conexão à Internet e tenta novamente mais tarde. Se o erro persistir, contacta o suporte.";
-
 "alert_upgrade_view_load_products_error_message" = "Os produtos não puderam ser carregados. Verifica a tua conexão à Internet e tenta novamente mais tarde. Se o erro persistir, contacta o suporte.";
 
 "alert_upgrade_view_restore_success_title" = "Compras Restauradas";
@@ -1057,9 +1044,10 @@
 "upgrade_faq_free_use_title" = "A aplicação também pode ser usada gratuitamente?";
 "upgrade_faq_free_use_value" = "Sim, podes usar as funções básicas da aplicação, como criar transações, de forma totalmente gratuita.\n\nAlém disso, a aplicação oferece um período de teste para a versão completa para que possas experimentá-la com antecedência antes de decidires comprar ou subscrever a versão completa.";
 "upgrade_faq_security_title" = "Os meus dados estão seguros?";
-"upgrade_faq_security_value" = "As tuas finanças são privadas – e devem permanecer assim. É por isso que os teus dados são armazenados exclusivamente no teu dispositivo ou (opcionalmente) no teu iCloud pessoal.";
+"upgrade_faq_security_value" = "As tuas finanças são privadas – e devem permanecer assim. É por isso que os teus dados são armazenados exclusivamente no teu dispositivo.";
+"upgrade_faq_security_value_icloud_suffix" = " ou (opcionalmente) no teu iCloud pessoal.";
 "upgrade_faq_why_subscription_title" = "Por que a versão completa é oferecida como uma subscrição?";
-"upgrade_faq_why_subscription_value" = "O meu objetivo é desenvolver uma aplicação de alta qualidade que te ofereça como utilizador novos recursos e melhorias regularmente. No entanto, para atingir esse objetivo, a aplicação precisa de receita contínua para se financiar e ser economicamente sustentável.\n\nO que muitos não sabem: desenvolver e manter uma aplicação leva muito tempo. No caso do Budget Flow, por exemplo, foram necessários quase dois anos e milhares de horas de trabalho desde a ideia até o desenvolvimento e testes até que a primeira versão pudesse ser lançada na App Store.\n\nComo cliente, beneficias em particular de atualizações e melhorias regulares através do modelo de subscrição, bem como um bom suporte para garantir que continues satisfeito. Também tens a oportunidade de experimentar a aplicação gratuitamente com antecedência para garantir que ela atende às tuas necessidades, podes alterar ou cancelar a subscrição a qualquer momento se mudares de ideias.\n\nNo geral, um modelo de subscrição oferece muitos benefícios para ti como cliente e uma melhor experiência do utilizador por meio de atualizações contínuas e suporte em comparação com uma compra única. A longo prazo, uma compra única infelizmente não seria sustentável, pois esse modelo de negócio exige que novos utilizadores continuem a comprar a aplicação para garantir a continuação do desenvolvimento.\n\nEntão, se gostas da aplicação, ficaria muito feliz se apoiasses o meu trabalho para que eu possa continuar a oferecer ainda mais recursos excelentes no futuro!❤️";
+"upgrade_faq_why_subscription_value" = "O meu objetivo é desenvolver uma aplicação de alta qualidade que te ofereça como utilizador novos recursos e melhorias regularmente. No entanto, para atingir esse objetivo, a aplicação precisa de receita contínua para se financiar e ser economicamente sustentável.\n\nO que muitos não sabem: desenvolver e manter uma aplicação leva muito tempo. No caso do Budget Flow, por exemplo, foram necessários quase dois anos e milhares de horas de trabalho desde a ideia até o desenvolvimento e testes até que a primeira versão pudesse ser lançada.\n\nComo cliente, beneficias em particular de atualizações e melhorias regulares através do modelo de subscrição, bem como um bom suporte para garantir que continues satisfeito. Também tens a oportunidade de experimentar a aplicação gratuitamente com antecedência para garantir que ela atende às tuas necessidades, podes alterar ou cancelar a subscrição a qualquer momento se mudares de ideias.\n\nNo geral, um modelo de subscrição oferece muitos benefícios para ti como cliente e uma melhor experiência do utilizador por meio de atualizações contínuas e suporte em comparação com uma compra única. A longo prazo, uma compra única infelizmente não seria sustentável, pois esse modelo de negócio exige que novos utilizadores continuem a comprar a aplicação para garantir a continuação do desenvolvimento.\n\nEntão, se gostas da aplicação, ficaria muito feliz se apoiasses o meu trabalho para que eu possa continuar a oferecer ainda mais recursos excelentes no futuro!❤️";
 "upgrade_faq_multiple_devices_title" = "Posso usar a versão completa em vários dispositivos?";
 "upgrade_faq_multiple_devices_value" = "Sim, podes usar a versão completa do Budget Flow em todos os teus dispositivos Apple com o mesmo ID Apple. Uma vez que a aplicação é sincronizada através do iCloud, podes alternar facilmente entre os teus dispositivos e ter sempre acesso aos teus dados financeiros e configurações.";
 "upgrade_faq_multiple_people_title" = "Posso usar a versão completa com várias pessoas?";

@@ -317,7 +317,6 @@
 "get_started_button" = "Començar";
 
 "show_transactions_button" = "Mostrar transaccions";
-"show_in_app_store_button" = "Mostrar a l'App Store";
 
 "flip_values_button" = "Invertir ⇅";
 
@@ -904,19 +903,6 @@
 "new_features_view_close_button" = "Potser més tard";
 
 
-/* MARK: - Purchase Success View */
-/* Titles */
-"purchase_success_view_title" = "Gràcies!";
-
-/* Messages */
-"purchase_success_view_info_message" = "Si t'agrada l'app, escriu una ressenya positiva a l'App Store. Realment ajuda molt i motiva a millorar contínuament l'app. 😊";
-"purchase_success_view_info_message_info" = "\n\nInfo: Quan canviïs d'una subscripció a una compra de per vida, recorda cancel·lar la teva subscripció existent després.";
-
-/* Buttons */
-"purchase_success_view_rate_app_button" = "Valorar app";
-"purchase_success_view_close_button" = "Potser més tard";
-
-
 /* MARK: - Upgrade View */
 /* Titles */
 "upgrade_view_title" = "Versió completa";
@@ -1026,12 +1012,13 @@
 "alert_upgrade_view_purchase_success_title" = "Compra exitosa 🎉";
 "alert_upgrade_view_purchase_success_message" = "Gràcies pel teu suport! 😊";
 "alert_upgrade_view_purchase_success_message_info" = "\n\nInformació: Si canvies d'una subscripció a una compra única, recorda cancel·lar la teva subscripció anterior després.";
+
 "alert_upgrade_view_purchase_error_message" = "La teva compra no es va poder completar amb èxit.";
-"alert_upgrade_view_purchase_error_store_problem_message" = "Hi ha hagut un problema amb l'App Store.\n\nInformació: De vegades, la compra només funciona si confirmes amb la teva contrasenya en lloc de Touch ID / Face ID.\n\nPer exemple, si estàs utilitzant Face ID, només cobreix la càmera frontal; torna-ho a intentar per veure el quadre de diàleg de la contrasenya.";
+"alert_upgrade_view_purchase_error_store_problem_message" = "Hi ha hagut un problema amb l'App Store.";
+"alert_upgrade_view_purchase_error_store_problem_message_info" = "\n\nInformació: De vegades, la compra només funciona si confirmes amb la teva contrasenya en lloc de Touch ID / Face ID.\n\nPer exemple, si estàs utilitzant Face ID, només cobreix la càmera frontal; torna-ho a intentar per veure el quadre de diàleg de la contrasenya.";
 "alert_upgrade_view_purchase_error_not_allowed_message" = "No es permeten compres en aquest dispositiu.";
 "alert_upgrade_view_purchase_error_invalid_message" = "Comprova el teu mètode de pagament i torna-ho a intentar més tard. Si l'error persisteix, contacta amb el servei d'assistència.";
 "alert_upgrade_view_purchase_error_network_message" = "Comprova la teva connexió a Internet i torna-ho a intentar més tard. Si l'error persisteix, contacta amb el servei d'assistència.";
-
 "alert_upgrade_view_load_products_error_message" = "No s'han pogut carregar els productes. Comprova la teva connexió a Internet i torna-ho a intentar més tard. Si l'error persisteix, contacta amb el servei d'assistència.";
 
 "alert_upgrade_view_restore_success_title" = "Compres restaurades";
@@ -1057,9 +1044,10 @@
 "upgrade_faq_free_use_title" = "Es pot utilitzar l'app també de forma gratuïta?";
 "upgrade_faq_free_use_value" = "Sí, pots utilitzar les funcions bàsiques de l'app, com la creació de transaccions, de manera totalment gratuïta.\n\nA més, l'app ofereix un període de prova per a la versió completa perquè puguis provar-la abans de decidir-te a comprar-la o subscriure't a la versió completa.";
 "upgrade_faq_security_title" = "Són segurs les meves dades?";
-"upgrade_faq_security_value" = "Les teves finances són privades i així han de seguir sent. Per això, les teves dades s'emmagatzemen exclusivament al teu dispositiu o (opcionalment) al teu iCloud personal.";
+"upgrade_faq_security_value" = "Les teves finances són privades i així han de seguir sent. Per això, les teves dades s'emmagatzemen exclusivament al teu dispositiu.";
+"upgrade_faq_security_value_icloud_suffix" = " o (opcionalment) al teu iCloud personal.";
 "upgrade_faq_why_subscription_title" = "Per què la versió completa s'ofereix com a subscripció?";
-"upgrade_faq_why_subscription_value" = "El meu objectiu és desenvolupar una app d'alta qualitat que t'ofereixi, com a usuari, noves funcions i millores de forma regular. No obstant això, per aconseguir aquest objectiu, l'app necessita ingressos continus per finançar-se i ser econòmicament sostenible.\n\nEl que molts no saben: Desenvolupar i mantenir una app requereix molt de temps. En el cas de Budget Flow, per exemple, van ser necessaris gairebé dos anys i diversos milers d'hores de treball des de la idea fins al desenvolupament i les proves abans que la primera versió es pogués llançar a l'App Store.\n\nCom a client, et beneficies especialment d'actualitzacions i millores periòdiques a través del model de subscripció, així com d'un bon suport per garantir que estiguis satisfet. També tens l'oportunitat de provar l'app gratuïtament per endavant per assegurar-te que s'adapti a les teves necessitats, i pots canviar o cancel·lar la subscripció en qualsevol moment si canvies d'opinió.\n\nEn general, un model de subscripció t'ofereix molts beneficis com a client i una millor experiència d'usuari mitjançant actualitzacions i suport continu, en comparació amb una compra única. A llarg termini, una compra única desafortunadament no seria sostenible, ja que aquest model de negoci requereix que els nous usuaris continuïn comprant l'app per garantir la continuïtat del desenvolupament.\n\nAixí que si t'agrada l'app, estaria molt feliç si recolzes el meu treball perquè pugui continuar oferint-te encara més funcions excel·lents en el futur! ❤️";
+"upgrade_faq_why_subscription_value" = "El meu objectiu és desenvolupar una app d'alta qualitat que t'ofereixi, com a usuari, noves funcions i millores de forma regular. No obstant això, per aconseguir aquest objectiu, l'app necessita ingressos continus per finançar-se i ser econòmicament sostenible.\n\nEl que molts no saben: Desenvolupar i mantenir una app requereix molt de temps. En el cas de Budget Flow, per exemple, van ser necessaris gairebé dos anys i diversos milers d'hores de treball des de la idea fins al desenvolupament i les proves abans que la primera versió es pogués llançar.\n\nCom a client, et beneficies especialment d'actualitzacions i millores periòdiques a través del model de subscripció, així com d'un bon suport per garantir que estiguis satisfet. També tens l'oportunitat de provar l'app gratuïtament per endavant per assegurar-te que s'adapti a les teves necessitats, i pots canviar o cancel·lar la subscripció en qualsevol moment si canvies d'opinió.\n\nEn general, un model de subscripció t'ofereix molts beneficis com a client i una millor experiència d'usuari mitjançant actualitzacions i suport continu, en comparació amb una compra única. A llarg termini, una compra única desafortunadament no seria sostenible, ja que aquest model de negoci requereix que els nous usuaris continuïn comprant l'app per garantir la continuïtat del desenvolupament.\n\nAixí que si t'agrada l'app, estaria molt feliç si recolzes el meu treball perquè pugui continuar oferint-te encara més funcions excel·lents en el futur! ❤️";
 "upgrade_faq_multiple_devices_title" = "Puc utilitzar la versió completa en diversos dispositius?";
 "upgrade_faq_multiple_devices_value" = "Sí, pots utilitzar la versió completa de Budget Flow a tots els teus dispositius Apple amb el mateix ID d'Apple. Com que l'app es sincronitza a través d'iCloud, pots canviar sense problemes entre els teus dispositius i tenir sempre accés a les teves dades i configuracions financeres.";
 "upgrade_faq_multiple_people_title" = "Puc utilitzar la versió completa amb diverses persones?";

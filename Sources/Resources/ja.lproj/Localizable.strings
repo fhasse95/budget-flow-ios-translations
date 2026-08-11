@@ -317,7 +317,6 @@
 "get_started_button" = "開始する";
 
 "show_transactions_button" = "トランザクションを表示";
-"show_in_app_store_button" = "App Store で表示";
 
 "flip_values_button" = "反転 ⇅";
 
@@ -904,19 +903,6 @@
 "new_features_view_close_button" = "また後で";
 
 
-/* MARK: - Rate App View */
-/* Titles */
-"purchase_success_view_title" = "ありがとうございます!";
-
-/* Messages */
-"purchase_success_view_info_message" = "アプリが気に入ったら、App Store に肯定的なレビューを書いてください。それは本当に役立ち、アプリを継続的に改善するモチベーションになります。😊";
-"purchase_success_view_info_message_info" = "\n\n注意事項：サブスクリプションからライフタイム購入に切り替える場合、その後既存の定期購入をキャンセルすることを忘れないでください。";
-
-/* Buttons */
-"purchase_success_view_rate_app_button" = "アプリを評価する";
-"purchase_success_view_close_button" = "また後で";
-
-
 /* MARK: - Upgrade View */
 /* Titles */
 "upgrade_view_title" = "フルバージョン";
@@ -1026,12 +1012,13 @@
 "alert_upgrade_view_purchase_success_title" = "購入成功 🎉";
 "alert_upgrade_view_purchase_success_message" = "ご支援ありがとうございます! 😊";
 "alert_upgrade_view_purchase_success_message_info" = "\n\n注意事項: サブスクリプションから 1 回限りの購入に切り替える場合は、後で以前のサブスクリプションを忘れずにキャンセルしてください。";
+
 "alert_upgrade_view_purchase_error_message" = "購入は正常に完了しませんでした。";
-"alert_upgrade_view_purchase_error_store_problem_message" = "App Store に問題が発生しました。\n\n情報: Touch ID / Face ID ではなくパスワードで確認した場合にのみ購入できる場合があります。\n\n例えば、Face IDを使用している場合は、前面のカメラを覆い、パスワードダイアログを表示してください。";
+"alert_upgrade_view_purchase_error_store_problem_message" = "App Store に問題が発生しました。";
+"alert_upgrade_view_purchase_error_store_problem_message_info" = "\n\n情報: Touch ID / Face ID ではなくパスワードで確認した場合にのみ購入できる場合があります。\n\n例えば、Face IDを使用している場合は、前面のカメラを覆い、パスワードダイアログを表示してください。";
 "alert_upgrade_view_purchase_error_not_allowed_message" = "このデバイスでは購入が許可されていません。";
 "alert_upgrade_view_purchase_error_invalid_message" = "お支払い方法を確認し、後でもう一度お試しください。エラーが解決しない場合は、サポートにお問い合わせください。";
 "alert_upgrade_view_purchase_error_network_message" = "インターネット接続を確認し、後でもう一度お試しください。エラーが解決しない場合は、サポートにお問い合わせください。";
-
 "alert_upgrade_view_load_products_error_message" = "購入を読み込めませんでした。インターネット接続を確認して、後でもう一度お試しください。エラーが解決しない場合は、サポートにお問い合わせください。";
 
 "alert_upgrade_view_restore_success_title" = "購入が復元されました";
@@ -1057,15 +1044,16 @@
 "upgrade_faq_free_use_title" = "アプリは無料でも使えますか?";
 "upgrade_faq_free_use_value" = "はい、トランザクションの作成など、アプリの基本機能は完全に無料で使用できます。\n\nさらに、アプリには事前に試してみることができるように、購入または購読する前の試用期間が用意されています。";
 "upgrade_faq_security_title" = "私のデータは安全ですか?";
-"upgrade_faq_security_value" = "あなたの財務情報はプライベートであり、その状態が維持されるべきです。そのため、あなたのデータはあなたのデバイス上または（任意で）個人の iCloud 上にのみ保存されます。";
+"upgrade_faq_security_value" = "あなたの財務情報はプライベートであり、その状態が維持されるべきです。そのため、あなたのデータはあなたのデバイス上にのみ保存されます。";
+"upgrade_faq_security_value_icloud_suffix" = "または（任意で）個人の iCloud 上に保存されます。";
 "upgrade_faq_why_subscription_title" = "フルバージョンがサブスクリプションとして提供されるのはなぜですか?";
-"upgrade_faq_why_subscription_value" = "私たちの目標は、ユーザーに定期的に新機能や改善を提供する高品質のアプリを開発することです。ただし、この目標を達成するには、アプリ自体の資金を賄うために継続的な収益が必要です。 \n\n多くの人が知らないこと アプリの開発と保守には多くの時間がかかります。たとえば、Budget Flow の場合、アイデアから開発までにほぼ 2 年と数千時間の作業がかかりました。 最初のバージョンが App Store にリリースされる前にテストを行う必要があります。\n\n顧客は、サブスクリプション モデルによる定期的なアップデートと改善、および満足し続けるための優れたサポートから特に恩恵を受けることができます。 また、アプリを事前に無料で試して、ニーズに合うかどうかを確認することもできます。気が変わった場合はいつでもサブスクリプションを変更またはキャンセルできます。\n\n全体として、サブスクリプション モデルには、ユーザーにとって多くのメリットがあります。 1 回限りの購入と比較して、継続的なアップデートとサポートを通じて顧客の利便性を高め、ユーザー エクスペリエンスを向上させます。 このビジネス モデルでは、開発を継続するために新規ユーザーがアプリを購入し続ける必要があるため、長期的には、残念ながら 1 回限りの購入は持続可能ではありません。\n\nそのため、アプリを気に入っていただければ、大変嬉しく思います。 私たちの取り組みをサポートしていただければ、今後もさらに優れた機能を提供し続けることができます!❤️";
+"upgrade_faq_why_subscription_value" = "私たちの目標は、ユーザーに定期的に新機能や改善を提供する高品質のアプリを開発することです。ただし、この目標を達成するには、アプリ自体の資金を賄うために継続的な収益が必要です。 \n\n多くの人が知らないこと アプリの開発と保守には多くの時間がかかります。たとえば、Budget Flow の場合、アイデアから開発までにほぼ 2 年と数千時間の作業がかかりました。 最初のバージョンが リリースされる前にテストを行う必要があります。\n\n顧客は、サブスクリプション モデルによる定期的なアップデートと改善、および満足し続けるための優れたサポートから特に恩恵を受けることができます。 また、アプリを事前に無料で試して、ニーズに合うかどうかを確認することもできます。気が変わった場合はいつでもサブスクリプションを変更またはキャンセルできます。\n\n全体として、サブスクリプション モデルには、ユーザーにとって多くのメリットがあります。 1 回限りの購入と比較して、継続的なアップデートとサポートを通じて顧客の利便性を高め、ユーザー エクスペリエンスを向上させます。 このビジネス モデルでは、開発を継続するために新規ユーザーがアプリを購入し続ける必要があるため、長期的には、残念ながら 1 回限りの購入は持続可能ではありません。\n\nそのため、アプリを気に入っていただければ、大変嬉しく思います。 私たちの取り組みをサポートしていただければ、今後もさらに優れた機能を提供し続けることができます!❤️";
 "upgrade_faq_multiple_devices_title" = "複数のデバイスでフルバージョンを使用できますか?";
-"upgrade_faq_multiple_devices_value" = "はい、同じ Apple ID を持つすべての Apple デバイスで Budget Flow のフルバージョンを使用できます。アプリは iCloud 経由で同期されているため、デバイス間をシームレスに切り替えて、財務データと設定に常にアクセスできます。";
+"upgrade_faq_multiple_devices_value" = "はい、同じ Apple Account を持つすべての Apple デバイスで Budget Flow のフルバージョンを使用できます。アプリは iCloud 経由で同期されているため、デバイス間をシームレスに切り替えて、財務データと設定に常にアクセスできます。";
 "upgrade_faq_multiple_people_title" = "フルバージョンを複数人で使用できますか?";
 "upgrade_faq_multiple_people_value" = "はい、一度限りの購入と完全版のサブスクリプションをファミリー グループ内の最大 5 人と共有できます。システム設定でファミリー共有をオンにして追加するだけです。他の人をグループに招待します。";
 "upgrade_faq_cancel_subscription_title" = "サブスクリプションをキャンセルするにはどうすればよいですか?";
-"upgrade_faq_cancel_subscription_value" = "システム環境設定で Apple ID を使用していつでもサブスクリプションをキャンセルできます。";
+"upgrade_faq_cancel_subscription_value" = "システム環境設定で Apple Account を使用していつでもサブスクリプションをキャンセルできます。";
 "upgrade_faq_subscription_data_loss_title" = "サブスクリプションをキャンセルするとデータは失われますか?";
 "upgrade_faq_subscription_data_loss_value" = "いいえ。完全版の購読中に作成したものは、無料版に戻っても引き続き利用できます。";
 "upgrade_faq_refund_title" = "返金を受けるにはどうすればよいですか?";

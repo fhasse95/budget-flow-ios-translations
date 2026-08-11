@@ -317,7 +317,6 @@
 "get_started_button" = "Loslegen";
 
 "show_transactions_button" = "Transaktionen anzeigen";
-"show_in_app_store_button" = "Im App Store anzeigen";
 
 "flip_values_button" = "Tauschen ⇅";
 
@@ -926,19 +925,6 @@
 "new_features_view_close_button" = "Vielleicht später";
 
 
-/* MARK: - Rate App View */
-/* Titles */
-"purchase_success_view_title" = "Vielen Dank!";
-
-/* Messages */
-"purchase_success_view_info_message" = "Wenn dir die App gefällt, schreibe doch gerne eine positive Bewertung im App Store. Das hilft wirklich sehr und motiviert die App kontinuierlich weiter zu verbessern. 😊";
-"purchase_success_view_info_message_info" = "\n\nInfo: Beim Wechsel von einem Abonnement zu einem Einmalkauf, denk bitte daran, dein bestehendes Abonnement anschließend zu kündigen.";
-
-/* Buttons */
-"purchase_success_view_rate_app_button" = "App bewerten";
-"purchase_success_view_close_button" = "Vielleicht später";
-
-
 /* MARK: - Upgrade View */
 /* Titles */
 "upgrade_view_title" = "Vollversion";
@@ -1048,12 +1034,13 @@
 "alert_upgrade_view_purchase_success_title" = "Kauf erfolgreich 🎉";
 "alert_upgrade_view_purchase_success_message" = "Vielen Dank für deinen Support! 😊";
 "alert_upgrade_view_purchase_success_message_info" = "\n\nHinweis: Wenn du von einem Abonnement zum Einmalkauf wechselst, vergiss nicht, dein vorheriges Abonnement anschließend zu kündigen.";
+
 "alert_upgrade_view_purchase_error_message" = "Dein Kauf konnte nicht erfolgreich durchgeführt werden.";
-"alert_upgrade_view_purchase_error_store_problem_message" = "Es ist ein Problem mit dem App Store aufgetreten.\n\nHinweis: Gelegentlich funktioniert der Kauf nur, wenn du statt Touch ID / Face ID dein Passwort zur Bestätigung verwendest.\n\nZum Beispiel, wenn du Face ID verwendest, decke einfach die Frontkamera ab und versuche es erneut, um den Passwortdialog zu sehen.";
+"alert_upgrade_view_purchase_error_store_problem_message" = "Es ist ein Problem mit dem App Store aufgetreten.";
+"alert_upgrade_view_purchase_error_store_problem_message_info" = "\n\nHinweis: Gelegentlich funktioniert der Kauf nur, wenn du statt Touch ID / Face ID dein Passwort zur Bestätigung verwendest.\n\nZum Beispiel, wenn du Face ID verwendest, decke einfach die Frontkamera ab und versuche es erneut, um den Passwortdialog zu sehen.";
 "alert_upgrade_view_purchase_error_not_allowed_message" = "Käufe sind auf diesem Gerät nicht erlaubt.";
 "alert_upgrade_view_purchase_error_invalid_message" = "Überprüfe deine Zahlungsmethode und versuche es später noch einmal. Wenn der Fehler weiterhin auftritt, wende dich bitte an den Support.";
 "alert_upgrade_view_purchase_error_network_message" = "Überprüfe deine Internetverbindung und versuche es später noch einmal. Wenn der Fehler weiterhin auftritt, wende dich bitte an den Support.";
-
 "alert_upgrade_view_load_products_error_message" = "Die Produkte konnten nicht geladen werden. Überprüfe deine Internetverbindung und versuche es später noch einmal. Wenn der Fehler weiterhin auftritt, wende dich bitte an den Support.";
 
 "alert_upgrade_view_restore_success_title" = "Käufe wiederhergestellt";
@@ -1079,15 +1066,16 @@
 "upgrade_faq_free_use_title" = "Kann die App auch kostenlos verwendet werden?";
 "upgrade_faq_free_use_value" = "Ja, du kannst die grundlegenden Funktionen der App, wie das Anlegen von Transaktionen, völlig kostenlos nutzen.\n\nZusätzlich bietet die App eine Testphase für die Vollversion an, damit du sie im Vorfeld ausprobieren kannst, bevor du dich für den Kauf oder Abonnement der Vollversion entscheidest.";
 "upgrade_faq_security_title" = "Sind meine Daten geschützt?";
-"upgrade_faq_security_value" = "Deine Finanzen sind privat – und das soll auch so bleiben. Daher werden deine Daten ausschließlich auf deinem Gerät oder (optional) in deiner persönlichen iCloud gespeichert.";
+"upgrade_faq_security_value" = "Deine Finanzen sind privat – und das soll auch so bleiben. Daher werden deine Daten ausschließlich auf deinem Gerät gespeichert.";
+"upgrade_faq_security_value_icloud_suffix" = " oder (optional) in deiner persönlichen iCloud gespeichert.";
 "upgrade_faq_why_subscription_title" = "Warum wird die Vollversion primär als ein Abonnement angeboten?";
-"upgrade_faq_why_subscription_value" = "Mein Ziel ist es, eine hochwertige App zu entwickeln, die dir als Nutzer regelmäßig neue Funktionen und Verbesserungen bietet. Um dieses Ziel zu erreichen, benötigt die App jedoch kontinuierliche Einnahmen, um sich zu finanzieren und wirtschaftlich nachhaltig zu sein.\n\nWas viele nicht wissen: Die Entwicklung und Pflege einer App nimmt sehr viel Zeit in Anspruch. Im Fall von Budget Flow beispielsweise dauerte es von der Idee über die Entwicklung bis zum Test fast zwei Jahre und mehrere tausend Arbeitsstunden, bis die erste Version im App Store veröffentlicht werden konnte.\n\nAls Kunde profitierst du durch das Abo-Modell insbesondere von regelmäßigen Updates und Verbesserungen sowie einem guten Support, um sicherzustellen, dass du weiterhin zufrieden bist. Du hast außerdem die Möglichkeit, die App im Vorfeld kostenlos auszuprobieren, um sicherzustellen, dass sie deinen Bedürfnissen entspricht. Zudem kannst du das Abonnement jederzeit ändern oder stornieren, wenn du deine Meinung ändern solltest.\n\nDa jedoch einige Nutzer keine Abonnements abschließen möchten, wird zusätzlich ein etwas teurerer Einmalkauf angeboten. Der Preis für den Einmalkauf entspricht dabei der so genannten Customer Lifetime Value (CLV) und beträgt etwa das 2,5-fache des Preises für das Jahresabo. Dadurch werden alle zukünftigen Kosten für Updates und Support während der gesamten Lebensdauer der App abgedeckt, die ansonsten durch wiederkehrende Zahlungen im Rahmen eines Abonnements getätigt worden wären.\n\nInsgesamt bietet dieses Geschäftsmodell dir als Nutzer viele Vorteile und eine bessere Nutzererfahrung durch kontinuierliche Updates und Support. Auf lange Sicht wäre ein zu niedriger Preis für den Einmalkauf leider nicht nachhaltig, da bei diesem Geschäftsmodell immer wieder neue Nutzer die App kaufen müssen, um die weitere Entwicklung zu gewährleisten.\n\nWenn dir die App gefällt, würde ich mich daher sehr freuen, wenn du meine Arbeit unterstützt, damit ich auch in Zukunft weitere tolle Features für dich anbieten kann!❤️";
+"upgrade_faq_why_subscription_value" = "Mein Ziel ist es, eine hochwertige App zu entwickeln, die dir als Nutzer regelmäßig neue Funktionen und Verbesserungen bietet. Um dieses Ziel zu erreichen, benötigt die App jedoch kontinuierliche Einnahmen, um sich zu finanzieren und wirtschaftlich nachhaltig zu sein.\n\nWas viele nicht wissen: Die Entwicklung und Pflege einer App nimmt sehr viel Zeit in Anspruch. Im Fall von Budget Flow beispielsweise dauerte es von der Idee über die Entwicklung bis zum Test fast zwei Jahre und mehrere tausend Arbeitsstunden, bis die erste Version veröffentlicht werden konnte.\n\nAls Kunde profitierst du durch das Abo-Modell insbesondere von regelmäßigen Updates und Verbesserungen sowie einem guten Support, um sicherzustellen, dass du weiterhin zufrieden bist. Du hast außerdem die Möglichkeit, die App im Vorfeld kostenlos auszuprobieren, um sicherzustellen, dass sie deinen Bedürfnissen entspricht. Zudem kannst du das Abonnement jederzeit ändern oder stornieren, wenn du deine Meinung ändern solltest.\n\nDa jedoch einige Nutzer keine Abonnements abschließen möchten, wird zusätzlich ein etwas teurerer Einmalkauf angeboten. Der Preis für den Einmalkauf entspricht dabei der so genannten Customer Lifetime Value (CLV) und beträgt etwa das 2,5-fache des Preises für das Jahresabo. Dadurch werden alle zukünftigen Kosten für Updates und Support während der gesamten Lebensdauer der App abgedeckt, die ansonsten durch wiederkehrende Zahlungen im Rahmen eines Abonnements getätigt worden wären.\n\nInsgesamt bietet dieses Geschäftsmodell dir als Nutzer viele Vorteile und eine bessere Nutzererfahrung durch kontinuierliche Updates und Support. Auf lange Sicht wäre ein zu niedriger Preis für den Einmalkauf leider nicht nachhaltig, da bei diesem Geschäftsmodell immer wieder neue Nutzer die App kaufen müssen, um die weitere Entwicklung zu gewährleisten.\n\nWenn dir die App gefällt, würde ich mich daher sehr freuen, wenn du meine Arbeit unterstützt, damit ich auch in Zukunft weitere tolle Features für dich anbieten kann!❤️";
 "upgrade_faq_multiple_devices_title" = "Kann ich die Vollversion auf mehreren Geräten verwenden?";
-"upgrade_faq_multiple_devices_value" = "Ja, du kannst die Vollversion von Budget Flow auf all deinen Apple-Geräten mit derselben Apple ID verwenden. Da die App über iCloud synchronisiert wird, kannst du nahtlos zwischen deinen Geräten wechseln und hast immer Zugriff auf deine Finanzdaten und Einstellungen.";
+"upgrade_faq_multiple_devices_value" = "Ja, du kannst die Vollversion von Budget Flow auf all deinen Apple-Geräten mit demselben Apple Account verwenden. Da die App über iCloud synchronisiert wird, kannst du nahtlos zwischen deinen Geräten wechseln und hast immer Zugriff auf deine Finanzdaten und Einstellungen.";
 "upgrade_faq_multiple_people_title" = "Kann ich die Vollversion mit mehreren Personen nutzen?";
 "upgrade_faq_multiple_people_value" = "Ja, du kannst sowohl den Einmalkauf als auch das Abonnement der Vollversion mit bis zu fünf Personen innerhalb einer Familiengruppe teilen. Hierzu ist es lediglich erforderlich, dass du die Familienfreigabe in den Systemeinstellungen aktivierst und die anderen Personen zu der Gruppe einlädst.";
 "upgrade_faq_cancel_subscription_title" = "Wie kann ich mein Abonnement kündigen?";
-"upgrade_faq_cancel_subscription_value" = "Du kannst dein Abonnement jederzeit über deine Apple ID in den Systemeinstellungen kündigen.";
+"upgrade_faq_cancel_subscription_value" = "Du kannst dein Abonnement jederzeit über deinen Apple Account in den Systemeinstellungen kündigen.";
 "upgrade_faq_subscription_data_loss_title" = "Gehen meine Daten verloren, wenn ich mein Abonnement kündige?";
 "upgrade_faq_subscription_data_loss_value" = "Nein. Alles, was du erstellst während du die Vollversion abonniert hast, ist auch weiterhin verfügbar, wenn du zur kostenfreien Variante zurückkehrst.";
 "upgrade_faq_refund_title" = "Wie kann ich eine Rückerstattung erhalten?";

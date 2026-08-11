@@ -317,7 +317,6 @@
 "get_started_button" = "시작하기";
 
 "show_transactions_button" = "거래 보기";
-"show_in_app_store_button" = "App Store에 표시";
 
 "flip_values_button" = "뒤집기 ⇅";
 
@@ -904,19 +903,6 @@
 "new_features_view_close_button" = "나중에";
 
 
-/* MARK: - Rate App View */
-/* Titles */
-"purchase_success_view_title" = "감사합니다!";
-
-/* Messages */
-"purchase_success_view_info_message" = "앱이 마음에 들면 App Store에서 리뷰를 작성해 주세요. 정말 많은 도움이 되며 앱을 지속적으로 개선하는 데 동기를 부여합니다. 😊";
-"purchase_success_view_info_message_info" = "\n\n정보: 구독에서 평생 구매로 전환할 때 기존 구독을 취소하는 것을 잊지 마세요.";
-
-/* Buttons */
-"purchase_success_view_rate_app_button" = "앱 평가";
-"purchase_success_view_close_button" = "나중에";
-
-
 /* MARK: - Upgrade View */
 /* Titles */
 "upgrade_view_title" = "정식 버전";
@@ -1026,12 +1012,13 @@
 "alert_upgrade_view_purchase_success_title" = "구매 성공 🎉";
 "alert_upgrade_view_purchase_success_message" = "지원해주셔서 감사합니다! 😊";
 "alert_upgrade_view_purchase_success_message_info" = "\n\n정보: 구독에서 일회성 구매로 전환하는 경우, 이전 구독을 취소하는 것을 잊지 마세요.";
+
 "alert_upgrade_view_purchase_error_message" = "구매를 성공적으로 완료할 수 없습니다.";
-"alert_upgrade_view_purchase_error_store_problem_message" = "App Store에 문제가 발생했습니다.\n\n정보: 간혹 Touch ID / Face ID 대신 비밀번호로 확인해야 구매가 작동하는 경우가 있습니다.\n\n예를 들어, Face ID를 사용하는 경우 전면 카메라를 가리고 다시 시도하여 비밀번호 대화 상자를 확인하세요.";
+"alert_upgrade_view_purchase_error_store_problem_message" = "App Store에 문제가 발생했습니다.";
+"alert_upgrade_view_purchase_error_store_problem_message_info" = "\n\n정보: 간혹 Touch ID / Face ID 대신 비밀번호로 확인해야 구매가 작동하는 경우가 있습니다.\n\n예를 들어, Face ID를 사용하는 경우 전면 카메라를 가리고 다시 시도하여 비밀번호 대화 상자를 확인하세요.";
 "alert_upgrade_view_purchase_error_not_allowed_message" = "이 장치에서는 구매가 허용되지 않습니다.";
 "alert_upgrade_view_purchase_error_invalid_message" = "결제 방법을 확인하고 나중에 다시 시도하십시오. 오류가 지속되면 지원팀에 문의하십시오.";
 "alert_upgrade_view_purchase_error_network_message" = "인터넷 연결을 확인하고 나중에 다시 시도하십시오. 오류가 지속되면 지원팀에 문의하십시오.";
-
 "alert_upgrade_view_load_products_error_message" = "제품을 로드할 수 없습니다. 인터넷 연결을 확인하고 나중에 다시 시도하십시오. 오류가 지속되면 지원팀에 문의하십시오.";
 
 "alert_upgrade_view_restore_success_title" = "구매가 복원됨";
@@ -1057,15 +1044,16 @@
 "upgrade_faq_free_use_title" = "무료로도 앱을 사용할 수 있나요?";
 "upgrade_faq_free_use_value" = "예, 거래 생성과 같은 앱의 기본 기능을 완전 무료로 사용할 수 있습니다.\n\n또한 앱은 정식 버전을 구입하거나 구독하기로 결정하기 전에 미리 사용해 볼 수 있도록 정식 버전에 대한 체험 기간을 제공합니다. ";
 "upgrade_faq_security_title" = "데이터는 안전한가요?";
-"upgrade_faq_security_value" = "귀하의 재정은 비공개이며, 그대로 유지되어야 합니다. 따라서 귀하의 데이터는 귀하의 기기 또는 (선택적으로) 귀하의 개인 iCloud에만 저장됩니다.";
+"upgrade_faq_security_value" = "귀하의 재정은 비공개이며, 그대로 유지되어야 합니다. 따라서 귀하의 데이터는 귀하의 기기에만 저장됩니다.";
+"upgrade_faq_security_value_icloud_suffix" = " 또는 (선택적으로) 귀하의 개인 iCloud에 저장됩니다.";
 "upgrade_faq_why_subscription_title" = "정식 버전이 구독으로 제공되는 이유는 무엇입니까?";
-"upgrade_faq_why_subscription_value" = "우리의 목표는 정기적으로 사용자에게 새로운 기능과 개선 사항을 제공하는 고품질 앱을 개발하는 것입니다. 그러나 이 목표를 달성하려면 앱 자체에 자금을 조달하고 경제적으로 지속 가능해야 합니다.\n\n앱을 개발하고 유지 관리하는 데 많은 시간이 걸립니다. 예를 들어 Budget Flow의 경우 아이디어에서 개발까지 거의 2년, 수천 시간이 걸렸습니다. 첫 번째 버전이 App Store에 출시되기 전에 테스트합니다.\n\n고객으로서 특히 구독 모델을 통해 정기적인 업데이트 및 개선 사항을 누릴 수 있을 뿐만 아니라 계속해서 만족할 수 있도록 훌륭한 지원을 받을 수 있습니다. 또한 사전에 앱을 무료로 사용해 볼 수 있는 기회가 있어 필요에 맞는지 확인할 수 있습니다. 마음이 바뀌면 언제든지 구독을 변경하거나 취소할 수 있습니다.\n\n전반적으로 구독 모델은 다음과 같은 많은 이점을 제공합니다. 일회성 구매에 비해 지속적인 업데이트와 지원을 통해 고객과 더 나은 사용자 경험을 제공합니다. 장기적으로 평생소장 구매는 업데이트가 불가할 수 있습니다. 이 비즈니스 모델에서는 개발의 지속을 위해 신규 사용자가 앱을 계속 구매해야 하기 때문입니다.\n\n그래서 앱이 마음에 든다면 매우 기쁠 것입니다. 앞으로도 더 좋은 기능을 계속 제공할 수 있도록 지원해 주시면 감사하겠습니다!❤️";
+"upgrade_faq_why_subscription_value" = "우리의 목표는 정기적으로 사용자에게 새로운 기능과 개선 사항을 제공하는 고품질 앱을 개발하는 것입니다. 그러나 이 목표를 달성하려면 앱 자체에 자금을 조달하고 경제적으로 지속 가능해야 합니다.\n\n앱을 개발하고 유지 관리하는 데 많은 시간이 걸립니다. 예를 들어 Budget Flow의 경우 아이디어에서 개발까지 거의 2년, 수천 시간이 걸렸습니다. 첫 번째 버전이 출시되기 전에 테스트합니다.\n\n고객으로서 특히 구독 모델을 통해 정기적인 업데이트 및 개선 사항을 누릴 수 있을 뿐만 아니라 계속해서 만족할 수 있도록 훌륭한 지원을 받을 수 있습니다. 또한 사전에 앱을 무료로 사용해 볼 수 있는 기회가 있어 필요에 맞는지 확인할 수 있습니다. 마음이 바뀌면 언제든지 구독을 변경하거나 취소할 수 있습니다.\n\n전반적으로 구독 모델은 다음과 같은 많은 이점을 제공합니다. 일회성 구매에 비해 지속적인 업데이트와 지원을 통해 고객과 더 나은 사용자 경험을 제공합니다. 장기적으로 평생소장 구매는 업데이트가 불가할 수 있습니다. 이 비즈니스 모델에서는 개발의 지속을 위해 신규 사용자가 앱을 계속 구매해야 하기 때문입니다.\n\n그래서 앱이 마음에 든다면 매우 기쁠 것입니다. 앞으로도 더 좋은 기능을 계속 제공할 수 있도록 지원해 주시면 감사하겠습니다!❤️";
 "upgrade_faq_multiple_devices_title" = "여러 기기에서 정식 버전을 사용할 수 있나요?";
-"upgrade_faq_multiple_devices_value" = "예, 동일한 Apple ID로 모든 Apple 기기에서 전체 버전의 Budget Flow를 사용할 수 있습니다. 앱이 iCloud를 통해 동기화되기 때문에 기기 간에 원활하게 전환하고 항상 재무 데이터와 설정에 액세스할 수 있습니다.";
+"upgrade_faq_multiple_devices_value" = "예, 동일한 Apple 계정으로 모든 Apple 기기에서 전체 버전의 Budget Flow를 사용할 수 있습니다. 앱이 iCloud를 통해 동기화되기 때문에 기기 간에 원활하게 전환하고 항상 재무 데이터와 설정에 액세스할 수 있습니다.";
 "upgrade_faq_multiple_people_title" = "정식 버전을 여러 사람과 함께 사용할 수 있나요?";
 "upgrade_faq_multiple_people_value" = "예, 가족 그룹 내에서 최대 5명까지 정식 버전 구독뿐만 아니라 평생소장 구매를 공유할 수 있습니다. 시스템 설정에서 가족 공유를 켜고 추가하기만 하면 됩니다. 다른 사람들을 그룹에 초대합니다.";
 "upgrade_faq_cancel_subscription_title" = "내 구독을 어떻게 취소합니까?";
-"upgrade_faq_cancel_subscription_value" = "시스템 환경설정에서 Apple ID를 사용하여 언제든지 구독을 취소할 수 있습니다.";
+"upgrade_faq_cancel_subscription_value" = "시스템 환경설정에서 Apple 계정을 사용하여 언제든지 구독을 취소할 수 있습니다.";
 "upgrade_faq_subscription_data_loss_title" = "구독을 취소하면 데이터가 손실되나요?";
 "upgrade_faq_subscription_data_loss_value" = "아니요. 정식 버전을 구독하는 동안 생성한 모든 항목은 무료 버전으로 다시 전환해도 계속 사용할 수 있습니다.";
 "upgrade_faq_refund_title" = "어떻게 환불받을 수 있나요?";

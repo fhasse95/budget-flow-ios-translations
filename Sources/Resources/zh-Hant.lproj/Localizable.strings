@@ -317,7 +317,6 @@
 "get_started_button" = "開始";
 
 "show_transactions_button" = "顯示交易";
-"show_in_app_store_button" = "在 App Store 中顯示";
 
 "flip_values_button" = "翻轉 ⇅";
 
@@ -904,19 +903,6 @@
 "new_features_view_close_button" = "稍後";
 
 
-/* MARK: - Rate App View */
-/* Titles */
-"purchase_success_view_title" = "謝謝";
-
-/* Messages */
-"purchase_success_view_info_message" = "如果您喜歡這款應用，拜託在 App Store 中寫一篇積極的評論，這對我真的很重要！並且，這能夠激勵我們不斷改進該應用程序 😊";
-"purchase_success_view_info_message_info" = "\n\n資訊：當您從訂閱轉換為終身購買時，請記得在之後取消現有的訂閱。";
-
-/* Buttons */
-"purchase_success_view_rate_app_button" = "評價應用";
-"purchase_success_view_close_button" = "稍後";
-
-
 /* MARK: - Upgrade View */
 /* Titles */
 "upgrade_view_title" = "完整版";
@@ -1026,12 +1012,13 @@
 "alert_upgrade_view_purchase_success_title" = "購買成功 🎉";
 "alert_upgrade_view_purchase_success_message" = "感謝您的支持！😊";
 "alert_upgrade_view_purchase_success_message_info" = "\n\n提示：如果您從訂閱轉為一次性購買，請記得之後取消先前的訂閱";
+
 "alert_upgrade_view_purchase_error_message" = "您的購買未能成功完成。";
-"alert_upgrade_view_purchase_error_store_problem_message" = "App Store 出現問題。\n\n資訊：有時如果您用密碼確認而非 Touch ID / Face ID，購買可能才會成功\n\n例如，如果您使用 Face ID，只需遮住前置攝像頭並重新嘗試，即可看到密碼對話框。";
+"alert_upgrade_view_purchase_error_store_problem_message" = "App Store 出現問題。";
+"alert_upgrade_view_purchase_error_store_problem_message_info" = "\n\n資訊：有時如果您用密碼確認而非 Touch ID / Face ID，購買可能才會成功\n\n例如，如果您使用 Face ID，只需遮住前置攝像頭並重新嘗試，即可看到密碼對話框。";
 "alert_upgrade_view_purchase_error_not_allowed_message" = "此裝置不允許購買";
 "alert_upgrade_view_purchase_error_invalid_message" = "檢查您的付款方式並稍後重試。如果問題仍然存在，請聯絡支援人員。";
 "alert_upgrade_view_purchase_error_network_message" = "檢查您的網路連線並稍後重試。如果問題仍然存在，請聯絡支援人員。";
-
 "alert_upgrade_view_load_products_error_message" = "無法載入產品。檢查您的網路連線並稍後重試。如果問題仍然存在，請聯絡支援人員。";
 
 "alert_upgrade_view_restore_success_title" = "恢復購買";
@@ -1057,15 +1044,16 @@
 "upgrade_faq_free_use_title" = "該應用程式也可以免費使用嗎？";
 "upgrade_faq_free_use_value" = "是的，您可以免費使用應用程式的基本功能，例如建立交易。\n\n此外，您也可以試用完整版，以便您在決定購買或訂閱完整版之前先試用。";
 "upgrade_faq_security_title" = "我的資料安全嗎？";
-"upgrade_faq_security_value" = "您的財務是私密的—並且應該保持私密。這就是為什麼您的資料僅儲存在裝置上，或（可選）儲存在您的個人 iCloud 中。";
+"upgrade_faq_security_value" = "您的財務是私密的—並且應該保持私密。這就是為什麼您的資料僅儲存在裝置上。";
+"upgrade_faq_security_value_icloud_suffix" = "或（可選）儲存在您的個人 iCloud 中。";
 "upgrade_faq_why_subscription_title" = "為什麼完整版以訂閱形式提供？";
-"upgrade_faq_why_subscription_value" = "我的目標是開發一款高品質的應用，為使用者定期提供新功能和改進。然而，為了實現這一目標，應用需要持續的收入以自我融資並保持經濟可持續性。\ n\n許多人不知道：開發和維護一個應用程式需要很多時間。例如，Budget Flow從構思到開發和測試到App Store發布第一個版本，幾乎花了兩年時間和數千小時的工作。\ n\n作為客戶，您特別受益於訂閱模式下的定期更新和改進，以及良好的支持，以確保您繼續滿意。您還可以提前免費試用該應用，以確保它符合您的需求，並且隨時可以 更改或取消訂閱。\n\n總的來說，訂閱模式為您作為客戶提供了許多好處，並透過持續更新和支援帶來了比一次性購買更好的用戶體驗。從長遠來看，一次 性購買不幸地是不可持續的，因為這種商業模式需要新用戶持續購買應用以確保開發的延續。\n\n所以如果您喜歡該應用，我將非常高興您支持我的工作，以便我將來 能夠為您提供更多出色的功能！❤️";
+"upgrade_faq_why_subscription_value" = "我的目標是開發一款高品質的應用，為使用者定期提供新功能和改進。然而，為了實現這一目標，應用需要持續的收入以自我融資並保持經濟可持續性。\ n\n許多人不知道：開發和維護一個應用程式需要很多時間。例如，Budget Flow從構思到開發和測試發布第一個版本，幾乎花了兩年時間和數千小時的工作。\ n\n作為客戶，您特別受益於訂閱模式下的定期更新和改進，以及良好的支持，以確保您繼續滿意。您還可以提前免費試用該應用，以確保它符合您的需求，並且隨時可以 更改或取消訂閱。\n\n總的來說，訂閱模式為您作為客戶提供了許多好處，並透過持續更新和支援帶來了比一次性購買更好的用戶體驗。從長遠來看，一次 性購買不幸地是不可持續的，因為這種商業模式需要新用戶持續購買應用以確保開發的延續。\n\n所以如果您喜歡該應用，我將非常高興您支持我的工作，以便我將來 能夠為您提供更多出色的功能！❤️";
 "upgrade_faq_multiple_devices_title" = "我可以在多個裝置上使用完整版嗎？";
-"upgrade_faq_multiple_devices_value" = "是的，您可以在所有登入相同Apple ID 的Apple 裝置上使用Budget Flow 的完整版。因為該應用程式透過iCloud 同步，您可以在您的裝置之間無縫切換，並隨時存取您 的財務數據和設定。";
+"upgrade_faq_multiple_devices_value" = "是的，您可以在所有登入相同 Apple 帳號 的Apple 裝置上使用Budget Flow 的完整版。因為該應用程式透過iCloud 同步，您可以在您的裝置之間無縫切換，並隨時存取您 的財務數據和設定。";
 "upgrade_faq_multiple_people_title" = "我可以與其他人一起使用完整版嗎？";
 "upgrade_faq_multiple_people_value" = "是的，您可以在\"家人共享\"中與最多五人共享一次性購買和完整版的訂閱。您所需要做的就是在系統設定中打開家庭共享，並將其他人 添加進其中";
 "upgrade_faq_cancel_subscription_title" = "我如何取消我的訂閱？";
-"upgrade_faq_cancel_subscription_value" = "您可以隨時使用您的 Apple ID 在系統首選項中取消您的訂閱。";
+"upgrade_faq_cancel_subscription_value" = "您可以隨時使用您的 Apple 帳號 在系統首選項中取消您的訂閱。";
 "upgrade_faq_subscription_data_loss_title" = "如果我取消我的訂閱，我的資料會遺失嗎？";
 "upgrade_faq_subscription_data_loss_value" = "不會。在訂閱完整版期間建立的任何內容在您回到免費版時仍然可用。";
 "upgrade_faq_refund_title" = "我如何退款？";

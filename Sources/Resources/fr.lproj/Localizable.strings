@@ -317,7 +317,6 @@
 "get_started_button" = "Commencer";
 
 "show_transactions_button" = "Afficher les transactions";
-"show_in_app_store_button" = "Afficher dans l'App Store";
 
 "flip_values_button" = "Inverser ⇅";
 
@@ -904,19 +903,6 @@
 "new_features_view_close_button" = "Peut-être plus tard";
 
 
-/* MARK: - Rate App View */
-/* Titles */
-"purchase_success_view_title" = "Merci !";
-
-/* Messages */
-"purchase_success_view_info_message" = "Si vous aimez l'app, veuillez écrire une critique positive dans l'App Store. Cela aide vraiment beaucoup et nous motive à améliorer continuellement l'app. 😊";
-"purchase_success_view_info_message_info" = "\n\nInfo : Lorsque tu passes d'un abonnement à un achat à vie, n'oublie pas d'annuler ton abonnement existant par la suite.";
-
-/* Buttons */
-"purchase_success_view_rate_app_button" = "Évaluer l'app";
-"purchase_success_view_close_button" = "Peut-être plus tard";
-
-
 /* MARK: - Upgrade View */
 /* Titles */
 "upgrade_view_title" = "Version complète";
@@ -1026,12 +1012,13 @@
 "alert_upgrade_view_purchase_success_title" = "Achat réussi 🎉";
 "alert_upgrade_view_purchase_success_message" = "Merci pour votre soutien ! 😊";
 "alert_upgrade_view_purchase_success_message_info" = "\n\nRemarque : Si vous passez d'un abonnement à l'achat unique, n'oubliez pas d'annuler votre abonnement précédent par la suite.";
+
 "alert_upgrade_view_purchase_error_message" = "Votre achat n'a pas pu être finalisé avec succès.";
-"alert_upgrade_view_purchase_error_store_problem_message" = "Un problème est survenu avec l'App Store.\n\nRemarque : Parfois, l'achat ne peut fonctionner que si vous confirmez avec votre mot de passe au lieu de Touch ID / Face ID.\n\nPar exemple, si vous utilisez Face ID, il vous suffit de couvrir la caméra avant et de réessayer pour voir le dialogue de mot de passe.";
+"alert_upgrade_view_purchase_error_store_problem_message" = "Un problème est survenu avec l'App Store.";
+"alert_upgrade_view_purchase_error_store_problem_message_info" = "\n\nRemarque : Parfois, l'achat ne peut fonctionner que si vous confirmez avec votre mot de passe au lieu de Touch ID / Face ID.\n\nPar exemple, si vous utilisez Face ID, il vous suffit de couvrir la caméra avant et de réessayer pour voir le dialogue de mot de passe.";
 "alert_upgrade_view_purchase_error_not_allowed_message" = "Les achats ne sont pas autorisés sur cet appareil.";
 "alert_upgrade_view_purchase_error_invalid_message" = "Vérifiez votre mode de paiement et réessayez plus tard. Si l'erreur persiste, veuillez contacter l'assistance.";
 "alert_upgrade_view_purchase_error_network_message" = "Vérifiez votre connexion Internet et réessayez plus tard. Si l'erreur persiste, veuillez contacter l'assistance.";
-
 "alert_upgrade_view_load_products_error_message" = "Les produits n'ont pas pu être chargés. Vérifiez votre connexion Internet et réessayez plus tard. Si l'erreur persiste, veuillez contacter l'assistance.";
 
 "alert_upgrade_view_restore_success_title" = "Achats restaurés";
@@ -1057,9 +1044,10 @@
 "upgrade_faq_free_use_title" = "L'app peut-elle également être utilisée gratuitement ?";
 "upgrade_faq_free_use_value" = "Oui, vous pouvez utiliser les fonctions de base de l'app, telle que la création de transactions, entièrement gratuitement.\n\nDe plus, l'app propose une période d'essai pour la version complète afin que vous puissiez l'essayer à l'avance avant de décider d'acheter ou de vous abonner à la version complète.";
 "upgrade_faq_security_title" = "Mes données sont-elles sécurisées ?";
-"upgrade_faq_security_value" = "Vos finances sont privées – et elles doivent le rester. C'est pourquoi vos données sont stockées exclusivement sur votre appareil ou (en option) dans votre iCloud personnel.";
+"upgrade_faq_security_value" = "Vos finances sont privées – et elles doivent le rester. C'est pourquoi vos données sont stockées exclusivement sur votre appareil.";
+"upgrade_faq_security_value_icloud_suffix" = " ou (en option) dans votre iCloud personnel.";
 "upgrade_faq_why_subscription_title" = "Pourquoi la version complète est-elle proposée sous forme d'abonnement ?";
-"upgrade_faq_why_subscription_value" = "Notre objectif est de développer une app de haute qualité qui vous offre en tant qu'utilisateur de nouvelles fonctionnalités et améliorations sur une base régulière. Cependant, pour atteindre cet objectif, l'app a besoin de revenus continus pour se financer et être économiquement viable.\n\nCe que beaucoup ignorent: le développement et la maintenance d'une app prennent beaucoup de temps. Dans le cas de Budget Flow, par exemple, il a fallu près de deux ans et plusieurs milliers d'heures de travail, de l'idée au développement et aux tests, avant que la première version puisse être publiée sur l'App Store.\n\nEn tant que client, vous bénéficiez notamment des mises à jour et des améliorations régulières grâce au modèle d'abonnement, ainsi qu'un bon support pour continuellement vous satisfaire. Vous avez également la possibilité d'essayer l'app gratuitement à l'avance pour vous assurer qu'elle répond à vos besoins et modifier ou annuler l'abonnement à tout moment si vous changez d'avis.\n\nGlobalement, un modèle d'abonnement vous offre de nombreux avantages en tant que un client et une meilleure expérience utilisateur grâce à des mises à jour et un support continus par rapport à un achat unique. À long terme, un achat unique ne serait malheureusement pas viable, car ce modèle commercial oblige les nouveaux utilisateurs à continuer d'acheter l'app pour assurer la poursuite du développement.\n\nDonc, si vous aimez l'app, nous serions très heureux que vous souteniez notre travail afin que nous puissions continuer à vous offrir encore plus de fonctionnalités à l'avenir !❤️";
+"upgrade_faq_why_subscription_value" = "Notre objectif est de développer une app de haute qualité qui vous offre en tant qu'utilisateur de nouvelles fonctionnalités et améliorations sur une base régulière. Cependant, pour atteindre cet objectif, l'app a besoin de revenus continus pour se financer et être économiquement viable.\n\nCe que beaucoup ignorent: le développement et la maintenance d'une app prennent beaucoup de temps. Dans le cas de Budget Flow, par exemple, il a fallu près de deux ans et plusieurs milliers d'heures de travail, de l'idée au développement et aux tests, avant que la première version puisse être publiée.\n\nEn tant que client, vous bénéficiez notamment des mises à jour et des améliorations régulières grâce au modèle d'abonnement, ainsi qu'un bon support pour continuellement vous satisfaire. Vous avez également la possibilité d'essayer l'app gratuitement à l'avance pour vous assurer qu'elle répond à vos besoins et modifier ou annuler l'abonnement à tout moment si vous changez d'avis.\n\nGlobalement, un modèle d'abonnement vous offre de nombreux avantages en tant que un client et une meilleure expérience utilisateur grâce à des mises à jour et un support continus par rapport à un achat unique. À long terme, un achat unique ne serait malheureusement pas viable, car ce modèle commercial oblige les nouveaux utilisateurs à continuer d'acheter l'app pour assurer la poursuite du développement.\n\nDonc, si vous aimez l'app, nous serions très heureux que vous souteniez notre travail afin que nous puissions continuer à vous offrir encore plus de fonctionnalités à l'avenir !❤️";
 "upgrade_faq_multiple_devices_title" = "Puis-je utiliser la version complète sur plusieurs appareils ?";
 "upgrade_faq_multiple_devices_value" = "Oui, vous pouvez utiliser la version complète de Budget Flow sur tous vos appareils Apple avec le même identifiant Apple. Étant donné que l'app est synchronisée via iCloud, vous pouvez facilement basculer entre vos appareils et avoir toujours accès à vos données financières et réglages.";
 "upgrade_faq_multiple_people_title" = "Puis-je utiliser la version complète avec plusieurs personnes ?";

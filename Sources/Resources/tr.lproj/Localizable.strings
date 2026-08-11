@@ -317,7 +317,6 @@
 "get_started_button" = "Başlayın";
 
 "show_transactions_button" = "İşlemleri Göster";
-"show_in_app_store_button" = "App Store'da Göster";
 
 "flip_values_button" = "Değiştir ⇅";
 
@@ -904,19 +903,6 @@
 "new_features_view_close_button" = "Maybe later";
 
 
-/* MARK: - Rate App View */
-/* Titles */
-"purchase_success_view_title" = "Teşekkürler!";
-
-/* Messages */
-"purchase_success_view_info_message" = "Uygulamayı beğendiyseniz, lütfen App Store'da olumlu bir eleştiri yazın. Bu gerçekten çok yardımcı oluyor ve uygulamayı sürekli geliştirmek için motive ediyor. 😊";
-"purchase_success_view_info_message_info" = "\n\nBilgi: Abonelikten ömür boyu satın alıma geçerken, mevcut aboneliğinizi sonradan iptal etmeyi unutmayın.";
-
-/* Buttons */
-"purchase_success_view_rate_app_button" = "Uygulamayı Derecelendir";
-"purchase_success_view_close_button" = "Belki daha sonra";
-
-
 /* MARK: - Upgrade View */
 /* Titles */
 "upgrade_view_title" = "Tam Sürüm";
@@ -1026,12 +1012,13 @@
 "alert_upgrade_view_purchase_success_title" = "Satın Alma Başarılı 🎉";
 "alert_upgrade_view_purchase_success_message" = "Desteğiniz için teşekkür ederiz! 😊";
 "alert_upgrade_view_purchase_success_message_info" = "\n\nBilgi: Abonelikten tek seferlik satın almaya geçerseniz, daha sonra önceki aboneliğinizi iptal etmeyi unutmayın.";
+
 "alert_upgrade_view_purchase_error_message" = "Satın alma işleminiz başarıyla tamamlanamadı.";
-"alert_upgrade_view_purchase_error_store_problem_message" = "App Store'da bir sorun oluştu.\n\nBilgi: Bazen satın alma işlemi yalnızca Touch ID / Face ID yerine şifrenizle onaylamanız durumunda işe yarayabilir.\n\nÖrneğin, Face ID kullanıyorsanız, ön kamerayı kapatın ve şifre penceresini görmek için tekrar deneyin.";
+"alert_upgrade_view_purchase_error_store_problem_message" = "App Store'da bir sorun oluştu.";
+"alert_upgrade_view_purchase_error_store_problem_message_info" = "\n\nBilgi: Bazen satın alma işlemi yalnızca Touch ID / Face ID yerine şifrenizle onaylamanız durumunda işe yarayabilir.\n\nÖrneğin, Face ID kullanıyorsanız, ön kamerayı kapatın ve şifre penceresini görmek için tekrar deneyin.";
 "alert_upgrade_view_purchase_error_not_allowed_message" = "Bu cihazda satın alma işlemlerine izin verilmez.";
 "alert_upgrade_view_purchase_error_invalid_message" = "Ödeme yönteminizi kontrol edin ve daha sonra tekrar deneyin. Hata devam ederse, lütfen destek ile iletişime geçin.";
 "alert_upgrade_view_purchase_error_network_message" = "İnternet bağlantınızı kontrol edin ve daha sonra tekrar deneyin. Hata devam ederse, lütfen destek ile iletişime geçin.";
-
 "alert_upgrade_view_load_products_error_message" = "Ürünler yüklenemedi. İnternet bağlantınızı kontrol edin ve daha sonra tekrar deneyin. Hata devam ederse, lütfen destek ile iletişime geçin.";
 
 "alert_upgrade_view_restore_success_title" = "Satın Alınanlar Geri Yüklendi";
@@ -1057,9 +1044,10 @@
 "upgrade_faq_free_use_title" = "Uygulama ücretsiz olarak da kullanılabilir mi?";
 "upgrade_faq_free_use_value" = "Evet, uygulamanın işlem oluşturmak gibi temel işlevlerini tamamen ücretsiz olarak kullanabilirsiniz.\n\nAyrıca uygulama, önceden deneyebilmeniz için tam sürüm için bir deneme süresi sunar tam sürümü satın almaya veya abone olmaya karar vermeden önce.";
 "upgrade_faq_security_title" = "Verilerim güvende mi?";
-"upgrade_faq_security_value" = "Finansal verileriniz gizlidir ve öyle kalmalıdır. Bu nedenle verileriniz yalnızca cihazınızda veya (isteğe bağlı olarak) kişisel iCloud'unuzda saklanır.";
+"upgrade_faq_security_value" = "Finansal verileriniz gizlidir ve öyle kalmalıdır. Bu nedenle verileriniz yalnızca cihazınızda saklanır.";
+"upgrade_faq_security_value_icloud_suffix" = " veya (isteğe bağlı olarak) kişisel iCloud'unuzda saklanır.";
 "upgrade_faq_why_subscription_title" = "Tam sürüm neden abonelik olarak sunuluyor?";
-"upgrade_faq_why_subscription_value" = "Hedefimiz, bir kullanıcı olarak size düzenli olarak yeni özellikler ve iyileştirmeler sunan yüksek kaliteli bir uygulama geliştirmektir. Ancak, bu hedefe ulaşmak için, uygulamanın kendi kendini finanse etmesi ve ekonomik olarak sürdürülebilir.\n\nBir uygulamanın geliştirilmesi ve sürdürülmesi çok zaman alır. Örneğin, Budget Flow söz konusu olduğunda, fikirden geliştirme aşamasına kadar neredeyse iki yıl ve birkaç bin saat çalışma sürdü. ve ilk sürüm App Store'da yayınlanmadan önce test etme.\n\nBir müşteri olarak, özellikle abonelik modeli aracılığıyla yapılan düzenli güncellemeler ve iyileştirmelerden ve ayrıca memnun kalmaya devam etmenizi sağlamak için iyi bir destekten yararlanırsınız. Ayrıca, uygulamayı ihtiyaçlarınıza uygun olduğundan emin olmak için önceden ücretsiz olarak deneme fırsatına da sahipsiniz. Fikrinizi değiştirirseniz, aboneliği istediğiniz zaman değiştirebilir veya iptal edebilirsiniz.\n\nGenel olarak, bir abonelik modeli, bir kullanıcı olarak size birçok avantaj sunar. Bir kerelik satın almaya kıyasla sürekli güncellemeler ve destek sayesinde müşteri ve daha iyi bir kullanıcı deneyimi. Uzun vadede, tek seferlik bir satın alma maalesef sürdürülebilir olmayacaktır çünkü bu iş modeli, geliştirmenin devam etmesini sağlamak için yeni kullanıcıların uygulamayı satın almaya devam etmesini gerektirir.\n\nBu nedenle, uygulamayı beğenirseniz çok mutlu oluruz. gelecekte size daha da harika özellikler sunmaya devam edebilmemiz için çalışmalarımızı desteklerseniz!❤️";
+"upgrade_faq_why_subscription_value" = "Hedefimiz, bir kullanıcı olarak size düzenli olarak yeni özellikler ve iyileştirmeler sunan yüksek kaliteli bir uygulama geliştirmektir. Ancak, bu hedefe ulaşmak için, uygulamanın kendi kendini finanse etmesi ve ekonomik olarak sürdürülebilir.\n\nBir uygulamanın geliştirilmesi ve sürdürülmesi çok zaman alır. Örneğin, Budget Flow söz konusu olduğunda, fikirden geliştirme aşamasına kadar neredeyse iki yıl ve birkaç bin saat çalışma sürdü. ve ilk sürüm yayınlanmadan önce test etme.\n\nBir müşteri olarak, özellikle abonelik modeli aracılığıyla yapılan düzenli güncellemeler ve iyileştirmelerden ve ayrıca memnun kalmaya devam etmenizi sağlamak için iyi bir destekten yararlanırsınız. Ayrıca, uygulamayı ihtiyaçlarınıza uygun olduğundan emin olmak için önceden ücretsiz olarak deneme fırsatına da sahipsiniz. Fikrinizi değiştirirseniz, aboneliği istediğiniz zaman değiştirebilir veya iptal edebilirsiniz.\n\nGenel olarak, bir abonelik modeli, bir kullanıcı olarak size birçok avantaj sunar. Bir kerelik satın almaya kıyasla sürekli güncellemeler ve destek sayesinde müşteri ve daha iyi bir kullanıcı deneyimi. Uzun vadede, tek seferlik bir satın alma maalesef sürdürülebilir olmayacaktır çünkü bu iş modeli, geliştirmenin devam etmesini sağlamak için yeni kullanıcıların uygulamayı satın almaya devam etmesini gerektirir.\n\nBu nedenle, uygulamayı beğenirseniz çok mutlu oluruz. gelecekte size daha da harika özellikler sunmaya devam edebilmemiz için çalışmalarımızı desteklerseniz!❤️";
 "upgrade_faq_multiple_devices_title" = "Tam sürümü birden fazla cihazda kullanabilir miyim?";
 "upgrade_faq_multiple_devices_value" = "Evet, aynı Apple kimliğine sahip tüm Apple aygıtlarınızda Budget Flow'un tam sürümünü kullanabilirsiniz. Uygulama iCloud üzerinden eşzamanlandığı için, aygıtlarınız arasında sorunsuz bir şekilde geçiş yapabilir ve mali verilerinize her zaman erişebilirsiniz ve ayarlar.";
 "upgrade_faq_multiple_people_title" = "Tam sürümü birden fazla kişiyle kullanabilir miyim?";

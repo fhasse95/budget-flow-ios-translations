@@ -317,7 +317,6 @@
 "get_started_button" = "Aloita";
 
 "show_transactions_button" = "Näytä tapahtumat";
-"show_in_app_store_button" = "Näytä App Storessa";
 
 "flip_values_button" = "Vaihda ⇅";
 
@@ -904,19 +903,6 @@
 "new_features_view_close_button" = "Maybe later";
 
 
-/* MARK: - Rate App View */
-/* Titles */
-"purchase_success_view_title" = "Kiitos!";
-
-/* Messages */
-"purchase_success_view_info_message" = "Jos pidät sovelluksesta, kirjoita positiivinen arvostelu App Storeen. Se auttaa todella paljon ja motivoi sovelluksen jatkuvaan parantamiseen. 😊";
-"purchase_success_view_info_message_info" = "\n\nInfo: Kun vaihdat tilauksesta elinikäiseen ostoon, muista peruuttaa olemassa oleva tilauksesi sen jälkeen.";
-
-/* Buttons */
-"purchase_success_view_rate_app_button" = "Arvioi sovellus";
-"purchase_success_view_close_button" = "Ehkä myöhemmin";
-
-
 /* MARK: - Upgrade View */
 /* Titles */
 "upgrade_view_title" = "Täysi versio";
@@ -1026,12 +1012,13 @@
 "alert_upgrade_view_purchase_success_title" = "Osto onnistui 🎉";
 "alert_upgrade_view_purchase_success_message" = "Kiitos tuestanne! 😊";
 "alert_upgrade_view_purchase_success_message_info" = "\n\nTiedot: Jos vaihdat tilauksesta kertaostokseen, muista peruuttaa edellinen tilauksesi jälkeenpäin.";
+
 "alert_upgrade_view_purchase_error_message" = "Ostostasi ei voitu suorittaa onnistuneesti.";
-"alert_upgrade_view_purchase_error_store_problem_message" = "App Storessa oli ongelma.\n\nTiedot: Joskus osto voi toimia vain, jos vahvistat salasanallasi Touch ID / Face ID sijaan.\n\nEsimerkiksi, jos käytät Face ID:tä, peitä vain etukamera ja yritä uudelleen nähdäksesi salasanan syöttöikkunan.";
+"alert_upgrade_view_purchase_error_store_problem_message" = "App Storessa oli ongelma.";
+"alert_upgrade_view_purchase_error_store_problem_message_info" = "\n\nTiedot: Joskus osto voi toimia vain, jos vahvistat salasanallasi Touch ID / Face ID sijaan.\n\nEsimerkiksi, jos käytät Face ID:tä, peitä vain etukamera ja yritä uudelleen nähdäksesi salasanan syöttöikkunan.";
 "alert_upgrade_view_purchase_error_not_allowed_message" = "Ostokset eivät ole sallittuja tällä laitteella.";
 "alert_upgrade_view_purchase_error_invalid_message" = "Tarkista maksutapasi ja yritä myöhemmin uudelleen. Jos virhe jatkuu, ota yhteyttä tukeen.";
 "alert_upgrade_view_purchase_error_network_message" = "Tarkista Internet-yhteytesi ja yritä myöhemmin uudelleen. Jos virhe jatkuu, ota yhteyttä tukeen.";
-
 "alert_upgrade_view_load_products_error_message" = "Tuotteita ei voitu ladata. Tarkista Internet-yhteytesi ja yritä myöhemmin uudelleen. Jos virhe jatkuu, ota yhteyttä tukeen.";
 
 "alert_upgrade_view_restore_success_title" = "Ostokset palautettu";
@@ -1057,15 +1044,16 @@
 "upgrade_faq_free_use_title" = "Voiko sovellusta käyttää myös ilmaiseksi?";
 "upgrade_faq_free_use_value" = "Kyllä, voit käyttää sovelluksen perustoimintoja, kuten tapahtumien luomista, täysin ilmaiseksi.\n\nLisäksi sovellus tarjoaa kokeilujakson täysversiolle, jotta voit kokeilla sitä etukäteen ennen kuin päätät ostaa tai tilata täyden version.";
 "upgrade_faq_security_title" = "Ovatko tietoni turvassa?";
-"upgrade_faq_security_value" = "Talousi on yksityistä – ja sen pitäisi pysyä sellaisina. Siksi tietosi tallennetaan yksinomaan laitteellesi tai (valinnaisesti) henkilökohtaiseen iCloudiisi.";
+"upgrade_faq_security_value" = "Talousi on yksityistä – ja sen pitäisi pysyä sellaisina. Siksi tietosi tallennetaan yksinomaan laitteellesi.";
+"upgrade_faq_security_value_icloud_suffix" = " tai (valinnaisesti) henkilökohtaiseen iCloudiisi.";
 "upgrade_faq_why_subscription_title" = "Miksi täysversio tarjotaan tilauksena?";
-"upgrade_faq_why_subscription_value" = "Tavoitteenamme on kehittää korkealaatuinen sovellus, joka tarjoaa sinulle käyttäjänä uusia ominaisuuksia ja parannuksia säännöllisesti. Tämän tavoitteen saavuttamiseksi sovellus tarvitsee kuitenkin jatkuvaa tuloa voidakseen rahoittaa itsensä ja olla taloudellisesti kestävä.\n\nMitä monet eivät tiedä Sovelluksen kehittäminen ja ylläpito vie paljon aikaa. Esimerkiksi Budget Flow'n tapauksessa ideasta kehitykseen kesti lähes kaksi vuotta ja useita tuhansia työtunteja ja testaus ennen kuin ensimmäinen versio voidaan julkaista App Storessa.\n\nAsiakkaana hyödyt erityisesti tilausmallin säännöllisistä päivityksistä ja parannuksista sekä hyvästä tuesta, jotta voit varmistaa, että olet edelleen tyytyväinen. sinulla on myös mahdollisuus kokeilla sovellusta ilmaiseksi etukäteen varmistaaksesi, että se sopii tarpeisiisi. Voit muuttaa tilausta tai peruuttaa sen milloin tahansa, jos muutat mieltäsi.\n\nKaiken kaikkiaan tilausmalli tarjoaa sinulle monia etuja asiakas ja parempi käyttökokemus jatkuvien päivitysten ja tuen ansiosta verrattuna kertaostokseen. Pitkällä tähtäimellä kertaostos ei valitettavasti olisi kestävää, koska tämä liiketoimintamalli edellyttää uusien käyttäjien ostavan sovelluskehityksen jatkumisen.\n\nJos pidät sovelluksesta, olisimme erittäin iloisia jos tuet työtämme, jotta voimme jatkossakin tarjota sinulle entistä enemmän mahtavia ominaisuuksia!❤️";
+"upgrade_faq_why_subscription_value" = "Tavoitteenamme on kehittää korkealaatuinen sovellus, joka tarjoaa sinulle käyttäjänä uusia ominaisuuksia ja parannuksia säännöllisesti. Tämän tavoitteen saavuttamiseksi sovellus tarvitsee kuitenkin jatkuvaa tuloa voidakseen rahoittaa itsensä ja olla taloudellisesti kestävä.\n\nMitä monet eivät tiedä Sovelluksen kehittäminen ja ylläpito vie paljon aikaa. Esimerkiksi Budget Flow'n tapauksessa ideasta kehitykseen kesti lähes kaksi vuotta ja useita tuhansia työtunteja ja testaus ennen kuin ensimmäinen versio voidaan julkaista.\n\nAsiakkaana hyödyt erityisesti tilausmallin säännöllisistä päivityksistä ja parannuksista sekä hyvästä tuesta, jotta voit varmistaa, että olet edelleen tyytyväinen. sinulla on myös mahdollisuus kokeilla sovellusta ilmaiseksi etukäteen varmistaaksesi, että se sopii tarpeisiisi. Voit muuttaa tilausta tai peruuttaa sen milloin tahansa, jos muutat mieltäsi.\n\nKaiken kaikkiaan tilausmalli tarjoaa sinulle monia etuja asiakas ja parempi käyttökokemus jatkuvien päivitysten ja tuen ansiosta verrattuna kertaostokseen. Pitkällä tähtäimellä kertaostos ei valitettavasti olisi kestävää, koska tämä liiketoimintamalli edellyttää uusien käyttäjien ostavan sovelluskehityksen jatkumisen.\n\nJos pidät sovelluksesta, olisimme erittäin iloisia jos tuet työtämme, jotta voimme jatkossakin tarjota sinulle entistä enemmän mahtavia ominaisuuksia!❤️";
 "upgrade_faq_multiple_devices_title" = "Voinko käyttää täyttä versiota useissa laitteissa?";
-"upgrade_faq_multiple_devices_value" = "Kyllä, voit käyttää Budget Flow'n täyttä versiota kaikissa Apple-laitteissasi samalla Apple ID:llä. Koska sovellus synkronoidaan iCloudin kautta, voit vaihtaa saumattomasti laitteidesi välillä ja saada aina pääsyn taloustietoihisi. ja asetukset.";
+"upgrade_faq_multiple_devices_value" = "Kyllä, voit käyttää Budget Flow'n täyttä versiota kaikissa Apple-laitteissasi samalla Apple-tilillä. Koska sovellus synkronoidaan iCloudin kautta, voit vaihtaa saumattomasti laitteidesi välillä ja saada aina pääsyn taloustietoihisi. ja asetukset.";
 "upgrade_faq_multiple_people_title" = "Voinko käyttää täyttä versiota useiden ihmisten kanssa?";
 "upgrade_faq_multiple_people_value" = "Kyllä, voit jakaa kertaostoksen sekä täysversion tilauksen jopa viiden henkilön kanssa perheryhmässä. Sinun tarvitsee vain ottaa perhejako käyttöön järjestelmäasetuksista ja lisätä muut ryhmän ihmiset kutsuvat.";
 "upgrade_faq_cancel_subscription_title" = "Kuinka peruutan tilaukseni?";
-"upgrade_faq_cancel_subscription_value" = "Voit peruuttaa tilauksesi milloin tahansa käyttämällä Apple ID:täsi Järjestelmäasetuksissa.";
+"upgrade_faq_cancel_subscription_value" = "Voit peruuttaa tilauksesi milloin tahansa käyttämällä Apple-tiliäsi Järjestelmäasetuksissa.";
 "upgrade_faq_subscription_data_loss_title" = "Menevätkö tietoni, jos peruutan tilaukseni?";
 "upgrade_faq_subscription_data_loss_value" = "Ei. Kaikki, mitä luot tilattaessa täysversiota, on edelleen saatavilla, jos vaihdat takaisin ilmaiseen versioon.";
 "upgrade_faq_refund_title" = "Kuinka saan hyvityksen?";

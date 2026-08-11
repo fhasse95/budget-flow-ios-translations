@@ -317,7 +317,6 @@
 "get_started_button" = "开始";
 
 "show_transactions_button" = "显示交易";
-"show_in_app_store_button" = "在 App Store 中显示";
 
 "flip_values_button" = "翻转 ⇅";
 
@@ -904,19 +903,6 @@
 "new_features_view_close_button" = "稍后";
 
 
-/* MARK: - Rate App View */
-/* Titles */
-"purchase_success_view_title" = "谢谢";
-
-/* Messages */
-"purchase_success_view_info_message" = "如果您喜欢这款应用，拜托在 App Store 中写一篇积极的评论，这对我真的很重要！并且，这能够激励我们不断改进该应用程序 😊";
-"purchase_success_view_info_message_info" = "\n\n信息：当您从订阅转换为终身购买时，请记得之后取消现有的订阅。";
-
-/* Buttons */
-"purchase_success_view_rate_app_button" = "评价应用";
-"purchase_success_view_close_button" = "稍后";
-
-
 /* MARK: - Upgrade View */
 /* Titles */
 "upgrade_view_title" = "完整版";
@@ -1026,12 +1012,13 @@
 "alert_upgrade_view_purchase_success_title" = "购买成功 🎉";
 "alert_upgrade_view_purchase_success_message" = "感谢您的支持！😊";
 "alert_upgrade_view_purchase_success_message_info" = "\n\n提示：如果您从订阅转为一次性购买，请记得之后取消之前的订阅";
+
 "alert_upgrade_view_purchase_error_message" = "您的购买未能成功完成。";
-"alert_upgrade_view_purchase_error_store_problem_message" = "App Store 出现问题。\n\n信息：有时如果您用密码确认而非 Touch ID / Face ID，购买可能才会成功\n\n例如，如果您使用 Face ID，只需遮住前置摄像头并重新尝试，即可看到密码对话框。";
+"alert_upgrade_view_purchase_error_store_problem_message" = "App Store 出现问题。";
+"alert_upgrade_view_purchase_error_store_problem_message_info" = "\n\n信息：有时如果您用密码确认而非 Touch ID / Face ID，购买可能才会成功\n\n例如，如果您使用 Face ID，只需遮住前置摄像头并重新尝试，即可看到密码对话框。";
 "alert_upgrade_view_purchase_error_not_allowed_message" = "此设备不允许购买";
 "alert_upgrade_view_purchase_error_invalid_message" = "检查您的支付方式并稍后重试。如果问题仍然存在，请联系支持人员。";
 "alert_upgrade_view_purchase_error_network_message" = "检查您的互联网连接并稍后重试。如果问题仍然存在，请联系支持人员。";
-
 "alert_upgrade_view_load_products_error_message" = "无法加载产品。检查您的互联网连接并稍后重试。如果问题仍然存在，请联系支持人员。";
 
 "alert_upgrade_view_restore_success_title" = "恢复购买";
@@ -1057,15 +1044,16 @@
 "upgrade_faq_free_use_title" = "该应用也可以免费使用吗？";
 "upgrade_faq_free_use_value" = "是的，您可以免费使用应用的基本功能，例如创建交易。\n\n此外，您还可以试用完整版，以便您在决定购买或订阅完整版之前先试用。";
 "upgrade_faq_security_title" = "我的数据安全吗？";
-"upgrade_faq_security_value" = "您的财务是私密的——并且应该保持私密。这就是为什么您的数据仅存储在设备上，或（可选）存储在您的个人 iCloud 中。";
+"upgrade_faq_security_value" = "您的财务是私密的——并且应该保持私密。这就是为什么您的数据仅存储在设备上。";
+"upgrade_faq_security_value_icloud_suffix" = "或（可选）存储在您的个人 iCloud 中。";
 "upgrade_faq_why_subscription_title" = "为什么完整版以订阅形式提供？";
-"upgrade_faq_why_subscription_value" = "我的目标是开发一款高质量的应用，为用户定期提供新功能和改进。然而，为了实现这一目标，应用需要持续的收入以自我融资并保持经济可持续性。\n\n许多人不知道：开发和维护一个应用需要很多时间。例如，Budget Flow从构思到开发和测试到App Store发布第一个版本，几乎花了两年时间和数千小时的工作。\n\n作为客户，您特别受益于订阅模式下的定期更新和改进，以及良好的支持，以确保您继续满意。您还可以提前免费试用该应用，以确保它符合您的需求，并且随时可以更改或取消订阅。\n\n总的来说，订阅模式为您作为客户提供了许多好处，并通过持续更新和支持带来了比一次性购买更好的用户体验。从长远来看，一次性购买不幸地是不可持续的，因为这种商业模式需要新用户持续购买应用以确保开发的延续。\n\n所以如果您喜欢该应用，我将非常高兴您支持我的工作，以便我将来能够为您提供更多出色的功能！❤️";
+"upgrade_faq_why_subscription_value" = "我的目标是开发一款高质量的应用，为用户定期提供新功能和改进。然而，为了实现这一目标，应用需要持续的收入以自我融资并保持经济可持续性。\n\n许多人不知道：开发和维护一个应用需要很多时间。例如，Budget Flow从构思到开发和测试发布第一个版本，几乎花了两年时间和数千小时的工作。\n\n作为客户，您特别受益于订阅模式下的定期更新和改进，以及良好的支持，以确保您继续满意。您还可以提前免费试用该应用，以确保它符合您的需求，并且随时可以更改或取消订阅。\n\n总的来说，订阅模式为您作为客户提供了许多好处，并通过持续更新和支持带来了比一次性购买更好的用户体验。从长远来看，一次性购买不幸地是不可持续的，因为这种商业模式需要新用户持续购买应用以确保开发的延续。\n\n所以如果您喜欢该应用，我将非常高兴您支持我的工作，以便我将来能够为您提供更多出色的功能！❤️";
 "upgrade_faq_multiple_devices_title" = "我可以在多个设备上使用完整版吗？";
-"upgrade_faq_multiple_devices_value" = "是的，您可以在所有登录相同 Apple ID 的 Apple 设备上使用 Budget Flow 的完整版。因为该应用通过 iCloud 同步，您可以在您的设备之间无缝切换，并随时访问您的财务数据和设置。";
+"upgrade_faq_multiple_devices_value" = "是的，您可以在所有登录相同 Apple 账户 的 Apple 设备上使用 Budget Flow 的完整版。因为该应用通过 iCloud 同步，您可以在您的设备之间无缝切换，并随时访问您的财务数据和设置。";
 "upgrade_faq_multiple_people_title" = "我可以与其他人一起使用完整版吗？";
 "upgrade_faq_multiple_people_value" = "是的，您可以在\"家人共享\"中与最多五人共享一次性购买和完整版的订阅。您所需要做的就是在系统设置中打开家庭共享，并将其他人添加进其中";
 "upgrade_faq_cancel_subscription_title" = "我如何取消我的订阅？";
-"upgrade_faq_cancel_subscription_value" = "您可以随时使用您的 Apple ID 在系统首选项中取消您的订阅。";
+"upgrade_faq_cancel_subscription_value" = "您可以随时使用您的 Apple 账户 在系统首选项中取消您的订阅。";
 "upgrade_faq_subscription_data_loss_title" = "如果我取消我的订阅，我的数据会丢失吗？";
 "upgrade_faq_subscription_data_loss_value" = "不会。在订阅完整版期间创建的任何内容在您回到免费版时仍然可用。";
 "upgrade_faq_refund_title" = "我如何获得退款？";

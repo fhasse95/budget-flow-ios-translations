@@ -317,7 +317,6 @@
 "get_started_button" = "Kom godt i gang";
 
 "show_transactions_button" = "Vis transaktioner";
-"show_in_app_store_button" = "Vis i App Store";
 
 "flip_values_button" = "Vend ⇅";
 
@@ -904,19 +903,6 @@
 "new_features_view_close_button" = "Maybe later";
 
 
-/* MARK: - Rate App View */
-/* Titles */
-"purchase_success_view_title" = "Tak!";
-
-/* Messages */
-"purchase_success_view_info_message" = "Hvis du kan lide appen, så skriv en positiv anmeldelse i App Store. Det hjælper virkelig meget og motiverer til løbende at forbedre appen. 😊";
-"purchase_success_view_info_message_info" = "\n\nInfo: Når du skifter fra et abonnement til et livstidskøb, så husk at annullere dit eksisterende abonnement bagefter.";
-
-/* Buttons */
-"purchase_success_view_rate_app_button" = "Vurder app";
-"purchase_success_view_close_button" = "Måske senere";
-
-
 /* MARK: - Upgrade View */
 /* Titles */
 "upgrade_view_title" = "Fuld version";
@@ -1026,12 +1012,13 @@
 "alert_upgrade_view_purchase_success_title" = "Købet lykkedes 🎉";
 "alert_upgrade_view_purchase_success_message" = "Tak for din støtte! 😊";
 "alert_upgrade_view_purchase_success_message_info" = "\n\nInfo: Hvis du skifter fra et abonnement til et engangskøb, så husk at opsige dit tidligere abonnement bagefter.";
+
 "alert_upgrade_view_purchase_error_message" = "Dit køb kunne ikke gennemføres.";
-"alert_upgrade_view_purchase_error_store_problem_message" = "Der var et problem med App Store.\n\nInfo: Nogle gange fungerer købet muligvis kun, hvis du bekræfter med din adgangskode i stedet for Touch ID / Face ID.\n\nFor eksempel, hvis du bruger Face ID, skal du blot dække frontkameraet og prøve igen for at se adgangskodedialogen.";
+"alert_upgrade_view_purchase_error_store_problem_message" = "Der var et problem med App Store.";
+"alert_upgrade_view_purchase_error_store_problem_message_info" = "\n\nInfo: Nogle gange fungerer købet muligvis kun, hvis du bekræfter med din adgangskode i stedet for Touch ID / Face ID.\n\nFor eksempel, hvis du bruger Face ID, skal du blot dække frontkameraet og prøve igen for at se adgangskodedialogen.";
 "alert_upgrade_view_purchase_error_not_allowed_message" = "Køb er ikke tilladt på denne enhed.";
 "alert_upgrade_view_purchase_error_invalid_message" = "Tjek din betalingsmetode og prøv igen senere. Hvis fejlen fortsætter, kontakt venligst support.";
 "alert_upgrade_view_purchase_error_network_message" = "Tjek din internetforbindelse og prøv igen senere. Hvis fejlen fortsætter, kontakt venligst support.";
-
 "alert_upgrade_view_load_products_error_message" = "Produkterne kunne ikke indlæses. Tjek din internetforbindelse og prøv igen senere. Hvis fejlen fortsætter, kontakt venligst support.";
 
 "alert_upgrade_view_restore_success_title" = "Køb gendannet";
@@ -1057,11 +1044,12 @@
 "upgrade_faq_free_use_title" = "Kan appen også bruges gratis?";
 "upgrade_faq_free_use_value" = "Ja, du kan bruge appens grundlæggende funktioner, såsom oprettelse af transaktioner, helt gratis.\n\nDerudover tilbyder appen en prøveperiode for den fulde version, så du kan prøve den af ​​på forhånd. før du beslutter dig for at købe eller abonnere på den fulde version.";
 "upgrade_faq_security_title" = "Er mine data sikre?";
-"upgrade_faq_security_value" = "Din økonomi er privat – og sådan burde de forblive. Det er derfor, dine data gemmes udelukkende på din enhed eller (valgfrit) i din personlige iCloud.";
+"upgrade_faq_security_value" = "Din økonomi er privat – og sådan burde de forblive. Det er derfor, dine data gemmes udelukkende på din enhed.";
+"upgrade_faq_security_value_icloud_suffix" = " eller (valgfrit) i din personlige iCloud.";
 "upgrade_faq_why_subscription_title" = "Hvorfor tilbydes den fulde version som et abonnement?";
-"upgrade_faq_why_subscription_value" = "Vores mål er at udvikle en app af høj kvalitet, der tilbyder dig som bruger nye funktioner og forbedringer med jævne mellemrum. Men for at nå dette mål har appen brug for løbende indtægter for at kunne finansiere sig selv og være økonomisk bæredygtig.\n\nHvad mange ikke ved Det tager meget tid at udvikle og vedligeholde en app. I Budget Flows tilfælde tog det for eksempel næsten to år og flere tusinde timers arbejde fra idé til udvikling og test før den første version kunne frigives til App Store.\n\nSom kunde får du især glæde af regelmæssige opdateringer og forbedringer gennem abonnementsmodellen, samt god support til at sikre, at du fortsat er tilfreds. har også mulighed for at prøve appen gratis på forhånd for at sikre, at den passer til dine behov, du kan til enhver tid ændre eller opsige abonnementet, hvis du skifter mening.\n\nSamlet set giver en abonnementsmodel mange fordele for dig som en kunde og en bedre brugeroplevelse gennem løbende opdateringer og support sammenlignet med et engangskøb. I det lange løb vil et engangskøb desværre ikke være holdbart, da denne forretningsmodel kræver, at nye brugere bliver ved med at købe appen for at sikre fortsat udvikling.\n\nSå hvis du kan lide appen, vil vi blive meget glade hvis du støtter vores arbejde, så vi kan fortsætte med at tilbyde dig endnu flere fantastiske funktioner i fremtiden!❤️";
+"upgrade_faq_why_subscription_value" = "Vores mål er at udvikle en app af høj kvalitet, der tilbyder dig som bruger nye funktioner og forbedringer med jævne mellemrum. Men for at nå dette mål har appen brug for løbende indtægter for at kunne finansiere sig selv og være økonomisk bæredygtig.\n\nHvad mange ikke ved Det tager meget tid at udvikle og vedligeholde en app. I Budget Flows tilfælde tog det for eksempel næsten to år og flere tusinde timers arbejde fra idé til udvikling og test før den første version kunne frigives.\n\nSom kunde får du især glæde af regelmæssige opdateringer og forbedringer gennem abonnementsmodellen, samt god support til at sikre, at du fortsat er tilfreds. har også mulighed for at prøve appen gratis på forhånd for at sikre, at den passer til dine behov, du kan til enhver tid ændre eller opsige abonnementet, hvis du skifter mening.\n\nSamlet set giver en abonnementsmodel mange fordele for dig som en kunde og en bedre brugeroplevelse gennem løbende opdateringer og support sammenlignet med et engangskøb. I det lange løb vil et engangskøb desværre ikke være holdbart, da denne forretningsmodel kræver, at nye brugere bliver ved med at købe appen for at sikre fortsat udvikling.\n\nSå hvis du kan lide appen, vil vi blive meget glade hvis du støtter vores arbejde, så vi kan fortsætte med at tilbyde dig endnu flere fantastiske funktioner i fremtiden!❤️";
 "upgrade_faq_multiple_devices_title" = "Kan jeg bruge den fulde version på flere enheder?";
-"upgrade_faq_multiple_devices_value" = "Ja, du kan bruge den fulde version af Budget Flow på alle dine Apple-enheder med det samme Apple ID. Fordi appen er synkroniseret via iCloud, kan du problemfrit skifte mellem dine enheder og altid have adgang til dine økonomiske data og indstillinger.";
+"upgrade_faq_multiple_devices_value" = "Ja, du kan bruge den fulde version af Budget Flow på alle dine Apple-enheder med det samme Apple-konto. Fordi appen er synkroniseret via iCloud, kan du problemfrit skifte mellem dine enheder og altid have adgang til dine økonomiske data og indstillinger.";
 "upgrade_faq_multiple_people_title" = "Kan jeg bruge den fulde version med flere personer?";
 "upgrade_faq_multiple_people_value" = "Ja, du kan dele engangskøbet samt abonnementet på den fulde version med op til fem personer inden for en familiegruppe. Alt du skal gøre er at slå familiedeling til i systemindstillingerne og tilføje de andre personer i gruppen inviterer.";
 "upgrade_faq_cancel_subscription_title" = "Hvordan opsiger jeg mit abonnement?";

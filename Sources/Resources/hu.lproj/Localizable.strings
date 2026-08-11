@@ -317,7 +317,6 @@
 "get_started_button" = "Kezdő lépések";
 
 "show_transactions_button" = "Tranzakciók megjelenítése";
-"show_in_app_store_button" = "Megjelenítés az App Store-ban";
 
 "flip_values_button" = "Felcserél ⇅";
 
@@ -904,19 +903,6 @@
 "new_features_view_close_button" = "Maybe later";
 
 
-/* MARK: - Rate App View */
-/* Titles */
-"purchase_success_view_title" = "Köszönjük!";
-
-/* Messages */
-"purchase_success_view_info_message" = "Ha tetszik az alkalmazás, kérjük, írjon pozitív véleményt az App Store-ban. Ez valóban sokat segít és motivál az alkalmazás folyamatos fejlesztésére. 😊";
-"purchase_success_view_info_message_info" = "\n\nInformáció: Amikor előfizetésről életre szóló vásárlásra váltasz, ne felejtsd el lemondani a meglévő előfizetésedet utána.";
-
-/* Buttons */
-"purchase_success_view_rate_app_button" = "Alkalmazás értékelése";
-"purchase_success_view_close_button" = "Talán később";
-
-
 /* MARK: - Upgrade View */
 /* Titles */
 "upgrade_view_title" = "Teljes verzió";
@@ -1026,12 +1012,13 @@
 "alert_upgrade_view_purchase_success_title" = "A vásárlás sikeres 🎉";
 "alert_upgrade_view_purchase_success_message" = "Köszönjük a támogatást! 😊";
 "alert_upgrade_view_purchase_success_message_info" = "\n\nInformáció: Ha előfizetésről egyszeri vásárlásra vált át, ne felejtse el lemondani az előző előfizetést ezt követően.";
+
 "alert_upgrade_view_purchase_error_message" = "Vásárlása nem fejeződött be sikeresen.";
-"alert_upgrade_view_purchase_error_store_problem_message" = "Hiba történt az App Store-ral.\n\nInformáció: Előfordulhat, hogy a vásárlás csak akkor működik, ha a Touch ID / Face ID helyett a jelszavával erősíti meg.\n\nPéldául, ha a Face ID-t használod, egyszerűen takard le az elülső kamerát, és próbáld újra, hogy lásd a jelszó párbeszédablakot.";
+"alert_upgrade_view_purchase_error_store_problem_message" = "Hiba történt az App Store-ral.";
+"alert_upgrade_view_purchase_error_store_problem_message_info" = "\n\nInformáció: Előfordulhat, hogy a vásárlás csak akkor működik, ha a Touch ID / Face ID helyett a jelszavával erősíti meg.\n\nPéldául, ha a Face ID-t használod, egyszerűen takard le az elülső kamerát, és próbáld újra, hogy lásd a jelszó párbeszédablakot.";
 "alert_upgrade_view_purchase_error_not_allowed_message" = "A vásárlás nem engedélyezett ezen az eszközön.";
 "alert_upgrade_view_purchase_error_invalid_message" = "Ellenőrizze fizetési módját, és próbálja újra később. Ha a hiba továbbra is fennáll, forduljon az ügyfélszolgálathoz.";
 "alert_upgrade_view_purchase_error_network_message" = "Ellenőrizze internetkapcsolatát, és próbálja újra később. Ha a hiba továbbra is fennáll, forduljon az ügyfélszolgálathoz.";
-
 "alert_upgrade_view_load_products_error_message" = "A termékeket nem lehetett betölteni. Ellenőrizze az internetkapcsolatot, és próbálja újra később. Ha a hiba továbbra is fennáll, forduljon a támogatáshoz.";
 
 "alert_upgrade_view_restore_success_title" = "A vásárlások visszaállítva";
@@ -1057,15 +1044,16 @@
 "upgrade_faq_free_use_title" = "Az alkalmazás ingyenesen is használható?";
 "upgrade_faq_free_use_value" = "Igen, teljesen ingyenesen használhatja az alkalmazás alapvető funkcióit, például a tranzakciók létrehozását.\n\nEmellett az alkalmazás próbaidőszakot kínál a teljes verzióhoz, így előzetesen kipróbálhatja mielőtt úgy dönt, hogy megvásárolja vagy előfizeti a teljes verziót.";
 "upgrade_faq_security_title" = "Biztonságban vannak az adataim?";
-"upgrade_faq_security_value" = "Pénzügyei magánügyek – és ennek így is kell maradniuk. Ezért az Ön adatai kizárólag az eszközén vagy (opcionálisan) a személyes iCloudban tárolódnak.";
+"upgrade_faq_security_value" = "Pénzügyei magánügyek – és ennek így is kell maradniuk. Ezért az Ön adatai kizárólag az eszközén tárolódnak.";
+"upgrade_faq_security_value_icloud_suffix" = " vagy (opcionálisan) a személyes iCloudban tárolódnak.";
 "upgrade_faq_why_subscription_title" = "Miért kínálják a teljes verziót előfizetésként?";
-"upgrade_faq_why_subscription_value" = "Célunk egy olyan jó minőségű alkalmazás kifejlesztése, amely rendszeres időközönként új funkciókat és fejlesztéseket kínál Önnek, mint felhasználónak. A cél elérése érdekében azonban az alkalmazásnak folyamatos bevételre van szüksége, hogy finanszírozza önmagát és legyen gazdaságilag fenntartható.\n\nAmit sokan nem tudnak Egy alkalmazás fejlesztése és karbantartása sok időt vesz igénybe. A Budget Flow esetében például közel két év és több ezer óra munka telt el az ötlettől a fejlesztésig és tesztelni kell, mielőtt az első verzió megjelenhetne az App Store-ban.\n\nÜgyfélként különösen előnyös az előfizetési modell rendszeres frissítése és fejlesztése, valamint a megfelelő támogatás, amely biztosítja, hogy továbbra is elégedett legyen. lehetősége van arra is, hogy előzetesen ingyenesen kipróbálhassa az alkalmazást, hogy megbizonyosodjon arról, hogy az megfelel az Ön igényeinek. Ha meggondolja magát, bármikor módosíthatja vagy lemondhatja az előfizetést.\n\nÖsszességében az előfizetési modell számos előnnyel jár az Ön számára. ügyfél és jobb felhasználói élmény a folyamatos frissítések és támogatás révén az egyszeri vásárláshoz képest. Hosszú távon az egyszeri vásárlás sajnos nem lenne fenntartható, mivel ez az üzleti modell megköveteli, hogy az új felhasználók folyamatosan vásárolják meg az alkalmazást, hogy biztosítsák a fejlesztés folytatását.\n\nTehát ha tetszik az alkalmazás, annak nagyon örülnénk. ha támogatod munkánkat, hogy a jövőben is még több nagyszerű szolgáltatást kínálhassunk!❤️";
+"upgrade_faq_why_subscription_value" = "Célunk egy olyan jó minőségű alkalmazás kifejlesztése, amely rendszeres időközönként új funkciókat és fejlesztéseket kínál Önnek, mint felhasználónak. A cél elérése érdekében azonban az alkalmazásnak folyamatos bevételre van szüksége, hogy finanszírozza önmagát és legyen gazdaságilag fenntartható.\n\nAmit sokan nem tudnak Egy alkalmazás fejlesztése és karbantartása sok időt vesz igénybe. A Budget Flow esetében például közel két év és több ezer óra munka telt el az ötlettől a fejlesztésig és tesztelni kell, mielőtt az első verzió megjelenhetne.\n\nÜgyfélként különösen előnyös az előfizetési modell rendszeres frissítése és fejlesztése, valamint a megfelelő támogatás, amely biztosítja, hogy továbbra is elégedett legyen. lehetősége van arra is, hogy előzetesen ingyenesen kipróbálhassa az alkalmazást, hogy megbizonyosodjon arról, hogy az megfelel az Ön igényeinek. Ha meggondolja magát, bármikor módosíthatja vagy lemondhatja az előfizetést.\n\nÖsszességében az előfizetési modell számos előnnyel jár az Ön számára. ügyfél és jobb felhasználói élmény a folyamatos frissítések és támogatás révén az egyszeri vásárláshoz képest. Hosszú távon az egyszeri vásárlás sajnos nem lenne fenntartható, mivel ez az üzleti modell megköveteli, hogy az új felhasználók folyamatosan vásárolják meg az alkalmazást, hogy biztosítsák a fejlesztés folytatását.\n\nTehát ha tetszik az alkalmazás, annak nagyon örülnénk. ha támogatod munkánkat, hogy a jövőben is még több nagyszerű szolgáltatást kínálhassunk!❤️";
 "upgrade_faq_multiple_devices_title" = "Használhatom a teljes verziót több eszközön?";
-"upgrade_faq_multiple_devices_value" = "Igen, használhatja a Budget Flow teljes verzióját az összes Apple-eszközén ugyanazzal az Apple ID-vel. Mivel az alkalmazás az iCloudon keresztül szinkronizálva van, zökkenőmentesen válthat eszközei között, és mindig hozzáférhet pénzügyi adataihoz. és beállítások.";
+"upgrade_faq_multiple_devices_value" = "Igen, használhatja a Budget Flow teljes verzióját az összes Apple-eszközén ugyanazzal az Apple-fiókkal. Mivel az alkalmazás az iCloudon keresztül szinkronizálva van, zökkenőmentesen válthat eszközei között, és mindig hozzáférhet pénzügyi adataihoz. és beállítások.";
 "upgrade_faq_multiple_people_title" = "Használhatom a teljes verziót több személlyel?";
 "upgrade_faq_multiple_people_value" = "Igen, az egyszeri vásárlást, valamint a teljes verzió előfizetését egy családi csoporton belül legfeljebb öt személlyel megoszthatja. Csak annyit kell tennie, hogy bekapcsolja a családi megosztást a rendszerbeállításokban, és hozzáadja a többi ember meghívja a csoportba.";
 "upgrade_faq_cancel_subscription_title" = "Hogyan mondhatom le az előfizetésemet?";
-"upgrade_faq_cancel_subscription_value" = "Bármikor lemondhatja előfizetését az Apple ID használatával a Rendszerbeállításokban.";
+"upgrade_faq_cancel_subscription_value" = "Bármikor lemondhatja előfizetését az Apple-fiókja használatával a Rendszerbeállításokban.";
 "upgrade_faq_subscription_data_loss_title" = "Elvesznek az adataim, ha lemondok előfizetésemről?";
 "upgrade_faq_subscription_data_loss_value" = "Nem. Bármi, amit a teljes verzióra való előfizetés során hozott létre, továbbra is elérhető lesz, ha visszavált az ingyenes verzióra.";
 "upgrade_faq_refund_title" = "Hogyan kaphatok visszatérítést?";

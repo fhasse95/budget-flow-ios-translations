@@ -317,7 +317,6 @@
 "get_started_button" = "Začíname";
 
 "show_transactions_button" = "Zobraziť transakcie";
-"show_in_app_store_button" = "Zobraziť v App Store";
 
 "flip_values_button" = "Prevrátiť ⇅";
 
@@ -904,19 +903,6 @@
 "new_features_view_close_button" = "Maybe later";
 
 
-/* MARK: - Rate App View */
-/* Titles */
-"purchase_success_view_title" = "Ďakujem!";
-
-/* Messages */
-"purchase_success_view_info_message" = "Ak sa vám aplikácia páči, napíšte kladnú recenziu do App Store. Naozaj to veľmi pomáha a motivuje k neustálemu zlepšovaniu aplikácie. 😊";
-"purchase_success_view_info_message_info" = "\n\nInformácia: Pri prechode z predplatného na doživotný nákup nezabudnite po tom zrušiť svoje existujúce predplatné.";
-
-/* Buttons */
-"purchase_success_view_rate_app_button" = "Ohodnotiť aplikáciu";
-"purchase_success_view_close_button" = "Možno neskôr";
-
-
 /* MARK: - Upgrade View */
 /* Titles */
 "upgrade_view_title" = "Plná verzia";
@@ -1026,12 +1012,13 @@
 "alert_upgrade_view_purchase_success_title" = "Nákup bol úspešný 🎉";
 "alert_upgrade_view_purchase_success_message" = "Ďakujeme za podporu! 😊";
 "alert_upgrade_view_purchase_success_message_info" = "\n\nInformácie: Ak prejdete z predplatného na jednorazový nákup, nezabudnite potom zrušiť svoje predchádzajúce predplatné.";
+
 "alert_upgrade_view_purchase_error_message" = "Váš nákup sa nepodarilo úspešne dokončiť.";
-"alert_upgrade_view_purchase_error_store_problem_message" = "Vyskytol sa problém s App Store.\n\nInformácia: Niekedy môže nákup fungovať iba vtedy, ak potvrdíte heslom namiesto Touch ID / Face ID.\n\nNapríklad, ak používate Face ID, jednoducho zakryte prednú kameru a skúste to znova, aby ste videli dialógové okno pre heslo.";
+"alert_upgrade_view_purchase_error_store_problem_message" = "Vyskytol sa problém s App Store.";
+"alert_upgrade_view_purchase_error_store_problem_message_info" = "\n\nInformácia: Niekedy môže nákup fungovať iba vtedy, ak potvrdíte heslom namiesto Touch ID / Face ID.\n\nNapríklad, ak používate Face ID, jednoducho zakryte prednú kameru a skúste to znova, aby ste videli dialógové okno pre heslo.";
 "alert_upgrade_view_purchase_error_not_allowed_message" = "Na tomto zariadení nie sú povolené nákupy.";
 "alert_upgrade_view_purchase_error_invalid_message" = "Skontrolujte spôsob platby a skúste to znova neskôr. Ak chyba pretrváva, kontaktujte podporu.";
 "alert_upgrade_view_purchase_error_network_message" = "Skontrolujte svoje internetové pripojenie a skúste to znova neskôr. Ak chyba pretrváva, kontaktujte podporu.";
-
 "alert_upgrade_view_load_products_error_message" = "Produkty sa nepodarilo načítať. Skontrolujte internetové pripojenie a skúste to znova neskôr. Ak chyba pretrváva, kontaktujte podporu.";
 
 "alert_upgrade_view_restore_success_title" = "Nákupy obnovené";
@@ -1057,15 +1044,16 @@
 "upgrade_faq_free_use_title" = "Dá sa aplikácia používať aj zadarmo?";
 "upgrade_faq_free_use_value" = "Áno, základné funkcie aplikácie, ako je vytváranie transakcií, môžete používať úplne zadarmo.\n\nAplikácia navyše ponúka skúšobnú dobu pre plnú verziu, aby ste si ju mohli vopred vyskúšať predtým, než sa rozhodnete kúpiť alebo predplatiť plnú verziu.";
 "upgrade_faq_security_title" = "Sú moje údaje v bezpečí?";
-"upgrade_faq_security_value" = "Vaše financie sú súkromné ​​– a tak by mali zostať. Preto sú vaše údaje uložené výlučne vo vašom zariadení alebo (voliteľne) vo vašom osobnom iCloude.";
+"upgrade_faq_security_value" = "Vaše financie sú súkromné ​​– a tak by mali zostať. Preto sú vaše údaje uložené výlučne vo vašom zariadení.";
+"upgrade_faq_security_value_icloud_suffix" = " alebo (voliteľne) vo vašom osobnom iCloude.";
 "upgrade_faq_why_subscription_title" = "Prečo je plná verzia ponúkaná ako predplatné?";
-"upgrade_faq_why_subscription_value" = "Naším cieľom je vyvinúť kvalitnú aplikáciu, ktorá vám ako používateľovi pravidelne ponúka nové funkcie a vylepšenia. Na dosiahnutie tohto cieľa však aplikácia potrebuje nepretržité príjmy, aby sa mohla financovať byť ekonomicky udržateľný.\n\nČo mnohí nevedia Vývoj a údržba aplikácie si vyžaduje veľa času. Napríklad v prípade Budget Flow to od nápadu po vývoj trvalo takmer dva roky a niekoľko tisíc hodín práce a testovanie pred vydaním prvej verzie do obchodu App Store.\n\nAko zákazník profitujete najmä z pravidelných aktualizácií a vylepšení prostredníctvom modelu predplatného, ako aj z dobrej podpory, aby ste boli aj naďalej spokojní. máte tiež možnosť vopred si aplikáciu bezplatne vyskúšať, aby ste sa uistili, že bude vyhovovať vašim potrebám. Predplatné môžete kedykoľvek zmeniť alebo zrušiť, ak si to rozmyslíte.\n\nModel predplatného vám celkovo ponúka mnoho výhod ako zákazníka a lepšiu používateľskú skúsenosť prostredníctvom nepretržitých aktualizácií a podpory v porovnaní s jednorazovým nákupom. Z dlhodobého hľadiska by jednorazový nákup, žiaľ, nebol udržateľný, pretože tento obchodný model vyžaduje, aby noví používatelia aplikáciu naďalej kupovali, aby sa zabezpečilo pokračovanie vývoja.\n\nAk sa vám aplikácia páči, budeme veľmi radi ak podporíte našu prácu, aby sme vám v budúcnosti mohli naďalej ponúkať ešte viac skvelých funkcií!❤️";
+"upgrade_faq_why_subscription_value" = "Naším cieľom je vyvinúť kvalitnú aplikáciu, ktorá vám ako používateľovi pravidelne ponúka nové funkcie a vylepšenia. Na dosiahnutie tohto cieľa však aplikácia potrebuje nepretržité príjmy, aby sa mohla financovať byť ekonomicky udržateľný.\n\nČo mnohí nevedia Vývoj a údržba aplikácie si vyžaduje veľa času. Napríklad v prípade Budget Flow to od nápadu po vývoj trvalo takmer dva roky a niekoľko tisíc hodín práce a testovanie pred vydaním prvej verzie.\n\nAko zákazník profitujete najmä z pravidelných aktualizácií a vylepšení prostredníctvom modelu predplatného, ako aj z dobrej podpory, aby ste boli aj naďalej spokojní. máte tiež možnosť vopred si aplikáciu bezplatne vyskúšať, aby ste sa uistili, že bude vyhovovať vašim potrebám. Predplatné môžete kedykoľvek zmeniť alebo zrušiť, ak si to rozmyslíte.\n\nModel predplatného vám celkovo ponúka mnoho výhod ako zákazníka a lepšiu používateľskú skúsenosť prostredníctvom nepretržitých aktualizácií a podpory v porovnaní s jednorazovým nákupom. Z dlhodobého hľadiska by jednorazový nákup, žiaľ, nebol udržateľný, pretože tento obchodný model vyžaduje, aby noví používatelia aplikáciu naďalej kupovali, aby sa zabezpečilo pokračovanie vývoja.\n\nAk sa vám aplikácia páči, budeme veľmi radi ak podporíte našu prácu, aby sme vám v budúcnosti mohli naďalej ponúkať ešte viac skvelých funkcií!❤️";
 "upgrade_faq_multiple_devices_title" = "Môžem použiť plnú verziu na viacerých zariadeniach?";
-"upgrade_faq_multiple_devices_value" = "Áno, plnú verziu Budget Flow môžete používať na všetkých svojich zariadeniach Apple s rovnakým Apple ID. Pretože je aplikácia synchronizovaná cez iCloud, môžete medzi svojimi zariadeniami bez problémov prepínať a mať vždy prístup k svojim finančným údajom a nastavenia.";
+"upgrade_faq_multiple_devices_value" = "Áno, plnú verziu Budget Flow môžete používať na všetkých svojich zariadeniach Apple s rovnakým účtom Apple. Pretože je aplikácia synchronizovaná cez iCloud, môžete medzi svojimi zariadeniami bez problémov prepínať a mať vždy prístup k svojim finančným údajom a nastavenia.";
 "upgrade_faq_multiple_people_title" = "Môžem použiť plnú verziu s viacerými ľuďmi?";
 "upgrade_faq_multiple_people_value" = "Áno, jednorazový nákup, ako aj predplatné plnej verzie môžete zdieľať až s piatimi ľuďmi v rámci rodinnej skupiny. Stačí zapnúť rodinné zdieľanie v systémových nastaveniach a pridať pozvať ostatných ľudí do skupiny.";
 "upgrade_faq_cancel_subscription_title" = "Ako zruším svoje predplatné?";
-"upgrade_faq_cancel_subscription_value" = "Svoje predplatné môžete kedykoľvek zrušiť pomocou svojho Apple ID v Predvoľbách systému.";
+"upgrade_faq_cancel_subscription_value" = "Svoje predplatné môžete kedykoľvek zrušiť pomocou svojho účtu Apple v Predvoľbách systému.";
 "upgrade_faq_subscription_data_loss_title" = "Ak zruším svoje predplatné, stratia sa moje údaje?";
 "upgrade_faq_subscription_data_loss_value" = "Nie. Všetko, čo vytvoríte počas prihlásenia na odber plnej verzie, bude stále dostupné, ak prejdete späť na bezplatnú verziu.";
 "upgrade_faq_refund_title" = "Ako získam vrátenie peňazí?";

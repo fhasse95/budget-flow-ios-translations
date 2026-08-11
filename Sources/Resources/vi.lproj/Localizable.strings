@@ -317,7 +317,6 @@
 "get_started_button" = "Bắt đầu";
 
 "show_transactions_button" = "Hiển thị giao dịch";
-"show_in_app_store_button" = "Mở trong App Store";
 
 "flip_values_button" = "Đảo chiều ⇅";
 
@@ -904,19 +903,6 @@
 "new_features_view_close_button" = "Để sau";
 
 
-/* MARK: - Rate App View */
-/* Titles */
-"purchase_success_view_title" = "Cảm ơn!";
-
-/* Messages */
-"purchase_success_view_info_message" = "Nếu bạn thích ứng dụng này, vui lòng viết đánh giá tích cực trong App Store. Nó thực sự giúp chúng tôi rất nhiều và tạo động lực để không ngừng cải tiến ứng dụng. 😊";
-"purchase_success_view_info_message_info" = "\n\nThông tin: Khi bạn chuyển từ đăng ký sang mua trọn đời, đừng quên hủy đăng ký hiện tại của bạn sau đó.";
-
-/* Buttons */
-"purchase_success_view_rate_app_button" = "Đánh giá";
-"purchase_success_view_close_button" = "Để sau";
-
-
 /* MARK: - Upgrade View */
 /* Titles */
 "upgrade_view_title" = "Tài khoản Premium";
@@ -1026,12 +1012,13 @@
 "alert_upgrade_view_purchase_success_title" = "Đăng ký thành công 🎉";
 "alert_upgrade_view_purchase_success_message" = "Cảm ơn bạn đã đăng ký 😊";
 "alert_upgrade_view_purchase_success_message_info" = "\n\nLưu ý: Nếu bạn muốn chuyển sang bản vĩnh viễn, hãy nhớ huỷ đăng ký trước đó.";
+
 "alert_upgrade_view_purchase_error_message" = "Đăng ký không thành công.";
-"alert_upgrade_view_purchase_error_store_problem_message" = "Đã xảy ra sự cố với App Store.\n\nĐôi khi đăng ký chỉ có thể thành công bằng mật khẩu thay vì Touch ID/Face ID.\n\nVí dụ, nếu bạn đang sử dụng Face ID, chỉ cần che camera trước và thử lại để xem hộp thoại mật khẩu.";
+"alert_upgrade_view_purchase_error_store_problem_message" = "Đã xảy ra sự cố với App Store.";
+"alert_upgrade_view_purchase_error_store_problem_message_info" = "\n\nĐôi khi đăng ký chỉ có thể thành công bằng mật khẩu thay vì Touch ID/Face ID.\n\nVí dụ, nếu bạn đang sử dụng Face ID, chỉ cần che camera trước và thử lại để xem hộp thoại mật khẩu.";
 "alert_upgrade_view_purchase_error_not_allowed_message" = "Đăng ký không được phép trên thiết bị này.";
 "alert_upgrade_view_purchase_error_invalid_message" = "Hãy kiểm tra phương thức thanh toán của bạn và thử lại sau. Nếu lỗi vẫn tiếp diễn, vui lòng liên hệ với chúng tôi.";
 "alert_upgrade_view_purchase_error_network_message" = "Hãy kiểm tra kết nối Internet của bạn và thử lại sau. Nếu lỗi vẫn tiếp diễn, vui lòng liên hệ với chúng tôi.";
-
 "alert_upgrade_view_load_products_error_message" = "Không thể tải các đăng ký. Hãy kiểm tra kết nối Internet của bạn và thử lại sau. Nếu lỗi vẫn tiếp diễn, vui lòng liên hệ với chúng tôi.";
 
 "alert_upgrade_view_restore_success_title" = "Khôi phục đăng ký";
@@ -1057,9 +1044,10 @@
 "upgrade_faq_free_use_title" = "Ứng dụng có bản miễn phí không?";
 "upgrade_faq_free_use_value" = "Có, bạn có thể sử dụng các chức năng cơ bản của ứng dụng, chẳng hạn như tạo giao dịch, hoàn toàn miễn phí.\n\nNgoài ra, ứng dụng còn cung cấp thời gian dùng thử cho phiên bản Premium để bạn có thể dùng thử trước trước khi quyết định mua hoặc đăng ký phiên bản Premium.";
 "upgrade_faq_security_title" = "Dữ liệu của tôi có an toàn không?";
-"upgrade_faq_security_value" = "Tài chính của bạn là riêng tư – và chúng phải được duy trì như vậy. Đó là lý do tại sao dữ liệu của bạn được lưu trữ riêng trên thiết bị của bạn hoặc (tùy chọn) trong iCloud cá nhân của bạn.";
+"upgrade_faq_security_value" = "Tài chính của bạn là riêng tư – và chúng phải được duy trì như vậy. Đó là lý do tại sao dữ liệu của bạn được lưu trữ riêng trên thiết bị của bạn.";
+"upgrade_faq_security_value_icloud_suffix" = " hoặc (tùy chọn) trong iCloud cá nhân của bạn.";
 "upgrade_faq_why_subscription_title" = "Tại sao tôi phải đăng ký để có thể sử dụng phiên bản Premium?";
-"upgrade_faq_why_subscription_value" = "Mục tiêu của chúng tôi là phát triển một ứng dụng chất lượng cung cấp cho bạn các tính năng và cải tiến mới một cách thường xuyên. Tuy nhiên, để đạt được mục tiêu này, ứng dụng cần có doanh thu liên tục để tự cấp vốn và bền vững về mặt kinh tế.\n\nĐiều nhiều người không biết: Việc phát triển và duy trì một ứng dụng mất rất nhiều thời gian. Ví dụ: trong trường hợp của Budget Flow, phải mất gần hai năm và vài nghìn giờ làm việc từ ý tưởng đến phát triển và thử nghiệm trước khi phiên bản đầu tiên có thể được phát hành trên App Store.\n\nLà khách hàng, bạn được hưởng lợi đặc biệt từ các bản cập nhật và cải tiến thường xuyên thông qua mô hình đăng ký, cũng như hỗ trợ tốt để đảm bảo rằng bạn tiếp tục hài lòng. Bạn cũng có cơ hội dùng thử ứng dụng miễn phí trước để đảm bảo ứng dụng phù hợp với nhu cầu của bạn. Bạn có thể thay đổi hoặc hủy đăng ký bất kỳ lúc nào nếu thay đổi ý định.\n\nNhìn chung, mô hình đăng ký mang lại nhiều lợi ích cho bạn trải nghiệm người dùng tốt hơn thông qua cập nhật và hỗ trợ liên tục so với mua hàng một lần. Rất tiếc, về lâu dài, việc mua một lần sẽ không bền vững vì mô hình kinh doanh này yêu cầu người dùng mới phải tiếp tục mua ứng dụng để đảm bảo ứng dụng được tiếp tục phát triển.\n\nVì vậy, nếu bạn thích ứng dụng này, tôi sẽ rất vui nếu bạn ủng hộ ứng dụng để tôi có thể tiếp tục cung cấp cho bạn nhiều tính năng tuyệt vời hơn nữa trong tương lai! ❤️";
+"upgrade_faq_why_subscription_value" = "Mục tiêu của chúng tôi là phát triển một ứng dụng chất lượng cung cấp cho bạn các tính năng và cải tiến mới một cách thường xuyên. Tuy nhiên, để đạt được mục tiêu này, ứng dụng cần có doanh thu liên tục để tự cấp vốn và bền vững về mặt kinh tế.\n\nĐiều nhiều người không biết: Việc phát triển và duy trì một ứng dụng mất rất nhiều thời gian. Ví dụ: trong trường hợp của Budget Flow, phải mất gần hai năm và vài nghìn giờ làm việc từ ý tưởng đến phát triển và thử nghiệm trước khi phiên bản đầu tiên có thể được phát hành.\n\nLà khách hàng, bạn được hưởng lợi đặc biệt từ các bản cập nhật và cải tiến thường xuyên thông qua mô hình đăng ký, cũng như hỗ trợ tốt để đảm bảo rằng bạn tiếp tục hài lòng. Bạn cũng có cơ hội dùng thử ứng dụng miễn phí trước để đảm bảo ứng dụng phù hợp với nhu cầu của bạn. Bạn có thể thay đổi hoặc hủy đăng ký bất kỳ lúc nào nếu thay đổi ý định.\n\nNhìn chung, mô hình đăng ký mang lại nhiều lợi ích cho bạn trải nghiệm người dùng tốt hơn thông qua cập nhật và hỗ trợ liên tục so với mua hàng một lần. Rất tiếc, về lâu dài, việc mua một lần sẽ không bền vững vì mô hình kinh doanh này yêu cầu người dùng mới phải tiếp tục mua ứng dụng để đảm bảo ứng dụng được tiếp tục phát triển.\n\nVì vậy, nếu bạn thích ứng dụng này, tôi sẽ rất vui nếu bạn ủng hộ ứng dụng để tôi có thể tiếp tục cung cấp cho bạn nhiều tính năng tuyệt vời hơn nữa trong tương lai! ❤️";
 "upgrade_faq_multiple_devices_title" = "Tôi có thể dùng phiên bản Premium trên nhiều thiết bị không?";
 "upgrade_faq_multiple_devices_value" = "Có, bạn có thể sử dụng phiên bản Premium của Budget Flow trên tất cả các thiết bị Apple có cùng ID Apple. Vì ứng dụng được đồng bộ hóa qua iCloud nên bạn có thể tương tác giữa các thiết bị của mình và luôn có quyền truy cập vào dữ liệu cũng như cài đặt tài chính của mình.";
 "upgrade_faq_multiple_people_title" = "Tôi có thể sử dụng phiên bản Premium với nhiều người không?";

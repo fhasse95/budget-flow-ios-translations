@@ -317,7 +317,6 @@
 "get_started_button" = "Mulai";
 
 "show_transactions_button" = "Tampilkan Transaksi";
-"show_in_app_store_button" = "Tampilkan di App Store";
 
 "flip_values_button" = "Balik ⇅";
 
@@ -904,19 +903,6 @@
 "new_features_view_close_button" = "Mungkin nanti";
 
 
-/* MARK: - Purchase Success View */
-/* Titles */
-"purchase_success_view_title" = "Terima kasih!";
-
-/* Messages */
-"purchase_success_view_info_message" = "Jika Anda menyukai aplikasi ini, silakan tulis ulasan positif di App Store. Ini sangat membantu dan memotivasi untuk terus meningkatkan aplikasi. 😊";
-"purchase_success_view_info_message_info" = "\n\nInfo: Saat beralih dari langganan ke pembelian selamanya, jangan lupa membatalkan langganan Anda yang masih aktif setelahnya.";
-
-/* Buttons */
-"purchase_success_view_rate_app_button" = "Nilai Aplikasi";
-"purchase_success_view_close_button" = "Mungkin nanti";
-
-
 /* MARK: - Upgrade View */
 /* Titles */
 "upgrade_view_title" = "Versi Lengkap";
@@ -1026,12 +1012,13 @@
 "alert_upgrade_view_purchase_success_title" = "Pembelian Berhasil 🎉";
 "alert_upgrade_view_purchase_success_message" = "Terima kasih atas dukungan Anda! 😊";
 "alert_upgrade_view_purchase_success_message_info" = "\n\nInfo: Jika Anda beralih dari langganan ke pembelian satu kali, jangan lupa membatalkan langganan Anda yang masih aktif setelahnya.";
+
 "alert_upgrade_view_purchase_error_message" = "Pembelian Anda tidak berhasil diselesaikan.";
-"alert_upgrade_view_purchase_error_store_problem_message" = "Ada masalah dengan App Store.\n\nInfo: Terkadang pembelian hanya dapat berfungsi jika Anda mengonfirmasi dengan kata sandi Anda, bukan Touch ID / Face ID.\n\nMisalnya, jika Anda menggunakan Face ID, cukup tutupi kamera depan dan coba lagi untuk melihat dialog kata sandi.";
+"alert_upgrade_view_purchase_error_store_problem_message" = "Ada masalah dengan App Store.";
+"alert_upgrade_view_purchase_error_store_problem_message_info" = "\n\nInfo: Terkadang pembelian hanya dapat berfungsi jika Anda mengonfirmasi dengan kata sandi Anda, bukan Touch ID / Face ID.\n\nMisalnya, jika Anda menggunakan Face ID, cukup tutupi kamera depan dan coba lagi untuk melihat dialog kata sandi.";
 "alert_upgrade_view_purchase_error_not_allowed_message" = "Pembelian tidak diizinkan di perangkat ini.";
 "alert_upgrade_view_purchase_error_invalid_message" = "Periksa metode pembayaran Anda dan coba lagi nanti. Jika kesalahan berlanjut, hubungi dukungan.";
 "alert_upgrade_view_purchase_error_network_message" = "Periksa koneksi internet Anda dan coba lagi nanti. Jika kesalahan berlanjut, hubungi dukungan.";
-
 "alert_upgrade_view_load_products_error_message" = "Produk tidak dapat dimuat. Periksa koneksi internet Anda dan coba lagi nanti. Jika kesalahan berlanjut, hubungi dukungan.";
 
 "alert_upgrade_view_restore_success_title" = "Pembelian Dipulihkan";
@@ -1057,15 +1044,16 @@
 "upgrade_faq_free_use_title" = "Dapatkah aplikasi juga digunakan secara gratis?";
 "upgrade_faq_free_use_value" = "Ya, Anda dapat menggunakan fungsi dasar aplikasi, seperti membuat transaksi, sepenuhnya gratis.\n\nSelain itu, aplikasi menawarkan masa uji coba untuk versi lengkap sehingga Anda dapat mencobanya terlebih dahulu sebelum memutuskan untuk membeli atau berlangganan versi lengkap.";
 "upgrade_faq_security_title" = "Apakah data saya aman?";
-"upgrade_faq_security_value" = "Keuangan Anda bersifat pribadi – dan harus tetap seperti itu. Itulah sebabnya data Anda disimpan secara eksklusif di perangkat Anda atau (opsional) di iCloud pribadi Anda.";
+"upgrade_faq_security_value" = "Keuangan Anda bersifat pribadi – dan harus tetap seperti itu. Itulah sebabnya data Anda disimpan secara eksklusif di perangkat Anda.";
+"upgrade_faq_security_value_icloud_suffix" = " atau (opsional) di iCloud pribadi Anda.";
 "upgrade_faq_why_subscription_title" = "Mengapa versi lengkap utamanya ditawarkan sebagai langganan?";
-"upgrade_faq_why_subscription_value" = "Tujuan saya adalah mengembangkan aplikasi berkualitas tinggi yang menawarkan kepada Anda sebagai pengguna fitur dan peningkatan baru secara rutin. Namun, untuk mencapai tujuan ini, aplikasi memerlukan pendapatan berkelanjutan untuk membayar biaya yang ada dan berkelanjutan secara ekonomi.\n\nApa yang tidak diketahui banyak orang: Mengembangkan dan memelihara aplikasi membutuhkan banyak waktu. Dalam kasus Budget Flow, misalnya, dibutuhkan waktu hampir dua tahun dan beberapa ribu jam kerja dari ide hingga pengembangan dan pengujian sebelum versi pertama dapat dirilis ke App Store.\n\nDengan model langganan, Anda mendapatkan manfaat khususnya dari pembaruan dan peningkatan rutin, serta dukungan yang baik untuk memastikan bahwa Anda terus merasa puas. Anda juga memiliki kesempatan untuk mencoba aplikasi secara gratis terlebih dahulu untuk memastikan bahwa aplikasi sesuai dengan kebutuhan Anda, Anda dapat mengubah atau membatalkan langganan kapan saja jika Anda berubah pikiran.\n\nNamun, karena sebagian pengguna tidak menyukai langganan, tersedia juga opsi pembelian satu kali bayar dengan harga sedikit lebih mahal. Harga pembelian satu kali bayar ini mencerminkan customer lifetime value (CLV) dan kira-kira sekitar 2,5 kali dari harga langganan tahunan. Dengan demikian, semua biaya di masa depan untuk pembaruan dan dukungan sudah tercakup selama masa pakai aplikasi, yang sebaliknya biasanya ditanggung melalui pembayaran berulang dalam bentuk langganan.\n\nSecara keseluruhan, model bisnis ini memberikan kepada Anda sebagai pengguna banyak manfaat dan pengalaman yang lebih baik melalui pembaruan dan dukungan berkelanjutan. Dalam jangka panjang, pembelian satu kali dengan harga murah sayangnya tidak akan berkelanjutan, karena model bisnis ini mengharuskan pengguna baru untuk terus membeli aplikasi guna memastikan pengembangan berkelanjutan.\n\nJadi, jika Anda menyukai aplikasi ini, saya akan sangat senang jika Anda mendukung pekerjaan saya sehingga saya dapat terus menawarkan lebih banyak fitur hebat kepada Anda di masa yang akan datang!❤️";
+"upgrade_faq_why_subscription_value" = "Tujuan saya adalah mengembangkan aplikasi berkualitas tinggi yang menawarkan kepada Anda sebagai pengguna fitur dan peningkatan baru secara rutin. Namun, untuk mencapai tujuan ini, aplikasi memerlukan pendapatan berkelanjutan untuk membayar biaya yang ada dan berkelanjutan secara ekonomi.\n\nApa yang tidak diketahui banyak orang: Mengembangkan dan memelihara aplikasi membutuhkan banyak waktu. Dalam kasus Budget Flow, misalnya, dibutuhkan waktu hampir dua tahun dan beberapa ribu jam kerja dari ide hingga pengembangan dan pengujian sebelum versi pertama dapat dirilis.\n\nDengan model langganan, Anda mendapatkan manfaat khususnya dari pembaruan dan peningkatan rutin, serta dukungan yang baik untuk memastikan bahwa Anda terus merasa puas. Anda juga memiliki kesempatan untuk mencoba aplikasi secara gratis terlebih dahulu untuk memastikan bahwa aplikasi sesuai dengan kebutuhan Anda, Anda dapat mengubah atau membatalkan langganan kapan saja jika Anda berubah pikiran.\n\nNamun, karena sebagian pengguna tidak menyukai langganan, tersedia juga opsi pembelian satu kali bayar dengan harga sedikit lebih mahal. Harga pembelian satu kali bayar ini mencerminkan customer lifetime value (CLV) dan kira-kira sekitar 2,5 kali dari harga langganan tahunan. Dengan demikian, semua biaya di masa depan untuk pembaruan dan dukungan sudah tercakup selama masa pakai aplikasi, yang sebaliknya biasanya ditanggung melalui pembayaran berulang dalam bentuk langganan.\n\nSecara keseluruhan, model bisnis ini memberikan kepada Anda sebagai pengguna banyak manfaat dan pengalaman yang lebih baik melalui pembaruan dan dukungan berkelanjutan. Dalam jangka panjang, pembelian satu kali dengan harga murah sayangnya tidak akan berkelanjutan, karena model bisnis ini mengharuskan pengguna baru untuk terus membeli aplikasi guna memastikan pengembangan berkelanjutan.\n\nJadi, jika Anda menyukai aplikasi ini, saya akan sangat senang jika Anda mendukung pekerjaan saya sehingga saya dapat terus menawarkan lebih banyak fitur hebat kepada Anda di masa yang akan datang!❤️";
 "upgrade_faq_multiple_devices_title" = "Dapatkah saya menggunakan versi lengkap di beberapa perangkat?";
-"upgrade_faq_multiple_devices_value" = "Ya, Anda dapat menggunakan versi lengkap Budget Flow di semua perangkat Apple Anda dengan Apple ID yang sama. Karena aplikasi disinkronkan melalui iCloud, Anda dapat beralih dari satu perangkat ke perangkat lain dengan lancar serta selalu dapat mengakses data keuangan dan pengaturan Anda.";
+"upgrade_faq_multiple_devices_value" = "Ya, Anda dapat menggunakan versi lengkap Budget Flow di semua perangkat Apple Anda dengan Akun Apple yang sama. Karena aplikasi disinkronkan melalui iCloud, Anda dapat beralih dari satu perangkat ke perangkat lain dengan lancar serta selalu dapat mengakses data keuangan dan pengaturan Anda.";
 "upgrade_faq_multiple_people_title" = "Dapatkah saya menggunakan versi lengkap dengan banyak orang?";
 "upgrade_faq_multiple_people_value" = "Ya, Anda dapat berbagi pembelian satu kali serta langganan versi lengkap dengan maksimal lima orang dalam satu grup keluarga. Hal yang harus Anda lakukan adalah mengaktifkan keluarga berbagi di pengaturan sistem dan menambahkan orang lain ke grup.";
 "upgrade_faq_cancel_subscription_title" = "Bagaimana cara membatalkan langganan saya?";
-"upgrade_faq_cancel_subscription_value" = "Anda dapat membatalkan langganan kapan saja menggunakan Apple ID Anda di Preferensi Sistem.";
+"upgrade_faq_cancel_subscription_value" = "Anda dapat membatalkan langganan kapan saja menggunakan Akun Apple Anda di Preferensi Sistem.";
 "upgrade_faq_subscription_data_loss_title" = "Apakah data saya akan hilang jika saya membatalkan langganan?";
 "upgrade_faq_subscription_data_loss_value" = "Tidak. Apa pun yang Anda buat saat berlangganan versi lengkap akan tetap tersedia jika Anda beralih kembali ke versi gratis.";
 "upgrade_faq_refund_title" = "Bagaimana cara mendapatkan pengembalian dana saya?";

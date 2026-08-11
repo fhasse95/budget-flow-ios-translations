@@ -317,7 +317,6 @@
 "get_started_button" = "Započni";
 
 "show_transactions_button" = "Prikaži transakcije";
-"show_in_app_store_button" = "Prikaži u App Store";
 
 "flip_values_button" = "Zamijeni ⇅";
 
@@ -904,19 +903,6 @@
 "new_features_view_close_button" = "Maybe later";
 
 
-/* MARK: - Rate App View */
-/* Titles */
-"purchase_success_view_title" = "Hvala!";
-
-/* Messages */
-"purchase_success_view_info_message" = "Ako vam se sviđa aplikacija, molimo vas da napišete pozitivnu recenziju u App Store. Stvarno puno pomaže i motivira nas da stalno poboljšavamo aplikaciju. 😊";
-"purchase_success_view_info_message_info" = "\n\nInfo: Kada pređeš s pretplate na doživotnu kupovinu, nemoj zaboraviti otkazati svoju postojeću pretplatu nakon toga.";
-
-/* Buttons */
-"purchase_success_view_rate_app_button" = "Ocijenite aplikaciju";
-"purchase_success_view_close_button" = "Možda kasnije";
-
-
 /* MARK: - Upgrade View */
 /* Titles */
 "upgrade_view_title" = "Puna verzija";
@@ -1026,12 +1012,13 @@
 "alert_upgrade_view_purchase_success_title" = "Kupnja uspješna 🎉";
 "alert_upgrade_view_purchase_success_message" = "Hvala vam na podršci! 😊";
 "alert_upgrade_view_purchase_success_message_info" = "\n\nInformacije: Ako prijeđete s pretplate na jednokratnu kupnju, ne zaboravite nakon toga otkazati prethodnu pretplatu.";
+
 "alert_upgrade_view_purchase_error_message" = "Vaša kupnja nije mogla biti uspješno dovršena.";
-"alert_upgrade_view_purchase_error_store_problem_message" = "Došlo je do problema s App Store.\n\nInformacije: Ponekad kupnja može funkcionirati samo ako potvrdite svojom lozinkom umjesto Touch ID / Face ID.\n\nNa primjer, ako koristiš Face ID, samo pokrij prednju kameru i pokušaj ponovno da vidiš dijalog za unos lozinke.";
+"alert_upgrade_view_purchase_error_store_problem_message" = "Došlo je do problema s App Store.";
+"alert_upgrade_view_purchase_error_store_problem_message_info" = "\n\nInformacije: Ponekad kupnja može funkcionirati samo ako potvrdite svojom lozinkom umjesto Touch ID / Face ID.\n\nNa primjer, ako koristiš Face ID, samo pokrij prednju kameru i pokušaj ponovno da vidiš dijalog za unos lozinke.";
 "alert_upgrade_view_purchase_error_not_allowed_message" = "Kupnje nisu dopuštene na ovom uređaju.";
 "alert_upgrade_view_purchase_error_invalid_message" = "Provjerite način plaćanja i pokušajte ponovno kasnije. Ako se pogreška nastavi pojavljivati, kontaktirajte podršku.";
 "alert_upgrade_view_purchase_error_network_message" = "Provjerite svoju internetsku vezu i pokušajte ponovno kasnije. Ako se pogreška nastavi, kontaktirajte podršku.";
-
 "alert_upgrade_view_load_products_error_message" = "Proizvodi se ne mogu učitati. Provjerite svoju internetsku vezu i pokušajte ponovno kasnije. Ako se pogreška nastavi, kontaktirajte podršku.";
 
 "alert_upgrade_view_restore_success_title" = "Kupnje vraćene";
@@ -1057,15 +1044,16 @@
 "upgrade_faq_free_use_title" = "Može li se aplikacija koristiti besplatno?";
 "upgrade_faq_free_use_value" = "Da, možete koristiti osnovne funkcije aplikacije, kao što je stvaranje transakcija, potpuno besplatno.\n\nOsim toga, aplikacija nudi probno razdoblje za punu verziju tako da je možete isprobati unaprijed prije nego što odlučite kupiti ili se pretplatiti na punu verziju.";
 "upgrade_faq_security_title" = "Jesu li moji podaci sigurni?";
-"upgrade_faq_security_value" = "Vaše su financije privatne – i trebale bi takve i ostati. Zato se vaši podaci pohranjuju isključivo na vašem uređaju ili (po izboru) u vašem osobnom iCloudu.";
+"upgrade_faq_security_value" = "Vaše su financije privatne – i trebale bi takve i ostati. Zato se vaši podaci pohranjuju isključivo na vašem uređaju.";
+"upgrade_faq_security_value_icloud_suffix" = " ili (po izboru) u vašem osobnom iCloudu.";
 "upgrade_faq_why_subscription_title" = "Zašto se puna verzija nudi kao pretplata?";
-"upgrade_faq_why_subscription_value" = "Naš cilj je razviti visokokvalitetnu aplikaciju koja vam kao korisniku redovito nudi nove značajke i poboljšanja. Međutim, kako bi se postigao ovaj cilj, aplikaciji su potrebni stalni prihodi kako bi se financirao kontinuirani razvoj.\n\nOno što mnogi ne znaju jeste da razvoj i održavanje aplikacija zahtijeva puno vremena. U slučaju Budget Flow, na primjer, od ideje do razvoja bile su potrebne gotovo dvije godine i nekoliko tisuća sati rada i testiranje prije nego što se prva verzija mogla objaviti u App Store.\n\nKao kupac, posebno imate koristi od redovitih ažuriranja i poboljšanja putem modela pretplate, kao i dobre podrške kako biste bili sigurni da ćete i dalje biti zadovoljni. Također imate priliku isprobati aplikaciju besplatno unaprijed kako biste bili sigurni da odgovara vašim potrebama. Možete promijeniti ili otkazati pretplatu u bilo kojem trenutku ako se predomislite.\n\nSve u svemu, model pretplate nudi mnoge pogodnosti za vas kao kupca i bolje korisničko iskustvo kroz stalna ažuriranja i podršku u usporedbi s jednokratnom kupnjom. Dugoročno gledano, jednokratna kupnja nažalost ne bi bila održiva jer ovaj poslovni model zahtijeva da novi korisnici nastave kupovati aplikaciju kako bi se osigurao nastavak razvoja.\n\nDakle, ako vam se aplikacija sviđa, bili bi mnogo zahvalni kada biste podržavali naš rad, jer bi vam mogli nastaviti nuditi još sjajnijih značajki u budućnosti!❤️";
+"upgrade_faq_why_subscription_value" = "Naš cilj je razviti visokokvalitetnu aplikaciju koja vam kao korisniku redovito nudi nove značajke i poboljšanja. Međutim, kako bi se postigao ovaj cilj, aplikaciji su potrebni stalni prihodi kako bi se financirao kontinuirani razvoj.\n\nOno što mnogi ne znaju jeste da razvoj i održavanje aplikacija zahtijeva puno vremena. U slučaju Budget Flow, na primjer, od ideje do razvoja bile su potrebne gotovo dvije godine i nekoliko tisuća sati rada i testiranje prije nego što se prva verzija mogla objaviti.\n\nKao kupac, posebno imate koristi od redovitih ažuriranja i poboljšanja putem modela pretplate, kao i dobre podrške kako biste bili sigurni da ćete i dalje biti zadovoljni. Također imate priliku isprobati aplikaciju besplatno unaprijed kako biste bili sigurni da odgovara vašim potrebama. Možete promijeniti ili otkazati pretplatu u bilo kojem trenutku ako se predomislite.\n\nSve u svemu, model pretplate nudi mnoge pogodnosti za vas kao kupca i bolje korisničko iskustvo kroz stalna ažuriranja i podršku u usporedbi s jednokratnom kupnjom. Dugoročno gledano, jednokratna kupnja nažalost ne bi bila održiva jer ovaj poslovni model zahtijeva da novi korisnici nastave kupovati aplikaciju kako bi se osigurao nastavak razvoja.\n\nDakle, ako vam se aplikacija sviđa, bili bi mnogo zahvalni kada biste podržavali naš rad, jer bi vam mogli nastaviti nuditi još sjajnijih značajki u budućnosti!❤️";
 "upgrade_faq_multiple_devices_title" = "Mogu li koristiti punu verziju na više uređaja?";
-"upgrade_faq_multiple_devices_value" = "Da, možete koristiti punu verziju Budget Flow-a na svim svojim Apple uređajima s istim Apple ID-om. Budući da je aplikacija sinkronizirana putem iClouda, možete se neprimjetno prebacivati ​​između svojih uređaja i uvijek imati pristup svojim financijskim podacima i postavke.";
+"upgrade_faq_multiple_devices_value" = "Da, možete koristiti punu verziju Budget Flow-a na svim svojim Apple uređajima s istim Apple računom. Budući da je aplikacija sinkronizirana putem iClouda, možete se neprimjetno prebacivati ​​između svojih uređaja i uvijek imati pristup svojim financijskim podacima i postavke.";
 "upgrade_faq_multiple_people_title" = "Mogu li koristiti punu verziju s više osoba?";
 "upgrade_faq_multiple_people_value" = "Da, možete podijeliti jednokratnu kupnju kao i pretplatu na punu verziju s do pet osoba unutar obiteljske grupe. Sve što trebate učiniti je uključiti obiteljsko dijeljenje u postavkama sustava i dodati druge osobe u grupi pozivaju.";
 "upgrade_faq_cancel_subscription_title" = "Kako mogu otkazati svoju pretplatu?";
-"upgrade_faq_cancel_subscription_value" = "Možete otkazati svoju pretplatu u bilo kojem trenutku koristeći svoj Apple ID u postavkama sustava.";
+"upgrade_faq_cancel_subscription_value" = "Možete otkazati svoju pretplatu u bilo kojem trenutku koristeći svoj Apple račun u postavkama sustava.";
 "upgrade_faq_subscription_data_loss_title" = "Hoće li moji podaci biti izgubljeni ako otkažem svoju pretplatu?";
 "upgrade_faq_subscription_data_loss_value" = "Ne. Sve što stvorite tijekom pretplate na punu verziju i dalje će biti dostupno ako se vratite na besplatnu verziju.";
 "upgrade_faq_refund_title" = "Kako mogu dobiti povrat novca?";

@@ -602,32 +602,6 @@
 
 "contact_developer_mail_subject" = "%@: %@%@";
 "contact_developer_mail_subject_full_version" = " (Vollversion)";
-"contact_developer_mail_message" = "
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-<b>Support-Informationen:</b>
-</br>
-<u>Allgemein:</u></br>
-- Gerät: %@</br>
-- iOS-Version: %@</br>
-- Sprache: %@</br>
-- Währung: %@</br>
-- Zeitzone: %@</br>
-</br>
-<u>App-Spezifisch:</u></br>
-- App-Version: %@</br>
-- Build: %@</br>
-</br>
-<u>In-App-Käufe:</u></br>
-- Nutzer-ID: %@</br>
-- Aktiv: %@</br>
-- Käufe: %@";
-"contact_developer_mail_no_purchases" = "Keine";
 
 /* MARK: - Appearance Settings View */
 /* Info */

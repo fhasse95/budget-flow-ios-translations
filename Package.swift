@@ -2,7 +2,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "budget-flow-translations",
+    name: "BudgetFlowTranslations",
     defaultLocalization: "en",
     platforms: [.iOS(.v16), .macCatalyst(.v16), .macOS(.v13), .watchOS(.v9)],
     products: [

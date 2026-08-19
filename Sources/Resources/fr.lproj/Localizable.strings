@@ -334,7 +334,7 @@
 "alert_cloud_share_unknown_error_message" = "Impossible de terminer le partage car une erreur s'est produite. Il n'y a probablement pas assez d'espace disponible sur votre iCloud. Veuillez libérer de l'espace et réessayer.";
 
 
-/* MARK: - Search View */
+/* MARK: - Transaction Search View */
 /* Titles */
 "search_title" = "Rechercher";
 "filter_title" = "Filtrer";
@@ -342,6 +342,30 @@
 /* Sections */
 "search_text_section_title" = "Search Text";
 "search_suggestions_section_title" = "Suggestions";
+
+
+/* MARK: - Transaction Filter */
+/* Sections */
+"transaction_filter_general_section_title" = "Général";
+"transaction_filter_assignment_section_title" = "Affectation";
+
+/* Items */
+"transaction_filter_type_title" = "Type";
+"transaction_filter_amount_title" = "Montant";
+"transaction_filter_date_title" = "Date";
+"transaction_filter_status_title" = "Statut";
+
+"transaction_filter_accounts_title" = "Comptes";
+"transaction_filter_categories_title" = "Catégories";
+"transaction_filter_payees_title" = "Bénéficiaires";
+"transaction_filter_tags_title" = "Tags";
+"transaction_filter_people_title" = "Personnes";
+
+"transaction_filter_all_title" = "Tout";
+"transaction_filter_any_title" = "Quelconque";
+
+/* Formats */
+"transaction_filter_range_format" = "%@ à %@";
 
 
 /* MARK: - Period Selection View */
@@ -413,17 +437,6 @@
 /* Info */
 "recurring_transactions_info_title" = "Description";
 "recurring_transactions_info_description" = "Créez des transactions récurrentes pour qu'elles soient automatiquement ajoutées à l'app à leur échéance.";
-
-/* Sections */
-"account_filter_section_title" = "Compte";
-"category_filter_section_title" = "Catégorie";
-"payee_filter_section_title" = "Bénéficiaire";
-"tag_filter_section_title" = "Tag";
-"user_filter_section_title" = "Personne";
-"payment_status_filter_section_title" = "Paiement";
-"transaction_type_filter_section_title" = "Type";
-"date_range_filter_section_title" = "Date";
-"amount_range_filter_section_title" = "Montant";
 
 /* Messages */
 "no_transactions_title" = "Aucune transaction";

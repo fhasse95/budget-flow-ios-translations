@@ -334,7 +334,7 @@
 "alert_cloud_share_unknown_error_message" = "Kunde inte slutföra delning eftersom ett fel uppstod. Det finns förmodligen inte tillräckligt med utrymme tillgängligt i din iCloud. Frigör lite utrymme och försök igen.";
 
 
-/* MARK: - Search View */
+/* MARK: - Transaction Search View */
 /* Titles */
 "search_title" = "Sök";
 "filter_title" = "Filter";
@@ -342,6 +342,30 @@
 /* Sections */
 "search_text_section_title" = "Sök text";
 "search_suggestions_section_title" = "Förslag";
+
+
+/* MARK: - Transaction Filter */
+/* Sections */
+"transaction_filter_general_section_title" = "Allmänt";
+"transaction_filter_assignment_section_title" = "Tilldelning";
+
+/* Items */
+"transaction_filter_type_title" = "Typ";
+"transaction_filter_amount_title" = "Belopp";
+"transaction_filter_date_title" = "Datum";
+"transaction_filter_status_title" = "Status";
+
+"transaction_filter_accounts_title" = "Konton";
+"transaction_filter_categories_title" = "Kategorier";
+"transaction_filter_payees_title" = "Mottagare";
+"transaction_filter_tags_title" = "Taggar";
+"transaction_filter_people_title" = "Personer";
+
+"transaction_filter_all_title" = "Alla";
+"transaction_filter_any_title" = "Valfritt";
+
+/* Formats */
+"transaction_filter_range_format" = "%@ till %@";
 
 
 /* MARK: - Period Selection View */
@@ -413,17 +437,6 @@
 /* Info */
 "recurring_transactions_info_title" = "Beskrivning";
 "recurring_transactions_info_description" = "Skapa återkommande transaktioner så att de automatiskt läggs till i appen när de förfaller.";
-
-/* Sections */
-"account_filter_section_title" = "Konto";
-"category_filter_section_title" = "Kategori";
-"payee_filter_section_title" = "Betalningstagare";
-"tag_filter_section_title" = "Tagg";
-"user_filter_section_title" = "Oseba";
-"payment_status_filter_section_title" = "Betalning";
-"transaction_type_filter_section_title" = "Typ";
-"date_range_filter_section_title" = "Datum";
-"amount_range_filter_section_title" = "Belopp";
 
 /* Messages */
 "no_transactions_title" = "Inga transaktioner";

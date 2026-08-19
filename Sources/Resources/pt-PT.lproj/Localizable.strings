@@ -334,7 +334,7 @@
 "alert_cloud_share_unknown_error_message" = "Não foi possível concluir a partilha porque ocorreu um erro. Provavelmente não há espaço suficiente disponível no teu iCloud. Liberta espaço e tenta novamente.";
 
 
-/* MARK: - Search View */
+/* MARK: - Transaction Search View */
 /* Titles */
 "search_title" = "Pesquisar";
 "filter_title" = "Filtro";
@@ -342,6 +342,30 @@
 /* Sections */
 "search_text_section_title" = "Pesquisar texto";
 "search_suggestions_section_title" = "Sugestões";
+
+
+/* MARK: - Transaction Filter */
+/* Sections */
+"transaction_filter_general_section_title" = "Geral";
+"transaction_filter_assignment_section_title" = "Atribuição";
+
+/* Items */
+"transaction_filter_type_title" = "Tipo";
+"transaction_filter_amount_title" = "Valor";
+"transaction_filter_date_title" = "Data";
+"transaction_filter_status_title" = "Estado";
+
+"transaction_filter_accounts_title" = "Contas";
+"transaction_filter_categories_title" = "Categorias";
+"transaction_filter_payees_title" = "Beneficiários";
+"transaction_filter_tags_title" = "Tags";
+"transaction_filter_people_title" = "Pessoas";
+
+"transaction_filter_all_title" = "Todos";
+"transaction_filter_any_title" = "Qualquer";
+
+/* Formats */
+"transaction_filter_range_format" = "%@ a %@";
 
 
 /* MARK: - Period Selection View */
@@ -413,17 +437,6 @@
 /* Info */
 "recurring_transactions_info_title" = "Descrição";
 "recurring_transactions_info_description" = "Cria transações recorrentes para que sejam automaticamente adicionadas à aplicação quando vencerem.";
-
-/* Sections */
-"account_filter_section_title" = "Conta";
-"category_filter_section_title" = "Categoria";
-"payee_filter_section_title" = "Beneficiário";
-"tag_filter_section_title" = "Etiqueta";
-"user_filter_section_title" = "Pessoa";
-"payment_status_filter_section_title" = "Pagamento";
-"transaction_type_filter_section_title" = "Tipo";
-"date_range_filter_section_title" = "Período";
-"amount_range_filter_section_title" = "Valor";
 
 /* Messages */
 "no_transactions_title" = "Sem transações";

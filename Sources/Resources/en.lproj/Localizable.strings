@@ -334,7 +334,7 @@
 "alert_cloud_share_unknown_error_message" = "Could not complete sharing because an error occurred. There is probably not enough space available in your iCloud. Please free up some space and try again.";
 
 
-/* MARK: - Search View */
+/* MARK: - Transaction Search View */
 /* Titles */
 "search_title" = "Search";
 "filter_title" = "Filter";
@@ -343,6 +343,29 @@
 "search_text_section_title" = "Search Text";
 "search_suggestions_section_title" = "Suggestions";
 
+
+/* MARK: - Transaction Filter */
+/* Sections */
+"transaction_filter_general_section_title" = "General";
+"transaction_filter_assignment_section_title" = "Assignment";
+
+/* Items */
+"transaction_filter_type_title" = "Type";
+"transaction_filter_amount_title" = "Amount";
+"transaction_filter_date_title" = "Date";
+"transaction_filter_status_title" = "Status";
+
+"transaction_filter_accounts_title" = "Accounts";
+"transaction_filter_categories_title" = "Categories";
+"transaction_filter_payees_title" = "Payees";
+"transaction_filter_tags_title" = "Tags";
+"transaction_filter_people_title" = "People";
+
+"transaction_filter_all_title" = "All";
+"transaction_filter_any_title" = "Any";
+
+/* Formats */
+"transaction_filter_range_format" = "%@ to %@";
 
 /* MARK: - Period Selection View */
 /* Titles */
@@ -413,17 +436,6 @@
 /* Info */
 "recurring_transactions_info_title" = "Description";
 "recurring_transactions_info_description" = "Create recurring transactions to have them automatically added to the app when they come due.";
-
-/* Sections */
-"account_filter_section_title" = "Account";
-"category_filter_section_title" = "Category";
-"payee_filter_section_title" = "Payee";
-"tag_filter_section_title" = "Tag";
-"user_filter_section_title" = "Person";
-"payment_status_filter_section_title" = "Payment";
-"transaction_type_filter_section_title" = "Type";
-"date_range_filter_section_title" = "Date";
-"amount_range_filter_section_title" = "Amount";
 
 /* Messages */
 "no_transactions_title" = "No transactions";

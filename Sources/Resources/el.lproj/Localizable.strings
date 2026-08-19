@@ -334,7 +334,7 @@
 "alert_cloud_share_unknown_error_message" = "Δεν ήταν δυνατή η ολοκλήρωση της κοινής χρήσης επειδή παρουσιάστηκε σφάλμα. Πιθανότατα δεν υπάρχει αρκετός διαθέσιμος χώρος στο iCloud σας. Απελευθερώστε λίγο χώρο και δοκιμάστε ξανά.";
 
 
-/* MARK: - Search View */
+/* MARK: - Transaction Search View */
 /* Titles */
 "search_title" = "Αναζήτηση";
 "filter_title" = "Φίλτρο";
@@ -342,6 +342,30 @@
 /* Sections */
 "search_text_section_title" = "Αναζήτηση κειμένου";
 "search_suggestions_section_title" = "Προτάσεις";
+
+
+/* MARK: - Transaction Filter */
+/* Sections */
+"transaction_filter_general_section_title" = "Γενικά";
+"transaction_filter_assignment_section_title" = "Ανάθεση";
+
+/* Items */
+"transaction_filter_type_title" = "Τύπος";
+"transaction_filter_amount_title" = "Ποσό";
+"transaction_filter_date_title" = "Ημερομηνία";
+"transaction_filter_status_title" = "Κατάσταση";
+
+"transaction_filter_accounts_title" = "Λογαριασμοί";
+"transaction_filter_categories_title" = "Κατηγορίες";
+"transaction_filter_payees_title" = "Δικαιούχοι";
+"transaction_filter_tags_title" = "Ετικέτες";
+"transaction_filter_people_title" = "Άτομα";
+
+"transaction_filter_all_title" = "Όλα";
+"transaction_filter_any_title" = "Οποιοδήποτε";
+
+/* Formats */
+"transaction_filter_range_format" = "%@ έως %@";
 
 
 /* MARK: - Period Selection View */
@@ -413,17 +437,6 @@
 /* Info */
 "recurring_transactions_info_title" = "Περιγραφή";
 "recurring_transactions_info_description" = "Δημιουργήστε επαναλαμβανόμενες συναλλαγές για να προστεθούν αυτόματα στην εφαρμογή όταν λήξουν.";
-
-/* Sections */
-"account_filter_section_title" = "Λογαριασμός";
-"category_filter_section_title" = "Κατηγορία";
-"payee_filter_section_title" = "Δικαιούχος";
-"tag_filter_section_title" = "Ετικέτα";
-"user_filter_section_title" = "Άτομο";
-"payment_status_filter_section_title" = "Πληρωμή";
-"transaction_type_filter_section_title" = "Τύπος";
-"date_range_filter_section_title" = "Ημερομηνία";
-"amount_range_filter_section_title" = "Ποσό";
 
 /* Messages */
 "no_transactions_title" = "Δεν υπάρχουν συναλλαγές";

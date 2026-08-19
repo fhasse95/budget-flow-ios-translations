@@ -334,7 +334,7 @@
 "alert_cloud_share_unknown_error_message" = "Bir hata oluştuğu için paylaşım tamamlanamadı. Büyük ihtimalle iCloud'unuzda yeterli alan yok. Lütfen biraz yer açın ve yeniden deneyin.";
 
 
-/* MARK: - Search View */
+/* MARK: - Transaction Search View */
 /* Titles */
 "search_title" = "Ara";
 "filter_title" = "Filtre";
@@ -342,6 +342,30 @@
 /* Sections */
 "search_text_section_title" = "Arama Metni";
 "search_suggestions_section_title" = "Öneriler";
+
+
+/* MARK: - Transaction Filter */
+/* Sections */
+"transaction_filter_general_section_title" = "Genel";
+"transaction_filter_assignment_section_title" = "Atama";
+
+/* Items */
+"transaction_filter_type_title" = "Tür";
+"transaction_filter_amount_title" = "Tutar";
+"transaction_filter_date_title" = "Tarih";
+"transaction_filter_status_title" = "Durum";
+
+"transaction_filter_accounts_title" = "Hesaplar";
+"transaction_filter_categories_title" = "Kategoriler";
+"transaction_filter_payees_title" = "Alıcılar";
+"transaction_filter_tags_title" = "Etiketler";
+"transaction_filter_people_title" = "Kişiler";
+
+"transaction_filter_all_title" = "Tümü";
+"transaction_filter_any_title" = "Herhangi biri";
+
+/* Formats */
+"transaction_filter_range_format" = "%@ - %@";
 
 
 /* MARK: - Period Selection View */
@@ -413,17 +437,6 @@
 /* Info */
 "recurring_transactions_info_title" = "Açıklama";
 "recurring_transactions_info_description" = "Vadesi geldiğinde uygulamaya otomatik olarak eklenmesini sağlamak için yinelenen işlemler oluşturun.";
-
-/* Sections */
-"account_filter_section_title" = "Hesap";
-"category_filter_section_title" = "Kategori";
-"payee_filter_section_title" = "Alacaklı";
-"tag_filter_section_title" = "Etiket";
-"user_filter_section_title" = "Kişi";
-"payment_status_filter_section_title" = "Ödeme";
-"transaction_type_filter_section_title" = "Tür";
-"date_range_filter_section_title" = "Tarih";
-"amount_range_filter_section_title" = "Miktar";
 
 /* Messages */
 "no_transactions_title" = "İşlem Yok";

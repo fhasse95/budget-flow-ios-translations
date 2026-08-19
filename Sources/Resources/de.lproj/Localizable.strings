@@ -334,7 +334,7 @@
 "alert_cloud_share_unknown_error_message" = "Die Freigabe konnte nicht abgeschlossen werden, weil ein Fehler aufgetreten ist. Wahrscheinlich ist nicht genügend Speicherplatz in deiner iCloud verfügbar. Bitte gib etwas Speicherplatz frei und versuche es erneut.";
 
 
-/* MARK: - Search View */
+/* MARK: - Transaction Search View */
 /* Titles */
 "search_title" = "Suchen";
 "filter_title" = "Filter";
@@ -342,6 +342,30 @@
 /* Sections */
 "search_text_section_title" = "Suchtext";
 "search_suggestions_section_title" = "Vorschläge";
+
+
+/* MARK: - Transaction Filter */
+/* Sections */
+"transaction_filter_general_section_title" = "Allgemein";
+"transaction_filter_assignment_section_title" = "Zuweisung";
+
+/* Items */
+"transaction_filter_type_title" = "Typ";
+"transaction_filter_amount_title" = "Betrag";
+"transaction_filter_date_title" = "Datum";
+"transaction_filter_status_title" = "Status";
+
+"transaction_filter_accounts_title" = "Konten";
+"transaction_filter_categories_title" = "Kategorien";
+"transaction_filter_payees_title" = "Empfänger";
+"transaction_filter_tags_title" = "Tags";
+"transaction_filter_people_title" = "Personen";
+
+"transaction_filter_all_title" = "Alle";
+"transaction_filter_any_title" = "Beliebig";
+
+/* Formats */
+"transaction_filter_range_format" = "%@ bis %@";
 
 
 /* MARK: - Period Selection View */
@@ -413,17 +437,6 @@
 /* Info */
 "recurring_transactions_info_title" = "Beschreibung";
 "recurring_transactions_info_description" = "Erstelle wiederkehrende Transaktionen, um sie automatisch von der App hinzufügen zu lassen.";
-
-/* Sections */
-"account_filter_section_title" = "Konto";
-"category_filter_section_title" = "Kategorie";
-"payee_filter_section_title" = "Empfänger";
-"tag_filter_section_title" = "Tag";
-"user_filter_section_title" = "Person";
-"payment_status_filter_section_title" = "Zahlung";
-"transaction_type_filter_section_title" = "Typ";
-"date_range_filter_section_title" = "Datum";
-"amount_range_filter_section_title" = "Betrag";
 
 /* Messages */
 "no_transactions_title" = "Keine Transaktionen";

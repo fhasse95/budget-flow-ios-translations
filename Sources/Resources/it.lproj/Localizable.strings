@@ -334,7 +334,7 @@
 "alert_cloud_share_unknown_error_message" = "Impossibile completare la condivisione perché si è verificato un errore. Probabilmente non c'è abbastanza spazio disponibile in iCloud. Libera spazio e riprova.";
 
 
-/* MARK: - Search View */
+/* MARK: - Transaction Search View */
 /* Titles */
 "search_title" = "Cerca";
 "filter_title" = "Filtra";
@@ -342,6 +342,30 @@
 /* Sections */
 "search_text_section_title" = "Cerca testo";
 "search_suggestions_section_title" = "Suggerimenti";
+
+
+/* MARK: - Transaction Filter */
+/* Sections */
+"transaction_filter_general_section_title" = "Generale";
+"transaction_filter_assignment_section_title" = "Assegnazione";
+
+/* Items */
+"transaction_filter_type_title" = "Tipo";
+"transaction_filter_amount_title" = "Importo";
+"transaction_filter_date_title" = "Data";
+"transaction_filter_status_title" = "Stato";
+
+"transaction_filter_accounts_title" = "Conti";
+"transaction_filter_categories_title" = "Categorie";
+"transaction_filter_payees_title" = "Beneficiari";
+"transaction_filter_tags_title" = "Tag";
+"transaction_filter_people_title" = "Persone";
+
+"transaction_filter_all_title" = "Tutti";
+"transaction_filter_any_title" = "Qualsiasi";
+
+/* Formats */
+"transaction_filter_range_format" = "%@ a %@";
 
 
 /* MARK: - Period Selection View */
@@ -413,17 +437,6 @@
 /* Info */
 "recurring_transactions_info_title" = "Descrizione";
 "recurring_transactions_info_description" = "Crea transazioni ricorrenti da aggiungere automaticamente all'app alla loro scadenza.";
-
-/* Sections */
-"account_filter_section_title" = "Conto";
-"category_filter_section_title" = "Categoria";
-"payee_filter_section_title" = "Beneficiario";
-"tag_filter_section_title" = "Tag";
-"user_filter_section_title" = "Partecipante";
-"payment_status_filter_section_title" = "Stato di pagamento";
-"transaction_type_filter_section_title" = "Tipo di transazione";
-"date_range_filter_section_title" = "Data";
-"amount_range_filter_section_title" = "Importo";
 
 /* Messages */
 "no_transactions_title" = "Nessuna transazione";

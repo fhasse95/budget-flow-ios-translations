@@ -334,7 +334,7 @@
 "alert_cloud_share_unknown_error_message" = "Tidak dapat menyelesaikan berbagi karena terjadi kesalahan. Mungkin ruang iCloud Anda tidak mencukupi. Mohon kosongkan sebagian ruang lalu coba lagi.";
 
 
-/* MARK: - Search View */
+/* MARK: - Transaction Search View */
 /* Titles */
 "search_title" = "Pencarian";
 "filter_title" = "Filter";
@@ -342,6 +342,30 @@
 /* Sections */
 "search_text_section_title" = "Teks Pencarian";
 "search_suggestions_section_title" = "Saran";
+
+
+/* MARK: - Transaction Filter */
+/* Sections */
+"transaction_filter_general_section_title" = "Umum";
+"transaction_filter_assignment_section_title" = "Penugasan";
+
+/* Items */
+"transaction_filter_type_title" = "Jenis";
+"transaction_filter_amount_title" = "Jumlah";
+"transaction_filter_date_title" = "Tanggal";
+"transaction_filter_status_title" = "Status";
+
+"transaction_filter_accounts_title" = "Akun";
+"transaction_filter_categories_title" = "Kategori";
+"transaction_filter_payees_title" = "Penerima";
+"transaction_filter_tags_title" = "Tag";
+"transaction_filter_people_title" = "Orang";
+
+"transaction_filter_all_title" = "Semua";
+"transaction_filter_any_title" = "Apa saja";
+
+/* Formats */
+"transaction_filter_range_format" = "%@ hingga %@";
 
 
 /* MARK: - Period Selection View */
@@ -413,17 +437,6 @@
 /* Info */
 "recurring_transactions_info_title" = "Deskripsi";
 "recurring_transactions_info_description" = "Buat transaksi berulang agar ditambahkan secara otomatis ke aplikasi saat jatuh tempo.";
-
-/* Sections */
-"account_filter_section_title" = "Akun";
-"category_filter_section_title" = "Kategori";
-"payee_filter_section_title" = "Penerima";
-"tag_filter_section_title" = "Tag";
-"user_filter_section_title" = "Orang";
-"payment_status_filter_section_title" = "Pembayaran";
-"transaction_type_filter_section_title" = "Jenis";
-"date_range_filter_section_title" = "Tanggal";
-"amount_range_filter_section_title" = "Jumlah";
 
 /* Messages */
 "no_transactions_title" = "Tidak ada transaksi";

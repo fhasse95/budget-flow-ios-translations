@@ -334,7 +334,7 @@
 "alert_cloud_share_unknown_error_message" = "Không thể hoàn tất chia sẻ do đã xảy ra lỗi. Có thể không có đủ dung lượng trong iCloud của bạn. Vui lòng giải phóng dung lượng và thử lại.";
 
 
-/* MARK: - Search View */
+/* MARK: - Transaction Search View */
 /* Titles */
 "search_title" = "Tìm kiếm";
 "filter_title" = "Bộ lọc";
@@ -342,6 +342,30 @@
 /* Sections */
 "search_text_section_title" = "Văn bản tìm kiếm";
 "search_suggestions_section_title" = "Gợi ý";
+
+
+/* MARK: - Transaction Filter */
+/* Sections */
+"transaction_filter_general_section_title" = "Chung";
+"transaction_filter_assignment_section_title" = "Gán";
+
+/* Items */
+"transaction_filter_type_title" = "Loại";
+"transaction_filter_amount_title" = "Số tiền";
+"transaction_filter_date_title" = "Ngày";
+"transaction_filter_status_title" = "Trạng thái";
+
+"transaction_filter_accounts_title" = "Tài khoản";
+"transaction_filter_categories_title" = "Danh mục";
+"transaction_filter_payees_title" = "Người nhận";
+"transaction_filter_tags_title" = "Thẻ";
+"transaction_filter_people_title" = "Người";
+
+"transaction_filter_all_title" = "Tất cả";
+"transaction_filter_any_title" = "Bất kỳ";
+
+/* Formats */
+"transaction_filter_range_format" = "%@ đến %@";
 
 
 /* MARK: - Period Selection View */
@@ -413,17 +437,6 @@
 /* Info */
 "recurring_transactions_info_title" = "Mô tả";
 "recurring_transactions_info_description" = "Tạo các giao dịch định kỳ để chúng tự động được thêm vào ứng dụng khi đến hạn.";
-
-/* Sections */
-"account_filter_section_title" = "Ví";
-"category_filter_section_title" = "Danh mục";
-"payee_filter_section_title" = "Người nhận";
-"tag_filter_section_title" = "Nhãn";
-"user_filter_section_title" = "Người";
-"payment_status_filter_section_title" = "Thanh toán";
-"transaction_type_filter_section_title" = "Kiểu";
-"date_range_filter_section_title" = "Ngày";
-"amount_range_filter_section_title" = "Số tiền";
 
 /* Messages */
 "no_transactions_title" = "Không có giao dịch";

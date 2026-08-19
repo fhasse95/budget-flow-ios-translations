@@ -334,7 +334,7 @@
 "alert_cloud_share_unknown_error_message" = "由於發生錯誤，無法完成共用。您的 iCloud 中可能沒有足夠的可用空間。請釋放一些空間，然後再試一次。";
 
 
-/* MARK: - Search View */
+/* MARK: - Transaction Search View */
 /* Titles */
 "search_title" = "搜尋";
 "filter_title" = "篩選";
@@ -342,6 +342,30 @@
 /* Sections */
 "search_text_section_title" = "搜尋內容";
 "search_suggestions_section_title" = "建議";
+
+
+/* MARK: - Transaction Filter */
+/* Sections */
+"transaction_filter_general_section_title" = "一般";
+"transaction_filter_assignment_section_title" = "指派";
+
+/* Items */
+"transaction_filter_type_title" = "類型";
+"transaction_filter_amount_title" = "金額";
+"transaction_filter_date_title" = "日期";
+"transaction_filter_status_title" = "狀態";
+
+"transaction_filter_accounts_title" = "帳戶";
+"transaction_filter_categories_title" = "類別";
+"transaction_filter_payees_title" = "收款人";
+"transaction_filter_tags_title" = "標籤";
+"transaction_filter_people_title" = "人員";
+
+"transaction_filter_all_title" = "全部";
+"transaction_filter_any_title" = "任意";
+
+/* Formats */
+"transaction_filter_range_format" = "%@ 至 %@";
 
 
 /* MARK: - Period Selection View */
@@ -413,17 +437,6 @@
 /* Info */
 "recurring_transactions_info_title" = "描述";
 "recurring_transactions_info_description" = "建立定期交易，讓應用程式自動新增您的定期收入和支出";
-
-/* Sections */
-"account_filter_section_title" = "帳戶";
-"category_filter_section_title" = "類別";
-"payee_filter_section_title" = "收款人";
-"tag_filter_section_title" = "標籤";
-"user_filter_section_title" = "使用者";
-"payment_status_filter_section_title" = "付款狀態";
-"transaction_type_filter_section_title" = "交易類型";
-"date_range_filter_section_title" = "日期範圍";
-"amount_range_filter_section_title" = "金額範圍";
 
 /* Messages */
 "no_transactions_title" = "無交易";

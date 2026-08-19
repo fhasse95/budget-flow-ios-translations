@@ -334,7 +334,7 @@
 "alert_cloud_share_unknown_error_message" = "エラーが発生したため、共有を完了できませんでした。iCloud に十分な空き容量がない可能性があります。空き容量を増やして、もう一度お試しください。";
 
 
-/* MARK: - Search View */
+/* MARK: - Transaction Search View */
 /* Titles */
 "search_title" = "検索";
 "filter_title" = "フィルター";
@@ -342,6 +342,30 @@
 /* Sections */
 "search_text_section_title" = "検索内容";
 "search_suggestions_section_title" = "提案";
+
+
+/* MARK: - Transaction Filter */
+/* Sections */
+"transaction_filter_general_section_title" = "一般";
+"transaction_filter_assignment_section_title" = "割り当て";
+
+/* Items */
+"transaction_filter_type_title" = "種類";
+"transaction_filter_amount_title" = "金額";
+"transaction_filter_date_title" = "日付";
+"transaction_filter_status_title" = "ステータス";
+
+"transaction_filter_accounts_title" = "アカウント";
+"transaction_filter_categories_title" = "カテゴリ";
+"transaction_filter_payees_title" = "支払先";
+"transaction_filter_tags_title" = "タグ";
+"transaction_filter_people_title" = "人";
+
+"transaction_filter_all_title" = "すべて";
+"transaction_filter_any_title" = "任意";
+
+/* Formats */
+"transaction_filter_range_format" = "%@〜%@";
 
 
 /* MARK: - Period Selection View */
@@ -413,17 +437,6 @@
 /* Info */
 "recurring_transactions_info_title" = "説明";
 "recurring_transactions_info_description" = "定期的なトランザクションを作成して、期限が来たときに自動的にアプリに追加します。";
-
-/* Sections */
-"account_filter_section_title" = "口座";
-"category_filter_section_title" = "カテゴリ";
-"payee_filter_section_title" = "受取人";
-"tag_filter_section_title" = "タグ";
-"user_filter_section_title" = "人物";
-"payment_status_filter_section_title" = "支払い";
-"transaction_type_filter_section_title" = "タイプ";
-"date_range_filter_section_title" = "日付";
-"amount_range_filter_section_title" = "金額";
 
 /* Messages */
 "no_transactions_title" = "トランザクションはありません";

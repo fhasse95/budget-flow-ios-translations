@@ -334,7 +334,7 @@
 "alert_cloud_share_unknown_error_message" = "Dela ni bilo mogoče dokončati, ker je prišlo do napake. Verjetno v vašem iCloud ni dovolj prostora. Prosim, sprostite nekaj prostora in poskusite znova.";
 
 
-/* MARK: - Search View */
+/* MARK: - Transaction Search View */
 /* Titles */
 "search_title" = "Iskanje";
 "filter_title" = "Filter";
@@ -342,6 +342,30 @@
 /* Sections */
 "search_text_section_title" = "Iskalno besedilo";
 "search_suggestions_section_title" = "Predlogi";
+
+
+/* MARK: - Transaction Filter */
+/* Sections */
+"transaction_filter_general_section_title" = "Splošno";
+"transaction_filter_assignment_section_title" = "Dodelitev";
+
+/* Items */
+"transaction_filter_type_title" = "Vrsta";
+"transaction_filter_amount_title" = "Znesek";
+"transaction_filter_date_title" = "Datum";
+"transaction_filter_status_title" = "Stanje";
+
+"transaction_filter_accounts_title" = "Računi";
+"transaction_filter_categories_title" = "Kategorije";
+"transaction_filter_payees_title" = "Prejemniki";
+"transaction_filter_tags_title" = "Oznake";
+"transaction_filter_people_title" = "Osebe";
+
+"transaction_filter_all_title" = "Vse";
+"transaction_filter_any_title" = "Poljubno";
+
+/* Formats */
+"transaction_filter_range_format" = "%@ do %@";
 
 
 /* MARK: - Period Selection View */
@@ -413,17 +437,6 @@
 /* Info */
 "recurring_transactions_info_title" = "Opis";
 "recurring_transactions_info_description" = "Ustvarite ponavljajoče transakcije, da se samodejno dodajo v aplikacijo, ko pridejo na vrsto.";
-
-/* Sections */
-"account_filter_section_title" = "Račun";
-"category_filter_section_title" = "Kategorija";
-"payee_filter_section_title" = "Plačnik";
-"tag_filter_section_title" = "Oznaka";
-"user_filter_section_title" = "Oseba";
-"payment_status_filter_section_title" = "Plačilo";
-"transaction_type_filter_section_title" = "Vrsta";
-"date_range_filter_section_title" = "Datum";
-"amount_range_filter_section_title" = "Znesek";
 
 /* Messages */
 "no_transactions_title" = "Ni transakcij";

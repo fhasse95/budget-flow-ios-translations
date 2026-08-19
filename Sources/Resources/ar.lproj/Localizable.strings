@@ -334,7 +334,7 @@
 "alert_cloud_share_unknown_error_message" = "غير قادر على إكمال المشاركة بسبب حدوث خطأ. ربما لا يحتوي iCloud الخاص بك على مساحة كافية. قم بتحرير بعض المساحة وحاول مرة أخرى.";
 
 
-/* MARK: - Search View */
+/* MARK: - Transaction Search View */
 /* Titles */
 "search_title" = "بحث";
 "filter_title" = "تصفية";
@@ -342,6 +342,30 @@
 /* Sections */
 "search_text_section_title" = "نص البحث";
 "search_suggestions_section_title" = "اقتراحات";
+
+
+/* MARK: - Transaction Filter */
+/* Sections */
+"transaction_filter_general_section_title" = "عام";
+"transaction_filter_assignment_section_title" = "التعيين";
+
+/* Items */
+"transaction_filter_type_title" = "النوع";
+"transaction_filter_amount_title" = "المبلغ";
+"transaction_filter_date_title" = "التاريخ";
+"transaction_filter_status_title" = "الحالة";
+
+"transaction_filter_accounts_title" = "الحسابات";
+"transaction_filter_categories_title" = "الفئات";
+"transaction_filter_payees_title" = "المستفيدون";
+"transaction_filter_tags_title" = "الوسوم";
+"transaction_filter_people_title" = "الأشخاص";
+
+"transaction_filter_all_title" = "الكل";
+"transaction_filter_any_title" = "أي";
+
+/* Formats */
+"transaction_filter_range_format" = "%@ إلى %@";
 
 
 /* MARK: - Period Selection View */
@@ -413,17 +437,6 @@
 /* Info */
 "recurring_transactions_info_title" = "الوصف";
 "recurring_transactions_info_description" = "قم بإنشاء معاملات متكررة بحيث تتم إضافتها تلقائيًا إلى التطبيق عندما يحين موعد الدفع.";
-
-/* Sections */
-"account_filter_section_title" = "حساب";
-"category_filter_section_title" = "فئة";
-"payee_filter_section_title" = "مستفيد";
-"tag_filter_section_title" = "وسم";
-"user_filter_section_title" = "مستخدم";
-"payment_status_filter_section_title" = "حالة الدفع";
-"transaction_type_filter_section_title" = "نوع";
-"date_range_filter_section_title" = "تاريخ";
-"amount_range_filter_section_title" = "المبلغ";
 
 /* Messages */
 "no_transactions_title" = "لا توجد معاملات";

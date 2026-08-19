@@ -334,7 +334,7 @@
 "alert_cloud_share_unknown_error_message" = "Jakamista ei voitu suorittaa, koska tapahtui virhe. iCloudissasi ei todennäköisesti ole tarpeeksi tilaa. Vapauta tilaa ja yritä uudelleen.";
 
 
-/* MARK: - Search View */
+/* MARK: - Transaction Search View */
 /* Titles */
 "search_title" = "Hae";
 "filter_title" = "Suodata";
@@ -342,6 +342,30 @@
 /* Sections */
 "search_text_section_title" = "Hae tekstiä";
 "search_suggestions_section_title" = "Ehdotuksia";
+
+
+/* MARK: - Transaction Filter */
+/* Sections */
+"transaction_filter_general_section_title" = "Yleiset";
+"transaction_filter_assignment_section_title" = "Kohdistus";
+
+/* Items */
+"transaction_filter_type_title" = "Tyyppi";
+"transaction_filter_amount_title" = "Summa";
+"transaction_filter_date_title" = "Päivämäärä";
+"transaction_filter_status_title" = "Tila";
+
+"transaction_filter_accounts_title" = "Tilit";
+"transaction_filter_categories_title" = "Luokat";
+"transaction_filter_payees_title" = "Maksunsaajat";
+"transaction_filter_tags_title" = "Tunnisteet";
+"transaction_filter_people_title" = "Henkilöt";
+
+"transaction_filter_all_title" = "Kaikki";
+"transaction_filter_any_title" = "Mikä tahansa";
+
+/* Formats */
+"transaction_filter_range_format" = "%@ - %@";
 
 
 /* MARK: - Period Selection View */
@@ -413,17 +437,6 @@
 /* Info */
 "recurring_transactions_info_title" = "Kuvaus";
 "recurring_transactions_info_description" = "Luo toistuvia tapahtumia, jotta ne lisätään automaattisesti sovellukseen, kun ne erääntyvät.";
-
-/* Sections */
-"account_filter_section_title" = "Tili";
-"category_filter_section_title" = "Luokka";
-"payee_filter_section_title" = "Maksunsaaja";
-"tag_filter_section_title" = "Tunniste";
-"user_filter_section_title" = "Henkilö";
-"payment_status_filter_section_title" = "Maksu";
-"transaction_type_filter_section_title" = "Tyyppi";
-"date_range_filter_section_title" = "Päivämäärä";
-"amount_range_filter_section_title" = "Summa";
 
 /* Messages */
 "no_transactions_title" = "Ei tapahtumia";

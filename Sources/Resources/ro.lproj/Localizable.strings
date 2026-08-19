@@ -334,7 +334,7 @@
 "alert_cloud_share_unknown_error_message" = "Nu s-a putut finaliza partajarea deoarece a apărut o eroare. Probabil că nu este suficient spațiu disponibil în iCloud. Vă rugăm să eliberați spațiu și să încercați din nou.";
 
 
-/* MARK: - Search View */
+/* MARK: - Transaction Search View */
 /* Titles */
 "search_title" = "Căutare";
 "filter_title" = "Filtru";
@@ -342,6 +342,30 @@
 /* Sections */
 "search_text_section_title" = "Căutare text";
 "search_suggestions_section_title" = "Sugestii";
+
+
+/* MARK: - Transaction Filter */
+/* Sections */
+"transaction_filter_general_section_title" = "General";
+"transaction_filter_assignment_section_title" = "Atribuire";
+
+/* Items */
+"transaction_filter_type_title" = "Tip";
+"transaction_filter_amount_title" = "Sumă";
+"transaction_filter_date_title" = "Dată";
+"transaction_filter_status_title" = "Stare";
+
+"transaction_filter_accounts_title" = "Conturi";
+"transaction_filter_categories_title" = "Categorii";
+"transaction_filter_payees_title" = "Beneficiari";
+"transaction_filter_tags_title" = "Etichete";
+"transaction_filter_people_title" = "Persoane";
+
+"transaction_filter_all_title" = "Toate";
+"transaction_filter_any_title" = "Oricare";
+
+/* Formats */
+"transaction_filter_range_format" = "%@ până la %@";
 
 
 /* MARK: - Period Selection View */
@@ -413,17 +437,6 @@
 /* Info */
 "recurring_transactions_info_title" = "Descriere";
 "recurring_transactions_info_description" = "Creați tranzacții recurente pentru a le adăuga automat în aplicație la scadență.";
-
-/* Sections */
-"account_filter_section_title" = "Cont";
-"category_filter_section_title" = "Categorie";
-"payee_filter_section_title" = "Beneficiar";
-"tag_filter_section_title" = "Etichetă";
-"user_filter_section_title" = "Persoană";
-"payment_status_filter_section_title" = "Plata";
-"transaction_type_filter_section_title" = "Tip";
-"date_range_filter_section_title" = "Data";
-"amount_range_filter_section_title" = "Suma";
 
 /* Messages */
 "no_transactions_title" = "Fără tranzacții";

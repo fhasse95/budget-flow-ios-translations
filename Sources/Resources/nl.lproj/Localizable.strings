@@ -334,7 +334,7 @@
 "alert_cloud_share_unknown_error_message" = "Kan het delen niet voltooien omdat er een fout is opgetreden. Er is waarschijnlijk niet genoeg ruimte beschikbaar in je iCloud. Maak wat ruimte vrij en probeer het opnieuw.";
 
 
-/* MARK: - Search View */
+/* MARK: - Transaction Search View */
 /* Titles */
 "search_title" = "Zoeken";
 "filter_title" = "Filteren";
@@ -342,6 +342,30 @@
 /* Sections */
 "search_text_section_title" = "Zoektekst";
 "search_suggestions_section_title" = "Suggesties";
+
+
+/* MARK: - Transaction Filter */
+/* Sections */
+"transaction_filter_general_section_title" = "Algemeen";
+"transaction_filter_assignment_section_title" = "Toewijzing";
+
+/* Items */
+"transaction_filter_type_title" = "Type";
+"transaction_filter_amount_title" = "Bedrag";
+"transaction_filter_date_title" = "Datum";
+"transaction_filter_status_title" = "Status";
+
+"transaction_filter_accounts_title" = "Rekeningen";
+"transaction_filter_categories_title" = "Categorieën";
+"transaction_filter_payees_title" = "Begunstigden";
+"transaction_filter_tags_title" = "Tags";
+"transaction_filter_people_title" = "Personen";
+
+"transaction_filter_all_title" = "Alles";
+"transaction_filter_any_title" = "Willekeurig";
+
+/* Formats */
+"transaction_filter_range_format" = "%@ tot %@";
 
 
 /* MARK: - Period Selection View */
@@ -413,17 +437,6 @@
 /* Info */
 "recurring_transactions_info_title" = "Beschrijving";
 "recurring_transactions_info_description" = "Maak terugkerende transacties zodat ze automatisch worden toegevoegd aan de app wanneer ze vervallen.";
-
-/* Sections */
-"account_filter_section_title" = "Account";
-"category_filter_section_title" = "Categorie";
-"payee_filter_section_title" = "Begunstigde";
-"tag_filter_section_title" = "Tag";
-"user_filter_section_title" = "Persoon";
-"payment_status_filter_section_title" = "Betaling";
-"transaction_type_filter_section_title" = "Type";
-"date_range_filter_section_title" = "Datum";
-"amount_range_filter_section_title" = "Bedrag";
 
 /* Messages */
 "no_transactions_title" = "Geen transacties";

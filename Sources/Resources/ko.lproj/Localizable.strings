@@ -334,7 +334,7 @@
 "alert_cloud_share_unknown_error_message" = "오류가 발생했기 때문에 공유를 완료할 수 없습니다. iCloud에 사용 가능한 공간이 부족할 수 있습니다. 여유 공간을 확보한 후 다시 시도하십시오.";
 
 
-/* MARK: - Search View */
+/* MARK: - Transaction Search View */
 /* Titles */
 "search_title" = "검색";
 "filter_title" = "필터";
@@ -342,6 +342,30 @@
 /* Sections */
 "search_text_section_title" = "검색 텍스트";
 "search_suggestions_section_title" = "제안";
+
+
+/* MARK: - Transaction Filter */
+/* Sections */
+"transaction_filter_general_section_title" = "일반";
+"transaction_filter_assignment_section_title" = "지정";
+
+/* Items */
+"transaction_filter_type_title" = "유형";
+"transaction_filter_amount_title" = "금액";
+"transaction_filter_date_title" = "날짜";
+"transaction_filter_status_title" = "상태";
+
+"transaction_filter_accounts_title" = "계정";
+"transaction_filter_categories_title" = "카테고리";
+"transaction_filter_payees_title" = "수취인";
+"transaction_filter_tags_title" = "태그";
+"transaction_filter_people_title" = "사람";
+
+"transaction_filter_all_title" = "모두";
+"transaction_filter_any_title" = "상관없음";
+
+/* Formats */
+"transaction_filter_range_format" = "%@~%@";
 
 
 /* MARK: - Period Selection View */
@@ -413,17 +437,6 @@
 /* Info */
 "recurring_transactions_info_title" = "설명";
 "recurring_transactions_info_description" = "특정 날짜에 반복 거래를 만들면 자동으로 추가됩니다.";
-
-/* Sections */
-"account_filter_section_title" = "계좌";
-"category_filter_section_title" = "카테고리";
-"payee_filter_section_title" = "수취인";
-"tag_filter_section_title" = "태그";
-"user_filter_section_title" = "사람";
-"payment_status_filter_section_title" = "결제";
-"transaction_type_filter_section_title" = "유형";
-"date_range_filter_section_title" = "날짜";
-"amount_range_filter_section_title" = "금액";
 
 /* Messages */
 "no_transactions_title" = "거래 없음";

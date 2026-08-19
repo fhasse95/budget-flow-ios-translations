@@ -334,7 +334,7 @@
 "alert_cloud_share_unknown_error_message" = "A megosztást nem sikerült befejezni, mert hiba történt. Valószínűleg nincs elég hely az iCloudban. Kérjük, szabadítson fel egy kis helyet, és próbálja újra.";
 
 
-/* MARK: - Search View */
+/* MARK: - Transaction Search View */
 /* Titles */
 "search_title" = "Keresés";
 "filter_title" = "Szűrő";
@@ -342,6 +342,30 @@
 /* Sections */
 "search_text_section_title" = "Szöveg keresése";
 "search_suggestions_section_title" = "Javaslatok";
+
+
+/* MARK: - Transaction Filter */
+/* Sections */
+"transaction_filter_general_section_title" = "Általános";
+"transaction_filter_assignment_section_title" = "Hozzárendelés";
+
+/* Items */
+"transaction_filter_type_title" = "Típus";
+"transaction_filter_amount_title" = "Összeg";
+"transaction_filter_date_title" = "Dátum";
+"transaction_filter_status_title" = "Állapot";
+
+"transaction_filter_accounts_title" = "Számlák";
+"transaction_filter_categories_title" = "Kategóriák";
+"transaction_filter_payees_title" = "Kedvezményezettek";
+"transaction_filter_tags_title" = "Címkék";
+"transaction_filter_people_title" = "Személyek";
+
+"transaction_filter_all_title" = "Összes";
+"transaction_filter_any_title" = "Bármely";
+
+/* Formats */
+"transaction_filter_range_format" = "%@–%@";
 
 
 /* MARK: - Period Selection View */
@@ -413,17 +437,6 @@
 /* Info */
 "recurring_transactions_info_title" = "Leírás";
 "recurring_transactions_info_description" = "Hozzon létre ismétlődő tranzakciókat, hogy azok automatikusan hozzáadódjanak az alkalmazáshoz, amikor esedékesek.";
-
-/* Sections */
-"account_filter_section_title" = "Fiók";
-"category_filter_section_title" = "Kategória";
-"payee_filter_section_title" = "Kedvezett";
-"tag_filter_section_title" = "Címke";
-"user_filter_section_title" = "Személy";
-"payment_status_filter_section_title" = "Kifizetés";
-"transaction_type_filter_section_title" = "Típus";
-"date_range_filter_section_title" = "Dátum";
-"amount_range_filter_section_title" = "Összeg";
 
 /* Messages */
 "no_transactions_title" = "Nincs tranzakció";

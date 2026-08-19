@@ -334,7 +334,7 @@
 "alert_cloud_share_unknown_error_message" = "Не удалось завершить общий доступ, поскольку произошла ошибка. Вероятно, в вашем iCloud недостаточно места. Освободите место и повторите попытку.";
 
 
-/* MARK: - Search View */
+/* MARK: - Transaction Search View */
 /* Titles */
 "search_title" = "Поиск";
 "filter_title" = "Фильтр";
@@ -342,6 +342,30 @@
 /* Sections */
 "search_text_section_title" = "Поиск текста";
 "search_suggestions_section_title" = "Предложения";
+
+
+/* MARK: - Transaction Filter */
+/* Sections */
+"transaction_filter_general_section_title" = "Общие";
+"transaction_filter_assignment_section_title" = "Назначение";
+
+/* Items */
+"transaction_filter_type_title" = "Тип";
+"transaction_filter_amount_title" = "Сумма";
+"transaction_filter_date_title" = "Дата";
+"transaction_filter_status_title" = "Статус";
+
+"transaction_filter_accounts_title" = "Счета";
+"transaction_filter_categories_title" = "Категории";
+"transaction_filter_payees_title" = "Получатели";
+"transaction_filter_tags_title" = "Теги";
+"transaction_filter_people_title" = "Люди";
+
+"transaction_filter_all_title" = "Все";
+"transaction_filter_any_title" = "Любой";
+
+/* Formats */
+"transaction_filter_range_format" = "%@ — %@";
 
 
 /* MARK: - Period Selection View */
@@ -413,17 +437,6 @@
 /* Info */
 "recurring_transactions_info_title" = "Описание";
 "recurring_transactions_info_description" = "Создавайте повторяющиеся транзакции, чтобы они автоматически добавлялись в приложение по мере наступления срока оплаты.";
-
-/* Sections */
-"account_filter_section_title" = "Счет";
-"category_filter_section_title" = "Категория";
-"payee_filter_section_title" = "Получатель";
-"tag_filter_section_title" = "Тег";
-"user_filter_section_title" = "Участник";
-"payment_status_filter_section_title" = "Платеж";
-"transaction_type_filter_section_title" = "Тип";
-"date_range_filter_section_title" = "Дата";
-"amount_range_filter_section_title" = "Сумма";
 
 /* Messages */
 "no_transactions_title" = "Нет операций";

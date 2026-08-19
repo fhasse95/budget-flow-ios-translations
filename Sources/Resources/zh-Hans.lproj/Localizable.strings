@@ -334,7 +334,7 @@
 "alert_cloud_share_unknown_error_message" = "无法完成共享，因为发生了错误。您的 iCloud 中可能没有足够的可用空间。请释放一些空间，然后重试。";
 
 
-/* MARK: - Search View */
+/* MARK: - Transaction Search View */
 /* Titles */
 "search_title" = "搜索";
 "filter_title" = "筛选";
@@ -342,6 +342,30 @@
 /* Sections */
 "search_text_section_title" = "搜索内容";
 "search_suggestions_section_title" = "建议";
+
+
+/* MARK: - Transaction Filter */
+/* Sections */
+"transaction_filter_general_section_title" = "常规";
+"transaction_filter_assignment_section_title" = "分配";
+
+/* Items */
+"transaction_filter_type_title" = "类型";
+"transaction_filter_amount_title" = "金额";
+"transaction_filter_date_title" = "日期";
+"transaction_filter_status_title" = "状态";
+
+"transaction_filter_accounts_title" = "账户";
+"transaction_filter_categories_title" = "类别";
+"transaction_filter_payees_title" = "收款人";
+"transaction_filter_tags_title" = "标签";
+"transaction_filter_people_title" = "人员";
+
+"transaction_filter_all_title" = "全部";
+"transaction_filter_any_title" = "任意";
+
+/* Formats */
+"transaction_filter_range_format" = "%@ 至 %@";
 
 
 /* MARK: - Period Selection View */
@@ -413,17 +437,6 @@
 /* Info */
 "recurring_transactions_info_title" = "描述";
 "recurring_transactions_info_description" = "创建定期交易，让应用自动添加您的定期收入和支出";
-
-/* Sections */
-"account_filter_section_title" = "账户";
-"category_filter_section_title" = "类别";
-"payee_filter_section_title" = "收款人";
-"tag_filter_section_title" = "标签";
-"user_filter_section_title" = "用户";
-"payment_status_filter_section_title" = "支付状态";
-"transaction_type_filter_section_title" = "交易类型";
-"date_range_filter_section_title" = "日期范围";
-"amount_range_filter_section_title" = "金额范围";
 
 /* Messages */
 "no_transactions_title" = "无交易";

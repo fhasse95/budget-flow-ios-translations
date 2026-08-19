@@ -334,7 +334,7 @@
 "alert_cloud_share_unknown_error_message" = "Не вдалося завершити спільний доступ, оскільки сталася помилка. Можливо, у вашому iCloud недостатньо вільного місця. Звільніть місце та повторіть спробу.";
 
 
-/* MARK: - Search View */
+/* MARK: - Transaction Search View */
 /* Titles */
 "search_title" = "Пошук";
 "filter_title" = "Фільтр";
@@ -342,6 +342,30 @@
 /* Sections */
 "search_text_section_title" = "Шукати текст";
 "search_suggestions_section_title" = "Пропозиції";
+
+
+/* MARK: - Transaction Filter */
+/* Sections */
+"transaction_filter_general_section_title" = "Загальні";
+"transaction_filter_assignment_section_title" = "Призначення";
+
+/* Items */
+"transaction_filter_type_title" = "Тип";
+"transaction_filter_amount_title" = "Сума";
+"transaction_filter_date_title" = "Дата";
+"transaction_filter_status_title" = "Статус";
+
+"transaction_filter_accounts_title" = "Рахунки";
+"transaction_filter_categories_title" = "Категорії";
+"transaction_filter_payees_title" = "Отримувачі";
+"transaction_filter_tags_title" = "Теги";
+"transaction_filter_people_title" = "Люди";
+
+"transaction_filter_all_title" = "Усі";
+"transaction_filter_any_title" = "Будь-який";
+
+/* Formats */
+"transaction_filter_range_format" = "%@ — %@";
 
 
 /* MARK: - Period Selection View */
@@ -413,17 +437,6 @@
 /* Info */
 "recurring_transactions_info_title" = "Опис";
 "recurring_transactions_info_description" = "Створюйте повторювані транзакції, щоб автоматично додавати їх до програми, коли настане термін.";
-
-/* Sections */
-"account_filter_section_title" = "Обліковий запис";
-"category_filter_section_title" = "Категорія";
-"payee_filter_section_title" = "Отримувач";
-"tag_filter_section_title" = "Тег";
-"user_filter_section_title" = "Особа";
-"payment_status_filter_section_title" = "Платіж";
-"transaction_type_filter_section_title" = "Тип";
-"date_range_filter_section_title" = "Дата";
-"amount_range_filter_section_title" = "Сума";
 
 /* Messages */
 "no_transactions_title" = "Немає транзакцій";

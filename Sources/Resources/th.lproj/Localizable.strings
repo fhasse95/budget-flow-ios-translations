@@ -334,7 +334,7 @@
 "alert_cloud_share_unknown_error_message" = "ไม่สามารถแบ่งปันให้เสร็จสิ้นได้เนื่องจากเกิดข้อผิดพลาด อาจมีพื้นที่ว่างไม่เพียงพอใน iCloud ของคุณ โปรดเพิ่มพื้นที่ว่างแล้วลองอีกครั้ง";
 
 
-/* MARK: - Search View */
+/* MARK: - Transaction Search View */
 /* Titles */
 "search_title" = "ค้นหา";
 "filter_title" = "ตัวกรอง";
@@ -342,6 +342,30 @@
 /* Sections */
 "search_text_section_title" = "ข้อความค้นหา";
 "search_suggestions_section_title" = "คำแนะนำ";
+
+
+/* MARK: - Transaction Filter */
+/* Sections */
+"transaction_filter_general_section_title" = "ทั่วไป";
+"transaction_filter_assignment_section_title" = "การกำหนด";
+
+/* Items */
+"transaction_filter_type_title" = "ประเภท";
+"transaction_filter_amount_title" = "จำนวนเงิน";
+"transaction_filter_date_title" = "วันที่";
+"transaction_filter_status_title" = "สถานะ";
+
+"transaction_filter_accounts_title" = "บัญชี";
+"transaction_filter_categories_title" = "หมวดหมู่";
+"transaction_filter_payees_title" = "ผู้รับเงิน";
+"transaction_filter_tags_title" = "แท็ก";
+"transaction_filter_people_title" = "บุคคล";
+
+"transaction_filter_all_title" = "ทั้งหมด";
+"transaction_filter_any_title" = "ใดก็ได้";
+
+/* Formats */
+"transaction_filter_range_format" = "%@ ถึง %@";
 
 
 /* MARK: - Period Selection View */
@@ -413,17 +437,6 @@
 /* Info */
 "recurring_transactions_info_title" = "คำอธิบาย";
 "recurring_transactions_info_description" = "สร้างธุรกรรมที่เกิดซ้ำเพื่อให้เพิ่มลงในแอปโดยอัตโนมัติเมื่อถึงกำหนด";
-
-/* Sections */
-"account_filter_section_title" = "บัญชี";
-"category_filter_section_title" = "หมวดหมู่";
-"payee_filter_section_title" = "ผู้รับเงิน";
-"tag_filter_section_title" = "แท็ก";
-"user_filter_section_title" = "บุคคล";
-"payment_status_filter_section_title" = "การชำระเงิน";
-"transaction_type_filter_section_title" = "ประเภท";
-"date_range_filter_section_title" = "วันที่";
-"amount_range_filter_section_title" = "จำนวนเงิน";
 
 /* Messages */
 "no_transactions_title" = "ไม่มีธุรกรรม";

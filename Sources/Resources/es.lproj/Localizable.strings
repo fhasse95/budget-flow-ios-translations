@@ -334,7 +334,7 @@
 "alert_cloud_share_unknown_error_message" = "No se pudo completar el uso compartido porque se produjo un error. Probablemente no haya suficiente espacio disponible en iCloud. Libere espacio e inténtelo de nuevo.";
 
 
-/* MARK: - Search View */
+/* MARK: - Transaction Search View */
 /* Titles */
 "search_title" = "Buscar";
 "filter_title" = "Filtrar";
@@ -342,6 +342,30 @@
 /* Sections */
 "search_text_section_title" = "Buscar texto";
 "search_suggestions_section_title" = "Sugerencias";
+
+
+/* MARK: - Transaction Filter */
+/* Sections */
+"transaction_filter_general_section_title" = "General";
+"transaction_filter_assignment_section_title" = "Asignación";
+
+/* Items */
+"transaction_filter_type_title" = "Tipo";
+"transaction_filter_amount_title" = "Importe";
+"transaction_filter_date_title" = "Fecha";
+"transaction_filter_status_title" = "Estado";
+
+"transaction_filter_accounts_title" = "Cuentas";
+"transaction_filter_categories_title" = "Categorías";
+"transaction_filter_payees_title" = "Beneficiarios";
+"transaction_filter_tags_title" = "Etiquetas";
+"transaction_filter_people_title" = "Personas";
+
+"transaction_filter_all_title" = "Todo";
+"transaction_filter_any_title" = "Cualquiera";
+
+/* Formats */
+"transaction_filter_range_format" = "%@ a %@";
 
 
 /* MARK: - Period Selection View */
@@ -413,17 +437,6 @@
 /* Info */
 "recurring_transactions_info_title" = "Descripción";
 "recurring_transactions_info_description" = "Crea transacciones recurrentes para que se añadan automáticamente a la app cuando venzan";
-
-/* Sections */
-"account_filter_section_title" = "Cuenta";
-"category_filter_section_title" = "Categoría";
-"payee_filter_section_title" = "Beneficiario";
-"tag_filter_section_title" = "Etiqueta";
-"user_filter_section_title" = "Persona";
-"payment_status_filter_section_title" = "Pago";
-"transaction_type_filter_section_title" = "Tipo";
-"date_range_filter_section_title" = "Fecha";
-"amount_range_filter_section_title" = "Monto";
 
 /* Messages */
 "no_transactions_title" = "Sin transacciones";

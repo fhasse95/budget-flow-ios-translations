@@ -334,7 +334,7 @@
 "alert_cloud_share_unknown_error_message" = "Sdílení nelze dokončit, protože došlo k chybě. Na vašem iCloudu pravděpodobně není dostatek místa. Uvolněte místo a zkuste to znovu.";
 
 
-/* MARK: - Search View */
+/* MARK: - Transaction Search View */
 /* Titles */
 "search_title" = "Hledat";
 "filter_title" = "Filtr";
@@ -342,6 +342,30 @@
 /* Sections */
 "search_text_section_title" = "Hledaný text";
 "search_suggestions_section_title" = "Návrhy";
+
+
+/* MARK: - Transaction Filter */
+/* Sections */
+"transaction_filter_general_section_title" = "Obecné";
+"transaction_filter_assignment_section_title" = "Přiřazení";
+
+/* Items */
+"transaction_filter_type_title" = "Typ";
+"transaction_filter_amount_title" = "Částka";
+"transaction_filter_date_title" = "Datum";
+"transaction_filter_status_title" = "Stav";
+
+"transaction_filter_accounts_title" = "Účty";
+"transaction_filter_categories_title" = "Kategorie";
+"transaction_filter_payees_title" = "Příjemci";
+"transaction_filter_tags_title" = "Značky";
+"transaction_filter_people_title" = "Osoby";
+
+"transaction_filter_all_title" = "Vše";
+"transaction_filter_any_title" = "Libovolně";
+
+/* Formats */
+"transaction_filter_range_format" = "%@ až %@";
 
 
 /* MARK: - Period Selection View */
@@ -413,17 +437,6 @@
 /* Info */
 "recurring_transactions_info_title" = "Popis";
 "recurring_transactions_info_description" = "Vytvořte opakované transakce, aby byly automaticky přidány do aplikace, když nastanou.";
-
-/* Sections */
-"account_filter_section_title" = "Účet";
-"category_filter_section_title" = "Kategorie";
-"payee_filter_section_title" = "Příjemce";
-"tag_filter_section_title" = "Značka";
-"user_filter_section_title" = "Osoba";
-"payment_status_filter_section_title" = "Platba";
-"transaction_type_filter_section_title" = "Typ";
-"date_range_filter_section_title" = "Datum";
-"amount_range_filter_section_title" = "Částka";
 
 /* Messages */
 "no_transactions_title" = "Žádné transakce";

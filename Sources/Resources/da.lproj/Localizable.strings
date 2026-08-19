@@ -334,7 +334,7 @@
 "alert_cloud_share_unknown_error_message" = "Kunne ikke fuldføre deling, fordi der opstod en fejl. Der er sandsynligvis ikke plads nok i din iCloud. Frigør venligst noget plads, og prøv igen.";
 
 
-/* MARK: - Search View */
+/* MARK: - Transaction Search View */
 /* Titles */
 "search_title" = "Søg";
 "filter_title" = "Filter";
@@ -342,6 +342,30 @@
 /* Sections */
 "search_text_section_title" = "Søg efter tekst";
 "search_suggestions_section_title" = "Forslag";
+
+
+/* MARK: - Transaction Filter */
+/* Sections */
+"transaction_filter_general_section_title" = "Generelt";
+"transaction_filter_assignment_section_title" = "Tildeling";
+
+/* Items */
+"transaction_filter_type_title" = "Type";
+"transaction_filter_amount_title" = "Beløb";
+"transaction_filter_date_title" = "Dato";
+"transaction_filter_status_title" = "Status";
+
+"transaction_filter_accounts_title" = "Konti";
+"transaction_filter_categories_title" = "Kategorier";
+"transaction_filter_payees_title" = "Modtagere";
+"transaction_filter_tags_title" = "Tags";
+"transaction_filter_people_title" = "Personer";
+
+"transaction_filter_all_title" = "Alle";
+"transaction_filter_any_title" = "Valgfrit";
+
+/* Formats */
+"transaction_filter_range_format" = "%@ til %@";
 
 
 /* MARK: - Period Selection View */
@@ -413,17 +437,6 @@
 /* Info */
 "recurring_transactions_info_title" = "Beskrivelse";
 "recurring_transactions_info_description" = "Opret tilbagevendende transaktioner for at få dem automatisk tilføjet til appen, når de forfalder.";
-
-/* Sections */
-"account_filter_section_title" = "Konto";
-"category_filter_section_title" = "Kategori";
-"payee_filter_section_title" = "Modtager";
-"tag_filter_section_title" = "Tag";
-"user_filter_section_title" = "Person";
-"payment_status_filter_section_title" = "Betaling";
-"transaction_type_filter_section_title" = "Type";
-"date_range_filter_section_title" = "Dato";
-"amount_range_filter_section_title" = "Beløb";
 
 /* Messages */
 "no_transactions_title" = "Ingen transaktioner";

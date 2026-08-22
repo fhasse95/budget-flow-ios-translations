@@ -61,6 +61,9 @@
 "transaction_type_expense_plural" = "Cheltuieli";
 "transaction_type_transfer_plural" = "Transferuri";
 
+"transaction_occurrence_type_one_time" = "O singură dată";
+"transaction_occurrence_type_recurring" = "Recurentă";
+
 "payment_status" = "Stare";
 "payment_status_completed" = "Finalizat";
 "payment_status_pending" = "În așteptare";
@@ -351,6 +354,7 @@
 
 /* Items */
 "transaction_filter_type_title" = "Tip";
+"transaction_filter_occurrence_type_title" = "Repetare";
 "transaction_filter_amount_title" = "Sumă";
 "transaction_filter_date_title" = "Dată";
 "transaction_filter_status_title" = "Stare";

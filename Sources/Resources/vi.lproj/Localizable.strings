@@ -61,6 +61,9 @@
 "transaction_type_expense_plural" = "Khoản chi";
 "transaction_type_transfer_plural" = "Chuyển khoản";
 
+"transaction_occurrence_type_one_time" = "Một lần";
+"transaction_occurrence_type_recurring" = "Định kỳ";
+
 "payment_status" = "Trạng thái";
 "payment_status_completed" = "Hoàn thành";
 "payment_status_pending" = "Chưa giải quyết";
@@ -351,6 +354,7 @@
 
 /* Items */
 "transaction_filter_type_title" = "Loại";
+"transaction_filter_occurrence_type_title" = "Lặp lại";
 "transaction_filter_amount_title" = "Số tiền";
 "transaction_filter_date_title" = "Ngày";
 "transaction_filter_status_title" = "Trạng thái";

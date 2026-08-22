@@ -61,6 +61,9 @@
 "transaction_type_expense_plural" = "Giderler";
 "transaction_type_transfer_plural" = "Transferler";
 
+"transaction_occurrence_type_one_time" = "Tek seferlik";
+"transaction_occurrence_type_recurring" = "Yinelenen";
+
 "payment_status" = "Durum";
 "payment_status_completed" = "Tamamlandı";
 "payment_status_pending" = "Beklemede";
@@ -351,6 +354,7 @@
 
 /* Items */
 "transaction_filter_type_title" = "Tür";
+"transaction_filter_occurrence_type_title" = "Yineleme";
 "transaction_filter_amount_title" = "Tutar";
 "transaction_filter_date_title" = "Tarih";
 "transaction_filter_status_title" = "Durum";

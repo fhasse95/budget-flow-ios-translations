@@ -61,6 +61,9 @@
 "transaction_type_expense_plural" = "النفقات";
 "transaction_type_transfer_plural" = "التحويلات";
 
+"transaction_occurrence_type_one_time" = "لمرة واحدة";
+"transaction_occurrence_type_recurring" = "متكرر";
+
 "payment_status" = "الحالة";
 "payment_status_completed" = "مكتمل";
 "payment_status_pending" = "معلق";
@@ -351,6 +354,7 @@
 
 /* Items */
 "transaction_filter_type_title" = "النوع";
+"transaction_filter_occurrence_type_title" = "التكرار";
 "transaction_filter_amount_title" = "المبلغ";
 "transaction_filter_date_title" = "التاريخ";
 "transaction_filter_status_title" = "الحالة";

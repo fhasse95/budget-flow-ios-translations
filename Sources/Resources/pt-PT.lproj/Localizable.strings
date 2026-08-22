@@ -61,6 +61,9 @@
 "transaction_type_expense_plural" = "Despesas";
 "transaction_type_transfer_plural" = "Transferências";
 
+"transaction_occurrence_type_one_time" = "Única";
+"transaction_occurrence_type_recurring" = "Recorrente";
+
 "payment_status" = "Estado";
 "payment_status_completed" = "Concluído";
 "payment_status_pending" = "Pendente";
@@ -351,6 +354,7 @@
 
 /* Items */
 "transaction_filter_type_title" = "Tipo";
+"transaction_filter_occurrence_type_title" = "Repetição";
 "transaction_filter_amount_title" = "Valor";
 "transaction_filter_date_title" = "Data";
 "transaction_filter_status_title" = "Estado";

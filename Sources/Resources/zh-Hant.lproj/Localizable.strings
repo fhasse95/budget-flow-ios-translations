@@ -61,6 +61,9 @@
 "transaction_type_expense_plural" = "支出";
 "transaction_type_transfer_plural" = "轉帳";
 
+"transaction_occurrence_type_one_time" = "一次性";
+"transaction_occurrence_type_recurring" = "重複";
+
 "payment_status" = "狀態";
 "payment_status_completed" = "已完成";
 "payment_status_pending" = "待處理";
@@ -351,6 +354,7 @@
 
 /* Items */
 "transaction_filter_type_title" = "類型";
+"transaction_filter_occurrence_type_title" = "重複";
 "transaction_filter_amount_title" = "金額";
 "transaction_filter_date_title" = "日期";
 "transaction_filter_status_title" = "狀態";

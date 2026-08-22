@@ -61,6 +61,9 @@
 "transaction_type_expense_plural" = "Uscite";
 "transaction_type_transfer_plural" = "Trasferimenti";
 
+"transaction_occurrence_type_one_time" = "Una tantum";
+"transaction_occurrence_type_recurring" = "Ricorrente";
+
 "payment_status" = "Stato";
 "payment_status_completed" = "Completato";
 "payment_status_pending" = "In sospeso";
@@ -351,6 +354,7 @@
 
 /* Items */
 "transaction_filter_type_title" = "Tipo";
+"transaction_filter_occurrence_type_title" = "Ripetizione";
 "transaction_filter_amount_title" = "Importo";
 "transaction_filter_date_title" = "Data";
 "transaction_filter_status_title" = "Stato";

@@ -61,6 +61,9 @@
 "transaction_type_expense_plural" = "Kulut";
 "transaction_type_transfer_plural" = "Siirrot";
 
+"transaction_occurrence_type_one_time" = "Kertaluonteinen";
+"transaction_occurrence_type_recurring" = "Toistuva";
+
 "payment_status" = "Tila";
 "payment_status_completed" = "Valmis";
 "payment_status_pending" = "Odottaa";
@@ -351,6 +354,7 @@
 
 /* Items */
 "transaction_filter_type_title" = "Tyyppi";
+"transaction_filter_occurrence_type_title" = "Toisto";
 "transaction_filter_amount_title" = "Summa";
 "transaction_filter_date_title" = "Päivämäärä";
 "transaction_filter_status_title" = "Tila";

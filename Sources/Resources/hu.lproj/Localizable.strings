@@ -61,6 +61,9 @@
 "transaction_type_expense_plural" = "Költségek";
 "transaction_type_transfer_plural" = "Átadások";
 
+"transaction_occurrence_type_one_time" = "Egyszeri";
+"transaction_occurrence_type_recurring" = "Ismétlődő";
+
 "payment_status" = "Állapot";
 "payment_status_completed" = "Befejezve";
 "payment_status_pending" = "Függőben";
@@ -351,6 +354,7 @@
 
 /* Items */
 "transaction_filter_type_title" = "Típus";
+"transaction_filter_occurrence_type_title" = "Ismétlés";
 "transaction_filter_amount_title" = "Összeg";
 "transaction_filter_date_title" = "Dátum";
 "transaction_filter_status_title" = "Állapot";

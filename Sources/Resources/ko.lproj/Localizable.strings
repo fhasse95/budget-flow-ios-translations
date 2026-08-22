@@ -61,6 +61,9 @@
 "transaction_type_expense_plural" = "지출";
 "transaction_type_transfer_plural" = "이체";
 
+"transaction_occurrence_type_one_time" = "일회성";
+"transaction_occurrence_type_recurring" = "반복";
+
 "payment_status" = "상태";
 "payment_status_completed" = "완료됨";
 "payment_status_pending" = "보류중";
@@ -351,6 +354,7 @@
 
 /* Items */
 "transaction_filter_type_title" = "유형";
+"transaction_filter_occurrence_type_title" = "반복";
 "transaction_filter_amount_title" = "금액";
 "transaction_filter_date_title" = "날짜";
 "transaction_filter_status_title" = "상태";

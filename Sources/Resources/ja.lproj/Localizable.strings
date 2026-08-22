@@ -61,6 +61,9 @@
 "transaction_type_expense_plural" = "支出";
 "transaction_type_transfer_plural" = "振替";
 
+"transaction_occurrence_type_one_time" = "一回限り";
+"transaction_occurrence_type_recurring" = "繰り返し";
+
 "payment_status" = "ステータス";
 "payment_status_completed" = "完了";
 "payment_status_pending" = "保留中";
@@ -351,6 +354,7 @@
 
 /* Items */
 "transaction_filter_type_title" = "種類";
+"transaction_filter_occurrence_type_title" = "繰り返し";
 "transaction_filter_amount_title" = "金額";
 "transaction_filter_date_title" = "日付";
 "transaction_filter_status_title" = "ステータス";

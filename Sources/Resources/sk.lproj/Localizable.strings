@@ -61,6 +61,9 @@
 "transaction_type_expense_plural" = "Výdavky";
 "transaction_type_transfer_plural" = "Prevody";
 
+"transaction_occurrence_type_one_time" = "Jednorazovo";
+"transaction_occurrence_type_recurring" = "Opakujúce sa";
+
 "payment_status" = "Stav";
 "payment_status_completed" = "Dokončené";
 "payment_status_pending" = "Čaká";
@@ -351,6 +354,7 @@
 
 /* Items */
 "transaction_filter_type_title" = "Typ";
+"transaction_filter_occurrence_type_title" = "Opakovanie";
 "transaction_filter_amount_title" = "Suma";
 "transaction_filter_date_title" = "Dátum";
 "transaction_filter_status_title" = "Stav";

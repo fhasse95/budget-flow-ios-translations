@@ -61,6 +61,9 @@
 "transaction_type_expense_plural" = "Расходы";
 "transaction_type_transfer_plural" = "Переводы";
 
+"transaction_occurrence_type_one_time" = "Однократно";
+"transaction_occurrence_type_recurring" = "Повторяющаяся";
+
 "payment_status" = "Статус";
 "payment_status_completed" = "Завершен";
 "payment_status_pending" = "Ожидание";
@@ -351,6 +354,7 @@
 
 /* Items */
 "transaction_filter_type_title" = "Тип";
+"transaction_filter_occurrence_type_title" = "Повторение";
 "transaction_filter_amount_title" = "Сумма";
 "transaction_filter_date_title" = "Дата";
 "transaction_filter_status_title" = "Статус";

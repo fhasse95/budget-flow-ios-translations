@@ -61,6 +61,9 @@
 "transaction_type_expense_plural" = "Troškovi";
 "transaction_type_transfer_plural" = "Prijenosi";
 
+"transaction_occurrence_type_one_time" = "Jednokratno";
+"transaction_occurrence_type_recurring" = "Ponavljajuće";
+
 "payment_status" = "Stanje";
 "payment_status_completed" = "Dovršeno";
 "payment_status_pending" = "Na čekanju";
@@ -351,6 +354,7 @@
 
 /* Items */
 "transaction_filter_type_title" = "Vrsta";
+"transaction_filter_occurrence_type_title" = "Ponavljanje";
 "transaction_filter_amount_title" = "Iznos";
 "transaction_filter_date_title" = "Datum";
 "transaction_filter_status_title" = "Status";

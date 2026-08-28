@@ -20,16 +20,20 @@
 /* MARK: - Miscellaneous */
 "face_id" = "Face ID";
 "touch_id" = "Touch ID";
+"biometrics" = "Биометрия";
+
 "required" = "Требуется";
 "optional" = "Необязательно";
-"uncategorized" = "Без категории";
+
 "before" = "до";
+"uncategorized" = "Без категории";
 "account_reconcilation" = "Сверка счета";
+
 "evaluated" = "Оценено";
 "not_evaluated" = "Не оценено";
+
 "share_participant_owner" = "Владелец";
 "share_participant_you" = "Вы";
-
 
 /* MARK: - Enums */
 "account_type_cash" = "Наличные";
@@ -56,6 +60,9 @@
 "transaction_type_income_plural" = "Доходы";
 "transaction_type_expense_plural" = "Расходы";
 "transaction_type_transfer_plural" = "Переводы";
+
+"transaction_occurrence_type_one_time" = "Однократно";
+"transaction_occurrence_type_recurring" = "Повторяющаяся";
 
 "payment_status" = "Статус";
 "payment_status_completed" = "Завершен";
@@ -289,6 +296,8 @@
 
 "open_button" = "Открыть";
 "open_folder_button" = "Открыть папку";
+"local_folder_button" = "Локальная папка";
+"icloud_drive_folder_button" = "iCloud Drive";
 "open_in_browser_button" = "Открыть в браузере";
 
 "show_more_button" = "Показать все";
@@ -311,7 +320,6 @@
 "get_started_button" = "Начать";
 
 "show_transactions_button" = "Показать операции";
-"show_in_app_store_button" = "Показать в App Store";
 
 "flip_values_button" = "Поменять ⇅";
 
@@ -329,7 +337,7 @@
 "alert_cloud_share_unknown_error_message" = "Не удалось завершить общий доступ, поскольку произошла ошибка. Вероятно, в вашем iCloud недостаточно места. Освободите место и повторите попытку.";
 
 
-/* MARK: - Search View */
+/* MARK: - Transaction Search View */
 /* Titles */
 "search_title" = "Поиск";
 "filter_title" = "Фильтр";
@@ -337,6 +345,31 @@
 /* Sections */
 "search_text_section_title" = "Поиск текста";
 "search_suggestions_section_title" = "Предложения";
+
+
+/* MARK: - Transaction Filter */
+/* Sections */
+"transaction_filter_general_section_title" = "Общие";
+"transaction_filter_assignment_section_title" = "Назначение";
+
+/* Items */
+"transaction_filter_type_title" = "Тип";
+"transaction_filter_occurrence_type_title" = "Повторение";
+"transaction_filter_amount_title" = "Сумма";
+"transaction_filter_date_title" = "Дата";
+"transaction_filter_status_title" = "Статус";
+
+"transaction_filter_accounts_title" = "Счета";
+"transaction_filter_categories_title" = "Категории";
+"transaction_filter_payees_title" = "Получатели";
+"transaction_filter_tags_title" = "Теги";
+"transaction_filter_people_title" = "Люди";
+
+"transaction_filter_all_title" = "Все";
+"transaction_filter_any_title" = "Любой";
+
+/* Formats */
+"transaction_filter_range_format" = "%@ — %@";
 
 
 /* MARK: - Period Selection View */
@@ -408,17 +441,6 @@
 /* Info */
 "recurring_transactions_info_title" = "Описание";
 "recurring_transactions_info_description" = "Создавайте повторяющиеся транзакции, чтобы они автоматически добавлялись в приложение по мере наступления срока оплаты.";
-
-/* Sections */
-"account_filter_section_title" = "Счет";
-"category_filter_section_title" = "Категория";
-"payee_filter_section_title" = "Получатель";
-"tag_filter_section_title" = "Тег";
-"user_filter_section_title" = "Участник";
-"payment_status_filter_section_title" = "Платеж";
-"transaction_type_filter_section_title" = "Тип";
-"date_range_filter_section_title" = "Дата";
-"amount_range_filter_section_title" = "Сумма";
 
 /* Messages */
 "no_transactions_title" = "Нет операций";
@@ -597,36 +619,11 @@
 
 "contact_developer_mail_subject" = "%@: %@%@";
 "contact_developer_mail_subject_full_version" = " (full version)";
-"contact_developer_mail_message" = "
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-<b>Support Information:</b>
-</br>
-<u>General:</u></br>
-- Device: %@</br>
-- iOS version: %@</br>
-- Language: %@</br>
-- Currency: %@</br>
-- Time zone: %@</br>
-</br>
-<u>App Specific:</u></br>
-- App version: %@</br>
-- Build: %@</br>
-</br>
-<u>In-App Purchases:</u></br>
-- User ID: %@</br>
-- Active: %@</br>
-- Purchases: %@";
-"contact_developer_mail_no_purchases" = "None";
 
-/* Appearance Settings */
+/* MARK: - Appearance Settings View */
+/* Info */
 "appearance_setting_info_title" = "Описание";
-"appearance_setting_info_description" = "Настройте приложение по своему вкусу, изменив его внешний вид или цвет акцента.";
+"appearance_setting_info_description" = "Настройте приложение по своему вкусу, изменив его внешний вид.";
 "appearance_ui_style_setting_section_title" = "Тема";
 "appearance_ui_style_apply_to_icons_title" = "Применить к иконкам";
 "appearance_ui_style_apply_to_icons_description" = "Также применить выбранный стиль ко всем иконкам в приложении.";
@@ -634,7 +631,8 @@
 "appearance_accent_color_setting_footer_title" = "Изменяет цвет кнопок и других элементов управления в приложении.";
 "appearance_app_icon_setting_section_title" = "Значок приложения";
 
-/* Sync & Data Settings */
+/* MARK: - Sync & Data Settings View */
+/* Info */
 "sync_and_data_setting_info_title" = "Описание";
 "sync_and_data_setting_info_description" = "Получить обзор текущего состояния синхронизации и импортировать или экспортировать данные с помощью CSV-файла.";
 
@@ -662,7 +660,14 @@
 "alert_csv_export_successful_title" = "Экспорт выполнен успешно 🎉";
 "alert_csv_export_successful_message" = "Ваши данные успешно экспортированы в \"%@\".";
 
-/* Cloud Settings */
+/* Progress */
+"alert_csv_export_progress_title" = "Экспорт";
+"csv_export_progress_preparing" = "Подготовка экспорта";
+"csv_export_progress_transactions" = "Транзакции";
+"csv_export_progress_finishing" = "Завершение экспорта";
+
+/* MARK: - Cloud Settings View */
+/* Info */
 "cloud_setting_info_title" = "Описание";
 "cloud_setting_info_description" = "Следующее представление предоставляет более подробный обзор текущего состояния синхронизации iCloud и помогает при устранении неполадок.";
 
@@ -685,20 +690,63 @@
 "import_from_cloud_button" = "Загрузить из iCloud";
 "manual_sync_cloud_setting_footer_title" = "Если ваши данные не были или не полностью синхронизированы с iCloud, вы можете вручную запустить синхронизацию здесь.";
 
-/* Backup Settings */
+/* MARK: - Backup Settings View */
+/* Info */
 "backup_setting_info_title" = "Описание";
 "backup_setting_info_description" = "Если включена, эту функция будет регулярно создавать резервные копии ваших данных, чтобы вы могли в любой момент восстановить приложение до предыдущего состояния.";
 
-"backup_general_setting_section_title" = "Общие";
-"backup_recent_backups_setting_section_title" = "Последние резервные копии";
+"backup_setting_general_section_title" = "Общие";
+"backup_setting_recent_section_title" = "Последние резервные копии";
 "backup_setting_use_automatic_backups_title" = "Автоматическое резервное копирование";
+"backup_setting_back_up_to_icloud_drive_title" = "Создавать копии в iCloud Drive";
+
+"backup_setting_keep_backups_title" = "Хранить резервные копии";
+"backup_setting_keep_backups_last_5_title" = "Последние 5";
+"backup_setting_keep_backups_last_10_title" = "Последние 10";
+"backup_setting_keep_backups_last_20_title" = "Последние 20";
+"backup_setting_keep_backups_last_30_title" = "Последние 30";
+"backup_setting_keep_backups_all_title" = "Все";
+
 "backup_setting_create_backup_title" = "Создать резервную копию";
 
-"alert_restore_backup_title" = "Восстановить эту резервную копию?";
-"alert_restore_backup_message" = "Восстановление резервных копий в настоящее время является экспериментальной функцией. Она удалит ваши текущие данные и перезапишет их выбранной резервной копией.\n\nПосле этого приложение закроется автоматически.\n\nВнимание: этот процесс нельзя отменить!";
+"backup_setting_no_recent_backups_title" = "Нет доступных резервных копий";
+"backup_setting_backup_subtitle" = "%@ · %@";
+
+"backup_setting_delete_backup_alert_title" = "Удалить резервную копию";
+"backup_setting_delete_backup_alert_message" = "Вы действительно хотите удалить эту резервную копию?";
+
+"backup_setting_restore_success_title" = "Резервная копия восстановлена";
+"backup_setting_restore_success_message" = "Выбранная резервная копия восстановлена.";
+
+"backup_setting_error_title" = "Не удалось создать резервную копию";
+"backup_setting_icloud_drive_unavailable_error" = "iCloud Drive недоступен на этом устройстве.";
+"backup_setting_could_not_create_backup_directory_error" = "Не удалось создать папку резервных копий.";
+
+"alert_restore_backup_title" = "Восстановить резервную копию";
+"alert_restore_backup_message" = "Вы действительно хотите восстановить эту резервную копию?\n\nТекущие данные будут удалены и заменены данными из выбранной резервной копии.\n\nВнимание: это действие нельзя отменить!";
 "alert_restore_backup_button" = "Восстановить резервную копию";
 
-/* Advanced Settings */
+/* Progress */
+"backup_restore_progress_alert_title" = "Восстановление резервной копии";
+"backup_restore_progress_preparing" = "Подготовка резервной копии";
+"backup_restore_progress_validating" = "Проверка резервной копии";
+"backup_restore_progress_reading_data" = "Чтение данных резервной копии";
+"backup_restore_progress_deleting_existing_data" = "Удаление существующих данных";
+"backup_restore_progress_finishing" = "Завершение восстановления";
+
+/* Progress Entities */
+"backup_restore_progress_budget_books" = "Бюджетные книги";
+"backup_restore_progress_accounts" = "Счета";
+"backup_restore_progress_category_groups" = "Папка";
+"backup_restore_progress_categories" = "Категории";
+"backup_restore_progress_payees" = "Получатели платежей";
+"backup_restore_progress_tags" = "Теги";
+"backup_restore_progress_budgets" = "Бюджеты";
+"backup_restore_progress_transaction_groups" = "Группы транзакций";
+"backup_restore_progress_transactions" = "Транзакции";
+"backup_restore_progress_reminders" = "Напоминания";
+
+/* MARK: - Advanced Settings View */
 "advanced_setting_info_title" = "Описание";
 "advanced_setting_info_description" = "Выполните дополнительные настройки, чтобы настроить приложение.";
 
@@ -715,8 +763,10 @@
 "advanced_setting_auto_lock_title" = "Спрашивать пароль";
 
 "advanced_setting_chart_type_title" = "Тип диаграммы";
-"advanced_setting_show_frequently_used_items_title" = "Показывать часто используемые категории и теги";
-"advanced_setting_show_frequently_used_items_description" = "Включите эту функцию, чтобы отображать часто используемые категории и теги в списке выбора при создании и редактировании транзакций.";
+"advanced_setting_show_most_used_items_title" = "Показывать наиболее используемые категории и теги";
+"advanced_setting_show_most_used_items_description" = "Показывать наиболее используемые категории и теги в списке выбора при создании и редактировании транзакций.";
+"advanced_setting_remove_most_used_items_from_groups_title" = "Удалять наиболее используемые категории и теги из групп";
+"advanced_setting_remove_most_used_items_from_groups_description" = "Удаляйте наиболее используемые категории и теги из их обычных групп в списке выбора при создании и редактировании транзакций.";
 "advanced_setting_show_notes_in_title_title" = "Показывать заметки вместо категории";
 "advanced_setting_show_notes_in_title_description" = "Отображать заметку вместо названия категории в списке операций.";
 "advanced_setting_start_day_of_month_title" = "День начала месяца";
@@ -783,7 +833,15 @@
 "alert_share_app_type_selection_qrcode_button" = "QR-код";
 
 "alert_reset_app_title" = "Сбросить приложение";
-"alert_reset_app_message" = "Вы действительно хотите сбросить настройки приложения до значений по умолчанию? Это безвозвратно удалит все ваши данные, хранящиеся на этом устройстве и в iCloud.";
+"alert_reset_app_message" = "Вы действительно хотите сбросить приложение до настроек по умолчанию? Это безвозвратно удалит все ваши данные.";
+
+/* Progress */
+"alert_app_reset_progress_title" = "Сбросить приложение";
+"app_reset_progress_preparing" = "Подготовка сброса приложения";
+"app_reset_progress_deleting_existing_notifications" = "Удаление существующих уведомлений";
+"app_reset_progress_deleting_existing_data" = "Удаление существующих данных";
+"app_reset_progress_deleting_existing_settings" = "Удаление существующих настроек";
+"app_reset_progress_finishing" = "Завершение сброса приложения";
 
 "alert_error_title" = "Произошла ошибка 😢";
 
@@ -800,7 +858,7 @@
 "passcode_view_enter_passcode_title" = "Введите пароль";
 "passcode_view_create_passcode_title" = "Создать пароль";
 "passcode_view_confirm_passcode_title" = "Подтвердите пароль";
-"passcode_view_authenticate_reason" = "Аутентификация пользователя";
+"passcode_view_authenticate_reason" = "Требуется аутентификация";
 
 /* Alert Views */
 "alert_set_passcode_type_title" = "Выберите тип пароля";
@@ -834,19 +892,6 @@
 /* Buttons */
 "new_features_view_rate_app_button" = "Оценить приложение";
 "new_features_view_close_button" = "Может быть позже";
-
-
-/* MARK: - Rate App View */
-/* Titles */
-"purchase_success_view_title" = "Спасибо!";
-
-/* Messages */
-"purchase_success_view_info_message" = "Если вам понравилось приложение, напишите положительный отзыв в App Store. Это действительно очень помогает и мотивирует постоянно улучшать приложение. 😊";
-"purchase_success_view_info_message_info" = "\n\nИнформация: При переходе от подписки к пожизненной покупке не забудьте отменить свою текущую подписку после этого.";
-
-/* Buttons */
-"purchase_success_view_rate_app_button" = "Оценить приложение";
-"purchase_success_view_close_button" = "Может быть позже";
 
 
 /* MARK: - Upgrade View */
@@ -958,12 +1003,13 @@
 "alert_upgrade_view_purchase_success_title" = "Покупка прошла успешно 🎉";
 "alert_upgrade_view_purchase_success_message" = "Спасибо за поддержку! 😊";
 "alert_upgrade_view_purchase_success_message_info" = "\n\nИнформация: если вы перейдете с подписки на разовую покупку, не забудьте впоследствии отменить предыдущую подписку.";
+
 "alert_upgrade_view_purchase_error_message" = "Ваша покупка не может быть успешно завершена";
-"alert_upgrade_view_purchase_error_store_problem_message" = "Возникла проблема с App Store.\n\nИнформация: иногда покупка может сработать только в том случае, если вы подтвердите свой пароль вместо Touch ID / Face ID.\n\nНапример, если вы используете Face ID, просто закройте переднюю камеру и попробуйте снова, чтобы увидеть диалоговое окно пароля.";
+"alert_upgrade_view_purchase_error_store_problem_message" = "Возникла проблема с App Store.";
+"alert_upgrade_view_purchase_error_store_problem_message_info" = "\n\nИнформация: иногда покупка может сработать только в том случае, если вы подтвердите свой пароль вместо Touch ID / Face ID.\n\nНапример, если вы используете Face ID, просто закройте переднюю камеру и попробуйте снова, чтобы увидеть диалоговое окно пароля.";
 "alert_upgrade_view_purchase_error_not_allowed_message" = "Покупки на этом устройстве запрещены.";
 "alert_upgrade_view_purchase_error_invalid_message" = "Проверьте способ оплаты и повторите попытку позже. Если ошибка повторится, обратитесь в службу поддержки.";
 "alert_upgrade_view_purchase_error_network_message" = "Проверьте подключение к Интернету и повторите попытку позже. Если ошибка повторится, обратитесь в службу поддержки.";
-
 "alert_upgrade_view_load_products_error_message" = "Не удалось загрузить продукты. Проверьте подключение к Интернету и повторите попытку позже. Если ошибка повторится, обратитесь в службу поддержки";
 
 "alert_upgrade_view_restore_success_title" = "Покупки восстановлены";
@@ -985,19 +1031,20 @@
 "upgrade_faq_about_title" = "Что такое Budget Flow?";
 "upgrade_faq_about_value" = "Budget Flow — это современное и простое в использовании приложение для отслеживания бюджета для всех, кто хочет отслеживать свои финансы и эффективно управлять своими расходами.";
 "upgrade_faq_developer_title" = "Кто разработал приложение?";
-"upgrade_faq_developer_value" = "Budget Flow был запущен как сторонний проект и с тех пор был полностью спроектирован, разработан и поддерживается мной, Fabian Hasse. Я энтузиаст-разработчик программного обеспечения с более чем 10-летним опытом и работаю с большой страстью, чтобы разработать лучшее приложение для бюджетирования и отслеживания расходов в App Store.";
+"upgrade_faq_developer_value" = "Budget Flow был запущен как сторонний проект и с тех пор был полностью спроектирован, разработан и поддерживается мной, Fabian Hasse. Я энтузиаст-разработчик программного обеспечения с более чем 10-летним опытом и работаю с большой страстью, чтобы разработать лучшее приложение для бюджетирования и отслеживания расходов.";
 "upgrade_faq_free_use_title" = "Можно ли использовать приложение бесплатно?";
 "upgrade_faq_free_use_value" = "Да, вы можете использовать основные функции приложения, такие как создание операций, совершенно бесплатно.\n\nКроме того, приложение предлагает пробный период для полной версии, чтобы вы могли опробовать ее заранее. прежде чем вы решите приобрести или подписаться на полную версию.";
 "upgrade_faq_security_title" = "Мои данные в безопасности?";
-"upgrade_faq_security_value" = "Ваши финансы конфиденциальны — и должны оставаться таковыми. Вот почему ваши данные хранятся исключительно на вашем устройстве или (опционально) в вашем личном iCloud.";
+"upgrade_faq_security_value" = "Ваши финансы конфиденциальны — и должны оставаться таковыми. Вот почему ваши данные хранятся исключительно на вашем устройстве.";
+"upgrade_faq_security_value_icloud_suffix" = " или (опционально) в вашем личном iCloud.";
 "upgrade_faq_why_subscription_title" = "Почему полная версия предлагается по подписке?";
-"upgrade_faq_why_subscription_value" = "Наша цель — разработать высококачественное приложение, которое регулярно предлагает вам как пользователю новые функции и улучшения. Однако для достижения этой цели приложению требуется постоянный доход, чтобы финансировать себя и быть экономически устойчивым.\n\nО чем многие не знают Разработка и поддержка приложения занимает много времени. Например, в случае с Budget Flow от идеи до разработки прошло почти два года и несколько тысяч часов работы и тестирование перед выпуском первой версии в App Store.\n\nКак клиент, вы, в частности, получаете выгоду от регулярных обновлений и улучшений по модели подписки, а также хорошую поддержку, чтобы гарантировать, что вы и дальше будете довольны. также у вас есть возможность заранее попробовать приложение бесплатно, чтобы убедиться, что оно соответствует вашим потребностям. Вы можете изменить или отменить подписку в любое время, если передумаете.\n\nВ целом, модель подписки дает вам много преимуществ как клиент и лучший пользовательский опыт благодаря постоянным обновлениям и поддержке по сравнению с разовой покупкой. В долгосрочной перспективе разовая покупка, к сожалению, не будет устойчивой, поскольку эта бизнес-модель требует, чтобы новые пользователи продолжали покупать приложение, чтобы обеспечить продолжение разработки.\n\nПоэтому, если вам нравится приложение, мы будем очень рады. если вы поддержите нашу работу, чтобы мы могли продолжать предлагать вам еще больше замечательных функций в будущем!❤️";
+"upgrade_faq_why_subscription_value" = "Наша цель — разработать высококачественное приложение, которое регулярно предлагает вам как пользователю новые функции и улучшения. Однако для достижения этой цели приложению требуется постоянный доход, чтобы финансировать себя и быть экономически устойчивым.\n\nО чем многие не знают Разработка и поддержка приложения занимает много времени. Например, в случае с Budget Flow от идеи до разработки прошло почти два года и несколько тысяч часов работы и тестирование перед выпуском первой версии.\n\nКак клиент, вы, в частности, получаете выгоду от регулярных обновлений и улучшений по модели подписки, а также хорошую поддержку, чтобы гарантировать, что вы и дальше будете довольны. также у вас есть возможность заранее попробовать приложение бесплатно, чтобы убедиться, что оно соответствует вашим потребностям. Вы можете изменить или отменить подписку в любое время, если передумаете.\n\nВ целом, модель подписки дает вам много преимуществ как клиент и лучший пользовательский опыт благодаря постоянным обновлениям и поддержке по сравнению с разовой покупкой. В долгосрочной перспективе разовая покупка, к сожалению, не будет устойчивой, поскольку эта бизнес-модель требует, чтобы новые пользователи продолжали покупать приложение, чтобы обеспечить продолжение разработки.\n\nПоэтому, если вам нравится приложение, мы будем очень рады. если вы поддержите нашу работу, чтобы мы могли продолжать предлагать вам еще больше замечательных функций в будущем!❤️";
 "upgrade_faq_multiple_devices_title" = "Могу ли я использовать полную версию на нескольких устройствах?";
-"upgrade_faq_multiple_devices_value" = "Да, вы можете использовать полную версию Budget Flow на всех своих устройствах Apple с одним и тем же Apple ID. Поскольку приложение синхронизируется через iCloud, вы можете легко переключаться между своими устройствами и всегда иметь доступ к своим финансовым данным. и настройки.";
+"upgrade_faq_multiple_devices_value" = "Да, вы можете использовать полную версию Budget Flow на всех своих устройствах Apple с одним и той же учетной записью Apple. Поскольку приложение синхронизируется через iCloud, вы можете легко переключаться между своими устройствами и всегда иметь доступ к своим финансовым данным. и настройки.";
 "upgrade_faq_multiple_people_title" = "Могу ли я использовать полную версию с несколькими людьми?";
 "upgrade_faq_multiple_people_value" = "Да, вы можете поделиться разовой покупкой, а также подпиской на полную версию с пятью людьми в семейной группе. Все, что вам нужно сделать, это включить семейный доступ в настройках системы и добавить другие люди в группу приглашают.";
 "upgrade_faq_cancel_subscription_title" = "Как отменить подписку?";
-"upgrade_faq_cancel_subscription_value" = "Вы можете отменить подписку в любое время, используя свой Apple ID в Системных настройках.";
+"upgrade_faq_cancel_subscription_value" = "Вы можете отменить подписку в любое время, используя свою учетную запись Apple в Системных настройках.";
 "upgrade_faq_subscription_data_loss_title" = "Мои данные будут потеряны, если я отменю подписку?";
 "upgrade_faq_subscription_data_loss_value" = "Нет. Все, что вы создадите при подписке на полную версию, будет по-прежнему доступно, если вы вернетесь к бесплатной версии.";
 "upgrade_faq_refund_title" = "Как я могу получить возмещение?";
@@ -1203,7 +1250,7 @@
 "time_zone_selection_title" = "Часовой пояс";
 
 /* Messages */
-"no_timezones_found_title" = "Часовые пояса не найдены";
+"no_time_zones_found_title" = "Часовые пояса не найдены";
 "time_zone_selection_search_placeholder_message" = "Поиск часового пояса страны или города";
 
 
@@ -1484,6 +1531,8 @@
 
 /* Sections */
 "form_general_section_title" = "Общие";
+"form_csv_date_format_suggestions_section_title" = "Предложения";
+"form_csv_date_format_other_section_title" = "Другое";
 
 /* Footer */
 "form_invalid_footer_title" = "Ошибка:";

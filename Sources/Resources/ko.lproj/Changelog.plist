@@ -3,7 +3,11 @@
 <plist version="1.0">
 <dict>
 	<key>3.2.0</key>
-	<array>
+	<dict>
+		<key>Summary</key>
+		<string>이번 릴리스에서는 영수증 스캔 기능을 개선하고, 더 많은 아이콘을 추가했으며, 노르웨이어 번역을 최적화했습니다.</string>
+		<key>Items</key>
+		<array>
 		<dict>
 			<key>Title</key>
 			<string>향상된 영수증 스캐너</string>
@@ -34,6 +38,7 @@
 			<key>IconColor</key>
 			<string>#0088ff</string>
 		</dict>
-	</array>
+		</array>
+	</dict>
 </dict>
 </plist>

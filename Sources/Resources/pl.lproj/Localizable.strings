@@ -20,16 +20,20 @@
 /* MARK: - Miscellaneous */
 "face_id" = "Face ID";
 "touch_id" = "Touch ID";
+"biometrics" = "Biometria";
+
 "required" = "Wymagane";
 "optional" = "Opcjonalnie";
-"uncategorized" = "Bez kategorii";
+
 "before" = "przed";
+"uncategorized" = "Bez kategorii";
 "account_reconcilation" = "Uzgadnianie konta";
+
 "evaluated" = "Oceniony";
 "not_evaluated" = "Nieoceniony";
+
 "share_participant_owner" = "Właściciel";
 "share_participant_you" = "Ty";
-
 
 /* MARK: - Enums */
 "account_type_cash" = "Gotówka";
@@ -56,6 +60,9 @@
 "transaction_type_income_plural" = "Dochody";
 "transaction_type_expense_plural" = "Wydatki";
 "transaction_type_transfer_plural" = "Przelewy";
+
+"transaction_occurrence_type_one_time" = "Jednorazowa";
+"transaction_occurrence_type_recurring" = "Cykliczna";
 
 "payment_status" = "Status";
 "payment_status_completed" = "Zakończono";
@@ -289,6 +296,8 @@
 
 "open_button" = "Otwórz";
 "open_folder_button" = "Otwórz folder";
+"local_folder_button" = "Folder lokalny";
+"icloud_drive_folder_button" = "iCloud Drive";
 "open_in_browser_button" = "Otwórz w przeglądarce";
 
 "show_more_button" = "Pokaż więcej";
@@ -311,7 +320,6 @@
 "get_started_button" = "Rozpocznij";
 
 "show_transactions_button" = "Pokaż transakcje";
-"show_in_app_store_button" = "Pokaż w App Store";
 
 "flip_values_button" = "Odwróć ⇅";
 
@@ -329,7 +337,7 @@
 "alert_cloud_share_unknown_error_message" = "Nie można dokończyć udostępniania z powodu błędu. Prawdopodobnie nie ma wystarczającej ilości miejsca w Twoim iCloud. Zwolnij trochę miejsca i spróbuj ponownie.";
 
 
-/* MARK: - Search View */
+/* MARK: - Transaction Search View */
 /* Titles */
 "search_title" = "Szukaj";
 "filter_title" = "Filtruj";
@@ -337,6 +345,31 @@
 /* Sections */
 "search_text_section_title" = "Tekst wyszukiwania";
 "search_suggestions_section_title" = "Sugestie";
+
+
+/* MARK: - Transaction Filter */
+/* Sections */
+"transaction_filter_general_section_title" = "Ogólne";
+"transaction_filter_assignment_section_title" = "Przypisanie";
+
+/* Items */
+"transaction_filter_type_title" = "Typ";
+"transaction_filter_occurrence_type_title" = "Powtarzanie";
+"transaction_filter_amount_title" = "Kwota";
+"transaction_filter_date_title" = "Data";
+"transaction_filter_status_title" = "Status";
+
+"transaction_filter_accounts_title" = "Konta";
+"transaction_filter_categories_title" = "Kategorie";
+"transaction_filter_payees_title" = "Odbiorcy";
+"transaction_filter_tags_title" = "Tagi";
+"transaction_filter_people_title" = "Osoby";
+
+"transaction_filter_all_title" = "Wszystkie";
+"transaction_filter_any_title" = "Dowolne";
+
+/* Formats */
+"transaction_filter_range_format" = "%@ do %@";
 
 
 /* MARK: - Period Selection View */
@@ -408,17 +441,6 @@
 /* Info */
 "recurring_transactions_info_title" = "Opis";
 "recurring_transactions_info_description" = "Utwórz transakcje cykliczne, aby były automatycznie dodawane do aplikacji w odpowiednim momencie.";
-
-/* Sections */
-"account_filter_section_title" = "Konto";
-"category_filter_section_title" = "Kategoria";
-"payee_filter_section_title" = "Odbiorcy";
-"tag_filter_section_title" = "Znacznik";
-"user_filter_section_title" = "Osoba";
-"payment_status_filter_section_title" = "Płatność";
-"transaction_type_filter_section_title" = "Typ";
-"date_range_filter_section_title" = "Data";
-"amount_range_filter_section_title" = "Kwota";
 
 /* Messages */
 "no_transactions_title" = "Brak transakcji";
@@ -597,36 +619,11 @@
 
 "contact_developer_mail_subject" = "%@: %@%@";
 "contact_developer_mail_subject_full_version" = " (full version)";
-"contact_developer_mail_message" = "
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-<b>Support Information:</b>
-</br>
-<u>General:</u></br>
-- Device: %@</br>
-- iOS version: %@</br>
-- Language: %@</br>
-- Currency: %@</br>
-- Time zone: %@</br>
-</br>
-<u>App Specific:</u></br>
-- App version: %@</br>
-- Build: %@</br>
-</br>
-<u>In-App Purchases:</u></br>
-- User ID: %@</br>
-- Active: %@</br>
-- Purchases: %@";
-"contact_developer_mail_no_purchases" = "None";
 
-/* Appearance Settings */
+/* MARK: - Appearance Settings View */
+/* Info */
 "appearance_setting_info_title" = "Opis";
-"appearance_setting_info_description" = "Spersonalizuj aplikację według własnych upodobań, zmieniając jej wygląd lub kolor akcentów.";
+"appearance_setting_info_description" = "Spersonalizuj aplikację według własnych upodobań, zmieniając jej wygląd.";
 "appearance_ui_style_setting_section_title" = "Motyw";
 "appearance_ui_style_apply_to_icons_title" = "Zastosuj do ikon";
 "appearance_ui_style_apply_to_icons_description" = "Zastosuj również wybrany wygląd do wszystkich ikon w aplikacji.";
@@ -634,7 +631,8 @@
 "appearance_accent_color_setting_footer_title" = "Zmienia kolor przycisków i innych elementów sterujących w aplikacji.";
 "appearance_app_icon_setting_section_title" = "Ikona aplikacji";
 
-/* Sync & Data Settings */
+/* MARK: - Sync & Data Settings View */
+/* Info */
 "sync_and_data_setting_info_title" = "Opis";
 "sync_and_data_setting_info_description" = "Uzyskaj przegląd aktualnego stanu synchronizacji i importuj lub eksportuj dane za pomocą pliku CSV.";
 
@@ -662,7 +660,14 @@
 "alert_csv_export_successful_title" = "Eksportowanie powiodło się 🎉";
 "alert_csv_export_successful_message" = "Twoje dane zostały pomyślnie wyeksportowane do \"%@\".";
 
-/* Cloud Settings */
+/* Progress */
+"alert_csv_export_progress_title" = "Eksport";
+"csv_export_progress_preparing" = "Przygotowywanie eksportu";
+"csv_export_progress_transactions" = "Transakcje";
+"csv_export_progress_finishing" = "Kończenie eksportu";
+
+/* MARK: - Cloud Settings View */
+/* Info */
 "cloud_setting_info_title" = "Opis";
 "cloud_setting_info_description" = "Następujący widok zawiera bardziej szczegółowy przegląd bieżącego stanu synchronizacji iCloud i pomaga w rozwiązywaniu problemów.";
 
@@ -685,20 +690,63 @@
 "import_from_cloud_button" = "Pobierz z iCloud";
 "manual_sync_cloud_setting_footer_title" = "Jeśli Twoje dane nie zostały lub nie zostały w pełni zsynchronizowane z iCloud, możesz ręcznie uruchomić synchronizację tutaj.";
 
-/* Backup Settings */
+/* MARK: - Backup Settings View */
+/* Info */
 "backup_setting_info_title" = "Opis";
 "backup_setting_info_description" = "Jeśli ta opcja jest włączona, Budget Flow regularnie tworzy kopię zapasową Twoich danych, dzięki czemu możesz w dowolnej chwili przywrócić aplikację do poprzedniego stanu.";
 
-"backup_general_setting_section_title" = "Ogólne";
-"backup_recent_backups_setting_section_title" = "Ostatnie kopie zapasowe";
+"backup_setting_general_section_title" = "Ogólne";
+"backup_setting_recent_section_title" = "Ostatnie kopie zapasowe";
 "backup_setting_use_automatic_backups_title" = "Automatyczna kopia zapasowa";
+"backup_setting_back_up_to_icloud_drive_title" = "Utwórz kopię w iCloud Drive";
+
+"backup_setting_keep_backups_title" = "Zachowaj kopie zapasowe";
+"backup_setting_keep_backups_last_5_title" = "Ostatnie 5";
+"backup_setting_keep_backups_last_10_title" = "Ostatnie 10";
+"backup_setting_keep_backups_last_20_title" = "Ostatnie 20";
+"backup_setting_keep_backups_last_30_title" = "Ostatnie 30";
+"backup_setting_keep_backups_all_title" = "Wszystkie";
+
 "backup_setting_create_backup_title" = "Utwórz kopię zapasową";
 
-"alert_restore_backup_title" = "Przywrócić tę kopię zapasową?";
-"alert_restore_backup_message" = "Przywracanie kopii zapasowych jest obecnie funkcją eksperymentalną. Spowoduje usunięcie bieżących danych i nadpisanie ich wybraną kopią zapasową.\n\nPotem aplikacja zostanie automatycznie zamknięta.\n\nOstrzeżenie: Tego procesu nie można cofnąć!";
+"backup_setting_no_recent_backups_title" = "Brak dostępnych kopii zapasowych";
+"backup_setting_backup_subtitle" = "%@ · %@";
+
+"backup_setting_delete_backup_alert_title" = "Usuń kopię zapasową";
+"backup_setting_delete_backup_alert_message" = "Czy na pewno chcesz usunąć tę kopię zapasową?";
+
+"backup_setting_restore_success_title" = "Kopia zapasowa przywrócona";
+"backup_setting_restore_success_message" = "Wybrana kopia zapasowa została przywrócona.";
+
+"backup_setting_error_title" = "Tworzenie kopii zapasowej nie powiodło się";
+"backup_setting_icloud_drive_unavailable_error" = "iCloud Drive nie jest dostępny na tym urządzeniu.";
+"backup_setting_could_not_create_backup_directory_error" = "Nie można utworzyć folderu kopii zapasowych.";
+
+"alert_restore_backup_title" = "Przywróć kopię zapasową";
+"alert_restore_backup_message" = "Czy na pewno chcesz przywrócić tę kopię zapasową?\n\nSpowoduje to usunięcie bieżących danych i zastąpienie ich danymi z wybranej kopii zapasowej.\n\nOstrzeżenie: Tej czynności nie można cofnąć!";
 "alert_restore_backup_button" = "Przywróć kopię zapasową";
 
-/* Advanced Settings */
+/* Progress */
+"backup_restore_progress_alert_title" = "Przywracanie kopii zapasowej";
+"backup_restore_progress_preparing" = "Przygotowywanie kopii zapasowej";
+"backup_restore_progress_validating" = "Sprawdzanie kopii zapasowej";
+"backup_restore_progress_reading_data" = "Odczytywanie danych kopii zapasowej";
+"backup_restore_progress_deleting_existing_data" = "Usuwanie istniejących danych";
+"backup_restore_progress_finishing" = "Kończenie przywracania";
+
+/* Progress Entities */
+"backup_restore_progress_budget_books" = "Księgi budżetowe";
+"backup_restore_progress_accounts" = "Konta";
+"backup_restore_progress_category_groups" = "Folder";
+"backup_restore_progress_categories" = "Kategorie";
+"backup_restore_progress_payees" = "Odbiorcy płatności";
+"backup_restore_progress_tags" = "Tagi";
+"backup_restore_progress_budgets" = "Budżety";
+"backup_restore_progress_transaction_groups" = "Grupy transakcji";
+"backup_restore_progress_transactions" = "Transakcje";
+"backup_restore_progress_reminders" = "Przypomnienia";
+
+/* MARK: - Advanced Settings View */
 "advanced_setting_info_title" = "Opis";
 "advanced_setting_info_description" = "Wprowadź dalsze ustawienia, aby skonfigurować aplikację.";
 
@@ -715,8 +763,10 @@
 "advanced_setting_auto_lock_title" = "Poproś o kod";
 
 "advanced_setting_chart_type_title" = "Typ wykresu";
-"advanced_setting_show_frequently_used_items_title" = "Pokaż częste kategorie i tagi";
-"advanced_setting_show_frequently_used_items_description" = "Pokaż często używane kategorie i znaczniki na liście wyboru podczas tworzenia i edytowania transakcji.";
+"advanced_setting_show_most_used_items_title" = "Pokaż najczęściej używane kategorie i tagi";
+"advanced_setting_show_most_used_items_description" = "Pokaż najczęściej używane kategorie i tagi na liście wyboru podczas tworzenia i edytowania transakcji.";
+"advanced_setting_remove_most_used_items_from_groups_title" = "Usuń najczęściej używane kategorie i tagi z grup";
+"advanced_setting_remove_most_used_items_from_groups_description" = "Usuń najczęściej używane kategorie i znaczniki z ich zwykłych grup na liście wyboru podczas tworzenia i edytowania transakcji.";
 "advanced_setting_show_notes_in_title_title" = "Pokaż notatki zamiast kategorii";
 "advanced_setting_show_notes_in_title_description" = "Pokaż zawartość notatek zamiast nazwy kategorii transakcji.";
 "advanced_setting_start_day_of_month_title" = "Dzień rozpoczynający miesiąc";
@@ -783,7 +833,15 @@
 "alert_share_app_type_selection_qrcode_button" = "Kod QR";
 
 "alert_reset_app_title" = "Zresetuj aplikację";
-"alert_reset_app_message" = "Czy na pewno chcesz zresetować aplikację do ustawień domyślnych? Spowoduje to trwałe usunięcie wszystkich danych przechowywanych na tym urządzeniu i iCloud.";
+"alert_reset_app_message" = "Czy na pewno chcesz zresetować aplikację do ustawień domyślnych? Spowoduje to trwałe usunięcie wszystkich danych.";
+
+/* Progress */
+"alert_app_reset_progress_title" = "Resetuj aplikację";
+"app_reset_progress_preparing" = "Przygotowywanie resetowania aplikacji";
+"app_reset_progress_deleting_existing_notifications" = "Usuwanie istniejących powiadomień";
+"app_reset_progress_deleting_existing_data" = "Usuwanie istniejących danych";
+"app_reset_progress_deleting_existing_settings" = "Usuwanie istniejących ustawień";
+"app_reset_progress_finishing" = "Kończenie resetowania aplikacji";
 
 "alert_error_title" = "Wystąpił błąd 😢";
 
@@ -800,7 +858,7 @@
 "passcode_view_enter_passcode_title" = "Wprowadź hasło";
 "passcode_view_create_passcode_title" = "Utwórz kod dostępu";
 "passcode_view_confirm_passcode_title" = "Potwierdź hasło";
-"passcode_view_authenticate_reason" = "Uwierzytelnianie użytkownika";
+"passcode_view_authenticate_reason" = "Wymagane uwierzytelnienie";
 
 /* Alert Views */
 "alert_set_passcode_type_title" = "Wybierz opcję kodu dostępu";
@@ -834,19 +892,6 @@
 /* Buttons */
 "new_features_view_rate_app_button" = "Oceń aplikację";
 "new_features_view_close_button" = "Może później";
-
-
-/* MARK: - Rate App View */
-/* Titles */
-"purchase_success_view_title" = "Dziękujemy!";
-
-/* Messages */
-"purchase_success_view_info_message" = "Jeśli podoba Ci się aplikacja, napisz pozytywną recenzję w App Store. To naprawdę bardzo pomaga i motywuje do ciągłego ulepszania aplikacji. 😊";
-"purchase_success_view_info_message_info" = "\n\nInfo: Gdy przejdziesz z subskrypcji na zakup na całe życie, pamiętaj, aby anulować swoją istniejącą subskrypcję po tym.";
-
-/* Buttons */
-"purchase_success_view_rate_app_button" = "Oceń aplikację";
-"purchase_success_view_close_button" = "Może później";
 
 
 /* MARK: - Upgrade View */
@@ -958,12 +1003,13 @@
 "alert_upgrade_view_purchase_success_title" = "Zakup pomyślny 🎉";
 "alert_upgrade_view_purchase_success_message" = "Dziękujemy za wsparcie! 😊";
 "alert_upgrade_view_purchase_success_message_info" = "\n\nInformacja: Jeśli przejdziesz z subskrypcji na zakup jednorazowy, pamiętaj, aby później anulować poprzednią subskrypcję.";
+
 "alert_upgrade_view_purchase_error_message" = "Twój zakup nie mógł zostać pomyślnie zrealizowany.";
-"alert_upgrade_view_purchase_error_store_problem_message" = "Wystąpił problem z App Store.\n\nInformacja: Czasami zakup może się udać tylko wtedy, gdy potwierdzisz hasłem zamiast Touch ID / Face ID.\n\nNa przykład, jeśli używasz Face ID, po prostu zakryj przednią kamerę i spróbuj ponownie, aby zobaczyć okno dialogowe hasła.";
+"alert_upgrade_view_purchase_error_store_problem_message" = "Wystąpił problem z App Store.";
+"alert_upgrade_view_purchase_error_store_problem_message_info" = "\n\nInformacja: Czasami zakup może się udać tylko wtedy, gdy potwierdzisz hasłem zamiast Touch ID / Face ID.\n\nNa przykład, jeśli używasz Face ID, po prostu zakryj przednią kamerę i spróbuj ponownie, aby zobaczyć okno dialogowe hasła.";
 "alert_upgrade_view_purchase_error_not_allowed_message" = "Zakupy na tym urządzeniu są niedozwolone.";
 "alert_upgrade_view_purchase_error_invalid_message" = "Sprawdź metodę płatności i spróbuj ponownie później. Jeśli błąd będzie się powtarzał, skontaktuj się z pomocą techniczną.";
 "alert_upgrade_view_purchase_error_network_message" = "Sprawdź swoje połączenie internetowe i spróbuj ponownie później. Jeśli błąd będzie się powtarzał, skontaktuj się z pomocą techniczną.";
-
 "alert_upgrade_view_load_products_error_message" = "Produkty nie mogły zostać załadowane. Sprawdź połączenie internetowe i spróbuj ponownie później. Jeśli błąd będzie się powtarzał, skontaktuj się z pomocą techniczną.";
 
 "alert_upgrade_view_restore_success_title" = "Przywrócono zakup";
@@ -985,19 +1031,20 @@
 "upgrade_faq_about_title" = "Co to jest Budget Flow?";
 "upgrade_faq_about_value" = "Budget Flow to nowoczesna i łatwa w użyciu aplikacja do śledzenia budżetu dla każdego, kto chce śledzić swoje finanse i efektywnie zarządzać wydatkami.";
 "upgrade_faq_developer_title" = "Kto opracował aplikację?";
-"upgrade_faq_developer_value" = "Budget Flow był początkowo projektem pobocznym, jednak od tego czasu stał się w pełni rozwiniętą aplikacją, która jest utrzymywana przeze mnie, Fabiana Hasse. Jestem pasjonatem programowania z ponad 10-letnim doświadczeniem i z wielkim zaangażowaniem pracuję nad stworzeniem najlepszej aplikacji do zarządzania budżetem i śledzenia wydatków w App Store.";
+"upgrade_faq_developer_value" = "Budget Flow był początkowo projektem pobocznym, jednak od tego czasu stał się w pełni rozwiniętą aplikacją, która jest utrzymywana przeze mnie, Fabiana Hasse. Jestem pasjonatem programowania z ponad 10-letnim doświadczeniem i z wielkim zaangażowaniem pracuję nad stworzeniem najlepszej aplikacji do zarządzania budżetem i śledzenia wydatków.";
 "upgrade_faq_free_use_title" = "Czy z aplikacji można również korzystać za darmo?";
 "upgrade_faq_free_use_value" = "Tak, możesz całkowicie bezpłatnie korzystać z podstawowych funkcji aplikacji, takich jak tworzenie transakcji.\n\nPonadto aplikacja oferuje okres próbny pełnej wersji, dzięki czemu możesz ją wypróbować z wyprzedzeniem zanim zdecydujesz się na zakup lub subskrypcję pełnej wersji.";
 "upgrade_faq_security_title" = "Czy moje dane są bezpieczne?";
-"upgrade_faq_security_value" = "Twoje finanse są prywatne – i powinny takie pozostać. Dlatego Twoje dane są przechowywane wyłącznie na Twoim urządzeniu lub (opcjonalnie) w Twoim osobistym iCloud.";
+"upgrade_faq_security_value" = "Twoje finanse są prywatne – i powinny takie pozostać. Dlatego Twoje dane są przechowywane wyłącznie na Twoim urządzeniu.";
+"upgrade_faq_security_value_icloud_suffix" = " lub (opcjonalnie) w Twoim osobistym iCloud.";
 "upgrade_faq_why_subscription_title" = "Dlaczego pełna wersja jest oferowana jako subskrypcja?";
-"upgrade_faq_why_subscription_value" = "Moim celem jest opracowanie wysokiej jakości aplikacji, która regularnie oferuje nowe funkcje i usprawnienia. Aby jednak osiągnąć ten cel, aplikacja musi generować stały przychód, by móc się finansować i być ekonomicznie zrównoważona. Wielu użytkowników nie zdaje sobie sprawy z tego, że tworzenie i utrzymywanie aplikacji zajmuje mnóstwo czasu. W przypadku Budget Flow, na przykład od pomysłu do gotowej wersji, która mogła zostać wydana w App Store, minęły prawie dwa lata i kilka tysięcy godzin pracy na etapie rozwoju i testowania. Dzięki modelowi subskrypcyjnemu, zyskujesz regularne aktualizacje i ulepszenia, a także wsparcie, aby zapewnić Ci ciągłą satysfakcję. Masz również możliwość wypróbowania aplikacji za darmo, aby upewnić się, że spełni Twoje oczekiwania. W każdej chwili możesz zmienić zdanie i anulować subskrypcję. Jednak, z uwagi na użytkowników, którzy nie przepadają za subskrypcjami, dostępna jest również opcja jednorazowego zakupu w nieco wyższej cenie. Cena jednorazowego zakupu wynosi około 2,5 razy więcej niż roczna subskrypcja. W związku z tym wszystkie przyszłe koszty związane z aktualizacjami i wsparciem są pokrywane przez dożywotnią wersję aplikacji, co w przypadku subskrypcji byłoby pokryte przez cykliczne opłaty. Ostatecznie ten model biznesowy zapewnia Ci, jako użytkownikowi, wiele korzyści i lepsze doświadczenie dzięki ciągłym aktualizacjom i wsparciu. W dłuższym okresie niski koszt jednorazowego zakupu niestety nie byłby zrównoważony, ponieważ ten model wymaga od nowych użytkowników ciągłego zakupu aplikacji, aby zapewnić jej rozwój. Jeśli podoba Ci się aplikacja, będę bardzo wdzięczny za wsparcie mojej pracy, dzięki któremu będę mógł zaoferować Ci jeszcze więcej wspaniałych funkcji w przyszłości! ❤️";
+"upgrade_faq_why_subscription_value" = "Moim celem jest opracowanie wysokiej jakości aplikacji, która regularnie oferuje nowe funkcje i usprawnienia. Aby jednak osiągnąć ten cel, aplikacja musi generować stały przychód, by móc się finansować i być ekonomicznie zrównoważona. Wielu użytkowników nie zdaje sobie sprawy z tego, że tworzenie i utrzymywanie aplikacji zajmuje mnóstwo czasu. W przypadku Budget Flow, na przykład od pomysłu do gotowej wersji, która mogła zostać wydana, minęły prawie dwa lata i kilka tysięcy godzin pracy na etapie rozwoju i testowania. Dzięki modelowi subskrypcyjnemu, zyskujesz regularne aktualizacje i ulepszenia, a także wsparcie, aby zapewnić Ci ciągłą satysfakcję. Masz również możliwość wypróbowania aplikacji za darmo, aby upewnić się, że spełni Twoje oczekiwania. W każdej chwili możesz zmienić zdanie i anulować subskrypcję. Jednak, z uwagi na użytkowników, którzy nie przepadają za subskrypcjami, dostępna jest również opcja jednorazowego zakupu w nieco wyższej cenie. Cena jednorazowego zakupu wynosi około 2,5 razy więcej niż roczna subskrypcja. W związku z tym wszystkie przyszłe koszty związane z aktualizacjami i wsparciem są pokrywane przez dożywotnią wersję aplikacji, co w przypadku subskrypcji byłoby pokryte przez cykliczne opłaty. Ostatecznie ten model biznesowy zapewnia Ci, jako użytkownikowi, wiele korzyści i lepsze doświadczenie dzięki ciągłym aktualizacjom i wsparciu. W dłuższym okresie niski koszt jednorazowego zakupu niestety nie byłby zrównoważony, ponieważ ten model wymaga od nowych użytkowników ciągłego zakupu aplikacji, aby zapewnić jej rozwój. Jeśli podoba Ci się aplikacja, będę bardzo wdzięczny za wsparcie mojej pracy, dzięki któremu będę mógł zaoferować Ci jeszcze więcej wspaniałych funkcji w przyszłości! ❤️";
 "upgrade_faq_multiple_devices_title" = "Czy mogę używać pełnej wersji na wielu urządzeniach?";
-"upgrade_faq_multiple_devices_value" = "Tak, możesz używać pełnej wersji Budget Flow na wszystkich swoich urządzeniach Apple z tym samym Apple ID. Ponieważ aplikacja jest synchronizowana przez iCloud, możesz płynnie przełączać się między urządzeniami i zawsze mieć dostęp do swoich danych finansowych i ustawienia.";
+"upgrade_faq_multiple_devices_value" = "Tak, możesz używać pełnej wersji Budget Flow na wszystkich swoich urządzeniach Apple z tym samym kontem Apple. Ponieważ aplikacja jest synchronizowana przez iCloud, możesz płynnie przełączać się między urządzeniami i zawsze mieć dostęp do swoich danych finansowych i ustawienia.";
 "upgrade_faq_multiple_people_title" = "Czy mogę używać pełnej wersji z wieloma osobami?";
 "upgrade_faq_multiple_people_value" = "Tak, jednorazowy zakup oraz subskrypcję pełnej wersji możesz udostępnić maksymalnie pięciu osobom w grupie rodzinnej. Wystarczy włączyć udostępnianie rodziny w ustawieniach systemu i dodać inne osoby zapraszając je do grupy.";
 "upgrade_faq_cancel_subscription_title" = "Jak anulować subskrypcję?";
-"upgrade_faq_cancel_subscription_value" = "Możesz anulować subskrypcję w dowolnym momencie, używając swojego Apple ID w Preferencjach systemowych.";
+"upgrade_faq_cancel_subscription_value" = "Możesz anulować subskrypcję w dowolnym momencie, używając swojego konta Apple w Preferencjach systemowych.";
 "upgrade_faq_subscription_data_loss_title" = "Czy moje dane zostaną utracone, jeśli anuluję subskrypcję?";
 "upgrade_faq_subscription_data_loss_value" = "Nie. Wszystko, co utworzysz podczas subskrypcji pełnej wersji, będzie nadal dostępne, jeśli wrócisz do wersji darmowej.";
 "upgrade_faq_refund_title" = "Jak mogę otrzymać zwrot pieniędzy?";
@@ -1203,7 +1250,7 @@
 "time_zone_selection_title" = "Strefa czasowa";
 
 /* Messages */
-"no_timezones_found_title" = "Nie znaleziono stref czasowych";
+"no_time_zones_found_title" = "Nie znaleziono stref czasowych";
 "time_zone_selection_search_placeholder_message" = "Wyszukaj strefę czasową kraju lub miasta";
 
 
@@ -1484,6 +1531,8 @@
 
 /* Sections */
 "form_general_section_title" = "Ogólne";
+"form_csv_date_format_suggestions_section_title" = "Sugestie";
+"form_csv_date_format_other_section_title" = "Inne";
 
 /* Footer */
 "form_invalid_footer_title" = "Błąd:";

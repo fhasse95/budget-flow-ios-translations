@@ -3,7 +3,11 @@
 <plist version="1.0">
 <dict>
 	<key>3.2.0</key>
-	<array>
+	<dict>
+		<key>Summary</key>
+		<string>Этот выпуск улучшает сканирование чеков, добавляет больше значков и оптимизирует норвежский перевод.</string>
+		<key>Items</key>
+		<array>
 		<dict>
 			<key>Title</key>
 			<string>Улучшенный сканер чеков</string>
@@ -34,6 +38,7 @@
 			<key>IconColor</key>
 			<string>#0088ff</string>
 		</dict>
-	</array>
+		</array>
+	</dict>
 </dict>
 </plist>

@@ -20,16 +20,20 @@
 /* MARK: - Miscellaneous */
 "face_id" = "Face ID";
 "touch_id" = "Touch ID";
+"biometrics" = "生体認証";
+
 "required" = "必須";
 "optional" = "オプション";
-"uncategorized" = "未分類";
+
 "before" = "前";
+"uncategorized" = "未分類";
 "account_reconcilation" = "口座照合";
+
 "evaluated" = "評価済み";
 "not_evaluated" = "未評価";
+
 "share_participant_owner" = "所有者";
 "share_participant_you" = "あなた";
-
 
 /* MARK: - Enums */
 "account_type_cash" = "現金";
@@ -56,6 +60,9 @@
 "transaction_type_income_plural" = "収入";
 "transaction_type_expense_plural" = "支出";
 "transaction_type_transfer_plural" = "振替";
+
+"transaction_occurrence_type_one_time" = "一回限り";
+"transaction_occurrence_type_recurring" = "繰り返し";
 
 "payment_status" = "ステータス";
 "payment_status_completed" = "完了";
@@ -289,6 +296,8 @@
 
 "open_button" = "開く";
 "open_folder_button" = "フォルダーを開く";
+"local_folder_button" = "ローカルフォルダー";
+"icloud_drive_folder_button" = "iCloud Drive";
 "open_in_browser_button" = "ブラウザで開く";
 
 "show_more_button" = "もっと見る";
@@ -311,7 +320,6 @@
 "get_started_button" = "開始する";
 
 "show_transactions_button" = "トランザクションを表示";
-"show_in_app_store_button" = "App Store で表示";
 
 "flip_values_button" = "反転 ⇅";
 
@@ -329,7 +337,7 @@
 "alert_cloud_share_unknown_error_message" = "エラーが発生したため、共有を完了できませんでした。iCloud に十分な空き容量がない可能性があります。空き容量を増やして、もう一度お試しください。";
 
 
-/* MARK: - Search View */
+/* MARK: - Transaction Search View */
 /* Titles */
 "search_title" = "検索";
 "filter_title" = "フィルター";
@@ -337,6 +345,31 @@
 /* Sections */
 "search_text_section_title" = "検索内容";
 "search_suggestions_section_title" = "提案";
+
+
+/* MARK: - Transaction Filter */
+/* Sections */
+"transaction_filter_general_section_title" = "一般";
+"transaction_filter_assignment_section_title" = "割り当て";
+
+/* Items */
+"transaction_filter_type_title" = "種類";
+"transaction_filter_occurrence_type_title" = "繰り返し";
+"transaction_filter_amount_title" = "金額";
+"transaction_filter_date_title" = "日付";
+"transaction_filter_status_title" = "ステータス";
+
+"transaction_filter_accounts_title" = "アカウント";
+"transaction_filter_categories_title" = "カテゴリ";
+"transaction_filter_payees_title" = "支払先";
+"transaction_filter_tags_title" = "タグ";
+"transaction_filter_people_title" = "人";
+
+"transaction_filter_all_title" = "すべて";
+"transaction_filter_any_title" = "任意";
+
+/* Formats */
+"transaction_filter_range_format" = "%@〜%@";
 
 
 /* MARK: - Period Selection View */
@@ -408,17 +441,6 @@
 /* Info */
 "recurring_transactions_info_title" = "説明";
 "recurring_transactions_info_description" = "定期的なトランザクションを作成して、期限が来たときに自動的にアプリに追加します。";
-
-/* Sections */
-"account_filter_section_title" = "口座";
-"category_filter_section_title" = "カテゴリ";
-"payee_filter_section_title" = "受取人";
-"tag_filter_section_title" = "タグ";
-"user_filter_section_title" = "人物";
-"payment_status_filter_section_title" = "支払い";
-"transaction_type_filter_section_title" = "タイプ";
-"date_range_filter_section_title" = "日付";
-"amount_range_filter_section_title" = "金額";
 
 /* Messages */
 "no_transactions_title" = "トランザクションはありません";
@@ -597,36 +619,11 @@
 
 "contact_developer_mail_subject" = "%@: %@%@";
 "contact_developer_mail_subject_full_version" = " (full version)";
-"contact_developer_mail_message" = "
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-<b>Support Information:</b>
-</br>
-<u>General:</u></br>
-- Device: %@</br>
-- iOS version: %@</br>
-- Language: %@</br>
-- Currency: %@</br>
-- Time zone: %@</br>
-</br>
-<u>App Specific:</u></br>
-- App version: %@</br>
-- Build: %@</br>
-</br>
-<u>In-App Purchases:</u></br>
-- User ID: %@</br>
-- Active: %@</br>
-- Purchases: %@";
-"contact_developer_mail_no_purchases" = "None";
 
-/* Appearance Settings */
+/* MARK: - Appearance Settings View */
+/* Info */
 "appearance_setting_info_title" = "説明";
-"appearance_setting_info_description" = "アプリの外観やアクセントカラーを変更して、アプリを好みに合わせてカスタマイズします。";
+"appearance_setting_info_description" = "アプリの外観を変更して、アプリを好みに合わせてカスタマイズします。";
 "appearance_ui_style_setting_section_title" = "テーマ";
 "appearance_ui_style_apply_to_icons_title" = "アイコンに適用";
 "appearance_ui_style_apply_to_icons_description" = "選択した外観をアプリ内のすべてのアイコンにも適用します。";
@@ -634,7 +631,8 @@
 "appearance_accent_color_setting_footer_title" = "アプリ内のボタンやその他のコントロールの色を変更します。";
 "appearance_app_icon_setting_section_title" = "アプリアイコン";
 
-/* Sync & Data Settings */
+/* MARK: - Sync & Data Settings View */
+/* Info */
 "sync_and_data_setting_info_title" = "説明";
 "sync_and_data_setting_info_description" = "現在の同期ステータスの概要を取得し、CSV ファイルを使用してデータをインポートまたはエクスポートします。";
 
@@ -662,7 +660,14 @@
 "alert_csv_export_successful_title" = "エクスポートは成功しました 🎉";
 "alert_csv_export_successful_message" = "データは \"%@\" に正常にエクスポートされました。";
 
-/* Cloud Settings */
+/* Progress */
+"alert_csv_export_progress_title" = "エクスポート";
+"csv_export_progress_preparing" = "エクスポートを準備中";
+"csv_export_progress_transactions" = "取引";
+"csv_export_progress_finishing" = "エクスポートを完了中";
+
+/* MARK: - Cloud Settings View */
+/* Info */
 "cloud_setting_info_title" = "説明";
 "cloud_setting_info_description" = "次のビューは、現在の iCloud 同期ステータスのより詳細な概要を提供し、トラブルシューティングに役立ちます。";
 
@@ -685,20 +690,63 @@
 "import_from_cloud_button" = "iCloudからダウンロード";
 "manual_sync_cloud_setting_footer_title" = "データがiCloudと同期されていない、または完全に同期されていない場合は、ここで手動で同期を開始できます。";
 
-/* Backup Settings */
+/* MARK: - Backup Settings View */
+/* Info */
 "backup_setting_info_title" = "説明";
 "backup_setting_info_description" = "有効にすると、Budget Flow が定期的にデータをバックアップするため、いつでもアプリを以前の状態に復元できます。";
 
-"backup_general_setting_section_title" = "全般";
-"backup_recent_backups_setting_section_title" = "最近のバックアップ";
+"backup_setting_general_section_title" = "全般";
+"backup_setting_recent_section_title" = "最近のバックアップ";
 "backup_setting_use_automatic_backups_title" = "自動バックアップ";
+"backup_setting_back_up_to_icloud_drive_title" = "iCloud Driveにバックアップ";
+
+"backup_setting_keep_backups_title" = "バックアップを保持";
+"backup_setting_keep_backups_last_5_title" = "最新5件";
+"backup_setting_keep_backups_last_10_title" = "最新10件";
+"backup_setting_keep_backups_last_20_title" = "最新20件";
+"backup_setting_keep_backups_last_30_title" = "最新30件";
+"backup_setting_keep_backups_all_title" = "すべて";
+
 "backup_setting_create_backup_title" = "バックアップを作成";
 
-"alert_restore_backup_title" = "このバックアップを復元しますか?";
-"alert_restore_backup_message" = "バックアップの復元は現在実験的な機能です。現在のデータが削除され、選択したバックアップで上書きされます。\n\nその後、アプリは自動的に閉じられます。\n\n警告: このプロセスは元に戻すことができません !";
+"backup_setting_no_recent_backups_title" = "利用可能なバックアップがありません";
+"backup_setting_backup_subtitle" = "%@ · %@";
+
+"backup_setting_delete_backup_alert_title" = "バックアップを削除";
+"backup_setting_delete_backup_alert_message" = "このバックアップを本当に削除しますか？";
+
+"backup_setting_restore_success_title" = "バックアップを復元しました";
+"backup_setting_restore_success_message" = "選択したバックアップが復元されました。";
+
+"backup_setting_error_title" = "バックアップに失敗しました";
+"backup_setting_icloud_drive_unavailable_error" = "このデバイスではiCloud Driveを利用できません。";
+"backup_setting_could_not_create_backup_directory_error" = "バックアップフォルダを作成できませんでした。";
+
+"alert_restore_backup_title" = "バックアップを復元";
+"alert_restore_backup_message" = "このバックアップを本当に復元しますか？\n\n現在のデータは削除され、選択したバックアップのデータに置き換えられます。\n\n警告: この操作は元に戻せません!";
 "alert_restore_backup_button" = "バックアップを復元";
 
-/* Advanced Settings */
+/* Progress */
+"backup_restore_progress_alert_title" = "バックアップを復元中";
+"backup_restore_progress_preparing" = "バックアップを準備中";
+"backup_restore_progress_validating" = "バックアップを検証中";
+"backup_restore_progress_reading_data" = "バックアップデータを読み込み中";
+"backup_restore_progress_deleting_existing_data" = "既存のデータを削除中";
+"backup_restore_progress_finishing" = "復元を完了中";
+
+/* Progress Entities */
+"backup_restore_progress_budget_books" = "予算ブック";
+"backup_restore_progress_accounts" = "口座";
+"backup_restore_progress_category_groups" = "フォルダー";
+"backup_restore_progress_categories" = "カテゴリ";
+"backup_restore_progress_payees" = "支払先";
+"backup_restore_progress_tags" = "タグ";
+"backup_restore_progress_budgets" = "予算";
+"backup_restore_progress_transaction_groups" = "取引グループ";
+"backup_restore_progress_transactions" = "取引";
+"backup_restore_progress_reminders" = "リマインダー";
+
+/* MARK: - Advanced Settings View */
 "advanced_setting_info_title" = "説明";
 "advanced_setting_info_description" = "アプリを構成するためにさらに設定を行います。";
 
@@ -715,8 +763,10 @@
 "advanced_setting_auto_lock_title" = "リクエストコード";
 
 "advanced_setting_chart_type_title" = "グラフの種類";
-"advanced_setting_show_frequently_used_items_title" = "頻繁に使用されるカテゴリとタグを表示する";
-"advanced_setting_show_frequently_used_items_description" = "トランザクションの作成および編集時に、頻繁に使用されるカテゴリとタグを選択リストに表示するには、この機能を有効にします。";
+"advanced_setting_show_most_used_items_title" = "最も使用されるカテゴリとタグを表示";
+"advanced_setting_show_most_used_items_description" = "トランザクションの作成および編集時に、最も使用されるカテゴリとタグを選択リストに表示します。";
+"advanced_setting_remove_most_used_items_from_groups_title" = "最も使用されるカテゴリとタグをグループから削除";
+"advanced_setting_remove_most_used_items_from_groups_description" = "取引の作成および編集時に、最も使用されるカテゴリとタグを選択リストの通常のグループから削除します。";
 "advanced_setting_show_notes_in_title_title" = "カテゴリの代わりにメモを表示";
 "advanced_setting_show_notes_in_title_description" = "トランザクションのカテゴリ名の代わりにメモの内容を表示するには、この機能を有効にします。";
 "advanced_setting_start_day_of_month_title" = "月の開始日";
@@ -783,7 +833,15 @@
 "alert_share_app_type_selection_qrcode_button" = "QRコード";
 
 "alert_reset_app_title" = "アプリをリセット";
-"alert_reset_app_message" = "アプリをデフォルト設定にリセットしてもよろしいですか? これにより、このデバイスと iCloud に保存されているすべてのデータが完全に消去されます。";
+"alert_reset_app_message" = "アプリをデフォルト設定にリセットしてもよろしいですか? これにより、すべてのデータが完全に消去されます。";
+
+/* Progress */
+"alert_app_reset_progress_title" = "アプリをリセット";
+"app_reset_progress_preparing" = "アプリのリセットを準備中";
+"app_reset_progress_deleting_existing_notifications" = "既存の通知を削除中";
+"app_reset_progress_deleting_existing_data" = "既存のデータを削除中";
+"app_reset_progress_deleting_existing_settings" = "既存の設定を削除中";
+"app_reset_progress_finishing" = "アプリのリセットを完了中";
 
 "alert_error_title" = "エラーが発生しました 😢";
 
@@ -800,7 +858,7 @@
 "passcode_view_enter_passcode_title" = "パスコードを入力してください";
 "passcode_view_create_passcode_title" = "パスコードを作成";
 "passcode_view_confirm_passcode_title" = "パスコードを確認";
-"passcode_view_authenticate_reason" = "ユーザー認証";
+"passcode_view_authenticate_reason" = "認証が必要です";
 
 /* Alert Views */
 "alert_set_passcode_type_title" = "パスコードのオプションを選択してください";
@@ -834,19 +892,6 @@
 /* Buttons */
 "new_features_view_rate_app_button" = "評価する";
 "new_features_view_close_button" = "また後で";
-
-
-/* MARK: - Rate App View */
-/* Titles */
-"purchase_success_view_title" = "ありがとうございます!";
-
-/* Messages */
-"purchase_success_view_info_message" = "アプリが気に入ったら、App Store に肯定的なレビューを書いてください。それは本当に役立ち、アプリを継続的に改善するモチベーションになります。😊";
-"purchase_success_view_info_message_info" = "\n\n注意事項：サブスクリプションからライフタイム購入に切り替える場合、その後既存の定期購入をキャンセルすることを忘れないでください。";
-
-/* Buttons */
-"purchase_success_view_rate_app_button" = "アプリを評価する";
-"purchase_success_view_close_button" = "また後で";
 
 
 /* MARK: - Upgrade View */
@@ -958,12 +1003,13 @@
 "alert_upgrade_view_purchase_success_title" = "購入成功 🎉";
 "alert_upgrade_view_purchase_success_message" = "ご支援ありがとうございます! 😊";
 "alert_upgrade_view_purchase_success_message_info" = "\n\n注意事項: サブスクリプションから 1 回限りの購入に切り替える場合は、後で以前のサブスクリプションを忘れずにキャンセルしてください。";
+
 "alert_upgrade_view_purchase_error_message" = "購入は正常に完了しませんでした。";
-"alert_upgrade_view_purchase_error_store_problem_message" = "App Store に問題が発生しました。\n\n情報: Touch ID / Face ID ではなくパスワードで確認した場合にのみ購入できる場合があります。\n\n例えば、Face IDを使用している場合は、前面のカメラを覆い、パスワードダイアログを表示してください。";
+"alert_upgrade_view_purchase_error_store_problem_message" = "App Store に問題が発生しました。";
+"alert_upgrade_view_purchase_error_store_problem_message_info" = "\n\n情報: Touch ID / Face ID ではなくパスワードで確認した場合にのみ購入できる場合があります。\n\n例えば、Face IDを使用している場合は、前面のカメラを覆い、パスワードダイアログを表示してください。";
 "alert_upgrade_view_purchase_error_not_allowed_message" = "このデバイスでは購入が許可されていません。";
 "alert_upgrade_view_purchase_error_invalid_message" = "お支払い方法を確認し、後でもう一度お試しください。エラーが解決しない場合は、サポートにお問い合わせください。";
 "alert_upgrade_view_purchase_error_network_message" = "インターネット接続を確認し、後でもう一度お試しください。エラーが解決しない場合は、サポートにお問い合わせください。";
-
 "alert_upgrade_view_load_products_error_message" = "購入を読み込めませんでした。インターネット接続を確認して、後でもう一度お試しください。エラーが解決しない場合は、サポートにお問い合わせください。";
 
 "alert_upgrade_view_restore_success_title" = "購入が復元されました";
@@ -985,19 +1031,20 @@
 "upgrade_faq_about_title" = "Budget Flow とは何ですか?";
 "upgrade_faq_about_value" = "Budget Flow は、財務状況を追跡し、出費を効果的に管理したいすべての人のための、最新の使いやすい予算追跡アプリです。";
 "upgrade_faq_developer_title" = "アプリを開発したのは誰ですか？";
-"upgrade_faq_developer_value" = "Budget Flow はサイドプロジェクトとして開始され、それ以来、私、Fabian Hasse によって完全に設計、開発、保守されてきました。私は 10 年以上の経験を持つ熱心なソフトウェア開発者であり、App Store で最高の予算作成および支出追跡アプリを開発するために情熱を持って取り組んでいます。";
+"upgrade_faq_developer_value" = "Budget Flow はサイドプロジェクトとして開始され、それ以来、私、Fabian Hasse によって完全に設計、開発、保守されてきました。私は 10 年以上の経験を持つ熱心なソフトウェア開発者であり、最高の予算作成および支出追跡アプリを開発するために情熱を持って取り組んでいます。";
 "upgrade_faq_free_use_title" = "アプリは無料でも使えますか?";
 "upgrade_faq_free_use_value" = "はい、トランザクションの作成など、アプリの基本機能は完全に無料で使用できます。\n\nさらに、アプリには事前に試してみることができるように、購入または購読する前の試用期間が用意されています。";
 "upgrade_faq_security_title" = "私のデータは安全ですか?";
-"upgrade_faq_security_value" = "あなたの財務情報はプライベートであり、その状態が維持されるべきです。そのため、あなたのデータはあなたのデバイス上または（任意で）個人の iCloud 上にのみ保存されます。";
+"upgrade_faq_security_value" = "あなたの財務情報はプライベートであり、その状態が維持されるべきです。そのため、あなたのデータはあなたのデバイス上にのみ保存されます。";
+"upgrade_faq_security_value_icloud_suffix" = "または（任意で）個人の iCloud 上に保存されます。";
 "upgrade_faq_why_subscription_title" = "フルバージョンがサブスクリプションとして提供されるのはなぜですか?";
-"upgrade_faq_why_subscription_value" = "私たちの目標は、ユーザーに定期的に新機能や改善を提供する高品質のアプリを開発することです。ただし、この目標を達成するには、アプリ自体の資金を賄うために継続的な収益が必要です。 \n\n多くの人が知らないこと アプリの開発と保守には多くの時間がかかります。たとえば、Budget Flow の場合、アイデアから開発までにほぼ 2 年と数千時間の作業がかかりました。 最初のバージョンが App Store にリリースされる前にテストを行う必要があります。\n\n顧客は、サブスクリプション モデルによる定期的なアップデートと改善、および満足し続けるための優れたサポートから特に恩恵を受けることができます。 また、アプリを事前に無料で試して、ニーズに合うかどうかを確認することもできます。気が変わった場合はいつでもサブスクリプションを変更またはキャンセルできます。\n\n全体として、サブスクリプション モデルには、ユーザーにとって多くのメリットがあります。 1 回限りの購入と比較して、継続的なアップデートとサポートを通じて顧客の利便性を高め、ユーザー エクスペリエンスを向上させます。 このビジネス モデルでは、開発を継続するために新規ユーザーがアプリを購入し続ける必要があるため、長期的には、残念ながら 1 回限りの購入は持続可能ではありません。\n\nそのため、アプリを気に入っていただければ、大変嬉しく思います。 私たちの取り組みをサポートしていただければ、今後もさらに優れた機能を提供し続けることができます!❤️";
+"upgrade_faq_why_subscription_value" = "私たちの目標は、ユーザーに定期的に新機能や改善を提供する高品質のアプリを開発することです。ただし、この目標を達成するには、アプリ自体の資金を賄うために継続的な収益が必要です。 \n\n多くの人が知らないこと アプリの開発と保守には多くの時間がかかります。たとえば、Budget Flow の場合、アイデアから開発までにほぼ 2 年と数千時間の作業がかかりました。 最初のバージョンが リリースされる前にテストを行う必要があります。\n\n顧客は、サブスクリプション モデルによる定期的なアップデートと改善、および満足し続けるための優れたサポートから特に恩恵を受けることができます。 また、アプリを事前に無料で試して、ニーズに合うかどうかを確認することもできます。気が変わった場合はいつでもサブスクリプションを変更またはキャンセルできます。\n\n全体として、サブスクリプション モデルには、ユーザーにとって多くのメリットがあります。 1 回限りの購入と比較して、継続的なアップデートとサポートを通じて顧客の利便性を高め、ユーザー エクスペリエンスを向上させます。 このビジネス モデルでは、開発を継続するために新規ユーザーがアプリを購入し続ける必要があるため、長期的には、残念ながら 1 回限りの購入は持続可能ではありません。\n\nそのため、アプリを気に入っていただければ、大変嬉しく思います。 私たちの取り組みをサポートしていただければ、今後もさらに優れた機能を提供し続けることができます!❤️";
 "upgrade_faq_multiple_devices_title" = "複数のデバイスでフルバージョンを使用できますか?";
-"upgrade_faq_multiple_devices_value" = "はい、同じ Apple ID を持つすべての Apple デバイスで Budget Flow のフルバージョンを使用できます。アプリは iCloud 経由で同期されているため、デバイス間をシームレスに切り替えて、財務データと設定に常にアクセスできます。";
+"upgrade_faq_multiple_devices_value" = "はい、同じ Apple Account を持つすべての Apple デバイスで Budget Flow のフルバージョンを使用できます。アプリは iCloud 経由で同期されているため、デバイス間をシームレスに切り替えて、財務データと設定に常にアクセスできます。";
 "upgrade_faq_multiple_people_title" = "フルバージョンを複数人で使用できますか?";
 "upgrade_faq_multiple_people_value" = "はい、一度限りの購入と完全版のサブスクリプションをファミリー グループ内の最大 5 人と共有できます。システム設定でファミリー共有をオンにして追加するだけです。他の人をグループに招待します。";
 "upgrade_faq_cancel_subscription_title" = "サブスクリプションをキャンセルするにはどうすればよいですか?";
-"upgrade_faq_cancel_subscription_value" = "システム環境設定で Apple ID を使用していつでもサブスクリプションをキャンセルできます。";
+"upgrade_faq_cancel_subscription_value" = "システム環境設定で Apple Account を使用していつでもサブスクリプションをキャンセルできます。";
 "upgrade_faq_subscription_data_loss_title" = "サブスクリプションをキャンセルするとデータは失われますか?";
 "upgrade_faq_subscription_data_loss_value" = "いいえ。完全版の購読中に作成したものは、無料版に戻っても引き続き利用できます。";
 "upgrade_faq_refund_title" = "返金を受けるにはどうすればよいですか?";
@@ -1203,7 +1250,7 @@
 "time_zone_selection_title" = "タイムゾーン";
 
 /* Messages */
-"no_timezones_found_title" = "タイムゾーンが見つかりません";
+"no_time_zones_found_title" = "タイムゾーンが見つかりません";
 "time_zone_selection_search_placeholder_message" = "国または都市のタイムゾーンを検索";
 
 
@@ -1484,6 +1531,8 @@
 
 /* Sections */
 "form_general_section_title" = "全般";
+"form_csv_date_format_suggestions_section_title" = "提案";
+"form_csv_date_format_other_section_title" = "その他";
 
 /* Footer */
 "form_invalid_footer_title" = "エラー:";

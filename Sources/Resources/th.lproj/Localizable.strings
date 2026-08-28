@@ -20,16 +20,20 @@
 /* MARK: - Miscellaneous */
 "face_id" = "Face ID";
 "touch_id" = "Touch ID";
+"biometrics" = "ไบโอเมตริก";
+
 "required" = "จำเป็น";
 "optional" = "ทางเลือก";
-"uncategorized" = "ไม่ได้จัดหมวดหมู่";
+
 "before" = "ก่อน";
+"uncategorized" = "ไม่ได้จัดหมวดหมู่";
 "account_reconcilation" = "การกระทบยอดบัญชี";
+
 "evaluated" = "ประเมินแล้ว";
 "not_evaluated" = "ยังไม่ประเมิน";
+
 "share_participant_owner" = "เจ้าของ";
 "share_participant_you" = "คุณ";
-
 
 /* MARK: - Enums */
 "account_type_cash" = "เงินสด";
@@ -56,6 +60,9 @@
 "transaction_type_income_plural" = "รายได้";
 "transaction_type_expense_plural" = "ค่าใช้จ่าย";
 "transaction_type_transfer_plural" = "การโอน";
+
+"transaction_occurrence_type_one_time" = "ครั้งเดียว";
+"transaction_occurrence_type_recurring" = "เกิดซ้ำ";
 
 "payment_status" = "สถานะ";
 "payment_status_completed" = "เสร็จสมบูรณ์";
@@ -289,6 +296,8 @@
 
 "open_button" = "เปิด";
 "open_folder_button" = "เปิดโฟลเดอร์";
+"local_folder_button" = "โฟลเดอร์ในเครื่อง";
+"icloud_drive_folder_button" = "iCloud Drive";
 "open_in_browser_button" = "เปิดในเบราว์เซอร์";
 
 "show_more_button" = "แสดงเพิ่มเติม";
@@ -311,7 +320,6 @@
 "get_started_button" = "เริ่มต้น";
 
 "show_transactions_button" = "แสดงธุรกรรม";
-"show_in_app_store_button" = "แสดงใน App Store";
 
 "flip_values_button" = "สลับ ⇅";
 
@@ -329,7 +337,7 @@
 "alert_cloud_share_unknown_error_message" = "ไม่สามารถแบ่งปันให้เสร็จสิ้นได้เนื่องจากเกิดข้อผิดพลาด อาจมีพื้นที่ว่างไม่เพียงพอใน iCloud ของคุณ โปรดเพิ่มพื้นที่ว่างแล้วลองอีกครั้ง";
 
 
-/* MARK: - Search View */
+/* MARK: - Transaction Search View */
 /* Titles */
 "search_title" = "ค้นหา";
 "filter_title" = "ตัวกรอง";
@@ -337,6 +345,31 @@
 /* Sections */
 "search_text_section_title" = "ข้อความค้นหา";
 "search_suggestions_section_title" = "คำแนะนำ";
+
+
+/* MARK: - Transaction Filter */
+/* Sections */
+"transaction_filter_general_section_title" = "ทั่วไป";
+"transaction_filter_assignment_section_title" = "การกำหนด";
+
+/* Items */
+"transaction_filter_type_title" = "ประเภท";
+"transaction_filter_occurrence_type_title" = "การเกิดซ้ำ";
+"transaction_filter_amount_title" = "จำนวนเงิน";
+"transaction_filter_date_title" = "วันที่";
+"transaction_filter_status_title" = "สถานะ";
+
+"transaction_filter_accounts_title" = "บัญชี";
+"transaction_filter_categories_title" = "หมวดหมู่";
+"transaction_filter_payees_title" = "ผู้รับเงิน";
+"transaction_filter_tags_title" = "แท็ก";
+"transaction_filter_people_title" = "บุคคล";
+
+"transaction_filter_all_title" = "ทั้งหมด";
+"transaction_filter_any_title" = "ใดก็ได้";
+
+/* Formats */
+"transaction_filter_range_format" = "%@ ถึง %@";
 
 
 /* MARK: - Period Selection View */
@@ -408,17 +441,6 @@
 /* Info */
 "recurring_transactions_info_title" = "คำอธิบาย";
 "recurring_transactions_info_description" = "สร้างธุรกรรมที่เกิดซ้ำเพื่อให้เพิ่มลงในแอปโดยอัตโนมัติเมื่อถึงกำหนด";
-
-/* Sections */
-"account_filter_section_title" = "บัญชี";
-"category_filter_section_title" = "หมวดหมู่";
-"payee_filter_section_title" = "ผู้รับเงิน";
-"tag_filter_section_title" = "แท็ก";
-"user_filter_section_title" = "บุคคล";
-"payment_status_filter_section_title" = "การชำระเงิน";
-"transaction_type_filter_section_title" = "ประเภท";
-"date_range_filter_section_title" = "วันที่";
-"amount_range_filter_section_title" = "จำนวนเงิน";
 
 /* Messages */
 "no_transactions_title" = "ไม่มีธุรกรรม";
@@ -597,36 +619,11 @@
 
 "contact_developer_mail_subject" = "%@: %@%@";
 "contact_developer_mail_subject_full_version" = " (full version)";
-"contact_developer_mail_message" = "
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-<b>Support Information:</b>
-</br>
-<u>General:</u></br>
-- Device: %@</br>
-- iOS version: %@</br>
-- Language: %@</br>
-- Currency: %@</br>
-- Time zone: %@</br>
-</br>
-<u>App Specific:</u></br>
-- App version: %@</br>
-- Build: %@</br>
-</br>
-<u>In-App Purchases:</u></br>
-- User ID: %@</br>
-- Active: %@</br>
-- Purchases: %@";
-"contact_developer_mail_no_purchases" = "None";
 
-/* Appearance Settings */
+/* MARK: - Appearance Settings View */
+/* Info */
 "appearance_setting_info_title" = "คำอธิบาย";
-"appearance_setting_info_description" = "ปรับแต่งแอพฯ ตามที่คุณต้องการโดยการเปลี่ยนรูปลักษณ์หรือสีที่ถูกเน้นของแอพ";
+"appearance_setting_info_description" = "ปรับแต่งแอพฯ ตามที่คุณต้องการโดยการเปลี่ยนรูปลักษณ์ของแอพ";
 "appearance_ui_style_setting_section_title" = "ธีม";
 "appearance_ui_style_apply_to_icons_title" = "ใช้กับไอคอน";
 "appearance_ui_style_apply_to_icons_description" = "ใช้ลักษณะที่เลือกกับไอคอนทั้งหมดในแอปด้วย";
@@ -634,7 +631,8 @@
 "appearance_accent_color_setting_footer_title" = "เปลี่ยนสีของปุ่มและการควบคุมอื่นๆ ภายในแอป";
 "appearance_app_icon_setting_section_title" = "ไอคอนแอป";
 
-/* Sync & Data Settings */
+/* MARK: - Sync & Data Settings View */
+/* Info */
 "sync_and_data_setting_info_title" = "คำอธิบาย";
 "sync_and_data_setting_info_description" = "ดูภาพรวมของสถานะการซิงโครไนซ์ปัจจุบันและนำเข้าหรือส่งออกข้อมูลโดยใช้ไฟล์ CSV";
 
@@ -662,7 +660,14 @@
 "alert_csv_export_successful_title" = "ส่งออกสำเร็จ 🎉";
 "alert_csv_export_successful_message" = "ข้อมูลของคุณส่งออกไปยัง \"%@\" เรียบร้อยแล้ว";
 
-/* Cloud Settings */
+/* Progress */
+"alert_csv_export_progress_title" = "ส่งออก";
+"csv_export_progress_preparing" = "กำลังเตรียมการส่งออก";
+"csv_export_progress_transactions" = "ธุรกรรม";
+"csv_export_progress_finishing" = "กำลังเสร็จสิ้นการส่งออก";
+
+/* MARK: - Cloud Settings View */
+/* Info */
 "cloud_setting_info_title" = "คำอธิบาย";
 "cloud_setting_info_description" = "มุมมองต่อไปนี้ให้ภาพรวมโดยละเอียดเพิ่มเติมของสถานะการเชื่อมข้อมูล iCloud ปัจจุบัน และช่วยในการแก้ไขปัญหา";
 
@@ -685,20 +690,63 @@
 "import_from_cloud_button" = "ดาวน์โหลดจาก iCloud";
 "manual_sync_cloud_setting_footer_title" = "หากข้อมูลของคุณยังไม่ได้หรือยังไม่สมบูรณ์กับ iCloud คุณสามารถเริ่มการซิงค์ด้วยตนเองที่นี่ได้";
 
-/* Backup Settings */
+/* MARK: - Backup Settings View */
+/* Info */
 "backup_setting_info_title" = "คำอธิบาย";
 "backup_setting_info_description" = "เมื่อเปิดใช้งาน โฟลว์งบประมาณจะสำรองข้อมูลของคุณเป็นประจำ เพื่อให้คุณสามารถคืนค่าแอปให้อยู่ในสถานะก่อนหน้าได้ตลอดเวลา";
 
-"backup_general_setting_section_title" = "ทั่วไป";
-"backup_recent_backups_setting_section_title" = "ข้อมูลสำรองล่าสุด";
+"backup_setting_general_section_title" = "ทั่วไป";
+"backup_setting_recent_section_title" = "ข้อมูลสำรองล่าสุด";
 "backup_setting_use_automatic_backups_title" = "การสำรองข้อมูลอัตโนมัติ";
+"backup_setting_back_up_to_icloud_drive_title" = "สำรองข้อมูลไปยัง iCloud Drive";
+
+"backup_setting_keep_backups_title" = "เก็บข้อมูลสำรอง";
+"backup_setting_keep_backups_last_5_title" = "5 รายการล่าสุด";
+"backup_setting_keep_backups_last_10_title" = "10 รายการล่าสุด";
+"backup_setting_keep_backups_last_20_title" = "20 รายการล่าสุด";
+"backup_setting_keep_backups_last_30_title" = "30 รายการล่าสุด";
+"backup_setting_keep_backups_all_title" = "ทั้งหมด";
+
 "backup_setting_create_backup_title" = "สร้างข้อมูลสำรอง";
 
-"alert_restore_backup_title" = "กู้คืนข้อมูลสำรองนี้";
-"alert_restore_backup_message" = "ขณะนี้การกู้คืนข้อมูลสำรองเป็นคุณสมบัติทดลอง โดยจะลบข้อมูลปัจจุบันของคุณและเขียนทับด้วยข้อมูลสำรองที่เลือก\n\nหลังจากนั้น แอปจะปิดโดยอัตโนมัติ\n\nคำเตือน: กระบวนการนี้ไม่สามารถยกเลิกได้!";
+"backup_setting_no_recent_backups_title" = "ไม่มีข้อมูลสำรอง";
+"backup_setting_backup_subtitle" = "%@ · %@";
+
+"backup_setting_delete_backup_alert_title" = "ลบข้อมูลสำรอง";
+"backup_setting_delete_backup_alert_message" = "คุณแน่ใจหรือไม่ว่าต้องการลบข้อมูลสำรองนี้";
+
+"backup_setting_restore_success_title" = "กู้คืนข้อมูลสำรองแล้ว";
+"backup_setting_restore_success_message" = "กู้คืนข้อมูลสำรองที่เลือกแล้ว";
+
+"backup_setting_error_title" = "สำรองข้อมูลไม่สำเร็จ";
+"backup_setting_icloud_drive_unavailable_error" = "iCloud Drive ไม่พร้อมใช้งานบนอุปกรณ์นี้";
+"backup_setting_could_not_create_backup_directory_error" = "ไม่สามารถสร้างโฟลเดอร์สำรองข้อมูลได้";
+
+"alert_restore_backup_title" = "กู้คืนข้อมูลสำรอง";
+"alert_restore_backup_message" = "คุณแน่ใจหรือไม่ว่าต้องการกู้คืนข้อมูลสำรองนี้\n\nการดำเนินการนี้จะลบข้อมูลปัจจุบันของคุณและแทนที่ด้วยข้อมูลจากข้อมูลสำรองที่เลือก\n\nคำเตือน: การดำเนินการนี้ไม่สามารถยกเลิกได้!";
 "alert_restore_backup_button" = "กู้คืนข้อมูลสำรอง";
 
-/* Advanced Settings */
+/* Progress */
+"backup_restore_progress_alert_title" = "กำลังกู้คืนข้อมูลสำรอง";
+"backup_restore_progress_preparing" = "กำลังเตรียมข้อมูลสำรอง";
+"backup_restore_progress_validating" = "กำลังตรวจสอบข้อมูลสำรอง";
+"backup_restore_progress_reading_data" = "กำลังอ่านข้อมูลสำรอง";
+"backup_restore_progress_deleting_existing_data" = "กำลังลบข้อมูลที่มีอยู่";
+"backup_restore_progress_finishing" = "กำลังเสร็จสิ้นการกู้คืน";
+
+/* Progress Entities */
+"backup_restore_progress_budget_books" = "สมุดงบประมาณ";
+"backup_restore_progress_accounts" = "บัญชี";
+"backup_restore_progress_category_groups" = "โฟลเดอร์";
+"backup_restore_progress_categories" = "หมวดหมู่";
+"backup_restore_progress_payees" = "ผู้รับเงิน";
+"backup_restore_progress_tags" = "แท็ก";
+"backup_restore_progress_budgets" = "งบประมาณ";
+"backup_restore_progress_transaction_groups" = "กลุ่มธุรกรรม";
+"backup_restore_progress_transactions" = "ธุรกรรม";
+"backup_restore_progress_reminders" = "การเตือน";
+
+/* MARK: - Advanced Settings View */
 "advanced_setting_info_title" = "คำอธิบาย";
 "advanced_setting_info_description" = "ตั้งค่าเพิ่มเติมเพื่อกำหนดค่าแอป";
 
@@ -715,8 +763,10 @@
 "advanced_setting_auto_lock_title" = "รหัสคำขอ";
 
 "advanced_setting_chart_type_title" = "ประเภทแผนภูมิ";
-"advanced_setting_show_frequently_used_items_title" = "แสดงหมวดหมู่และแท็กที่ใช้บ่อย";
-"advanced_setting_show_frequently_used_items_description" = "แสดงหมวดหมู่และแท็กที่ใช้บ่อยในรายการการเลือกเมื่อสร้างและแก้ไขธุรกรรม";
+"advanced_setting_show_most_used_items_title" = "แสดงหมวดหมู่และแท็กที่ใช้มากที่สุด";
+"advanced_setting_show_most_used_items_description" = "แสดงหมวดหมู่และแท็กที่ใช้มากที่สุดในรายการการเลือกเมื่อสร้างและแก้ไขธุรกรรม";
+"advanced_setting_remove_most_used_items_from_groups_title" = "นำหมวดหมู่และแท็กที่ใช้มากที่สุดออกจากกลุ่ม";
+"advanced_setting_remove_most_used_items_from_groups_description" = "นำหมวดหมู่และแท็กที่ใช้มากที่สุดออกจากกลุ่มปกติในรายการตัวเลือกเมื่อสร้างและแก้ไขธุรกรรม";
 "advanced_setting_show_notes_in_title_title" = "แสดงบันทึกแทนหมวดหมู่";
 "advanced_setting_show_notes_in_title_description" = "แสดงเนื้อหาของบันทึกแทนชื่อหมวดหมู่สำหรับธุรกรรม";
 "advanced_setting_start_day_of_month_title" = "วันเริ่มต้นของเดือน";
@@ -783,7 +833,15 @@
 "alert_share_app_type_selection_qrcode_button" = "คิวอาร์โค้ด";
 
 "alert_reset_app_title" = "รีเซ็ตแอป";
-"alert_reset_app_message" = "คุณแน่ใจหรือไม่ว่าคุณต้องการรีเซ็ตแอปเป็นการตั้งค่าเริ่มต้น การทำเช่นนี้จะลบข้อมูลทั้งหมดของคุณที่จัดเก็บไว้ในอุปกรณ์นี้และ iCloud อย่างถาวร";
+"alert_reset_app_message" = "คุณแน่ใจหรือไม่ว่าต้องการรีเซ็ตแอปเป็นการตั้งค่าเริ่มต้น การดำเนินการนี้จะลบข้อมูลทั้งหมดของคุณอย่างถาวร";
+
+/* Progress */
+"alert_app_reset_progress_title" = "รีเซ็ตแอป";
+"app_reset_progress_preparing" = "กำลังเตรียมรีเซ็ตแอป";
+"app_reset_progress_deleting_existing_notifications" = "กำลังลบการแจ้งเตือนที่มีอยู่";
+"app_reset_progress_deleting_existing_data" = "กำลังลบข้อมูลที่มีอยู่";
+"app_reset_progress_deleting_existing_settings" = "กำลังลบการตั้งค่าที่มีอยู่";
+"app_reset_progress_finishing" = "กำลังเสร็จสิ้นการรีเซ็ตแอป";
 
 "alert_error_title" = "เกิดข้อผิดพลาด 😢";
 
@@ -800,7 +858,7 @@
 "passcode_view_enter_passcode_title" = "ป้อนรหัสผ่าน";
 "passcode_view_create_passcode_title" = "สร้างรหัสผ่าน";
 "passcode_view_confirm_passcode_title" = "ยืนยันรหัสผ่าน";
-"passcode_view_authenticate_reason" = "การรับรองความถูกต้องของผู้ใช้";
+"passcode_view_authenticate_reason" = "ต้องยืนยันตัวตน";
 
 /* Alert Views */
 "alert_set_passcode_type_title" = "เลือกตัวเลือกรหัสผ่าน";
@@ -834,19 +892,6 @@
 /* Buttons */
 "new_features_view_rate_app_button" = "Rate App";
 "new_features_view_close_button" = "Maybe later";
-
-
-/* MARK: - Rate App View */
-/* Titles */
-"purchase_success_view_title" = "ขอบคุณ!";
-
-/* Messages */
-"purchase_success_view_info_message" = "หากคุณชอบแอปนี้ โปรดเขียนรีวิวเชิงบวกใน App Store มันช่วยได้มากจริงๆ และกระตุ้นให้ปรับปรุงแอปอย่างต่อเนื่อง 😊";
-"purchase_success_view_info_message_info" = "\n\nข้อมูล: เมื่อคุณเปลี่ยนจากการสมัครสมาชิกเป็นการซื้อแบบตลอดชีวิต อย่าลืมยกเลิกการสมัครสมาชิกเดิมหลังจากนั้น";
-
-/* Buttons */
-"purchase_success_view_rate_app_button" = "ให้คะแนนแอป";
-"purchase_success_view_close_button" = "อาจจะภายหลัง";
 
 
 /* MARK: - Upgrade View */
@@ -958,12 +1003,13 @@
 "alert_upgrade_view_purchase_success_title" = "ซื้อสำเร็จ 🎉";
 "alert_upgrade_view_purchase_success_message" = "ขอบคุณสำหรับการสนับสนุนของคุณ! 😊";
 "alert_upgrade_view_purchase_success_message_info" = "\n\nข้อมูล: หากคุณเปลี่ยนจากการสมัครสมาชิกเป็นการซื้อครั้งเดียว อย่าลืมยกเลิกการสมัครสมาชิกก่อนหน้าของคุณในภายหลัง";
+
 "alert_upgrade_view_purchase_error_message" = "การสั่งซื้อของคุณไม่เสร็จสมบูรณ์";
-"alert_upgrade_view_purchase_error_store_problem_message" = "มีปัญหากับ App Store\n\nข้อมูล: บางครั้งการซื้ออาจใช้งานได้ก็ต่อเมื่อคุณยืนยันด้วยรหัสผ่านของคุณแทน Touch ID / Face ID\n\nตัวอย่างเช่น หากคุณใช้ Face ID ให้ปิดกล้องหน้าจากนั้นลองอีกครั้งเพื่อดูหน้าต่างการใส่รหัสผ่าน";
+"alert_upgrade_view_purchase_error_store_problem_message" = "มีปัญหากับ App Store";
+"alert_upgrade_view_purchase_error_store_problem_message_info" = "\n\nข้อมูล: บางครั้งการซื้ออาจใช้งานได้ก็ต่อเมื่อคุณยืนยันด้วยรหัสผ่านของคุณแทน Touch ID / Face ID\n\nตัวอย่างเช่น หากคุณใช้ Face ID ให้ปิดกล้องหน้าจากนั้นลองอีกครั้งเพื่อดูหน้าต่างการใส่รหัสผ่าน";
 "alert_upgrade_view_purchase_error_not_allowed_message" = "ไม่อนุญาตให้ซื้อบนอุปกรณ์นี้";
 "alert_upgrade_view_purchase_error_invalid_message" = "ตรวจสอบวิธีการชำระเงินของคุณแล้วลองอีกครั้งในภายหลัง หากข้อผิดพลาดยังคงอยู่ โปรดติดต่อฝ่ายสนับสนุน";
 "alert_upgrade_view_purchase_error_network_message" = "ตรวจสอบการเชื่อมต่ออินเทอร์เน็ตของคุณแล้วลองอีกครั้งในภายหลัง หากข้อผิดพลาดยังคงอยู่ โปรดติดต่อฝ่ายสนับสนุน";
-
 "alert_upgrade_view_load_products_error_message" = "ไม่สามารถโหลดผลิตภัณฑ์ได้ ตรวจสอบการเชื่อมต่ออินเทอร์เน็ตของคุณแล้วลองอีกครั้งในภายหลัง หากข้อผิดพลาดยังคงอยู่ โปรดติดต่อฝ่ายสนับสนุน";
 
 "alert_upgrade_view_restore_success_title" = "กู้คืนการซื้อแล้ว";
@@ -985,19 +1031,20 @@
 "upgrade_faq_about_title" = "Budget Flow คืออะไร?";
 "upgrade_faq_about_value" = "Budget Flow เป็นแอปติดตามงบประมาณที่ทันสมัยและใช้งานง่ายสำหรับทุกคนที่ต้องการติดตามการเงินและจัดการค่าใช้จ่ายอย่างมีประสิทธิภาพ";
 "upgrade_faq_developer_title" = "ใครเป็นผู้พัฒนาแอปนี้";
-"upgrade_faq_developer_value" = "Budget Flow เริ่มต้นเป็นโปรเจ็กต์เสริมและตั้งแต่นั้นมาก็ได้รับการออกแบบ พัฒนา และดูแลโดยฉัน Fabian Hasse ฉันเป็นนักพัฒนาซอฟต์แวร์ที่กระตือรือร้นและมีประสบการณ์มากกว่า 10 ปี และฉันทำงานด้วยความหลงใหลอย่างมากเพื่อพัฒนาแอปการจัดทำงบประมาณและการติดตามค่าใช้จ่ายที่ดีที่สุดใน App Store";
+"upgrade_faq_developer_value" = "Budget Flow เริ่มต้นเป็นโปรเจ็กต์เสริมและตั้งแต่นั้นมาก็ได้รับการออกแบบ พัฒนา และดูแลโดยฉัน Fabian Hasse ฉันเป็นนักพัฒนาซอฟต์แวร์ที่กระตือรือร้นและมีประสบการณ์มากกว่า 10 ปี และฉันทำงานด้วยความหลงใหลอย่างมากเพื่อพัฒนาแอปการจัดทำงบประมาณและการติดตามค่าใช้จ่ายที่ดีที่สุด";
 "upgrade_faq_free_use_title" = "สามารถใช้แอปฟรีได้หรือไม่";
 "upgrade_faq_free_use_value" = "ใช่ คุณสามารถใช้ฟังก์ชันพื้นฐานของแอป เช่น การสร้างธุรกรรมได้โดยไม่มีค่าใช้จ่าย\n\nนอกจากนี้ แอปยังมีช่วงทดลองใช้สำหรับเวอร์ชันเต็ม ดังนั้นคุณจึงสามารถทดลองใช้งานล่วงหน้าได้ ก่อนตัดสินใจซื้อหรือสมัครเวอร์ชันเต็ม";
 "upgrade_faq_security_title" = "ข้อมูลของฉันปลอดภัยหรือไม่";
-"upgrade_faq_security_value" = "การเงินของคุณเป็นส่วนตัวและควรเป็นแบบนั้นต่อไป นั่นเป็นเหตุผลว่าทำไมข้อมูลของคุณจึงถูกเก็บไว้บนอุปกรณ์ของคุณโดยเฉพาะ หรือ (ทางเลือก) ใน iCloud ส่วนตัวของคุณ";
+"upgrade_faq_security_value" = "การเงินของคุณเป็นส่วนตัวและควรเป็นแบบนั้นต่อไป นั่นเป็นเหตุผลว่าทำไมข้อมูลของคุณจึงถูกเก็บไว้บนอุปกรณ์ของคุณโดยเฉพาะ";
+"upgrade_faq_security_value_icloud_suffix" = " หรือ (ทางเลือก) ใน iCloud ส่วนตัวของคุณ";
 "upgrade_faq_why_subscription_title" = "ทำไมเวอร์ชันเต็มจึงเสนอเป็นการสมัครรับข้อมูล";
-"upgrade_faq_why_subscription_value" = "เป้าหมายของเราคือการพัฒนาแอปคุณภาพสูงที่มอบคุณลักษณะใหม่และการปรับปรุงเป็นประจำให้กับคุณในฐานะผู้ใช้ อย่างไรก็ตาม เพื่อให้บรรลุเป้าหมายนี้ แอปต้องการรายได้อย่างต่อเนื่องเพื่อเป็นเงินทุนสำหรับตัวเองและ มีความยั่งยืนทางเศรษฐกิจ\n\nสิ่งที่หลายคนไม่รู้ การพัฒนาและบำรุงรักษาแอปต้องใช้เวลามาก ตัวอย่างเช่น ในกรณีของ Budget Flow ต้องใช้เวลาเกือบสองปีและหลายพันชั่วโมงในการทำงานตั้งแต่แนวคิดไปจนถึงการพัฒนา และทำการทดสอบก่อนที่จะเผยแพร่เวอร์ชันแรกใน App Store ได้\n\nในฐานะลูกค้า คุณจะได้รับประโยชน์เป็นพิเศษจากการอัปเดตและการปรับปรุงอย่างสม่ำเสมอผ่านรูปแบบการสมัครรับข้อมูล ตลอดจนการสนับสนุนที่ดีเพื่อให้แน่ใจว่าคุณจะพึงพอใจต่อไป ยังมีโอกาสที่จะทดลองใช้แอปฟรีล่วงหน้าเพื่อให้แน่ใจว่าแอปนั้นเหมาะสมกับความต้องการของคุณ คุณสามารถเปลี่ยนหรือยกเลิกการสมัครได้ตลอดเวลาหากคุณเปลี่ยนใจ\n\nโดยรวมแล้ว รูปแบบการสมัครสมาชิกให้ประโยชน์มากมายแก่คุณในฐานะ ลูกค้าและประสบการณ์ผู้ใช้ที่ดีขึ้นผ่านการอัปเดตและการสนับสนุนอย่างต่อเนื่องเมื่อเทียบกับการซื้อครั้งเดียว ในระยะยาว การซื้อเพียงครั้งเดียวอาจไม่ยั่งยืน เนื่องจากรูปแบบธุรกิจนี้กำหนดให้ผู้ใช้ใหม่ซื้อแอปต่อไปเพื่อให้แน่ใจว่าการพัฒนาจะดำเนินต่อไป\n\nดังนั้นหากคุณชอบแอป เรายินดีเป็นอย่างยิ่ง หากคุณสนับสนุนงานของเรา เพื่อที่เราจะได้นำเสนอฟีเจอร์ที่ยอดเยี่ยมยิ่งขึ้นไปอีกในอนาคต!❤️";
+"upgrade_faq_why_subscription_value" = "เป้าหมายของเราคือการพัฒนาแอปคุณภาพสูงที่มอบคุณลักษณะใหม่และการปรับปรุงเป็นประจำให้กับคุณในฐานะผู้ใช้ อย่างไรก็ตาม เพื่อให้บรรลุเป้าหมายนี้ แอปต้องการรายได้อย่างต่อเนื่องเพื่อเป็นเงินทุนสำหรับตัวเองและ มีความยั่งยืนทางเศรษฐกิจ\n\nสิ่งที่หลายคนไม่รู้ การพัฒนาและบำรุงรักษาแอปต้องใช้เวลามาก ตัวอย่างเช่น ในกรณีของ Budget Flow ต้องใช้เวลาเกือบสองปีและหลายพันชั่วโมงในการทำงานตั้งแต่แนวคิดไปจนถึงการพัฒนา และทำการทดสอบก่อนที่จะเผยแพร่เวอร์ชันแรกได้\n\nในฐานะลูกค้า คุณจะได้รับประโยชน์เป็นพิเศษจากการอัปเดตและการปรับปรุงอย่างสม่ำเสมอผ่านรูปแบบการสมัครรับข้อมูล ตลอดจนการสนับสนุนที่ดีเพื่อให้แน่ใจว่าคุณจะพึงพอใจต่อไป ยังมีโอกาสที่จะทดลองใช้แอปฟรีล่วงหน้าเพื่อให้แน่ใจว่าแอปนั้นเหมาะสมกับความต้องการของคุณ คุณสามารถเปลี่ยนหรือยกเลิกการสมัครได้ตลอดเวลาหากคุณเปลี่ยนใจ\n\nโดยรวมแล้ว รูปแบบการสมัครสมาชิกให้ประโยชน์มากมายแก่คุณในฐานะ ลูกค้าและประสบการณ์ผู้ใช้ที่ดีขึ้นผ่านการอัปเดตและการสนับสนุนอย่างต่อเนื่องเมื่อเทียบกับการซื้อครั้งเดียว ในระยะยาว การซื้อเพียงครั้งเดียวอาจไม่ยั่งยืน เนื่องจากรูปแบบธุรกิจนี้กำหนดให้ผู้ใช้ใหม่ซื้อแอปต่อไปเพื่อให้แน่ใจว่าการพัฒนาจะดำเนินต่อไป\n\nดังนั้นหากคุณชอบแอป เรายินดีเป็นอย่างยิ่ง หากคุณสนับสนุนงานของเรา เพื่อที่เราจะได้นำเสนอฟีเจอร์ที่ยอดเยี่ยมยิ่งขึ้นไปอีกในอนาคต!❤️";
 "upgrade_faq_multiple_devices_title" = "ฉันสามารถใช้เวอร์ชันเต็มบนอุปกรณ์หลายเครื่องได้หรือไม่";
-"upgrade_faq_multiple_devices_value" = "ใช่ คุณสามารถใช้ Budget Flow เวอร์ชันเต็มบนอุปกรณ์ Apple ทั้งหมดของคุณด้วย Apple ID เดียวกันได้ เนื่องจากแอปเชื่อมข้อมูลผ่าน iCloud คุณจึงสามารถสลับไปมาระหว่างอุปกรณ์ของคุณได้อย่างราบรื่นและเข้าถึงข้อมูลทางการเงินของคุณได้ตลอดเวลา และการตั้งค่า";
+"upgrade_faq_multiple_devices_value" = "ใช่ คุณสามารถใช้ Budget Flow เวอร์ชันเต็มบนอุปกรณ์ Apple ทั้งหมดของคุณด้วย บัญชี Apple เดียวกันได้ เนื่องจากแอปเชื่อมข้อมูลผ่าน iCloud คุณจึงสามารถสลับไปมาระหว่างอุปกรณ์ของคุณได้อย่างราบรื่นและเข้าถึงข้อมูลทางการเงินของคุณได้ตลอดเวลา และการตั้งค่า";
 "upgrade_faq_multiple_people_title" = "ฉันสามารถใช้เวอร์ชันเต็มกับหลายคนได้หรือไม่";
 "upgrade_faq_multiple_people_value" = "ใช่ คุณสามารถแชร์การซื้อครั้งเดียวและการสมัครรับข้อมูลเวอร์ชันเต็มกับสมาชิกในครอบครัวได้สูงสุดห้าคน สิ่งที่คุณต้องทำคือเปิดใช้การแชร์กันในครอบครัวในการตั้งค่าระบบและเพิ่ม คนอื่นเชิญเข้ากลุ่ม";
 "upgrade_faq_cancel_subscription_title" = "ฉันจะยกเลิกการสมัครของฉันได้อย่างไร";
-"upgrade_faq_cancel_subscription_value" = "คุณสามารถยกเลิกการสมัครรับข้อมูลของคุณได้ตลอดเวลาโดยใช้ Apple ID ของคุณในการตั้งค่าระบบ";
+"upgrade_faq_cancel_subscription_value" = "คุณสามารถยกเลิกการสมัครรับข้อมูลของคุณได้ตลอดเวลาโดยใช้ บัญชี Apple ของคุณในการตั้งค่าระบบ";
 "upgrade_faq_subscription_data_loss_title" = "ข้อมูลของฉันจะสูญหายหรือไม่หากฉันยกเลิกการสมัคร";
 "upgrade_faq_subscription_data_loss_value" = "ไม่ ทุกสิ่งที่คุณสร้างในขณะที่สมัครรับเวอร์ชันเต็มจะยังคงใช้งานได้ หากคุณเปลี่ยนกลับไปเป็นเวอร์ชันฟรี";
 "upgrade_faq_refund_title" = "ฉันจะได้รับเงินคืนได้อย่างไร";
@@ -1203,7 +1250,7 @@
 "time_zone_selection_title" = "เขตเวลา";
 
 /* Messages */
-"no_timezones_found_title" = "ไม่พบเขตเวลา";
+"no_time_zones_found_title" = "ไม่พบเขตเวลา";
 "time_zone_selection_search_placeholder_message" = "ค้นหาเขตเวลาของประเทศหรือเมือง";
 
 
@@ -1484,6 +1531,8 @@
 
 /* Sections */
 "form_general_section_title" = "ทั่วไป";
+"form_csv_date_format_suggestions_section_title" = "คำแนะนำ";
+"form_csv_date_format_other_section_title" = "อื่นๆ";
 
 /* Footer */
 "form_invalid_footer_title" = "ข้อผิดพลาด:";

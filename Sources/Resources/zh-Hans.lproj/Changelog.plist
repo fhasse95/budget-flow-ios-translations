@@ -3,7 +3,11 @@
 <plist version="1.0">
 <dict>
 	<key>3.2.0</key>
-	<array>
+	<dict>
+		<key>Summary</key>
+		<string>此版本改进了收据扫描功能，新增更多图标，并优化了挪威语翻译。</string>
+		<key>Items</key>
+		<array>
 		<dict>
 			<key>Title</key>
 			<string>增强的收据扫描器</string>
@@ -34,6 +38,7 @@
 			<key>IconColor</key>
 			<string>#0088ff</string>
 		</dict>
-	</array>
+		</array>
+	</dict>
 </dict>
 </plist>

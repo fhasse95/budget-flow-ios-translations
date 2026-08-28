@@ -20,16 +20,20 @@
 /* MARK: - Miscellaneous */
 "face_id" = "Face ID";
 "touch_id" = "Touch ID";
+"biometrics" = "Biometrik";
+
 "required" = "Wajib";
 "optional" = "Opsional";
-"uncategorized" = "Tidak Dikategorikan";
+
 "before" = "sebelum";
+"uncategorized" = "Tidak Dikategorikan";
 "account_reconcilation" = "Rekonsiliasi Akun";
+
 "evaluated" = "Sudah Dinilai";
 "not_evaluated" = "Belum Dinilai";
+
 "share_participant_owner" = "Pemilik";
 "share_participant_you" = "Anda";
-
 
 /* MARK: - Enums */
 "account_type_cash" = "Tunai";
@@ -56,6 +60,9 @@
 "transaction_type_income_plural" = "Pendapatan";
 "transaction_type_expense_plural" = "Pengeluaran";
 "transaction_type_transfer_plural" = "Transfer";
+
+"transaction_occurrence_type_one_time" = "Satu kali";
+"transaction_occurrence_type_recurring" = "Berulang";
 
 "payment_status" = "Status";
 "payment_status_completed" = "Selesai";
@@ -289,6 +296,8 @@
 
 "open_button" = "Buka";
 "open_folder_button" = "Buka folder";
+"local_folder_button" = "Folder lokal";
+"icloud_drive_folder_button" = "iCloud Drive";
 "open_in_browser_button" = "Buka di browser";
 
 "show_more_button" = "Tampilkan lebih banyak";
@@ -311,7 +320,6 @@
 "get_started_button" = "Mulai";
 
 "show_transactions_button" = "Tampilkan Transaksi";
-"show_in_app_store_button" = "Tampilkan di App Store";
 
 "flip_values_button" = "Balik ⇅";
 
@@ -329,7 +337,7 @@
 "alert_cloud_share_unknown_error_message" = "Tidak dapat menyelesaikan berbagi karena terjadi kesalahan. Mungkin ruang iCloud Anda tidak mencukupi. Mohon kosongkan sebagian ruang lalu coba lagi.";
 
 
-/* MARK: - Search View */
+/* MARK: - Transaction Search View */
 /* Titles */
 "search_title" = "Pencarian";
 "filter_title" = "Filter";
@@ -337,6 +345,31 @@
 /* Sections */
 "search_text_section_title" = "Teks Pencarian";
 "search_suggestions_section_title" = "Saran";
+
+
+/* MARK: - Transaction Filter */
+/* Sections */
+"transaction_filter_general_section_title" = "Umum";
+"transaction_filter_assignment_section_title" = "Penugasan";
+
+/* Items */
+"transaction_filter_type_title" = "Jenis";
+"transaction_filter_occurrence_type_title" = "Pengulangan";
+"transaction_filter_amount_title" = "Jumlah";
+"transaction_filter_date_title" = "Tanggal";
+"transaction_filter_status_title" = "Status";
+
+"transaction_filter_accounts_title" = "Akun";
+"transaction_filter_categories_title" = "Kategori";
+"transaction_filter_payees_title" = "Penerima";
+"transaction_filter_tags_title" = "Tag";
+"transaction_filter_people_title" = "Orang";
+
+"transaction_filter_all_title" = "Semua";
+"transaction_filter_any_title" = "Apa saja";
+
+/* Formats */
+"transaction_filter_range_format" = "%@ hingga %@";
 
 
 /* MARK: - Period Selection View */
@@ -408,17 +441,6 @@
 /* Info */
 "recurring_transactions_info_title" = "Deskripsi";
 "recurring_transactions_info_description" = "Buat transaksi berulang agar ditambahkan secara otomatis ke aplikasi saat jatuh tempo.";
-
-/* Sections */
-"account_filter_section_title" = "Akun";
-"category_filter_section_title" = "Kategori";
-"payee_filter_section_title" = "Penerima";
-"tag_filter_section_title" = "Tag";
-"user_filter_section_title" = "Orang";
-"payment_status_filter_section_title" = "Pembayaran";
-"transaction_type_filter_section_title" = "Jenis";
-"date_range_filter_section_title" = "Tanggal";
-"amount_range_filter_section_title" = "Jumlah";
 
 /* Messages */
 "no_transactions_title" = "Tidak ada transaksi";
@@ -597,36 +619,11 @@
 
 "contact_developer_mail_subject" = "%@: %@%@";
 "contact_developer_mail_subject_full_version" = " (full version)";
-"contact_developer_mail_message" = "
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-<b>Support Information:</b>
-</br>
-<u>General:</u></br>
-- Device: %@</br>
-- iOS version: %@</br>
-- Language: %@</br>
-- Currency: %@</br>
-- Time zone: %@</br>
-</br>
-<u>App Specific:</u></br>
-- App version: %@</br>
-- Build: %@</br>
-</br>
-<u>In-App Purchases:</u></br>
-- User ID: %@</br>
-- Active: %@</br>
-- Purchases: %@";
-"contact_developer_mail_no_purchases" = "None";
 
-/* Appearance Settings */
+/* MARK: - Appearance Settings View */
+/* Info */
 "appearance_setting_info_title" = "Deskripsi";
-"appearance_setting_info_description" = "Personalisasikan aplikasi sesuai keinginan Anda dengan mengubah tampilan atau warna aksen aplikasi.";
+"appearance_setting_info_description" = "Personalisasikan aplikasi sesuai keinginan Anda dengan mengubah tampilan aplikasi.";
 "appearance_ui_style_setting_section_title" = "Tema";
 "appearance_ui_style_apply_to_icons_title" = "Terapkan ke Ikon";
 "appearance_ui_style_apply_to_icons_description" = "Terapkan tampilan yang dipilih ke semua ikon dalam aplikasi.";
@@ -634,7 +631,8 @@
 "appearance_accent_color_setting_footer_title" = "Ubah warna tombol dan kontrol lainnya dalam aplikasi.";
 "appearance_app_icon_setting_section_title" = "Ikon Aplikasi";
 
-/* Sync & Data Settings */
+/* MARK: - Sync & Data Settings View */
+/* Info */
 "sync_and_data_setting_info_title" = "Deskripsi";
 "sync_and_data_setting_info_description" = "Dapatkan ringkasan status sinkronisasi saat ini dan impor atau ekspor data menggunakan file CSV.";
 
@@ -662,7 +660,14 @@
 "alert_csv_export_successful_title" = "Ekspor berhasil 🎉";
 "alert_csv_export_successful_message" = "Data Anda berhasil diekspor ke \"%@\".";
 
-/* Cloud Settings */
+/* Progress */
+"alert_csv_export_progress_title" = "Ekspor";
+"csv_export_progress_preparing" = "Menyiapkan ekspor";
+"csv_export_progress_transactions" = "Transaksi";
+"csv_export_progress_finishing" = "Menyelesaikan ekspor";
+
+/* MARK: - Cloud Settings View */
+/* Info */
 "cloud_setting_info_title" = "Deskripsi";
 "cloud_setting_info_description" = "Tampilan berikut memberikan gambaran umum lebih rinci tentang status sinkronisasi iCloud saat ini dan membantu pemecahan masalah.";
 
@@ -685,20 +690,63 @@
 "import_from_cloud_button" = "Unduh dari iCloud";
 "manual_sync_cloud_setting_footer_title" = "Jika data Anda belum atau belum sepenuhnya disinkronkan dengan iCloud, Anda dapat memulai sinkronisasi secara manual di sini.";
 
-/* Backup Settings */
+/* MARK: - Backup Settings View */
+/* Info */
 "backup_setting_info_title" = "Deskripsi";
 "backup_setting_info_description" = "Jika diaktifkan, Budget Flow mencadangkan data Anda secara rutin sehingga Anda dapat memulihkan aplikasi ke keadaan sebelumnya kapan saja.";
 
-"backup_general_setting_section_title" = "Umum";
-"backup_recent_backups_setting_section_title" = "Cadangan Terbaru";
+"backup_setting_general_section_title" = "Umum";
+"backup_setting_recent_section_title" = "Cadangan Terbaru";
 "backup_setting_use_automatic_backups_title" = "Pencadangan Otomatis";
+"backup_setting_back_up_to_icloud_drive_title" = "Cadangkan ke iCloud Drive";
+
+"backup_setting_keep_backups_title" = "Simpan cadangan";
+"backup_setting_keep_backups_last_5_title" = "5 terakhir";
+"backup_setting_keep_backups_last_10_title" = "10 terakhir";
+"backup_setting_keep_backups_last_20_title" = "20 terakhir";
+"backup_setting_keep_backups_last_30_title" = "30 terakhir";
+"backup_setting_keep_backups_all_title" = "Semua";
+
 "backup_setting_create_backup_title" = "Buat cadangan";
 
-"alert_restore_backup_title" = "Pulihkan cadangan ini?";
-"alert_restore_backup_message" = "Memulihkan cadangan saat ini merupakan fitur eksperimental. Ini akan menghapus data Anda saat ini dan menimpanya dengan cadangan yang dipilih.\n\nSetelah itu, aplikasi akan ditutup secara otomatis.\n\nPeringatan: Proses ini tidak dapat dibatalkan!";
+"backup_setting_no_recent_backups_title" = "Tidak ada cadangan tersedia";
+"backup_setting_backup_subtitle" = "%@ · %@";
+
+"backup_setting_delete_backup_alert_title" = "Hapus Cadangan";
+"backup_setting_delete_backup_alert_message" = "Apakah Anda yakin ingin menghapus cadangan ini?";
+
+"backup_setting_restore_success_title" = "Cadangan dipulihkan";
+"backup_setting_restore_success_message" = "Cadangan yang dipilih telah dipulihkan.";
+
+"backup_setting_error_title" = "Pencadangan gagal";
+"backup_setting_icloud_drive_unavailable_error" = "iCloud Drive tidak tersedia di perangkat ini.";
+"backup_setting_could_not_create_backup_directory_error" = "Folder cadangan tidak dapat dibuat.";
+
+"alert_restore_backup_title" = "Pulihkan Cadangan";
+"alert_restore_backup_message" = "Apakah Anda yakin ingin memulihkan cadangan ini?\n\nIni akan menghapus data Anda saat ini dan menggantinya dengan data dari cadangan yang dipilih.\n\nPeringatan: Tindakan ini tidak dapat dibatalkan!";
 "alert_restore_backup_button" = "Pulihkan cadangan";
 
-/* Advanced Settings */
+/* Progress */
+"backup_restore_progress_alert_title" = "Memulihkan Cadangan";
+"backup_restore_progress_preparing" = "Menyiapkan cadangan";
+"backup_restore_progress_validating" = "Memvalidasi cadangan";
+"backup_restore_progress_reading_data" = "Membaca data cadangan";
+"backup_restore_progress_deleting_existing_data" = "Menghapus data yang ada";
+"backup_restore_progress_finishing" = "Menyelesaikan pemulihan";
+
+/* Progress Entities */
+"backup_restore_progress_budget_books" = "Buku anggaran";
+"backup_restore_progress_accounts" = "Akun";
+"backup_restore_progress_category_groups" = "Folder";
+"backup_restore_progress_categories" = "Kategori";
+"backup_restore_progress_payees" = "Penerima pembayaran";
+"backup_restore_progress_tags" = "Tag";
+"backup_restore_progress_budgets" = "Anggaran";
+"backup_restore_progress_transaction_groups" = "Grup transaksi";
+"backup_restore_progress_transactions" = "Transaksi";
+"backup_restore_progress_reminders" = "Pengingat";
+
+/* MARK: - Advanced Settings View */
 "advanced_setting_info_title" = "Deskripsi";
 "advanced_setting_info_description" = "Lakukan pengaturan lebih lanjut untuk mengonfigurasi aplikasi.";
 
@@ -715,8 +763,10 @@
 "advanced_setting_auto_lock_title" = "Minta Kode";
 
 "advanced_setting_chart_type_title" = "Jenis Grafik";
-"advanced_setting_show_frequently_used_items_title" = "Tampilkan kategori & tag yang sering digunakan";
-"advanced_setting_show_frequently_used_items_description" = "Tampilkan kategori & tag yang sering digunakan dalam daftar pilihan saat membuat dan mengubah transaksi.";
+"advanced_setting_show_most_used_items_title" = "Tampilkan kategori & tag yang paling sering digunakan";
+"advanced_setting_show_most_used_items_description" = "Tampilkan kategori & tag yang paling sering digunakan dalam daftar pilihan saat membuat dan mengedit transaksi.";
+"advanced_setting_remove_most_used_items_from_groups_title" = "Hapus kategori & tag yang paling sering digunakan dari grup";
+"advanced_setting_remove_most_used_items_from_groups_description" = "Hapus kategori dan tag yang paling sering digunakan dari grup biasanya dalam daftar pilihan saat membuat dan mengedit transaksi.";
 "advanced_setting_show_notes_in_title_title" = "Tampilkan catatan, bukan kategori";
 "advanced_setting_show_notes_in_title_description" = "Tampilkan isi catatan, bukan nama kategori untuk transaksi.";
 "advanced_setting_start_day_of_month_title" = "Tanggal awal bulan";
@@ -783,7 +833,15 @@
 "alert_share_app_type_selection_qrcode_button" = "Kode QR";
 
 "alert_reset_app_title" = "Atur Ulang Aplikasi";
-"alert_reset_app_message" = "Apakah Anda yakin ingin mengatur ulang aplikasi ke pengaturan bawaan? Ini akan menghapus semua data Anda yang tersimpan di perangkat ini dan iCloud secara permanen.";
+"alert_reset_app_message" = "Apakah Anda yakin ingin mengatur ulang aplikasi ke pengaturan bawaan? Ini akan menghapus semua data Anda secara permanen.";
+
+/* Progress */
+"alert_app_reset_progress_title" = "Atur Ulang Aplikasi";
+"app_reset_progress_preparing" = "Menyiapkan pengaturan ulang aplikasi";
+"app_reset_progress_deleting_existing_notifications" = "Menghapus notifikasi yang ada";
+"app_reset_progress_deleting_existing_data" = "Menghapus data yang ada";
+"app_reset_progress_deleting_existing_settings" = "Menghapus pengaturan yang ada";
+"app_reset_progress_finishing" = "Menyelesaikan pengaturan ulang aplikasi";
 
 "alert_error_title" = "Terjadi kesalahan 😢";
 
@@ -800,7 +858,7 @@
 "passcode_view_enter_passcode_title" = "Masukkan Kode Sandi";
 "passcode_view_create_passcode_title" = "Buat Kode Sandi";
 "passcode_view_confirm_passcode_title" = "Konfirmasi Kode Sandi";
-"passcode_view_authenticate_reason" = "Autentikasi Pengguna";
+"passcode_view_authenticate_reason" = "Autentikasi diperlukan";
 
 /* Alert Views */
 "alert_set_passcode_type_title" = "Pilih opsi kode sandi";
@@ -834,19 +892,6 @@
 /* Buttons */
 "new_features_view_rate_app_button" = "Nilai Aplikasi";
 "new_features_view_close_button" = "Mungkin nanti";
-
-
-/* MARK: - Purchase Success View */
-/* Titles */
-"purchase_success_view_title" = "Terima kasih!";
-
-/* Messages */
-"purchase_success_view_info_message" = "Jika Anda menyukai aplikasi ini, silakan tulis ulasan positif di App Store. Ini sangat membantu dan memotivasi untuk terus meningkatkan aplikasi. 😊";
-"purchase_success_view_info_message_info" = "\n\nInfo: Saat beralih dari langganan ke pembelian selamanya, jangan lupa membatalkan langganan Anda yang masih aktif setelahnya.";
-
-/* Buttons */
-"purchase_success_view_rate_app_button" = "Nilai Aplikasi";
-"purchase_success_view_close_button" = "Mungkin nanti";
 
 
 /* MARK: - Upgrade View */
@@ -958,12 +1003,13 @@
 "alert_upgrade_view_purchase_success_title" = "Pembelian Berhasil 🎉";
 "alert_upgrade_view_purchase_success_message" = "Terima kasih atas dukungan Anda! 😊";
 "alert_upgrade_view_purchase_success_message_info" = "\n\nInfo: Jika Anda beralih dari langganan ke pembelian satu kali, jangan lupa membatalkan langganan Anda yang masih aktif setelahnya.";
+
 "alert_upgrade_view_purchase_error_message" = "Pembelian Anda tidak berhasil diselesaikan.";
-"alert_upgrade_view_purchase_error_store_problem_message" = "Ada masalah dengan App Store.\n\nInfo: Terkadang pembelian hanya dapat berfungsi jika Anda mengonfirmasi dengan kata sandi Anda, bukan Touch ID / Face ID.\n\nMisalnya, jika Anda menggunakan Face ID, cukup tutupi kamera depan dan coba lagi untuk melihat dialog kata sandi.";
+"alert_upgrade_view_purchase_error_store_problem_message" = "Ada masalah dengan App Store.";
+"alert_upgrade_view_purchase_error_store_problem_message_info" = "\n\nInfo: Terkadang pembelian hanya dapat berfungsi jika Anda mengonfirmasi dengan kata sandi Anda, bukan Touch ID / Face ID.\n\nMisalnya, jika Anda menggunakan Face ID, cukup tutupi kamera depan dan coba lagi untuk melihat dialog kata sandi.";
 "alert_upgrade_view_purchase_error_not_allowed_message" = "Pembelian tidak diizinkan di perangkat ini.";
 "alert_upgrade_view_purchase_error_invalid_message" = "Periksa metode pembayaran Anda dan coba lagi nanti. Jika kesalahan berlanjut, hubungi dukungan.";
 "alert_upgrade_view_purchase_error_network_message" = "Periksa koneksi internet Anda dan coba lagi nanti. Jika kesalahan berlanjut, hubungi dukungan.";
-
 "alert_upgrade_view_load_products_error_message" = "Produk tidak dapat dimuat. Periksa koneksi internet Anda dan coba lagi nanti. Jika kesalahan berlanjut, hubungi dukungan.";
 
 "alert_upgrade_view_restore_success_title" = "Pembelian Dipulihkan";
@@ -985,19 +1031,20 @@
 "upgrade_faq_about_title" = "Apa itu Budget Flow?";
 "upgrade_faq_about_value" = "Budget Flow adalah aplikasi pelacakan anggaran yang modern dan mudah digunakan untuk semua orang yang ingin melacak keuangan mereka dan mengelola pengeluaran mereka secara efektif.";
 "upgrade_faq_developer_title" = "Siapa yang mengembangkan aplikasi ini?";
-"upgrade_faq_developer_value" = "Budget Flow dimulai sebagai proyek sampingan dan sejak itu sepenuhnya dirancang, dikembangkan, dan dikelola oleh saya, Fabian Hasse. Saya adalah pengembang perangkat lunak yang antusias dengan pengalaman lebih dari 10 tahun dan saya bekerja dengan penuh semangat untuk mengembangkan aplikasi penganggaran dan pelacakan pengeluaran terbaik di App Store.";
+"upgrade_faq_developer_value" = "Budget Flow dimulai sebagai proyek sampingan dan sejak itu sepenuhnya dirancang, dikembangkan, dan dikelola oleh saya, Fabian Hasse. Saya adalah pengembang perangkat lunak yang antusias dengan pengalaman lebih dari 10 tahun dan saya bekerja dengan penuh semangat untuk mengembangkan aplikasi penganggaran dan pelacakan pengeluaran terbaik.";
 "upgrade_faq_free_use_title" = "Dapatkah aplikasi juga digunakan secara gratis?";
 "upgrade_faq_free_use_value" = "Ya, Anda dapat menggunakan fungsi dasar aplikasi, seperti membuat transaksi, sepenuhnya gratis.\n\nSelain itu, aplikasi menawarkan masa uji coba untuk versi lengkap sehingga Anda dapat mencobanya terlebih dahulu sebelum memutuskan untuk membeli atau berlangganan versi lengkap.";
 "upgrade_faq_security_title" = "Apakah data saya aman?";
-"upgrade_faq_security_value" = "Keuangan Anda bersifat pribadi – dan harus tetap seperti itu. Itulah sebabnya data Anda disimpan secara eksklusif di perangkat Anda atau (opsional) di iCloud pribadi Anda.";
+"upgrade_faq_security_value" = "Keuangan Anda bersifat pribadi – dan harus tetap seperti itu. Itulah sebabnya data Anda disimpan secara eksklusif di perangkat Anda.";
+"upgrade_faq_security_value_icloud_suffix" = " atau (opsional) di iCloud pribadi Anda.";
 "upgrade_faq_why_subscription_title" = "Mengapa versi lengkap utamanya ditawarkan sebagai langganan?";
-"upgrade_faq_why_subscription_value" = "Tujuan saya adalah mengembangkan aplikasi berkualitas tinggi yang menawarkan kepada Anda sebagai pengguna fitur dan peningkatan baru secara rutin. Namun, untuk mencapai tujuan ini, aplikasi memerlukan pendapatan berkelanjutan untuk membayar biaya yang ada dan berkelanjutan secara ekonomi.\n\nApa yang tidak diketahui banyak orang: Mengembangkan dan memelihara aplikasi membutuhkan banyak waktu. Dalam kasus Budget Flow, misalnya, dibutuhkan waktu hampir dua tahun dan beberapa ribu jam kerja dari ide hingga pengembangan dan pengujian sebelum versi pertama dapat dirilis ke App Store.\n\nDengan model langganan, Anda mendapatkan manfaat khususnya dari pembaruan dan peningkatan rutin, serta dukungan yang baik untuk memastikan bahwa Anda terus merasa puas. Anda juga memiliki kesempatan untuk mencoba aplikasi secara gratis terlebih dahulu untuk memastikan bahwa aplikasi sesuai dengan kebutuhan Anda, Anda dapat mengubah atau membatalkan langganan kapan saja jika Anda berubah pikiran.\n\nNamun, karena sebagian pengguna tidak menyukai langganan, tersedia juga opsi pembelian satu kali bayar dengan harga sedikit lebih mahal. Harga pembelian satu kali bayar ini mencerminkan customer lifetime value (CLV) dan kira-kira sekitar 2,5 kali dari harga langganan tahunan. Dengan demikian, semua biaya di masa depan untuk pembaruan dan dukungan sudah tercakup selama masa pakai aplikasi, yang sebaliknya biasanya ditanggung melalui pembayaran berulang dalam bentuk langganan.\n\nSecara keseluruhan, model bisnis ini memberikan kepada Anda sebagai pengguna banyak manfaat dan pengalaman yang lebih baik melalui pembaruan dan dukungan berkelanjutan. Dalam jangka panjang, pembelian satu kali dengan harga murah sayangnya tidak akan berkelanjutan, karena model bisnis ini mengharuskan pengguna baru untuk terus membeli aplikasi guna memastikan pengembangan berkelanjutan.\n\nJadi, jika Anda menyukai aplikasi ini, saya akan sangat senang jika Anda mendukung pekerjaan saya sehingga saya dapat terus menawarkan lebih banyak fitur hebat kepada Anda di masa yang akan datang!❤️";
+"upgrade_faq_why_subscription_value" = "Tujuan saya adalah mengembangkan aplikasi berkualitas tinggi yang menawarkan kepada Anda sebagai pengguna fitur dan peningkatan baru secara rutin. Namun, untuk mencapai tujuan ini, aplikasi memerlukan pendapatan berkelanjutan untuk membayar biaya yang ada dan berkelanjutan secara ekonomi.\n\nApa yang tidak diketahui banyak orang: Mengembangkan dan memelihara aplikasi membutuhkan banyak waktu. Dalam kasus Budget Flow, misalnya, dibutuhkan waktu hampir dua tahun dan beberapa ribu jam kerja dari ide hingga pengembangan dan pengujian sebelum versi pertama dapat dirilis.\n\nDengan model langganan, Anda mendapatkan manfaat khususnya dari pembaruan dan peningkatan rutin, serta dukungan yang baik untuk memastikan bahwa Anda terus merasa puas. Anda juga memiliki kesempatan untuk mencoba aplikasi secara gratis terlebih dahulu untuk memastikan bahwa aplikasi sesuai dengan kebutuhan Anda, Anda dapat mengubah atau membatalkan langganan kapan saja jika Anda berubah pikiran.\n\nNamun, karena sebagian pengguna tidak menyukai langganan, tersedia juga opsi pembelian satu kali bayar dengan harga sedikit lebih mahal. Harga pembelian satu kali bayar ini mencerminkan customer lifetime value (CLV) dan kira-kira sekitar 2,5 kali dari harga langganan tahunan. Dengan demikian, semua biaya di masa depan untuk pembaruan dan dukungan sudah tercakup selama masa pakai aplikasi, yang sebaliknya biasanya ditanggung melalui pembayaran berulang dalam bentuk langganan.\n\nSecara keseluruhan, model bisnis ini memberikan kepada Anda sebagai pengguna banyak manfaat dan pengalaman yang lebih baik melalui pembaruan dan dukungan berkelanjutan. Dalam jangka panjang, pembelian satu kali dengan harga murah sayangnya tidak akan berkelanjutan, karena model bisnis ini mengharuskan pengguna baru untuk terus membeli aplikasi guna memastikan pengembangan berkelanjutan.\n\nJadi, jika Anda menyukai aplikasi ini, saya akan sangat senang jika Anda mendukung pekerjaan saya sehingga saya dapat terus menawarkan lebih banyak fitur hebat kepada Anda di masa yang akan datang!❤️";
 "upgrade_faq_multiple_devices_title" = "Dapatkah saya menggunakan versi lengkap di beberapa perangkat?";
-"upgrade_faq_multiple_devices_value" = "Ya, Anda dapat menggunakan versi lengkap Budget Flow di semua perangkat Apple Anda dengan Apple ID yang sama. Karena aplikasi disinkronkan melalui iCloud, Anda dapat beralih dari satu perangkat ke perangkat lain dengan lancar serta selalu dapat mengakses data keuangan dan pengaturan Anda.";
+"upgrade_faq_multiple_devices_value" = "Ya, Anda dapat menggunakan versi lengkap Budget Flow di semua perangkat Apple Anda dengan Akun Apple yang sama. Karena aplikasi disinkronkan melalui iCloud, Anda dapat beralih dari satu perangkat ke perangkat lain dengan lancar serta selalu dapat mengakses data keuangan dan pengaturan Anda.";
 "upgrade_faq_multiple_people_title" = "Dapatkah saya menggunakan versi lengkap dengan banyak orang?";
 "upgrade_faq_multiple_people_value" = "Ya, Anda dapat berbagi pembelian satu kali serta langganan versi lengkap dengan maksimal lima orang dalam satu grup keluarga. Hal yang harus Anda lakukan adalah mengaktifkan keluarga berbagi di pengaturan sistem dan menambahkan orang lain ke grup.";
 "upgrade_faq_cancel_subscription_title" = "Bagaimana cara membatalkan langganan saya?";
-"upgrade_faq_cancel_subscription_value" = "Anda dapat membatalkan langganan kapan saja menggunakan Apple ID Anda di Preferensi Sistem.";
+"upgrade_faq_cancel_subscription_value" = "Anda dapat membatalkan langganan kapan saja menggunakan Akun Apple Anda di Preferensi Sistem.";
 "upgrade_faq_subscription_data_loss_title" = "Apakah data saya akan hilang jika saya membatalkan langganan?";
 "upgrade_faq_subscription_data_loss_value" = "Tidak. Apa pun yang Anda buat saat berlangganan versi lengkap akan tetap tersedia jika Anda beralih kembali ke versi gratis.";
 "upgrade_faq_refund_title" = "Bagaimana cara mendapatkan pengembalian dana saya?";
@@ -1203,7 +1250,7 @@
 "time_zone_selection_title" = "Zona Waktu";
 
 /* Messages */
-"no_timezones_found_title" = "Tidak ada zona waktu yang ditemukan";
+"no_time_zones_found_title" = "Tidak ada zona waktu yang ditemukan";
 "time_zone_selection_search_placeholder_message" = "Cari zona waktu negara atau kota";
 
 
@@ -1484,6 +1531,8 @@
 
 /* Sections */
 "form_general_section_title" = "Umum";
+"form_csv_date_format_suggestions_section_title" = "Saran";
+"form_csv_date_format_other_section_title" = "Lainnya";
 
 /* Footer */
 "form_invalid_footer_title" = "Kesalahan:";

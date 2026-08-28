@@ -20,16 +20,20 @@
 /* MARK: - Miscellaneous */
 "face_id" = "Face ID";
 "touch_id" = "Touch ID";
+"biometrics" = "Biometri";
+
 "required" = "Obligatoriskt";
 "optional" = "Valfritt";
-"uncategorized" = "Okategoriserad";
+
 "before" = "före";
+"uncategorized" = "Okategoriserad";
 "account_reconcilation" = "Kontavstämning";
+
 "evaluated" = "Utvärderad";
 "not_evaluated" = "Ej utvärderad";
+
 "share_participant_owner" = "Ägare";
 "share_participant_you" = "Du";
-
 
 /* MARK: - Enums */
 "account_type_cash" = "Kontanter";
@@ -56,6 +60,9 @@
 "transaction_type_income_plural" = "Inkomst";
 "transaction_type_expense_plural" = "Utgifter";
 "transaction_type_transfer_plural" = "Överföringar";
+
+"transaction_occurrence_type_one_time" = "Engångs";
+"transaction_occurrence_type_recurring" = "Återkommande";
 
 "payment_status" = "Status";
 "payment_status_completed" = "Slutförd";
@@ -289,6 +296,8 @@
 
 "open_button" = "Öppna";
 "open_folder_button" = "Öppna mapp";
+"local_folder_button" = "Lokal mapp";
+"icloud_drive_folder_button" = "iCloud Drive";
 "open_in_browser_button" = "Öppna i webbläsaren";
 
 "show_more_button" = "Visa mer";
@@ -311,7 +320,6 @@
 "get_started_button" = "Kom igång";
 
 "show_transactions_button" = "Visa transaktioner";
-"show_in_app_store_button" = "Visa i App Store";
 
 "flip_values_button" = "Vänd ⇅";
 
@@ -329,7 +337,7 @@
 "alert_cloud_share_unknown_error_message" = "Kunde inte slutföra delning eftersom ett fel uppstod. Det finns förmodligen inte tillräckligt med utrymme tillgängligt i din iCloud. Frigör lite utrymme och försök igen.";
 
 
-/* MARK: - Search View */
+/* MARK: - Transaction Search View */
 /* Titles */
 "search_title" = "Sök";
 "filter_title" = "Filter";
@@ -337,6 +345,31 @@
 /* Sections */
 "search_text_section_title" = "Sök text";
 "search_suggestions_section_title" = "Förslag";
+
+
+/* MARK: - Transaction Filter */
+/* Sections */
+"transaction_filter_general_section_title" = "Allmänt";
+"transaction_filter_assignment_section_title" = "Tilldelning";
+
+/* Items */
+"transaction_filter_type_title" = "Typ";
+"transaction_filter_occurrence_type_title" = "Upprepning";
+"transaction_filter_amount_title" = "Belopp";
+"transaction_filter_date_title" = "Datum";
+"transaction_filter_status_title" = "Status";
+
+"transaction_filter_accounts_title" = "Konton";
+"transaction_filter_categories_title" = "Kategorier";
+"transaction_filter_payees_title" = "Mottagare";
+"transaction_filter_tags_title" = "Taggar";
+"transaction_filter_people_title" = "Personer";
+
+"transaction_filter_all_title" = "Alla";
+"transaction_filter_any_title" = "Valfritt";
+
+/* Formats */
+"transaction_filter_range_format" = "%@ till %@";
 
 
 /* MARK: - Period Selection View */
@@ -408,17 +441,6 @@
 /* Info */
 "recurring_transactions_info_title" = "Beskrivning";
 "recurring_transactions_info_description" = "Skapa återkommande transaktioner så att de automatiskt läggs till i appen när de förfaller.";
-
-/* Sections */
-"account_filter_section_title" = "Konto";
-"category_filter_section_title" = "Kategori";
-"payee_filter_section_title" = "Betalningstagare";
-"tag_filter_section_title" = "Tagg";
-"user_filter_section_title" = "Oseba";
-"payment_status_filter_section_title" = "Betalning";
-"transaction_type_filter_section_title" = "Typ";
-"date_range_filter_section_title" = "Datum";
-"amount_range_filter_section_title" = "Belopp";
 
 /* Messages */
 "no_transactions_title" = "Inga transaktioner";
@@ -597,36 +619,11 @@
 
 "contact_developer_mail_subject" = "%@: %@%@";
 "contact_developer_mail_subject_full_version" = " (full version)";
-"contact_developer_mail_message" = "
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-<b>Support Information:</b>
-</br>
-<u>General:</u></br>
-- Device: %@</br>
-- iOS version: %@</br>
-- Language: %@</br>
-- Currency: %@</br>
-- Time zone: %@</br>
-</br>
-<u>App Specific:</u></br>
-- App version: %@</br>
-- Build: %@</br>
-</br>
-<u>In-App Purchases:</u></br>
-- User ID: %@</br>
-- Active: %@</br>
-- Purchases: %@";
-"contact_developer_mail_no_purchases" = "None";
 
-/* Appearance Settings */
+/* MARK: - Appearance Settings View */
+/* Info */
 "appearance_setting_info_title" = "Beskrivning";
-"appearance_setting_info_description" = "Anpassa appen efter eget tycke genom att ändra appens utseende eller accentfärg.";
+"appearance_setting_info_description" = "Anpassa appen efter eget tycke genom att ändra appens utseende.";
 "appearance_ui_style_setting_section_title" = "Tema";
 "appearance_ui_style_apply_to_icons_title" = "Tillämpa på ikoner";
 "appearance_ui_style_apply_to_icons_description" = "Tillämpa även det valda utseendet på alla ikoner i appen.";
@@ -634,7 +631,8 @@
 "appearance_accent_color_setting_footer_title" = "Ändrar färgen på knappar och andra kontroller i appen.";
 "appearance_app_icon_setting_section_title" = "Appikon";
 
-/* Sync & Data Settings */
+/* MARK: - Sync & Data Settings View */
+/* Info */
 "sync_and_data_setting_info_title" = "Beskrivning";
 "sync_and_data_setting_info_description" = "Få en översikt över den aktuella synkroniseringsstatusen och importera eller exportera data med en CSV-fil.";
 
@@ -662,7 +660,14 @@
 "alert_csv_export_successful_title" = "Exporten lyckades 🎉";
 "alert_csv_export_successful_message" = "Din data exporterades framgångsrikt till \"%@\".";
 
-/* Cloud Settings */
+/* Progress */
+"alert_csv_export_progress_title" = "Exportera";
+"csv_export_progress_preparing" = "Förbereder export";
+"csv_export_progress_transactions" = "Transaktioner";
+"csv_export_progress_finishing" = "Slutför export";
+
+/* MARK: - Cloud Settings View */
+/* Info */
 "cloud_setting_info_title" = "Beskrivning";
 "cloud_setting_info_description" = "Följande vy ger en mer detaljerad översikt över den aktuella iCloud-synkroniseringsstatusen och hjälper till med felsökning.";
 
@@ -685,20 +690,63 @@
 "import_from_cloud_button" = "Ladda ner från iCloud";
 "manual_sync_cloud_setting_footer_title" = "Om dina data inte har synkroniserats eller inte har synkroniserats helt med iCloud kan du starta synkroniseringen manuellt här.";
 
-/* Backup Settings */
+/* MARK: - Backup Settings View */
+/* Info */
 "backup_setting_info_title" = "Beskrivning";
 "backup_setting_info_description" = "När den är aktiverad säkerhetskopierar Budget Flow regelbundet dina data så att du kan återställa appen till ett tidigare tillstånd när som helst.";
 
-"backup_general_setting_section_title" = "Allmänt";
-"backup_recent_backups_setting_section_title" = "Senaste säkerhetskopior";
+"backup_setting_general_section_title" = "Allmänt";
+"backup_setting_recent_section_title" = "Senaste säkerhetskopior";
 "backup_setting_use_automatic_backups_title" = "Automatisk säkerhetskopiering";
+"backup_setting_back_up_to_icloud_drive_title" = "Säkerhetskopiera till iCloud Drive";
+
+"backup_setting_keep_backups_title" = "Behåll säkerhetskopior";
+"backup_setting_keep_backups_last_5_title" = "Senaste 5";
+"backup_setting_keep_backups_last_10_title" = "Senaste 10";
+"backup_setting_keep_backups_last_20_title" = "Senaste 20";
+"backup_setting_keep_backups_last_30_title" = "Senaste 30";
+"backup_setting_keep_backups_all_title" = "Alla";
+
 "backup_setting_create_backup_title" = "Skapa säkerhetskopia";
 
-"alert_restore_backup_title" = "Återställa denna säkerhetskopia?";
-"alert_restore_backup_message" = "Återställning av säkerhetskopior är för närvarande en experimentell funktion. Det kommer att radera din nuvarande data och skriva över den med den valda säkerhetskopian.\n\nDärefter stängs appen automatiskt.\n\nVarning: Denna process kan inte ångras!";
+"backup_setting_no_recent_backups_title" = "Inga säkerhetskopior tillgängliga";
+"backup_setting_backup_subtitle" = "%@ · %@";
+
+"backup_setting_delete_backup_alert_title" = "Radera säkerhetskopia";
+"backup_setting_delete_backup_alert_message" = "Är du säker på att du vill radera den här säkerhetskopian?";
+
+"backup_setting_restore_success_title" = "Säkerhetskopia återställd";
+"backup_setting_restore_success_message" = "Den valda säkerhetskopian har återställts.";
+
+"backup_setting_error_title" = "Säkerhetskopiering misslyckades";
+"backup_setting_icloud_drive_unavailable_error" = "iCloud Drive är inte tillgängligt på den här enheten.";
+"backup_setting_could_not_create_backup_directory_error" = "Det gick inte att skapa säkerhetskopieringsmappen.";
+
+"alert_restore_backup_title" = "Återställ säkerhetskopia";
+"alert_restore_backup_message" = "Är du säker på att du vill återställa den här säkerhetskopian?\n\nDetta raderar dina nuvarande data och ersätter dem med data från den valda säkerhetskopian.\n\nVarning: Den här åtgärden kan inte ångras!";
 "alert_restore_backup_button" = "Återställ säkerhetskopia";
 
-/* Advanced Settings */
+/* Progress */
+"backup_restore_progress_alert_title" = "Återställer säkerhetskopia";
+"backup_restore_progress_preparing" = "Förbereder säkerhetskopia";
+"backup_restore_progress_validating" = "Validerar säkerhetskopia";
+"backup_restore_progress_reading_data" = "Läser säkerhetskopiedata";
+"backup_restore_progress_deleting_existing_data" = "Raderar befintliga data";
+"backup_restore_progress_finishing" = "Slutför återställning";
+
+/* Progress Entities */
+"backup_restore_progress_budget_books" = "Budgetböcker";
+"backup_restore_progress_accounts" = "Konton";
+"backup_restore_progress_category_groups" = "Mapp";
+"backup_restore_progress_categories" = "Kategorier";
+"backup_restore_progress_payees" = "Betalningsmottagare";
+"backup_restore_progress_tags" = "Taggar";
+"backup_restore_progress_budgets" = "Budgetar";
+"backup_restore_progress_transaction_groups" = "Transaktionsgrupper";
+"backup_restore_progress_transactions" = "Transaktioner";
+"backup_restore_progress_reminders" = "Påminnelser";
+
+/* MARK: - Advanced Settings View */
 "advanced_setting_info_title" = "Beskrivning";
 "advanced_setting_info_description" = "Gör ytterligare inställningar för att konfigurera appen.";
 
@@ -715,8 +763,10 @@
 "advanced_setting_auto_lock_title" = "Begär kod";
 
 "advanced_setting_chart_type_title" = "Diagramtyp";
-"advanced_setting_show_frequently_used_items_title" = "Visa vanliga kategorier och taggar";
-"advanced_setting_show_frequently_used_items_description" = "Visa ofta använda kategorier och taggar i urvalslistan när du skapar och redigerar transaktioner.";
+"advanced_setting_show_most_used_items_title" = "Visa mest använda kategorier och taggar";
+"advanced_setting_show_most_used_items_description" = "Visa mest använda kategorier och taggar i urvalslistan när du skapar och redigerar transaktioner.";
+"advanced_setting_remove_most_used_items_from_groups_title" = "Ta bort mest använda kategorier och taggar från grupper";
+"advanced_setting_remove_most_used_items_from_groups_description" = "Tar bort de mest använda kategorierna och taggarna från deras vanliga grupper i urvalslistan när du skapar och redigerar transaktioner.";
 "advanced_setting_show_notes_in_title_title" = "Visa anteckningar istället för kategori";
 "advanced_setting_show_notes_in_title_description" = "Visa innehållet i anteckningarna istället för kategorinamnet för transaktioner.";
 "advanced_setting_start_day_of_month_title" = "Startdagen i månaden";
@@ -783,7 +833,15 @@
 "alert_share_app_type_selection_qrcode_button" = "QR-kod";
 
 "alert_reset_app_title" = "Återställ appen";
-"alert_reset_app_message" = "Är du säker på att du vill återställa appen till standardinställningarna? Detta kommer att radera alla dina data som lagrats på den här enheten och iCloud permanent.";
+"alert_reset_app_message" = "Är du säker på att du vill återställa appen till standardinställningarna? Detta raderar permanent alla dina data.";
+
+/* Progress */
+"alert_app_reset_progress_title" = "Återställ appen";
+"app_reset_progress_preparing" = "Förbereder återställning av appen";
+"app_reset_progress_deleting_existing_notifications" = "Tar bort befintliga aviseringar";
+"app_reset_progress_deleting_existing_data" = "Tar bort befintlig data";
+"app_reset_progress_deleting_existing_settings" = "Tar bort befintliga inställningar";
+"app_reset_progress_finishing" = "Slutför återställning av appen";
 
 "alert_error_title" = "Ett fel uppstod 😢";
 
@@ -800,7 +858,7 @@
 "passcode_view_enter_passcode_title" = "Ange lösenord";
 "passcode_view_create_passcode_title" = "Skapa lösenord";
 "passcode_view_confirm_passcode_title" = "Bekräfta lösenord";
-"passcode_view_authenticate_reason" = "Användarautentisering";
+"passcode_view_authenticate_reason" = "Autentisering krävs";
 
 /* Alert Views */
 "alert_set_passcode_type_title" = "Välj lösenordsalternativ";
@@ -834,19 +892,6 @@
 /* Buttons */
 "new_features_view_rate_app_button" = "Rate App";
 "new_features_view_close_button" = "Maybe later";
-
-
-/* MARK: - Rate App View */
-/* Titles */
-"purchase_success_view_title" = "Tack!";
-
-/* Messages */
-"purchase_success_view_info_message" = "Om du gillar appen, skriv en positiv recension i App Store. Den hjälper verkligen mycket och motiverar till att kontinuerligt förbättra appen. 😊";
-"purchase_success_view_info_message_info" = "\n\nInfo: När du byter från ett abonnemang till ett livstidsköp, kom ihåg att säga upp ditt befintliga abonnemang efteråt.";
-
-/* Buttons */
-"purchase_success_view_rate_app_button" = "Betygsätt app";
-"purchase_success_view_close_button" = "Kanske senare";
 
 
 /* MARK: - Upgrade View */
@@ -958,12 +1003,13 @@
 "alert_upgrade_view_purchase_success_title" = "Köpet lyckades 🎉";
 "alert_upgrade_view_purchase_success_message" = "Tack för ditt stöd! 😊";
 "alert_upgrade_view_purchase_success_message_info" = "\n\nInformation: Om du byter från ett abonnemang till ett engångsköp, kom ihåg att avbryta din tidigare prenumeration i efterhand.";
+
 "alert_upgrade_view_purchase_error_message" = "Ditt köp kunde inte slutföras.";
-"alert_upgrade_view_purchase_error_store_problem_message" = "Det uppstod ett problem med App Store.\n\nInformation: Ibland kanske köpet bara fungerar om du bekräftar med ditt lösenord istället för Touch ID / Face ID.\n\nTill exempel, om du använder Face ID, täck bara över frontkameran och försök igen för att se lösenordsdialogrutan.";
+"alert_upgrade_view_purchase_error_store_problem_message" = "Det uppstod ett problem med App Store.";
+"alert_upgrade_view_purchase_error_store_problem_message_info" = "\n\nInformation: Ibland kanske köpet bara fungerar om du bekräftar med ditt lösenord istället för Touch ID / Face ID.\n\nTill exempel, om du använder Face ID, täck bara över frontkameran och försök igen för att se lösenordsdialogrutan.";
 "alert_upgrade_view_purchase_error_not_allowed_message" = "Köp är inte tillåtna på den här enheten.";
 "alert_upgrade_view_purchase_error_invalid_message" = "Kontrollera din betalningsmetod och försök igen senare. Kontakta supporten om felet kvarstår.";
 "alert_upgrade_view_purchase_error_network_message" = "Kontrollera din internetanslutning och försök igen senare. Kontakta supporten om felet kvarstår.";
-
 "alert_upgrade_view_load_products_error_message" = "Produkterna kunde inte laddas. Kontrollera din internetanslutning och försök igen senare. Om felet kvarstår, kontakta support.";
 
 "alert_upgrade_view_restore_success_title" = "Köp återställda";
@@ -985,13 +1031,14 @@
 "upgrade_faq_about_title" = "Vad är Budget Flow?";
 "upgrade_faq_about_value" = "Budget Flow är en modern och lättanvänd app för budgetspårning för alla som vill hålla koll på sin ekonomi och hantera sina utgifter effektivt.";
 "upgrade_faq_developer_title" = "Vem har utvecklat appen?";
-"upgrade_faq_developer_value" = "Budget Flow startades som ett sidoprojekt och har sedan dess designats, utvecklats och underhållits av mig, Fabian Hasse. Jag är en entusiastisk mjukvaruutvecklare med över 10 års erfarenhet och jag arbetar med stor passion för att utveckla den bästa budgeterings- och kostnadsspårningsappen i App Store.";
+"upgrade_faq_developer_value" = "Budget Flow startades som ett sidoprojekt och har sedan dess designats, utvecklats och underhållits av mig, Fabian Hasse. Jag är en entusiastisk mjukvaruutvecklare med över 10 års erfarenhet och jag arbetar med stor passion för att utveckla den bästa budgeterings- och kostnadsspårningsappen.";
 "upgrade_faq_free_use_title" = "Kan appen också användas gratis?";
 "upgrade_faq_free_use_value" = "Ja, du kan använda appens grundläggande funktioner, som att skapa transaktioner, helt kostnadsfritt.\n\nDessutom erbjuder appen en provperiod för den fullständiga versionen så att du kan prova den i förväg. innan du bestämmer dig för att köpa eller prenumerera på den fullständiga versionen.";
 "upgrade_faq_security_title" = "Är mina data säkra?";
-"upgrade_faq_security_value" = "Din ekonomi är privat – och den bör förbli så. Det är därför din data lagras exklusivt på din enhet eller (valfritt) i din personliga iCloud.";
+"upgrade_faq_security_value" = "Din ekonomi är privat – och den bör förbli så. Det är därför din data lagras exklusivt på din enhet.";
+"upgrade_faq_security_value_icloud_suffix" = " eller (valfritt) i din personliga iCloud.";
 "upgrade_faq_why_subscription_title" = "Varför erbjuds den fullständiga versionen som en prenumeration?";
-"upgrade_faq_why_subscription_value" = "Vårt mål är att utveckla en högkvalitativ app som erbjuder dig som användare nya funktioner och förbättringar på en regelbunden basis. Men för att uppnå detta mål behöver appen kontinuerliga intäkter för att kunna finansiera sig själv och vara ekonomiskt hållbar.\n\nVad många inte vet Att utveckla och underhålla en app tar mycket tid. I fallet med Budget Flow tog det till exempel nästan två år och flera tusen timmars arbete från idé till utveckling och testning innan den första versionen kunde släppas till App Store.\n\nSom kund drar du särskilt nytta av regelbundna uppdateringar och förbättringar genom prenumerationsmodellen, samt bra support för att säkerställa att du fortsätter att vara nöjd. har även möjlighet att prova appen gratis i förväg för att säkerställa att den passar dina behov. Du kan ändra eller säga upp prenumerationen när som helst om du ändrar dig.\n\nSammantaget erbjuder en prenumerationsmodell många fördelar för dig som en kund och en bättre användarupplevelse genom kontinuerliga uppdateringar och support jämfört med ett engångsköp. I det långa loppet skulle ett engångsköp tyvärr inte vara hållbart, eftersom denna affärsmodell kräver att nya användare fortsätter köpa appen för att säkerställa fortsatt utveckling.\n\nSå om du gillar appen skulle vi bli väldigt glada om du stödjer vårt arbete så att vi kan fortsätta att erbjuda dig ännu fler fantastiska funktioner i framtiden!❤️";
+"upgrade_faq_why_subscription_value" = "Vårt mål är att utveckla en högkvalitativ app som erbjuder dig som användare nya funktioner och förbättringar på en regelbunden basis. Men för att uppnå detta mål behöver appen kontinuerliga intäkter för att kunna finansiera sig själv och vara ekonomiskt hållbar.\n\nVad många inte vet Att utveckla och underhålla en app tar mycket tid. I fallet med Budget Flow tog det till exempel nästan två år och flera tusen timmars arbete från idé till utveckling och testning innan den första versionen kunde släppas.\n\nSom kund drar du särskilt nytta av regelbundna uppdateringar och förbättringar genom prenumerationsmodellen, samt bra support för att säkerställa att du fortsätter att vara nöjd. har även möjlighet att prova appen gratis i förväg för att säkerställa att den passar dina behov. Du kan ändra eller säga upp prenumerationen när som helst om du ändrar dig.\n\nSammantaget erbjuder en prenumerationsmodell många fördelar för dig som en kund och en bättre användarupplevelse genom kontinuerliga uppdateringar och support jämfört med ett engångsköp. I det långa loppet skulle ett engångsköp tyvärr inte vara hållbart, eftersom denna affärsmodell kräver att nya användare fortsätter köpa appen för att säkerställa fortsatt utveckling.\n\nSå om du gillar appen skulle vi bli väldigt glada om du stödjer vårt arbete så att vi kan fortsätta att erbjuda dig ännu fler fantastiska funktioner i framtiden!❤️";
 "upgrade_faq_multiple_devices_title" = "Kan jag använda den fullständiga versionen på flera enheter?";
 "upgrade_faq_multiple_devices_value" = "Ja, du kan använda den fullständiga versionen av Budget Flow på alla dina Apple-enheter med samma Apple-ID. Eftersom appen synkroniseras via iCloud kan du sömlöst växla mellan dina enheter och alltid ha tillgång till din ekonomiska data och inställningar.";
 "upgrade_faq_multiple_people_title" = "Kan jag använda den fullständiga versionen med flera personer?";
@@ -1203,7 +1250,7 @@
 "time_zone_selection_title" = "Tidszon";
 
 /* Messages */
-"no_timezones_found_title" = "Inga tidszoner hittades";
+"no_time_zones_found_title" = "Inga tidszoner hittades";
 "time_zone_selection_search_placeholder_message" = "Sök efter en tidszon för ett land eller en stad";
 
 
@@ -1484,6 +1531,8 @@
 
 /* Sections */
 "form_general_section_title" = "Allmänt";
+"form_csv_date_format_suggestions_section_title" = "Förslag";
+"form_csv_date_format_other_section_title" = "Annat";
 
 /* Footer */
 "form_invalid_footer_title" = "Fel:";

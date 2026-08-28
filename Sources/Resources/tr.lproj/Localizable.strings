@@ -20,16 +20,20 @@
 /* MARK: - Miscellaneous */
 "face_id" = "Face ID";
 "touch_id" = "Touch ID";
+"biometrics" = "Biyometri";
+
 "required" = "Gerekli";
 "optional" = "İsteğe bağlı";
-"uncategorized" = "Uncategorized";
+
 "before" = "önce";
+"uncategorized" = "Uncategorized";
 "account_reconcilation" = "Hesap mutabakatı";
+
 "evaluated" = "Değerlendirildi";
 "not_evaluated" = "Değerlendirilmedi";
+
 "share_participant_owner" = "Sahip";
 "share_participant_you" = "Sen";
-
 
 /* MARK: - Enums */
 "account_type_cash" = "Nakit";
@@ -56,6 +60,9 @@
 "transaction_type_income_plural" = "Gelir";
 "transaction_type_expense_plural" = "Giderler";
 "transaction_type_transfer_plural" = "Transferler";
+
+"transaction_occurrence_type_one_time" = "Tek seferlik";
+"transaction_occurrence_type_recurring" = "Yinelenen";
 
 "payment_status" = "Durum";
 "payment_status_completed" = "Tamamlandı";
@@ -289,6 +296,8 @@
 
 "open_button" = "Aç";
 "open_folder_button" = "Klasörü aç";
+"local_folder_button" = "Yerel klasör";
+"icloud_drive_folder_button" = "iCloud Drive";
 "open_in_browser_button" = "Tarayıcıda aç";
 
 "show_more_button" = "Daha fazlasını göster";
@@ -311,7 +320,6 @@
 "get_started_button" = "Başlayın";
 
 "show_transactions_button" = "İşlemleri Göster";
-"show_in_app_store_button" = "App Store'da Göster";
 
 "flip_values_button" = "Değiştir ⇅";
 
@@ -329,7 +337,7 @@
 "alert_cloud_share_unknown_error_message" = "Bir hata oluştuğu için paylaşım tamamlanamadı. Büyük ihtimalle iCloud'unuzda yeterli alan yok. Lütfen biraz yer açın ve yeniden deneyin.";
 
 
-/* MARK: - Search View */
+/* MARK: - Transaction Search View */
 /* Titles */
 "search_title" = "Ara";
 "filter_title" = "Filtre";
@@ -337,6 +345,31 @@
 /* Sections */
 "search_text_section_title" = "Arama Metni";
 "search_suggestions_section_title" = "Öneriler";
+
+
+/* MARK: - Transaction Filter */
+/* Sections */
+"transaction_filter_general_section_title" = "Genel";
+"transaction_filter_assignment_section_title" = "Atama";
+
+/* Items */
+"transaction_filter_type_title" = "Tür";
+"transaction_filter_occurrence_type_title" = "Yineleme";
+"transaction_filter_amount_title" = "Tutar";
+"transaction_filter_date_title" = "Tarih";
+"transaction_filter_status_title" = "Durum";
+
+"transaction_filter_accounts_title" = "Hesaplar";
+"transaction_filter_categories_title" = "Kategoriler";
+"transaction_filter_payees_title" = "Alıcılar";
+"transaction_filter_tags_title" = "Etiketler";
+"transaction_filter_people_title" = "Kişiler";
+
+"transaction_filter_all_title" = "Tümü";
+"transaction_filter_any_title" = "Herhangi biri";
+
+/* Formats */
+"transaction_filter_range_format" = "%@ - %@";
 
 
 /* MARK: - Period Selection View */
@@ -408,17 +441,6 @@
 /* Info */
 "recurring_transactions_info_title" = "Açıklama";
 "recurring_transactions_info_description" = "Vadesi geldiğinde uygulamaya otomatik olarak eklenmesini sağlamak için yinelenen işlemler oluşturun.";
-
-/* Sections */
-"account_filter_section_title" = "Hesap";
-"category_filter_section_title" = "Kategori";
-"payee_filter_section_title" = "Alacaklı";
-"tag_filter_section_title" = "Etiket";
-"user_filter_section_title" = "Kişi";
-"payment_status_filter_section_title" = "Ödeme";
-"transaction_type_filter_section_title" = "Tür";
-"date_range_filter_section_title" = "Tarih";
-"amount_range_filter_section_title" = "Miktar";
 
 /* Messages */
 "no_transactions_title" = "İşlem Yok";
@@ -597,36 +619,11 @@
 
 "contact_developer_mail_subject" = "%@: %@%@";
 "contact_developer_mail_subject_full_version" = " (full version)";
-"contact_developer_mail_message" = "
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-<b>Support Information:</b>
-</br>
-<u>General:</u></br>
-- Device: %@</br>
-- iOS version: %@</br>
-- Language: %@</br>
-- Currency: %@</br>
-- Time zone: %@</br>
-</br>
-<u>App Specific:</u></br>
-- App version: %@</br>
-- Build: %@</br>
-</br>
-<u>In-App Purchases:</u></br>
-- User ID: %@</br>
-- Active: %@</br>
-- Purchases: %@";
-"contact_developer_mail_no_purchases" = "None";
 
-/* Appearance Settings */
+/* MARK: - Appearance Settings View */
+/* Info */
 "appearance_setting_info_title" = "Açıklama";
-"appearance_setting_info_description" = "Uygulamanın görünümünü veya vurgu rengini değiştirerek uygulamayı beğeninize göre kişiselleştirin.";
+"appearance_setting_info_description" = "Uygulamanın görünümünü değiştirerek uygulamayı beğeninize göre kişiselleştirin.";
 "appearance_ui_style_setting_section_title" = "Tema";
 "appearance_ui_style_apply_to_icons_title" = "Simgelere Uygula";
 "appearance_ui_style_apply_to_icons_description" = "Seçilen görünümü uygulamadaki tüm simgelere de uygula.";
@@ -634,7 +631,8 @@
 "appearance_accent_color_setting_footer_title" = "Uygulama içindeki düğmelerin ve diğer kontrollerin rengini değiştirir.";
 "appearance_app_icon_setting_section_title" = "Uygulama Simgesi";
 
-/* Sync & Data Settings */
+/* MARK: - Sync & Data Settings View */
+/* Info */
 "sync_and_data_setting_info_title" = "Açıklama";
 "sync_and_data_setting_info_description" = "Geçerli senkronizasyon durumu hakkında genel bilgi edinin ve bir CSV dosyası kullanarak verileri içe veya dışa aktarın.";
 
@@ -662,7 +660,14 @@
 "alert_csv_export_successful_title" = "Dışa aktarma başarılı 🎉";
 "alert_csv_export_successful_message" = "Verileriniz başarıyla \"%@\" konumuna aktarıldı.";
 
-/* Cloud Settings */
+/* Progress */
+"alert_csv_export_progress_title" = "Dışa Aktar";
+"csv_export_progress_preparing" = "Dışa aktarma hazırlanıyor";
+"csv_export_progress_transactions" = "İşlemler";
+"csv_export_progress_finishing" = "Dışa aktarma tamamlanıyor";
+
+/* MARK: - Cloud Settings View */
+/* Info */
 "cloud_setting_info_title" = "Açıklama";
 "cloud_setting_info_description" = "Aşağıdaki görünüm, geçerli iCloud senkronizasyon durumuna ilişkin daha ayrıntılı bir genel bakış sağlar ve sorun gidermeye yardımcı olur.";
 
@@ -685,20 +690,63 @@
 "import_from_cloud_button" = "iCloud'dan indir";
 "manual_sync_cloud_setting_footer_title" = "Verileriniz iCloud ile senkronize edilmediyse veya tam olarak senkronize edilmediyse, senkronizasyonu buradan manuel olarak başlatabilirsiniz.";
 
-/* Backup Settings */
+/* MARK: - Backup Settings View */
+/* Info */
 "backup_setting_info_title" = "Açıklama";
 "backup_setting_info_description" = "Bütçe Akışı etkinleştirildiğinde verilerinizi düzenli olarak yedekler, böylece uygulamayı istediğiniz zaman önceki durumuna geri yükleyebilirsiniz.";
 
-"backup_general_setting_section_title" = "Genel";
-"backup_recent_backups_setting_section_title" = "Son Yedeklemeler";
+"backup_setting_general_section_title" = "Genel";
+"backup_setting_recent_section_title" = "Son Yedeklemeler";
 "backup_setting_use_automatic_backups_title" = "Otomatik Yedekleme";
+"backup_setting_back_up_to_icloud_drive_title" = "iCloud Drive'a yedekle";
+
+"backup_setting_keep_backups_title" = "Yedekleri sakla";
+"backup_setting_keep_backups_last_5_title" = "Son 5";
+"backup_setting_keep_backups_last_10_title" = "Son 10";
+"backup_setting_keep_backups_last_20_title" = "Son 20";
+"backup_setting_keep_backups_last_30_title" = "Son 30";
+"backup_setting_keep_backups_all_title" = "Tümü";
+
 "backup_setting_create_backup_title" = "Yedek oluştur";
 
-"alert_restore_backup_title" = "Bu yedekleme geri yüklensin mi?";
-"alert_restore_backup_message" = "Yedeklemeleri geri yükleme şu anda deneysel bir özelliktir. Mevcut verilerinizi silecek ve seçili yedeklemenin üzerine yazacaktır.\n\nBundan sonra uygulama otomatik olarak kapatılacaktır.\n\nUyarı: Bu işlem geri alınamaz!";
+"backup_setting_no_recent_backups_title" = "Kullanılabilir yedek yok";
+"backup_setting_backup_subtitle" = "%@ · %@";
+
+"backup_setting_delete_backup_alert_title" = "Yedeği Sil";
+"backup_setting_delete_backup_alert_message" = "Bu yedeği gerçekten silmek istiyor musunuz?";
+
+"backup_setting_restore_success_title" = "Yedek geri yüklendi";
+"backup_setting_restore_success_message" = "Seçilen yedek geri yüklendi.";
+
+"backup_setting_error_title" = "Yedekleme başarısız";
+"backup_setting_icloud_drive_unavailable_error" = "iCloud Drive bu aygıtta kullanılamıyor.";
+"backup_setting_could_not_create_backup_directory_error" = "Yedekleme klasörü oluşturulamadı.";
+
+"alert_restore_backup_title" = "Yedeği Geri Yükle";
+"alert_restore_backup_message" = "Bu yedeği gerçekten geri yüklemek istiyor musunuz?\n\nBu işlem mevcut verilerinizi siler ve seçilen yedekteki verilerle değiştirir.\n\nUyarı: Bu işlem geri alınamaz!";
 "alert_restore_backup_button" = "Yedeklemeyi geri yükle";
 
-/* Advanced Settings */
+/* Progress */
+"backup_restore_progress_alert_title" = "Yedek Geri Yükleniyor";
+"backup_restore_progress_preparing" = "Yedek hazırlanıyor";
+"backup_restore_progress_validating" = "Yedek doğrulanıyor";
+"backup_restore_progress_reading_data" = "Yedek verileri okunuyor";
+"backup_restore_progress_deleting_existing_data" = "Mevcut veriler siliniyor";
+"backup_restore_progress_finishing" = "Geri yükleme tamamlanıyor";
+
+/* Progress Entities */
+"backup_restore_progress_budget_books" = "Bütçe defterleri";
+"backup_restore_progress_accounts" = "Hesaplar";
+"backup_restore_progress_category_groups" = "Klasör";
+"backup_restore_progress_categories" = "Kategoriler";
+"backup_restore_progress_payees" = "Alacaklılar";
+"backup_restore_progress_tags" = "Etiketler";
+"backup_restore_progress_budgets" = "Bütçeler";
+"backup_restore_progress_transaction_groups" = "İşlem grupları";
+"backup_restore_progress_transactions" = "İşlemler";
+"backup_restore_progress_reminders" = "Hatırlatıcılar";
+
+/* MARK: - Advanced Settings View */
 "advanced_setting_info_title" = "Açıklama";
 "advanced_setting_info_description" = "Uygulamayı yapılandırmak için diğer ayarları yapın.";
 
@@ -715,8 +763,10 @@
 "advanced_setting_auto_lock_title" = "İstek Kodu";
 
 "advanced_setting_chart_type_title" = "Grafik türü";
-"advanced_setting_show_frequently_used_items_title" = "Sık kullanılan kategorileri ve etiketleri göster";
-"advanced_setting_show_frequently_used_items_description" = "İşlemleri oluştururken ve düzenlerken, seçim listesinde sık kullanılan kategorileri ve etiketleri gösterin.";
+"advanced_setting_show_most_used_items_title" = "En çok kullanılan kategorileri ve etiketleri göster";
+"advanced_setting_show_most_used_items_description" = "İşlemleri oluştururken ve düzenlerken seçim listesinde en çok kullanılan kategorileri ve etiketleri gösterin.";
+"advanced_setting_remove_most_used_items_from_groups_title" = "En çok kullanılan kategorileri ve etiketleri gruplardan kaldır";
+"advanced_setting_remove_most_used_items_from_groups_description" = "İşlemleri oluştururken ve düzenlerken seçim listesinde en çok kullanılan kategorileri ve etiketleri normal gruplarından kaldırır.";
 "advanced_setting_show_notes_in_title_title" = "Kategori yerine notları göster";
 "advanced_setting_show_notes_in_title_description" = "İşlemler için kategori adı yerine notların içeriğini gösterin.";
 "advanced_setting_start_day_of_month_title" = "Ayın başlangıç günü";
@@ -783,7 +833,15 @@
 "alert_share_app_type_selection_qrcode_button" = "QR Kodu";
 
 "alert_reset_app_title" = "Uygulamayı Sıfırla";
-"alert_reset_app_message" = "Uygulamayı varsayılan ayarlara sıfırlamak istediğinizden emin misiniz? Bu, bu aygıtta ve iCloud'da saklanan tüm verilerinizi kalıcı olarak silecektir.";
+"alert_reset_app_message" = "Uygulamayı varsayılan ayarlara sıfırlamak istediğinizden emin misiniz? Bu, tüm verilerinizi kalıcı olarak silecektir.";
+
+/* Progress */
+"alert_app_reset_progress_title" = "Uygulamayı Sıfırla";
+"app_reset_progress_preparing" = "Uygulama sıfırlama hazırlanıyor";
+"app_reset_progress_deleting_existing_notifications" = "Mevcut bildirimler siliniyor";
+"app_reset_progress_deleting_existing_data" = "Mevcut veriler siliniyor";
+"app_reset_progress_deleting_existing_settings" = "Mevcut ayarlar siliniyor";
+"app_reset_progress_finishing" = "Uygulama sıfırlama tamamlanıyor";
 
 "alert_error_title" = "Bir hata oluştu 😢";
 
@@ -800,7 +858,7 @@
 "passcode_view_enter_passcode_title" = "Parolayı Girin";
 "passcode_view_create_passcode_title" = "Parola Oluştur";
 "passcode_view_confirm_passcode_title" = "Parolayı Onaylayın";
-"passcode_view_authenticate_reason" = "Kullanıcı Doğrulaması";
+"passcode_view_authenticate_reason" = "Kimlik doğrulama gerekli";
 
 /* Alert Views */
 "alert_set_passcode_type_title" = "Parola seçeneğini seçin";
@@ -834,19 +892,6 @@
 /* Buttons */
 "new_features_view_rate_app_button" = "Rate App";
 "new_features_view_close_button" = "Maybe later";
-
-
-/* MARK: - Rate App View */
-/* Titles */
-"purchase_success_view_title" = "Teşekkürler!";
-
-/* Messages */
-"purchase_success_view_info_message" = "Uygulamayı beğendiyseniz, lütfen App Store'da olumlu bir eleştiri yazın. Bu gerçekten çok yardımcı oluyor ve uygulamayı sürekli geliştirmek için motive ediyor. 😊";
-"purchase_success_view_info_message_info" = "\n\nBilgi: Abonelikten ömür boyu satın alıma geçerken, mevcut aboneliğinizi sonradan iptal etmeyi unutmayın.";
-
-/* Buttons */
-"purchase_success_view_rate_app_button" = "Uygulamayı Derecelendir";
-"purchase_success_view_close_button" = "Belki daha sonra";
 
 
 /* MARK: - Upgrade View */
@@ -958,12 +1003,13 @@
 "alert_upgrade_view_purchase_success_title" = "Satın Alma Başarılı 🎉";
 "alert_upgrade_view_purchase_success_message" = "Desteğiniz için teşekkür ederiz! 😊";
 "alert_upgrade_view_purchase_success_message_info" = "\n\nBilgi: Abonelikten tek seferlik satın almaya geçerseniz, daha sonra önceki aboneliğinizi iptal etmeyi unutmayın.";
+
 "alert_upgrade_view_purchase_error_message" = "Satın alma işleminiz başarıyla tamamlanamadı.";
-"alert_upgrade_view_purchase_error_store_problem_message" = "App Store'da bir sorun oluştu.\n\nBilgi: Bazen satın alma işlemi yalnızca Touch ID / Face ID yerine şifrenizle onaylamanız durumunda işe yarayabilir.\n\nÖrneğin, Face ID kullanıyorsanız, ön kamerayı kapatın ve şifre penceresini görmek için tekrar deneyin.";
+"alert_upgrade_view_purchase_error_store_problem_message" = "App Store'da bir sorun oluştu.";
+"alert_upgrade_view_purchase_error_store_problem_message_info" = "\n\nBilgi: Bazen satın alma işlemi yalnızca Touch ID / Face ID yerine şifrenizle onaylamanız durumunda işe yarayabilir.\n\nÖrneğin, Face ID kullanıyorsanız, ön kamerayı kapatın ve şifre penceresini görmek için tekrar deneyin.";
 "alert_upgrade_view_purchase_error_not_allowed_message" = "Bu cihazda satın alma işlemlerine izin verilmez.";
 "alert_upgrade_view_purchase_error_invalid_message" = "Ödeme yönteminizi kontrol edin ve daha sonra tekrar deneyin. Hata devam ederse, lütfen destek ile iletişime geçin.";
 "alert_upgrade_view_purchase_error_network_message" = "İnternet bağlantınızı kontrol edin ve daha sonra tekrar deneyin. Hata devam ederse, lütfen destek ile iletişime geçin.";
-
 "alert_upgrade_view_load_products_error_message" = "Ürünler yüklenemedi. İnternet bağlantınızı kontrol edin ve daha sonra tekrar deneyin. Hata devam ederse, lütfen destek ile iletişime geçin.";
 
 "alert_upgrade_view_restore_success_title" = "Satın Alınanlar Geri Yüklendi";
@@ -985,13 +1031,14 @@
 "upgrade_faq_about_title" = "Budget Flow Nedir?";
 "upgrade_faq_about_value" = "Budget Flow, mali durumlarını takip etmek ve giderlerini etkili bir şekilde yönetmek isteyen herkes için modern ve kullanımı kolay bir bütçe izleme uygulamasıdır.";
 "upgrade_faq_developer_title" = "Uygulamayı kim geliştirdi?";
-"upgrade_faq_developer_value" = "Budget Flow bir yan proje olarak başlatıldı ve o zamandan beri tamamen benim, Fabian Hasse tarafından tasarlandı, geliştirildi ve sürdürüldü. 10 yılı aşkın deneyime sahip hevesli bir yazılım geliştiricisiyim ve App Store'daki en iyi bütçeleme ve gider izleme uygulamasını geliştirmek için büyük bir tutkuyla çalışıyorum.";
+"upgrade_faq_developer_value" = "Budget Flow bir yan proje olarak başlatıldı ve o zamandan beri tamamen benim, Fabian Hasse tarafından tasarlandı, geliştirildi ve sürdürüldü. 10 yılı aşkın deneyime sahip hevesli bir yazılım geliştiricisiyim ve en iyi bütçeleme ve gider izleme uygulamasını geliştirmek için büyük bir tutkuyla çalışıyorum.";
 "upgrade_faq_free_use_title" = "Uygulama ücretsiz olarak da kullanılabilir mi?";
 "upgrade_faq_free_use_value" = "Evet, uygulamanın işlem oluşturmak gibi temel işlevlerini tamamen ücretsiz olarak kullanabilirsiniz.\n\nAyrıca uygulama, önceden deneyebilmeniz için tam sürüm için bir deneme süresi sunar tam sürümü satın almaya veya abone olmaya karar vermeden önce.";
 "upgrade_faq_security_title" = "Verilerim güvende mi?";
-"upgrade_faq_security_value" = "Finansal verileriniz gizlidir ve öyle kalmalıdır. Bu nedenle verileriniz yalnızca cihazınızda veya (isteğe bağlı olarak) kişisel iCloud'unuzda saklanır.";
+"upgrade_faq_security_value" = "Finansal verileriniz gizlidir ve öyle kalmalıdır. Bu nedenle verileriniz yalnızca cihazınızda saklanır.";
+"upgrade_faq_security_value_icloud_suffix" = " veya (isteğe bağlı olarak) kişisel iCloud'unuzda saklanır.";
 "upgrade_faq_why_subscription_title" = "Tam sürüm neden abonelik olarak sunuluyor?";
-"upgrade_faq_why_subscription_value" = "Hedefimiz, bir kullanıcı olarak size düzenli olarak yeni özellikler ve iyileştirmeler sunan yüksek kaliteli bir uygulama geliştirmektir. Ancak, bu hedefe ulaşmak için, uygulamanın kendi kendini finanse etmesi ve ekonomik olarak sürdürülebilir.\n\nBir uygulamanın geliştirilmesi ve sürdürülmesi çok zaman alır. Örneğin, Budget Flow söz konusu olduğunda, fikirden geliştirme aşamasına kadar neredeyse iki yıl ve birkaç bin saat çalışma sürdü. ve ilk sürüm App Store'da yayınlanmadan önce test etme.\n\nBir müşteri olarak, özellikle abonelik modeli aracılığıyla yapılan düzenli güncellemeler ve iyileştirmelerden ve ayrıca memnun kalmaya devam etmenizi sağlamak için iyi bir destekten yararlanırsınız. Ayrıca, uygulamayı ihtiyaçlarınıza uygun olduğundan emin olmak için önceden ücretsiz olarak deneme fırsatına da sahipsiniz. Fikrinizi değiştirirseniz, aboneliği istediğiniz zaman değiştirebilir veya iptal edebilirsiniz.\n\nGenel olarak, bir abonelik modeli, bir kullanıcı olarak size birçok avantaj sunar. Bir kerelik satın almaya kıyasla sürekli güncellemeler ve destek sayesinde müşteri ve daha iyi bir kullanıcı deneyimi. Uzun vadede, tek seferlik bir satın alma maalesef sürdürülebilir olmayacaktır çünkü bu iş modeli, geliştirmenin devam etmesini sağlamak için yeni kullanıcıların uygulamayı satın almaya devam etmesini gerektirir.\n\nBu nedenle, uygulamayı beğenirseniz çok mutlu oluruz. gelecekte size daha da harika özellikler sunmaya devam edebilmemiz için çalışmalarımızı desteklerseniz!❤️";
+"upgrade_faq_why_subscription_value" = "Hedefimiz, bir kullanıcı olarak size düzenli olarak yeni özellikler ve iyileştirmeler sunan yüksek kaliteli bir uygulama geliştirmektir. Ancak, bu hedefe ulaşmak için, uygulamanın kendi kendini finanse etmesi ve ekonomik olarak sürdürülebilir.\n\nBir uygulamanın geliştirilmesi ve sürdürülmesi çok zaman alır. Örneğin, Budget Flow söz konusu olduğunda, fikirden geliştirme aşamasına kadar neredeyse iki yıl ve birkaç bin saat çalışma sürdü. ve ilk sürüm yayınlanmadan önce test etme.\n\nBir müşteri olarak, özellikle abonelik modeli aracılığıyla yapılan düzenli güncellemeler ve iyileştirmelerden ve ayrıca memnun kalmaya devam etmenizi sağlamak için iyi bir destekten yararlanırsınız. Ayrıca, uygulamayı ihtiyaçlarınıza uygun olduğundan emin olmak için önceden ücretsiz olarak deneme fırsatına da sahipsiniz. Fikrinizi değiştirirseniz, aboneliği istediğiniz zaman değiştirebilir veya iptal edebilirsiniz.\n\nGenel olarak, bir abonelik modeli, bir kullanıcı olarak size birçok avantaj sunar. Bir kerelik satın almaya kıyasla sürekli güncellemeler ve destek sayesinde müşteri ve daha iyi bir kullanıcı deneyimi. Uzun vadede, tek seferlik bir satın alma maalesef sürdürülebilir olmayacaktır çünkü bu iş modeli, geliştirmenin devam etmesini sağlamak için yeni kullanıcıların uygulamayı satın almaya devam etmesini gerektirir.\n\nBu nedenle, uygulamayı beğenirseniz çok mutlu oluruz. gelecekte size daha da harika özellikler sunmaya devam edebilmemiz için çalışmalarımızı desteklerseniz!❤️";
 "upgrade_faq_multiple_devices_title" = "Tam sürümü birden fazla cihazda kullanabilir miyim?";
 "upgrade_faq_multiple_devices_value" = "Evet, aynı Apple kimliğine sahip tüm Apple aygıtlarınızda Budget Flow'un tam sürümünü kullanabilirsiniz. Uygulama iCloud üzerinden eşzamanlandığı için, aygıtlarınız arasında sorunsuz bir şekilde geçiş yapabilir ve mali verilerinize her zaman erişebilirsiniz ve ayarlar.";
 "upgrade_faq_multiple_people_title" = "Tam sürümü birden fazla kişiyle kullanabilir miyim?";
@@ -1203,7 +1250,7 @@
 "time_zone_selection_title" = "Zaman dilimi";
 
 /* Messages */
-"no_timezones_found_title" = "Zaman dilimi bulunamadı";
+"no_time_zones_found_title" = "Zaman dilimi bulunamadı";
 "time_zone_selection_search_placeholder_message" = "Bir ülke veya şehir için zaman dilimini ara";
 
 
@@ -1484,6 +1531,8 @@
 
 /* Sections */
 "form_general_section_title" = "Genel";
+"form_csv_date_format_suggestions_section_title" = "Öneriler";
+"form_csv_date_format_other_section_title" = "Diğer";
 
 /* Footer */
 "form_invalid_footer_title" = "Hata:";

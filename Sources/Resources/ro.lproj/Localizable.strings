@@ -20,16 +20,20 @@
 /* MARK: - Miscellaneous */
 "face_id" = "Face ID";
 "touch_id" = "Touch ID";
+"biometrics" = "Biometrie";
+
 "required" = "Necesar";
 "optional" = "Opțional";
-"uncategorized" = "Necategorizat";
+
 "before" = "înainte";
+"uncategorized" = "Necategorizat";
 "account_reconcilation" = "Reconciliere cont";
+
 "evaluated" = "Evaluat";
 "not_evaluated" = "Neevaluat";
+
 "share_participant_owner" = "Proprietar";
 "share_participant_you" = "Tu";
-
 
 /* MARK: - Enums */
 "account_type_cash" = "Numerar";
@@ -56,6 +60,9 @@
 "transaction_type_income_plural" = "Venit";
 "transaction_type_expense_plural" = "Cheltuieli";
 "transaction_type_transfer_plural" = "Transferuri";
+
+"transaction_occurrence_type_one_time" = "O singură dată";
+"transaction_occurrence_type_recurring" = "Recurentă";
 
 "payment_status" = "Stare";
 "payment_status_completed" = "Finalizat";
@@ -289,6 +296,8 @@
 
 "open_button" = "Deschide";
 "open_folder_button" = "Deschide folderul";
+"local_folder_button" = "Dosar local";
+"icloud_drive_folder_button" = "iCloud Drive";
 "open_in_browser_button" = "Deschide în browser";
 
 "show_more_button" = "Afișați mai multe";
@@ -311,7 +320,6 @@
 "get_started_button" = "Începeți";
 
 "show_transactions_button" = "Afișați tranzacțiile";
-"show_in_app_store_button" = "Afișați în App Store";
 
 "flip_values_button" = "Inversează ⇅";
 
@@ -329,7 +337,7 @@
 "alert_cloud_share_unknown_error_message" = "Nu s-a putut finaliza partajarea deoarece a apărut o eroare. Probabil că nu este suficient spațiu disponibil în iCloud. Vă rugăm să eliberați spațiu și să încercați din nou.";
 
 
-/* MARK: - Search View */
+/* MARK: - Transaction Search View */
 /* Titles */
 "search_title" = "Căutare";
 "filter_title" = "Filtru";
@@ -337,6 +345,31 @@
 /* Sections */
 "search_text_section_title" = "Căutare text";
 "search_suggestions_section_title" = "Sugestii";
+
+
+/* MARK: - Transaction Filter */
+/* Sections */
+"transaction_filter_general_section_title" = "General";
+"transaction_filter_assignment_section_title" = "Atribuire";
+
+/* Items */
+"transaction_filter_type_title" = "Tip";
+"transaction_filter_occurrence_type_title" = "Repetare";
+"transaction_filter_amount_title" = "Sumă";
+"transaction_filter_date_title" = "Dată";
+"transaction_filter_status_title" = "Stare";
+
+"transaction_filter_accounts_title" = "Conturi";
+"transaction_filter_categories_title" = "Categorii";
+"transaction_filter_payees_title" = "Beneficiari";
+"transaction_filter_tags_title" = "Etichete";
+"transaction_filter_people_title" = "Persoane";
+
+"transaction_filter_all_title" = "Toate";
+"transaction_filter_any_title" = "Oricare";
+
+/* Formats */
+"transaction_filter_range_format" = "%@ până la %@";
 
 
 /* MARK: - Period Selection View */
@@ -408,17 +441,6 @@
 /* Info */
 "recurring_transactions_info_title" = "Descriere";
 "recurring_transactions_info_description" = "Creați tranzacții recurente pentru a le adăuga automat în aplicație la scadență.";
-
-/* Sections */
-"account_filter_section_title" = "Cont";
-"category_filter_section_title" = "Categorie";
-"payee_filter_section_title" = "Beneficiar";
-"tag_filter_section_title" = "Etichetă";
-"user_filter_section_title" = "Persoană";
-"payment_status_filter_section_title" = "Plata";
-"transaction_type_filter_section_title" = "Tip";
-"date_range_filter_section_title" = "Data";
-"amount_range_filter_section_title" = "Suma";
 
 /* Messages */
 "no_transactions_title" = "Fără tranzacții";
@@ -597,36 +619,11 @@
 
 "contact_developer_mail_subject" = "%@: %@%@";
 "contact_developer_mail_subject_full_version" = " (full version)";
-"contact_developer_mail_message" = "
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-<b>Support Information:</b>
-</br>
-<u>General:</u></br>
-- Device: %@</br>
-- iOS version: %@</br>
-- Language: %@</br>
-- Currency: %@</br>
-- Time zone: %@</br>
-</br>
-<u>App Specific:</u></br>
-- App version: %@</br>
-- Build: %@</br>
-</br>
-<u>In-App Purchases:</u></br>
-- User ID: %@</br>
-- Active: %@</br>
-- Purchases: %@";
-"contact_developer_mail_no_purchases" = "None";
 
-/* Appearance Settings */
+/* MARK: - Appearance Settings View */
+/* Info */
 "appearance_setting_info_title" = "Descriere";
-"appearance_setting_info_description" = "Personalizați aplicația după bunul plac, schimbând aspectul sau culoarea de accent a aplicației.";
+"appearance_setting_info_description" = "Personalizați aplicația după bunul plac, schimbând aspectul aplicației.";
 "appearance_ui_style_setting_section_title" = "Temă";
 "appearance_ui_style_apply_to_icons_title" = "Aplică la pictograme";
 "appearance_ui_style_apply_to_icons_description" = "Aplică și stilul selectat tuturor pictogramelor din aplicație.";
@@ -634,7 +631,8 @@
 "appearance_accent_color_setting_footer_title" = "Modifică culoarea butoanelor și a altor comenzi din aplicație.";
 "appearance_app_icon_setting_section_title" = "Pictogramă aplicație";
 
-/* Sync & Data Settings */
+/* MARK: - Sync & Data Settings View */
+/* Info */
 "sync_and_data_setting_info_title" = "Descriere";
 "sync_and_data_setting_info_description" = "Obțineți o prezentare generală a stării curente de sincronizare și importați sau exportați date folosind un fișier CSV.";
 
@@ -662,7 +660,14 @@
 "alert_csv_export_successful_title" = "Export cu succes 🎉";
 "alert_csv_export_successful_message" = "Datele dvs. au fost exportate cu succes în \"%@\".";
 
-/* Cloud Settings */
+/* Progress */
+"alert_csv_export_progress_title" = "Export";
+"csv_export_progress_preparing" = "Se pregătește exportul";
+"csv_export_progress_transactions" = "Tranzacții";
+"csv_export_progress_finishing" = "Se finalizează exportul";
+
+/* MARK: - Cloud Settings View */
+/* Info */
 "cloud_setting_info_title" = "Descriere";
 "cloud_setting_info_description" = "Următoarea vizualizare oferă o imagine de ansamblu mai detaliată a stării curente de sincronizare iCloud și ajută la depanarea.";
 
@@ -685,20 +690,63 @@
 "import_from_cloud_button" = "Descărcați din iCloud";
 "manual_sync_cloud_setting_footer_title" = "Dacă datele dvs. nu au fost sau nu sunt complet sincronizate cu iCloud, puteți declanșa manual sincronizarea aici.";
 
-/* Backup Settings */
+/* MARK: - Backup Settings View */
+/* Info */
 "backup_setting_info_title" = "Descriere";
 "backup_setting_info_description" = "Când este activat, Budget Flow face în mod regulat copii de siguranță ale datelor dvs., astfel încât să puteți restabili oricând aplicația la o stare anterioară.";
 
-"backup_general_setting_section_title" = "General";
-"backup_recent_backups_setting_section_title" = "Backup-uri recente";
+"backup_setting_general_section_title" = "Setări generale";
+"backup_setting_recent_section_title" = "Backup-uri recente";
 "backup_setting_use_automatic_backups_title" = "Backup automat";
+"backup_setting_back_up_to_icloud_drive_title" = "Backup în iCloud Drive";
+
+"backup_setting_keep_backups_title" = "Păstrează copiile de rezervă";
+"backup_setting_keep_backups_last_5_title" = "Ultimele 5";
+"backup_setting_keep_backups_last_10_title" = "Ultimele 10";
+"backup_setting_keep_backups_last_20_title" = "Ultimele 20";
+"backup_setting_keep_backups_last_30_title" = "Ultimele 30";
+"backup_setting_keep_backups_all_title" = "Toate";
+
 "backup_setting_create_backup_title" = "Creează o copie de rezervă";
 
-"alert_restore_backup_title" = "Restabiliți această copie de rezervă?";
-"alert_restore_backup_message" = "Restabilirea copiilor de siguranță este în prezent o funcție experimentală. Va șterge datele dvs. curente și le va suprascrie cu copia de rezervă selectată.\n\nDupă aceea, aplicația se va închide automat.\n\nAvertisment: Acest proces nu poate fi anulat.!";
+"backup_setting_no_recent_backups_title" = "Nu există copii de rezervă disponibile";
+"backup_setting_backup_subtitle" = "%@ · %@";
+
+"backup_setting_delete_backup_alert_title" = "Șterge copia de rezervă";
+"backup_setting_delete_backup_alert_message" = "Sigur doriți să ștergeți această copie de rezervă?";
+
+"backup_setting_restore_success_title" = "Copie de rezervă restaurată";
+"backup_setting_restore_success_message" = "Copia de rezervă selectată a fost restaurată.";
+
+"backup_setting_error_title" = "Backup eșuat";
+"backup_setting_icloud_drive_unavailable_error" = "iCloud Drive nu este disponibil pe acest dispozitiv.";
+"backup_setting_could_not_create_backup_directory_error" = "Folderul de backup nu a putut fi creat.";
+
+"alert_restore_backup_title" = "Restaurează copia de rezervă";
+"alert_restore_backup_message" = "Sigur doriți să restaurați această copie de rezervă?\n\nAceasta va șterge datele curente și le va înlocui cu datele din copia de rezervă selectată.\n\nAvertisment: Această acțiune nu poate fi anulată!";
 "alert_restore_backup_button" = "Restaurează backup";
 
-/* Advanced Settings */
+/* Progress */
+"backup_restore_progress_alert_title" = "Se restaurează copia de rezervă";
+"backup_restore_progress_preparing" = "Se pregătește copia de rezervă";
+"backup_restore_progress_validating" = "Se validează copia de rezervă";
+"backup_restore_progress_reading_data" = "Se citesc datele copiei de rezervă";
+"backup_restore_progress_deleting_existing_data" = "Se șterg datele existente";
+"backup_restore_progress_finishing" = "Se finalizează restaurarea";
+
+/* Progress Entities */
+"backup_restore_progress_budget_books" = "Registre de buget";
+"backup_restore_progress_accounts" = "Conturi";
+"backup_restore_progress_category_groups" = "Folder";
+"backup_restore_progress_categories" = "Categorii";
+"backup_restore_progress_payees" = "Beneficiari";
+"backup_restore_progress_tags" = "Etichete";
+"backup_restore_progress_budgets" = "Bugete";
+"backup_restore_progress_transaction_groups" = "Grupuri de tranzacții";
+"backup_restore_progress_transactions" = "Tranzacții";
+"backup_restore_progress_reminders" = "Mementouri";
+
+/* MARK: - Advanced Settings View */
 "advanced_setting_info_title" = "Descriere";
 "advanced_setting_info_description" = "Efectuați alte setări pentru a configura aplicația.";
 
@@ -715,8 +763,10 @@
 "advanced_setting_auto_lock_title" = "Solicitare cod";
 
 "advanced_setting_chart_type_title" = "Tipul diagramei";
-"advanced_setting_show_frequently_used_items_title" = "Afișați categorii și etichete frecvente";
-"advanced_setting_show_frequently_used_items_description" = "Afișați categoriile și etichetele utilizate frecvent în lista de selecție la crearea și editarea tranzacțiilor.";
+"advanced_setting_show_most_used_items_title" = "Afișați categoriile și etichetele cele mai utilizate";
+"advanced_setting_show_most_used_items_description" = "Afișați categoriile și etichetele cele mai utilizate în lista de selecție la crearea și editarea tranzacțiilor.";
+"advanced_setting_remove_most_used_items_from_groups_title" = "Elimină categoriile și etichetele cele mai utilizate din grupuri";
+"advanced_setting_remove_most_used_items_from_groups_description" = "Elimină categoriile și etichetele cele mai utilizate din grupurile lor obișnuite din lista de selecție la crearea și editarea tranzacțiilor.";
 "advanced_setting_show_notes_in_title_title" = "Afișați notele în loc de categorie";
 "advanced_setting_show_notes_in_title_description" = "Afișați conținutul notelor în loc de numele categoriei pentru tranzacții.";
 "advanced_setting_start_day_of_month_title" = "Ziua de început a lunii";
@@ -783,7 +833,15 @@
 "alert_share_app_type_selection_qrcode_button" = "Cod QR";
 
 "alert_reset_app_title" = "Resetați aplicația";
-"alert_reset_app_message" = "Sunteți sigur că doriți să resetați aplicația la setările implicite? Acest lucru va șterge definitiv toate datele stocate pe acest dispozitiv și pe iCloud.";
+"alert_reset_app_message" = "Sigur doriți să resetați aplicația la setările implicite? Acest lucru va șterge definitiv toate datele.";
+
+/* Progress */
+"alert_app_reset_progress_title" = "Resetați aplicația";
+"app_reset_progress_preparing" = "Se pregătește resetarea aplicației";
+"app_reset_progress_deleting_existing_notifications" = "Se șterg notificările existente";
+"app_reset_progress_deleting_existing_data" = "Se șterg datele existente";
+"app_reset_progress_deleting_existing_settings" = "Se șterg setările existente";
+"app_reset_progress_finishing" = "Se finalizează resetarea aplicației";
 
 "alert_error_title" = "A apărut o eroare 😢";
 
@@ -800,7 +858,7 @@
 "passcode_view_enter_passcode_title" = "Introduceți codul de acces";
 "passcode_view_create_passcode_title" = "Creează codul de acces";
 "passcode_view_confirm_passcode_title" = "Confirmați parola";
-"passcode_view_authenticate_reason" = "Autentificare utilizator";
+"passcode_view_authenticate_reason" = "Autentificare necesară";
 
 /* Alert Views */
 "alert_set_passcode_type_title" = "Alegeți opțiunea codului de acces";
@@ -834,19 +892,6 @@
 /* Buttons */
 "new_features_view_rate_app_button" = "Rate App";
 "new_features_view_close_button" = "Maybe later";
-
-
-/* MARK: - Rate App View */
-/* Titles */
-"purchase_success_view_title" = "Mulțumesc!";
-
-/* Messages */
-"purchase_success_view_info_message" = "Dacă vă place aplicația, vă rugăm să scrieți o recenzie pozitivă în App Store. Chiar ajută foarte mult și motivează îmbunătățirea continuă a aplicației. 😊";
-"purchase_success_view_info_message_info" = "\n\nInformație: Când treci de la un abonament la o achiziție pe viață, nu uita să anulezi abonamentul existent ulterior.";
-
-/* Buttons */
-"purchase_success_view_rate_app_button" = "Evaluați aplicația";
-"purchase_success_view_close_button" = "Poate mai târziu";
 
 
 /* MARK: - Upgrade View */
@@ -958,12 +1003,13 @@
 "alert_upgrade_view_purchase_success_title" = "Achiziție reușită 🎉";
 "alert_upgrade_view_purchase_success_message" = "Vă mulțumim pentru sprijin! 😊";
 "alert_upgrade_view_purchase_success_message_info" = "\n\nInformații: Dacă treceți de la un abonament la achiziția unică, nu uitați să anulați abonamentul anterior ulterior.";
+
 "alert_upgrade_view_purchase_error_message" = "Achiziția dvs. nu a putut fi finalizată cu succes.";
-"alert_upgrade_view_purchase_error_store_problem_message" = "A apărut o problemă cu App Store.\n\nInformații: Uneori, achiziția poate funcționa numai dacă confirmați cu parola în loc de Touch ID / Face ID.\n\nDe exemplu, dacă folosești Face ID, acoperă doar camera frontală și încearcă din nou pentru a vedea dialogul cu parola.";
+"alert_upgrade_view_purchase_error_store_problem_message" = "A apărut o problemă cu App Store.";
+"alert_upgrade_view_purchase_error_store_problem_message_info" = "\n\nInformații: Uneori, achiziția poate funcționa numai dacă confirmați cu parola în loc de Touch ID / Face ID.\n\nDe exemplu, dacă folosești Face ID, acoperă doar camera frontală și încearcă din nou pentru a vedea dialogul cu parola.";
 "alert_upgrade_view_purchase_error_not_allowed_message" = "Achizițiile nu sunt permise pe acest dispozitiv.";
 "alert_upgrade_view_purchase_error_invalid_message" = "Verificați metoda de plată și încercați din nou mai târziu. Dacă eroarea persistă, contactați asistența.";
 "alert_upgrade_view_purchase_error_network_message" = "Verificați-vă conexiunea la internet și încercați din nou mai târziu. Dacă eroarea persistă, contactați asistența.";
-
 "alert_upgrade_view_load_products_error_message" = "Produsele nu au putut fi încărcate. Verificați-vă conexiunea la internet și încercați din nou mai târziu. Dacă eroarea persistă, contactați asistența.";
 
 "alert_upgrade_view_restore_success_title" = "Achiziții restaurate";
@@ -985,13 +1031,14 @@
 "upgrade_faq_about_title" = "Ce este Budget Flow?";
 "upgrade_faq_about_value" = "Budget Flow este o aplicație modernă și ușor de utilizat de urmărire a bugetului pentru toți cei care doresc să își țină evidența finanțelor și să își gestioneze eficient cheltuielile.";
 "upgrade_faq_developer_title" = "Cine a dezvoltat aplicația?";
-"upgrade_faq_developer_value" = "Budget Flow a fost început ca un proiect secundar și de atunci a fost complet proiectat, dezvoltat și întreținut de mine, Fabian Hasse. Sunt un dezvoltator de software entuziast, cu peste 10 ani de experiență și lucrez cu multă pasiune pentru dezvolta cea mai bună aplicație de bugetare și urmărire a cheltuielilor din App Store.";
+"upgrade_faq_developer_value" = "Budget Flow a fost început ca un proiect secundar și de atunci a fost complet proiectat, dezvoltat și întreținut de mine, Fabian Hasse. Sunt un dezvoltator de software entuziast, cu peste 10 ani de experiență și lucrez cu multă pasiune pentru dezvolta cea mai bună aplicație de bugetare și urmărire a cheltuielilor.";
 "upgrade_faq_free_use_title" = "Aplicația poate fi folosită și gratuit?";
 "upgrade_faq_free_use_value" = "Da, puteți utiliza funcțiile de bază ale aplicației, cum ar fi crearea de tranzacții, complet gratuit.\n\nÎn plus, aplicația oferă o perioadă de probă pentru versiunea completă, astfel încât să o puteți încerca în avans. înainte de a vă decide să cumpărați sau să vă abonați la versiunea completă.";
 "upgrade_faq_security_title" = "Datele mele sunt securizate?";
-"upgrade_faq_security_value" = "Finanțele tale sunt private – și ar trebui să rămână așa. De aceea datele tale sunt stocate exclusiv pe dispozitivul tău sau (opțional) în iCloud-ul tău personal.";
+"upgrade_faq_security_value" = "Finanțele tale sunt private – și ar trebui să rămână așa. De aceea datele tale sunt stocate exclusiv pe dispozitivul tău.";
+"upgrade_faq_security_value_icloud_suffix" = " sau (opțional) în iCloud-ul tău personal.";
 "upgrade_faq_why_subscription_title" = "De ce este oferită versiunea completă ca abonament?";
-"upgrade_faq_why_subscription_value" = "Scopul nostru este să dezvoltăm o aplicație de înaltă calitate care să vă ofere ca utilizator noi funcții și îmbunătățiri în mod regulat. Cu toate acestea, pentru a atinge acest obiectiv, aplicația are nevoie de venituri continue pentru a se finanța și fi sustenabil din punct de vedere economic.\n\nCeea ce mulți nu știu Dezvoltarea și întreținerea unei aplicații necesită mult timp. În cazul Budget Flow, de exemplu, a fost nevoie de aproape doi ani și câteva mii de ore de muncă de la idee până la dezvoltare și testare înainte ca prima versiune să poată fi lansată în App Store.\n\nÎn calitate de client, beneficiați în special de actualizări și îmbunătățiri regulate prin modelul de abonament, precum și de un suport bun pentru a vă asigura că sunteți în continuare mulțumit. De asemenea, aveți posibilitatea de a încerca gratuit aplicația în avans, pentru a vă asigura că se potrivește nevoilor dvs., puteți schimba sau anula abonamentul în orice moment dacă vă răzgândiți.\n\nÎn general, un model de abonament vă oferă multe beneficii ca client și o experiență de utilizator mai bună prin actualizări și asistență continuă, comparativ cu o achiziție unică. Pe termen lung, o achiziție unică nu ar fi, din păcate, sustenabilă, deoarece acest model de afaceri impune ca noii utilizatori să continue să cumpere aplicația pentru a asigura continuarea dezvoltării.\n\nDeci, dacă vă place aplicația, am fi foarte fericiți dacă ne susțineți munca, astfel încât să putem continua să vă oferim și mai multe funcții grozave în viitor!❤️";
+"upgrade_faq_why_subscription_value" = "Scopul nostru este să dezvoltăm o aplicație de înaltă calitate care să vă ofere ca utilizator noi funcții și îmbunătățiri în mod regulat. Cu toate acestea, pentru a atinge acest obiectiv, aplicația are nevoie de venituri continue pentru a se finanța și fi sustenabil din punct de vedere economic.\n\nCeea ce mulți nu știu Dezvoltarea și întreținerea unei aplicații necesită mult timp. În cazul Budget Flow, de exemplu, a fost nevoie de aproape doi ani și câteva mii de ore de muncă de la idee până la dezvoltare și testare înainte ca prima versiune să poată fi lansată.\n\nÎn calitate de client, beneficiați în special de actualizări și îmbunătățiri regulate prin modelul de abonament, precum și de un suport bun pentru a vă asigura că sunteți în continuare mulțumit. De asemenea, aveți posibilitatea de a încerca gratuit aplicația în avans, pentru a vă asigura că se potrivește nevoilor dvs., puteți schimba sau anula abonamentul în orice moment dacă vă răzgândiți.\n\nÎn general, un model de abonament vă oferă multe beneficii ca client și o experiență de utilizator mai bună prin actualizări și asistență continuă, comparativ cu o achiziție unică. Pe termen lung, o achiziție unică nu ar fi, din păcate, sustenabilă, deoarece acest model de afaceri impune ca noii utilizatori să continue să cumpere aplicația pentru a asigura continuarea dezvoltării.\n\nDeci, dacă vă place aplicația, am fi foarte fericiți dacă ne susțineți munca, astfel încât să putem continua să vă oferim și mai multe funcții grozave în viitor!❤️";
 "upgrade_faq_multiple_devices_title" = "Pot folosi versiunea completă pe mai multe dispozitive?";
 "upgrade_faq_multiple_devices_value" = "Da, puteți utiliza versiunea completă a Budget Flow pe toate dispozitivele Apple cu același ID Apple. Deoarece aplicația este sincronizată prin iCloud, puteți comuta fără probleme între dispozitive și aveți întotdeauna acces la datele dvs. financiare și setări.";
 "upgrade_faq_multiple_people_title" = "Pot folosi versiunea completă cu mai multe persoane?";
@@ -1203,7 +1250,7 @@
 "time_zone_selection_title" = "Fus orar";
 
 /* Messages */
-"no_timezones_found_title" = "Nu s-au găsit fusuri orare";
+"no_time_zones_found_title" = "Nu s-au găsit fusuri orare";
 "time_zone_selection_search_placeholder_message" = "Caută fusul orar al unei țări sau oraș";
 
 
@@ -1484,6 +1531,8 @@
 
 /* Sections */
 "form_general_section_title" = "General";
+"form_csv_date_format_suggestions_section_title" = "Sugestii";
+"form_csv_date_format_other_section_title" = "Altele";
 
 /* Footer */
 "form_invalid_footer_title" = "Eroare:";

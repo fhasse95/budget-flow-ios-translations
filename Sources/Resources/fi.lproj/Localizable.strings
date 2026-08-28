@@ -20,16 +20,20 @@
 /* MARK: - Miscellaneous */
 "face_id" = "Face ID";
 "touch_id" = "Touch ID";
+"biometrics" = "Biometria";
+
 "required" = "Pakollinen";
 "optional" = "Valinnainen";
-"uncategorized" = "Uncategorized";
+
 "before" = "ennen";
+"uncategorized" = "Uncategorized";
 "account_reconcilation" = "Tilin täsmäytys";
+
 "evaluated" = "Arvioitu";
 "not_evaluated" = "Ei arvioitu";
+
 "share_participant_owner" = "Omistaja";
 "share_participant_you" = "Sinä";
-
 
 /* MARK: - Enums */
 "account_type_cash" = "Käteinen";
@@ -56,6 +60,9 @@
 "transaction_type_income_plural" = "Tulot";
 "transaction_type_expense_plural" = "Kulut";
 "transaction_type_transfer_plural" = "Siirrot";
+
+"transaction_occurrence_type_one_time" = "Kertaluonteinen";
+"transaction_occurrence_type_recurring" = "Toistuva";
 
 "payment_status" = "Tila";
 "payment_status_completed" = "Valmis";
@@ -289,6 +296,8 @@
 
 "open_button" = "Avaa";
 "open_folder_button" = "Avaa kansio";
+"local_folder_button" = "Paikallinen kansio";
+"icloud_drive_folder_button" = "iCloud Drive";
 "open_in_browser_button" = "Avaa selaimessa";
 
 "show_more_button" = "Näytä lisää";
@@ -311,7 +320,6 @@
 "get_started_button" = "Aloita";
 
 "show_transactions_button" = "Näytä tapahtumat";
-"show_in_app_store_button" = "Näytä App Storessa";
 
 "flip_values_button" = "Vaihda ⇅";
 
@@ -329,7 +337,7 @@
 "alert_cloud_share_unknown_error_message" = "Jakamista ei voitu suorittaa, koska tapahtui virhe. iCloudissasi ei todennäköisesti ole tarpeeksi tilaa. Vapauta tilaa ja yritä uudelleen.";
 
 
-/* MARK: - Search View */
+/* MARK: - Transaction Search View */
 /* Titles */
 "search_title" = "Hae";
 "filter_title" = "Suodata";
@@ -337,6 +345,31 @@
 /* Sections */
 "search_text_section_title" = "Hae tekstiä";
 "search_suggestions_section_title" = "Ehdotuksia";
+
+
+/* MARK: - Transaction Filter */
+/* Sections */
+"transaction_filter_general_section_title" = "Yleiset";
+"transaction_filter_assignment_section_title" = "Kohdistus";
+
+/* Items */
+"transaction_filter_type_title" = "Tyyppi";
+"transaction_filter_occurrence_type_title" = "Toisto";
+"transaction_filter_amount_title" = "Summa";
+"transaction_filter_date_title" = "Päivämäärä";
+"transaction_filter_status_title" = "Tila";
+
+"transaction_filter_accounts_title" = "Tilit";
+"transaction_filter_categories_title" = "Luokat";
+"transaction_filter_payees_title" = "Maksunsaajat";
+"transaction_filter_tags_title" = "Tunnisteet";
+"transaction_filter_people_title" = "Henkilöt";
+
+"transaction_filter_all_title" = "Kaikki";
+"transaction_filter_any_title" = "Mikä tahansa";
+
+/* Formats */
+"transaction_filter_range_format" = "%@ - %@";
 
 
 /* MARK: - Period Selection View */
@@ -408,17 +441,6 @@
 /* Info */
 "recurring_transactions_info_title" = "Kuvaus";
 "recurring_transactions_info_description" = "Luo toistuvia tapahtumia, jotta ne lisätään automaattisesti sovellukseen, kun ne erääntyvät.";
-
-/* Sections */
-"account_filter_section_title" = "Tili";
-"category_filter_section_title" = "Luokka";
-"payee_filter_section_title" = "Maksunsaaja";
-"tag_filter_section_title" = "Tunniste";
-"user_filter_section_title" = "Henkilö";
-"payment_status_filter_section_title" = "Maksu";
-"transaction_type_filter_section_title" = "Tyyppi";
-"date_range_filter_section_title" = "Päivämäärä";
-"amount_range_filter_section_title" = "Summa";
 
 /* Messages */
 "no_transactions_title" = "Ei tapahtumia";
@@ -597,36 +619,11 @@
 
 "contact_developer_mail_subject" = "%@: %@%@";
 "contact_developer_mail_subject_full_version" = " (full version)";
-"contact_developer_mail_message" = "
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-<b>Support Information:</b>
-</br>
-<u>General:</u></br>
-- Device: %@</br>
-- iOS version: %@</br>
-- Language: %@</br>
-- Currency: %@</br>
-- Time zone: %@</br>
-</br>
-<u>App Specific:</u></br>
-- App version: %@</br>
-- Build: %@</br>
-</br>
-<u>In-App Purchases:</u></br>
-- User ID: %@</br>
-- Active: %@</br>
-- Purchases: %@";
-"contact_developer_mail_no_purchases" = "None";
 
-/* Appearance Settings */
+/* MARK: - Appearance Settings View */
+/* Info */
 "appearance_setting_info_title" = "Kuvaus";
-"appearance_setting_info_description" = "Personoi sovellus mieleiseksesi muuttamalla sovelluksen ulkoasua tai korostusväriä.";
+"appearance_setting_info_description" = "Personoi sovellus mieleiseksesi muuttamalla sen ulkoasua.";
 "appearance_ui_style_setting_section_title" = "Teema";
 "appearance_ui_style_apply_to_icons_title" = "Käytä kuvakkeisiin";
 "appearance_ui_style_apply_to_icons_description" = "Käytä valittua ulkoasua myös sovelluksen kaikkiin kuvakkeisiin.";
@@ -634,7 +631,8 @@
 "appearance_accent_color_setting_footer_title" = "Muuttaa painikkeiden ja muiden säätimien väriä sovelluksessa.";
 "appearance_app_icon_setting_section_title" = "Sovelluskuvake";
 
-/* Sync & Data Settings */
+/* MARK: - Sync & Data Settings View */
+/* Info */
 "sync_and_data_setting_info_title" = "Kuvaus";
 "sync_and_data_setting_info_description" = "Saat yleiskatsauksen nykyisestä synkronoinnin tilasta ja tuoda tai viedä tietoja CSV-tiedoston avulla.";
 
@@ -662,7 +660,14 @@
 "alert_csv_export_successful_title" = "Vienti onnistui 🎉";
 "alert_csv_export_successful_message" = "Tietosi vietiin osoitteeseen \"%@\".";
 
-/* Cloud Settings */
+/* Progress */
+"alert_csv_export_progress_title" = "Vienti";
+"csv_export_progress_preparing" = "Valmistellaan vientiä";
+"csv_export_progress_transactions" = "Tapahtumat";
+"csv_export_progress_finishing" = "Viimeistellään vientiä";
+
+/* MARK: - Cloud Settings View */
+/* Info */
 "cloud_setting_info_title" = "Kuvaus";
 "cloud_setting_info_description" = "Seuraava näkymä tarjoaa yksityiskohtaisemman yleiskatsauksen iCloudin nykyisestä synkronoinnin tilasta ja auttaa vianetsinnässä.";
 
@@ -685,20 +690,63 @@
 "import_from_cloud_button" = "Lataa iCloudista";
 "manual_sync_cloud_setting_footer_title" = "Jos tietojasi ei ole synkronoitu tai ne eivät ole täysin synkronoitu iCloudin kanssa, voit käynnistää synkronoinnin manuaalisesti täällä.";
 
-/* Backup Settings */
+/* MARK: - Backup Settings View */
+/* Info */
 "backup_setting_info_title" = "Kuvaus";
 "backup_setting_info_description" = "Kun se on käytössä, Budget Flow varmuuskopioi tiedot säännöllisesti, jotta voit palauttaa sovelluksen aiempaan tilaan milloin tahansa.";
 
-"backup_general_setting_section_title" = "Yleistä";
-"backup_recent_backups_setting_section_title" = "Viimeaikaiset varmuuskopiot";
+"backup_setting_general_section_title" = "Yleistä";
+"backup_setting_recent_section_title" = "Viimeaikaiset varmuuskopiot";
 "backup_setting_use_automatic_backups_title" = "Automaattinen varmuuskopiointi";
+"backup_setting_back_up_to_icloud_drive_title" = "Varmuuskopioi iCloud Driveen";
+
+"backup_setting_keep_backups_title" = "Säilytä varmuuskopiot";
+"backup_setting_keep_backups_last_5_title" = "Viimeiset 5";
+"backup_setting_keep_backups_last_10_title" = "Viimeiset 10";
+"backup_setting_keep_backups_last_20_title" = "Viimeiset 20";
+"backup_setting_keep_backups_last_30_title" = "Viimeiset 30";
+"backup_setting_keep_backups_all_title" = "Kaikki";
+
 "backup_setting_create_backup_title" = "Luo varmuuskopio";
 
-"alert_restore_backup_title" = "Palauta tämä varmuuskopio?";
-"alert_restore_backup_message" = "Varmuuskopioiden palauttaminen on tällä hetkellä kokeellinen ominaisuus. Se poistaa nykyiset tietosi ja korvaa ne valitulla varmuuskopiolla.\n\nSen jälkeen sovellus suljetaan automaattisesti.\n\nVaroitus: Tätä prosessia ei voi kumota!";
+"backup_setting_no_recent_backups_title" = "Varmuuskopioita ei ole saatavilla";
+"backup_setting_backup_subtitle" = "%@ · %@";
+
+"backup_setting_delete_backup_alert_title" = "Poista varmuuskopio";
+"backup_setting_delete_backup_alert_message" = "Haluatko varmasti poistaa tämän varmuuskopion?";
+
+"backup_setting_restore_success_title" = "Varmuuskopio palautettu";
+"backup_setting_restore_success_message" = "Valittu varmuuskopio on palautettu.";
+
+"backup_setting_error_title" = "Varmuuskopiointi epäonnistui";
+"backup_setting_icloud_drive_unavailable_error" = "iCloud Drive ei ole saatavilla tällä laitteella.";
+"backup_setting_could_not_create_backup_directory_error" = "Varmuuskopiokansiota ei voitu luoda.";
+
+"alert_restore_backup_title" = "Palauta varmuuskopio";
+"alert_restore_backup_message" = "Haluatko varmasti palauttaa tämän varmuuskopion?\n\nTämä poistaa nykyiset tietosi ja korvaa ne valitun varmuuskopion tiedoilla.\n\nVaroitus: Tätä toimintoa ei voi kumota!";
 "alert_restore_backup_button" = "Palauta varmuuskopio";
 
-/* Advanced Settings */
+/* Progress */
+"backup_restore_progress_alert_title" = "Palautetaan varmuuskopiota";
+"backup_restore_progress_preparing" = "Valmistellaan varmuuskopiota";
+"backup_restore_progress_validating" = "Tarkistetaan varmuuskopiota";
+"backup_restore_progress_reading_data" = "Luetaan varmuuskopion tietoja";
+"backup_restore_progress_deleting_existing_data" = "Poistetaan olemassa olevia tietoja";
+"backup_restore_progress_finishing" = "Viimeistellään palautusta";
+
+/* Progress Entities */
+"backup_restore_progress_budget_books" = "Budjettikirjat";
+"backup_restore_progress_accounts" = "Tilit";
+"backup_restore_progress_category_groups" = "Kansio";
+"backup_restore_progress_categories" = "Kategoriat";
+"backup_restore_progress_payees" = "Maksunsaajat";
+"backup_restore_progress_tags" = "Tunnisteet";
+"backup_restore_progress_budgets" = "Budjetit";
+"backup_restore_progress_transaction_groups" = "Tapahtumaryhmät";
+"backup_restore_progress_transactions" = "Tapahtumat";
+"backup_restore_progress_reminders" = "Muistutukset";
+
+/* MARK: - Advanced Settings View */
 "advanced_setting_info_title" = "Kuvaus";
 "advanced_setting_info_description" = "Määritä sovellus määrittämällä lisäasetuksia.";
 
@@ -715,8 +763,10 @@
 "advanced_setting_auto_lock_title" = "Pyydä koodia";
 
 "advanced_setting_chart_type_title" = "Kaavion tyyppi";
-"advanced_setting_show_frequently_used_items_title" = "Näytä usein luokat ja tunnisteet";
-"advanced_setting_show_frequently_used_items_description" = "Näytä usein käytetyt luokat ja tunnisteet valintaluettelossa, kun luot ja muokkaat tapahtumia.";
+"advanced_setting_show_most_used_items_title" = "Näytä eniten käytetyt luokat ja tunnisteet";
+"advanced_setting_show_most_used_items_description" = "Näytä eniten käytetyt luokat ja tunnisteet valintaluettelossa, kun luot ja muokkaat tapahtumia.";
+"advanced_setting_remove_most_used_items_from_groups_title" = "Poista eniten käytetyt luokat ja tunnisteet ryhmistä";
+"advanced_setting_remove_most_used_items_from_groups_description" = "Poista eniten käytetyt luokat ja tunnisteet niiden tavallisista ryhmistä valintaluettelossa, kun luot ja muokkaat tapahtumia.";
 "advanced_setting_show_notes_in_title_title" = "Näytä muistiinpanot luokan sijaan";
 "advanced_setting_show_notes_in_title_description" = "Näytä muistiinpanojen sisältö tapahtumien luokan nimen sijaan.";
 "advanced_setting_start_day_of_month_title" = "Kuukauden aloituspäivä";
@@ -783,7 +833,15 @@
 "alert_share_app_type_selection_qrcode_button" = "QR-koodi";
 
 "alert_reset_app_title" = "Nollaa sovellus";
-"alert_reset_app_message" = "Haluatko varmasti palauttaa sovelluksen oletusasetukset? Tämä poistaa pysyvästi kaikki tähän laitteeseen ja iCloudiin tallennetut tiedot.";
+"alert_reset_app_message" = "Haluatko varmasti palauttaa sovelluksen oletusasetukset? Tämä poistaa pysyvästi kaikki tietosi.";
+
+/* Progress */
+"alert_app_reset_progress_title" = "Nollaa sovellus";
+"app_reset_progress_preparing" = "Valmistellaan sovelluksen nollausta";
+"app_reset_progress_deleting_existing_notifications" = "Poistetaan olemassa olevia ilmoituksia";
+"app_reset_progress_deleting_existing_data" = "Poistetaan olemassa olevia tietoja";
+"app_reset_progress_deleting_existing_settings" = "Poistetaan olemassa olevia asetuksia";
+"app_reset_progress_finishing" = "Viimeistellään sovelluksen nollaus";
 
 "alert_error_title" = "Tapahtui virhe 😢";
 
@@ -800,7 +858,7 @@
 "passcode_view_enter_passcode_title" = "Anna pääsykoodi";
 "passcode_view_create_passcode_title" = "Luo pääsykoodi";
 "passcode_view_confirm_passcode_title" = "Vahvista pääsykoodi";
-"passcode_view_authenticate_reason" = "Käyttäjän todennus";
+"passcode_view_authenticate_reason" = "Todennus vaaditaan";
 
 /* Alert Views */
 "alert_set_passcode_type_title" = "Valitse pääsykoodivaihtoehto";
@@ -834,19 +892,6 @@
 /* Buttons */
 "new_features_view_rate_app_button" = "Rate App";
 "new_features_view_close_button" = "Maybe later";
-
-
-/* MARK: - Rate App View */
-/* Titles */
-"purchase_success_view_title" = "Kiitos!";
-
-/* Messages */
-"purchase_success_view_info_message" = "Jos pidät sovelluksesta, kirjoita positiivinen arvostelu App Storeen. Se auttaa todella paljon ja motivoi sovelluksen jatkuvaan parantamiseen. 😊";
-"purchase_success_view_info_message_info" = "\n\nInfo: Kun vaihdat tilauksesta elinikäiseen ostoon, muista peruuttaa olemassa oleva tilauksesi sen jälkeen.";
-
-/* Buttons */
-"purchase_success_view_rate_app_button" = "Arvioi sovellus";
-"purchase_success_view_close_button" = "Ehkä myöhemmin";
 
 
 /* MARK: - Upgrade View */
@@ -958,12 +1003,13 @@
 "alert_upgrade_view_purchase_success_title" = "Osto onnistui 🎉";
 "alert_upgrade_view_purchase_success_message" = "Kiitos tuestanne! 😊";
 "alert_upgrade_view_purchase_success_message_info" = "\n\nTiedot: Jos vaihdat tilauksesta kertaostokseen, muista peruuttaa edellinen tilauksesi jälkeenpäin.";
+
 "alert_upgrade_view_purchase_error_message" = "Ostostasi ei voitu suorittaa onnistuneesti.";
-"alert_upgrade_view_purchase_error_store_problem_message" = "App Storessa oli ongelma.\n\nTiedot: Joskus osto voi toimia vain, jos vahvistat salasanallasi Touch ID / Face ID sijaan.\n\nEsimerkiksi, jos käytät Face ID:tä, peitä vain etukamera ja yritä uudelleen nähdäksesi salasanan syöttöikkunan.";
+"alert_upgrade_view_purchase_error_store_problem_message" = "App Storessa oli ongelma.";
+"alert_upgrade_view_purchase_error_store_problem_message_info" = "\n\nTiedot: Joskus osto voi toimia vain, jos vahvistat salasanallasi Touch ID / Face ID sijaan.\n\nEsimerkiksi, jos käytät Face ID:tä, peitä vain etukamera ja yritä uudelleen nähdäksesi salasanan syöttöikkunan.";
 "alert_upgrade_view_purchase_error_not_allowed_message" = "Ostokset eivät ole sallittuja tällä laitteella.";
 "alert_upgrade_view_purchase_error_invalid_message" = "Tarkista maksutapasi ja yritä myöhemmin uudelleen. Jos virhe jatkuu, ota yhteyttä tukeen.";
 "alert_upgrade_view_purchase_error_network_message" = "Tarkista Internet-yhteytesi ja yritä myöhemmin uudelleen. Jos virhe jatkuu, ota yhteyttä tukeen.";
-
 "alert_upgrade_view_load_products_error_message" = "Tuotteita ei voitu ladata. Tarkista Internet-yhteytesi ja yritä myöhemmin uudelleen. Jos virhe jatkuu, ota yhteyttä tukeen.";
 
 "alert_upgrade_view_restore_success_title" = "Ostokset palautettu";
@@ -985,19 +1031,20 @@
 "upgrade_faq_about_title" = "Mikä on Budget Flow?";
 "upgrade_faq_about_value" = "Budget Flowus on moderni ja helppokäyttöinen budjetinseurantasovellus kaikille, jotka haluavat seurata talouttaan ja hallita kulujaan tehokkaasti.";
 "upgrade_faq_developer_title" = "Kuka on kehittänyt sovelluksen?";
-"upgrade_faq_developer_value" = "Budget Flow aloitettiin sivuprojektina, ja sen olen sittemmin suunnitellut, kehittänyt ja ylläpitänyt kokonaan minä, Fabian Hasse. Olen innostunut ohjelmistokehittäjä, jolla on yli 10 vuoden kokemus ja työskentelen suurella intohimolla kehittää paras budjetointi- ja kuluseurantasovellus App Storessa.";
+"upgrade_faq_developer_value" = "Budget Flow aloitettiin sivuprojektina, ja sen olen sittemmin suunnitellut, kehittänyt ja ylläpitänyt kokonaan minä, Fabian Hasse. Olen innostunut ohjelmistokehittäjä, jolla on yli 10 vuoden kokemus ja työskentelen suurella intohimolla kehittää paras budjetointi- ja kuluseurantasovellus.";
 "upgrade_faq_free_use_title" = "Voiko sovellusta käyttää myös ilmaiseksi?";
 "upgrade_faq_free_use_value" = "Kyllä, voit käyttää sovelluksen perustoimintoja, kuten tapahtumien luomista, täysin ilmaiseksi.\n\nLisäksi sovellus tarjoaa kokeilujakson täysversiolle, jotta voit kokeilla sitä etukäteen ennen kuin päätät ostaa tai tilata täyden version.";
 "upgrade_faq_security_title" = "Ovatko tietoni turvassa?";
-"upgrade_faq_security_value" = "Talousi on yksityistä – ja sen pitäisi pysyä sellaisina. Siksi tietosi tallennetaan yksinomaan laitteellesi tai (valinnaisesti) henkilökohtaiseen iCloudiisi.";
+"upgrade_faq_security_value" = "Talousi on yksityistä – ja sen pitäisi pysyä sellaisina. Siksi tietosi tallennetaan yksinomaan laitteellesi.";
+"upgrade_faq_security_value_icloud_suffix" = " tai (valinnaisesti) henkilökohtaiseen iCloudiisi.";
 "upgrade_faq_why_subscription_title" = "Miksi täysversio tarjotaan tilauksena?";
-"upgrade_faq_why_subscription_value" = "Tavoitteenamme on kehittää korkealaatuinen sovellus, joka tarjoaa sinulle käyttäjänä uusia ominaisuuksia ja parannuksia säännöllisesti. Tämän tavoitteen saavuttamiseksi sovellus tarvitsee kuitenkin jatkuvaa tuloa voidakseen rahoittaa itsensä ja olla taloudellisesti kestävä.\n\nMitä monet eivät tiedä Sovelluksen kehittäminen ja ylläpito vie paljon aikaa. Esimerkiksi Budget Flow'n tapauksessa ideasta kehitykseen kesti lähes kaksi vuotta ja useita tuhansia työtunteja ja testaus ennen kuin ensimmäinen versio voidaan julkaista App Storessa.\n\nAsiakkaana hyödyt erityisesti tilausmallin säännöllisistä päivityksistä ja parannuksista sekä hyvästä tuesta, jotta voit varmistaa, että olet edelleen tyytyväinen. sinulla on myös mahdollisuus kokeilla sovellusta ilmaiseksi etukäteen varmistaaksesi, että se sopii tarpeisiisi. Voit muuttaa tilausta tai peruuttaa sen milloin tahansa, jos muutat mieltäsi.\n\nKaiken kaikkiaan tilausmalli tarjoaa sinulle monia etuja asiakas ja parempi käyttökokemus jatkuvien päivitysten ja tuen ansiosta verrattuna kertaostokseen. Pitkällä tähtäimellä kertaostos ei valitettavasti olisi kestävää, koska tämä liiketoimintamalli edellyttää uusien käyttäjien ostavan sovelluskehityksen jatkumisen.\n\nJos pidät sovelluksesta, olisimme erittäin iloisia jos tuet työtämme, jotta voimme jatkossakin tarjota sinulle entistä enemmän mahtavia ominaisuuksia!❤️";
+"upgrade_faq_why_subscription_value" = "Tavoitteenamme on kehittää korkealaatuinen sovellus, joka tarjoaa sinulle käyttäjänä uusia ominaisuuksia ja parannuksia säännöllisesti. Tämän tavoitteen saavuttamiseksi sovellus tarvitsee kuitenkin jatkuvaa tuloa voidakseen rahoittaa itsensä ja olla taloudellisesti kestävä.\n\nMitä monet eivät tiedä Sovelluksen kehittäminen ja ylläpito vie paljon aikaa. Esimerkiksi Budget Flow'n tapauksessa ideasta kehitykseen kesti lähes kaksi vuotta ja useita tuhansia työtunteja ja testaus ennen kuin ensimmäinen versio voidaan julkaista.\n\nAsiakkaana hyödyt erityisesti tilausmallin säännöllisistä päivityksistä ja parannuksista sekä hyvästä tuesta, jotta voit varmistaa, että olet edelleen tyytyväinen. sinulla on myös mahdollisuus kokeilla sovellusta ilmaiseksi etukäteen varmistaaksesi, että se sopii tarpeisiisi. Voit muuttaa tilausta tai peruuttaa sen milloin tahansa, jos muutat mieltäsi.\n\nKaiken kaikkiaan tilausmalli tarjoaa sinulle monia etuja asiakas ja parempi käyttökokemus jatkuvien päivitysten ja tuen ansiosta verrattuna kertaostokseen. Pitkällä tähtäimellä kertaostos ei valitettavasti olisi kestävää, koska tämä liiketoimintamalli edellyttää uusien käyttäjien ostavan sovelluskehityksen jatkumisen.\n\nJos pidät sovelluksesta, olisimme erittäin iloisia jos tuet työtämme, jotta voimme jatkossakin tarjota sinulle entistä enemmän mahtavia ominaisuuksia!❤️";
 "upgrade_faq_multiple_devices_title" = "Voinko käyttää täyttä versiota useissa laitteissa?";
-"upgrade_faq_multiple_devices_value" = "Kyllä, voit käyttää Budget Flow'n täyttä versiota kaikissa Apple-laitteissasi samalla Apple ID:llä. Koska sovellus synkronoidaan iCloudin kautta, voit vaihtaa saumattomasti laitteidesi välillä ja saada aina pääsyn taloustietoihisi. ja asetukset.";
+"upgrade_faq_multiple_devices_value" = "Kyllä, voit käyttää Budget Flow'n täyttä versiota kaikissa Apple-laitteissasi samalla Apple-tilillä. Koska sovellus synkronoidaan iCloudin kautta, voit vaihtaa saumattomasti laitteidesi välillä ja saada aina pääsyn taloustietoihisi. ja asetukset.";
 "upgrade_faq_multiple_people_title" = "Voinko käyttää täyttä versiota useiden ihmisten kanssa?";
 "upgrade_faq_multiple_people_value" = "Kyllä, voit jakaa kertaostoksen sekä täysversion tilauksen jopa viiden henkilön kanssa perheryhmässä. Sinun tarvitsee vain ottaa perhejako käyttöön järjestelmäasetuksista ja lisätä muut ryhmän ihmiset kutsuvat.";
 "upgrade_faq_cancel_subscription_title" = "Kuinka peruutan tilaukseni?";
-"upgrade_faq_cancel_subscription_value" = "Voit peruuttaa tilauksesi milloin tahansa käyttämällä Apple ID:täsi Järjestelmäasetuksissa.";
+"upgrade_faq_cancel_subscription_value" = "Voit peruuttaa tilauksesi milloin tahansa käyttämällä Apple-tiliäsi Järjestelmäasetuksissa.";
 "upgrade_faq_subscription_data_loss_title" = "Menevätkö tietoni, jos peruutan tilaukseni?";
 "upgrade_faq_subscription_data_loss_value" = "Ei. Kaikki, mitä luot tilattaessa täysversiota, on edelleen saatavilla, jos vaihdat takaisin ilmaiseen versioon.";
 "upgrade_faq_refund_title" = "Kuinka saan hyvityksen?";
@@ -1203,7 +1250,7 @@
 "time_zone_selection_title" = "Aikavyöhyke";
 
 /* Messages */
-"no_timezones_found_title" = "Aikavyöhykkeitä ei löytynyt";
+"no_time_zones_found_title" = "Aikavyöhykkeitä ei löytynyt";
 "time_zone_selection_search_placeholder_message" = "Etsi maan tai kaupungin aikavyöhyke";
 
 
@@ -1484,6 +1531,8 @@
 
 /* Sections */
 "form_general_section_title" = "Yleistä";
+"form_csv_date_format_suggestions_section_title" = "Ehdotuksia";
+"form_csv_date_format_other_section_title" = "Muu";
 
 /* Footer */
 "form_invalid_footer_title" = "Virhe:";

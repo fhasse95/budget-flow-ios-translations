@@ -20,16 +20,20 @@
 /* MARK: - Miscellaneous */
 "face_id" = "Face ID";
 "touch_id" = "Touch ID";
+"biometrics" = "Βιομετρικά στοιχεία";
+
 "required" = "Απαιτείται";
 "optional" = "Προαιρετικό";
-"uncategorized" = "Χωρίς κατηγορία";
+
 "before" = "πριν";
+"uncategorized" = "Χωρίς κατηγορία";
 "account_reconcilation" = "Συμφιλίωση λογαριασμού";
+
 "evaluated" = "Αξιολογημένο";
 "not_evaluated" = "Μη αξιολογημένο";
+
 "share_participant_owner" = "Ιδιοκτήτης";
 "share_participant_you" = "Εσύ";
-
 
 /* MARK: - Enums */
 "account_type_cash" = "Μετρητά";
@@ -56,6 +60,9 @@
 "transaction_type_income_plural" = "Έσοδα";
 "transaction_type_expense_plural" = "Έξοδα";
 "transaction_type_transfer_plural" = "Μεταφορές";
+
+"transaction_occurrence_type_one_time" = "Εφάπαξ";
+"transaction_occurrence_type_recurring" = "Επαναλαμβανόμενη";
 
 "payment_status" = "Κατάσταση";
 "payment_status_completed" = "Ολοκληρώθηκε";
@@ -289,6 +296,8 @@
 
 "open_button" = "Άνοιγμα";
 "open_folder_button" = "Άνοιγμα φακέλου";
+"local_folder_button" = "Τοπικός φάκελος";
+"icloud_drive_folder_button" = "iCloud Drive";
 "open_in_browser_button" = "Άνοιγμα στο πρόγραμμα περιήγησης";
 
 "show_more_button" = "Εμφάνιση περισσότερων";
@@ -311,7 +320,6 @@
 "get_started_button" = "Ξεκινήστε";
 
 "show_transactions_button" = "Εμφάνιση συναλλαγών";
-"show_in_app_store_button" = "Εμφάνιση στο App Store";
 
 "flip_values_button" = "Αντιστροφή ⇅";
 
@@ -329,7 +337,7 @@
 "alert_cloud_share_unknown_error_message" = "Δεν ήταν δυνατή η ολοκλήρωση της κοινής χρήσης επειδή παρουσιάστηκε σφάλμα. Πιθανότατα δεν υπάρχει αρκετός διαθέσιμος χώρος στο iCloud σας. Απελευθερώστε λίγο χώρο και δοκιμάστε ξανά.";
 
 
-/* MARK: - Search View */
+/* MARK: - Transaction Search View */
 /* Titles */
 "search_title" = "Αναζήτηση";
 "filter_title" = "Φίλτρο";
@@ -337,6 +345,31 @@
 /* Sections */
 "search_text_section_title" = "Αναζήτηση κειμένου";
 "search_suggestions_section_title" = "Προτάσεις";
+
+
+/* MARK: - Transaction Filter */
+/* Sections */
+"transaction_filter_general_section_title" = "Γενικά";
+"transaction_filter_assignment_section_title" = "Ανάθεση";
+
+/* Items */
+"transaction_filter_type_title" = "Τύπος";
+"transaction_filter_occurrence_type_title" = "Επανάληψη";
+"transaction_filter_amount_title" = "Ποσό";
+"transaction_filter_date_title" = "Ημερομηνία";
+"transaction_filter_status_title" = "Κατάσταση";
+
+"transaction_filter_accounts_title" = "Λογαριασμοί";
+"transaction_filter_categories_title" = "Κατηγορίες";
+"transaction_filter_payees_title" = "Δικαιούχοι";
+"transaction_filter_tags_title" = "Ετικέτες";
+"transaction_filter_people_title" = "Άτομα";
+
+"transaction_filter_all_title" = "Όλα";
+"transaction_filter_any_title" = "Οποιοδήποτε";
+
+/* Formats */
+"transaction_filter_range_format" = "%@ έως %@";
 
 
 /* MARK: - Period Selection View */
@@ -408,17 +441,6 @@
 /* Info */
 "recurring_transactions_info_title" = "Περιγραφή";
 "recurring_transactions_info_description" = "Δημιουργήστε επαναλαμβανόμενες συναλλαγές για να προστεθούν αυτόματα στην εφαρμογή όταν λήξουν.";
-
-/* Sections */
-"account_filter_section_title" = "Λογαριασμός";
-"category_filter_section_title" = "Κατηγορία";
-"payee_filter_section_title" = "Δικαιούχος";
-"tag_filter_section_title" = "Ετικέτα";
-"user_filter_section_title" = "Άτομο";
-"payment_status_filter_section_title" = "Πληρωμή";
-"transaction_type_filter_section_title" = "Τύπος";
-"date_range_filter_section_title" = "Ημερομηνία";
-"amount_range_filter_section_title" = "Ποσό";
 
 /* Messages */
 "no_transactions_title" = "Δεν υπάρχουν συναλλαγές";
@@ -597,36 +619,11 @@
 
 "contact_developer_mail_subject" = "%@: %@%@";
 "contact_developer_mail_subject_full_version" = " (full version)";
-"contact_developer_mail_message" = "
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-</br>
-<b>Support Information:</b>
-</br>
-<u>General:</u></br>
-- Device: %@</br>
-- iOS version: %@</br>
-- Language: %@</br>
-- Currency: %@</br>
-- Time zone: %@</br>
-</br>
-<u>App Specific:</u></br>
-- App version: %@</br>
-- Build: %@</br>
-</br>
-<u>In-App Purchases:</u></br>
-- User ID: %@</br>
-- Active: %@</br>
-- Purchases: %@";
-"contact_developer_mail_no_purchases" = "None";
 
-/* Appearance Settings */
+/* MARK: - Appearance Settings View */
+/* Info */
 "appearance_setting_info_title" = "Περιγραφή";
-"appearance_setting_info_description" = "Εξατομικεύστε την εφαρμογή σύμφωνα με τις προτιμήσεις σας αλλάζοντας την εμφάνιση ή το χρώμα έμφασης της εφαρμογής.";
+"appearance_setting_info_description" = "Εξατομικεύστε την εφαρμογή σύμφωνα με τις προτιμήσεις σας αλλάζοντας την εμφάνισή της.";
 "appearance_ui_style_setting_section_title" = "Θέμα";
 "appearance_ui_style_apply_to_icons_title" = "Εφαρμογή στα εικονίδια";
 "appearance_ui_style_apply_to_icons_description" = "Εφαρμόστε επίσης την επιλεγμένη εμφάνιση σε όλα τα εικονίδια της εφαρμογής.";
@@ -634,7 +631,8 @@
 "appearance_accent_color_setting_footer_title" = "Αλλάζει το χρώμα των κουμπιών και άλλων στοιχείων ελέγχου εντός της εφαρμογής.";
 "appearance_app_icon_setting_section_title" = "Εικονίδιο εφαρμογής";
 
-/* Sync & Data Settings */
+/* MARK: - Sync & Data Settings View */
+/* Info */
 "sync_and_data_setting_info_title" = "Περιγραφή";
 "sync_and_data_setting_info_description" = "Λάβετε μια επισκόπηση της τρέχουσας κατάστασης συγχρονισμού και εισάγετε ή εξάγετε δεδομένα χρησιμοποιώντας ένα αρχείο CSV.";
 
@@ -662,7 +660,14 @@
 "alert_csv_export_successful_title" = "Επιτυχής εξαγωγή 🎉";
 "alert_csv_export_successful_message" = "Τα δεδομένα σας εξήχθησαν με επιτυχία στο \"%@\".";
 
-/* Cloud Settings */
+/* Progress */
+"alert_csv_export_progress_title" = "Εξαγωγή";
+"csv_export_progress_preparing" = "Προετοιμασία εξαγωγής";
+"csv_export_progress_transactions" = "Συναλλαγές";
+"csv_export_progress_finishing" = "Ολοκλήρωση εξαγωγής";
+
+/* MARK: - Cloud Settings View */
+/* Info */
 "cloud_setting_info_title" = "Περιγραφή";
 "cloud_setting_info_description" = "Η ακόλουθη προβολή παρέχει μια πιο λεπτομερή επισκόπηση της τρέχουσας κατάστασης συγχρονισμού iCloud και βοηθά στην αντιμετώπιση προβλημάτων.";
 
@@ -685,20 +690,63 @@
 "import_from_cloud_button" = "Λήψη από iCloud";
 "manual_sync_cloud_setting_footer_title" = "Αν τα δεδομένα σας δεν έχουν συγχρονιστεί ή δεν έχουν συγχρονιστεί πλήρως με το iCloud, μπορείτε να ξεκινήσετε το συγχρονισμό χειροκίνητα εδώ.";
 
-/* Backup Settings */
+/* MARK: - Backup Settings View */
+/* Info */
 "backup_setting_info_title" = "Περιγραφή";
 "backup_setting_info_description" = "Όταν είναι ενεργοποιημένο, το Budget Flow δημιουργεί τακτικά αντίγραφα ασφαλείας των δεδομένων σας, ώστε να μπορείτε να επαναφέρετε την εφαρμογή στην προηγούμενη κατάσταση ανά πάσα στιγμή.";
 
-"backup_general_setting_section_title" = "Γενικά";
-"backup_recent_backups_setting_section_title" = "Πρόσφατα αντίγραφα ασφαλείας";
+"backup_setting_general_section_title" = "Γενικά";
+"backup_setting_recent_section_title" = "Πρόσφατα αντίγραφα ασφαλείας";
 "backup_setting_use_automatic_backups_title" = "Αυτόματη δημιουργία αντιγράφων ασφαλείας";
+"backup_setting_back_up_to_icloud_drive_title" = "Δημιουργία αντιγράφου στο iCloud Drive";
+
+"backup_setting_keep_backups_title" = "Διατήρηση αντιγράφων ασφαλείας";
+"backup_setting_keep_backups_last_5_title" = "Τελευταία 5";
+"backup_setting_keep_backups_last_10_title" = "Τελευταία 10";
+"backup_setting_keep_backups_last_20_title" = "Τελευταία 20";
+"backup_setting_keep_backups_last_30_title" = "Τελευταία 30";
+"backup_setting_keep_backups_all_title" = "Όλα";
+
 "backup_setting_create_backup_title" = "Δημιουργία αντιγράφου ασφαλείας";
 
-"alert_restore_backup_title" = "Επαναφορά αυτού του αντιγράφου ασφαλείας?";
-"alert_restore_backup_message" = "Η επαναφορά των αντιγράφων ασφαλείας είναι επί του παρόντος μια πειραματική λειτουργία. Θα διαγράψει τα τρέχοντα δεδομένα σας και θα τα αντικαταστήσει με το επιλεγμένο αντίγραφο ασφαλείας.\n\nΣτη συνέχεια, η εφαρμογή θα κλείσει αυτόματα.\n\nΠροειδοποίηση: Αυτή η διαδικασία δεν μπορεί να αναιρεθεί!";
+"backup_setting_no_recent_backups_title" = "Δεν υπάρχουν διαθέσιμα αντίγραφα ασφαλείας";
+"backup_setting_backup_subtitle" = "%@ · %@";
+
+"backup_setting_delete_backup_alert_title" = "Διαγραφή αντιγράφου ασφαλείας";
+"backup_setting_delete_backup_alert_message" = "Θέλετε σίγουρα να διαγράψετε αυτό το αντίγραφο ασφαλείας;";
+
+"backup_setting_restore_success_title" = "Το αντίγραφο ασφαλείας επαναφέρθηκε";
+"backup_setting_restore_success_message" = "Το επιλεγμένο αντίγραφο ασφαλείας επαναφέρθηκε.";
+
+"backup_setting_error_title" = "Η δημιουργία αντιγράφου ασφαλείας απέτυχε";
+"backup_setting_icloud_drive_unavailable_error" = "Το iCloud Drive δεν είναι διαθέσιμο σε αυτήν τη συσκευή.";
+"backup_setting_could_not_create_backup_directory_error" = "Δεν ήταν δυνατή η δημιουργία του φακέλου αντιγράφων ασφαλείας.";
+
+"alert_restore_backup_title" = "Επαναφορά αντιγράφου ασφαλείας";
+"alert_restore_backup_message" = "Θέλετε σίγουρα να επαναφέρετε αυτό το αντίγραφο ασφαλείας;\n\nΜε αυτόν τον τρόπο θα διαγραφούν τα τρέχοντα δεδομένα σας και θα αντικατασταθούν με τα δεδομένα από το επιλεγμένο αντίγραφο ασφαλείας.\n\nΠροειδοποίηση: Αυτή η ενέργεια δεν μπορεί να αναιρεθεί!";
 "alert_restore_backup_button" = "Επαναφορά αντιγράφου ασφαλείας";
 
-/* Advanced Settings */
+/* Progress */
+"backup_restore_progress_alert_title" = "Επαναφορά αντιγράφου ασφαλείας";
+"backup_restore_progress_preparing" = "Προετοιμασία αντιγράφου ασφαλείας";
+"backup_restore_progress_validating" = "Έλεγχος αντιγράφου ασφαλείας";
+"backup_restore_progress_reading_data" = "Ανάγνωση δεδομένων αντιγράφου ασφαλείας";
+"backup_restore_progress_deleting_existing_data" = "Διαγραφή υπαρχόντων δεδομένων";
+"backup_restore_progress_finishing" = "Ολοκλήρωση επαναφοράς";
+
+/* Progress Entities */
+"backup_restore_progress_budget_books" = "Βιβλία προϋπολογισμού";
+"backup_restore_progress_accounts" = "Λογαριασμοί";
+"backup_restore_progress_category_groups" = "Φάκελος";
+"backup_restore_progress_categories" = "Κατηγορίες";
+"backup_restore_progress_payees" = "Δικαιούχοι";
+"backup_restore_progress_tags" = "Ετικέτες";
+"backup_restore_progress_budgets" = "Προϋπολογισμοί";
+"backup_restore_progress_transaction_groups" = "Ομάδες συναλλαγών";
+"backup_restore_progress_transactions" = "Συναλλαγές";
+"backup_restore_progress_reminders" = "Υπενθυμίσεις";
+
+/* MARK: - Advanced Settings View */
 "advanced_setting_info_title" = "Περιγραφή";
 "advanced_setting_info_description" = "Κάντε περαιτέρω ρυθμίσεις για να διαμορφώσετε την εφαρμογή.";
 
@@ -715,8 +763,10 @@
 "advanced_setting_auto_lock_title" = "Αίτηση κωδικού";
 
 "advanced_setting_chart_type_title" = "Τύπος γραφήματος";
-"advanced_setting_show_frequently_used_items_title" = "Εμφάνιση συχνών κατηγοριών και ετικετών";
-"advanced_setting_show_frequently_used_items_description" = "Εμφάνιση κατηγοριών και ετικετών που χρησιμοποιούνται συχνά στη λίστα επιλογής κατά τη δημιουργία και την επεξεργασία συναλλαγών.";
+"advanced_setting_show_most_used_items_title" = "Εμφάνιση των πιο χρησιμοποιούμενων κατηγοριών και ετικετών";
+"advanced_setting_show_most_used_items_description" = "Εμφάνιση των πιο χρησιμοποιούμενων κατηγοριών και ετικετών στη λίστα επιλογής κατά τη δημιουργία και την επεξεργασία συναλλαγών.";
+"advanced_setting_remove_most_used_items_from_groups_title" = "Αφαίρεση των πιο χρησιμοποιούμενων κατηγοριών και ετικετών από ομάδες";
+"advanced_setting_remove_most_used_items_from_groups_description" = "Αφαιρέστε τις πιο χρησιμοποιούμενες κατηγορίες και ετικέτες από τις κανονικές ομάδες τους στη λίστα επιλογής κατά τη δημιουργία και την επεξεργασία συναλλαγών.";
 "advanced_setting_show_notes_in_title_title" = "Εμφάνιση σημειώσεων αντί για κατηγορία";
 "advanced_setting_show_notes_in_title_description" = "Εμφάνιση των περιεχομένων των σημειώσεων αντί του ονόματος της κατηγορίας για τις συναλλαγές.";
 "advanced_setting_start_day_of_month_title" = "Ημέρα έναρξης του μήνα";
@@ -783,7 +833,15 @@
 "alert_share_app_type_selection_qrcode_button" = "Κωδικός QR";
 
 "alert_reset_app_title" = "Επαναφορά εφαρμογής";
-"alert_reset_app_message" = "Είστε βέβαιοι ότι θέλετε να επαναφέρετε την εφαρμογή στις προεπιλεγμένες ρυθμίσεις; Αυτό θα διαγράψει οριστικά όλα τα δεδομένα σας που είναι αποθηκευμένα σε αυτήν τη συσκευή και το iCloud.";
+"alert_reset_app_message" = "Είστε βέβαιοι ότι θέλετε να επαναφέρετε την εφαρμογή στις προεπιλεγμένες ρυθμίσεις; Αυτό θα διαγράψει οριστικά όλα τα δεδομένα σας.";
+
+/* Progress */
+"alert_app_reset_progress_title" = "Επαναφορά εφαρμογής";
+"app_reset_progress_preparing" = "Προετοιμασία επαναφοράς εφαρμογής";
+"app_reset_progress_deleting_existing_notifications" = "Διαγραφή υπαρχουσών ειδοποιήσεων";
+"app_reset_progress_deleting_existing_data" = "Διαγραφή υπαρχόντων δεδομένων";
+"app_reset_progress_deleting_existing_settings" = "Διαγραφή υπαρχουσών ρυθμίσεων";
+"app_reset_progress_finishing" = "Ολοκλήρωση επαναφοράς εφαρμογής";
 
 "alert_error_title" = "Παρουσιάστηκε σφάλμα 😢";
 
@@ -800,7 +858,7 @@
 "passcode_view_enter_passcode_title" = "Εισαγάγετε τον κωδικό πρόσβασης";
 "passcode_view_create_passcode_title" = "Δημιουργία κωδικού πρόσβασης";
 "passcode_view_confirm_passcode_title" = "Επιβεβαίωση κωδικού πρόσβασης";
-"passcode_view_authenticate_reason" = "Έλεγχος ταυτότητας χρήστη";
+"passcode_view_authenticate_reason" = "Απαιτείται έλεγχος ταυτότητας";
 
 /* Alert Views */
 "alert_set_passcode_type_title" = "Επιλογή κωδικού πρόσβασης";
@@ -834,19 +892,6 @@
 /* Buttons */
 "new_features_view_rate_app_button" = "Rate App";
 "new_features_view_close_button" = "Maybe later";
-
-
-/* MARK: - Rate App View */
-/* Titles */
-"purchase_success_view_title" = "Ευχαριστούμε!";
-
-/* Messages */
-"purchase_success_view_info_message" = "Αν σας αρέσει η εφαρμογή, γράψτε μια θετική κριτική στο App Store. Βοηθά πραγματικά πολύ και δίνει κίνητρο στη συνεχή βελτίωση της εφαρμογής. 😊";
-"purchase_success_view_info_message_info" = "\n\nΠληροφορία: Όταν μεταβείς από συνδρομή σε αγόρα ζωής, θυμήσου να ακυρώσεις τη υπάρχουσα συνδρομή σου μετά.";
-
-/* Buttons */
-"purchase_success_view_rate_app_button" = "Βαθμολογήστε την εφαρμογή";
-"purchase_success_view_close_button" = "Ίσως αργότερα";
 
 
 /* MARK: - Upgrade View */
@@ -958,12 +1003,13 @@
 "alert_upgrade_view_purchase_success_title" = "Η αγορά ήταν επιτυχής 🎉";
 "alert_upgrade_view_purchase_success_message" = "Σας ευχαριστούμε για την υποστήριξή σας! 😊";
 "alert_upgrade_view_purchase_success_message_info" = "\n\nΠληροφορίες: Εάν μεταβείτε από μια συνδρομή στην εφάπαξ αγορά, θυμηθείτε να ακυρώσετε την προηγούμενη συνδρομή σας στη συνέχεια.";
+
 "alert_upgrade_view_purchase_error_message" = "Η αγορά σας δεν ολοκληρώθηκε με επιτυχία.";
-"alert_upgrade_view_purchase_error_store_problem_message" = "Υπήρχε πρόβλημα με το App Store.\n\nΠληροφορίες: Μερικές φορές η αγορά μπορεί να λειτουργήσει μόνο εάν επιβεβαιώσετε με τον κωδικό πρόσβασής σας αντί για Touch ID / Face ID.\n\nΓια παράδειγμα, αν χρησιμοποιείτε το Face ID, καλύψτε απλώς την μπροστινή κάμερα και δοκιμάστε ξανά για να δείτε το παράθυρο διαλόγου κωδικού πρόσβασης.";
+"alert_upgrade_view_purchase_error_store_problem_message" = "Υπήρχε πρόβλημα με το App Store.";
+"alert_upgrade_view_purchase_error_store_problem_message_info" = "\n\nΠληροφορίες: Μερικές φορές η αγορά μπορεί να λειτουργήσει μόνο εάν επιβεβαιώσετε με τον κωδικό πρόσβασής σας αντί για Touch ID / Face ID.\n\nΓια παράδειγμα, αν χρησιμοποιείτε το Face ID, καλύψτε απλώς την μπροστινή κάμερα και δοκιμάστε ξανά για να δείτε το παράθυρο διαλόγου κωδικού πρόσβασης.";
 "alert_upgrade_view_purchase_error_not_allowed_message" = "Δεν επιτρέπονται αγορές σε αυτήν τη συσκευή.";
 "alert_upgrade_view_purchase_error_invalid_message" = "Ελέγξτε τον τρόπο πληρωμής σας και δοκιμάστε ξανά αργότερα. Εάν το σφάλμα επιμένει, επικοινωνήστε με την υποστήριξη.";
 "alert_upgrade_view_purchase_error_network_message" = "Ελέγξτε τη σύνδεσή σας στο Διαδίκτυο και δοκιμάστε ξανά αργότερα. Εάν το σφάλμα επιμένει, επικοινωνήστε με την υποστήριξη.";
-
 "alert_upgrade_view_load_products_error_message" = "Δεν ήταν δυνατή η φόρτωση των προϊόντων. Ελέγξτε τη σύνδεσή σας στο Διαδίκτυο και δοκιμάστε ξανά αργότερα. Εάν το σφάλμα παραμένει, επικοινωνήστε με την υποστήριξη.";
 
 "alert_upgrade_view_restore_success_title" = "Αποκαταστάθηκαν οι αγορές";
@@ -985,19 +1031,20 @@
 "upgrade_faq_about_title" = "Τι είναι η Budget Flow?";
 "upgrade_faq_about_value" = "Το Budget Flow είναι μια σύγχρονη και εύχρηστη εφαρμογή παρακολούθησης προϋπολογισμού για όλους όσους θέλουν να παρακολουθούν τα οικονομικά τους και να διαχειρίζονται αποτελεσματικά τα έξοδά τους.";
 "upgrade_faq_developer_title" = "Ποιος ανέπτυξε την εφαρμογή";
-"upgrade_faq_developer_value" = "Το Budget Flow ξεκίνησε ως δευτερεύον έργο και έκτοτε σχεδιάστηκε, αναπτύχθηκε και συντηρήθηκε πλήρως από εμένα, τον Fabian Hasse. Είμαι ενθουσιώδης προγραμματιστής λογισμικού με πάνω από 10 χρόνια εμπειρίας και εργάζομαι με πολύ πάθος για να αναπτύξτε την καλύτερη εφαρμογή προϋπολογισμού και παρακολούθησης δαπανών στο App Store.";
+"upgrade_faq_developer_value" = "Το Budget Flow ξεκίνησε ως δευτερεύον έργο και έκτοτε σχεδιάστηκε, αναπτύχθηκε και συντηρήθηκε πλήρως από εμένα, τον Fabian Hasse. Είμαι ενθουσιώδης προγραμματιστής λογισμικού με πάνω από 10 χρόνια εμπειρίας και εργάζομαι με πολύ πάθος για να αναπτύξτε την καλύτερη εφαρμογή προϋπολογισμού και παρακολούθησης δαπανών.";
 "upgrade_faq_free_use_title" = "Μπορεί η εφαρμογή να χρησιμοποιηθεί και δωρεάν?";
 "upgrade_faq_free_use_value" = "Ναι, μπορείτε να χρησιμοποιήσετε τις βασικές λειτουργίες της εφαρμογής, όπως τη δημιουργία συναλλαγών, εντελώς δωρεάν.\n\nΕπιπλέον, η εφαρμογή προσφέρει μια δοκιμαστική περίοδο για την πλήρη έκδοση, ώστε να μπορείτε να τη δοκιμάσετε εκ των προτέρων προτού αποφασίσετε να αγοράσετε ή να εγγραφείτε στην πλήρη έκδοση.";
 "upgrade_faq_security_title" = "Είναι τα δεδομένα μου ασφαλή?";
-"upgrade_faq_security_value" = "Τα οικονομικά σας είναι ιδιωτικά – και θα πρέπει να παραμείνουν έτσι. Γι' αυτό τα δεδομένα σας αποθηκεύονται αποκλειστικά στη συσκευή σας ή (προαιρετικά) στο προσωπικό σας iCloud.";
+"upgrade_faq_security_value" = "Τα οικονομικά σας είναι ιδιωτικά – και θα πρέπει να παραμείνουν έτσι. Γι' αυτό τα δεδομένα σας αποθηκεύονται αποκλειστικά στη συσκευή σας.";
+"upgrade_faq_security_value_icloud_suffix" = " ή (προαιρετικά) στο προσωπικό σας iCloud.";
 "upgrade_faq_why_subscription_title" = "Γιατί η πλήρης έκδοση προσφέρεται ως συνδρομή?";
-"upgrade_faq_why_subscription_value" = "Στόχος μας είναι να αναπτύξουμε μια εφαρμογή υψηλής ποιότητας που σας προσφέρει ως χρήστη νέες δυνατότητες και βελτιώσεις σε τακτική βάση. Ωστόσο, για να επιτευχθεί αυτός ο στόχος, η εφαρμογή χρειάζεται συνεχή έσοδα για να χρηματοδοτεί τον εαυτό της και να είναι οικονομικά βιώσιμος.\n\nΤι πολλοί δεν γνωρίζουν Η ανάπτυξη και η συντήρηση μιας εφαρμογής απαιτεί πολύ χρόνο. Στην περίπτωση της Budget Flow για παράδειγμα, χρειάστηκαν σχεδόν δύο χρόνια και αρκετές χιλιάδες ώρες εργασίας από την ιδέα μέχρι την ανάπτυξη και δοκιμές πριν κυκλοφορήσει η πρώτη έκδοση στο App Store.\n\nΩς πελάτης, επωφεληθείτε ιδιαίτερα από τακτικές ενημερώσεις και βελτιώσεις μέσω του μοντέλου συνδρομής, καθώς και από καλή υποστήριξη για να διασφαλίσετε ότι θα συνεχίσετε να είστε ικανοποιημένοι. έχετε επίσης την ευκαιρία να δοκιμάσετε την εφαρμογή δωρεάν εκ των προτέρων για να βεβαιωθείτε ότι ταιριάζει στις ανάγκες σας, μπορείτε να αλλάξετε ή να ακυρώσετε τη συνδρομή ανά πάσα στιγμή, εάν αλλάξετε γνώμη.\n\nΣυνολικά, ένα μοντέλο συνδρομής προσφέρει πολλά οφέλη για εσάς ως πελάτη και καλύτερη εμπειρία χρήστη μέσω συνεχών ενημερώσεων και υποστήριξης σε σύγκριση με μια εφάπαξ αγορά. Μακροπρόθεσμα, μια εφάπαξ αγορά δυστυχώς δεν θα ήταν βιώσιμη, καθώς αυτό το επιχειρηματικό μοντέλο απαιτεί από τους νέους χρήστες να συνεχίσουν να αγοράζουν την εφαρμογή για να εξασφαλίσουν τη συνέχιση της ανάπτυξης.\n\nΕπομένως, αν σας αρέσει η εφαρμογή, θα χαρούμε πολύ αν υποστηρίζετε τη δουλειά μας, ώστε να συνεχίσουμε να σας προσφέρουμε ακόμα περισσότερες εξαιρετικές δυνατότητες στο μέλλον!❤️";
+"upgrade_faq_why_subscription_value" = "Στόχος μας είναι να αναπτύξουμε μια εφαρμογή υψηλής ποιότητας που σας προσφέρει ως χρήστη νέες δυνατότητες και βελτιώσεις σε τακτική βάση. Ωστόσο, για να επιτευχθεί αυτός ο στόχος, η εφαρμογή χρειάζεται συνεχή έσοδα για να χρηματοδοτεί τον εαυτό της και να είναι οικονομικά βιώσιμος.\n\nΤι πολλοί δεν γνωρίζουν Η ανάπτυξη και η συντήρηση μιας εφαρμογής απαιτεί πολύ χρόνο. Στην περίπτωση της Budget Flow για παράδειγμα, χρειάστηκαν σχεδόν δύο χρόνια και αρκετές χιλιάδες ώρες εργασίας από την ιδέα μέχρι την ανάπτυξη και δοκιμές πριν κυκλοφορήσει η πρώτη έκδοση.\n\nΩς πελάτης, επωφεληθείτε ιδιαίτερα από τακτικές ενημερώσεις και βελτιώσεις μέσω του μοντέλου συνδρομής, καθώς και από καλή υποστήριξη για να διασφαλίσετε ότι θα συνεχίσετε να είστε ικανοποιημένοι. έχετε επίσης την ευκαιρία να δοκιμάσετε την εφαρμογή δωρεάν εκ των προτέρων για να βεβαιωθείτε ότι ταιριάζει στις ανάγκες σας, μπορείτε να αλλάξετε ή να ακυρώσετε τη συνδρομή ανά πάσα στιγμή, εάν αλλάξετε γνώμη.\n\nΣυνολικά, ένα μοντέλο συνδρομής προσφέρει πολλά οφέλη για εσάς ως πελάτη και καλύτερη εμπειρία χρήστη μέσω συνεχών ενημερώσεων και υποστήριξης σε σύγκριση με μια εφάπαξ αγορά. Μακροπρόθεσμα, μια εφάπαξ αγορά δυστυχώς δεν θα ήταν βιώσιμη, καθώς αυτό το επιχειρηματικό μοντέλο απαιτεί από τους νέους χρήστες να συνεχίσουν να αγοράζουν την εφαρμογή για να εξασφαλίσουν τη συνέχιση της ανάπτυξης.\n\nΕπομένως, αν σας αρέσει η εφαρμογή, θα χαρούμε πολύ αν υποστηρίζετε τη δουλειά μας, ώστε να συνεχίσουμε να σας προσφέρουμε ακόμα περισσότερες εξαιρετικές δυνατότητες στο μέλλον!❤️";
 "upgrade_faq_multiple_devices_title" = "Μπορώ να χρησιμοποιήσω την πλήρη έκδοση σε πολλές συσκευές?";
-"upgrade_faq_multiple_devices_value" = "Ναι, μπορείτε να χρησιμοποιήσετε την πλήρη έκδοση του Budget Flow σε όλες τις συσκευές Apple με το ίδιο Apple ID. Επειδή η εφαρμογή συγχρονίζεται μέσω iCloud, μπορείτε να κάνετε εναλλαγή μεταξύ των συσκευών σας και να έχετε πάντα πρόσβαση στα οικονομικά σας δεδομένα και ρυθμίσεις.";
+"upgrade_faq_multiple_devices_value" = "Ναι, μπορείτε να χρησιμοποιήσετε την πλήρη έκδοση του Budget Flow σε όλες τις συσκευές Apple με τον ίδιο Λογαριασμό Apple. Επειδή η εφαρμογή συγχρονίζεται μέσω iCloud, μπορείτε να κάνετε εναλλαγή μεταξύ των συσκευών σας και να έχετε πάντα πρόσβαση στα οικονομικά σας δεδομένα και ρυθμίσεις.";
 "upgrade_faq_multiple_people_title" = "Μπορώ να χρησιμοποιήσω την πλήρη έκδοση με πολλά άτομα?";
 "upgrade_faq_multiple_people_value" = "Ναι, μπορείτε να μοιραστείτε την εφάπαξ αγορά καθώς και τη συνδρομή της πλήρους έκδοσης με έως και πέντε άτομα σε μια ομάδα οικογένειας. Το μόνο που έχετε να κάνετε είναι να ενεργοποιήσετε την κοινή χρήση οικογένειας στις ρυθμίσεις συστήματος και να προσθέσετε τα άλλα άτομα στην ομάδα προσκαλούν.";
 "upgrade_faq_cancel_subscription_title" = "Πώς μπορώ να ακυρώσω τη συνδρομή μου?";
-"upgrade_faq_cancel_subscription_value" = "Μπορείτε να ακυρώσετε τη συνδρομή σας ανά πάσα στιγμή χρησιμοποιώντας το Apple ID σας στις Προτιμήσεις συστήματος.";
+"upgrade_faq_cancel_subscription_value" = "Μπορείτε να ακυρώσετε τη συνδρομή σας ανά πάσα στιγμή χρησιμοποιώντας τον Λογαριασμό Apple σας στις Προτιμήσεις συστήματος.";
 "upgrade_faq_subscription_data_loss_title" = "Θα χαθούν τα δεδομένα μου εάν ακυρώσω τη συνδρομή μου?";
 "upgrade_faq_subscription_data_loss_value" = "Όχι. Οτιδήποτε δημιουργείτε κατά την εγγραφή σας στην πλήρη έκδοση θα εξακολουθεί να είναι διαθέσιμο εάν επιστρέψετε στη δωρεάν έκδοση.";
 "upgrade_faq_refund_title" = "Πώς μπορώ να λάβω επιστροφή χρημάτων?";
@@ -1203,7 +1250,7 @@
 "time_zone_selection_title" = "Ζώνη ώρας";
 
 /* Messages */
-"no_timezones_found_title" = "Δεν βρέθηκαν ζώνες ώρας";
+"no_time_zones_found_title" = "Δεν βρέθηκαν ζώνες ώρας";
 "time_zone_selection_search_placeholder_message" = "Αναζήτηση ζώνης ώρας χώρας ή πόλης";
 
 
@@ -1484,6 +1531,8 @@
 
 /* Sections */
 "form_general_section_title" = "Γενικά";
+"form_csv_date_format_suggestions_section_title" = "Προτάσεις";
+"form_csv_date_format_other_section_title" = "Άλλο";
 
 /* Footer */
 "form_invalid_footer_title" = "Σφάλμα:";

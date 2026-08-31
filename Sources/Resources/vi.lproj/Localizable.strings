@@ -371,7 +371,6 @@
 /* Formats */
 "transaction_filter_range_format" = "%@ đến %@";
 
-
 /* MARK: - Period Selection View */
 /* Titles */
 "period_selection_title" = "Khoảng thời gian";
@@ -624,39 +623,51 @@
 /* Info */
 "appearance_setting_info_title" = "Mô tả";
 "appearance_setting_info_description" = "Cá nhân hóa ứng dụng theo ý thích của bạn bằng cách thay đổi giao diện của ứng dụng.";
+
+/* Sections */
 "appearance_ui_style_setting_section_title" = "Chủ đề";
+"appearance_accent_color_setting_section_title" = "Màu chủ đạo";
+"appearance_app_icon_setting_section_title" = "Biểu tượng";
+
+/* Options */
 "appearance_ui_style_apply_to_icons_title" = "Áp dụng cho biểu tượng";
 "appearance_ui_style_apply_to_icons_description" = "Áp dụng giao diện đã chọn cho tất cả biểu tượng trong ứng dụng.";
-"appearance_accent_color_setting_section_title" = "Màu chủ đạo";
+
+/* Footer */
 "appearance_accent_color_setting_footer_title" = "Thay đổi màu của các nút trong ứng dụng.";
-"appearance_app_icon_setting_section_title" = "Biểu tượng";
 
 /* MARK: - Sync & Data Settings View */
 /* Info */
 "sync_and_data_setting_info_title" = "Mô tả";
 "sync_and_data_setting_info_description" = "Tổng quan về trạng thái đồng bộ hoặc nhập xuất dữ liệu";
 
+/* Sections */
 "sync_and_data_cloud_setting_section_title" = "iCloud";
-"sync_and_data_cloud_setting_footer_title" = "Hiển thị quá trình đồng bộ hoá dữ liệu vào iCloud";
-"sync_and_data_setting_cloud_sync_status_title" = "Trạng thái đồng bộ hoá";
 "backup_setting_section_title" = "Sao lưu";
-"backup_setting_footer_title" = "Quản lý và cài đặt các sao lưu của bạn.";
-"backup_setting_manage_backups_title" = "Quản lý";
 "sync_and_data_csv_setting_section_title" = "Dữ liệu";
-"sync_and_data_csv_setting_footer_title" = "Nhập hoặc xuất các giao dịch của bạn.";
+
+/* Titles */
+"sync_and_data_setting_cloud_sync_status_title" = "Trạng thái đồng bộ hoá";
+"backup_setting_manage_backups_title" = "Quản lý";
 "sync_and_data_setting_csv_import_title" = "Nhập dữ liệu";
 "sync_and_data_setting_csv_export_title" = "Xuất dữ liệu";
 "sync_and_data_setting_get_csv_template_title" = "Tải xuống mẫu";
 
+/* Buttons */
 "clear_cache_button" = "Xóa bộ nhớ đệm";
+
+/* Footer */
+"sync_and_data_cloud_setting_footer_title" = "Hiển thị quá trình đồng bộ hoá dữ liệu vào iCloud";
+"backup_setting_footer_title" = "Quản lý và cài đặt các sao lưu của bạn.";
+"sync_and_data_csv_setting_footer_title" = "Nhập hoặc xuất các giao dịch của bạn.";
 "cache_setting_footer_title" = "Thông tin: Xóa bộ nhớ đệm sẽ xóa tất cả các tệp trong thư mục tài liệu của ứng dụng (bao gồm cả các bản sao lưu).";
 
+/* Alert Views */
 "alert_csv_import_successful_title" = "Nhập dữ liệu thành công 🎉";
 "alert_csv_import_successful_message" = "Đã có, %d trong số %d giao dịch đã được nhập.%@";
 "alert_csv_import_skipped_message" = " Còn lại %d giao dịch đã bỏ qua.";
 "alert_csv_import_error_message" = "Nhập không thành công %d trong số %d giao dịch.\n\n%@";
 "alert_csv_import_error_reason_field_message" = "Vui lòng kiểm tra các trường sau trong tệp của bạn: %@.";
-
 "alert_csv_export_successful_title" = "Xuất dữ liệu thành công 🎉";
 "alert_csv_export_successful_message" = "Dữ liệu của bạn đã được xuất thành công sang \"%@\".";
 
@@ -671,6 +682,7 @@
 "cloud_setting_info_title" = "Mô tả";
 "cloud_setting_info_description" = "Chế độ xem sau đây cung cấp cái nhìn tổng quan chi tiết hơn về trạng thái đồng bộ hóa iCloud hiện tại và giúp khắc phục sự cố.";
 
+/* Status */
 "cloud_setting_network_status_title" = "Mạng";
 "cloud_setting_network_status_success_value" = "Kết nối Internet có sẵn";
 "cloud_setting_network_status_error_value" = "Không có kết nối Internet";
@@ -687,7 +699,10 @@
 "cloud_setting_number_of_transactions_in_progress_title" = "Vui lòng đợi...";
 "cloud_setting_number_of_transactions_error_title" = "Lỗi";
 
+/* Buttons */
 "import_from_cloud_button" = "Tải xuống từ iCloud";
+
+/* Footer */
 "manual_sync_cloud_setting_footer_title" = "Nếu dữ liệu của bạn chưa hoặc chưa được đồng bộ đầy đủ với iCloud, bạn có thể khởi động đồng bộ thủ công tại đây.";
 
 /* MARK: - Backup Settings View */
@@ -695,33 +710,33 @@
 "backup_setting_info_title" = "Mô tả";
 "backup_setting_info_description" = "Budget Flow sẽ thường xuyên sao lưu dữ liệu của bạn vào bất cứ lúc nào.";
 
+/* Sections */
 "backup_setting_general_section_title" = "Tổng quan";
 "backup_setting_recent_section_title" = "Sao lưu gần đây";
+
+/* Titles */
 "backup_setting_use_automatic_backups_title" = "Tự động sao lưu";
 "backup_setting_back_up_to_icloud_drive_title" = "Sao lưu vào iCloud Drive";
-
 "backup_setting_keep_backups_title" = "Giữ bản sao lưu";
+"backup_setting_create_backup_title" = "Tạo bản sao lưu";
+"backup_setting_no_recent_backups_title" = "Không có bản sao lưu";
+"backup_setting_backup_subtitle" = "%@ · %@";
+
+/* Options */
 "backup_setting_keep_backups_last_5_title" = "5 bản gần nhất";
 "backup_setting_keep_backups_last_10_title" = "10 bản gần nhất";
 "backup_setting_keep_backups_last_20_title" = "20 bản gần nhất";
 "backup_setting_keep_backups_last_30_title" = "30 bản gần nhất";
 "backup_setting_keep_backups_all_title" = "Tất cả";
 
-"backup_setting_create_backup_title" = "Tạo bản sao lưu";
-
-"backup_setting_no_recent_backups_title" = "Không có bản sao lưu";
-"backup_setting_backup_subtitle" = "%@ · %@";
-
+/* Alert Views */
 "backup_setting_delete_backup_alert_title" = "Xóa bản sao lưu";
 "backup_setting_delete_backup_alert_message" = "Bạn có chắc chắn muốn xóa bản sao lưu này không?";
-
 "backup_setting_restore_success_title" = "Đã khôi phục bản sao lưu";
 "backup_setting_restore_success_message" = "Bản sao lưu đã chọn đã được khôi phục.";
-
 "backup_setting_error_title" = "Sao lưu thất bại";
 "backup_setting_icloud_drive_unavailable_error" = "iCloud Drive không khả dụng trên thiết bị này.";
 "backup_setting_could_not_create_backup_directory_error" = "Không thể tạo thư mục sao lưu.";
-
 "alert_restore_backup_title" = "Khôi phục bản sao lưu";
 "alert_restore_backup_message" = "Bạn có chắc chắn muốn khôi phục bản sao lưu này không?\n\nThao tác này sẽ xóa dữ liệu hiện tại của bạn và thay thế bằng dữ liệu từ bản sao lưu đã chọn.\n\nCảnh báo: Không thể hoàn tác thao tác này!";
 "alert_restore_backup_button" = "Khôi phục bản sao lưu";
@@ -747,9 +762,11 @@
 "backup_restore_progress_reminders" = "Lời nhắc";
 
 /* MARK: - Advanced Settings View */
+/* Info */
 "advanced_setting_info_title" = "Mô tả";
 "advanced_setting_info_description" = "Tuỳ chọn thêm cài đặt để cấu hình ứng dụng.";
 
+/* Sections */
 "advanced_security_setting_section_title" = "Bảo mật";
 "advanced_view_setting_section_title" = "Hiển thị";
 "advanced_sidebar_setting_section_title" = "Thanh bên";
@@ -758,10 +775,12 @@
 "advanced_input_setting_section_title" = "Nhập liệu";
 "advanced_other_setting_section_title" = "Khác";
 
+/* Security */
 "advanced_setting_use_passcode_title" = "Sử dụng mật khẩu";
 "advanced_setting_use_title" = "Sử dụng %@";
 "advanced_setting_auto_lock_title" = "Yêu cầu mật khẩu";
 
+/* View */
 "advanced_setting_chart_type_title" = "Loại biểu đồ";
 "advanced_setting_show_most_used_items_title" = "Hiển thị danh mục và thẻ được dùng nhiều nhất";
 "advanced_setting_show_most_used_items_description" = "Hiển thị danh mục và thẻ được dùng nhiều nhất trong danh sách lựa chọn khi tạo và chỉnh sửa giao dịch.";
@@ -773,19 +792,10 @@
 "advanced_setting_start_day_of_month_description" = "Chỉ định ngày bắt đầu mỗi tháng để các báo cáo, giao dịch và ngân sách được tính toán phù hợp.";
 "advanced_setting_configure_transaction_title_title" = "Tiêu đề giao dịch";
 "advanced_setting_configure_transaction_subtitle_title" = "Phụ đề giao dịch";
-
 "advanced_setting_configure_transaction_title_info_title" = "Mô tả";
 "advanced_setting_configure_transaction_title_info_description" = "Đặt thứ tự các mục sẽ được hiển thị trong tiêu đề giao dịch. Nếu thiếu một mục, mục tiếp theo trong thứ tự sẽ tự động được sử dụng.";
 
-"advanced_setting_show_accounts_in_sidebar_title" = "Hiển thị tài khoản ở thanh bên";
-"advanced_setting_show_accounts_in_sidebar_description" = "Hiển thị danh sách tài khoản của bạn ở thanh bên.";
-"advanced_setting_group_accounts_in_sidebar_title" = "Nhóm các tài khoản trong thanh bên";
-"advanced_setting_group_accounts_in_sidebar_description" = "Nhóm các tài khoản của bạn trong thanh bên theo loại.";
-"advanced_setting_show_categories_in_sidebar_title" = "Hiển thị danh mục trong thanh bên";
-"advanced_setting_show_categories_in_sidebar_description" = "Hiển thị danh sách các danh mục của bạn trong thanh bên.";
-"advanced_setting_group_categories_in_sidebar_title" = "Nhóm các danh mục trong thanh bên";
-"advanced_setting_group_categories_in_sidebar_description" = "Nhóm các danh mục của bạn trong thanh bên theo thư mục.";
-
+/* Input */
 "advanced_setting_select_time_automatically_title" = "Chọn thời gian tự động";
 "advanced_setting_select_time_automatically_description" = "Tự động chọn thời gian hiện tại cho các giao dịch mới.";
 "advanced_setting_select_location_automatically_title" = "Chọn vị trí tự động";
@@ -797,11 +807,23 @@
 "advanced_setting_consider_pending_items_title" = "Đặt tất cả giao dịch";
 "advanced_setting_consider_pending_items_description" = "Bao gồm các giao dịch đang chờ xử lý khi tính toán số dư tài khoản, số dư, tổng số, v.v.";
 
+/* Sidebar */
+"advanced_setting_show_accounts_in_sidebar_title" = "Hiển thị tài khoản ở thanh bên";
+"advanced_setting_show_accounts_in_sidebar_description" = "Hiển thị danh sách tài khoản của bạn ở thanh bên.";
+"advanced_setting_group_accounts_in_sidebar_title" = "Nhóm các tài khoản trong thanh bên";
+"advanced_setting_group_accounts_in_sidebar_description" = "Nhóm các tài khoản của bạn trong thanh bên theo loại.";
+"advanced_setting_show_categories_in_sidebar_title" = "Hiển thị danh mục trong thanh bên";
+"advanced_setting_show_categories_in_sidebar_description" = "Hiển thị danh sách các danh mục của bạn trong thanh bên.";
+"advanced_setting_group_categories_in_sidebar_title" = "Nhóm các danh mục trong thanh bên";
+"advanced_setting_group_categories_in_sidebar_description" = "Nhóm các danh mục của bạn trong thanh bên theo thư mục.";
+
+/* Apple Intelligence */
 "advanced_setting_use_apple_intelligence_in_receipt_scanner_title" = "Trình quét hóa đơn";
 "advanced_setting_use_apple_intelligence_in_receipt_scanner_description" = "Sử dụng Apple Intelligence để tự động điền các trường bổ sung khi quét hóa đơn.";
 "advanced_setting_use_apple_intelligence_in_shortcuts_title" = "Phím tắt";
 "advanced_setting_use_apple_intelligence_in_shortcuts_description" = "Dùng Apple Intelligence để tự động phát hiện danh mục và người nhận tiền trong tự động hóa phím tắt.";
 
+/* Input */
 "advanced_setting_enable_exact_times_title" = "Nhập thời gian chính xác";
 "advanced_setting_enable_exact_times_description" = "Chọn thời gian chính xác bằng cách sử dụng vòng quay phút cho các giao dịch (ví dụ: 9:41 sáng).";
 "advanced_setting_reverse_keyboard_title" = "Bàn phím đảo ngược";
@@ -809,6 +831,7 @@
 "advanced_setting_enable_haptic_keyboard_title" = "Phản hồi bàn phím";
 "advanced_setting_enable_haptic_keyboard_description" = "Nhận phản hồi xúc giác khi nhập số tiền bằng bàn phím.";
 
+/* Other */
 "advanced_setting_language_title" = "Ngôn ngữ";
 "advanced_setting_time_zone_title" = "Múi giờ";
 "advanced_setting_enable_live_activities_title" = "Hoạt động trực tiếp";
@@ -1193,7 +1216,7 @@
 
 "alert_confirm_delete_contra_entry_title" = "Giao dịch này là chuyển khoản. Bạn cũng có muốn xóa mục nhập trái ngược không?";
 
-/* Updates */
+/* Update */
 "alert_confirm_update_contra_entry_title" = "Giao dịch này là chuyển khoản. Bạn cũng có muốn cập nhật mục nhập trái ngược không?";
 "alert_confirm_update_transaction_multiple_title" = "Giao dịch này thuộc về một nhóm. Bạn muốn lưu nó như thế nào?";
 "alert_confirm_update_transaction_single_button" = "Chỉ lưu lần này";
@@ -1322,7 +1345,7 @@
 "no_reminders_found_button_title" = "Lời nhắc mới";
 "reminders_search_placeholder_message" = "Tìm kiếm theo tiêu đề Lời nhắc";
 
-/* Value */
+/* Values */
 "balance" = "Số dư";
 
 
@@ -1586,7 +1609,7 @@
 "location_selection_searchbar_placeholder" = "Tìm kiếm";
 "location_selection_search_history_title" = "Gần đây";
 
-/* Buttons */
+/* Button */
 "location_selection_select_button_title" = "Chọn";
 
 /* Alert Views */
@@ -1920,7 +1943,7 @@
 "icon_keyword_banknote" = "Banknote";
 "icon_keyword_refund" = "Refund";
 "icon_keyword_dollar" = "Dollars";
-"icon_keyword_cents" = "Cents";
+"icon_keyword_cent" = "Cents";
 "icon_keyword_yen" = "Yen";
 "icon_keyword_pound" = "Pound";
 "icon_keyword_franc" = "Franconia";
@@ -2038,7 +2061,7 @@
 "icon_keyword_tire" = "Lốp xe";
 "icon_keyword_oilcan" = "Can dầu";
 "icon_keyword_keys" = "Phím";
-"icon_keyword_fire_denser" = "Bình chữa cháy";
+"icon_keyword_fire_extinguisher" = "Bình chữa cháy";
 "icon_keyword_hockey" = "Khúc côn cầu";
 "icon_keyword_ice_hockey" = "Khúc côn cầu trên băng";
 "icon_keyword_ice_skating" = "Trượt băng";

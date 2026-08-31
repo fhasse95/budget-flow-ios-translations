@@ -371,7 +371,6 @@
 /* Formats */
 "transaction_filter_range_format" = "%@ — %@";
 
-
 /* MARK: - Period Selection View */
 /* Titles */
 "period_selection_title" = "Период";
@@ -624,39 +623,51 @@
 /* Info */
 "appearance_setting_info_title" = "Описание";
 "appearance_setting_info_description" = "Настройте приложение по своему вкусу, изменив его внешний вид.";
+
+/* Sections */
 "appearance_ui_style_setting_section_title" = "Тема";
+"appearance_accent_color_setting_section_title" = "Акцентный цвет";
+"appearance_app_icon_setting_section_title" = "Значок приложения";
+
+/* Options */
 "appearance_ui_style_apply_to_icons_title" = "Применить к иконкам";
 "appearance_ui_style_apply_to_icons_description" = "Также применить выбранный стиль ко всем иконкам в приложении.";
-"appearance_accent_color_setting_section_title" = "Акцентный цвет";
+
+/* Footer */
 "appearance_accent_color_setting_footer_title" = "Изменяет цвет кнопок и других элементов управления в приложении.";
-"appearance_app_icon_setting_section_title" = "Значок приложения";
 
 /* MARK: - Sync & Data Settings View */
 /* Info */
 "sync_and_data_setting_info_title" = "Описание";
 "sync_and_data_setting_info_description" = "Получить обзор текущего состояния синхронизации и импортировать или экспортировать данные с помощью CSV-файла.";
 
+/* Sections */
 "sync_and_data_cloud_setting_section_title" = "iCloud";
-"sync_and_data_cloud_setting_footer_title" = "Указывает, была ли синхронизация с iCloud успешной или произошла ошибка.";
-"sync_and_data_setting_cloud_sync_status_title" = "Статус синхронизации";
 "backup_setting_section_title" = "Резервные копии";
-"backup_setting_footer_title" = "Управляйте резервными копиями и настройками резервных копий.";
-"backup_setting_manage_backups_title" = "Управление";
 "sync_and_data_csv_setting_section_title" = "CSV-данные";
-"sync_and_data_csv_setting_footer_title" = "Импортируйте или экспортируйте операции с помощью CSV-файла.";
+
+/* Titles */
+"sync_and_data_setting_cloud_sync_status_title" = "Статус синхронизации";
+"backup_setting_manage_backups_title" = "Управление";
 "sync_and_data_setting_csv_import_title" = "Импорт";
 "sync_and_data_setting_csv_export_title" = "Экспорт";
 "sync_and_data_setting_get_csv_template_title" = "Загрузить шаблон";
 
+/* Buttons */
 "clear_cache_button" = "Очистить кэш";
+
+/* Footer */
+"sync_and_data_cloud_setting_footer_title" = "Указывает, была ли синхронизация с iCloud успешной или произошла ошибка.";
+"backup_setting_footer_title" = "Управляйте резервными копиями и настройками резервных копий.";
+"sync_and_data_csv_setting_footer_title" = "Импортируйте или экспортируйте операции с помощью CSV-файла.";
 "cache_setting_footer_title" = "Информация: при очистке кэша удаляются все файлы в каталоге документов приложения (включая резервные копии).";
 
+/* Alert Views */
 "alert_csv_import_successful_title" = "Импорт выполнен успешно 🎉";
 "alert_csv_import_successful_message" = "Всего было импортировано %d из %d операций.%@";
 "alert_csv_import_skipped_message" = "Таким образом, %d уже существующих операций было пропущено.";
 "alert_csv_import_error_message" = "Не удалось успешно импортировать %d из %d операций\n\n%@";
 "alert_csv_import_error_reason_field_message" = "Пожалуйста, проверьте следующие поля в файле CSV: %@.";
-
 "alert_csv_export_successful_title" = "Экспорт выполнен успешно 🎉";
 "alert_csv_export_successful_message" = "Ваши данные успешно экспортированы в \"%@\".";
 
@@ -671,6 +682,7 @@
 "cloud_setting_info_title" = "Описание";
 "cloud_setting_info_description" = "Следующее представление предоставляет более подробный обзор текущего состояния синхронизации iCloud и помогает при устранении неполадок.";
 
+/* Status */
 "cloud_setting_network_status_title" = "Сеть";
 "cloud_setting_network_status_success_value" = "Доступно подключение к интернету";
 "cloud_setting_network_status_error_value" = "Нет подключения к интернету";
@@ -687,7 +699,10 @@
 "cloud_setting_number_of_transactions_in_progress_title" = "Пожалуйста, подождите...";
 "cloud_setting_number_of_transactions_error_title" = "Ошибка";
 
+/* Buttons */
 "import_from_cloud_button" = "Загрузить из iCloud";
+
+/* Footer */
 "manual_sync_cloud_setting_footer_title" = "Если ваши данные не были или не полностью синхронизированы с iCloud, вы можете вручную запустить синхронизацию здесь.";
 
 /* MARK: - Backup Settings View */
@@ -695,33 +710,33 @@
 "backup_setting_info_title" = "Описание";
 "backup_setting_info_description" = "Если включена, эту функция будет регулярно создавать резервные копии ваших данных, чтобы вы могли в любой момент восстановить приложение до предыдущего состояния.";
 
+/* Sections */
 "backup_setting_general_section_title" = "Общие";
 "backup_setting_recent_section_title" = "Последние резервные копии";
+
+/* Titles */
 "backup_setting_use_automatic_backups_title" = "Автоматическое резервное копирование";
 "backup_setting_back_up_to_icloud_drive_title" = "Создавать копии в iCloud Drive";
-
 "backup_setting_keep_backups_title" = "Хранить резервные копии";
+"backup_setting_create_backup_title" = "Создать резервную копию";
+"backup_setting_no_recent_backups_title" = "Нет доступных резервных копий";
+"backup_setting_backup_subtitle" = "%@ · %@";
+
+/* Options */
 "backup_setting_keep_backups_last_5_title" = "Последние 5";
 "backup_setting_keep_backups_last_10_title" = "Последние 10";
 "backup_setting_keep_backups_last_20_title" = "Последние 20";
 "backup_setting_keep_backups_last_30_title" = "Последние 30";
 "backup_setting_keep_backups_all_title" = "Все";
 
-"backup_setting_create_backup_title" = "Создать резервную копию";
-
-"backup_setting_no_recent_backups_title" = "Нет доступных резервных копий";
-"backup_setting_backup_subtitle" = "%@ · %@";
-
+/* Alert Views */
 "backup_setting_delete_backup_alert_title" = "Удалить резервную копию";
 "backup_setting_delete_backup_alert_message" = "Вы действительно хотите удалить эту резервную копию?";
-
 "backup_setting_restore_success_title" = "Резервная копия восстановлена";
 "backup_setting_restore_success_message" = "Выбранная резервная копия восстановлена.";
-
 "backup_setting_error_title" = "Не удалось создать резервную копию";
 "backup_setting_icloud_drive_unavailable_error" = "iCloud Drive недоступен на этом устройстве.";
 "backup_setting_could_not_create_backup_directory_error" = "Не удалось создать папку резервных копий.";
-
 "alert_restore_backup_title" = "Восстановить резервную копию";
 "alert_restore_backup_message" = "Вы действительно хотите восстановить эту резервную копию?\n\nТекущие данные будут удалены и заменены данными из выбранной резервной копии.\n\nВнимание: это действие нельзя отменить!";
 "alert_restore_backup_button" = "Восстановить резервную копию";
@@ -747,9 +762,11 @@
 "backup_restore_progress_reminders" = "Напоминания";
 
 /* MARK: - Advanced Settings View */
+/* Info */
 "advanced_setting_info_title" = "Описание";
 "advanced_setting_info_description" = "Выполните дополнительные настройки, чтобы настроить приложение.";
 
+/* Sections */
 "advanced_security_setting_section_title" = "Безопасность";
 "advanced_view_setting_section_title" = "Экран";
 "advanced_sidebar_setting_section_title" = "Боковая панель";
@@ -758,10 +775,12 @@
 "advanced_input_setting_section_title" = "Ввод";
 "advanced_other_setting_section_title" = "Другое";
 
+/* Security */
 "advanced_setting_use_passcode_title" = "Использовать пароль";
 "advanced_setting_use_title" = "Использовать %@";
 "advanced_setting_auto_lock_title" = "Спрашивать пароль";
 
+/* View */
 "advanced_setting_chart_type_title" = "Тип диаграммы";
 "advanced_setting_show_most_used_items_title" = "Показывать наиболее используемые категории и теги";
 "advanced_setting_show_most_used_items_description" = "Показывать наиболее используемые категории и теги в списке выбора при создании и редактировании транзакций.";
@@ -773,19 +792,10 @@
 "advanced_setting_start_day_of_month_description" = "Влияет на отчеты, операции и бюджеты.";
 "advanced_setting_configure_transaction_title_title" = "Заголовок транзакции";
 "advanced_setting_configure_transaction_subtitle_title" = "Подзаголовок транзакции";
-
 "advanced_setting_configure_transaction_title_info_title" = "Описание";
 "advanced_setting_configure_transaction_title_info_description" = "Установите порядок элементов, которые будут отображаться в заголовке транзакции. Если элемент отсутствует, автоматически используется следующий в порядке.";
 
-"advanced_setting_show_accounts_in_sidebar_title" = "Показывать счета в боковом меню";
-"advanced_setting_show_accounts_in_sidebar_description" = "Показывать список счетов в боковом меню.";
-"advanced_setting_group_accounts_in_sidebar_title" = "Группируйте учетные записи на боковой панели";
-"advanced_setting_group_accounts_in_sidebar_description" = "Группируйте учетные записи на боковой панели по типу.";
-"advanced_setting_show_categories_in_sidebar_title" = "Показывать категории на боковой панели";
-"advanced_setting_show_categories_in_sidebar_description" = "Показывать список категорий на боковой панели.";
-"advanced_setting_group_categories_in_sidebar_title" = "Группируйте категории на боковой панели";
-"advanced_setting_group_categories_in_sidebar_description" = "Группируйте категории на боковой панели по папкам.";
-
+/* Input */
 "advanced_setting_select_time_automatically_title" = "Автовыбор времени";
 "advanced_setting_select_time_automatically_description" = "Автоматически выбирать текущее время для новых операций.";
 "advanced_setting_select_location_automatically_title" = "Автовыбор местоположения";
@@ -797,11 +807,23 @@
 "advanced_setting_consider_pending_items_title" = "Учитывать все операции";
 "advanced_setting_consider_pending_items_description" = "Включить незавершенные операции при расчете остатков на счетах, сальдо, итогов.";
 
+/* Sidebar */
+"advanced_setting_show_accounts_in_sidebar_title" = "Показывать счета в боковом меню";
+"advanced_setting_show_accounts_in_sidebar_description" = "Показывать список счетов в боковом меню.";
+"advanced_setting_group_accounts_in_sidebar_title" = "Группируйте учетные записи на боковой панели";
+"advanced_setting_group_accounts_in_sidebar_description" = "Группируйте учетные записи на боковой панели по типу.";
+"advanced_setting_show_categories_in_sidebar_title" = "Показывать категории на боковой панели";
+"advanced_setting_show_categories_in_sidebar_description" = "Показывать список категорий на боковой панели.";
+"advanced_setting_group_categories_in_sidebar_title" = "Группируйте категории на боковой панели";
+"advanced_setting_group_categories_in_sidebar_description" = "Группируйте категории на боковой панели по папкам.";
+
+/* Apple Intelligence */
 "advanced_setting_use_apple_intelligence_in_receipt_scanner_title" = "Сканер чеков";
 "advanced_setting_use_apple_intelligence_in_receipt_scanner_description" = "Используйте Apple Intelligence для автоматического заполнения дополнительных полей при сканировании чека.";
 "advanced_setting_use_apple_intelligence_in_shortcuts_title" = "Команды";
 "advanced_setting_use_apple_intelligence_in_shortcuts_description" = "Использовать Apple Intelligence для автоматического распознавания категорий и получателей в автоматизациях команд.";
 
+/* Input */
 "advanced_setting_enable_exact_times_title" = "Вводить точное время";
 "advanced_setting_enable_exact_times_description" = "Предлагать выбрать точное время для новых операций (напр., 9:41), вместо округления с шагом в 5 минут.";
 "advanced_setting_reverse_keyboard_title" = "Перевернутая клавиатура";
@@ -809,6 +831,7 @@
 "advanced_setting_enable_haptic_keyboard_title" = "Отклик клавиатуры";
 "advanced_setting_enable_haptic_keyboard_description" = "Получать тактильную обратную связь при вводе суммы с клавиатуры.";
 
+/* Other */
 "advanced_setting_language_title" = "Язык";
 "advanced_setting_time_zone_title" = "Часовой пояс";
 "advanced_setting_enable_live_activities_title" = "Эфир активности";
@@ -1193,7 +1216,7 @@
 
 "alert_confirm_delete_contra_entry_title" = "Эта транзакция является переводом. Хотите также удалить контр-запись?";
 
-/* Updates */
+/* Update */
 "alert_confirm_update_contra_entry_title" = "Эта транзакция является переводом. Хотите также обновить контр-запись?";
 "alert_confirm_update_transaction_multiple_title" = "Эта операция принадлежит группе. Что именно вы хотите сохранить?";
 "alert_confirm_update_transaction_single_button" = "Сохранить только это";
@@ -1322,7 +1345,7 @@
 "no_reminders_found_button_title" = "Новое напоминание";
 "reminders_search_placeholder_message" = "Поиск по названию напоминания";
 
-/* Value */
+/* Values */
 "balance" = "Баланс";
 
 
@@ -1586,7 +1609,7 @@
 "location_selection_searchbar_placeholder" = "Поиск";
 "location_selection_search_history_title" = "Последние";
 
-/* Buttons */
+/* Button */
 "location_selection_select_button_title" = "Выбрать";
 
 /* Alert Views */
@@ -1920,7 +1943,7 @@
 "icon_keyword_banknote" = "Банкнота";
 "icon_keyword_refund" = "Возврат";
 "icon_keyword_dollar" = "Доллары";
-"icon_keyword_cents" = "Центы";
+"icon_keyword_cent" = "Центы";
 "icon_keyword_yen" = "Иена";
 "icon_keyword_pound" = "Фунт";
 "icon_keyword_franc" = "Франкония";
@@ -2038,7 +2061,7 @@
 "icon_keyword_tire" = "Шина";
 "icon_keyword_oilcan" = "Масленка";
 "icon_keyword_keys" = "Ключи";
-"icon_keyword_fire_тушитель" = "Огнетушитель";
+"icon_keyword_fire_extinguisher" = "Огнетушитель";
 "icon_keyword_hockey" = "Хоккей";
 "icon_keyword_ice_hockey" = "Хоккей с шайбой";
 "icon_keyword_ice_skating" = "Катание на коньках";

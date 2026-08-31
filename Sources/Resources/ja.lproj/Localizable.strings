@@ -371,7 +371,6 @@
 /* Formats */
 "transaction_filter_range_format" = "%@〜%@";
 
-
 /* MARK: - Period Selection View */
 /* Titles */
 "period_selection_title" = "期間";
@@ -388,8 +387,8 @@
 "configure_title" = "設定";
 "balance_widget_income_title" = "収入";
 "balance_widget_expenses_title" = "支出";
-"savings_rate_widget_absolute_title " = " 絶対";
-"savings_rate_widget_percentual_title " = " パーセンテージ";
+"savings_rate_widget_absolute_title" = " 絶対";
+"savings_rate_widget_percentual_title" = " パーセンテージ";
 "budget_widget_planned_title" = "計画済み";
 "budget_widget_remaining_title" = "利用可能";
 "total_assets_widget_absolute_title" = "絶対";
@@ -624,39 +623,51 @@
 /* Info */
 "appearance_setting_info_title" = "説明";
 "appearance_setting_info_description" = "アプリの外観を変更して、アプリを好みに合わせてカスタマイズします。";
+
+/* Sections */
 "appearance_ui_style_setting_section_title" = "テーマ";
+"appearance_accent_color_setting_section_title" = "アクセントカラー";
+"appearance_app_icon_setting_section_title" = "アプリアイコン";
+
+/* Options */
 "appearance_ui_style_apply_to_icons_title" = "アイコンに適用";
 "appearance_ui_style_apply_to_icons_description" = "選択した外観をアプリ内のすべてのアイコンにも適用します。";
-"appearance_accent_color_setting_section_title" = "アクセントカラー";
+
+/* Footer */
 "appearance_accent_color_setting_footer_title" = "アプリ内のボタンやその他のコントロールの色を変更します。";
-"appearance_app_icon_setting_section_title" = "アプリアイコン";
 
 /* MARK: - Sync & Data Settings View */
 /* Info */
 "sync_and_data_setting_info_title" = "説明";
 "sync_and_data_setting_info_description" = "現在の同期ステータスの概要を取得し、CSV ファイルを使用してデータをインポートまたはエクスポートします。";
 
+/* Sections */
 "sync_and_data_cloud_setting_section_title" = "iCloud";
-"sync_and_data_cloud_setting_footer_title" = "iCloud との同期が成功したか、エラーが発生したかを示します。";
-"sync_and_data_setting_cloud_sync_status_title" = "同期ステータス";
 "backup_setting_section_title" = "バックアップ";
-"backup_setting_footer_title" = "バックアップとバックアップ設定を管理します。";
-"backup_setting_manage_backups_title" = "管理";
 "sync_and_data_csv_setting_section_title" = "CSV データ";
-"sync_and_data_csv_setting_footer_title" = "CSV ファイルを使用してトランザクションをインポートまたはエクスポートします。";
+
+/* Titles */
+"sync_and_data_setting_cloud_sync_status_title" = "同期ステータス";
+"backup_setting_manage_backups_title" = "管理";
 "sync_and_data_setting_csv_import_title" = "インポート";
 "sync_and_data_setting_csv_export_title" = "エクスポート";
 "sync_and_data_setting_get_csv_template_title" = "テンプレート";
 
+/* Buttons */
 "clear_cache_button" = "キャッシュをクリア";
+
+/* Footer */
+"sync_and_data_cloud_setting_footer_title" = "iCloud との同期が成功したか、エラーが発生したかを示します。";
+"backup_setting_footer_title" = "バックアップとバックアップ設定を管理します。";
+"sync_and_data_csv_setting_footer_title" = "CSV ファイルを使用してトランザクションをインポートまたはエクスポートします。";
 "cache_setting_footer_title" = "情報: キャッシュをクリアすると、アプリのドキュメントディレクトリ内のすべてのファイル (バックアップを含む) が削除されます。";
 
+/* Alert Views */
 "alert_csv_import_successful_title" = "インポートは成功しました 🎉";
 "alert_csv_import_successful_message" = "合計、%d 件中 %d 件のトランザクションがインポートされました。%@";
 "alert_csv_import_skipped_message" = " これにより、%d 個のトランザクションがスキップされました。";
 "alert_csv_import_error_message" = "%d 件中 %d 件のトランザクションを正常にインポートできませんでした。\n\n%@";
 "alert_csv_import_error_reason_field_message" = "CSV ファイル内の次のフィールドを確認してください: %@。";
-
 "alert_csv_export_successful_title" = "エクスポートは成功しました 🎉";
 "alert_csv_export_successful_message" = "データは \"%@\" に正常にエクスポートされました。";
 
@@ -671,6 +682,7 @@
 "cloud_setting_info_title" = "説明";
 "cloud_setting_info_description" = "次のビューは、現在の iCloud 同期ステータスのより詳細な概要を提供し、トラブルシューティングに役立ちます。";
 
+/* Status */
 "cloud_setting_network_status_title" = "ネットワーク";
 "cloud_setting_network_status_success_value" = "インターネット接続が利用可能";
 "cloud_setting_network_status_error_value" = "インターネット接続がありません";
@@ -687,7 +699,10 @@
 "cloud_setting_number_of_transactions_in_progress_title" = "お待ちください...";
 "cloud_setting_number_of_transactions_error_title" = "エラー";
 
+/* Buttons */
 "import_from_cloud_button" = "iCloudからダウンロード";
+
+/* Footer */
 "manual_sync_cloud_setting_footer_title" = "データがiCloudと同期されていない、または完全に同期されていない場合は、ここで手動で同期を開始できます。";
 
 /* MARK: - Backup Settings View */
@@ -695,33 +710,33 @@
 "backup_setting_info_title" = "説明";
 "backup_setting_info_description" = "有効にすると、Budget Flow が定期的にデータをバックアップするため、いつでもアプリを以前の状態に復元できます。";
 
+/* Sections */
 "backup_setting_general_section_title" = "全般";
 "backup_setting_recent_section_title" = "最近のバックアップ";
+
+/* Titles */
 "backup_setting_use_automatic_backups_title" = "自動バックアップ";
 "backup_setting_back_up_to_icloud_drive_title" = "iCloud Driveにバックアップ";
-
 "backup_setting_keep_backups_title" = "バックアップを保持";
+"backup_setting_create_backup_title" = "バックアップを作成";
+"backup_setting_no_recent_backups_title" = "利用可能なバックアップがありません";
+"backup_setting_backup_subtitle" = "%@ · %@";
+
+/* Options */
 "backup_setting_keep_backups_last_5_title" = "最新5件";
 "backup_setting_keep_backups_last_10_title" = "最新10件";
 "backup_setting_keep_backups_last_20_title" = "最新20件";
 "backup_setting_keep_backups_last_30_title" = "最新30件";
 "backup_setting_keep_backups_all_title" = "すべて";
 
-"backup_setting_create_backup_title" = "バックアップを作成";
-
-"backup_setting_no_recent_backups_title" = "利用可能なバックアップがありません";
-"backup_setting_backup_subtitle" = "%@ · %@";
-
+/* Alert Views */
 "backup_setting_delete_backup_alert_title" = "バックアップを削除";
 "backup_setting_delete_backup_alert_message" = "このバックアップを本当に削除しますか？";
-
 "backup_setting_restore_success_title" = "バックアップを復元しました";
 "backup_setting_restore_success_message" = "選択したバックアップが復元されました。";
-
 "backup_setting_error_title" = "バックアップに失敗しました";
 "backup_setting_icloud_drive_unavailable_error" = "このデバイスではiCloud Driveを利用できません。";
 "backup_setting_could_not_create_backup_directory_error" = "バックアップフォルダを作成できませんでした。";
-
 "alert_restore_backup_title" = "バックアップを復元";
 "alert_restore_backup_message" = "このバックアップを本当に復元しますか？\n\n現在のデータは削除され、選択したバックアップのデータに置き換えられます。\n\n警告: この操作は元に戻せません!";
 "alert_restore_backup_button" = "バックアップを復元";
@@ -747,9 +762,11 @@
 "backup_restore_progress_reminders" = "リマインダー";
 
 /* MARK: - Advanced Settings View */
+/* Info */
 "advanced_setting_info_title" = "説明";
 "advanced_setting_info_description" = "アプリを構成するためにさらに設定を行います。";
 
+/* Sections */
 "advanced_security_setting_section_title" = "セキュリティ";
 "advanced_view_setting_section_title" = "表示";
 "advanced_sidebar_setting_section_title" = "サイドバー";
@@ -758,10 +775,12 @@
 "advanced_input_setting_section_title" = "入力";
 "advanced_other_setting_section_title" = "その他";
 
+/* Security */
 "advanced_setting_use_passcode_title" = "パスコードを使用";
 "advanced_setting_use_title" = "%@ を使用";
 "advanced_setting_auto_lock_title" = "リクエストコード";
 
+/* View */
 "advanced_setting_chart_type_title" = "グラフの種類";
 "advanced_setting_show_most_used_items_title" = "最も使用されるカテゴリとタグを表示";
 "advanced_setting_show_most_used_items_description" = "トランザクションの作成および編集時に、最も使用されるカテゴリとタグを選択リストに表示します。";
@@ -773,19 +792,10 @@
 "advanced_setting_start_day_of_month_description" = "レポート、トランザクション、予算が適切に計算されるように、各月の開始日を指定します。";
 "advanced_setting_configure_transaction_title_title" = "トランザクションタイトル";
 "advanced_setting_configure_transaction_subtitle_title" = "トランザクションサブタイトル";
-
 "advanced_setting_configure_transaction_title_info_title" = "説明";
 "advanced_setting_configure_transaction_title_info_description" = "トランザクションタイトルに表示される項目の順序を設定します。項目が欠落している場合は、順序の次の項目が自動的に使用されます。";
 
-"advanced_setting_show_accounts_in_sidebar_title" = "サイドバーに口座を表示";
-"advanced_setting_show_accounts_in_sidebar_description" = "サイドバーに口座のリストを表示するには、この機能をオンにします。";
-"advanced_setting_group_accounts_in_sidebar_title" = "サイドバーで口座をグループ化します";
-"advanced_setting_group_accounts_in_sidebar_description" = "サイドバーで口座をタイプ別にグループ化します。";
-"advanced_setting_show_categories_in_sidebar_title" = "サイドバーにカテゴリを表示します";
-"advanced_setting_show_categories_in_sidebar_description" = "サイドバーにカテゴリのリストを表示します。";
-"advanced_setting_group_categories_in_sidebar_title" = "サイドバーでカテゴリをグループ化します";
-"advanced_setting_group_categories_in_sidebar_description" = "サイドバーでカテゴリをフォルダー別にグループ化します。";
-
+/* Input */
 "advanced_setting_select_time_automatically_title" = "時刻の自動選択";
 "advanced_setting_select_time_automatically_description" = "新しいトランザクションの現在時刻を自動的に選択するには、この機能を有効にします。";
 "advanced_setting_select_location_automatically_title" = "場所の自動選択";
@@ -797,11 +807,23 @@
 "advanced_setting_consider_pending_items_title" = "すべてのトランザクションを予約";
 "advanced_setting_consider_pending_items_description" = "口座残高、残高、合計などを計算するときに保留中のトランザクションを含めるには、この機能を有効にします。";
 
+/* Sidebar */
+"advanced_setting_show_accounts_in_sidebar_title" = "サイドバーに口座を表示";
+"advanced_setting_show_accounts_in_sidebar_description" = "サイドバーに口座のリストを表示するには、この機能をオンにします。";
+"advanced_setting_group_accounts_in_sidebar_title" = "サイドバーで口座をグループ化します";
+"advanced_setting_group_accounts_in_sidebar_description" = "サイドバーで口座をタイプ別にグループ化します。";
+"advanced_setting_show_categories_in_sidebar_title" = "サイドバーにカテゴリを表示します";
+"advanced_setting_show_categories_in_sidebar_description" = "サイドバーにカテゴリのリストを表示します。";
+"advanced_setting_group_categories_in_sidebar_title" = "サイドバーでカテゴリをグループ化します";
+"advanced_setting_group_categories_in_sidebar_description" = "サイドバーでカテゴリをフォルダー別にグループ化します。";
+
+/* Apple Intelligence */
 "advanced_setting_use_apple_intelligence_in_receipt_scanner_title" = "レシートスキャナー";
 "advanced_setting_use_apple_intelligence_in_receipt_scanner_description" = "レシートをスキャンする際に、Apple Intelligence を使用して追加フィールドを自動入力します。";
 "advanced_setting_use_apple_intelligence_in_shortcuts_title" = "ショートカット";
 "advanced_setting_use_apple_intelligence_in_shortcuts_description" = "ショートカットのオートメーションでカテゴリと支払先を自動検出するためにApple Intelligenceを使用します。";
 
+/* Input */
 "advanced_setting_enable_exact_times_title" = "正確な時間を使用する";
 "advanced_setting_enable_exact_times_description" = "トランザクションの時間フォームを使用して正確な時間を選択するには、この機能をオンにします (例: 9:41)。";
 "advanced_setting_reverse_keyboard_title" = "逆向きキーボード";
@@ -809,6 +831,7 @@
 "advanced_setting_enable_haptic_keyboard_title" = "キーボードフィードバック";
 "advanced_setting_enable_haptic_keyboard_description" = "キーボードで金額を入力するときに触覚フィードバックを取得するには、この機能をオンにします。";
 
+/* Other */
 "advanced_setting_language_title" = "言語";
 "advanced_setting_time_zone_title" = "タイムゾーン";
 "advanced_setting_enable_live_activities_title" = "Live-Activities";
@@ -1067,11 +1090,11 @@
 "alert_user_feedback_like_title" = "ありがとうございます! 🎉";
 "alert_user_feedback_like_message" = "アプリが気に入ったら、App Store にポジティブなレビューを書いてください。本当に役立ちますし、アプリを継続的に改善するモチベーションになります。😊";
 "alert_user_feedback_rate_app_button" = "アプリを評価する";
-"alert_user_development_maybe_later_button" = "また後で";
+"alert_user_feedback_maybe_later_button" = "また後で";
 
 "alert_user_feedback_dislike_title" = "提案はありますか? 🤔";
 "alert_user_feedback_dislike_message" = "まだ気に入ってもらえてないみたいで残念です。もしよかったら、改善のためにご意見や機能の要望をロードマップに書き込んでください。😊";
-"alert_user_development_contact_developer_button" = "開発者に連絡する";
+"alert_user_feedback_contact_developer_button" = "開発者に連絡する";
 
 
 /* MARK: - Progress View */
@@ -1193,7 +1216,7 @@
 
 "alert_confirm_delete_contra_entry_title" = "このトランザクションは振替です。振替先のエントリも削除しますか?";
 
-/* Updates */
+/* Update */
 "alert_confirm_update_contra_entry_title" = "このトランザクションは振替です。振替先のエントリも更新しますか?";
 "alert_confirm_update_transaction_multiple_title" = "このトランザクションはグループに属しています。具体的に何を保存したいのですか?";
 "alert_confirm_update_transaction_single_button" = "これのみを保存します";
@@ -1221,10 +1244,10 @@
 
 /* Sections */
 "default_currency_section_title" = "デフォルトの通貨";
-"suggested_currency_section_title" = "提案";
+"suggested_currencies_section_title" = "提案";
 
 /* Messages */
-"no_currency_found_title" = "通貨が見つかりません";
+"no_currencies_found_title" = "通貨が見つかりません";
 "currency_selection_search_placeholder_message" = "通貨名またはその略語を検索します";
 
 /* Buttons */
@@ -1322,7 +1345,7 @@
 "no_reminders_found_button_title" = "新しいリマインダー";
 "reminders_search_placeholder_message" = "リマインダーのタイトルで検索";
 
-/* Value */
+/* Values */
 "balance" = "バランス";
 
 
@@ -1586,7 +1609,7 @@
 "location_selection_searchbar_placeholder" = "検索";
 "location_selection_search_history_title" = "最近";
 
-/* Buttons */
+/* Button */
 "location_selection_select_button_title" = "選択";
 
 /* Alert Views */
@@ -1687,7 +1710,7 @@
 "color_keyword_pink" = "ピンク";
 "color_keyword_brown" = "ブラウン";
 "color_keyword_mint" = "ミント";
-"color_keyword_シアン" = "シアン";
+"color_keyword_cyan" = "シアン";
 "color_keyword_violet" = "バイオレット";
 "color_keyword_gray" = "グレー";
 
@@ -1891,7 +1914,7 @@
 "icon_keyword_flower" = "花";
 "icon_keyword_eating" = "食べる";
 "icon_keyword_restaurant" = "レストラン";
-"icon_keyword_dring" = "飲酒";
+"icon_keyword_drinking" = "飲酒";
 "icon_keyword_cafe" = "カフェ";
 "icon_keyword_coffee" = "コーヒー";
 "icon_keyword_fastfood" = "ファーストフード";
@@ -1920,7 +1943,7 @@
 "icon_keyword_banknote" = "紙幣";
 "icon_keyword_refund" = "払い戻し";
 "icon_keyword_dollar" = "ドル";
-"icon_keyword_cents" = "セント";
+"icon_keyword_cent" = "セント";
 "icon_keyword_yen" = "円";
 "icon_keyword_pound" = "ポンド";
 "icon_keyword_franc" = "フランコニア";
@@ -2122,8 +2145,8 @@
 "open_add_new_expense_view_description" = "アプリ内で新しい支出の追加ビューを開きます。";
 "open_add_new_transfer_view_title" = "新しい振替を追加";
 "open_add_new_transfer_view_description" = "アプリ内で新しいビューの追加を開きます。";
-"open_add_new_quirting_view_title" = "新しい定期的なトランザクションを追加";
-"open_add_new_quirting_view_description" = "アプリ内で新しい定期トランザクションの追加ビューを開きます。";
+"open_add_new_recurring_view_title" = "新しい定期的なトランザクションを追加";
+"open_add_new_recurring_view_description" = "アプリ内で新しい定期トランザクションの追加ビューを開きます。";
 "open_upcoming_transactions_view_title" = "計画されたトランザクション";
 "open_upcoming_transactions_view_description" = "アプリ内で計画されたトランザクション ビューを開きます。";
 

@@ -371,7 +371,6 @@
 /* Formats */
 "transaction_filter_range_format" = "%@ - %@";
 
-
 /* MARK: - Period Selection View */
 /* Titles */
 "period_selection_title" = "Dönem";
@@ -514,7 +513,7 @@
 "trend_widget_has_spent_same_message" = "Her zamanki gibi harcadınız.";
 
 "total_balance_widget_current_balance_message" = "Bakiyeniz %@.";
-"total_balance_widget_precious_balance_message" = "Bakiyeniz %@ idi.";
+"total_balance_widget_previous_balance_message" = "Bakiyeniz %@ idi.";
 
 "savings_rate_widget_current_savings_rate_message" = "Tasarruf oranınız %@.";
 "savings_rate_widget_previous_savings_rate_message" = "Tasarruf oranınız %@ idi.";
@@ -624,39 +623,51 @@
 /* Info */
 "appearance_setting_info_title" = "Açıklama";
 "appearance_setting_info_description" = "Uygulamanın görünümünü değiştirerek uygulamayı beğeninize göre kişiselleştirin.";
+
+/* Sections */
 "appearance_ui_style_setting_section_title" = "Tema";
+"appearance_accent_color_setting_section_title" = "Vurgu Rengi";
+"appearance_app_icon_setting_section_title" = "Uygulama Simgesi";
+
+/* Options */
 "appearance_ui_style_apply_to_icons_title" = "Simgelere Uygula";
 "appearance_ui_style_apply_to_icons_description" = "Seçilen görünümü uygulamadaki tüm simgelere de uygula.";
-"appearance_accent_color_setting_section_title" = "Vurgu Rengi";
+
+/* Footer */
 "appearance_accent_color_setting_footer_title" = "Uygulama içindeki düğmelerin ve diğer kontrollerin rengini değiştirir.";
-"appearance_app_icon_setting_section_title" = "Uygulama Simgesi";
 
 /* MARK: - Sync & Data Settings View */
 /* Info */
 "sync_and_data_setting_info_title" = "Açıklama";
 "sync_and_data_setting_info_description" = "Geçerli senkronizasyon durumu hakkında genel bilgi edinin ve bir CSV dosyası kullanarak verileri içe veya dışa aktarın.";
 
+/* Sections */
 "sync_and_data_cloud_setting_section_title" = "iCloud";
-"sync_and_data_cloud_setting_footer_title" = "iCloud ile senkronizasyonun başarılı olup olmadığını veya bir hata meydana gelip gelmediğini gösterir.";
-"sync_and_data_setting_cloud_sync_status_title" = "Senkronizasyon Durumu";
 "backup_setting_section_title" = "Yedeklemeler";
-"backup_setting_footer_title" = "Yedeklemelerinizi ve yedekleme ayarlarınızı yönetin.";
-"backup_setting_manage_backups_title" = "Yönet";
 "sync_and_data_csv_setting_section_title" = "CSV-Verileri";
-"sync_and_data_csv_setting_footer_title" = "İşlemlerinizi bir CSV dosyası kullanarak içe veya dışa aktarın.";
+
+/* Titles */
+"sync_and_data_setting_cloud_sync_status_title" = "Senkronizasyon Durumu";
+"backup_setting_manage_backups_title" = "Yönet";
 "sync_and_data_setting_csv_import_title" = "İçe Aktar";
 "sync_and_data_setting_csv_export_title" = "Dışa Aktar";
 "sync_and_data_setting_get_csv_template_title" = "Şablonu indir";
 
+/* Buttons */
 "clear_cache_button" = "Önbelleği temizle";
+
+/* Footer */
+"sync_and_data_cloud_setting_footer_title" = "iCloud ile senkronizasyonun başarılı olup olmadığını veya bir hata meydana gelip gelmediğini gösterir.";
+"backup_setting_footer_title" = "Yedeklemelerinizi ve yedekleme ayarlarınızı yönetin.";
+"sync_and_data_csv_setting_footer_title" = "İşlemlerinizi bir CSV dosyası kullanarak içe veya dışa aktarın.";
 "cache_setting_footer_title" = "Bilgi: Önbelleğin temizlenmesi, uygulamanın belge dizinindeki tüm dosyaları (yedeklemeler dahil) siler.";
 
+/* Alert Views */
 "alert_csv_import_successful_title" = "İçe aktarma başarılı 🎉";
 "alert_csv_import_successful_message" = "Toplamda, %d işlemden %d tanesi içe aktarıldı.%@";
 "alert_csv_import_skipped_message" = " Bu nedenle %d işlem atlandı.";
 "alert_csv_import_error_message" = "%d işlemden %d tanesi başarıyla içe aktarılamadı.\n\n%@";
 "alert_csv_import_error_reason_field_message" = "Lütfen CSV dosyanızda şu alanları kontrol edin: %@.";
-
 "alert_csv_export_successful_title" = "Dışa aktarma başarılı 🎉";
 "alert_csv_export_successful_message" = "Verileriniz başarıyla \"%@\" konumuna aktarıldı.";
 
@@ -671,6 +682,7 @@
 "cloud_setting_info_title" = "Açıklama";
 "cloud_setting_info_description" = "Aşağıdaki görünüm, geçerli iCloud senkronizasyon durumuna ilişkin daha ayrıntılı bir genel bakış sağlar ve sorun gidermeye yardımcı olur.";
 
+/* Status */
 "cloud_setting_network_status_title" = "Ağ";
 "cloud_setting_network_status_success_value" = "İnternet bağlantısı mevcut";
 "cloud_setting_network_status_error_value" = "İnternet bağlantısı yok";
@@ -687,7 +699,10 @@
 "cloud_setting_number_of_transactions_in_progress_title" = "Lütfen bekleyin...";
 "cloud_setting_number_of_transactions_error_title" = "Hata";
 
+/* Buttons */
 "import_from_cloud_button" = "iCloud'dan indir";
+
+/* Footer */
 "manual_sync_cloud_setting_footer_title" = "Verileriniz iCloud ile senkronize edilmediyse veya tam olarak senkronize edilmediyse, senkronizasyonu buradan manuel olarak başlatabilirsiniz.";
 
 /* MARK: - Backup Settings View */
@@ -695,33 +710,33 @@
 "backup_setting_info_title" = "Açıklama";
 "backup_setting_info_description" = "Bütçe Akışı etkinleştirildiğinde verilerinizi düzenli olarak yedekler, böylece uygulamayı istediğiniz zaman önceki durumuna geri yükleyebilirsiniz.";
 
+/* Sections */
 "backup_setting_general_section_title" = "Genel";
 "backup_setting_recent_section_title" = "Son Yedeklemeler";
+
+/* Titles */
 "backup_setting_use_automatic_backups_title" = "Otomatik Yedekleme";
 "backup_setting_back_up_to_icloud_drive_title" = "iCloud Drive'a yedekle";
-
 "backup_setting_keep_backups_title" = "Yedekleri sakla";
+"backup_setting_create_backup_title" = "Yedek oluştur";
+"backup_setting_no_recent_backups_title" = "Kullanılabilir yedek yok";
+"backup_setting_backup_subtitle" = "%@ · %@";
+
+/* Options */
 "backup_setting_keep_backups_last_5_title" = "Son 5";
 "backup_setting_keep_backups_last_10_title" = "Son 10";
 "backup_setting_keep_backups_last_20_title" = "Son 20";
 "backup_setting_keep_backups_last_30_title" = "Son 30";
 "backup_setting_keep_backups_all_title" = "Tümü";
 
-"backup_setting_create_backup_title" = "Yedek oluştur";
-
-"backup_setting_no_recent_backups_title" = "Kullanılabilir yedek yok";
-"backup_setting_backup_subtitle" = "%@ · %@";
-
+/* Alert Views */
 "backup_setting_delete_backup_alert_title" = "Yedeği Sil";
 "backup_setting_delete_backup_alert_message" = "Bu yedeği gerçekten silmek istiyor musunuz?";
-
 "backup_setting_restore_success_title" = "Yedek geri yüklendi";
 "backup_setting_restore_success_message" = "Seçilen yedek geri yüklendi.";
-
 "backup_setting_error_title" = "Yedekleme başarısız";
 "backup_setting_icloud_drive_unavailable_error" = "iCloud Drive bu aygıtta kullanılamıyor.";
 "backup_setting_could_not_create_backup_directory_error" = "Yedekleme klasörü oluşturulamadı.";
-
 "alert_restore_backup_title" = "Yedeği Geri Yükle";
 "alert_restore_backup_message" = "Bu yedeği gerçekten geri yüklemek istiyor musunuz?\n\nBu işlem mevcut verilerinizi siler ve seçilen yedekteki verilerle değiştirir.\n\nUyarı: Bu işlem geri alınamaz!";
 "alert_restore_backup_button" = "Yedeklemeyi geri yükle";
@@ -747,9 +762,11 @@
 "backup_restore_progress_reminders" = "Hatırlatıcılar";
 
 /* MARK: - Advanced Settings View */
+/* Info */
 "advanced_setting_info_title" = "Açıklama";
 "advanced_setting_info_description" = "Uygulamayı yapılandırmak için diğer ayarları yapın.";
 
+/* Sections */
 "advanced_security_setting_section_title" = "Güvenlik";
 "advanced_view_setting_section_title" = "Görüntü";
 "advanced_sidebar_setting_section_title" = "Kenar çubuğu";
@@ -758,10 +775,12 @@
 "advanced_input_setting_section_title" = "Girdi";
 "advanced_other_setting_section_title" = "Diğer";
 
+/* Security */
 "advanced_setting_use_passcode_title" = "Parola Kullan";
 "advanced_setting_use_title" = "%@ Kullan";
 "advanced_setting_auto_lock_title" = "İstek Kodu";
 
+/* View */
 "advanced_setting_chart_type_title" = "Grafik türü";
 "advanced_setting_show_most_used_items_title" = "En çok kullanılan kategorileri ve etiketleri göster";
 "advanced_setting_show_most_used_items_description" = "İşlemleri oluştururken ve düzenlerken seçim listesinde en çok kullanılan kategorileri ve etiketleri gösterin.";
@@ -773,10 +792,22 @@
 "advanced_setting_start_day_of_month_description" = "Raporların, işlemlerin ve bütçelerin uygun şekilde hesaplanması için her ayın başlangıç gününü belirtin.";
 "advanced_setting_configure_transaction_title_title" = "İşlem Başlığı";
 "advanced_setting_configure_transaction_subtitle_title" = "İşlem Alt Başlığı";
-
 "advanced_setting_configure_transaction_title_info_title" = "Açıklama";
 "advanced_setting_configure_transaction_title_info_description" = "İşlem başlığında görüntülenecek öğelerin sırasını ayarlayın. Bir öğe eksikse, sıradaki öğe otomatik olarak kullanılır.";
 
+/* Input */
+"advanced_setting_select_time_automatically_title" = "Otomatik zaman seçimi";
+"advanced_setting_select_time_automatically_description" = "Yeni işlemler için geçerli saati otomatik olarak seç.";
+"advanced_setting_select_location_automatically_title" = "Otomatik konum seçimi";
+"advanced_setting_select_location_automatically_description" = "Yeni işlemler için geçerli konumu otomatik olarak seç.";
+"advanced_setting_save_photos_in_library_title" = "Fotoğrafları kitaplığa kaydet";
+"advanced_setting_save_photos_description" = "Yakalanan fotoğrafları otomatik olarak fotoğraf kitaplığına kaydedin.";
+"advanced_setting_suggested_notes_title" = "Önerilen notlar";
+"advanced_setting_suggested_notes_description" = "Not alanına yazarken önceki işlemlerinize göre öneriler alın.";
+"advanced_setting_consider_pending_items_title" = "Tüm işlemleri ayırtın";
+"advanced_setting_consider_pending_items_description" = "Hesap bakiyelerini, bakiyeleri, toplamları vb. hesaplarken bekleyen işlemleri dahil edin.";
+
+/* Sidebar */
 "advanced_setting_show_accounts_in_sidebar_title" = "Hesapları kenar çubuğunda göster";
 "advanced_setting_show_accounts_in_sidebar_description" = "Kenar çubuğunda hesaplarınızın bir listesini gösterin.";
 "advanced_setting_group_accounts_in_sidebar_title" = "Kenar çubuğundaki hesapları gruplandır";
@@ -786,22 +817,13 @@
 "advanced_setting_group_categories_in_sidebar_title" = "Kenar çubuğundaki kategorileri gruplandır";
 "advanced_setting_group_categories_in_sidebar_description" = "Kenar çubuğundaki kategorilerinizi klasöre göre gruplandırın.";
 
-"advanced_setting_select_time_automaically_title" = "Otomatik zaman seçimi";
-"advanced_setting_select_time_automaically_description" = "Yeni işlemler için geçerli saati otomatik olarak seç.";
-"advanced_setting_select_location_automaically_title" = "Otomatik konum seçimi";
-"advanced_setting_select_location_automaically_description" = "Yeni işlemler için geçerli konumu otomatik olarak seç.";
-"advanced_setting_save_photos_in_library_title" = "Fotoğrafları kitaplığa kaydet";
-"advanced_setting_save_photos_description" = "Yakalanan fotoğrafları otomatik olarak fotoğraf kitaplığına kaydedin.";
-"advanced_setting_suggested_notes_title" = "Önerilen notlar";
-"advanced_setting_suggested_notes_description" = "Not alanına yazarken önceki işlemlerinize göre öneriler alın.";
-"advanced_setting_consider_pending_items_title" = "Tüm işlemleri ayırtın";
-"advanced_setting_consider_pending_items_description" = "Hesap bakiyelerini, bakiyeleri, toplamları vb. hesaplarken bekleyen işlemleri dahil edin.";
-
+/* Apple Intelligence */
 "advanced_setting_use_apple_intelligence_in_receipt_scanner_title" = "Fiş Tarayıcı";
 "advanced_setting_use_apple_intelligence_in_receipt_scanner_description" = "Bir fişi tararken ek alanları otomatik olarak doldurmak için Apple Intelligence kullanın.";
 "advanced_setting_use_apple_intelligence_in_shortcuts_title" = "Kestirmeler";
 "advanced_setting_use_apple_intelligence_in_shortcuts_description" = "Kestirme otomasyonlarında kategorileri ve alacaklıları otomatik olarak algılamak için Apple Intelligence kullan.";
 
+/* Input */
 "advanced_setting_enable_exact_times_title" = "Tam saatleri girin";
 "advanced_setting_enable_exact_times_description" = "İşlemler için dakika döndürücüyü kullanarak tam saatleri seçin (ör. 9:41 am).";
 "advanced_setting_reverse_keyboard_title" = "Ters Klavye";
@@ -809,6 +831,7 @@
 "advanced_setting_enable_haptic_keyboard_title" = "Klavye Geri Bildirimi";
 "advanced_setting_enable_haptic_keyboard_description" = "Klavyeyi kullanarak parasal tutarları girerken dokunsal geri bildirim alın.";
 
+/* Other */
 "advanced_setting_language_title" = "Dil";
 "advanced_setting_time_zone_title" = "Zaman dilimi";
 "advanced_setting_enable_live_activities_title" = "Canlı Etkinlikler";
@@ -1193,7 +1216,7 @@
 
 "alert_confirm_delete_contra_entry_title" = "Bu işlem bir transferdir. Kontra girişini de silmek ister misiniz?";
 
-/* Updates */
+/* Update */
 "alert_confirm_update_contra_entry_title" = "Bu işlem bir transferdir. Kontra girişini de güncellemek ister misiniz?";
 "alert_confirm_update_transaction_multiple_title" = "Bu işlem bir gruba ait. Tam olarak neyi kaydetmek istiyorsunuz?";
 "alert_confirm_update_transaction_single_button" = "Yalnızca bunu kaydet";
@@ -1322,7 +1345,7 @@
 "no_reminders_found_button_title" = "Yeni Hatırlatıcı";
 "reminders_search_placeholder_message" = "Hatırlatma başlığına göre ara";
 
-/* Value */
+/* Values */
 "balance" = "Bakiye";
 
 
@@ -1408,7 +1431,7 @@
 "form_title_new_payee" = "Yeni Alacaklı";
 
 /* Footer */
-"form_questment_default_entries_footer_title" = "Bir işlem için alacaklıyı belirlerken varsayılan olarak kullanılacak bir hesap, kategori veya konum atayın.";
+"form_assignment_default_entries_footer_title" = "Bir işlem için alacaklıyı belirlerken varsayılan olarak kullanılacak bir hesap, kategori veya konum atayın.";
 
 /* Items */
 "form_location_title" = "Konum";
@@ -1586,7 +1609,7 @@
 "location_selection_searchbar_placeholder" = "Ara";
 "location_selection_search_history_title" = "Son";
 
-/* Buttons */
+/* Button */
 "location_selection_select_button_title" = "Seç";
 
 /* Alert Views */
@@ -1607,7 +1630,7 @@
 "alert_no_camera_message" = "Kameranız yok gibi görünüyor. Ancak bu özelliği kullanmak zorunludur.";
 
 "alert_permissions_title" = "Neredeyse var!";
-"alert_permissions_Activate_button" = "Şimdi etkinleştir";
+"alert_permissions_activate_button" = "Şimdi etkinleştir";
 "alert_permissions_cancel_button" = "Belki daha sonra";
 
 "alert_camera_permissions_message" = "Fotoğraf çekmek için tek yapmanız gereken ayarlarda \"kamera\" erişimini etkinleştirmektir.";
@@ -1893,7 +1916,7 @@
 "icon_keyword_restaurant" = "Restoran";
 "icon_keyword_drinking" = "İçme";
 "icon_keyword_cafe" = "Kafe";
-"icon_keyword_kahve" = "Kahve";
+"icon_keyword_coffee" = "Kahve";
 "icon_keyword_fastfood" = "Fast Food";
 "icon_keyword_picnic" = "Piknik";
 "icon_keyword_wine" = "Şarap";
@@ -1920,7 +1943,7 @@
 "icon_keyword_banknote" = "Banknot";
 "icon_keyword_refund" = "Geri Ödeme";
 "icon_keyword_dollar" = "Dolar";
-"icon_keyword_cents" = "Sent";
+"icon_keyword_cent" = "Sent";
 "icon_keyword_yen" = "Yen";
 "icon_keyword_pound" = "Pound";
 "icon_keyword_franc" = "Franconia";
@@ -1998,7 +2021,7 @@
 "icon_keyword_hammer" = "Çekiç";
 "icon_keyword_craftsman" = "Zanaatkar";
 "icon_keyword_tools" = "Araç";
-"icon_keyword_tesisatçı" = "Tesisatçı";
+"icon_keyword_plumber" = "Tesisatçı";
 "icon_keyword_construction_market" = "Yapı Pazarı";
 "icon_keyword_scissors" = "Makas";
 "icon_keyword_hairdresser" = "Kuaför";
@@ -2038,7 +2061,7 @@
 "icon_keyword_tire" = "Lastik";
 "icon_keyword_oilcan" = "Yağdanlık";
 "icon_keyword_keys" = "Anahtarlar";
-"icon_keyword_fire_thinker" = "Yangın Söndürücü";
+"icon_keyword_fire_extinguisher" = "Yangın Söndürücü";
 "icon_keyword_hockey" = "Hokey";
 "icon_keyword_ice_hockey" = "Buz Hokeyi";
 "icon_keyword_ice_skating" = "Buz Pateni";

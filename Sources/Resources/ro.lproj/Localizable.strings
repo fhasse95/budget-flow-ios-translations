@@ -371,7 +371,6 @@
 /* Formats */
 "transaction_filter_range_format" = "%@ până la %@";
 
-
 /* MARK: - Period Selection View */
 /* Titles */
 "period_selection_title" = "Perioada";
@@ -624,39 +623,51 @@
 /* Info */
 "appearance_setting_info_title" = "Descriere";
 "appearance_setting_info_description" = "Personalizați aplicația după bunul plac, schimbând aspectul aplicației.";
+
+/* Sections */
 "appearance_ui_style_setting_section_title" = "Temă";
+"appearance_accent_color_setting_section_title" = "Culoarea accentului";
+"appearance_app_icon_setting_section_title" = "Pictogramă aplicație";
+
+/* Options */
 "appearance_ui_style_apply_to_icons_title" = "Aplică la pictograme";
 "appearance_ui_style_apply_to_icons_description" = "Aplică și stilul selectat tuturor pictogramelor din aplicație.";
-"appearance_accent_color_setting_section_title" = "Culoarea accentului";
+
+/* Footer */
 "appearance_accent_color_setting_footer_title" = "Modifică culoarea butoanelor și a altor comenzi din aplicație.";
-"appearance_app_icon_setting_section_title" = "Pictogramă aplicație";
 
 /* MARK: - Sync & Data Settings View */
 /* Info */
 "sync_and_data_setting_info_title" = "Descriere";
 "sync_and_data_setting_info_description" = "Obțineți o prezentare generală a stării curente de sincronizare și importați sau exportați date folosind un fișier CSV.";
 
+/* Sections */
 "sync_and_data_cloud_setting_section_title" = "iCloud";
-"sync_and_data_cloud_setting_footer_title" = "Indică dacă sincronizarea cu iCloud a avut succes sau dacă a apărut o eroare.";
-"sync_and_data_setting_cloud_sync_status_title" = "Starea sincronizării";
 "backup_setting_section_title" = "Backup-uri";
-"backup_setting_footer_title" = "Gestionați-vă backup-urile și setările de backup.";
-"backup_setting_manage_backups_title" = "Gestionați";
 "sync_and_data_csv_setting_section_title" = "Date-CSV";
-"sync_and_data_csv_setting_footer_title" = "Importați sau exportați tranzacțiile folosind un fișier CSV.";
+
+/* Titles */
+"sync_and_data_setting_cloud_sync_status_title" = "Starea sincronizării";
+"backup_setting_manage_backups_title" = "Gestionați";
 "sync_and_data_setting_csv_import_title" = "Import";
 "sync_and_data_setting_csv_export_title" = "Export";
 "sync_and_data_setting_get_csv_template_title" = "Descărcați șablonul";
 
+/* Buttons */
 "clear_cache_button" = "Ștergeți memoria cache";
+
+/* Footer */
+"sync_and_data_cloud_setting_footer_title" = "Indică dacă sincronizarea cu iCloud a avut succes sau dacă a apărut o eroare.";
+"backup_setting_footer_title" = "Gestionați-vă backup-urile și setările de backup.";
+"sync_and_data_csv_setting_footer_title" = "Importați sau exportați tranzacțiile folosind un fișier CSV.";
 "cache_setting_footer_title" = "Informații: Ștergerea memoriei cache șterge toate fișierele din directorul de documente al aplicației (inclusiv copiile de rezervă).";
 
+/* Alert Views */
 "alert_csv_import_successful_title" = "Import cu succes 🎉";
 "alert_csv_import_successful_message" = "În total, %d din %d tranzacții au fost importate.%@";
 "alert_csv_import_skipped_message" = " Prin urmare, %d tranzacții au fost omise.";
 "alert_csv_import_error_message" = "Importarea cu succes a %d din %d tranzacții.\n\n%@";
 "alert_csv_import_error_reason_field_message" = "Vă rugăm să verificați următoarele câmpuri din fișierul dvs. CSV: %@.";
-
 "alert_csv_export_successful_title" = "Export cu succes 🎉";
 "alert_csv_export_successful_message" = "Datele dvs. au fost exportate cu succes în \"%@\".";
 
@@ -671,6 +682,7 @@
 "cloud_setting_info_title" = "Descriere";
 "cloud_setting_info_description" = "Următoarea vizualizare oferă o imagine de ansamblu mai detaliată a stării curente de sincronizare iCloud și ajută la depanarea.";
 
+/* Status */
 "cloud_setting_network_status_title" = "Rețea";
 "cloud_setting_network_status_success_value" = "Conexiune la internet disponibilă";
 "cloud_setting_network_status_error_value" = "Fără conexiune la internet";
@@ -687,7 +699,10 @@
 "cloud_setting_number_of_transactions_in_progress_title" = "Vă rugăm să așteptați...";
 "cloud_setting_number_of_transactions_error_title" = "Eroare";
 
+/* Buttons */
 "import_from_cloud_button" = "Descărcați din iCloud";
+
+/* Footer */
 "manual_sync_cloud_setting_footer_title" = "Dacă datele dvs. nu au fost sau nu sunt complet sincronizate cu iCloud, puteți declanșa manual sincronizarea aici.";
 
 /* MARK: - Backup Settings View */
@@ -695,33 +710,33 @@
 "backup_setting_info_title" = "Descriere";
 "backup_setting_info_description" = "Când este activat, Budget Flow face în mod regulat copii de siguranță ale datelor dvs., astfel încât să puteți restabili oricând aplicația la o stare anterioară.";
 
+/* Sections */
 "backup_setting_general_section_title" = "Setări generale";
 "backup_setting_recent_section_title" = "Backup-uri recente";
+
+/* Titles */
 "backup_setting_use_automatic_backups_title" = "Backup automat";
 "backup_setting_back_up_to_icloud_drive_title" = "Backup în iCloud Drive";
-
 "backup_setting_keep_backups_title" = "Păstrează copiile de rezervă";
+"backup_setting_create_backup_title" = "Creează o copie de rezervă";
+"backup_setting_no_recent_backups_title" = "Nu există copii de rezervă disponibile";
+"backup_setting_backup_subtitle" = "%@ · %@";
+
+/* Options */
 "backup_setting_keep_backups_last_5_title" = "Ultimele 5";
 "backup_setting_keep_backups_last_10_title" = "Ultimele 10";
 "backup_setting_keep_backups_last_20_title" = "Ultimele 20";
 "backup_setting_keep_backups_last_30_title" = "Ultimele 30";
 "backup_setting_keep_backups_all_title" = "Toate";
 
-"backup_setting_create_backup_title" = "Creează o copie de rezervă";
-
-"backup_setting_no_recent_backups_title" = "Nu există copii de rezervă disponibile";
-"backup_setting_backup_subtitle" = "%@ · %@";
-
+/* Alert Views */
 "backup_setting_delete_backup_alert_title" = "Șterge copia de rezervă";
 "backup_setting_delete_backup_alert_message" = "Sigur doriți să ștergeți această copie de rezervă?";
-
 "backup_setting_restore_success_title" = "Copie de rezervă restaurată";
 "backup_setting_restore_success_message" = "Copia de rezervă selectată a fost restaurată.";
-
 "backup_setting_error_title" = "Backup eșuat";
 "backup_setting_icloud_drive_unavailable_error" = "iCloud Drive nu este disponibil pe acest dispozitiv.";
 "backup_setting_could_not_create_backup_directory_error" = "Folderul de backup nu a putut fi creat.";
-
 "alert_restore_backup_title" = "Restaurează copia de rezervă";
 "alert_restore_backup_message" = "Sigur doriți să restaurați această copie de rezervă?\n\nAceasta va șterge datele curente și le va înlocui cu datele din copia de rezervă selectată.\n\nAvertisment: Această acțiune nu poate fi anulată!";
 "alert_restore_backup_button" = "Restaurează backup";
@@ -747,9 +762,11 @@
 "backup_restore_progress_reminders" = "Mementouri";
 
 /* MARK: - Advanced Settings View */
+/* Info */
 "advanced_setting_info_title" = "Descriere";
 "advanced_setting_info_description" = "Efectuați alte setări pentru a configura aplicația.";
 
+/* Sections */
 "advanced_security_setting_section_title" = "Securitate";
 "advanced_view_setting_section_title" = "Afișare";
 "advanced_sidebar_setting_section_title" = "Bară laterală";
@@ -758,10 +775,12 @@
 "advanced_input_setting_section_title" = "Intrare";
 "advanced_other_setting_section_title" = "Altele";
 
+/* Security */
 "advanced_setting_use_passcode_title" = "Utilizați codul de acces";
 "advanced_setting_use_title" = "Folosiți %@";
 "advanced_setting_auto_lock_title" = "Solicitare cod";
 
+/* View */
 "advanced_setting_chart_type_title" = "Tipul diagramei";
 "advanced_setting_show_most_used_items_title" = "Afișați categoriile și etichetele cele mai utilizate";
 "advanced_setting_show_most_used_items_description" = "Afișați categoriile și etichetele cele mai utilizate în lista de selecție la crearea și editarea tranzacțiilor.";
@@ -773,19 +792,10 @@
 "advanced_setting_start_day_of_month_description" = "Specificați ziua de început a fiecărei luni, astfel încât rapoartele, tranzacțiile și bugetele să fie calculate corespunzător.";
 "advanced_setting_configure_transaction_title_title" = "Titlu tranzacție";
 "advanced_setting_configure_transaction_subtitle_title" = "Subtitlu tranzacție";
-
 "advanced_setting_configure_transaction_title_info_title" = "Descriere";
 "advanced_setting_configure_transaction_title_info_description" = "Setați ordinea articolelor care urmează să fie afișate în titlul tranzacției. Dacă un articol lipsește, următorul din comandă este utilizat automat.";
 
-"advanced_setting_show_accounts_in_sidebar_title" = "Afișați conturile în bara laterală";
-"advanced_setting_show_accounts_in_sidebar_description" = "Afișați o listă a conturilor dvs. în bara laterală.";
-"advanced_setting_group_accounts_in_sidebar_title" = "Conturi de grup în bara laterală";
-"advanced_setting_group_accounts_in_sidebar_description" = "Grupați-vă conturile în bara laterală după tip.";
-"advanced_setting_show_categories_in_sidebar_title" = "Afișați categoriile în bara laterală";
-"advanced_setting_show_categories_in_sidebar_description" = "Afișați o listă a categoriilor dvs. în bara laterală.";
-"advanced_setting_group_categories_in_sidebar_title" = "Categorii de grup în bara laterală";
-"advanced_setting_group_categories_in_sidebar_description" = "Grupați categoriile în bara laterală după folder.";
-
+/* Input */
 "advanced_setting_select_time_automatically_title" = "Selectare automată a timpului";
 "advanced_setting_select_time_automatically_description" = "Selectați automat ora curentă pentru tranzacțiile noi.";
 "advanced_setting_select_location_automatically_title" = "Selectare automată a locației";
@@ -797,11 +807,23 @@
 "advanced_setting_consider_pending_items_title" = "Rezervați toate tranzacțiile";
 "advanced_setting_consider_pending_items_description" = "Includeți tranzacțiile în așteptare la calcularea soldurilor contului, soldurilor, totalurilor etc.";
 
+/* Sidebar */
+"advanced_setting_show_accounts_in_sidebar_title" = "Afișați conturile în bara laterală";
+"advanced_setting_show_accounts_in_sidebar_description" = "Afișați o listă a conturilor dvs. în bara laterală.";
+"advanced_setting_group_accounts_in_sidebar_title" = "Conturi de grup în bara laterală";
+"advanced_setting_group_accounts_in_sidebar_description" = "Grupați-vă conturile în bara laterală după tip.";
+"advanced_setting_show_categories_in_sidebar_title" = "Afișați categoriile în bara laterală";
+"advanced_setting_show_categories_in_sidebar_description" = "Afișați o listă a categoriilor dvs. în bara laterală.";
+"advanced_setting_group_categories_in_sidebar_title" = "Categorii de grup în bara laterală";
+"advanced_setting_group_categories_in_sidebar_description" = "Grupați categoriile în bara laterală după folder.";
+
+/* Apple Intelligence */
 "advanced_setting_use_apple_intelligence_in_receipt_scanner_title" = "Scanner de chitanțe";
 "advanced_setting_use_apple_intelligence_in_receipt_scanner_description" = "Folosește Apple Intelligence pentru a completa automat câmpuri suplimentare atunci când scanezi o chitanță.";
 "advanced_setting_use_apple_intelligence_in_shortcuts_title" = "Scurtături";
 "advanced_setting_use_apple_intelligence_in_shortcuts_description" = "Folosește Apple Intelligence pentru a detecta automat categorii și beneficiari în automatizările scurtăturilor.";
 
+/* Input */
 "advanced_setting_enable_exact_times_title" = "Introduceți orele exacte";
 "advanced_setting_enable_exact_times_description" = "Selectați orele exacte folosind rotația minutelor pentru tranzacții (de exemplu, 9:41 am).";
 "advanced_setting_reverse_keyboard_title" = "Tastatură inversată";
@@ -809,6 +831,7 @@
 "advanced_setting_enable_haptic_keyboard_title" = "Feedback de la tastatură";
 "advanced_setting_enable_haptic_keyboard_description" = "Obțineți feedback haptic când introduceți sume monetare folosind tastatura.";
 
+/* Other */
 "advanced_setting_language_title" = "Limbă";
 "advanced_setting_time_zone_title" = "Fus orar";
 "advanced_setting_enable_live_activities_title" = "Live-Activities";
@@ -1193,7 +1216,7 @@
 
 "alert_confirm_delete_contra_entry_title" = "Această tranzacție este un transfer. Doriți, de asemenea, să ștergeți contravaloarea?";
 
-/* Updates */
+/* Update */
 "alert_confirm_update_contra_entry_title" = "Această tranzacție este un transfer. Doriți să actualizați și contra intrare?";
 "alert_confirm_update_transaction_multiple_title" = "Această tranzacție aparține unui grup. Ce anume doriți să salvați?";
 "alert_confirm_update_transaction_single_button" = "Salvați numai acesta";
@@ -1322,7 +1345,7 @@
 "no_reminders_found_button_title" = "Memento nou";
 "reminders_search_placeholder_message" = "Căutați după titlul unui memento";
 
-/* Value */
+/* Values */
 "balance" = "Echilibru";
 
 
@@ -1586,7 +1609,7 @@
 "location_selection_searchbar_placeholder" = "Căutare";
 "location_selection_search_history_title" = "Recent";
 
-/* Buttons */
+/* Button */
 "location_selection_select_button_title" = "Selectați";
 
 /* Alert Views */
@@ -1920,7 +1943,7 @@
 "icon_keyword_banknote" = "Bancnotă";
 "icon_keyword_refund" = "Rambursare";
 "icon_keyword_dollar" = "Dolari";
-"icon_keyword_cents" = "Cenți";
+"icon_keyword_cent" = "Cenți";
 "icon_keyword_yen" = "Yen";
 "icon_keyword_pound" = "Liră";
 "icon_keyword_franc" = "Franconia";

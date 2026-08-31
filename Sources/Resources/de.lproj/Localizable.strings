@@ -795,16 +795,6 @@
 "advanced_setting_configure_transaction_title_info_title" = "Beschreibung";
 "advanced_setting_configure_transaction_title_info_description" = "Lege die Reihenfolge der Elemente fest, die im Transaktionstitel angezeigt werden sollen. Ist ein Element nicht vorhanden, wird automatisch das nächste in der Reihenfolge verwendet.";
 
-/* Sidebar */
-"advanced_setting_show_accounts_in_sidebar_title" = "Konten in Seitenleiste anzeigen";
-"advanced_setting_show_accounts_in_sidebar_description" = "Zeige eine Liste deiner Konten in der Seitenleiste an.";
-"advanced_setting_group_accounts_in_sidebar_title" = "Konten in Seitenleiste gruppieren";
-"advanced_setting_group_accounts_in_sidebar_description" = "Gruppiere deine Konten in der Seitenleiste nach Typ.";
-"advanced_setting_show_categories_in_sidebar_title" = "Kategorien in Seitenleiste anzeigen";
-"advanced_setting_show_categories_in_sidebar_description" = "Zeige eine Liste deiner Kategorien in der Seitenleiste an.";
-"advanced_setting_group_categories_in_sidebar_title" = "Kategorien in Seitenleiste gruppieren";
-"advanced_setting_group_categories_in_sidebar_description" = "Gruppiere deine Kategorien in der Seitenleiste nach Ordnern.";
-
 /* Input */
 "advanced_setting_select_time_automatically_title" = "Uhrzeit automatisch auswählen";
 "advanced_setting_select_time_automatically_description" = "Wähle die aktuelle Uhrzeit automatisch für neue Transaktionen aus.";
@@ -817,18 +807,29 @@
 "advanced_setting_consider_pending_items_title" = "Alle Transaktionen verbuchen";
 "advanced_setting_consider_pending_items_description" = "Berücksichtige bei der Berechnung von Kontoständen, Bilanzen, etc. auch alle vorgemerkten Transaktionen.";
 
-"advanced_setting_enable_exact_times_title" = "Genaue Uhrzeiten";
-"advanced_setting_enable_exact_times_description" = "Wähle genaue Uhrzeiten mithilfe des Minuten-Drehfelds für Transaktionen aus (z.B. 9:41).";
-"advanced_setting_reverse_keyboard_title" = "Umgedrehtes Tastaturlayout";
-"advanced_setting_reverse_keyboard_description" = "Drehe das numerische Tastaturlayout um, sodass es dem Layout eines Taschenrechners entspricht.";
-"advanced_setting_enable_haptic_keyboard_title" = "Haptisches Tastaturfeedback";
-"advanced_setting_enable_haptic_keyboard_description" = "Erhalte haptisches Feedback bei der Eingabe von Geldbeträgen über die Tastatur.";
+/* Sidebar */
+"advanced_setting_show_accounts_in_sidebar_title" = "Konten in Seitenleiste anzeigen";
+"advanced_setting_show_accounts_in_sidebar_description" = "Zeige eine Liste deiner Konten in der Seitenleiste an.";
+"advanced_setting_group_accounts_in_sidebar_title" = "Konten in Seitenleiste gruppieren";
+"advanced_setting_group_accounts_in_sidebar_description" = "Gruppiere deine Konten in der Seitenleiste nach Typ.";
+"advanced_setting_show_categories_in_sidebar_title" = "Kategorien in Seitenleiste anzeigen";
+"advanced_setting_show_categories_in_sidebar_description" = "Zeige eine Liste deiner Kategorien in der Seitenleiste an.";
+"advanced_setting_group_categories_in_sidebar_title" = "Kategorien in Seitenleiste gruppieren";
+"advanced_setting_group_categories_in_sidebar_description" = "Gruppiere deine Kategorien in der Seitenleiste nach Ordnern.";
 
 /* Apple Intelligence */
 "advanced_setting_use_apple_intelligence_in_receipt_scanner_title" = "Belegscanner";
 "advanced_setting_use_apple_intelligence_in_receipt_scanner_description" = "Nutze Apple Intelligence, um beim Scannen eines Belegs automatisch zusätzliche Felder auszufüllen.";
 "advanced_setting_use_apple_intelligence_in_shortcuts_title" = "Kurzbefehle";
 "advanced_setting_use_apple_intelligence_in_shortcuts_description" = "Apple Intelligence verwenden, um Kategorien und Empfänger in Kurzbefehl-Automationen automatisch zu erkennen.";
+
+/* Input */
+"advanced_setting_enable_exact_times_title" = "Genaue Uhrzeiten";
+"advanced_setting_enable_exact_times_description" = "Wähle genaue Uhrzeiten mithilfe des Minuten-Drehfelds für Transaktionen aus (z.B. 9:41).";
+"advanced_setting_reverse_keyboard_title" = "Umgedrehtes Tastaturlayout";
+"advanced_setting_reverse_keyboard_description" = "Drehe das numerische Tastaturlayout um, sodass es dem Layout eines Taschenrechners entspricht.";
+"advanced_setting_enable_haptic_keyboard_title" = "Haptisches Tastaturfeedback";
+"advanced_setting_enable_haptic_keyboard_description" = "Erhalte haptisches Feedback bei der Eingabe von Geldbeträgen über die Tastatur.";
 
 /* Other */
 "advanced_setting_language_title" = "Sprache";

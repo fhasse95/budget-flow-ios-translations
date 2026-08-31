@@ -228,14 +228,14 @@
 "menu_selected_budget_book_title" = "Επιλέχτηκε";
 
 
-/* MARK: - Καρτέλες */
+/* MARK: - Tabs */
 "dashboard_tab" = "Επισκόπηση";
 "transactions_tab" = "Συναλλαγές";
 "budgets_tab" = "Προϋπολογισμοί";
 "settings_tab" = "Ρυθμίσεις";
 
 
-/* MARK: - Κουμπιά */
+/* MARK: - Buttons */
 "add_button" = "Προσθήκη";
 "edit_button" = "Επεξεργασία";
 "copy_button" = "Αντιγραφή";
@@ -370,7 +370,6 @@
 
 /* Formats */
 "transaction_filter_range_format" = "%@ έως %@";
-
 
 /* MARK: - Period Selection View */
 /* Titles */
@@ -624,39 +623,51 @@
 /* Info */
 "appearance_setting_info_title" = "Περιγραφή";
 "appearance_setting_info_description" = "Εξατομικεύστε την εφαρμογή σύμφωνα με τις προτιμήσεις σας αλλάζοντας την εμφάνισή της.";
+
+/* Sections */
 "appearance_ui_style_setting_section_title" = "Θέμα";
+"appearance_accent_color_setting_section_title" = "Χρώμα έμφασης";
+"appearance_app_icon_setting_section_title" = "Εικονίδιο εφαρμογής";
+
+/* Options */
 "appearance_ui_style_apply_to_icons_title" = "Εφαρμογή στα εικονίδια";
 "appearance_ui_style_apply_to_icons_description" = "Εφαρμόστε επίσης την επιλεγμένη εμφάνιση σε όλα τα εικονίδια της εφαρμογής.";
-"appearance_accent_color_setting_section_title" = "Χρώμα έμφασης";
+
+/* Footer */
 "appearance_accent_color_setting_footer_title" = "Αλλάζει το χρώμα των κουμπιών και άλλων στοιχείων ελέγχου εντός της εφαρμογής.";
-"appearance_app_icon_setting_section_title" = "Εικονίδιο εφαρμογής";
 
 /* MARK: - Sync & Data Settings View */
 /* Info */
 "sync_and_data_setting_info_title" = "Περιγραφή";
 "sync_and_data_setting_info_description" = "Λάβετε μια επισκόπηση της τρέχουσας κατάστασης συγχρονισμού και εισάγετε ή εξάγετε δεδομένα χρησιμοποιώντας ένα αρχείο CSV.";
 
+/* Sections */
 "sync_and_data_cloud_setting_section_title" = "iCloud";
-"sync_and_data_cloud_setting_footer_title" = "Υποδεικνύει εάν ο συγχρονισμός με το iCloud ήταν επιτυχής ή αν παρουσιάστηκε σφάλμα.";
-"sync_and_data_setting_cloud_sync_status_title" = "Κατάσταση συγχρονισμού";
 "backup_setting_section_title" = "Αντίγραφα ασφαλείας";
-"backup_setting_footer_title" = "Διαχειριστείτε τα αντίγραφα ασφαλείας και τις ρυθμίσεις αντιγράφων ασφαλείας.";
-"backup_setting_manage_backups_title" = "Διαχείριση";
 "sync_and_data_csv_setting_section_title" = "CSV-Δεδομένα";
-"sync_and_data_csv_setting_footer_title" = "Εισαγάγετε ή εξάγετε τις συναλλαγές σας χρησιμοποιώντας ένα αρχείο CSV.";
+
+/* Titles */
+"sync_and_data_setting_cloud_sync_status_title" = "Κατάσταση συγχρονισμού";
+"backup_setting_manage_backups_title" = "Διαχείριση";
 "sync_and_data_setting_csv_import_title" = "Εισαγωγή";
 "sync_and_data_setting_csv_export_title" = "Εξαγωγή";
 "sync_and_data_setting_get_csv_template_title" = "Λήψη προτύπου";
 
+/* Buttons */
 "clear_cache_button" = "Εκκαθάριση προσωρινής μνήμης";
+
+/* Footer */
+"sync_and_data_cloud_setting_footer_title" = "Υποδεικνύει εάν ο συγχρονισμός με το iCloud ήταν επιτυχής ή αν παρουσιάστηκε σφάλμα.";
+"backup_setting_footer_title" = "Διαχειριστείτε τα αντίγραφα ασφαλείας και τις ρυθμίσεις αντιγράφων ασφαλείας.";
+"sync_and_data_csv_setting_footer_title" = "Εισαγάγετε ή εξάγετε τις συναλλαγές σας χρησιμοποιώντας ένα αρχείο CSV.";
 "cache_setting_footer_title" = "Πληροφορίες: Η εκκαθάριση της προσωρινής μνήμης διαγράφει όλα τα αρχεία στον κατάλογο εγγράφων της εφαρμογής (συμπεριλαμβανομένων των αντιγράφων ασφαλείας).";
 
+/* Alert Views */
 "alert_csv_import_successful_title" = "Η εισαγωγή επιτυχής 🎉";
 "alert_csv_import_successful_message" = "Συνολικά εισήχθησαν %d από %d συναλλαγές.%@";
 "alert_csv_import_skipped_message" = " Έτσι έχουν παραλειφθεί %d συναλλαγές.";
 "alert_csv_import_error_message" = "Απέτυχε η επιτυχής εισαγωγή %d από %d συναλλαγές.\n\n%@";
 "alert_csv_import_error_reason_field_message" = "Ελέγξτε τα ακόλουθα πεδία στο αρχείο CSV σας: %@.";
-
 "alert_csv_export_successful_title" = "Επιτυχής εξαγωγή 🎉";
 "alert_csv_export_successful_message" = "Τα δεδομένα σας εξήχθησαν με επιτυχία στο \"%@\".";
 
@@ -671,6 +682,7 @@
 "cloud_setting_info_title" = "Περιγραφή";
 "cloud_setting_info_description" = "Η ακόλουθη προβολή παρέχει μια πιο λεπτομερή επισκόπηση της τρέχουσας κατάστασης συγχρονισμού iCloud και βοηθά στην αντιμετώπιση προβλημάτων.";
 
+/* Status */
 "cloud_setting_network_status_title" = "Δίκτυο";
 "cloud_setting_network_status_success_value" = "Διαθέσιμη σύνδεση στο Διαδίκτυο";
 "cloud_setting_network_status_error_value" = "Καμία σύνδεση στο Διαδίκτυο";
@@ -687,7 +699,10 @@
 "cloud_setting_number_of_transactions_in_progress_title" = "Παρακαλώ περιμένετε...";
 "cloud_setting_number_of_transactions_error_title" = "Σφάλμα";
 
+/* Buttons */
 "import_from_cloud_button" = "Λήψη από iCloud";
+
+/* Footer */
 "manual_sync_cloud_setting_footer_title" = "Αν τα δεδομένα σας δεν έχουν συγχρονιστεί ή δεν έχουν συγχρονιστεί πλήρως με το iCloud, μπορείτε να ξεκινήσετε το συγχρονισμό χειροκίνητα εδώ.";
 
 /* MARK: - Backup Settings View */
@@ -695,33 +710,33 @@
 "backup_setting_info_title" = "Περιγραφή";
 "backup_setting_info_description" = "Όταν είναι ενεργοποιημένο, το Budget Flow δημιουργεί τακτικά αντίγραφα ασφαλείας των δεδομένων σας, ώστε να μπορείτε να επαναφέρετε την εφαρμογή στην προηγούμενη κατάσταση ανά πάσα στιγμή.";
 
+/* Sections */
 "backup_setting_general_section_title" = "Γενικά";
 "backup_setting_recent_section_title" = "Πρόσφατα αντίγραφα ασφαλείας";
+
+/* Titles */
 "backup_setting_use_automatic_backups_title" = "Αυτόματη δημιουργία αντιγράφων ασφαλείας";
 "backup_setting_back_up_to_icloud_drive_title" = "Δημιουργία αντιγράφου στο iCloud Drive";
-
 "backup_setting_keep_backups_title" = "Διατήρηση αντιγράφων ασφαλείας";
+"backup_setting_create_backup_title" = "Δημιουργία αντιγράφου ασφαλείας";
+"backup_setting_no_recent_backups_title" = "Δεν υπάρχουν διαθέσιμα αντίγραφα ασφαλείας";
+"backup_setting_backup_subtitle" = "%@ · %@";
+
+/* Options */
 "backup_setting_keep_backups_last_5_title" = "Τελευταία 5";
 "backup_setting_keep_backups_last_10_title" = "Τελευταία 10";
 "backup_setting_keep_backups_last_20_title" = "Τελευταία 20";
 "backup_setting_keep_backups_last_30_title" = "Τελευταία 30";
 "backup_setting_keep_backups_all_title" = "Όλα";
 
-"backup_setting_create_backup_title" = "Δημιουργία αντιγράφου ασφαλείας";
-
-"backup_setting_no_recent_backups_title" = "Δεν υπάρχουν διαθέσιμα αντίγραφα ασφαλείας";
-"backup_setting_backup_subtitle" = "%@ · %@";
-
+/* Alert Views */
 "backup_setting_delete_backup_alert_title" = "Διαγραφή αντιγράφου ασφαλείας";
 "backup_setting_delete_backup_alert_message" = "Θέλετε σίγουρα να διαγράψετε αυτό το αντίγραφο ασφαλείας;";
-
 "backup_setting_restore_success_title" = "Το αντίγραφο ασφαλείας επαναφέρθηκε";
 "backup_setting_restore_success_message" = "Το επιλεγμένο αντίγραφο ασφαλείας επαναφέρθηκε.";
-
 "backup_setting_error_title" = "Η δημιουργία αντιγράφου ασφαλείας απέτυχε";
 "backup_setting_icloud_drive_unavailable_error" = "Το iCloud Drive δεν είναι διαθέσιμο σε αυτήν τη συσκευή.";
 "backup_setting_could_not_create_backup_directory_error" = "Δεν ήταν δυνατή η δημιουργία του φακέλου αντιγράφων ασφαλείας.";
-
 "alert_restore_backup_title" = "Επαναφορά αντιγράφου ασφαλείας";
 "alert_restore_backup_message" = "Θέλετε σίγουρα να επαναφέρετε αυτό το αντίγραφο ασφαλείας;\n\nΜε αυτόν τον τρόπο θα διαγραφούν τα τρέχοντα δεδομένα σας και θα αντικατασταθούν με τα δεδομένα από το επιλεγμένο αντίγραφο ασφαλείας.\n\nΠροειδοποίηση: Αυτή η ενέργεια δεν μπορεί να αναιρεθεί!";
 "alert_restore_backup_button" = "Επαναφορά αντιγράφου ασφαλείας";
@@ -747,9 +762,11 @@
 "backup_restore_progress_reminders" = "Υπενθυμίσεις";
 
 /* MARK: - Advanced Settings View */
+/* Info */
 "advanced_setting_info_title" = "Περιγραφή";
 "advanced_setting_info_description" = "Κάντε περαιτέρω ρυθμίσεις για να διαμορφώσετε την εφαρμογή.";
 
+/* Sections */
 "advanced_security_setting_section_title" = "Ασφάλεια";
 "advanced_view_setting_section_title" = "Εμφάνιση";
 "advanced_sidebar_setting_section_title" = "Πλαϊνή γραμμή";
@@ -758,10 +775,12 @@
 "advanced_input_setting_section_title" = "Είσοδος";
 "advanced_other_setting_section_title" = "Άλλο";
 
+/* Security */
 "advanced_setting_use_passcode_title" = "Χρήση κωδικού πρόσβασης";
 "advanced_setting_use_title" = "Χρήση %@";
 "advanced_setting_auto_lock_title" = "Αίτηση κωδικού";
 
+/* View */
 "advanced_setting_chart_type_title" = "Τύπος γραφήματος";
 "advanced_setting_show_most_used_items_title" = "Εμφάνιση των πιο χρησιμοποιούμενων κατηγοριών και ετικετών";
 "advanced_setting_show_most_used_items_description" = "Εμφάνιση των πιο χρησιμοποιούμενων κατηγοριών και ετικετών στη λίστα επιλογής κατά τη δημιουργία και την επεξεργασία συναλλαγών.";
@@ -773,19 +792,10 @@
 "advanced_setting_start_day_of_month_description" = "Καθορίστε την ημέρα έναρξης κάθε μήνα, ώστε οι αναφορές, οι συναλλαγές και οι προϋπολογισμοί να υπολογίζονται κατάλληλα.";
 "advanced_setting_configure_transaction_title_title" = "Τίτλος Συναλλαγής";
 "advanced_setting_configure_transaction_subtitle_title" = "Υπότιτλος Συναλλαγής";
-
 "advanced_setting_configure_transaction_title_info_title" = "Περιγραφή";
 "advanced_setting_configure_transaction_title_info_description" = "Ορίστε τη σειρά των στοιχείων που θα εμφανίζονται στον τίτλο της συναλλαγής. Εάν λείπει ένα αντικείμενο, χρησιμοποιείται αυτόματα το επόμενο στη σειρά.";
 
-"advanced_setting_show_accounts_in_sidebar_title" = "Εμφάνιση λογαριασμών στην πλαϊνή γραμμή";
-"advanced_setting_show_accounts_in_sidebar_description" = "Εμφάνιση λίστας των λογαριασμών σας στην πλαϊνή γραμμή.";
-"advanced_setting_group_accounts_in_sidebar_title" = "Ομαδοποίηση λογαριασμών στην πλαϊνή γραμμή";
-"advanced_setting_group_accounts_in_sidebar_description" = "Ομαδοποιήστε τους λογαριασμούς σας στην πλαϊνή γραμμή κατά τύπο.";
-"advanced_setting_show_categories_in_sidebar_title" = "Εμφάνιση κατηγοριών στην πλαϊνή γραμμή";
-"advanced_setting_show_categories_in_sidebar_description" = "Εμφάνιση λίστας με τις κατηγορίες σας στην πλαϊνή γραμμή.";
-"advanced_setting_group_categories_in_sidebar_title" = "Ομαδοποίηση κατηγοριών στην πλαϊνή γραμμή";
-"advanced_setting_group_categories_in_sidebar_description" = "Ομαδοποιήστε τις κατηγορίες σας στην πλαϊνή γραμμή ανά φάκελο.";
-
+/* Input */
 "advanced_setting_select_time_automatically_title" = "Αυτόματη επιλογή ώρας";
 "advanced_setting_select_time_automatically_description" = "Επιλέξτε αυτόματα την τρέχουσα ώρα για νέες συναλλαγές.";
 "advanced_setting_select_location_automatically_title" = "Αυτόματη επιλογή τοποθεσίας";
@@ -797,11 +807,23 @@
 "advanced_setting_consider_pending_items_title" = "Κράτηση όλων των συναλλαγών";
 "advanced_setting_consider_pending_items_description" = "Συμπεριλάβετε τις εκκρεμείς συναλλαγές κατά τον υπολογισμό των υπολοίπων λογαριασμών, των υπολοίπων, των συνόλων κ.λπ.";
 
+/* Sidebar */
+"advanced_setting_show_accounts_in_sidebar_title" = "Εμφάνιση λογαριασμών στην πλαϊνή γραμμή";
+"advanced_setting_show_accounts_in_sidebar_description" = "Εμφάνιση λίστας των λογαριασμών σας στην πλαϊνή γραμμή.";
+"advanced_setting_group_accounts_in_sidebar_title" = "Ομαδοποίηση λογαριασμών στην πλαϊνή γραμμή";
+"advanced_setting_group_accounts_in_sidebar_description" = "Ομαδοποιήστε τους λογαριασμούς σας στην πλαϊνή γραμμή κατά τύπο.";
+"advanced_setting_show_categories_in_sidebar_title" = "Εμφάνιση κατηγοριών στην πλαϊνή γραμμή";
+"advanced_setting_show_categories_in_sidebar_description" = "Εμφάνιση λίστας με τις κατηγορίες σας στην πλαϊνή γραμμή.";
+"advanced_setting_group_categories_in_sidebar_title" = "Ομαδοποίηση κατηγοριών στην πλαϊνή γραμμή";
+"advanced_setting_group_categories_in_sidebar_description" = "Ομαδοποιήστε τις κατηγορίες σας στην πλαϊνή γραμμή ανά φάκελο.";
+
+/* Apple Intelligence */
 "advanced_setting_use_apple_intelligence_in_receipt_scanner_title" = "Σαρωτής αποδείξεων";
 "advanced_setting_use_apple_intelligence_in_receipt_scanner_description" = "Χρησιμοποιήστε το Apple Intelligence για να συμπληρώνονται αυτόματα επιπλέον πεδία κατά τη σάρωση μιας απόδειξης.";
 "advanced_setting_use_apple_intelligence_in_shortcuts_title" = "Συντομεύσεις";
 "advanced_setting_use_apple_intelligence_in_shortcuts_description" = "Χρήση Apple Intelligence για αυτόματη αναγνώριση κατηγοριών και δικαιούχων σε αυτοματισμούς συντομεύσεων.";
 
+/* Input */
 "advanced_setting_enable_exact_times_title" = "Εισαγάγετε ακριβείς ώρες";
 "advanced_setting_enable_exact_times_description" = "Επιλέξτε ακριβείς ώρες χρησιμοποιώντας τον περιστρεφόμενο χρόνο για συναλλαγές (π.χ. 9:41 π.μ.).";
 "advanced_setting_reverse_keyboard_title" = "Αντιστροφή πληκτρολογίου";
@@ -809,6 +831,7 @@
 "advanced_setting_enable_haptic_keyboard_title" = "Σχόλια πληκτρολογίου";
 "advanced_setting_enable_haptic_keyboard_description" = "Λάβετε απτική ανατροφοδότηση κατά την εισαγωγή χρηματικών ποσών χρησιμοποιώντας το πληκτρολόγιο.";
 
+/* Other */
 "advanced_setting_language_title" = "Γλώσσα";
 "advanced_setting_time_zone_title" = "Ζώνη ώρας";
 "advanced_setting_enable_live_activities_title" = "Ζωντανές δραστηριότητες";
@@ -1193,7 +1216,7 @@
 
 "alert_confirm_delete_contra_entry_title" = "Αυτή η συναλλαγή είναι μεταφορά. Θέλετε επίσης να διαγράψετε την καταχώριση contra;";
 
-/* Updates */
+/* Update */
 "alert_confirm_update_contra_entry_title" = "Αυτή η συναλλαγή είναι μεταφορά. Θα θέλατε επίσης να ενημερώσετε την καταχώριση αντίθετου;";
 "alert_confirm_update_transaction_multiple_title" = "Αυτή η συναλλαγή ανήκει σε μια ομάδα. Τι ακριβώς θέλετε να αποθηκεύσετε?";
 "alert_confirm_update_transaction_single_button" = "Αποθήκευση μόνο αυτού";
@@ -1322,7 +1345,7 @@
 "no_reminders_found_button_title" = "Νέα υπενθύμιση";
 "reminders_search_placeholder_message" = "Αναζήτηση με βάση τον τίτλο μιας υπενθύμισης";
 
-/* Value */
+/* Values */
 "balance" = "Υπόλοιπο";
 
 
@@ -1586,7 +1609,7 @@
 "location_selection_searchbar_placeholder" = "Αναζήτηση";
 "location_selection_search_history_title" = "Πρόσφατα";
 
-/* Buttons */
+/* Button */
 "location_selection_select_button_title" = "Επιλογή";
 
 /* Alert Views */
@@ -1920,7 +1943,7 @@
 "icon_keyword_banknote" = "Τραπεζογραμμάτιο";
 "icon_keyword_refund" = "Επιστροφή χρημάτων";
 "icon_keyword_dollar" = "Δολάρια";
-"icon_keyword_cents" = "Σεντάρες";
+"icon_keyword_cent" = "Σεντάρες";
 "icon_keyword_yen" = "Γεν";
 "icon_keyword_pound" = "Λίρα";
 "icon_keyword_franc" = "Φραγκονία";

@@ -371,7 +371,6 @@
 /* Formats */
 "transaction_filter_range_format" = "%@~%@";
 
-
 /* MARK: - Period Selection View */
 /* Titles */
 "period_selection_title" = "기간";
@@ -624,39 +623,51 @@
 /* Info */
 "appearance_setting_info_title" = "설명";
 "appearance_setting_info_description" = "앱의 외관을 변경하여 원하는 디자인으로 이용해보세요.";
+
+/* Sections */
 "appearance_ui_style_setting_section_title" = "테마";
+"appearance_accent_color_setting_section_title" = "색상";
+"appearance_app_icon_setting_section_title" = "앱 아이콘";
+
+/* Options */
 "appearance_ui_style_apply_to_icons_title" = "아이콘에 적용";
 "appearance_ui_style_apply_to_icons_description" = "선택한 외관을 앱의 모든 아이콘에 적용합니다.";
-"appearance_accent_color_setting_section_title" = "색상";
+
+/* Footer */
 "appearance_accent_color_setting_footer_title" = "앱 내 버튼 및 기타 컨트롤의 색상을 변경합니다.";
-"appearance_app_icon_setting_section_title" = "앱 아이콘";
 
 /* MARK: - Sync & Data Settings View */
 /* Info */
 "sync_and_data_setting_info_title" = "설명";
 "sync_and_data_setting_info_description" = "현재 동기화 상태를 확인하고, CSV 파일을 사용하여 데이터를 가져오거나 내보냅니다.";
 
+/* Sections */
 "sync_and_data_cloud_setting_section_title" = "iCloud";
-"sync_and_data_cloud_setting_footer_title" = "iCloud와의 동기화 상태를 확인할 수 있습니다.";
-"sync_and_data_setting_cloud_sync_status_title" = "동기화 상태";
 "backup_setting_section_title" = "백업";
-"backup_setting_footer_title" = "백업 및 백업 설정을 관리합니다.";
-"backup_setting_manage_backups_title" = "관리";
 "sync_and_data_csv_setting_section_title" = "CSV 데이터";
-"sync_and_data_csv_setting_footer_title" = "CSV 파일을 사용하여 거래를 가져오거나 내보냅니다.";
+
+/* Titles */
+"sync_and_data_setting_cloud_sync_status_title" = "동기화 상태";
+"backup_setting_manage_backups_title" = "관리";
 "sync_and_data_setting_csv_import_title" = "가져오기";
 "sync_and_data_setting_csv_export_title" = "내보내기";
 "sync_and_data_setting_get_csv_template_title" = "템플릿 다운로드";
 
+/* Buttons */
 "clear_cache_button" = "캐시 지우기";
+
+/* Footer */
+"sync_and_data_cloud_setting_footer_title" = "iCloud와의 동기화 상태를 확인할 수 있습니다.";
+"backup_setting_footer_title" = "백업 및 백업 설정을 관리합니다.";
+"sync_and_data_csv_setting_footer_title" = "CSV 파일을 사용하여 거래를 가져오거나 내보냅니다.";
 "cache_setting_footer_title" = "정보: 캐시를 지우면 앱의 문서 디렉터리에 있는 모든 파일(백업 포함)이 삭제됩니다.";
 
+/* Alert Views */
 "alert_csv_import_successful_title" = "가져오기 성공 🎉";
 "alert_csv_import_successful_message" = "총 %d개 거래 중 %d개 거래를 가져왔습니다.%@";
 "alert_csv_import_skipped_message" = " %d개의 거래를 건너뛰었습니다.";
 "alert_csv_import_error_message" = "%d개 중 %d개의 거래를 가져오는데 실패했습니다.\n\n%@";
 "alert_csv_import_error_reason_field_message" = "CSV 파일에서 다음 필드를 확인하십시오: %@.";
-
 "alert_csv_export_successful_title" = "내보내기 성공 🎉";
 "alert_csv_export_successful_message" = "데이터를 성공적으로 \"%@\"로 내보냈습니다.";
 
@@ -671,6 +682,7 @@
 "cloud_setting_info_title" = "설명";
 "cloud_setting_info_description" = "현재 iCloud 동기화 상태에 대한 상태를 제공하고 문제 해결에 도움이 될 수 있습니다.";
 
+/* Status */
 "cloud_setting_network_status_title" = "네트워크";
 "cloud_setting_network_status_success_value" = "인터넷 연결 가능";
 "cloud_setting_network_status_error_value" = "인터넷 연결 안 됨";
@@ -687,7 +699,10 @@
 "cloud_setting_number_of_transactions_in_progress_title" = "잠시 기다려 주세요...";
 "cloud_setting_number_of_transactions_error_title" = "오류";
 
+/* Buttons */
 "import_from_cloud_button" = "iCloud에서 다운로드";
+
+/* Footer */
 "manual_sync_cloud_setting_footer_title" = "데이터가 iCloud와 동기화되지 않았거나 완전히 동기화되지 않은 경우, 여기에서 수동으로 동기화를 시작할 수 있습니다.";
 
 /* MARK: - Backup Settings View */
@@ -695,33 +710,33 @@
 "backup_setting_info_title" = "설명";
 "backup_setting_info_description" = "백업이 활성화 되면 정기적으로 데이터를 백업하여, 언제든지 앱을 이전 상태로 복원할 수 있습니다.";
 
+/* Sections */
 "backup_setting_general_section_title" = "일반";
 "backup_setting_recent_section_title" = "최근 백업";
+
+/* Titles */
 "backup_setting_use_automatic_backups_title" = "자동 백업";
 "backup_setting_back_up_to_icloud_drive_title" = "iCloud Drive에 백업";
-
 "backup_setting_keep_backups_title" = "백업 보관";
+"backup_setting_create_backup_title" = "백업 생성";
+"backup_setting_no_recent_backups_title" = "사용 가능한 백업 없음";
+"backup_setting_backup_subtitle" = "%@ · %@";
+
+/* Options */
 "backup_setting_keep_backups_last_5_title" = "최근 5개";
 "backup_setting_keep_backups_last_10_title" = "최근 10개";
 "backup_setting_keep_backups_last_20_title" = "최근 20개";
 "backup_setting_keep_backups_last_30_title" = "최근 30개";
 "backup_setting_keep_backups_all_title" = "모두";
 
-"backup_setting_create_backup_title" = "백업 생성";
-
-"backup_setting_no_recent_backups_title" = "사용 가능한 백업 없음";
-"backup_setting_backup_subtitle" = "%@ · %@";
-
+/* Alert Views */
 "backup_setting_delete_backup_alert_title" = "백업 삭제";
 "backup_setting_delete_backup_alert_message" = "이 백업을 정말 삭제하시겠습니까?";
-
 "backup_setting_restore_success_title" = "백업 복원됨";
 "backup_setting_restore_success_message" = "선택한 백업이 복원되었습니다.";
-
 "backup_setting_error_title" = "백업 실패";
 "backup_setting_icloud_drive_unavailable_error" = "이 기기에서 iCloud Drive를 사용할 수 없습니다.";
 "backup_setting_could_not_create_backup_directory_error" = "백업 폴더를 생성할 수 없습니다.";
-
 "alert_restore_backup_title" = "백업 복원";
 "alert_restore_backup_message" = "이 백업을 정말 복원하시겠습니까?\n\n현재 데이터가 삭제되고 선택한 백업의 데이터로 대체됩니다.\n\n경고: 이 작업은 취소할 수 없습니다!";
 "alert_restore_backup_button" = "백업 복원";
@@ -747,9 +762,11 @@
 "backup_restore_progress_reminders" = "미리 알림";
 
 /* MARK: - Advanced Settings View */
+/* Info */
 "advanced_setting_info_title" = "설명";
 "advanced_setting_info_description" = "앱을 구성하려면 추가 설정을 하십시오.";
 
+/* Sections */
 "advanced_security_setting_section_title" = "보안 설정";
 "advanced_view_setting_section_title" = "보기 설정";
 "advanced_sidebar_setting_section_title" = "사이드 바";
@@ -758,10 +775,12 @@
 "advanced_input_setting_section_title" = "입력";
 "advanced_other_setting_section_title" = "기타";
 
+/* Security */
 "advanced_setting_use_passcode_title" = "암호 사용";
 "advanced_setting_use_title" = "%@ 사용";
 "advanced_setting_auto_lock_title" = "잠금 시간 설정";
 
+/* View */
 "advanced_setting_chart_type_title" = "차트 유형";
 "advanced_setting_show_most_used_items_title" = "가장 많이 사용하는 카테고리 및 태그 표시";
 "advanced_setting_show_most_used_items_description" = "거래 생성 및 편집 시 가장 많이 사용하는 카테고리 및 태그를 선택 목록에 표시합니다.";
@@ -773,19 +792,10 @@
 "advanced_setting_start_day_of_month_description" = "보고서, 거래, 예산의 시작일을 설정할 수 있습니다.";
 "advanced_setting_configure_transaction_title_title" = "거래 제목";
 "advanced_setting_configure_transaction_subtitle_title" = "거래 부제목";
-
 "advanced_setting_configure_transaction_title_info_title" = "설명";
 "advanced_setting_configure_transaction_title_info_description" = "거래 제목에 표시할 항목의 순서를 설정합니다. 항목이 누락된 경우 순서의 다음 항목이 자동으로 사용됩니다.";
 
-"advanced_setting_show_accounts_in_sidebar_title" = "사이드바에 계좌 표시";
-"advanced_setting_show_accounts_in_sidebar_description" = "사이드바에 계좌 목록을 표시합니다.";
-"advanced_setting_group_accounts_in_sidebar_title" = "사이드바에서 계정 그룹화";
-"advanced_setting_group_accounts_in_sidebar_description" = "사이드바에서 계정을 유형별로 그룹화합니다.";
-"advanced_setting_show_categories_in_sidebar_title" = "사이드바에서 카테고리 표시";
-"advanced_setting_show_categories_in_sidebar_description" = "사이드바에서 카테고리 목록을 표시합니다.";
-"advanced_setting_group_categories_in_sidebar_title" = "사이드바에서 카테고리 그룹화";
-"advanced_setting_group_categories_in_sidebar_description" = "사이드바에서 카테고리를 폴더별로 그룹화합니다.";
-
+/* Input */
 "advanced_setting_select_time_automatically_title" = "자동 시간 선택";
 "advanced_setting_select_time_automatically_description" = "새 거래의 현재 시간을 자동으로 선택합니다.";
 "advanced_setting_select_location_automatically_title" = "자동 위치 선택";
@@ -797,11 +807,23 @@
 "advanced_setting_consider_pending_items_title" = "예약 거래 계산";
 "advanced_setting_consider_pending_items_description" = "계좌 잔액, 총액 등을 계산할 때 대기 중인 거래를 계산하여 표시합니다";
 
+/* Sidebar */
+"advanced_setting_show_accounts_in_sidebar_title" = "사이드바에 계좌 표시";
+"advanced_setting_show_accounts_in_sidebar_description" = "사이드바에 계좌 목록을 표시합니다.";
+"advanced_setting_group_accounts_in_sidebar_title" = "사이드바에서 계정 그룹화";
+"advanced_setting_group_accounts_in_sidebar_description" = "사이드바에서 계정을 유형별로 그룹화합니다.";
+"advanced_setting_show_categories_in_sidebar_title" = "사이드바에서 카테고리 표시";
+"advanced_setting_show_categories_in_sidebar_description" = "사이드바에서 카테고리 목록을 표시합니다.";
+"advanced_setting_group_categories_in_sidebar_title" = "사이드바에서 카테고리 그룹화";
+"advanced_setting_group_categories_in_sidebar_description" = "사이드바에서 카테고리를 폴더별로 그룹화합니다.";
+
+/* Apple Intelligence */
 "advanced_setting_use_apple_intelligence_in_receipt_scanner_title" = "영수증 스캐너";
 "advanced_setting_use_apple_intelligence_in_receipt_scanner_description" = "영수증을 스캔할 때 Apple Intelligence를 사용하여 추가 필드를 자동으로 채웁니다.";
 "advanced_setting_use_apple_intelligence_in_shortcuts_title" = "단축어";
 "advanced_setting_use_apple_intelligence_in_shortcuts_description" = "단축어 자동화에서 카테고리와 수취인을 자동으로 감지하는 데 Apple Intelligence를 사용합니다.";
 
+/* Input */
 "advanced_setting_enable_exact_times_title" = "분단위 시간 입력";
 "advanced_setting_enable_exact_times_description" = "거래의 분을 정확하게 선택할 수 있습니다(예: 오전 9시 41분).";
 "advanced_setting_reverse_keyboard_title" = "역방향 키보드";
@@ -809,6 +831,7 @@
 "advanced_setting_enable_haptic_keyboard_title" = "키보드 피드백";
 "advanced_setting_enable_haptic_keyboard_description" = "키보드를 사용하여 금액을 입력할 때 햅틱 피드백을 받습니다.";
 
+/* Other */
 "advanced_setting_language_title" = "언어";
 "advanced_setting_time_zone_title" = "시간대";
 "advanced_setting_enable_live_activities_title" = "Live Activities 활성화";
@@ -1193,7 +1216,7 @@
 
 "alert_confirm_delete_contra_entry_title" = "이 거래는 이체입니다. 콘트라 항목도 삭제하시겠습니까?";
 
-/* Updates */
+/* Update */
 "alert_confirm_update_contra_entry_title" = "이 거래는 이체입니다. 콘트라 항목도 업데이트하시겠습니까?";
 "alert_confirm_update_transaction_multiple_title" = "이 거래는 그룹에 속해 있습니다. 어떤 항목을 저장하시겠습니까?";
 "alert_confirm_update_transaction_single_button" = "이 항목만 저장";
@@ -1322,7 +1345,7 @@
 "no_reminders_found_button_title" = "새 알림";
 "reminders_search_placeholder_message" = "알림 제목으로 검색";
 
-/* Value */
+/* Values */
 "balance" = "잔고";
 
 
@@ -1408,7 +1431,7 @@
 "form_title_new_payee" = "새 수취인";
 
 /* Footer */
-"form_signment_default_entries_footer_title" = "거래 수취인을 지정할 때 기본적으로 사용할 계좌, 카테고리, 위치를 지정하세요.";
+"form_assignment_default_entries_footer_title" = "거래 수취인을 지정할 때 기본적으로 사용할 계좌, 카테고리, 위치를 지정하세요.";
 
 /* Items */
 "form_location_title" = "위치";
@@ -1586,7 +1609,7 @@
 "location_selection_searchbar_placeholder" = "검색";
 "location_selection_search_history_title" = "최근";
 
-/* Buttons */
+/* Button */
 "location_selection_select_button_title" = "선택";
 
 /* Alert Views */
@@ -1920,7 +1943,7 @@
 "icon_keyword_banknote" = "지폐";
 "icon_keyword_refund" = "환불";
 "icon_keyword_dollar" = "달러";
-"icon_keyword_cents" = "센트";
+"icon_keyword_cent" = "센트";
 "icon_keyword_yen" = "엔";
 "icon_keyword_pound" = "파운드";
 "icon_keyword_franc" = "프랑코니아";
@@ -2038,7 +2061,7 @@
 "icon_keyword_tire" = "타이어";
 "icon_keyword_oilcan" = "오일캔";
 "icon_keyword_keys" = "키";
-"icon_keyword_fire_diesel" = "소화기";
+"icon_keyword_fire_extinguisher" = "소화기";
 "icon_keyword_hockey" = "하키";
 "icon_keyword_ice_hockey" = "아이스하키";
 "icon_keyword_ice_skating" = "아이스스케이팅";
@@ -2122,8 +2145,8 @@
 "open_add_new_expense_view_description" = "앱에서 새로운 지출을 추가 합니다.";
 "open_add_new_transfer_view_title" = "새로운 이체 추가";
 "open_add_new_transfer_view_description" = "앱에서 새로운 이체를 추가 합니다.";
-"open_add_new_quirting_view_title" = "새로운 반복거래 추가";
-"open_add_new_quirting_view_description" = "앱에서 새로운 반복거래를 추가합니다.";
+"open_add_new_recurring_view_title" = "새로운 반복거래 추가";
+"open_add_new_recurring_view_description" = "앱에서 새로운 반복거래를 추가합니다.";
 "open_upcoming_transactions_view_title" = "예정된 거래";
 "open_upcoming_transactions_view_description" = "새로운 예정된 거래를 추가합니다.";
 

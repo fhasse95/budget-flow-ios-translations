@@ -371,7 +371,6 @@
 /* Formats */
 "transaction_filter_range_format" = "%@ tot %@";
 
-
 /* MARK: - Period Selection View */
 /* Titles */
 "period_selection_title" = "Periode";
@@ -624,39 +623,51 @@
 /* Info */
 "appearance_setting_info_title" = "Beschrijving";
 "appearance_setting_info_description" = "Personaliseer de app naar wens door het uiterlijk van de app te wijzigen.";
+
+/* Sections */
 "appearance_ui_style_setting_section_title" = "Thema";
+"appearance_accent_color_setting_section_title" = "Accentkleur";
+"appearance_app_icon_setting_section_title" = "App-pictogram";
+
+/* Options */
 "appearance_ui_style_apply_to_icons_title" = "Toepassen op pictogrammen";
 "appearance_ui_style_apply_to_icons_description" = "Pas het geselecteerde uiterlijk ook toe op alle pictogrammen in de app.";
-"appearance_accent_color_setting_section_title" = "Accentkleur";
+
+/* Footer */
 "appearance_accent_color_setting_footer_title" = "Wijzigt de kleur van knoppen en andere bedieningselementen in de app.";
-"appearance_app_icon_setting_section_title" = "App-pictogram";
 
 /* MARK: - Sync & Data Settings View */
 /* Info */
 "sync_and_data_setting_info_title" = "Beschrijving";
 "sync_and_data_setting_info_description" = "Krijg een overzicht van de huidige synchronisatiestatus en importeer of exporteer gegevens met behulp van een CSV-bestand.";
 
+/* Sections */
 "sync_and_data_cloud_setting_section_title" = "iCloud";
-"sync_and_data_cloud_setting_footer_title" = "Geeft aan of de synchronisatie met iCloud is gelukt of dat er een fout is opgetreden.";
-"sync_and_data_setting_cloud_sync_status_title" = "Synchronisatiestatus";
 "backup_setting_section_title" = "Back-ups";
-"backup_setting_footer_title" = "Beheer je back-ups en back-up instellingen.";
-"backup_setting_manage_backups_title" = "Beheren";
 "sync_and_data_csv_setting_section_title" = "CSV-gegevens";
-"sync_and_data_csv_setting_footer_title" = "Importeer of exporteer je transacties met behulp van een CSV-bestand.";
+
+/* Titles */
+"sync_and_data_setting_cloud_sync_status_title" = "Synchronisatiestatus";
+"backup_setting_manage_backups_title" = "Beheren";
 "sync_and_data_setting_csv_import_title" = "Importeren";
 "sync_and_data_setting_csv_export_title" = "Exporteren";
 "sync_and_data_setting_get_csv_template_title" = "Sjabloon downloaden";
 
+/* Buttons */
 "clear_cache_button" = "Cache wissen";
+
+/* Footer */
+"sync_and_data_cloud_setting_footer_title" = "Geeft aan of de synchronisatie met iCloud is gelukt of dat er een fout is opgetreden.";
+"backup_setting_footer_title" = "Beheer je back-ups en back-up instellingen.";
+"sync_and_data_csv_setting_footer_title" = "Importeer of exporteer je transacties met behulp van een CSV-bestand.";
 "cache_setting_footer_title" = "Info: Als je de cache wist, worden alle bestanden in de documentmap van de app verwijderd (inclusief back-ups).";
 
+/* Alert Views */
 "alert_csv_import_successful_title" = "Import succesvol 🎉";
 "alert_csv_import_successful_message" = "In totaal zijn %d van %d transacties geïmporteerd.%@";
 "alert_csv_import_skipped_message" = " Daarbij zijn %d transacties overgeslagen.";
 "alert_csv_import_error_message" = "Het importeren van %d van %d transacties is mislukt.\n\n%@";
 "alert_csv_import_error_reason_field_message" = "Controleer de volgende velden in je CSV-bestand: %@.";
-
 "alert_csv_export_successful_title" = "Export succesvol 🎉";
 "alert_csv_export_successful_message" = "Je gegevens zijn succesvol geëxporteerd naar \"%@\".";
 
@@ -671,6 +682,7 @@
 "cloud_setting_info_title" = "Beschrijving";
 "cloud_setting_info_description" = "De volgende weergave biedt een gedetailleerder overzicht van de huidige iCloud-synchronisatiestatus en helpt bij het oplossen van problemen.";
 
+/* Status */
 "cloud_setting_network_status_title" = "Netwerk";
 "cloud_setting_network_status_success_value" = "Internetverbinding beschikbaar";
 "cloud_setting_network_status_error_value" = "Geen internetverbinding";
@@ -687,7 +699,10 @@
 "cloud_setting_number_of_transactions_in_progress_title" = "Even geduld...";
 "cloud_setting_number_of_transactions_error_title" = "Fout";
 
+/* Buttons */
 "import_from_cloud_button" = "Download van iCloud";
+
+/* Footer */
 "manual_sync_cloud_setting_footer_title" = "Als je gegevens nog niet volledig zijn gedownload van iCloud, dan kun je hier handmatig de download starten.";
 
 /* MARK: - Backup Settings View */
@@ -695,33 +710,33 @@
 "backup_setting_info_title" = "Beschrijving";
 "backup_setting_info_description" = "Indien ingeschakeld, maakt Budget Flow regelmatig een back-up van je gegevens, zodat je de app op elk moment naar een eerdere versie kunt herstellen.";
 
+/* Sections */
 "backup_setting_general_section_title" = "Algemeen";
 "backup_setting_recent_section_title" = "Recente back-ups";
+
+/* Titles */
 "backup_setting_use_automatic_backups_title" = "Automatische back-up";
 "backup_setting_back_up_to_icloud_drive_title" = "Back-up maken naar iCloud Drive";
-
 "backup_setting_keep_backups_title" = "Back-ups bewaren";
+"backup_setting_create_backup_title" = "Back-up maken";
+"backup_setting_no_recent_backups_title" = "Geen back-ups beschikbaar";
+"backup_setting_backup_subtitle" = "%@ · %@";
+
+/* Options */
 "backup_setting_keep_backups_last_5_title" = "Laatste 5";
 "backup_setting_keep_backups_last_10_title" = "Laatste 10";
 "backup_setting_keep_backups_last_20_title" = "Laatste 20";
 "backup_setting_keep_backups_last_30_title" = "Laatste 30";
 "backup_setting_keep_backups_all_title" = "Alle";
 
-"backup_setting_create_backup_title" = "Back-up maken";
-
-"backup_setting_no_recent_backups_title" = "Geen back-ups beschikbaar";
-"backup_setting_backup_subtitle" = "%@ · %@";
-
+/* Alert Views */
 "backup_setting_delete_backup_alert_title" = "Back-up verwijderen";
 "backup_setting_delete_backup_alert_message" = "Weet je zeker dat je deze back-up wilt verwijderen?";
-
 "backup_setting_restore_success_title" = "Back-up hersteld";
 "backup_setting_restore_success_message" = "De geselecteerde back-up is hersteld.";
-
 "backup_setting_error_title" = "Back-up mislukt";
 "backup_setting_icloud_drive_unavailable_error" = "iCloud Drive is niet beschikbaar op dit apparaat.";
 "backup_setting_could_not_create_backup_directory_error" = "De back-upmap kon niet worden aangemaakt.";
-
 "alert_restore_backup_title" = "Back-up herstellen";
 "alert_restore_backup_message" = "Weet je zeker dat je deze back-up wilt herstellen?\n\nHiermee worden je huidige gegevens verwijderd en vervangen door de gegevens uit de geselecteerde back-up.\n\nWaarschuwing: Deze actie kan niet ongedaan worden gemaakt!";
 "alert_restore_backup_button" = "Back-up herstellen";
@@ -747,9 +762,11 @@
 "backup_restore_progress_reminders" = "Herinneringen";
 
 /* MARK: - Advanced Settings View */
+/* Info */
 "advanced_setting_info_title" = "Beschrijving";
 "advanced_setting_info_description" = "Geef meer instellingen om de app te configureren.";
 
+/* Sections */
 "advanced_security_setting_section_title" = "Beveiliging";
 "advanced_view_setting_section_title" = "Weergave";
 "advanced_sidebar_setting_section_title" = "Zijbalk";
@@ -758,10 +775,12 @@
 "advanced_input_setting_section_title" = "Invoer";
 "advanced_other_setting_section_title" = "Overige";
 
+/* Security */
 "advanced_setting_use_passcode_title" = "Gebruik toegangscode";
 "advanced_setting_use_title" = "Gebruik %@";
 "advanced_setting_auto_lock_title" = "Code aanvragen";
 
+/* View */
 "advanced_setting_chart_type_title" = "Grafiektype";
 "advanced_setting_show_most_used_items_title" = "Toon meest gebruikte categorieën en tags";
 "advanced_setting_show_most_used_items_description" = "Toon meest gebruikte categorieën en tags in de selectielijst bij het maken en bewerken van transacties.";
@@ -773,19 +792,10 @@
 "advanced_setting_start_day_of_month_description" = "Geef de startdag van elke maand op, zodat rapporten, transacties en budgetten op de juiste manier worden berekend.";
 "advanced_setting_configure_transaction_title_title" = "Transactietitel";
 "advanced_setting_configure_transaction_subtitle_title" = "Transactie-ondertitel";
-
 "advanced_setting_configure_transaction_title_info_title" = "Beschrijving";
 "advanced_setting_configure_transaction_title_info_description" = "Stel de volgorde in van de items die in de transactietitel moeten worden weergegeven. Als een item ontbreekt, wordt automatisch het volgende item in de volgorde gebruikt.";
 
-"advanced_setting_show_accounts_in_sidebar_title" = "Toon accounts in zijbalk";
-"advanced_setting_show_accounts_in_sidebar_description" = "Toon een lijst met accounts in de zijbalk.";
-"advanced_setting_group_accounts_in_sidebar_title" = "Groepeer accounts in zijbalk";
-"advanced_setting_group_accounts_in_sidebar_description" = "Groepeer accounts in de zijbalk op type.";
-"advanced_setting_show_categories_in_sidebar_title" = "Toon categorieën in zijbalk";
-"advanced_setting_show_categories_in_sidebar_description" = "Toon een lijst met categorieën in de zijbalk.";
-"advanced_setting_group_categories_in_sidebar_title" = "Groepeer categorieën in zijbalk";
-"advanced_setting_group_categories_in_sidebar_description" = "Groepeer categorieën in de zijbalk op map.";
-
+/* Input */
 "advanced_setting_select_time_automatically_title" = "Automatische tijdselectie";
 "advanced_setting_select_time_automatically_description" = "Selecteer automatisch de huidige tijd voor nieuwe transacties.";
 "advanced_setting_select_location_automatically_title" = "Automatische locatieselectie";
@@ -797,11 +807,23 @@
 "advanced_setting_consider_pending_items_title" = "Boek alle transacties";
 "advanced_setting_consider_pending_items_description" = "Neem openstaande transacties op bij het berekenen van rekeningsaldi, saldi, totalen, enz.";
 
+/* Sidebar */
+"advanced_setting_show_accounts_in_sidebar_title" = "Toon accounts in zijbalk";
+"advanced_setting_show_accounts_in_sidebar_description" = "Toon een lijst met accounts in de zijbalk.";
+"advanced_setting_group_accounts_in_sidebar_title" = "Groepeer accounts in zijbalk";
+"advanced_setting_group_accounts_in_sidebar_description" = "Groepeer accounts in de zijbalk op type.";
+"advanced_setting_show_categories_in_sidebar_title" = "Toon categorieën in zijbalk";
+"advanced_setting_show_categories_in_sidebar_description" = "Toon een lijst met categorieën in de zijbalk.";
+"advanced_setting_group_categories_in_sidebar_title" = "Groepeer categorieën in zijbalk";
+"advanced_setting_group_categories_in_sidebar_description" = "Groepeer categorieën in de zijbalk op map.";
+
+/* Apple Intelligence */
 "advanced_setting_use_apple_intelligence_in_receipt_scanner_title" = "Bonscanner";
 "advanced_setting_use_apple_intelligence_in_receipt_scanner_description" = "Gebruik Apple Intelligence om automatisch extra velden in te vullen bij het scannen van een bon.";
 "advanced_setting_use_apple_intelligence_in_shortcuts_title" = "Opdrachten";
 "advanced_setting_use_apple_intelligence_in_shortcuts_description" = "Gebruik Apple Intelligence om categorieën en begunstigden automatisch in opdracht-automatiseringen te herkennen.";
 
+/* Input */
 "advanced_setting_enable_exact_times_title" = "Voer exacte tijden in";
 "advanced_setting_enable_exact_times_description" = "Selecteer exacte tijden met behulp van de minutendraaier voor transacties (bijvoorbeeld 9:41 uur).";
 "advanced_setting_reverse_keyboard_title" = "Omgekeerd toetsenbord";
@@ -809,6 +831,7 @@
 "advanced_setting_enable_haptic_keyboard_title" = "Toetsenbordfeedback";
 "advanced_setting_enable_haptic_keyboard_description" = "Krijg haptische feedback wanneer je geldbedragen invoert via het toetsenbord.";
 
+/* Other */
 "advanced_setting_language_title" = "Taal";
 "advanced_setting_time_zone_title" = "Tijdzone";
 "advanced_setting_enable_live_activities_title" = "Live-activiteiten";
@@ -1193,7 +1216,7 @@
 
 "alert_confirm_delete_contra_entry_title" = "Deze transactie is een overboeking. Wil je de tegenboeking ook verwijderen?";
 
-/* Updates */
+/* Update */
 "alert_confirm_update_contra_entry_title" = "Deze transactie is een overboeking. Wil je ook de tegenboeking bijwerken?";
 "alert_confirm_update_transaction_multiple_title" = "Deze transactie behoort tot een groep. Wat wil je precies opslaan?";
 "alert_confirm_update_transaction_single_button" = "Alleen deze opslaan";
@@ -1322,7 +1345,7 @@
 "no_reminders_found_button_title" = "Nieuwe herinnering";
 "reminders_search_placeholder_message" = "Zoeken op de titel van een herinnering";
 
-/* Value */
+/* Values */
 "balance" = "Saldo";
 
 
@@ -1586,7 +1609,7 @@
 "location_selection_searchbar_placeholder" = "Zoeken";
 "location_selection_search_history_title" = "Recent";
 
-/* Buttons */
+/* Button */
 "location_selection_select_button_title" = "Selecteer";
 
 /* Alert Views */
@@ -1920,7 +1943,7 @@
 "icon_keyword_banknote" = "Bankbiljet";
 "icon_keyword_refund" = "Terugbetaling";
 "icon_keyword_dollar" = "Dollar";
-"icon_keyword_cents" = "Cent";
+"icon_keyword_cent" = "Cent";
 "icon_keyword_yen" = "Jen";
 "icon_keyword_pound" = "Pond";
 "icon_keyword_franc" = "Franken";

@@ -371,7 +371,6 @@
 /* Formats */
 "transaction_filter_range_format" = "%@ 至 %@";
 
-
 /* MARK: - Period Selection View */
 /* Titles */
 "period_selection_title" = "時間段";
@@ -624,39 +623,51 @@
 /* Info */
 "appearance_setting_info_title" = "描述";
 "appearance_setting_info_description" = "透過更改應用程式的外觀來個性化您的應用程式";
+
+/* Sections */
 "appearance_ui_style_setting_section_title" = "主題";
+"appearance_accent_color_setting_section_title" = "強調色";
+"appearance_app_icon_setting_section_title" = "應用程式圖示";
+
+/* Options */
 "appearance_ui_style_apply_to_icons_title" = "套用至圖示";
 "appearance_ui_style_apply_to_icons_description" = "同時將所選外觀套用至應用程式中的所有圖示。";
-"appearance_accent_color_setting_section_title" = "強調色";
+
+/* Footer */
 "appearance_accent_color_setting_footer_title" = "更改應用程式內按鈕和其他控制項的顏色";
-"appearance_app_icon_setting_section_title" = "應用程式圖示";
 
 /* MARK: - Sync & Data Settings View */
 /* Info */
 "sync_and_data_setting_info_title" = "描述";
 "sync_and_data_setting_info_description" = "取得目前同步狀態的概覽，並使用 CSV 檔案匯入或匯出資料";
 
+/* Sections */
 "sync_and_data_cloud_setting_section_title" = "iCloud";
-"sync_and_data_cloud_setting_footer_title" = "提示與 iCloud 的同步是否成功或是否發生錯誤";
-"sync_and_data_setting_cloud_sync_status_title" = "同步狀態";
 "backup_setting_section_title" = "備份";
-"backup_setting_footer_title" = "管理您的備份和備份設定";
-"backup_setting_manage_backups_title" = "管理";
 "sync_and_data_csv_setting_section_title" = "CSV-資料";
-"sync_and_data_csv_setting_footer_title" = "使用 CSV 檔案匯入或匯出您的交易";
+
+/* Titles */
+"sync_and_data_setting_cloud_sync_status_title" = "同步狀態";
+"backup_setting_manage_backups_title" = "管理";
 "sync_and_data_setting_csv_import_title" = "匯入";
 "sync_and_data_setting_csv_export_title" = "匯出";
 "sync_and_data_setting_get_csv_template_title" = "下載模板";
 
+/* Buttons */
 "clear_cache_button" = "清除快取";
+
+/* Footer */
+"sync_and_data_cloud_setting_footer_title" = "提示與 iCloud 的同步是否成功或是否發生錯誤";
+"backup_setting_footer_title" = "管理您的備份和備份設定";
+"sync_and_data_csv_setting_footer_title" = "使用 CSV 檔案匯入或匯出您的交易";
 "cache_setting_footer_title" = "訊息：清除快取會刪除應用程式文件目錄中的所有檔案（包括備份)";
 
+/* Alert Views */
 "alert_csv_import_successful_title" = "匯入成功 🎉";
 "alert_csv_import_successful_message" = "總共匯入了 %d 筆交易中的 %d 筆。%@";
 "alert_csv_import_skipped_message" = " 其中 %d 筆交易被跳過。";
 "alert_csv_import_error_message" = "無法成功匯入 %d 筆交易中的 %d 資料。\n\n%@";
 "alert_csv_import_error_reason_field_message" = "請檢查您 CSV 檔案中的下列欄位：%@";
-
 "alert_csv_export_successful_title" = "匯出成功 🎉";
 "alert_csv_export_successful_message" = "您的資料已成功匯出至 \"%@\"";
 
@@ -671,6 +682,7 @@
 "cloud_setting_info_title" = "描述";
 "cloud_setting_info_description" = "以下視圖提供了當前 iCloud 同步狀態的更詳細概述，並有助於排除故障。";
 
+/* Status */
 "cloud_setting_network_status_title" = "網路";
 "cloud_setting_network_status_success_value" = "可用的網際網路連線";
 "cloud_setting_network_status_error_value" = "沒有網際網路連線";
@@ -687,7 +699,10 @@
 "cloud_setting_number_of_transactions_in_progress_title" = "請等待...";
 "cloud_setting_number_of_transactions_error_title" = "錯誤";
 
+/* Buttons */
 "import_from_cloud_button" = "從 iCloud 下載";
+
+/* Footer */
 "manual_sync_cloud_setting_footer_title" = "如果您的資料未與 iCloud 同步或未完全同步，您可以在此手動啟動同步。";
 
 /* MARK: - Backup Settings View */
@@ -695,33 +710,33 @@
 "backup_setting_info_title" = "描述";
 "backup_setting_info_description" = "啟用後，Budget Flow 將定期備份您的數據，以便您可以隨時將應用程式還原到先前的狀態。";
 
+/* Sections */
 "backup_setting_general_section_title" = "通用";
 "backup_setting_recent_section_title" = "最近備份";
+
+/* Titles */
 "backup_setting_use_automatic_backups_title" = "自動備份";
 "backup_setting_back_up_to_icloud_drive_title" = "備份到 iCloud Drive";
-
 "backup_setting_keep_backups_title" = "保留備份";
+"backup_setting_create_backup_title" = "建立備份";
+"backup_setting_no_recent_backups_title" = "沒有可用備份";
+"backup_setting_backup_subtitle" = "%@ · %@";
+
+/* Options */
 "backup_setting_keep_backups_last_5_title" = "最近 5 個";
 "backup_setting_keep_backups_last_10_title" = "最近 10 個";
 "backup_setting_keep_backups_last_20_title" = "最近 20 個";
 "backup_setting_keep_backups_last_30_title" = "最近 30 個";
 "backup_setting_keep_backups_all_title" = "全部";
 
-"backup_setting_create_backup_title" = "建立備份";
-
-"backup_setting_no_recent_backups_title" = "沒有可用備份";
-"backup_setting_backup_subtitle" = "%@ · %@";
-
+/* Alert Views */
 "backup_setting_delete_backup_alert_title" = "刪除備份";
 "backup_setting_delete_backup_alert_message" = "你確定要刪除此備份嗎？";
-
 "backup_setting_restore_success_title" = "備份已還原";
 "backup_setting_restore_success_message" = "所選備份已還原。";
-
 "backup_setting_error_title" = "備份失敗";
 "backup_setting_icloud_drive_unavailable_error" = "此裝置無法使用 iCloud Drive。";
 "backup_setting_could_not_create_backup_directory_error" = "無法建立備份資料夾。";
-
 "alert_restore_backup_title" = "還原備份";
 "alert_restore_backup_message" = "你確定要還原此備份嗎？\n\n這會刪除你目前的資料，並以所選備份中的資料取代。\n\n警告：此操作無法復原！";
 "alert_restore_backup_button" = "還原備份";
@@ -747,9 +762,11 @@
 "backup_restore_progress_reminders" = "提醒事項";
 
 /* MARK: - Advanced Settings View */
+/* Info */
 "advanced_setting_info_title" = "描述";
 "advanced_setting_info_description" = "進行更多設定以設定應用程式";
 
+/* Sections */
 "advanced_security_setting_section_title" = "安全性";
 "advanced_view_setting_section_title" = "視圖";
 "advanced_sidebar_setting_section_title" = "側邊欄";
@@ -758,10 +775,12 @@
 "advanced_input_setting_section_title" = "輸入";
 "advanced_other_setting_section_title" = "其他";
 
+/* Security */
 "advanced_setting_use_passcode_title" = "使用密碼";
 "advanced_setting_use_title" = "使用 %@";
 "advanced_setting_auto_lock_title" = "請求密碼";
 
+/* View */
 "advanced_setting_chart_type_title" = "圖表類型";
 "advanced_setting_show_most_used_items_title" = "顯示最常用類別和標籤";
 "advanced_setting_show_most_used_items_description" = "建立和編輯交易時，在選擇清單中顯示最常用的類別和標籤。";
@@ -773,19 +792,10 @@
 "advanced_setting_start_day_of_month_description" = "指定每個月的開始日，以便正確計算報表、交易和預算";
 "advanced_setting_configure_transaction_title_title" = "交易標題";
 "advanced_setting_configure_transaction_subtitle_title" = "交易副標題";
-
 "advanced_setting_configure_transaction_title_info_title" = "描述";
 "advanced_setting_configure_transaction_title_info_description" = "設定交易標題中顯示項目的順序。如果缺少某一項，則自動使用順序中的下一項。";
 
-"advanced_setting_show_accounts_in_sidebar_title" = "在側邊欄顯示帳戶";
-"advanced_setting_show_accounts_in_sidebar_description" = "啟用此功能以在側邊欄顯示您的帳戶清單";
-"advanced_setting_group_accounts_in_sidebar_title" = "在側邊欄中分組帳戶";
-"advanced_setting_group_accounts_in_sidebar_description" = "在側邊欄中按類型分組您的帳戶。";
-"advanced_setting_show_categories_in_sidebar_title" = "在側邊欄顯示類別";
-"advanced_setting_show_categories_in_sidebar_description" = "在側邊欄顯示類別清單。";
-"advanced_setting_group_categories_in_sidebar_title" = "在側邊欄中分組類別";
-"advanced_setting_group_categories_in_sidebar_description" = "按資料夾對側邊欄中的類別進行分組。";
-
+/* Input */
 "advanced_setting_select_time_automatically_title" = "自動選擇時間";
 "advanced_setting_select_time_automatically_description" = "啟用此功能以為新交易自動選擇目前時間";
 "advanced_setting_select_location_automatically_title" = "自動選擇位置";
@@ -797,11 +807,23 @@
 "advanced_setting_consider_pending_items_title" = "預訂所有交易";
 "advanced_setting_consider_pending_items_description" = "啟用此功能以在計算帳戶餘額、餘額、總金額等時包含待處理的交易";
 
+/* Sidebar */
+"advanced_setting_show_accounts_in_sidebar_title" = "在側邊欄顯示帳戶";
+"advanced_setting_show_accounts_in_sidebar_description" = "啟用此功能以在側邊欄顯示您的帳戶清單";
+"advanced_setting_group_accounts_in_sidebar_title" = "在側邊欄中分組帳戶";
+"advanced_setting_group_accounts_in_sidebar_description" = "在側邊欄中按類型分組您的帳戶。";
+"advanced_setting_show_categories_in_sidebar_title" = "在側邊欄顯示類別";
+"advanced_setting_show_categories_in_sidebar_description" = "在側邊欄顯示類別清單。";
+"advanced_setting_group_categories_in_sidebar_title" = "在側邊欄中分組類別";
+"advanced_setting_group_categories_in_sidebar_description" = "按資料夾對側邊欄中的類別進行分組。";
+
+/* Apple Intelligence */
 "advanced_setting_use_apple_intelligence_in_receipt_scanner_title" = "收據掃描器";
 "advanced_setting_use_apple_intelligence_in_receipt_scanner_description" = "在掃描收據時使用 Apple Intelligence 自動填寫額外欄位。";
 "advanced_setting_use_apple_intelligence_in_shortcuts_title" = "捷徑";
 "advanced_setting_use_apple_intelligence_in_shortcuts_description" = "使用 Apple Intelligence 在捷徑自動化中自動辨識類別和收款人。";
 
+/* Input */
 "advanced_setting_enable_exact_times_title" = "輸入精確時間";
 "advanced_setting_enable_exact_times_description" = "啟用此功能以為交易選擇精確時間，使用分鐘選擇器（例如 9:41）";
 "advanced_setting_reverse_keyboard_title" = "反轉鍵盤";
@@ -809,6 +831,7 @@
 "advanced_setting_enable_haptic_keyboard_title" = "鍵盤回饋";
 "advanced_setting_enable_haptic_keyboard_description" = "啟用此功能以在鍵盤上輸入金額時獲得觸覺回饋";
 
+/* Other */
 "advanced_setting_language_title" = "語言";
 "advanced_setting_time_zone_title" = "時區";
 "advanced_setting_enable_live_activities_title" = "即時活動";
@@ -1193,7 +1216,7 @@
 
 "alert_confirm_delete_contra_entry_title" = "此交易是一筆轉帳。您是否還要刪除對方條目？";
 
-/* Updates */
+/* Update */
 "alert_confirm_update_contra_entry_title" = "此交易是一筆轉帳。您是否也想更新交易條目？";
 "alert_confirm_update_transaction_multiple_title" = "這筆交易屬於一個群組。您想要保存哪些？";
 "alert_confirm_update_transaction_single_button" = "只儲存此條";
@@ -1322,7 +1345,7 @@
 "no_reminders_found_button_title" = "新提醒";
 "reminders_search_placeholder_message" = "依提醒標題搜尋";
 
-/* Value */
+/* Values */
 "balance" = "餘額";
 
 
@@ -1586,7 +1609,7 @@
 "location_selection_searchbar_placeholder" = "搜尋";
 "location_selection_search_history_title" = "最近";
 
-/* Buttons */
+/* Button */
 "location_selection_select_button_title" = "選擇";
 
 /* Alert Views */
@@ -1920,7 +1943,7 @@
 "icon_keyword_banknote" = "鈔票";
 "icon_keyword_refund" = "退款";
 "icon_keyword_dollar" = "美元";
-"icon_keyword_cents" = "美分";
+"icon_keyword_cent" = "美分";
 "icon_keyword_yen" = "日圓";
 "icon_keyword_pound" = "磅";
 "icon_keyword_franc" = "法郎";
@@ -2038,7 +2061,7 @@
 "icon_keyword_tire" = "輪胎";
 "icon_keyword_oilcan" = "油罐";
 "icon_keyword_keys" = "按鍵";
-"icon_keyword_fire_sculpter" = "滅火器";
+"icon_keyword_fire_extinguisher" = "滅火器";
 "icon_keyword_hockey" = "曲棍球";
 "icon_keyword_ice_hockey" = "冰上曲棍球";
 "icon_keyword_ice_skating" = "滑冰";

@@ -371,7 +371,6 @@
 /* Formats */
 "transaction_filter_range_format" = "%@–%@";
 
-
 /* MARK: - Period Selection View */
 /* Titles */
 "period_selection_title" = "Időszak";
@@ -624,39 +623,51 @@
 /* Info */
 "appearance_setting_info_title" = "Leírás";
 "appearance_setting_info_description" = "Személyre szabhatja az alkalmazást az alkalmazás megjelenésének módosításával.";
+
+/* Sections */
 "appearance_ui_style_setting_section_title" = "Téma";
+"appearance_accent_color_setting_section_title" = "Kiemelési szín";
+"appearance_app_icon_setting_section_title" = "Alkalmazásikon";
+
+/* Options */
 "appearance_ui_style_apply_to_icons_title" = "Alkalmazás ikonokra";
 "appearance_ui_style_apply_to_icons_description" = "Alkalmazza a kiválasztott megjelenést az alkalmazás összes ikonjára is.";
-"appearance_accent_color_setting_section_title" = "Kiemelési szín";
+
+/* Footer */
 "appearance_accent_color_setting_footer_title" = "Módosítja a gombok és egyéb vezérlők színét az alkalmazáson belül.";
-"appearance_app_icon_setting_section_title" = "Alkalmazásikon";
 
 /* MARK: - Sync & Data Settings View */
 /* Info */
 "sync_and_data_setting_info_title" = "Leírás";
 "sync_and_data_setting_info_description" = "Áttekintést kaphat az aktuális szinkronizálási állapotról, és importálhat vagy exportálhat adatokat egy CSV-fájl segítségével.";
 
+/* Sections */
 "sync_and_data_cloud_setting_section_title" = "iCloud";
-"sync_and_data_cloud_setting_footer_title" = "Jelzi, hogy az iClouddal való szinkronizálás sikeres volt-e, vagy hiba történt.";
-"sync_and_data_setting_cloud_sync_status_title" = "Szinkronizálási állapot";
 "backup_setting_section_title" = "Biztonsági másolatok";
-"backup_setting_footer_title" = "A biztonsági mentések és a biztonsági mentési beállítások kezelése.";
-"backup_setting_manage_backups_title" = "Kezelés";
 "sync_and_data_csv_setting_section_title" = "CSV-adatok";
-"sync_and_data_csv_setting_footer_title" = "Importálja vagy exportálja tranzakcióit CSV-fájl segítségével.";
+
+/* Titles */
+"sync_and_data_setting_cloud_sync_status_title" = "Szinkronizálási állapot";
+"backup_setting_manage_backups_title" = "Kezelés";
 "sync_and_data_setting_csv_import_title" = "Importálás";
 "sync_and_data_setting_csv_export_title" = "Exportálás";
 "sync_and_data_setting_get_csv_template_title" = "Sablon letöltése";
 
+/* Buttons */
 "clear_cache_button" = "Gyorsítótár törlése";
+
+/* Footer */
+"sync_and_data_cloud_setting_footer_title" = "Jelzi, hogy az iClouddal való szinkronizálás sikeres volt-e, vagy hiba történt.";
+"backup_setting_footer_title" = "A biztonsági mentések és a biztonsági mentési beállítások kezelése.";
+"sync_and_data_csv_setting_footer_title" = "Importálja vagy exportálja tranzakcióit CSV-fájl segítségével.";
 "cache_setting_footer_title" = "Információ: A gyorsítótár törlésével az alkalmazás dokumentumkönyvtárában lévő összes fájl törlődik (beleértve a biztonsági másolatokat is).";
 
+/* Alert Views */
 "alert_csv_import_successful_title" = "Az importálás sikeres 🎉";
 "alert_csv_import_successful_message" = "Összesen %d/%d tranzakció került importálásra.%@";
 "alert_csv_import_skipped_message" = " Emiatt %d tranzakció kimaradt.";
 "alert_csv_import_error_message" = "%d/%d tranzakció sikeres importálása sikertelen.\n\n%@";
 "alert_csv_import_error_reason_field_message" = "Kérjük, ellenőrizze a következő mezőket a CSV-fájlban: %@.";
-
 "alert_csv_export_successful_title" = "Az exportálás sikeres 🎉";
 "alert_csv_export_successful_message" = "Az adatai sikeresen exportálva a következőbe: \"%@\".";
 
@@ -671,6 +682,7 @@
 "cloud_setting_info_title" = "Leírás";
 "cloud_setting_info_description" = "A következő nézet részletesebb áttekintést nyújt az iCloud jelenlegi szinkronizálási állapotáról, és segít a hibaelhárításban.";
 
+/* Status */
 "cloud_setting_network_status_title" = "Hálózat";
 "cloud_setting_network_status_success_value" = "Internetkapcsolat elérhető";
 "cloud_setting_network_status_error_value" = "Nincs internetkapcsolat";
@@ -687,7 +699,10 @@
 "cloud_setting_number_of_transactions_in_progress_title" = "Kérjük, várjon...";
 "cloud_setting_number_of_transactions_error_title" = "Hiba";
 
+/* Buttons */
 "import_from_cloud_button" = "Letöltés iCloudból";
+
+/* Footer */
 "manual_sync_cloud_setting_footer_title" = "Ha adataid nem vagy nem teljesen szinkronizálódtak az iClouddal, itt manuálisan indíthatod a szinkronizálást.";
 
 /* MARK: - Backup Settings View */
@@ -695,33 +710,33 @@
 "backup_setting_info_title" = "Leírás";
 "backup_setting_info_description" = "Ha engedélyezve van, a Budget Flow rendszeresen biztonsági másolatot készít az adatokról, így bármikor visszaállíthatja az alkalmazást egy korábbi állapotba.";
 
+/* Sections */
 "backup_setting_general_section_title" = "Általános";
 "backup_setting_recent_section_title" = "Legutóbbi biztonsági másolatok";
+
+/* Titles */
 "backup_setting_use_automatic_backups_title" = "Automatikus biztonsági mentés";
 "backup_setting_back_up_to_icloud_drive_title" = "Biztonsági mentés az iCloud Drive-ra";
-
 "backup_setting_keep_backups_title" = "Biztonsági mentések megőrzése";
+"backup_setting_create_backup_title" = "Biztonsági másolat létrehozása";
+"backup_setting_no_recent_backups_title" = "Nincs elérhető biztonsági mentés";
+"backup_setting_backup_subtitle" = "%@ · %@";
+
+/* Options */
 "backup_setting_keep_backups_last_5_title" = "Utolsó 5";
 "backup_setting_keep_backups_last_10_title" = "Utolsó 10";
 "backup_setting_keep_backups_last_20_title" = "Utolsó 20";
 "backup_setting_keep_backups_last_30_title" = "Utolsó 30";
 "backup_setting_keep_backups_all_title" = "Összes";
 
-"backup_setting_create_backup_title" = "Biztonsági másolat létrehozása";
-
-"backup_setting_no_recent_backups_title" = "Nincs elérhető biztonsági mentés";
-"backup_setting_backup_subtitle" = "%@ · %@";
-
+/* Alert Views */
 "backup_setting_delete_backup_alert_title" = "Biztonsági mentés törlése";
 "backup_setting_delete_backup_alert_message" = "Biztosan törölni szeretné ezt a biztonsági mentést?";
-
 "backup_setting_restore_success_title" = "Biztonsági mentés visszaállítva";
 "backup_setting_restore_success_message" = "A kiválasztott biztonsági mentés vissza lett állítva.";
-
 "backup_setting_error_title" = "A biztonsági mentés sikertelen";
 "backup_setting_icloud_drive_unavailable_error" = "Az iCloud Drive nem érhető el ezen az eszközön.";
 "backup_setting_could_not_create_backup_directory_error" = "A biztonsági mentések mappája nem hozható létre.";
-
 "alert_restore_backup_title" = "Biztonsági mentés visszaállítása";
 "alert_restore_backup_message" = "Biztosan vissza szeretné állítani ezt a biztonsági mentést?\n\nEz törli a jelenlegi adatait, és lecseréli őket a kiválasztott biztonsági mentés adataira.\n\nFigyelmeztetés: Ez a művelet nem vonható vissza!";
 "alert_restore_backup_button" = "Biztonsági másolat visszaállítása";
@@ -747,9 +762,11 @@
 "backup_restore_progress_reminders" = "Emlékeztetők";
 
 /* MARK: - Advanced Settings View */
+/* Info */
 "advanced_setting_info_title" = "Leírás";
 "advanced_setting_info_description" = "Végezze el további beállításokat az alkalmazás konfigurálásához.";
 
+/* Sections */
 "advanced_security_setting_section_title" = "Biztonság";
 "advanced_view_setting_section_title" = "Megjelenítés";
 "advanced_sidebar_setting_section_title" = "Oldalsáv";
@@ -758,10 +775,12 @@
 "advanced_input_setting_section_title" = "Bemenet";
 "advanced_other_setting_section_title" = "Egyéb";
 
+/* Security */
 "advanced_setting_use_passcode_title" = "Jelszó használata";
 "advanced_setting_use_title" = "A %@ használata";
 "advanced_setting_auto_lock_title" = "Kód kérése";
 
+/* View */
 "advanced_setting_chart_type_title" = "Diagramtípus";
 "advanced_setting_show_most_used_items_title" = "Leggyakrabban használt kategóriák és címkék megjelenítése";
 "advanced_setting_show_most_used_items_description" = "Leggyakrabban használt kategóriák és címkék megjelenítése a kiválasztási listában tranzakciók létrehozásakor és szerkesztésekor.";
@@ -773,19 +792,10 @@
 "advanced_setting_start_day_of_month_description" = "Adja meg minden hónap kezdő napját, hogy a jelentések, tranzakciók és költségvetések megfelelően kerüljenek kiszámításra.";
 "advanced_setting_configure_transaction_title_title" = "Tranzakció címe";
 "advanced_setting_configure_transaction_subtitle_title" = "Tranzakció alcím";
-
 "advanced_setting_configure_transaction_title_info_title" = "Leírás";
 "advanced_setting_configure_transaction_title_info_description" = "Állítsa be a tranzakció címében megjelenítendő tételek sorrendjét. Ha egy tétel hiányzik, a rendszer automatikusan a következőt használja a rendelésben.";
 
-"advanced_setting_show_accounts_in_sidebar_title" = "Fiókok megjelenítése az oldalsávon";
-"advanced_setting_show_accounts_in_sidebar_description" = "A fiókok listájának megjelenítése az oldalsávon.";
-"advanced_setting_group_accounts_in_sidebar_title" = "Csoportos fiókok az oldalsávon";
-"advanced_setting_group_accounts_in_sidebar_description" = "Csoportosítsa fiókjait az oldalsávon típus szerint.";
-"advanced_setting_show_categories_in_sidebar_title" = "Kategóriák megjelenítése az oldalsávon";
-"advanced_setting_show_categories_in_sidebar_description" = "A kategóriák listájának megjelenítése az oldalsávon.";
-"advanced_setting_group_categories_in_sidebar_title" = "Kategóriák csoportosítása az oldalsávban";
-"advanced_setting_group_categories_in_sidebar_description" = "Csoportosítsa kategóriáit az oldalsávon mappák szerint.";
-
+/* Input */
 "advanced_setting_select_time_automatically_title" = "Automatikus időválasztás";
 "advanced_setting_select_time_automatically_description" = "Az aktuális időpont automatikus kiválasztása az új tranzakciókhoz.";
 "advanced_setting_select_location_automatically_title" = "Automatikus helyválasztás";
@@ -797,11 +807,23 @@
 "advanced_setting_consider_pending_items_title" = "Összes tranzakció lefoglalása";
 "advanced_setting_consider_pending_items_description" = "A függőben lévő tranzakciók belefoglalása a számlaegyenlegek, egyenlegek, végösszegek stb. kiszámításakor.";
 
+/* Sidebar */
+"advanced_setting_show_accounts_in_sidebar_title" = "Fiókok megjelenítése az oldalsávon";
+"advanced_setting_show_accounts_in_sidebar_description" = "A fiókok listájának megjelenítése az oldalsávon.";
+"advanced_setting_group_accounts_in_sidebar_title" = "Csoportos fiókok az oldalsávon";
+"advanced_setting_group_accounts_in_sidebar_description" = "Csoportosítsa fiókjait az oldalsávon típus szerint.";
+"advanced_setting_show_categories_in_sidebar_title" = "Kategóriák megjelenítése az oldalsávon";
+"advanced_setting_show_categories_in_sidebar_description" = "A kategóriák listájának megjelenítése az oldalsávon.";
+"advanced_setting_group_categories_in_sidebar_title" = "Kategóriák csoportosítása az oldalsávban";
+"advanced_setting_group_categories_in_sidebar_description" = "Csoportosítsa kategóriáit az oldalsávon mappák szerint.";
+
+/* Apple Intelligence */
 "advanced_setting_use_apple_intelligence_in_receipt_scanner_title" = "Nyugták szkennelése";
 "advanced_setting_use_apple_intelligence_in_receipt_scanner_description" = "Használja az Apple Intelligence-et további mezők automatikus kitöltéséhez nyugta szkennelésekor.";
 "advanced_setting_use_apple_intelligence_in_shortcuts_title" = "Parancsok";
 "advanced_setting_use_apple_intelligence_in_shortcuts_description" = "Az Apple Intelligence használata kategóriák és kedvezményezettek automatikus felismerésére a parancsautomatizálásokban.";
 
+/* Input */
 "advanced_setting_enable_exact_times_title" = "Adja meg a pontos időpontokat";
 "advanced_setting_enable_exact_times_description" = "Válassza ki a pontos időpontokat a tranzakciókhoz a percforgató segítségével (pl. 9:41).";
 "advanced_setting_reverse_keyboard_title" = "Fordított billentyűzet";
@@ -809,6 +831,7 @@
 "advanced_setting_enable_haptic_keyboard_title" = "Visszajelzés a billentyűzetről";
 "advanced_setting_enable_haptic_keyboard_description" = "Érzékeny visszajelzést kaphat, amikor pénzösszegeket ír be a billentyűzet segítségével.";
 
+/* Other */
 "advanced_setting_language_title" = "Nyelv";
 "advanced_setting_time_zone_title" = "Időzóna";
 "advanced_setting_enable_live_activities_title" = "Élő tevékenységek";
@@ -1193,7 +1216,7 @@
 
 "alert_confirm_delete_contra_entry_title" = "Ez a tranzakció egy átutalás. Szeretné törölni a kontra bejegyzést is?";
 
-/* Updates */
+/* Update */
 "alert_confirm_update_contra_entry_title" = "Ez a tranzakció egy átutalás. Szeretné frissíteni a kontra bejegyzést is?";
 "alert_confirm_update_transaction_multiple_title" = "Ez a tranzakció egy csoporthoz tartozik. Pontosan mit szeretne menteni?";
 "alert_confirm_update_transaction_single_button" = "Csak ezt mentse";
@@ -1322,7 +1345,7 @@
 "no_reminders_found_button_title" = "Új emlékeztető";
 "reminders_search_placeholder_message" = "Keresés egy emlékeztető címe alapján";
 
-/* Value */
+/* Values */
 "balance" = "Egyenleg";
 
 
@@ -1586,7 +1609,7 @@
 "location_selection_searchbar_placeholder" = "Keresés";
 "location_selection_search_history_title" = "Legutóbbi";
 
-/* Buttons */
+/* Button */
 "location_selection_select_button_title" = "Kiválasztás";
 
 /* Alert Views */
@@ -1920,7 +1943,7 @@
 "icon_keyword_banknote" = "Bankjegy";
 "icon_keyword_refund" = "Visszatérítés";
 "icon_keyword_dollar" = "Dollar";
-"icon_keyword_cents" = "Centek";
+"icon_keyword_cent" = "Centek";
 "icon_keyword_yen" = "Yen";
 "icon_keyword_pound" = "Font";
 "icon_keyword_franc" = "Franciaország";

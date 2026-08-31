@@ -371,7 +371,6 @@
 /* Formats */
 "transaction_filter_range_format" = "%@ till %@";
 
-
 /* MARK: - Period Selection View */
 /* Titles */
 "period_selection_title" = "Period";
@@ -624,39 +623,51 @@
 /* Info */
 "appearance_setting_info_title" = "Beskrivning";
 "appearance_setting_info_description" = "Anpassa appen efter eget tycke genom att ändra appens utseende.";
+
+/* Sections */
 "appearance_ui_style_setting_section_title" = "Tema";
+"appearance_accent_color_setting_section_title" = "Accentfärg";
+"appearance_app_icon_setting_section_title" = "Appikon";
+
+/* Options */
 "appearance_ui_style_apply_to_icons_title" = "Tillämpa på ikoner";
 "appearance_ui_style_apply_to_icons_description" = "Tillämpa även det valda utseendet på alla ikoner i appen.";
-"appearance_accent_color_setting_section_title" = "Accentfärg";
+
+/* Footer */
 "appearance_accent_color_setting_footer_title" = "Ändrar färgen på knappar och andra kontroller i appen.";
-"appearance_app_icon_setting_section_title" = "Appikon";
 
 /* MARK: - Sync & Data Settings View */
 /* Info */
 "sync_and_data_setting_info_title" = "Beskrivning";
 "sync_and_data_setting_info_description" = "Få en översikt över den aktuella synkroniseringsstatusen och importera eller exportera data med en CSV-fil.";
 
+/* Sections */
 "sync_and_data_cloud_setting_section_title" = "iCloud";
-"sync_and_data_cloud_setting_footer_title" = "Anger om synkroniseringen med iCloud lyckades eller om ett fel uppstod.";
-"sync_and_data_setting_cloud_sync_status_title" = "Synkroniseringsstatus";
 "backup_setting_section_title" = "Säkerhetskopieringar";
-"backup_setting_footer_title" = "Hantera dina säkerhetskopior och säkerhetskopieringsinställningar.";
-"backup_setting_manage_backups_title" = "Hantera";
 "sync_and_data_csv_setting_section_title" = "CSV-data";
-"sync_and_data_csv_setting_footer_title" = "Importera eller exportera dina transaktioner med en CSV-fil.";
+
+/* Titles */
+"sync_and_data_setting_cloud_sync_status_title" = "Synkroniseringsstatus";
+"backup_setting_manage_backups_title" = "Hantera";
 "sync_and_data_setting_csv_import_title" = "Importera";
 "sync_and_data_setting_csv_export_title" = "Exportera";
 "sync_and_data_setting_get_csv_template_title" = "Ladda ned mall";
 
+/* Buttons */
 "clear_cache_button" = "Rensa cache";
+
+/* Footer */
+"sync_and_data_cloud_setting_footer_title" = "Anger om synkroniseringen med iCloud lyckades eller om ett fel uppstod.";
+"backup_setting_footer_title" = "Hantera dina säkerhetskopior och säkerhetskopieringsinställningar.";
+"sync_and_data_csv_setting_footer_title" = "Importera eller exportera dina transaktioner med en CSV-fil.";
 "cache_setting_footer_title" = "Info: Rensning av cacheminnet raderar alla filer i appens dokumentkatalog (inklusive säkerhetskopior).";
 
+/* Alert Views */
 "alert_csv_import_successful_title" = "Importen lyckades 🎉";
 "alert_csv_import_successful_message" = "Totalt importerades %d av %d transaktioner.%@";
 "alert_csv_import_skipped_message" = " Därmed har %d transaktioner hoppats över.";
 "alert_csv_import_error_message" = "Det gick inte att importera %d av %d transaktioner.\n\n%@";
 "alert_csv_import_error_reason_field_message" = "Kontrollera följande fält i din CSV-fil: %@.";
-
 "alert_csv_export_successful_title" = "Exporten lyckades 🎉";
 "alert_csv_export_successful_message" = "Din data exporterades framgångsrikt till \"%@\".";
 
@@ -671,6 +682,7 @@
 "cloud_setting_info_title" = "Beskrivning";
 "cloud_setting_info_description" = "Följande vy ger en mer detaljerad översikt över den aktuella iCloud-synkroniseringsstatusen och hjälper till med felsökning.";
 
+/* Status */
 "cloud_setting_network_status_title" = "Nätverk";
 "cloud_setting_network_status_success_value" = "Internetanslutning tillgänglig";
 "cloud_setting_network_status_error_value" = "Ingen internetanslutning";
@@ -687,7 +699,10 @@
 "cloud_setting_number_of_transactions_in_progress_title" = "Vänta...";
 "cloud_setting_number_of_transactions_error_title" = "Fel";
 
+/* Buttons */
 "import_from_cloud_button" = "Ladda ner från iCloud";
+
+/* Footer */
 "manual_sync_cloud_setting_footer_title" = "Om dina data inte har synkroniserats eller inte har synkroniserats helt med iCloud kan du starta synkroniseringen manuellt här.";
 
 /* MARK: - Backup Settings View */
@@ -695,33 +710,33 @@
 "backup_setting_info_title" = "Beskrivning";
 "backup_setting_info_description" = "När den är aktiverad säkerhetskopierar Budget Flow regelbundet dina data så att du kan återställa appen till ett tidigare tillstånd när som helst.";
 
+/* Sections */
 "backup_setting_general_section_title" = "Allmänt";
 "backup_setting_recent_section_title" = "Senaste säkerhetskopior";
+
+/* Titles */
 "backup_setting_use_automatic_backups_title" = "Automatisk säkerhetskopiering";
 "backup_setting_back_up_to_icloud_drive_title" = "Säkerhetskopiera till iCloud Drive";
-
 "backup_setting_keep_backups_title" = "Behåll säkerhetskopior";
+"backup_setting_create_backup_title" = "Skapa säkerhetskopia";
+"backup_setting_no_recent_backups_title" = "Inga säkerhetskopior tillgängliga";
+"backup_setting_backup_subtitle" = "%@ · %@";
+
+/* Options */
 "backup_setting_keep_backups_last_5_title" = "Senaste 5";
 "backup_setting_keep_backups_last_10_title" = "Senaste 10";
 "backup_setting_keep_backups_last_20_title" = "Senaste 20";
 "backup_setting_keep_backups_last_30_title" = "Senaste 30";
 "backup_setting_keep_backups_all_title" = "Alla";
 
-"backup_setting_create_backup_title" = "Skapa säkerhetskopia";
-
-"backup_setting_no_recent_backups_title" = "Inga säkerhetskopior tillgängliga";
-"backup_setting_backup_subtitle" = "%@ · %@";
-
+/* Alert Views */
 "backup_setting_delete_backup_alert_title" = "Radera säkerhetskopia";
 "backup_setting_delete_backup_alert_message" = "Är du säker på att du vill radera den här säkerhetskopian?";
-
 "backup_setting_restore_success_title" = "Säkerhetskopia återställd";
 "backup_setting_restore_success_message" = "Den valda säkerhetskopian har återställts.";
-
 "backup_setting_error_title" = "Säkerhetskopiering misslyckades";
 "backup_setting_icloud_drive_unavailable_error" = "iCloud Drive är inte tillgängligt på den här enheten.";
 "backup_setting_could_not_create_backup_directory_error" = "Det gick inte att skapa säkerhetskopieringsmappen.";
-
 "alert_restore_backup_title" = "Återställ säkerhetskopia";
 "alert_restore_backup_message" = "Är du säker på att du vill återställa den här säkerhetskopian?\n\nDetta raderar dina nuvarande data och ersätter dem med data från den valda säkerhetskopian.\n\nVarning: Den här åtgärden kan inte ångras!";
 "alert_restore_backup_button" = "Återställ säkerhetskopia";
@@ -747,9 +762,11 @@
 "backup_restore_progress_reminders" = "Påminnelser";
 
 /* MARK: - Advanced Settings View */
+/* Info */
 "advanced_setting_info_title" = "Beskrivning";
 "advanced_setting_info_description" = "Gör ytterligare inställningar för att konfigurera appen.";
 
+/* Sections */
 "advanced_security_setting_section_title" = "Säkerhet";
 "advanced_view_setting_section_title" = "Visa";
 "advanced_sidebar_setting_section_title" = "Sidofält";
@@ -758,10 +775,12 @@
 "advanced_input_setting_section_title" = "Inmatning";
 "advanced_other_setting_section_title" = "Annat";
 
+/* Security */
 "advanced_setting_use_passcode_title" = "Använd lösenord";
 "advanced_setting_use_title" = "Använd %@";
 "advanced_setting_auto_lock_title" = "Begär kod";
 
+/* View */
 "advanced_setting_chart_type_title" = "Diagramtyp";
 "advanced_setting_show_most_used_items_title" = "Visa mest använda kategorier och taggar";
 "advanced_setting_show_most_used_items_description" = "Visa mest använda kategorier och taggar i urvalslistan när du skapar och redigerar transaktioner.";
@@ -773,19 +792,10 @@
 "advanced_setting_start_day_of_month_description" = "Ange startdagen för varje månad så att rapporter, transaktioner och budgetar beräknas på lämpligt sätt.";
 "advanced_setting_configure_transaction_title_title" = "Transaktionens titel";
 "advanced_setting_configure_transaction_subtitle_title" = "Transaktionens undertitel";
-
 "advanced_setting_configure_transaction_title_info_title" = "Beskrivning";
 "advanced_setting_configure_transaction_title_info_description" = "Ställ in ordningen på objekten som ska visas i transaktionstiteln. Om en artikel saknas, används nästa i beställningen automatiskt.";
 
-"advanced_setting_show_accounts_in_sidebar_title" = "Visa konton i sidofältet";
-"advanced_setting_show_accounts_in_sidebar_description" = "Visa en lista över dina konton i sidofältet.";
-"advanced_setting_group_accounts_in_sidebar_title" = "Gruppkonton i sidofältet";
-"advanced_setting_group_accounts_in_sidebar_description" = "Gruppera dina konton i sidofältet efter typ.";
-"advanced_setting_show_categories_in_sidebar_title" = "Visa kategorier i sidofältet";
-"advanced_setting_show_categories_in_sidebar_description" = "Visa en lista över dina kategorier i sidofältet.";
-"advanced_setting_group_categories_in_sidebar_title" = "Gruppkategorier i sidofältet";
-"advanced_setting_group_categories_in_sidebar_description" = "Gruppera dina kategorier i sidofältet efter mapp.";
-
+/* Input */
 "advanced_setting_select_time_automatically_title" = "Automatiskt val av tid";
 "advanced_setting_select_time_automatically_description" = "Välj automatiskt aktuell tid för nya transaktioner.";
 "advanced_setting_select_location_automatically_title" = "Automatiskt platsval";
@@ -797,11 +807,23 @@
 "advanced_setting_consider_pending_items_title" = "Boka alla transaktioner";
 "advanced_setting_consider_pending_items_description" = "Inkludera väntande transaktioner vid beräkning av kontosaldon, saldon, summor etc.";
 
+/* Sidebar */
+"advanced_setting_show_accounts_in_sidebar_title" = "Visa konton i sidofältet";
+"advanced_setting_show_accounts_in_sidebar_description" = "Visa en lista över dina konton i sidofältet.";
+"advanced_setting_group_accounts_in_sidebar_title" = "Gruppkonton i sidofältet";
+"advanced_setting_group_accounts_in_sidebar_description" = "Gruppera dina konton i sidofältet efter typ.";
+"advanced_setting_show_categories_in_sidebar_title" = "Visa kategorier i sidofältet";
+"advanced_setting_show_categories_in_sidebar_description" = "Visa en lista över dina kategorier i sidofältet.";
+"advanced_setting_group_categories_in_sidebar_title" = "Gruppkategorier i sidofältet";
+"advanced_setting_group_categories_in_sidebar_description" = "Gruppera dina kategorier i sidofältet efter mapp.";
+
+/* Apple Intelligence */
 "advanced_setting_use_apple_intelligence_in_receipt_scanner_title" = "Kvittoskanner";
 "advanced_setting_use_apple_intelligence_in_receipt_scanner_description" = "Använd Apple Intelligence för att automatiskt fylla i extra fält när du skannar ett kvitto.";
 "advanced_setting_use_apple_intelligence_in_shortcuts_title" = "Genvägar";
 "advanced_setting_use_apple_intelligence_in_shortcuts_description" = "Använd Apple Intelligence för att automatiskt identifiera kategorier och betalningsmottagare i genvägsautomatiseringar.";
 
+/* Input */
 "advanced_setting_enable_exact_times_title" = "Ange exakta tider";
 "advanced_setting_enable_exact_times_description" = "Välj exakta tider med minutsnurran för transaktioner (t.ex. 9:41).";
 "advanced_setting_reverse_keyboard_title" = "Omvänt Tangentbord";
@@ -809,6 +831,7 @@
 "advanced_setting_enable_haptic_keyboard_title" = "Tangentbordsfeedback";
 "advanced_setting_enable_haptic_keyboard_description" = "Få haptisk feedback när du anger monetära belopp med tangentbordet.";
 
+/* Other */
 "advanced_setting_language_title" = "Språk";
 "advanced_setting_time_zone_title" = "Tidszon";
 "advanced_setting_enable_live_activities_title" = "Live-aktiviteter";
@@ -1193,7 +1216,7 @@
 
 "alert_confirm_delete_contra_entry_title" = "Denna transaktion är en överföring. Vill du också ta bort motposten?";
 
-/* Uppdateringar */
+/* Update */
 "alert_confirm_update_contra_entry_title" = "Denna transaktion är en överföring. Vill du också uppdatera motposten?";
 "alert_confirm_update_transaction_multiple_title" = "Den här transaktionen tillhör en grupp. Vad exakt vill du spara?";
 "alert_confirm_update_transaction_single_button" = "Spara endast denna";
@@ -1322,7 +1345,7 @@
 "no_reminders_found_button_title" = "Ny påminnelse";
 "reminders_search_placeholder_message" = "Sök efter titeln på en påminnelse";
 
-/* Value */
+/* Values */
 "balance" = "Saldo";
 
 
@@ -1586,7 +1609,7 @@
 "location_selection_searchbar_placeholder" = "Sök";
 "location_selection_search_history_title" = "Senaste";
 
-/* Buttons */
+/* Button */
 "location_selection_select_button_title" = "Välj";
 
 /* Alert Views */
@@ -1920,7 +1943,7 @@
 "icon_keyword_banknote" = "Sedel";
 "icon_keyword_refund" = "Återbetalning";
 "icon_keyword_dollar" = "Dollar";
-"icon_keyword_cents" = "Cents";
+"icon_keyword_cent" = "Cents";
 "icon_keyword_yen" = "Yen";
 "icon_keyword_pound" = "Pund";
 "icon_keyword_franc" = "Frankrike";

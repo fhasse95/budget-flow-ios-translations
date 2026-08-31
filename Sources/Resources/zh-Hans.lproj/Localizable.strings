@@ -371,7 +371,6 @@
 /* Formats */
 "transaction_filter_range_format" = "%@ 至 %@";
 
-
 /* MARK: - Period Selection View */
 /* Titles */
 "period_selection_title" = "时间段";
@@ -624,39 +623,51 @@
 /* Info */
 "appearance_setting_info_title" = "描述";
 "appearance_setting_info_description" = "通过更改应用的外观来个性化您的应用";
+
+/* Sections */
 "appearance_ui_style_setting_section_title" = "主题";
+"appearance_accent_color_setting_section_title" = "强调色";
+"appearance_app_icon_setting_section_title" = "应用图标";
+
+/* Options */
 "appearance_ui_style_apply_to_icons_title" = "应用到图标";
 "appearance_ui_style_apply_to_icons_description" = "将所选外观应用到应用中的所有图标。";
-"appearance_accent_color_setting_section_title" = "强调色";
+
+/* Footer */
 "appearance_accent_color_setting_footer_title" = "更改应用内按钮和其他控件的颜色";
-"appearance_app_icon_setting_section_title" = "应用图标";
 
 /* MARK: - Sync & Data Settings View */
 /* Info */
 "sync_and_data_setting_info_title" = "描述";
 "sync_and_data_setting_info_description" = "获取当前同步状态的概览，并使用 CSV 文件导入或导出数据";
 
+/* Sections */
 "sync_and_data_cloud_setting_section_title" = "iCloud";
-"sync_and_data_cloud_setting_footer_title" = "提示与 iCloud 的同步是否成功或是否发生错误";
-"sync_and_data_setting_cloud_sync_status_title" = "同步状态";
 "backup_setting_section_title" = "备份";
-"backup_setting_footer_title" = "管理您的备份和备份设置";
-"backup_setting_manage_backups_title" = "管理";
 "sync_and_data_csv_setting_section_title" = "CSV-数据";
-"sync_and_data_csv_setting_footer_title" = "使用 CSV 文件导入或导出您的交易";
+
+/* Titles */
+"sync_and_data_setting_cloud_sync_status_title" = "同步状态";
+"backup_setting_manage_backups_title" = "管理";
 "sync_and_data_setting_csv_import_title" = "导入";
 "sync_and_data_setting_csv_export_title" = "导出";
 "sync_and_data_setting_get_csv_template_title" = "下载模板";
 
+/* Buttons */
 "clear_cache_button" = "清除缓存";
+
+/* Footer */
+"sync_and_data_cloud_setting_footer_title" = "提示与 iCloud 的同步是否成功或是否发生错误";
+"backup_setting_footer_title" = "管理您的备份和备份设置";
+"sync_and_data_csv_setting_footer_title" = "使用 CSV 文件导入或导出您的交易";
 "cache_setting_footer_title" = "信息：清除缓存会删除应用文档目录中的所有文件（包括备份)";
 
+/* Alert Views */
 "alert_csv_import_successful_title" = "导入成功 🎉";
 "alert_csv_import_successful_message" = "总共导入了 %d 条交易中的 %d 条。%@";
 "alert_csv_import_skipped_message" = " 其中 %d 条交易被跳过。";
 "alert_csv_import_error_message" = "无法成功导入 %d 条交易中的 %d 条。\n\n%@";
 "alert_csv_import_error_reason_field_message" = "请检查您 CSV 文件中的以下字段：%@";
-
 "alert_csv_export_successful_title" = "导出成功 🎉";
 "alert_csv_export_successful_message" = "您的数据已成功导出到 \"%@\"";
 
@@ -671,6 +682,7 @@
 "cloud_setting_info_title" = "描述";
 "cloud_setting_info_description" = "以下视图提供了当前 iCloud 同步状态的更详细概述，并有助于排除故障。";
 
+/* Status */
 "cloud_setting_network_status_title" = "网络";
 "cloud_setting_network_status_success_value" = "可用的互联网连接";
 "cloud_setting_network_status_error_value" = "没有互联网连接";
@@ -687,7 +699,10 @@
 "cloud_setting_number_of_transactions_in_progress_title" = "请稍候...";
 "cloud_setting_number_of_transactions_error_title" = "错误";
 
+/* Buttons */
 "import_from_cloud_button" = "从 iCloud 下载";
+
+/* Footer */
 "manual_sync_cloud_setting_footer_title" = "如果您的数据未与 iCloud 同步或未完全同步，您可以在此手动启动同步。";
 
 /* MARK: - Backup Settings View */
@@ -695,33 +710,33 @@
 "backup_setting_info_title" = "描述";
 "backup_setting_info_description" = "启用后，Budget Flow 将定期备份您的数据，以便您可以随时将应用恢复到以前的状态。";
 
+/* Sections */
 "backup_setting_general_section_title" = "通用";
 "backup_setting_recent_section_title" = "最近备份";
+
+/* Titles */
 "backup_setting_use_automatic_backups_title" = "自动备份";
 "backup_setting_back_up_to_icloud_drive_title" = "备份到 iCloud Drive";
-
 "backup_setting_keep_backups_title" = "保留备份";
+"backup_setting_create_backup_title" = "创建备份";
+"backup_setting_no_recent_backups_title" = "没有可用备份";
+"backup_setting_backup_subtitle" = "%@ · %@";
+
+/* Options */
 "backup_setting_keep_backups_last_5_title" = "最近 5 个";
 "backup_setting_keep_backups_last_10_title" = "最近 10 个";
 "backup_setting_keep_backups_last_20_title" = "最近 20 个";
 "backup_setting_keep_backups_last_30_title" = "最近 30 个";
 "backup_setting_keep_backups_all_title" = "全部";
 
-"backup_setting_create_backup_title" = "创建备份";
-
-"backup_setting_no_recent_backups_title" = "没有可用备份";
-"backup_setting_backup_subtitle" = "%@ · %@";
-
+/* Alert Views */
 "backup_setting_delete_backup_alert_title" = "删除备份";
 "backup_setting_delete_backup_alert_message" = "确定要删除此备份吗？";
-
 "backup_setting_restore_success_title" = "备份已恢复";
 "backup_setting_restore_success_message" = "所选备份已恢复。";
-
 "backup_setting_error_title" = "备份失败";
 "backup_setting_icloud_drive_unavailable_error" = "此设备上无法使用 iCloud Drive。";
 "backup_setting_could_not_create_backup_directory_error" = "无法创建备份文件夹。";
-
 "alert_restore_backup_title" = "恢复备份";
 "alert_restore_backup_message" = "确定要恢复此备份吗？\n\n这会删除您当前的数据，并用所选备份中的数据替换。\n\n警告：此操作无法撤销！";
 "alert_restore_backup_button" = "恢复备份";
@@ -747,9 +762,11 @@
 "backup_restore_progress_reminders" = "提醒";
 
 /* MARK: - Advanced Settings View */
+/* Info */
 "advanced_setting_info_title" = "描述";
 "advanced_setting_info_description" = "进行更多设置以配置应用";
 
+/* Sections */
 "advanced_security_setting_section_title" = "安全";
 "advanced_view_setting_section_title" = "视图";
 "advanced_sidebar_setting_section_title" = "侧边栏";
@@ -758,10 +775,12 @@
 "advanced_input_setting_section_title" = "输入";
 "advanced_other_setting_section_title" = "其他";
 
+/* Security */
 "advanced_setting_use_passcode_title" = "使用密码";
 "advanced_setting_use_title" = "使用 %@";
 "advanced_setting_auto_lock_title" = "请求密码";
 
+/* View */
 "advanced_setting_chart_type_title" = "图表类型";
 "advanced_setting_show_most_used_items_title" = "显示最常用类别和标签";
 "advanced_setting_show_most_used_items_description" = "创建和编辑交易时，在选择列表中显示最常用的类别和标签。";
@@ -773,19 +792,10 @@
 "advanced_setting_start_day_of_month_description" = "指定每月的开始日，以便正确计算报表、交易和预算";
 "advanced_setting_configure_transaction_title_title" = "交易标题";
 "advanced_setting_configure_transaction_subtitle_title" = "交易副标题";
-
 "advanced_setting_configure_transaction_title_info_title" = "描述";
 "advanced_setting_configure_transaction_title_info_description" = "设置交易标题中显示项目的顺序。如果缺少某个项目，则自动使用顺序中的下一个项目。";
 
-"advanced_setting_show_accounts_in_sidebar_title" = "在侧边栏显示账户";
-"advanced_setting_show_accounts_in_sidebar_description" = "启用此功能以在侧边栏显示您的账户列表";
-"advanced_setting_group_accounts_in_sidebar_title" = "在侧边栏中对帐户进行分组";
-"advanced_setting_group_accounts_in_sidebar_description" = "按类型对侧边栏中的帐户进行分组。";
-"advanced_setting_show_categories_in_sidebar_title" = "在侧边栏中显示类别";
-"advanced_setting_show_categories_in_sidebar_description" = "在侧边栏中显示类别列表。";
-"advanced_setting_group_categories_in_sidebar_title" = "在侧边栏中对类别进行分组";
-"advanced_setting_group_categories_in_sidebar_description" = "按文件夹对侧边栏中的类别进行分组。";
-
+/* Input */
 "advanced_setting_select_time_automatically_title" = "自动选择时间";
 "advanced_setting_select_time_automatically_description" = "启用此功能以为新交易自动选择当前时间";
 "advanced_setting_select_location_automatically_title" = "自动选择位置";
@@ -797,11 +807,23 @@
 "advanced_setting_consider_pending_items_title" = "预订所有交易";
 "advanced_setting_consider_pending_items_description" = "启用此功能以在计算账户余额、余额、总额等时包括待处理的交易";
 
+/* Sidebar */
+"advanced_setting_show_accounts_in_sidebar_title" = "在侧边栏显示账户";
+"advanced_setting_show_accounts_in_sidebar_description" = "启用此功能以在侧边栏显示您的账户列表";
+"advanced_setting_group_accounts_in_sidebar_title" = "在侧边栏中对帐户进行分组";
+"advanced_setting_group_accounts_in_sidebar_description" = "按类型对侧边栏中的帐户进行分组。";
+"advanced_setting_show_categories_in_sidebar_title" = "在侧边栏中显示类别";
+"advanced_setting_show_categories_in_sidebar_description" = "在侧边栏中显示类别列表。";
+"advanced_setting_group_categories_in_sidebar_title" = "在侧边栏中对类别进行分组";
+"advanced_setting_group_categories_in_sidebar_description" = "按文件夹对侧边栏中的类别进行分组。";
+
+/* Apple Intelligence */
 "advanced_setting_use_apple_intelligence_in_receipt_scanner_title" = "收据扫描器";
 "advanced_setting_use_apple_intelligence_in_receipt_scanner_description" = "在扫描收据时使用 Apple Intelligence 自动填写额外字段。";
 "advanced_setting_use_apple_intelligence_in_shortcuts_title" = "快捷指令";
 "advanced_setting_use_apple_intelligence_in_shortcuts_description" = "使用 Apple Intelligence 在快捷指令自动化中自动识别类别和收款人。";
 
+/* Input */
 "advanced_setting_enable_exact_times_title" = "输入精确时间";
 "advanced_setting_enable_exact_times_description" = "启用此功能以为交易选择精确时间，使用分钟选择器（例如 9:41）";
 "advanced_setting_reverse_keyboard_title" = "反转键盘";
@@ -809,6 +831,7 @@
 "advanced_setting_enable_haptic_keyboard_title" = "键盘反馈";
 "advanced_setting_enable_haptic_keyboard_description" = "启用此功能以在键盘上输入金额时获得触觉反馈";
 
+/* Other */
 "advanced_setting_language_title" = "语言";
 "advanced_setting_time_zone_title" = "时区";
 "advanced_setting_enable_live_activities_title" = "实时活动";
@@ -1193,7 +1216,7 @@
 
 "alert_confirm_delete_contra_entry_title" = "此交易为转账。您是否还想删除对销分录？";
 
-/* Updates */
+/* Update */
 "alert_confirm_update_contra_entry_title" = "此交易为转账。您是否还想更新对销分录？";
 "alert_confirm_update_transaction_multiple_title" = "这笔交易属于一个组。您想要保存哪些？";
 "alert_confirm_update_transaction_single_button" = "仅保存此条";
@@ -1322,7 +1345,7 @@
 "no_reminders_found_button_title" = "新建提醒";
 "reminders_search_placeholder_message" = "按提醒标题搜索";
 
-/* Value */
+/* Values */
 "balance" = "余额";
 
 
@@ -1586,7 +1609,7 @@
 "location_selection_searchbar_placeholder" = "搜索";
 "location_selection_search_history_title" = "最近";
 
-/* Buttons */
+/* Button */
 "location_selection_select_button_title" = "选择";
 
 /* Alert Views */
@@ -1920,7 +1943,7 @@
 "icon_keyword_banknote" = "钞票";
 "icon_keyword_refund" = "退款";
 "icon_keyword_dollar" = "美元";
-"icon_keyword_cents" = "美分";
+"icon_keyword_cent" = "美分";
 "icon_keyword_yen" = "日元";
 "icon_keyword_pound" = "磅";
 "icon_keyword_franc" = "法兰克尼亚";

@@ -1,9 +1,9 @@
 /*
- Localizable.strings
- BudgetFlow
- 
- Created by Fabian Hasse on 19.05.20.
- Copyright © 2020 Fabian Hasse. All rights reserved.
+  Localizable.strings
+  BudgetFlow
+
+  Created by Fabian Hasse on 19.05.20.
+  Copyright © 2020 Fabian Hasse. All rights reserved.
 */
 
 /* MARK: - General */
@@ -371,7 +371,6 @@
 /* Formats */
 "transaction_filter_range_format" = "%@ a %@";
 
-
 /* MARK: - Period Selection View */
 /* Titles */
 "period_selection_title" = "Període";
@@ -624,39 +623,51 @@
 /* Info */
 "appearance_setting_info_title" = "Descripció";
 "appearance_setting_info_description" = "Personalitza l'app al teu gust canviant-ne l'aparença.";
+
+/* Sections */
 "appearance_ui_style_setting_section_title" = "Tema";
+"appearance_accent_color_setting_section_title" = "Color d'accent";
+"appearance_app_icon_setting_section_title" = "Icona de l'app";
+
+/* Options */
 "appearance_ui_style_apply_to_icons_title" = "Aplica als icones";
 "appearance_ui_style_apply_to_icons_description" = "Aplica també l'aparença seleccionada a tots els icones de l'app.";
-"appearance_accent_color_setting_section_title" = "Color d'accent";
+
+/* Footer */
 "appearance_accent_color_setting_footer_title" = "Canvia el color dels botons i altres controls dins de l'app.";
-"appearance_app_icon_setting_section_title" = "Icona de l'app";
 
 /* MARK: - Sync & Data Settings View */
 /* Info */
 "sync_and_data_setting_info_title" = "Descripció";
 "sync_and_data_setting_info_description" = "Obtingueu una visió general de l'estat actual de la sincronització i importeu o exporteu dades mitjançant un fitxer CSV.";
 
+/* Sections */
 "sync_and_data_cloud_setting_section_title" = "iCloud";
-"sync_and_data_cloud_setting_footer_title" = "Indica si la sincronització amb iCloud s'ha realitzat correctament o si s'ha produït un error.";
-"sync_and_data_setting_cloud_sync_status_title" = "Estat de sincronització";
 "backup_setting_section_title" = "Backups";
-"backup_setting_footer_title" = "Administra els teus backups i la configuració de backups.";
-"backup_setting_manage_backups_title" = "Gestionar";
 "sync_and_data_csv_setting_section_title" = "Dades CSV";
-"sync_and_data_csv_setting_footer_title" = "Importa o exporta les teves transaccions amb un fitxer CSV.";
+
+/* Titles */
+"sync_and_data_setting_cloud_sync_status_title" = "Estat de sincronització";
+"backup_setting_manage_backups_title" = "Gestionar";
 "sync_and_data_setting_csv_import_title" = "Importar";
 "sync_and_data_setting_csv_export_title" = "Exportar";
 "sync_and_data_setting_get_csv_template_title" = "Descarregar plantilla";
 
+/* Buttons */
 "clear_cache_button" = "Esborrar memòria cau";
+
+/* Footer */
+"sync_and_data_cloud_setting_footer_title" = "Indica si la sincronització amb iCloud s'ha realitzat correctament o si s'ha produït un error.";
+"backup_setting_footer_title" = "Administra els teus backups i la configuració de backups.";
+"sync_and_data_csv_setting_footer_title" = "Importa o exporta les teves transaccions amb un fitxer CSV.";
 "cache_setting_footer_title" = "Informació: En esborrar la memòria cau s'eliminaran tots els fitxers del directori de documents de l'app (incloses les còpies de seguretat).";
 
+/* Alert Views */
 "alert_csv_import_successful_title" = "Importació correcta 🎉";
 "alert_csv_import_successful_message" = "En total, %d de %d transaccions han estat importades.%@";
 "alert_csv_import_skipped_message" = " Per tant, s'han omès %d transaccions.";
 "alert_csv_import_error_message" = "Error en importar %d de %d transaccions correctament.\n\n%@";
 "alert_csv_import_error_reason_field_message" = "Si us plau, comprova els següents camps al teu fitxer CSV: %@.";
-
 "alert_csv_export_successful_title" = "Exportació correcta 🎉";
 "alert_csv_export_successful_message" = "Les teves dades s'han exportat correctament a \"%@\".";
 
@@ -671,6 +682,7 @@
 "cloud_setting_info_title" = "Descripció";
 "cloud_setting_info_description" = "La següent vista proporciona una descripció més detallada de l'estat actual de sincronització d'iCloud i ajuda a resoldre problemes.";
 
+/* Status */
 "cloud_setting_network_status_title" = "Xarxa";
 "cloud_setting_network_status_success_value" = "Connexió a Internet disponible";
 "cloud_setting_network_status_error_value" = "Sense connexió a Internet";
@@ -687,7 +699,10 @@
 "cloud_setting_number_of_transactions_in_progress_title" = "Si us plau, espereu...";
 "cloud_setting_number_of_transactions_error_title" = "Error";
 
+/* Buttons */
 "import_from_cloud_button" = "Descarregar des d'iCloud";
+
+/* Footer */
 "manual_sync_cloud_setting_footer_title" = "Si les teves dades no s'han sincronitzat o no s'han sincronitzat completament amb iCloud, pots iniciar la sincronització manualment aquí.";
 
 /* MARK: - Backup Settings View */
@@ -695,33 +710,33 @@
 "backup_setting_info_title" = "Descripció";
 "backup_setting_info_description" = "Quan està activat, Budget Flow realitza backups periòdics de les teves dades perquè puguis restaurar l'app a un estat anterior en qualsevol moment.";
 
+/* Sections */
 "backup_setting_general_section_title" = "Opcions generals";
 "backup_setting_recent_section_title" = "Backups recents";
+
+/* Titles */
 "backup_setting_use_automatic_backups_title" = "Backup automàtic";
 "backup_setting_back_up_to_icloud_drive_title" = "Fer còpia a iCloud Drive";
-
 "backup_setting_keep_backups_title" = "Conservar còpies";
+"backup_setting_create_backup_title" = "Crear backup";
+"backup_setting_no_recent_backups_title" = "No hi ha còpies disponibles";
+"backup_setting_backup_subtitle" = "%@ · %@";
+
+/* Options */
 "backup_setting_keep_backups_last_5_title" = "Últimes 5";
 "backup_setting_keep_backups_last_10_title" = "Últimes 10";
 "backup_setting_keep_backups_last_20_title" = "Últimes 20";
 "backup_setting_keep_backups_last_30_title" = "Últimes 30";
 "backup_setting_keep_backups_all_title" = "Totes";
 
-"backup_setting_create_backup_title" = "Crear backup";
-
-"backup_setting_no_recent_backups_title" = "No hi ha còpies disponibles";
-"backup_setting_backup_subtitle" = "%@ · %@";
-
+/* Alert Views */
 "backup_setting_delete_backup_alert_title" = "Suprimeix còpia de seguretat";
 "backup_setting_delete_backup_alert_message" = "Segur que vols suprimir aquesta còpia de seguretat?";
-
 "backup_setting_restore_success_title" = "Còpia restaurada";
 "backup_setting_restore_success_message" = "La còpia seleccionada s'ha restaurat.";
-
 "backup_setting_error_title" = "La còpia ha fallat";
 "backup_setting_icloud_drive_unavailable_error" = "iCloud Drive no està disponible en aquest dispositiu.";
 "backup_setting_could_not_create_backup_directory_error" = "No s'ha pogut crear la carpeta de còpies de seguretat.";
-
 "alert_restore_backup_title" = "Restaura còpia de seguretat";
 "alert_restore_backup_message" = "Segur que vols restaurar aquesta còpia de seguretat?\n\nAixò suprimirà les teves dades actuals i les substituirà per les dades de la còpia de seguretat seleccionada.\n\nAtenció: aquesta acció no es pot desfer!";
 "alert_restore_backup_button" = "Restaurar backup";
@@ -747,9 +762,11 @@
 "backup_restore_progress_reminders" = "Recordatoris";
 
 /* MARK: - Advanced Settings View */
+/* Info */
 "advanced_setting_info_title" = "Descripció";
 "advanced_setting_info_description" = "Realitza més ajustaments per configurar l'app.";
 
+/* Sections */
 "advanced_security_setting_section_title" = "Seguretat";
 "advanced_view_setting_section_title" = "Vista";
 "advanced_sidebar_setting_section_title" = "Barra lateral";
@@ -758,10 +775,12 @@
 "advanced_input_setting_section_title" = "Entrada";
 "advanced_other_setting_section_title" = "Altres";
 
+/* Security */
 "advanced_setting_use_passcode_title" = "Usar codi d'accés";
 "advanced_setting_use_title" = "Usar %@";
 "advanced_setting_auto_lock_title" = "Sol·licitar codi";
 
+/* View */
 "advanced_setting_chart_type_title" = "Tipus de gràfic";
 "advanced_setting_show_most_used_items_title" = "Mostrar les categories i etiquetes més utilitzades";
 "advanced_setting_show_most_used_items_description" = "Mostrar les categories i etiquetes més utilitzades a la llista de selecció en crear i editar transaccions.";
@@ -773,19 +792,10 @@
 "advanced_setting_start_day_of_month_description" = "Especifiqueu el dia d'inici de cada mes perquè els informes, transaccions i pressupostos es calculin correctament.";
 "advanced_setting_configure_transaction_title_title" = "Títol de la transacció";
 "advanced_setting_configure_transaction_subtitle_title" = "Subtítol de la transacció";
-
 "advanced_setting_configure_transaction_title_info_title" = "Descripció";
 "advanced_setting_configure_transaction_title_info_description" = "Establiu l'ordre dels elements que es mostraran al títol de la transacció. Si falta un element, s'utilitzarà automàticament el següent de l'ordre.";
 
-"advanced_setting_show_accounts_in_sidebar_title" = "Mostrar comptes a la barra lateral";
-"advanced_setting_show_accounts_in_sidebar_description" = "Mostra una llista dels teus comptes a la barra lateral.";
-"advanced_setting_group_accounts_in_sidebar_title" = "Agrupar comptes a la barra lateral";
-"advanced_setting_group_accounts_in_sidebar_description" = "Agrupa els teus comptes a la barra lateral per tipus.";
-"advanced_setting_show_categories_in_sidebar_title" = "Mostrar categories a la barra lateral";
-"advanced_setting_show_categories_in_sidebar_description" = "Mostrar una llista de les teves categories a la barra lateral.";
-"advanced_setting_group_categories_in_sidebar_title" = "Agrupar categories a la barra lateral";
-"advanced_setting_group_categories_in_sidebar_description" = "Agrupa les teves categories a la barra lateral per carpeta.";
-
+/* Input */
 "advanced_setting_select_time_automatically_title" = "Selecció automàtica d'hora";
 "advanced_setting_select_time_automatically_description" = "Selecciona automàticament l'hora actual per a noves transaccions.";
 "advanced_setting_select_location_automatically_title" = "Selecció automàtica d'ubicació";
@@ -797,11 +807,23 @@
 "advanced_setting_consider_pending_items_title" = "Incluir totes les transaccions";
 "advanced_setting_consider_pending_items_description" = "Incloure transaccions pendents al calcular saldos de comptes, saldos, totals, etc.";
 
+/* Sidebar */
+"advanced_setting_show_accounts_in_sidebar_title" = "Mostrar comptes a la barra lateral";
+"advanced_setting_show_accounts_in_sidebar_description" = "Mostra una llista dels teus comptes a la barra lateral.";
+"advanced_setting_group_accounts_in_sidebar_title" = "Agrupar comptes a la barra lateral";
+"advanced_setting_group_accounts_in_sidebar_description" = "Agrupa els teus comptes a la barra lateral per tipus.";
+"advanced_setting_show_categories_in_sidebar_title" = "Mostrar categories a la barra lateral";
+"advanced_setting_show_categories_in_sidebar_description" = "Mostrar una llista de les teves categories a la barra lateral.";
+"advanced_setting_group_categories_in_sidebar_title" = "Agrupar categories a la barra lateral";
+"advanced_setting_group_categories_in_sidebar_description" = "Agrupa les teves categories a la barra lateral per carpeta.";
+
+/* Apple Intelligence */
 "advanced_setting_use_apple_intelligence_in_receipt_scanner_title" = "Escàner de rebuts";
 "advanced_setting_use_apple_intelligence_in_receipt_scanner_description" = "Utilitza Apple Intelligence per omplir automàticament camps addicionals en escanejar un rebut.";
 "advanced_setting_use_apple_intelligence_in_shortcuts_title" = "Dreceres";
 "advanced_setting_use_apple_intelligence_in_shortcuts_description" = "Utilitza Apple Intelligence per detectar automàticament categories i beneficiaris en automatitzacions de dreceres.";
 
+/* Input */
 "advanced_setting_enable_exact_times_title" = "Introduir hores exactes";
 "advanced_setting_enable_exact_times_description" = "Selecciona les hores exactes utilitzant el control de minuts per a les transaccions (per exemple, 9:41 a. m.)";
 "advanced_setting_reverse_keyboard_title" = "Teclat invertit";
@@ -809,6 +831,7 @@
 "advanced_setting_enable_haptic_keyboard_title" = "Feedback del teclat";
 "advanced_setting_enable_haptic_keyboard_description" = "Obtén resposta tàctil en introduir quantitats monetàries amb el teclat.";
 
+/* Other */
 "advanced_setting_language_title" = "Idioma";
 "advanced_setting_time_zone_title" = "Zona horària";
 "advanced_setting_enable_live_activities_title" = "Activitats en viu";
@@ -989,7 +1012,7 @@
 
 "product_discount_header_title" = "- %@";
 
-/* Botons */
+/* Buttons */
 "upgrade_is_active_button" = "Actiu";
 "upgrade_purchase_button" = "Compra";
 "upgrade_subscribe_button" = "Subscriu-te";
@@ -1193,7 +1216,7 @@
 
 "alert_confirm_delete_contra_entry_title" = "Aquesta transacció és una transferència. Vols eliminar també l’entrada contrària?";
 
-/* Updates */
+/* Update */
 "alert_confirm_update_contra_entry_title" = "Esta transacción es una transferencia. ¿También desea actualizar la contraentrada?";
 "alert_confirm_update_transaction_multiple_title" = "Esta transacción pertenece a un grupo. ¿Qué es exactamente lo que quieres ahorrar?";
 "alert_confirm_update_transaction_single_button" = "Salva solo a este";
@@ -1322,7 +1345,7 @@
 "no_reminders_found_button_title" = "Nou recordatori";
 "reminders_search_placeholder_message" = "Cerca pel títol d’un recordatori";
 
-/* Value */
+/* Values */
 "balance" = "Saldo";
 
 
@@ -1586,7 +1609,7 @@
 "location_selection_searchbar_placeholder" = "Cerca";
 "location_selection_search_history_title" = "Recent";
 
-/* Buttons */
+/* Button */
 "location_selection_select_button_title" = "Seleccionar";
 
 /* Alert Views */
@@ -1920,7 +1943,7 @@
 "icon_keyword_banknote" = "Bitllet";
 "icon_keyword_refund" = "Reemborsament";
 "icon_keyword_dollar" = "Dòlars";
-"icon_keyword_cents" = "Cèntims";
+"icon_keyword_cent" = "Cèntims";
 "icon_keyword_yen" = "Iens";
 "icon_keyword_pound" = "Lliura";
 "icon_keyword_franc" = "Franc";
@@ -2038,7 +2061,7 @@
 "icon_keyword_tire" = "Roda";
 "icon_keyword_oilcan" = "Oliera";
 "icon_keyword_keys" = "Claus";
-"icon_keyword_fire_Extintor" = "Extintor d’incendis";
+"icon_keyword_fire_extinguisher" = "Extintor d’incendis";
 "icon_keyword_hockey" = "Hoquei";
 "icon_keyword_ice_hockey" = "Hoquei sobre gel";
 "icon_keyword_ice_skating" = "Patinatge sobre gel";

@@ -795,16 +795,6 @@
 "advanced_setting_configure_transaction_title_info_title" = "Description";
 "advanced_setting_configure_transaction_title_info_description" = "Set the order of the items to be displayed in the transaction title. If an item is missing, the next one in the order is automatically used.";
 
-/* Sidebar */
-"advanced_setting_show_accounts_in_sidebar_title" = "Show accounts in sidebar";
-"advanced_setting_show_accounts_in_sidebar_description" = "Show a list of your accounts in the sidebar.";
-"advanced_setting_group_accounts_in_sidebar_title" = "Group accounts in sidebar";
-"advanced_setting_group_accounts_in_sidebar_description" = "Group your accounts in the sidebar by type.";
-"advanced_setting_show_categories_in_sidebar_title" = "Show categories in sidebar";
-"advanced_setting_show_categories_in_sidebar_description" = "Show a list of your categories in the sidebar.";
-"advanced_setting_group_categories_in_sidebar_title" = "Group categories in sidebar";
-"advanced_setting_group_categories_in_sidebar_description" = "Group your categories in the sidebar by folder.";
-
 /* Input */
 "advanced_setting_select_time_automatically_title" = "Automatic time selection";
 "advanced_setting_select_time_automatically_description" = "Automatically select the current time for new transactions.";
@@ -817,18 +807,29 @@
 "advanced_setting_consider_pending_items_title" = "Book all transactions";
 "advanced_setting_consider_pending_items_description" = "Include pending transactions when calculating account balances, balances, totals, etc.";
 
-"advanced_setting_enable_exact_times_title" = "Enter exact times";
-"advanced_setting_enable_exact_times_description" = "Select exact times using the minute spinner for transactions (e.g. 9:41 am).";
-"advanced_setting_reverse_keyboard_title" = "Reversed Keyboard";
-"advanced_setting_reverse_keyboard_description" = "Flips the numeric keyboard layout vertically to match a traditional calculator style.";
-"advanced_setting_enable_haptic_keyboard_title" = "Keyboard Feedback";
-"advanced_setting_enable_haptic_keyboard_description" = "Get haptic feedback when entering monetary amounts using the numeric keyboard.";
+/* Sidebar */
+"advanced_setting_show_accounts_in_sidebar_title" = "Show accounts in sidebar";
+"advanced_setting_show_accounts_in_sidebar_description" = "Show a list of your accounts in the sidebar.";
+"advanced_setting_group_accounts_in_sidebar_title" = "Group accounts in sidebar";
+"advanced_setting_group_accounts_in_sidebar_description" = "Group your accounts in the sidebar by type.";
+"advanced_setting_show_categories_in_sidebar_title" = "Show categories in sidebar";
+"advanced_setting_show_categories_in_sidebar_description" = "Show a list of your categories in the sidebar.";
+"advanced_setting_group_categories_in_sidebar_title" = "Group categories in sidebar";
+"advanced_setting_group_categories_in_sidebar_description" = "Group your categories in the sidebar by folder.";
 
 /* Apple Intelligence */
 "advanced_setting_use_apple_intelligence_in_receipt_scanner_title" = "Receipt Scanner";
 "advanced_setting_use_apple_intelligence_in_receipt_scanner_description" = "Use Apple Intelligence to automatically fill in extra fields when scanning a receipt.";
 "advanced_setting_use_apple_intelligence_in_shortcuts_title" = "Shortcuts";
 "advanced_setting_use_apple_intelligence_in_shortcuts_description" = "Use Apple Intelligence to automatically detect categories and payees in shortcut automations.";
+
+/* Input */
+"advanced_setting_enable_exact_times_title" = "Enter exact times";
+"advanced_setting_enable_exact_times_description" = "Select exact times using the minute spinner for transactions (e.g. 9:41 am).";
+"advanced_setting_reverse_keyboard_title" = "Reversed Keyboard";
+"advanced_setting_reverse_keyboard_description" = "Flips the numeric keyboard layout vertically to match a traditional calculator style.";
+"advanced_setting_enable_haptic_keyboard_title" = "Keyboard Feedback";
+"advanced_setting_enable_haptic_keyboard_description" = "Get haptic feedback when entering monetary amounts using the numeric keyboard.";
 
 /* Other */
 "advanced_setting_language_title" = "Language";
@@ -1215,7 +1216,7 @@
 
 "alert_confirm_delete_contra_entry_title" = "This transaction is a transfer. Would you also like to delete the contra entry?";
 
-/* Updates */
+/* Update */
 "alert_confirm_update_contra_entry_title" = "This transaction is a transfer. Would you also like to update the contra entry?";
 "alert_confirm_update_transaction_multiple_title" = "This transaction belongs to a group. What exactly do you want to save?";
 "alert_confirm_update_transaction_single_button" = "Save only this one";
@@ -1344,7 +1345,7 @@
 "no_reminders_found_button_title" = "New Reminder";
 "reminders_search_placeholder_message" = "Search by the title of a reminder";
 
-/* Value */
+/* Values */
 "balance" = "Balance";
 
 
@@ -1608,7 +1609,7 @@
 "location_selection_searchbar_placeholder" = "Search";
 "location_selection_search_history_title" = "Recent";
 
-/* Buttons */
+/* Button */
 "location_selection_select_button_title" = "Select";
 
 /* Alert Views */
@@ -1942,7 +1943,7 @@
 "icon_keyword_banknote" = "Banknote";
 "icon_keyword_refund" = "Refund";
 "icon_keyword_dollar" = "Dollars";
-"icon_keyword_cents" = "Cents";
+"icon_keyword_cent" = "Cents";
 "icon_keyword_yen" = "Yen";
 "icon_keyword_pound" = "Pound";
 "icon_keyword_franc" = "Franconia";

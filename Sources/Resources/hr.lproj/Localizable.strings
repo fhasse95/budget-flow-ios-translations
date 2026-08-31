@@ -371,7 +371,6 @@
 /* Formats */
 "transaction_filter_range_format" = "%@ do %@";
 
-
 /* MARK: - Period Selection View */
 /* Titles */
 "period_selection_title" = "Razdoblje";
@@ -624,39 +623,51 @@
 /* Info */
 "appearance_setting_info_title" = "Opis";
 "appearance_setting_info_description" = "Personalizirajte aplikaciju prema svojim željama promjenom izgleda aplikacije.";
+
+/* Sections */
 "appearance_ui_style_setting_section_title" = "Tema";
+"appearance_accent_color_setting_section_title" = "Boja naglaska";
+"appearance_app_icon_setting_section_title" = "Ikona aplikacije";
+
+/* Options */
 "appearance_ui_style_apply_to_icons_title" = "Primijeni na ikone";
 "appearance_ui_style_apply_to_icons_description" = "Primijeni odabrani izgled i na sve ikone u aplikaciji.";
-"appearance_accent_color_setting_section_title" = "Boja naglaska";
+
+/* Footer */
 "appearance_accent_color_setting_footer_title" = "Mijenja boju gumba i drugih kontrola unutar aplikacije.";
-"appearance_app_icon_setting_section_title" = "Ikona aplikacije";
 
 /* MARK: - Sync & Data Settings View */
 /* Info */
 "sync_and_data_setting_info_title" = "Opis";
 "sync_and_data_setting_info_description" = "Dobijte pregled trenutnog statusa sinkronizacije i uvezite ili izvezite podatke pomoću CSV datoteke.";
 
+/* Sections */
 "sync_and_data_cloud_setting_section_title" = "iCloud";
-"sync_and_data_cloud_setting_footer_title" = "Označava da li je sinkronizacija s iCloudom bila uspješna ili je došlo do pogreške.";
-"sync_and_data_setting_cloud_sync_status_title" = "Status sinkronizacije";
 "backup_setting_section_title" = "Sigurnosne kopije";
-"backup_setting_footer_title" = "Upravljajte svojim sigurnosnim kopijama i postavkama sigurnosne kopije.";
-"backup_setting_manage_backups_title" = "Upravljanje";
 "sync_and_data_csv_setting_section_title" = "CSV-Podaci";
-"sync_and_data_csv_setting_footer_title" = "Uvezite ili izvezite svoje transakcije pomoću CSV datoteke.";
+
+/* Titles */
+"sync_and_data_setting_cloud_sync_status_title" = "Status sinkronizacije";
+"backup_setting_manage_backups_title" = "Upravljanje";
 "sync_and_data_setting_csv_import_title" = "Uvezi";
 "sync_and_data_setting_csv_export_title" = "Izvezi";
 "sync_and_data_setting_get_csv_template_title" = "Preuzmi predložak";
 
+/* Buttons */
 "clear_cache_button" = "Očisti predmemoriju";
+
+/* Footer */
+"sync_and_data_cloud_setting_footer_title" = "Označava da li je sinkronizacija s iCloudom bila uspješna ili je došlo do pogreške.";
+"backup_setting_footer_title" = "Upravljajte svojim sigurnosnim kopijama i postavkama sigurnosne kopije.";
+"sync_and_data_csv_setting_footer_title" = "Uvezite ili izvezite svoje transakcije pomoću CSV datoteke.";
 "cache_setting_footer_title" = "Informacije: Brisanje predmemorije briše sve datoteke u direktoriju dokumenata aplikacije (uključujući sigurnosne kopije).";
 
+/* Alert Views */
 "alert_csv_import_successful_title" = "Uvoz uspješan 🎉";
 "alert_csv_import_successful_message" = "Ukupno je uvezeno %d od %d transakcija.%@";
 "alert_csv_import_skipped_message" = " Time je %d transakcija preskočeno.";
 "alert_csv_import_error_message" = "Uvoz %d od %d transakcija nije uspio.\n\n%@";
 "alert_csv_import_error_reason_field_message" = "Provjerite sljedeća polja u vašoj CSV datoteci: %@.";
-
 "alert_csv_export_successful_title" = "Izvoz uspješan 🎉";
 "alert_csv_export_successful_message" = "Vaši podaci su uspješno izvezeni u \"%@\".";
 
@@ -671,6 +682,7 @@
 "cloud_setting_info_title" = "Opis";
 "cloud_setting_info_description" = "Sljedeći prikaz daje detaljniji pregled trenutnog statusa iCloud sinkronizacije i pomaže pri rješavanju problema.";
 
+/* Status */
 "cloud_setting_network_status_title" = "Mreža";
 "cloud_setting_network_status_success_value" = "Internet veza dostupna";
 "cloud_setting_network_status_error_value" = "Nema internet veze";
@@ -687,7 +699,10 @@
 "cloud_setting_number_of_transactions_in_progress_title" = "Pričekajte...";
 "cloud_setting_number_of_transactions_error_title" = "Pogreška";
 
+/* Buttons */
 "import_from_cloud_button" = "Preuzmi s iClouda";
+
+/* Footer */
 "manual_sync_cloud_setting_footer_title" = "Ako vaši podaci nisu ili nisu potpuno sinkronizirani s iCloudom, ovdje možete ručno pokrenuti sinkronizaciju.";
 
 /* MARK: - Backup Settings View */
@@ -695,33 +710,33 @@
 "backup_setting_info_title" = "Opis";
 "backup_setting_info_description" = "Kada je omogućen, Budget Flow redovno izrađuje sigurnosne kopije vaših podataka kako biste mogli vratiti aplikaciju u prethodno stanje u bilo kojem trenutku.";
 
+/* Sections */
 "backup_setting_general_section_title" = "Općenito";
 "backup_setting_recent_section_title" = "Nedavne sigurnosne kopije";
+
+/* Titles */
 "backup_setting_use_automatic_backups_title" = "Automatske sigurnosne kopije";
 "backup_setting_back_up_to_icloud_drive_title" = "Sigurnosna kopija u iCloud Drive";
-
 "backup_setting_keep_backups_title" = "Zadrži sigurnosne kopije";
+"backup_setting_create_backup_title" = "Napravi sigurnosnu kopiju";
+"backup_setting_no_recent_backups_title" = "Nema dostupnih sigurnosnih kopija";
+"backup_setting_backup_subtitle" = "%@ · %@";
+
+/* Options */
 "backup_setting_keep_backups_last_5_title" = "Zadnjih 5";
 "backup_setting_keep_backups_last_10_title" = "Zadnjih 10";
 "backup_setting_keep_backups_last_20_title" = "Zadnjih 20";
 "backup_setting_keep_backups_last_30_title" = "Zadnjih 30";
 "backup_setting_keep_backups_all_title" = "Sve";
 
-"backup_setting_create_backup_title" = "Napravi sigurnosnu kopiju";
-
-"backup_setting_no_recent_backups_title" = "Nema dostupnih sigurnosnih kopija";
-"backup_setting_backup_subtitle" = "%@ · %@";
-
+/* Alert Views */
 "backup_setting_delete_backup_alert_title" = "Izbriši sigurnosnu kopiju";
 "backup_setting_delete_backup_alert_message" = "Želite li zaista izbrisati ovu sigurnosnu kopiju?";
-
 "backup_setting_restore_success_title" = "Sigurnosna kopija je vraćena";
 "backup_setting_restore_success_message" = "Odabrana sigurnosna kopija je vraćena.";
-
 "backup_setting_error_title" = "Sigurnosno kopiranje nije uspjelo";
 "backup_setting_icloud_drive_unavailable_error" = "iCloud Drive nije dostupan na ovom uređaju.";
 "backup_setting_could_not_create_backup_directory_error" = "Mapa sigurnosnih kopija nije se mogla stvoriti.";
-
 "alert_restore_backup_title" = "Vrati sigurnosnu kopiju";
 "alert_restore_backup_message" = "Želite li zaista vratiti ovu sigurnosnu kopiju?\n\nTime će se izbrisati vaši trenutni podaci i zamijeniti podacima iz odabrane sigurnosne kopije.\n\nUpozorenje: Ova radnja se ne može poništiti!";
 "alert_restore_backup_button" = "Vrati sigurnosnu kopiju";
@@ -747,9 +762,11 @@
 "backup_restore_progress_reminders" = "Podsjetnici";
 
 /* MARK: - Advanced Settings View */
+/* Info */
 "advanced_setting_info_title" = "Opis";
 "advanced_setting_info_description" = "Daljnje postavke za konfiguraciju aplikacije.";
 
+/* Sections */
 "advanced_security_setting_section_title" = "Sigurnost";
 "advanced_view_setting_section_title" = "Prikaz";
 "advanced_sidebar_setting_section_title" = "Bočna traka";
@@ -758,10 +775,12 @@
 "advanced_input_setting_section_title" = "Unos";
 "advanced_other_setting_section_title" = "Ostalo";
 
+/* Security */
 "advanced_setting_use_passcode_title" = "Koristi pin";
 "advanced_setting_use_title" = "Koristi %@";
 "advanced_setting_auto_lock_title" = "Zatraži pin";
 
+/* View */
 "advanced_setting_chart_type_title" = "Vrsta grafikona";
 "advanced_setting_show_most_used_items_title" = "Prikaži najčešće korištene kategorije i oznake";
 "advanced_setting_show_most_used_items_description" = "Prikaži najčešće korištene kategorije i oznake na popisu za odabir prilikom stvaranja i uređivanja transakcija.";
@@ -773,19 +792,10 @@
 "advanced_setting_start_day_of_month_description" = "Navedite početni dan svakog mjeseca tako da se izvješća, transakcije i proračuni pravilno izračunavaju.";
 "advanced_setting_configure_transaction_title_title" = "Naziv transakcije";
 "advanced_setting_configure_transaction_subtitle_title" = "Podnaslov transakcije";
-
 "advanced_setting_configure_transaction_title_info_title" = "Opis";
 "advanced_setting_configure_transaction_title_info_description" = "Postavite redoslijed stavki koje će biti prikazane u naslovu transakcije. Ako stavka nedostaje, automatski se koristi sljedeća u redoslijedu.";
 
-"advanced_setting_show_accounts_in_sidebar_title" = "Prikaži račune na bočnoj traci";
-"advanced_setting_show_accounts_in_sidebar_description" = "Prikaži popis svojih računa na bočnoj traci.";
-"advanced_setting_group_accounts_in_sidebar_title" = "Grupiraj račune na bočnoj traci";
-"advanced_setting_group_accounts_in_sidebar_description" = "Grupirajte svoje račune na bočnoj traci prema vrsti.";
-"advanced_setting_show_categories_in_sidebar_title" = "Prikaži kategorije na bočnoj traci";
-"advanced_setting_show_categories_in_sidebar_description" = "Prikaži popis svojih kategorija na bočnoj traci.";
-"advanced_setting_group_categories_in_sidebar_title" = "Grupiraj kategorije na bočnoj traci";
-"advanced_setting_group_categories_in_sidebar_description" = "Grupirajte svoje kategorije na bočnoj traci prema mapi.";
-
+/* Input */
 "advanced_setting_select_time_automatically_title" = "Automatski odabir vremena";
 "advanced_setting_select_time_automatically_description" = "Automatski odaberite trenutno vrijeme za nove transakcije.";
 "advanced_setting_select_location_automatically_title" = "Automatski odabir lokacije";
@@ -797,11 +807,23 @@
 "advanced_setting_consider_pending_items_title" = "Knjižite sve transakcije";
 "advanced_setting_consider_pending_items_description" = "Uključi transakcije na čekanju pri izračunavanju stanja računa, stanja, ukupnih iznosa itd.";
 
+/* Sidebar */
+"advanced_setting_show_accounts_in_sidebar_title" = "Prikaži račune na bočnoj traci";
+"advanced_setting_show_accounts_in_sidebar_description" = "Prikaži popis svojih računa na bočnoj traci.";
+"advanced_setting_group_accounts_in_sidebar_title" = "Grupiraj račune na bočnoj traci";
+"advanced_setting_group_accounts_in_sidebar_description" = "Grupirajte svoje račune na bočnoj traci prema vrsti.";
+"advanced_setting_show_categories_in_sidebar_title" = "Prikaži kategorije na bočnoj traci";
+"advanced_setting_show_categories_in_sidebar_description" = "Prikaži popis svojih kategorija na bočnoj traci.";
+"advanced_setting_group_categories_in_sidebar_title" = "Grupiraj kategorije na bočnoj traci";
+"advanced_setting_group_categories_in_sidebar_description" = "Grupirajte svoje kategorije na bočnoj traci prema mapi.";
+
+/* Apple Intelligence */
 "advanced_setting_use_apple_intelligence_in_receipt_scanner_title" = "Skener računa";
 "advanced_setting_use_apple_intelligence_in_receipt_scanner_description" = "Koristite Apple Intelligence za automatsko popunjavanje dodatnih polja prilikom skeniranja računa.";
 "advanced_setting_use_apple_intelligence_in_shortcuts_title" = "Prečaci";
 "advanced_setting_use_apple_intelligence_in_shortcuts_description" = "Koristi Apple Intelligence za automatsko prepoznavanje kategorija i primatelja u automatizacijama prečaca.";
 
+/* Input */
 "advanced_setting_enable_exact_times_title" = "Unesite točna vremena";
 "advanced_setting_enable_exact_times_description" = "Odaberite točna vremena pomoću minute za transakcije (npr. 9:41 ujutro).";
 "advanced_setting_reverse_keyboard_title" = "Preokrenuta tipkovnica";
@@ -809,6 +831,7 @@
 "advanced_setting_enable_haptic_keyboard_title" = "Povratne informacije tipkovnice";
 "advanced_setting_enable_haptic_keyboard_description" = "Dobijte dodirne povratne informacije prilikom unosa novčanih iznosa pomoću tipkovnice.";
 
+/* Other */
 "advanced_setting_language_title" = "Jezik";
 "advanced_setting_time_zone_title" = "Vremenska zona";
 "advanced_setting_enable_live_activities_title" = "Aktivnosti uživo";
@@ -1193,7 +1216,7 @@
 
 "alert_confirm_delete_contra_entry_title" = "Ova transakcija je prijenos. Želite li također izbrisati kontra unos?";
 
-/* Updates */
+/* Update */
 "alert_confirm_update_contra_entry_title" = "Ova transakcija je prijenos. Želite li također ažurirati kontra unos?";
 "alert_confirm_update_transaction_multiple_title" = "Ova transakcija pripada grupi. Što točno želite spremiti?";
 "alert_confirm_update_transaction_single_button" = "Spremi samo ovu";
@@ -1322,7 +1345,7 @@
 "no_reminders_found_button_title" = "Novi podsjetnik";
 "reminders_search_placeholder_message" = "Traži prema naslovu podsjetnika";
 
-/* Value */
+/* Values */
 "balance" = "Stanje";
 
 
@@ -1586,7 +1609,7 @@
 "location_selection_searchbar_placeholder" = "Traži";
 "location_selection_search_history_title" = "Nedavno";
 
-/* Buttons */
+/* Button */
 "location_selection_select_button_title" = "Odaberi";
 
 /* Alert Views */
@@ -1920,7 +1943,7 @@
 "icon_keyword_banknote" = "Novčanica";
 "icon_keyword_refund" = "Povrat novca";
 "icon_keyword_dollar" = "Dolari";
-"icon_keyword_cents" = "Centi";
+"icon_keyword_cent" = "Centi";
 "icon_keyword_yen" = "Jen";
 "icon_keyword_pound" = "Funta";
 "icon_keyword_franc" = "Frankonska";

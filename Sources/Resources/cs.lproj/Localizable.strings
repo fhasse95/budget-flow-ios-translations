@@ -371,7 +371,6 @@
 /* Formats */
 "transaction_filter_range_format" = "%@ až %@";
 
-
 /* MARK: - Period Selection View */
 /* Titles */
 "period_selection_title" = "Období";
@@ -624,39 +623,51 @@
 /* Info */
 "appearance_setting_info_title" = "Popis";
 "appearance_setting_info_description" = "Přizpůsobte si aplikaci podle svých představ změnou jejího vzhledu.";
+
+/* Sections */
 "appearance_ui_style_setting_section_title" = "Motiv";
+"appearance_accent_color_setting_section_title" = "Barva zvýraznění";
+"appearance_app_icon_setting_section_title" = "Ikona aplikace";
+
+/* Options */
 "appearance_ui_style_apply_to_icons_title" = "Použít na ikony";
 "appearance_ui_style_apply_to_icons_description" = "Použít zvolený vzhled i na všechny ikony v aplikaci.";
-"appearance_accent_color_setting_section_title" = "Barva zvýraznění";
+
+/* Footer */
 "appearance_accent_color_setting_footer_title" = "Změní barvu tlačítek a dalších ovládacích prvků v aplikaci.";
-"appearance_app_icon_setting_section_title" = "Ikona aplikace";
 
 /* MARK: - Sync & Data Settings View */
 /* Info */
 "sync_and_data_setting_info_title" = "Popis";
 "sync_and_data_setting_info_description" = "Získejte přehled o aktuálním stavu synchronizace a importujte nebo exportujte data pomocí souboru CSV.";
 
+/* Sections */
 "sync_and_data_cloud_setting_section_title" = "iCloud";
-"sync_and_data_cloud_setting_footer_title" = "Ukazuje, zda byla synchronizace s iCloud úspěšná nebo došlo k chybě.";
-"sync_and_data_setting_cloud_sync_status_title" = "Stav synchronizace";
 "backup_setting_section_title" = "Zálohy";
-"backup_setting_footer_title" = "Spravujte své zálohy a nastavení zálohování.";
-"backup_setting_manage_backups_title" = "Spravovat";
 "sync_and_data_csv_setting_section_title" = "Data CSV";
-"sync_and_data_csv_setting_footer_title" = "Importujte nebo exportujte své transakce pomocí souboru CSV.";
+
+/* Titles */
+"sync_and_data_setting_cloud_sync_status_title" = "Stav synchronizace";
+"backup_setting_manage_backups_title" = "Spravovat";
 "sync_and_data_setting_csv_import_title" = "Import";
 "sync_and_data_setting_csv_export_title" = "Exportovat";
 "sync_and_data_setting_get_csv_template_title" = "Stáhnout šablonu";
 
+/* Buttons */
 "clear_cache_button" = "Vymazat mezipaměť";
+
+/* Footer */
+"sync_and_data_cloud_setting_footer_title" = "Ukazuje, zda byla synchronizace s iCloud úspěšná nebo došlo k chybě.";
+"backup_setting_footer_title" = "Spravujte své zálohy a nastavení zálohování.";
+"sync_and_data_csv_setting_footer_title" = "Importujte nebo exportujte své transakce pomocí souboru CSV.";
 "cache_setting_footer_title" = "Informace: Vymazáním mezipaměti se odstraní všechny soubory v adresáři dokumentů aplikace (včetně záloh).";
 
+/* Alert Views */
 "alert_csv_import_successful_title" = "Import byl úspěšný 🎉";
 "alert_csv_import_successful_message" = "Celkem bylo importováno %d z %d transakcí.%@";
 "alert_csv_import_skipped_message" = " %d transakcí bylo přeskočeno.";
 "alert_csv_import_error_message" = "Nepodařilo se úspěšně importovat %d z %d transakcí.\n\n%@";
 "alert_csv_import_error_reason_field_message" = "Zkontrolujte prosím následující pole v souboru CSV: %@.";
-
 "alert_csv_export_successful_title" = "Export byl úspěšný 🎉";
 "alert_csv_export_successful_message" = "Vaše data byla úspěšně exportována do \"%@\".";
 
@@ -671,6 +682,7 @@
 "cloud_setting_info_title" = "Popis";
 "cloud_setting_info_description" = "Následující zobrazení poskytuje podrobnější přehled aktuálního stavu synchronizace iCloud a pomáhá s řešením problémů.";
 
+/* Status */
 "cloud_setting_network_status_title" = "Síť";
 "cloud_setting_network_status_success_value" = "Připojení k internetu dostupné";
 "cloud_setting_network_status_error_value" = "Žádné připojení k internetu";
@@ -687,7 +699,10 @@
 "cloud_setting_number_of_transactions_in_progress_title" = "Čekejte prosím...";
 "cloud_setting_number_of_transactions_error_title" = "Chyba";
 
+/* Buttons */
 "import_from_cloud_button" = "Stáhnout z iCloudu";
+
+/* Footer */
 "manual_sync_cloud_setting_footer_title" = "Pokud vaše data nebyla nebo nebyla plně synchronizována s iCloudem, můžete zde synchronizaci spustit ručně.";
 
 /* MARK: - Backup Settings View */
@@ -695,33 +710,33 @@
 "backup_setting_info_title" = "Popis";
 "backup_setting_info_description" = "Pokud je povoleno, Budget Flow pravidelně zálohuje vaše data, takže můžete aplikaci kdykoli obnovit do předchozího stavu.";
 
+/* Sections */
 "backup_setting_general_section_title" = "Obecné";
 "backup_setting_recent_section_title" = "Poslední zálohy";
+
+/* Titles */
 "backup_setting_use_automatic_backups_title" = "Automatické zálohování";
 "backup_setting_back_up_to_icloud_drive_title" = "Zálohovat na iCloud Drive";
-
 "backup_setting_keep_backups_title" = "Ponechat zálohy";
+"backup_setting_create_backup_title" = "Vytvořit zálohu";
+"backup_setting_no_recent_backups_title" = "Nejsou k dispozici žádné zálohy";
+"backup_setting_backup_subtitle" = "%@ · %@";
+
+/* Options */
 "backup_setting_keep_backups_last_5_title" = "Posledních 5";
 "backup_setting_keep_backups_last_10_title" = "Posledních 10";
 "backup_setting_keep_backups_last_20_title" = "Posledních 20";
 "backup_setting_keep_backups_last_30_title" = "Posledních 30";
 "backup_setting_keep_backups_all_title" = "Všechny";
 
-"backup_setting_create_backup_title" = "Vytvořit zálohu";
-
-"backup_setting_no_recent_backups_title" = "Nejsou k dispozici žádné zálohy";
-"backup_setting_backup_subtitle" = "%@ · %@";
-
+/* Alert Views */
 "backup_setting_delete_backup_alert_title" = "Smazat zálohu";
 "backup_setting_delete_backup_alert_message" = "Opravdu chcete smazat tuto zálohu?";
-
 "backup_setting_restore_success_title" = "Záloha obnovena";
 "backup_setting_restore_success_message" = "Vybraná záloha byla obnovena.";
-
 "backup_setting_error_title" = "Záloha selhala";
 "backup_setting_icloud_drive_unavailable_error" = "iCloud Drive není na tomto zařízení dostupný.";
 "backup_setting_could_not_create_backup_directory_error" = "Složku záloh se nepodařilo vytvořit.";
-
 "alert_restore_backup_title" = "Obnovit zálohu";
 "alert_restore_backup_message" = "Opravdu chcete obnovit tuto zálohu?\n\nTím se smažou vaše aktuální data a nahradí se daty z vybrané zálohy.\n\nUpozornění: Tuto akci nelze vrátit zpět!";
 "alert_restore_backup_button" = "Obnovit zálohu";
@@ -747,9 +762,11 @@
 "backup_restore_progress_reminders" = "Připomínky";
 
 /* MARK: - Advanced Settings View */
+/* Info */
 "advanced_setting_info_title" = "Popis";
 "advanced_setting_info_description" = "Proveďte další nastavení pro konfiguraci aplikace.";
 
+/* Sections */
 "advanced_security_setting_section_title" = "Zabezpečení";
 "advanced_view_setting_section_title" = "Zobrazení";
 "advanced_sidebar_setting_section_title" = "Postranní panel";
@@ -758,10 +775,12 @@
 "advanced_input_setting_section_title" = "Vstup";
 "advanced_other_setting_section_title" = "Jiné";
 
+/* Security */
 "advanced_setting_use_passcode_title" = "Použít přístupový kód";
 "advanced_setting_use_title" = "Použít %@";
 "advanced_setting_auto_lock_title" = "Kód požadavku";
 
+/* View */
 "advanced_setting_chart_type_title" = "Typ grafu";
 "advanced_setting_show_most_used_items_title" = "Zobrazit nejpoužívanější kategorie a štítky";
 "advanced_setting_show_most_used_items_description" = "Zobrazit nejpoužívanější kategorie a štítky ve výběrovém seznamu při vytváření a úpravách transakcí.";
@@ -773,19 +792,10 @@
 "advanced_setting_start_day_of_month_description" = "Určete počáteční den každého měsíce, aby byly sestavy, transakce a rozpočty vypočítány správně.";
 "advanced_setting_configure_transaction_title_title" = "Název transakce";
 "advanced_setting_configure_transaction_subtitle_title" = "Podtitul transakce";
-
 "advanced_setting_configure_transaction_title_info_title" = "Popis";
 "advanced_setting_configure_transaction_title_info_description" = "Nastavte pořadí položek, které se mají zobrazit v názvu transakce. Pokud položka chybí, automaticky se použije další v pořadí.";
 
-"advanced_setting_show_accounts_in_sidebar_title" = "Zobrazit účty na postranním panelu";
-"advanced_setting_show_accounts_in_sidebar_description" = "Zobrazit seznam vašich účtů na postranním panelu.";
-"advanced_setting_group_accounts_in_sidebar_title" = "Seskupit účty v postranním panelu";
-"advanced_setting_group_accounts_in_sidebar_description" = "Seskupit své účty v postranním panelu podle typu.";
-"advanced_setting_show_categories_in_sidebar_title" = "Zobrazit kategorie na postranním panelu";
-"advanced_setting_show_categories_in_sidebar_description" = "Zobrazit seznam vašich kategorií na postranním panelu.";
-"advanced_setting_group_categories_in_sidebar_title" = "Skupinové kategorie na postranním panelu";
-"advanced_setting_group_categories_in_sidebar_description" = "Seskupit své kategorie na postranním panelu podle složek.";
-
+/* Input */
 "advanced_setting_select_time_automatically_title" = "Automatický výběr času";
 "advanced_setting_select_time_automatically_description" = "Automaticky vybrat aktuální čas pro nové transakce.";
 "advanced_setting_select_location_automatically_title" = "Automatický výběr umístění";
@@ -797,11 +807,23 @@
 "advanced_setting_consider_pending_items_title" = "Zarezervovat všechny transakce";
 "advanced_setting_consider_pending_items_description" = "Zahrnout čekající transakce při výpočtu zůstatků na účtech, zůstatků, součtů atd.";
 
+/* Sidebar */
+"advanced_setting_show_accounts_in_sidebar_title" = "Zobrazit účty na postranním panelu";
+"advanced_setting_show_accounts_in_sidebar_description" = "Zobrazit seznam vašich účtů na postranním panelu.";
+"advanced_setting_group_accounts_in_sidebar_title" = "Seskupit účty v postranním panelu";
+"advanced_setting_group_accounts_in_sidebar_description" = "Seskupit své účty v postranním panelu podle typu.";
+"advanced_setting_show_categories_in_sidebar_title" = "Zobrazit kategorie na postranním panelu";
+"advanced_setting_show_categories_in_sidebar_description" = "Zobrazit seznam vašich kategorií na postranním panelu.";
+"advanced_setting_group_categories_in_sidebar_title" = "Skupinové kategorie na postranním panelu";
+"advanced_setting_group_categories_in_sidebar_description" = "Seskupit své kategorie na postranním panelu podle složek.";
+
+/* Apple Intelligence */
 "advanced_setting_use_apple_intelligence_in_receipt_scanner_title" = "Skener účtenek";
 "advanced_setting_use_apple_intelligence_in_receipt_scanner_description" = "Použijte Apple Intelligence k automatickému vyplnění dalších polí při skenování účtenky.";
 "advanced_setting_use_apple_intelligence_in_shortcuts_title" = "Zkratky";
 "advanced_setting_use_apple_intelligence_in_shortcuts_description" = "Použít Apple Intelligence k automatickému rozpoznání kategorií a příjemců v automatizacích zkratek.";
 
+/* Input */
 "advanced_setting_enable_exact_times_title" = "Zadejte přesné časy";
 "advanced_setting_enable_exact_times_description" = "Vyberte přesné časy pomocí minutového číselníku pro transakce (např. 9:41).";
 "advanced_setting_reverse_keyboard_title" = "Otočená klávesnice";
@@ -809,6 +831,7 @@
 "advanced_setting_enable_haptic_keyboard_title" = "Zpětná vazba na klávesnici";
 "advanced_setting_enable_haptic_keyboard_description" = "Získejte hmatovou odezvu při zadávání peněžních částek pomocí klávesnice.";
 
+/* Other */
 "advanced_setting_language_title" = "Jazyk";
 "advanced_setting_time_zone_title" = "Časové pásmo";
 "advanced_setting_enable_live_activities_title" = "Živé aktivity";
@@ -1193,7 +1216,7 @@
 
 "alert_confirm_delete_contra_entry_title" = "Tato transakce je převod. Chcete také smazat záznam kontra?";
 
-/* Updates */
+/* Update */
 "alert_confirm_update_contra_entry_title" = "Tato transakce je převod. Přejete si také aktualizovat záznam kontra?";
 "alert_confirm_update_transaction_multiple_title" = "Tato transakce patří do skupiny. Co přesně chcete uložit?";
 "alert_confirm_update_transaction_single_button" = "Uložit pouze tento";
@@ -1322,7 +1345,7 @@
 "no_reminders_found_button_title" = "Nové připomenutí";
 "reminders_search_placeholder_message" = "Hledat podle názvu připomenutí";
 
-/* Value */
+/* Values */
 "balance" = "Zůstatek";
 
 
@@ -1586,7 +1609,7 @@
 "location_selection_searchbar_placeholder" = "Hledat";
 "location_selection_search_history_title" = "Nedávné";
 
-/* Buttons */
+/* Button */
 "location_selection_select_button_title" = "Vybrat";
 
 /* Alert Views */
@@ -1920,7 +1943,7 @@
 "icon_keyword_banknote" = "Bankovka";
 "icon_keyword_refund" = "Vrácení peněz";
 "icon_keyword_dollar" = "Dolary";
-"icon_keyword_cents" = "Centy";
+"icon_keyword_cent" = "Centy";
 "icon_keyword_yen" = "Yen";
 "icon_keyword_pound" = "Libra";
 "icon_keyword_franc" = "Francie";

@@ -371,7 +371,6 @@
 /* Formats */
 "transaction_filter_range_format" = "%@ til %@";
 
-
 /* MARK: - Period Selection View */
 /* Titles */
 "period_selection_title" = "Periode";
@@ -624,39 +623,51 @@
 /* Info */
 "appearance_setting_info_title" = "Beskrivelse";
 "appearance_setting_info_description" = "Tilpas appen efter din smag ved at ændre appens udseende.";
+
+/* Sections */
 "appearance_ui_style_setting_section_title" = "Tema";
+"appearance_accent_color_setting_section_title" = "Accentfarve";
+"appearance_app_icon_setting_section_title" = "App-ikon";
+
+/* Options */
 "appearance_ui_style_apply_to_icons_title" = "Anvend på ikoner";
 "appearance_ui_style_apply_to_icons_description" = "Anvend også det valgte udseende på alle ikoner i appen.";
-"appearance_accent_color_setting_section_title" = "Accentfarve";
+
+/* Footer */
 "appearance_accent_color_setting_footer_title" = "Ændrer farven på knapper og andre kontroller i appen.";
-"appearance_app_icon_setting_section_title" = "App-ikon";
 
 /* MARK: - Sync & Data Settings View */
 /* Info */
 "sync_and_data_setting_info_title" = "Beskrivelse";
 "sync_and_data_setting_info_description" = "Få et overblik over den aktuelle synkroniseringsstatus og importer eller eksporter data ved hjælp af en CSV-fil.";
 
+/* Sections */
 "sync_and_data_cloud_setting_section_title" = "iCloud";
-"sync_and_data_cloud_setting_footer_title" = "Angiver, om synkroniseringen med iCloud lykkedes, eller om der opstod en fejl.";
-"sync_and_data_setting_cloud_sync_status_title" = "Synkroniseringsstatus";
 "backup_setting_section_title" = "Sikkerhedskopier";
-"backup_setting_footer_title" = "Administrer dine sikkerhedskopier og sikkerhedskopieringsindstillinger.";
-"backup_setting_manage_backups_title" = "Administrer";
 "sync_and_data_csv_setting_section_title" = "CSV-data";
-"sync_and_data_csv_setting_footer_title" = "Importer eller eksporter dine transaktioner ved hjælp af en CSV-fil.";
+
+/* Titles */
+"sync_and_data_setting_cloud_sync_status_title" = "Synkroniseringsstatus";
+"backup_setting_manage_backups_title" = "Administrer";
 "sync_and_data_setting_csv_import_title" = "Importer";
 "sync_and_data_setting_csv_export_title" = "Eksporter";
 "sync_and_data_setting_get_csv_template_title" = "Download skabelon";
 
+/* Buttons */
 "clear_cache_button" = "Ryd cache";
+
+/* Footer */
+"sync_and_data_cloud_setting_footer_title" = "Angiver, om synkroniseringen med iCloud lykkedes, eller om der opstod en fejl.";
+"backup_setting_footer_title" = "Administrer dine sikkerhedskopier og sikkerhedskopieringsindstillinger.";
+"sync_and_data_csv_setting_footer_title" = "Importer eller eksporter dine transaktioner ved hjælp af en CSV-fil.";
 "cache_setting_footer_title" = "Info: Rydning af cachen sletter alle filer i appens dokumentmappe (inklusive sikkerhedskopier).";
 
+/* Alert Views */
 "alert_csv_import_successful_title" = "Importen lykkedes 🎉";
 "alert_csv_import_successful_message" = "I alt blev %d af %d transaktioner importeret.%@";
 "alert_csv_import_skipped_message" = " Derved er %d transaktioner blevet sprunget over.";
 "alert_csv_import_error_message" = "Det lykkedes ikke at importere %d af %d transaktioner.\n\n%@";
 "alert_csv_import_error_reason_field_message" = "Tjek venligst følgende felter i din CSV-fil: %@.";
-
 "alert_csv_export_successful_title" = "Eksporten lykkedes 🎉";
 "alert_csv_export_successful_message" = "Dine data blev eksporteret til \"%@\".";
 
@@ -671,6 +682,7 @@
 "cloud_setting_info_title" = "Beskrivelse";
 "cloud_setting_info_description" = "Følgende visning giver et mere detaljeret overblik over den aktuelle iCloud-synkroniseringsstatus og hjælper med fejlfinding.";
 
+/* Status */
 "cloud_setting_network_status_title" = "Netværk";
 "cloud_setting_network_status_success_value" = "Internetforbindelse tilgængelig";
 "cloud_setting_network_status_error_value" = "Ingen internetforbindelse";
@@ -687,7 +699,10 @@
 "cloud_setting_number_of_transactions_in_progress_title" = "Vent venligst...";
 "cloud_setting_number_of_transactions_error_title" = "Fejl";
 
+/* Buttons */
 "import_from_cloud_button" = "Hent fra iCloud";
+
+/* Footer */
 "manual_sync_cloud_setting_footer_title" = "Hvis dine data ikke er eller ikke er fuldt synkroniseret med iCloud, kan du starte synkroniseringen manuelt her.";
 
 /* MARK: - Backup Settings View */
@@ -695,33 +710,33 @@
 "backup_setting_info_title" = "Beskrivelse";
 "backup_setting_info_description" = "Når det er aktiveret, sikkerhedskopierer Budget Flow regelmæssigt dine data, så du til enhver tid kan gendanne appen til en tidligere tilstand.";
 
+/* Sections */
 "backup_setting_general_section_title" = "Generelt";
 "backup_setting_recent_section_title" = "Seneste sikkerhedskopier";
+
+/* Titles */
 "backup_setting_use_automatic_backups_title" = "Automatisk sikkerhedskopiering";
 "backup_setting_back_up_to_icloud_drive_title" = "Sikkerhedskopiér til iCloud Drive";
-
 "backup_setting_keep_backups_title" = "Behold sikkerhedskopier";
+"backup_setting_create_backup_title" = "Opret sikkerhedskopi";
+"backup_setting_no_recent_backups_title" = "Ingen sikkerhedskopier tilgængelige";
+"backup_setting_backup_subtitle" = "%@ · %@";
+
+/* Options */
 "backup_setting_keep_backups_last_5_title" = "Seneste 5";
 "backup_setting_keep_backups_last_10_title" = "Seneste 10";
 "backup_setting_keep_backups_last_20_title" = "Seneste 20";
 "backup_setting_keep_backups_last_30_title" = "Seneste 30";
 "backup_setting_keep_backups_all_title" = "Alle";
 
-"backup_setting_create_backup_title" = "Opret sikkerhedskopi";
-
-"backup_setting_no_recent_backups_title" = "Ingen sikkerhedskopier tilgængelige";
-"backup_setting_backup_subtitle" = "%@ · %@";
-
+/* Alert Views */
 "backup_setting_delete_backup_alert_title" = "Slet sikkerhedskopi";
 "backup_setting_delete_backup_alert_message" = "Er du sikker på, at du vil slette denne sikkerhedskopi?";
-
 "backup_setting_restore_success_title" = "Sikkerhedskopi gendannet";
 "backup_setting_restore_success_message" = "Den valgte sikkerhedskopi er gendannet.";
-
 "backup_setting_error_title" = "Sikkerhedskopiering mislykkedes";
 "backup_setting_icloud_drive_unavailable_error" = "iCloud Drive er ikke tilgængelig på denne enhed.";
 "backup_setting_could_not_create_backup_directory_error" = "Sikkerhedskopimappen kunne ikke oprettes.";
-
 "alert_restore_backup_title" = "Gendan sikkerhedskopi";
 "alert_restore_backup_message" = "Er du sikker på, at du vil gendanne denne sikkerhedskopi?\n\nDette sletter dine aktuelle data og erstatter dem med dataene fra den valgte sikkerhedskopi.\n\nAdvarsel: Denne handling kan ikke fortrydes!";
 "alert_restore_backup_button" = "Gendan sikkerhedskopi";
@@ -747,9 +762,11 @@
 "backup_restore_progress_reminders" = "Påmindelser";
 
 /* MARK: - Advanced Settings View */
+/* Info */
 "advanced_setting_info_title" = "Beskrivelse";
 "advanced_setting_info_description" = "Foretag yderligere indstillinger for at konfigurere appen.";
 
+/* Sections */
 "advanced_security_setting_section_title" = "Sikkerhed";
 "advanced_view_setting_section_title" = "Skærm";
 "advanced_sidebar_setting_section_title" = "Sidebjælke";
@@ -758,10 +775,12 @@
 "advanced_input_setting_section_title" = "Input";
 "advanced_other_setting_section_title" = "Andet";
 
+/* Security */
 "advanced_setting_use_passcode_title" = "Brug adgangskode";
 "advanced_setting_use_title" = "Brug %@";
 "advanced_setting_auto_lock_title" = "Anmod om kode";
 
+/* View */
 "advanced_setting_chart_type_title" = "Diagramtype";
 "advanced_setting_show_most_used_items_title" = "Vis mest brugte kategorier og tags";
 "advanced_setting_show_most_used_items_description" = "Vis mest brugte kategorier og tags på valglisten, når du opretter og redigerer transaktioner.";
@@ -773,19 +792,10 @@
 "advanced_setting_start_day_of_month_description" = "Angiv startdagen for hver måned, så rapporter, transaktioner og budgetter beregnes korrekt.";
 "advanced_setting_configure_transaction_title_title" = "Transaktionstitel";
 "advanced_setting_configure_transaction_subtitle_title" = "Transaktionsundertitel";
-
 "advanced_setting_configure_transaction_title_info_title" = "Beskrivelse";
 "advanced_setting_configure_transaction_title_info_description" = "Indstil rækkefølgen af ​​de elementer, der skal vises i transaktionstitlen. Hvis en vare mangler, bruges den næste i ordren automatisk.";
 
-"advanced_setting_show_accounts_in_sidebar_title" = "Vis konti i sidebjælken";
-"advanced_setting_show_accounts_in_sidebar_description" = "Vis en liste over dine konti i sidebjælken.";
-"advanced_setting_group_accounts_in_sidebar_title" = "Gruppekonti i sidebjælken";
-"advanced_setting_group_accounts_in_sidebar_description" = "Gruppér dine konti i sidebjælken efter type.";
-"advanced_setting_show_categories_in_sidebar_title" = "Vis kategorier i sidebjælken";
-"advanced_setting_show_categories_in_sidebar_description" = "Vis en liste over dine kategorier i sidebjælken.";
-"advanced_setting_group_categories_in_sidebar_title" = "Gruppekategorier i sidebjælken";
-"advanced_setting_group_categories_in_sidebar_description" = "Gruppér dine kategorier i sidebjælken efter mappe.";
-
+/* Input */
 "advanced_setting_select_time_automatically_title" = "Automatisk tidsvalg";
 "advanced_setting_select_time_automatically_description" = "Vælg automatisk det aktuelle tidspunkt for nye transaktioner.";
 "advanced_setting_select_location_automatically_title" = "Automatisk placeringsvalg";
@@ -797,11 +807,23 @@
 "advanced_setting_consider_pending_items_title" = "Bestil alle transaktioner";
 "advanced_setting_consider_pending_items_description" = "Inkluder afventende transaktioner ved beregning af kontosaldi, saldi, totaler osv.";
 
+/* Sidebar */
+"advanced_setting_show_accounts_in_sidebar_title" = "Vis konti i sidebjælken";
+"advanced_setting_show_accounts_in_sidebar_description" = "Vis en liste over dine konti i sidebjælken.";
+"advanced_setting_group_accounts_in_sidebar_title" = "Gruppekonti i sidebjælken";
+"advanced_setting_group_accounts_in_sidebar_description" = "Gruppér dine konti i sidebjælken efter type.";
+"advanced_setting_show_categories_in_sidebar_title" = "Vis kategorier i sidebjælken";
+"advanced_setting_show_categories_in_sidebar_description" = "Vis en liste over dine kategorier i sidebjælken.";
+"advanced_setting_group_categories_in_sidebar_title" = "Gruppekategorier i sidebjælken";
+"advanced_setting_group_categories_in_sidebar_description" = "Gruppér dine kategorier i sidebjælken efter mappe.";
+
+/* Apple Intelligence */
 "advanced_setting_use_apple_intelligence_in_receipt_scanner_title" = "Kvitteringsscanner";
 "advanced_setting_use_apple_intelligence_in_receipt_scanner_description" = "Brug Apple Intelligence til automatisk at udfylde ekstra felter, når du scanner en kvittering.";
 "advanced_setting_use_apple_intelligence_in_shortcuts_title" = "Genveje";
 "advanced_setting_use_apple_intelligence_in_shortcuts_description" = "Brug Apple Intelligence til automatisk at registrere kategorier og betalingsmodtagere i genvejsautomatiseringer.";
 
+/* Input */
 "advanced_setting_enable_exact_times_title" = "Indtast nøjagtige tidspunkter";
 "advanced_setting_enable_exact_times_description" = "Vælg nøjagtige tidspunkter ved hjælp af minutskruen for transaktioner (f.eks. 9:41).";
 "advanced_setting_reverse_keyboard_title" = "Omvendt tastatur";
@@ -809,6 +831,7 @@
 "advanced_setting_enable_haptic_keyboard_title" = "Tastaturfeedback";
 "advanced_setting_enable_haptic_keyboard_description" = "Få haptisk feedback, når du indtaster pengebeløb ved hjælp af tastaturet.";
 
+/* Other */
 "advanced_setting_language_title" = "Sprog";
 "advanced_setting_time_zone_title" = "Tidszone";
 "advanced_setting_enable_live_activities_title" = "Live-aktiviteter";
@@ -1193,7 +1216,7 @@
 
 "alert_confirm_delete_contra_entry_title" = "Denne transaktion er en overførsel. Vil du også slette modposten?";
 
-/* Updates */
+/* Update */
 "alert_confirm_update_contra_entry_title" = "Denne transaktion er en overførsel. Vil du også opdatere modposten?";
 "alert_confirm_update_transaction_multiple_title" = "Denne transaktion tilhører en gruppe. Hvad præcis vil du gemme?";
 "alert_confirm_update_transaction_single_button" = "Gem kun denne ene";
@@ -1322,7 +1345,7 @@
 "no_reminders_found_button_title" = "Ny påmindelse";
 "reminders_search_placeholder_message" = "Søg efter titlen på en påmindelse";
 
-/* Value */
+/* Values */
 "balance" = "Saldo";
 
 
@@ -1586,7 +1609,7 @@
 "location_selection_searchbar_placeholder" = "Søg";
 "location_selection_search_history_title" = "Seneste";
 
-/* Buttons */
+/* Button */
 "location_selection_select_button_title" = "Vælg";
 
 /* Alert Views */
@@ -1920,7 +1943,7 @@
 "icon_keyword_banknote" = "Seddel";
 "icon_keyword_refund" = "Refundering";
 "icon_keyword_dollar" = "Dollarer";
-"icon_keyword_cents" = "Center";
+"icon_keyword_cent" = "Center";
 "icon_keyword_yen" = "Yen";
 "icon_keyword_pound" = "Pund";
 "icon_keyword_franc" = "Franken";

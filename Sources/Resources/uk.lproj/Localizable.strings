@@ -371,7 +371,6 @@
 /* Formats */
 "transaction_filter_range_format" = "%@ — %@";
 
-
 /* MARK: - Period Selection View */
 /* Titles */
 "period_selection_title" = "Період";
@@ -624,39 +623,51 @@
 /* Info */
 "appearance_setting_info_title" = "Опис";
 "appearance_setting_info_description" = "Персоналізуйте програму на свій смак, змінивши її зовнішній вигляд.";
+
+/* Sections */
 "appearance_ui_style_setting_section_title" = "Тема";
+"appearance_accent_color_setting_section_title" = "Колір акценту";
+"appearance_app_icon_setting_section_title" = "Піктограма програми";
+
+/* Options */
 "appearance_ui_style_apply_to_icons_title" = "Застосувати до іконок";
 "appearance_ui_style_apply_to_icons_description" = "Також застосувати вибраний стиль до всіх іконок у додатку.";
-"appearance_accent_color_setting_section_title" = "Колір акценту";
+
+/* Footer */
 "appearance_accent_color_setting_footer_title" = "Змінює колір кнопок та інших елементів керування в програмі.";
-"appearance_app_icon_setting_section_title" = "Піктограма програми";
 
 /* MARK: - Sync & Data Settings View */
 /* Info */
 "sync_and_data_setting_info_title" = "Опис";
 "sync_and_data_setting_info_description" = "Отримати огляд поточного статусу синхронізації та імпортувати або експортувати дані за допомогою файлу CSV.";
 
+/* Sections */
 "sync_and_data_cloud_setting_section_title" = "iCloud";
-"sync_and_data_cloud_setting_footer_title" = "Вказує, чи була синхронізація з iCloud успішною, чи сталася помилка.";
-"sync_and_data_setting_cloud_sync_status_title" = "Стан синхронізації";
 "backup_setting_section_title" = "Резервні копії";
-"backup_setting_footer_title" = "Керуйте своїми резервними копіями та параметрами резервного копіювання.";
-"backup_setting_manage_backups_title" = "Керувати";
 "sync_and_data_csv_setting_section_title" = "Дані CSV";
-"sync_and_data_csv_setting_footer_title" = "Імпортуйте або експортуйте свої транзакції за допомогою файлу CSV.";
+
+/* Titles */
+"sync_and_data_setting_cloud_sync_status_title" = "Стан синхронізації";
+"backup_setting_manage_backups_title" = "Керувати";
 "sync_and_data_setting_csv_import_title" = "Імпорт";
 "sync_and_data_setting_csv_export_title" = "Експорт";
 "sync_and_data_setting_get_csv_template_title" = "Завантажити шаблон";
 
+/* Buttons */
 "clear_cache_button" = "Очистити кеш";
+
+/* Footer */
+"sync_and_data_cloud_setting_footer_title" = "Вказує, чи була синхронізація з iCloud успішною, чи сталася помилка.";
+"backup_setting_footer_title" = "Керуйте своїми резервними копіями та параметрами резервного копіювання.";
+"sync_and_data_csv_setting_footer_title" = "Імпортуйте або експортуйте свої транзакції за допомогою файлу CSV.";
 "cache_setting_footer_title" = "Інформація: очищення кешу видаляє всі файли в каталозі документів програми (включаючи резервні копії).";
 
+/* Alert Views */
 "alert_csv_import_successful_title" = "Імпорт успішно 🎉";
 "alert_csv_import_successful_message" = "Загалом було імпортовано %d із %d транзакцій.%@";
 "alert_csv_import_skipped_message" = " Таким чином %d транзакції були пропущені.";
 "alert_csv_import_error_message" = "Не вдалося успішно імпортувати %d з %d транзакцій.\n\n%@";
 "alert_csv_import_error_reason_field_message" = "Перевірте наступні поля у файлі CSV: %@.";
-
 "alert_csv_export_successful_title" = "Експорт успішно 🎉";
 "alert_csv_export_successful_message" = "Ваші дані успішно експортовано до \"%@\".";
 
@@ -671,6 +682,7 @@
 "cloud_setting_info_title" = "Опис";
 "cloud_setting_info_description" = "Це представлення містить більш детальний огляд поточного стану синхронізації iCloud і допомагає у вирішенні проблем.";
 
+/* Status */
 "cloud_setting_network_status_title" = "Мережа";
 "cloud_setting_network_status_success_value" = "Доступне підключення до Інтернету";
 "cloud_setting_network_status_error_value" = "Немає підключення до Інтернету";
@@ -687,7 +699,10 @@
 "cloud_setting_number_of_transactions_in_progress_title" = "Будь ласка, зачекайте...";
 "cloud_setting_number_of_transactions_error_title" = "Помилка";
 
+/* Buttons */
 "import_from_cloud_button" = "Завантажити з iCloud";
+
+/* Footer */
 "manual_sync_cloud_setting_footer_title" = "Якщо ваші дані не були або не повністю синхронізовані з iCloud, ви можете вручну запустити синхронізацію тут.";
 
 /* MARK: - Backup Settings View */
@@ -695,33 +710,33 @@
 "backup_setting_info_title" = "Опис";
 "backup_setting_info_description" = "Якщо ввімкнено, Budget Flow регулярно створює резервні копії ваших даних, щоб ви могли будь-коли відновити програму до попереднього стану.";
 
+/* Sections */
 "backup_setting_general_section_title" = "Загальні";
 "backup_setting_recent_section_title" = "Останні резервні копії";
+
+/* Titles */
 "backup_setting_use_automatic_backups_title" = "Автоматичне резервне копіювання";
 "backup_setting_back_up_to_icloud_drive_title" = "Створювати резервні копії в iCloud Drive";
-
 "backup_setting_keep_backups_title" = "Зберігати резервні копії";
+"backup_setting_create_backup_title" = "Створити резервну копію";
+"backup_setting_no_recent_backups_title" = "Немає доступних резервних копій";
+"backup_setting_backup_subtitle" = "%@ · %@";
+
+/* Options */
 "backup_setting_keep_backups_last_5_title" = "Останні 5";
 "backup_setting_keep_backups_last_10_title" = "Останні 10";
 "backup_setting_keep_backups_last_20_title" = "Останні 20";
 "backup_setting_keep_backups_last_30_title" = "Останні 30";
 "backup_setting_keep_backups_all_title" = "Усі";
 
-"backup_setting_create_backup_title" = "Створити резервну копію";
-
-"backup_setting_no_recent_backups_title" = "Немає доступних резервних копій";
-"backup_setting_backup_subtitle" = "%@ · %@";
-
+/* Alert Views */
 "backup_setting_delete_backup_alert_title" = "Видалити резервну копію";
 "backup_setting_delete_backup_alert_message" = "Ви справді хочете видалити цю резервну копію?";
-
 "backup_setting_restore_success_title" = "Резервну копію відновлено";
 "backup_setting_restore_success_message" = "Вибрану резервну копію відновлено.";
-
 "backup_setting_error_title" = "Не вдалося створити резервну копію";
 "backup_setting_icloud_drive_unavailable_error" = "iCloud Drive недоступний на цьому пристрої.";
 "backup_setting_could_not_create_backup_directory_error" = "Не вдалося створити папку резервних копій.";
-
 "alert_restore_backup_title" = "Відновити резервну копію";
 "alert_restore_backup_message" = "Ви справді хочете відновити цю резервну копію?\n\nПоточні дані буде видалено й замінено даними з вибраної резервної копії.\n\nПопередження: цю дію не можна скасувати!";
 "alert_restore_backup_button" = "Відновити резервну копію";
@@ -747,9 +762,11 @@
 "backup_restore_progress_reminders" = "Нагадування";
 
 /* MARK: - Advanced Settings View */
+/* Info */
 "advanced_setting_info_title" = "Опис";
 "advanced_setting_info_description" = "Виконайте додаткові налаштування для налаштування програми.";
 
+/* Sections */
 "advanced_security_setting_section_title" = "Безпека";
 "advanced_view_setting_section_title" = "Відображення";
 "advanced_sidebar_setting_section_title" = "Бічна панель";
@@ -758,10 +775,12 @@
 "advanced_input_setting_section_title" = "Ввід";
 "advanced_other_setting_section_title" = "Інше";
 
+/* Security */
 "advanced_setting_use_passcode_title" = "Використовувати пароль";
 "advanced_setting_use_title" = "Використовувати %@";
 "advanced_setting_auto_lock_title" = "Код запиту";
 
+/* View */
 "advanced_setting_chart_type_title" = "Тип діаграми";
 "advanced_setting_show_most_used_items_title" = "Показувати найчастіше використовувані категорії та теги";
 "advanced_setting_show_most_used_items_description" = "Показувати найчастіше використовувані категорії та теги у списку вибору під час створення та редагування транзакцій.";
@@ -773,19 +792,10 @@
 "advanced_setting_start_day_of_month_description" = "Вкажіть день початку кожного місяця, щоб звіти, транзакції та бюджети обчислювалися належним чином.";
 "advanced_setting_configure_transaction_title_title" = "Заголовок транзакції";
 "advanced_setting_configure_transaction_subtitle_title" = "Підзаголовок транзакції";
-
 "advanced_setting_configure_transaction_title_info_title" = "Опис";
 "advanced_setting_configure_transaction_title_info_description" = "Установіть порядок елементів, які відображатимуться в назві транзакції. Якщо елемент відсутній, автоматично використовується наступний у порядку.";
 
-"advanced_setting_show_accounts_in_sidebar_title" = "Показати рахунки на бічній панелі";
-"advanced_setting_show_accounts_in_sidebar_description" = "Показати список ваших облікових записів на бічній панелі.";
-"advanced_setting_group_accounts_in_sidebar_title" = "Групувати рахунки на бічній панелі";
-"advanced_setting_group_accounts_in_sidebar_description" = "Згрупуйте свої рахунки на бічній панелі за типом.";
-"advanced_setting_show_categories_in_sidebar_title" = "Показати категорії на бічній панелі";
-"advanced_setting_show_categories_in_sidebar_description" = "Показати список ваших категорій на бічній панелі.";
-"advanced_setting_group_categories_in_sidebar_title" = "Групувати категорії на бічній панелі";
-"advanced_setting_group_categories_in_sidebar_description" = "Згрупуйте категорії на бічній панелі за папками.";
-
+/* Input */
 "advanced_setting_select_time_automatically_title" = "Автоматичний вибір часу";
 "advanced_setting_select_time_automatically_description" = "Автоматично вибирати поточний час для нових транзакцій.";
 "advanced_setting_select_location_automatically_title" = "Автоматичний вибір місця";
@@ -797,11 +807,23 @@
 "advanced_setting_consider_pending_items_title" = "Забронювати всі транзакції";
 "advanced_setting_consider_pending_items_description" = "Включати транзакції, що очікують на розгляд, під час розрахунку залишків на рахунку, сальдо, підсумків тощо";
 
+/* Sidebar */
+"advanced_setting_show_accounts_in_sidebar_title" = "Показати рахунки на бічній панелі";
+"advanced_setting_show_accounts_in_sidebar_description" = "Показати список ваших облікових записів на бічній панелі.";
+"advanced_setting_group_accounts_in_sidebar_title" = "Групувати рахунки на бічній панелі";
+"advanced_setting_group_accounts_in_sidebar_description" = "Згрупуйте свої рахунки на бічній панелі за типом.";
+"advanced_setting_show_categories_in_sidebar_title" = "Показати категорії на бічній панелі";
+"advanced_setting_show_categories_in_sidebar_description" = "Показати список ваших категорій на бічній панелі.";
+"advanced_setting_group_categories_in_sidebar_title" = "Групувати категорії на бічній панелі";
+"advanced_setting_group_categories_in_sidebar_description" = "Згрупуйте категорії на бічній панелі за папками.";
+
+/* Apple Intelligence */
 "advanced_setting_use_apple_intelligence_in_receipt_scanner_title" = "Сканер чеків";
 "advanced_setting_use_apple_intelligence_in_receipt_scanner_description" = "Використовуйте Apple Intelligence, щоб автоматично заповнювати додаткові поля під час сканування чека.";
 "advanced_setting_use_apple_intelligence_in_shortcuts_title" = "Команди";
 "advanced_setting_use_apple_intelligence_in_shortcuts_description" = "Використовувати Apple Intelligence для автоматичного розпізнавання категорій і отримувачів в автоматизаціях команд.";
 
+/* Input */
 "advanced_setting_enable_exact_times_title" = "Введіть точний час";
 "advanced_setting_enable_exact_times_description" = "Виберіть точний час за допомогою лічильника хвилин для транзакцій (наприклад, 9:41).";
 "advanced_setting_reverse_keyboard_title" = "Перевернута клавіатура";
@@ -809,6 +831,7 @@
 "advanced_setting_enable_haptic_keyboard_title" = "Відгук про клавіатуру";
 "advanced_setting_enable_haptic_keyboard_description" = "Отримувати тактильний відгук під час введення грошових сум за допомогою клавіатури.";
 
+/* Other */
 "advanced_setting_language_title" = "Мова";
 "advanced_setting_time_zone_title" = "Часовий пояс";
 "advanced_setting_enable_live_activities_title" = "Живі дії";
@@ -1193,7 +1216,7 @@
 
 "alert_confirm_delete_contra_entry_title" = "Ця транзакція є переказом. Чи бажаєте ви також видалити запис контра?";
 
-/* Updates */
+/* Update */
 "alert_confirm_update_contra_entry_title" = "Ця транзакція є переказом. Чи бажаєте ви також оновити запис контра?";
 "alert_confirm_update_transaction_multiple_title" = "Ця транзакція належить до групи. Що саме ви хочете зберегти?";
 "alert_confirm_update_transaction_single_button" = "Зберегти лише цей";
@@ -1322,7 +1345,7 @@
 "no_reminders_found_button_title" = "Нове нагадування";
 "reminders_search_placeholder_message" = "Пошук за назвою нагадування";
 
-/* Value */
+/* Values */
 "balance" = "Баланс";
 
 
@@ -1586,7 +1609,7 @@
 "location_selection_searchbar_placeholder" = "Пошук";
 "location_selection_search_history_title" = "Останні";
 
-/* Buttons */
+/* Button */
 "location_selection_select_button_title" = "Вибрати";
 
 /* Alert Views */
@@ -1920,7 +1943,7 @@
 "icon_keyword_banknote" = "Банкнота";
 "icon_keyword_refund" = "Відшкодування";
 "icon_keyword_dollar" = "Долари";
-"icon_keyword_cents" = "Центи";
+"icon_keyword_cent" = "Центи";
 "icon_keyword_yen" = "Єна";
 "icon_keyword_pound" = "Фунт";
 "icon_keyword_franc" = "Франконія";

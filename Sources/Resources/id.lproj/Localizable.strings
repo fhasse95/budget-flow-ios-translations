@@ -371,7 +371,6 @@
 /* Formats */
 "transaction_filter_range_format" = "%@ hingga %@";
 
-
 /* MARK: - Period Selection View */
 /* Titles */
 "period_selection_title" = "Periode";
@@ -624,39 +623,51 @@
 /* Info */
 "appearance_setting_info_title" = "Deskripsi";
 "appearance_setting_info_description" = "Personalisasikan aplikasi sesuai keinginan Anda dengan mengubah tampilan aplikasi.";
+
+/* Sections */
 "appearance_ui_style_setting_section_title" = "Tema";
+"appearance_accent_color_setting_section_title" = "Warna Aksen";
+"appearance_app_icon_setting_section_title" = "Ikon Aplikasi";
+
+/* Options */
 "appearance_ui_style_apply_to_icons_title" = "Terapkan ke Ikon";
 "appearance_ui_style_apply_to_icons_description" = "Terapkan tampilan yang dipilih ke semua ikon dalam aplikasi.";
-"appearance_accent_color_setting_section_title" = "Warna Aksen";
+
+/* Footer */
 "appearance_accent_color_setting_footer_title" = "Ubah warna tombol dan kontrol lainnya dalam aplikasi.";
-"appearance_app_icon_setting_section_title" = "Ikon Aplikasi";
 
 /* MARK: - Sync & Data Settings View */
 /* Info */
 "sync_and_data_setting_info_title" = "Deskripsi";
 "sync_and_data_setting_info_description" = "Dapatkan ringkasan status sinkronisasi saat ini dan impor atau ekspor data menggunakan file CSV.";
 
+/* Sections */
 "sync_and_data_cloud_setting_section_title" = "iCloud";
-"sync_and_data_cloud_setting_footer_title" = "Menunjukkan apakah sinkronisasi dengan iCloud berhasil atau terjadi kesalahan.";
-"sync_and_data_setting_cloud_sync_status_title" = "Status Sinkronisasi";
 "backup_setting_section_title" = "Cadangan";
-"backup_setting_footer_title" = "Kelola cadangan dan pengaturan cadangan Anda.";
-"backup_setting_manage_backups_title" = "Kelola";
 "sync_and_data_csv_setting_section_title" = "Data-CSV";
-"sync_and_data_csv_setting_footer_title" = "Impor atau ekspor transaksi Anda menggunakan file CSV.";
+
+/* Titles */
+"sync_and_data_setting_cloud_sync_status_title" = "Status Sinkronisasi";
+"backup_setting_manage_backups_title" = "Kelola";
 "sync_and_data_setting_csv_import_title" = "Impor";
 "sync_and_data_setting_csv_export_title" = "Ekspor";
 "sync_and_data_setting_get_csv_template_title" = "Unduh templat";
 
+/* Buttons */
 "clear_cache_button" = "Hapus Cache";
+
+/* Footer */
+"sync_and_data_cloud_setting_footer_title" = "Menunjukkan apakah sinkronisasi dengan iCloud berhasil atau terjadi kesalahan.";
+"backup_setting_footer_title" = "Kelola cadangan dan pengaturan cadangan Anda.";
+"sync_and_data_csv_setting_footer_title" = "Impor atau ekspor transaksi Anda menggunakan file CSV.";
 "cache_setting_footer_title" = "Info: Menghapus cache akan menghapus semua file di direktori dokumen aplikasi (termasuk cadangan).";
 
+/* Alert Views */
 "alert_csv_import_successful_title" = "Impor berhasil 🎉";
 "alert_csv_import_successful_message" = "Total %d dari %d transaksi telah diimpor.%@";
 "alert_csv_import_skipped_message" = " Dengan demikian, %d transaksi telah diabaikan.";
 "alert_csv_import_error_message" = "Gagal mengimpor %d dari %d transaksi.\n\n%@";
 "alert_csv_import_error_reason_field_message" = "Mohon periksa kolom berikut di file CSV Anda: %@.";
-
 "alert_csv_export_successful_title" = "Ekspor berhasil 🎉";
 "alert_csv_export_successful_message" = "Data Anda berhasil diekspor ke \"%@\".";
 
@@ -671,6 +682,7 @@
 "cloud_setting_info_title" = "Deskripsi";
 "cloud_setting_info_description" = "Tampilan berikut memberikan gambaran umum lebih rinci tentang status sinkronisasi iCloud saat ini dan membantu pemecahan masalah.";
 
+/* Status */
 "cloud_setting_network_status_title" = "Jaringan";
 "cloud_setting_network_status_success_value" = "Koneksi internet tersedia";
 "cloud_setting_network_status_error_value" = "Tidak ada koneksi internet";
@@ -687,7 +699,10 @@
 "cloud_setting_number_of_transactions_in_progress_title" = "Mohon tunggu...";
 "cloud_setting_number_of_transactions_error_title" = "Kesalahan";
 
+/* Buttons */
 "import_from_cloud_button" = "Unduh dari iCloud";
+
+/* Footer */
 "manual_sync_cloud_setting_footer_title" = "Jika data Anda belum atau belum sepenuhnya disinkronkan dengan iCloud, Anda dapat memulai sinkronisasi secara manual di sini.";
 
 /* MARK: - Backup Settings View */
@@ -695,33 +710,33 @@
 "backup_setting_info_title" = "Deskripsi";
 "backup_setting_info_description" = "Jika diaktifkan, Budget Flow mencadangkan data Anda secara rutin sehingga Anda dapat memulihkan aplikasi ke keadaan sebelumnya kapan saja.";
 
+/* Sections */
 "backup_setting_general_section_title" = "Umum";
 "backup_setting_recent_section_title" = "Cadangan Terbaru";
+
+/* Titles */
 "backup_setting_use_automatic_backups_title" = "Pencadangan Otomatis";
 "backup_setting_back_up_to_icloud_drive_title" = "Cadangkan ke iCloud Drive";
-
 "backup_setting_keep_backups_title" = "Simpan cadangan";
+"backup_setting_create_backup_title" = "Buat cadangan";
+"backup_setting_no_recent_backups_title" = "Tidak ada cadangan tersedia";
+"backup_setting_backup_subtitle" = "%@ · %@";
+
+/* Options */
 "backup_setting_keep_backups_last_5_title" = "5 terakhir";
 "backup_setting_keep_backups_last_10_title" = "10 terakhir";
 "backup_setting_keep_backups_last_20_title" = "20 terakhir";
 "backup_setting_keep_backups_last_30_title" = "30 terakhir";
 "backup_setting_keep_backups_all_title" = "Semua";
 
-"backup_setting_create_backup_title" = "Buat cadangan";
-
-"backup_setting_no_recent_backups_title" = "Tidak ada cadangan tersedia";
-"backup_setting_backup_subtitle" = "%@ · %@";
-
+/* Alert Views */
 "backup_setting_delete_backup_alert_title" = "Hapus Cadangan";
 "backup_setting_delete_backup_alert_message" = "Apakah Anda yakin ingin menghapus cadangan ini?";
-
 "backup_setting_restore_success_title" = "Cadangan dipulihkan";
 "backup_setting_restore_success_message" = "Cadangan yang dipilih telah dipulihkan.";
-
 "backup_setting_error_title" = "Pencadangan gagal";
 "backup_setting_icloud_drive_unavailable_error" = "iCloud Drive tidak tersedia di perangkat ini.";
 "backup_setting_could_not_create_backup_directory_error" = "Folder cadangan tidak dapat dibuat.";
-
 "alert_restore_backup_title" = "Pulihkan Cadangan";
 "alert_restore_backup_message" = "Apakah Anda yakin ingin memulihkan cadangan ini?\n\nIni akan menghapus data Anda saat ini dan menggantinya dengan data dari cadangan yang dipilih.\n\nPeringatan: Tindakan ini tidak dapat dibatalkan!";
 "alert_restore_backup_button" = "Pulihkan cadangan";
@@ -747,9 +762,11 @@
 "backup_restore_progress_reminders" = "Pengingat";
 
 /* MARK: - Advanced Settings View */
+/* Info */
 "advanced_setting_info_title" = "Deskripsi";
 "advanced_setting_info_description" = "Lakukan pengaturan lebih lanjut untuk mengonfigurasi aplikasi.";
 
+/* Sections */
 "advanced_security_setting_section_title" = "Keamanan";
 "advanced_view_setting_section_title" = "Tampilan";
 "advanced_sidebar_setting_section_title" = "Bilah Sisi";
@@ -758,10 +775,12 @@
 "advanced_input_setting_section_title" = "Masukan";
 "advanced_other_setting_section_title" = "Lainnya";
 
+/* Security */
 "advanced_setting_use_passcode_title" = "Gunakan Kode Sandi";
 "advanced_setting_use_title" = "Gunakan %@";
 "advanced_setting_auto_lock_title" = "Minta Kode";
 
+/* View */
 "advanced_setting_chart_type_title" = "Jenis Grafik";
 "advanced_setting_show_most_used_items_title" = "Tampilkan kategori & tag yang paling sering digunakan";
 "advanced_setting_show_most_used_items_description" = "Tampilkan kategori & tag yang paling sering digunakan dalam daftar pilihan saat membuat dan mengedit transaksi.";
@@ -773,19 +792,10 @@
 "advanced_setting_start_day_of_month_description" = "Tentukan tanggal awal setiap bulan agar laporan, transaksi, dan anggaran dihitung dengan tepat.";
 "advanced_setting_configure_transaction_title_title" = "Judul Transaksi";
 "advanced_setting_configure_transaction_subtitle_title" = "Subjudul Transaksi";
-
 "advanced_setting_configure_transaction_title_info_title" = "Deskripsi";
 "advanced_setting_configure_transaction_title_info_description" = "Tetapkan urutan item yang akan ditampilkan dalam judul transaksi. Jika ada item yang hilang, item berikutnya dalam urutan tersebut akan otomatis digunakan.";
 
-"advanced_setting_show_accounts_in_sidebar_title" = "Tampilkan akun di bilah sisi";
-"advanced_setting_show_accounts_in_sidebar_description" = "Tampilkan daftar akun Anda di bilah sisi.";
-"advanced_setting_group_accounts_in_sidebar_title" = "Kelompokkan akun di bilah sisi";
-"advanced_setting_group_accounts_in_sidebar_description" = "Kelompokkan akun Anda di bilah sisi berdasarkan jenis.";
-"advanced_setting_show_categories_in_sidebar_title" = "Tampilkan kategori di bilah sisi";
-"advanced_setting_show_categories_in_sidebar_description" = "Tampilkan daftar kategori Anda di bilah sisi.";
-"advanced_setting_group_categories_in_sidebar_title" = "Kelompokkan kategori di bilah sisi";
-"advanced_setting_group_categories_in_sidebar_description" = "Kelompokkan kategori Anda di bilah sisi berdasarkan folder.";
-
+/* Input */
 "advanced_setting_select_time_automatically_title" = "Pemilihan waktu otomatis";
 "advanced_setting_select_time_automatically_description" = "Secara otomatis memilih waktu saat ini untuk transaksi baru.";
 "advanced_setting_select_location_automatically_title" = "Pemilihan lokasi otomatis";
@@ -797,11 +807,23 @@
 "advanced_setting_consider_pending_items_title" = "Hitung semua transaksi";
 "advanced_setting_consider_pending_items_description" = "Sertakan transaksi yang tertunda saat menghitung saldo akun, saldo, total, dll.";
 
+/* Sidebar */
+"advanced_setting_show_accounts_in_sidebar_title" = "Tampilkan akun di bilah sisi";
+"advanced_setting_show_accounts_in_sidebar_description" = "Tampilkan daftar akun Anda di bilah sisi.";
+"advanced_setting_group_accounts_in_sidebar_title" = "Kelompokkan akun di bilah sisi";
+"advanced_setting_group_accounts_in_sidebar_description" = "Kelompokkan akun Anda di bilah sisi berdasarkan jenis.";
+"advanced_setting_show_categories_in_sidebar_title" = "Tampilkan kategori di bilah sisi";
+"advanced_setting_show_categories_in_sidebar_description" = "Tampilkan daftar kategori Anda di bilah sisi.";
+"advanced_setting_group_categories_in_sidebar_title" = "Kelompokkan kategori di bilah sisi";
+"advanced_setting_group_categories_in_sidebar_description" = "Kelompokkan kategori Anda di bilah sisi berdasarkan folder.";
+
+/* Apple Intelligence */
 "advanced_setting_use_apple_intelligence_in_receipt_scanner_title" = "Pemindai struk";
 "advanced_setting_use_apple_intelligence_in_receipt_scanner_description" = "Gunakan Apple Intelligence untuk mengisi bidang tambahan secara otomatis saat memindai struk.";
 "advanced_setting_use_apple_intelligence_in_shortcuts_title" = "Pintasan";
 "advanced_setting_use_apple_intelligence_in_shortcuts_description" = "Gunakan Apple Intelligence untuk mendeteksi kategori dan penerima pembayaran secara otomatis dalam automasi pintasan.";
 
+/* Input */
 "advanced_setting_enable_exact_times_title" = "Masukkan waktu yang tepat";
 "advanced_setting_enable_exact_times_description" = "Pilih waktu yang tepat menggunakan pemutar menit untuk transaksi (misalnya 09.41).";
 "advanced_setting_reverse_keyboard_title" = "Papan Ketik Terbalik";
@@ -809,6 +831,7 @@
 "advanced_setting_enable_haptic_keyboard_title" = "Umpan Balik Papan Ketik";
 "advanced_setting_enable_haptic_keyboard_description" = "Dapatkan umpan balik haptik saat memasukkan jumlah uang menggunakan papan ketik numerik.";
 
+/* Other */
 "advanced_setting_language_title" = "Bahasa";
 "advanced_setting_time_zone_title" = "Zona Waktu";
 "advanced_setting_enable_live_activities_title" = "Live-Activities";
@@ -1193,7 +1216,7 @@
 
 "alert_confirm_delete_contra_entry_title" = "Transaksi ini adalah transfer. Apakah Anda juga ingin menghapus entri kontra?";
 
-/* Updates */
+/* Update */
 "alert_confirm_update_contra_entry_title" = "Transaksi ini adalah transfer. Apakah Anda juga ingin memperbarui entri kontra?";
 "alert_confirm_update_transaction_multiple_title" = "Transaksi ini milik sebuah grup. Apa sebenarnya yang ingin Anda simpan?";
 "alert_confirm_update_transaction_single_button" = "Simpan yang ini saja";
@@ -1322,7 +1345,7 @@
 "no_reminders_found_button_title" = "Pengingat Baru";
 "reminders_search_placeholder_message" = "Cari berdasarkan judul pengingat";
 
-/* Value */
+/* Values */
 "balance" = "Saldo";
 
 
@@ -1586,7 +1609,7 @@
 "location_selection_searchbar_placeholder" = "Cari";
 "location_selection_search_history_title" = "Terbaru";
 
-/* Buttons */
+/* Button */
 "location_selection_select_button_title" = "Pilih";
 
 /* Alert Views */
@@ -1820,7 +1843,7 @@
 "icon_keyword_golf" = "Golf";
 "icon_keyword_baseball" = "Bisbol";
 "icon_keyword_basketball" = "Bola Basket";
-"icon_keyword_voli" = "Bola Voli";
+"icon_keyword_volleyball" = "Bola Voli";
 "icon_keyword_trophy" = "Piala";
 "icon_keyword_medal" = "Medali";
 "icon_keyword_flag" = "Bendera";
@@ -1920,7 +1943,7 @@
 "icon_keyword_banknote" = "Uang Kertas";
 "icon_keyword_refund" = "Pengembalian Dana";
 "icon_keyword_dollar" = "Dolar";
-"icon_keyword_cents" = "Sen";
+"icon_keyword_cent" = "Sen";
 "icon_keyword_yen" = "Yen";
 "icon_keyword_pound" = "Pound";
 "icon_keyword_franc" = "Franc";

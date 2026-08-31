@@ -2,35 +2,35 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>3.2.0</key>
+	<key>3.3.0</key>
 	<array>
 		<dict>
 			<key>Title</key>
-			<string>향상된 영수증 스캐너</string>
+			<string>향상된 단축어</string>
 			<key>Description</key>
-			<string>내장 영수증 스캐너가 이제 이전 입력을 바탕으로 수취인도 인식합니다.</string>
+			<string>새롭고 향상된 단축어로 Budget Flow 자동화가 그 어느 때보다 쉬워졌으며, iOS 및 iPadOS 27에서 은행 앱 알림을 통해 거래를 자동으로 추가할 수 있습니다.</string>
 			<key>IconName</key>
-			<string>receipt.viewfinder</string>
+			<string>app.badge</string>
 			<key>IconColor</key>
 			<string>#ff8d28</string>
 		</dict>
 		<dict>
 			<key>Title</key>
-			<string>추가 아이콘</string>
+			<string>자동 분류</string>
 			<key>Description</key>
-			<string>앱을 원하는 대로 개인화할 수 있도록 더 많은 아이콘이 추가되었습니다.</string>
+			<string>지원되는 기기에서 Budget Flow는 이제 Apple Intelligence를 사용하여 단축어로 거래를 자동 생성할 때 카테고리와 수취인을 판단할 수 있습니다.</string>
 			<key>IconName</key>
-			<string>paintpalette</string>
+			<string>square.2.layers.3d.top.filled</string>
 			<key>IconColor</key>
 			<string>#ff375f</string>
 		</dict>
 		<dict>
 			<key>Title</key>
-			<string>개선된 번역</string>
+			<string>iOS, iPadOS 및 macOS 27 지원</string>
 			<key>Description</key>
-			<string>앱의 노르웨이어 번역이 최적화되어 이제 더 쉽게 이해할 수 있습니다.</string>
+			<string>디자인 개선과 호환성 업데이트로 최신 Apple 운영 체제에서 Budget Flow가 원활하게 실행됩니다.</string>
 			<key>IconName</key>
-			<string>globe</string>
+			<string>macbook.and.iphone</string>
 			<key>IconColor</key>
 			<string>#0088ff</string>
 		</dict>

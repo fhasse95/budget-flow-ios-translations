@@ -2,35 +2,35 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>3.2.0</key>
+	<key>3.3.0</key>
 	<array>
 		<dict>
 			<key>Title</key>
-			<string>Izboljšan optični bralnik računov</string>
+			<string>Izboljšane bližnjice</string>
 			<key>Description</key>
-			<string>Vgrajeni optični bralnik računov zdaj na podlagi tvojih prejšnjih vnosov prepozna tudi prejemnika plačila.</string>
+			<string>Nove in izboljšane bližnjice omogočajo lažjo avtomatizacijo Budget Flow kot kdaj koli prej, vključno s samodejnim dodajanjem transakcij iz obvestil bančnih aplikacij v iOS in iPadOS 27.</string>
 			<key>IconName</key>
-			<string>receipt.viewfinder</string>
+			<string>app.badge</string>
 			<key>IconColor</key>
 			<string>#ff8d28</string>
 		</dict>
 		<dict>
 			<key>Title</key>
-			<string>Dodatne ikone</string>
+			<string>Samodejno kategoriziranje</string>
 			<key>Description</key>
-			<string>Dodali smo več ikon, s katerimi lahko aplikacijo prilagodiš povsem po svojih željah.</string>
+			<string>Na podprtih napravah lahko Budget Flow zdaj uporablja Apple Intelligence za določanje kategorije in prejemnika plačila pri samodejnem ustvarjanju transakcij z bližnjicami.</string>
 			<key>IconName</key>
-			<string>paintpalette</string>
+			<string>square.2.layers.3d.top.filled</string>
 			<key>IconColor</key>
 			<string>#ff375f</string>
 		</dict>
 		<dict>
 			<key>Title</key>
-			<string>Izboljšan prevod</string>
+			<string>Podpora za iOS, iPadOS in macOS 27</string>
 			<key>Description</key>
-			<string>Norveški prevod aplikacije je bil optimiziran, zato ga je zdaj še lažje razumeti.</string>
+			<string>Oblikovne izboljšave in posodobitve združljivosti zagotavljajo nemoteno delovanje Budget Flow v najnovejših Applovih operacijskih sistemih.</string>
 			<key>IconName</key>
-			<string>globe</string>
+			<string>macbook.and.iphone</string>
 			<key>IconColor</key>
 			<string>#0088ff</string>
 		</dict>

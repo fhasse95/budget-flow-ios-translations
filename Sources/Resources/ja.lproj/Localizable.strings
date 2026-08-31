@@ -706,7 +706,7 @@
 "advanced_view_setting_section_title" = "表示";
 "advanced_sidebar_setting_section_title" = "サイドバー";
 "advanced_transaction_setting_section_title" = "トランザクション";
-"advanced_receipt_scanner_setting_section_title" = "レシートスキャナー";
+"advanced_apple_intelligence_setting_section_title" = "Apple Intelligence";
 "advanced_input_setting_section_title" = "入力";
 "advanced_other_setting_section_title" = "その他";
 
@@ -747,8 +747,10 @@
 "advanced_setting_consider_pending_items_title" = "すべてのトランザクションを予約";
 "advanced_setting_consider_pending_items_description" = "口座残高、残高、合計などを計算するときに保留中のトランザクションを含めるには、この機能を有効にします。";
 
-"advanced_setting_use_apple_intelligence_in_receipt_scanner_title" = "Apple Intelligence";
+"advanced_setting_use_apple_intelligence_in_receipt_scanner_title" = "レシートスキャナー";
 "advanced_setting_use_apple_intelligence_in_receipt_scanner_description" = "レシートをスキャンする際に、Apple Intelligence を使用して追加フィールドを自動入力します。";
+"advanced_setting_use_apple_intelligence_in_shortcuts_title" = "ショートカット";
+"advanced_setting_use_apple_intelligence_in_shortcuts_description" = "ショートカットのオートメーションでカテゴリと支払先を自動検出するためにApple Intelligenceを使用します。";
 
 "advanced_setting_enable_exact_times_title" = "正確な時間を使用する";
 "advanced_setting_enable_exact_times_description" = "トランザクションの時間フォームを使用して正確な時間を選択するには、この機能をオンにします (例: 9:41)。";
@@ -1231,6 +1233,7 @@
 
 /* Messages */
 "no_budget_books_found_title" = "帳簿が見つかりませんでした";
+"no_budget_book_found_title" = "予算ブックが見つかりません";
 "no_budget_books_found_message" = "新しい帳簿を追加するには、\"+\"ボタンをクリックしてください。";
 "no_budget_books_found_button_title" = "新しい帳簿";
 "no_budget_books_found_cloud_sync_message" = "既存のデータが iCloud からロードされています。しばらくお待ちください...\n\nまたは、\"+\" ボタンをクリックして新しい帳簿を追加します。";
@@ -1239,21 +1242,25 @@
 
 "no_accounts_title" = "口座がありません";
 "no_accounts_found_title" = "口座が見つかりませんでした";
+"no_account_found_title" = "口座が見つかりません";
 "no_accounts_found_message" = "新しい口座を追加するには、\"+\"ボタンをクリックしてください。";
 "no_accounts_found_button_title" = "新しい口座";
 "accounts_search_placeholder_message" = "口座名または口座の種類で検索";
 
 "no_categories_found_title" = "カテゴリが見つかりませんでした";
+"no_category_found_title" = "カテゴリが見つかりません";
 "no_categories_found_message" = "新しいカテゴリを追加するには、\"+\" ボタンをクリックします。";
 "no_categories_found_button_title" = "新しいカテゴリ";
 "categories_search_placeholder_message" = "カテゴリまたはフォルダー名で検索";
 
 "no_category_groups_found_title" = "フォルダーが見つかりません";
+"no_category_group_found_title" = "フォルダが見つかりません";
 "no_category_groups_found_message" = "新しいフォルダーを追加するには、\"+\"ボタンをクリックしてください。";
 "no_category_groups_found_button_title" = "新しいフォルダー";
 "category_groups_search_placeholder_message" = "フォルダーの名前で検索";
 
 "no_payees_found_title" = "受取人が見つかりませんでした";
+"no_payee_found_title" = "支払先が見つかりません";
 "no_payees_found_message" = "新しい受取人を追加するには、\"+\"ボタンをクリックしてください。";
 "no_payees_found_button_title" = "新しい受取人";
 "payees_search_placeholder_message" = "受取人の名前で検索";
@@ -2008,6 +2015,29 @@
 "open_category_name" = "開く";
 "show_category_name" = "表示";
 "search_category_name" = "検索";
+"create_category_name" = "作成";
+
+/* Create */
+"create_budget_book_title" = "予算ブックを作成";
+"create_budget_book_description" = "予算ブックを作成するか、同じ名前の既存の予算ブックを返します。";
+"create_budget_book_parameter_summary" = "${name}で予算ブックを作成";
+"create_budget_book_failed_title" = "予算ブックを作成できませんでした";
+"create_account_title" = "口座を作成";
+"create_account_description" = "口座を作成するか、同じ名前の既存の口座を返します。";
+"create_account_parameter_summary" = "${budgetBook}に${name}で口座を作成";
+"create_account_failed_title" = "口座を作成できませんでした";
+"create_category_group_title" = "フォルダを作成";
+"create_category_group_description" = "フォルダを作成するか、同じ名前の既存のフォルダを返します。";
+"create_category_group_parameter_summary" = "${budgetBook}に${name}でフォルダを作成";
+"create_category_group_failed_title" = "フォルダを作成できませんでした";
+"create_category_title" = "カテゴリを作成";
+"create_category_description" = "カテゴリを作成するか、同じ名前の既存のカテゴリを返します。";
+"create_category_parameter_summary" = "${budgetBook}の${categoryGroup}に${name}でカテゴリを作成";
+"create_category_failed_title" = "カテゴリを作成できませんでした";
+"create_payee_title" = "支払先を作成";
+"create_payee_description" = "支払先を作成するか、同じ名前の既存の支払先を返します。";
+"create_payee_parameter_summary" = "${budgetBook}に${name}で支払先を作成";
+"create_payee_failed_title" = "支払先を作成できませんでした";
 
 /* Search */
 "search_budget_book_title" = "予算書の検索";
@@ -2067,6 +2097,29 @@
 "chart_type_current_month_title" = "今月";
 "chart_type_current_year_title" = "今年";
 
+
+/* Parse */
+"parse_category_name" = "抽出";
+"parse_notification_transaction_title" = "取引情報を抽出";
+"parse_notification_transaction_description" = "通知から取引情報を抽出します。";
+"parse_notification_transaction_parameter_summary" = "通知から取引情報を抽出。";
+
+"notification_title_parameter_title" = "タイトル";
+"notification_title_parameter_description" = "通知のタイトル。";
+"notification_subtitle_parameter_title" = "サブタイトル";
+"notification_subtitle_parameter_description" = "通知のサブタイトル。";
+"notification_body_parameter_title" = "本文";
+"notification_body_parameter_description" = "通知の本文。";
+"notification_body_parameter_dialog" = "通知の本文は何ですか？";
+"notification_date_parameter_title" = "日付";
+"notification_date_parameter_description" = "通知の日付。";
+
+"transaction_info_entity_name" = "取引情報";
+"amount_property_title" = "金額";
+"currency_code_property_title" = "通貨";
+"date_property_title" = "日付";
+"category_property_title" = "カテゴリ";
+"payee_property_title" = "支払先";
 
 /* MARK: - Dummy Data */
 "default_budget_book_name" = "私の帳簿";

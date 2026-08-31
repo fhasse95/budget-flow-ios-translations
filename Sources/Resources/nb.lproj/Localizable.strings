@@ -706,7 +706,7 @@
 "advanced_view_setting_section_title" = "Visning";
 "advanced_sidebar_setting_section_title" = "Sidefelt";
 "advanced_transaction_setting_section_title" = "Transaksjoner";
-"advanced_receipt_scanner_setting_section_title" = "Kvitteringsskanner";
+"advanced_apple_intelligence_setting_section_title" = "Apple Intelligence";
 "advanced_input_setting_section_title" = "Inndata";
 "advanced_other_setting_section_title" = "Annet";
 
@@ -747,8 +747,10 @@
 "advanced_setting_consider_pending_items_title" = "Gjennomfor alle ventende transaksjoner";
 "advanced_setting_consider_pending_items_description" = "Ta med ventende transaksjoner når du beregner kontosaldoer, saldoer, totaler osv.";
 
-"advanced_setting_use_apple_intelligence_in_receipt_scanner_title" = "Apple Intelligence";
+"advanced_setting_use_apple_intelligence_in_receipt_scanner_title" = "Kvitteringsskanner";
 "advanced_setting_use_apple_intelligence_in_receipt_scanner_description" = "Bruk Apple Intelligence til automatisk å fylle ut ekstra felt når du skanner en kvittering.";
+"advanced_setting_use_apple_intelligence_in_shortcuts_title" = "Snarveier";
+"advanced_setting_use_apple_intelligence_in_shortcuts_description" = "Bruk Apple Intelligence til å automatisk gjenkjenne kategorier og betalingsmottakere i snarveisautomatiseringer.";
 
 "advanced_setting_enable_exact_times_title" = "Skriv inn nøyaktige tider";
 "advanced_setting_enable_exact_times_description" = "Velg eksakte tider ved å bruke minuttspinneren for transaksjoner (f.eks. 09:41).";
@@ -1231,6 +1233,7 @@
 
 /* Messages */
 "no_budget_books_found_title" = "Ingen budsjettbøker funnet";
+"no_budget_book_found_title" = "Ingen budsjettbok funnet";
 "no_budget_books_found_message" = "Klikk \"+\"-knappen for å legge til en ny budsjettbok.";
 "no_budget_books_found_button_title" = "Ny budsjettbok";
 "no_budget_books_found_cloud_sync_message" = "Eksisterende data lastes inn fra iCloud. Vent et øyeblikk...\n\nAlternativt kan du klikke på \"+\"-knappen for å legge til en ny budsjettbok.";
@@ -1239,21 +1242,25 @@
 
 "no_accounts_title" = "Ingen kontoer";
 "no_accounts_found_title" = "Ingen kontoer funnet";
+"no_account_found_title" = "Ingen konto funnet";
 "no_accounts_found_message" = "Klikk \"+\"-knappen for å legge til en ny konto.";
 "no_accounts_found_button_title" = "Ny konto";
 "accounts_search_placeholder_message" = "Søk etter kontonavn eller kontotype";
 
 "no_categories_found_title" = "Ingen kategorier funnet";
+"no_category_found_title" = "Ingen kategori funnet";
 "no_categories_found_message" = "Klikk \"+\"-knappen for å legge til en ny kategori.";
 "no_categories_found_button_title" = "Ny kategori";
 "categories_search_placeholder_message" = "Søk etter en kategori eller mappenavn";
 
 "no_category_groups_found_title" = "Ingen mapper funnet";
+"no_category_group_found_title" = "Ingen mappe funnet";
 "no_category_groups_found_message" = "Klikk \"+\"-knappen for å legge til en ny mappe.";
 "no_category_groups_found_button_title" = "Ny mappe";
 "category_groups_search_placeholder_message" = "Søk etter navnet på en mappe";
 
 "no_payees_found_title" = "Ingen betalingsmottakere funnet";
+"no_payee_found_title" = "Ingen betalingsmottaker funnet";
 "no_payees_found_message" = "Klikk \"+\"-knappen for å legge til en ny betalingsmottaker.";
 "no_payees_found_button_title" = "Ny betalingsmottaker";
 "payees_search_placeholder_message" = "Søk etter navnet på en utbetalingsmottaker";
@@ -2008,6 +2015,29 @@
 "open_category_name" = "Åpne";
 "show_category_name" = "Vis";
 "search_category_name" = "Søk";
+"create_category_name" = "Opprett";
+
+/* Create */
+"create_budget_book_title" = "Opprett budsjettbok";
+"create_budget_book_description" = "Oppretter en budsjettbok eller returnerer en eksisterende budsjettbok med samme navn.";
+"create_budget_book_parameter_summary" = "Opprett budsjettbok med ${name}";
+"create_budget_book_failed_title" = "Budsjettbok kunne ikke opprettes";
+"create_account_title" = "Opprett konto";
+"create_account_description" = "Oppretter en konto eller returnerer en eksisterende konto med samme navn.";
+"create_account_parameter_summary" = "Opprett konto med ${name} i ${budgetBook}";
+"create_account_failed_title" = "Konto kunne ikke opprettes";
+"create_category_group_title" = "Opprett mappe";
+"create_category_group_description" = "Oppretter en mappe eller returnerer en eksisterende mappe med samme navn.";
+"create_category_group_parameter_summary" = "Opprett mappe med ${name} i ${budgetBook}";
+"create_category_group_failed_title" = "Mappe kunne ikke opprettes";
+"create_category_title" = "Opprett kategori";
+"create_category_description" = "Oppretter en kategori eller returnerer en eksisterende kategori med samme navn.";
+"create_category_parameter_summary" = "Opprett kategori med ${name} i ${categoryGroup} fra ${budgetBook}";
+"create_category_failed_title" = "Kategori kunne ikke opprettes";
+"create_payee_title" = "Opprett betalingsmottaker";
+"create_payee_description" = "Oppretter en betalingsmottaker eller returnerer en eksisterende betalingsmottaker med samme navn.";
+"create_payee_parameter_summary" = "Opprett betalingsmottaker med ${name} i ${budgetBook}";
+"create_payee_failed_title" = "Betalingsmottaker kunne ikke opprettes";
 
 /* Search */
 "search_budget_book_title" = "Søk i budsjettbok";
@@ -2067,6 +2097,29 @@
 "chart_type_current_month_title" = "Gjeldende måned";
 "chart_type_current_year_title" = "Gjeldende år";
 
+
+/* Parse */
+"parse_category_name" = "Hent ut";
+"parse_notification_transaction_title" = "Hent ut transaksjonsinfo";
+"parse_notification_transaction_description" = "Henter ut transaksjonsinfo fra et varsel.";
+"parse_notification_transaction_parameter_summary" = "Hent ut transaksjonsinfo fra varsel.";
+
+"notification_title_parameter_title" = "Tittel";
+"notification_title_parameter_description" = "Varselens tittel.";
+"notification_subtitle_parameter_title" = "Undertittel";
+"notification_subtitle_parameter_description" = "Varselens undertittel.";
+"notification_body_parameter_title" = "Tekst";
+"notification_body_parameter_description" = "Varselens tekst.";
+"notification_body_parameter_dialog" = "Hva er teksten i varselet?";
+"notification_date_parameter_title" = "Dato";
+"notification_date_parameter_description" = "Varselens dato.";
+
+"transaction_info_entity_name" = "Transaksjonsinfo";
+"amount_property_title" = "Beløp";
+"currency_code_property_title" = "Valuta";
+"date_property_title" = "Dato";
+"category_property_title" = "Kategori";
+"payee_property_title" = "Betalingsmottaker";
 
 /* MARK: - Dummy Data */
 "default_budget_book_name" = "Min budsjettbok";

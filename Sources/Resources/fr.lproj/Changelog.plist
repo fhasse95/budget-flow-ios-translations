@@ -2,35 +2,35 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>3.2.0</key>
+	<key>3.3.0</key>
 	<array>
 		<dict>
 			<key>Title</key>
-			<string>Scanner de reçus amélioré</string>
+			<string>Raccourcis améliorés</string>
 			<key>Description</key>
-			<string>Le scanner de reçus intégré reconnaît désormais aussi le bénéficiaire à partir de vos saisies précédentes.</string>
+			<string>Les nouveaux raccourcis améliorés rendent l’automatisation de Budget Flow plus simple que jamais, y compris l’ajout automatique de transactions à partir des notifications d’apps bancaires sur iOS et iPadOS 27.</string>
 			<key>IconName</key>
-			<string>receipt.viewfinder</string>
+			<string>app.badge</string>
 			<key>IconColor</key>
 			<string>#ff8d28</string>
 		</dict>
 		<dict>
 			<key>Title</key>
-			<string>Icônes supplémentaires</string>
+			<string>Catégorisation automatique</string>
 			<key>Description</key>
-			<string>De nouvelles icônes ont été ajoutées afin que vous puissiez personnaliser l’app selon vos préférences.</string>
+			<string>Sur les appareils compatibles, Budget Flow peut désormais utiliser les Apple Intelligence pour déterminer la catégorie et le bénéficiaire lors de la création automatique de transactions avec des raccourcis.</string>
 			<key>IconName</key>
-			<string>paintpalette</string>
+			<string>square.2.layers.3d.top.filled</string>
 			<key>IconColor</key>
 			<string>#ff375f</string>
 		</dict>
 		<dict>
 			<key>Title</key>
-			<string>Traduction améliorée</string>
+			<string>Prise en charge d’iOS, iPadOS et macOS 27</string>
 			<key>Description</key>
-			<string>La traduction norvégienne de l’app a été optimisée afin d’être encore plus facile à comprendre.</string>
+			<string>Des raffinements de design et des mises à jour de compatibilité permettent à Budget Flow de fonctionner avec fluidité sur les derniers systèmes d’exploitation Apple.</string>
 			<key>IconName</key>
-			<string>globe</string>
+			<string>macbook.and.iphone</string>
 			<key>IconColor</key>
 			<string>#0088ff</string>
 		</dict>

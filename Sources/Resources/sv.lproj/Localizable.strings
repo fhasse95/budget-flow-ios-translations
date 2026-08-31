@@ -706,7 +706,7 @@
 "advanced_view_setting_section_title" = "Visa";
 "advanced_sidebar_setting_section_title" = "Sidofält";
 "advanced_transaction_setting_section_title" = "Transaktioner";
-"advanced_receipt_scanner_setting_section_title" = "Kvittoskanner";
+"advanced_apple_intelligence_setting_section_title" = "Apple Intelligence";
 "advanced_input_setting_section_title" = "Inmatning";
 "advanced_other_setting_section_title" = "Annat";
 
@@ -747,8 +747,10 @@
 "advanced_setting_consider_pending_items_title" = "Boka alla transaktioner";
 "advanced_setting_consider_pending_items_description" = "Inkludera väntande transaktioner vid beräkning av kontosaldon, saldon, summor etc.";
 
-"advanced_setting_use_apple_intelligence_in_receipt_scanner_title" = "Apple Intelligence";
+"advanced_setting_use_apple_intelligence_in_receipt_scanner_title" = "Kvittoskanner";
 "advanced_setting_use_apple_intelligence_in_receipt_scanner_description" = "Använd Apple Intelligence för att automatiskt fylla i extra fält när du skannar ett kvitto.";
+"advanced_setting_use_apple_intelligence_in_shortcuts_title" = "Genvägar";
+"advanced_setting_use_apple_intelligence_in_shortcuts_description" = "Använd Apple Intelligence för att automatiskt identifiera kategorier och betalningsmottagare i genvägsautomatiseringar.";
 
 "advanced_setting_enable_exact_times_title" = "Ange exakta tider";
 "advanced_setting_enable_exact_times_description" = "Välj exakta tider med minutsnurran för transaktioner (t.ex. 9:41).";
@@ -1231,6 +1233,7 @@
 
 /* Messages */
 "no_budget_books_found_title" = "Inga budgetböcker hittades";
+"no_budget_book_found_title" = "Ingen budgetbok hittades";
 "no_budget_books_found_message" = "Klicka på \"+\"-knappen för att lägga till en ny budgetbok.";
 "no_budget_books_found_button_title" = "Ny budgetbok";
 "no_budget_books_found_cloud_sync_message" = "Befintlig data laddas från iCloud. Vänta ett ögonblick...\n\nAlternativt kan du klicka på knappen \"+\" för att lägga till en ny budgetbok.";
@@ -1239,21 +1242,25 @@
 
 "no_accounts_title" = "Inga konton";
 "no_accounts_found_title" = "Inga konton hittades";
+"no_account_found_title" = "Inget konto hittades";
 "no_accounts_found_message" = "Klicka på \"+\"-knappen för att lägga till ett nytt konto.";
 "no_accounts_found_button_title" = "Nytt konto";
 "accounts_search_placeholder_message" = "Sök efter kontonamn eller kontotyp";
 
 "no_categories_found_title" = "Inga kategorier hittades";
+"no_category_found_title" = "Ingen kategori hittades";
 "no_categories_found_message" = "Klicka på \"+\"-knappen för att lägga till en ny kategori.";
 "no_categories_found_button_title" = "Ny kategori";
 "categories_search_placeholder_message" = "Sök efter ett kategori- eller mappnamn";
 
 "no_category_groups_found_title" = "Inga mappar hittades";
+"no_category_group_found_title" = "Ingen mapp hittades";
 "no_category_groups_found_message" = "Klicka på \"+\"-knappen för att lägga till en ny mapp.";
 "no_category_groups_found_button_title" = "Ny mapp";
 "category_groups_search_placeholder_message" = "Sök efter namnet på en mapp";
 
 "no_payees_found_title" = "Inga betalningsmottagare hittades";
+"no_payee_found_title" = "Ingen betalningsmottagare hittades";
 "no_payees_found_message" = "Klicka på \"+\"-knappen för att lägga till en ny betalningsmottagare.";
 "no_payees_found_button_title" = "Ny betalningsmottagare";
 "payees_search_placeholder_message" = "Sök efter namnet på en betalningsmottagare";
@@ -2008,6 +2015,29 @@
 "open_category_name" = "Öppna";
 "show_category_name" = "Visa";
 "search_category_name" = "Sök";
+"create_category_name" = "Skapa";
+
+/* Create */
+"create_budget_book_title" = "Skapa budgetbok";
+"create_budget_book_description" = "Skapar en budgetbok eller returnerar en befintlig budgetbok med samma namn.";
+"create_budget_book_parameter_summary" = "Skapa budgetbok med ${name}";
+"create_budget_book_failed_title" = "Budgetbok kunde inte skapas";
+"create_account_title" = "Skapa konto";
+"create_account_description" = "Skapar ett konto eller returnerar ett befintligt konto med samma namn.";
+"create_account_parameter_summary" = "Skapa konto med ${name} i ${budgetBook}";
+"create_account_failed_title" = "Konto kunde inte skapas";
+"create_category_group_title" = "Skapa mapp";
+"create_category_group_description" = "Skapar en mapp eller returnerar en befintlig mapp med samma namn.";
+"create_category_group_parameter_summary" = "Skapa mapp med ${name} i ${budgetBook}";
+"create_category_group_failed_title" = "Mapp kunde inte skapas";
+"create_category_title" = "Skapa kategori";
+"create_category_description" = "Skapar en kategori eller returnerar en befintlig kategori med samma namn.";
+"create_category_parameter_summary" = "Skapa kategori med ${name} i ${categoryGroup} från ${budgetBook}";
+"create_category_failed_title" = "Kategori kunde inte skapas";
+"create_payee_title" = "Skapa betalningsmottagare";
+"create_payee_description" = "Skapar en betalningsmottagare eller returnerar en befintlig betalningsmottagare med samma namn.";
+"create_payee_parameter_summary" = "Skapa betalningsmottagare med ${name} i ${budgetBook}";
+"create_payee_failed_title" = "Betalningsmottagare kunde inte skapas";
 
 /* Search */
 "search_budget_book_title" = "Sök i budgetbok";
@@ -2067,6 +2097,29 @@
 "chart_type_current_month_title" = "Aktuell månad";
 "chart_type_current_year_title" = "Aktuellt år";
 
+
+/* Parse */
+"parse_category_name" = "Extrahera";
+"parse_notification_transaction_title" = "Extrahera transaktionsinfo";
+"parse_notification_transaction_description" = "Extraherar transaktionsinfo från en notis.";
+"parse_notification_transaction_parameter_summary" = "Extrahera transaktionsinfo från notis.";
+
+"notification_title_parameter_title" = "Titel";
+"notification_title_parameter_description" = "Notisens titel.";
+"notification_subtitle_parameter_title" = "Undertitel";
+"notification_subtitle_parameter_description" = "Notisens undertitel.";
+"notification_body_parameter_title" = "Text";
+"notification_body_parameter_description" = "Notisens text.";
+"notification_body_parameter_dialog" = "Vad är notisens text?";
+"notification_date_parameter_title" = "Datum";
+"notification_date_parameter_description" = "Notisens datum.";
+
+"transaction_info_entity_name" = "Transaktionsinfo";
+"amount_property_title" = "Belopp";
+"currency_code_property_title" = "Valuta";
+"date_property_title" = "Datum";
+"category_property_title" = "Kategori";
+"payee_property_title" = "Betalningsmottagare";
 
 /* MARK: - Dummy Data */
 "default_budget_book_name" = "Min budgetbok";

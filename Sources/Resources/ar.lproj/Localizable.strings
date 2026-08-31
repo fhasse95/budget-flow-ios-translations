@@ -706,7 +706,7 @@
 "advanced_view_setting_section_title" = "الشاشة";
 "advanced_sidebar_setting_section_title" = "الشريط الجانبي";
 "advanced_transaction_setting_section_title" = "المعاملات";
-"advanced_receipt_scanner_setting_section_title" = "ماسح الإيصالات";
+"advanced_apple_intelligence_setting_section_title" = "Apple Intelligence";
 "advanced_input_setting_section_title" = "إدخال";
 "advanced_other_setting_section_title" = "أخرى";
 
@@ -747,8 +747,10 @@
 "advanced_setting_consider_pending_items_title" = "النظر في كافة المعاملات";
 "advanced_setting_consider_pending_items_description" = "تضمين المعاملات المعلقة عند حساب أرصدة الحسابات والأرصدة والإجماليات.";
 
-"advanced_setting_use_apple_intelligence_in_receipt_scanner_title" = "Apple Intelligence";
+"advanced_setting_use_apple_intelligence_in_receipt_scanner_title" = "ماسح الإيصالات";
 "advanced_setting_use_apple_intelligence_in_receipt_scanner_description" = "استخدم Apple Intelligence لملء الحقول الإضافية تلقائيًا عند مسح إيصال.";
+"advanced_setting_use_apple_intelligence_in_shortcuts_title" = "الاختصارات";
+"advanced_setting_use_apple_intelligence_in_shortcuts_description" = "استخدام Apple Intelligence للتعرف تلقائيًا على الفئات والمستفيدين في أتمتة الاختصارات.";
 
 "advanced_setting_enable_exact_times_title" = "أدخل الوقت المحدد";
 "advanced_setting_enable_exact_times_description" = "المطالبة بتحديد وقت محدد للمعاملات الجديدة (على سبيل المثال 9:41)، بدلاً من التقريب بزيادات قدرها 5 دقائق.";
@@ -1231,6 +1233,7 @@
 
 /* Messages */
 "no_budget_books_found_title" = "لم يتم العثور على كتب الميزانية";
+"no_budget_book_found_title" = "لم يتم العثور على دفتر ميزانية";
 "no_budget_books_found_message" = "انقر فوق الزر \"+\" لإضافة كتاب ميزانية جديد.";
 "no_budget_books_found_button_title" = "دفتر الميزانية الجديد";
 "no_budget_books_found_cloud_sync_message" = "يتم الآن تنزيل البيانات الموجودة من iCloud. الرجاء الانتظار...\n\nيمكنك أيضًا النقر فوق الزر \"+\" لإضافة دفتر ميزانية جديد.";
@@ -1239,21 +1242,25 @@
 
 "no_accounts_title" = "لا توجد حسابات";
 "no_accounts_found_title" = "لم يتم العثور على حسابات";
+"no_account_found_title" = "لم يتم العثور على حساب";
 "no_accounts_found_message" = "انقر فوق الزر \"+\" لإضافة حساب جديد.";
 "no_accounts_found_button_title" = "حساب جديد";
 "accounts_search_placeholder_message" = "البحث حسب اسم الحساب أو نوعه";
 
 "no_categories_found_title" = "لم يتم العثور على فئات";
+"no_category_found_title" = "لم يتم العثور على فئة";
 "no_categories_found_message" = "انقر فوق الزر \"+\" لإضافة فئة جديدة.";
 "no_categories_found_button_title" = "فئة جديدة";
 "categories_search_placeholder_message" = "البحث حسب الفئة أو اسم المجموعة";
 
 "no_category_groups_found_title" = "لم يتم العثور على مجموعات";
+"no_category_group_found_title" = "لم يتم العثور على مجلد";
 "no_category_groups_found_message" = "انقر فوق الزر \"+\" لإضافة مجموعة جديدة.";
 "no_category_groups_found_button_title" = "مجموعة جديدة";
 "category_groups_search_placeholder_message" = "البحث حسب اسم المجموعة";
 
 "no_payees_found_title" = "لم يتم العثور على مدفوع لهم";
+"no_payee_found_title" = "لم يتم العثور على مستفيد";
 "no_payees_found_message" = "انقر فوق الزر \"+\" لإضافة مستلم جديد.";
 "no_payees_found_button_title" = "المدفوع لأمره الجديد";
 "payees_search_placeholder_message" = "البحث حسب اسم المستفيد";
@@ -2008,6 +2015,29 @@
 "open_category_name" = "فتح";
 "show_category_name" = "إظهار";
 "search_category_name" = "بحث";
+"create_category_name" = "إنشاء";
+
+/* Create */
+"create_budget_book_title" = "إنشاء دفتر ميزانية";
+"create_budget_book_description" = "ينشئ دفتر ميزانية أو يعيد دفتر ميزانية موجودًا بالاسم نفسه.";
+"create_budget_book_parameter_summary" = "إنشاء دفتر ميزانية باسم ${name}";
+"create_budget_book_failed_title" = "تعذر إنشاء دفتر الميزانية";
+"create_account_title" = "إنشاء حساب";
+"create_account_description" = "ينشئ حسابًا أو يعيد حسابًا موجودًا بالاسم نفسه.";
+"create_account_parameter_summary" = "إنشاء حساب باسم ${name} في ${budgetBook}";
+"create_account_failed_title" = "تعذر إنشاء الحساب";
+"create_category_group_title" = "إنشاء مجلد";
+"create_category_group_description" = "ينشئ مجلدًا أو يعيد مجلدًا موجودًا بالاسم نفسه.";
+"create_category_group_parameter_summary" = "إنشاء مجلد باسم ${name} في ${budgetBook}";
+"create_category_group_failed_title" = "تعذر إنشاء المجلد";
+"create_category_title" = "إنشاء فئة";
+"create_category_description" = "ينشئ فئة أو يعيد فئة موجودة بالاسم نفسه.";
+"create_category_parameter_summary" = "إنشاء فئة باسم ${name} في ${categoryGroup} من ${budgetBook}";
+"create_category_failed_title" = "تعذر إنشاء الفئة";
+"create_payee_title" = "إنشاء مستفيد";
+"create_payee_description" = "ينشئ مستفيدًا أو يعيد مستفيدًا موجودًا بالاسم نفسه.";
+"create_payee_parameter_summary" = "إنشاء مستفيد باسم ${name} في ${budgetBook}";
+"create_payee_failed_title" = "تعذر إنشاء المستفيد";
 
 /* Search */
 "search_budget_book_title" = "البحث في دفتر الميزانية";
@@ -2067,6 +2097,29 @@
 "chart_type_current_month_title" = "الشهر الحالي";
 "chart_type_current_year_title" = "السنة الحالية";
 
+
+/* Parse */
+"parse_category_name" = "استخراج";
+"parse_notification_transaction_title" = "استخراج معلومات المعاملة";
+"parse_notification_transaction_description" = "يستخرج معلومات المعاملة من إشعار.";
+"parse_notification_transaction_parameter_summary" = "استخراج معلومات المعاملة من الإشعار.";
+
+"notification_title_parameter_title" = "العنوان";
+"notification_title_parameter_description" = "عنوان الإشعار.";
+"notification_subtitle_parameter_title" = "العنوان الفرعي";
+"notification_subtitle_parameter_description" = "العنوان الفرعي للإشعار.";
+"notification_body_parameter_title" = "النص";
+"notification_body_parameter_description" = "نص الإشعار.";
+"notification_body_parameter_dialog" = "ما نص الإشعار؟";
+"notification_date_parameter_title" = "التاريخ";
+"notification_date_parameter_description" = "تاريخ الإشعار.";
+
+"transaction_info_entity_name" = "معلومات المعاملة";
+"amount_property_title" = "المبلغ";
+"currency_code_property_title" = "العملة";
+"date_property_title" = "التاريخ";
+"category_property_title" = "الفئة";
+"payee_property_title" = "المستفيد";
 
 /* MARK: - Dummy Data */
 "default_budget_book_name" = "دفتر ميزانيتي";

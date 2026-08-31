@@ -706,7 +706,7 @@
 "advanced_view_setting_section_title" = "Відображення";
 "advanced_sidebar_setting_section_title" = "Бічна панель";
 "advanced_transaction_setting_section_title" = "Трансакції";
-"advanced_receipt_scanner_setting_section_title" = "Сканер чеків";
+"advanced_apple_intelligence_setting_section_title" = "Apple Intelligence";
 "advanced_input_setting_section_title" = "Ввід";
 "advanced_other_setting_section_title" = "Інше";
 
@@ -747,8 +747,10 @@
 "advanced_setting_consider_pending_items_title" = "Забронювати всі транзакції";
 "advanced_setting_consider_pending_items_description" = "Включати транзакції, що очікують на розгляд, під час розрахунку залишків на рахунку, сальдо, підсумків тощо";
 
-"advanced_setting_use_apple_intelligence_in_receipt_scanner_title" = "Apple Intelligence";
+"advanced_setting_use_apple_intelligence_in_receipt_scanner_title" = "Сканер чеків";
 "advanced_setting_use_apple_intelligence_in_receipt_scanner_description" = "Використовуйте Apple Intelligence, щоб автоматично заповнювати додаткові поля під час сканування чека.";
+"advanced_setting_use_apple_intelligence_in_shortcuts_title" = "Команди";
+"advanced_setting_use_apple_intelligence_in_shortcuts_description" = "Використовувати Apple Intelligence для автоматичного розпізнавання категорій і отримувачів в автоматизаціях команд.";
 
 "advanced_setting_enable_exact_times_title" = "Введіть точний час";
 "advanced_setting_enable_exact_times_description" = "Виберіть точний час за допомогою лічильника хвилин для транзакцій (наприклад, 9:41).";
@@ -1231,6 +1233,7 @@
 
 /* Messages */
 "no_budget_books_found_title" = "Бюджетні книги не знайдено";
+"no_budget_book_found_title" = "Бюджетну книгу не знайдено";
 "no_budget_books_found_message" = "Натисніть кнопку \"+\", щоб додати нову бюджетну книгу.";
 "no_budget_books_found_button_title" = "Нова бюджетна книга";
 "no_budget_books_found_cloud_sync_message" = "Існуючі дані завантажуються з iCloud. Зачекайте хвилинку...\n\nАбо натисніть кнопку \"+\", щоб додати нову бюджетну книгу.";
@@ -1239,21 +1242,25 @@
 
 "no_accounts_title" = "Немає облікових записів";
 "no_accounts_found_title" = "Рахунки не знайдено";
+"no_account_found_title" = "Рахунок не знайдено";
 "no_accounts_found_message" = "Натисніть кнопку \"+\", щоб додати новий обліковий запис.";
 "no_accounts_found_button_title" = "Новий обліковий запис";
 "accounts_search_placeholder_message" = "Пошук за назвою або типом облікового запису";
 
 "no_categories_found_title" = "Категорії не знайдено";
+"no_category_found_title" = "Категорію не знайдено";
 "no_categories_found_message" = "Натисніть кнопку \"+\", щоб додати нову категорію.";
 "no_categories_found_button_title" = "Нова категорія";
 "categories_search_placeholder_message" = "Пошук за назвою категорії або папки";
 
 "no_category_groups_found_title" = "Папки не знайдено";
+"no_category_group_found_title" = "Папку не знайдено";
 "no_category_groups_found_message" = "Натисніть кнопку \"+\", щоб додати нову папку.";
 "no_category_groups_found_button_title" = "Нова папка";
 "category_groups_search_placeholder_message" = "Пошук за назвою папки";
 
 "no_payees_found_title" = "Не знайдено одержувачів";
+"no_payee_found_title" = "Отримувача не знайдено";
 "no_payees_found_message" = "Натисніть кнопку \"+\", щоб додати нового одержувача.";
 "no_payees_found_button_title" = "Новий одержувач";
 "payees_search_placeholder_message" = "Шукати за назвою одержувача";
@@ -2008,6 +2015,29 @@
 "open_category_name" = "Відкрити";
 "show_category_name" = "Показати";
 "search_category_name" = "Пошук";
+"create_category_name" = "Створити";
+
+/* Create */
+"create_budget_book_title" = "Створити бюджетну книгу";
+"create_budget_book_description" = "Створює бюджетну книгу або повертає наявну бюджетну книгу з тією самою назвою.";
+"create_budget_book_parameter_summary" = "Створити бюджетну книгу з ${name}";
+"create_budget_book_failed_title" = "Не вдалося створити бюджетну книгу";
+"create_account_title" = "Створити рахунок";
+"create_account_description" = "Створює рахунок або повертає наявний рахунок із тією самою назвою.";
+"create_account_parameter_summary" = "Створити рахунок з ${name} у ${budgetBook}";
+"create_account_failed_title" = "Не вдалося створити рахунок";
+"create_category_group_title" = "Створити папку";
+"create_category_group_description" = "Створює папку або повертає наявну папку з тією самою назвою.";
+"create_category_group_parameter_summary" = "Створити папку з ${name} у ${budgetBook}";
+"create_category_group_failed_title" = "Не вдалося створити папку";
+"create_category_title" = "Створити категорію";
+"create_category_description" = "Створює категорію або повертає наявну категорію з тією самою назвою.";
+"create_category_parameter_summary" = "Створити категорію з ${name} у ${categoryGroup} з ${budgetBook}";
+"create_category_failed_title" = "Не вдалося створити категорію";
+"create_payee_title" = "Створити отримувача";
+"create_payee_description" = "Створює отримувача або повертає наявного отримувача із тією самою назвою.";
+"create_payee_parameter_summary" = "Створити отримувача з ${name} у ${budgetBook}";
+"create_payee_failed_title" = "Не вдалося створити отримувача";
 
 /* Search */
 "search_budget_book_title" = "Шукати бюджетну книгу";
@@ -2067,6 +2097,29 @@
 "chart_type_current_month_title" = "Поточний місяць";
 "chart_type_current_year_title" = "Поточний рік";
 
+
+/* Parse */
+"parse_category_name" = "Витягти";
+"parse_notification_transaction_title" = "Витягти дані транзакції";
+"parse_notification_transaction_description" = "Витягує дані транзакції зі сповіщення.";
+"parse_notification_transaction_parameter_summary" = "Витягти дані транзакції зі сповіщення.";
+
+"notification_title_parameter_title" = "Заголовок";
+"notification_title_parameter_description" = "Заголовок сповіщення.";
+"notification_subtitle_parameter_title" = "Підзаголовок";
+"notification_subtitle_parameter_description" = "Підзаголовок сповіщення.";
+"notification_body_parameter_title" = "Текст";
+"notification_body_parameter_description" = "Текст сповіщення.";
+"notification_body_parameter_dialog" = "Який текст сповіщення?";
+"notification_date_parameter_title" = "Дата";
+"notification_date_parameter_description" = "Дата сповіщення.";
+
+"transaction_info_entity_name" = "Дані транзакції";
+"amount_property_title" = "Сума";
+"currency_code_property_title" = "Валюта";
+"date_property_title" = "Дата";
+"category_property_title" = "Категорія";
+"payee_property_title" = "Отримувач";
 
 /* MARK: - Dummy Data */
 "default_budget_book_name" = "Моя бюджетна книга";

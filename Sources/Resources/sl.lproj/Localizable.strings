@@ -706,7 +706,7 @@
 "advanced_view_setting_section_title" = "Pogled";
 "advanced_sidebar_setting_section_title" = "Stranska vrstica";
 "advanced_transaction_setting_section_title" = "Transakcije";
-"advanced_receipt_scanner_setting_section_title" = "Skener računov";
+"advanced_apple_intelligence_setting_section_title" = "Apple Intelligence";
 "advanced_input_setting_section_title" = "Vnos";
 "advanced_other_setting_section_title" = "Drugo";
 
@@ -747,8 +747,10 @@
 "advanced_setting_consider_pending_items_title" = "Knjiži vse transakcije";
 "advanced_setting_consider_pending_items_description" = "Vključi transakcije v čakanju pri izračunu stanj računov, stanj, skupnih zneskov itd.";
 
-"advanced_setting_use_apple_intelligence_in_receipt_scanner_title" = "Apple Intelligence";
+"advanced_setting_use_apple_intelligence_in_receipt_scanner_title" = "Skener računov";
 "advanced_setting_use_apple_intelligence_in_receipt_scanner_description" = "Uporabite Apple Intelligence za samodejno izpolnjevanje dodatnih polj pri skeniranju računa.";
+"advanced_setting_use_apple_intelligence_in_shortcuts_title" = "Bližnjice";
+"advanced_setting_use_apple_intelligence_in_shortcuts_description" = "Uporabi Apple Intelligence za samodejno zaznavanje kategorij in prejemnikov plačila v avtomatizacijah bližnjic.";
 
 "advanced_setting_enable_exact_times_title" = "Vnesi natančne čase";
 "advanced_setting_enable_exact_times_description" = "Izberite natančne čase z uporabo minutnega kazalca za transakcije (npr. 9:41).";
@@ -1231,6 +1233,7 @@
 
 /* Messages */
 "no_budget_books_found_title" = "Ni najdenih načrtov porabe";
+"no_budget_book_found_title" = "Proračunska knjiga ni najdena";
 "no_budget_books_found_message" = "Kliknite gumb \"+\" za dodajanje novega načrta porabe.";
 "no_budget_books_found_button_title" = "Nov načrt porabe";
 "no_budget_books_found_cloud_sync_message" = "Obstoječi podatki se nalagajo iz iCloud. Prosimo, počakajte trenutek...\n\nLahko tudi kliknite gumb \"+\" za dodajanje novega načrta porabe.";
@@ -1239,21 +1242,25 @@
 
 "no_accounts_title" = "Ni računov";
 "no_accounts_found_title" = "Ni najdenih računov";
+"no_account_found_title" = "Račun ni najden";
 "no_accounts_found_message" = "Kliknite gumb \"+\" za dodajanje novega računa.";
 "no_accounts_found_button_title" = "Nov račun";
 "accounts_search_placeholder_message" = "Iščite po imenu računa ali vrsti računa";
 
 "no_categories_found_title" = "Ni najdenih kategorij";
+"no_category_found_title" = "Kategorija ni najdena";
 "no_categories_found_message" = "Kliknite gumb \"+\" za dodajanje nove kategorije.";
 "no_categories_found_button_title" = "Nova kategorija";
 "categories_search_placeholder_message" = "Iščite po imenu kategorije ali mape";
 
 "no_category_groups_found_title" = "Ni najdenih map";
+"no_category_group_found_title" = "Mapa ni najdena";
 "no_category_groups_found_message" = "Kliknite gumb \"+\" za dodajanje nove mape.";
 "no_category_groups_found_button_title" = "Nova mapa";
 "category_groups_search_placeholder_message" = "Iščite po imenu mape";
 
 "no_payees_found_title" = "Ni najdenih plačnikov";
+"no_payee_found_title" = "Prejemnik plačila ni najden";
 "no_payees_found_message" = "Kliknite gumb \"+\" za dodajanje novega plačnika.";
 "no_payees_found_button_title" = "Nov plačnik";
 "payees_search_placeholder_message" = "Iščite po imenu plačnika";
@@ -2008,6 +2015,29 @@
 "open_category_name" = "Odpri";
 "show_category_name" = "Prikaži";
 "search_category_name" = "Išči";
+"create_category_name" = "Ustvari";
+
+/* Create */
+"create_budget_book_title" = "Ustvari proračunsko knjigo";
+"create_budget_book_description" = "Ustvari proračunsko knjigo ali vrne obstoječo proračunsko knjigo z istim imenom.";
+"create_budget_book_parameter_summary" = "Ustvari proračunsko knjigo z ${name}";
+"create_budget_book_failed_title" = "Proračunske knjige ni bilo mogoče ustvariti";
+"create_account_title" = "Ustvari račun";
+"create_account_description" = "Ustvari račun ali vrne obstoječi račun z istim imenom.";
+"create_account_parameter_summary" = "Ustvari račun z ${name} v ${budgetBook}";
+"create_account_failed_title" = "Računa ni bilo mogoče ustvariti";
+"create_category_group_title" = "Ustvari mapo";
+"create_category_group_description" = "Ustvari mapo ali vrne obstoječo mapo z istim imenom.";
+"create_category_group_parameter_summary" = "Ustvari mapo z ${name} v ${budgetBook}";
+"create_category_group_failed_title" = "Mape ni bilo mogoče ustvariti";
+"create_category_title" = "Ustvari kategorijo";
+"create_category_description" = "Ustvari kategorijo ali vrne obstoječo kategorijo z istim imenom.";
+"create_category_parameter_summary" = "Ustvari kategorijo z ${name} v ${categoryGroup} iz ${budgetBook}";
+"create_category_failed_title" = "Kategorije ni bilo mogoče ustvariti";
+"create_payee_title" = "Ustvari prejemnika plačila";
+"create_payee_description" = "Ustvari prejemnika plačila ali vrne obstoječega prejemnika plačila z istim imenom.";
+"create_payee_parameter_summary" = "Ustvari prejemnika plačila z ${name} v ${budgetBook}";
+"create_payee_failed_title" = "Prejemnika plačila ni bilo mogoče ustvariti";
 
 /* Search */
 "search_budget_book_title" = "Iskanje proračunska knjiga";
@@ -2067,6 +2097,29 @@
 "chart_type_current_month_title" = "Trenutni mesec";
 "chart_type_current_year_title" = "Trenutno leto";
 
+
+/* Parse */
+"parse_category_name" = "Izlušči";
+"parse_notification_transaction_title" = "Izlušči podatke o transakciji";
+"parse_notification_transaction_description" = "Izlušči podatke o transakciji iz obvestila.";
+"parse_notification_transaction_parameter_summary" = "Izlušči podatke o transakciji iz obvestila.";
+
+"notification_title_parameter_title" = "Naslov";
+"notification_title_parameter_description" = "Naslov obvestila.";
+"notification_subtitle_parameter_title" = "Podnaslov";
+"notification_subtitle_parameter_description" = "Podnaslov obvestila.";
+"notification_body_parameter_title" = "Besedilo";
+"notification_body_parameter_description" = "Besedilo obvestila.";
+"notification_body_parameter_dialog" = "Kakšno je besedilo obvestila?";
+"notification_date_parameter_title" = "Datum";
+"notification_date_parameter_description" = "Datum obvestila.";
+
+"transaction_info_entity_name" = "Podatki o transakciji";
+"amount_property_title" = "Znesek";
+"currency_code_property_title" = "Valuta";
+"date_property_title" = "Datum";
+"category_property_title" = "Kategorija";
+"payee_property_title" = "Prejemnik plačila";
 
 /* MARK: - Dummy Data */
 "default_budget_book_name" = "Moja denarnica";

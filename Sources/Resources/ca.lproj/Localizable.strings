@@ -706,7 +706,7 @@
 "advanced_view_setting_section_title" = "Vista";
 "advanced_sidebar_setting_section_title" = "Barra lateral";
 "advanced_transaction_setting_section_title" = "Transaccions";
-"advanced_receipt_scanner_setting_section_title" = "Escàner de rebuts";
+"advanced_apple_intelligence_setting_section_title" = "Apple Intelligence";
 "advanced_input_setting_section_title" = "Entrada";
 "advanced_other_setting_section_title" = "Altres";
 
@@ -747,8 +747,10 @@
 "advanced_setting_consider_pending_items_title" = "Incluir totes les transaccions";
 "advanced_setting_consider_pending_items_description" = "Incloure transaccions pendents al calcular saldos de comptes, saldos, totals, etc.";
 
-"advanced_setting_use_apple_intelligence_in_receipt_scanner_title" = "Apple Intelligence";
+"advanced_setting_use_apple_intelligence_in_receipt_scanner_title" = "Escàner de rebuts";
 "advanced_setting_use_apple_intelligence_in_receipt_scanner_description" = "Utilitza Apple Intelligence per omplir automàticament camps addicionals en escanejar un rebut.";
+"advanced_setting_use_apple_intelligence_in_shortcuts_title" = "Dreceres";
+"advanced_setting_use_apple_intelligence_in_shortcuts_description" = "Utilitza Apple Intelligence per detectar automàticament categories i beneficiaris en automatitzacions de dreceres.";
 
 "advanced_setting_enable_exact_times_title" = "Introduir hores exactes";
 "advanced_setting_enable_exact_times_description" = "Selecciona les hores exactes utilitzant el control de minuts per a les transaccions (per exemple, 9:41 a. m.)";
@@ -1231,6 +1233,7 @@
 
 /* Messages */
 "no_budget_books_found_title" = "No s’han trobat llibres de pressupost";
+"no_budget_book_found_title" = "No s’ha trobat cap llibre de pressupost";
 "no_budget_books_found_message" = "Fes clic al botó \"+\" per afegir un nou llibre de pressupost.";
 "no_budget_books_found_button_title" = "Nou llibre de pressupost";
 "no_budget_books_found_cloud_sync_message" = "Les dades existents s’estan carregant des d’iCloud. Si us plau, espera un moment...\n\nAlternativament, fes clic al botó \"+\" per afegir un nou llibre de pressupost.";
@@ -1239,21 +1242,25 @@
 
 "no_accounts_title" = "Sense comptes";
 "no_accounts_found_title" = "No s’han trobat comptes";
+"no_account_found_title" = "No s’ha trobat cap compte";
 "no_accounts_found_message" = "Fes clic al botó \"+\" per afegir un nou compte.";
 "no_accounts_found_button_title" = "Nou compte";
 "accounts_search_placeholder_message" = "Cerca pel nom del compte o tipus de compte";
 
 "no_categories_found_title" = "No s’han trobat categories";
+"no_category_found_title" = "No s’ha trobat cap categoria";
 "no_categories_found_message" = "Fes clic al botó \"+\" per afegir una nova categoria.";
 "no_categories_found_button_title" = "Nova categoria";
 "categories_search_placeholder_message" = "Cerca per categoria o nom de carpeta";
 
 "no_category_groups_found_title" = "No s’han trobat carpetes";
+"no_category_group_found_title" = "No s’ha trobat cap carpeta";
 "no_category_groups_found_message" = "Fes clic al botó \"+\" per afegir una nova carpeta.";
 "no_category_groups_found_button_title" = "Nova carpeta";
 "category_groups_search_placeholder_message" = "Cerca pel nom d’una carpeta";
 
 "no_payees_found_title" = "No s’han trobat beneficiaris";
+"no_payee_found_title" = "No s’ha trobat cap beneficiari";
 "no_payees_found_message" = "Fes clic al botó \"+\" per afegir un nou beneficiari.";
 "no_payees_found_button_title" = "Nou beneficiari";
 "payees_search_placeholder_message" = "Cerca pel nom d’un beneficiari";
@@ -2008,6 +2015,29 @@
 "open_category_name" = "Obert";
 "show_category_name" = "Mostra";
 "search_category_name" = "Cercar";
+"create_category_name" = "Crea";
+
+/* Create */
+"create_budget_book_title" = "Crea llibre de pressupost";
+"create_budget_book_description" = "Crea un llibre de pressupost o retorna un llibre existent amb el mateix nom.";
+"create_budget_book_parameter_summary" = "Crea llibre de pressupost amb ${name}";
+"create_budget_book_failed_title" = "No s’ha pogut crear el llibre de pressupost";
+"create_account_title" = "Crea compte";
+"create_account_description" = "Crea un compte o retorna un compte existent amb el mateix nom.";
+"create_account_parameter_summary" = "Crea compte amb ${name} a ${budgetBook}";
+"create_account_failed_title" = "No s’ha pogut crear el compte";
+"create_category_group_title" = "Crea carpeta";
+"create_category_group_description" = "Crea una carpeta o retorna una carpeta existent amb el mateix nom.";
+"create_category_group_parameter_summary" = "Crea carpeta amb ${name} a ${budgetBook}";
+"create_category_group_failed_title" = "No s’ha pogut crear la carpeta";
+"create_category_title" = "Crea categoria";
+"create_category_description" = "Crea una categoria o retorna una categoria existent amb el mateix nom.";
+"create_category_parameter_summary" = "Crea categoria amb ${name} a ${categoryGroup} de ${budgetBook}";
+"create_category_failed_title" = "No s’ha pogut crear la categoria";
+"create_payee_title" = "Crea beneficiari";
+"create_payee_description" = "Crea un beneficiari o retorna un beneficiari existent amb el mateix nom.";
+"create_payee_parameter_summary" = "Crea beneficiari amb ${name} a ${budgetBook}";
+"create_payee_failed_title" = "No s’ha pogut crear el beneficiari";
 
 /* Search */
 "search_budget_book_title" = "Cercar llibre de pressupost";
@@ -2067,6 +2097,29 @@
 "chart_type_current_month_title" = "Mes actual";
 "chart_type_current_year_title" = "Any actual";
 
+
+/* Parse */
+"parse_category_name" = "Extreu";
+"parse_notification_transaction_title" = "Extreu informació de transacció";
+"parse_notification_transaction_description" = "Extreu informació de transacció d’una notificació.";
+"parse_notification_transaction_parameter_summary" = "Extreu informació de transacció de la notificació.";
+
+"notification_title_parameter_title" = "Títol";
+"notification_title_parameter_description" = "El títol de la notificació.";
+"notification_subtitle_parameter_title" = "Subtítol";
+"notification_subtitle_parameter_description" = "El subtítol de la notificació.";
+"notification_body_parameter_title" = "Cos";
+"notification_body_parameter_description" = "El cos de la notificació.";
+"notification_body_parameter_dialog" = "Quin és el cos de la notificació?";
+"notification_date_parameter_title" = "Data";
+"notification_date_parameter_description" = "La data de la notificació.";
+
+"transaction_info_entity_name" = "Informació de transacció";
+"amount_property_title" = "Import";
+"currency_code_property_title" = "Moneda";
+"date_property_title" = "Data";
+"category_property_title" = "Categoria";
+"payee_property_title" = "Beneficiari";
 
 /* MARK: - Dummy Data */
 "default_budget_book_name" = "El meu llibre de pressupost";

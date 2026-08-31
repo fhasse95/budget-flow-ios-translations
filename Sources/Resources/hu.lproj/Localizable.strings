@@ -706,7 +706,7 @@
 "advanced_view_setting_section_title" = "Megjelenítés";
 "advanced_sidebar_setting_section_title" = "Oldalsáv";
 "advanced_transaction_setting_section_title" = "Tranzakciók";
-"advanced_receipt_scanner_setting_section_title" = "Nyugták szkennelése";
+"advanced_apple_intelligence_setting_section_title" = "Apple Intelligence";
 "advanced_input_setting_section_title" = "Bemenet";
 "advanced_other_setting_section_title" = "Egyéb";
 
@@ -747,8 +747,10 @@
 "advanced_setting_consider_pending_items_title" = "Összes tranzakció lefoglalása";
 "advanced_setting_consider_pending_items_description" = "A függőben lévő tranzakciók belefoglalása a számlaegyenlegek, egyenlegek, végösszegek stb. kiszámításakor.";
 
-"advanced_setting_use_apple_intelligence_in_receipt_scanner_title" = "Apple Intelligence";
+"advanced_setting_use_apple_intelligence_in_receipt_scanner_title" = "Nyugták szkennelése";
 "advanced_setting_use_apple_intelligence_in_receipt_scanner_description" = "Használja az Apple Intelligence-et további mezők automatikus kitöltéséhez nyugta szkennelésekor.";
+"advanced_setting_use_apple_intelligence_in_shortcuts_title" = "Parancsok";
+"advanced_setting_use_apple_intelligence_in_shortcuts_description" = "Az Apple Intelligence használata kategóriák és kedvezményezettek automatikus felismerésére a parancsautomatizálásokban.";
 
 "advanced_setting_enable_exact_times_title" = "Adja meg a pontos időpontokat";
 "advanced_setting_enable_exact_times_description" = "Válassza ki a pontos időpontokat a tranzakciókhoz a percforgató segítségével (pl. 9:41).";
@@ -1231,6 +1233,7 @@
 
 /* Messages */
 "no_budget_books_found_title" = "Nem található költségvetési könyv";
+"no_budget_book_found_title" = "Nem található költségvetési könyv";
 "no_budget_books_found_message" = "Kattintson a \"+\" gombra új költségvetési könyv hozzáadásához.";
 "no_budget_books_found_button_title" = "Új költségvetési könyv";
 "no_budget_books_found_cloud_sync_message" = "A meglévő adatok betöltése folyamatban van az iCloudból. Várjon egy kicsit...\n\nVagy kattintson a \"+\" gombra új költségvetési könyv hozzáadásához.";
@@ -1239,21 +1242,25 @@
 
 "no_accounts_title" = "Nincs fiók";
 "no_accounts_found_title" = "Nem található fiók";
+"no_account_found_title" = "Nem található számla";
 "no_accounts_found_message" = "Kattintson a \"+\" gombra új fiók hozzáadásához.";
 "no_accounts_found_button_title" = "Új fiók";
 "accounts_search_placeholder_message" = "Keresés fióknév vagy fióktípus alapján";
 
 "no_categories_found_title" = "Nem található kategória";
+"no_category_found_title" = "Nem található kategória";
 "no_categories_found_message" = "Kattintson a \"+\" gombra új kategória hozzáadásához.";
 "no_categories_found_button_title" = "Új kategória";
 "categories_search_placeholder_message" = "Keresés kategória vagy mappanév alapján";
 
 "no_category_groups_found_title" = "Nem találhatók mappák";
+"no_category_group_found_title" = "Nem található mappa";
 "no_category_groups_found_message" = "Kattintson a \"+\" gombra új mappa hozzáadásához.";
 "no_category_groups_found_button_title" = "Új mappa";
 "category_groups_search_placeholder_message" = "Keresés egy mappa neve alapján";
 
 "no_payees_found_title" = "Nem található kedvezményezett";
+"no_payee_found_title" = "Nem található kedvezményezett";
 "no_payees_found_message" = "Kattintson a \"+\" gombra új kedvezményezett hozzáadásához.";
 "no_payees_found_button_title" = "Új kedvezményezett";
 "payees_search_placeholder_message" = "Keresés a kedvezményezett neve alapján";
@@ -2008,6 +2015,29 @@
 "open_category_name" = "Megnyitás";
 "show_category_name" = "Megjelenítés";
 "search_category_name" = "Keresés";
+"create_category_name" = "Létrehozás";
+
+/* Create */
+"create_budget_book_title" = "Költségvetési könyv létrehozása";
+"create_budget_book_description" = "Létrehoz egy költségvetési könyvet, vagy visszaad egy azonos nevű meglévő költségvetési könyvet.";
+"create_budget_book_parameter_summary" = "Költségvetési könyv létrehozása ezzel: ${name}";
+"create_budget_book_failed_title" = "A költségvetési könyvet nem sikerült létrehozni";
+"create_account_title" = "Számla létrehozása";
+"create_account_description" = "Létrehoz egy számlát, vagy visszaad egy azonos nevű meglévő számlát.";
+"create_account_parameter_summary" = "Számla létrehozása ezzel: ${name}, itt: ${budgetBook}";
+"create_account_failed_title" = "A számlát nem sikerült létrehozni";
+"create_category_group_title" = "Mappa létrehozása";
+"create_category_group_description" = "Létrehoz egy mappát, vagy visszaad egy azonos nevű meglévő mappát.";
+"create_category_group_parameter_summary" = "Mappa létrehozása ezzel: ${name}, itt: ${budgetBook}";
+"create_category_group_failed_title" = "A mappát nem sikerült létrehozni";
+"create_category_title" = "Kategória létrehozása";
+"create_category_description" = "Létrehoz egy kategóriát, vagy visszaad egy azonos nevű meglévő kategóriát.";
+"create_category_parameter_summary" = "Kategória létrehozása ezzel: ${name}, ebben: ${categoryGroup}, itt: ${budgetBook}";
+"create_category_failed_title" = "A kategóriát nem sikerült létrehozni";
+"create_payee_title" = "Kedvezményezett létrehozása";
+"create_payee_description" = "Létrehoz egy kedvezményezettet, vagy visszaad egy azonos nevű meglévő kedvezményezettet.";
+"create_payee_parameter_summary" = "Kedvezményezett létrehozása ezzel: ${name}, itt: ${budgetBook}";
+"create_payee_failed_title" = "A kedvezményezettet nem sikerült létrehozni";
 
 /* Search */
 "search_budget_book_title" = "Költségvetési könyv keresése";
@@ -2067,6 +2097,29 @@
 "chart_type_current_month_title" = "Aktuális hónap";
 "chart_type_current_year_title" = "Aktuális év";
 
+
+/* Parse */
+"parse_category_name" = "Kinyerés";
+"parse_notification_transaction_title" = "Tranzakciós adatok kinyerése";
+"parse_notification_transaction_description" = "Tranzakciós adatokat nyer ki egy értesítésből.";
+"parse_notification_transaction_parameter_summary" = "Tranzakciós adatok kinyerése értesítésből.";
+
+"notification_title_parameter_title" = "Cím";
+"notification_title_parameter_description" = "Az értesítés címe.";
+"notification_subtitle_parameter_title" = "Alcím";
+"notification_subtitle_parameter_description" = "Az értesítés alcíme.";
+"notification_body_parameter_title" = "Szöveg";
+"notification_body_parameter_description" = "Az értesítés szövege.";
+"notification_body_parameter_dialog" = "Mi az értesítés szövege?";
+"notification_date_parameter_title" = "Dátum";
+"notification_date_parameter_description" = "Az értesítés dátuma.";
+
+"transaction_info_entity_name" = "Tranzakciós adatok";
+"amount_property_title" = "Összeg";
+"currency_code_property_title" = "Pénznem";
+"date_property_title" = "Dátum";
+"category_property_title" = "Kategória";
+"payee_property_title" = "Kedvezményezett";
 
 /* MARK: - Dummy Data */
 "default_budget_book_name" = "Költségvetési könyvem";

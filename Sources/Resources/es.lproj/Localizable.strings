@@ -706,7 +706,7 @@
 "advanced_view_setting_section_title" = "Vista";
 "advanced_sidebar_setting_section_title" = "Barra lateral";
 "advanced_transaction_setting_section_title" = "Transacciones";
-"advanced_receipt_scanner_setting_section_title" = "Escáner de recibos";
+"advanced_apple_intelligence_setting_section_title" = "Apple Intelligence";
 "advanced_input_setting_section_title" = "Entrada";
 "advanced_other_setting_section_title" = "Otros";
 
@@ -747,8 +747,10 @@
 "advanced_setting_consider_pending_items_title" = "Reservar todas las transacciones";
 "advanced_setting_consider_pending_items_description" = "Incluir transacciones pendientes al calcular saldos de cuentas, saldos, totales, etc.";
 
-"advanced_setting_use_apple_intelligence_in_receipt_scanner_title" = "Apple Intelligence";
+"advanced_setting_use_apple_intelligence_in_receipt_scanner_title" = "Escáner de recibos";
 "advanced_setting_use_apple_intelligence_in_receipt_scanner_description" = "Usa Apple Intelligence para completar automáticamente campos adicionales al escanear un recibo.";
+"advanced_setting_use_apple_intelligence_in_shortcuts_title" = "Atajos";
+"advanced_setting_use_apple_intelligence_in_shortcuts_description" = "Usar Apple Intelligence para detectar automáticamente categorías y beneficiarios en automatizaciones de atajos.";
 
 "advanced_setting_enable_exact_times_title" = "Ingrese horas exactas";
 "advanced_setting_enable_exact_times_description" = "Seleccione las horas exactas utilizando el control de minutos para las transacciones (por ejemplo, 9:41 a. m.)";
@@ -1231,6 +1233,7 @@
 
 /* Messages */
 "no_budget_books_found_title" = "No se han encontrado libros de presupuesto";
+"no_budget_book_found_title" = "No se encontró ningún libro de presupuesto";
 "no_budget_books_found_message" = "Haga clic en el botón \"+\" para agregar un nuevo libro de presupuesto.";
 "no_budget_books_found_button_title" = "Nuevo libro de presupuestos";
 "no_budget_books_found_cloud_sync_message" = "Los datos existentes se están cargando desde iCloud. Por favor, espere un momento...\n\nAlternativamente, haga clic en el botón \"+\" para agregar un nuevo libro de presupuesto.";
@@ -1239,21 +1242,25 @@
 
 "no_accounts_title" = "Sin cuentas";
 "no_accounts_found_title" = "No se encontraron cuentas";
+"no_account_found_title" = "No se encontró ninguna cuenta";
 "no_accounts_found_message" = "Haga clic en el botón \"+\" para agregar una nueva cuenta.";
 "no_accounts_found_button_title" = "Nueva cuenta";
 "accounts_search_placeholder_message" = "Buscar por nombre de cuenta o tipo de cuenta";
 
 "no_categories_found_title" = "No se han encontrado categorías";
+"no_category_found_title" = "No se encontró ninguna categoría";
 "no_categories_found_message" = "Haga clic en el botón \"+\" para agregar una nueva categoría.";
 "no_categories_found_button_title" = "Nueva categoría";
 "categories_search_placeholder_message" = "Buscar por una categoría o nombre de carpeta";
 
 "no_category_groups_found_title" = "No se han encontrado carpetas";
+"no_category_group_found_title" = "No se encontró ninguna carpeta";
 "no_category_groups_found_message" = "Haga clic en el botón \"+\" para agregar una nueva carpeta.";
 "no_category_groups_found_button_title" = "Nueva carpeta";
 "category_groups_search_placeholder_message" = "Buscar por el nombre de una carpeta";
 
 "no_payees_found_title" = "No se encontraron beneficiarios";
+"no_payee_found_title" = "No se encontró ningún beneficiario";
 "no_payees_found_message" = "Haga clic en el botón \"+\" para agregar un nuevo beneficiario.";
 "no_payees_found_button_title" = "Nuevo beneficiario";
 "payees_search_placeholder_message" = "Buscar por el nombre de un beneficiario";
@@ -2008,6 +2015,29 @@
 "open_category_name" = "Abierto";
 "show_category_name" = "Mostrar";
 "search_category_name" = "Buscar";
+"create_category_name" = "Crear";
+
+/* Create */
+"create_budget_book_title" = "Crear libro de presupuesto";
+"create_budget_book_description" = "Crea un libro de presupuesto o devuelve un libro de presupuesto existente con el mismo nombre.";
+"create_budget_book_parameter_summary" = "Crear libro de presupuesto con ${name}";
+"create_budget_book_failed_title" = "No se pudo crear el libro de presupuesto";
+"create_account_title" = "Crear cuenta";
+"create_account_description" = "Crea una cuenta o devuelve una cuenta existente con el mismo nombre.";
+"create_account_parameter_summary" = "Crear cuenta con ${name} en ${budgetBook}";
+"create_account_failed_title" = "No se pudo crear la cuenta";
+"create_category_group_title" = "Crear carpeta";
+"create_category_group_description" = "Crea una carpeta o devuelve una carpeta existente con el mismo nombre.";
+"create_category_group_parameter_summary" = "Crear carpeta con ${name} en ${budgetBook}";
+"create_category_group_failed_title" = "No se pudo crear la carpeta";
+"create_category_title" = "Crear categoría";
+"create_category_description" = "Crea una categoría o devuelve una categoría existente con el mismo nombre.";
+"create_category_parameter_summary" = "Crear categoría con ${name} en ${categoryGroup} de ${budgetBook}";
+"create_category_failed_title" = "No se pudo crear la categoría";
+"create_payee_title" = "Crear beneficiario";
+"create_payee_description" = "Crea un beneficiario o devuelve un beneficiario existente con el mismo nombre.";
+"create_payee_parameter_summary" = "Crear beneficiario con ${name} en ${budgetBook}";
+"create_payee_failed_title" = "No se pudo crear el beneficiario";
 
 /* Search */
 "search_budget_book_title" = "Buscar libro de presupuestos";
@@ -2067,6 +2097,29 @@
 "chart_type_current_month_title" = "Mes actual";
 "chart_type_current_year_title" = "Año actual";
 
+
+/* Parse */
+"parse_category_name" = "Extraer";
+"parse_notification_transaction_title" = "Extraer info de transacción";
+"parse_notification_transaction_description" = "Extrae información de transacción de una notificación.";
+"parse_notification_transaction_parameter_summary" = "Extraer info de transacción de la notificación.";
+
+"notification_title_parameter_title" = "Título";
+"notification_title_parameter_description" = "El título de la notificación.";
+"notification_subtitle_parameter_title" = "Subtítulo";
+"notification_subtitle_parameter_description" = "El subtítulo de la notificación.";
+"notification_body_parameter_title" = "Cuerpo";
+"notification_body_parameter_description" = "El cuerpo de la notificación.";
+"notification_body_parameter_dialog" = "¿Cuál es el cuerpo de la notificación?";
+"notification_date_parameter_title" = "Fecha";
+"notification_date_parameter_description" = "La fecha de la notificación.";
+
+"transaction_info_entity_name" = "Info de transacción";
+"amount_property_title" = "Importe";
+"currency_code_property_title" = "Moneda";
+"date_property_title" = "Fecha";
+"category_property_title" = "Categoría";
+"payee_property_title" = "Beneficiario";
 
 /* MARK: - Dummy Data */
 "default_budget_book_name" = "Mi libro de presupuesto";

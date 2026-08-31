@@ -2,35 +2,35 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>3.2.0</key>
+	<key>3.3.0</key>
 	<array>
 		<dict>
 			<key>Title</key>
-			<string>Digitalizador de recibos melhorado</string>
+			<string>Atalhos melhorados</string>
 			<key>Description</key>
-			<string>O digitalizador de recibos integrado agora também reconhece o beneficiário com base nas tuas entradas anteriores.</string>
+			<string>Atalhos novos e melhorados tornam mais fácil do que nunca automatizar o Budget Flow, incluindo adicionar transações automaticamente a partir de notificações de apps bancárias no iOS e iPadOS 27.</string>
 			<key>IconName</key>
-			<string>receipt.viewfinder</string>
+			<string>app.badge</string>
 			<key>IconColor</key>
 			<string>#ff8d28</string>
 		</dict>
 		<dict>
 			<key>Title</key>
-			<string>Ícones adicionais</string>
+			<string>Categorização automática</string>
 			<key>Description</key>
-			<string>Foram adicionados mais ícones para poderes personalizar a app exatamente como quiseres.</string>
+			<string>Em dispositivos compatíveis, o Budget Flow pode agora usar os Apple Intelligence para determinar a categoria e o beneficiário ao criar transações automaticamente com atalhos.</string>
 			<key>IconName</key>
-			<string>paintpalette</string>
+			<string>square.2.layers.3d.top.filled</string>
 			<key>IconColor</key>
 			<string>#ff375f</string>
 		</dict>
 		<dict>
 			<key>Title</key>
-			<string>Tradução melhorada</string>
+			<string>Compatibilidade com iOS, iPadOS e macOS 27</string>
 			<key>Description</key>
-			<string>A tradução norueguesa da app foi otimizada, tornando-a agora ainda mais fácil de compreender.</string>
+			<string>Ajustes de design e atualizações de compatibilidade mantêm o Budget Flow a funcionar sem problemas nos sistemas operativos Apple mais recentes.</string>
 			<key>IconName</key>
-			<string>globe</string>
+			<string>macbook.and.iphone</string>
 			<key>IconColor</key>
 			<string>#0088ff</string>
 		</dict>

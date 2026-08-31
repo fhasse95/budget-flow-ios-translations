@@ -2,35 +2,35 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>3.2.0</key>
+	<key>3.3.0</key>
 	<array>
 		<dict>
 			<key>Title</key>
-			<string>ماسح إيصالات محسّن</string>
+			<string>اختصارات محسّنة</string>
 			<key>Description</key>
-			<string>أصبح ماسح الإيصالات المدمج يتعرّف الآن أيضًا على المستفيد بناءً على إدخالاتك السابقة.</string>
+			<string>تجعل الاختصارات الجديدة والمحسّنة أتمتة Budget Flow أسهل من أي وقت مضى، بما في ذلك إضافة المعاملات تلقائيًا من إشعارات تطبيقات البنوك على iOS وiPadOS 27.</string>
 			<key>IconName</key>
-			<string>receipt.viewfinder</string>
+			<string>app.badge</string>
 			<key>IconColor</key>
 			<string>#ff8d28</string>
 		</dict>
 		<dict>
 			<key>Title</key>
-			<string>أيقونات إضافية</string>
+			<string>تصنيف تلقائي</string>
 			<key>Description</key>
-			<string>تمت إضافة المزيد من الأيقونات لتتمكن من تخصيص التطبيق بالطريقة التي تفضلها.</string>
+			<string>على الأجهزة المدعومة، يمكن لـ Budget Flow الآن استخدام Apple Intelligence لتحديد الفئة والمستفيد عند إنشاء المعاملات تلقائيًا باستخدام الاختصارات.</string>
 			<key>IconName</key>
-			<string>paintpalette</string>
+			<string>square.2.layers.3d.top.filled</string>
 			<key>IconColor</key>
 			<string>#ff375f</string>
 		</dict>
 		<dict>
 			<key>Title</key>
-			<string>ترجمة محسّنة</string>
+			<string>دعم iOS وiPadOS وmacOS 27</string>
 			<key>Description</key>
-			<string>تم تحسين الترجمة النرويجية للتطبيق، فأصبحت الآن أسهل في الفهم.</string>
+			<string>تحافظ تعديلات التصميم وتحديثات التوافق على تشغيل Budget Flow بسلاسة على أحدث أنظمة تشغيل Apple.</string>
 			<key>IconName</key>
-			<string>globe</string>
+			<string>macbook.and.iphone</string>
 			<key>IconColor</key>
 			<string>#0088ff</string>
 		</dict>

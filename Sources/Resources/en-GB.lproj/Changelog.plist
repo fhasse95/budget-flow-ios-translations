@@ -2,35 +2,35 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>3.2.0</key>
+	<key>3.3.0</key>
 	<array>
 		<dict>
 			<key>Title</key>
-			<string>Enhanced Receipt Scanner</string>
+			<string>Enhanced Shortcuts</string>
 			<key>Description</key>
-			<string>The built-in receipt scanner now also recognises the payee based on your previous entries.</string>
+			<string>New and improved shortcuts make it easier than ever to automate Budget Flow, including automatically adding transactions from banking app notifications on iOS and iPadOS 27.</string>
 			<key>IconName</key>
-			<string>receipt.viewfinder</string>
+			<string>app.badge</string>
 			<key>IconColor</key>
 			<string>#ff8d28</string>
 		</dict>
 		<dict>
 			<key>Title</key>
-			<string>Additional Icons</string>
+			<string>Automatic Categorisation</string>
 			<key>Description</key>
-			<string>More icons have been added, letting you personalise the app just the way you like.</string>
+			<string>On supported devices, Budget Flow can now use Apple Intelligence to determine the category and payee when automatically creating transactions with shortcuts.</string>
 			<key>IconName</key>
-			<string>paintpalette</string>
+			<string>square.2.layers.3d.top.filled</string>
 			<key>IconColor</key>
 			<string>#ff375f</string>
 		</dict>
 		<dict>
 			<key>Title</key>
-			<string>Improved Translation</string>
+			<string>Support for iOS, iPadOS and macOS 27</string>
 			<key>Description</key>
-			<string>The Norwegian translation of the app has been optimised, making it even easier to understand.</string>
+			<string>Design refinements and compatibility updates keep Budget Flow running smoothly on the latest Apple operating systems: iOS, iPadOS and macOS 27.</string>
 			<key>IconName</key>
-			<string>globe</string>
+			<string>macbook.and.iphone</string>
 			<key>IconColor</key>
 			<string>#0088ff</string>
 		</dict>

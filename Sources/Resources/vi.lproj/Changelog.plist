@@ -2,35 +2,35 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>3.2.0</key>
+	<key>3.3.0</key>
 	<array>
 		<dict>
 			<key>Title</key>
-			<string>Trình quét biên lai nâng cao</string>
+			<string>Phím tắt được cải tiến</string>
 			<key>Description</key>
-			<string>Trình quét biên lai tích hợp giờ đây cũng nhận diện người nhận thanh toán dựa trên các mục nhập trước đây của bạn.</string>
+			<string>Các phím tắt mới và được cải tiến giúp tự động hóa Budget Flow dễ dàng hơn bao giờ hết, bao gồm tự động thêm giao dịch từ thông báo của ứng dụng ngân hàng trên iOS và iPadOS 27.</string>
 			<key>IconName</key>
-			<string>receipt.viewfinder</string>
+			<string>app.badge</string>
 			<key>IconColor</key>
 			<string>#ff8d28</string>
 		</dict>
 		<dict>
 			<key>Title</key>
-			<string>Biểu tượng bổ sung</string>
+			<string>Phân loại tự động</string>
 			<key>Description</key>
-			<string>Đã thêm nhiều biểu tượng hơn để bạn có thể cá nhân hóa ứng dụng đúng theo ý mình.</string>
+			<string>Trên các thiết bị được hỗ trợ, Budget Flow hiện có thể dùng Apple Intelligence để xác định danh mục và người nhận tiền khi tự động tạo giao dịch bằng phím tắt.</string>
 			<key>IconName</key>
-			<string>paintpalette</string>
+			<string>square.2.layers.3d.top.filled</string>
 			<key>IconColor</key>
 			<string>#ff375f</string>
 		</dict>
 		<dict>
 			<key>Title</key>
-			<string>Bản dịch được cải thiện</string>
+			<string>Hỗ trợ iOS, iPadOS và macOS 27</string>
 			<key>Description</key>
-			<string>Bản dịch tiếng Na Uy của ứng dụng đã được tối ưu hóa, nên giờ đây dễ hiểu hơn nữa.</string>
+			<string>Các tinh chỉnh thiết kế và bản cập nhật tương thích giúp Budget Flow chạy mượt mà trên những hệ điều hành Apple mới nhất.</string>
 			<key>IconName</key>
-			<string>globe</string>
+			<string>macbook.and.iphone</string>
 			<key>IconColor</key>
 			<string>#0088ff</string>
 		</dict>

@@ -2,35 +2,35 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>3.2.0</key>
+	<key>3.3.0</key>
 	<array>
 		<dict>
 			<key>Title</key>
-			<string>Escàner de rebuts millorat</string>
+			<string>Dreceres millorades</string>
 			<key>Description</key>
-			<string>L’escàner de rebuts integrat ara també reconeix el beneficiari a partir de les teves entrades anteriors.</string>
+			<string>Les dreceres noves i millorades fan que sigui més fàcil que mai automatitzar Budget Flow, inclosa l’addició automàtica de transaccions des de notificacions d’apps bancàries a iOS i iPadOS 27.</string>
 			<key>IconName</key>
-			<string>receipt.viewfinder</string>
+			<string>app.badge</string>
 			<key>IconColor</key>
 			<string>#ff8d28</string>
 		</dict>
 		<dict>
 			<key>Title</key>
-			<string>Icones addicionals</string>
+			<string>Categorització automàtica</string>
 			<key>Description</key>
-			<string>S’han afegit més icones perquè puguis personalitzar l’app exactament com vulguis.</string>
+			<string>En dispositius compatibles, Budget Flow ara pot utilitzar els Apple Intelligence per determinar la categoria i el beneficiari en crear transaccions automàticament amb dreceres.</string>
 			<key>IconName</key>
-			<string>paintpalette</string>
+			<string>square.2.layers.3d.top.filled</string>
 			<key>IconColor</key>
 			<string>#ff375f</string>
 		</dict>
 		<dict>
 			<key>Title</key>
-			<string>Traducció millorada</string>
+			<string>Compatibilitat amb iOS, iPadOS i macOS 27</string>
 			<key>Description</key>
-			<string>La traducció noruega de l’app s’ha optimitzat perquè ara sigui encara més fàcil d’entendre.</string>
+			<string>Els refinaments de disseny i les actualitzacions de compatibilitat mantenen Budget Flow funcionant amb fluïdesa als sistemes operatius d’Apple més recents.</string>
 			<key>IconName</key>
-			<string>globe</string>
+			<string>macbook.and.iphone</string>
 			<key>IconColor</key>
 			<string>#0088ff</string>
 		</dict>

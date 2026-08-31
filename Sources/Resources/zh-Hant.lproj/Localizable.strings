@@ -754,7 +754,7 @@
 "advanced_view_setting_section_title" = "視圖";
 "advanced_sidebar_setting_section_title" = "側邊欄";
 "advanced_transaction_setting_section_title" = "交易";
-"advanced_receipt_scanner_setting_section_title" = "收據掃描器";
+"advanced_apple_intelligence_setting_section_title" = "Apple Intelligence";
 "advanced_input_setting_section_title" = "輸入";
 "advanced_other_setting_section_title" = "其他";
 
@@ -797,8 +797,10 @@
 "advanced_setting_consider_pending_items_title" = "預訂所有交易";
 "advanced_setting_consider_pending_items_description" = "啟用此功能以在計算帳戶餘額、餘額、總金額等時包含待處理的交易";
 
-"advanced_setting_use_apple_intelligence_in_receipt_scanner_title" = "Apple Intelligence";
+"advanced_setting_use_apple_intelligence_in_receipt_scanner_title" = "收據掃描器";
 "advanced_setting_use_apple_intelligence_in_receipt_scanner_description" = "在掃描收據時使用 Apple Intelligence 自動填寫額外欄位。";
+"advanced_setting_use_apple_intelligence_in_shortcuts_title" = "捷徑";
+"advanced_setting_use_apple_intelligence_in_shortcuts_description" = "使用 Apple Intelligence 在捷徑自動化中自動辨識類別和收款人。";
 
 "advanced_setting_enable_exact_times_title" = "輸入精確時間";
 "advanced_setting_enable_exact_times_description" = "啟用此功能以為交易選擇精確時間，使用分鐘選擇器（例如 9:41）";
@@ -1278,6 +1280,7 @@
 
 /* Messages */
 "no_budget_books_found_title" = "未找到預算帳本";
+"no_budget_book_found_title" = "找不到預算帳本";
 "no_budget_books_found_message" = "點擊\"+\"按鈕新增新的預算帳本";
 "no_budget_books_found_button_title" = "新預算帳本";
 "no_budget_books_found_cloud_sync_message" = "現有資料正在從 iCloud 載入。請稍候...\n\n或點擊\"+\"按鈕新增新的預算帳本";
@@ -1286,21 +1289,25 @@
 
 "no_accounts_title" = "無帳戶";
 "no_accounts_found_title" = "未找到帳戶";
+"no_account_found_title" = "找不到帳戶";
 "no_accounts_found_message" = "點擊\"+\"按鈕新增帳號";
 "no_accounts_found_button_title" = "新帳戶";
 "accounts_search_placeholder_message" = "依帳戶名稱或帳戶類型搜尋";
 
 "no_categories_found_title" = "未找到分類";
+"no_category_found_title" = "找不到類別";
 "no_categories_found_message" = "點擊\"+\"按鈕新增分類";
 "no_categories_found_button_title" = "新建分類";
 "categories_search_placeholder_message" = "依分類或資料夾名稱搜尋";
 
 "no_category_groups_found_title" = "未找到資料夾";
+"no_category_group_found_title" = "找不到資料夾";
 "no_category_groups_found_message" = "點擊\"+\"按鈕新增資料夾";
 "no_category_groups_found_button_title" = "新資料夾";
 "category_groups_search_placeholder_message" = "以資料夾名稱搜尋";
 
 "no_payees_found_title" = "未找到收款人";
+"no_payee_found_title" = "找不到收款人";
 "no_payees_found_message" = "點擊\"+\"按鈕新增收款人";
 "no_payees_found_button_title" = "新收款人";
 "payees_search_placeholder_message" = "以收款人名稱搜尋";
@@ -2057,6 +2064,29 @@
 "open_category_name" = "開啟";
 "show_category_name" = "展示";
 "search_category_name" = "搜尋";
+"create_category_name" = "建立";
+
+/* Create */
+"create_budget_book_title" = "建立預算帳本";
+"create_budget_book_description" = "建立預算帳本，或傳回同名的現有預算帳本。";
+"create_budget_book_parameter_summary" = "使用 ${name} 建立預算帳本";
+"create_budget_book_failed_title" = "無法建立預算帳本";
+"create_account_title" = "建立帳戶";
+"create_account_description" = "建立帳戶，或傳回同名的現有帳戶。";
+"create_account_parameter_summary" = "在 ${budgetBook} 中使用 ${name} 建立帳戶";
+"create_account_failed_title" = "無法建立帳戶";
+"create_category_group_title" = "建立資料夾";
+"create_category_group_description" = "建立資料夾，或傳回同名的現有資料夾。";
+"create_category_group_parameter_summary" = "在 ${budgetBook} 中使用 ${name} 建立資料夾";
+"create_category_group_failed_title" = "無法建立資料夾";
+"create_category_title" = "建立類別";
+"create_category_description" = "建立類別，或傳回同名的現有類別。";
+"create_category_parameter_summary" = "在 ${budgetBook} 的 ${categoryGroup} 中使用 ${name} 建立類別";
+"create_category_failed_title" = "無法建立類別";
+"create_payee_title" = "建立收款人";
+"create_payee_description" = "建立收款人，或傳回同名的現有收款人。";
+"create_payee_parameter_summary" = "在 ${budgetBook} 中使用 ${name} 建立收款人";
+"create_payee_failed_title" = "無法建立收款人";
 
 /* Search */
 "search_budget_book_title" = "搜尋預算帳本";
@@ -2116,6 +2146,29 @@
 "chart_type_current_month_title" = "本月";
 "chart_type_current_year_title" = "本年";
 
+
+/* Parse */
+"parse_category_name" = "擷取";
+"parse_notification_transaction_title" = "擷取交易資訊";
+"parse_notification_transaction_description" = "從通知中擷取交易資訊。";
+"parse_notification_transaction_parameter_summary" = "從通知中擷取交易資訊。";
+
+"notification_title_parameter_title" = "標題";
+"notification_title_parameter_description" = "通知標題。";
+"notification_subtitle_parameter_title" = "副標題";
+"notification_subtitle_parameter_description" = "通知副標題。";
+"notification_body_parameter_title" = "內文";
+"notification_body_parameter_description" = "通知內文。";
+"notification_body_parameter_dialog" = "通知內文是什麼？";
+"notification_date_parameter_title" = "日期";
+"notification_date_parameter_description" = "通知日期。";
+
+"transaction_info_entity_name" = "交易資訊";
+"amount_property_title" = "金額";
+"currency_code_property_title" = "貨幣";
+"date_property_title" = "日期";
+"category_property_title" = "類別";
+"payee_property_title" = "收款人";
 
 /* MARK: - Dummy Data */
 "default_budget_book_name" = "我的預算帳本";

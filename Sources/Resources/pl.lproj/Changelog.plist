@@ -2,43 +2,38 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>3.2.0</key>
-	<dict>
-		<key>Summary</key>
-		<string>Ta wersja ulepsza skanowanie paragonów, dodaje więcej ikon i optymalizuje norweskie tłumaczenie.</string>
-		<key>Items</key>
-		<array>
+	<key>3.3.0</key>
+	<array>
 		<dict>
 			<key>Title</key>
-			<string>Ulepszony skaner paragonów</string>
+			<string>Ulepszone skróty</string>
 			<key>Description</key>
-			<string>Wbudowany skaner paragonów rozpoznaje teraz także odbiorcę płatności na podstawie Twoich wcześniejszych wpisów.</string>
+			<string>Nowe i ulepszone skróty sprawiają, że automatyzowanie Budget Flow jest łatwiejsze niż kiedykolwiek, w tym automatyczne dodawanie transakcji z powiadomień aplikacji bankowych w iOS i iPadOS 27.</string>
 			<key>IconName</key>
-			<string>receipt.viewfinder</string>
+			<string>app.badge</string>
 			<key>IconColor</key>
 			<string>#ff8d28</string>
 		</dict>
 		<dict>
 			<key>Title</key>
-			<string>Dodatkowe ikony</string>
+			<string>Automatyczna kategoryzacja</string>
 			<key>Description</key>
-			<string>Dodano więcej ikon, dzięki którym możesz spersonalizować aplikację dokładnie tak, jak chcesz.</string>
+			<string>Na obsługiwanych urządzeniach Budget Flow może teraz używać Apple Intelligence, aby określać kategorię i odbiorcę podczas automatycznego tworzenia transakcji za pomocą skrótów.</string>
 			<key>IconName</key>
-			<string>paintpalette</string>
+			<string>square.2.layers.3d.top.filled</string>
 			<key>IconColor</key>
 			<string>#ff375f</string>
 		</dict>
 		<dict>
 			<key>Title</key>
-			<string>Ulepszone tłumaczenie</string>
+			<string>Obsługa iOS, iPadOS i macOS 27</string>
 			<key>Description</key>
-			<string>Norweskie tłumaczenie aplikacji zostało zoptymalizowane, dzięki czemu jest teraz jeszcze łatwiejsze do zrozumienia.</string>
+			<string>Udoskonalenia wyglądu i aktualizacje zgodności zapewniają płynne działanie Budget Flow w najnowszych systemach operacyjnych Apple.</string>
 			<key>IconName</key>
-			<string>globe</string>
+			<string>macbook.and.iphone</string>
 			<key>IconColor</key>
 			<string>#0088ff</string>
 		</dict>
-		</array>
-	</dict>
+	</array>
 </dict>
 </plist>

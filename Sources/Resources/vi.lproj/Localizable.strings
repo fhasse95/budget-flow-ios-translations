@@ -754,7 +754,7 @@
 "advanced_view_setting_section_title" = "Hiển thị";
 "advanced_sidebar_setting_section_title" = "Thanh bên";
 "advanced_transaction_setting_section_title" = "Giao dịch";
-"advanced_receipt_scanner_setting_section_title" = "Trình quét hóa đơn";
+"advanced_apple_intelligence_setting_section_title" = "Apple Intelligence";
 "advanced_input_setting_section_title" = "Nhập liệu";
 "advanced_other_setting_section_title" = "Khác";
 
@@ -797,8 +797,10 @@
 "advanced_setting_consider_pending_items_title" = "Đặt tất cả giao dịch";
 "advanced_setting_consider_pending_items_description" = "Bao gồm các giao dịch đang chờ xử lý khi tính toán số dư tài khoản, số dư, tổng số, v.v.";
 
-"advanced_setting_use_apple_intelligence_in_receipt_scanner_title" = "Apple Intelligence";
+"advanced_setting_use_apple_intelligence_in_receipt_scanner_title" = "Trình quét hóa đơn";
 "advanced_setting_use_apple_intelligence_in_receipt_scanner_description" = "Sử dụng Apple Intelligence để tự động điền các trường bổ sung khi quét hóa đơn.";
+"advanced_setting_use_apple_intelligence_in_shortcuts_title" = "Phím tắt";
+"advanced_setting_use_apple_intelligence_in_shortcuts_description" = "Dùng Apple Intelligence để tự động phát hiện danh mục và người nhận tiền trong tự động hóa phím tắt.";
 
 "advanced_setting_enable_exact_times_title" = "Nhập thời gian chính xác";
 "advanced_setting_enable_exact_times_description" = "Chọn thời gian chính xác bằng cách sử dụng vòng quay phút cho các giao dịch (ví dụ: 9:41 sáng).";
@@ -1278,6 +1280,7 @@
 
 /* Messages */
 "no_budget_books_found_title" = "Không tìm thấy Sổ ngân sách";
+"no_budget_book_found_title" = "Không tìm thấy sổ ngân sách";
 "no_budget_books_found_message" = "Nhấp vào nút \"+\" để thêm Sổ ngân sách mới.";
 "no_budget_books_found_button_title" = "Sổ ngân sách mới";
 "no_budget_books_found_cloud_sync_message" = "Dữ liệu hiện đang được tải từ iCloud. Vui lòng đợi trong giây lát...\n\nNgoài ra, hãy nhấp vào nút \"+\" để thêm Sổ ngân sách mới.";
@@ -1286,21 +1289,25 @@
 
 "no_accounts_title" = "Không có Ví";
 "no_accounts_found_title" = "Không tìm thấy Ví nào";
+"no_account_found_title" = "Không tìm thấy tài khoản";
 "no_accounts_found_message" = "Nhấp vào nút \"+\" để thêm Ví mới.";
 "no_accounts_found_button_title" = "Ví mới";
 "accounts_search_placeholder_message" = "Tìm kiếm theo tên Ví hoặc loại Ví";
 
 "no_categories_found_title" = "Không tìm thấy Danh mục nào";
+"no_category_found_title" = "Không tìm thấy danh mục";
 "no_categories_found_message" = "Nhấp vào nút \"+\" để thêm Danh mục mới.";
 "no_categories_found_button_title" = "Danh mục mới";
 "categories_search_placeholder_message" = "Tìm kiếm theo Danh mục hoặc Nhóm";
 
 "no_category_groups_found_title" = "Không tìm thấy Nhóm nào";
+"no_category_group_found_title" = "Không tìm thấy thư mục";
 "no_category_groups_found_message" = "Nhấp vào nút \"+\" để thêm Nhóm mới.";
 "no_category_groups_found_button_title" = "Nhóm mới";
 "category_groups_search_placeholder_message" = "Tìm kiếm theo tên Nhóm";
 
 "no_payees_found_title" = "Không tìm thấy Người nhận";
+"no_payee_found_title" = "Không tìm thấy người nhận tiền";
 "no_payees_found_message" = "Nhấp vào nút \"+\" để thêm Người nhận mới.";
 "no_payees_found_button_title" = "Người nhận mới";
 "payees_search_placeholder_message" = "Tìm kiếm theo tên Người nhận";
@@ -2057,6 +2064,29 @@
 "open_category_name" = "Mở";
 "show_category_name" = "Hiển thị";
 "search_category_name" = "Tìm kiếm";
+"create_category_name" = "Tạo";
+
+/* Create */
+"create_budget_book_title" = "Tạo sổ ngân sách";
+"create_budget_book_description" = "Tạo sổ ngân sách hoặc trả về sổ hiện có cùng tên.";
+"create_budget_book_parameter_summary" = "Tạo sổ ngân sách với ${name}";
+"create_budget_book_failed_title" = "Không thể tạo sổ ngân sách";
+"create_account_title" = "Tạo tài khoản";
+"create_account_description" = "Tạo tài khoản hoặc trả về tài khoản hiện có cùng tên.";
+"create_account_parameter_summary" = "Tạo tài khoản với ${name} trong ${budgetBook}";
+"create_account_failed_title" = "Không thể tạo tài khoản";
+"create_category_group_title" = "Tạo thư mục";
+"create_category_group_description" = "Tạo thư mục hoặc trả về thư mục hiện có cùng tên.";
+"create_category_group_parameter_summary" = "Tạo thư mục với ${name} trong ${budgetBook}";
+"create_category_group_failed_title" = "Không thể tạo thư mục";
+"create_category_title" = "Tạo danh mục";
+"create_category_description" = "Tạo danh mục hoặc trả về danh mục hiện có cùng tên.";
+"create_category_parameter_summary" = "Tạo danh mục với ${name} trong ${categoryGroup} của ${budgetBook}";
+"create_category_failed_title" = "Không thể tạo danh mục";
+"create_payee_title" = "Tạo người nhận tiền";
+"create_payee_description" = "Tạo người nhận tiền hoặc trả về người nhận tiền hiện có cùng tên.";
+"create_payee_parameter_summary" = "Tạo người nhận tiền với ${name} trong ${budgetBook}";
+"create_payee_failed_title" = "Không thể tạo người nhận tiền";
 
 /* Search */
 "search_budget_book_title" = "Tìm Sổ ngân sách";
@@ -2116,6 +2146,29 @@
 "chart_type_current_month_title" = "Tháng này";
 "chart_type_current_year_title" = "Năm này";
 
+
+/* Parse */
+"parse_category_name" = "Trích xuất";
+"parse_notification_transaction_title" = "Trích xuất thông tin giao dịch";
+"parse_notification_transaction_description" = "Trích xuất thông tin giao dịch từ một thông báo.";
+"parse_notification_transaction_parameter_summary" = "Trích xuất thông tin giao dịch từ thông báo.";
+
+"notification_title_parameter_title" = "Tiêu đề";
+"notification_title_parameter_description" = "Tiêu đề thông báo.";
+"notification_subtitle_parameter_title" = "Tiêu đề phụ";
+"notification_subtitle_parameter_description" = "Tiêu đề phụ của thông báo.";
+"notification_body_parameter_title" = "Nội dung";
+"notification_body_parameter_description" = "Nội dung thông báo.";
+"notification_body_parameter_dialog" = "Nội dung thông báo là gì?";
+"notification_date_parameter_title" = "Ngày";
+"notification_date_parameter_description" = "Ngày của thông báo.";
+
+"transaction_info_entity_name" = "Thông tin giao dịch";
+"amount_property_title" = "Số tiền";
+"currency_code_property_title" = "Tiền tệ";
+"date_property_title" = "Ngày";
+"category_property_title" = "Danh mục";
+"payee_property_title" = "Người nhận tiền";
 
 /* MARK: - Dummy Data */
 "default_budget_book_name" = "Sổ ngân sách của tôi";

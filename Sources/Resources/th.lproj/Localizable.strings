@@ -754,7 +754,7 @@
 "advanced_view_setting_section_title" = "แสดงผล";
 "advanced_sidebar_setting_section_title" = "แถบด้านข้าง";
 "advanced_transaction_setting_section_title" = "ธุรกรรม";
-"advanced_receipt_scanner_setting_section_title" = "สแกนเนอร์ใบเสร็จ";
+"advanced_apple_intelligence_setting_section_title" = "Apple Intelligence";
 "advanced_input_setting_section_title" = "ป้อนข้อมูล";
 "advanced_other_setting_section_title" = "อื่นๆ";
 
@@ -797,8 +797,10 @@
 "advanced_setting_consider_pending_items_title" = "จองธุรกรรมทั้งหมด";
 "advanced_setting_consider_pending_items_description" = "รวมธุรกรรมที่รอดำเนินการเมื่อคำนวณยอดคงเหลือในบัญชี ยอดคงเหลือ ยอดรวม ฯลฯ";
 
-"advanced_setting_use_apple_intelligence_in_receipt_scanner_title" = "Apple Intelligence";
+"advanced_setting_use_apple_intelligence_in_receipt_scanner_title" = "สแกนเนอร์ใบเสร็จ";
 "advanced_setting_use_apple_intelligence_in_receipt_scanner_description" = "ใช้ Apple Intelligence เพื่อกรอกข้อมูลเพิ่มเติมโดยอัตโนมัติเมื่อสแกนใบเสร็จ";
+"advanced_setting_use_apple_intelligence_in_shortcuts_title" = "คำสั่งลัด";
+"advanced_setting_use_apple_intelligence_in_shortcuts_description" = "ใช้ Apple Intelligence เพื่อตรวจหาหมวดหมู่และผู้รับเงินโดยอัตโนมัติในระบบอัตโนมัติของคำสั่งลัด";
 
 "advanced_setting_enable_exact_times_title" = "ป้อนเวลาที่แน่นอน";
 "advanced_setting_enable_exact_times_description" = "เลือกเวลาที่แน่นอนโดยใช้ตัวหมุนนาทีสำหรับธุรกรรม (เช่น 9:41 น.)";
@@ -1278,6 +1280,7 @@
 
 /* Messages */
 "no_budget_books_found_title" = "ไม่พบสมุดงบประมาณ";
+"no_budget_book_found_title" = "ไม่พบสมุดงบประมาณ";
 "no_budget_books_found_message" = "คลิกปุ่ม \"+\" เพื่อเพิ่มสมุดงบประมาณใหม่";
 "no_budget_books_found_button_title" = "สมุดงบประมาณใหม่";
 "no_budget_books_found_cloud_sync_message" = "กำลังโหลดข้อมูลที่มีอยู่จาก iCloud โปรดรอสักครู่...\n\nอีกทางหนึ่ง คลิกปุ่ม \"+\" เพื่อเพิ่มสมุดงบประมาณใหม่";
@@ -1286,21 +1289,25 @@
 
 "no_accounts_title" = "ไม่มีบัญชี";
 "no_accounts_found_title" = "ไม่พบบัญชี";
+"no_account_found_title" = "ไม่พบบัญชี";
 "no_accounts_found_message" = "คลิกปุ่ม \"+\" เพื่อเพิ่มบัญชีใหม่";
 "no_accounts_found_button_title" = "บัญชีใหม่";
 "accounts_search_placeholder_message" = "ค้นหาตามชื่อบัญชีหรือประเภทบัญชี";
 
 "no_categories_found_title" = "ไม่พบหมวดหมู่";
+"no_category_found_title" = "ไม่พบหมวดหมู่";
 "no_categories_found_message" = "คลิกปุ่ม \"+\" เพื่อเพิ่มหมวดหมู่ใหม่";
 "no_categories_found_button_title" = "หมวดหมู่ใหม่";
 "categories_search_placeholder_message" = "ค้นหาตามหมวดหมู่หรือชื่อโฟลเดอร์";
 
 "no_category_groups_found_title" = "ไม่พบโฟลเดอร์";
+"no_category_group_found_title" = "ไม่พบโฟลเดอร์";
 "no_category_groups_found_message" = "คลิกปุ่ม \"+\" เพื่อเพิ่มโฟลเดอร์ใหม่";
 "no_category_groups_found_button_title" = "โฟลเดอร์ใหม่";
 "category_groups_search_placeholder_message" = "ค้นหาตามชื่อโฟลเดอร์";
 
 "no_payees_found_title" = "ไม่พบผู้รับเงิน";
+"no_payee_found_title" = "ไม่พบผู้รับเงิน";
 "no_payees_found_message" = "คลิกปุ่ม \"+\" เพื่อเพิ่มผู้รับเงินใหม่";
 "no_payees_found_button_title" = "ผู้รับเงินใหม่";
 "payees_search_placeholder_message" = "ค้นหาด้วยชื่อผู้รับเงิน";
@@ -2057,6 +2064,29 @@
 "open_category_name" = "열기";
 "show_category_name" = "표시";
 "search_category_name" = "검색";
+"create_category_name" = "สร้าง";
+
+/* Create */
+"create_budget_book_title" = "สร้างสมุดงบประมาณ";
+"create_budget_book_description" = "สร้างสมุดงบประมาณหรือส่งคืนสมุดงบประมาณที่มีชื่อเดียวกันอยู่แล้ว";
+"create_budget_book_parameter_summary" = "สร้างสมุดงบประมาณด้วย ${name}";
+"create_budget_book_failed_title" = "ไม่สามารถสร้างสมุดงบประมาณได้";
+"create_account_title" = "สร้างบัญชี";
+"create_account_description" = "สร้างบัญชีหรือส่งคืนบัญชีที่มีชื่อเดียวกันอยู่แล้ว";
+"create_account_parameter_summary" = "สร้างบัญชีด้วย ${name} ใน ${budgetBook}";
+"create_account_failed_title" = "ไม่สามารถสร้างบัญชีได้";
+"create_category_group_title" = "สร้างโฟลเดอร์";
+"create_category_group_description" = "สร้างโฟลเดอร์หรือส่งคืนโฟลเดอร์ที่มีชื่อเดียวกันอยู่แล้ว";
+"create_category_group_parameter_summary" = "สร้างโฟลเดอร์ด้วย ${name} ใน ${budgetBook}";
+"create_category_group_failed_title" = "ไม่สามารถสร้างโฟลเดอร์ได้";
+"create_category_title" = "สร้างหมวดหมู่";
+"create_category_description" = "สร้างหมวดหมู่หรือส่งคืนหมวดหมู่ที่มีชื่อเดียวกันอยู่แล้ว";
+"create_category_parameter_summary" = "สร้างหมวดหมู่ด้วย ${name} ใน ${categoryGroup} ของ ${budgetBook}";
+"create_category_failed_title" = "ไม่สามารถสร้างหมวดหมู่ได้";
+"create_payee_title" = "สร้างผู้รับเงิน";
+"create_payee_description" = "สร้างผู้รับเงินหรือส่งคืนผู้รับเงินที่มีชื่อเดียวกันอยู่แล้ว";
+"create_payee_parameter_summary" = "สร้างผู้รับเงินด้วย ${name} ใน ${budgetBook}";
+"create_payee_failed_title" = "ไม่สามารถสร้างผู้รับเงินได้";
 
 /* Search */
 "search_budget_book_title" = "예산장 검색";
@@ -2116,6 +2146,29 @@
 "chart_type_current_month_title" = "이번 달";
 "chart_type_current_year_title" = "현재 연도";
 
+
+/* Parse */
+"parse_category_name" = "ดึงข้อมูล";
+"parse_notification_transaction_title" = "ดึงข้อมูลธุรกรรม";
+"parse_notification_transaction_description" = "ดึงข้อมูลธุรกรรมจากการแจ้งเตือน";
+"parse_notification_transaction_parameter_summary" = "ดึงข้อมูลธุรกรรมจากการแจ้งเตือน";
+
+"notification_title_parameter_title" = "ชื่อเรื่อง";
+"notification_title_parameter_description" = "ชื่อเรื่องของการแจ้งเตือน";
+"notification_subtitle_parameter_title" = "ชื่อเรื่องรอง";
+"notification_subtitle_parameter_description" = "ชื่อเรื่องรองของการแจ้งเตือน";
+"notification_body_parameter_title" = "เนื้อหา";
+"notification_body_parameter_description" = "เนื้อหาของการแจ้งเตือน";
+"notification_body_parameter_dialog" = "เนื้อหาของการแจ้งเตือนคืออะไร?";
+"notification_date_parameter_title" = "วันที่";
+"notification_date_parameter_description" = "วันที่ของการแจ้งเตือน";
+
+"transaction_info_entity_name" = "ข้อมูลธุรกรรม";
+"amount_property_title" = "จำนวนเงิน";
+"currency_code_property_title" = "สกุลเงิน";
+"date_property_title" = "วันที่";
+"category_property_title" = "หมวดหมู่";
+"payee_property_title" = "ผู้รับเงิน";
 
 /* MARK: - Dummy Data */
 "default_budget_book_name" = "สมุดงบประมาณของฉัน";

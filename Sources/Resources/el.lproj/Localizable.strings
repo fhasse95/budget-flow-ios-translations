@@ -754,7 +754,7 @@
 "advanced_view_setting_section_title" = "Εμφάνιση";
 "advanced_sidebar_setting_section_title" = "Πλαϊνή γραμμή";
 "advanced_transaction_setting_section_title" = "Συναλλαγές";
-"advanced_receipt_scanner_setting_section_title" = "Σαρωτής αποδείξεων";
+"advanced_apple_intelligence_setting_section_title" = "Apple Intelligence";
 "advanced_input_setting_section_title" = "Είσοδος";
 "advanced_other_setting_section_title" = "Άλλο";
 
@@ -797,8 +797,10 @@
 "advanced_setting_consider_pending_items_title" = "Κράτηση όλων των συναλλαγών";
 "advanced_setting_consider_pending_items_description" = "Συμπεριλάβετε τις εκκρεμείς συναλλαγές κατά τον υπολογισμό των υπολοίπων λογαριασμών, των υπολοίπων, των συνόλων κ.λπ.";
 
-"advanced_setting_use_apple_intelligence_in_receipt_scanner_title" = "Apple Intelligence";
+"advanced_setting_use_apple_intelligence_in_receipt_scanner_title" = "Σαρωτής αποδείξεων";
 "advanced_setting_use_apple_intelligence_in_receipt_scanner_description" = "Χρησιμοποιήστε το Apple Intelligence για να συμπληρώνονται αυτόματα επιπλέον πεδία κατά τη σάρωση μιας απόδειξης.";
+"advanced_setting_use_apple_intelligence_in_shortcuts_title" = "Συντομεύσεις";
+"advanced_setting_use_apple_intelligence_in_shortcuts_description" = "Χρήση Apple Intelligence για αυτόματη αναγνώριση κατηγοριών και δικαιούχων σε αυτοματισμούς συντομεύσεων.";
 
 "advanced_setting_enable_exact_times_title" = "Εισαγάγετε ακριβείς ώρες";
 "advanced_setting_enable_exact_times_description" = "Επιλέξτε ακριβείς ώρες χρησιμοποιώντας τον περιστρεφόμενο χρόνο για συναλλαγές (π.χ. 9:41 π.μ.).";
@@ -1278,6 +1280,7 @@
 
 /* Messages */
 "no_budget_books_found_title" = "Δεν βρέθηκαν βιβλία προϋπολογισμού";
+"no_budget_book_found_title" = "Δεν βρέθηκε βιβλίο προϋπολογισμού";
 "no_budget_books_found_message" = "Κάντε κλικ στο κουμπί \"+\" για να προσθέσετε ένα νέο βιβλίο προϋπολογισμού.";
 "no_budget_books_found_button_title" = "Νέο βιβλίο προϋπολογισμού";
 "no_budget_books_found_cloud_sync_message" = "Γίνεται φόρτωση υπαρχόντων δεδομένων από το iCloud. Περιμένετε λίγο...\n\nΕναλλακτικά, κάντε κλικ στο κουμπί \"+\" για να προσθέσετε ένα νέο βιβλίο προϋπολογισμού.";
@@ -1286,21 +1289,25 @@
 
 "no_accounts_title" = "Δεν υπάρχουν";
 "no_accounts_found_title" = "Δεν βρέθηκαν λογαριασμοί";
+"no_account_found_title" = "Δεν βρέθηκε λογαριασμός";
 "no_accounts_found_message" = "Κάντε κλικ στο κουμπί \"+\" για να προσθέσετε έναν νέο λογαριασμό.";
 "no_accounts_found_button_title" = "Νέος λογαριασμός";
 "accounts_search_placeholder_message" = "Αναζήτηση βάσει ονόματος λογαριασμού ή τύπου λογαριασμού";
 
 "no_categories_found_title" = "Δεν βρέθηκαν κατηγορίες";
+"no_category_found_title" = "Δεν βρέθηκε κατηγορία";
 "no_categories_found_message" = "Κάντε κλικ στο κουμπί \"+\" για να προσθέσετε μια νέα κατηγορία.";
 "no_categories_found_button_title" = "Νέα κατηγορία";
 "categories_search_placeholder_message" = "Αναζήτηση κατά κατηγορία ή όνομα φακέλου";
 
 "no_category_groups_found_title" = "Δεν βρέθηκαν φάκελοι";
+"no_category_group_found_title" = "Δεν βρέθηκε φάκελος";
 "no_category_groups_found_message" = "Κάντε κλικ στο κουμπί \"+\" για να προσθέσετε έναν νέο φάκελο.";
 "no_category_groups_found_button_title" = "Νέος φάκελος";
 "category_groups_search_placeholder_message" = "Αναζήτηση με το όνομα ενός φακέλου";
 
 "no_payees_found_title" = "Δεν βρέθηκαν δικαιούχοι πληρωμής";
+"no_payee_found_title" = "Δεν βρέθηκε δικαιούχος";
 "no_payees_found_message" = "Κάντε κλικ στο κουμπί \"+\" για να προσθέσετε έναν νέο δικαιούχο.";
 "no_payees_found_button_title" = "Νέος δικαιούχος πληρωμής";
 "payees_search_placeholder_message" = "Αναζήτηση με το όνομα ενός δικαιούχου πληρωμής";
@@ -2057,6 +2064,29 @@
 "open_category_name" = "Άνοιγμα";
 "show_category_name" = "Εμφάνιση";
 "search_category_name" = "Αναζήτηση";
+"create_category_name" = "Δημιουργία";
+
+/* Create */
+"create_budget_book_title" = "Δημιουργία βιβλίου προϋπολογισμού";
+"create_budget_book_description" = "Δημιουργεί ένα βιβλίο προϋπολογισμού ή επιστρέφει ένα υπάρχον βιβλίο με το ίδιο όνομα.";
+"create_budget_book_parameter_summary" = "Δημιουργία βιβλίου προϋπολογισμού με ${name}";
+"create_budget_book_failed_title" = "Δεν ήταν δυνατή η δημιουργία του βιβλίου προϋπολογισμού";
+"create_account_title" = "Δημιουργία λογαριασμού";
+"create_account_description" = "Δημιουργεί έναν λογαριασμό ή επιστρέφει έναν υπάρχοντα λογαριασμό με το ίδιο όνομα.";
+"create_account_parameter_summary" = "Δημιουργία λογαριασμού με ${name} στο ${budgetBook}";
+"create_account_failed_title" = "Δεν ήταν δυνατή η δημιουργία του λογαριασμού";
+"create_category_group_title" = "Δημιουργία φακέλου";
+"create_category_group_description" = "Δημιουργεί έναν φάκελο ή επιστρέφει έναν υπάρχοντα φάκελο με το ίδιο όνομα.";
+"create_category_group_parameter_summary" = "Δημιουργία φακέλου με ${name} στο ${budgetBook}";
+"create_category_group_failed_title" = "Δεν ήταν δυνατή η δημιουργία του φακέλου";
+"create_category_title" = "Δημιουργία κατηγορίας";
+"create_category_description" = "Δημιουργεί μια κατηγορία ή επιστρέφει μια υπάρχουσα κατηγορία με το ίδιο όνομα.";
+"create_category_parameter_summary" = "Δημιουργία κατηγορίας με ${name} στο ${categoryGroup} του ${budgetBook}";
+"create_category_failed_title" = "Δεν ήταν δυνατή η δημιουργία της κατηγορίας";
+"create_payee_title" = "Δημιουργία δικαιούχου";
+"create_payee_description" = "Δημιουργεί έναν δικαιούχο ή επιστρέφει έναν υπάρχοντα δικαιούχο με το ίδιο όνομα.";
+"create_payee_parameter_summary" = "Δημιουργία δικαιούχου με ${name} στο ${budgetBook}";
+"create_payee_failed_title" = "Δεν ήταν δυνατή η δημιουργία του δικαιούχου";
 
 /* Search */
 "search_budget_book_title" = "Αναζήτηση βιβλίου προϋπολογισμού";
@@ -2116,6 +2146,29 @@
 "chart_type_current_month_title" = "Τρέχον μήνα";
 "chart_type_current_year_title" = "Τρέχον έτος";
 
+
+/* Parse */
+"parse_category_name" = "Εξαγωγή";
+"parse_notification_transaction_title" = "Εξαγωγή στοιχείων συναλλαγής";
+"parse_notification_transaction_description" = "Εξάγει στοιχεία συναλλαγής από μια γνωστοποίηση.";
+"parse_notification_transaction_parameter_summary" = "Εξαγωγή στοιχείων συναλλαγής από γνωστοποίηση.";
+
+"notification_title_parameter_title" = "Τίτλος";
+"notification_title_parameter_description" = "Ο τίτλος της γνωστοποίησης.";
+"notification_subtitle_parameter_title" = "Υπότιτλος";
+"notification_subtitle_parameter_description" = "Ο υπότιτλος της γνωστοποίησης.";
+"notification_body_parameter_title" = "Κείμενο";
+"notification_body_parameter_description" = "Το κείμενο της γνωστοποίησης.";
+"notification_body_parameter_dialog" = "Ποιο είναι το κείμενο της γνωστοποίησης;";
+"notification_date_parameter_title" = "Ημερομηνία";
+"notification_date_parameter_description" = "Η ημερομηνία της γνωστοποίησης.";
+
+"transaction_info_entity_name" = "Στοιχεία συναλλαγής";
+"amount_property_title" = "Ποσό";
+"currency_code_property_title" = "Νόμισμα";
+"date_property_title" = "Ημερομηνία";
+"category_property_title" = "Κατηγορία";
+"payee_property_title" = "Δικαιούχος πληρωμής";
 
 /* MARK: - Dummy Data */
 "default_budget_book_name" = "Το βιβλίο προϋπολογισμού μου";

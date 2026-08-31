@@ -754,7 +754,7 @@
 "advanced_view_setting_section_title" = "Görüntü";
 "advanced_sidebar_setting_section_title" = "Kenar çubuğu";
 "advanced_transaction_setting_section_title" = "İşlemler";
-"advanced_receipt_scanner_setting_section_title" = "Fiş Tarayıcı";
+"advanced_apple_intelligence_setting_section_title" = "Apple Intelligence";
 "advanced_input_setting_section_title" = "Girdi";
 "advanced_other_setting_section_title" = "Diğer";
 
@@ -797,8 +797,10 @@
 "advanced_setting_consider_pending_items_title" = "Tüm işlemleri ayırtın";
 "advanced_setting_consider_pending_items_description" = "Hesap bakiyelerini, bakiyeleri, toplamları vb. hesaplarken bekleyen işlemleri dahil edin.";
 
-"advanced_setting_use_apple_intelligence_in_receipt_scanner_title" = "Apple Intelligence";
+"advanced_setting_use_apple_intelligence_in_receipt_scanner_title" = "Fiş Tarayıcı";
 "advanced_setting_use_apple_intelligence_in_receipt_scanner_description" = "Bir fişi tararken ek alanları otomatik olarak doldurmak için Apple Intelligence kullanın.";
+"advanced_setting_use_apple_intelligence_in_shortcuts_title" = "Kestirmeler";
+"advanced_setting_use_apple_intelligence_in_shortcuts_description" = "Kestirme otomasyonlarında kategorileri ve alacaklıları otomatik olarak algılamak için Apple Intelligence kullan.";
 
 "advanced_setting_enable_exact_times_title" = "Tam saatleri girin";
 "advanced_setting_enable_exact_times_description" = "İşlemler için dakika döndürücüyü kullanarak tam saatleri seçin (ör. 9:41 am).";
@@ -1278,6 +1280,7 @@
 
 /* Messages */
 "no_budget_books_found_title" = "Bütçe defteri bulunamadı";
+"no_budget_book_found_title" = "Bütçe defteri bulunamadı";
 "no_budget_books_found_message" = "Yeni bir bütçe defteri eklemek için \"+\" düğmesini tıklayın.";
 "no_budget_books_found_button_title" = "Yeni Bütçe Defteri";
 "no_budget_books_found_cloud_sync_message" = "Mevcut veriler iCloud'dan yükleniyor. Lütfen biraz bekleyin...\n\nAlternatif olarak, yeni bir bütçe defteri eklemek için \"+\" düğmesini tıklayın.";
@@ -1286,21 +1289,25 @@
 
 "no_accounts_title" = "Hesap yok";
 "no_accounts_found_title" = "Hesap bulunamadı";
+"no_account_found_title" = "Hesap bulunamadı";
 "no_accounts_found_message" = "Yeni bir hesap eklemek için \"+\" düğmesini tıklayın.";
 "no_accounts_found_button_title" = "Yeni Hesap";
 "accounts_search_placeholder_message" = "Hesap adına veya hesap türüne göre arayın";
 
 "no_categories_found_title" = "Kategori bulunamadı";
+"no_category_found_title" = "Kategori bulunamadı";
 "no_categories_found_message" = "Yeni bir kategori eklemek için \"+\" düğmesini tıklayın.";
 "no_categories_found_button_title" = "Yeni Kategori";
 "categories_search_placeholder_message" = "Kategori veya klasör adına göre ara";
 
 "no_category_groups_found_title" = "Klasör bulunamadı";
+"no_category_group_found_title" = "Klasör bulunamadı";
 "no_category_groups_found_message" = "Yeni bir klasör eklemek için \"+\" düğmesine tıklayın.";
 "no_category_groups_found_button_title" = "Yeni Klasör";
 "category_groups_search_placeholder_message" = "Klasör adına göre ara";
 
 "no_payees_found_title" = "Alacaklı bulunamadı";
+"no_payee_found_title" = "Alacaklı bulunamadı";
 "no_payees_found_message" = "Yeni bir alacaklı eklemek için \"+\" düğmesini tıklayın.";
 "no_payees_found_button_title" = "Yeni Alacaklı";
 "payees_search_placeholder_message" = "Alacaklının adına göre arayın";
@@ -2057,6 +2064,29 @@
 "open_category_name" = "Aç";
 "show_category_name" = "Göster";
 "search_category_name" = "Ara";
+"create_category_name" = "Oluştur";
+
+/* Create */
+"create_budget_book_title" = "Bütçe defteri oluştur";
+"create_budget_book_description" = "Bütçe defteri oluşturur veya aynı ada sahip mevcut bütçe defterini döndürür.";
+"create_budget_book_parameter_summary" = "${name} ile bütçe defteri oluştur";
+"create_budget_book_failed_title" = "Bütçe defteri oluşturulamadı";
+"create_account_title" = "Hesap oluştur";
+"create_account_description" = "Hesap oluşturur veya aynı ada sahip mevcut hesabı döndürür.";
+"create_account_parameter_summary" = "${budgetBook} içinde ${name} ile hesap oluştur";
+"create_account_failed_title" = "Hesap oluşturulamadı";
+"create_category_group_title" = "Klasör oluştur";
+"create_category_group_description" = "Klasör oluşturur veya aynı ada sahip mevcut klasörü döndürür.";
+"create_category_group_parameter_summary" = "${budgetBook} içinde ${name} ile klasör oluştur";
+"create_category_group_failed_title" = "Klasör oluşturulamadı";
+"create_category_title" = "Kategori oluştur";
+"create_category_description" = "Kategori oluşturur veya aynı ada sahip mevcut kategoriyi döndürür.";
+"create_category_parameter_summary" = "${budgetBook} içindeki ${categoryGroup} içinde ${name} ile kategori oluştur";
+"create_category_failed_title" = "Kategori oluşturulamadı";
+"create_payee_title" = "Alacaklı oluştur";
+"create_payee_description" = "Alacaklı oluşturur veya aynı ada sahip mevcut alacaklıyı döndürür.";
+"create_payee_parameter_summary" = "${budgetBook} içinde ${name} ile alacaklı oluştur";
+"create_payee_failed_title" = "Alacaklı oluşturulamadı";
 
 /* Search */
 "search_budget_book_title" = "Bütçe defterini arayın";
@@ -2116,6 +2146,29 @@
 "chart_type_current_month_title" = "Geçerli Ay";
 "chart_type_current_year_title" = "Geçerli Yıl";
 
+
+/* Parse */
+"parse_category_name" = "Çıkar";
+"parse_notification_transaction_title" = "İşlem bilgisini çıkar";
+"parse_notification_transaction_description" = "Bir bildirimden işlem bilgisini çıkarır.";
+"parse_notification_transaction_parameter_summary" = "Bildirimden işlem bilgisini çıkar.";
+
+"notification_title_parameter_title" = "Başlık";
+"notification_title_parameter_description" = "Bildirim başlığı.";
+"notification_subtitle_parameter_title" = "Alt başlık";
+"notification_subtitle_parameter_description" = "Bildirim alt başlığı.";
+"notification_body_parameter_title" = "İçerik";
+"notification_body_parameter_description" = "Bildirim içeriği.";
+"notification_body_parameter_dialog" = "Bildirim içeriği nedir?";
+"notification_date_parameter_title" = "Tarih";
+"notification_date_parameter_description" = "Bildirim tarihi.";
+
+"transaction_info_entity_name" = "İşlem bilgisi";
+"amount_property_title" = "Tutar";
+"currency_code_property_title" = "Para birimi";
+"date_property_title" = "Tarih";
+"category_property_title" = "Kategori";
+"payee_property_title" = "Alacaklı";
 
 /* MARK: - Dummy Data */
 "default_budget_book_name" = "Bütçe Defterim";

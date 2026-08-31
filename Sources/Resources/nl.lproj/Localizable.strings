@@ -754,7 +754,7 @@
 "advanced_view_setting_section_title" = "Weergave";
 "advanced_sidebar_setting_section_title" = "Zijbalk";
 "advanced_transaction_setting_section_title" = "Transacties";
-"advanced_receipt_scanner_setting_section_title" = "Bonscanner";
+"advanced_apple_intelligence_setting_section_title" = "Apple Intelligence";
 "advanced_input_setting_section_title" = "Invoer";
 "advanced_other_setting_section_title" = "Overige";
 
@@ -797,8 +797,10 @@
 "advanced_setting_consider_pending_items_title" = "Boek alle transacties";
 "advanced_setting_consider_pending_items_description" = "Neem openstaande transacties op bij het berekenen van rekeningsaldi, saldi, totalen, enz.";
 
-"advanced_setting_use_apple_intelligence_in_receipt_scanner_title" = "Apple Intelligence";
+"advanced_setting_use_apple_intelligence_in_receipt_scanner_title" = "Bonscanner";
 "advanced_setting_use_apple_intelligence_in_receipt_scanner_description" = "Gebruik Apple Intelligence om automatisch extra velden in te vullen bij het scannen van een bon.";
+"advanced_setting_use_apple_intelligence_in_shortcuts_title" = "Opdrachten";
+"advanced_setting_use_apple_intelligence_in_shortcuts_description" = "Gebruik Apple Intelligence om categorieën en begunstigden automatisch in opdracht-automatiseringen te herkennen.";
 
 "advanced_setting_enable_exact_times_title" = "Voer exacte tijden in";
 "advanced_setting_enable_exact_times_description" = "Selecteer exacte tijden met behulp van de minutendraaier voor transacties (bijvoorbeeld 9:41 uur).";
@@ -1278,6 +1280,7 @@
 
 /* Messages */
 "no_budget_books_found_title" = "Geen budgetboeken gevonden";
+"no_budget_book_found_title" = "Geen budgetboek gevonden";
 "no_budget_books_found_message" = "Klik op de knop \"+\" om een ​​nieuw budgetboek toe te voegen.";
 "no_budget_books_found_button_title" = "Nieuw budgetboek";
 "no_budget_books_found_cloud_sync_message" = "Bestaande gegevens worden geladen vanuit iCloud. Een ogenblik geduld...\n\nJe kunt ook op de knop \"+\" klikken om een ​​nieuw budgetboek toe te voegen.";
@@ -1286,21 +1289,25 @@
 
 "no_accounts_title" = "Geen accounts";
 "no_accounts_found_title" = "Geen accounts gevonden";
+"no_account_found_title" = "Geen rekening gevonden";
 "no_accounts_found_message" = "Klik op de knop \"+\" om een ​​nieuwe account toe te voegen.";
 "no_accounts_found_button_title" = "Nieuw account";
 "accounts_search_placeholder_message" = "Zoeken op accountnaam of accounttype";
 
 "no_categories_found_title" = "Geen categorieën gevonden";
+"no_category_found_title" = "Geen categorie gevonden";
 "no_categories_found_message" = "Klik op de knop \"+\" om een ​​nieuwe categorie toe te voegen.";
 "no_categories_found_button_title" = "Nieuwe categorie";
 "categories_search_placeholder_message" = "Zoeken op categorie- of mapnaam";
 
 "no_category_groups_found_title" = "Geen mappen gevonden";
+"no_category_group_found_title" = "Geen map gevonden";
 "no_category_groups_found_message" = "Klik op de knop \"+\" om een ​​nieuwe map toe te voegen.";
 "no_category_groups_found_button_title" = "Nieuwe map";
 "category_groups_search_placeholder_message" = "Zoeken op naam van een map";
 
 "no_payees_found_title" = "Geen begunstigden gevonden";
+"no_payee_found_title" = "Geen begunstigde gevonden";
 "no_payees_found_message" = "Klik op de knop \"+\" om een nieuwe begunstigde toe te voegen.";
 "no_payees_found_button_title" = "Nieuwe begunstigde";
 "payees_search_placeholder_message" = "Zoek op de naam van een begunstigde";
@@ -2057,6 +2064,29 @@
 "open_category_name" = "Openen";
 "show_category_name" = "Toon";
 "search_category_name" = "Zoeken";
+"create_category_name" = "Maak aan";
+
+/* Create */
+"create_budget_book_title" = "Budgetboek aanmaken";
+"create_budget_book_description" = "Maakt een budgetboek aan of geeft een bestaand budgetboek met dezelfde naam terug.";
+"create_budget_book_parameter_summary" = "Maak budgetboek aan met ${name}";
+"create_budget_book_failed_title" = "Budgetboek kon niet worden aangemaakt";
+"create_account_title" = "Rekening aanmaken";
+"create_account_description" = "Maakt een rekening aan of geeft een bestaande rekening met dezelfde naam terug.";
+"create_account_parameter_summary" = "Maak rekening aan met ${name} in ${budgetBook}";
+"create_account_failed_title" = "Rekening kon niet worden aangemaakt";
+"create_category_group_title" = "Map aanmaken";
+"create_category_group_description" = "Maakt een map aan of geeft een bestaande map met dezelfde naam terug.";
+"create_category_group_parameter_summary" = "Maak map aan met ${name} in ${budgetBook}";
+"create_category_group_failed_title" = "Map kon niet worden aangemaakt";
+"create_category_title" = "Categorie aanmaken";
+"create_category_description" = "Maakt een categorie aan of geeft een bestaande categorie met dezelfde naam terug.";
+"create_category_parameter_summary" = "Maak categorie aan met ${name} in ${categoryGroup} van ${budgetBook}";
+"create_category_failed_title" = "Categorie kon niet worden aangemaakt";
+"create_payee_title" = "Begunstigde aanmaken";
+"create_payee_description" = "Maakt een begunstigde aan of geeft een bestaande begunstigde met dezelfde naam terug.";
+"create_payee_parameter_summary" = "Maak begunstigde aan met ${name} in ${budgetBook}";
+"create_payee_failed_title" = "Begunstigde kon niet worden aangemaakt";
 
 /* Search */
 "search_budget_book_title" = "Zoek budgetboek";
@@ -2116,6 +2146,29 @@
 "chart_type_current_month_title" = "Huidige maand";
 "chart_type_current_year_title" = "Huidig jaar";
 
+
+/* Parse */
+"parse_category_name" = "Uitlezen";
+"parse_notification_transaction_title" = "Transactie-info uitlezen";
+"parse_notification_transaction_description" = "Leest transactie-info uit een melding.";
+"parse_notification_transaction_parameter_summary" = "Transactie-info uit melding uitlezen.";
+
+"notification_title_parameter_title" = "Titel";
+"notification_title_parameter_description" = "De titel van de melding.";
+"notification_subtitle_parameter_title" = "Ondertitel";
+"notification_subtitle_parameter_description" = "De ondertitel van de melding.";
+"notification_body_parameter_title" = "Tekst";
+"notification_body_parameter_description" = "De tekst van de melding.";
+"notification_body_parameter_dialog" = "Wat is de tekst van de melding?";
+"notification_date_parameter_title" = "Datum";
+"notification_date_parameter_description" = "De datum van de melding.";
+
+"transaction_info_entity_name" = "Transactie-info";
+"amount_property_title" = "Bedrag";
+"currency_code_property_title" = "Valuta";
+"date_property_title" = "Datum";
+"category_property_title" = "Categorie";
+"payee_property_title" = "Begunstigde";
 
 /* MARK: - Dummy Data */
 "default_budget_book_name" = "Mijn budgetboek";

@@ -754,7 +754,7 @@
 "advanced_view_setting_section_title" = "Visualizzazione";
 "advanced_sidebar_setting_section_title" = "Barra laterale";
 "advanced_transaction_setting_section_title" = "Transazioni";
-"advanced_receipt_scanner_setting_section_title" = "Scanner ricevute";
+"advanced_apple_intelligence_setting_section_title" = "Apple Intelligence";
 "advanced_input_setting_section_title" = "Inserimento";
 "advanced_other_setting_section_title" = "Altro";
 
@@ -797,8 +797,10 @@
 "advanced_setting_consider_pending_items_title" = "Considera tutte le transazioni";
 "advanced_setting_consider_pending_items_description" = "Includi le transazioni in sospeso nel calcolo del riepilogo transazioni, dei saldi, dei totali, ecc.";
 
-"advanced_setting_use_apple_intelligence_in_receipt_scanner_title" = "Apple Intelligence";
+"advanced_setting_use_apple_intelligence_in_receipt_scanner_title" = "Scanner ricevute";
 "advanced_setting_use_apple_intelligence_in_receipt_scanner_description" = "Usa Apple Intelligence per compilare automaticamente campi aggiuntivi durante la scansione di una ricevuta.";
+"advanced_setting_use_apple_intelligence_in_shortcuts_title" = "Comandi rapidi";
+"advanced_setting_use_apple_intelligence_in_shortcuts_description" = "Usa Apple Intelligence per rilevare automaticamente categorie e beneficiari nelle automazioni dei comandi rapidi.";
 
 "advanced_setting_enable_exact_times_title" = "Inserisci gli orari esatti";
 "advanced_setting_enable_exact_times_description" = "Seleziona gli orari esatti utilizzando il selettore dei minuti per le transazioni (ad esempio 9:41).";
@@ -1278,6 +1280,7 @@
 
 /* Messages */
 "no_budget_books_found_title" = "Nessun registro contabile trovato";
+"no_budget_book_found_title" = "Nessun registro di budget trovato";
 "no_budget_books_found_message" = "Fai clic sul pulsante \"+\" per aggiungere un nuovo registro contabile.";
 "no_budget_books_found_button_title" = "Nuovo registro contabile";
 "no_budget_books_found_cloud_sync_message" = "Dati esistenti in fase di caricamento da iCloud. Ti preghiamo di attendere...\n\nIn alternativa, fai clic sul pulsante \"+\" per aggiungere un nuovo registro contabile.";
@@ -1286,21 +1289,25 @@
 
 "no_accounts_title" = "Nessun conto";
 "no_accounts_found_title" = "Nessun conto trovato";
+"no_account_found_title" = "Nessun conto trovato";
 "no_accounts_found_message" = "Fai clic sul pulsante \"+\" per aggiungere un nuovo conto.";
 "no_accounts_found_button_title" = "Nuovo conto";
 "accounts_search_placeholder_message" = "Cerca per nome o tipo di conto";
 
 "no_categories_found_title" = "Nessuna categoria trovata";
+"no_category_found_title" = "Nessuna categoria trovata";
 "no_categories_found_message" = "Fai clic sul pulsante \"+\" per aggiungere una nuova categoria.";
 "no_categories_found_button_title" = "Nuova categoria";
 "categories_search_placeholder_message" = "Cerca per categoria o nome cartella";
 
 "no_category_groups_found_title" = "Nessuna cartella trovata";
+"no_category_group_found_title" = "Nessuna cartella trovata";
 "no_category_groups_found_message" = "Fai clic sul pulsante \"+\" per aggiungere una nuova cartella.";
 "no_category_groups_found_button_title" = "Nuova cartella";
 "category_groups_search_placeholder_message" = "Cerca per nome di una cartella";
 
 "no_payees_found_title" = "Nessun beneficiario trovato";
+"no_payee_found_title" = "Nessun beneficiario trovato";
 "no_payees_found_message" = "Fai clic sul pulsante \"+\" per aggiungere un nuovo beneficiario.";
 "no_payees_found_button_title" = "Nuovo beneficiario";
 "payees_search_placeholder_message" = "Cerca per nome del beneficiario";
@@ -2057,6 +2064,29 @@
 "open_category_name" = "Apri";
 "show_category_name" = "Mostra";
 "search_category_name" = "Cerca";
+"create_category_name" = "Crea";
+
+/* Create */
+"create_budget_book_title" = "Crea registro di budget";
+"create_budget_book_description" = "Crea un registro di budget o restituisce un registro esistente con lo stesso nome.";
+"create_budget_book_parameter_summary" = "Crea registro di budget con ${name}";
+"create_budget_book_failed_title" = "Impossibile creare il registro di budget";
+"create_account_title" = "Crea conto";
+"create_account_description" = "Crea un conto o restituisce un conto esistente con lo stesso nome.";
+"create_account_parameter_summary" = "Crea conto con ${name} in ${budgetBook}";
+"create_account_failed_title" = "Impossibile creare il conto";
+"create_category_group_title" = "Crea cartella";
+"create_category_group_description" = "Crea una cartella o restituisce una cartella esistente con lo stesso nome.";
+"create_category_group_parameter_summary" = "Crea cartella con ${name} in ${budgetBook}";
+"create_category_group_failed_title" = "Impossibile creare la cartella";
+"create_category_title" = "Crea categoria";
+"create_category_description" = "Crea una categoria o restituisce una categoria esistente con lo stesso nome.";
+"create_category_parameter_summary" = "Crea categoria con ${name} in ${categoryGroup} di ${budgetBook}";
+"create_category_failed_title" = "Impossibile creare la categoria";
+"create_payee_title" = "Crea beneficiario";
+"create_payee_description" = "Crea un beneficiario o restituisce un beneficiario esistente con lo stesso nome.";
+"create_payee_parameter_summary" = "Crea beneficiario con ${name} in ${budgetBook}";
+"create_payee_failed_title" = "Impossibile creare il beneficiario";
 
 /* Search */
 "search_budget_book_title" = "Cerca registro contabile";
@@ -2116,6 +2146,29 @@
 "chart_type_current_month_title" = "Mese corrente";
 "chart_type_current_year_title" = "Anno corrente";
 
+
+/* Parse */
+"parse_category_name" = "Estrai";
+"parse_notification_transaction_title" = "Estrai info transazione";
+"parse_notification_transaction_description" = "Estrae le info della transazione da una notifica.";
+"parse_notification_transaction_parameter_summary" = "Estrai info transazione dalla notifica.";
+
+"notification_title_parameter_title" = "Titolo";
+"notification_title_parameter_description" = "Il titolo della notifica.";
+"notification_subtitle_parameter_title" = "Sottotitolo";
+"notification_subtitle_parameter_description" = "Il sottotitolo della notifica.";
+"notification_body_parameter_title" = "Corpo";
+"notification_body_parameter_description" = "Il corpo della notifica.";
+"notification_body_parameter_dialog" = "Qual è il corpo della notifica?";
+"notification_date_parameter_title" = "Data";
+"notification_date_parameter_description" = "La data della notifica.";
+
+"transaction_info_entity_name" = "Info transazione";
+"amount_property_title" = "Importo";
+"currency_code_property_title" = "Valuta";
+"date_property_title" = "Data";
+"category_property_title" = "Categoria";
+"payee_property_title" = "Beneficiario";
 
 /* MARK: - Dummy Data */
 "default_budget_book_name" = "Il mio registro del budget";

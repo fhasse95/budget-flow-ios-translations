@@ -2,43 +2,38 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>3.2.0</key>
-	<dict>
-		<key>Summary</key>
-		<string>此版本改进了收据扫描功能，新增更多图标，并优化了挪威语翻译。</string>
-		<key>Items</key>
-		<array>
+	<key>3.3.0</key>
+	<array>
 		<dict>
 			<key>Title</key>
-			<string>增强的收据扫描器</string>
+			<string>增强的快捷指令</string>
 			<key>Description</key>
-			<string>内置收据扫描器现在也会根据你之前的输入识别收款人。</string>
+			<string>全新和改进的快捷指令让自动化 Budget Flow 比以往更轻松，包括在 iOS 和 iPadOS 27 上从银行 App 通知自动添加交易。</string>
 			<key>IconName</key>
-			<string>receipt.viewfinder</string>
+			<string>app.badge</string>
 			<key>IconColor</key>
 			<string>#ff8d28</string>
 		</dict>
 		<dict>
 			<key>Title</key>
-			<string>更多图标</string>
+			<string>自动分类</string>
 			<key>Description</key>
-			<string>新增了更多图标，让你可以按照自己的喜好个性化 App。</string>
+			<string>在受支持的设备上，Budget Flow 现在可以使用 Apple Intelligence，在通过快捷指令自动创建交易时判断类别和收款人。</string>
 			<key>IconName</key>
-			<string>paintpalette</string>
+			<string>square.2.layers.3d.top.filled</string>
 			<key>IconColor</key>
 			<string>#ff375f</string>
 		</dict>
 		<dict>
 			<key>Title</key>
-			<string>改进的翻译</string>
+			<string>支持 iOS、iPadOS 和 macOS 27</string>
 			<key>Description</key>
-			<string>App 的挪威语翻译已优化，现在更容易理解。</string>
+			<string>设计优化和兼容性更新让 Budget Flow 在最新的 Apple 操作系统上流畅运行。</string>
 			<key>IconName</key>
-			<string>globe</string>
+			<string>macbook.and.iphone</string>
 			<key>IconColor</key>
 			<string>#0088ff</string>
 		</dict>
-		</array>
-	</dict>
+	</array>
 </dict>
 </plist>

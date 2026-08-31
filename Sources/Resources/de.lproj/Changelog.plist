@@ -2,43 +2,38 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>3.2.0</key>
-	<dict>
-		<key>Summary</key>
-		<string>Dieses Update verbessert den Belegscanner, ergänzt weitere Symbole und optimiert die norwegische Übersetzung.</string>
-		<key>Items</key>
-		<array>
+	<key>3.3.0</key>
+	<array>
 		<dict>
 			<key>Title</key>
-			<string>Erweiterter Belegscanner</string>
+			<string>Verbesserte Kurzbefehle</string>
 			<key>Description</key>
-			<string>Der integrierte Belegscanner erkennt nun ebenfalls den Zahlungsempfänger anhand deiner bisherigen Eingaben.</string>
+			<string>Neue und verbesserte Kurzbefehle machen es einfacher denn je, Budget Flow zu automatisieren, einschließlich des automatischen Hinzufügens von Transaktionen aus Mitteilungen von Banking-Apps unter iOS und iPadOS 27.</string>
 			<key>IconName</key>
-			<string>receipt.viewfinder</string>
+			<string>app.badge</string>
 			<key>IconColor</key>
 			<string>#ff8d28</string>
 		</dict>
 		<dict>
 			<key>Title</key>
-			<string>Zusätzliche Symbole</string>
+			<string>Automatische Kategorisierung</string>
 			<key>Description</key>
-			<string>Es wurden weitere Symbole hinzugefügt, mit denen du die App ganz nach deinen Wünschen personalisieren kannst.</string>
+			<string>Auf unterstützten Geräten kann Budget Flow nun Apple Intelligence nutzen, um Kategorie und Empfänger beim automatischen Erstellen von Transaktionen per Kurzbefehl zu ermitteln.</string>
 			<key>IconName</key>
-			<string>paintpalette</string>
+			<string>square.2.layers.3d.top.filled</string>
 			<key>IconColor</key>
 			<string>#ff375f</string>
 		</dict>
 		<dict>
 			<key>Title</key>
-			<string>Verbesserte Übersetzung</string>
+			<string>Unterstützung für iOS, iPadOS und macOS 27</string>
 			<key>Description</key>
-			<string>Die norwegische Übersetzung der App wurde optimiert, sodass sie nun noch besser zu verstehen ist.</string>
+			<string>Designanpassungen und Kompatibilitätsupdates sorgen dafür, dass Budget Flow auch auf den neuesten Apple-Betriebssystemen iOS, iPadOS und macOS 27 reibungslos läuft.</string>
 			<key>IconName</key>
-			<string>globe</string>
+			<string>macbook.and.iphone</string>
 			<key>IconColor</key>
 			<string>#0088ff</string>
 		</dict>
-		</array>
-	</dict>
+	</array>
 </dict>
 </plist>

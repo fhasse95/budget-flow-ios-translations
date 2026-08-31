@@ -2,43 +2,38 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>3.2.0</key>
-	<dict>
-		<key>Summary</key>
-		<string>Questa versione migliora la scansione delle ricevute, aggiunge altre icone e ottimizza la traduzione norvegese.</string>
-		<key>Items</key>
-		<array>
+	<key>3.3.0</key>
+	<array>
 		<dict>
 			<key>Title</key>
-			<string>Scanner delle ricevute migliorato</string>
+			<string>Comandi rapidi migliorati</string>
 			<key>Description</key>
-			<string>Lo scanner delle ricevute integrato ora riconosce anche il beneficiario in base alle tue voci precedenti.</string>
+			<string>I comandi rapidi nuovi e migliorati rendono più semplice che mai automatizzare Budget Flow, inclusa l’aggiunta automatica di transazioni dalle notifiche delle app bancarie su iOS e iPadOS 27.</string>
 			<key>IconName</key>
-			<string>receipt.viewfinder</string>
+			<string>app.badge</string>
 			<key>IconColor</key>
 			<string>#ff8d28</string>
 		</dict>
 		<dict>
 			<key>Title</key>
-			<string>Icone aggiuntive</string>
+			<string>Categorizzazione automatica</string>
 			<key>Description</key>
-			<string>Sono state aggiunte altre icone con cui puoi personalizzare l’app proprio come preferisci.</string>
+			<string>Sui dispositivi supportati, Budget Flow può ora usare i Apple Intelligence per determinare categoria e beneficiario quando crea automaticamente transazioni tramite comandi rapidi.</string>
 			<key>IconName</key>
-			<string>paintpalette</string>
+			<string>square.2.layers.3d.top.filled</string>
 			<key>IconColor</key>
 			<string>#ff375f</string>
 		</dict>
 		<dict>
 			<key>Title</key>
-			<string>Traduzione migliorata</string>
+			<string>Supporto per iOS, iPadOS e macOS 27</string>
 			<key>Description</key>
-			<string>La traduzione norvegese dell’app è stata ottimizzata, così ora è ancora più facile da capire.</string>
+			<string>Ritocchi al design e aggiornamenti di compatibilità mantengono Budget Flow fluido sui più recenti sistemi operativi Apple.</string>
 			<key>IconName</key>
-			<string>globe</string>
+			<string>macbook.and.iphone</string>
 			<key>IconColor</key>
 			<string>#0088ff</string>
 		</dict>
-		</array>
-	</dict>
+	</array>
 </dict>
 </plist>

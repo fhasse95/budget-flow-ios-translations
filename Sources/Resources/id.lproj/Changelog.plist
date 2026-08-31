@@ -2,43 +2,38 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>3.2.0</key>
-	<dict>
-		<key>Summary</key>
-		<string>Rilis ini meningkatkan pemindaian struk, menambahkan lebih banyak ikon, dan mengoptimalkan terjemahan bahasa Norwegia.</string>
-		<key>Items</key>
-		<array>
+	<key>3.3.0</key>
+	<array>
 		<dict>
 			<key>Title</key>
-			<string>Pemindai struk yang ditingkatkan</string>
+				<string>Pintasan yang ditingkatkan</string>
 			<key>Description</key>
-			<string>Pemindai struk bawaan kini juga mengenali penerima pembayaran berdasarkan entri Anda sebelumnya.</string>
+				<string>Pintasan baru dan yang ditingkatkan membuat otomatisasi Budget Flow lebih mudah dari sebelumnya, termasuk menambahkan transaksi secara otomatis dari notifikasi aplikasi perbankan di iOS dan iPadOS 27.</string>
 			<key>IconName</key>
-			<string>receipt.viewfinder</string>
+			<string>app.badge</string>
 			<key>IconColor</key>
 			<string>#ff8d28</string>
 		</dict>
 		<dict>
 			<key>Title</key>
-			<string>Ikon tambahan</string>
+				<string>Kategorisasi otomatis</string>
 			<key>Description</key>
-			<string>Lebih banyak ikon telah ditambahkan agar Anda dapat mempersonalisasi app sesuai keinginan.</string>
+				<string>Di perangkat yang didukung, Budget Flow kini dapat menggunakan Apple Intelligence untuk menentukan kategori dan penerima pembayaran saat membuat transaksi otomatis menggunakan pintasan.</string>
 			<key>IconName</key>
-			<string>paintpalette</string>
+			<string>square.2.layers.3d.top.filled</string>
 			<key>IconColor</key>
 			<string>#ff375f</string>
 		</dict>
 		<dict>
 			<key>Title</key>
-			<string>Terjemahan yang ditingkatkan</string>
+				<string>Dukungan untuk iOS, iPadOS, dan macOS 27</string>
 			<key>Description</key>
-			<string>Terjemahan bahasa Norwegia untuk app telah dioptimalkan, sehingga kini lebih mudah dipahami.</string>
+				<string>Penyempurnaan desain dan pembaruan kompatibilitas menjaga Budget Flow tetap berjalan lancar di sistem operasi Apple terbaru.</string>
 			<key>IconName</key>
-			<string>globe</string>
+			<string>macbook.and.iphone</string>
 			<key>IconColor</key>
 			<string>#0088ff</string>
 		</dict>
-		</array>
-	</dict>
+	</array>
 </dict>
 </plist>

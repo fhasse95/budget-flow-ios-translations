@@ -2,43 +2,38 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>3.2.0</key>
-	<dict>
-		<key>Summary</key>
-		<string>Этот выпуск улучшает сканирование чеков, добавляет больше значков и оптимизирует норвежский перевод.</string>
-		<key>Items</key>
-		<array>
+	<key>3.3.0</key>
+	<array>
 		<dict>
 			<key>Title</key>
-			<string>Улучшенный сканер чеков</string>
+			<string>Улучшенные команды</string>
 			<key>Description</key>
-			<string>Встроенный сканер чеков теперь также распознаёт получателя платежа на основе ваших предыдущих записей.</string>
+			<string>Новые и улучшенные команды делают автоматизацию Budget Flow проще, чем когда-либо, включая автоматическое добавление транзакций из уведомлений банковских приложений в iOS и iPadOS 27.</string>
 			<key>IconName</key>
-			<string>receipt.viewfinder</string>
+			<string>app.badge</string>
 			<key>IconColor</key>
 			<string>#ff8d28</string>
 		</dict>
 		<dict>
 			<key>Title</key>
-			<string>Дополнительные значки</string>
+			<string>Автоматическая категоризация</string>
 			<key>Description</key>
-			<string>Добавлены новые значки, чтобы вы могли персонализировать приложение именно так, как вам нравится.</string>
+			<string>На поддерживаемых устройствах Budget Flow теперь может использовать Apple Intelligence, чтобы определять категорию и получателя при автоматическом создании транзакций с помощью команд.</string>
 			<key>IconName</key>
-			<string>paintpalette</string>
+			<string>square.2.layers.3d.top.filled</string>
 			<key>IconColor</key>
 			<string>#ff375f</string>
 		</dict>
 		<dict>
 			<key>Title</key>
-			<string>Улучшенный перевод</string>
+			<string>Поддержка iOS, iPadOS и macOS 27</string>
 			<key>Description</key>
-			<string>Норвежский перевод приложения был оптимизирован, поэтому теперь он стал ещё понятнее.</string>
+			<string>Доработки дизайна и обновления совместимости обеспечивают плавную работу Budget Flow в новейших операционных системах Apple.</string>
 			<key>IconName</key>
-			<string>globe</string>
+			<string>macbook.and.iphone</string>
 			<key>IconColor</key>
 			<string>#0088ff</string>
 		</dict>
-		</array>
-	</dict>
+	</array>
 </dict>
 </plist>

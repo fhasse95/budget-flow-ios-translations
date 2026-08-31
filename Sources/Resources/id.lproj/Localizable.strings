@@ -754,7 +754,7 @@
 "advanced_view_setting_section_title" = "Tampilan";
 "advanced_sidebar_setting_section_title" = "Bilah Sisi";
 "advanced_transaction_setting_section_title" = "Transaksi";
-"advanced_receipt_scanner_setting_section_title" = "Pemindai struk";
+"advanced_apple_intelligence_setting_section_title" = "Apple Intelligence";
 "advanced_input_setting_section_title" = "Masukan";
 "advanced_other_setting_section_title" = "Lainnya";
 
@@ -797,8 +797,10 @@
 "advanced_setting_consider_pending_items_title" = "Hitung semua transaksi";
 "advanced_setting_consider_pending_items_description" = "Sertakan transaksi yang tertunda saat menghitung saldo akun, saldo, total, dll.";
 
-"advanced_setting_use_apple_intelligence_in_receipt_scanner_title" = "Apple Intelligence";
+"advanced_setting_use_apple_intelligence_in_receipt_scanner_title" = "Pemindai struk";
 "advanced_setting_use_apple_intelligence_in_receipt_scanner_description" = "Gunakan Apple Intelligence untuk mengisi bidang tambahan secara otomatis saat memindai struk.";
+"advanced_setting_use_apple_intelligence_in_shortcuts_title" = "Pintasan";
+"advanced_setting_use_apple_intelligence_in_shortcuts_description" = "Gunakan Apple Intelligence untuk mendeteksi kategori dan penerima pembayaran secara otomatis dalam automasi pintasan.";
 
 "advanced_setting_enable_exact_times_title" = "Masukkan waktu yang tepat";
 "advanced_setting_enable_exact_times_description" = "Pilih waktu yang tepat menggunakan pemutar menit untuk transaksi (misalnya 09.41).";
@@ -1278,6 +1280,7 @@
 
 /* Messages */
 "no_budget_books_found_title" = "Tidak ada buku anggaran yang ditemukan";
+"no_budget_book_found_title" = "Buku anggaran tidak ditemukan";
 "no_budget_books_found_message" = "Klik tombol \"+\" untuk menambahkan buku anggaran baru.";
 "no_budget_books_found_button_title" = "Buku Anggaran Baru";
 "no_budget_books_found_cloud_sync_message" = "Data yang ada sedang dimuat dari iCloud. Mohon tunggu sebentar...\n\nAtau, klik tombol \"+\" untuk menambahkan buku anggaran baru.";
@@ -1286,21 +1289,25 @@
 
 "no_accounts_title" = "Tidak ada akun";
 "no_accounts_found_title" = "Tidak ada akun yang ditemukan";
+"no_account_found_title" = "Akun tidak ditemukan";
 "no_accounts_found_message" = "Klik tombol \"+\" untuk menambahkan akun baru.";
 "no_accounts_found_button_title" = "Akun Baru";
 "accounts_search_placeholder_message" = "Cari berdasarkan nama akun atau jenis akun";
 
 "no_categories_found_title" = "Tidak ada kategori yang ditemukan";
+"no_category_found_title" = "Kategori tidak ditemukan";
 "no_categories_found_message" = "Klik tombol \"+\" untuk menambahkan kategori baru.";
 "no_categories_found_button_title" = "Kategori Baru";
 "categories_search_placeholder_message" = "Cari berdasarkan kategori atau nama folder";
 
 "no_category_groups_found_title" = "Tidak ada folder yang ditemukan";
+"no_category_group_found_title" = "Folder tidak ditemukan";
 "no_category_groups_found_message" = "Klik tombol \"+\" untuk menambahkan folder baru.";
 "no_category_groups_found_button_title" = "Folder Baru";
 "category_groups_search_placeholder_message" = "Cari berdasarkan nama folder";
 
 "no_payees_found_title" = "Tidak ada penerima yang ditemukan";
+"no_payee_found_title" = "Penerima pembayaran tidak ditemukan";
 "no_payees_found_message" = "Klik tombol \"+\" untuk menambahkan penerima baru.";
 "no_payees_found_button_title" = "Penerima Baru";
 "payees_search_placeholder_message" = "Cari berdasarkan nama penerima";
@@ -2057,6 +2064,29 @@
 "open_category_name" = "Buka";
 "show_category_name" = "Tampilkan";
 "search_category_name" = "Cari";
+"create_category_name" = "Buat";
+
+/* Create */
+"create_budget_book_title" = "Buat buku anggaran";
+"create_budget_book_description" = "Membuat buku anggaran atau mengembalikan buku anggaran yang sudah ada dengan nama yang sama.";
+"create_budget_book_parameter_summary" = "Buat buku anggaran dengan ${name}";
+"create_budget_book_failed_title" = "Buku anggaran tidak dapat dibuat";
+"create_account_title" = "Buat akun";
+"create_account_description" = "Membuat akun atau mengembalikan akun yang sudah ada dengan nama yang sama.";
+"create_account_parameter_summary" = "Buat akun dengan ${name} di ${budgetBook}";
+"create_account_failed_title" = "Akun tidak dapat dibuat";
+"create_category_group_title" = "Buat folder";
+"create_category_group_description" = "Membuat folder atau mengembalikan folder yang sudah ada dengan nama yang sama.";
+"create_category_group_parameter_summary" = "Buat folder dengan ${name} di ${budgetBook}";
+"create_category_group_failed_title" = "Folder tidak dapat dibuat";
+"create_category_title" = "Buat kategori";
+"create_category_description" = "Membuat kategori atau mengembalikan kategori yang sudah ada dengan nama yang sama.";
+"create_category_parameter_summary" = "Buat kategori dengan ${name} di ${categoryGroup} dari ${budgetBook}";
+"create_category_failed_title" = "Kategori tidak dapat dibuat";
+"create_payee_title" = "Buat penerima pembayaran";
+"create_payee_description" = "Membuat penerima pembayaran atau mengembalikan penerima pembayaran yang sudah ada dengan nama yang sama.";
+"create_payee_parameter_summary" = "Buat penerima pembayaran dengan ${name} di ${budgetBook}";
+"create_payee_failed_title" = "Penerima pembayaran tidak dapat dibuat";
 
 /* Search */
 "search_budget_book_title" = "Cari buku anggaran";
@@ -2116,6 +2146,29 @@
 "chart_type_current_month_title" = "Bulan Berjalan";
 "chart_type_current_year_title" = "Tahun Berjalan";
 
+
+/* Parse */
+"parse_category_name" = "Ekstrak";
+"parse_notification_transaction_title" = "Ekstrak info transaksi";
+"parse_notification_transaction_description" = "Mengekstrak info transaksi dari notifikasi.";
+"parse_notification_transaction_parameter_summary" = "Ekstrak info transaksi dari notifikasi.";
+
+"notification_title_parameter_title" = "Judul";
+"notification_title_parameter_description" = "Judul notifikasi.";
+"notification_subtitle_parameter_title" = "Subjudul";
+"notification_subtitle_parameter_description" = "Subjudul notifikasi.";
+"notification_body_parameter_title" = "Isi";
+"notification_body_parameter_description" = "Isi notifikasi.";
+"notification_body_parameter_dialog" = "Apa isi notifikasi?";
+"notification_date_parameter_title" = "Tanggal";
+"notification_date_parameter_description" = "Tanggal notifikasi.";
+
+"transaction_info_entity_name" = "Info transaksi";
+"amount_property_title" = "Jumlah";
+"currency_code_property_title" = "Mata uang";
+"date_property_title" = "Tanggal";
+"category_property_title" = "Kategori";
+"payee_property_title" = "Penerima pembayaran";
 
 /* MARK: - Dummy Data */
 "default_budget_book_name" = "Buku Anggaran Saya";

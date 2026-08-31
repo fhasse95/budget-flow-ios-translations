@@ -754,7 +754,7 @@
 "advanced_view_setting_section_title" = "Afișare";
 "advanced_sidebar_setting_section_title" = "Bară laterală";
 "advanced_transaction_setting_section_title" = "Tranzacții";
-"advanced_receipt_scanner_setting_section_title" = "Scanner de chitanțe";
+"advanced_apple_intelligence_setting_section_title" = "Apple Intelligence";
 "advanced_input_setting_section_title" = "Intrare";
 "advanced_other_setting_section_title" = "Altele";
 
@@ -797,8 +797,10 @@
 "advanced_setting_consider_pending_items_title" = "Rezervați toate tranzacțiile";
 "advanced_setting_consider_pending_items_description" = "Includeți tranzacțiile în așteptare la calcularea soldurilor contului, soldurilor, totalurilor etc.";
 
-"advanced_setting_use_apple_intelligence_in_receipt_scanner_title" = "Apple Intelligence";
+"advanced_setting_use_apple_intelligence_in_receipt_scanner_title" = "Scanner de chitanțe";
 "advanced_setting_use_apple_intelligence_in_receipt_scanner_description" = "Folosește Apple Intelligence pentru a completa automat câmpuri suplimentare atunci când scanezi o chitanță.";
+"advanced_setting_use_apple_intelligence_in_shortcuts_title" = "Scurtături";
+"advanced_setting_use_apple_intelligence_in_shortcuts_description" = "Folosește Apple Intelligence pentru a detecta automat categorii și beneficiari în automatizările scurtăturilor.";
 
 "advanced_setting_enable_exact_times_title" = "Introduceți orele exacte";
 "advanced_setting_enable_exact_times_description" = "Selectați orele exacte folosind rotația minutelor pentru tranzacții (de exemplu, 9:41 am).";
@@ -1278,6 +1280,7 @@
 
 /* Messages */
 "no_budget_books_found_title" = "Nu s-au găsit cărți bugetare";
+"no_budget_book_found_title" = "Nu s-a găsit niciun registru de buget";
 "no_budget_books_found_message" = "Faceți clic pe butonul \"+\" pentru a adăuga o nouă carte de buget.";
 "no_budget_books_found_button_title" = "Carte nouă de buget";
 "no_budget_books_found_cloud_sync_message" = "Datele existente se încarcă din iCloud. Vă rugăm să așteptați un moment...\n\nAlternativ, faceți clic pe butonul \"+\" pentru a adăuga o nouă carte de buget.";
@@ -1286,21 +1289,25 @@
 
 "no_accounts_title" = "Fără conturi";
 "no_accounts_found_title" = "Nu au fost găsite conturi";
+"no_account_found_title" = "Nu s-a găsit niciun cont";
 "no_accounts_found_message" = "Faceți clic pe butonul \"+\" pentru a adăuga un cont nou.";
 "no_accounts_found_button_title" = "Cont nou";
 "accounts_search_placeholder_message" = "Căutați după numele contului sau tipul contului";
 
 "no_categories_found_title" = "Nu au fost găsite categorii";
+"no_category_found_title" = "Nu s-a găsit nicio categorie";
 "no_categories_found_message" = "Faceți clic pe butonul \"+\" pentru a adăuga o nouă categorie.";
 "no_categories_found_button_title" = "Categorie nouă";
 "categories_search_placeholder_message" = "Căutați după un nume de categorie sau folder";
 
 "no_category_groups_found_title" = "Nu s-au găsit foldere";
+"no_category_group_found_title" = "Nu s-a găsit niciun dosar";
 "no_category_groups_found_message" = "Faceți clic pe butonul \"+\" pentru a adăuga un folder nou.";
 "no_category_groups_found_button_title" = "Folder nou";
 "category_groups_search_placeholder_message" = "Căutați după numele unui folder";
 
 "no_payees_found_title" = "Nu a fost găsit niciun beneficiar";
+"no_payee_found_title" = "Nu s-a găsit niciun beneficiar";
 "no_payees_found_message" = "Faceți clic pe butonul \"+\" pentru a adăuga un nou beneficiar.";
 "no_payees_found_button_title" = "Beneficiar nou";
 "payees_search_placeholder_message" = "Căutați după numele unui beneficiar";
@@ -2057,6 +2064,29 @@
 "open_category_name" = "Deschis";
 "show_category_name" = "Afișați";
 "search_category_name" = "Căutare";
+"create_category_name" = "Creează";
+
+/* Create */
+"create_budget_book_title" = "Creează registru de buget";
+"create_budget_book_description" = "Creează un registru de buget sau returnează un registru existent cu același nume.";
+"create_budget_book_parameter_summary" = "Creează registru de buget cu ${name}";
+"create_budget_book_failed_title" = "Registrul de buget nu a putut fi creat";
+"create_account_title" = "Creează cont";
+"create_account_description" = "Creează un cont sau returnează un cont existent cu același nume.";
+"create_account_parameter_summary" = "Creează cont cu ${name} în ${budgetBook}";
+"create_account_failed_title" = "Contul nu a putut fi creat";
+"create_category_group_title" = "Creează dosar";
+"create_category_group_description" = "Creează un dosar sau returnează un dosar existent cu același nume.";
+"create_category_group_parameter_summary" = "Creează dosar cu ${name} în ${budgetBook}";
+"create_category_group_failed_title" = "Dosarul nu a putut fi creat";
+"create_category_title" = "Creează categorie";
+"create_category_description" = "Creează o categorie sau returnează o categorie existentă cu același nume.";
+"create_category_parameter_summary" = "Creează categorie cu ${name} în ${categoryGroup} din ${budgetBook}";
+"create_category_failed_title" = "Categoria nu a putut fi creată";
+"create_payee_title" = "Creează beneficiar";
+"create_payee_description" = "Creează un beneficiar sau returnează un beneficiar existent cu același nume.";
+"create_payee_parameter_summary" = "Creează beneficiar cu ${name} în ${budgetBook}";
+"create_payee_failed_title" = "Beneficiarul nu a putut fi creat";
 
 /* Search */
 "search_budget_book_title" = "Căutați cartea bugetului";
@@ -2116,6 +2146,29 @@
 "chart_type_current_month_title" = "Luna curentă";
 "chart_type_current_year_title" = "Anul curent";
 
+
+/* Parse */
+"parse_category_name" = "Extrage";
+"parse_notification_transaction_title" = "Extrage info tranzacție";
+"parse_notification_transaction_description" = "Extrage informații despre tranzacție dintr-o notificare.";
+"parse_notification_transaction_parameter_summary" = "Extrage info tranzacție din notificare.";
+
+"notification_title_parameter_title" = "Titlu";
+"notification_title_parameter_description" = "Titlul notificării.";
+"notification_subtitle_parameter_title" = "Subtitlu";
+"notification_subtitle_parameter_description" = "Subtitlul notificării.";
+"notification_body_parameter_title" = "Conținut";
+"notification_body_parameter_description" = "Conținutul notificării.";
+"notification_body_parameter_dialog" = "Care este conținutul notificării?";
+"notification_date_parameter_title" = "Dată";
+"notification_date_parameter_description" = "Data notificării.";
+
+"transaction_info_entity_name" = "Info tranzacție";
+"amount_property_title" = "Sumă";
+"currency_code_property_title" = "Monedă";
+"date_property_title" = "Dată";
+"category_property_title" = "Categorie";
+"payee_property_title" = "Beneficiar";
 
 /* MARK: - Dummy Data */
 "default_budget_book_name" = "Cartea mea de buget";

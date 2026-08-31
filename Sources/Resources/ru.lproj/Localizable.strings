@@ -754,7 +754,7 @@
 "advanced_view_setting_section_title" = "Экран";
 "advanced_sidebar_setting_section_title" = "Боковая панель";
 "advanced_transaction_setting_section_title" = "Операции";
-"advanced_receipt_scanner_setting_section_title" = "Сканер чеков";
+"advanced_apple_intelligence_setting_section_title" = "Apple Intelligence";
 "advanced_input_setting_section_title" = "Ввод";
 "advanced_other_setting_section_title" = "Другое";
 
@@ -797,8 +797,10 @@
 "advanced_setting_consider_pending_items_title" = "Учитывать все операции";
 "advanced_setting_consider_pending_items_description" = "Включить незавершенные операции при расчете остатков на счетах, сальдо, итогов.";
 
-"advanced_setting_use_apple_intelligence_in_receipt_scanner_title" = "Apple Intelligence";
+"advanced_setting_use_apple_intelligence_in_receipt_scanner_title" = "Сканер чеков";
 "advanced_setting_use_apple_intelligence_in_receipt_scanner_description" = "Используйте Apple Intelligence для автоматического заполнения дополнительных полей при сканировании чека.";
+"advanced_setting_use_apple_intelligence_in_shortcuts_title" = "Команды";
+"advanced_setting_use_apple_intelligence_in_shortcuts_description" = "Использовать Apple Intelligence для автоматического распознавания категорий и получателей в автоматизациях команд.";
 
 "advanced_setting_enable_exact_times_title" = "Вводить точное время";
 "advanced_setting_enable_exact_times_description" = "Предлагать выбрать точное время для новых операций (напр., 9:41), вместо округления с шагом в 5 минут.";
@@ -1278,6 +1280,7 @@
 
 /* Messages */
 "no_budget_books_found_title" = "Книги бюджета не найдены";
+"no_budget_book_found_title" = "Бюджетная книга не найдена";
 "no_budget_books_found_message" = "Нажмите кнопку \"+\", чтобы добавить новую книгу бюджета.";
 "no_budget_books_found_button_title" = "Новая книга бюджета";
 "no_budget_books_found_cloud_sync_message" = "Существующие данные загружаются из iCloud. Пожалуйста, подождите...\n\nМожно также нажать кнопку \"+\", чтобы добавить новую книгу бюджета.";
@@ -1286,21 +1289,25 @@
 
 "no_accounts_title" = "Нет счетов";
 "no_accounts_found_title" = "Счета не найдены";
+"no_account_found_title" = "Счёт не найден";
 "no_accounts_found_message" = "Нажмите кнопку \"+\", чтобы добавить новый счет.";
 "no_accounts_found_button_title" = "Новый счет";
 "accounts_search_placeholder_message" = "Поиск по имени или типу счета";
 
 "no_categories_found_title" = "Категории не найдены";
+"no_category_found_title" = "Категория не найдена";
 "no_categories_found_message" = "Нажмите кнопку \"+\", чтобы добавить новую категорию.";
 "no_categories_found_button_title" = "Новая категория";
 "categories_search_placeholder_message" = "Поиск по категории или имени группы";
 
 "no_category_groups_found_title" = "Группы не найдены";
+"no_category_group_found_title" = "Папка не найдена";
 "no_category_groups_found_message" = "Нажмите кнопку \"+\", чтобы добавить новую группу.";
 "no_category_groups_found_button_title" = "Новая группа";
 "category_groups_search_placeholder_message" = "Поиск по имени группы";
 
 "no_payees_found_title" = "Получатели не найдены";
+"no_payee_found_title" = "Получатель не найден";
 "no_payees_found_message" = "Нажмите кнопку \"+\", чтобы добавить нового получателя.";
 "no_payees_found_button_title" = "Новый получатель";
 "payees_search_placeholder_message" = "Поиск по имени получателя";
@@ -2057,6 +2064,29 @@
 "open_category_name" = "Открыть";
 "show_category_name" = "Показать";
 "search_category_name" = "Поиск";
+"create_category_name" = "Создать";
+
+/* Create */
+"create_budget_book_title" = "Создать бюджетную книгу";
+"create_budget_book_description" = "Создаёт бюджетную книгу или возвращает существующую бюджетную книгу с тем же именем.";
+"create_budget_book_parameter_summary" = "Создать бюджетную книгу с ${name}";
+"create_budget_book_failed_title" = "Не удалось создать бюджетную книгу";
+"create_account_title" = "Создать счёт";
+"create_account_description" = "Создаёт счёт или возвращает существующий счёт с тем же именем.";
+"create_account_parameter_summary" = "Создать счёт с ${name} в ${budgetBook}";
+"create_account_failed_title" = "Не удалось создать счёт";
+"create_category_group_title" = "Создать папку";
+"create_category_group_description" = "Создаёт папку или возвращает существующую папку с тем же именем.";
+"create_category_group_parameter_summary" = "Создать папку с ${name} в ${budgetBook}";
+"create_category_group_failed_title" = "Не удалось создать папку";
+"create_category_title" = "Создать категорию";
+"create_category_description" = "Создаёт категорию или возвращает существующую категорию с тем же именем.";
+"create_category_parameter_summary" = "Создать категорию с ${name} в ${categoryGroup} из ${budgetBook}";
+"create_category_failed_title" = "Не удалось создать категорию";
+"create_payee_title" = "Создать получателя";
+"create_payee_description" = "Создаёт получателя или возвращает существующего получателя с тем же именем.";
+"create_payee_parameter_summary" = "Создать получателя с ${name} в ${budgetBook}";
+"create_payee_failed_title" = "Не удалось создать получателя";
 
 /* Search */
 "search_budget_book_title" = "Поиск книги бюджета";
@@ -2116,6 +2146,29 @@
 "chart_type_current_month_title" = "Текущий месяц";
 "chart_type_current_year_title" = "Текущий год";
 
+
+/* Parse */
+"parse_category_name" = "Извлечь";
+"parse_notification_transaction_title" = "Извлечь данные транзакции";
+"parse_notification_transaction_description" = "Извлекает данные транзакции из уведомления.";
+"parse_notification_transaction_parameter_summary" = "Извлечь данные транзакции из уведомления.";
+
+"notification_title_parameter_title" = "Заголовок";
+"notification_title_parameter_description" = "Заголовок уведомления.";
+"notification_subtitle_parameter_title" = "Подзаголовок";
+"notification_subtitle_parameter_description" = "Подзаголовок уведомления.";
+"notification_body_parameter_title" = "Текст";
+"notification_body_parameter_description" = "Текст уведомления.";
+"notification_body_parameter_dialog" = "Какой текст уведомления?";
+"notification_date_parameter_title" = "Дата";
+"notification_date_parameter_description" = "Дата уведомления.";
+
+"transaction_info_entity_name" = "Данные транзакции";
+"amount_property_title" = "Сумма";
+"currency_code_property_title" = "Валюта";
+"date_property_title" = "Дата";
+"category_property_title" = "Категория";
+"payee_property_title" = "Получатель";
 
 /* MARK: - Dummy Data */
 "default_budget_book_name" = "Моя книга бюджета";

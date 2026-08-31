@@ -754,7 +754,7 @@
 "advanced_view_setting_section_title" = "Zobraziť";
 "advanced_sidebar_setting_section_title" = "Bočný panel";
 "advanced_transaction_setting_section_title" = "Transakcie";
-"advanced_receipt_scanner_setting_section_title" = "Skener účteniek";
+"advanced_apple_intelligence_setting_section_title" = "Apple Intelligence";
 "advanced_input_setting_section_title" = "Vstup";
 "advanced_other_setting_section_title" = "Iné";
 
@@ -797,8 +797,10 @@
 "advanced_setting_consider_pending_items_title" = "Zarezervovať všetky transakcie";
 "advanced_setting_consider_pending_items_description" = "Zahrnúť čakajúce transakcie pri výpočte zostatkov na účte, zostatkov, súčtu atď.";
 
-"advanced_setting_use_apple_intelligence_in_receipt_scanner_title" = "Apple Intelligence";
+"advanced_setting_use_apple_intelligence_in_receipt_scanner_title" = "Skener účteniek";
 "advanced_setting_use_apple_intelligence_in_receipt_scanner_description" = "Použite Apple Intelligence na automatické vyplnenie ďalších polí pri skenovaní účtenky.";
+"advanced_setting_use_apple_intelligence_in_shortcuts_title" = "Skratky";
+"advanced_setting_use_apple_intelligence_in_shortcuts_description" = "Použiť Apple Intelligence na automatické rozpoznanie kategórií a príjemcov v automatizáciách skratiek.";
 
 "advanced_setting_enable_exact_times_title" = "Zadajte presné časy";
 "advanced_setting_enable_exact_times_description" = "Vyberte presné časy pomocou minútového číselníka pre transakcie (napr. 9:41).";
@@ -1278,6 +1280,7 @@
 
 /* Messages */
 "no_budget_books_found_title" = "Nenašli sa žiadne rozpočtové knihy";
+"no_budget_book_found_title" = "Nenašla sa žiadna rozpočtová kniha";
 "no_budget_books_found_message" = "Kliknutím na tlačidlo \"+\" pridáte novú rozpočtovú knihu.";
 "no_budget_books_found_button_title" = "Nová rozpočtová kniha";
 "no_budget_books_found_cloud_sync_message" = "Existujúce údaje sa načítavajú z iCloudu. Chvíľu počkajte...\n\nPrípadne môžete kliknutím na tlačidlo \"+\" pridať novú rozpočtovú knihu.";
@@ -1286,21 +1289,25 @@
 
 "no_accounts_title" = "Žiadne účty";
 "no_accounts_found_title" = "Nenašli sa žiadne účty";
+"no_account_found_title" = "Nenašiel sa žiadny účet";
 "no_accounts_found_message" = "Kliknutím na tlačidlo \"+\" pridáte nový účet.";
 "no_accounts_found_button_title" = "Nový účet";
 "accounts_search_placeholder_message" = "Hľadať podľa názvu účtu alebo typu účtu";
 
 "no_categories_found_title" = "Nenašli sa žiadne kategórie";
+"no_category_found_title" = "Nenašla sa žiadna kategória";
 "no_categories_found_message" = "Kliknutím na tlačidlo \"+\" pridáte novú kategóriu.";
 "no_categories_found_button_title" = "Nová kategória";
 "categories_search_placeholder_message" = "Hľadať podľa kategórie alebo názvu priečinka";
 
 "no_category_groups_found_title" = "Nenašli sa žiadne priečinky";
+"no_category_group_found_title" = "Nenašiel sa žiadny priečinok";
 "no_category_groups_found_message" = "Kliknutím na tlačidlo \"+\" pridáte nový priečinok.";
 "no_category_groups_found_button_title" = "Nový priečinok";
 "category_groups_search_placeholder_message" = "Hľadať podľa názvu priečinka";
 
 "no_payees_found_title" = "Nenašli sa žiadni príjemcovia";
+"no_payee_found_title" = "Nenašiel sa žiadny príjemca";
 "no_payees_found_message" = "Kliknutím na tlačidlo \"+\" pridáte nového príjemcu.";
 "no_payees_found_button_title" = "Nový príjemca platby";
 "payees_search_placeholder_message" = "Hľadať podľa mena príjemcu platby";
@@ -2057,6 +2064,29 @@
 "open_category_name" = "Otvoriť";
 "show_category_name" = "Zobraziť";
 "search_category_name" = "Hľadať";
+"create_category_name" = "Vytvoriť";
+
+/* Create */
+"create_budget_book_title" = "Vytvoriť rozpočtovú knihu";
+"create_budget_book_description" = "Vytvorí rozpočtovú knihu alebo vráti existujúcu rozpočtovú knihu s rovnakým názvom.";
+"create_budget_book_parameter_summary" = "Vytvoriť rozpočtovú knihu s ${name}";
+"create_budget_book_failed_title" = "Rozpočtovú knihu sa nepodarilo vytvoriť";
+"create_account_title" = "Vytvoriť účet";
+"create_account_description" = "Vytvorí účet alebo vráti existujúci účet s rovnakým názvom.";
+"create_account_parameter_summary" = "Vytvoriť účet s ${name} v ${budgetBook}";
+"create_account_failed_title" = "Účet sa nepodarilo vytvoriť";
+"create_category_group_title" = "Vytvoriť priečinok";
+"create_category_group_description" = "Vytvorí priečinok alebo vráti existujúci priečinok s rovnakým názvom.";
+"create_category_group_parameter_summary" = "Vytvoriť priečinok s ${name} v ${budgetBook}";
+"create_category_group_failed_title" = "Priečinok sa nepodarilo vytvoriť";
+"create_category_title" = "Vytvoriť kategóriu";
+"create_category_description" = "Vytvorí kategóriu alebo vráti existujúcu kategóriu s rovnakým názvom.";
+"create_category_parameter_summary" = "Vytvoriť kategóriu s ${name} v ${categoryGroup} z ${budgetBook}";
+"create_category_failed_title" = "Kategóriu sa nepodarilo vytvoriť";
+"create_payee_title" = "Vytvoriť príjemcu";
+"create_payee_description" = "Vytvorí príjemcu alebo vráti existujúceho príjemcu s rovnakým názvom.";
+"create_payee_parameter_summary" = "Vytvoriť príjemcu s ${name} v ${budgetBook}";
+"create_payee_failed_title" = "Príjemcu sa nepodarilo vytvoriť";
 
 /* Search */
 "search_budget_book_title" = "Vyhľadať knihu rozpočtu";
@@ -2116,6 +2146,29 @@
 "chart_type_current_month_title" = "Aktuálny mesiac";
 "chart_type_current_year_title" = "Aktuálny rok";
 
+
+/* Parse */
+"parse_category_name" = "Extrahovať";
+"parse_notification_transaction_title" = "Extrahovať informácie o transakcii";
+"parse_notification_transaction_description" = "Extrahuje informácie o transakcii z oznámenia.";
+"parse_notification_transaction_parameter_summary" = "Extrahovať informácie o transakcii z oznámenia.";
+
+"notification_title_parameter_title" = "Názov";
+"notification_title_parameter_description" = "Názov oznámenia.";
+"notification_subtitle_parameter_title" = "Podnadpis";
+"notification_subtitle_parameter_description" = "Podnadpis oznámenia.";
+"notification_body_parameter_title" = "Text";
+"notification_body_parameter_description" = "Text oznámenia.";
+"notification_body_parameter_dialog" = "Aký je text oznámenia?";
+"notification_date_parameter_title" = "Dátum";
+"notification_date_parameter_description" = "Dátum oznámenia.";
+
+"transaction_info_entity_name" = "Informácie o transakcii";
+"amount_property_title" = "Suma";
+"currency_code_property_title" = "Mena";
+"date_property_title" = "Dátum";
+"category_property_title" = "Kategória";
+"payee_property_title" = "Príjemca";
 
 /* MARK: - Dummy Data */
 "default_budget_book_name" = "Moja kniha rozpočtu";

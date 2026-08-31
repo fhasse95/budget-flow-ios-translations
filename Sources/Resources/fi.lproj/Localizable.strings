@@ -754,7 +754,7 @@
 "advanced_view_setting_section_title" = "Näyttö";
 "advanced_sidebar_setting_section_title" = "Sivupalkki";
 "advanced_transaction_setting_section_title" = "Tapahtumat";
-"advanced_receipt_scanner_setting_section_title" = "Kuittiskanneri";
+"advanced_apple_intelligence_setting_section_title" = "Apple Intelligence";
 "advanced_input_setting_section_title" = "Syöte";
 "advanced_other_setting_section_title" = "Muu";
 
@@ -797,8 +797,10 @@
 "advanced_setting_consider_pending_items_title" = "Varaa kaikki tapahtumat";
 "advanced_setting_consider_pending_items_description" = "Sisällytä odottavat tapahtumat laskettaessa tilisaldot, saldot, loppusummat jne.";
 
-"advanced_setting_use_apple_intelligence_in_receipt_scanner_title" = "Apple Intelligence";
+"advanced_setting_use_apple_intelligence_in_receipt_scanner_title" = "Kuittiskanneri";
 "advanced_setting_use_apple_intelligence_in_receipt_scanner_description" = "Käytä Apple Intelligencea täyttääksesi automaattisesti lisäkenttiä kuitin skannauksen yhteydessä.";
+"advanced_setting_use_apple_intelligence_in_shortcuts_title" = "Oikotiet";
+"advanced_setting_use_apple_intelligence_in_shortcuts_description" = "Käytä Apple Intelligenceä kategorioiden ja maksunsaajien automaattiseen tunnistamiseen oikotieautomaatioissa.";
 
 "advanced_setting_enable_exact_times_title" = "Anna tarkat ajat";
 "advanced_setting_enable_exact_times_description" = "Valitse tarkat ajat tapahtumien minuuttipyörän avulla (esim. 9:41).";
@@ -1278,6 +1280,7 @@
 
 /* Messages */
 "no_budget_books_found_title" = "Budjettikirjoja ei löytynyt";
+"no_budget_book_found_title" = "Budjettikirjaa ei löytynyt";
 "no_budget_books_found_message" = "Lisää uusi budjettikirja napsauttamalla \"+\" -painiketta.";
 "no_budget_books_found_button_title" = "Uusi budjettikirja";
 "no_budget_books_found_cloud_sync_message" = "Olemassa olevaa dataa ladataan iCloudista. Odota hetki...\n\nVaihtoehtoisesti napsauta \"+\" -painiketta lisätäksesi uuden budjettikirjan.";
@@ -1286,21 +1289,25 @@
 
 "no_accounts_title" = "Ei tilejä";
 "no_accounts_found_title" = "Tilejä ei löytynyt";
+"no_account_found_title" = "Tiliä ei löytynyt";
 "no_accounts_found_message" = "Lisää uusi tili napsauttamalla \"+\" -painiketta.";
 "no_accounts_found_button_title" = "Uusi tili";
 "accounts_search_placeholder_message" = "Hae tilin nimen tai tilin tyypin mukaan";
 
 "no_categories_found_title" = "Luokkia ei löytynyt";
+"no_category_found_title" = "Kategoriaa ei löytynyt";
 "no_categories_found_message" = "Lisää uusi luokka napsauttamalla \"+\" -painiketta.";
 "no_categories_found_button_title" = "Uusi luokka";
 "categories_search_placeholder_message" = "Hae luokan tai kansion nimen perusteella";
 
 "no_category_groups_found_title" = "Kansioita ei löytynyt";
+"no_category_group_found_title" = "Kansiota ei löytynyt";
 "no_category_groups_found_message" = "Lisää uusi kansio napsauttamalla \"+\" -painiketta.";
 "no_category_groups_found_button_title" = "Uusi kansio";
 "category_groups_search_placeholder_message" = "Hae kansion nimellä";
 
 "no_payees_found_title" = "Maksunsaajia ei löytynyt";
+"no_payee_found_title" = "Maksunsaajaa ei löytynyt";
 "no_payees_found_message" = "Lisää uusi maksunsaaja napsauttamalla \"+\" -painiketta.";
 "no_payees_found_button_title" = "Uusi maksunsaaja";
 "payees_search_placeholder_message" = "Hae maksunsaajan nimellä";
@@ -2057,6 +2064,29 @@
 "open_category_name" = "Avaa";
 "show_category_name" = "Näytä";
 "search_category_name" = "Hae";
+"create_category_name" = "Luo";
+
+/* Create */
+"create_budget_book_title" = "Luo budjettikirja";
+"create_budget_book_description" = "Luo budjettikirjan tai palauttaa samannimisen olemassa olevan budjettikirjan.";
+"create_budget_book_parameter_summary" = "Luo budjettikirja nimellä ${name}";
+"create_budget_book_failed_title" = "Budjettikirjaa ei voitu luoda";
+"create_account_title" = "Luo tili";
+"create_account_description" = "Luo tilin tai palauttaa samannimisen olemassa olevan tilin.";
+"create_account_parameter_summary" = "Luo tili nimellä ${name} kohteessa ${budgetBook}";
+"create_account_failed_title" = "Tiliä ei voitu luoda";
+"create_category_group_title" = "Luo kansio";
+"create_category_group_description" = "Luo kansion tai palauttaa samannimisen olemassa olevan kansion.";
+"create_category_group_parameter_summary" = "Luo kansio nimellä ${name} kohteessa ${budgetBook}";
+"create_category_group_failed_title" = "Kansiota ei voitu luoda";
+"create_category_title" = "Luo kategoria";
+"create_category_description" = "Luo kategorian tai palauttaa samannimisen olemassa olevan kategorian.";
+"create_category_parameter_summary" = "Luo kategoria nimellä ${name} kansiossa ${categoryGroup} kohteessa ${budgetBook}";
+"create_category_failed_title" = "Kategoriaa ei voitu luoda";
+"create_payee_title" = "Luo maksunsaaja";
+"create_payee_description" = "Luo maksunsaajan tai palauttaa samannimisen olemassa olevan maksunsaajan.";
+"create_payee_parameter_summary" = "Luo maksunsaaja nimellä ${name} kohteessa ${budgetBook}";
+"create_payee_failed_title" = "Maksunsaajaa ei voitu luoda";
 
 /* Search */
 "search_budget_book_title" = "Hae budjettikirjasta";
@@ -2116,6 +2146,29 @@
 "chart_type_current_month_title" = "Nykyinen kuukausi";
 "chart_type_current_year_title" = "Nykyinen vuosi";
 
+
+/* Parse */
+"parse_category_name" = "Poimi";
+"parse_notification_transaction_title" = "Poimi tapahtumatiedot";
+"parse_notification_transaction_description" = "Poimii tapahtumatiedot ilmoituksesta.";
+"parse_notification_transaction_parameter_summary" = "Poimi tapahtumatiedot ilmoituksesta.";
+
+"notification_title_parameter_title" = "Otsikko";
+"notification_title_parameter_description" = "Ilmoituksen otsikko.";
+"notification_subtitle_parameter_title" = "Alaotsikko";
+"notification_subtitle_parameter_description" = "Ilmoituksen alaotsikko.";
+"notification_body_parameter_title" = "Teksti";
+"notification_body_parameter_description" = "Ilmoituksen teksti.";
+"notification_body_parameter_dialog" = "Mikä on ilmoituksen teksti?";
+"notification_date_parameter_title" = "Päiväys";
+"notification_date_parameter_description" = "Ilmoituksen päiväys.";
+
+"transaction_info_entity_name" = "Tapahtumatiedot";
+"amount_property_title" = "Summa";
+"currency_code_property_title" = "Valuutta";
+"date_property_title" = "Päiväys";
+"category_property_title" = "Kategoria";
+"payee_property_title" = "Maksunsaaja";
 
 /* MARK: - Dummy Data */
 "default_budget_book_name" = "Oma budjettikirja";

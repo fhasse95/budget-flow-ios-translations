@@ -2,43 +2,38 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>3.2.0</key>
-	<dict>
-		<key>Summary</key>
-		<string>Deze release verbetert het scannen van bonnetjes, voegt meer symbolen toe en optimaliseert de Noorse vertaling.</string>
-		<key>Items</key>
-		<array>
+	<key>3.3.0</key>
+	<array>
 		<dict>
 			<key>Title</key>
-			<string>Verbeterde bonnenscanner</string>
+			<string>Verbeterde opdrachten</string>
 			<key>Description</key>
-			<string>De ingebouwde bonnenscanner herkent nu ook de begunstigde op basis van je eerdere invoer.</string>
+			<string>Nieuwe en verbeterde opdrachten maken het eenvoudiger dan ooit om Budget Flow te automatiseren, inclusief het automatisch toevoegen van transacties uit meldingen van bank-apps op iOS en iPadOS 27.</string>
 			<key>IconName</key>
-			<string>receipt.viewfinder</string>
+			<string>app.badge</string>
 			<key>IconColor</key>
 			<string>#ff8d28</string>
 		</dict>
 		<dict>
 			<key>Title</key>
-			<string>Extra symbolen</string>
+			<string>Automatische categorisering</string>
 			<key>Description</key>
-			<string>Er zijn meer symbolen toegevoegd waarmee je de app helemaal naar wens kunt personaliseren.</string>
+			<string>Op ondersteunde apparaten kan Budget Flow nu Apple Intelligence gebruiken om de categorie en begunstigde te bepalen wanneer transacties automatisch met opdrachten worden aangemaakt.</string>
 			<key>IconName</key>
-			<string>paintpalette</string>
+			<string>square.2.layers.3d.top.filled</string>
 			<key>IconColor</key>
 			<string>#ff375f</string>
 		</dict>
 		<dict>
 			<key>Title</key>
-			<string>Verbeterde vertaling</string>
+			<string>Ondersteuning voor iOS, iPadOS en macOS 27</string>
 			<key>Description</key>
-			<string>De Noorse vertaling van de app is geoptimaliseerd, zodat deze nu nog beter te begrijpen is.</string>
+			<string>Ontwerpverfijningen en compatibiliteitsupdates houden Budget Flow soepel draaiend op de nieuwste Apple-besturingssystemen.</string>
 			<key>IconName</key>
-			<string>globe</string>
+			<string>macbook.and.iphone</string>
 			<key>IconColor</key>
 			<string>#0088ff</string>
 		</dict>
-		</array>
-	</dict>
+	</array>
 </dict>
 </plist>

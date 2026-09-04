@@ -639,7 +639,7 @@
 /* MARK: - Sync & Data Settings View */
 /* Info */
 "sync_and_data_setting_info_title" = "설명";
-"sync_and_data_setting_info_description" = "현재 동기화 상태를 확인하고, CSV 파일을 사용하여 데이터를 가져오거나 내보냅니다.";
+"sync_and_data_setting_info_description" = "동기화 상태를 확인하고, 백업을 관리하거나, CSV 파일을 사용하여 데이터를 가져오고 내보냅니다.";
 
 /* Sections */
 "sync_and_data_cloud_setting_section_title" = "iCloud";
@@ -713,6 +713,13 @@
 /* Sections */
 "backup_setting_general_section_title" = "일반";
 "backup_setting_recent_section_title" = "최근 백업";
+"backup_setting_restore_external_backup_title" = "외부 백업 복원";
+"backup_service_error_icloud_drive_unavailable" = "iCloud Drive를 사용할 수 없습니다.";
+"backup_service_error_unsupported_version" = "이 백업은 지원되지 않는 백업 버전을 사용합니다: %d.";
+"backup_service_error_missing_binary_file" = "이 백업에 필요한 파일이 없습니다: %@.";
+"backup_service_error_could_not_create_backup_directory" = "백업 폴더를 만들 수 없습니다.";
+"backup_service_error_could_not_create_backup_archive" = "백업 아카이브를 만들 수 없습니다.";
+"backup_service_error_invalid_backup_archive" = "선택한 파일은 유효한 백업이 아닙니다.";
 
 /* Titles */
 "backup_setting_use_automatic_backups_title" = "자동 백업";

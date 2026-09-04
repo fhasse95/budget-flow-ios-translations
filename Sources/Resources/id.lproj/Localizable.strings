@@ -639,7 +639,7 @@
 /* MARK: - Sync & Data Settings View */
 /* Info */
 "sync_and_data_setting_info_title" = "Deskripsi";
-"sync_and_data_setting_info_description" = "Dapatkan ringkasan status sinkronisasi saat ini dan impor atau ekspor data menggunakan file CSV.";
+"sync_and_data_setting_info_description" = "Dapatkan ringkasan status sinkronisasi, kelola cadangan Anda, atau impor dan ekspor data Anda menggunakan file CSV.";
 
 /* Sections */
 "sync_and_data_cloud_setting_section_title" = "iCloud";
@@ -713,6 +713,13 @@
 /* Sections */
 "backup_setting_general_section_title" = "Umum";
 "backup_setting_recent_section_title" = "Cadangan Terbaru";
+"backup_setting_restore_external_backup_title" = "Pulihkan cadangan eksternal";
+"backup_service_error_icloud_drive_unavailable" = "iCloud Drive tidak tersedia.";
+"backup_service_error_unsupported_version" = "Cadangan ini menggunakan versi yang tidak didukung: %d.";
+"backup_service_error_missing_binary_file" = "Cadangan ini kehilangan file yang diperlukan: %@.";
+"backup_service_error_could_not_create_backup_directory" = "Folder cadangan tidak dapat dibuat.";
+"backup_service_error_could_not_create_backup_archive" = "Arsip cadangan tidak dapat dibuat.";
+"backup_service_error_invalid_backup_archive" = "File yang dipilih bukan cadangan yang valid.";
 
 /* Titles */
 "backup_setting_use_automatic_backups_title" = "Pencadangan Otomatis";

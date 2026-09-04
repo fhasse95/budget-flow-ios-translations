@@ -639,7 +639,7 @@
 /* MARK: - Sync & Data Settings View */
 /* Info */
 "sync_and_data_setting_info_title" = "Beskrivelse";
-"sync_and_data_setting_info_description" = "Få en oversikt over gjeldende synkroniseringsstatus og importer eller eksporter data ved hjelp av en CSV-fil.";
+"sync_and_data_setting_info_description" = "Få en oversikt over synkroniseringsstatusen, administrer sikkerhetskopiene dine eller importer og eksporter dataene dine ved hjelp av en CSV-fil.";
 
 /* Sections */
 "sync_and_data_cloud_setting_section_title" = "iCloud";
@@ -713,6 +713,13 @@
 /* Sections */
 "backup_setting_general_section_title" = "Generelt";
 "backup_setting_recent_section_title" = "Nylige sikkerhetskopier";
+"backup_setting_restore_external_backup_title" = "Gjenopprett ekstern sikkerhetskopi";
+"backup_service_error_icloud_drive_unavailable" = "iCloud Drive er ikke tilgjengelig.";
+"backup_service_error_unsupported_version" = "Denne sikkerhetskopien bruker en versjon som ikke støttes: %d.";
+"backup_service_error_missing_binary_file" = "Denne sikkerhetskopien mangler en påkrevd fil: %@.";
+"backup_service_error_could_not_create_backup_directory" = "Sikkerhetskopimappen kunne ikke opprettes.";
+"backup_service_error_could_not_create_backup_archive" = "Sikkerhetskopiarkivet kunne ikke opprettes.";
+"backup_service_error_invalid_backup_archive" = "Den valgte filen er ikke en gyldig sikkerhetskopi.";
 
 /* Titles */
 "backup_setting_use_automatic_backups_title" = "Automatisk sikkerhetskopiering";

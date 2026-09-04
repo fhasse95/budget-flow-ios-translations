@@ -639,7 +639,7 @@
 /* MARK: - Sync & Data Settings View */
 /* Info */
 "sync_and_data_setting_info_title" = "描述";
-"sync_and_data_setting_info_description" = "取得目前同步狀態的概覽，並使用 CSV 檔案匯入或匯出資料";
+"sync_and_data_setting_info_description" = "查看同步狀態概覽、管理備份，或使用 CSV 檔案匯入和匯出資料";
 
 /* Sections */
 "sync_and_data_cloud_setting_section_title" = "iCloud";
@@ -713,6 +713,13 @@
 /* Sections */
 "backup_setting_general_section_title" = "通用";
 "backup_setting_recent_section_title" = "最近備份";
+"backup_setting_restore_external_backup_title" = "復原外部備份";
+"backup_service_error_icloud_drive_unavailable" = "iCloud Drive 無法使用。";
+"backup_service_error_unsupported_version" = "此備份使用不支援的版本：%d。";
+"backup_service_error_missing_binary_file" = "此備份缺少必要檔案：%@。";
+"backup_service_error_could_not_create_backup_directory" = "無法建立備份資料夾。";
+"backup_service_error_could_not_create_backup_archive" = "無法建立備份封存檔。";
+"backup_service_error_invalid_backup_archive" = "所選檔案不是有效的備份。";
 
 /* Titles */
 "backup_setting_use_automatic_backups_title" = "自動備份";

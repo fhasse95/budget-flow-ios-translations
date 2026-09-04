@@ -639,7 +639,7 @@
 /* MARK: - Sync & Data Settings View */
 /* Info */
 "sync_and_data_setting_info_title" = "Opis";
-"sync_and_data_setting_info_description" = "Pridobite pregled trenutnega stanja sinhronizacije in uvozite ali izvozite podatke z uporabo CSV datoteke.";
+"sync_and_data_setting_info_description" = "Pridobite pregled stanja sinhronizacije, upravljajte varnostne kopije ali uvozite in izvozite svoje podatke z uporabo datoteke CSV.";
 
 /* Sections */
 "sync_and_data_cloud_setting_section_title" = "iCloud";
@@ -713,6 +713,13 @@
 /* Sections */
 "backup_setting_general_section_title" = "Splošno";
 "backup_setting_recent_section_title" = "Nedavne varnostne kopije";
+"backup_setting_restore_external_backup_title" = "Obnovi zunanjo varnostno kopijo";
+"backup_service_error_icloud_drive_unavailable" = "iCloud Drive ni na voljo.";
+"backup_service_error_unsupported_version" = "Ta varnostna kopija uporablja nepodprto različico: %d.";
+"backup_service_error_missing_binary_file" = "V tej varnostni kopiji manjka zahtevana datoteka: %@.";
+"backup_service_error_could_not_create_backup_directory" = "Mape varnostnih kopij ni bilo mogoče ustvariti.";
+"backup_service_error_could_not_create_backup_archive" = "Arhiva varnostne kopije ni bilo mogoče ustvariti.";
+"backup_service_error_invalid_backup_archive" = "Izbrana datoteka ni veljavna varnostna kopija.";
 
 /* Titles */
 "backup_setting_use_automatic_backups_title" = "Samodejna varnostna kopija";

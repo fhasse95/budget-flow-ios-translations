@@ -639,7 +639,7 @@
 /* MARK: - Sync & Data Settings View */
 /* Info */
 "sync_and_data_setting_info_title" = "Mô tả";
-"sync_and_data_setting_info_description" = "Tổng quan về trạng thái đồng bộ hoặc nhập xuất dữ liệu";
+"sync_and_data_setting_info_description" = "Xem tổng quan trạng thái đồng bộ, quản lý bản sao lưu hoặc nhập và xuất dữ liệu bằng tệp CSV.";
 
 /* Sections */
 "sync_and_data_cloud_setting_section_title" = "iCloud";
@@ -713,6 +713,13 @@
 /* Sections */
 "backup_setting_general_section_title" = "Tổng quan";
 "backup_setting_recent_section_title" = "Sao lưu gần đây";
+"backup_setting_restore_external_backup_title" = "Khôi phục sao lưu ngoài";
+"backup_service_error_icloud_drive_unavailable" = "iCloud Drive không khả dụng.";
+"backup_service_error_unsupported_version" = "Bản sao lưu này dùng phiên bản không được hỗ trợ: %d.";
+"backup_service_error_missing_binary_file" = "Bản sao lưu này thiếu tệp bắt buộc: %@.";
+"backup_service_error_could_not_create_backup_directory" = "Không thể tạo thư mục sao lưu.";
+"backup_service_error_could_not_create_backup_archive" = "Không thể tạo tệp sao lưu.";
+"backup_service_error_invalid_backup_archive" = "Tệp đã chọn không phải là bản sao lưu hợp lệ.";
 
 /* Titles */
 "backup_setting_use_automatic_backups_title" = "Tự động sao lưu";

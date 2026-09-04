@@ -639,7 +639,7 @@
 /* MARK: - Sync & Data Settings View */
 /* Info */
 "sync_and_data_setting_info_title" = "Περιγραφή";
-"sync_and_data_setting_info_description" = "Λάβετε μια επισκόπηση της τρέχουσας κατάστασης συγχρονισμού και εισάγετε ή εξάγετε δεδομένα χρησιμοποιώντας ένα αρχείο CSV.";
+"sync_and_data_setting_info_description" = "Λάβετε μια επισκόπηση της κατάστασης συγχρονισμού, διαχειριστείτε τα αντίγραφα ασφαλείας σας ή εισαγάγετε και εξαγάγετε τα δεδομένα σας χρησιμοποιώντας ένα αρχείο CSV.";
 
 /* Sections */
 "sync_and_data_cloud_setting_section_title" = "iCloud";
@@ -713,6 +713,13 @@
 /* Sections */
 "backup_setting_general_section_title" = "Γενικά";
 "backup_setting_recent_section_title" = "Πρόσφατα αντίγραφα ασφαλείας";
+"backup_setting_restore_external_backup_title" = "Επαναφορά εξωτερικού αντιγράφου";
+"backup_service_error_icloud_drive_unavailable" = "Το iCloud Drive δεν είναι διαθέσιμο.";
+"backup_service_error_unsupported_version" = "Αυτό το αντίγραφο χρησιμοποιεί μη υποστηριζόμενη έκδοση: %d.";
+"backup_service_error_missing_binary_file" = "Λείπει ένα απαιτούμενο αρχείο από αυτό το αντίγραφο: %@.";
+"backup_service_error_could_not_create_backup_directory" = "Δεν ήταν δυνατή η δημιουργία του φακέλου αντιγράφων.";
+"backup_service_error_could_not_create_backup_archive" = "Δεν ήταν δυνατή η δημιουργία του αρχείου αντιγράφου.";
+"backup_service_error_invalid_backup_archive" = "Το επιλεγμένο αρχείο δεν είναι έγκυρο αντίγραφο ασφαλείας.";
 
 /* Titles */
 "backup_setting_use_automatic_backups_title" = "Αυτόματη δημιουργία αντιγράφων ασφαλείας";

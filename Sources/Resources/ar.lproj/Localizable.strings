@@ -639,7 +639,7 @@
 /* MARK: - Sync & Data Settings View */
 /* Info */
 "sync_and_data_setting_info_title" = "الوصف";
-"sync_and_data_setting_info_description" = "احصل على نظرة عامة على حالة المزامنة الحالية وقم باستيراد أو تصدير البيانات باستخدام ملف CSV.";
+"sync_and_data_setting_info_description" = "احصل على نظرة عامة على حالة المزامنة، وأدر النسخ الاحتياطية، أو استورد وصدّر بياناتك باستخدام ملف CSV.";
 
 /* Sections */
 "sync_and_data_cloud_setting_section_title" = "iCloud";
@@ -713,6 +713,13 @@
 /* Sections */
 "backup_setting_general_section_title" = "عام";
 "backup_setting_recent_section_title" = "النسخ الاحتياطية الأخيرة";
+"backup_setting_restore_external_backup_title" = "استعادة نسخة احتياطية خارجية";
+"backup_service_error_icloud_drive_unavailable" = "iCloud Drive غير متاح.";
+"backup_service_error_unsupported_version" = "تستخدم هذه النسخة الاحتياطية إصدارًا غير مدعوم: %d.";
+"backup_service_error_missing_binary_file" = "تفتقد هذه النسخة الاحتياطية ملفًا مطلوبًا: %@.";
+"backup_service_error_could_not_create_backup_directory" = "تعذر إنشاء مجلد النسخ الاحتياطية.";
+"backup_service_error_could_not_create_backup_archive" = "تعذر إنشاء أرشيف النسخة الاحتياطية.";
+"backup_service_error_invalid_backup_archive" = "الملف المحدد ليس نسخة احتياطية صالحة.";
 
 /* Titles */
 "backup_setting_use_automatic_backups_title" = "النسخ الاحتياطي التلقائي";

@@ -639,7 +639,7 @@
 /* MARK: - Sync & Data Settings View */
 /* Info */
 "sync_and_data_setting_info_title" = "Leírás";
-"sync_and_data_setting_info_description" = "Áttekintést kaphat az aktuális szinkronizálási állapotról, és importálhat vagy exportálhat adatokat egy CSV-fájl segítségével.";
+"sync_and_data_setting_info_description" = "Áttekintést kaphat a szinkronizálási állapotról, kezelheti a biztonsági mentéseit, vagy importálhatja és exportálhatja adatait egy CSV-fájl segítségével.";
 
 /* Sections */
 "sync_and_data_cloud_setting_section_title" = "iCloud";
@@ -713,6 +713,13 @@
 /* Sections */
 "backup_setting_general_section_title" = "Általános";
 "backup_setting_recent_section_title" = "Legutóbbi biztonsági másolatok";
+"backup_setting_restore_external_backup_title" = "Külső mentés visszaállítása";
+"backup_service_error_icloud_drive_unavailable" = "Az iCloud Drive nem érhető el.";
+"backup_service_error_unsupported_version" = "Ez a biztonsági mentés nem támogatott verziót használ: %d.";
+"backup_service_error_missing_binary_file" = "Ebből a biztonsági mentésből hiányzik egy szükséges fájl: %@.";
+"backup_service_error_could_not_create_backup_directory" = "A biztonsági mentések mappája nem hozható létre.";
+"backup_service_error_could_not_create_backup_archive" = "A biztonsági mentés archívuma nem hozható létre.";
+"backup_service_error_invalid_backup_archive" = "A kiválasztott fájl nem érvényes biztonsági mentés.";
 
 /* Titles */
 "backup_setting_use_automatic_backups_title" = "Automatikus biztonsági mentés";

@@ -639,7 +639,7 @@
 /* MARK: - Sync & Data Settings View */
 /* Info */
 "sync_and_data_setting_info_title" = "Descripció";
-"sync_and_data_setting_info_description" = "Obtingueu una visió general de l'estat actual de la sincronització i importeu o exporteu dades mitjançant un fitxer CSV.";
+"sync_and_data_setting_info_description" = "Obtingueu una visió general de l'estat de sincronització, gestioneu les còpies de seguretat o importeu i exporteu les vostres dades mitjançant un fitxer CSV.";
 
 /* Sections */
 "sync_and_data_cloud_setting_section_title" = "iCloud";
@@ -713,6 +713,13 @@
 /* Sections */
 "backup_setting_general_section_title" = "Opcions generals";
 "backup_setting_recent_section_title" = "Backups recents";
+"backup_setting_restore_external_backup_title" = "Restaura backup extern";
+"backup_service_error_icloud_drive_unavailable" = "iCloud Drive no està disponible.";
+"backup_service_error_unsupported_version" = "Aquest backup utilitza una versió no compatible: %d.";
+"backup_service_error_missing_binary_file" = "A aquest backup li falta un fitxer necessari: %@.";
+"backup_service_error_could_not_create_backup_directory" = "No s’ha pogut crear la carpeta del backup.";
+"backup_service_error_could_not_create_backup_archive" = "No s’ha pogut crear l’arxiu del backup.";
+"backup_service_error_invalid_backup_archive" = "El fitxer seleccionat no és un backup vàlid.";
 
 /* Titles */
 "backup_setting_use_automatic_backups_title" = "Backup automàtic";

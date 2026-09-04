@@ -639,7 +639,7 @@
 /* MARK: - Sync & Data Settings View */
 /* Info */
 "sync_and_data_setting_info_title" = "Popis";
-"sync_and_data_setting_info_description" = "Získajte prehľad o aktuálnom stave synchronizácie a importujte alebo exportujte dáta pomocou súboru CSV.";
+"sync_and_data_setting_info_description" = "Získajte prehľad o stave synchronizácie, spravujte svoje zálohy alebo importujte a exportujte svoje dáta pomocou súboru CSV.";
 
 /* Sections */
 "sync_and_data_cloud_setting_section_title" = "iCloud";
@@ -713,6 +713,13 @@
 /* Sections */
 "backup_setting_general_section_title" = "Všeobecné";
 "backup_setting_recent_section_title" = "Posledné zálohy";
+"backup_setting_restore_external_backup_title" = "Obnoviť externú zálohu";
+"backup_service_error_icloud_drive_unavailable" = "iCloud Drive nie je k dispozícii.";
+"backup_service_error_unsupported_version" = "Táto záloha používa nepodporovanú verziu: %d.";
+"backup_service_error_missing_binary_file" = "V tejto zálohe chýba požadovaný súbor: %@.";
+"backup_service_error_could_not_create_backup_directory" = "Priečinok záloh sa nepodarilo vytvoriť.";
+"backup_service_error_could_not_create_backup_archive" = "Archív zálohy sa nepodarilo vytvoriť.";
+"backup_service_error_invalid_backup_archive" = "Vybraný súbor nie je platná záloha.";
 
 /* Titles */
 "backup_setting_use_automatic_backups_title" = "Automatické zálohovanie";

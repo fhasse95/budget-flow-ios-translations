@@ -639,7 +639,7 @@
 /* MARK: - Sync & Data Settings View */
 /* Info */
 "sync_and_data_setting_info_title" = "Description";
-"sync_and_data_setting_info_description" = "Get an overview of the current synchronization status and import or export data using a CSV file.";
+"sync_and_data_setting_info_description" = "Get an overview of the synchronization status, manage your backups, or import and export your data using a CSV file.";
 
 /* Sections */
 "sync_and_data_cloud_setting_section_title" = "iCloud";
@@ -713,6 +713,13 @@
 /* Sections */
 "backup_setting_general_section_title" = "General";
 "backup_setting_recent_section_title" = "Recent Backups";
+"backup_setting_restore_external_backup_title" = "Restore external backup";
+"backup_service_error_icloud_drive_unavailable" = "iCloud Drive is unavailable.";
+"backup_service_error_unsupported_version" = "This backup uses an unsupported backup version: %d.";
+"backup_service_error_missing_binary_file" = "This backup is missing a required file: %@.";
+"backup_service_error_could_not_create_backup_directory" = "The backup folder could not be created.";
+"backup_service_error_could_not_create_backup_archive" = "The backup archive could not be created.";
+"backup_service_error_invalid_backup_archive" = "The selected file is not a valid backup.";
 
 /* Titles */
 "backup_setting_use_automatic_backups_title" = "Automatic Backup";

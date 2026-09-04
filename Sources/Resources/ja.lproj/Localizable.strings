@@ -639,7 +639,7 @@
 /* MARK: - Sync & Data Settings View */
 /* Info */
 "sync_and_data_setting_info_title" = "説明";
-"sync_and_data_setting_info_description" = "現在の同期ステータスの概要を取得し、CSV ファイルを使用してデータをインポートまたはエクスポートします。";
+"sync_and_data_setting_info_description" = "同期ステータスの概要を確認し、バックアップを管理するか、CSV ファイルを使用してデータをインポートおよびエクスポートします。";
 
 /* Sections */
 "sync_and_data_cloud_setting_section_title" = "iCloud";
@@ -713,6 +713,13 @@
 /* Sections */
 "backup_setting_general_section_title" = "全般";
 "backup_setting_recent_section_title" = "最近のバックアップ";
+"backup_setting_restore_external_backup_title" = "外部バックアップを復元";
+"backup_service_error_icloud_drive_unavailable" = "iCloud Driveを利用できません。";
+"backup_service_error_unsupported_version" = "このバックアップはサポートされていないバージョンを使用しています: %d。";
+"backup_service_error_missing_binary_file" = "このバックアップに必要なファイルがありません: %@。";
+"backup_service_error_could_not_create_backup_directory" = "バックアップフォルダを作成できませんでした。";
+"backup_service_error_could_not_create_backup_archive" = "バックアップアーカイブを作成できませんでした。";
+"backup_service_error_invalid_backup_archive" = "選択したファイルは有効なバックアップではありません。";
 
 /* Titles */
 "backup_setting_use_automatic_backups_title" = "自動バックアップ";

@@ -639,7 +639,7 @@
 /* MARK: - Sync & Data Settings View */
 /* Info */
 "sync_and_data_setting_info_title" = "Опис";
-"sync_and_data_setting_info_description" = "Отримати огляд поточного статусу синхронізації та імпортувати або експортувати дані за допомогою файлу CSV.";
+"sync_and_data_setting_info_description" = "Отримайте огляд стану синхронізації, керуйте резервними копіями або імпортуйте й експортуйте дані за допомогою файлу CSV.";
 
 /* Sections */
 "sync_and_data_cloud_setting_section_title" = "iCloud";
@@ -713,6 +713,13 @@
 /* Sections */
 "backup_setting_general_section_title" = "Загальні";
 "backup_setting_recent_section_title" = "Останні резервні копії";
+"backup_setting_restore_external_backup_title" = "Відновити зовнішню копію";
+"backup_service_error_icloud_drive_unavailable" = "iCloud Drive недоступний.";
+"backup_service_error_unsupported_version" = "Ця резервна копія використовує непідтримувану версію: %d.";
+"backup_service_error_missing_binary_file" = "У цій резервній копії бракує потрібного файлу: %@.";
+"backup_service_error_could_not_create_backup_directory" = "Не вдалося створити папку резервних копій.";
+"backup_service_error_could_not_create_backup_archive" = "Не вдалося створити архів резервної копії.";
+"backup_service_error_invalid_backup_archive" = "Вибраний файл не є дійсною резервною копією.";
 
 /* Titles */
 "backup_setting_use_automatic_backups_title" = "Автоматичне резервне копіювання";

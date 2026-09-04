@@ -639,7 +639,7 @@
 /* MARK: - Sync & Data Settings View */
 /* Info */
 "sync_and_data_setting_info_title" = "Opis";
-"sync_and_data_setting_info_description" = "Uzyskaj przegląd aktualnego stanu synchronizacji i importuj lub eksportuj dane za pomocą pliku CSV.";
+"sync_and_data_setting_info_description" = "Uzyskaj przegląd stanu synchronizacji, zarządzaj kopiami zapasowymi lub importuj i eksportuj dane za pomocą pliku CSV.";
 
 /* Sections */
 "sync_and_data_cloud_setting_section_title" = "iCloud";
@@ -713,6 +713,13 @@
 /* Sections */
 "backup_setting_general_section_title" = "Ogólne";
 "backup_setting_recent_section_title" = "Ostatnie kopie zapasowe";
+"backup_setting_restore_external_backup_title" = "Przywróć zewnętrzną kopię";
+"backup_service_error_icloud_drive_unavailable" = "iCloud Drive jest niedostępny.";
+"backup_service_error_unsupported_version" = "Ta kopia zapasowa używa nieobsługiwanej wersji: %d.";
+"backup_service_error_missing_binary_file" = "W tej kopii zapasowej brakuje wymaganego pliku: %@.";
+"backup_service_error_could_not_create_backup_directory" = "Nie można utworzyć folderu kopii zapasowych.";
+"backup_service_error_could_not_create_backup_archive" = "Nie można utworzyć archiwum kopii zapasowej.";
+"backup_service_error_invalid_backup_archive" = "Wybrany plik nie jest prawidłową kopią zapasową.";
 
 /* Titles */
 "backup_setting_use_automatic_backups_title" = "Automatyczna kopia zapasowa";

@@ -639,7 +639,7 @@
 /* MARK: - Sync & Data Settings View */
 /* Info */
 "sync_and_data_setting_info_title" = "Descrição";
-"sync_and_data_setting_info_description" = "Obtém uma visão geral do estado de sincronização atual e importa ou exporta dados usando um ficheiro CSV.";
+"sync_and_data_setting_info_description" = "Obtém uma visão geral do estado de sincronização, gere as tuas cópias de segurança ou importa e exporta os teus dados usando um ficheiro CSV.";
 
 /* Sections */
 "sync_and_data_cloud_setting_section_title" = "iCloud";
@@ -713,6 +713,13 @@
 /* Sections */
 "backup_setting_general_section_title" = "Geral";
 "backup_setting_recent_section_title" = "Cópias de segurança recentes";
+"backup_setting_restore_external_backup_title" = "Restaurar cópia externa";
+"backup_service_error_icloud_drive_unavailable" = "O iCloud Drive não está disponível.";
+"backup_service_error_unsupported_version" = "Esta cópia usa uma versão não suportada: %d.";
+"backup_service_error_missing_binary_file" = "Falta um ficheiro obrigatório nesta cópia: %@.";
+"backup_service_error_could_not_create_backup_directory" = "Não foi possível criar a pasta de cópias.";
+"backup_service_error_could_not_create_backup_archive" = "Não foi possível criar o arquivo da cópia.";
+"backup_service_error_invalid_backup_archive" = "O ficheiro selecionado não é uma cópia válida.";
 
 /* Titles */
 "backup_setting_use_automatic_backups_title" = "Cópia de segurança automática";

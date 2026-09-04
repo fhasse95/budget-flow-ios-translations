@@ -639,7 +639,7 @@
 /* MARK: - Sync & Data Settings View */
 /* Info */
 "sync_and_data_setting_info_title" = "Beschrijving";
-"sync_and_data_setting_info_description" = "Krijg een overzicht van de huidige synchronisatiestatus en importeer of exporteer gegevens met behulp van een CSV-bestand.";
+"sync_and_data_setting_info_description" = "Krijg een overzicht van de synchronisatiestatus, beheer je back-ups of importeer en exporteer je gegevens met een CSV-bestand.";
 
 /* Sections */
 "sync_and_data_cloud_setting_section_title" = "iCloud";
@@ -713,6 +713,13 @@
 /* Sections */
 "backup_setting_general_section_title" = "Algemeen";
 "backup_setting_recent_section_title" = "Recente back-ups";
+"backup_setting_restore_external_backup_title" = "Externe back-up herstellen";
+"backup_service_error_icloud_drive_unavailable" = "iCloud Drive is niet beschikbaar.";
+"backup_service_error_unsupported_version" = "Deze back-up gebruikt een niet-ondersteunde versie: %d.";
+"backup_service_error_missing_binary_file" = "In deze back-up ontbreekt een vereist bestand: %@.";
+"backup_service_error_could_not_create_backup_directory" = "De back-upmap kon niet worden aangemaakt.";
+"backup_service_error_could_not_create_backup_archive" = "Het back-uparchief kon niet worden aangemaakt.";
+"backup_service_error_invalid_backup_archive" = "Het geselecteerde bestand is geen geldige back-up.";
 
 /* Titles */
 "backup_setting_use_automatic_backups_title" = "Automatische back-up";

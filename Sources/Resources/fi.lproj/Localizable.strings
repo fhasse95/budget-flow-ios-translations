@@ -639,7 +639,7 @@
 /* MARK: - Sync & Data Settings View */
 /* Info */
 "sync_and_data_setting_info_title" = "Kuvaus";
-"sync_and_data_setting_info_description" = "Saat yleiskatsauksen nykyisestä synkronoinnin tilasta ja tuoda tai viedä tietoja CSV-tiedoston avulla.";
+"sync_and_data_setting_info_description" = "Saat yleiskatsauksen synkronoinnin tilasta, voit hallita varmuuskopioitasi tai tuoda ja viedä tietojasi CSV-tiedoston avulla.";
 
 /* Sections */
 "sync_and_data_cloud_setting_section_title" = "iCloud";
@@ -713,6 +713,13 @@
 /* Sections */
 "backup_setting_general_section_title" = "Yleistä";
 "backup_setting_recent_section_title" = "Viimeaikaiset varmuuskopiot";
+"backup_setting_restore_external_backup_title" = "Palauta ulkoinen varmuuskopio";
+"backup_service_error_icloud_drive_unavailable" = "iCloud Drive ei ole käytettävissä.";
+"backup_service_error_unsupported_version" = "Tämä varmuuskopio käyttää versiota, jota ei tueta: %d.";
+"backup_service_error_missing_binary_file" = "Tästä varmuuskopiosta puuttuu vaadittu tiedosto: %@.";
+"backup_service_error_could_not_create_backup_directory" = "Varmuuskopiokansiota ei voitu luoda.";
+"backup_service_error_could_not_create_backup_archive" = "Varmuuskopioarkistoa ei voitu luoda.";
+"backup_service_error_invalid_backup_archive" = "Valittu tiedosto ei ole kelvollinen varmuuskopio.";
 
 /* Titles */
 "backup_setting_use_automatic_backups_title" = "Automaattinen varmuuskopiointi";

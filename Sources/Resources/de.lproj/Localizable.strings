@@ -241,7 +241,7 @@
 "copy_button" = "Kopieren";
 "edit_account_button" = "Konto bearbeiten";
 "edit_category_button" = "Kategorie bearbeiten";
-"edit_category_group_button" = "Ordner bearbeiten";
+"edit_categorygroup_button" = "Ordner bearbeiten";
 "edit_payee_button" = "Empfänger bearbeiten";
 "edit_tag_button" = "Tag bearbeiten";
 "edit_budget_button" = "Budget bearbeiten";

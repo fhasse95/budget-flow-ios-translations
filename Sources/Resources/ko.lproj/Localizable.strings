@@ -239,6 +239,7 @@
 "add_button" = "추가";
 "edit_button" = "편집";
 "copy_button" = "복사";
+"refund_button" = "환불";
 "edit_account_button" = "계좌 편집";
 "edit_category_button" = "카테고리 편집";
 "edit_categorygroup_button" = "폴더 편집";

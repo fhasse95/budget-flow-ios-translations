@@ -239,6 +239,7 @@
 "add_button" = "Lisää";
 "edit_button" = "Muokkaa";
 "copy_button" = "Kopioi";
+"refund_button" = "Hyvitys";
 "edit_account_button" = "Muokkaa tiliä";
 "edit_category_button" = "Muokkaa luokkaa";
 "edit_categorygroup_button" = "Muokkaa kansiota";

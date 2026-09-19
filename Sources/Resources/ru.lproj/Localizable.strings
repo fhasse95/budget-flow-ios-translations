@@ -239,6 +239,7 @@
 "add_button" = "Добавить";
 "edit_button" = "Изменить";
 "copy_button" = "Копировать";
+"refund_button" = "Возврат";
 "edit_account_button" = "Изменить счет";
 "edit_category_button" = "Изменить категорию";
 "edit_categorygroup_button" = "Изменить папку";

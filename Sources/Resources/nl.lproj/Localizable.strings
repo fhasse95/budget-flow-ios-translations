@@ -239,6 +239,7 @@
 "add_button" = "Toevoegen";
 "edit_button" = "Bewerken";
 "copy_button" = "Kopiëren";
+"refund_button" = "Terugbetaling";
 "edit_account_button" = "Account bewerken";
 "edit_category_button" = "Categorie bewerken";
 "edit_categorygroup_button" = "Map bewerken";

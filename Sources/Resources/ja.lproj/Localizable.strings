@@ -239,6 +239,7 @@
 "add_button" = "追加";
 "edit_button" = "編集";
 "copy_button" = "コピー";
+"refund_button" = "払い戻し";
 "edit_account_button" = "口座を編集";
 "edit_category_button" = "カテゴリを編集";
 "edit_categorygroup_button" = "フォルダーを編集";

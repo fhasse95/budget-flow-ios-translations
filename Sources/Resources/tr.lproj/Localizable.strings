@@ -239,6 +239,7 @@
 "add_button" = "Ekle";
 "edit_button" = "Düzenle";
 "copy_button" = "Kopyala";
+"refund_button" = "Geri Ödeme";
 "edit_account_button" = "Hesabı düzenle";
 "edit_category_button" = "Kategoriyi düzenle";
 "edit_categorygroup_button" = "Klasörü Düzenle";

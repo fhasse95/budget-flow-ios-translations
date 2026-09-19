@@ -239,6 +239,7 @@
 "add_button" = "Dodaj";
 "edit_button" = "Edytuj";
 "copy_button" = "Kopiuj";
+"refund_button" = "Zwrot pieniędzy";
 "edit_account_button" = "Edytuj konto";
 "edit_category_button" = "Edytuj kategorię";
 "edit_categorygroup_button" = "Edytuj folder";

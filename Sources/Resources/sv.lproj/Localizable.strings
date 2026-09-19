@@ -239,6 +239,7 @@
 "add_button" = "Lägg till";
 "edit_button" = "Redigera";
 "copy_button" = "Kopiera";
+"refund_button" = "Återbetalning";
 "edit_account_button" = "Redigera konto";
 "edit_category_button" = "Redigera kategori";
 "edit_categorygroup_button" = "Redigera mapp";

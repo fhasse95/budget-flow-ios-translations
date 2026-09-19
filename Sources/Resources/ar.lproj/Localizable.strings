@@ -239,6 +239,7 @@
 "add_button" = "إضافة";
 "edit_button" = "تحرير";
 "copy_button" = "نسخ";
+"refund_button" = "استرداد الأموال";
 "edit_account_button" = "تحرير الحساب";
 "edit_category_button" = "تحرير الفئة";
 "edit_categorygroup_button" = "تعديل المجلد";

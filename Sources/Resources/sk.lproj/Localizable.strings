@@ -239,6 +239,7 @@
 "add_button" = "Pridať";
 "edit_button" = "Upraviť";
 "copy_button" = "Kopírovať";
+"refund_button" = "Vrátenie platby";
 "edit_account_button" = "Upraviť účet";
 "edit_category_button" = "Upraviť kategóriu";
 "edit_categorygroup_button" = "Upraviť priečinok";

@@ -239,6 +239,7 @@
 "add_button" = "新增";
 "edit_button" = "編輯";
 "copy_button" = "複製";
+"refund_button" = "退款";
 "edit_account_button" = "編輯帳戶";
 "edit_category_button" = "編輯類別";
 "edit_categorygroup_button" = "編輯資料夾";

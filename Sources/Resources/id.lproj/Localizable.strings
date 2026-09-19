@@ -239,6 +239,7 @@
 "add_button" = "Tambah";
 "edit_button" = "Edit";
 "copy_button" = "Salin";
+"refund_button" = "Pengembalian Dana";
 "edit_account_button" = "Edit Akun";
 "edit_category_button" = "Edit Kategori";
 "edit_categorygroup_button" = "Edit Folder";

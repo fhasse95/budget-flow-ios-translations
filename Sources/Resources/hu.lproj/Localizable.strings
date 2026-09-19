@@ -239,6 +239,7 @@
 "add_button" = "Hozzáadás";
 "edit_button" = "Szerkesztés";
 "copy_button" = "Másolás";
+"refund_button" = "Visszatérítés";
 "edit_account_button" = "Fiók szerkesztése";
 "edit_category_button" = "Kategória szerkesztése";
 "edit_categorygroup_button" = "Mappa szerkesztése";

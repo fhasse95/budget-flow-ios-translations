@@ -239,6 +239,7 @@
 "add_button" = "Додати";
 "edit_button" = "Редагувати";
 "copy_button" = "Копіювати";
+"refund_button" = "Відшкодування";
 "edit_account_button" = "Редагувати обліковий запис";
 "edit_category_button" = "Редагувати категорію";
 "edit_categorygroup_button" = "Редагувати папку";

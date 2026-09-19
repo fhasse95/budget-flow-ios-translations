@@ -239,6 +239,7 @@
 "add_button" = "Hinzufügen";
 "edit_button" = "Bearbeiten";
 "copy_button" = "Kopieren";
+"refund_button" = "Rückerstattung";
 "edit_account_button" = "Konto bearbeiten";
 "edit_category_button" = "Kategorie bearbeiten";
 "edit_categorygroup_button" = "Ordner bearbeiten";

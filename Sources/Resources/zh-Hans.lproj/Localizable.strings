@@ -239,6 +239,7 @@
 "add_button" = "添加";
 "edit_button" = "编辑";
 "copy_button" = "复制";
+"refund_button" = "退款";
 "edit_account_button" = "编辑账户";
 "edit_category_button" = "编辑类别";
 "edit_categorygroup_button" = "编辑文件夹";

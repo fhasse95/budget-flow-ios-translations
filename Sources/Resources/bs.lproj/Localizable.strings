@@ -239,6 +239,7 @@
 "add_button" = "Dodaj";
 "edit_button" = "Uredi";
 "copy_button" = "Kopiraj";
+"refund_button" = "Povrat novca";
 "edit_account_button" = "Uredi račun";
 "edit_category_button" = "Uredi kategoriju";
 "edit_categorygroup_button" = "Uredi mapu";

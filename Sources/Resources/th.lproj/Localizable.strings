@@ -239,6 +239,7 @@
 "add_button" = "เพิ่ม";
 "edit_button" = "แก้ไข";
 "copy_button" = "คัดลอก";
+"refund_button" = "คืนเงิน";
 "edit_account_button" = "แก้ไขบัญชี";
 "edit_category_button" = "แก้ไขหมวดหมู่";
 "edit_categorygroup_button" = "แก้ไขโฟลเดอร์";

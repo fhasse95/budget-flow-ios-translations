@@ -239,6 +239,7 @@
 "add_button" = "Thêm";
 "edit_button" = "Sửa";
 "copy_button" = "Sao chép";
+"refund_button" = "Refund";
 "edit_account_button" = "Sửa Ví";
 "edit_category_button" = "Sửa Danh mục";
 "edit_categorygroup_button" = "Chỉnh sửa thư mục";

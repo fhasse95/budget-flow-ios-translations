@@ -239,6 +239,7 @@
 "add_button" = "Προσθήκη";
 "edit_button" = "Επεξεργασία";
 "copy_button" = "Αντιγραφή";
+"refund_button" = "Επιστροφή χρημάτων";
 "edit_account_button" = "Επεξεργασία λογαριασμού";
 "edit_category_button" = "Επεξεργασία κατηγορίας";
 "edit_categorygroup_button" = "Επεξεργασία φακέλου";

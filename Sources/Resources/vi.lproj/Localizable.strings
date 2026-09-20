@@ -899,8 +899,7 @@
 
 /* MARK: - Welcome View */
 /* Titles */
-"welcome_view_title" = "Chào mừng bạn";
-"privacy_policy_title" = "Chính sách bảo mật";
+"welcome_view_title" = "Chào mừng";
 
 /* Sections */
 "welcome_view_overview_section_title" = "Tóm tắt";
@@ -913,8 +912,12 @@
 "privacy_overview_privacy_control_title" = "Bạn đang kiểm soát";
 "privacy_overview_privacy_control_description" = "Cho dù đó là dữ liệu đã lưu, việc sử dụng vị trí hay quyền truy cập vào máy ảnh của bạn - bạn luôn nắm quyền kiểm soát. Ví dụ: bạn có thể dễ dàng xóa dữ liệu của mình bằng cách đặt lại ứng dụng và quyền truy cập của ứng dụng sẽ điều chỉnh bất kỳ lúc nào.";
 
+/* Header */
+"welcome_view_header_title" = "Chào mừng bạn";
+"welcome_view_header_description" = "Kiểm soát tất cả thu nhập của bạn một cách dễ dàng: Nhập ngân sách của bạn, nhận thông tin chi tiết và theo dõi tất cả thu nhập và chi phí của bạn.";
+
 /* Footer */
-"welcome_view_value_description" = "Kiểm soát tất cả thu nhập của bạn một cách dễ dàng: Nhập ngân sách của bạn, nhận thông tin chi tiết và theo dõi tất cả thu nhập và chi phí của bạn.";
+"privacy_policy_title" = "Chính sách bảo mật";
 "welcome_view_agreement_description" = "Bằng cách nhấp vào \"Xác nhận\" bạn đã đồng ý với %@.";
 
 

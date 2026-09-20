@@ -899,8 +899,7 @@
 
 /* MARK: - Welcome View */
 /* Titles */
-"welcome_view_title" = "Benvingut a";
-"privacy_policy_title" = "Política de privacitat";
+"welcome_view_title" = "Benvingut";
 
 /* Sections */
 "welcome_view_overview_section_title" = "Resum";
@@ -913,8 +912,12 @@
 "privacy_overview_privacy_control_title" = "Tu tens el control";
 "privacy_overview_privacy_control_description" = "Sigui que es tracti de les teves dades guardades, l'ús de la teva ubicació o l'accés a la teva càmera, sempre tens el control. Per exemple, pots eliminar fàcilment les teves dades restablint l'app i els permisos d'accés es poden ajustar en qualsevol moment.";
 
+/* Header */
+"welcome_view_header_title" = "Benvingut a";
+"welcome_view_header_description" = "Controla totes les teves finances fàcilment: introdueix el teu pressupost, obté informació i fes un seguiment de tots els teus ingressos i despeses";
+
 /* Footer */
-"welcome_view_value_description" = "Controla totes les teves finances fàcilment: introdueix el teu pressupost, obté informació i fes un seguiment de tots els teus ingressos i despeses";
+"privacy_policy_title" = "Política de privacitat";
 "welcome_view_agreement_description" = "En fer clic a \"Acceptar\" acceptes el %@.";
 
 

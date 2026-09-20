@@ -899,8 +899,7 @@
 
 /* MARK: - Welcome View */
 /* Titles */
-"welcome_view_title" = "Selamat datang di";
-"privacy_policy_title" = "Kebijakan Privasi";
+"welcome_view_title" = "Selamat datang";
 
 /* Sections */
 "welcome_view_overview_section_title" = "Ringkasan";
@@ -913,8 +912,12 @@
 "privacy_overview_privacy_control_title" = "Anda memegang kendali";
 "privacy_overview_privacy_control_description" = "Baik data yang disimpan, penggunaan lokasi, atau akses ke kamera - Anda selalu memegang kendali. Misalnya, Anda dapat dengan mudah menghapus data dengan mengatur ulang aplikasi dan menyesuaikan izin akses aplikasi kapan pun.";
 
+/* Header */
+"welcome_view_header_title" = "Selamat datang di";
+"welcome_view_header_description" = "Kendalikan semua keuangan Anda dengan mudah: Masukkan anggaran Anda, dapatkan wawasan, serta lacak semua pendapatan dan pengeluaran Anda.";
+
 /* Footer */
-"welcome_view_value_description" = "Kendalikan semua keuangan Anda dengan mudah: Masukkan anggaran Anda, dapatkan wawasan, serta lacak semua pendapatan dan pengeluaran Anda.";
+"privacy_policy_title" = "Kebijakan Privasi";
 "welcome_view_agreement_description" = "Dengan mengklik \"Terima\" Anda menyetujui %@.";
 
 

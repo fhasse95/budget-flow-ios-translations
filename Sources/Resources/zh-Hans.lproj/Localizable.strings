@@ -899,8 +899,7 @@
 
 /* MARK: - Welcome View */
 /* Titles */
-"welcome_view_title" = "欢迎来到";
-"privacy_policy_title" = "隐私政策";
+"welcome_view_title" = "欢迎";
 
 /* Sections */
 "welcome_view_overview_section_title" = "概要";
@@ -913,8 +912,12 @@
 "privacy_overview_privacy_control_title" = "你的财务由你做主";
 "privacy_overview_privacy_control_description" = "无论是您保存的数据、您的位置还是访问您的相机 - 您始终有着最高掌控权。例如，您可以通过重置应用轻松删除您的数据，并且应用的访问权限调整为任何时候。";
 
+/* Header */
+"welcome_view_header_title" = "欢迎来到";
+"welcome_view_header_description" = "轻松控制您的所有财务状况：输入您的预算、获取见解并跟踪您的所有收入和支出";
+
 /* Footer */
-"welcome_view_value_description" = "轻松控制您的所有财务状况：输入您的预算、获取见解并跟踪您的所有收入和支出";
+"privacy_policy_title" = "隐私政策";
 "welcome_view_agreement_description" = "点击 \"接受\" 即表示您同意 %@";
 
 

@@ -899,8 +899,7 @@
 
 /* MARK: - Welcome View */
 /* Titles */
-"welcome_view_title" = "Vitajte v";
-"privacy_policy_title" = "Zásady ochrany osobných údajov";
+"welcome_view_title" = "Vitajte";
 
 /* Sections */
 "welcome_view_overview_section_title" = "Zhrnutie";
@@ -913,8 +912,12 @@
 "privacy_overview_privacy_control_title" = "Máte to pod kontrolou";
 "privacy_overview_privacy_control_description" = "Či už sú to vaše uložené údaje, využitie vašej polohy alebo prístup k vášmu fotoaparátu – vždy to máte pod kontrolou. Svoje údaje môžete napríklad jednoducho vymazať resetovaním aplikácie a prístupové povolenia aplikácie sa upravia na kedykoľvek.";
 
+/* Header */
+"welcome_view_header_title" = "Vitajte v";
+"welcome_view_header_description" = "Ovládajte všetky svoje financie jednoducho: Zadajte svoj rozpočet, získajte prehľad a sledujte všetky svoje príjmy a výdavky.";
+
 /* Footer */
-"welcome_view_value_description" = "Ovládajte všetky svoje financie jednoducho: Zadajte svoj rozpočet, získajte prehľad a sledujte všetky svoje príjmy a výdavky.";
+"privacy_policy_title" = "Zásady ochrany osobných údajov";
 "welcome_view_agreement_description" = "Kliknutím na \"Prijať\" vyjadrujete súhlas s %@.";
 
 

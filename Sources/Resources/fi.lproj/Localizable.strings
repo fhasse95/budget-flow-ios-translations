@@ -900,7 +900,6 @@
 /* MARK: - Welcome View */
 /* Titles */
 "welcome_view_title" = "Tervetuloa";
-"privacy_policy_title" = "Tietosuojakäytäntö";
 
 /* Sections */
 "welcome_view_overview_section_title" = "Yhteenveto";
@@ -913,8 +912,12 @@
 "privacy_overview_privacy_control_title" = "Sinä hallitset";
 "privacy_overview_privacy_control_description" = "Oletpa kyse sitten tallennetuista tiedoistasi, sijaintisi käytöstä tai pääsystä kameraan - sinä hallitset aina. Voit esimerkiksi helposti poistaa tietosi nollaamalla sovelluksen ja säätämällä sovelluksen käyttöoikeuksia osoitteessa milloin tahansa.";
 
+/* Header */
+"welcome_view_header_title" = "Tervetuloa";
+"welcome_view_header_description" = "Hallitse kaikkea talouttasi helposti: Syötä budjettisi, hanki oivalluksia ja pidä kirjaa kaikista tuloistasi ja kuluistasi.";
+
 /* Footer */
-"welcome_view_value_description" = "Hallitse kaikkea talouttasi helposti: Syötä budjettisi, hanki oivalluksia ja pidä kirjaa kaikista tuloistasi ja kuluistasi.";
+"privacy_policy_title" = "Tietosuojakäytäntö";
 "welcome_view_agreement_description" = "Napsauttamalla \"Hyväksy\" hyväksyt %@.";
 
 

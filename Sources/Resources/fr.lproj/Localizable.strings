@@ -899,8 +899,7 @@
 
 /* MARK: - Welcome View */
 /* Titles */
-"welcome_view_title" = "Bienvenue à";
-"privacy_policy_title" = "Politique de confidentialité";
+"welcome_view_title" = "Bienvenue";
 
 /* Sections */
 "welcome_view_overview_section_title" = "Résumé";
@@ -913,8 +912,12 @@
 "privacy_overview_privacy_control_title" = "Vous avez le contrôle";
 "privacy_overview_privacy_control_description" = "Qu'il s'agisse de vos données enregistrées, de l'utilisation de votre emplacement ou de l'accès à votre caméra, vous avez toujours le contrôle. Par exemple, vous pouvez facilement supprimer vos données en réinitialisant l'app et les autorisations d'accès de l'app s'ajustent à tout moment.";
 
+/* Header */
+"welcome_view_header_title" = "Bienvenue à";
+"welcome_view_header_description" = "Gérez facilement toutes vos finances: Entrez votre budget, obtenez des informations et suivez tous vos revenus et dépenses.";
+
 /* Footer */
-"welcome_view_value_description" = "Gérez facilement toutes vos finances: Entrez votre budget, obtenez des informations et suivez tous vos revenus et dépenses.";
+"privacy_policy_title" = "Politique de confidentialité";
 "welcome_view_agreement_description" = "En cliquant sur \"Accepter\", vous acceptez le %@.";
 
 

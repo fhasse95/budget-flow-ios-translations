@@ -900,7 +900,6 @@
 /* MARK: - Welcome View */
 /* Titles */
 "welcome_view_title" = "مرحبًا";
-"privacy_policy_title" = "سياسة الخصوصية";
 
 /* Sections */
 "welcome_view_overview_section_title" = "الملخص";
@@ -913,8 +912,12 @@
 "privacy_overview_privacy_control_title" = "أنت المتحكم";
 "privacy_overview_privacy_control_description" = "سواء كان الأمر يتعلق ببياناتك المحفوظة، أو استخدام موقعك، أو الوصول إلى الكاميرا الخاصة بك، فأنت دائمًا المتحكم. على سبيل المثال، يمكنك بسهولة حذف بياناتك عن طريق إعادة تعيين التطبيق، ويمكن تعديل أذونات التطبيق على في أي وقت.";
 
+/* Header */
+"welcome_view_header_title" = "مرحبًا";
+"welcome_view_header_description" = "قم بإدارة كافة أموالك بسهولة: أدخل ميزانيتك، واحصل على المعلومات، وتتبع كل دخلك ونفقاتك.";
+
 /* Footer */
-"welcome_view_value_description" = "قم بإدارة كافة أموالك بسهولة: أدخل ميزانيتك، واحصل على المعلومات، وتتبع كل دخلك ونفقاتك.";
+"privacy_policy_title" = "سياسة الخصوصية";
 "welcome_view_agreement_description" = "بالنقر فوق \"قبول\"، فإنك توافق على %@.";
 
 

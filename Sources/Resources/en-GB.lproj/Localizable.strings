@@ -899,8 +899,7 @@
 
 /* MARK: - Welcome View */
 /* Titles */
-"welcome_view_title" = "Welcome to";
-"privacy_policy_title" = "Privacy Policy";
+"welcome_view_title" = "Welcome";
 
 /* Sections */
 "welcome_view_overview_section_title" = "Summary";
@@ -913,8 +912,12 @@
 "privacy_overview_privacy_control_title" = "You are in control";
 "privacy_overview_privacy_control_description" = "Whether it's your saved data, use of your location or access to your camera - you're always in control. For example, you can easily delete your data by resetting the app and the access permissions of the app adjust at any time.";
 
+/* Header */
+"welcome_view_header_title" = "Welcome to";
+"welcome_view_header_description" = "Control all of your finances with ease: Enter your budget, get insights and keep track of all your income and expenses.";
+
 /* Footer */
-"welcome_view_value_description" = "Control all of your finances with ease: Enter your budget, get insights and keep track of all your income and expenses.";
+"privacy_policy_title" = "Privacy Policy";
 "welcome_view_agreement_description" = "By clicking \"Accept\" you consent to the %@.";
 
 

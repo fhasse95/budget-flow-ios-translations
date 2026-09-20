@@ -899,8 +899,7 @@
 
 /* MARK: - Welcome View */
 /* Titles */
-"welcome_view_title" = "Willkommen bei";
-"privacy_policy_title" = "Datenschutzerklärung";
+"welcome_view_title" = "Willkommen";
 
 /* Sections */
 "welcome_view_overview_section_title" = "Kurzfassung";
@@ -913,8 +912,12 @@
 "privacy_overview_privacy_control_title" = "Du hast die Kontrolle";
 "privacy_overview_privacy_control_description" = "Ob es um deine gespeicherten Daten, die Nutzung deines Standorts oder den Zugriff auf deine Kamera geht - du hast immer die Kontrolle. So kannst du deine Daten zum Beispiel unkompliziert löschen, indem du die App zurücksetzt, und die Zugriffsberechtigungen der App jederzeit anpassen.";
 
+/* Header */
+"welcome_view_header_title" = "Willkommen bei";
+"welcome_view_header_description" = "Finanzen verwalten leicht gemacht: Gib dein Budget ein, erhalte Einblicke und behalte die Übersicht über all deine Einnahmen und Ausgaben.";
+
 /* Footer */
-"welcome_view_value_description" = "Finanzen verwalten leicht gemacht: Gib dein Budget ein, erhalte Einblicke und behalte die Übersicht über all deine Einnahmen und Ausgaben.";
+"privacy_policy_title" = "Datenschutzerklärung";
 "welcome_view_agreement_description" = "Indem du auf \"Akzeptieren\" klickst, stimmst du der %@ zu.";
 
 

@@ -899,8 +899,7 @@
 
 /* MARK: - Welcome View */
 /* Titles */
-"welcome_view_title" = "Velkommen til";
-"privacy_policy_title" = "Privatlivspolitik";
+"welcome_view_title" = "Velkommen";
 
 /* Sections */
 "welcome_view_overview_section_title" = "Oversigt";
@@ -913,8 +912,12 @@
 "privacy_overview_privacy_control_title" = "Du har kontrol";
 "privacy_overview_privacy_control_description" = "Uanset om det er dine gemte data, brug af din placering eller adgang til dit kamera - du har altid kontrollen. For eksempel kan du nemt slette dine data ved at nulstille appen og adgangstilladelserne til appen justeres kl. når som helst.";
 
+/* Header */
+"welcome_view_header_title" = "Velkommen til";
+"welcome_view_header_description" = "Styr alle dine finanser med lethed: Indtast dit budget, få indsigt og hold styr på alle dine indtægter og udgifter.";
+
 /* Footer */
-"welcome_view_value_description" = "Styr alle dine finanser med lethed: Indtast dit budget, få indsigt og hold styr på alle dine indtægter og udgifter.";
+"privacy_policy_title" = "Privatlivspolitik";
 "welcome_view_agreement_description" = "Ved at klikke på \"Acceptér\" giver du samtykke til %@.";
 
 

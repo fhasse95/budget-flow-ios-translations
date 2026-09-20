@@ -899,8 +899,7 @@
 
 /* MARK: - Welcome View */
 /* Titles */
-"welcome_view_title" = "Bem-vindo ao";
-"privacy_policy_title" = "Política de Privacidade";
+"welcome_view_title" = "Bem-vindo";
 
 /* Sections */
 "welcome_view_overview_section_title" = "Resumo";
@@ -913,8 +912,12 @@
 "privacy_overview_privacy_control_title" = "Tu estás no controlo";
 "privacy_overview_privacy_control_description" = "Quer se trate dos teus dados guardados, da utilização da tua localização ou do acesso à tua câmara, tu estás sempre no controlo. Por exemplo, podes eliminar facilmente os teus dados repondo a aplicação e as permissões de acesso da aplicação são ajustadas a qualquer momento.";
 
+/* Header */
+"welcome_view_header_title" = "Bem-vindo ao";
+"welcome_view_header_description" = "Controla todas as tuas finanças com facilidade: Introduz o teu orçamento, obtém informações e acompanha todos os teus rendimentos e despesas.";
+
 /* Footer */
-"welcome_view_value_description" = "Controla todas as tuas finanças com facilidade: Introduz o teu orçamento, obtém informações e acompanha todos os teus rendimentos e despesas.";
+"privacy_policy_title" = "Política de Privacidade";
 "welcome_view_agreement_description" = "Ao clicares em \"Aceitar\" concordas com %@.";
 
 

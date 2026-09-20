@@ -899,8 +899,7 @@
 
 /* MARK: - Welcome View */
 /* Titles */
-"welcome_view_title" = "Dobro došli u";
-"privacy_policy_title" = "Pravila privatnosti";
+"welcome_view_title" = "Dobro došli";
 
 /* Sections */
 "welcome_view_overview_section_title" = "Sažetak";
@@ -913,8 +912,12 @@
 "privacy_overview_privacy_control_title" = "Vi imate kontrolu";
 "privacy_overview_privacy_control_description" = "Bilo da se radi o vašim spremljenim podacima, korištenju vaše lokacije ili pristupu vašoj kameri - uvijek imate kontrolu. Na primjer, možete jednostavno izbrisati svoje podatke resetiranjem aplikacije i dopuštenja pristupa aplikacije prilagoditi na bilo kada.";
 
+/* Header */
+"welcome_view_header_title" = "Dobro došli u";
+"welcome_view_header_description" = "Kontrolirajte sve svoje financije s lakoćom: Unesite svoj budžet, steknite uvide i pratite sve svoje prihode i rashode.";
+
 /* Footer */
-"welcome_view_value_description" = "Kontrolirajte sve svoje financije s lakoćom: Unesite svoj budžet, steknite uvide i pratite sve svoje prihode i rashode.";
+"privacy_policy_title" = "Pravila privatnosti";
 "welcome_view_agreement_description" = "Klikom na \"Prihvati\" pristajete na %@.";
 
 

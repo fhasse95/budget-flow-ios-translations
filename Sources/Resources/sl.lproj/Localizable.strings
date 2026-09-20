@@ -899,8 +899,7 @@
 
 /* MARK: - Welcome View */
 /* Titles */
-"welcome_view_title" = "Dobrodošli v";
-"privacy_policy_title" = "Politika zasebnosti";
+"welcome_view_title" = "Dobrodošli";
 
 /* Sections */
 "welcome_view_overview_section_title" = "Povzetek";
@@ -913,8 +912,12 @@
 "privacy_overview_privacy_control_title" = "Nadzor nad zasebnostjo";
 "privacy_overview_privacy_control_description" = "Ne glede na to, ali gre za shranjene podatke, uporabo vaše lokacije ali dostop do vašega fotoaparata – vedno imate nadzor. Na primer, lahko preprosto izbrišete svoje podatke s ponastavitvijo aplikacije in dovoljenja dostopa aplikacije lahko kadarkoli prilagodite.";
 
+/* Header */
+"welcome_view_header_title" = "Dobrodošli v";
+"welcome_view_header_description" = "Enostavno upravljajte vse svoje finance: Vnesite svoj načrt porabe, pridobite vpoglede in spremljajte vse svoje prihodke in stroške.";
+
 /* Footer */
-"welcome_view_value_description" = "Enostavno upravljajte vse svoje finance: Vnesite svoj načrt porabe, pridobite vpoglede in spremljajte vse svoje prihodke in stroške.";
+"privacy_policy_title" = "Politika zasebnosti";
 "welcome_view_agreement_description" = "S klikom na \"Sprejmi\" se strinjate z %@.";
 
 

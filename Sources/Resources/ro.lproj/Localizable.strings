@@ -899,8 +899,7 @@
 
 /* MARK: - Welcome View */
 /* Titles */
-"welcome_view_title" = "Bine ați venit la";
-"privacy_policy_title" = "Politica de confidențialitate";
+"welcome_view_title" = "Bine ați venit";
 
 /* Sections */
 "welcome_view_overview_section_title" = "Rezumat";
@@ -913,8 +912,12 @@
 "privacy_overview_privacy_control_title" = "Dețineți controlul";
 "privacy_overview_privacy_control_description" = "Fie că este vorba despre datele dvs. salvate, utilizarea locației dvs. sau accesul la camera dvs. - aveți întotdeauna controlul. De exemplu, puteți șterge cu ușurință datele prin resetarea aplicației, iar permisiunile de acces ale aplicației se ajustează la oricând.";
 
+/* Header */
+"welcome_view_header_title" = "Bine ați venit la";
+"welcome_view_header_description" = "Controlați-vă toate finanțele cu ușurință: Introduceți bugetul, obțineți informații și urmăriți toate veniturile și cheltuielile dvs.";
+
 /* Footer */
-"welcome_view_value_description" = "Controlați-vă toate finanțele cu ușurință: Introduceți bugetul, obțineți informații și urmăriți toate veniturile și cheltuielile dvs.";
+"privacy_policy_title" = "Politica de confidențialitate";
 "welcome_view_agreement_description" = "Făcând clic pe \"Accept\" sunteți de acord cu %@.";
 
 

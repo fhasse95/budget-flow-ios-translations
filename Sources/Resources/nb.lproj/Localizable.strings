@@ -899,8 +899,7 @@
 
 /* MARK: - Welcome View */
 /* Titles */
-"welcome_view_title" = "Velkommen til";
-"privacy_policy_title" = "Personvernregler";
+"welcome_view_title" = "Velkommen";
 
 /* Sections */
 "welcome_view_overview_section_title" = "Sammendrag";
@@ -913,8 +912,12 @@
 "privacy_overview_privacy_control_title" = "Du har kontroll";
 "privacy_overview_privacy_control_description" = "Enten det er dine lagrede data, bruk av posisjonen din eller tilgang til kameraet ditt - du har alltid kontroll. For eksempel kan du enkelt slette dataene dine ved å tilbakestille appen og tilgangstillatelsene til appen justeres på når som helst.";
 
+/* Header */
+"welcome_view_header_title" = "Velkommen til";
+"welcome_view_header_description" = "Kontroller all økonomi med letthet: Skriv inn budsjettet ditt, få innsikt og hold styr på alle inntektene og utgiftene dine.";
+
 /* Footer */
-"welcome_view_value_description" = "Kontroller all økonomi med letthet: Skriv inn budsjettet ditt, få innsikt og hold styr på alle inntektene og utgiftene dine.";
+"privacy_policy_title" = "Personvernregler";
 "welcome_view_agreement_description" = "Ved å klikke \"Godta\" samtykker du til %@.";
 
 

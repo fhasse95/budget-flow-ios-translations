@@ -900,7 +900,6 @@
 /* MARK: - Welcome View */
 /* Titles */
 "welcome_view_title" = "환영합니다";
-"privacy_policy_title" = "개인정보 보호정책";
 
 /* Sections */
 "welcome_view_overview_section_title" = "요약";
@@ -913,8 +912,12 @@
 "privacy_overview_privacy_control_title" = "사용자가 관리하고 있습니다";
 "privacy_overview_privacy_control_description" = "저장된 데이터, 위치 사용 또는 카메라 액세스 등을 항상 제어할 수 있습니다. 예를 들어 앱을 재설정하고 앱의 접근 권한을 조정하여 데이터를 쉽게 삭제할 수 있습니다. 당신이 원한다면 언제든지요.";
 
+/* Header */
+"welcome_view_header_title" = "환영합니다";
+"welcome_view_header_description" = "쉽게 모든 계좌 관리: 예산을 입력하고 통찰력을 얻어 모든 수입과 지출을 관리해보세요.";
+
 /* Footer */
-"welcome_view_value_description" = "쉽게 모든 계좌 관리: 예산을 입력하고 통찰력을 얻어 모든 수입과 지출을 관리해보세요.";
+"privacy_policy_title" = "개인정보 보호정책";
 "welcome_view_agreement_description" = "\"동의\" 를 클릭하면 %@ 에 동의하게 됩니다.";
 
 

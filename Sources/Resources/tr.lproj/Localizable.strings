@@ -900,7 +900,6 @@
 /* MARK: - Welcome View */
 /* Titles */
 "welcome_view_title" = "Hoş Geldiniz";
-"privacy_policy_title" = "Gizlilik Politikası";
 
 /* Sections */
 "welcome_view_overview_section_title" = "Özet";
@@ -913,8 +912,12 @@
 "privacy_overview_privacy_control_title" = "Kontrol sizde";
 "privacy_overview_privacy_control_description" = "İster kayıtlı verileriniz, ister konumunuzun kullanımı veya kameranıza erişim olsun - kontrol her zaman sizdedir. Örneğin, uygulamayı sıfırlayarak verilerinizi kolayca silebilirsiniz ve uygulamanın erişim izinleri şu adreste ayarlanır: istediğin zaman.";
 
+/* Header */
+"welcome_view_header_title" = "Hoş Geldiniz";
+"welcome_view_header_description" = "Tüm mali durumunuzu kolaylıkla kontrol edin: Bütçenizi girin, öngörüler alın ve tüm gelir ve giderlerinizi takip edin.";
+
 /* Footer */
-"welcome_view_value_description" = "Tüm mali durumunuzu kolaylıkla kontrol edin: Bütçenizi girin, öngörüler alın ve tüm gelir ve giderlerinizi takip edin.";
+"privacy_policy_title" = "Gizlilik Politikası";
 "welcome_view_agreement_description" = "\"Kabul\" seçeneğini tıklayarak %@ onayını vermiş olursunuz.";
 
 

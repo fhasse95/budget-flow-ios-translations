@@ -900,7 +900,6 @@
 /* MARK: - Welcome View */
 /* Titles */
 "welcome_view_title" = "Üdvözöljük";
-"privacy_policy_title" = "Adatvédelmi szabályzat";
 
 /* Sections */
 "welcome_view_overview_section_title" = "Összefoglaló";
@@ -913,8 +912,12 @@
 "privacy_overview_privacy_control_title" = "Te irányítod";
 "privacy_overview_privacy_control_description" = "Akár az Ön mentett adatairól, akár helyadatainak használatáról vagy a kamerához való hozzáférésről van szó – mindig Ön irányít. Például egyszerűen törölheti adatait az alkalmazás alaphelyzetbe állításával, és az alkalmazás hozzáférési engedélyei a következő címen módosíthatók: bármikor.";
 
+/* Header */
+"welcome_view_header_title" = "Üdvözöljük";
+"welcome_view_header_description" = "Könnyen irányíthatja pénzügyeit: Adja meg költségvetését, tájékozódjon, és kövesse nyomon bevételeit és kiadásait.";
+
 /* Footer */
-"welcome_view_value_description" = "Könnyen irányíthatja pénzügyeit: Adja meg költségvetését, tájékozódjon, és kövesse nyomon bevételeit és kiadásait.";
+"privacy_policy_title" = "Adatvédelmi szabályzat";
 "welcome_view_agreement_description" = "Az \"Elfogadás\" gombra kattintva elfogadja a %@.";
 
 

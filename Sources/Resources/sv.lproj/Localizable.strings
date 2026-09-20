@@ -899,8 +899,7 @@
 
 /* MARK: - Welcome View */
 /* Titles */
-"welcome_view_title" = "Välkommen till";
-"privacy_policy_title" = "Sekretesspolicy";
+"welcome_view_title" = "Välkommen";
 
 /* Sections */
 "welcome_view_overview_section_title" = "Sammanfattning";
@@ -913,8 +912,12 @@
 "privacy_overview_privacy_control_title" = "Du har kontroll";
 "privacy_overview_privacy_control_description" = "Oavsett om det är dina sparade data, användning av din plats eller åtkomst till din kamera - du har alltid kontrollen. Du kan till exempel enkelt radera din data genom att återställa appen och åtkomstbehörigheterna för appen justeras på när som helst.";
 
+/* Header */
+"welcome_view_header_title" = "Välkommen till";
+"welcome_view_header_description" = "Kontrollera all din ekonomi med lätthet: Ange din budget, få insikter och håll reda på alla dina inkomster och utgifter.";
+
 /* Footer */
-"welcome_view_value_description" = "Kontrollera all din ekonomi med lätthet: Ange din budget, få insikter och håll reda på alla dina inkomster och utgifter.";
+"privacy_policy_title" = "Sekretesspolicy";
 "welcome_view_agreement_description" = "Genom att klicka på \"Acceptera\" samtycker du till %@.";
 
 

@@ -900,7 +900,6 @@
 /* MARK: - Welcome View */
 /* Titles */
 "welcome_view_title" = "ようこそ";
-"privacy_policy_title" = "プライバシー ポリシー";
 
 /* Sections */
 "welcome_view_overview_section_title" = "概要";
@@ -913,8 +912,12 @@
 "privacy_overview_privacy_control_title" = "制御権はあなたにあります";
 "privacy_overview_privacy_control_description" = "保存したデータ、位置情報の使用、カメラへのアクセスなど、いつでもあなたがコントロールできます。たとえば、アプリをリセットし、アプリのアクセス許可を調整することで、データを簡単に削除できます。";
 
+/* Header */
+"welcome_view_header_title" = "ようこそ";
+"welcome_view_header_description" = "すべての財務を簡単に管理: 予算を入力し、洞察を取得し、すべての収入と支出を追跡します。";
+
 /* Footer */
-"welcome_view_value_description" = "すべての財務を簡単に管理: 予算を入力し、洞察を取得し、すべての収入と支出を追跡します。";
+"privacy_policy_title" = "プライバシー ポリシー";
 "welcome_view_agreement_description" = "\"同意する\" をクリックすると、%@ に同意したことになります。";
 
 

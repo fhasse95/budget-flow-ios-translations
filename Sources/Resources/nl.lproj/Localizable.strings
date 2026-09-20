@@ -899,8 +899,7 @@
 
 /* MARK: - Welcome View */
 /* Titles */
-"welcome_view_title" = "Welkom bij";
-"privacy_policy_title" = "Privacybeleid";
+"welcome_view_title" = "Welkom";
 
 /* Sections */
 "welcome_view_overview_section_title" = "Samenvatting";
@@ -913,8 +912,12 @@
 "privacy_overview_privacy_control_title" = "Jij hebt de controle";
 "privacy_overview_privacy_control_description" = "Of het nu gaat om je opgeslagen gegevens, gebruik van je locatie of toegang tot je camera: jij hebt altijd de controle. Je kunt bijvoorbeeld eenvoudig je gegevens verwijderen door de app opnieuw in te stellen en de toegangsrechten van de app aan te passen op elk moment.";
 
+/* Header */
+"welcome_view_header_title" = "Welkom bij";
+"welcome_view_header_description" = "Beheer al je financiën met gemak: Voer je budget in, krijg inzichten en houd al je inkomsten en uitgaven bij.";
+
 /* Footer */
-"welcome_view_value_description" = "Beheer al je financiën met gemak: Voer je budget in, krijg inzichten en houd al je inkomsten en uitgaven bij.";
+"privacy_policy_title" = "Privacybeleid";
 "welcome_view_agreement_description" = "Door op \"Accepteren\" te klikken, ga je akkoord met de %@.";
 
 

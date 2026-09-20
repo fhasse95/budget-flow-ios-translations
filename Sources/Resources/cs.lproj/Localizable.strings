@@ -907,7 +907,8 @@
 
 /* Overview */
 "privacy_overview_datastorage_title" = "Bezpečné úložiště dat";
-"privacy_overview_datastorage_description" = "Vaše finance jsou soukromé – a tak by měly zůstat. Proto jsou vaše data uložena výhradně ve vašem zařízení nebo (volitelně) ve vašem osobním iCloudu.";
+"privacy_overview_datastorage_darwin_description" = "Vaše finance jsou soukromé – a tak by měly zůstat. Proto jsou vaše data uložena výhradně ve vašem zařízení nebo ve vašem osobním iCloudu.";
+"privacy_overview_datastorage_android_description" = "Vaše finance jsou soukromé – a tak by měly zůstat. Proto jsou vaše data uložena výhradně ve vašem zařízení.";
 
 "privacy_overview_privacy_control_title" = "Máte kontrolu";
 "privacy_overview_privacy_control_description" = "Ať už jde o vaše uložená data, použití vaší polohy nebo přístup ke kameře – vždy máte vše pod kontrolou. Svá data můžete například snadno smazat resetováním aplikace a přístupová oprávnění aplikace se upraví na kdykoli.";

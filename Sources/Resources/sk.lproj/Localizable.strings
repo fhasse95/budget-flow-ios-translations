@@ -907,7 +907,8 @@
 
 /* Overview */
 "privacy_overview_datastorage_title" = "Bezpečné ukladanie údajov";
-"privacy_overview_datastorage_description" = "Vaše financie sú súkromné ​​– a tak by mali zostať. Preto sú vaše údaje uložené výlučne vo vašom zariadení alebo (voliteľne) vo vašom osobnom iCloude.";
+"privacy_overview_datastorage_darwin_description" = "Vaše financie sú súkromné ​​– a tak by mali zostať. Preto sú vaše údaje uložené výlučne vo vašom zariadení alebo vo vašom osobnom iCloude.";
+"privacy_overview_datastorage_android_description" = "Vaše financie sú súkromné ​​– a tak by mali zostať. Preto sú vaše údaje uložené výlučne vo vašom zariadení.";
 
 "privacy_overview_privacy_control_title" = "Máte to pod kontrolou";
 "privacy_overview_privacy_control_description" = "Či už sú to vaše uložené údaje, využitie vašej polohy alebo prístup k vášmu fotoaparátu – vždy to máte pod kontrolou. Svoje údaje môžete napríklad jednoducho vymazať resetovaním aplikácie a prístupové povolenia aplikácie sa upravia na kedykoľvek.";

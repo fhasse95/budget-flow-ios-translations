@@ -907,7 +907,8 @@
 
 /* Overview */
 "privacy_overview_datastorage_title" = "Beveiligde gegevensopslag";
-"privacy_overview_datastorage_description" = "Je financiën zijn privé – en dat moeten ze ook blijven. Daarom worden je gegevens uitsluitend op jouw apparaat of (optioneel) in je persoonlijke iCloud opgeslagen.";
+"privacy_overview_datastorage_darwin_description" = "Je financiën zijn privé – en dat moeten ze ook blijven. Daarom worden je gegevens uitsluitend op jouw apparaat of in je persoonlijke iCloud opgeslagen.";
+"privacy_overview_datastorage_android_description" = "Je financiën zijn privé – en dat moeten ze ook blijven. Daarom worden je gegevens uitsluitend op jouw apparaat opgeslagen.";
 
 "privacy_overview_privacy_control_title" = "Jij hebt de controle";
 "privacy_overview_privacy_control_description" = "Of het nu gaat om je opgeslagen gegevens, gebruik van je locatie of toegang tot je camera: jij hebt altijd de controle. Je kunt bijvoorbeeld eenvoudig je gegevens verwijderen door de app opnieuw in te stellen en de toegangsrechten van de app aan te passen op elk moment.";

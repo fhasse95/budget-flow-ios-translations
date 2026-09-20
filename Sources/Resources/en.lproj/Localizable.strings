@@ -907,7 +907,8 @@
 
 /* Overview */
 "privacy_overview_datastorage_title" = "Secure data storage";
-"privacy_overview_datastorage_description" = "Your finances are private – and they should stay that way. That’s why your data is stored exclusively on your device or (optionally) in your personal iCloud.";
+"privacy_overview_datastorage_darwin_description" = "Your finances are private – and they should stay that way. That’s why your data is stored exclusively on your device or in your personal iCloud.";
+"privacy_overview_datastorage_android_description" = "Your finances are private – and they should stay that way. That’s why your data is stored exclusively on your device.";
 
 "privacy_overview_privacy_control_title" = "You are in control";
 "privacy_overview_privacy_control_description" = "Whether it's your saved data, use of your location or access to your camera - you're always in control. For example, you can easily delete your data by resetting the app and the access permissions of the app adjust at any time.";

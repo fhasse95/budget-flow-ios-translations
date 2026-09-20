@@ -907,7 +907,8 @@
 
 /* Overview */
 "privacy_overview_datastorage_title" = "Biztonságos adattárolás";
-"privacy_overview_datastorage_description" = "Pénzügyei magánügyek – és ennek így is kell maradniuk. Ezért az Ön adatai kizárólag az eszközén vagy (opcionálisan) a személyes iCloudban tárolódnak.";
+"privacy_overview_datastorage_darwin_description" = "Pénzügyei magánügyek – és ennek így is kell maradniuk. Ezért az Ön adatai kizárólag az eszközén vagy a személyes iCloudban tárolódnak.";
+"privacy_overview_datastorage_android_description" = "Pénzügyei magánügyek – és ennek így is kell maradniuk. Ezért az Ön adatai kizárólag az eszközén tárolódnak.";
 
 "privacy_overview_privacy_control_title" = "Te irányítod";
 "privacy_overview_privacy_control_description" = "Akár az Ön mentett adatairól, akár helyadatainak használatáról vagy a kamerához való hozzáférésről van szó – mindig Ön irányít. Például egyszerűen törölheti adatait az alkalmazás alaphelyzetbe állításával, és az alkalmazás hozzáférési engedélyei a következő címen módosíthatók: bármikor.";

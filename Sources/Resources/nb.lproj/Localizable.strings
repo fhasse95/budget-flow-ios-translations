@@ -907,7 +907,8 @@
 
 /* Overview */
 "privacy_overview_datastorage_title" = "Sikker datalagring";
-"privacy_overview_datastorage_description" = "Økonomien din er privat – og den bør forbli slik. Det er derfor dataene dine lagres utelukkende på enheten din eller (valgfritt) i din personlige iCloud.";
+"privacy_overview_datastorage_darwin_description" = "Økonomien din er privat – og den bør forbli slik. Det er derfor dataene dine lagres utelukkende på enheten din eller i din personlige iCloud.";
+"privacy_overview_datastorage_android_description" = "Økonomien din er privat – og den bør forbli slik. Det er derfor dataene dine lagres utelukkende på enheten din.";
 
 "privacy_overview_privacy_control_title" = "Du har kontroll";
 "privacy_overview_privacy_control_description" = "Enten det er dine lagrede data, bruk av posisjonen din eller tilgang til kameraet ditt - du har alltid kontroll. For eksempel kan du enkelt slette dataene dine ved å tilbakestille appen og tilgangstillatelsene til appen justeres på når som helst.";

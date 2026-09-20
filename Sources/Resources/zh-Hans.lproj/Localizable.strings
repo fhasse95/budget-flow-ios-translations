@@ -907,7 +907,8 @@
 
 /* Overview */
 "privacy_overview_datastorage_title" = "安全数据存储";
-"privacy_overview_datastorage_description" = "您的财务是私密的——并且应该保持私密。这就是为什么您的数据仅存储在设备上，或（可选）存储在您的个人 iCloud 中。";
+"privacy_overview_datastorage_darwin_description" = "您的财务是私密的——并且应该保持私密。这就是为什么您的数据仅存储在设备上，或存储在您的个人 iCloud 中。";
+"privacy_overview_datastorage_android_description" = "您的财务是私密的——并且应该保持私密。这就是为什么您的数据仅存储在设备上。";
 
 "privacy_overview_privacy_control_title" = "你的财务由你做主";
 "privacy_overview_privacy_control_description" = "无论是您保存的数据、您的位置还是访问您的相机 - 您始终有着最高掌控权。例如，您可以通过重置应用轻松删除您的数据，并且应用的访问权限调整为任何时候。";

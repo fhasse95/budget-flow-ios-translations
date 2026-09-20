@@ -907,7 +907,8 @@
 
 /* Overview */
 "privacy_overview_datastorage_title" = "Lưu trữ dữ liệu an toàn";
-"privacy_overview_datastorage_description" = "Tài chính của bạn là riêng tư – và chúng phải được duy trì như vậy. Đó là lý do tại sao dữ liệu của bạn được lưu trữ riêng trên thiết bị của bạn hoặc (tùy chọn) trong iCloud cá nhân của bạn.";
+"privacy_overview_datastorage_darwin_description" = "Tài chính của bạn là riêng tư – và chúng phải được duy trì như vậy. Đó là lý do tại sao dữ liệu của bạn được lưu trữ riêng trên thiết bị của bạn hoặc trong iCloud cá nhân của bạn.";
+"privacy_overview_datastorage_android_description" = "Tài chính của bạn là riêng tư – và chúng phải được duy trì như vậy. Đó là lý do tại sao dữ liệu của bạn được lưu trữ riêng trên thiết bị của bạn.";
 
 "privacy_overview_privacy_control_title" = "Bạn đang kiểm soát";
 "privacy_overview_privacy_control_description" = "Cho dù đó là dữ liệu đã lưu, việc sử dụng vị trí hay quyền truy cập vào máy ảnh của bạn - bạn luôn nắm quyền kiểm soát. Ví dụ: bạn có thể dễ dàng xóa dữ liệu của mình bằng cách đặt lại ứng dụng và quyền truy cập của ứng dụng sẽ điều chỉnh bất kỳ lúc nào.";

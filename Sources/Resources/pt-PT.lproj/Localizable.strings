@@ -907,7 +907,8 @@
 
 /* Overview */
 "privacy_overview_datastorage_title" = "Armazenamento seguro de dados";
-"privacy_overview_datastorage_description" = "As tuas finanças são privadas – e devem permanecer assim. É por isso que os teus dados são armazenados exclusivamente no teu dispositivo ou (opcionalmente) no teu iCloud pessoal.";
+"privacy_overview_datastorage_darwin_description" = "As tuas finanças são privadas – e devem permanecer assim. É por isso que os teus dados são armazenados exclusivamente no teu dispositivo ou no teu iCloud pessoal.";
+"privacy_overview_datastorage_android_description" = "As tuas finanças são privadas – e devem permanecer assim. É por isso que os teus dados são armazenados exclusivamente no teu dispositivo.";
 
 "privacy_overview_privacy_control_title" = "Tu estás no controlo";
 "privacy_overview_privacy_control_description" = "Quer se trate dos teus dados guardados, da utilização da tua localização ou do acesso à tua câmara, tu estás sempre no controlo. Por exemplo, podes eliminar facilmente os teus dados repondo a aplicação e as permissões de acesso da aplicação são ajustadas a qualquer momento.";

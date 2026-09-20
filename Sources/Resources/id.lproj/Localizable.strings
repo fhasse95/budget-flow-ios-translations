@@ -907,7 +907,8 @@
 
 /* Overview */
 "privacy_overview_datastorage_title" = "Amankan penyimpanan data";
-"privacy_overview_datastorage_description" = "Keuangan Anda bersifat pribadi – dan harus tetap seperti itu. Itulah sebabnya data Anda disimpan secara eksklusif di perangkat Anda atau (opsional) di iCloud pribadi Anda.";
+"privacy_overview_datastorage_darwin_description" = "Keuangan Anda bersifat pribadi – dan harus tetap seperti itu. Itulah sebabnya data Anda disimpan secara eksklusif di perangkat Anda atau di iCloud pribadi Anda.";
+"privacy_overview_datastorage_android_description" = "Keuangan Anda bersifat pribadi – dan harus tetap seperti itu. Itulah sebabnya data Anda disimpan secara eksklusif di perangkat Anda.";
 
 "privacy_overview_privacy_control_title" = "Anda memegang kendali";
 "privacy_overview_privacy_control_description" = "Baik data yang disimpan, penggunaan lokasi, atau akses ke kamera - Anda selalu memegang kendali. Misalnya, Anda dapat dengan mudah menghapus data dengan mengatur ulang aplikasi dan menyesuaikan izin akses aplikasi kapan pun.";

@@ -907,7 +907,8 @@
 
 /* Overview */
 "privacy_overview_datastorage_title" = "Sigurna pohrana podataka";
-"privacy_overview_datastorage_description" = "Vaše finansije su privatne – i takve bi trebale ostati. Zato se vaši podaci pohranjuju isključivo na vašem uređaju ili (opcionalno) u vašem ličnom iCloudu.";
+"privacy_overview_datastorage_darwin_description" = "Vaše finansije su privatne – i takve bi trebale ostati. Zato se vaši podaci pohranjuju isključivo na vašem uređaju ili u vašem ličnom iCloudu.";
+"privacy_overview_datastorage_android_description" = "Vaše finansije su privatne – i takve bi trebale ostati. Zato se vaši podaci pohranjuju isključivo na vašem uređaju.";
 
 "privacy_overview_privacy_control_title" = "Vi imate kontrolu";
 "privacy_overview_privacy_control_description" = "Bilo da se radi o vašim spremljenim podacima, korištenju vaše lokacije ili pristupu vašoj kameri - uvijek imate kontrolu. Na primjer, možete jednostavno izbrisati svoje podatke resetiranjem aplikacije i dopuštenja pristupa aplikacije prilagoditi na bilo kada.";

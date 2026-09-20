@@ -907,7 +907,8 @@
 
 /* Overview */
 "privacy_overview_datastorage_title" = "Sichere Datenspeicherung";
-"privacy_overview_datastorage_description" = "Deine Finanzen sind privat – und das soll auch so bleiben. Daher werden deine Daten ausschließlich auf deinem Gerät oder (optional) in deiner persönlichen iCloud gespeichert.";
+"privacy_overview_datastorage_darwin_description" = "Deine Finanzen sind privat – und das soll auch so bleiben. Daher werden deine Daten ausschließlich auf deinem Gerät oder in deiner persönlichen iCloud gespeichert.";
+"privacy_overview_datastorage_android_description" = "Deine Finanzen sind privat – und das soll auch so bleiben. Daher werden deine Daten ausschließlich auf deinem Gerät gespeichert.";
 
 "privacy_overview_privacy_control_title" = "Du hast die Kontrolle";
 "privacy_overview_privacy_control_description" = "Ob es um deine gespeicherten Daten, die Nutzung deines Standorts oder den Zugriff auf deine Kamera geht - du hast immer die Kontrolle. So kannst du deine Daten zum Beispiel unkompliziert löschen, indem du die App zurücksetzt, und die Zugriffsberechtigungen der App jederzeit anpassen.";

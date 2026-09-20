@@ -907,7 +907,8 @@
 
 /* Overview */
 "privacy_overview_datastorage_title" = "Emmagatzematge segur de dades";
-"privacy_overview_datastorage_description" = "Les teves finances són privades i així han de continuar. Per això, les teves dades s'emmagatzemen exclusivament al teu dispositiu o (opcionalment) al teu iCloud personal.";
+"privacy_overview_datastorage_darwin_description" = "Les teves finances són privades i així han de continuar. Per això, les teves dades s'emmagatzemen exclusivament al teu dispositiu o al teu iCloud personal.";
+"privacy_overview_datastorage_android_description" = "Les teves finances són privades i així han de continuar. Per això, les teves dades s'emmagatzemen exclusivament al teu dispositiu.";
 
 "privacy_overview_privacy_control_title" = "Tu tens el control";
 "privacy_overview_privacy_control_description" = "Sigui que es tracti de les teves dades guardades, l'ús de la teva ubicació o l'accés a la teva càmera, sempre tens el control. Per exemple, pots eliminar fàcilment les teves dades restablint l'app i els permisos d'accés es poden ajustar en qualsevol moment.";

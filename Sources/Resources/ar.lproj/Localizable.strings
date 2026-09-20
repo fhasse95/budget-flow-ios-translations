@@ -907,7 +907,8 @@
 
 /* Overview */
 "privacy_overview_datastorage_title" = "تخزين آمن للبيانات";
-"privacy_overview_datastorage_description" = "أموالك خاصة – ويجب أن تظل كذلك. لهذا السبب، يتم تخزين بياناتك فقط على جهازك أو (اختياريًا) في iCloud الشخصي الخاص بك.";
+"privacy_overview_datastorage_darwin_description" = "أموالك خاصة – ويجب أن تظل كذلك. لهذا السبب، يتم تخزين بياناتك فقط على جهازك أو في iCloud الشخصي الخاص بك.";
+"privacy_overview_datastorage_android_description" = "أموالك خاصة – ويجب أن تظل كذلك. لهذا السبب، يتم تخزين بياناتك فقط على جهازك.";
 
 "privacy_overview_privacy_control_title" = "أنت المتحكم";
 "privacy_overview_privacy_control_description" = "سواء كان الأمر يتعلق ببياناتك المحفوظة، أو استخدام موقعك، أو الوصول إلى الكاميرا الخاصة بك، فأنت دائمًا المتحكم. على سبيل المثال، يمكنك بسهولة حذف بياناتك عن طريق إعادة تعيين التطبيق، ويمكن تعديل أذونات التطبيق على في أي وقت.";

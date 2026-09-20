@@ -907,7 +907,8 @@
 
 /* Overview */
 "privacy_overview_datastorage_title" = "Archiviazione sicura dei dati";
-"privacy_overview_datastorage_description" = "Le tue finanze sono private e dovrebbero restare tali. Ecco perché i tuoi dati sono archiviati esclusivamente sul tuo dispositivo o (facoltativamente) sul tuo iCloud personale.";
+"privacy_overview_datastorage_darwin_description" = "Le tue finanze sono private e dovrebbero restare tali. Ecco perché i tuoi dati sono archiviati esclusivamente sul tuo dispositivo o sul tuo iCloud personale.";
+"privacy_overview_datastorage_android_description" = "Le tue finanze sono private e dovrebbero restare tali. Ecco perché i tuoi dati sono archiviati esclusivamente sul tuo dispositivo.";
 
 "privacy_overview_privacy_control_title" = "Hai il controllo";
 "privacy_overview_privacy_control_description" = "Sia che si tratti dei tuoi dati memorizzati, della localizzazione o dell'accesso alla fotocamera, hai il pieno controllo. Puoi facilmente eliminare i tuoi dati reimpostando l'app e puoi modificare le autorizzazioni di accesso in qualsiasi momento.";

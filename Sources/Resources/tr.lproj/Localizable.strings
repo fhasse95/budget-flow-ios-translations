@@ -907,7 +907,8 @@
 
 /* Overview */
 "privacy_overview_datastorage_title" = "Güvenli veri depolama";
-"privacy_overview_datastorage_description" = "Finansal verileriniz gizlidir ve öyle kalmalıdır. Bu nedenle verileriniz yalnızca cihazınızda veya (isteğe bağlı olarak) kişisel iCloud'unuzda saklanır.";
+"privacy_overview_datastorage_darwin_description" = "Finansal verileriniz gizlidir ve öyle kalmalıdır. Bu nedenle verileriniz yalnızca cihazınızda veya kişisel iCloud'unuzda saklanır.";
+"privacy_overview_datastorage_android_description" = "Finansal verileriniz gizlidir ve öyle kalmalıdır. Bu nedenle verileriniz yalnızca cihazınızda saklanır.";
 
 "privacy_overview_privacy_control_title" = "Kontrol sizde";
 "privacy_overview_privacy_control_description" = "İster kayıtlı verileriniz, ister konumunuzun kullanımı veya kameranıza erişim olsun - kontrol her zaman sizdedir. Örneğin, uygulamayı sıfırlayarak verilerinizi kolayca silebilirsiniz ve uygulamanın erişim izinleri şu adreste ayarlanır: istediğin zaman.";

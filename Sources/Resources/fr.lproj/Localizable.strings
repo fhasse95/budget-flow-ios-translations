@@ -907,7 +907,8 @@
 
 /* Overview */
 "privacy_overview_datastorage_title" = "Stockage sécurisé des données";
-"privacy_overview_datastorage_description" = "Vos finances sont privées – et elles doivent le rester. C'est pourquoi vos données sont stockées exclusivement sur votre appareil ou (en option) dans votre iCloud personnel.";
+"privacy_overview_datastorage_darwin_description" = "Vos finances sont privées – et elles doivent le rester. C'est pourquoi vos données sont stockées exclusivement sur votre appareil ou dans votre iCloud personnel.";
+"privacy_overview_datastorage_android_description" = "Vos finances sont privées – et elles doivent le rester. C'est pourquoi vos données sont stockées exclusivement sur votre appareil.";
 
 "privacy_overview_privacy_control_title" = "Vous avez le contrôle";
 "privacy_overview_privacy_control_description" = "Qu'il s'agisse de vos données enregistrées, de l'utilisation de votre emplacement ou de l'accès à votre caméra, vous avez toujours le contrôle. Par exemple, vous pouvez facilement supprimer vos données en réinitialisant l'app et les autorisations d'accès de l'app s'ajustent à tout moment.";

@@ -907,7 +907,8 @@
 
 /* Overview */
 "privacy_overview_datastorage_title" = "Suojattu tietojen tallennus";
-"privacy_overview_datastorage_description" = "Talousi on yksityistä – ja sen pitäisi pysyä sellaisina. Siksi tietosi tallennetaan yksinomaan laitteellesi tai (valinnaisesti) henkilökohtaiseen iCloudiisi.";
+"privacy_overview_datastorage_darwin_description" = "Talousi on yksityistä – ja sen pitäisi pysyä sellaisina. Siksi tietosi tallennetaan yksinomaan laitteellesi tai henkilökohtaiseen iCloudiisi.";
+"privacy_overview_datastorage_android_description" = "Talousi on yksityistä – ja sen pitäisi pysyä sellaisina. Siksi tietosi tallennetaan yksinomaan laitteellesi.";
 
 "privacy_overview_privacy_control_title" = "Sinä hallitset";
 "privacy_overview_privacy_control_description" = "Oletpa kyse sitten tallennetuista tiedoistasi, sijaintisi käytöstä tai pääsystä kameraan - sinä hallitset aina. Voit esimerkiksi helposti poistaa tietosi nollaamalla sovelluksen ja säätämällä sovelluksen käyttöoikeuksia osoitteessa milloin tahansa.";

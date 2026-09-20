@@ -907,7 +907,8 @@
 
 /* Overview */
 "privacy_overview_datastorage_title" = "Sikker datalagring";
-"privacy_overview_datastorage_description" = "Din økonomi er privat – og sådan burde de forblive. Det er derfor, dine data gemmes udelukkende på din enhed eller (valgfrit) i din personlige iCloud.";
+"privacy_overview_datastorage_darwin_description" = "Din økonomi er privat – og sådan burde de forblive. Det er derfor, dine data gemmes udelukkende på din enhed eller i din personlige iCloud.";
+"privacy_overview_datastorage_android_description" = "Din økonomi er privat – og sådan burde de forblive. Det er derfor, dine data gemmes udelukkende på din enhed.";
 
 "privacy_overview_privacy_control_title" = "Du har kontrol";
 "privacy_overview_privacy_control_description" = "Uanset om det er dine gemte data, brug af din placering eller adgang til dit kamera - du har altid kontrollen. For eksempel kan du nemt slette dine data ved at nulstille appen og adgangstilladelserne til appen justeres kl. når som helst.";

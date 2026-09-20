@@ -907,7 +907,8 @@
 
 /* Overview */
 "privacy_overview_datastorage_title" = "Depozitare securizată a datelor";
-"privacy_overview_datastorage_description" = "Finanțele tale sunt private – și ar trebui să rămână așa. De aceea datele tale sunt stocate exclusiv pe dispozitivul tău sau (opțional) în iCloud-ul tău personal.";
+"privacy_overview_datastorage_darwin_description" = "Finanțele tale sunt private – și ar trebui să rămână așa. De aceea datele tale sunt stocate exclusiv pe dispozitivul tău sau în iCloud-ul tău personal.";
+"privacy_overview_datastorage_android_description" = "Finanțele tale sunt private – și ar trebui să rămână așa. De aceea datele tale sunt stocate exclusiv pe dispozitivul tău.";
 
 "privacy_overview_privacy_control_title" = "Dețineți controlul";
 "privacy_overview_privacy_control_description" = "Fie că este vorba despre datele dvs. salvate, utilizarea locației dvs. sau accesul la camera dvs. - aveți întotdeauna controlul. De exemplu, puteți șterge cu ușurință datele prin resetarea aplicației, iar permisiunile de acces ale aplicației se ajustează la oricând.";

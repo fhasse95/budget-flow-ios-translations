@@ -907,7 +907,8 @@
 
 /* Overview */
 "privacy_overview_datastorage_title" = "Varno shranjevanje podatkov";
-"privacy_overview_datastorage_description" = "Vaše finance so zasebne – in naj tako ostanejo. Zato so vaši podatki shranjeni izključno na vaši napravi ali (po želji) v vašem osebnem iCloudu.";
+"privacy_overview_datastorage_darwin_description" = "Vaše finance so zasebne – in naj tako ostanejo. Zato so vaši podatki shranjeni izključno na vaši napravi ali v vašem osebnem iCloudu.";
+"privacy_overview_datastorage_android_description" = "Vaše finance so zasebne – in naj tako ostanejo. Zato so vaši podatki shranjeni izključno na vaši napravi.";
 
 "privacy_overview_privacy_control_title" = "Nadzor nad zasebnostjo";
 "privacy_overview_privacy_control_description" = "Ne glede na to, ali gre za shranjene podatke, uporabo vaše lokacije ali dostop do vašega fotoaparata – vedno imate nadzor. Na primer, lahko preprosto izbrišete svoje podatke s ponastavitvijo aplikacije in dovoljenja dostopa aplikacije lahko kadarkoli prilagodite.";

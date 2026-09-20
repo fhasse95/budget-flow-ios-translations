@@ -907,7 +907,8 @@
 
 /* Overview */
 "privacy_overview_datastorage_title" = "安全なデータ ストレージ";
-"privacy_overview_datastorage_description" = "あなたの財務情報はプライベートであり、その状態が維持されるべきです。そのため、あなたのデータはあなたのデバイス上または（任意で）個人の iCloud 上にのみ保存されます。";
+"privacy_overview_datastorage_darwin_description" = "あなたの財務情報はプライベートであり、その状態が維持されるべきです。そのため、あなたのデータはあなたのデバイス上または個人の iCloud 上にのみ保存されます。";
+"privacy_overview_datastorage_android_description" = "あなたの財務情報はプライベートであり、その状態が維持されるべきです。そのため、あなたのデータはあなたのデバイス上にのみ保存されます。";
 
 "privacy_overview_privacy_control_title" = "制御権はあなたにあります";
 "privacy_overview_privacy_control_description" = "保存したデータ、位置情報の使用、カメラへのアクセスなど、いつでもあなたがコントロールできます。たとえば、アプリをリセットし、アプリのアクセス許可を調整することで、データを簡単に削除できます。";

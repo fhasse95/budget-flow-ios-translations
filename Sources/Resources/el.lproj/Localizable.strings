@@ -928,6 +928,7 @@
 "onboarding_reminder_intro_view_description" = "Λάβετε τακτικές υπενθυμίσεις για να παρακολουθείτε τα έξοδά σας";
 
 /* Notification */
+"onboarding_reminder_intro_view_notification_now" = "Τώρα";
 "onboarding_reminder_intro_view_notification_body" = "Τα καταχωρίσατε όλα; ⏰";
 
 

@@ -928,6 +928,7 @@
 "onboarding_reminder_intro_view_description" = "Primaj redovne podsjetnike da pratiš svoje troškove";
 
 /* Notification */
+"onboarding_reminder_intro_view_notification_now" = "Sada";
 "onboarding_reminder_intro_view_notification_body" = "Jesi li već sve unio/la? ⏰";
 
 

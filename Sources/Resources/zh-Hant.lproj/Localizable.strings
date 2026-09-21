@@ -928,6 +928,7 @@
 "onboarding_reminder_intro_view_description" = "定期接收提醒，隨時留意你的支出";
 
 /* Notification */
+"onboarding_reminder_intro_view_notification_now" = "現在";
 "onboarding_reminder_intro_view_notification_body" = "都記錄好了嗎？⏰";
 
 

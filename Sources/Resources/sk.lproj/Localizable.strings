@@ -928,6 +928,7 @@
 "onboarding_reminder_intro_view_description" = "Nechajte si pravidelne pripomínať, aby ste mali svoje výdavky pod kontrolou";
 
 /* Notification */
+"onboarding_reminder_intro_view_notification_now" = "Teraz";
 "onboarding_reminder_intro_view_notification_body" = "Už máte všetko zadané? ⏰";
 
 

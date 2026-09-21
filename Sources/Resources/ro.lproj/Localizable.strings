@@ -928,6 +928,7 @@
 "onboarding_reminder_intro_view_description" = "Primește mementouri regulate ca să îți urmărești cheltuielile";
 
 /* Notification */
+"onboarding_reminder_intro_view_notification_now" = "Acum";
 "onboarding_reminder_intro_view_notification_body" = "Ai introdus deja totul? ⏰";
 
 

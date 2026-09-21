@@ -928,6 +928,7 @@
 "onboarding_reminder_intro_view_description" = "지출을 놓치지 않도록 정기적으로 알림을 받아보세요";
 
 /* Notification */
+"onboarding_reminder_intro_view_notification_now" = "지금";
 "onboarding_reminder_intro_view_notification_body" = "모두 입력하셨나요? ⏰";
 
 

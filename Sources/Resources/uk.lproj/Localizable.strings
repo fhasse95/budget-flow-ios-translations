@@ -928,6 +928,7 @@
 "onboarding_reminder_intro_view_description" = "Отримуйте регулярні нагадування, щоб стежити за своїми витратами";
 
 /* Notification */
+"onboarding_reminder_intro_view_notification_now" = "Зараз";
 "onboarding_reminder_intro_view_notification_body" = "Уже все внесено? ⏰";
 
 

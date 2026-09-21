@@ -928,6 +928,7 @@
 "onboarding_reminder_intro_view_description" = "支出を把握できるよう定期的にリマインダーを受け取りましょう";
 
 /* Notification */
+"onboarding_reminder_intro_view_notification_now" = "今";
 "onboarding_reminder_intro_view_notification_body" = "もうすべて入力しましたか？ ⏰";
 
 

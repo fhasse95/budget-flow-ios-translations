@@ -928,6 +928,7 @@
 "onboarding_reminder_intro_view_description" = "Kapj rendszeres emlékeztetőket, hogy szemmel tartsd a kiadásaidat";
 
 /* Notification */
+"onboarding_reminder_intro_view_notification_now" = "Most";
 "onboarding_reminder_intro_view_notification_body" = "Már mindent rögzítettél? ⏰";
 
 

@@ -928,6 +928,7 @@
 "onboarding_reminder_intro_view_description" = "Rep recordatoris regulars per controlar les teves despeses";
 
 /* Notification */
+"onboarding_reminder_intro_view_notification_now" = "Ara";
 "onboarding_reminder_intro_view_notification_body" = "Ja ho has introduït tot? ⏰";
 
 

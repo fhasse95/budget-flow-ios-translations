@@ -928,6 +928,7 @@
 "onboarding_reminder_intro_view_description" = "Nhận lời nhắc định kỳ để theo dõi các khoản chi của bạn";
 
 /* Notification */
+"onboarding_reminder_intro_view_notification_now" = "Bây giờ";
 "onboarding_reminder_intro_view_notification_body" = "Bạn đã nhập hết chưa? ⏰";
 
 

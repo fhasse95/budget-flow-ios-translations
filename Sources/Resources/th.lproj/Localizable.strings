@@ -928,6 +928,7 @@
 "onboarding_reminder_intro_view_description" = "รับการเตือนเป็นประจำเพื่อคอยดูแลค่าใช้จ่ายของคุณ";
 
 /* Notification */
+"onboarding_reminder_intro_view_notification_now" = "ตอนนี้";
 "onboarding_reminder_intro_view_notification_body" = "บันทึกครบแล้วหรือยัง? ⏰";
 
 

@@ -928,6 +928,7 @@
 "onboarding_reminder_intro_view_description" = "Dapatkan pengingat rutin untuk memantau pengeluaranmu";
 
 /* Notification */
+"onboarding_reminder_intro_view_notification_now" = "Sekarang";
 "onboarding_reminder_intro_view_notification_body" = "Sudah mencatat semuanya? ⏰";
 
 

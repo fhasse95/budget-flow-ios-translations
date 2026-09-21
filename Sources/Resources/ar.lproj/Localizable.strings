@@ -928,6 +928,7 @@
 "onboarding_reminder_intro_view_description" = "احصل على تذكيرات منتظمة لمتابعة نفقاتك";
 
 /* Notification */
+"onboarding_reminder_intro_view_notification_now" = "الآن";
 "onboarding_reminder_intro_view_notification_body" = "هل أدخلت كل شيء بالفعل؟ ⏰";
 
 

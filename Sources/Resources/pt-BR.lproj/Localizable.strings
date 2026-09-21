@@ -928,6 +928,7 @@
 "onboarding_reminder_intro_view_description" = "Receba lembretes regulares para acompanhar seus gastos";
 
 /* Notification */
+"onboarding_reminder_intro_view_notification_now" = "Agora";
 "onboarding_reminder_intro_view_notification_body" = "Já registrou tudo? ⏰";
 
 

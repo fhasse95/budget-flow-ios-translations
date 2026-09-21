@@ -928,6 +928,7 @@
 "onboarding_reminder_intro_view_description" = "Otrzymuj regularne przypomnienia, aby mieć wydatki pod kontrolą";
 
 /* Notification */
+"onboarding_reminder_intro_view_notification_now" = "Teraz";
 "onboarding_reminder_intro_view_notification_body" = "Wszystko już wpisane? ⏰";
 
 

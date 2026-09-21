@@ -928,6 +928,7 @@
 "onboarding_reminder_intro_view_description" = "Få regelbundna påminnelser om att hålla koll på dina utgifter";
 
 /* Notification */
+"onboarding_reminder_intro_view_notification_now" = "Nu";
 "onboarding_reminder_intro_view_notification_body" = "Har du redan lagt in allt? ⏰";
 
 

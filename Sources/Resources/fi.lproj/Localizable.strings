@@ -928,6 +928,7 @@
 "onboarding_reminder_intro_view_description" = "Saat säännöllisiä muistutuksia, jotta pysyt perillä menoistasi";
 
 /* Notification */
+"onboarding_reminder_intro_view_notification_now" = "Nyt";
 "onboarding_reminder_intro_view_notification_body" = "Oletko jo lisännyt kaiken? ⏰";
 
 

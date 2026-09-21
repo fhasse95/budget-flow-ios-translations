@@ -897,13 +897,13 @@
 "alert_set_passcode_type_title" = "Επιλογή κωδικού πρόσβασης";
 
 
-/* MARK: - Welcome View */
+/* MARK: - Onboarding Welcome View */
 /* Titles */
-"welcome_view_title" = "Καλώς ήρθατε";
+"onboarding_welcome_view_title" = "Καλώς ήρθατε";
 
 /* Sections */
-"welcome_view_overview_section_title" = "Σύνοψη";
-"welcome_view_legal_documents_section_title" = "Περισσότερες πληροφορίες";
+"onboarding_welcome_view_overview_section_title" = "Σύνοψη";
+"onboarding_welcome_view_legal_documents_section_title" = "Περισσότερες πληροφορίες";
 
 /* Overview */
 "privacy_overview_datastorage_title" = "Ασφαλής αποθήκευση δεδομένων";
@@ -914,12 +914,21 @@
 "privacy_overview_privacy_control_description" = "Μπορείτε να διαγράψετε τα δεδομένα σας οποιαδήποτε στιγμή και να προσαρμόσετε δικαιώματα όπως τοποθεσία, κάμερα ή ειδοποιήσεις στις ρυθμίσεις συστήματος.";
 
 /* Header */
-"welcome_view_header_title" = "Καλώς ήρθατε στο";
-"welcome_view_header_description" = "Παρακολουθήστε έσοδα και έξοδα, εντοπίστε μοτίβα και πάρτε καλύτερες αποφάσεις για τα χρήματά σας.";
+"onboarding_welcome_view_header_title" = "Καλώς ήρθατε στο";
+"onboarding_welcome_view_header_description" = "Παρακολουθήστε έσοδα και έξοδα, εντοπίστε μοτίβα και πάρτε καλύτερες αποφάσεις για τα χρήματά σας";
 
 /* Footer */
 "privacy_policy_title" = "Πολιτική απορρήτου";
-"welcome_view_agreement_description" = "Κάνοντας κλικ στο \"Αποδοχή\" συναινείτε στο %@.";
+"onboarding_welcome_view_agreement_description" = "Κάνοντας κλικ στο \"Αποδοχή\" συναινείτε στο %@.";
+
+
+/* MARK: - Onboarding Reminder Intro View */
+/* Header */
+"onboarding_reminder_intro_view_title" = "Μείνετε σε τροχιά";
+"onboarding_reminder_intro_view_description" = "Λάβετε τακτικές υπενθυμίσεις για να παρακολουθείτε τα έξοδά σας";
+
+/* Notification */
+"onboarding_reminder_intro_view_notification_body" = "Τα καταχωρίσατε όλα; ⏰";
 
 
 /* MARK: - New Features View */

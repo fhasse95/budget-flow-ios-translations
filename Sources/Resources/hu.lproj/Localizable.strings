@@ -897,13 +897,13 @@
 "alert_set_passcode_type_title" = "Jelszó opció kiválasztása";
 
 
-/* MARK: - Welcome View */
+/* MARK: - Onboarding Welcome View */
 /* Titles */
-"welcome_view_title" = "Üdvözöljük";
+"onboarding_welcome_view_title" = "Üdvözöljük";
 
 /* Sections */
-"welcome_view_overview_section_title" = "Összefoglaló";
-"welcome_view_legal_documents_section_title" = "További információ";
+"onboarding_welcome_view_overview_section_title" = "Összefoglaló";
+"onboarding_welcome_view_legal_documents_section_title" = "További információ";
 
 /* Overview */
 "privacy_overview_datastorage_title" = "Biztonságos adattárolás";
@@ -914,12 +914,21 @@
 "privacy_overview_privacy_control_description" = "Adatait bármikor törölheti, és a helyhez, kamerához vagy értesítésekhez hasonló engedélyeket a rendszerbeállításokban módosíthatja.";
 
 /* Header */
-"welcome_view_header_title" = "Üdvözöljük";
-"welcome_view_header_description" = "Tartsa szem előtt bevételeit és kiadásait, ismerje fel a mintákat, és hozzon jobb döntéseket a pénzével.";
+"onboarding_welcome_view_header_title" = "Üdvözöljük";
+"onboarding_welcome_view_header_description" = "Tartsa szem előtt bevételeit és kiadásait, ismerje fel a mintákat, és hozzon jobb döntéseket a pénzével";
 
 /* Footer */
 "privacy_policy_title" = "Adatvédelmi szabályzat";
-"welcome_view_agreement_description" = "Az \"Elfogadás\" gombra kattintva elfogadja a %@.";
+"onboarding_welcome_view_agreement_description" = "Az \"Elfogadás\" gombra kattintva elfogadja a %@.";
+
+
+/* MARK: - Onboarding Reminder Intro View */
+/* Header */
+"onboarding_reminder_intro_view_title" = "Maradj képben";
+"onboarding_reminder_intro_view_description" = "Kapj rendszeres emlékeztetőket, hogy szemmel tartsd a kiadásaidat";
+
+/* Notification */
+"onboarding_reminder_intro_view_notification_body" = "Már mindent rögzítettél? ⏰";
 
 
 /* MARK: - New Features View */

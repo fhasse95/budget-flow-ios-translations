@@ -897,13 +897,13 @@
 "alert_set_passcode_type_title" = "اختر نوع كلمة المرور";
 
 
-/* MARK: - Welcome View */
+/* MARK: - Onboarding Welcome View */
 /* Titles */
-"welcome_view_title" = "مرحبًا";
+"onboarding_welcome_view_title" = "مرحبًا";
 
 /* Sections */
-"welcome_view_overview_section_title" = "الملخص";
-"welcome_view_legal_documents_section_title" = "معلومات قانونية";
+"onboarding_welcome_view_overview_section_title" = "الملخص";
+"onboarding_welcome_view_legal_documents_section_title" = "معلومات قانونية";
 
 /* Overview */
 "privacy_overview_datastorage_title" = "تخزين آمن للبيانات";
@@ -914,12 +914,21 @@
 "privacy_overview_privacy_control_description" = "يمكنك حذف بياناتك في أي وقت وتعديل الأذونات مثل الموقع أو الكاميرا أو الإشعارات في إعدادات النظام.";
 
 /* Header */
-"welcome_view_header_title" = "مرحبًا";
-"welcome_view_header_description" = "تابع دخلك ونفقاتك، واكتشف الأنماط، واتخذ قرارات أفضل بشأن أموالك.";
+"onboarding_welcome_view_header_title" = "مرحبًا";
+"onboarding_welcome_view_header_description" = "تابع دخلك ونفقاتك، واكتشف الأنماط، واتخذ قرارات أفضل بشأن أموالك";
 
 /* Footer */
 "privacy_policy_title" = "سياسة الخصوصية";
-"welcome_view_agreement_description" = "بالنقر فوق \"قبول\"، فإنك توافق على %@.";
+"onboarding_welcome_view_agreement_description" = "بالنقر فوق \"قبول\"، فإنك توافق على %@.";
+
+
+/* MARK: - Onboarding Reminder Intro View */
+/* Header */
+"onboarding_reminder_intro_view_title" = "ابقَ على المسار";
+"onboarding_reminder_intro_view_description" = "احصل على تذكيرات منتظمة لمتابعة نفقاتك";
+
+/* Notification */
+"onboarding_reminder_intro_view_notification_body" = "هل أدخلت كل شيء بالفعل؟ ⏰";
 
 
 /* MARK: - New Features View */

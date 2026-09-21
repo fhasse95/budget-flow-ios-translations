@@ -897,13 +897,13 @@
 "alert_set_passcode_type_title" = "选择密码选项";
 
 
-/* MARK: - Welcome View */
+/* MARK: - Onboarding Welcome View */
 /* Titles */
-"welcome_view_title" = "欢迎";
+"onboarding_welcome_view_title" = "欢迎";
 
 /* Sections */
-"welcome_view_overview_section_title" = "概要";
-"welcome_view_legal_documents_section_title" = "更多信息";
+"onboarding_welcome_view_overview_section_title" = "概要";
+"onboarding_welcome_view_legal_documents_section_title" = "更多信息";
 
 /* Overview */
 "privacy_overview_datastorage_title" = "安全数据存储";
@@ -914,12 +914,21 @@
 "privacy_overview_privacy_control_description" = "你可以随时删除数据，并在系统设置中调整位置、相机或通知等权限。";
 
 /* Header */
-"welcome_view_header_title" = "欢迎来到";
-"welcome_view_header_description" = "清楚掌握收入和支出，发现规律，并更好地做出用钱决策。";
+"onboarding_welcome_view_header_title" = "欢迎来到";
+"onboarding_welcome_view_header_description" = "清楚掌握收入和支出，发现规律，并更好地做出用钱决策";
 
 /* Footer */
 "privacy_policy_title" = "隐私政策";
-"welcome_view_agreement_description" = "点击 \"接受\" 即表示您同意 %@";
+"onboarding_welcome_view_agreement_description" = "点击 \"接受\" 即表示您同意 %@";
+
+
+/* MARK: - Onboarding Reminder Intro View */
+/* Header */
+"onboarding_reminder_intro_view_title" = "保持跟进";
+"onboarding_reminder_intro_view_description" = "定期接收提醒，随时关注你的支出";
+
+/* Notification */
+"onboarding_reminder_intro_view_notification_body" = "都记录好了吗？⏰";
 
 
 /* MARK: - New Features View */

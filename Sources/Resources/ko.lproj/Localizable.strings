@@ -897,13 +897,13 @@
 "alert_set_passcode_type_title" = "암호 옵션 선택";
 
 
-/* MARK: - Welcome View */
+/* MARK: - Onboarding Welcome View */
 /* Titles */
-"welcome_view_title" = "환영합니다";
+"onboarding_welcome_view_title" = "환영합니다";
 
 /* Sections */
-"welcome_view_overview_section_title" = "요약";
-"welcome_view_legal_documents_section_title" = "추가 정보";
+"onboarding_welcome_view_overview_section_title" = "요약";
+"onboarding_welcome_view_legal_documents_section_title" = "추가 정보";
 
 /* Overview */
 "privacy_overview_datastorage_title" = "보안 데이터 저장소";
@@ -914,12 +914,21 @@
 "privacy_overview_privacy_control_description" = "언제든지 데이터를 삭제하고 위치, 카메라 또는 알림 같은 권한을 시스템 설정에서 조정할 수 있습니다.";
 
 /* Header */
-"welcome_view_header_title" = "환영합니다";
-"welcome_view_header_description" = "수입과 지출을 한눈에 보고, 패턴을 파악하며, 돈에 대해 더 나은 결정을 내리세요.";
+"onboarding_welcome_view_header_title" = "환영합니다";
+"onboarding_welcome_view_header_description" = "수입과 지출을 한눈에 보고, 패턴을 파악하며, 돈에 대해 더 나은 결정을 내리세요";
 
 /* Footer */
 "privacy_policy_title" = "개인정보 보호정책";
-"welcome_view_agreement_description" = "\"동의\" 를 클릭하면 %@ 에 동의하게 됩니다.";
+"onboarding_welcome_view_agreement_description" = "\"동의\" 를 클릭하면 %@ 에 동의하게 됩니다.";
+
+
+/* MARK: - Onboarding Reminder Intro View */
+/* Header */
+"onboarding_reminder_intro_view_title" = "꾸준히 관리하세요";
+"onboarding_reminder_intro_view_description" = "지출을 놓치지 않도록 정기적으로 알림을 받아보세요";
+
+/* Notification */
+"onboarding_reminder_intro_view_notification_body" = "모두 입력하셨나요? ⏰";
 
 
 /* MARK: - New Features View */

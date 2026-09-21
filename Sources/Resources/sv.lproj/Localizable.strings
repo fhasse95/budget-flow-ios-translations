@@ -897,13 +897,13 @@
 "alert_set_passcode_type_title" = "Välj lösenordsalternativ";
 
 
-/* MARK: - Welcome View */
+/* MARK: - Onboarding Welcome View */
 /* Titles */
-"welcome_view_title" = "Välkommen";
+"onboarding_welcome_view_title" = "Välkommen";
 
 /* Sections */
-"welcome_view_overview_section_title" = "Sammanfattning";
-"welcome_view_legal_documents_section_title" = "Mer information";
+"onboarding_welcome_view_overview_section_title" = "Sammanfattning";
+"onboarding_welcome_view_legal_documents_section_title" = "Mer information";
 
 /* Overview */
 "privacy_overview_datastorage_title" = "Säker datalagring";
@@ -914,12 +914,21 @@
 "privacy_overview_privacy_control_description" = "Du kan radera dina data när som helst och justera behörigheter som plats, kamera eller notiser i systeminställningarna.";
 
 /* Header */
-"welcome_view_header_title" = "Välkommen till";
-"welcome_view_header_description" = "Håll koll på inkomster och utgifter, upptäck mönster och fatta bättre beslut med dina pengar.";
+"onboarding_welcome_view_header_title" = "Välkommen till";
+"onboarding_welcome_view_header_description" = "Håll koll på inkomster och utgifter, upptäck mönster och fatta bättre beslut med dina pengar";
 
 /* Footer */
 "privacy_policy_title" = "Sekretesspolicy";
-"welcome_view_agreement_description" = "Genom att klicka på \"Acceptera\" samtycker du till %@.";
+"onboarding_welcome_view_agreement_description" = "Genom att klicka på \"Acceptera\" samtycker du till %@.";
+
+
+/* MARK: - Onboarding Reminder Intro View */
+/* Header */
+"onboarding_reminder_intro_view_title" = "Håll koll";
+"onboarding_reminder_intro_view_description" = "Få regelbundna påminnelser om att hålla koll på dina utgifter";
+
+/* Notification */
+"onboarding_reminder_intro_view_notification_body" = "Har du redan lagt in allt? ⏰";
 
 
 /* MARK: - New Features View */

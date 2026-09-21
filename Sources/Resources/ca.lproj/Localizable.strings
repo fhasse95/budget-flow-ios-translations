@@ -897,13 +897,13 @@
 "alert_set_passcode_type_title" = "Tria una opció de codi d'accés";
 
 
-/* MARK: - Welcome View */
+/* MARK: - Onboarding Welcome View */
 /* Titles */
-"welcome_view_title" = "Benvingut";
+"onboarding_welcome_view_title" = "Benvingut";
 
 /* Sections */
-"welcome_view_overview_section_title" = "Resum";
-"welcome_view_legal_documents_section_title" = "Més informació";
+"onboarding_welcome_view_overview_section_title" = "Resum";
+"onboarding_welcome_view_legal_documents_section_title" = "Més informació";
 
 /* Overview */
 "privacy_overview_datastorage_title" = "Emmagatzematge segur de dades";
@@ -914,12 +914,21 @@
 "privacy_overview_privacy_control_description" = "Pots eliminar les teves dades en qualsevol moment i ajustar permisos com la ubicació, la càmera o les notificacions a la configuració del sistema.";
 
 /* Header */
-"welcome_view_header_title" = "Benvingut a";
-"welcome_view_header_description" = "Tingues ingressos i despeses a la vista, detecta patrons i pren millors decisions amb els teus diners.";
+"onboarding_welcome_view_header_title" = "Benvingut a";
+"onboarding_welcome_view_header_description" = "Tingues ingressos i despeses a la vista, detecta patrons i pren millors decisions amb els teus diners";
 
 /* Footer */
 "privacy_policy_title" = "Política de privacitat";
-"welcome_view_agreement_description" = "En fer clic a \"Acceptar\" acceptes el %@.";
+"onboarding_welcome_view_agreement_description" = "En fer clic a \"Acceptar\" acceptes el %@.";
+
+
+/* MARK: - Onboarding Reminder Intro View */
+/* Header */
+"onboarding_reminder_intro_view_title" = "Mantén el ritme";
+"onboarding_reminder_intro_view_description" = "Rep recordatoris regulars per controlar les teves despeses";
+
+/* Notification */
+"onboarding_reminder_intro_view_notification_body" = "Ja ho has introduït tot? ⏰";
 
 
 /* MARK: - New Features View */

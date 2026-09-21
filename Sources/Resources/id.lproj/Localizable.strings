@@ -897,13 +897,13 @@
 "alert_set_passcode_type_title" = "Pilih opsi kode sandi";
 
 
-/* MARK: - Welcome View */
+/* MARK: - Onboarding Welcome View */
 /* Titles */
-"welcome_view_title" = "Selamat datang";
+"onboarding_welcome_view_title" = "Selamat datang";
 
 /* Sections */
-"welcome_view_overview_section_title" = "Ringkasan";
-"welcome_view_legal_documents_section_title" = "Informasi Lebih Lanjut";
+"onboarding_welcome_view_overview_section_title" = "Ringkasan";
+"onboarding_welcome_view_legal_documents_section_title" = "Informasi Lebih Lanjut";
 
 /* Overview */
 "privacy_overview_datastorage_title" = "Amankan penyimpanan data";
@@ -914,12 +914,21 @@
 "privacy_overview_privacy_control_description" = "Anda dapat menghapus data kapan saja dan menyesuaikan izin seperti lokasi, kamera, atau notifikasi di pengaturan sistem.";
 
 /* Header */
-"welcome_view_header_title" = "Selamat datang di";
-"welcome_view_header_description" = "Pantau pemasukan dan pengeluaran, temukan pola, dan buat keputusan yang lebih baik tentang uang Anda.";
+"onboarding_welcome_view_header_title" = "Selamat datang di";
+"onboarding_welcome_view_header_description" = "Pantau pemasukan dan pengeluaran, temukan pola, dan buat keputusan yang lebih baik tentang uang Anda";
 
 /* Footer */
 "privacy_policy_title" = "Kebijakan Privasi";
-"welcome_view_agreement_description" = "Dengan mengklik \"Terima\" Anda menyetujui %@.";
+"onboarding_welcome_view_agreement_description" = "Dengan mengklik \"Terima\" Anda menyetujui %@.";
+
+
+/* MARK: - Onboarding Reminder Intro View */
+/* Header */
+"onboarding_reminder_intro_view_title" = "Tetap Terpantau";
+"onboarding_reminder_intro_view_description" = "Dapatkan pengingat rutin untuk memantau pengeluaranmu";
+
+/* Notification */
+"onboarding_reminder_intro_view_notification_body" = "Sudah mencatat semuanya? ⏰";
 
 
 /* MARK: - New Features View */

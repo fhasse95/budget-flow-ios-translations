@@ -897,13 +897,13 @@
 "alert_set_passcode_type_title" = "Vyberte možnosť prístupového kódu";
 
 
-/* MARK: - Welcome View */
+/* MARK: - Onboarding Welcome View */
 /* Titles */
-"welcome_view_title" = "Vitajte";
+"onboarding_welcome_view_title" = "Vitajte";
 
 /* Sections */
-"welcome_view_overview_section_title" = "Zhrnutie";
-"welcome_view_legal_documents_section_title" = "Viac informácií";
+"onboarding_welcome_view_overview_section_title" = "Zhrnutie";
+"onboarding_welcome_view_legal_documents_section_title" = "Viac informácií";
 
 /* Overview */
 "privacy_overview_datastorage_title" = "Bezpečné ukladanie údajov";
@@ -914,12 +914,21 @@
 "privacy_overview_privacy_control_description" = "Svoje údaje môžete kedykoľvek vymazať a oprávnenia, ako poloha, fotoaparát alebo upozornenia, upraviť v systémových nastaveniach.";
 
 /* Header */
-"welcome_view_header_title" = "Vitajte v";
-"welcome_view_header_description" = "Majte príjmy a výdavky pod kontrolou, rozpoznávajte vzorce a robte lepšie rozhodnutia o svojich peniazoch.";
+"onboarding_welcome_view_header_title" = "Vitajte v";
+"onboarding_welcome_view_header_description" = "Majte príjmy a výdavky pod kontrolou, rozpoznávajte vzorce a robte lepšie rozhodnutia o svojich peniazoch";
 
 /* Footer */
 "privacy_policy_title" = "Zásady ochrany osobných údajov";
-"welcome_view_agreement_description" = "Kliknutím na \"Prijať\" vyjadrujete súhlas s %@.";
+"onboarding_welcome_view_agreement_description" = "Kliknutím na \"Prijať\" vyjadrujete súhlas s %@.";
+
+
+/* MARK: - Onboarding Reminder Intro View */
+/* Header */
+"onboarding_reminder_intro_view_title" = "Zostaňte v obraze";
+"onboarding_reminder_intro_view_description" = "Nechajte si pravidelne pripomínať, aby ste mali svoje výdavky pod kontrolou";
+
+/* Notification */
+"onboarding_reminder_intro_view_notification_body" = "Už máte všetko zadané? ⏰";
 
 
 /* MARK: - New Features View */

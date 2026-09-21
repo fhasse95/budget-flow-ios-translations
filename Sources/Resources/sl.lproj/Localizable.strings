@@ -897,13 +897,13 @@
 "alert_set_passcode_type_title" = "Izberite možnost kode";
 
 
-/* MARK: - Welcome View */
+/* MARK: - Onboarding Welcome View */
 /* Titles */
-"welcome_view_title" = "Dobrodošli";
+"onboarding_welcome_view_title" = "Dobrodošli";
 
 /* Sections */
-"welcome_view_overview_section_title" = "Povzetek";
-"welcome_view_legal_documents_section_title" = "Več informacij";
+"onboarding_welcome_view_overview_section_title" = "Povzetek";
+"onboarding_welcome_view_legal_documents_section_title" = "Več informacij";
 
 /* Overview */
 "privacy_overview_datastorage_title" = "Varno shranjevanje podatkov";
@@ -914,12 +914,21 @@
 "privacy_overview_privacy_control_description" = "Svoje podatke lahko kadar koli izbrišete in v sistemskih nastavitvah prilagodite dovoljenja, kot so lokacija, kamera ali obvestila.";
 
 /* Header */
-"welcome_view_header_title" = "Dobrodošli v";
-"welcome_view_header_description" = "Imejte prihodke in odhodke na očeh, prepoznajte vzorce in sprejemajte boljše odločitve o denarju.";
+"onboarding_welcome_view_header_title" = "Dobrodošli v";
+"onboarding_welcome_view_header_description" = "Imejte prihodke in odhodke na očeh, prepoznajte vzorce in sprejemajte boljše odločitve o denarju";
 
 /* Footer */
 "privacy_policy_title" = "Politika zasebnosti";
-"welcome_view_agreement_description" = "S klikom na \"Sprejmi\" se strinjate z %@.";
+"onboarding_welcome_view_agreement_description" = "S klikom na \"Sprejmi\" se strinjate z %@.";
+
+
+/* MARK: - Onboarding Reminder Intro View */
+/* Header */
+"onboarding_reminder_intro_view_title" = "Ostani na tekočem";
+"onboarding_reminder_intro_view_description" = "Prejemaj redne opomnike, da boš imel/a svoje izdatke pod nadzorom";
+
+/* Notification */
+"onboarding_reminder_intro_view_notification_body" = "Si že vse vnesel/la? ⏰";
 
 
 /* MARK: - New Features View */

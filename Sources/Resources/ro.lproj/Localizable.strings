@@ -897,13 +897,13 @@
 "alert_set_passcode_type_title" = "Alegeți opțiunea codului de acces";
 
 
-/* MARK: - Welcome View */
+/* MARK: - Onboarding Welcome View */
 /* Titles */
-"welcome_view_title" = "Bine ați venit";
+"onboarding_welcome_view_title" = "Bine ați venit";
 
 /* Sections */
-"welcome_view_overview_section_title" = "Rezumat";
-"welcome_view_legal_documents_section_title" = "Mai multe informații";
+"onboarding_welcome_view_overview_section_title" = "Rezumat";
+"onboarding_welcome_view_legal_documents_section_title" = "Mai multe informații";
 
 /* Overview */
 "privacy_overview_datastorage_title" = "Depozitare securizată a datelor";
@@ -914,12 +914,21 @@
 "privacy_overview_privacy_control_description" = "Îți poți șterge datele oricând și poți ajusta permisiuni precum locația, camera sau notificările în setările sistemului.";
 
 /* Header */
-"welcome_view_header_title" = "Bine ați venit la";
-"welcome_view_header_description" = "Ține veniturile și cheltuielile la vedere, observă tipare și ia decizii mai bune cu banii tăi.";
+"onboarding_welcome_view_header_title" = "Bine ați venit la";
+"onboarding_welcome_view_header_description" = "Ține veniturile și cheltuielile la vedere, observă tipare și ia decizii mai bune cu banii tăi";
 
 /* Footer */
 "privacy_policy_title" = "Politica de confidențialitate";
-"welcome_view_agreement_description" = "Făcând clic pe \"Accept\" sunteți de acord cu %@.";
+"onboarding_welcome_view_agreement_description" = "Făcând clic pe \"Accept\" sunteți de acord cu %@.";
+
+
+/* MARK: - Onboarding Reminder Intro View */
+/* Header */
+"onboarding_reminder_intro_view_title" = "Rămâi pe drumul cel bun";
+"onboarding_reminder_intro_view_description" = "Primește mementouri regulate ca să îți urmărești cheltuielile";
+
+/* Notification */
+"onboarding_reminder_intro_view_notification_body" = "Ai introdus deja totul? ⏰";
 
 
 /* MARK: - New Features View */

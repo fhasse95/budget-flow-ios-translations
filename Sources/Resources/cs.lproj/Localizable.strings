@@ -897,13 +897,13 @@
 "alert_set_passcode_type_title" = "Vyberte možnost přístupového kódu";
 
 
-/* MARK: - Welcome View */
+/* MARK: - Onboarding Welcome View */
 /* Titles */
-"welcome_view_title" = "Vítejte";
+"onboarding_welcome_view_title" = "Vítejte";
 
 /* Sections */
-"welcome_view_overview_section_title" = "Shrnutí";
-"welcome_view_legal_documents_section_title" = "Další informace";
+"onboarding_welcome_view_overview_section_title" = "Shrnutí";
+"onboarding_welcome_view_legal_documents_section_title" = "Další informace";
 
 /* Overview */
 "privacy_overview_datastorage_title" = "Bezpečné úložiště dat";
@@ -914,12 +914,21 @@
 "privacy_overview_privacy_control_description" = "Svá data můžete kdykoli smazat a oprávnění, jako je poloha, fotoaparát nebo oznámení, upravit v nastavení systému.";
 
 /* Header */
-"welcome_view_header_title" = "Vítejte v";
-"welcome_view_header_description" = "Mějte příjmy i výdaje pod kontrolou, rozpoznávejte vzorce a dělejte lepší rozhodnutí o svých penězích.";
+"onboarding_welcome_view_header_title" = "Vítejte v";
+"onboarding_welcome_view_header_description" = "Mějte příjmy i výdaje pod kontrolou, rozpoznávejte vzorce a dělejte lepší rozhodnutí o svých penězích";
 
 /* Footer */
 "privacy_policy_title" = "Zásady ochrany osobních údajů";
-"welcome_view_agreement_description" = "Kliknutím na \"Přijmout\" souhlasíte s %@.";
+"onboarding_welcome_view_agreement_description" = "Kliknutím na \"Přijmout\" souhlasíte s %@.";
+
+
+/* MARK: - Onboarding Reminder Intro View */
+/* Header */
+"onboarding_reminder_intro_view_title" = "Zůstaňte v obraze";
+"onboarding_reminder_intro_view_description" = "Nechte si pravidelně připomínat, abyste měli své výdaje pod kontrolou";
+
+/* Notification */
+"onboarding_reminder_intro_view_notification_body" = "Už máte všechno zadané? ⏰";
 
 
 /* MARK: - New Features View */

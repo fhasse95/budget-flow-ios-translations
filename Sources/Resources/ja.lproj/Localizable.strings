@@ -897,13 +897,13 @@
 "alert_set_passcode_type_title" = "パスコードのオプションを選択してください";
 
 
-/* MARK: - Welcome View */
+/* MARK: - Onboarding Welcome View */
 /* Titles */
-"welcome_view_title" = "ようこそ";
+"onboarding_welcome_view_title" = "ようこそ";
 
 /* Sections */
-"welcome_view_overview_section_title" = "概要";
-"welcome_view_legal_documents_section_title" = "詳細情報";
+"onboarding_welcome_view_overview_section_title" = "概要";
+"onboarding_welcome_view_legal_documents_section_title" = "詳細情報";
 
 /* Overview */
 "privacy_overview_datastorage_title" = "安全なデータ ストレージ";
@@ -914,12 +914,21 @@
 "privacy_overview_privacy_control_description" = "データはいつでも削除でき、位置情報、カメラ、通知などの権限はシステム設定で変更できます。";
 
 /* Header */
-"welcome_view_header_title" = "ようこそ";
-"welcome_view_header_description" = "収入と支出を把握し、傾向を見つけ、お金についてより良い判断をしましょう。";
+"onboarding_welcome_view_header_title" = "ようこそ";
+"onboarding_welcome_view_header_description" = "収入と支出を把握し、傾向を見つけ、お金についてより良い判断をしましょう";
 
 /* Footer */
 "privacy_policy_title" = "プライバシー ポリシー";
-"welcome_view_agreement_description" = "\"同意する\" をクリックすると、%@ に同意したことになります。";
+"onboarding_welcome_view_agreement_description" = "\"同意する\" をクリックすると、%@ に同意したことになります。";
+
+
+/* MARK: - Onboarding Reminder Intro View */
+/* Header */
+"onboarding_reminder_intro_view_title" = "忘れずに続けましょう";
+"onboarding_reminder_intro_view_description" = "支出を把握できるよう定期的にリマインダーを受け取りましょう";
+
+/* Notification */
+"onboarding_reminder_intro_view_notification_body" = "もうすべて入力しましたか？ ⏰";
 
 
 /* MARK: - New Features View */

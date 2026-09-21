@@ -897,13 +897,13 @@
 "alert_set_passcode_type_title" = "Codeoption wählen";
 
 
-/* MARK: - Welcome View */
+/* MARK: - Onboarding Welcome View */
 /* Titles */
-"welcome_view_title" = "Willkommen";
+"onboarding_welcome_view_title" = "Willkommen";
 
 /* Sections */
-"welcome_view_overview_section_title" = "Kurzfassung";
-"welcome_view_legal_documents_section_title" = "Weitere Informationen";
+"onboarding_welcome_view_overview_section_title" = "Kurzfassung";
+"onboarding_welcome_view_legal_documents_section_title" = "Weitere Informationen";
 
 /* Overview */
 "privacy_overview_datastorage_title" = "Sichere Datenspeicherung";
@@ -914,12 +914,21 @@
 "privacy_overview_privacy_control_description" = "Du kannst deine Daten jederzeit löschen und Berechtigungen wie Standort, Kamera oder Benachrichtigungen in den Systemeinstellungen anpassen.";
 
 /* Header */
-"welcome_view_header_title" = "Willkommen bei";
-"welcome_view_header_description" = "Behalte Einnahmen und Ausgaben im Blick, erkenne Muster und triff bessere Entscheidungen mit deinem Geld.";
+"onboarding_welcome_view_header_title" = "Willkommen bei";
+"onboarding_welcome_view_header_description" = "Behalte Einnahmen und Ausgaben im Blick, erkenne Muster und triff bessere Entscheidungen mit deinem Geld";
 
 /* Footer */
 "privacy_policy_title" = "Datenschutzerklärung";
-"welcome_view_agreement_description" = "Indem du auf \"Akzeptieren\" klickst, stimmst du der %@ zu.";
+"onboarding_welcome_view_agreement_description" = "Indem du auf \"Akzeptieren\" klickst, stimmst du der %@ zu.";
+
+
+/* MARK: - Onboarding Reminder Intro View */
+/* Header */
+"onboarding_reminder_intro_view_title" = "Bleib am Ball";
+"onboarding_reminder_intro_view_description" = "Lass dich regelmäßig daran erinnern, deine Ausgaben im Blick zu behalten";
+
+/* Notification */
+"onboarding_reminder_intro_view_notification_body" = "Schon alles eingetragen? ⏰";
 
 
 /* MARK: - New Features View */

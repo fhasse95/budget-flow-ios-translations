@@ -897,13 +897,13 @@
 "alert_set_passcode_type_title" = "Choisir l'option de code d'accès";
 
 
-/* MARK: - Welcome View */
+/* MARK: - Onboarding Welcome View */
 /* Titles */
-"welcome_view_title" = "Bienvenue";
+"onboarding_welcome_view_title" = "Bienvenue";
 
 /* Sections */
-"welcome_view_overview_section_title" = "Résumé";
-"welcome_view_legal_documents_section_title" = "Plus d'informations";
+"onboarding_welcome_view_overview_section_title" = "Résumé";
+"onboarding_welcome_view_legal_documents_section_title" = "Plus d'informations";
 
 /* Overview */
 "privacy_overview_datastorage_title" = "Stockage sécurisé des données";
@@ -914,12 +914,21 @@
 "privacy_overview_privacy_control_description" = "Vous pouvez supprimer vos données à tout moment et ajuster les autorisations comme la localisation, l'appareil photo ou les notifications dans les réglages système.";
 
 /* Header */
-"welcome_view_header_title" = "Bienvenue à";
-"welcome_view_header_description" = "Gardez revenus et dépenses en vue, repérez les tendances et prenez de meilleures décisions avec votre argent.";
+"onboarding_welcome_view_header_title" = "Bienvenue à";
+"onboarding_welcome_view_header_description" = "Gardez revenus et dépenses en vue, repérez les tendances et prenez de meilleures décisions avec votre argent";
 
 /* Footer */
 "privacy_policy_title" = "Politique de confidentialité";
-"welcome_view_agreement_description" = "En cliquant sur \"Accepter\", vous acceptez le %@.";
+"onboarding_welcome_view_agreement_description" = "En cliquant sur \"Accepter\", vous acceptez le %@.";
+
+
+/* MARK: - Onboarding Reminder Intro View */
+/* Header */
+"onboarding_reminder_intro_view_title" = "Gardez le cap";
+"onboarding_reminder_intro_view_description" = "Recevez des rappels réguliers pour garder un œil sur vos dépenses";
+
+/* Notification */
+"onboarding_reminder_intro_view_notification_body" = "Vous avez déjà tout saisi ? ⏰";
 
 
 /* MARK: - New Features View */

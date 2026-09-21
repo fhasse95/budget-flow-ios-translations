@@ -897,13 +897,13 @@
 "alert_set_passcode_type_title" = "Parola seçeneğini seçin";
 
 
-/* MARK: - Welcome View */
+/* MARK: - Onboarding Welcome View */
 /* Titles */
-"welcome_view_title" = "Hoş Geldiniz";
+"onboarding_welcome_view_title" = "Hoş Geldiniz";
 
 /* Sections */
-"welcome_view_overview_section_title" = "Özet";
-"welcome_view_legal_documents_section_title" = "Daha Fazla Bilgi";
+"onboarding_welcome_view_overview_section_title" = "Özet";
+"onboarding_welcome_view_legal_documents_section_title" = "Daha Fazla Bilgi";
 
 /* Overview */
 "privacy_overview_datastorage_title" = "Güvenli veri depolama";
@@ -914,12 +914,21 @@
 "privacy_overview_privacy_control_description" = "Verilerinizi istediğiniz zaman silebilir; konum, kamera veya bildirim gibi izinleri sistem ayarlarından düzenleyebilirsiniz.";
 
 /* Header */
-"welcome_view_header_title" = "Hoş Geldiniz";
-"welcome_view_header_description" = "Gelir ve giderlerinizi görün, alışkanlıkları fark edin ve paranızla ilgili daha iyi kararlar alın.";
+"onboarding_welcome_view_header_title" = "Hoş Geldiniz";
+"onboarding_welcome_view_header_description" = "Gelir ve giderlerinizi görün, alışkanlıkları fark edin ve paranızla ilgili daha iyi kararlar alın";
 
 /* Footer */
 "privacy_policy_title" = "Gizlilik Politikası";
-"welcome_view_agreement_description" = "\"Kabul\" seçeneğini tıklayarak %@ onayını vermiş olursunuz.";
+"onboarding_welcome_view_agreement_description" = "\"Kabul\" seçeneğini tıklayarak %@ onayını vermiş olursunuz.";
+
+
+/* MARK: - Onboarding Reminder Intro View */
+/* Header */
+"onboarding_reminder_intro_view_title" = "Kontrolü Elden Bırakma";
+"onboarding_reminder_intro_view_description" = "Harcamalarını takip etmek için düzenli hatırlatmalar al";
+
+/* Notification */
+"onboarding_reminder_intro_view_notification_body" = "Her şeyi girdin mi? ⏰";
 
 
 /* MARK: - New Features View */

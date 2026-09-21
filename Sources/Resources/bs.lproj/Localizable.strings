@@ -897,13 +897,13 @@
 "alert_set_passcode_type_title" = "Odaberi opciju šifre";
 
 
-/* MARK: - Welcome View */
+/* MARK: - Onboarding Welcome View */
 /* Titles */
-"welcome_view_title" = "Dobro došli";
+"onboarding_welcome_view_title" = "Dobro došli";
 
 /* Sections */
-"welcome_view_overview_section_title" = "Sažetak";
-"welcome_view_legal_documents_section_title" = "Više informacija";
+"onboarding_welcome_view_overview_section_title" = "Sažetak";
+"onboarding_welcome_view_legal_documents_section_title" = "Više informacija";
 
 /* Overview */
 "privacy_overview_datastorage_title" = "Sigurna pohrana podataka";
@@ -914,12 +914,21 @@
 "privacy_overview_privacy_control_description" = "Svoje podatke možete izbrisati u bilo kojem trenutku i prilagoditi dozvole poput lokacije, kamere ili obavještenja u sistemskim postavkama.";
 
 /* Header */
-"welcome_view_header_title" = "Dobro došli u";
-"welcome_view_header_description" = "Pratite prihode i rashode, prepoznajte obrasce i donosite bolje odluke o svom novcu.";
+"onboarding_welcome_view_header_title" = "Dobro došli u";
+"onboarding_welcome_view_header_description" = "Pratite prihode i rashode, prepoznajte obrasce i donosite bolje odluke o svom novcu";
 
 /* Footer */
 "privacy_policy_title" = "Pravila privatnosti";
-"welcome_view_agreement_description" = "Klikom na \"Prihvati\" pristajete na %@.";
+"onboarding_welcome_view_agreement_description" = "Klikom na \"Prihvati\" pristajete na %@.";
+
+
+/* MARK: - Onboarding Reminder Intro View */
+/* Header */
+"onboarding_reminder_intro_view_title" = "Ostani u toku";
+"onboarding_reminder_intro_view_description" = "Primaj redovne podsjetnike da pratiš svoje troškove";
+
+/* Notification */
+"onboarding_reminder_intro_view_notification_body" = "Jesi li već sve unio/la? ⏰";
 
 
 /* MARK: - New Features View */

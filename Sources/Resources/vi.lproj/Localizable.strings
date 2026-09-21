@@ -897,13 +897,13 @@
 "alert_set_passcode_type_title" = "Tuỳ chọn mật mã";
 
 
-/* MARK: - Welcome View */
+/* MARK: - Onboarding Welcome View */
 /* Titles */
-"welcome_view_title" = "Chào mừng";
+"onboarding_welcome_view_title" = "Chào mừng";
 
 /* Sections */
-"welcome_view_overview_section_title" = "Tóm tắt";
-"welcome_view_legal_documents_section_title" = "Thêm thông tin";
+"onboarding_welcome_view_overview_section_title" = "Tóm tắt";
+"onboarding_welcome_view_legal_documents_section_title" = "Thêm thông tin";
 
 /* Overview */
 "privacy_overview_datastorage_title" = "Lưu trữ dữ liệu an toàn";
@@ -914,12 +914,21 @@
 "privacy_overview_privacy_control_description" = "Bạn có thể xóa dữ liệu bất cứ lúc nào và điều chỉnh các quyền như vị trí, camera hoặc thông báo trong cài đặt hệ thống.";
 
 /* Header */
-"welcome_view_header_title" = "Chào mừng bạn";
-"welcome_view_header_description" = "Theo dõi thu nhập và chi phí, nhận ra các xu hướng và đưa ra quyết định tốt hơn với tiền của bạn.";
+"onboarding_welcome_view_header_title" = "Chào mừng bạn";
+"onboarding_welcome_view_header_description" = "Theo dõi thu nhập và chi phí, nhận ra các xu hướng và đưa ra quyết định tốt hơn với tiền của bạn";
 
 /* Footer */
 "privacy_policy_title" = "Chính sách bảo mật";
-"welcome_view_agreement_description" = "Bằng cách nhấp vào \"Xác nhận\" bạn đã đồng ý với %@.";
+"onboarding_welcome_view_agreement_description" = "Bằng cách nhấp vào \"Xác nhận\" bạn đã đồng ý với %@.";
+
+
+/* MARK: - Onboarding Reminder Intro View */
+/* Header */
+"onboarding_reminder_intro_view_title" = "Luôn theo sát";
+"onboarding_reminder_intro_view_description" = "Nhận lời nhắc định kỳ để theo dõi các khoản chi của bạn";
+
+/* Notification */
+"onboarding_reminder_intro_view_notification_body" = "Bạn đã nhập hết chưa? ⏰";
 
 
 /* MARK: - New Features View */

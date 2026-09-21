@@ -897,13 +897,13 @@
 "alert_set_passcode_type_title" = "Velg passordalternativ";
 
 
-/* MARK: - Welcome View */
+/* MARK: - Onboarding Welcome View */
 /* Titles */
-"welcome_view_title" = "Velkommen";
+"onboarding_welcome_view_title" = "Velkommen";
 
 /* Sections */
-"welcome_view_overview_section_title" = "Sammendrag";
-"welcome_view_legal_documents_section_title" = "Mer informasjon";
+"onboarding_welcome_view_overview_section_title" = "Sammendrag";
+"onboarding_welcome_view_legal_documents_section_title" = "Mer informasjon";
 
 /* Overview */
 "privacy_overview_datastorage_title" = "Sikker datalagring";
@@ -914,12 +914,21 @@
 "privacy_overview_privacy_control_description" = "Du kan slette dataene dine når som helst og justere tillatelser som posisjon, kamera eller varsler i systeminnstillingene.";
 
 /* Header */
-"welcome_view_header_title" = "Velkommen til";
-"welcome_view_header_description" = "Hold oversikt over inntekter og utgifter, se mønstre og ta bedre beslutninger med pengene dine.";
+"onboarding_welcome_view_header_title" = "Velkommen til";
+"onboarding_welcome_view_header_description" = "Hold oversikt over inntekter og utgifter, se mønstre og ta bedre beslutninger med pengene dine";
 
 /* Footer */
 "privacy_policy_title" = "Personvernregler";
-"welcome_view_agreement_description" = "Ved å klikke \"Godta\" samtykker du til %@.";
+"onboarding_welcome_view_agreement_description" = "Ved å klikke \"Godta\" samtykker du til %@.";
+
+
+/* MARK: - Onboarding Reminder Intro View */
+/* Header */
+"onboarding_reminder_intro_view_title" = "Hold oversikten";
+"onboarding_reminder_intro_view_description" = "Få regelmessige påminnelser om å følge med på utgiftene dine";
+
+/* Notification */
+"onboarding_reminder_intro_view_notification_body" = "Har du lagt inn alt? ⏰";
 
 
 /* MARK: - New Features View */

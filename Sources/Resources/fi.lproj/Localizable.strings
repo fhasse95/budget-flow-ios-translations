@@ -897,13 +897,13 @@
 "alert_set_passcode_type_title" = "Valitse pääsykoodivaihtoehto";
 
 
-/* MARK: - Welcome View */
+/* MARK: - Onboarding Welcome View */
 /* Titles */
-"welcome_view_title" = "Tervetuloa";
+"onboarding_welcome_view_title" = "Tervetuloa";
 
 /* Sections */
-"welcome_view_overview_section_title" = "Yhteenveto";
-"welcome_view_legal_documents_section_title" = "Lisätietoja";
+"onboarding_welcome_view_overview_section_title" = "Yhteenveto";
+"onboarding_welcome_view_legal_documents_section_title" = "Lisätietoja";
 
 /* Overview */
 "privacy_overview_datastorage_title" = "Suojattu tietojen tallennus";
@@ -914,12 +914,21 @@
 "privacy_overview_privacy_control_description" = "Voit poistaa tietosi milloin tahansa ja säätää lupia, kuten sijaintia, kameraa tai ilmoituksia, järjestelmäasetuksissa.";
 
 /* Header */
-"welcome_view_header_title" = "Tervetuloa";
-"welcome_view_header_description" = "Pidä tulot ja menot näkyvissä, tunnista kaavat ja tee parempia päätöksiä rahojesi kanssa.";
+"onboarding_welcome_view_header_title" = "Tervetuloa";
+"onboarding_welcome_view_header_description" = "Pidä tulot ja menot näkyvissä, tunnista kaavat ja tee parempia päätöksiä rahojesi kanssa";
 
 /* Footer */
 "privacy_policy_title" = "Tietosuojakäytäntö";
-"welcome_view_agreement_description" = "Napsauttamalla \"Hyväksy\" hyväksyt %@.";
+"onboarding_welcome_view_agreement_description" = "Napsauttamalla \"Hyväksy\" hyväksyt %@.";
+
+
+/* MARK: - Onboarding Reminder Intro View */
+/* Header */
+"onboarding_reminder_intro_view_title" = "Pysy ajan tasalla";
+"onboarding_reminder_intro_view_description" = "Saat säännöllisiä muistutuksia, jotta pysyt perillä menoistasi";
+
+/* Notification */
+"onboarding_reminder_intro_view_notification_body" = "Oletko jo lisännyt kaiken? ⏰";
 
 
 /* MARK: - New Features View */

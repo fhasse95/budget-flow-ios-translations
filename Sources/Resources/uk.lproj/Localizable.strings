@@ -897,13 +897,13 @@
 "alert_set_passcode_type_title" = "Виберіть параметр пароля";
 
 
-/* MARK: - Welcome View */
+/* MARK: - Onboarding Welcome View */
 /* Titles */
-"welcome_view_title" = "Ласкаво просимо";
+"onboarding_welcome_view_title" = "Ласкаво просимо";
 
 /* Sections */
-"welcome_view_overview_section_title" = "Підсумок";
-"welcome_view_legal_documents_section_title" = "Докладніше";
+"onboarding_welcome_view_overview_section_title" = "Підсумок";
+"onboarding_welcome_view_legal_documents_section_title" = "Докладніше";
 
 /* Overview */
 "privacy_overview_datastorage_title" = "Безпечне зберігання даних";
@@ -914,12 +914,21 @@
 "privacy_overview_privacy_control_description" = "Ви можете будь-коли видалити свої дані та змінити дозволи, як-от геолокацію, камеру чи сповіщення, у системних налаштуваннях.";
 
 /* Header */
-"welcome_view_header_title" = "Ласкаво просимо в";
-"welcome_view_header_description" = "Тримайте доходи й витрати під контролем, помічайте закономірності та приймайте кращі рішення щодо грошей.";
+"onboarding_welcome_view_header_title" = "Ласкаво просимо в";
+"onboarding_welcome_view_header_description" = "Тримайте доходи й витрати під контролем, помічайте закономірності та приймайте кращі рішення щодо грошей";
 
 /* Footer */
 "privacy_policy_title" = "Політика конфіденційності";
-"welcome_view_agreement_description" = "Натиснувши \"Прийняти\", ви погоджуєтеся з %@.";
+"onboarding_welcome_view_agreement_description" = "Натиснувши \"Прийняти\", ви погоджуєтеся з %@.";
+
+
+/* MARK: - Onboarding Reminder Intro View */
+/* Header */
+"onboarding_reminder_intro_view_title" = "Не втрачайте ритм";
+"onboarding_reminder_intro_view_description" = "Отримуйте регулярні нагадування, щоб стежити за своїми витратами";
+
+/* Notification */
+"onboarding_reminder_intro_view_notification_body" = "Уже все внесено? ⏰";
 
 
 /* MARK: - New Features View */

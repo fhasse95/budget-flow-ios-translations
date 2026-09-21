@@ -897,13 +897,13 @@
 "alert_set_passcode_type_title" = "Choose passcode option";
 
 
-/* MARK: - Welcome View */
+/* MARK: - Onboarding Welcome View */
 /* Titles */
-"welcome_view_title" = "Welcome";
+"onboarding_welcome_view_title" = "Welcome";
 
 /* Sections */
-"welcome_view_overview_section_title" = "Summary";
-"welcome_view_legal_documents_section_title" = "More Information";
+"onboarding_welcome_view_overview_section_title" = "Summary";
+"onboarding_welcome_view_legal_documents_section_title" = "More Information";
 
 /* Overview */
 "privacy_overview_datastorage_title" = "Secure data storage";
@@ -914,12 +914,21 @@
 "privacy_overview_privacy_control_description" = "You can delete your data at any time and adjust permissions such as location, camera or notifications in system settings.";
 
 /* Header */
-"welcome_view_header_title" = "Welcome to";
-"welcome_view_header_description" = "Keep income and expenses in view, spot patterns and make better decisions with your money.";
+"onboarding_welcome_view_header_title" = "Welcome to";
+"onboarding_welcome_view_header_description" = "Keep income and expenses in view, spot patterns and make better decisions with your money";
 
 /* Footer */
 "privacy_policy_title" = "Privacy Policy";
-"welcome_view_agreement_description" = "By clicking \"Accept\" you consent to the %@.";
+"onboarding_welcome_view_agreement_description" = "By clicking \"Accept\" you consent to the %@.";
+
+
+/* MARK: - Onboarding Reminder Intro View */
+/* Header */
+"onboarding_reminder_intro_view_title" = "Stay on Track";
+"onboarding_reminder_intro_view_description" = "Get regular reminders to keep an eye on your expenses";
+
+/* Notification */
+"onboarding_reminder_intro_view_notification_body" = "Already entered everything? ⏰";
 
 
 /* MARK: - New Features View */

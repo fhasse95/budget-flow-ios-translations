@@ -907,15 +907,15 @@
 
 /* Overview */
 "privacy_overview_datastorage_title" = "Lưu trữ dữ liệu an toàn";
-"privacy_overview_datastorage_darwin_description" = "Tài chính của bạn là riêng tư – và chúng phải được duy trì như vậy. Đó là lý do tại sao dữ liệu của bạn được lưu trữ riêng trên thiết bị của bạn hoặc trong iCloud cá nhân của bạn.";
-"privacy_overview_datastorage_android_description" = "Tài chính của bạn là riêng tư – và chúng phải được duy trì như vậy. Đó là lý do tại sao dữ liệu của bạn được lưu trữ riêng trên thiết bị của bạn.";
+"privacy_overview_datastorage_description" = "Tài chính của bạn là riêng tư và nên luôn như vậy. Vì thế, dữ liệu của bạn chỉ được lưu trên thiết bị của bạn.";
+"privacy_overview_datastorage_description_icloud_suffix" = " hoặc trong iCloud cá nhân của bạn.";
 
 "privacy_overview_privacy_control_title" = "Bạn đang kiểm soát";
-"privacy_overview_privacy_control_description" = "Cho dù đó là dữ liệu đã lưu, việc sử dụng vị trí hay quyền truy cập vào máy ảnh của bạn - bạn luôn nắm quyền kiểm soát. Ví dụ: bạn có thể dễ dàng xóa dữ liệu của mình bằng cách đặt lại ứng dụng và quyền truy cập của ứng dụng sẽ điều chỉnh bất kỳ lúc nào.";
+"privacy_overview_privacy_control_description" = "Bạn có thể xóa dữ liệu bất cứ lúc nào và điều chỉnh các quyền như vị trí, camera hoặc thông báo trong cài đặt hệ thống.";
 
 /* Header */
 "welcome_view_header_title" = "Chào mừng bạn";
-"welcome_view_header_description" = "Kiểm soát tất cả thu nhập của bạn một cách dễ dàng: Nhập ngân sách của bạn, nhận thông tin chi tiết và theo dõi tất cả thu nhập và chi phí của bạn.";
+"welcome_view_header_description" = "Theo dõi thu nhập và chi phí, nhận ra các xu hướng và đưa ra quyết định tốt hơn với tiền của bạn.";
 
 /* Footer */
 "privacy_policy_title" = "Chính sách bảo mật";
@@ -1068,7 +1068,7 @@
 "upgrade_faq_about_title" = "Budget Flow là gì?";
 "upgrade_faq_about_value" = "Budget Flow là một ứng dụng theo dõi thu nhập hiện đại và dễ sử dụng dành cho tất cả những ai muốn theo dõi và quản lý chi tiêu một cách hiệu quả.";
 "upgrade_faq_developer_title" = "Ai đã phát triển ứng dụng?";
-"upgrade_faq_developer_value" = "Budget Flow được bắt đầu như một dự án phụ và kể từ đó đã được tôi, Fabian Hasse, thiết kế, phát triển và bảo trì hoàn toàn. Tôi là một nhà phát triển phần mềm nhiệt tình với hơn 10 năm kinh nghiệm và tôi làm việc với rất nhiều đam mê để phát triển ứng dụng theo dõi chi phí và lập ngân sách tốt nhất.";
+"upgrade_faq_developer_value" = "Budget Flow là một ứng dụng indie độc lập, được tôi, Fabian Hasse, thiết kế, phát triển và duy trì hoàn toàn. Tôi là nhà phát triển phần mềm với hơn 10 năm kinh nghiệm và làm việc với nhiều đam mê để tạo ra ứng dụng ngân sách tốt nhất cho bạn.";
 "upgrade_faq_free_use_title" = "Ứng dụng có bản miễn phí không?";
 "upgrade_faq_free_use_value" = "Có, bạn có thể sử dụng các chức năng cơ bản của ứng dụng, chẳng hạn như tạo giao dịch, hoàn toàn miễn phí.\n\nNgoài ra, ứng dụng còn cung cấp thời gian dùng thử cho phiên bản Premium để bạn có thể dùng thử trước trước khi quyết định mua hoặc đăng ký phiên bản Premium.";
 "upgrade_faq_security_title" = "Dữ liệu của tôi có an toàn không?";
@@ -1697,7 +1697,9 @@
 
 "default_category_group_name_miscellaneous" = "Danh mục khác";
 
-"default_reminder_title" = "Ghi lại chi phí";
+"default_reminder_expense_check_title" = "Bạn đã nhập hết chưa? Dành chút thời gian cho các khoản chi gần đây 📝";
+"default_reminder_weekly_review_title" = "Tuần của bạn thế nào? Xem tiền của bạn đã đi đâu 📊";
+"default_reminder_monthly_review_title" = "Một tháng mới bắt đầu. Đã đến lúc xem lại tài chính của bạn 📅";
 
 
 /* MARK: - Color Sections */

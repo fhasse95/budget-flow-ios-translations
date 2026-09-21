@@ -907,15 +907,15 @@
 
 /* Overview */
 "privacy_overview_datastorage_title" = "Amankan penyimpanan data";
-"privacy_overview_datastorage_darwin_description" = "Keuangan Anda bersifat pribadi – dan harus tetap seperti itu. Itulah sebabnya data Anda disimpan secara eksklusif di perangkat Anda atau di iCloud pribadi Anda.";
-"privacy_overview_datastorage_android_description" = "Keuangan Anda bersifat pribadi – dan harus tetap seperti itu. Itulah sebabnya data Anda disimpan secara eksklusif di perangkat Anda.";
+"privacy_overview_datastorage_description" = "Keuangan Anda bersifat pribadi, dan harus tetap begitu. Karena itu, data Anda hanya disimpan di perangkat Anda.";
+"privacy_overview_datastorage_description_icloud_suffix" = " atau di iCloud pribadi Anda.";
 
 "privacy_overview_privacy_control_title" = "Anda memegang kendali";
-"privacy_overview_privacy_control_description" = "Baik data yang disimpan, penggunaan lokasi, atau akses ke kamera - Anda selalu memegang kendali. Misalnya, Anda dapat dengan mudah menghapus data dengan mengatur ulang aplikasi dan menyesuaikan izin akses aplikasi kapan pun.";
+"privacy_overview_privacy_control_description" = "Anda dapat menghapus data kapan saja dan menyesuaikan izin seperti lokasi, kamera, atau notifikasi di pengaturan sistem.";
 
 /* Header */
 "welcome_view_header_title" = "Selamat datang di";
-"welcome_view_header_description" = "Kendalikan semua keuangan Anda dengan mudah: Masukkan anggaran Anda, dapatkan wawasan, serta lacak semua pendapatan dan pengeluaran Anda.";
+"welcome_view_header_description" = "Pantau pemasukan dan pengeluaran, temukan pola, dan buat keputusan yang lebih baik tentang uang Anda.";
 
 /* Footer */
 "privacy_policy_title" = "Kebijakan Privasi";
@@ -1068,7 +1068,7 @@
 "upgrade_faq_about_title" = "Apa itu Budget Flow?";
 "upgrade_faq_about_value" = "Budget Flow adalah aplikasi pelacakan anggaran yang modern dan mudah digunakan untuk semua orang yang ingin melacak keuangan mereka dan mengelola pengeluaran mereka secara efektif.";
 "upgrade_faq_developer_title" = "Siapa yang mengembangkan aplikasi ini?";
-"upgrade_faq_developer_value" = "Budget Flow dimulai sebagai proyek sampingan dan sejak itu sepenuhnya dirancang, dikembangkan, dan dikelola oleh saya, Fabian Hasse. Saya adalah pengembang perangkat lunak yang antusias dengan pengalaman lebih dari 10 tahun dan saya bekerja dengan penuh semangat untuk mengembangkan aplikasi penganggaran dan pelacakan pengeluaran terbaik.";
+"upgrade_faq_developer_value" = "Budget Flow adalah aplikasi indie independen yang sepenuhnya dirancang, dikembangkan, dan dikelola oleh saya, Fabian Hasse. Saya adalah pengembang perangkat lunak dengan pengalaman lebih dari 10 tahun dan bekerja dengan penuh semangat untuk membuat aplikasi anggaran terbaik untuk Anda.";
 "upgrade_faq_free_use_title" = "Dapatkah aplikasi juga digunakan secara gratis?";
 "upgrade_faq_free_use_value" = "Ya, Anda dapat menggunakan fungsi dasar aplikasi, seperti membuat transaksi, sepenuhnya gratis.\n\nSelain itu, aplikasi menawarkan masa uji coba untuk versi lengkap sehingga Anda dapat mencobanya terlebih dahulu sebelum memutuskan untuk membeli atau berlangganan versi lengkap.";
 "upgrade_faq_security_title" = "Apakah data saya aman?";
@@ -1697,7 +1697,9 @@
 
 "default_category_group_name_miscellaneous" = "Lainnya";
 
-"default_reminder_title" = "Catat pengeluaran";
+"default_reminder_expense_check_title" = "Sudah mencatat semuanya? Luangkan sebentar untuk pengeluaran terakhirmu 📝";
+"default_reminder_weekly_review_title" = "Bagaimana minggumu? Lihat ke mana uangmu mengalir 📊";
+"default_reminder_monthly_review_title" = "Bulan baru dimulai. Saatnya melihat keuanganmu 📅";
 
 
 /* MARK: - Color Sections */

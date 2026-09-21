@@ -907,15 +907,15 @@
 
 /* Overview */
 "privacy_overview_datastorage_title" = "Güvenli veri depolama";
-"privacy_overview_datastorage_darwin_description" = "Finansal verileriniz gizlidir ve öyle kalmalıdır. Bu nedenle verileriniz yalnızca cihazınızda veya kişisel iCloud'unuzda saklanır.";
-"privacy_overview_datastorage_android_description" = "Finansal verileriniz gizlidir ve öyle kalmalıdır. Bu nedenle verileriniz yalnızca cihazınızda saklanır.";
+"privacy_overview_datastorage_description" = "Finansal bilgileriniz özeldir ve öyle kalmalıdır. Bu yüzden verileriniz yalnızca cihazınızda saklanır.";
+"privacy_overview_datastorage_description_icloud_suffix" = " veya kişisel iCloud'unuzda saklanır.";
 
 "privacy_overview_privacy_control_title" = "Kontrol sizde";
-"privacy_overview_privacy_control_description" = "İster kayıtlı verileriniz, ister konumunuzun kullanımı veya kameranıza erişim olsun - kontrol her zaman sizdedir. Örneğin, uygulamayı sıfırlayarak verilerinizi kolayca silebilirsiniz ve uygulamanın erişim izinleri şu adreste ayarlanır: istediğin zaman.";
+"privacy_overview_privacy_control_description" = "Verilerinizi istediğiniz zaman silebilir; konum, kamera veya bildirim gibi izinleri sistem ayarlarından düzenleyebilirsiniz.";
 
 /* Header */
 "welcome_view_header_title" = "Hoş Geldiniz";
-"welcome_view_header_description" = "Tüm mali durumunuzu kolaylıkla kontrol edin: Bütçenizi girin, öngörüler alın ve tüm gelir ve giderlerinizi takip edin.";
+"welcome_view_header_description" = "Gelir ve giderlerinizi görün, alışkanlıkları fark edin ve paranızla ilgili daha iyi kararlar alın.";
 
 /* Footer */
 "privacy_policy_title" = "Gizlilik Politikası";
@@ -1068,7 +1068,7 @@
 "upgrade_faq_about_title" = "Budget Flow Nedir?";
 "upgrade_faq_about_value" = "Budget Flow, mali durumlarını takip etmek ve giderlerini etkili bir şekilde yönetmek isteyen herkes için modern ve kullanımı kolay bir bütçe izleme uygulamasıdır.";
 "upgrade_faq_developer_title" = "Uygulamayı kim geliştirdi?";
-"upgrade_faq_developer_value" = "Budget Flow bir yan proje olarak başlatıldı ve o zamandan beri tamamen benim, Fabian Hasse tarafından tasarlandı, geliştirildi ve sürdürüldü. 10 yılı aşkın deneyime sahip hevesli bir yazılım geliştiricisiyim ve en iyi bütçeleme ve gider izleme uygulamasını geliştirmek için büyük bir tutkuyla çalışıyorum.";
+"upgrade_faq_developer_value" = "Budget Flow, tamamen benim, Fabian Hasse, tarafından tasarlanan, geliştirilen ve sürdürülen bağımsız bir indie uygulamadır. 10 yılı aşkın deneyime sahip bir yazılım geliştiricisiyim ve senin için en iyi bütçe uygulamasını oluşturmak adına büyük bir tutkuyla çalışıyorum.";
 "upgrade_faq_free_use_title" = "Uygulama ücretsiz olarak da kullanılabilir mi?";
 "upgrade_faq_free_use_value" = "Evet, uygulamanın işlem oluşturmak gibi temel işlevlerini tamamen ücretsiz olarak kullanabilirsiniz.\n\nAyrıca uygulama, önceden deneyebilmeniz için tam sürüm için bir deneme süresi sunar tam sürümü satın almaya veya abone olmaya karar vermeden önce.";
 "upgrade_faq_security_title" = "Verilerim güvende mi?";
@@ -1697,7 +1697,9 @@
 
 "default_category_group_name_miscellaneous" = "Çeşitli";
 
-"default_reminder_title" = "Kayıt giderleri";
+"default_reminder_expense_check_title" = "Her şeyi girdin mi? Son harcamaların için kısa bir zaman ayır 📝";
+"default_reminder_weekly_review_title" = "Haftan nasıl geçti? Paranın nereye aktığına bir göz at 📊";
+"default_reminder_monthly_review_title" = "Yeni bir ay başlıyor. Finanslarına göz atma zamanı 📅";
 
 
 /* MARK: - Color Sections */

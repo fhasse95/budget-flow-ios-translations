@@ -907,15 +907,15 @@
 
 /* Overview */
 "privacy_overview_datastorage_title" = "Sichere Datenspeicherung";
-"privacy_overview_datastorage_darwin_description" = "Deine Finanzen sind privat – und das soll auch so bleiben. Daher werden deine Daten ausschließlich auf deinem Gerät oder in deiner persönlichen iCloud gespeichert.";
-"privacy_overview_datastorage_android_description" = "Deine Finanzen sind privat – und das soll auch so bleiben. Daher werden deine Daten ausschließlich auf deinem Gerät gespeichert.";
+"privacy_overview_datastorage_description" = "Deine Finanzen sind privat, und das soll auch so bleiben. Daher werden deine Daten ausschließlich auf deinem Gerät gespeichert.";
+"privacy_overview_datastorage_description_icloud_suffix" = " oder in deiner persönlichen iCloud gespeichert.";
 
 "privacy_overview_privacy_control_title" = "Du hast die Kontrolle";
-"privacy_overview_privacy_control_description" = "Ob es um deine gespeicherten Daten, die Nutzung deines Standorts oder den Zugriff auf deine Kamera geht - du hast immer die Kontrolle. So kannst du deine Daten zum Beispiel unkompliziert löschen, indem du die App zurücksetzt, und die Zugriffsberechtigungen der App jederzeit anpassen.";
+"privacy_overview_privacy_control_description" = "Du kannst deine Daten jederzeit löschen und Berechtigungen wie Standort, Kamera oder Benachrichtigungen in den Systemeinstellungen anpassen.";
 
 /* Header */
 "welcome_view_header_title" = "Willkommen bei";
-"welcome_view_header_description" = "Finanzen verwalten leicht gemacht: Gib dein Budget ein, erhalte Einblicke und behalte die Übersicht über all deine Einnahmen und Ausgaben.";
+"welcome_view_header_description" = "Behalte Einnahmen und Ausgaben im Blick, erkenne Muster und triff bessere Entscheidungen mit deinem Geld.";
 
 /* Footer */
 "privacy_policy_title" = "Datenschutzerklärung";
@@ -1066,24 +1066,24 @@
 
 /* Items */
 "upgrade_faq_about_title" = "Was ist Budget Flow?";
-"upgrade_faq_about_value" = "Budget Flow ist eine moderne und einfach zu bedienende Haushaltsbuch App für alle, die ihre Finanzen im Blick behalten und ihre Ausgaben effektiv verwalten möchten.";
+"upgrade_faq_about_value" = "Budget Flow ist eine moderne und einfach zu bedienende Haushaltsbuch-App für alle, die ihre Finanzen im Blick behalten und ihre Ausgaben effektiv verwalten möchten.";
 "upgrade_faq_developer_title" = "Wer hat die App entwickelt?";
-"upgrade_faq_developer_value" = "Budget Flow wurde als Nebenprojekt gestartet und wird seither komplett von mir, Fabian Hasse, entworfen, entwickelt und gepflegt. Ich bin ein begeisterter Softwareentwickler mit über 10 Jahren Erfahrung und arbeite mit viel Leidenschaft daran, die beste Haushaltsbuch-App zu entwickeln.";
+"upgrade_faq_developer_value" = "Budget Flow wird als unabhängige Indie-App vollständig von mir, Fabian Hasse, entworfen, entwickelt und gepflegt. Ich bin Softwareentwickler mit über 10 Jahren Erfahrung und arbeite mit viel Leidenschaft daran, die beste Haushaltsbuch-App für dich zu entwickeln.";
 "upgrade_faq_free_use_title" = "Kann die App auch kostenlos verwendet werden?";
-"upgrade_faq_free_use_value" = "Ja, du kannst die grundlegenden Funktionen der App, wie das Anlegen von Transaktionen, völlig kostenlos nutzen.\n\nZusätzlich bietet die App eine Testphase für die Vollversion an, damit du sie im Vorfeld ausprobieren kannst, bevor du dich für den Kauf oder Abonnement der Vollversion entscheidest.";
+"upgrade_faq_free_use_value" = "Ja, du kannst die grundlegenden Funktionen der App, wie das Anlegen von Transaktionen, völlig kostenlos nutzen.\n\nZusätzlich bietet die App eine Testphase für die Vollversion an, damit du sie im Vorfeld ausprobieren kannst, bevor du dich für den Kauf oder ein Abonnement der Vollversion entscheidest.";
 "upgrade_faq_security_title" = "Sind meine Daten geschützt?";
-"upgrade_faq_security_value" = "Deine Finanzen sind privat – und das soll auch so bleiben. Daher werden deine Daten ausschließlich auf deinem Gerät gespeichert.";
+"upgrade_faq_security_value" = "Deine Finanzen sind privat, und das soll auch so bleiben. Daher werden deine Daten ausschließlich auf deinem Gerät gespeichert.";
 "upgrade_faq_security_value_icloud_suffix" = " oder (optional) in deiner persönlichen iCloud gespeichert.";
 "upgrade_faq_why_subscription_title" = "Warum wird die Vollversion primär als ein Abonnement angeboten?";
-"upgrade_faq_why_subscription_value" = "Mein Ziel ist es, eine hochwertige App zu entwickeln, die dir als Nutzer regelmäßig neue Funktionen und Verbesserungen bietet. Um dieses Ziel zu erreichen, benötigt die App jedoch kontinuierliche Einnahmen, um sich zu finanzieren und wirtschaftlich nachhaltig zu sein.\n\nWas viele nicht wissen: Die Entwicklung und Pflege einer App nimmt sehr viel Zeit in Anspruch. Im Fall von Budget Flow beispielsweise dauerte es von der Idee über die Entwicklung bis zum Test fast zwei Jahre und mehrere tausend Arbeitsstunden, bis die erste Version veröffentlicht werden konnte.\n\nAls Kunde profitierst du durch das Abo-Modell insbesondere von regelmäßigen Updates und Verbesserungen sowie einem guten Support, um sicherzustellen, dass du weiterhin zufrieden bist. Du hast außerdem die Möglichkeit, die App im Vorfeld kostenlos auszuprobieren, um sicherzustellen, dass sie deinen Bedürfnissen entspricht. Zudem kannst du das Abonnement jederzeit ändern oder stornieren, wenn du deine Meinung ändern solltest.\n\nDa jedoch einige Nutzer keine Abonnements abschließen möchten, wird zusätzlich ein etwas teurerer Einmalkauf angeboten. Der Preis für den Einmalkauf entspricht dabei der so genannten Customer Lifetime Value (CLV) und beträgt etwa das 2,5-fache des Preises für das Jahresabo. Dadurch werden alle zukünftigen Kosten für Updates und Support während der gesamten Lebensdauer der App abgedeckt, die ansonsten durch wiederkehrende Zahlungen im Rahmen eines Abonnements getätigt worden wären.\n\nInsgesamt bietet dieses Geschäftsmodell dir als Nutzer viele Vorteile und eine bessere Nutzererfahrung durch kontinuierliche Updates und Support. Auf lange Sicht wäre ein zu niedriger Preis für den Einmalkauf leider nicht nachhaltig, da bei diesem Geschäftsmodell immer wieder neue Nutzer die App kaufen müssen, um die weitere Entwicklung zu gewährleisten.\n\nWenn dir die App gefällt, würde ich mich daher sehr freuen, wenn du meine Arbeit unterstützt, damit ich auch in Zukunft weitere tolle Features für dich anbieten kann!❤️";
+"upgrade_faq_why_subscription_value" = "Budget Flow wird laufend weiterentwickelt, verbessert und an neue Betriebssystemversionen angepasst. Ein Abo hilft dabei, diese Arbeit langfristig zu finanzieren und dir regelmäßig Updates, neue Funktionen und guten Support zu bieten.\n\nWenn du keine Abos magst, kannst du die Vollversion alternativ auch einmalig kaufen. Der Einmalkauf ist bewusst höher angesetzt, weil er alle zukünftigen Updates und Support ohne weitere Zahlungen abdeckt.\n\nDu kannst die Vollversion vorher kostenlos testen und dein Abo jederzeit kündigen. Wenn dir Budget Flow gefällt, unterstützt du mit deinem Kauf die unabhängige Weiterentwicklung der App.";
 "upgrade_faq_multiple_devices_title" = "Kann ich die Vollversion auf mehreren Geräten verwenden?";
 "upgrade_faq_multiple_devices_value" = "Ja, du kannst die Vollversion von Budget Flow auf all deinen Apple-Geräten mit demselben Apple Account verwenden. Da die App über iCloud synchronisiert wird, kannst du nahtlos zwischen deinen Geräten wechseln und hast immer Zugriff auf deine Finanzdaten und Einstellungen.";
 "upgrade_faq_multiple_people_title" = "Kann ich die Vollversion mit mehreren Personen nutzen?";
-"upgrade_faq_multiple_people_value" = "Ja, du kannst sowohl den Einmalkauf als auch das Abonnement der Vollversion mit bis zu fünf Personen innerhalb einer Familiengruppe teilen. Hierzu ist es lediglich erforderlich, dass du die Familienfreigabe in den Systemeinstellungen aktivierst und die anderen Personen zu der Gruppe einlädst.";
+"upgrade_faq_multiple_people_value" = "Ja, du kannst sowohl den Einmalkauf als auch das Abonnement der Vollversion mit bis zu fünf Personen innerhalb einer Familiengruppe teilen. Dafür musst du nur die Familienfreigabe in den Systemeinstellungen aktivieren und die anderen Personen zu der Gruppe einladen.";
 "upgrade_faq_cancel_subscription_title" = "Wie kann ich mein Abonnement kündigen?";
 "upgrade_faq_cancel_subscription_value" = "Du kannst dein Abonnement jederzeit über deinen Apple Account in den Systemeinstellungen kündigen.";
 "upgrade_faq_subscription_data_loss_title" = "Gehen meine Daten verloren, wenn ich mein Abonnement kündige?";
-"upgrade_faq_subscription_data_loss_value" = "Nein. Alles, was du erstellst während du die Vollversion abonniert hast, ist auch weiterhin verfügbar, wenn du zur kostenfreien Variante zurückkehrst.";
+"upgrade_faq_subscription_data_loss_value" = "Nein. Alles, was du während deiner Vollversion-Nutzung erstellt hast, bleibt erhalten, wenn du zur kostenlosen Variante zurückkehrst.";
 "upgrade_faq_refund_title" = "Wie kann ich eine Rückerstattung erhalten?";
 "upgrade_faq_refund_value" = "Über den App Store getätigte Zahlungen können nur von Apple zurückerstattet werden. Um eine Rückerstattung zu erhalten, musst du dich innerhalb von 14 Tagen nach dem Kauf an den Apple Support wenden.";
 "upgrade_faq_switch_plan_title" = "Ist es möglich, nachträglich von einem Abonnement auf den Einmalkauf umzusteigen?";
@@ -1697,7 +1697,9 @@
 
 "default_category_group_name_miscellaneous" = "Sonstiges";
 
-"default_reminder_title" = "Ausgaben eintragen";
+"default_reminder_expense_check_title" = "Schon alles eingetragen? Nimm dir kurz Zeit für deine letzten Ausgaben 📝";
+"default_reminder_weekly_review_title" = "Wie lief deine Woche? Schau dir an, wohin dein Geld geflossen ist 📊";
+"default_reminder_monthly_review_title" = "Ein neuer Monat beginnt. Zeit für einen Blick auf deine Finanzen 📅";
 
 
 /* MARK: - Color Sections */

@@ -907,15 +907,15 @@
 
 /* Overview */
 "privacy_overview_datastorage_title" = "Sikker datalagring";
-"privacy_overview_datastorage_darwin_description" = "Økonomien din er privat – og den bør forbli slik. Det er derfor dataene dine lagres utelukkende på enheten din eller i din personlige iCloud.";
-"privacy_overview_datastorage_android_description" = "Økonomien din er privat – og den bør forbli slik. Det er derfor dataene dine lagres utelukkende på enheten din.";
+"privacy_overview_datastorage_description" = "Økonomien din er privat, og slik skal det forbli. Derfor lagres dataene dine kun på enheten din.";
+"privacy_overview_datastorage_description_icloud_suffix" = " eller i din personlige iCloud.";
 
 "privacy_overview_privacy_control_title" = "Du har kontroll";
-"privacy_overview_privacy_control_description" = "Enten det er dine lagrede data, bruk av posisjonen din eller tilgang til kameraet ditt - du har alltid kontroll. For eksempel kan du enkelt slette dataene dine ved å tilbakestille appen og tilgangstillatelsene til appen justeres på når som helst.";
+"privacy_overview_privacy_control_description" = "Du kan slette dataene dine når som helst og justere tillatelser som posisjon, kamera eller varsler i systeminnstillingene.";
 
 /* Header */
 "welcome_view_header_title" = "Velkommen til";
-"welcome_view_header_description" = "Kontroller all økonomi med letthet: Skriv inn budsjettet ditt, få innsikt og hold styr på alle inntektene og utgiftene dine.";
+"welcome_view_header_description" = "Hold oversikt over inntekter og utgifter, se mønstre og ta bedre beslutninger med pengene dine.";
 
 /* Footer */
 "privacy_policy_title" = "Personvernregler";
@@ -1068,7 +1068,7 @@
 "upgrade_faq_about_title" = "Hva er Budget Flow?";
 "upgrade_faq_about_value" = "Budget Flow er en moderne og brukervennlig budsjettsporingsapp for alle som ønsker å holde styr på økonomien og administrere utgiftene sine effektivt.";
 "upgrade_faq_developer_title" = "Hvem utviklet appen?";
-"upgrade_faq_developer_value" = "Budget Flow ble startet som et sideprosjekt og har siden blitt fullstendig designet, utviklet og vedlikeholdt av meg, Fabian Hasse. Jeg er en entusiastisk programvareutvikler med over 10 års erfaring og jeg jobber med mye lidenskap for å utvikle den beste appen for budsjettering og utgiftssporing.";
+"upgrade_faq_developer_value" = "Budget Flow er en uavhengig indie-app, helt designet, utviklet og vedlikeholdt av meg, Fabian Hasse. Jeg er programvareutvikler med over 10 års erfaring og jobber med stor lidenskap for å lage den beste budsjettappen for deg.";
 "upgrade_faq_free_use_title" = "Kan appen også brukes gratis?";
 "upgrade_faq_free_use_value" = "Ja, du kan bruke appens grunnleggende funksjoner, som å opprette transaksjoner, helt gratis.\n\nI tillegg tilbyr appen en prøveperiode for fullversjonen slik at du kan prøve den ut på forhånd. før du bestemmer deg for å kjøpe eller abonnere på fullversjonen.";
 "upgrade_faq_security_title" = "Er dataene mine sikre?";
@@ -1697,7 +1697,9 @@
 
 "default_category_group_name_miscellaneous" = "Diverse";
 
-"default_reminder_title" = "Registrer utgifter";
+"default_reminder_expense_check_title" = "Har du registrert alt? Ta deg litt tid til de siste utgiftene dine 📝";
+"default_reminder_weekly_review_title" = "Hvordan gikk uken din? Se hvor pengene dine tok veien 📊";
+"default_reminder_monthly_review_title" = "En ny måned begynner. Tid for å ta en titt på økonomien din 📅";
 
 
 /* MARK: - Color Sections */

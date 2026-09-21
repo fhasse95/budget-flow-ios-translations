@@ -907,15 +907,15 @@
 
 /* Overview */
 "privacy_overview_datastorage_title" = "보안 데이터 저장소";
-"privacy_overview_datastorage_darwin_description" = "귀하의 재정은 비공개이며, 그대로 유지되어야 합니다. 따라서 귀하의 데이터는 귀하의 기기 또는 귀하의 개인 iCloud에만 저장됩니다.";
-"privacy_overview_datastorage_android_description" = "귀하의 재정은 비공개이며, 그대로 유지되어야 합니다. 따라서 귀하의 데이터는 귀하의 기기에만 저장됩니다.";
+"privacy_overview_datastorage_description" = "재정 정보는 사적인 것이며, 계속 그렇게 유지되어야 합니다. 그래서 데이터는 기기에만 저장됩니다.";
+"privacy_overview_datastorage_description_icloud_suffix" = " 또는 개인 iCloud에도 저장됩니다.";
 
 "privacy_overview_privacy_control_title" = "사용자가 관리하고 있습니다";
-"privacy_overview_privacy_control_description" = "저장된 데이터, 위치 사용 또는 카메라 액세스 등을 항상 제어할 수 있습니다. 예를 들어 앱을 재설정하고 앱의 접근 권한을 조정하여 데이터를 쉽게 삭제할 수 있습니다. 당신이 원한다면 언제든지요.";
+"privacy_overview_privacy_control_description" = "언제든지 데이터를 삭제하고 위치, 카메라 또는 알림 같은 권한을 시스템 설정에서 조정할 수 있습니다.";
 
 /* Header */
 "welcome_view_header_title" = "환영합니다";
-"welcome_view_header_description" = "쉽게 모든 계좌 관리: 예산을 입력하고 통찰력을 얻어 모든 수입과 지출을 관리해보세요.";
+"welcome_view_header_description" = "수입과 지출을 한눈에 보고, 패턴을 파악하며, 돈에 대해 더 나은 결정을 내리세요.";
 
 /* Footer */
 "privacy_policy_title" = "개인정보 보호정책";
@@ -1068,7 +1068,7 @@
 "upgrade_faq_about_title" = "Budget Flow이란 무엇입니까?";
 "upgrade_faq_about_value" = "Budget Flow는 자산을 추적하고 비용을 효과적으로 관리하고자 하는 모든 사람을 위한 사용하기 쉬운 최신 가계부 앱입니다.";
 "upgrade_faq_developer_title" = "누가 앱을 개발했나요?";
-"upgrade_faq_developer_value" = "Budget Flow는 사이드 프로젝트로 시작되었지만, 그 이후로 저, Fabian Hasse가 완전히 설계, 개발 및 유지 관리했습니다. 저는 10년 이상의 경력을 가진 열정적인 소프트웨어 개발자이며, 최고의 예산 및 비용 추적 앱을 개발하기 위해 많은 열정을 가지고 일하고 있습니다.";
+"upgrade_faq_developer_value" = "Budget Flow는 저 Fabian Hasse가 완전히 설계, 개발 및 유지 관리하는 독립 인디 앱입니다. 저는 10년 이상의 경험을 가진 소프트웨어 개발자이며, 여러분을 위한 최고의 예산 관리 앱을 만들기 위해 많은 열정을 가지고 일하고 있습니다.";
 "upgrade_faq_free_use_title" = "무료로도 앱을 사용할 수 있나요?";
 "upgrade_faq_free_use_value" = "예, 거래 생성과 같은 앱의 기본 기능을 완전 무료로 사용할 수 있습니다.\n\n또한 앱은 정식 버전을 구입하거나 구독하기로 결정하기 전에 미리 사용해 볼 수 있도록 정식 버전에 대한 체험 기간을 제공합니다. ";
 "upgrade_faq_security_title" = "데이터는 안전한가요?";
@@ -1697,7 +1697,9 @@
 
 "default_category_group_name_miscellaneous" = "기타";
 
-"default_reminder_title" = "거래 기록";
+"default_reminder_expense_check_title" = "모두 기록했나요? 최근 지출을 잠시 확인해 보세요 📝";
+"default_reminder_weekly_review_title" = "이번 주는 어땠나요? 돈이 어디로 흘러갔는지 살펴보세요 📊";
+"default_reminder_monthly_review_title" = "새로운 달이 시작됩니다. 재정을 살펴볼 시간이에요 📅";
 
 
 /* MARK: - Color Sections */

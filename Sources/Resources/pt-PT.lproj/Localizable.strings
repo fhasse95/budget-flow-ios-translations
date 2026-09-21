@@ -907,15 +907,15 @@
 
 /* Overview */
 "privacy_overview_datastorage_title" = "Armazenamento seguro de dados";
-"privacy_overview_datastorage_darwin_description" = "As tuas finanças são privadas – e devem permanecer assim. É por isso que os teus dados são armazenados exclusivamente no teu dispositivo ou no teu iCloud pessoal.";
-"privacy_overview_datastorage_android_description" = "As tuas finanças são privadas – e devem permanecer assim. É por isso que os teus dados são armazenados exclusivamente no teu dispositivo.";
+"privacy_overview_datastorage_description" = "As tuas finanças são privadas e devem continuar assim. Por isso, os teus dados são guardados exclusivamente no teu dispositivo.";
+"privacy_overview_datastorage_description_icloud_suffix" = " ou no teu iCloud pessoal.";
 
 "privacy_overview_privacy_control_title" = "Tu estás no controlo";
-"privacy_overview_privacy_control_description" = "Quer se trate dos teus dados guardados, da utilização da tua localização ou do acesso à tua câmara, tu estás sempre no controlo. Por exemplo, podes eliminar facilmente os teus dados repondo a aplicação e as permissões de acesso da aplicação são ajustadas a qualquer momento.";
+"privacy_overview_privacy_control_description" = "Podes eliminar os teus dados a qualquer momento e ajustar permissões como localização, câmara ou notificações nas definições do sistema.";
 
 /* Header */
 "welcome_view_header_title" = "Bem-vindo ao";
-"welcome_view_header_description" = "Controla todas as tuas finanças com facilidade: Introduz o teu orçamento, obtém informações e acompanha todos os teus rendimentos e despesas.";
+"welcome_view_header_description" = "Mantém receitas e despesas à vista, identifica padrões e toma melhores decisões com o teu dinheiro.";
 
 /* Footer */
 "privacy_policy_title" = "Política de Privacidade";
@@ -1068,7 +1068,7 @@
 "upgrade_faq_about_title" = "O que é o Budget Flow?";
 "upgrade_faq_about_value" = "Budget Flow é uma aplicação de rastreamento de orçamento moderna e fácil de usar para todos que querem acompanhar as tuas finanças e gerir as tuas despesas de forma eficaz.";
 "upgrade_faq_developer_title" = "Quem desenvolveu a aplicação?";
-"upgrade_faq_developer_value" = "O Budget Flow foi iniciado como um projeto paralelo e desde então foi completamente concebido, desenvolvido e mantido por mim, Fabian Hasse. Sou um programador de software entusiasta com mais de 10 anos de experiência e trabalho com muita paixão para desenvolver a melhor aplicação de orçamento e controlo de despesas.";
+"upgrade_faq_developer_value" = "O Budget Flow é uma aplicação indie independente, totalmente concebida, desenvolvida e mantida por mim, Fabian Hasse. Sou programador de software com mais de 10 anos de experiência e trabalho com muita paixão para criar a melhor aplicação de orçamento para ti.";
 "upgrade_faq_free_use_title" = "A aplicação também pode ser usada gratuitamente?";
 "upgrade_faq_free_use_value" = "Sim, podes usar as funções básicas da aplicação, como criar transações, de forma totalmente gratuita.\n\nAlém disso, a aplicação oferece um período de teste para a versão completa para que possas experimentá-la com antecedência antes de decidires comprar ou subscrever a versão completa.";
 "upgrade_faq_security_title" = "Os meus dados estão seguros?";
@@ -1697,7 +1697,9 @@
 
 "default_category_group_name_miscellaneous" = "Diversos";
 
-"default_reminder_title" = "Registar despesas";
+"default_reminder_expense_check_title" = "Já registaste tudo? Reserva um momento para as tuas últimas despesas 📝";
+"default_reminder_weekly_review_title" = "Como correu a tua semana? Vê para onde foi o teu dinheiro 📊";
+"default_reminder_monthly_review_title" = "Começa um novo mês. Está na hora de olhar para as tuas finanças 📅";
 
 
 /* MARK: - Color Sections */

@@ -907,15 +907,15 @@
 
 /* Overview */
 "privacy_overview_datastorage_title" = "Depozitare securizată a datelor";
-"privacy_overview_datastorage_darwin_description" = "Finanțele tale sunt private – și ar trebui să rămână așa. De aceea datele tale sunt stocate exclusiv pe dispozitivul tău sau în iCloud-ul tău personal.";
-"privacy_overview_datastorage_android_description" = "Finanțele tale sunt private – și ar trebui să rămână așa. De aceea datele tale sunt stocate exclusiv pe dispozitivul tău.";
+"privacy_overview_datastorage_description" = "Finanțele tale sunt private și așa trebuie să rămână. De aceea, datele tale sunt stocate exclusiv pe dispozitivul tău.";
+"privacy_overview_datastorage_description_icloud_suffix" = " sau în iCloud-ul tău personal.";
 
 "privacy_overview_privacy_control_title" = "Dețineți controlul";
-"privacy_overview_privacy_control_description" = "Fie că este vorba despre datele dvs. salvate, utilizarea locației dvs. sau accesul la camera dvs. - aveți întotdeauna controlul. De exemplu, puteți șterge cu ușurință datele prin resetarea aplicației, iar permisiunile de acces ale aplicației se ajustează la oricând.";
+"privacy_overview_privacy_control_description" = "Îți poți șterge datele oricând și poți ajusta permisiuni precum locația, camera sau notificările în setările sistemului.";
 
 /* Header */
 "welcome_view_header_title" = "Bine ați venit la";
-"welcome_view_header_description" = "Controlați-vă toate finanțele cu ușurință: Introduceți bugetul, obțineți informații și urmăriți toate veniturile și cheltuielile dvs.";
+"welcome_view_header_description" = "Ține veniturile și cheltuielile la vedere, observă tipare și ia decizii mai bune cu banii tăi.";
 
 /* Footer */
 "privacy_policy_title" = "Politica de confidențialitate";
@@ -1068,7 +1068,7 @@
 "upgrade_faq_about_title" = "Ce este Budget Flow?";
 "upgrade_faq_about_value" = "Budget Flow este o aplicație modernă și ușor de utilizat de urmărire a bugetului pentru toți cei care doresc să își țină evidența finanțelor și să își gestioneze eficient cheltuielile.";
 "upgrade_faq_developer_title" = "Cine a dezvoltat aplicația?";
-"upgrade_faq_developer_value" = "Budget Flow a fost început ca un proiect secundar și de atunci a fost complet proiectat, dezvoltat și întreținut de mine, Fabian Hasse. Sunt un dezvoltator de software entuziast, cu peste 10 ani de experiență și lucrez cu multă pasiune pentru dezvolta cea mai bună aplicație de bugetare și urmărire a cheltuielilor.";
+"upgrade_faq_developer_value" = "Budget Flow este o aplicație indie independentă, proiectată, dezvoltată și întreținută complet de mine, Fabian Hasse. Sunt dezvoltator software cu peste 10 ani de experiență și lucrez cu multă pasiune pentru a crea cea mai bună aplicație de buget pentru tine.";
 "upgrade_faq_free_use_title" = "Aplicația poate fi folosită și gratuit?";
 "upgrade_faq_free_use_value" = "Da, puteți utiliza funcțiile de bază ale aplicației, cum ar fi crearea de tranzacții, complet gratuit.\n\nÎn plus, aplicația oferă o perioadă de probă pentru versiunea completă, astfel încât să o puteți încerca în avans. înainte de a vă decide să cumpărați sau să vă abonați la versiunea completă.";
 "upgrade_faq_security_title" = "Datele mele sunt securizate?";
@@ -1697,7 +1697,9 @@
 
 "default_category_group_name_miscellaneous" = "Diverse";
 
-"default_reminder_title" = "Înregistrați cheltuielile";
+"default_reminder_expense_check_title" = "Ai înregistrat totul? Ia-ți puțin timp pentru ultimele cheltuieli 📝";
+"default_reminder_weekly_review_title" = "Cum a fost săptămâna ta? Vezi unde s-au dus banii tăi 📊";
+"default_reminder_monthly_review_title" = "Începe o lună nouă. E timpul să arunci o privire asupra finanțelor tale 📅";
 
 
 /* MARK: - Color Sections */

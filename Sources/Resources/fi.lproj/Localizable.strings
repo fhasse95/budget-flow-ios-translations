@@ -907,15 +907,15 @@
 
 /* Overview */
 "privacy_overview_datastorage_title" = "Suojattu tietojen tallennus";
-"privacy_overview_datastorage_darwin_description" = "Talousi on yksityistä – ja sen pitäisi pysyä sellaisina. Siksi tietosi tallennetaan yksinomaan laitteellesi tai henkilökohtaiseen iCloudiisi.";
-"privacy_overview_datastorage_android_description" = "Talousi on yksityistä – ja sen pitäisi pysyä sellaisina. Siksi tietosi tallennetaan yksinomaan laitteellesi.";
+"privacy_overview_datastorage_description" = "Taloutesi on yksityinen, ja niin sen pitää pysyä. Siksi tietosi tallennetaan ainoastaan laitteellesi.";
+"privacy_overview_datastorage_description_icloud_suffix" = " tai henkilökohtaiseen iCloudiisi.";
 
 "privacy_overview_privacy_control_title" = "Sinä hallitset";
-"privacy_overview_privacy_control_description" = "Oletpa kyse sitten tallennetuista tiedoistasi, sijaintisi käytöstä tai pääsystä kameraan - sinä hallitset aina. Voit esimerkiksi helposti poistaa tietosi nollaamalla sovelluksen ja säätämällä sovelluksen käyttöoikeuksia osoitteessa milloin tahansa.";
+"privacy_overview_privacy_control_description" = "Voit poistaa tietosi milloin tahansa ja säätää lupia, kuten sijaintia, kameraa tai ilmoituksia, järjestelmäasetuksissa.";
 
 /* Header */
 "welcome_view_header_title" = "Tervetuloa";
-"welcome_view_header_description" = "Hallitse kaikkea talouttasi helposti: Syötä budjettisi, hanki oivalluksia ja pidä kirjaa kaikista tuloistasi ja kuluistasi.";
+"welcome_view_header_description" = "Pidä tulot ja menot näkyvissä, tunnista kaavat ja tee parempia päätöksiä rahojesi kanssa.";
 
 /* Footer */
 "privacy_policy_title" = "Tietosuojakäytäntö";
@@ -1068,7 +1068,7 @@
 "upgrade_faq_about_title" = "Mikä on Budget Flow?";
 "upgrade_faq_about_value" = "Budget Flowus on moderni ja helppokäyttöinen budjetinseurantasovellus kaikille, jotka haluavat seurata talouttaan ja hallita kulujaan tehokkaasti.";
 "upgrade_faq_developer_title" = "Kuka on kehittänyt sovelluksen?";
-"upgrade_faq_developer_value" = "Budget Flow aloitettiin sivuprojektina, ja sen olen sittemmin suunnitellut, kehittänyt ja ylläpitänyt kokonaan minä, Fabian Hasse. Olen innostunut ohjelmistokehittäjä, jolla on yli 10 vuoden kokemus ja työskentelen suurella intohimolla kehittää paras budjetointi- ja kuluseurantasovellus.";
+"upgrade_faq_developer_value" = "Budget Flow on itsenäinen indie-sovellus, jonka olen kokonaan suunnitellut, kehittänyt ja jota ylläpidän minä, Fabian Hasse. Olen ohjelmistokehittäjä, jolla on yli 10 vuoden kokemus, ja työskentelen suurella intohimolla luodakseni sinulle parhaan budjettisovelluksen.";
 "upgrade_faq_free_use_title" = "Voiko sovellusta käyttää myös ilmaiseksi?";
 "upgrade_faq_free_use_value" = "Kyllä, voit käyttää sovelluksen perustoimintoja, kuten tapahtumien luomista, täysin ilmaiseksi.\n\nLisäksi sovellus tarjoaa kokeilujakson täysversiolle, jotta voit kokeilla sitä etukäteen ennen kuin päätät ostaa tai tilata täyden version.";
 "upgrade_faq_security_title" = "Ovatko tietoni turvassa?";
@@ -1697,7 +1697,9 @@
 
 "default_category_group_name_miscellaneous" = "Sekalaista";
 
-"default_reminder_title" = "Kirjaa kulut";
+"default_reminder_expense_check_title" = "Oletko kirjannut kaiken? Varaa hetki viimeisille menoillesi 📝";
+"default_reminder_weekly_review_title" = "Miten viikkosi meni? Katso, mihin rahasi menivät 📊";
+"default_reminder_monthly_review_title" = "Uusi kuukausi alkaa. On aika vilkaista talouttasi 📅";
 
 
 /* MARK: - Color Sections */

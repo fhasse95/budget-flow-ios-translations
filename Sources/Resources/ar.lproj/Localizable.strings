@@ -907,15 +907,15 @@
 
 /* Overview */
 "privacy_overview_datastorage_title" = "تخزين آمن للبيانات";
-"privacy_overview_datastorage_darwin_description" = "أموالك خاصة – ويجب أن تظل كذلك. لهذا السبب، يتم تخزين بياناتك فقط على جهازك أو في iCloud الشخصي الخاص بك.";
-"privacy_overview_datastorage_android_description" = "أموالك خاصة – ويجب أن تظل كذلك. لهذا السبب، يتم تخزين بياناتك فقط على جهازك.";
+"privacy_overview_datastorage_description" = "أموالك خاصة، ويجب أن تبقى كذلك. لذلك تُخزَّن بياناتك حصريًا على جهازك.";
+"privacy_overview_datastorage_description_icloud_suffix" = " أو في iCloud الشخصي الخاص بك.";
 
 "privacy_overview_privacy_control_title" = "أنت المتحكم";
-"privacy_overview_privacy_control_description" = "سواء كان الأمر يتعلق ببياناتك المحفوظة، أو استخدام موقعك، أو الوصول إلى الكاميرا الخاصة بك، فأنت دائمًا المتحكم. على سبيل المثال، يمكنك بسهولة حذف بياناتك عن طريق إعادة تعيين التطبيق، ويمكن تعديل أذونات التطبيق على في أي وقت.";
+"privacy_overview_privacy_control_description" = "يمكنك حذف بياناتك في أي وقت وتعديل الأذونات مثل الموقع أو الكاميرا أو الإشعارات في إعدادات النظام.";
 
 /* Header */
 "welcome_view_header_title" = "مرحبًا";
-"welcome_view_header_description" = "قم بإدارة كافة أموالك بسهولة: أدخل ميزانيتك، واحصل على المعلومات، وتتبع كل دخلك ونفقاتك.";
+"welcome_view_header_description" = "تابع دخلك ونفقاتك، واكتشف الأنماط، واتخذ قرارات أفضل بشأن أموالك.";
 
 /* Footer */
 "privacy_policy_title" = "سياسة الخصوصية";
@@ -1068,7 +1068,7 @@
 "upgrade_faq_about_title" = "ما هو Budget Flow؟";
 "upgrade_faq_about_value" = "يعد Budget Flow تطبيقًا حديثًا وسهل الاستخدام لتتبع الميزانية، وهو مناسب لجميع الذين يرغبون في متابعة أموالهم وإدارة نفقاتهم بفعالية.";
 "upgrade_faq_developer_title" = "من طور التطبيق؟";
-"upgrade_faq_developer_value" = "تم اطلق Budget Flow كمشروع جانبي ومن ثم تم تصميمه وتطويره وصيانته بالكامل من قبلي، فابيان هاسي. أنا مطور برمجيات متحمس ذو خبرة تزيد عن 10 سنوات وأعمل بشغف على تطوير أفضل تطبيق لإدارة الميزانية وتتبع النفقات.";
+"upgrade_faq_developer_value" = "Budget Flow هو تطبيق مستقل من نوع Indie، تم تصميمه وتطويره وصيانته بالكامل من قبلي، Fabian Hasse. أنا مطور برمجيات بخبرة تزيد عن 10 سنوات، وأعمل بشغف كبير على إنشاء أفضل تطبيق للميزانية من أجلك.";
 "upgrade_faq_free_use_title" = "هل يمكنني استخدام التطبيق مجانًا؟";
 "upgrade_faq_free_use_value" = "نعم، يمكنك استخدام الميزات الأساسية للتطبيق، مثل إنشاء الأنشطة، مجانًا تمامًا.\n\nبالإضافة إلى ذلك، يقدم التطبيق فترة تجريبية للإصدار الكامل حتى تتمكن من تجربته قبل أن تقرر قم بشراء النسخة الكاملة أو الاشتراك فيها.";
 "upgrade_faq_security_title" = "هل بياناتي آمنة؟";
@@ -1697,7 +1697,9 @@
 
 "default_category_group_name_miscellaneous" = "أخرى";
 
-"default_reminder_title" = "محاسبة النفقات";
+"default_reminder_expense_check_title" = "هل سجّلت كل شيء؟ خصص لحظة قصيرة لآخر مصروفاتك 📝";
+"default_reminder_weekly_review_title" = "كيف كان أسبوعك؟ ألق نظرة على أين ذهب مالك 📊";
+"default_reminder_monthly_review_title" = "بدأ شهر جديد. حان وقت إلقاء نظرة على أموالك 📅";
 
 
 /* MARK: - Color Sections */

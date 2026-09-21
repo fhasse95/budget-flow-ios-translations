@@ -907,15 +907,15 @@
 
 /* Overview */
 "privacy_overview_datastorage_title" = "安全資料儲存";
-"privacy_overview_datastorage_darwin_description" = "您的財務是私密的—並且應該保持私密。這就是為什麼您的資料僅儲存在裝置上，或儲存在您的個人 iCloud 中。";
-"privacy_overview_datastorage_android_description" = "您的財務是私密的—並且應該保持私密。這就是為什麼您的資料僅儲存在裝置上。";
+"privacy_overview_datastorage_description" = "你的財務資訊是私密的，也應該一直如此。因此，你的資料只會儲存在你的裝置上。";
+"privacy_overview_datastorage_description_icloud_suffix" = "或個人 iCloud 中。";
 
 "privacy_overview_privacy_control_title" = "您的財務由您做主";
-"privacy_overview_privacy_control_description" = "無論是您保存的數據、您的位置還是訪問您的相機- 您始終有著最高掌控權。例如，您可以通過重置應用輕鬆刪除您的數據，並且應用的訪問權限調整為任何 時候。";
+"privacy_overview_privacy_control_description" = "你可以隨時刪除資料，並在系統設定中調整位置、相機或通知等權限。";
 
 /* Header */
 "welcome_view_header_title" = "歡迎來到";
-"welcome_view_header_description" = "輕鬆控制您的所有財務狀況：輸入您的預算、獲取見解並追蹤您的所有收入和支出";
+"welcome_view_header_description" = "清楚掌握收入和支出，發現規律，並更好地做出用錢決策。";
 
 /* Footer */
 "privacy_policy_title" = "隱私權政策";
@@ -1068,7 +1068,7 @@
 "upgrade_faq_about_title" = "什麼是Budget Flow？";
 "upgrade_faq_about_value" = "Budget Flow 是一款現代且易用的預算追蹤應用，適合想有效管理支出並掌控財務的使用者。";
 "upgrade_faq_developer_title" = "誰開發了此應用程式？";
-"upgrade_faq_developer_value" = "Budget Flow 最初是一個副項目，由我，Fabian Hasse，設計、開發並維護。我是一位熱衷軟體開發的專業人士，擁有超過10 年的開發經驗，致力於打造最優秀的預算與支出追蹤應用程式。";
+"upgrade_faq_developer_value" = "Budget Flow 是一款獨立的獨立開發應用程式，由我 Fabian Hasse 完整設計、開發和維護。我是一名擁有超過 10 年經驗的軟體開發者，並滿懷熱情地為你打造最好的預算管理應用程式。";
 "upgrade_faq_free_use_title" = "該應用程式也可以免費使用嗎？";
 "upgrade_faq_free_use_value" = "是的，您可以免費使用應用程式的基本功能，例如建立交易。\n\n此外，您也可以試用完整版，以便您在決定購買或訂閱完整版之前先試用。";
 "upgrade_faq_security_title" = "我的資料安全嗎？";
@@ -1697,7 +1697,9 @@
 
 "default_category_group_name_miscellaneous" = "其他";
 
-"default_reminder_title" = "記錄開支";
+"default_reminder_expense_check_title" = "都記錄好了嗎？花點時間看看最近的支出 📝";
+"default_reminder_weekly_review_title" = "這一週過得如何？看看你的錢都流向哪裡了 📊";
+"default_reminder_monthly_review_title" = "新的一個月開始了。該看看你的財務狀況了 📅";
 
 
 /* MARK: - Color Sections */

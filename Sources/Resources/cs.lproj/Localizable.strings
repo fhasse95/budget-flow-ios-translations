@@ -907,15 +907,15 @@
 
 /* Overview */
 "privacy_overview_datastorage_title" = "Bezpečné úložiště dat";
-"privacy_overview_datastorage_darwin_description" = "Vaše finance jsou soukromé – a tak by měly zůstat. Proto jsou vaše data uložena výhradně ve vašem zařízení nebo ve vašem osobním iCloudu.";
-"privacy_overview_datastorage_android_description" = "Vaše finance jsou soukromé – a tak by měly zůstat. Proto jsou vaše data uložena výhradně ve vašem zařízení.";
+"privacy_overview_datastorage_description" = "Vaše finance jsou soukromé a tak by to mělo zůstat. Proto se vaše data ukládají výhradně ve vašem zařízení.";
+"privacy_overview_datastorage_description_icloud_suffix" = " nebo ve vašem osobním iCloudu.";
 
 "privacy_overview_privacy_control_title" = "Máte kontrolu";
-"privacy_overview_privacy_control_description" = "Ať už jde o vaše uložená data, použití vaší polohy nebo přístup ke kameře – vždy máte vše pod kontrolou. Svá data můžete například snadno smazat resetováním aplikace a přístupová oprávnění aplikace se upraví na kdykoli.";
+"privacy_overview_privacy_control_description" = "Svá data můžete kdykoli smazat a oprávnění, jako je poloha, fotoaparát nebo oznámení, upravit v nastavení systému.";
 
 /* Header */
 "welcome_view_header_title" = "Vítejte v";
-"welcome_view_header_description" = "Snadno kontrolujte všechny své finance: Zadejte svůj rozpočet, získejte přehled a sledujte všechny své příjmy a výdaje.";
+"welcome_view_header_description" = "Mějte příjmy i výdaje pod kontrolou, rozpoznávejte vzorce a dělejte lepší rozhodnutí o svých penězích.";
 
 /* Footer */
 "privacy_policy_title" = "Zásady ochrany osobních údajů";
@@ -1068,7 +1068,7 @@
 "upgrade_faq_about_title" = "Co je tok Budget Flow?";
 "upgrade_faq_about_value" = "Budget Flow je moderní a snadno použitelná aplikace pro sledování rozpočtu pro každého, kdo chce mít přehled o svých financích a efektivně spravovat své výdaje.";
 "upgrade_faq_developer_title" = "Kdo vyvinul aplikaci?";
-"upgrade_faq_developer_value" = "Budget Flow byl zahájen jako vedlejší projekt a od té doby jsem ho kompletně navrhl, vyvinul a spravoval jsem já, Fabian Hasse. Jsem nadšený softwarový vývojář s více než 10 lety zkušeností a pracuji s velkou vášní vyvinout nejlepší aplikaci pro rozpočtování a sledování výdajů.";
+"upgrade_faq_developer_value" = "Budget Flow je nezávislá indie aplikace, kterou kompletně navrhuji, vyvíjím a udržuji já, Fabian Hasse. Jsem softwarový vývojář s více než 10 lety zkušeností a s velkou vášní pracuji na nejlepší rozpočtové aplikaci pro vás.";
 "upgrade_faq_free_use_title" = "Lze aplikaci používat také zdarma?";
 "upgrade_faq_free_use_value" = "Ano, základní funkce aplikace, jako je vytváření transakcí, můžete používat zcela zdarma.\n\nAplikace navíc nabízí zkušební období pro plnou verzi, abyste si ji mohli předem vyzkoušet než se rozhodnete zakoupit nebo předplatit plnou verzi.";
 "upgrade_faq_security_title" = "Jsou moje data v bezpečí?";
@@ -1697,7 +1697,9 @@
 
 "default_category_group_name_miscellaneous" = "Různé";
 
-"default_reminder_title" = "Zaznamenejte výdaje";
+"default_reminder_expense_check_title" = "Už máš všechno zapsané? Udělej si chvilku na své poslední výdaje 📝";
+"default_reminder_weekly_review_title" = "Jaký byl tvůj týden? Podívej se, kam odtekly tvoje peníze 📊";
+"default_reminder_monthly_review_title" = "Začíná nový měsíc. Je čas podívat se na své finance 📅";
 
 
 /* MARK: - Color Sections */

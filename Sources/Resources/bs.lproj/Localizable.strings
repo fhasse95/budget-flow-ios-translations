@@ -907,15 +907,15 @@
 
 /* Overview */
 "privacy_overview_datastorage_title" = "Sigurna pohrana podataka";
-"privacy_overview_datastorage_darwin_description" = "Vaše finansije su privatne – i takve bi trebale ostati. Zato se vaši podaci pohranjuju isključivo na vašem uređaju ili u vašem ličnom iCloudu.";
-"privacy_overview_datastorage_android_description" = "Vaše finansije su privatne – i takve bi trebale ostati. Zato se vaši podaci pohranjuju isključivo na vašem uređaju.";
+"privacy_overview_datastorage_description" = "Vaše finansije su privatne i tako treba ostati. Zato se vaši podaci pohranjuju isključivo na vašem uređaju.";
+"privacy_overview_datastorage_description_icloud_suffix" = " ili u vašem ličnom iCloudu.";
 
 "privacy_overview_privacy_control_title" = "Vi imate kontrolu";
-"privacy_overview_privacy_control_description" = "Bilo da se radi o vašim spremljenim podacima, korištenju vaše lokacije ili pristupu vašoj kameri - uvijek imate kontrolu. Na primjer, možete jednostavno izbrisati svoje podatke resetiranjem aplikacije i dopuštenja pristupa aplikacije prilagoditi na bilo kada.";
+"privacy_overview_privacy_control_description" = "Svoje podatke možete izbrisati u bilo kojem trenutku i prilagoditi dozvole poput lokacije, kamere ili obavještenja u sistemskim postavkama.";
 
 /* Header */
 "welcome_view_header_title" = "Dobro došli u";
-"welcome_view_header_description" = "Kontrolirajte sve svoje financije s lakoćom: Unesite svoj budžet, steknite uvide i pratite sve svoje prihode i rashode.";
+"welcome_view_header_description" = "Pratite prihode i rashode, prepoznajte obrasce i donosite bolje odluke o svom novcu.";
 
 /* Footer */
 "privacy_policy_title" = "Pravila privatnosti";
@@ -1068,7 +1068,7 @@
 "upgrade_faq_about_title" = "Šta je Budget Flow?";
 "upgrade_faq_about_value" = "Budget Flow je moderna aplikacija za praćenje budžeta jednostavna za korištenje za sve koji žele pratiti svoje financije i učinkovito upravljati svojim troškovima.";
 "upgrade_faq_developer_title" = "Ko je razvio aplikaciju?";
-"upgrade_faq_developer_value" = "Budget Flow je pokrenut kao sporedni projekat i od tada sam ga u potpunosti dizajnirao, razvio i održavao ja, Fabian Hasse. Ja sam entuzijastični programer softvera sa više od 10 godina iskustva i radim s puno strasti da razviti najbolju aplikaciju za budžetiranje i praćenje troškova.";
+"upgrade_faq_developer_value" = "Budget Flow je nezavisna indie aplikacija koju u potpunosti dizajniram, razvijam i održavam ja, Fabian Hasse. Softverski sam developer sa više od 10 godina iskustva i s puno strasti radim na najboljoj aplikaciji za budžet za tebe.";
 "upgrade_faq_free_use_title" = "Može li se aplikacija koristiti besplatno?";
 "upgrade_faq_free_use_value" = "Da, možete koristiti osnovne funkcije aplikacije, kao što je stvaranje transakcija, potpuno besplatno.\n\nOsim toga, aplikacija nudi probno razdoblje za punu verziju tako da je možete isprobati unaprijed prije nego što odlučite kupiti ili se pretplatiti na punu verziju.";
 "upgrade_faq_security_title" = "Jesu li moji podaci sigurni?";
@@ -1697,7 +1697,9 @@
 
 "default_category_group_name_miscellaneous" = "Razno";
 
-"default_reminder_title" = "Zabilježi troškove";
+"default_reminder_expense_check_title" = "Jesi li sve unio? Odvoji kratko vrijeme za svoje posljednje troškove 📝";
+"default_reminder_weekly_review_title" = "Kako je prošla tvoja sedmica? Pogledaj kuda je otišao tvoj novac 📊";
+"default_reminder_monthly_review_title" = "Počinje novi mjesec. Vrijeme je da pogledaš svoje finansije 📅";
 
 
 /* MARK: - Color Sections */

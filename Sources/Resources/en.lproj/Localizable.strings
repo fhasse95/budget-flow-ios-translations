@@ -907,15 +907,15 @@
 
 /* Overview */
 "privacy_overview_datastorage_title" = "Secure data storage";
-"privacy_overview_datastorage_darwin_description" = "Your finances are private – and they should stay that way. That’s why your data is stored exclusively on your device or in your personal iCloud.";
-"privacy_overview_datastorage_android_description" = "Your finances are private – and they should stay that way. That’s why your data is stored exclusively on your device.";
+"privacy_overview_datastorage_description" = "Your finances are private, and they should stay that way. That’s why your data is stored exclusively on your device.";
+"privacy_overview_datastorage_description_icloud_suffix" = " or in your personal iCloud.";
 
 "privacy_overview_privacy_control_title" = "You are in control";
-"privacy_overview_privacy_control_description" = "Whether it's your saved data, use of your location or access to your camera - you're always in control. For example, you can easily delete your data by resetting the app and the access permissions of the app adjust at any time.";
+"privacy_overview_privacy_control_description" = "You can delete your data at any time and adjust permissions such as location, camera or notifications in system settings.";
 
 /* Header */
 "welcome_view_header_title" = "Welcome to";
-"welcome_view_header_description" = "Control all of your finances with ease: Enter your budget, get insights and keep track of all your income and expenses.";
+"welcome_view_header_description" = "Keep income and expenses in view, spot patterns and make better decisions with your money.";
 
 /* Footer */
 "privacy_policy_title" = "Privacy Policy";
@@ -1068,7 +1068,7 @@
 "upgrade_faq_about_title" = "What is Budget Flow?";
 "upgrade_faq_about_value" = "Budget Flow is a modern and easy-to-use budget tracking app for everyone who wants to keep track of their finances and manage their expenses effectively.";
 "upgrade_faq_developer_title" = "Who developed the app?";
-"upgrade_faq_developer_value" = "Budget Flow was started as a side project and has since been completely designed, developed and maintained by me, Fabian Hasse. I am an enthusiastic software developer with over 10 years of experience and I work with a lot of passion to develop the best budgeting and expense tracking app.";
+"upgrade_faq_developer_value" = "Budget Flow is an independent indie app, fully designed, developed, and maintained by me, Fabian Hasse. I am a software developer with over 10 years of experience, and I work with a lot of passion to build the best budgeting app for you.";
 "upgrade_faq_free_use_title" = "Can the app also be used for free?";
 "upgrade_faq_free_use_value" = "Yes, you can use the app's basic functions, such as creating transactions, completely free of charge.\n\nIn addition, the app offers a trial period for the full version so that you can try it out in advance before you decide to purchase or subscribe the full version.";
 "upgrade_faq_security_title" = "Is my data secure?";
@@ -1697,7 +1697,9 @@
 
 "default_category_group_name_miscellaneous" = "Miscellaneous";
 
-"default_reminder_title" = "Record expenses";
+"default_reminder_expense_check_title" = "Have you logged everything? Take a moment for your latest expenses 📝";
+"default_reminder_weekly_review_title" = "How did your week go? See where your money flowed 📊";
+"default_reminder_monthly_review_title" = "A new month begins. Time to take a look at your finances 📅";
 
 
 /* MARK: - Color Sections */

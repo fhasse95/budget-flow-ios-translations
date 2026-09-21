@@ -907,15 +907,15 @@
 
 /* Overview */
 "privacy_overview_datastorage_title" = "Emmagatzematge segur de dades";
-"privacy_overview_datastorage_darwin_description" = "Les teves finances són privades i així han de continuar. Per això, les teves dades s'emmagatzemen exclusivament al teu dispositiu o al teu iCloud personal.";
-"privacy_overview_datastorage_android_description" = "Les teves finances són privades i així han de continuar. Per això, les teves dades s'emmagatzemen exclusivament al teu dispositiu.";
+"privacy_overview_datastorage_description" = "Les teves finances són privades i així han de continuar. Per això, les teves dades s'emmagatzemen exclusivament al teu dispositiu.";
+"privacy_overview_datastorage_description_icloud_suffix" = " o al teu iCloud personal.";
 
 "privacy_overview_privacy_control_title" = "Tu tens el control";
-"privacy_overview_privacy_control_description" = "Sigui que es tracti de les teves dades guardades, l'ús de la teva ubicació o l'accés a la teva càmera, sempre tens el control. Per exemple, pots eliminar fàcilment les teves dades restablint l'app i els permisos d'accés es poden ajustar en qualsevol moment.";
+"privacy_overview_privacy_control_description" = "Pots eliminar les teves dades en qualsevol moment i ajustar permisos com la ubicació, la càmera o les notificacions a la configuració del sistema.";
 
 /* Header */
 "welcome_view_header_title" = "Benvingut a";
-"welcome_view_header_description" = "Controla totes les teves finances fàcilment: introdueix el teu pressupost, obté informació i fes un seguiment de tots els teus ingressos i despeses";
+"welcome_view_header_description" = "Tingues ingressos i despeses a la vista, detecta patrons i pren millors decisions amb els teus diners.";
 
 /* Footer */
 "privacy_policy_title" = "Política de privacitat";
@@ -1068,7 +1068,7 @@
 "upgrade_faq_about_title" = "Què és Budget Flow?";
 "upgrade_faq_about_value" = "Budget Flow és una app de seguiment de pressupost moderna i fàcil d'utilitzar per a tots els que vulguin fer un seguiment de les seves finances i gestionar les seves despeses de manera efectiva.";
 "upgrade_faq_developer_title" = "Qui va desenvolupar l'aplicació?";
-"upgrade_faq_developer_value" = "Budget Flow va començar com un projecte secundari i des de llavors ha estat completament dissenyat, desenvolupat i mantingut per mi, Fabian Hasse. Sóc un desenvolupador de programari apassionat amb més de 10 anys d'experiència i treballo amb molta passió per desenvolupar la millor aplicació de seguiment de despeses i pressupostos.";
+"upgrade_faq_developer_value" = "Budget Flow és una app indie independent, dissenyada, desenvolupada i mantinguda completament per mi, Fabian Hasse. Sóc desenvolupador de programari amb més de 10 anys d'experiència i treballo amb molta passió per crear la millor app de pressupost per a tu.";
 "upgrade_faq_free_use_title" = "Es pot utilitzar l'app també de forma gratuïta?";
 "upgrade_faq_free_use_value" = "Sí, pots utilitzar les funcions bàsiques de l'app, com la creació de transaccions, de manera totalment gratuïta.\n\nA més, l'app ofereix un període de prova per a la versió completa perquè puguis provar-la abans de decidir-te a comprar-la o subscriure't a la versió completa.";
 "upgrade_faq_security_title" = "Són segurs les meves dades?";
@@ -1697,7 +1697,9 @@
 
 "default_category_group_name_miscellaneous" = "Varios";
 
-"default_reminder_title" = "Despeses registrades";
+"default_reminder_expense_check_title" = "Ja ho has registrat tot? Dedica un moment a les teves últimes despeses 📝";
+"default_reminder_weekly_review_title" = "Com ha anat la setmana? Mira cap a on han anat els teus diners 📊";
+"default_reminder_monthly_review_title" = "Comença un nou mes. És hora de donar una ullada a les teves finances 📅";
 
 
 /* MARK: - Color Sections */

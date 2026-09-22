@@ -9,13 +9,6 @@
 /* MARK: - General */
 "app_name" = "Budget Flow";
 
-"feedback_quick_action_title" = "الملاحظات";
-"feedback_quick_action_subtitle" = "انقر هنا لتقديم بعض الملاحظات حول التطبيق.";
-"income_quick_action_title" = "دخل جديد";
-"expense_quick_action_title" = "مصروف جديد";
-"transfer_quick_action_title" = "نقل جديد";
-"recurring_quick_action_title" = "متكرر";
-
 
 /* MARK: - Miscellaneous */
 "face_id" = "Face ID";
@@ -34,6 +27,7 @@
 
 "share_participant_owner" = "المالك";
 "share_participant_you" = "أنت";
+
 
 /* MARK: - Enums */
 "account_type_cash" = "نقدًا";
@@ -152,6 +146,9 @@
 "subscription_period_years" = "السنوات";
 
 "overview_period_type_current_week" = "هذا الأسبوع";
+
+"quick_action_type_feedback_title" = "الملاحظات";
+"quick_action_type_feedback_subtitle" = "انقر هنا لتقديم بعض الملاحظات حول التطبيق.";
 
 "quick_action_type_new_income" = "دخل جديد";
 "quick_action_type_new_expense" = "مصروفات جديدة";
@@ -371,6 +368,7 @@
 
 /* Formats */
 "transaction_filter_range_format" = "%@ إلى %@";
+
 
 /* MARK: - Period Selection View */
 /* Titles */
@@ -620,6 +618,7 @@
 "contact_developer_mail_subject" = "%@: %@%@";
 "contact_developer_mail_subject_full_version" = " (full version)";
 
+
 /* MARK: - Appearance Settings View */
 /* Info */
 "appearance_setting_info_title" = "الوصف";
@@ -636,6 +635,7 @@
 
 /* Footer */
 "appearance_accent_color_setting_footer_title" = "تغيير لون الأزرار وعناصر التحكم الأخرى في التطبيق.";
+
 
 /* MARK: - Sync & Data Settings View */
 /* Info */
@@ -678,6 +678,7 @@
 "csv_export_progress_transactions" = "المعاملات";
 "csv_export_progress_finishing" = "جارٍ إنهاء التصدير";
 
+
 /* MARK: - Cloud Settings View */
 /* Info */
 "cloud_setting_info_title" = "الوصف";
@@ -705,6 +706,7 @@
 
 /* Footer */
 "manual_sync_cloud_setting_footer_title" = "إذا لم تتم مزامنة بياناتك أو لم تتم مزامنتها بالكامل مع iCloud، يمكنك بدء المزامنة يدويًا من هنا.";
+
 
 /* MARK: - Backup Settings View */
 /* Info */
@@ -768,6 +770,7 @@
 "backup_restore_progress_transaction_groups" = "مجموعات المعاملات";
 "backup_restore_progress_transactions" = "المعاملات";
 "backup_restore_progress_reminders" = "التذكيرات";
+
 
 /* MARK: - Advanced Settings View */
 /* Info */
@@ -2216,6 +2219,7 @@
 "date_property_title" = "التاريخ";
 "category_property_title" = "الفئة";
 "payee_property_title" = "المستفيد";
+
 
 /* MARK: - Dummy Data */
 "default_budget_book_name" = "دفتر ميزانيتي";

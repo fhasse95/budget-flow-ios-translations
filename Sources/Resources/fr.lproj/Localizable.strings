@@ -9,13 +9,6 @@
 /* MARK: - General */
 "app_name" = "Budget Flow";
 
-"feedback_quick_action_title" = "Commentaires";
-"feedback_quick_action_subtitle" = "Cliquez ici pour donner votre avis sur l'app.";
-"income_quick_action_title" = "Nouveaux revenus";
-"expense_quick_action_title" = "Nouvelle dépense";
-"transfer_quick_action_title" = "Nouveau transfert";
-"recurring_quick_action_title" = "Récurrent";
-
 
 /* MARK: - Miscellaneous */
 "face_id" = "Face ID";
@@ -34,6 +27,7 @@
 
 "share_participant_owner" = "Propriétaire";
 "share_participant_you" = "Vous";
+
 
 /* MARK: - Enums */
 "account_type_cash" = "Espèces";
@@ -152,6 +146,9 @@
 "subscription_period_years" = "Années";
 
 "overview_period_type_current_week" = "Cette semaine";
+
+"quick_action_type_feedback_title" = "Commentaires";
+"quick_action_type_feedback_subtitle" = "Cliquez ici pour donner votre avis sur l'app.";
 
 "quick_action_type_new_income" = "Nouveau revenu";
 "quick_action_type_new_expense" = "Nouvelle dépense";
@@ -371,6 +368,7 @@
 
 /* Formats */
 "transaction_filter_range_format" = "%@ à %@";
+
 
 /* MARK: - Period Selection View */
 /* Titles */
@@ -620,6 +618,7 @@
 "contact_developer_mail_subject" = "%@: %@%@";
 "contact_developer_mail_subject_full_version" = " (full version)";
 
+
 /* MARK: - Appearance Settings View */
 /* Info */
 "appearance_setting_info_title" = "Description";
@@ -636,6 +635,7 @@
 
 /* Footer */
 "appearance_accent_color_setting_footer_title" = "Modifie la couleur des boutons et autres commandes de l'app.";
+
 
 /* MARK: - Sync & Data Settings View */
 /* Info */
@@ -678,6 +678,7 @@
 "csv_export_progress_transactions" = "Transactions";
 "csv_export_progress_finishing" = "Finalisation de l'exportation";
 
+
 /* MARK: - Cloud Settings View */
 /* Info */
 "cloud_setting_info_title" = "Description";
@@ -705,6 +706,7 @@
 
 /* Footer */
 "manual_sync_cloud_setting_footer_title" = "Si vos données ne se sont pas synchronisées ou ne sont pas complètement synchronisées avec iCloud, vous pouvez lancer la synchronisation manuellement ici.";
+
 
 /* MARK: - Backup Settings View */
 /* Info */
@@ -768,6 +770,7 @@
 "backup_restore_progress_transaction_groups" = "Groupes de transactions";
 "backup_restore_progress_transactions" = "Transactions";
 "backup_restore_progress_reminders" = "Rappels";
+
 
 /* MARK: - Advanced Settings View */
 /* Info */
@@ -2216,6 +2219,7 @@
 "date_property_title" = "Date";
 "category_property_title" = "Catégorie";
 "payee_property_title" = "Bénéficiaire";
+
 
 /* MARK: - Dummy Data */
 "default_budget_book_name" = "Mon livre budgétaire";

@@ -9,13 +9,6 @@
 /* MARK: - General */
 "app_name" = "Budget Flow";
 
-"feedback_quick_action_title" = "Geri Bildirim";
-"feedback_quick_action_subtitle" = "Uygulama hakkında geri bildirimde bulunmak için burayı tıklayın.";
-"income_quick_action_title" = "Yeni Gelir";
-"expense_quick_action_title" = "Yeni Gider";
-"transfer_quick_action_title" = "Yeni Aktarım";
-"recurring_quick_action_title" = "Yinelenen";
-
 
 /* MARK: - Miscellaneous */
 "face_id" = "Face ID";
@@ -34,6 +27,7 @@
 
 "share_participant_owner" = "Sahip";
 "share_participant_you" = "Sen";
+
 
 /* MARK: - Enums */
 "account_type_cash" = "Nakit";
@@ -152,6 +146,9 @@
 "subscription_period_years" = "Yıl";
 
 "overview_period_type_current_week" = "Bu hafta";
+
+"quick_action_type_feedback_title" = "Geri Bildirim";
+"quick_action_type_feedback_subtitle" = "Uygulama hakkında geri bildirimde bulunmak için burayı tıklayın.";
 
 "quick_action_type_new_income" = "Yeni Gelir";
 "quick_action_type_new_expense" = "Yeni Gider";
@@ -371,6 +368,7 @@
 
 /* Formats */
 "transaction_filter_range_format" = "%@ - %@";
+
 
 /* MARK: - Period Selection View */
 /* Titles */
@@ -620,6 +618,7 @@
 "contact_developer_mail_subject" = "%@: %@%@";
 "contact_developer_mail_subject_full_version" = " (full version)";
 
+
 /* MARK: - Appearance Settings View */
 /* Info */
 "appearance_setting_info_title" = "Açıklama";
@@ -636,6 +635,7 @@
 
 /* Footer */
 "appearance_accent_color_setting_footer_title" = "Uygulama içindeki düğmelerin ve diğer kontrollerin rengini değiştirir.";
+
 
 /* MARK: - Sync & Data Settings View */
 /* Info */
@@ -678,6 +678,7 @@
 "csv_export_progress_transactions" = "İşlemler";
 "csv_export_progress_finishing" = "Dışa aktarma tamamlanıyor";
 
+
 /* MARK: - Cloud Settings View */
 /* Info */
 "cloud_setting_info_title" = "Açıklama";
@@ -705,6 +706,7 @@
 
 /* Footer */
 "manual_sync_cloud_setting_footer_title" = "Verileriniz iCloud ile senkronize edilmediyse veya tam olarak senkronize edilmediyse, senkronizasyonu buradan manuel olarak başlatabilirsiniz.";
+
 
 /* MARK: - Backup Settings View */
 /* Info */
@@ -768,6 +770,7 @@
 "backup_restore_progress_transaction_groups" = "İşlem grupları";
 "backup_restore_progress_transactions" = "İşlemler";
 "backup_restore_progress_reminders" = "Hatırlatıcılar";
+
 
 /* MARK: - Advanced Settings View */
 /* Info */
@@ -2216,6 +2219,7 @@
 "date_property_title" = "Tarih";
 "category_property_title" = "Kategori";
 "payee_property_title" = "Alacaklı";
+
 
 /* MARK: - Dummy Data */
 "default_budget_book_name" = "Bütçe Defterim";

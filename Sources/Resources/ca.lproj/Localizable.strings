@@ -9,13 +9,6 @@
 /* MARK: - General */
 "app_name" = "Budget Flow";
 
-"feedback_quick_action_title" = "Comentaris";
-"feedback_quick_action_subtitle" = "Feu clic aquí per donar la vostra opinió sobre l'app";
-"income_quick_action_title" = "Nous ingressos";
-"expense_quick_action_title" = "Nou despesa";
-"transfer_quick_action_title" = "Nova transferència";
-"recurring_quick_action_title" = "Recurrent";
-
 
 /* MARK: - Miscellaneous */
 "face_id" = "Face ID";
@@ -34,6 +27,7 @@
 
 "share_participant_owner" = "Propietari";
 "share_participant_you" = "Tu";
+
 
 /* MARK: - Enums */
 "account_type_cash" = "Efectiu";
@@ -152,6 +146,9 @@
 "subscription_period_years" = "Anys";
 
 "overview_period_type_current_week" = "Aquesta setmana";
+
+"quick_action_type_feedback_title" = "Comentaris";
+"quick_action_type_feedback_subtitle" = "Feu clic aquí per donar la vostra opinió sobre l'app";
 
 "quick_action_type_new_income" = "Nou ingrés";
 "quick_action_type_new_expense" = "Nova despesa";
@@ -371,6 +368,7 @@
 
 /* Formats */
 "transaction_filter_range_format" = "%@ a %@";
+
 
 /* MARK: - Period Selection View */
 /* Titles */
@@ -620,6 +618,7 @@
 "contact_developer_mail_subject" = "%@: %@%@";
 "contact_developer_mail_subject_full_version" = " (full version)";
 
+
 /* MARK: - Appearance Settings View */
 /* Info */
 "appearance_setting_info_title" = "Descripció";
@@ -636,6 +635,7 @@
 
 /* Footer */
 "appearance_accent_color_setting_footer_title" = "Canvia el color dels botons i altres controls dins de l'app.";
+
 
 /* MARK: - Sync & Data Settings View */
 /* Info */
@@ -678,6 +678,7 @@
 "csv_export_progress_transactions" = "Transaccions";
 "csv_export_progress_finishing" = "Finalitzant l'exportació";
 
+
 /* MARK: - Cloud Settings View */
 /* Info */
 "cloud_setting_info_title" = "Descripció";
@@ -705,6 +706,7 @@
 
 /* Footer */
 "manual_sync_cloud_setting_footer_title" = "Si les teves dades no s'han sincronitzat o no s'han sincronitzat completament amb iCloud, pots iniciar la sincronització manualment aquí.";
+
 
 /* MARK: - Backup Settings View */
 /* Info */
@@ -768,6 +770,7 @@
 "backup_restore_progress_transaction_groups" = "Grups de transaccions";
 "backup_restore_progress_transactions" = "Transaccions";
 "backup_restore_progress_reminders" = "Recordatoris";
+
 
 /* MARK: - Advanced Settings View */
 /* Info */
@@ -2216,6 +2219,7 @@
 "date_property_title" = "Data";
 "category_property_title" = "Categoria";
 "payee_property_title" = "Beneficiari";
+
 
 /* MARK: - Dummy Data */
 "default_budget_book_name" = "El meu llibre de pressupost";

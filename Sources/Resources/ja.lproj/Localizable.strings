@@ -9,13 +9,6 @@
 /* MARK: - General */
 "app_name" = "Budget Flow";
 
-"feedback_quick_action_title" = "フィードバック";
-"feedback_quick_action_subtitle" = "アプリについてフィードバックはこちらから。";
-"income_quick_action_title" = "新しい収入";
-"expense_quick_action_title" = "新しい支出";
-"transfer_quick_action_title" = "新しい振替";
-"recurring_quick_action_title" = "定期的";
-
 
 /* MARK: - Miscellaneous */
 "face_id" = "Face ID";
@@ -34,6 +27,7 @@
 
 "share_participant_owner" = "所有者";
 "share_participant_you" = "あなた";
+
 
 /* MARK: - Enums */
 "account_type_cash" = "現金";
@@ -152,6 +146,9 @@
 "subscription_period_years" = "年";
 
 "overview_period_type_current_week" = "今週";
+
+"quick_action_type_feedback_title" = "フィードバック";
+"quick_action_type_feedback_subtitle" = "アプリについてフィードバックはこちらから。";
 
 "quick_action_type_new_income" = "新しい収入";
 "quick_action_type_new_expense" = "新しい支出";
@@ -371,6 +368,7 @@
 
 /* Formats */
 "transaction_filter_range_format" = "%@〜%@";
+
 
 /* MARK: - Period Selection View */
 /* Titles */
@@ -620,6 +618,7 @@
 "contact_developer_mail_subject" = "%@: %@%@";
 "contact_developer_mail_subject_full_version" = " (full version)";
 
+
 /* MARK: - Appearance Settings View */
 /* Info */
 "appearance_setting_info_title" = "説明";
@@ -636,6 +635,7 @@
 
 /* Footer */
 "appearance_accent_color_setting_footer_title" = "アプリ内のボタンやその他のコントロールの色を変更します。";
+
 
 /* MARK: - Sync & Data Settings View */
 /* Info */
@@ -678,6 +678,7 @@
 "csv_export_progress_transactions" = "取引";
 "csv_export_progress_finishing" = "エクスポートを完了中";
 
+
 /* MARK: - Cloud Settings View */
 /* Info */
 "cloud_setting_info_title" = "説明";
@@ -705,6 +706,7 @@
 
 /* Footer */
 "manual_sync_cloud_setting_footer_title" = "データがiCloudと同期されていない、または完全に同期されていない場合は、ここで手動で同期を開始できます。";
+
 
 /* MARK: - Backup Settings View */
 /* Info */
@@ -768,6 +770,7 @@
 "backup_restore_progress_transaction_groups" = "取引グループ";
 "backup_restore_progress_transactions" = "取引";
 "backup_restore_progress_reminders" = "リマインダー";
+
 
 /* MARK: - Advanced Settings View */
 /* Info */
@@ -2216,6 +2219,7 @@
 "date_property_title" = "日付";
 "category_property_title" = "カテゴリ";
 "payee_property_title" = "支払先";
+
 
 /* MARK: - Dummy Data */
 "default_budget_book_name" = "私の帳簿";

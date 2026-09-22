@@ -9,13 +9,6 @@
 /* MARK: - General */
 "app_name" = "Budget Flow";
 
-"feedback_quick_action_title" = "คำติชม";
-"feedback_quick_action_subtitle" = "คลิกที่นี่เพื่อให้คำติชมเกี่ยวกับแอป";
-"income_quick_action_title" = "รายได้ใหม่";
-"expense_quick_action_title" = "ค่าใช้จ่ายใหม่";
-"transfer_quick_action_title" = "การโอนใหม่";
-"recurring_quick_action_title" = "เกิดซ้ำ";
-
 
 /* MARK: - Miscellaneous */
 "face_id" = "Face ID";
@@ -34,6 +27,7 @@
 
 "share_participant_owner" = "เจ้าของ";
 "share_participant_you" = "คุณ";
+
 
 /* MARK: - Enums */
 "account_type_cash" = "เงินสด";
@@ -152,6 +146,9 @@
 "subscription_period_years" = "ปี";
 
 "overview_period_type_current_week" = "สัปดาห์นี้";
+
+"quick_action_type_feedback_title" = "คำติชม";
+"quick_action_type_feedback_subtitle" = "คลิกที่นี่เพื่อให้คำติชมเกี่ยวกับแอป";
 
 "quick_action_type_new_income" = "รายได้ใหม่";
 "quick_action_type_new_expense" = "ค่าใช้จ่ายใหม่";
@@ -371,6 +368,7 @@
 
 /* Formats */
 "transaction_filter_range_format" = "%@ ถึง %@";
+
 
 /* MARK: - Period Selection View */
 /* Titles */
@@ -620,6 +618,7 @@
 "contact_developer_mail_subject" = "%@: %@%@";
 "contact_developer_mail_subject_full_version" = " (full version)";
 
+
 /* MARK: - Appearance Settings View */
 /* Info */
 "appearance_setting_info_title" = "คำอธิบาย";
@@ -636,6 +635,7 @@
 
 /* Footer */
 "appearance_accent_color_setting_footer_title" = "เปลี่ยนสีของปุ่มและการควบคุมอื่นๆ ภายในแอป";
+
 
 /* MARK: - Sync & Data Settings View */
 /* Info */
@@ -678,6 +678,7 @@
 "csv_export_progress_transactions" = "ธุรกรรม";
 "csv_export_progress_finishing" = "กำลังเสร็จสิ้นการส่งออก";
 
+
 /* MARK: - Cloud Settings View */
 /* Info */
 "cloud_setting_info_title" = "คำอธิบาย";
@@ -705,6 +706,7 @@
 
 /* Footer */
 "manual_sync_cloud_setting_footer_title" = "หากข้อมูลของคุณยังไม่ได้หรือยังไม่สมบูรณ์กับ iCloud คุณสามารถเริ่มการซิงค์ด้วยตนเองที่นี่ได้";
+
 
 /* MARK: - Backup Settings View */
 /* Info */
@@ -768,6 +770,7 @@
 "backup_restore_progress_transaction_groups" = "กลุ่มธุรกรรม";
 "backup_restore_progress_transactions" = "ธุรกรรม";
 "backup_restore_progress_reminders" = "การเตือน";
+
 
 /* MARK: - Advanced Settings View */
 /* Info */
@@ -2216,6 +2219,7 @@
 "date_property_title" = "วันที่";
 "category_property_title" = "หมวดหมู่";
 "payee_property_title" = "ผู้รับเงิน";
+
 
 /* MARK: - Dummy Data */
 "default_budget_book_name" = "สมุดงบประมาณของฉัน";

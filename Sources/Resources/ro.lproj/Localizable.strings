@@ -9,13 +9,6 @@
 /* MARK: - General */
 "app_name" = "Budget Flow";
 
-"feedback_quick_action_title" = "Feedback";
-"feedback_quick_action_subtitle" = "Faceți clic aici pentru a oferi feedback despre aplicație.";
-"income_quick_action_title" = "Venit nou";
-"expense_quick_action_title" = "Cheltuieli noi";
-"transfer_quick_action_title" = "Transfer nou";
-"recurring_quick_action_title" = "Recurent";
-
 
 /* MARK: - Miscellaneous */
 "face_id" = "Face ID";
@@ -34,6 +27,7 @@
 
 "share_participant_owner" = "Proprietar";
 "share_participant_you" = "Tu";
+
 
 /* MARK: - Enums */
 "account_type_cash" = "Numerar";
@@ -152,6 +146,9 @@
 "subscription_period_years" = "Ani";
 
 "overview_period_type_current_week" = "Săptămâna aceasta";
+
+"quick_action_type_feedback_title" = "Feedback";
+"quick_action_type_feedback_subtitle" = "Faceți clic aici pentru a oferi feedback despre aplicație.";
 
 "quick_action_type_new_income" = "Venit nou";
 "quick_action_type_new_expense" = "Cheltuieli noi";
@@ -371,6 +368,7 @@
 
 /* Formats */
 "transaction_filter_range_format" = "%@ până la %@";
+
 
 /* MARK: - Period Selection View */
 /* Titles */
@@ -620,6 +618,7 @@
 "contact_developer_mail_subject" = "%@: %@%@";
 "contact_developer_mail_subject_full_version" = " (full version)";
 
+
 /* MARK: - Appearance Settings View */
 /* Info */
 "appearance_setting_info_title" = "Descriere";
@@ -636,6 +635,7 @@
 
 /* Footer */
 "appearance_accent_color_setting_footer_title" = "Modifică culoarea butoanelor și a altor comenzi din aplicație.";
+
 
 /* MARK: - Sync & Data Settings View */
 /* Info */
@@ -678,6 +678,7 @@
 "csv_export_progress_transactions" = "Tranzacții";
 "csv_export_progress_finishing" = "Se finalizează exportul";
 
+
 /* MARK: - Cloud Settings View */
 /* Info */
 "cloud_setting_info_title" = "Descriere";
@@ -705,6 +706,7 @@
 
 /* Footer */
 "manual_sync_cloud_setting_footer_title" = "Dacă datele dvs. nu au fost sau nu sunt complet sincronizate cu iCloud, puteți declanșa manual sincronizarea aici.";
+
 
 /* MARK: - Backup Settings View */
 /* Info */
@@ -768,6 +770,7 @@
 "backup_restore_progress_transaction_groups" = "Grupuri de tranzacții";
 "backup_restore_progress_transactions" = "Tranzacții";
 "backup_restore_progress_reminders" = "Mementouri";
+
 
 /* MARK: - Advanced Settings View */
 /* Info */
@@ -2216,6 +2219,7 @@
 "date_property_title" = "Dată";
 "category_property_title" = "Categorie";
 "payee_property_title" = "Beneficiar";
+
 
 /* MARK: - Dummy Data */
 "default_budget_book_name" = "Cartea mea de buget";

@@ -9,13 +9,6 @@
 /* MARK: - General */
 "app_name" = "Budget Flow";
 
-"feedback_quick_action_title" = "Spätná väzba";
-"feedback_quick_action_subtitle" = "Kliknutím sem poskytnete spätnú väzbu k aplikácii.";
-"income_quick_action_title" = "Nový príjem";
-"expense_quick_action_title" = "Nové výdavky";
-"transfer_quick_action_title" = "Nový prevod";
-"recurring_quick_action_title" = "Opakujúce sa";
-
 
 /* MARK: - Miscellaneous */
 "face_id" = "Face ID";
@@ -34,6 +27,7 @@
 
 "share_participant_owner" = "Vlastník";
 "share_participant_you" = "Ty";
+
 
 /* MARK: - Enums */
 "account_type_cash" = "Hotovosť";
@@ -152,6 +146,9 @@
 "subscription_period_years" = "Roky";
 
 "overview_period_type_current_week" = "Tento týždeň";
+
+"quick_action_type_feedback_title" = "Spätná väzba";
+"quick_action_type_feedback_subtitle" = "Kliknutím sem poskytnete spätnú väzbu k aplikácii.";
 
 "quick_action_type_new_income" = "Nový príjem";
 "quick_action_type_new_expense" = "Nové výdavky";
@@ -371,6 +368,7 @@
 
 /* Formats */
 "transaction_filter_range_format" = "%@ až %@";
+
 
 /* MARK: - Period Selection View */
 /* Titles */
@@ -620,6 +618,7 @@
 "contact_developer_mail_subject" = "%@: %@%@";
 "contact_developer_mail_subject_full_version" = " (full version)";
 
+
 /* MARK: - Appearance Settings View */
 /* Info */
 "appearance_setting_info_title" = "Popis";
@@ -636,6 +635,7 @@
 
 /* Footer */
 "appearance_accent_color_setting_footer_title" = "Mení farbu tlačidiel a iných ovládacích prvkov v aplikácii.";
+
 
 /* MARK: - Sync & Data Settings View */
 /* Info */
@@ -678,6 +678,7 @@
 "csv_export_progress_transactions" = "Transakcie";
 "csv_export_progress_finishing" = "Dokončovanie exportu";
 
+
 /* MARK: - Cloud Settings View */
 /* Info */
 "cloud_setting_info_title" = "Popis";
@@ -705,6 +706,7 @@
 
 /* Footer */
 "manual_sync_cloud_setting_footer_title" = "Ak vaše údaje neboli alebo nie sú úplne synchronizované s iCloudom, môžete tu manuálne spustiť synchronizáciu.";
+
 
 /* MARK: - Backup Settings View */
 /* Info */
@@ -768,6 +770,7 @@
 "backup_restore_progress_transaction_groups" = "Skupiny transakcií";
 "backup_restore_progress_transactions" = "Transakcie";
 "backup_restore_progress_reminders" = "Pripomienky";
+
 
 /* MARK: - Advanced Settings View */
 /* Info */
@@ -2216,6 +2219,7 @@
 "date_property_title" = "Dátum";
 "category_property_title" = "Kategória";
 "payee_property_title" = "Príjemca";
+
 
 /* MARK: - Dummy Data */
 "default_budget_book_name" = "Moja kniha rozpočtu";

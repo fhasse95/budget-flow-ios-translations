@@ -9,13 +9,6 @@
 /* MARK: - General */
 "app_name" = "Budget Flow";
 
-"feedback_quick_action_title" = "Feedback";
-"feedback_quick_action_subtitle" = "Klicka här för att ge lite feedback om appen.";
-"income_quick_action_title" = "Ny inkomst";
-"expense_quick_action_title" = "Ny utgift";
-"transfer_quick_action_title" = "Ny överföring";
-"recurring_quick_action_title" = "Återkommande";
-
 
 /* MARK: - Miscellaneous */
 "face_id" = "Face ID";
@@ -34,6 +27,7 @@
 
 "share_participant_owner" = "Ägare";
 "share_participant_you" = "Du";
+
 
 /* MARK: - Enums */
 "account_type_cash" = "Kontanter";
@@ -152,6 +146,9 @@
 "subscription_period_years" = "År";
 
 "overview_period_type_current_week" = "Denna vecka";
+
+"quick_action_type_feedback_title" = "Feedback";
+"quick_action_type_feedback_subtitle" = "Klicka här för att ge lite feedback om appen.";
 
 "quick_action_type_new_income" = "Ny inkomst";
 "quick_action_type_new_expense" = "Ny utgift";
@@ -371,6 +368,7 @@
 
 /* Formats */
 "transaction_filter_range_format" = "%@ till %@";
+
 
 /* MARK: - Period Selection View */
 /* Titles */
@@ -620,6 +618,7 @@
 "contact_developer_mail_subject" = "%@: %@%@";
 "contact_developer_mail_subject_full_version" = " (full version)";
 
+
 /* MARK: - Appearance Settings View */
 /* Info */
 "appearance_setting_info_title" = "Beskrivning";
@@ -636,6 +635,7 @@
 
 /* Footer */
 "appearance_accent_color_setting_footer_title" = "Ändrar färgen på knappar och andra kontroller i appen.";
+
 
 /* MARK: - Sync & Data Settings View */
 /* Info */
@@ -678,6 +678,7 @@
 "csv_export_progress_transactions" = "Transaktioner";
 "csv_export_progress_finishing" = "Slutför export";
 
+
 /* MARK: - Cloud Settings View */
 /* Info */
 "cloud_setting_info_title" = "Beskrivning";
@@ -705,6 +706,7 @@
 
 /* Footer */
 "manual_sync_cloud_setting_footer_title" = "Om dina data inte har synkroniserats eller inte har synkroniserats helt med iCloud kan du starta synkroniseringen manuellt här.";
+
 
 /* MARK: - Backup Settings View */
 /* Info */
@@ -768,6 +770,7 @@
 "backup_restore_progress_transaction_groups" = "Transaktionsgrupper";
 "backup_restore_progress_transactions" = "Transaktioner";
 "backup_restore_progress_reminders" = "Påminnelser";
+
 
 /* MARK: - Advanced Settings View */
 /* Info */
@@ -2216,6 +2219,7 @@
 "date_property_title" = "Datum";
 "category_property_title" = "Kategori";
 "payee_property_title" = "Betalningsmottagare";
+
 
 /* MARK: - Dummy Data */
 "default_budget_book_name" = "Min budgetbok";

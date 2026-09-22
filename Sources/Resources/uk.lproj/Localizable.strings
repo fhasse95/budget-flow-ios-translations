@@ -9,13 +9,6 @@
 /* MARK: - General */
 "app_name" = "Budget Flow";
 
-"feedback_quick_action_title" = "Відгук";
-"feedback_quick_action_subtitle" = "Натисніть тут, щоб залишити відгук про програму.";
-"income_quick_action_title" = "Новий дохід";
-"expense_quick_action_title" = "Нові витрати";
-"transfer_quick_action_title" = "Нова передача";
-"recurring_quick_action_title" = "Повторюється";
-
 
 /* MARK: - Miscellaneous */
 "face_id" = "Face ID";
@@ -34,6 +27,7 @@
 
 "share_participant_owner" = "Власник";
 "share_participant_you" = "Ви";
+
 
 /* MARK: - Enums */
 "account_type_cash" = "Готівка";
@@ -152,6 +146,9 @@
 "subscription_period_years" = "Роки";
 
 "overview_period_type_current_week" = "Цей тиждень";
+
+"quick_action_type_feedback_title" = "Відгук";
+"quick_action_type_feedback_subtitle" = "Натисніть тут, щоб залишити відгук про програму.";
 
 "quick_action_type_new_income" = "Новий дохід";
 "quick_action_type_new_expense" = "Нові витрати";
@@ -371,6 +368,7 @@
 
 /* Formats */
 "transaction_filter_range_format" = "%@ — %@";
+
 
 /* MARK: - Period Selection View */
 /* Titles */
@@ -620,6 +618,7 @@
 "contact_developer_mail_subject" = "%@: %@%@";
 "contact_developer_mail_subject_full_version" = " (full version)";
 
+
 /* MARK: - Appearance Settings View */
 /* Info */
 "appearance_setting_info_title" = "Опис";
@@ -636,6 +635,7 @@
 
 /* Footer */
 "appearance_accent_color_setting_footer_title" = "Змінює колір кнопок та інших елементів керування в програмі.";
+
 
 /* MARK: - Sync & Data Settings View */
 /* Info */
@@ -678,6 +678,7 @@
 "csv_export_progress_transactions" = "Транзакції";
 "csv_export_progress_finishing" = "Завершення експорту";
 
+
 /* MARK: - Cloud Settings View */
 /* Info */
 "cloud_setting_info_title" = "Опис";
@@ -705,6 +706,7 @@
 
 /* Footer */
 "manual_sync_cloud_setting_footer_title" = "Якщо ваші дані не були або не повністю синхронізовані з iCloud, ви можете вручну запустити синхронізацію тут.";
+
 
 /* MARK: - Backup Settings View */
 /* Info */
@@ -768,6 +770,7 @@
 "backup_restore_progress_transaction_groups" = "Групи транзакцій";
 "backup_restore_progress_transactions" = "Транзакції";
 "backup_restore_progress_reminders" = "Нагадування";
+
 
 /* MARK: - Advanced Settings View */
 /* Info */
@@ -2216,6 +2219,7 @@
 "date_property_title" = "Дата";
 "category_property_title" = "Категорія";
 "payee_property_title" = "Отримувач";
+
 
 /* MARK: - Dummy Data */
 "default_budget_book_name" = "Моя бюджетна книга";

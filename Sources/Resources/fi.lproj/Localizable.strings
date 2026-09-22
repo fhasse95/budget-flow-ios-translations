@@ -9,13 +9,6 @@
 /* MARK: - General */
 "app_name" = "Budget Flow";
 
-"feedback_quick_action_title" = "Palaute";
-"feedback_quick_action_subtitle" = "Napsauta tätä antaaksesi palautetta sovelluksesta.";
-"income_quick_action_title" = "Uudet tulot";
-"expense_quick_action_title" = "Uusi kulu";
-"transfer_quick_action_title" = "Uusi siirto";
-"recurring_quick_action_title" = "Toistuva";
-
 
 /* MARK: - Miscellaneous */
 "face_id" = "Face ID";
@@ -34,6 +27,7 @@
 
 "share_participant_owner" = "Omistaja";
 "share_participant_you" = "Sinä";
+
 
 /* MARK: - Enums */
 "account_type_cash" = "Käteinen";
@@ -152,6 +146,9 @@
 "subscription_period_years" = "Vuodet";
 
 "overview_period_type_current_week" = "Tällä viikolla";
+
+"quick_action_type_feedback_title" = "Palaute";
+"quick_action_type_feedback_subtitle" = "Napsauta tätä antaaksesi palautetta sovelluksesta.";
 
 "quick_action_type_new_income" = "Uusi tulo";
 "quick_action_type_new_expense" = "Uusi kulu";
@@ -371,6 +368,7 @@
 
 /* Formats */
 "transaction_filter_range_format" = "%@ - %@";
+
 
 /* MARK: - Period Selection View */
 /* Titles */
@@ -620,6 +618,7 @@
 "contact_developer_mail_subject" = "%@: %@%@";
 "contact_developer_mail_subject_full_version" = " (full version)";
 
+
 /* MARK: - Appearance Settings View */
 /* Info */
 "appearance_setting_info_title" = "Kuvaus";
@@ -636,6 +635,7 @@
 
 /* Footer */
 "appearance_accent_color_setting_footer_title" = "Muuttaa painikkeiden ja muiden säätimien väriä sovelluksessa.";
+
 
 /* MARK: - Sync & Data Settings View */
 /* Info */
@@ -678,6 +678,7 @@
 "csv_export_progress_transactions" = "Tapahtumat";
 "csv_export_progress_finishing" = "Viimeistellään vientiä";
 
+
 /* MARK: - Cloud Settings View */
 /* Info */
 "cloud_setting_info_title" = "Kuvaus";
@@ -705,6 +706,7 @@
 
 /* Footer */
 "manual_sync_cloud_setting_footer_title" = "Jos tietojasi ei ole synkronoitu tai ne eivät ole täysin synkronoitu iCloudin kanssa, voit käynnistää synkronoinnin manuaalisesti täällä.";
+
 
 /* MARK: - Backup Settings View */
 /* Info */
@@ -768,6 +770,7 @@
 "backup_restore_progress_transaction_groups" = "Tapahtumaryhmät";
 "backup_restore_progress_transactions" = "Tapahtumat";
 "backup_restore_progress_reminders" = "Muistutukset";
+
 
 /* MARK: - Advanced Settings View */
 /* Info */
@@ -2216,6 +2219,7 @@
 "date_property_title" = "Päiväys";
 "category_property_title" = "Kategoria";
 "payee_property_title" = "Maksunsaaja";
+
 
 /* MARK: - Dummy Data */
 "default_budget_book_name" = "Oma budjettikirja";

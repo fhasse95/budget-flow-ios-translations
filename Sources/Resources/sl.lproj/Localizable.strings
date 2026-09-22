@@ -9,13 +9,6 @@
 /* MARK: - General */
 "app_name" = "Budget Flow";
 
-"feedback_quick_action_title" = "Povratne informacije";
-"feedback_quick_action_subtitle" = "Kliknite tukaj, da podate povratne informacije o aplikaciji.";
-"income_quick_action_title" = "Nov dohodek";
-"expense_quick_action_title" = "Nov strošek";
-"transfer_quick_action_title" = "Nov prenos";
-"recurring_quick_action_title" = "Ponavljajoče";
-
 
 /* MARK: - Miscellaneous */
 "face_id" = "Face ID";
@@ -34,6 +27,7 @@
 
 "share_participant_owner" = "Lastnik";
 "share_participant_you" = "Vi";
+
 
 /* MARK: - Enums */
 "account_type_cash" = "Gotovina";
@@ -152,6 +146,9 @@
 "subscription_period_years" = "Let";
 
 "overview_period_type_current_week" = "Teden";
+
+"quick_action_type_feedback_title" = "Povratne informacije";
+"quick_action_type_feedback_subtitle" = "Kliknite tukaj, da podate povratne informacije o aplikaciji.";
 
 "quick_action_type_new_income" = "Nov dohodek";
 "quick_action_type_new_expense" = "Nov strošek";
@@ -371,6 +368,7 @@
 
 /* Formats */
 "transaction_filter_range_format" = "%@ do %@";
+
 
 /* MARK: - Period Selection View */
 /* Titles */
@@ -620,6 +618,7 @@
 "contact_developer_mail_subject" = "%@: %@%@";
 "contact_developer_mail_subject_full_version" = " (full version)";
 
+
 /* MARK: - Appearance Settings View */
 /* Info */
 "appearance_setting_info_title" = "Opis";
@@ -636,6 +635,7 @@
 
 /* Footer */
 "appearance_accent_color_setting_footer_title" = "Spremeni barvo gumbov in drugih kontrolnikov v aplikaciji.";
+
 
 /* MARK: - Sync & Data Settings View */
 /* Info */
@@ -678,6 +678,7 @@
 "csv_export_progress_transactions" = "Transakcije";
 "csv_export_progress_finishing" = "Dokončevanje izvoza";
 
+
 /* MARK: - Cloud Settings View */
 /* Info */
 "cloud_setting_info_title" = "Opis";
@@ -705,6 +706,7 @@
 
 /* Footer */
 "manual_sync_cloud_setting_footer_title" = "Če vaši podatki niso bili ali niso popolnoma sinhronizirani z iCloudom, lahko tukaj ročno sprožite sinhronizacijo.";
+
 
 /* MARK: - Backup Settings View */
 /* Info */
@@ -768,6 +770,7 @@
 "backup_restore_progress_transaction_groups" = "Skupine transakcij";
 "backup_restore_progress_transactions" = "Transakcije";
 "backup_restore_progress_reminders" = "Opomniki";
+
 
 /* MARK: - Advanced Settings View */
 /* Info */
@@ -2216,6 +2219,7 @@
 "date_property_title" = "Datum";
 "category_property_title" = "Kategorija";
 "payee_property_title" = "Prejemnik plačila";
+
 
 /* MARK: - Dummy Data */
 "default_budget_book_name" = "Moja denarnica";

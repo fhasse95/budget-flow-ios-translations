@@ -9,13 +9,6 @@
 /* MARK: - General */
 "app_name" = "Budget Flow";
 
-"feedback_quick_action_title" = "意見回饋";
-"feedback_quick_action_subtitle" = "點擊此處以向本應用程式發送回饋";
-"income_quick_action_title" = "新增收入";
-"expense_quick_action_title" = "新增支出";
-"transfer_quick_action_title" = "新增轉帳";
-"recurring_quick_action_title" = "定期交易";
-
 
 /* MARK: - Miscellaneous */
 "face_id" = "Face ID";
@@ -34,6 +27,7 @@
 
 "share_participant_owner" = "擁有者";
 "share_participant_you" = "您";
+
 
 /* MARK: - Enums */
 "account_type_cash" = "現金";
@@ -152,6 +146,9 @@
 "subscription_period_years" = "年";
 
 "overview_period_type_current_week" = "本週";
+
+"quick_action_type_feedback_title" = "意見回饋";
+"quick_action_type_feedback_subtitle" = "點擊此處以向本應用程式發送回饋";
 
 "quick_action_type_new_income" = "新增收入";
 "quick_action_type_new_expense" = "新增支出";
@@ -371,6 +368,7 @@
 
 /* Formats */
 "transaction_filter_range_format" = "%@ 至 %@";
+
 
 /* MARK: - Period Selection View */
 /* Titles */
@@ -620,6 +618,7 @@
 "contact_developer_mail_subject" = "%@: %@%@";
 "contact_developer_mail_subject_full_version" = " (full version)";
 
+
 /* MARK: - Appearance Settings View */
 /* Info */
 "appearance_setting_info_title" = "描述";
@@ -636,6 +635,7 @@
 
 /* Footer */
 "appearance_accent_color_setting_footer_title" = "更改應用程式內按鈕和其他控制項的顏色";
+
 
 /* MARK: - Sync & Data Settings View */
 /* Info */
@@ -678,6 +678,7 @@
 "csv_export_progress_transactions" = "交易";
 "csv_export_progress_finishing" = "正在完成匯出";
 
+
 /* MARK: - Cloud Settings View */
 /* Info */
 "cloud_setting_info_title" = "描述";
@@ -705,6 +706,7 @@
 
 /* Footer */
 "manual_sync_cloud_setting_footer_title" = "如果您的資料未與 iCloud 同步或未完全同步，您可以在此手動啟動同步。";
+
 
 /* MARK: - Backup Settings View */
 /* Info */
@@ -768,6 +770,7 @@
 "backup_restore_progress_transaction_groups" = "交易群組";
 "backup_restore_progress_transactions" = "交易";
 "backup_restore_progress_reminders" = "提醒事項";
+
 
 /* MARK: - Advanced Settings View */
 /* Info */
@@ -2216,6 +2219,7 @@
 "date_property_title" = "日期";
 "category_property_title" = "類別";
 "payee_property_title" = "收款人";
+
 
 /* MARK: - Dummy Data */
 "default_budget_book_name" = "我的預算帳本";

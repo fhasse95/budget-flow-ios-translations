@@ -9,13 +9,6 @@
 /* MARK: - General */
 "app_name" = "Budget Flow";
 
-"feedback_quick_action_title" = "Отзыв";
-"feedback_quick_action_subtitle" = "Нажмите здесь, чтобы оставить отзыв о приложении.";
-"income_quick_action_title" = "Новый доход";
-"expense_quick_action_title" = "Новый расход";
-"transfer_quick_action_title" = "Новый перевод";
-"recurring_quick_action_title" = "Новый автоплатеж";
-
 
 /* MARK: - Miscellaneous */
 "face_id" = "Face ID";
@@ -34,6 +27,7 @@
 
 "share_participant_owner" = "Владелец";
 "share_participant_you" = "Вы";
+
 
 /* MARK: - Enums */
 "account_type_cash" = "Наличные";
@@ -152,6 +146,9 @@
 "subscription_period_years" = "Годы";
 
 "overview_period_type_current_week" = "Эта неделя";
+
+"quick_action_type_feedback_title" = "Отзыв";
+"quick_action_type_feedback_subtitle" = "Нажмите здесь, чтобы оставить отзыв о приложении.";
 
 "quick_action_type_new_income" = "Новый доход";
 "quick_action_type_new_expense" = "Новый расход";
@@ -371,6 +368,7 @@
 
 /* Formats */
 "transaction_filter_range_format" = "%@ — %@";
+
 
 /* MARK: - Period Selection View */
 /* Titles */
@@ -620,6 +618,7 @@
 "contact_developer_mail_subject" = "%@: %@%@";
 "contact_developer_mail_subject_full_version" = " (full version)";
 
+
 /* MARK: - Appearance Settings View */
 /* Info */
 "appearance_setting_info_title" = "Описание";
@@ -636,6 +635,7 @@
 
 /* Footer */
 "appearance_accent_color_setting_footer_title" = "Изменяет цвет кнопок и других элементов управления в приложении.";
+
 
 /* MARK: - Sync & Data Settings View */
 /* Info */
@@ -678,6 +678,7 @@
 "csv_export_progress_transactions" = "Транзакции";
 "csv_export_progress_finishing" = "Завершение экспорта";
 
+
 /* MARK: - Cloud Settings View */
 /* Info */
 "cloud_setting_info_title" = "Описание";
@@ -705,6 +706,7 @@
 
 /* Footer */
 "manual_sync_cloud_setting_footer_title" = "Если ваши данные не были или не полностью синхронизированы с iCloud, вы можете вручную запустить синхронизацию здесь.";
+
 
 /* MARK: - Backup Settings View */
 /* Info */
@@ -768,6 +770,7 @@
 "backup_restore_progress_transaction_groups" = "Группы транзакций";
 "backup_restore_progress_transactions" = "Транзакции";
 "backup_restore_progress_reminders" = "Напоминания";
+
 
 /* MARK: - Advanced Settings View */
 /* Info */
@@ -2216,6 +2219,7 @@
 "date_property_title" = "Дата";
 "category_property_title" = "Категория";
 "payee_property_title" = "Получатель";
+
 
 /* MARK: - Dummy Data */
 "default_budget_book_name" = "Моя книга бюджета";

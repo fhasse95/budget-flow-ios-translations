@@ -9,13 +9,6 @@
 /* MARK: - General */
 "app_name" = "Budget Flow";
 
-"feedback_quick_action_title" = "Feedback";
-"feedback_quick_action_subtitle" = "Klik hier om feedback te geven over de app.";
-"income_quick_action_title" = "Nieuw inkomen";
-"expense_quick_action_title" = "Nieuwe uitgave";
-"transfer_quick_action_title" = "Nieuwe overdracht";
-"recurring_quick_action_title" = "Terugkerend";
-
 
 /* MARK: - Miscellaneous */
 "face_id" = "Face ID";
@@ -34,6 +27,7 @@
 
 "share_participant_owner" = "Eigenaar";
 "share_participant_you" = "Jij";
+
 
 /* MARK: - Enums */
 "account_type_cash" = "Contant geld";
@@ -152,6 +146,9 @@
 "subscription_period_years" = "Jaren";
 
 "overview_period_type_current_week" = "Deze week";
+
+"quick_action_type_feedback_title" = "Feedback";
+"quick_action_type_feedback_subtitle" = "Klik hier om feedback te geven over de app.";
 
 "quick_action_type_new_income" = "Nieuw inkomen";
 "quick_action_type_new_expense" = "Nieuwe uitgave";
@@ -371,6 +368,7 @@
 
 /* Formats */
 "transaction_filter_range_format" = "%@ tot %@";
+
 
 /* MARK: - Period Selection View */
 /* Titles */
@@ -620,6 +618,7 @@
 "contact_developer_mail_subject" = "%@: %@%@";
 "contact_developer_mail_subject_full_version" = " (full version)";
 
+
 /* MARK: - Appearance Settings View */
 /* Info */
 "appearance_setting_info_title" = "Beschrijving";
@@ -636,6 +635,7 @@
 
 /* Footer */
 "appearance_accent_color_setting_footer_title" = "Wijzigt de kleur van knoppen en andere bedieningselementen in de app.";
+
 
 /* MARK: - Sync & Data Settings View */
 /* Info */
@@ -678,6 +678,7 @@
 "csv_export_progress_transactions" = "Transacties";
 "csv_export_progress_finishing" = "Export afronden";
 
+
 /* MARK: - Cloud Settings View */
 /* Info */
 "cloud_setting_info_title" = "Beschrijving";
@@ -705,6 +706,7 @@
 
 /* Footer */
 "manual_sync_cloud_setting_footer_title" = "Als je gegevens nog niet volledig zijn gedownload van iCloud, dan kun je hier handmatig de download starten.";
+
 
 /* MARK: - Backup Settings View */
 /* Info */
@@ -768,6 +770,7 @@
 "backup_restore_progress_transaction_groups" = "Transactiegroepen";
 "backup_restore_progress_transactions" = "Transacties";
 "backup_restore_progress_reminders" = "Herinneringen";
+
 
 /* MARK: - Advanced Settings View */
 /* Info */
@@ -2216,6 +2219,7 @@
 "date_property_title" = "Datum";
 "category_property_title" = "Categorie";
 "payee_property_title" = "Begunstigde";
+
 
 /* MARK: - Dummy Data */
 "default_budget_book_name" = "Mijn budgetboek";

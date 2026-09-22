@@ -9,13 +9,6 @@
 /* MARK: - General */
 "app_name" = "Budget Flow";
 
-"feedback_quick_action_title" = "피드백";
-"feedback_quick_action_subtitle" = "여기를 클릭하여 앱에 대한 피드백을 제공하세요.";
-"income_quick_action_title" = "새로운 수입";
-"expense_quick_action_title" = "새로운 비용";
-"transfer_quick_action_title" = "새로운 이체";
-"recurring_quick_action_title" = "반복";
-
 
 /* MARK: - Miscellaneous */
 "face_id" = "Face ID";
@@ -34,6 +27,7 @@
 
 "share_participant_owner" = "소유자";
 "share_participant_you" = "당신";
+
 
 /* MARK: - Enums */
 "account_type_cash" = "현금";
@@ -152,6 +146,9 @@
 "subscription_period_years" = "연도";
 
 "overview_period_type_current_week" = "이번주";
+
+"quick_action_type_feedback_title" = "피드백";
+"quick_action_type_feedback_subtitle" = "여기를 클릭하여 앱에 대한 피드백을 제공하세요.";
 
 "quick_action_type_new_income" = "새 수입";
 "quick_action_type_new_expense" = "새 지출";
@@ -371,6 +368,7 @@
 
 /* Formats */
 "transaction_filter_range_format" = "%@~%@";
+
 
 /* MARK: - Period Selection View */
 /* Titles */
@@ -620,6 +618,7 @@
 "contact_developer_mail_subject" = "%@: %@%@";
 "contact_developer_mail_subject_full_version" = " (full version)";
 
+
 /* MARK: - Appearance Settings View */
 /* Info */
 "appearance_setting_info_title" = "설명";
@@ -636,6 +635,7 @@
 
 /* Footer */
 "appearance_accent_color_setting_footer_title" = "앱 내 버튼 및 기타 컨트롤의 색상을 변경합니다.";
+
 
 /* MARK: - Sync & Data Settings View */
 /* Info */
@@ -678,6 +678,7 @@
 "csv_export_progress_transactions" = "거래";
 "csv_export_progress_finishing" = "내보내기 완료 중";
 
+
 /* MARK: - Cloud Settings View */
 /* Info */
 "cloud_setting_info_title" = "설명";
@@ -705,6 +706,7 @@
 
 /* Footer */
 "manual_sync_cloud_setting_footer_title" = "데이터가 iCloud와 동기화되지 않았거나 완전히 동기화되지 않은 경우, 여기에서 수동으로 동기화를 시작할 수 있습니다.";
+
 
 /* MARK: - Backup Settings View */
 /* Info */
@@ -768,6 +770,7 @@
 "backup_restore_progress_transaction_groups" = "거래 그룹";
 "backup_restore_progress_transactions" = "거래";
 "backup_restore_progress_reminders" = "미리 알림";
+
 
 /* MARK: - Advanced Settings View */
 /* Info */
@@ -2216,6 +2219,7 @@
 "date_property_title" = "날짜";
 "category_property_title" = "카테고리";
 "payee_property_title" = "수취인";
+
 
 /* MARK: - Dummy Data */
 "default_budget_book_name" = "내 가계장부";

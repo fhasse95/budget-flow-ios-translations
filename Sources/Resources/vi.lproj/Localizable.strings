@@ -9,13 +9,6 @@
 /* MARK: - General */
 "app_name" = "Budget Flow";
 
-"feedback_quick_action_title" = "Phản hồi";
-"feedback_quick_action_subtitle" = "Nhấp vào đây để đóng góp một số phản hồi về ứng dụng.";
-"income_quick_action_title" = "Thu nhập mới";
-"expense_quick_action_title" = "Chi phí mới";
-"transfer_quick_action_title" = "Chuyển khoản mới";
-"recurring_quick_action_title" = "Định kỳ";
-
 
 /* MARK: - Miscellaneous */
 "face_id" = "Face ID";
@@ -34,6 +27,7 @@
 
 "share_participant_owner" = "Chủ sở hữu";
 "share_participant_you" = "Bạn";
+
 
 /* MARK: - Enums */
 "account_type_cash" = "Ví tiền mặt";
@@ -152,6 +146,9 @@
 "subscription_period_years" = "năm";
 
 "overview_period_type_current_week" = "Tuần này";
+
+"quick_action_type_feedback_title" = "Phản hồi";
+"quick_action_type_feedback_subtitle" = "Nhấp vào đây để đóng góp một số phản hồi về ứng dụng.";
 
 "quick_action_type_new_income" = "Khoản thu mới";
 "quick_action_type_new_expense" = "Khoản chi mới";
@@ -371,6 +368,7 @@
 
 /* Formats */
 "transaction_filter_range_format" = "%@ đến %@";
+
 
 /* MARK: - Period Selection View */
 /* Titles */
@@ -620,6 +618,7 @@
 "contact_developer_mail_subject" = "%@: %@%@";
 "contact_developer_mail_subject_full_version" = " (full version)";
 
+
 /* MARK: - Appearance Settings View */
 /* Info */
 "appearance_setting_info_title" = "Mô tả";
@@ -636,6 +635,7 @@
 
 /* Footer */
 "appearance_accent_color_setting_footer_title" = "Thay đổi màu của các nút trong ứng dụng.";
+
 
 /* MARK: - Sync & Data Settings View */
 /* Info */
@@ -678,6 +678,7 @@
 "csv_export_progress_transactions" = "Giao dịch";
 "csv_export_progress_finishing" = "Đang hoàn tất xuất";
 
+
 /* MARK: - Cloud Settings View */
 /* Info */
 "cloud_setting_info_title" = "Mô tả";
@@ -705,6 +706,7 @@
 
 /* Footer */
 "manual_sync_cloud_setting_footer_title" = "Nếu dữ liệu của bạn chưa hoặc chưa được đồng bộ đầy đủ với iCloud, bạn có thể khởi động đồng bộ thủ công tại đây.";
+
 
 /* MARK: - Backup Settings View */
 /* Info */
@@ -768,6 +770,7 @@
 "backup_restore_progress_transaction_groups" = "Nhóm giao dịch";
 "backup_restore_progress_transactions" = "Giao dịch";
 "backup_restore_progress_reminders" = "Lời nhắc";
+
 
 /* MARK: - Advanced Settings View */
 /* Info */
@@ -2216,6 +2219,7 @@
 "date_property_title" = "Ngày";
 "category_property_title" = "Danh mục";
 "payee_property_title" = "Người nhận tiền";
+
 
 /* MARK: - Dummy Data */
 "default_budget_book_name" = "Sổ ngân sách của tôi";

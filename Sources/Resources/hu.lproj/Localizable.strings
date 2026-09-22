@@ -9,13 +9,6 @@
 /* MARK: - General */
 "app_name" = "Budget Flow";
 
-"feedback_quick_action_title" = "Visszajelzés";
-"feedback_quick_action_subtitle" = "Kattintson ide, ha visszajelzést szeretne adni az alkalmazásról.";
-"income_quick_action_title" = "Új bevétel";
-"expense_quick_action_title" = "Új költség";
-"transfer_quick_action_title" = "Új átvitel";
-"recurring_quick_action_title" = "Ismétlődő";
-
 
 /* MARK: - Miscellaneous */
 "face_id" = "Face ID";
@@ -34,6 +27,7 @@
 
 "share_participant_owner" = "Tulajdonos";
 "share_participant_you" = "Te";
+
 
 /* MARK: - Enums */
 "account_type_cash" = "Készpénz";
@@ -152,6 +146,9 @@
 "subscription_period_years" = "Évek";
 
 "overview_period_type_current_week" = "Ezen a héten";
+
+"quick_action_type_feedback_title" = "Visszajelzés";
+"quick_action_type_feedback_subtitle" = "Kattintson ide, ha visszajelzést szeretne adni az alkalmazásról.";
 
 "quick_action_type_new_income" = "Új bevétel";
 "quick_action_type_new_expense" = "Új költség";
@@ -371,6 +368,7 @@
 
 /* Formats */
 "transaction_filter_range_format" = "%@–%@";
+
 
 /* MARK: - Period Selection View */
 /* Titles */
@@ -620,6 +618,7 @@
 "contact_developer_mail_subject" = "%@: %@%@";
 "contact_developer_mail_subject_full_version" = " (full version)";
 
+
 /* MARK: - Appearance Settings View */
 /* Info */
 "appearance_setting_info_title" = "Leírás";
@@ -636,6 +635,7 @@
 
 /* Footer */
 "appearance_accent_color_setting_footer_title" = "Módosítja a gombok és egyéb vezérlők színét az alkalmazáson belül.";
+
 
 /* MARK: - Sync & Data Settings View */
 /* Info */
@@ -678,6 +678,7 @@
 "csv_export_progress_transactions" = "Tranzakciók";
 "csv_export_progress_finishing" = "Exportálás befejezése";
 
+
 /* MARK: - Cloud Settings View */
 /* Info */
 "cloud_setting_info_title" = "Leírás";
@@ -705,6 +706,7 @@
 
 /* Footer */
 "manual_sync_cloud_setting_footer_title" = "Ha adataid nem vagy nem teljesen szinkronizálódtak az iClouddal, itt manuálisan indíthatod a szinkronizálást.";
+
 
 /* MARK: - Backup Settings View */
 /* Info */
@@ -768,6 +770,7 @@
 "backup_restore_progress_transaction_groups" = "Tranzakciócsoportok";
 "backup_restore_progress_transactions" = "Tranzakciók";
 "backup_restore_progress_reminders" = "Emlékeztetők";
+
 
 /* MARK: - Advanced Settings View */
 /* Info */
@@ -2216,6 +2219,7 @@
 "date_property_title" = "Dátum";
 "category_property_title" = "Kategória";
 "payee_property_title" = "Kedvezményezett";
+
 
 /* MARK: - Dummy Data */
 "default_budget_book_name" = "Költségvetési könyvem";

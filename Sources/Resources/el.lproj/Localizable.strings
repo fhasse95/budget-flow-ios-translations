@@ -9,13 +9,6 @@
 /* MARK: - General */
 "app_name" = "Budget Flow";
 
-"feedback_quick_action_title" = "Σχόλια";
-"feedback_quick_action_subtitle" = "Κάντε κλικ εδώ για να δώσετε κάποια σχόλια για την εφαρμογή.";
-"income_quick_action_title" = "Νέο εισόδημα";
-"expense_quick_action_title" = "Νέα Δαπάνη";
-"transfer_quick_action_title" = "Νέα μεταφορά";
-"recurring_quick_action_title" = "Επαναλαμβανόμενο";
-
 
 /* MARK: - Miscellaneous */
 "face_id" = "Face ID";
@@ -34,6 +27,7 @@
 
 "share_participant_owner" = "Ιδιοκτήτης";
 "share_participant_you" = "Εσύ";
+
 
 /* MARK: - Enums */
 "account_type_cash" = "Μετρητά";
@@ -152,6 +146,9 @@
 "subscription_period_years" = "Έτη";
 
 "overview_period_type_current_week" = "Αυτή την εβδομάδα";
+
+"quick_action_type_feedback_title" = "Σχόλια";
+"quick_action_type_feedback_subtitle" = "Κάντε κλικ εδώ για να δώσετε κάποια σχόλια για την εφαρμογή.";
 
 "quick_action_type_new_income" = "Νέο εισόδημα";
 "quick_action_type_new_expense" = "Νέο κόστος";
@@ -371,6 +368,7 @@
 
 /* Formats */
 "transaction_filter_range_format" = "%@ έως %@";
+
 
 /* MARK: - Period Selection View */
 /* Titles */
@@ -620,6 +618,7 @@
 "contact_developer_mail_subject" = "%@: %@%@";
 "contact_developer_mail_subject_full_version" = " (full version)";
 
+
 /* MARK: - Appearance Settings View */
 /* Info */
 "appearance_setting_info_title" = "Περιγραφή";
@@ -636,6 +635,7 @@
 
 /* Footer */
 "appearance_accent_color_setting_footer_title" = "Αλλάζει το χρώμα των κουμπιών και άλλων στοιχείων ελέγχου εντός της εφαρμογής.";
+
 
 /* MARK: - Sync & Data Settings View */
 /* Info */
@@ -678,6 +678,7 @@
 "csv_export_progress_transactions" = "Συναλλαγές";
 "csv_export_progress_finishing" = "Ολοκλήρωση εξαγωγής";
 
+
 /* MARK: - Cloud Settings View */
 /* Info */
 "cloud_setting_info_title" = "Περιγραφή";
@@ -705,6 +706,7 @@
 
 /* Footer */
 "manual_sync_cloud_setting_footer_title" = "Αν τα δεδομένα σας δεν έχουν συγχρονιστεί ή δεν έχουν συγχρονιστεί πλήρως με το iCloud, μπορείτε να ξεκινήσετε το συγχρονισμό χειροκίνητα εδώ.";
+
 
 /* MARK: - Backup Settings View */
 /* Info */
@@ -768,6 +770,7 @@
 "backup_restore_progress_transaction_groups" = "Ομάδες συναλλαγών";
 "backup_restore_progress_transactions" = "Συναλλαγές";
 "backup_restore_progress_reminders" = "Υπενθυμίσεις";
+
 
 /* MARK: - Advanced Settings View */
 /* Info */
@@ -2216,6 +2219,7 @@
 "date_property_title" = "Ημερομηνία";
 "category_property_title" = "Κατηγορία";
 "payee_property_title" = "Δικαιούχος πληρωμής";
+
 
 /* MARK: - Dummy Data */
 "default_budget_book_name" = "Το βιβλίο προϋπολογισμού μου";

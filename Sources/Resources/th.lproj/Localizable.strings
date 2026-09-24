@@ -935,6 +935,18 @@
 "onboarding_reminder_intro_view_notification_body" = "บันทึกครบแล้วหรือยัง? ⏰";
 
 
+/* MARK: - Onboarding Setup View */
+/* Titles */
+"onboarding_setup_title" = "การตั้งค่า";
+
+/* Setup */
+"onboarding_setup_view_progress_title" = "กำลังตั้งค่า %@";
+"onboarding_setup_view_completion_title" = "พร้อมแล้ว!";
+"onboarding_setup_view_accounts_item_title" = "กำลังเตรียมบัญชี";
+"onboarding_setup_view_categories_item_title" = "กำลังสร้างหมวดหมู่";
+"onboarding_setup_view_reminders_item_title" = "กำลังเปิดใช้การเตือน";
+
+
 /* MARK: - New Features View */
 /* Titles */
 "new_features_view_title" = "New Features";

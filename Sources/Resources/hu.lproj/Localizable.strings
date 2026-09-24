@@ -935,6 +935,18 @@
 "onboarding_reminder_intro_view_notification_body" = "Már mindent rögzítettél? ⏰";
 
 
+/* MARK: - Onboarding Setup View */
+/* Titles */
+"onboarding_setup_title" = "Beállítás";
+
+/* Setup */
+"onboarding_setup_view_progress_title" = "%@ beállítása folyamatban";
+"onboarding_setup_view_completion_title" = "Minden kész!";
+"onboarding_setup_view_accounts_item_title" = "Fiókok előkészítése";
+"onboarding_setup_view_categories_item_title" = "Kategóriák létrehozása";
+"onboarding_setup_view_reminders_item_title" = "Emlékeztetők aktiválása";
+
+
 /* MARK: - New Features View */
 /* Titles */
 "new_features_view_title" = "New Features";

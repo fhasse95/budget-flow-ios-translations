@@ -935,6 +935,18 @@
 "onboarding_reminder_intro_view_notification_body" = "都記錄好了嗎？⏰";
 
 
+/* MARK: - Onboarding Setup View */
+/* Titles */
+"onboarding_setup_title" = "設定";
+
+/* Setup */
+"onboarding_setup_view_progress_title" = "正在設定%@";
+"onboarding_setup_view_completion_title" = "一切準備就緒！";
+"onboarding_setup_view_accounts_item_title" = "正在準備帳戶";
+"onboarding_setup_view_categories_item_title" = "正在建立類別";
+"onboarding_setup_view_reminders_item_title" = "正在啟用提醒";
+
+
 /* MARK: - New Features View */
 /* Titles */
 "new_features_view_title" = "新功能";

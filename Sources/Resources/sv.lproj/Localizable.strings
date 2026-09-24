@@ -935,6 +935,18 @@
 "onboarding_reminder_intro_view_notification_body" = "Har du redan lagt in allt? ⏰";
 
 
+/* MARK: - Onboarding Setup View */
+/* Titles */
+"onboarding_setup_title" = "Inställning";
+
+/* Setup */
+"onboarding_setup_view_progress_title" = "%@ konfigureras";
+"onboarding_setup_view_completion_title" = "Allt klart!";
+"onboarding_setup_view_accounts_item_title" = "Konton förbereds";
+"onboarding_setup_view_categories_item_title" = "Kategorier skapas";
+"onboarding_setup_view_reminders_item_title" = "Påminnelser aktiveras";
+
+
 /* MARK: - New Features View */
 /* Titles */
 "new_features_view_title" = "New Features";

@@ -935,6 +935,18 @@
 "onboarding_reminder_intro_view_notification_body" = "Sudah mencatat semuanya? ⏰";
 
 
+/* MARK: - Onboarding Setup View */
+/* Titles */
+"onboarding_setup_title" = "Penyiapan";
+
+/* Setup */
+"onboarding_setup_view_progress_title" = "%@ sedang disiapkan";
+"onboarding_setup_view_completion_title" = "Semua siap!";
+"onboarding_setup_view_accounts_item_title" = "Menyiapkan akun";
+"onboarding_setup_view_categories_item_title" = "Membuat kategori";
+"onboarding_setup_view_reminders_item_title" = "Mengaktifkan pengingat";
+
+
 /* MARK: - New Features View */
 /* Titles */
 "new_features_view_title" = "Fitur Baru";

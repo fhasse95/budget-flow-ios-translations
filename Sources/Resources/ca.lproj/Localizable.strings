@@ -935,6 +935,18 @@
 "onboarding_reminder_intro_view_notification_body" = "Ja ho has introduït tot? ⏰";
 
 
+/* MARK: - Onboarding Setup View */
+/* Titles */
+"onboarding_setup_title" = "Configuració";
+
+/* Setup */
+"onboarding_setup_view_progress_title" = "S'està configurant %@";
+"onboarding_setup_view_completion_title" = "Tot a punt!";
+"onboarding_setup_view_accounts_item_title" = "S'estan preparant els comptes";
+"onboarding_setup_view_categories_item_title" = "S'estan creant les categories";
+"onboarding_setup_view_reminders_item_title" = "S'estan activant els recordatoris";
+
+
 /* MARK: - New Features View */
 /* Titles */
 "new_features_view_title" = "Noves funcions";

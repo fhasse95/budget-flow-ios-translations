@@ -935,6 +935,18 @@
 "onboarding_reminder_intro_view_notification_body" = "Her şeyi girdin mi? ⏰";
 
 
+/* MARK: - Onboarding Setup View */
+/* Titles */
+"onboarding_setup_title" = "Kurulum";
+
+/* Setup */
+"onboarding_setup_view_progress_title" = "%@ kuruluyor";
+"onboarding_setup_view_completion_title" = "Her şey hazır!";
+"onboarding_setup_view_accounts_item_title" = "Hesaplar hazırlanıyor";
+"onboarding_setup_view_categories_item_title" = "Kategoriler oluşturuluyor";
+"onboarding_setup_view_reminders_item_title" = "Anımsatıcılar etkinleştiriliyor";
+
+
 /* MARK: - New Features View */
 /* Titles */
 "new_features_view_title" = "New Features";

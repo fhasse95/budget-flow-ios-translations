@@ -935,6 +935,18 @@
 "onboarding_reminder_intro_view_notification_body" = "Τα καταχωρίσατε όλα; ⏰";
 
 
+/* MARK: - Onboarding Setup View */
+/* Titles */
+"onboarding_setup_title" = "Ρύθμιση";
+
+/* Setup */
+"onboarding_setup_view_progress_title" = "Το %@ ρυθμίζεται";
+"onboarding_setup_view_completion_title" = "Όλα έτοιμα!";
+"onboarding_setup_view_accounts_item_title" = "Προετοιμασία λογαριασμών";
+"onboarding_setup_view_categories_item_title" = "Δημιουργία κατηγοριών";
+"onboarding_setup_view_reminders_item_title" = "Ενεργοποίηση υπενθυμίσεων";
+
+
 /* MARK: - New Features View */
 /* Titles */
 "new_features_view_title" = "New Features";

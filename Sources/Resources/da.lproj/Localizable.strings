@@ -935,6 +935,18 @@
 "onboarding_reminder_intro_view_notification_body" = "Har du allerede indtastet alt? ⏰";
 
 
+/* MARK: - Onboarding Setup View */
+/* Titles */
+"onboarding_setup_title" = "Opsætning";
+
+/* Setup */
+"onboarding_setup_view_progress_title" = "%@ konfigureres";
+"onboarding_setup_view_completion_title" = "Alt er klar!";
+"onboarding_setup_view_accounts_item_title" = "Konti forberedes";
+"onboarding_setup_view_categories_item_title" = "Kategorier oprettes";
+"onboarding_setup_view_reminders_item_title" = "Påmindelser aktiveres";
+
+
 /* MARK: - New Features View */
 /* Titles */
 "new_features_view_title" = "New Features";

@@ -935,6 +935,18 @@
 "onboarding_reminder_intro_view_notification_body" = "Ai introdus deja totul? ⏰";
 
 
+/* MARK: - Onboarding Setup View */
+/* Titles */
+"onboarding_setup_title" = "Configurare";
+
+/* Setup */
+"onboarding_setup_view_progress_title" = "%@ se configurează";
+"onboarding_setup_view_completion_title" = "Totul este gata!";
+"onboarding_setup_view_accounts_item_title" = "Se pregătesc conturile";
+"onboarding_setup_view_categories_item_title" = "Se creează categoriile";
+"onboarding_setup_view_reminders_item_title" = "Se activează mementourile";
+
+
 /* MARK: - New Features View */
 /* Titles */
 "new_features_view_title" = "New Features";

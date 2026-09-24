@@ -935,6 +935,18 @@
 "onboarding_reminder_intro_view_notification_body" = "모두 입력하셨나요? ⏰";
 
 
+/* MARK: - Onboarding Setup View */
+/* Titles */
+"onboarding_setup_title" = "설정";
+
+/* Setup */
+"onboarding_setup_view_progress_title" = "%@ 설정 중";
+"onboarding_setup_view_completion_title" = "모두 준비됐어요!";
+"onboarding_setup_view_accounts_item_title" = "계정 준비 중";
+"onboarding_setup_view_categories_item_title" = "카테고리 생성 중";
+"onboarding_setup_view_reminders_item_title" = "미리 알림 활성화 중";
+
+
 /* MARK: - New Features View */
 /* Titles */
 "new_features_view_title" = "새로운 기능";

@@ -935,6 +935,18 @@
 "onboarding_reminder_intro_view_notification_body" = "Už máte všetko zadané? ⏰";
 
 
+/* MARK: - Onboarding Setup View */
+/* Titles */
+"onboarding_setup_title" = "Nastavenie";
+
+/* Setup */
+"onboarding_setup_view_progress_title" = "%@ sa nastavuje";
+"onboarding_setup_view_completion_title" = "Všetko je pripravené!";
+"onboarding_setup_view_accounts_item_title" = "Pripravujú sa účty";
+"onboarding_setup_view_categories_item_title" = "Vytvárajú sa kategórie";
+"onboarding_setup_view_reminders_item_title" = "Aktivujú sa pripomienky";
+
+
 /* MARK: - New Features View */
 /* Titles */
 "new_features_view_title" = "New Features";

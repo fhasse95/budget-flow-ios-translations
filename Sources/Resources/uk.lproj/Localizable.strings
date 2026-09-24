@@ -935,6 +935,18 @@
 "onboarding_reminder_intro_view_notification_body" = "Уже все внесено? ⏰";
 
 
+/* MARK: - Onboarding Setup View */
+/* Titles */
+"onboarding_setup_title" = "Налаштування";
+
+/* Setup */
+"onboarding_setup_view_progress_title" = "%@ налаштовується";
+"onboarding_setup_view_completion_title" = "Усе готово!";
+"onboarding_setup_view_accounts_item_title" = "Підготовка рахунків";
+"onboarding_setup_view_categories_item_title" = "Створення категорій";
+"onboarding_setup_view_reminders_item_title" = "Увімкнення нагадувань";
+
+
 /* MARK: - New Features View */
 /* Titles */
 "new_features_view_title" = "Нові функції";

@@ -935,6 +935,18 @@
 "onboarding_reminder_intro_view_notification_body" = "هل أدخلت كل شيء بالفعل؟ ⏰";
 
 
+/* MARK: - Onboarding Setup View */
+/* Titles */
+"onboarding_setup_title" = "الإعداد";
+
+/* Setup */
+"onboarding_setup_view_progress_title" = "جارٍ إعداد %@";
+"onboarding_setup_view_completion_title" = "كل شيء جاهز!";
+"onboarding_setup_view_accounts_item_title" = "جارٍ تحضير الحسابات";
+"onboarding_setup_view_categories_item_title" = "جارٍ إنشاء الفئات";
+"onboarding_setup_view_reminders_item_title" = "جارٍ تفعيل التذكيرات";
+
+
 /* MARK: - New Features View */
 /* Titles */
 "new_features_view_title" = "ميزات جديدة";

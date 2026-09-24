@@ -935,6 +935,18 @@
 "onboarding_reminder_intro_view_notification_body" = "もうすべて入力しましたか？ ⏰";
 
 
+/* MARK: - Onboarding Setup View */
+/* Titles */
+"onboarding_setup_title" = "セットアップ";
+
+/* Setup */
+"onboarding_setup_view_progress_title" = "%@を設定中";
+"onboarding_setup_view_completion_title" = "準備完了！";
+"onboarding_setup_view_accounts_item_title" = "アカウントを準備中";
+"onboarding_setup_view_categories_item_title" = "カテゴリを作成中";
+"onboarding_setup_view_reminders_item_title" = "リマインダーを有効化中";
+
+
 /* MARK: - New Features View */
 /* Titles */
 "new_features_view_title" = "新機能";

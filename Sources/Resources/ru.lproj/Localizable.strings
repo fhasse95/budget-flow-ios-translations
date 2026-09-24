@@ -935,6 +935,18 @@
 "onboarding_reminder_intro_view_notification_body" = "Уже всё внесено? ⏰";
 
 
+/* MARK: - Onboarding Setup View */
+/* Titles */
+"onboarding_setup_title" = "Настройка";
+
+/* Setup */
+"onboarding_setup_view_progress_title" = "%@ настраивается";
+"onboarding_setup_view_completion_title" = "Всё готово!";
+"onboarding_setup_view_accounts_item_title" = "Подготовка счетов";
+"onboarding_setup_view_categories_item_title" = "Создание категорий";
+"onboarding_setup_view_reminders_item_title" = "Включение напоминаний";
+
+
 /* MARK: - New Features View */
 /* Titles */
 "new_features_view_title" = "Новые функции";

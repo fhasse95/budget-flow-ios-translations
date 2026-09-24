@@ -935,6 +935,18 @@
 "onboarding_reminder_intro_view_notification_body" = "Si že vse vnesel/la? ⏰";
 
 
+/* MARK: - Onboarding Setup View */
+/* Titles */
+"onboarding_setup_title" = "Nastavitev";
+
+/* Setup */
+"onboarding_setup_view_progress_title" = "%@ se nastavlja";
+"onboarding_setup_view_completion_title" = "Vse je pripravljeno!";
+"onboarding_setup_view_accounts_item_title" = "Priprava računov";
+"onboarding_setup_view_categories_item_title" = "Ustvarjanje kategorij";
+"onboarding_setup_view_reminders_item_title" = "Aktiviranje opomnikov";
+
+
 /* MARK: - New Features View */
 /* Titles */
 "new_features_view_title" = "Nove funkcije";

@@ -935,6 +935,18 @@
 "onboarding_reminder_intro_view_notification_body" = "Heb je alles al ingevoerd? ⏰";
 
 
+/* MARK: - Onboarding Setup View */
+/* Titles */
+"onboarding_setup_title" = "Configuratie";
+
+/* Setup */
+"onboarding_setup_view_progress_title" = "%@ wordt ingesteld";
+"onboarding_setup_view_completion_title" = "Alles klaar!";
+"onboarding_setup_view_accounts_item_title" = "Accounts voorbereiden";
+"onboarding_setup_view_categories_item_title" = "Categorieën aanmaken";
+"onboarding_setup_view_reminders_item_title" = "Herinneringen activeren";
+
+
 /* MARK: - New Features View */
 /* Titles */
 "new_features_view_title" = "Nieuwe functies";

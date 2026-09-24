@@ -935,6 +935,18 @@
 "onboarding_reminder_intro_view_notification_body" = "Já registaste tudo? ⏰";
 
 
+/* MARK: - Onboarding Setup View */
+/* Titles */
+"onboarding_setup_title" = "Configuração";
+
+/* Setup */
+"onboarding_setup_view_progress_title" = "A configurar %@";
+"onboarding_setup_view_completion_title" = "Tudo pronto!";
+"onboarding_setup_view_accounts_item_title" = "A preparar contas";
+"onboarding_setup_view_categories_item_title" = "A criar categorias";
+"onboarding_setup_view_reminders_item_title" = "A ativar lembretes";
+
+
 /* MARK: - New Features View */
 /* Titles */
 "new_features_view_title" = "Novos recursos";

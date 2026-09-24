@@ -312,7 +312,7 @@
 "select_budget_book_button" = "Haushaltsbuch auswählen";
 "edit_budget_book_button" = "Haushaltsbuch bearbeiten";
 
-"continue_button" = "Fortsetzen";
+"continue_button" = "Weiter";
 "skip_button" = "Überspringen";
 "accept_button" = "Akzeptieren";
 "get_started_button" = "Loslegen";

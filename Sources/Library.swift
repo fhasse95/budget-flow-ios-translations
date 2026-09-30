@@ -8,6 +8,7 @@
 
 import Foundation
 
+// SKIP @nobridge
 public class BudgetFlowTranslationsLibrary {
     public static let bundle: Bundle = Bundle.module
 }

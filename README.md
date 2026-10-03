@@ -2,7 +2,7 @@
   <img align="right" alt="Project logo" src="./Icon_Rounded.png" width="128px">
 </h1>
 <p>
-  Translations for "Budget Flow", a modern and easy to use expense tracking app for iPhone, iPad, Mac and Apple Watch.
+  Translations for "Budget Flow", a modern and easy to use expense tracking app for iPhone, iPad, Mac, Apple Watch and Android.
 </p>
 
 [![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-red.svg)](https://github.com/fhasse95/budget-flow-ios-translations/pulls)
